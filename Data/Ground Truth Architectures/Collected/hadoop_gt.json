@@ -1,0 +1,3496 @@
+{
+    "@schemaVersion": "1.0",
+    "name": "clustering",
+    "structure": [
+        {
+            "@type": "group",
+            "name": "13__Connectors",
+            "nested": [
+                {
+                    "@type": "item",
+                    "name": "org.apache.hadoop.fs.FSDataOutputStream"
+                },
+                {
+                    "@type": "item",
+                    "name": "org.apache.hadoop.fs.FSDataInputStream"
+                }
+            ]
+        },
+        {
+            "@type": "group",
+            "name": "47__Value_Aggregator",
+            "nested": [
+                {
+                    "@type": "item",
+                    "name": "org.apache.hadoop.mapred.lib.aggregate.ValueAggregatorReducer"
+                },
+                {
+                    "@type": "item",
+                    "name": "org.apache.hadoop.mapred.lib.aggregate.ValueAggregatorMapper"
+                },
+                {
+                    "@type": "item",
+                    "name": "org.apache.hadoop.mapred.lib.aggregate.LongValueMin"
+                },
+                {
+                    "@type": "item",
+                    "name": "org.apache.hadoop.mapred.lib.aggregate.StringValueMin"
+                },
+                {
+                    "@type": "item",
+                    "name": "org.apache.hadoop.mapred.lib.aggregate.LongValueSum"
+                },
+                {
+                    "@type": "item",
+                    "name": "org.apache.hadoop.mapred.lib.aggregate.DoubleValueSum"
+                },
+                {
+                    "@type": "item",
+                    "name": "org.apache.hadoop.mapred.lib.aggregate.ValueAggregatorCombiner"
+                },
+                {
+                    "@type": "item",
+                    "name": "org.apache.hadoop.mapred.lib.aggregate.UniqValueCount"
+                },
+                {
+                    "@type": "item",
+                    "name": "org.apache.hadoop.mapred.lib.aggregate.ValueAggregatorJobBase"
+                },
+                {
+                    "@type": "item",
+                    "name": "org.apache.hadoop.mapred.lib.aggregate.ValueAggregatorJob"
+                },
+                {
+                    "@type": "item",
+                    "name": "org.apache.hadoop.mapred.lib.aggregate.LongValueMax"
+                },
+                {
+                    "@type": "item",
+                    "name": "org.apache.hadoop.mapred.lib.aggregate.ValueAggregatorDescriptor"
+                },
+                {
+                    "@type": "item",
+                    "name": "org.apache.hadoop.mapred.lib.aggregate.ValueHistogram"
+                },
+                {
+                    "@type": "item",
+                    "name": "org.apache.hadoop.mapred.lib.aggregate.StringValueMax"
+                },
+                {
+                    "@type": "item",
+                    "name": "org.apache.hadoop.mapred.lib.aggregate.UserDefinedValueAggregatorDescriptor"
+                },
+                {
+                    "@type": "item",
+                    "name": "org.apache.hadoop.mapred.lib.aggregate.ValueAggregatorBaseDescriptor"
+                },
+                {
+                    "@type": "item",
+                    "name": "org.apache.hadoop.mapred.lib.aggregate.ValueAggregator"
+                }
+            ]
+        },
+        {
+            "@type": "group",
+            "name": "org.apache.hadoop.security",
+            "nested": [
+                {
+                    "@type": "item",
+                    "name": "org.apache.hadoop.security.AccessControlException"
+                },
+                {
+                    "@type": "item",
+                    "name": "org.apache.hadoop.security.UnixUserGroupInformation"
+                }
+            ]
+        },
+        {
+            "@type": "group",
+            "name": "16__Namenode",
+            "nested": [
+                {
+                    "@type": "item",
+                    "name": "org.apache.hadoop.hdfs.server.namenode.PermissionChecker"
+                },
+                {
+                    "@type": "item",
+                    "name": "org.apache.hadoop.hdfs.server.namenode.UpgradeObjectNamenode"
+                },
+                {
+                    "@type": "item",
+                    "name": "org.apache.hadoop.hdfs.server.namenode.SerialNumberManager"
+                },
+                {
+                    "@type": "item",
+                    "name": "org.apache.hadoop.hdfs.server.namenode.JspHelper"
+                },
+                {
+                    "@type": "item",
+                    "name": "org.apache.hadoop.hdfs.server.namenode.DfsServlet"
+                },
+                {
+                    "@type": "item",
+                    "name": "org.apache.hadoop.hdfs.server.namenode.TransferFsImage"
+                },
+                {
+                    "@type": "item",
+                    "name": "org.apache.hadoop.hdfs.server.namenode.CorruptReplicasMap"
+                },
+                {
+                    "@type": "item",
+                    "name": "org.apache.hadoop.hdfs.server.namenode.INode"
+                },
+                {
+                    "@type": "item",
+                    "name": "org.apache.hadoop.hdfs.server.namenode.INodeFileUnderConstruction"
+                },
+                {
+                    "@type": "item",
+                    "name": "org.apache.hadoop.hdfs.server.namenode.CheckpointSignature"
+                },
+                {
+                    "@type": "item",
+                    "name": "org.apache.hadoop.hdfs.server.namenode.ReplicationTargetChooser"
+                },
+                {
+                    "@type": "item",
+                    "name": "org.apache.hadoop.hdfs.server.namenode.DatanodeDescriptor"
+                },
+                {
+                    "@type": "item",
+                    "name": "org.apache.hadoop.hdfs.server.namenode.StreamFile"
+                },
+                {
+                    "@type": "item",
+                    "name": "org.apache.hadoop.hdfs.server.namenode.NamenodeFsck"
+                },
+                {
+                    "@type": "item",
+                    "name": "org.apache.hadoop.hdfs.server.namenode.FSNamesystem"
+                },
+                {
+                    "@type": "item",
+                    "name": "org.apache.hadoop.hdfs.server.namenode.UnderReplicatedBlocks"
+                },
+                {
+                    "@type": "item",
+                    "name": "org.apache.hadoop.hdfs.server.namenode.INodeDirectoryWithQuota"
+                },
+                {
+                    "@type": "item",
+                    "name": "org.apache.hadoop.hdfs.server.namenode.FsckServlet"
+                },
+                {
+                    "@type": "item",
+                    "name": "org.apache.hadoop.hdfs.server.namenode.INodeDirectory"
+                },
+                {
+                    "@type": "item",
+                    "name": "org.apache.hadoop.hdfs.server.namenode.PendingReplicationBlocks"
+                },
+                {
+                    "@type": "item",
+                    "name": "org.apache.hadoop.hdfs.server.namenode.StringBytesWritable"
+                },
+                {
+                    "@type": "item",
+                    "name": "org.apache.hadoop.hdfs.server.namenode.FileChecksumServlets"
+                },
+                {
+                    "@type": "item",
+                    "name": "org.apache.hadoop.hdfs.server.namenode.EditLogInputStream"
+                },
+                {
+                    "@type": "item",
+                    "name": "org.apache.hadoop.hdfs.server.namenode.UpgradeManagerNamenode"
+                },
+                {
+                    "@type": "item",
+                    "name": "org.apache.hadoop.hdfs.server.namenode.EditLogOutputStream"
+                },
+                {
+                    "@type": "item",
+                    "name": "org.apache.hadoop.hdfs.server.namenode.NameNode"
+                }
+            ]
+        },
+        {
+            "@type": "group",
+            "name": "3b__Input_Format_Data_Structures",
+            "nested": [
+                {
+                    "@type": "item",
+                    "name": "org.apache.hadoop.mapred.TextInputFormat"
+                },
+                {
+                    "@type": "item",
+                    "name": "org.apache.hadoop.mapred.KeyValueTextInputFormat"
+                }
+            ]
+        },
+        {
+            "@type": "group",
+            "name": "29a__Datanode_Protocol",
+            "nested": [
+                {
+                    "@type": "item",
+                    "name": "org.apache.hadoop.hdfs.server.protocol.BlockCommand"
+                },
+                {
+                    "@type": "item",
+                    "name": "org.apache.hadoop.hdfs.server.protocol.DatanodeCommand"
+                },
+                {
+                    "@type": "item",
+                    "name": "org.apache.hadoop.hdfs.server.protocol.NamespaceInfo"
+                },
+                {
+                    "@type": "item",
+                    "name": "org.apache.hadoop.hdfs.server.protocol.DatanodeProtocol"
+                },
+                {
+                    "@type": "item",
+                    "name": "org.apache.hadoop.hdfs.server.protocol.UpgradeCommand"
+                },
+                {
+                    "@type": "item",
+                    "name": "org.apache.hadoop.hdfs.server.protocol.DatanodeRegistration"
+                }
+            ]
+        },
+        {
+            "@type": "group",
+            "name": "48__DB_I/O",
+            "nested": [
+                {
+                    "@type": "item",
+                    "name": "org.apache.hadoop.mapred.lib.db.DBWritable"
+                },
+                {
+                    "@type": "item",
+                    "name": "org.apache.hadoop.mapred.lib.db.DBInputFormat"
+                },
+                {
+                    "@type": "item",
+                    "name": "org.apache.hadoop.mapred.lib.db.DBOutputFormat"
+                },
+                {
+                    "@type": "item",
+                    "name": "org.apache.hadoop.mapred.lib.db.DBConfiguration"
+                }
+            ]
+        },
+        {
+            "@type": "group",
+            "name": "16c__Client-facing_Exceptions",
+            "nested": [
+                {
+                    "@type": "item",
+                    "name": "org.apache.hadoop.hdfs.server.namenode.SafeModeException"
+                },
+                {
+                    "@type": "item",
+                    "name": "org.apache.hadoop.hdfs.server.namenode.NotReplicatedYetException"
+                },
+                {
+                    "@type": "item",
+                    "name": "org.apache.hadoop.hdfs.server.namenode.LeaseExpiredException"
+                }
+            ]
+        },
+        {
+            "@type": "group",
+            "name": "org.apache.hadoop.hdfs",
+            "nested": [
+                {
+                    "@type": "item",
+                    "name": "org.apache.hadoop.hdfs.protocol.FSConstants"
+                },
+                {
+                    "@type": "item",
+                    "name": "org.apache.hadoop.hdfs.server.namenode.JspHelper"
+                },
+                {
+                    "@type": "item",
+                    "name": "org.apache.hadoop.hdfs.server.namenode.FSEditLog"
+                },
+                {
+                    "@type": "item",
+                    "name": "org.apache.hadoop.hdfs.server.namenode.INode"
+                },
+                {
+                    "@type": "item",
+                    "name": "org.apache.hadoop.hdfs.server.datanode.browseBlock_jsp"
+                },
+                {
+                    "@type": "item",
+                    "name": "org.apache.hadoop.hdfs.server.protocol.DatanodeRegistration"
+                },
+                {
+                    "@type": "item",
+                    "name": "org.apache.hadoop.hdfs.protocol.LocatedBlocks"
+                },
+                {
+                    "@type": "item",
+                    "name": "org.apache.hadoop.hdfs.server.namenode.FSImage"
+                },
+                {
+                    "@type": "item",
+                    "name": "org.apache.hadoop.hdfs.server.datanode.browseDirectory_jsp"
+                },
+                {
+                    "@type": "item",
+                    "name": "org.apache.hadoop.hdfs.server.namenode.dfshealth_jsp"
+                },
+                {
+                    "@type": "item",
+                    "name": "org.apache.hadoop.hdfs.server.namenode.DatanodeDescriptor"
+                },
+                {
+                    "@type": "item",
+                    "name": "org.apache.hadoop.hdfs.server.common.HdfsConstants"
+                },
+                {
+                    "@type": "item",
+                    "name": "org.apache.hadoop.hdfs.server.datanode.FSDatasetInterface"
+                },
+                {
+                    "@type": "item",
+                    "name": "org.apache.hadoop.hdfs.server.namenode.FSNamesystem"
+                },
+                {
+                    "@type": "item",
+                    "name": "org.apache.hadoop.hdfs.server.balancer.Balancer"
+                },
+                {
+                    "@type": "item",
+                    "name": "org.apache.hadoop.hdfs.DFSClient"
+                },
+                {
+                    "@type": "item",
+                    "name": "org.apache.hadoop.hdfs.server.namenode.PendingReplicationBlocks"
+                },
+                {
+                    "@type": "item",
+                    "name": "org.apache.hadoop.hdfs.protocol.Block"
+                },
+                {
+                    "@type": "item",
+                    "name": "org.apache.hadoop.hdfs.server.common.UpgradeObjectCollection"
+                },
+                {
+                    "@type": "item",
+                    "name": "org.apache.hadoop.hdfs.server.datanode.FSDataset"
+                },
+                {
+                    "@type": "item",
+                    "name": "org.apache.hadoop.hdfs.server.protocol.BlocksWithLocations"
+                },
+                {
+                    "@type": "item",
+                    "name": "org.apache.hadoop.hdfs.server.namenode.NameNode"
+                },
+                {
+                    "@type": "item",
+                    "name": "org.apache.hadoop.hdfs.server.datanode.DataStorage"
+                },
+                {
+                    "@type": "item",
+                    "name": "org.apache.hadoop.hdfs.server.namenode.SerialNumberManager"
+                },
+                {
+                    "@type": "item",
+                    "name": "org.apache.hadoop.hdfs.server.datanode.BlockReceiver"
+                },
+                {
+                    "@type": "item",
+                    "name": "org.apache.hadoop.hdfs.server.common.GenerationStamp"
+                },
+                {
+                    "@type": "item",
+                    "name": "org.apache.hadoop.hdfs.server.protocol.NamespaceInfo"
+                },
+                {
+                    "@type": "item",
+                    "name": "org.apache.hadoop.hdfs.server.datanode.DataNode"
+                },
+                {
+                    "@type": "item",
+                    "name": "org.apache.hadoop.hdfs.server.protocol.UpgradeCommand"
+                },
+                {
+                    "@type": "item",
+                    "name": "org.apache.hadoop.hdfs.server.namenode.nn_005fbrowsedfscontent_jsp"
+                },
+                {
+                    "@type": "item",
+                    "name": "org.apache.hadoop.hdfs.server.namenode.LeaseManager"
+                },
+                {
+                    "@type": "item",
+                    "name": "org.apache.hadoop.hdfs.server.protocol.BlockCommand"
+                },
+                {
+                    "@type": "item",
+                    "name": "org.apache.hadoop.hdfs.server.protocol.DatanodeCommand"
+                },
+                {
+                    "@type": "item",
+                    "name": "org.apache.hadoop.hdfs.DFSUtil"
+                },
+                {
+                    "@type": "item",
+                    "name": "org.apache.hadoop.hdfs.server.namenode.SecondaryNameNode"
+                },
+                {
+                    "@type": "item",
+                    "name": "org.apache.hadoop.hdfs.server.common.Storage"
+                },
+                {
+                    "@type": "item",
+                    "name": "org.apache.hadoop.hdfs.server.common.UpgradeStatusReport"
+                },
+                {
+                    "@type": "item",
+                    "name": "org.apache.hadoop.hdfs.HftpFileSystem"
+                },
+                {
+                    "@type": "item",
+                    "name": "org.apache.hadoop.hdfs.server.namenode.ReplicationTargetChooser"
+                },
+                {
+                    "@type": "item",
+                    "name": "org.apache.hadoop.hdfs.server.protocol.BlockMetaDataInfo"
+                },
+                {
+                    "@type": "item",
+                    "name": "org.apache.hadoop.hdfs.server.namenode.NamenodeFsck"
+                },
+                {
+                    "@type": "item",
+                    "name": "org.apache.hadoop.hdfs.protocol.DatanodeInfo"
+                },
+                {
+                    "@type": "item",
+                    "name": "org.apache.hadoop.hdfs.DistributedFileSystem"
+                },
+                {
+                    "@type": "item",
+                    "name": "org.apache.hadoop.hdfs.server.datanode.DataBlockScanner"
+                },
+                {
+                    "@type": "item",
+                    "name": "org.apache.hadoop.hdfs.server.namenode.UnderReplicatedBlocks"
+                },
+                {
+                    "@type": "item",
+                    "name": "org.apache.hadoop.hdfs.protocol.LocatedBlock"
+                },
+                {
+                    "@type": "item",
+                    "name": "org.apache.hadoop.hdfs.server.namenode.BlocksMap"
+                },
+                {
+                    "@type": "item",
+                    "name": "org.apache.hadoop.hdfs.tools.DFSAdmin"
+                },
+                {
+                    "@type": "item",
+                    "name": "org.apache.hadoop.hdfs.server.datanode.tail_jsp"
+                },
+                {
+                    "@type": "item",
+                    "name": "org.apache.hadoop.hdfs.server.namenode.FileChecksumServlets"
+                },
+                {
+                    "@type": "item",
+                    "name": "org.apache.hadoop.hdfs.server.datanode.DataXceiverServer"
+                },
+                {
+                    "@type": "item",
+                    "name": "org.apache.hadoop.hdfs.server.namenode.UpgradeManagerNamenode"
+                },
+                {
+                    "@type": "item",
+                    "name": "org.apache.hadoop.hdfs.server.datanode.BlockTransferThrottler"
+                }
+            ]
+        },
+        {
+            "@type": "group",
+            "name": "7__Filters",
+            "nested": [
+                {
+                    "@type": "item",
+                    "name": "org.apache.hadoop.fs.FilterFileSystem"
+                },
+                {
+                    "@type": "item",
+                    "name": "org.apache.hadoop.http.FilterInitializer"
+                },
+                {
+                    "@type": "item",
+                    "name": "org.apache.hadoop.fs.PathFilter"
+                },
+                {
+                    "@type": "item",
+                    "name": "org.apache.hadoop.mapred.SequenceFileInputFilter"
+                },
+                {
+                    "@type": "item",
+                    "name": "org.apache.hadoop.mapred.OutputLogFilter"
+                }
+            ]
+        },
+        {
+            "@type": "group",
+            "name": "org.apache.hadoop.io",
+            "nested": [
+                {
+                    "@type": "item",
+                    "name": "org.apache.hadoop.io.WritableName"
+                },
+                {
+                    "@type": "item",
+                    "name": "org.apache.hadoop.io.compress.zlib.ZlibDecompressor"
+                },
+                {
+                    "@type": "item",
+                    "name": "org.apache.hadoop.io.NullWritable"
+                },
+                {
+                    "@type": "item",
+                    "name": "org.apache.hadoop.io.compress.zlib.ZlibFactory"
+                },
+                {
+                    "@type": "item",
+                    "name": "org.apache.hadoop.io.compress.CompressionOutputStream"
+                },
+                {
+                    "@type": "item",
+                    "name": "org.apache.hadoop.io.Text"
+                },
+                {
+                    "@type": "item",
+                    "name": "org.apache.hadoop.io.retry.RetryPolicies"
+                },
+                {
+                    "@type": "item",
+                    "name": "org.apache.hadoop.io.Writable"
+                },
+                {
+                    "@type": "item",
+                    "name": "org.apache.hadoop.io.VLongWritable"
+                },
+                {
+                    "@type": "item",
+                    "name": "org.apache.hadoop.io.serializer.JavaSerialization"
+                },
+                {
+                    "@type": "item",
+                    "name": "org.apache.hadoop.io.compress.GzipCodec"
+                },
+                {
+                    "@type": "item",
+                    "name": "org.apache.hadoop.io.VersionedWritable"
+                },
+                {
+                    "@type": "item",
+                    "name": "org.apache.hadoop.io.SequenceFile"
+                },
+                {
+                    "@type": "item",
+                    "name": "org.apache.hadoop.io.LongWritable"
+                },
+                {
+                    "@type": "item",
+                    "name": "org.apache.hadoop.io.compress.zlib.BuiltInZlibDeflater"
+                },
+                {
+                    "@type": "item",
+                    "name": "org.apache.hadoop.io.retry.RetryPolicy"
+                },
+                {
+                    "@type": "item",
+                    "name": "org.apache.hadoop.io.compress.CompressionCodec"
+                },
+                {
+                    "@type": "item",
+                    "name": "org.apache.hadoop.io.serializer.WritableSerialization"
+                },
+                {
+                    "@type": "item",
+                    "name": "org.apache.hadoop.io.DefaultStringifier"
+                },
+                {
+                    "@type": "item",
+                    "name": "org.apache.hadoop.io.OutputBuffer"
+                },
+                {
+                    "@type": "item",
+                    "name": "org.apache.hadoop.io.WritableFactories"
+                },
+                {
+                    "@type": "item",
+                    "name": "org.apache.hadoop.io.SetFile"
+                },
+                {
+                    "@type": "item",
+                    "name": "org.apache.hadoop.io.GenericWritable"
+                },
+                {
+                    "@type": "item",
+                    "name": "org.apache.hadoop.io.compress.bzip2.CRC"
+                },
+                {
+                    "@type": "item",
+                    "name": "org.apache.hadoop.io.MapFile"
+                },
+                {
+                    "@type": "item",
+                    "name": "org.apache.hadoop.io.ArrayWritable"
+                },
+                {
+                    "@type": "item",
+                    "name": "org.apache.hadoop.io.IntWritable"
+                },
+                {
+                    "@type": "item",
+                    "name": "org.apache.hadoop.io.TwoDArrayWritable"
+                },
+                {
+                    "@type": "item",
+                    "name": "org.apache.hadoop.io.serializer.Deserializer"
+                },
+                {
+                    "@type": "item",
+                    "name": "org.apache.hadoop.io.compress.BlockCompressorStream"
+                },
+                {
+                    "@type": "item",
+                    "name": "org.apache.hadoop.io.SortedMapWritable"
+                },
+                {
+                    "@type": "item",
+                    "name": "org.apache.hadoop.io.compress.lzo.LzoDecompressor"
+                },
+                {
+                    "@type": "item",
+                    "name": "org.apache.hadoop.io.compress.DefaultCodec"
+                },
+                {
+                    "@type": "item",
+                    "name": "org.apache.hadoop.io.compress.zlib.BuiltInZlibInflater"
+                },
+                {
+                    "@type": "item",
+                    "name": "org.apache.hadoop.io.BooleanWritable"
+                },
+                {
+                    "@type": "item",
+                    "name": "org.apache.hadoop.io.compress.Decompressor"
+                },
+                {
+                    "@type": "item",
+                    "name": "org.apache.hadoop.io.InputBuffer"
+                },
+                {
+                    "@type": "item",
+                    "name": "org.apache.hadoop.io.DataOutputBuffer"
+                },
+                {
+                    "@type": "item",
+                    "name": "org.apache.hadoop.io.compress.CodecPool"
+                },
+                {
+                    "@type": "item",
+                    "name": "org.apache.hadoop.io.compress.zlib.ZlibCompressor"
+                },
+                {
+                    "@type": "item",
+                    "name": "org.apache.hadoop.io.ArrayFile"
+                },
+                {
+                    "@type": "item",
+                    "name": "org.apache.hadoop.io.WritableComparable"
+                },
+                {
+                    "@type": "item",
+                    "name": "org.apache.hadoop.io.BinaryComparable"
+                },
+                {
+                    "@type": "item",
+                    "name": "org.apache.hadoop.io.compress.LzoCodec"
+                },
+                {
+                    "@type": "item",
+                    "name": "org.apache.hadoop.io.MapWritable"
+                },
+                {
+                    "@type": "item",
+                    "name": "org.apache.hadoop.io.WritableComparator"
+                },
+                {
+                    "@type": "item",
+                    "name": "org.apache.hadoop.io.UTF8"
+                },
+                {
+                    "@type": "item",
+                    "name": "org.apache.hadoop.io.DoubleWritable"
+                },
+                {
+                    "@type": "item",
+                    "name": "org.apache.hadoop.io.Stringifier"
+                },
+                {
+                    "@type": "item",
+                    "name": "org.apache.hadoop.io.ObjectWritable"
+                },
+                {
+                    "@type": "item",
+                    "name": "org.apache.hadoop.io.serializer.SerializationFactory"
+                },
+                {
+                    "@type": "item",
+                    "name": "org.apache.hadoop.io.CompressedWritable"
+                },
+                {
+                    "@type": "item",
+                    "name": "org.apache.hadoop.io.retry.RetryInvocationHandler"
+                },
+                {
+                    "@type": "item",
+                    "name": "org.apache.hadoop.io.compress.Compressor"
+                },
+                {
+                    "@type": "item",
+                    "name": "org.apache.hadoop.io.ByteWritable"
+                },
+                {
+                    "@type": "item",
+                    "name": "org.apache.hadoop.io.compress.bzip2.CBZip2InputStream"
+                },
+                {
+                    "@type": "item",
+                    "name": "org.apache.hadoop.io.VersionMismatchException"
+                },
+                {
+                    "@type": "item",
+                    "name": "org.apache.hadoop.io.compress.LzopCodec"
+                },
+                {
+                    "@type": "item",
+                    "name": "org.apache.hadoop.io.BytesWritable"
+                },
+                {
+                    "@type": "item",
+                    "name": "org.apache.hadoop.io.DataInputBuffer"
+                },
+                {
+                    "@type": "item",
+                    "name": "org.apache.hadoop.io.serializer.JavaSerializationComparator"
+                },
+                {
+                    "@type": "item",
+                    "name": "org.apache.hadoop.io.compress.lzo.LzoCompressor"
+                },
+                {
+                    "@type": "item",
+                    "name": "org.apache.hadoop.io.compress.bzip2.CBZip2OutputStream"
+                },
+                {
+                    "@type": "item",
+                    "name": "org.apache.hadoop.io.serializer.Serialization"
+                },
+                {
+                    "@type": "item",
+                    "name": "org.apache.hadoop.io.serializer.Serializer"
+                },
+                {
+                    "@type": "item",
+                    "name": "org.apache.hadoop.io.compress.CompressionCodecFactory"
+                },
+                {
+                    "@type": "item",
+                    "name": "org.apache.hadoop.io.AbstractMapWritable"
+                },
+                {
+                    "@type": "item",
+                    "name": "org.apache.hadoop.io.WritableFactory"
+                },
+                {
+                    "@type": "item",
+                    "name": "org.apache.hadoop.io.compress.bzip2.BZip2Constants"
+                },
+                {
+                    "@type": "item",
+                    "name": "org.apache.hadoop.io.compress.CompressionInputStream"
+                },
+                {
+                    "@type": "item",
+                    "name": "org.apache.hadoop.io.compress.CompressorStream"
+                },
+                {
+                    "@type": "item",
+                    "name": "org.apache.hadoop.io.IOUtils"
+                },
+                {
+                    "@type": "item",
+                    "name": "org.apache.hadoop.io.compress.BZip2Codec"
+                },
+                {
+                    "@type": "item",
+                    "name": "org.apache.hadoop.io.RawComparator"
+                },
+                {
+                    "@type": "item",
+                    "name": "org.apache.hadoop.io.compress.BlockDecompressorStream"
+                },
+                {
+                    "@type": "item",
+                    "name": "org.apache.hadoop.io.MD5Hash"
+                },
+                {
+                    "@type": "item",
+                    "name": "org.apache.hadoop.io.compress.DecompressorStream"
+                },
+                {
+                    "@type": "item",
+                    "name": "org.apache.hadoop.io.MultipleIOException"
+                },
+                {
+                    "@type": "item",
+                    "name": "org.apache.hadoop.io.VIntWritable"
+                },
+                {
+                    "@type": "item",
+                    "name": "org.apache.hadoop.io.retry.RetryProxy"
+                },
+                {
+                    "@type": "item",
+                    "name": "org.apache.hadoop.io.FloatWritable"
+                },
+                {
+                    "@type": "item",
+                    "name": "org.apache.hadoop.io.serializer.DeserializerComparator"
+                },
+                {
+                    "@type": "item",
+                    "name": "org.apache.hadoop.io.WritableUtils"
+                }
+            ]
+        },
+        {
+            "@type": "group",
+            "name": "39__JobQueueClient",
+            "nested": [
+                {
+                    "@type": "item",
+                    "name": "org.apache.hadoop.mapred.JobQueueClient"
+                }
+            ]
+        },
+        {
+            "@type": "group",
+            "name": "29__Namenode_Protocol",
+            "nested": [
+                {
+                    "@type": "item",
+                    "name": "org.apache.hadoop.hdfs.server.protocol.NamenodeProtocol"
+                },
+                {
+                    "@type": "item",
+                    "name": "org.apache.hadoop.hdfs.server.protocol.BlocksWithLocations"
+                }
+            ]
+        },
+        {
+            "@type": "group",
+            "name": "42__Chain_MapReduce",
+            "nested": [
+                {
+                    "@type": "item",
+                    "name": "org.apache.hadoop.mapred.lib.ChainMapper"
+                },
+                {
+                    "@type": "item",
+                    "name": "org.apache.hadoop.mapred.lib.Chain"
+                },
+                {
+                    "@type": "item",
+                    "name": "org.apache.hadoop.mapred.lib.ChainReducer"
+                }
+            ]
+        },
+        {
+            "@type": "group",
+            "name": "32__Protocol_Utilities",
+            "nested": [
+                {
+                    "@type": "item",
+                    "name": "org.apache.hadoop.hdfs.protocol.DatanodeID"
+                },
+                {
+                    "@type": "item",
+                    "name": "org.apache.hadoop.hdfs.protocol.DatanodeInfo"
+                },
+                {
+                    "@type": "item",
+                    "name": "org.apache.hadoop.hdfs.protocol.Block"
+                },
+                {
+                    "@type": "item",
+                    "name": "org.apache.hadoop.hdfs.protocol.LocatedBlocks"
+                },
+                {
+                    "@type": "item",
+                    "name": "org.apache.hadoop.hdfs.protocol.UnregisteredDatanodeException"
+                },
+                {
+                    "@type": "item",
+                    "name": "org.apache.hadoop.hdfs.protocol.LocatedBlock"
+                },
+                {
+                    "@type": "item",
+                    "name": "org.apache.hadoop.hdfs.protocol.BlockListAsLongs"
+                }
+            ]
+        },
+        {
+            "@type": "group",
+            "name": "org.apache.hadoop.mapred",
+            "nested": [
+                {
+                    "@type": "item",
+                    "name": "org.apache.hadoop.mapred.TaskStatus"
+                },
+                {
+                    "@type": "item",
+                    "name": "org.apache.hadoop.mapred.pipes.BinaryProtocol"
+                },
+                {
+                    "@type": "item",
+                    "name": "org.apache.hadoop.mapred.IFile"
+                },
+                {
+                    "@type": "item",
+                    "name": "org.apache.hadoop.mapred.SequenceFileOutputFormat"
+                },
+                {
+                    "@type": "item",
+                    "name": "org.apache.hadoop.mapred.jobtasks_jsp"
+                },
+                {
+                    "@type": "item",
+                    "name": "org.apache.hadoop.mapred.jobdetails_jsp"
+                },
+                {
+                    "@type": "item",
+                    "name": "org.apache.hadoop.mapred.ReduceTask"
+                },
+                {
+                    "@type": "item",
+                    "name": "org.apache.hadoop.mapred.MapFileOutputFormat"
+                },
+                {
+                    "@type": "item",
+                    "name": "org.apache.hadoop.mapred.JobStatusChangeEvent"
+                },
+                {
+                    "@type": "item",
+                    "name": "org.apache.hadoop.mapred.JobProfile"
+                },
+                {
+                    "@type": "item",
+                    "name": "org.apache.hadoop.mapred.pipes.PipesReducer"
+                },
+                {
+                    "@type": "item",
+                    "name": "org.apache.hadoop.mapred.TaskCompletionEvent"
+                },
+                {
+                    "@type": "item",
+                    "name": "org.apache.hadoop.mapred.TaskMemoryManagerThread"
+                },
+                {
+                    "@type": "item",
+                    "name": "org.apache.hadoop.mapred.pipes.PipesNonJavaInputFormat"
+                },
+                {
+                    "@type": "item",
+                    "name": "org.apache.hadoop.mapred.jobcontrol.JobControl"
+                },
+                {
+                    "@type": "item",
+                    "name": "org.apache.hadoop.mapred.SequenceFileAsBinaryInputFormat"
+                },
+                {
+                    "@type": "item",
+                    "name": "org.apache.hadoop.mapred.SortedRanges"
+                },
+                {
+                    "@type": "item",
+                    "name": "org.apache.hadoop.mapred.jobtracker_jsp"
+                },
+                {
+                    "@type": "item",
+                    "name": "org.apache.hadoop.mapred.JobQueueJobInProgressListener"
+                },
+                {
+                    "@type": "item",
+                    "name": "org.apache.hadoop.mapred.FileInputFormat"
+                },
+                {
+                    "@type": "item",
+                    "name": "org.apache.hadoop.mapred.machines_jsp"
+                },
+                {
+                    "@type": "item",
+                    "name": "org.apache.hadoop.mapred.lib.db.DBOutputFormat"
+                },
+                {
+                    "@type": "item",
+                    "name": "org.apache.hadoop.mapred.jobconf_jsp"
+                },
+                {
+                    "@type": "item",
+                    "name": "org.apache.hadoop.mapred.Child"
+                },
+                {
+                    "@type": "item",
+                    "name": "org.apache.hadoop.mapred.JobEndNotifier"
+                },
+                {
+                    "@type": "item",
+                    "name": "org.apache.hadoop.mapred.lib.MultipleOutputs"
+                },
+                {
+                    "@type": "item",
+                    "name": "org.apache.hadoop.mapred.JobTracker"
+                },
+                {
+                    "@type": "item",
+                    "name": "org.apache.hadoop.mapred.TaskTracker"
+                },
+                {
+                    "@type": "item",
+                    "name": "org.apache.hadoop.mapred.Task"
+                },
+                {
+                    "@type": "item",
+                    "name": "org.apache.hadoop.mapred.jobconf_005fhistory_jsp"
+                },
+                {
+                    "@type": "item",
+                    "name": "org.apache.hadoop.mapred.Counters"
+                },
+                {
+                    "@type": "item",
+                    "name": "org.apache.hadoop.mapred.MRSortResultIterator"
+                },
+                {
+                    "@type": "item",
+                    "name": "org.apache.hadoop.mapred.join.ResetableIterator"
+                },
+                {
+                    "@type": "item",
+                    "name": "org.apache.hadoop.mapred.lib.aggregate.ValueAggregatorBaseDescriptor"
+                },
+                {
+                    "@type": "item",
+                    "name": "org.apache.hadoop.mapred.JvmManager"
+                },
+                {
+                    "@type": "item",
+                    "name": "org.apache.hadoop.mapred.IsolationRunner"
+                },
+                {
+                    "@type": "item",
+                    "name": "org.apache.hadoop.mapred.join.JoinRecordReader"
+                },
+                {
+                    "@type": "item",
+                    "name": "org.apache.hadoop.mapred.jobtaskshistory_jsp"
+                },
+                {
+                    "@type": "item",
+                    "name": "org.apache.hadoop.mapred.taskdetails_jsp"
+                },
+                {
+                    "@type": "item",
+                    "name": "org.apache.hadoop.mapred.Merger"
+                },
+                {
+                    "@type": "item",
+                    "name": "org.apache.hadoop.mapred.loadhistory_jsp"
+                },
+                {
+                    "@type": "item",
+                    "name": "org.apache.hadoop.mapred.EagerTaskInitializationListener"
+                },
+                {
+                    "@type": "item",
+                    "name": "org.apache.hadoop.mapred.LocalJobRunner"
+                },
+                {
+                    "@type": "item",
+                    "name": "org.apache.hadoop.mapred.lib.Chain"
+                },
+                {
+                    "@type": "item",
+                    "name": "org.apache.hadoop.mapred.join.Parser"
+                },
+                {
+                    "@type": "item",
+                    "name": "org.apache.hadoop.mapred.SequenceFileAsBinaryOutputFormat"
+                },
+                {
+                    "@type": "item",
+                    "name": "org.apache.hadoop.mapred.tasktracker_jsp"
+                },
+                {
+                    "@type": "item",
+                    "name": "org.apache.hadoop.mapred.TaskTrackerAction"
+                },
+                {
+                    "@type": "item",
+                    "name": "org.apache.hadoop.mapred.TextOutputFormat"
+                },
+                {
+                    "@type": "item",
+                    "name": "org.apache.hadoop.mapred.pipes.Submitter"
+                },
+                {
+                    "@type": "item",
+                    "name": "org.apache.hadoop.mapred.taskstats_jsp"
+                },
+                {
+                    "@type": "item",
+                    "name": "org.apache.hadoop.mapred.JobHistory"
+                },
+                {
+                    "@type": "item",
+                    "name": "org.apache.hadoop.mapred.lib.MultipleOutputFormat"
+                },
+                {
+                    "@type": "item",
+                    "name": "org.apache.hadoop.mapred.IndexCache"
+                },
+                {
+                    "@type": "item",
+                    "name": "org.apache.hadoop.mapred.JobStatus"
+                },
+                {
+                    "@type": "item",
+                    "name": "org.apache.hadoop.mapred.jobhistory_jsp"
+                },
+                {
+                    "@type": "item",
+                    "name": "org.apache.hadoop.mapred.lib.NullOutputFormat"
+                },
+                {
+                    "@type": "item",
+                    "name": "org.apache.hadoop.mapred.TaskTrackerStatus"
+                },
+                {
+                    "@type": "item",
+                    "name": "org.apache.hadoop.mapred.join.TupleWritable"
+                },
+                {
+                    "@type": "item",
+                    "name": "org.apache.hadoop.mapred.MapTask"
+                },
+                {
+                    "@type": "item",
+                    "name": "org.apache.hadoop.mapred.HeartbeatResponse"
+                },
+                {
+                    "@type": "item",
+                    "name": "org.apache.hadoop.mapred.TaskLog"
+                },
+                {
+                    "@type": "item",
+                    "name": "org.apache.hadoop.mapred.join.MultiFilterRecordReader"
+                },
+                {
+                    "@type": "item",
+                    "name": "org.apache.hadoop.mapred.QueueManager"
+                },
+                {
+                    "@type": "item",
+                    "name": "org.apache.hadoop.mapred.lib.db.DBInputFormat"
+                },
+                {
+                    "@type": "item",
+                    "name": "org.apache.hadoop.mapred.lib.TotalOrderPartitioner"
+                },
+                {
+                    "@type": "item",
+                    "name": "org.apache.hadoop.mapred.LineRecordReader"
+                },
+                {
+                    "@type": "item",
+                    "name": "org.apache.hadoop.mapred.join.StreamBackedIterator"
+                },
+                {
+                    "@type": "item",
+                    "name": "org.apache.hadoop.mapred.lib.KeyFieldHelper"
+                },
+                {
+                    "@type": "item",
+                    "name": "org.apache.hadoop.mapred.Reporter"
+                },
+                {
+                    "@type": "item",
+                    "name": "org.apache.hadoop.mapred.lib.InputSampler"
+                },
+                {
+                    "@type": "item",
+                    "name": "org.apache.hadoop.mapred.analysejobhistory_jsp"
+                },
+                {
+                    "@type": "item",
+                    "name": "org.apache.hadoop.mapred.taskdetailshistory_jsp"
+                },
+                {
+                    "@type": "item",
+                    "name": "org.apache.hadoop.mapred.SequenceFileInputFilter"
+                },
+                {
+                    "@type": "item",
+                    "name": "org.apache.hadoop.mapred.jobblacklistedtrackers_jsp"
+                },
+                {
+                    "@type": "item",
+                    "name": "org.apache.hadoop.mapred.StatusHttpServer"
+                },
+                {
+                    "@type": "item",
+                    "name": "org.apache.hadoop.mapred.DefaultJobHistoryParser"
+                },
+                {
+                    "@type": "item",
+                    "name": "org.apache.hadoop.mapred.JobInProgress"
+                },
+                {
+                    "@type": "item",
+                    "name": "org.apache.hadoop.mapred.join.CompositeRecordReader"
+                },
+                {
+                    "@type": "item",
+                    "name": "org.apache.hadoop.mapred.TaskInProgress"
+                },
+                {
+                    "@type": "item",
+                    "name": "org.apache.hadoop.mapred.jobdetailshistory_jsp"
+                },
+                {
+                    "@type": "item",
+                    "name": "org.apache.hadoop.mapred.jobqueue_005fdetails_jsp"
+                },
+                {
+                    "@type": "item",
+                    "name": "org.apache.hadoop.mapred.HistoryViewer"
+                },
+                {
+                    "@type": "item",
+                    "name": "org.apache.hadoop.mapred.jobfailures_jsp"
+                },
+                {
+                    "@type": "item",
+                    "name": "org.apache.hadoop.mapred.lib.MultithreadedMapRunner"
+                },
+                {
+                    "@type": "item",
+                    "name": "org.apache.hadoop.mapred.JobClient"
+                }
+            ]
+        },
+        {
+            "@type": "group",
+            "name": "46__KeyFieldBasedPartitioner",
+            "nested": [
+                {
+                    "@type": "item",
+                    "name": "org.apache.hadoop.mapred.lib.KeyFieldBasedPartitioner"
+                },
+                {
+                    "@type": "item",
+                    "name": "org.apache.hadoop.mapred.lib.KeyFieldHelper"
+                },
+                {
+                    "@type": "item",
+                    "name": "org.apache.hadoop.mapred.lib.KeyFieldBasedComparator"
+                }
+            ]
+        },
+        {
+            "@type": "group",
+            "name": "org.apache.hadoop.filecache",
+            "nested": [
+                {
+                    "@type": "item",
+                    "name": "org.apache.hadoop.filecache.DistributedCache"
+                }
+            ]
+        },
+        {
+            "@type": "group",
+            "name": "16a__NameNode_HDFS_Protocol_Core",
+            "nested": [
+                {
+                    "@type": "item",
+                    "name": "org.apache.hadoop.hdfs.server.namenode.FSDirectory"
+                },
+                {
+                    "@type": "item",
+                    "name": "org.apache.hadoop.hdfs.server.namenode.INodeFile"
+                },
+                {
+                    "@type": "item",
+                    "name": "org.apache.hadoop.hdfs.server.namenode.FSImage"
+                },
+                {
+                    "@type": "item",
+                    "name": "org.apache.hadoop.hdfs.server.namenode.INode"
+                },
+                {
+                    "@type": "item",
+                    "name": "org.apache.hadoop.hdfs.server.namenode.FSEditLog"
+                },
+                {
+                    "@type": "item",
+                    "name": "org.apache.hadoop.hdfs.server.namenode.LeaseManager"
+                }
+            ]
+        },
+        {
+            "@type": "group",
+            "name": "17__Task_Tracking_and_Running",
+            "nested": [
+                {
+                    "@type": "item",
+                    "name": "org.apache.hadoop.mapred.TaskStatus"
+                },
+                {
+                    "@type": "item",
+                    "name": "org.apache.hadoop.mapred.IndexRecord"
+                },
+                {
+                    "@type": "item",
+                    "name": "org.apache.hadoop.mapred.ReduceTaskStatus"
+                },
+                {
+                    "@type": "item",
+                    "name": "org.apache.hadoop.mapred.MapTaskRunner"
+                },
+                {
+                    "@type": "item",
+                    "name": "org.apache.hadoop.mapred.TaskTrackerAction"
+                },
+                {
+                    "@type": "item",
+                    "name": "org.apache.hadoop.mapred.TaskTrackerMetricsInst"
+                },
+                {
+                    "@type": "item",
+                    "name": "org.apache.hadoop.mapred.IndexCache"
+                },
+                {
+                    "@type": "item",
+                    "name": "org.apache.hadoop.mapred.TaskCompletionEvent"
+                },
+                {
+                    "@type": "item",
+                    "name": "org.apache.hadoop.mapred.TaskMemoryManagerThread"
+                },
+                {
+                    "@type": "item",
+                    "name": "org.apache.hadoop.mapred.TaskTrackerStatus"
+                },
+                {
+                    "@type": "item",
+                    "name": "org.apache.hadoop.mapred.TaskAttemptID"
+                },
+                {
+                    "@type": "item",
+                    "name": "org.apache.hadoop.mapred.TaskLog"
+                },
+                {
+                    "@type": "item",
+                    "name": "org.apache.hadoop.mapred.JvmTask"
+                },
+                {
+                    "@type": "item",
+                    "name": "org.apache.hadoop.mapred.TaskLogAppender"
+                },
+                {
+                    "@type": "item",
+                    "name": "org.apache.hadoop.mapred.TaskRunner"
+                },
+                {
+                    "@type": "item",
+                    "name": "org.apache.hadoop.mapred.ReduceTaskRunner"
+                },
+                {
+                    "@type": "item",
+                    "name": "org.apache.hadoop.mapred.TaskLogServlet"
+                },
+                {
+                    "@type": "item",
+                    "name": "org.apache.hadoop.mapred.Child"
+                },
+                {
+                    "@type": "item",
+                    "name": "org.apache.hadoop.mapred.MapTaskStatus"
+                },
+                {
+                    "@type": "item",
+                    "name": "org.apache.hadoop.mapred.TaskTracker"
+                },
+                {
+                    "@type": "item",
+                    "name": "org.apache.hadoop.mapred.Task"
+                },
+                {
+                    "@type": "item",
+                    "name": "org.apache.hadoop.mapred.TaskTrackerInstrumentation"
+                },
+                {
+                    "@type": "item",
+                    "name": "org.apache.hadoop.mapred.TaskInProgress"
+                },
+                {
+                    "@type": "item",
+                    "name": "org.apache.hadoop.mapred.MapOutputFile"
+                },
+                {
+                    "@type": "item",
+                    "name": "org.apache.hadoop.mapred.IsolationRunner"
+                }
+            ]
+        },
+        {
+            "@type": "group",
+            "name": "9__Network_Utilities",
+            "nested": [
+                {
+                    "@type": "item",
+                    "name": "org.apache.hadoop.net.ScriptBasedMapping"
+                },
+                {
+                    "@type": "item",
+                    "name": "org.apache.hadoop.net.SocketInputStream"
+                },
+                {
+                    "@type": "item",
+                    "name": "org.apache.hadoop.net.SocketOutputStream"
+                },
+                {
+                    "@type": "item",
+                    "name": "org.apache.hadoop.net.NetUtils"
+                }
+            ]
+        },
+        {
+            "@type": "group",
+            "name": "org.apache.hadoop.net",
+            "nested": [
+                {
+                    "@type": "item",
+                    "name": "org.apache.hadoop.net.DNSToSwitchMapping"
+                },
+                {
+                    "@type": "item",
+                    "name": "org.apache.hadoop.net.CachedDNSToSwitchMapping"
+                },
+                {
+                    "@type": "item",
+                    "name": "org.apache.hadoop.net.DNS"
+                },
+                {
+                    "@type": "item",
+                    "name": "org.apache.hadoop.net.SocketInputStream"
+                },
+                {
+                    "@type": "item",
+                    "name": "org.apache.hadoop.net.ScriptBasedMapping"
+                },
+                {
+                    "@type": "item",
+                    "name": "org.apache.hadoop.net.SocketIOWithTimeout"
+                },
+                {
+                    "@type": "item",
+                    "name": "org.apache.hadoop.net.NetworkTopology"
+                },
+                {
+                    "@type": "item",
+                    "name": "org.apache.hadoop.net.StandardSocketFactory"
+                },
+                {
+                    "@type": "item",
+                    "name": "org.apache.hadoop.net.SocketOutputStream"
+                },
+                {
+                    "@type": "item",
+                    "name": "org.apache.hadoop.net.SocksSocketFactory"
+                }
+            ]
+        },
+        {
+            "@type": "group",
+            "name": "org.apache.hadoop.ipc",
+            "nested": [
+                {
+                    "@type": "item",
+                    "name": "org.apache.hadoop.ipc.metrics.RpcMgt"
+                },
+                {
+                    "@type": "item",
+                    "name": "org.apache.hadoop.ipc.metrics.RpcMetrics"
+                },
+                {
+                    "@type": "item",
+                    "name": "org.apache.hadoop.ipc.VersionedProtocol"
+                },
+                {
+                    "@type": "item",
+                    "name": "org.apache.hadoop.ipc.Client"
+                },
+                {
+                    "@type": "item",
+                    "name": "org.apache.hadoop.ipc.RPC"
+                },
+                {
+                    "@type": "item",
+                    "name": "org.apache.hadoop.ipc.RemoteException"
+                },
+                {
+                    "@type": "item",
+                    "name": "org.apache.hadoop.ipc.Server"
+                }
+            ]
+        },
+        {
+            "@type": "group",
+            "name": "1__Other_utilities",
+            "nested": [
+                {
+                    "@type": "item",
+                    "name": "org.apache.hadoop.util.IndexedSorter"
+                },
+                {
+                    "@type": "item",
+                    "name": "org.apache.hadoop.hdfs.server.protocol.DisallowedDatanodeException"
+                },
+                {
+                    "@type": "item",
+                    "name": "org.apache.hadoop.util.PriorityQueue"
+                },
+                {
+                    "@type": "item",
+                    "name": "org.apache.hadoop.util.NativeCodeLoader"
+                },
+                {
+                    "@type": "item",
+                    "name": "org.apache.hadoop.util.Shell"
+                },
+                {
+                    "@type": "item",
+                    "name": "org.apache.hadoop.util.GenericOptionsParser"
+                },
+                {
+                    "@type": "item",
+                    "name": "org.apache.hadoop.util.GenericsUtil"
+                },
+                {
+                    "@type": "item",
+                    "name": "org.apache.hadoop.util.DiskChecker"
+                },
+                {
+                    "@type": "item",
+                    "name": "org.apache.hadoop.util.StringUtils"
+                },
+                {
+                    "@type": "item",
+                    "name": "org.apache.hadoop.util.RunJar"
+                },
+                {
+                    "@type": "item",
+                    "name": "org.apache.hadoop.util.LineReader"
+                },
+                {
+                    "@type": "item",
+                    "name": "org.apache.hadoop.util.HostsFileReader"
+                },
+                {
+                    "@type": "item",
+                    "name": "org.apache.hadoop.util.PrintJarMainClass"
+                },
+                {
+                    "@type": "item",
+                    "name": "org.apache.hadoop.util.ToolRunner"
+                },
+                {
+                    "@type": "item",
+                    "name": "org.apache.hadoop.util.DataChecksum"
+                },
+                {
+                    "@type": "item",
+                    "name": "org.apache.hadoop.util.XMLUtils"
+                },
+                {
+                    "@type": "item",
+                    "name": "org.apache.hadoop.util.ServletUtil"
+                },
+                {
+                    "@type": "item",
+                    "name": "org.apache.hadoop.util.PlatformName"
+                },
+                {
+                    "@type": "item",
+                    "name": "org.apache.hadoop.util.Daemon"
+                },
+                {
+                    "@type": "item",
+                    "name": "org.apache.hadoop.util.Tool"
+                },
+                {
+                    "@type": "item",
+                    "name": "org.apache.hadoop.util.ProcfsBasedProcessTree"
+                },
+                {
+                    "@type": "item",
+                    "name": "org.apache.hadoop.util.UTF8ByteArrayUtils"
+                },
+                {
+                    "@type": "item",
+                    "name": "org.apache.hadoop.util.ReflectionUtils"
+                },
+                {
+                    "@type": "item",
+                    "name": "org.apache.hadoop.util.ProgramDriver"
+                },
+                {
+                    "@type": "item",
+                    "name": "org.apache.hadoop.util.VersionInfo"
+                }
+            ]
+        },
+        {
+            "@type": "group",
+            "name": "49__C++_Pipes_Job",
+            "nested": [
+                {
+                    "@type": "item",
+                    "name": "org.apache.hadoop.mapred.pipes.PipesReducer"
+                },
+                {
+                    "@type": "item",
+                    "name": "org.apache.hadoop.mapred.pipes.PipesPartitioner"
+                },
+                {
+                    "@type": "item",
+                    "name": "org.apache.hadoop.mapred.pipes.PipesMapRunner"
+                },
+                {
+                    "@type": "item",
+                    "name": "org.apache.hadoop.mapred.pipes.Application"
+                },
+                {
+                    "@type": "item",
+                    "name": "org.apache.hadoop.mapred.pipes.PipesNonJavaInputFormat"
+                },
+                {
+                    "@type": "item",
+                    "name": "org.apache.hadoop.mapred.pipes.Submitter"
+                }
+            ]
+        },
+        {
+            "@type": "group",
+            "name": "30__InterDataNode_Protocol",
+            "nested": [
+                {
+                    "@type": "item",
+                    "name": "org.apache.hadoop.hdfs.server.protocol.BlockMetaDataInfo"
+                },
+                {
+                    "@type": "item",
+                    "name": "org.apache.hadoop.hdfs.server.protocol.InterDatanodeProtocol"
+                }
+            ]
+        },
+        {
+            "@type": "group",
+            "name": "50__C++_Pipes_Protocol",
+            "nested": [
+                {
+                    "@type": "item",
+                    "name": "org.apache.hadoop.mapred.pipes.BinaryProtocol"
+                },
+                {
+                    "@type": "item",
+                    "name": "org.apache.hadoop.mapred.pipes.UpwardProtocol"
+                },
+                {
+                    "@type": "item",
+                    "name": "org.apache.hadoop.mapred.pipes.OutputHandler"
+                },
+                {
+                    "@type": "item",
+                    "name": "org.apache.hadoop.mapred.pipes.DownwardProtocol"
+                }
+            ]
+        },
+        {
+            "@type": "group",
+            "name": "23__Progress",
+            "nested": [
+                {
+                    "@type": "item",
+                    "name": "org.apache.hadoop.util.Progressable"
+                },
+                {
+                    "@type": "item",
+                    "name": "org.apache.hadoop.util.Progress"
+                }
+            ]
+        },
+        {
+            "@type": "group",
+            "name": "19__Distributed_File_System",
+            "nested": [
+                {
+                    "@type": "item",
+                    "name": "org.apache.hadoop.hdfs.DFSClient"
+                },
+                {
+                    "@type": "item",
+                    "name": "org.apache.hadoop.hdfs.ChecksumDistributedFileSystem"
+                },
+                {
+                    "@type": "item",
+                    "name": "org.apache.hadoop.hdfs.DistributedFileSystem"
+                }
+            ]
+        },
+        {
+            "@type": "group",
+            "name": "11__Balancer",
+            "nested": [
+                {
+                    "@type": "item",
+                    "name": "org.apache.hadoop.hdfs.server.balancer.Balancer"
+                },
+                {
+                    "@type": "item",
+                    "name": "org.apache.hadoop.hdfs.server.common.Util"
+                }
+            ]
+        },
+        {
+            "@type": "group",
+            "name": "34__Mapred_utilities",
+            "nested": [
+                {
+                    "@type": "item",
+                    "name": "org.apache.hadoop.mapred.ResourceEstimator"
+                },
+                {
+                    "@type": "item",
+                    "name": "org.apache.hadoop.mapred.LaunchTaskAction"
+                },
+                {
+                    "@type": "item",
+                    "name": "org.apache.hadoop.mapred.DisallowedTaskTrackerException"
+                },
+                {
+                    "@type": "item",
+                    "name": "org.apache.hadoop.mapred.KillJobAction"
+                },
+                {
+                    "@type": "item",
+                    "name": "org.apache.hadoop.mapred.CommitTaskAction"
+                },
+                {
+                    "@type": "item",
+                    "name": "org.apache.hadoop.mapred.KillTaskAction"
+                },
+                {
+                    "@type": "item",
+                    "name": "org.apache.hadoop.mapred.FileAlreadyExistsException"
+                },
+                {
+                    "@type": "item",
+                    "name": "org.apache.hadoop.mapred.JSPUtil"
+                },
+                {
+                    "@type": "item",
+                    "name": "org.apache.hadoop.mapred.MapFileOutputFormat"
+                },
+                {
+                    "@type": "item",
+                    "name": "org.apache.hadoop.mapred.StatusHttpServer"
+                }
+            ]
+        },
+        {
+            "@type": "group",
+            "name": "28__HTTP_Protocol_Access",
+            "nested": [
+                {
+                    "@type": "item",
+                    "name": "org.apache.hadoop.hdfs.HftpFileSystem"
+                },
+                {
+                    "@type": "item",
+                    "name": "org.apache.hadoop.hdfs.HsftpFileSystem"
+                }
+            ]
+        },
+        {
+            "@type": "group",
+            "name": "20__DataNode",
+            "nested": [
+                {
+                    "@type": "item",
+                    "name": "org.apache.hadoop.hdfs.server.datanode.DataXceiver"
+                },
+                {
+                    "@type": "item",
+                    "name": "org.apache.hadoop.hdfs.server.datanode.BlockReceiver"
+                },
+                {
+                    "@type": "item",
+                    "name": "org.apache.hadoop.hdfs.server.datanode.DataBlockScanner"
+                },
+                {
+                    "@type": "item",
+                    "name": "org.apache.hadoop.hdfs.server.datanode.DataNode"
+                },
+                {
+                    "@type": "item",
+                    "name": "org.apache.hadoop.hdfs.server.datanode.metrics.DataNodeStatistics"
+                },
+                {
+                    "@type": "item",
+                    "name": "org.apache.hadoop.hdfs.server.datanode.BlockSender"
+                },
+                {
+                    "@type": "item",
+                    "name": "org.apache.hadoop.hdfs.server.datanode.UpgradeManagerDatanode"
+                },
+                {
+                    "@type": "item",
+                    "name": "org.apache.hadoop.hdfs.server.datanode.FSDataset"
+                },
+                {
+                    "@type": "item",
+                    "name": "org.apache.hadoop.hdfs.server.datanode.DataXceiverServer"
+                },
+                {
+                    "@type": "item",
+                    "name": "org.apache.hadoop.hdfs.server.datanode.metrics.DataNodeMetrics"
+                },
+                {
+                    "@type": "item",
+                    "name": "org.apache.hadoop.hdfs.server.datanode.DatanodeBlockInfo"
+                },
+                {
+                    "@type": "item",
+                    "name": "org.apache.hadoop.hdfs.server.datanode.UpgradeObjectDatanode"
+                },
+                {
+                    "@type": "item",
+                    "name": "org.apache.hadoop.hdfs.server.datanode.DataStorage"
+                },
+                {
+                    "@type": "item",
+                    "name": "org.apache.hadoop.hdfs.server.datanode.FSDatasetInterface"
+                },
+                {
+                    "@type": "item",
+                    "name": "org.apache.hadoop.hdfs.server.datanode.BlockMetadataHeader"
+                }
+            ]
+        },
+        {
+            "@type": "group",
+            "name": "16b__Transfer_HDFS_over_HTTP",
+            "nested": [
+                {
+                    "@type": "item",
+                    "name": "org.apache.hadoop.hdfs.server.namenode.ListPathsServlet"
+                },
+                {
+                    "@type": "item",
+                    "name": "org.apache.hadoop.hdfs.server.namenode.FileDataServlet"
+                }
+            ]
+        },
+        {
+            "@type": "group",
+            "name": "31__Client_Protocol",
+            "nested": [
+                {
+                    "@type": "item",
+                    "name": "org.apache.hadoop.hdfs.protocol.FSConstants"
+                },
+                {
+                    "@type": "item",
+                    "name": "org.apache.hadoop.hdfs.protocol.ClientProtocol"
+                }
+            ]
+        },
+        {
+            "@type": "group",
+            "name": "43__Multiple_Output_File_Formatting",
+            "nested": [
+                {
+                    "@type": "item",
+                    "name": "org.apache.hadoop.mapred.lib.MultipleOutputFormat"
+                },
+                {
+                    "@type": "item",
+                    "name": "org.apache.hadoop.mapred.lib.MultipleSequenceFileOutputFormat"
+                },
+                {
+                    "@type": "item",
+                    "name": "org.apache.hadoop.mapred.lib.MultipleTextOutputFormat"
+                }
+            ]
+        },
+        {
+            "@type": "group",
+            "name": "24__FS_Logging",
+            "nested": [
+                {
+                    "@type": "item",
+                    "name": "org.apache.hadoop.hdfs.server.namenode.FSImage"
+                },
+                {
+                    "@type": "item",
+                    "name": "org.apache.hadoop.hdfs.server.common.Storage"
+                },
+                {
+                    "@type": "item",
+                    "name": "org.apache.hadoop.hdfs.server.namenode.EditLogOutputStream"
+                },
+                {
+                    "@type": "item",
+                    "name": "org.apache.hadoop.hdfs.server.namenode.FSEditLog"
+                }
+            ]
+        },
+        {
+            "@type": "group",
+            "name": "16e__Core_Name_Node_Structures",
+            "nested": [
+                {
+                    "@type": "item",
+                    "name": "org.apache.hadoop.hdfs.server.namenode.Host2NodesMap"
+                },
+                {
+                    "@type": "item",
+                    "name": "org.apache.hadoop.hdfs.server.namenode.BlocksMap"
+                }
+            ]
+        },
+        {
+            "@type": "group",
+            "name": "5__FSDataSet",
+            "nested": [
+                {
+                    "@type": "item",
+                    "name": "org.apache.hadoop.hdfs.server.datanode.FSDataset"
+                },
+                {
+                    "@type": "item",
+                    "name": "org.apache.hadoop.hdfs.server.datanode.FSDatasetInterface"
+                }
+            ]
+        },
+        {
+            "@type": "group",
+            "name": "33__Orphaned_Protocol_Utilities",
+            "nested": [
+                {
+                    "@type": "item",
+                    "name": "org.apache.hadoop.hdfs.protocol.AlreadyBeingCreatedException"
+                },
+                {
+                    "@type": "item",
+                    "name": "org.apache.hadoop.hdfs.protocol.QuotaExceededException"
+                }
+            ]
+        },
+        {
+            "@type": "group",
+            "name": "org.apache.hadoop.metrics",
+            "nested": [
+                {
+                    "@type": "item",
+                    "name": "org.apache.hadoop.metrics.jvm.EventCounter"
+                },
+                {
+                    "@type": "item",
+                    "name": "org.apache.hadoop.metrics.spi.AbstractMetricsContext"
+                },
+                {
+                    "@type": "item",
+                    "name": "org.apache.hadoop.metrics.util.MetricsTimeVaryingRate"
+                }
+            ]
+        },
+        {
+            "@type": "group",
+            "name": "32__Client_Datanode_Protocol",
+            "nested": [
+                {
+                    "@type": "item",
+                    "name": "org.apache.hadoop.hdfs.protocol.ClientDatanodeProtocol"
+                }
+            ]
+        },
+        {
+            "@type": "group",
+            "name": "org.apache.hadoop.log",
+            "nested": [
+                {
+                    "@type": "item",
+                    "name": "org.apache.hadoop.log.LogLevel"
+                }
+            ]
+        },
+        {
+            "@type": "group",
+            "name": "45__TotalOrderPartitioner",
+            "nested": [
+                {
+                    "@type": "item",
+                    "name": "org.apache.hadoop.mapred.lib.TotalOrderPartitioner"
+                },
+                {
+                    "@type": "item",
+                    "name": "org.apache.hadoop.mapred.lib.InputSampler"
+                }
+            ]
+        },
+        {
+            "@type": "group",
+            "name": "16d__Secondary_Name_Node",
+            "nested": [
+                {
+                    "@type": "item",
+                    "name": "org.apache.hadoop.hdfs.server.namenode.GetImageServlet"
+                },
+                {
+                    "@type": "item",
+                    "name": "org.apache.hadoop.hdfs.server.namenode.SecondaryNameNode"
+                }
+            ]
+        },
+        {
+            "@type": "group",
+            "name": "org.apache.hadoop.http",
+            "nested": [
+                {
+                    "@type": "item",
+                    "name": "org.apache.hadoop.http.HttpServer"
+                }
+            ]
+        },
+        {
+            "@type": "group",
+            "name": "22__Job_History",
+            "nested": [
+                {
+                    "@type": "item",
+                    "name": "org.apache.hadoop.mapred.DefaultJobHistoryParser"
+                },
+                {
+                    "@type": "item",
+                    "name": "org.apache.hadoop.mapred.HistoryViewer"
+                },
+                {
+                    "@type": "item",
+                    "name": "org.apache.hadoop.mapred.JobHistory"
+                }
+            ]
+        },
+        {
+            "@type": "group",
+            "name": "4__DFS_Utils",
+            "nested": [
+                {
+                    "@type": "item",
+                    "name": "org.apache.hadoop.hdfs.server.common.GenerationStamp"
+                },
+                {
+                    "@type": "item",
+                    "name": "org.apache.hadoop.hdfs.server.common.StorageInfo"
+                },
+                {
+                    "@type": "item",
+                    "name": "org.apache.hadoop.hdfs.server.common.Storage"
+                },
+                {
+                    "@type": "item",
+                    "name": "org.apache.hadoop.hdfs.server.common.InconsistentFSStateException"
+                },
+                {
+                    "@type": "item",
+                    "name": "org.apache.hadoop.hdfs.server.common.IncorrectVersionException"
+                },
+                {
+                    "@type": "item",
+                    "name": "org.apache.hadoop.hdfs.server.common.HdfsConstants"
+                }
+            ]
+        },
+        {
+            "@type": "group",
+            "name": "41__JvmManager",
+            "nested": [
+                {
+                    "@type": "item",
+                    "name": "org.apache.hadoop.mapred.JVMId"
+                },
+                {
+                    "@type": "item",
+                    "name": "org.apache.hadoop.mapred.JvmManager"
+                }
+            ]
+        },
+        {
+            "@type": "group",
+            "name": "org.apache.hadoop.util",
+            "nested": [
+                {
+                    "@type": "item",
+                    "name": "org.apache.hadoop.util.DiskChecker"
+                },
+                {
+                    "@type": "item",
+                    "name": "org.apache.hadoop.util.StringUtils"
+                },
+                {
+                    "@type": "item",
+                    "name": "org.apache.hadoop.util.RunJar"
+                },
+                {
+                    "@type": "item",
+                    "name": "org.apache.hadoop.util.DataChecksum"
+                },
+                {
+                    "@type": "item",
+                    "name": "org.apache.hadoop.util.Shell"
+                },
+                {
+                    "@type": "item",
+                    "name": "org.apache.hadoop.util.ProcfsBasedProcessTree"
+                },
+                {
+                    "@type": "item",
+                    "name": "org.apache.hadoop.util.ProgramDriver"
+                }
+            ]
+        },
+        {
+            "@type": "group",
+            "name": "14__Task_(Data_storage_component)",
+            "nested": [
+                {
+                    "@type": "item",
+                    "name": "org.apache.hadoop.util.QuickSort"
+                },
+                {
+                    "@type": "item",
+                    "name": "org.apache.hadoop.mapred.Task"
+                },
+                {
+                    "@type": "item",
+                    "name": "org.apache.hadoop.util.HeapSort"
+                },
+                {
+                    "@type": "item",
+                    "name": "org.apache.hadoop.mapred.ReduceTask"
+                },
+                {
+                    "@type": "item",
+                    "name": "org.apache.hadoop.mapred.MapTask"
+                },
+                {
+                    "@type": "item",
+                    "name": "org.apache.hadoop.util.MergeSort"
+                },
+                {
+                    "@type": "item",
+                    "name": "org.apache.hadoop.util.IndexedSortable"
+                }
+            ]
+        },
+        {
+            "@type": "group",
+            "name": "4a__HDFS_Upgrade_Management",
+            "nested": [
+                {
+                    "@type": "item",
+                    "name": "org.apache.hadoop.hdfs.server.common.UpgradeObjectCollection"
+                },
+                {
+                    "@type": "item",
+                    "name": "org.apache.hadoop.hdfs.server.common.UpgradeManager"
+                },
+                {
+                    "@type": "item",
+                    "name": "org.apache.hadoop.hdfs.server.common.Upgradeable"
+                },
+                {
+                    "@type": "item",
+                    "name": "org.apache.hadoop.hdfs.server.common.UpgradeStatusReport"
+                },
+                {
+                    "@type": "item",
+                    "name": "org.apache.hadoop.hdfs.server.common.UpgradeObject"
+                }
+            ]
+        },
+        {
+            "@type": "group",
+            "name": "40__JobShell",
+            "nested": [
+                {
+                    "@type": "item",
+                    "name": "org.apache.hadoop.mapred.JobShell"
+                }
+            ]
+        },
+        {
+            "@type": "group",
+            "name": "44__DelegatingMapper",
+            "nested": [
+                {
+                    "@type": "item",
+                    "name": "org.apache.hadoop.mapred.lib.DelegatingInputFormat"
+                },
+                {
+                    "@type": "item",
+                    "name": "org.apache.hadoop.mapred.lib.MultipleInputs"
+                },
+                {
+                    "@type": "item",
+                    "name": "org.apache.hadoop.mapred.lib.TaggedInputSplit"
+                },
+                {
+                    "@type": "item",
+                    "name": "org.apache.hadoop.mapred.lib.DelegatingMapper"
+                }
+            ]
+        },
+        {
+            "@type": "group",
+            "name": "37__Tracker_Protocols",
+            "nested": [
+                {
+                    "@type": "item",
+                    "name": "org.apache.hadoop.mapred.TaskUmbilicalProtocol"
+                },
+                {
+                    "@type": "item",
+                    "name": "org.apache.hadoop.mapred.InterTrackerProtocol"
+                }
+            ]
+        },
+        {
+            "@type": "group",
+            "name": "org.apache.hadoop.conf",
+            "nested": [
+                {
+                    "@type": "item",
+                    "name": "org.apache.hadoop.conf.Configured"
+                },
+                {
+                    "@type": "item",
+                    "name": "org.apache.hadoop.conf.Configuration"
+                },
+                {
+                    "@type": "item",
+                    "name": "org.apache.hadoop.conf.Configurable"
+                }
+            ]
+        },
+        {
+            "@type": "group",
+            "name": "21__JobClient",
+            "nested": [
+                {
+                    "@type": "item",
+                    "name": "org.apache.hadoop.mapred.RunningJob"
+                },
+                {
+                    "@type": "item",
+                    "name": "org.apache.hadoop.mapred.InvalidJobConfException"
+                },
+                {
+                    "@type": "item",
+                    "name": "org.apache.hadoop.mapred.jobcontrol.Job"
+                },
+                {
+                    "@type": "item",
+                    "name": "org.apache.hadoop.mapred.JobClient"
+                },
+                {
+                    "@type": "item",
+                    "name": "org.apache.hadoop.mapred.JobSubmissionProtocol"
+                }
+            ]
+        },
+        {
+            "@type": "group",
+            "name": "3a__Security_Data_Structures",
+            "nested": [
+                {
+                    "@type": "item",
+                    "name": "org.apache.hadoop.security.UserGroupInformation"
+                },
+                {
+                    "@type": "item",
+                    "name": "org.apache.hadoop.security.UnixUserGroupInformation"
+                }
+            ]
+        },
+        {
+            "@type": "group",
+            "name": "34a__Mapred_client",
+            "nested": [
+                {
+                    "@type": "item",
+                    "name": "org.apache.hadoop.mapred.IFile"
+                },
+                {
+                    "@type": "item",
+                    "name": "org.apache.hadoop.mapred.lib.FieldSelectionMapReduce"
+                },
+                {
+                    "@type": "item",
+                    "name": "org.apache.hadoop.mapred.KeyValueLineRecordReader"
+                },
+                {
+                    "@type": "item",
+                    "name": "org.apache.hadoop.mapred.lib.HashPartitioner"
+                },
+                {
+                    "@type": "item",
+                    "name": "org.apache.hadoop.mapred.Mapper"
+                },
+                {
+                    "@type": "item",
+                    "name": "org.apache.hadoop.mapred.IFileInputStream"
+                },
+                {
+                    "@type": "item",
+                    "name": "org.apache.hadoop.mapred.FileSplit"
+                },
+                {
+                    "@type": "item",
+                    "name": "org.apache.hadoop.mapred.OutputCommitter"
+                },
+                {
+                    "@type": "item",
+                    "name": "org.apache.hadoop.mapred.SkipBadRecords"
+                },
+                {
+                    "@type": "item",
+                    "name": "org.apache.hadoop.mapred.InputFormat"
+                },
+                {
+                    "@type": "item",
+                    "name": "org.apache.hadoop.mapred.Reducer"
+                },
+                {
+                    "@type": "item",
+                    "name": "org.apache.hadoop.mapred.lib.IdentityMapper"
+                },
+                {
+                    "@type": "item",
+                    "name": "org.apache.hadoop.mapred.OutputFormat"
+                },
+                {
+                    "@type": "item",
+                    "name": "org.apache.hadoop.mapred.SortedRanges"
+                },
+                {
+                    "@type": "item",
+                    "name": "org.apache.hadoop.mapred.lib.LongSumReducer"
+                },
+                {
+                    "@type": "item",
+                    "name": "org.apache.hadoop.mapred.RamManager"
+                },
+                {
+                    "@type": "item",
+                    "name": "org.apache.hadoop.mapred.Partitioner"
+                },
+                {
+                    "@type": "item",
+                    "name": "org.apache.hadoop.mapred.MultiFileSplit"
+                },
+                {
+                    "@type": "item",
+                    "name": "org.apache.hadoop.mapred.FileInputFormat"
+                },
+                {
+                    "@type": "item",
+                    "name": "org.apache.hadoop.mapred.JobQueueInfo"
+                },
+                {
+                    "@type": "item",
+                    "name": "org.apache.hadoop.mapred.RecordWriter"
+                },
+                {
+                    "@type": "item",
+                    "name": "org.apache.hadoop.mapred.lib.MultipleOutputs"
+                },
+                {
+                    "@type": "item",
+                    "name": "org.apache.hadoop.mapred.MultiFileInputFormat"
+                },
+                {
+                    "@type": "item",
+                    "name": "org.apache.hadoop.mapred.Counters"
+                },
+                {
+                    "@type": "item",
+                    "name": "org.apache.hadoop.mapred.MergeSorter"
+                },
+                {
+                    "@type": "item",
+                    "name": "org.apache.hadoop.mapred.lib.IdentityReducer"
+                },
+                {
+                    "@type": "item",
+                    "name": "org.apache.hadoop.mapred.InvalidInputException"
+                },
+                {
+                    "@type": "item",
+                    "name": "org.apache.hadoop.mapred.RecordReader"
+                },
+                {
+                    "@type": "item",
+                    "name": "org.apache.hadoop.mapred.FileOutputFormat"
+                },
+                {
+                    "@type": "item",
+                    "name": "org.apache.hadoop.mapred.KeyValueTextInputFormat"
+                },
+                {
+                    "@type": "item",
+                    "name": "org.apache.hadoop.mapred.OutputCollector"
+                },
+                {
+                    "@type": "item",
+                    "name": "org.apache.hadoop.mapred.TextInputFormat"
+                },
+                {
+                    "@type": "item",
+                    "name": "org.apache.hadoop.mapred.lib.InverseMapper"
+                },
+                {
+                    "@type": "item",
+                    "name": "org.apache.hadoop.mapred.Merger"
+                },
+                {
+                    "@type": "item",
+                    "name": "org.apache.hadoop.mapred.LocalJobRunner"
+                },
+                {
+                    "@type": "item",
+                    "name": "org.apache.hadoop.mapred.TextOutputFormat"
+                },
+                {
+                    "@type": "item",
+                    "name": "org.apache.hadoop.mapred.MapTaskCompletionEventsUpdate"
+                },
+                {
+                    "@type": "item",
+                    "name": "org.apache.hadoop.mapred.JobStatus"
+                },
+                {
+                    "@type": "item",
+                    "name": "org.apache.hadoop.mapred.lib.NullOutputFormat"
+                },
+                {
+                    "@type": "item",
+                    "name": "org.apache.hadoop.mapred.InvalidFileTypeException"
+                },
+                {
+                    "@type": "item",
+                    "name": "org.apache.hadoop.mapred.TaskAttemptContext"
+                },
+                {
+                    "@type": "item",
+                    "name": "org.apache.hadoop.mapred.MapReduceBase"
+                },
+                {
+                    "@type": "item",
+                    "name": "org.apache.hadoop.mapred.ID"
+                },
+                {
+                    "@type": "item",
+                    "name": "org.apache.hadoop.mapred.BasicTypeSorterBase"
+                },
+                {
+                    "@type": "item",
+                    "name": "org.apache.hadoop.mapred.lib.RegexMapper"
+                },
+                {
+                    "@type": "item",
+                    "name": "org.apache.hadoop.mapred.OutputLogFilter"
+                },
+                {
+                    "@type": "item",
+                    "name": "org.apache.hadoop.mapred.RawKeyValueIterator"
+                },
+                {
+                    "@type": "item",
+                    "name": "org.apache.hadoop.mapred.FileOutputCommitter"
+                },
+                {
+                    "@type": "item",
+                    "name": "org.apache.hadoop.mapred.LineRecordReader"
+                },
+                {
+                    "@type": "item",
+                    "name": "org.apache.hadoop.mapred.Reporter"
+                },
+                {
+                    "@type": "item",
+                    "name": "org.apache.hadoop.mapred.IFileOutputStream"
+                },
+                {
+                    "@type": "item",
+                    "name": "org.apache.hadoop.mapred.MapRunner"
+                },
+                {
+                    "@type": "item",
+                    "name": "org.apache.hadoop.mapred.lib.NLineInputFormat"
+                },
+                {
+                    "@type": "item",
+                    "name": "org.apache.hadoop.mapred.JobConf"
+                },
+                {
+                    "@type": "item",
+                    "name": "org.apache.hadoop.mapred.JobConfigurable"
+                },
+                {
+                    "@type": "item",
+                    "name": "org.apache.hadoop.mapred.JobContext"
+                },
+                {
+                    "@type": "item",
+                    "name": "org.apache.hadoop.mapred.lib.TokenCountMapper"
+                },
+                {
+                    "@type": "item",
+                    "name": "org.apache.hadoop.mapred.MapRunnable"
+                },
+                {
+                    "@type": "item",
+                    "name": "org.apache.hadoop.mapred.InputSplit"
+                },
+                {
+                    "@type": "item",
+                    "name": "org.apache.hadoop.mapred.lib.MultithreadedMapRunner"
+                }
+            ]
+        },
+        {
+            "@type": "group",
+            "name": "2__Join_utilities",
+            "nested": [
+                {
+                    "@type": "item",
+                    "name": "org.apache.hadoop.mapred.join.CompositeInputSplit"
+                },
+                {
+                    "@type": "item",
+                    "name": "org.apache.hadoop.mapred.join.OverrideRecordReader"
+                },
+                {
+                    "@type": "item",
+                    "name": "org.apache.hadoop.mapred.join.ComposableRecordReader"
+                },
+                {
+                    "@type": "item",
+                    "name": "org.apache.hadoop.mapred.join.WrappedRecordReader"
+                },
+                {
+                    "@type": "item",
+                    "name": "org.apache.hadoop.mapred.join.StreamBackedIterator"
+                },
+                {
+                    "@type": "item",
+                    "name": "org.apache.hadoop.mapred.join.OuterJoinRecordReader"
+                },
+                {
+                    "@type": "item",
+                    "name": "org.apache.hadoop.mapred.join.Parser"
+                },
+                {
+                    "@type": "item",
+                    "name": "org.apache.hadoop.mapred.join.CompositeInputFormat"
+                },
+                {
+                    "@type": "item",
+                    "name": "org.apache.hadoop.mapred.join.InnerJoinRecordReader"
+                },
+                {
+                    "@type": "item",
+                    "name": "org.apache.hadoop.mapred.join.CompositeRecordReader"
+                },
+                {
+                    "@type": "item",
+                    "name": "org.apache.hadoop.mapred.join.TupleWritable"
+                },
+                {
+                    "@type": "item",
+                    "name": "org.apache.hadoop.mapred.join.ResetableIterator"
+                },
+                {
+                    "@type": "item",
+                    "name": "org.apache.hadoop.mapred.join.ArrayListBackedIterator"
+                },
+                {
+                    "@type": "item",
+                    "name": "org.apache.hadoop.mapred.join.JoinRecordReader"
+                },
+                {
+                    "@type": "item",
+                    "name": "org.apache.hadoop.mapred.join.MultiFilterRecordReader"
+                }
+            ]
+        },
+        {
+            "@type": "group",
+            "name": "0__Metrics",
+            "nested": [
+                {
+                    "@type": "item",
+                    "name": "org.apache.hadoop.hdfs.server.namenode.metrics.NameNodeMetrics"
+                },
+                {
+                    "@type": "item",
+                    "name": "org.apache.hadoop.hdfs.server.namenode.metrics.NameNodeStatistics"
+                },
+                {
+                    "@type": "item",
+                    "name": "org.apache.hadoop.metrics.Updater"
+                },
+                {
+                    "@type": "item",
+                    "name": "org.apache.hadoop.metrics.jvm.EventCounter"
+                },
+                {
+                    "@type": "item",
+                    "name": "org.apache.hadoop.metrics.spi.NullContext"
+                },
+                {
+                    "@type": "item",
+                    "name": "org.apache.hadoop.hdfs.server.namenode.metrics.FSNamesystemMetrics"
+                },
+                {
+                    "@type": "item",
+                    "name": "org.apache.hadoop.metrics.MetricsRecord"
+                },
+                {
+                    "@type": "item",
+                    "name": "org.apache.hadoop.metrics.spi.OutputRecord"
+                },
+                {
+                    "@type": "item",
+                    "name": "org.apache.hadoop.metrics.spi.MetricValue"
+                },
+                {
+                    "@type": "item",
+                    "name": "org.apache.hadoop.metrics.ganglia.GangliaContext"
+                },
+                {
+                    "@type": "item",
+                    "name": "org.apache.hadoop.metrics.spi.AbstractMetricsContext"
+                },
+                {
+                    "@type": "item",
+                    "name": "org.apache.hadoop.metrics.util.MBeanUtil"
+                },
+                {
+                    "@type": "item",
+                    "name": "org.apache.hadoop.metrics.util.MetricsTimeVaryingInt"
+                },
+                {
+                    "@type": "item",
+                    "name": "org.apache.hadoop.metrics.spi.MetricsRecordImpl"
+                },
+                {
+                    "@type": "item",
+                    "name": "org.apache.hadoop.metrics.util.MetricsIntValue"
+                },
+                {
+                    "@type": "item",
+                    "name": "org.apache.hadoop.metrics.file.FileContext"
+                },
+                {
+                    "@type": "item",
+                    "name": "org.apache.hadoop.metrics.MetricsContext"
+                },
+                {
+                    "@type": "item",
+                    "name": "org.apache.hadoop.metrics.spi.NullContextWithUpdateThread"
+                },
+                {
+                    "@type": "item",
+                    "name": "org.apache.hadoop.metrics.util.MetricsTimeVaryingRate"
+                },
+                {
+                    "@type": "item",
+                    "name": "org.apache.hadoop.metrics.jvm.JvmMetrics"
+                },
+                {
+                    "@type": "item",
+                    "name": "org.apache.hadoop.metrics.util.MetricsLongValue"
+                },
+                {
+                    "@type": "item",
+                    "name": "org.apache.hadoop.metrics.MetricsUtil"
+                },
+                {
+                    "@type": "item",
+                    "name": "org.apache.hadoop.metrics.spi.Util"
+                },
+                {
+                    "@type": "item",
+                    "name": "org.apache.hadoop.metrics.ContextFactory"
+                },
+                {
+                    "@type": "item",
+                    "name": "org.apache.hadoop.metrics.MetricsException"
+                }
+            ]
+        },
+        {
+            "@type": "group",
+            "name": "35__Job_Tracking",
+            "nested": [
+                {
+                    "@type": "item",
+                    "name": "org.apache.hadoop.mapred.ReinitTrackerAction"
+                },
+                {
+                    "@type": "item",
+                    "name": "org.apache.hadoop.mapred.QueueManager"
+                },
+                {
+                    "@type": "item",
+                    "name": "org.apache.hadoop.mapred.JobTrackerInstrumentation"
+                },
+                {
+                    "@type": "item",
+                    "name": "org.apache.hadoop.mapred.JobQueueJobInProgressListener"
+                },
+                {
+                    "@type": "item",
+                    "name": "org.apache.hadoop.mapred.TaskReport"
+                },
+                {
+                    "@type": "item",
+                    "name": "org.apache.hadoop.mapred.JobQueueTaskScheduler"
+                },
+                {
+                    "@type": "item",
+                    "name": "org.apache.hadoop.mapred.EagerTaskInitializationListener"
+                },
+                {
+                    "@type": "item",
+                    "name": "org.apache.hadoop.mapred.TaskScheduler"
+                },
+                {
+                    "@type": "item",
+                    "name": "org.apache.hadoop.mapred.JobTrackerMetricsInst"
+                },
+                {
+                    "@type": "item",
+                    "name": "org.apache.hadoop.mapred.JobID"
+                },
+                {
+                    "@type": "item",
+                    "name": "org.apache.hadoop.mapred.JobChangeEvent"
+                },
+                {
+                    "@type": "item",
+                    "name": "org.apache.hadoop.mapred.JobEndNotifier"
+                },
+                {
+                    "@type": "item",
+                    "name": "org.apache.hadoop.mapred.JobPriority"
+                },
+                {
+                    "@type": "item",
+                    "name": "org.apache.hadoop.mapred.CompletedJobStatusStore"
+                },
+                {
+                    "@type": "item",
+                    "name": "org.apache.hadoop.mapred.JobInProgressListener"
+                },
+                {
+                    "@type": "item",
+                    "name": "org.apache.hadoop.mapred.JobStatusChangeEvent"
+                },
+                {
+                    "@type": "item",
+                    "name": "org.apache.hadoop.mapred.JobTracker"
+                },
+                {
+                    "@type": "item",
+                    "name": "org.apache.hadoop.mapred.JobInProgress"
+                },
+                {
+                    "@type": "item",
+                    "name": "org.apache.hadoop.mapred.JobProfile"
+                },
+                {
+                    "@type": "item",
+                    "name": "org.apache.hadoop.mapred.ClusterStatus"
+                },
+                {
+                    "@type": "item",
+                    "name": "org.apache.hadoop.mapred.TaskInProgress"
+                },
+                {
+                    "@type": "item",
+                    "name": "org.apache.hadoop.mapred.TaskID"
+                },
+                {
+                    "@type": "item",
+                    "name": "org.apache.hadoop.mapred.TaskTrackerManager"
+                },
+                {
+                    "@type": "item",
+                    "name": "org.apache.hadoop.mapred.LimitTasksPerJobTaskScheduler"
+                }
+            ]
+        },
+        {
+            "@type": "group",
+            "name": "org.apache.hadoop.record",
+            "nested": [
+                {
+                    "@type": "item",
+                    "name": "org.apache.hadoop.record.RecordInput"
+                },
+                {
+                    "@type": "item",
+                    "name": "org.apache.hadoop.record.XmlRecordInput"
+                },
+                {
+                    "@type": "item",
+                    "name": "org.apache.hadoop.record.RecordComparator"
+                },
+                {
+                    "@type": "item",
+                    "name": "org.apache.hadoop.record.meta.RecordTypeInfo"
+                },
+                {
+                    "@type": "item",
+                    "name": "org.apache.hadoop.record.compiler.JString"
+                },
+                {
+                    "@type": "item",
+                    "name": "org.apache.hadoop.record.compiler.JBoolean"
+                },
+                {
+                    "@type": "item",
+                    "name": "org.apache.hadoop.record.compiler.JVector"
+                },
+                {
+                    "@type": "item",
+                    "name": "org.apache.hadoop.record.meta.Utils"
+                },
+                {
+                    "@type": "item",
+                    "name": "org.apache.hadoop.record.compiler.JFloat"
+                },
+                {
+                    "@type": "item",
+                    "name": "org.apache.hadoop.record.meta.TypeID"
+                },
+                {
+                    "@type": "item",
+                    "name": "org.apache.hadoop.record.compiler.generated.RccConstants"
+                },
+                {
+                    "@type": "item",
+                    "name": "org.apache.hadoop.record.compiler.generated.ParseException"
+                },
+                {
+                    "@type": "item",
+                    "name": "org.apache.hadoop.record.BinaryRecordOutput"
+                },
+                {
+                    "@type": "item",
+                    "name": "org.apache.hadoop.record.compiler.generated.Token"
+                },
+                {
+                    "@type": "item",
+                    "name": "org.apache.hadoop.record.compiler.JDouble"
+                },
+                {
+                    "@type": "item",
+                    "name": "org.apache.hadoop.record.compiler.JType"
+                },
+                {
+                    "@type": "item",
+                    "name": "org.apache.hadoop.record.compiler.Consts"
+                },
+                {
+                    "@type": "item",
+                    "name": "org.apache.hadoop.record.compiler.CppGenerator"
+                },
+                {
+                    "@type": "item",
+                    "name": "org.apache.hadoop.record.compiler.generated.Rcc"
+                },
+                {
+                    "@type": "item",
+                    "name": "org.apache.hadoop.record.compiler.JField"
+                },
+                {
+                    "@type": "item",
+                    "name": "org.apache.hadoop.record.compiler.CodeBuffer"
+                },
+                {
+                    "@type": "item",
+                    "name": "org.apache.hadoop.record.meta.MapTypeID"
+                },
+                {
+                    "@type": "item",
+                    "name": "org.apache.hadoop.record.XmlRecordOutput"
+                },
+                {
+                    "@type": "item",
+                    "name": "org.apache.hadoop.record.compiler.JByte"
+                },
+                {
+                    "@type": "item",
+                    "name": "org.apache.hadoop.record.compiler.generated.SimpleCharStream"
+                },
+                {
+                    "@type": "item",
+                    "name": "org.apache.hadoop.record.Buffer"
+                },
+                {
+                    "@type": "item",
+                    "name": "org.apache.hadoop.record.compiler.JInt"
+                },
+                {
+                    "@type": "item",
+                    "name": "org.apache.hadoop.record.compiler.CGenerator"
+                },
+                {
+                    "@type": "item",
+                    "name": "org.apache.hadoop.record.compiler.ant.RccTask"
+                },
+                {
+                    "@type": "item",
+                    "name": "org.apache.hadoop.record.compiler.JFile"
+                },
+                {
+                    "@type": "item",
+                    "name": "org.apache.hadoop.record.compiler.JBuffer"
+                },
+                {
+                    "@type": "item",
+                    "name": "org.apache.hadoop.record.compiler.JLong"
+                },
+                {
+                    "@type": "item",
+                    "name": "org.apache.hadoop.record.compiler.CodeGenerator"
+                },
+                {
+                    "@type": "item",
+                    "name": "org.apache.hadoop.record.compiler.JRecord"
+                },
+                {
+                    "@type": "item",
+                    "name": "org.apache.hadoop.record.compiler.JCompType"
+                },
+                {
+                    "@type": "item",
+                    "name": "org.apache.hadoop.record.meta.VectorTypeID"
+                },
+                {
+                    "@type": "item",
+                    "name": "org.apache.hadoop.record.meta.StructTypeID"
+                },
+                {
+                    "@type": "item",
+                    "name": "org.apache.hadoop.record.Record"
+                },
+                {
+                    "@type": "item",
+                    "name": "org.apache.hadoop.record.RecordOutput"
+                },
+                {
+                    "@type": "item",
+                    "name": "org.apache.hadoop.record.CsvRecordInput"
+                },
+                {
+                    "@type": "item",
+                    "name": "org.apache.hadoop.record.compiler.generated.RccTokenManager"
+                },
+                {
+                    "@type": "item",
+                    "name": "org.apache.hadoop.record.Index"
+                },
+                {
+                    "@type": "item",
+                    "name": "org.apache.hadoop.record.Utils"
+                },
+                {
+                    "@type": "item",
+                    "name": "org.apache.hadoop.record.meta.FieldTypeInfo"
+                },
+                {
+                    "@type": "item",
+                    "name": "org.apache.hadoop.record.compiler.JavaGenerator"
+                },
+                {
+                    "@type": "item",
+                    "name": "org.apache.hadoop.record.compiler.JMap"
+                },
+                {
+                    "@type": "item",
+                    "name": "org.apache.hadoop.record.BinaryRecordInput"
+                },
+                {
+                    "@type": "item",
+                    "name": "org.apache.hadoop.record.compiler.generated.TokenMgrError"
+                },
+                {
+                    "@type": "item",
+                    "name": "org.apache.hadoop.record.CsvRecordOutput"
+                }
+            ]
+        },
+        {
+            "@type": "group",
+            "name": "org.apache.hadoop.fs",
+            "nested": [
+                {
+                    "@type": "item",
+                    "name": "org.apache.hadoop.fs.FsUrlStreamHandlerFactory"
+                },
+                {
+                    "@type": "item",
+                    "name": "org.apache.hadoop.fs.ChecksumException"
+                },
+                {
+                    "@type": "item",
+                    "name": "org.apache.hadoop.fs.s3.MigrationTool"
+                },
+                {
+                    "@type": "item",
+                    "name": "org.apache.hadoop.fs.s3.S3OutputStream"
+                },
+                {
+                    "@type": "item",
+                    "name": "org.apache.hadoop.fs.FileSystem"
+                },
+                {
+                    "@type": "item",
+                    "name": "org.apache.hadoop.fs.BlockLocation"
+                },
+                {
+                    "@type": "item",
+                    "name": "org.apache.hadoop.fs.FsShellPermissions"
+                },
+                {
+                    "@type": "item",
+                    "name": "org.apache.hadoop.fs.FSInputChecker"
+                },
+                {
+                    "@type": "item",
+                    "name": "org.apache.hadoop.fs.FileStatus"
+                },
+                {
+                    "@type": "item",
+                    "name": "org.apache.hadoop.fs.Trash"
+                },
+                {
+                    "@type": "item",
+                    "name": "org.apache.hadoop.fs.permission.FsPermission"
+                },
+                {
+                    "@type": "item",
+                    "name": "org.apache.hadoop.fs.Seekable"
+                },
+                {
+                    "@type": "item",
+                    "name": "org.apache.hadoop.fs.kfs.IFSImpl"
+                },
+                {
+                    "@type": "item",
+                    "name": "org.apache.hadoop.fs.kfs.KFSInputStream"
+                },
+                {
+                    "@type": "item",
+                    "name": "org.apache.hadoop.fs.FsUrlConnection"
+                },
+                {
+                    "@type": "item",
+                    "name": "org.apache.hadoop.fs.shell.Count"
+                },
+                {
+                    "@type": "item",
+                    "name": "org.apache.hadoop.fs.Path"
+                },
+                {
+                    "@type": "item",
+                    "name": "org.apache.hadoop.fs.s3.Jets3tFileSystemStore"
+                },
+                {
+                    "@type": "item",
+                    "name": "org.apache.hadoop.fs.FileUtil"
+                },
+                {
+                    "@type": "item",
+                    "name": "org.apache.hadoop.fs.s3native.NativeFileSystemStore"
+                },
+                {
+                    "@type": "item",
+                    "name": "org.apache.hadoop.fs.FileChecksum"
+                },
+                {
+                    "@type": "item",
+                    "name": "org.apache.hadoop.fs.MD5MD5CRC32FileChecksum"
+                },
+                {
+                    "@type": "item",
+                    "name": "org.apache.hadoop.fs.s3native.FileMetadata"
+                },
+                {
+                    "@type": "item",
+                    "name": "org.apache.hadoop.fs.kfs.KFSOutputStream"
+                },
+                {
+                    "@type": "item",
+                    "name": "org.apache.hadoop.fs.ftp.FTPFileSystem"
+                },
+                {
+                    "@type": "item",
+                    "name": "org.apache.hadoop.fs.DF"
+                },
+                {
+                    "@type": "item",
+                    "name": "org.apache.hadoop.fs.HarFileSystem"
+                },
+                {
+                    "@type": "item",
+                    "name": "org.apache.hadoop.fs.ChecksumFileSystem"
+                },
+                {
+                    "@type": "item",
+                    "name": "org.apache.hadoop.fs.permission.AccessControlException"
+                },
+                {
+                    "@type": "item",
+                    "name": "org.apache.hadoop.fs.ftp.FTPException"
+                },
+                {
+                    "@type": "item",
+                    "name": "org.apache.hadoop.fs.DU"
+                },
+                {
+                    "@type": "item",
+                    "name": "org.apache.hadoop.fs.FSOutputSummer"
+                },
+                {
+                    "@type": "item",
+                    "name": "org.apache.hadoop.fs.BufferedFSInputStream"
+                },
+                {
+                    "@type": "item",
+                    "name": "org.apache.hadoop.fs.shell.Command"
+                },
+                {
+                    "@type": "item",
+                    "name": "org.apache.hadoop.fs.kfs.KosmosFileSystem"
+                },
+                {
+                    "@type": "item",
+                    "name": "org.apache.hadoop.fs.permission.FsAction"
+                },
+                {
+                    "@type": "item",
+                    "name": "org.apache.hadoop.fs.ContentSummary"
+                },
+                {
+                    "@type": "item",
+                    "name": "org.apache.hadoop.fs.s3.INode"
+                },
+                {
+                    "@type": "item",
+                    "name": "org.apache.hadoop.fs.FSDataOutputStream"
+                },
+                {
+                    "@type": "item",
+                    "name": "org.apache.hadoop.fs.s3native.NativeS3FileSystem"
+                },
+                {
+                    "@type": "item",
+                    "name": "org.apache.hadoop.fs.Syncable"
+                },
+                {
+                    "@type": "item",
+                    "name": "org.apache.hadoop.fs.FSError"
+                },
+                {
+                    "@type": "item",
+                    "name": "org.apache.hadoop.fs.s3.S3FileSystemException"
+                },
+                {
+                    "@type": "item",
+                    "name": "org.apache.hadoop.fs.PositionedReadable"
+                },
+                {
+                    "@type": "item",
+                    "name": "org.apache.hadoop.fs.kfs.KFSImpl"
+                },
+                {
+                    "@type": "item",
+                    "name": "org.apache.hadoop.fs.shell.CommandUtils"
+                },
+                {
+                    "@type": "item",
+                    "name": "org.apache.hadoop.fs.LocalDirAllocator"
+                },
+                {
+                    "@type": "item",
+                    "name": "org.apache.hadoop.fs.FsShell"
+                },
+                {
+                    "@type": "item",
+                    "name": "org.apache.hadoop.fs.s3native.PartialListing"
+                },
+                {
+                    "@type": "item",
+                    "name": "org.apache.hadoop.fs.RawLocalFileSystem"
+                },
+                {
+                    "@type": "item",
+                    "name": "org.apache.hadoop.fs.s3.S3Exception"
+                },
+                {
+                    "@type": "item",
+                    "name": "org.apache.hadoop.fs.s3.S3InputStream"
+                },
+                {
+                    "@type": "item",
+                    "name": "org.apache.hadoop.fs.GlobExpander"
+                },
+                {
+                    "@type": "item",
+                    "name": "org.apache.hadoop.fs.shell.CommandFormat"
+                },
+                {
+                    "@type": "item",
+                    "name": "org.apache.hadoop.fs.s3.FileSystemStore"
+                },
+                {
+                    "@type": "item",
+                    "name": "org.apache.hadoop.fs.FsUrlStreamHandler"
+                },
+                {
+                    "@type": "item",
+                    "name": "org.apache.hadoop.fs.s3.S3FileSystem"
+                },
+                {
+                    "@type": "item",
+                    "name": "org.apache.hadoop.fs.s3native.Jets3tNativeFileSystemStore"
+                },
+                {
+                    "@type": "item",
+                    "name": "org.apache.hadoop.fs.FSInputStream"
+                },
+                {
+                    "@type": "item",
+                    "name": "org.apache.hadoop.fs.InMemoryFileSystem"
+                },
+                {
+                    "@type": "item",
+                    "name": "org.apache.hadoop.fs.permission.PermissionStatus"
+                },
+                {
+                    "@type": "item",
+                    "name": "org.apache.hadoop.fs.LocalFileSystem"
+                },
+                {
+                    "@type": "item",
+                    "name": "org.apache.hadoop.fs.s3.VersionMismatchException"
+                },
+                {
+                    "@type": "item",
+                    "name": "org.apache.hadoop.fs.s3.S3Credentials"
+                },
+                {
+                    "@type": "item",
+                    "name": "org.apache.hadoop.fs.ftp.FTPInputStream"
+                }
+            ]
+        },
+        {
+            "@type": "group",
+            "name": "3__Domain_data_structures",
+            "nested": [
+                {
+                    "@type": "item",
+                    "name": "org.apache.hadoop.hdfs.server.protocol.BlockMetaDataInfo"
+                },
+                {
+                    "@type": "item",
+                    "name": "org.apache.hadoop.mapred.TaskStatus"
+                },
+                {
+                    "@type": "item",
+                    "name": "org.apache.hadoop.hdfs.protocol.DatanodeID"
+                },
+                {
+                    "@type": "item",
+                    "name": "org.apache.hadoop.hdfs.protocol.DatanodeInfo"
+                },
+                {
+                    "@type": "item",
+                    "name": "org.apache.hadoop.mapred.TaskReport"
+                },
+                {
+                    "@type": "item",
+                    "name": "org.apache.hadoop.net.NodeBase"
+                },
+                {
+                    "@type": "item",
+                    "name": "org.apache.hadoop.hdfs.server.datanode.DataBlockScanner"
+                },
+                {
+                    "@type": "item",
+                    "name": "org.apache.hadoop.net.Node"
+                },
+                {
+                    "@type": "item",
+                    "name": "org.apache.hadoop.fs.s3.Block"
+                },
+                {
+                    "@type": "item",
+                    "name": "org.apache.hadoop.mapred.JobID"
+                },
+                {
+                    "@type": "item",
+                    "name": "org.apache.hadoop.hdfs.server.protocol.DatanodeRegistration"
+                },
+                {
+                    "@type": "item",
+                    "name": "org.apache.hadoop.mapred.JobConf"
+                },
+                {
+                    "@type": "item",
+                    "name": "org.apache.hadoop.mapred.JobStatus"
+                },
+                {
+                    "@type": "item",
+                    "name": "org.apache.hadoop.mapred.JobProfile"
+                },
+                {
+                    "@type": "item",
+                    "name": "org.apache.hadoop.hdfs.protocol.Block"
+                },
+                {
+                    "@type": "item",
+                    "name": "org.apache.hadoop.mapred.Counters"
+                },
+                {
+                    "@type": "item",
+                    "name": "org.apache.hadoop.hdfs.protocol.LocatedBlocks"
+                },
+                {
+                    "@type": "item",
+                    "name": "org.apache.hadoop.mapred.TaskTrackerStatus"
+                },
+                {
+                    "@type": "item",
+                    "name": "org.apache.hadoop.hdfs.server.datanode.DatanodeBlockInfo"
+                },
+                {
+                    "@type": "item",
+                    "name": "org.apache.hadoop.mapred.TaskID"
+                },
+                {
+                    "@type": "item",
+                    "name": "org.apache.hadoop.hdfs.server.protocol.BlocksWithLocations"
+                }
+            ]
+        },
+        {
+            "@type": "group",
+            "name": "27__DFS_Tools",
+            "nested": [
+                {
+                    "@type": "item",
+                    "name": "org.apache.hadoop.hdfs.tools.DFSAdmin"
+                },
+                {
+                    "@type": "item",
+                    "name": "org.apache.hadoop.hdfs.tools.DFSck"
+                }
+            ]
+        },
+        {
+            "@type": "group",
+            "name": "36__Sequence_File_Handling",
+            "nested": [
+                {
+                    "@type": "item",
+                    "name": "org.apache.hadoop.mapred.SequenceFileOutputFormat"
+                },
+                {
+                    "@type": "item",
+                    "name": "org.apache.hadoop.mapred.SequenceFileInputFormat"
+                },
+                {
+                    "@type": "item",
+                    "name": "org.apache.hadoop.mapred.SequenceFileAsBinaryOutputFormat"
+                },
+                {
+                    "@type": "item",
+                    "name": "org.apache.hadoop.mapred.SequenceFileRecordReader"
+                },
+                {
+                    "@type": "item",
+                    "name": "org.apache.hadoop.mapred.SequenceFileInputFilter"
+                },
+                {
+                    "@type": "item",
+                    "name": "org.apache.hadoop.mapred.SequenceFileAsBinaryInputFormat"
+                },
+                {
+                    "@type": "item",
+                    "name": "org.apache.hadoop.mapred.SequenceFileAsTextRecordReader"
+                },
+                {
+                    "@type": "item",
+                    "name": "org.apache.hadoop.mapred.SequenceFileAsTextInputFormat"
+                }
+            ]
+        }
+    ]
+}

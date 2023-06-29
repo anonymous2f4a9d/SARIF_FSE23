@@ -1,0 +1,676 @@
+{
+    "@schemaVersion": "1.0",
+    "name": "clustering",
+    "structure": [
+        {
+            "@type": "group",
+            "name": "audio",
+            "nested": [
+                {
+                    "@type": "item",
+                    "name": "include/audio/audio_accessory_if.h"
+                },
+                {
+                    "@type": "item",
+                    "name": "include/audio/audio_codec_if.h"
+                },
+                {
+                    "@type": "item",
+                    "name": "include/audio/audio_dai_if.h"
+                },
+                {
+                    "@type": "item",
+                    "name": "include/audio/audio_dsp_if.h"
+                },
+                {
+                    "@type": "item",
+                    "name": "include/audio/audio_platform_if.h"
+                }
+            ]
+        },
+        {
+            "@type": "group",
+            "name": "common",
+            "nested": [
+                {
+                    "@type": "item",
+                    "name": "core/common/src/buildin_config_entry.c"
+                },
+                {
+                    "@type": "item",
+                    "name": "core/shared/include/devhost_service_if.h"
+                },
+                {
+                    "@type": "item",
+                    "name": "core/shared/include/device_token_if.h"
+                },
+                {
+                    "@type": "item",
+                    "name": "core/common/src/devlite_object_config.c"
+                },
+                {
+                    "@type": "item",
+                    "name": "core/shared/include/devmgr_service_if.h"
+                },
+                {
+                    "@type": "item",
+                    "name": "core/common/src/devmgr_service_start.c"
+                },
+                {
+                    "@type": "item",
+                    "name": "core/shared/include/devsvc_manager_if.h"
+                },
+                {
+                    "@type": "item",
+                    "name": "core/common/src/hdf_attribute.c"
+                },
+                {
+                    "@type": "item",
+                    "name": "core/common/src/hdf_attribute_macro.c"
+                },
+                {
+                    "@type": "item",
+                    "name": "core/shared/include/hdf_attribute_macro.h"
+                },
+                {
+                    "@type": "item",
+                    "name": "core/shared/include/hdf_attribute_manager.h"
+                },
+                {
+                    "@type": "item",
+                    "name": "include/core/hdf_device_desc.h"
+                },
+                {
+                    "@type": "item",
+                    "name": "core/shared/src/hdf_device_info.c"
+                },
+                {
+                    "@type": "item",
+                    "name": "core/shared/include/hdf_device_info.h"
+                },
+                {
+                    "@type": "item",
+                    "name": "core/common/src/hdf_device_node_ext.c"
+                },
+                {
+                    "@type": "item",
+                    "name": "core/shared/include/hdf_driver.h"
+                },
+                {
+                    "@type": "item",
+                    "name": "core/shared/src/hdf_io_service.c"
+                },
+                {
+                    "@type": "item",
+                    "name": "core/shared/include/hdf_io_service.h"
+                },
+                {
+                    "@type": "item",
+                    "name": "include/core/hdf_io_service_if.h"
+                },
+                {
+                    "@type": "item",
+                    "name": "include/core/hdf_object.h"
+                },
+                {
+                    "@type": "item",
+                    "name": "core/shared/src/hdf_object_manager.c"
+                },
+                {
+                    "@type": "item",
+                    "name": "core/shared/include/hdf_object_manager.h"
+                },
+                {
+                    "@type": "item",
+                    "name": "include/core/hdf_pm.h"
+                },
+                {
+                    "@type": "item",
+                    "name": "core/shared/include/hdf_power_state.h"
+                },
+                {
+                    "@type": "item",
+                    "name": "core/sec/include/hdf_sec.h"
+                },
+                {
+                    "@type": "item",
+                    "name": "core/shared/src/hdf_service_record.c"
+                },
+                {
+                    "@type": "item",
+                    "name": "core/shared/include/hdf_service_record.h"
+                },
+                {
+                    "@type": "item",
+                    "name": "core/shared/include/hdf_service_status.h"
+                },
+                {
+                    "@type": "item",
+                    "name": "core/shared/include/hdf_usb_pnp_manage.h"
+                },
+                {
+                    "@type": "item",
+                    "name": "core/shared/src/ioserstat_listener.c"
+                },
+                {
+                    "@type": "item",
+                    "name": "core/shared/include/ioservstat_listener.h"
+                },
+                {
+                    "@type": "item",
+                    "name": "core/shared/include/power_state_token_if.h"
+                },
+                {
+                    "@type": "item",
+                    "name": "core/shared/src/service_status.c"
+                },
+                {
+                    "@type": "item",
+                    "name": "core/shared/src/svcmgr_ioservice.c"
+                },
+                {
+                    "@type": "item",
+                    "name": "core/shared/include/svcmgr_ioservice.h"
+                }
+            ]
+        },
+        {
+            "@type": "group",
+            "name": "convertor",
+            "nested": [
+                {
+                    "@type": "item",
+                    "name": "core/adapter/syscall/src/hdf_devmgr_adapter.c"
+                },
+                {
+                    "@type": "item",
+                    "name": "core/adapter/syscall/src/hdf_syscall_adapter.c"
+                },
+                {
+                    "@type": "item",
+                    "name": "core/adapter/syscall/include/hdf_syscall_adapter.h"
+                },
+                {
+                    "@type": "item",
+                    "name": "core/adapter/vnode/src/hdf_vnode_adapter.c"
+                },
+                {
+                    "@type": "item",
+                    "name": "core/adapter/vnode/include/hdf_vnode_adapter.h"
+                }
+            ]
+        },
+        {
+            "@type": "group",
+            "name": "kernal_host",
+            "nested": [
+                {
+                    "@type": "item",
+                    "name": "core/host/src/devhost_service.c"
+                },
+                {
+                    "@type": "item",
+                    "name": "core/host/include/devhost_service.h"
+                },
+                {
+                    "@type": "item",
+                    "name": "core/host/src/devmgr_service_clnt.c"
+                },
+                {
+                    "@type": "item",
+                    "name": "core/host/include/devmgr_service_clnt.h"
+                },
+                {
+                    "@type": "item",
+                    "name": "core/host/src/devsvc_manager_clnt.c"
+                },
+                {
+                    "@type": "item",
+                    "name": "core/host/include/devsvc_manager_clnt.h"
+                },
+                {
+                    "@type": "item",
+                    "name": "core/host/src/hdf_device.c"
+                },
+                {
+                    "@type": "item",
+                    "name": "core/host/include/hdf_device.h"
+                },
+                {
+                    "@type": "item",
+                    "name": "core/host/src/hdf_device_node.c"
+                },
+                {
+                    "@type": "item",
+                    "name": "core/host/include/hdf_device_node.h"
+                },
+                {
+                    "@type": "item",
+                    "name": "core/host/src/hdf_device_object.c"
+                },
+                {
+                    "@type": "item",
+                    "name": "core/host/include/hdf_device_object.h"
+                },
+                {
+                    "@type": "item",
+                    "name": "core/common/include/host/hdf_device_section.h"
+                },
+                {
+                    "@type": "item",
+                    "name": "core/host/src/hdf_device_token.c"
+                },
+                {
+                    "@type": "item",
+                    "name": "core/host/include/hdf_device_token.h"
+                },
+                {
+                    "@type": "item",
+                    "name": "core/host/src/hdf_driver_loader.c"
+                },
+                {
+                    "@type": "item",
+                    "name": "core/host/include/hdf_driver_loader.h"
+                },
+                {
+                    "@type": "item",
+                    "name": "core/host/src/hdf_observer_record.c"
+                },
+                {
+                    "@type": "item",
+                    "name": "core/host/include/hdf_observer_record.h"
+                },
+                {
+                    "@type": "item",
+                    "name": "core/host/include/hdf_pm_reg.h"
+                },
+                {
+                    "@type": "item",
+                    "name": "core/host/src/hdf_power_manager.c"
+                },
+                {
+                    "@type": "item",
+                    "name": "core/host/include/hdf_power_manager.h"
+                },
+                {
+                    "@type": "item",
+                    "name": "core/host/src/hdf_service_observer.c"
+                },
+                {
+                    "@type": "item",
+                    "name": "core/host/include/hdf_service_observer.h"
+                },
+                {
+                    "@type": "item",
+                    "name": "core/host/src/hdf_service_subscriber.c"
+                },
+                {
+                    "@type": "item",
+                    "name": "core/host/include/hdf_service_subscriber.h"
+                },
+                {
+                    "@type": "item",
+                    "name": "core/host/src/power_state_token.c"
+                },
+                {
+                    "@type": "item",
+                    "name": "core/host/include/power_state_token.h"
+                }
+            ]
+        },
+        {
+            "@type": "group",
+            "name": "manager",
+            "nested": [
+                {
+                    "@type": "item",
+                    "name": "core/manager/src/devhost_service_clnt.c"
+                },
+                {
+                    "@type": "item",
+                    "name": "core/manager/include/devhost_service_clnt.h"
+                },
+                {
+                    "@type": "item",
+                    "name": "core/manager/src/device_token_clnt.c"
+                },
+                {
+                    "@type": "item",
+                    "name": "core/manager/include/device_token_clnt.h"
+                },
+                {
+                    "@type": "item",
+                    "name": "core/manager/src/devmgr_service.c"
+                },
+                {
+                    "@type": "item",
+                    "name": "core/manager/include/devmgr_service.h"
+                },
+                {
+                    "@type": "item",
+                    "name": "core/common/include/manager/devmgr_service_start.h"
+                },
+                {
+                    "@type": "item",
+                    "name": "core/manager/include/devsvc_listener_holder.h"
+                },
+                {
+                    "@type": "item",
+                    "name": "core/manager/src/devsvc_manager.c"
+                },
+                {
+                    "@type": "item",
+                    "name": "core/manager/include/devsvc_manager.h"
+                },
+                {
+                    "@type": "item",
+                    "name": "core/manager/src/devsvc_manager_ext.c"
+                },
+                {
+                    "@type": "item",
+                    "name": "core/manager/include/devsvc_manager_ext.h"
+                },
+                {
+                    "@type": "item",
+                    "name": "core/manager/src/driver_manager.c"
+                },
+                {
+                    "@type": "item",
+                    "name": "core/common/include/manager/hdf_device_node_ext.h"
+                },
+                {
+                    "@type": "item",
+                    "name": "core/manager/src/hdf_driver_installer.c"
+                },
+                {
+                    "@type": "item",
+                    "name": "core/manager/include/hdf_driver_installer.h"
+                },
+                {
+                    "@type": "item",
+                    "name": "core/manager/src/hdf_host_info.c"
+                },
+                {
+                    "@type": "item",
+                    "name": "core/manager/include/hdf_host_info.h"
+                },
+                {
+                    "@type": "item",
+                    "name": "core/manager/src/power_state_token_clnt.c"
+                },
+                {
+                    "@type": "item",
+                    "name": "core/manager/include/power_state_token_clnt.h"
+                },
+                {
+                    "@type": "item",
+                    "name": "core/manager/src/servstat_listener_holder.c"
+                }
+            ]
+        },
+        {
+            "@type": "group",
+            "name": "network",
+            "nested": [
+                {
+                    "@type": "item",
+                    "name": "include/ethernet/eth_chip_driver.h"
+                },
+                {
+                    "@type": "item",
+                    "name": "include/bluetooth/hdf_bt_transport.h"
+                },
+                {
+                    "@type": "item",
+                    "name": "include/bluetooth/hdf_chip.h"
+                },
+                {
+                    "@type": "item",
+                    "name": "include/bluetooth/hdf_chip_config.h"
+                },
+                {
+                    "@type": "item",
+                    "name": "include/wifi/hdf_ibus_intf.h"
+                },
+                {
+                    "@type": "item",
+                    "name": "include/net/hdf_netbuf.h"
+                },
+                {
+                    "@type": "item",
+                    "name": "include/wifi/hdf_wifi_event.h"
+                },
+                {
+                    "@type": "item",
+                    "name": "include/wifi/hdf_wifi_product.h"
+                },
+                {
+                    "@type": "item",
+                    "name": "include/wifi/hdf_wlan_chipdriver_manager.h"
+                },
+                {
+                    "@type": "item",
+                    "name": "include/wifi/hdf_wlan_power_manager.h"
+                },
+                {
+                    "@type": "item",
+                    "name": "include/wifi/hdf_wlan_reset_manager.h"
+                },
+                {
+                    "@type": "item",
+                    "name": "include/net/net_device.h"
+                },
+                {
+                    "@type": "item",
+                    "name": "include/wifi/wifi_inc.h"
+                },
+                {
+                    "@type": "item",
+                    "name": "include/wifi/wifi_mac80211_ops.h"
+                },
+                {
+                    "@type": "item",
+                    "name": "include/wifi/wifi_module.h"
+                },
+                {
+                    "@type": "item",
+                    "name": "include/wifi/wifi_module_config.h"
+                }
+            ]
+        },
+        {
+            "@type": "group",
+            "name": "osal",
+            "nested": [
+                {
+                    "@type": "item",
+                    "name": "include/osal.h"
+                },
+                {
+                    "@type": "item",
+                    "name": "include/osal/osal_atomic.h"
+                },
+                {
+                    "@type": "item",
+                    "name": "include/osal/osal_cdev.h"
+                },
+                {
+                    "@type": "item",
+                    "name": "include/osal/osal_file.h"
+                },
+                {
+                    "@type": "item",
+                    "name": "include/osal/osal_firmware.h"
+                },
+                {
+                    "@type": "item",
+                    "name": "include/osal/osal_io.h"
+                },
+                {
+                    "@type": "item",
+                    "name": "include/osal/osal_irq.h"
+                },
+                {
+                    "@type": "item",
+                    "name": "include/osal/osal_mem.h"
+                },
+                {
+                    "@type": "item",
+                    "name": "include/osal/osal_mutex.h"
+                },
+                {
+                    "@type": "item",
+                    "name": "include/osal/osal_sem.h"
+                },
+                {
+                    "@type": "item",
+                    "name": "include/osal/osal_spinlock.h"
+                },
+                {
+                    "@type": "item",
+                    "name": "include/osal/osal_thread.h"
+                },
+                {
+                    "@type": "item",
+                    "name": "include/osal/osal_time.h"
+                },
+                {
+                    "@type": "item",
+                    "name": "include/osal/osal_timer.h"
+                }
+            ]
+        },
+        {
+            "@type": "group",
+            "name": "platform",
+            "nested": [
+                {
+                    "@type": "item",
+                    "name": "include/platform/adc_if.h"
+                },
+                {
+                    "@type": "item",
+                    "name": "include/platform/dac_if.h"
+                },
+                {
+                    "@type": "item",
+                    "name": "include/platform/emmc_if.h"
+                },
+                {
+                    "@type": "item",
+                    "name": "include/platform/gpio_if.h"
+                },
+                {
+                    "@type": "item",
+                    "name": "include/platform/hdmi_if.h"
+                },
+                {
+                    "@type": "item",
+                    "name": "include/platform/i2c_if.h"
+                },
+                {
+                    "@type": "item",
+                    "name": "include/platform/i2s_if.h"
+                },
+                {
+                    "@type": "item",
+                    "name": "include/platform/i3c_if.h"
+                },
+                {
+                    "@type": "item",
+                    "name": "include/platform/mipi_csi_if.h"
+                },
+                {
+                    "@type": "item",
+                    "name": "include/platform/mipi_dsi_if.h"
+                },
+                {
+                    "@type": "item",
+                    "name": "include/platform/mmc_if.h"
+                },
+                {
+                    "@type": "item",
+                    "name": "include/platform/pcie_if.h"
+                },
+                {
+                    "@type": "item",
+                    "name": "include/platform/pin_if.h"
+                },
+                {
+                    "@type": "item",
+                    "name": "include/platform/platform_if.h"
+                },
+                {
+                    "@type": "item",
+                    "name": "include/platform/pwm_if.h"
+                },
+                {
+                    "@type": "item",
+                    "name": "include/platform/regulator_if.h"
+                },
+                {
+                    "@type": "item",
+                    "name": "include/platform/rtc_base.h"
+                },
+                {
+                    "@type": "item",
+                    "name": "include/platform/rtc_if.h"
+                },
+                {
+                    "@type": "item",
+                    "name": "include/platform/sdio_if.h"
+                },
+                {
+                    "@type": "item",
+                    "name": "include/platform/spi_if.h"
+                },
+                {
+                    "@type": "item",
+                    "name": "include/platform/timer_if.h"
+                },
+                {
+                    "@type": "item",
+                    "name": "include/platform/uart_if.h"
+                },
+                {
+                    "@type": "item",
+                    "name": "include/platform/watchdog_if.h"
+                }
+            ]
+        },
+        {
+            "@type": "group",
+            "name": "utils",
+            "nested": [
+                {
+                    "@type": "item",
+                    "name": "include/utils/device_resource_if.h"
+                },
+                {
+                    "@type": "item",
+                    "name": "include/utils/hcs_macro.h"
+                },
+                {
+                    "@type": "item",
+                    "name": "include/utils/hdf_base.h"
+                },
+                {
+                    "@type": "item",
+                    "name": "include/utils/hdf_dlist.h"
+                },
+                {
+                    "@type": "item",
+                    "name": "include/utils/hdf_log.h"
+                },
+                {
+                    "@type": "item",
+                    "name": "include/utils/hdf_sbuf.h"
+                },
+                {
+                    "@type": "item",
+                    "name": "include/utils/hdf_workqueue.h"
+                }
+            ]
+        }
+    ]
+}

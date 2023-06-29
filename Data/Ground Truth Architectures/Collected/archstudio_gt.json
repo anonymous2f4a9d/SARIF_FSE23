@@ -1,0 +1,2680 @@
+{
+    "@schemaVersion": "1.0",
+    "name": "clustering",
+    "structure": [
+        {
+            "@type": "group",
+            "name": "Archipelago",
+            "nested": [
+                {
+                    "@type": "item",
+                    "name": "edu.uci.isr.archstudio4.comp.archipelago.util.AbstractXadlSelectorLogic"
+                },
+                {
+                    "@type": "item",
+                    "name": "edu.uci.isr.archstudio4.comp.archipelago.IArchipelagoEventBus"
+                },
+                {
+                    "@type": "item",
+                    "name": "edu.uci.isr.archstudio4.comp.archipelago.types.TypesEvents"
+                },
+                {
+                    "@type": "item",
+                    "name": "edu.uci.isr.archstudio4.comp.archipelago.codegen.SWTBrickSelectorThing"
+                },
+                {
+                    "@type": "item",
+                    "name": "edu.uci.isr.archstudio4.comp.archipelago.statecharts.StatechartsDoubleClickHandler"
+                },
+                {
+                    "@type": "item",
+                    "name": "edu.uci.isr.archstudio4.comp.archipelago.RootLabelProvider"
+                },
+                {
+                    "@type": "item",
+                    "name": "edu.uci.isr.archstudio4.comp.archipelago.statecharts.StatechartsRemoveContextMenuFiller"
+                },
+                {
+                    "@type": "item",
+                    "name": "edu.uci.isr.archstudio4.comp.archipelago.types.StructureTreePlugin"
+                },
+                {
+                    "@type": "item",
+                    "name": "edu.uci.isr.archstudio4.comp.archipelago.generic.logics.editing.dialogs.OptionsDialogLabelProvider"
+                },
+                {
+                    "@type": "item",
+                    "name": "edu.uci.isr.archstudio4.comp.archipelago.types.TypesEditDescriptionContextMenuFiller"
+                },
+                {
+                    "@type": "item",
+                    "name": "edu.uci.isr.archstudio4.comp.archipelago.types.TypesRemoveLogic"
+                },
+                {
+                    "@type": "item",
+                    "name": "edu.uci.isr.archstudio4.comp.archipelago.types.StructureMapper"
+                },
+                {
+                    "@type": "item",
+                    "name": "edu.uci.isr.archstudio4.comp.archipelago.activitydiagrams.ActivityDiagramsEditorSupport"
+                },
+                {
+                    "@type": "item",
+                    "name": "edu.uci.isr.archstudio4.comp.archipelago.generic.logics.editing.dialogs.OptionsDialog"
+                },
+                {
+                    "@type": "item",
+                    "name": "edu.uci.isr.archstudio4.comp.archipelago.IArchipelagoTreeContextMenuFiller"
+                },
+                {
+                    "@type": "item",
+                    "name": "edu.uci.isr.archstudio4.comp.archipelago.types.TypesEditorFocuser"
+                },
+                {
+                    "@type": "item",
+                    "name": "edu.uci.isr.archstudio4.comp.archipelago.statecharts.logics.mapping.MapXadlStateLogic"
+                },
+                {
+                    "@type": "item",
+                    "name": "edu.uci.isr.archstudio4.comp.archipelago.generic.logics.editing.XadlRemoveElementLogic"
+                },
+                {
+                    "@type": "item",
+                    "name": "edu.uci.isr.archstudio4.comp.archipelago.codegen.CodeGenLogic"
+                },
+                {
+                    "@type": "item",
+                    "name": "edu.uci.isr.archstudio4.comp.archipelago.ArchipelagoMyxComponent"
+                },
+                {
+                    "@type": "item",
+                    "name": "edu.uci.isr.archstudio4.comp.archipelago.DefaultArchipelagoEventBus"
+                },
+                {
+                    "@type": "item",
+                    "name": "edu.uci.isr.archstudio4.comp.archipelago.statecharts.logics.editing.StatechartsNewElementLogic"
+                },
+                {
+                    "@type": "item",
+                    "name": "edu.uci.isr.archstudio4.comp.archipelago.statecharts.StatechartsXArchEventHandler"
+                },
+                {
+                    "@type": "item",
+                    "name": "edu.uci.isr.archstudio4.comp.archipelago.IArchipelagoTreeDoubleClickHandler"
+                },
+                {
+                    "@type": "item",
+                    "name": "edu.uci.isr.archstudio4.comp.archipelago.types.TypesRemoveDeadSIMLogic"
+                },
+                {
+                    "@type": "item",
+                    "name": "edu.uci.isr.archstudio4.comp.archipelago.types.StructureGraphLayoutLogic"
+                },
+                {
+                    "@type": "item",
+                    "name": "edu.uci.isr.archstudio4.comp.archipelago.statecharts.logics.mapping.MapXadlTransitionLogic"
+                },
+                {
+                    "@type": "item",
+                    "name": "edu.uci.isr.archstudio4.comp.archipelago.codegen.BrickLabelProvider"
+                },
+                {
+                    "@type": "item",
+                    "name": "edu.uci.isr.archstudio4.comp.archipelago.types.TypesNewTypeSetContextMenuFiller"
+                },
+                {
+                    "@type": "item",
+                    "name": "edu.uci.isr.archstudio4.comp.archipelago.types.StructureNewStructureContextMenuFiller"
+                },
+                {
+                    "@type": "item",
+                    "name": "edu.uci.isr.archstudio4.comp.archipelago.variants.VariantsTreePlugin"
+                },
+                {
+                    "@type": "item",
+                    "name": "edu.uci.isr.archstudio4.comp.archipelago.types.StructureRemoveContextMenuFiller"
+                },
+                {
+                    "@type": "item",
+                    "name": "edu.uci.isr.archstudio4.comp.archipelago.activitydiagrams.ActivityDiagramsTreePlugin"
+                },
+                {
+                    "@type": "item",
+                    "name": "edu.uci.isr.archstudio4.comp.archipelago.ArchipelagoEditor"
+                },
+                {
+                    "@type": "item",
+                    "name": "edu.uci.isr.archstudio4.comp.archipelago.stateline.StatelineStatechartsLogic"
+                },
+                {
+                    "@type": "item",
+                    "name": "edu.uci.isr.archstudio4.comp.archipelago.archstructure.logics.mapping.MapXadlLinkLogic"
+                },
+                {
+                    "@type": "item",
+                    "name": "edu.uci.isr.archstudio4.comp.archipelago.util.ArchipelagoFinder"
+                },
+                {
+                    "@type": "item",
+                    "name": "edu.uci.isr.archstudio4.comp.archipelago.generic.logics.mapping.BNAPath"
+                },
+                {
+                    "@type": "item",
+                    "name": "edu.uci.isr.archstudio4.comp.archipelago.variants.PromoteToVariantLogic"
+                },
+                {
+                    "@type": "item",
+                    "name": "edu.uci.isr.archstudio4.comp.archipelago.activitydiagrams.ActivityDiagramsEditDescriptionContextMenuFiller"
+                },
+                {
+                    "@type": "item",
+                    "name": "edu.uci.isr.archstudio4.comp.archipelago.types.TypesXArchEventHandler"
+                },
+                {
+                    "@type": "item",
+                    "name": "edu.uci.isr.archstudio4.comp.archipelago.types.TypesAssignStructureLogic"
+                },
+                {
+                    "@type": "item",
+                    "name": "edu.uci.isr.archstudio4.comp.archipelago.activitydiagrams.editorsupport.events.ActivityDiagramsEvents"
+                },
+                {
+                    "@type": "item",
+                    "name": "edu.uci.isr.archstudio4.comp.archipelago.util.AbstractEditGuardLogic"
+                },
+                {
+                    "@type": "item",
+                    "name": "edu.uci.isr.archstudio4.comp.archipelago.util.IPropertyCoder"
+                },
+                {
+                    "@type": "item",
+                    "name": "edu.uci.isr.archstudio4.comp.archipelago.statecharts.StatechartsEditorSupport"
+                },
+                {
+                    "@type": "item",
+                    "name": "edu.uci.isr.archstudio4.comp.archipelago.types.TypesXArchEventHandlerLogic"
+                },
+                {
+                    "@type": "item",
+                    "name": "edu.uci.isr.archstudio4.comp.archipelago.activitydiagrams.logics.mapping.MapXadlControlFlowLogic"
+                },
+                {
+                    "@type": "item",
+                    "name": "edu.uci.isr.archstudio4.comp.archipelago.types.TypesStructureDropLogic"
+                },
+                {
+                    "@type": "item",
+                    "name": "edu.uci.isr.archstudio4.comp.archipelago.types.StructureEditorFocuser"
+                },
+                {
+                    "@type": "item",
+                    "name": "edu.uci.isr.archstudio4.comp.archipelago.generic.logics.mapping.MapXadlDirectionalSplineLogic"
+                },
+                {
+                    "@type": "item",
+                    "name": "edu.uci.isr.archstudio4.comp.archipelago.types.TypesEditDescriptionCellModifier"
+                },
+                {
+                    "@type": "item",
+                    "name": "edu.uci.isr.archstudio4.comp.archipelago.IArchipelagoEditorFocuser"
+                },
+                {
+                    "@type": "item",
+                    "name": "edu.uci.isr.archstudio4.comp.archipelago.activitydiagrams.ActivityDiagramsTreeContentProvider"
+                },
+                {
+                    "@type": "item",
+                    "name": "edu.uci.isr.archstudio4.comp.archipelago.IArchipelagoTreeNodeDataCache"
+                },
+                {
+                    "@type": "item",
+                    "name": "edu.uci.isr.archstudio4.comp.archipelago.types.StructureNewElementLogic"
+                },
+                {
+                    "@type": "item",
+                    "name": "edu.uci.isr.archstudio4.comp.archipelago.types.TypesHintSupport"
+                },
+                {
+                    "@type": "item",
+                    "name": "edu.uci.isr.archstudio4.comp.archipelago.types.TypesEditColorLogic"
+                },
+                {
+                    "@type": "item",
+                    "name": "edu.uci.isr.archstudio4.comp.archipelago.IXArchEventHandlerLogic"
+                },
+                {
+                    "@type": "item",
+                    "name": "edu.uci.isr.archstudio4.comp.archipelago.stateline.StatelineTreePlugin"
+                },
+                {
+                    "@type": "item",
+                    "name": "edu.uci.isr.archstudio4.comp.archipelago.util.AbstractRemoveLogic"
+                },
+                {
+                    "@type": "item",
+                    "name": "edu.uci.isr.archstudio4.comp.archipelago.types.TypesTypeDropLogic"
+                },
+                {
+                    "@type": "item",
+                    "name": "edu.uci.isr.archstudio4.comp.archipelago.activitydiagrams.logics.editing.ActivityDiagramNewElementLogic"
+                },
+                {
+                    "@type": "item",
+                    "name": "edu.uci.isr.archstudio4.comp.archipelago.util.BasicSWTPropertyCoder"
+                },
+                {
+                    "@type": "item",
+                    "name": "edu.uci.isr.archstudio4.comp.archipelago.ArchipelagoDataCache"
+                },
+                {
+                    "@type": "item",
+                    "name": "edu.uci.isr.archstudio4.comp.archipelago.activitydiagrams.logics.mapping.MapXadlDecisionMergeLogic"
+                },
+                {
+                    "@type": "item",
+                    "name": "edu.uci.isr.archstudio4.comp.archipelago.RootContentProvider"
+                },
+                {
+                    "@type": "item",
+                    "name": "edu.uci.isr.archstudio4.comp.archipelago.statecharts.StatechartsEvents"
+                },
+                {
+                    "@type": "item",
+                    "name": "edu.uci.isr.archstudio4.comp.archipelago.activitydiagrams.logics.mapping.MapXadlReferenceLogic"
+                },
+                {
+                    "@type": "item",
+                    "name": "edu.uci.isr.archstudio4.comp.archipelago.codegen.BrickInterfaceSelectorLogic"
+                },
+                {
+                    "@type": "item",
+                    "name": "edu.uci.isr.archstudio4.comp.archipelago.types.StructureInterfaceLocationsLogic"
+                },
+                {
+                    "@type": "item",
+                    "name": "edu.uci.isr.archstudio4.comp.archipelago.util.PropertyDecodeException"
+                },
+                {
+                    "@type": "item",
+                    "name": "edu.uci.isr.archstudio4.comp.archipelago.activitydiagrams.logics.mapping.MapXadlForkJoinLogic"
+                },
+                {
+                    "@type": "item",
+                    "name": "edu.uci.isr.archstudio4.comp.archipelago.types.StructureXArchEventHandlerLogic"
+                },
+                {
+                    "@type": "item",
+                    "name": "edu.uci.isr.archstudio4.comp.archipelago.codegen.ExternalBrickSelectorLogic"
+                },
+                {
+                    "@type": "item",
+                    "name": "edu.uci.isr.archstudio4.comp.archipelago.activitydiagrams.ActivityDiagramsDoubleClickHandler"
+                },
+                {
+                    "@type": "item",
+                    "name": "edu.uci.isr.archstudio4.comp.archipelago.types.StructureEditorSupport"
+                },
+                {
+                    "@type": "item",
+                    "name": "edu.uci.isr.archstudio4.comp.archipelago.types.StructureEvents"
+                },
+                {
+                    "@type": "item",
+                    "name": "edu.uci.isr.archstudio4.comp.archipelago.types.TypesMapper"
+                },
+                {
+                    "@type": "item",
+                    "name": "edu.uci.isr.archstudio4.comp.archipelago.statecharts.StatechartsEditDescriptionContextMenuFiller"
+                },
+                {
+                    "@type": "item",
+                    "name": "edu.uci.isr.archstudio4.comp.archipelago.statecharts.logics.mapping.MapXadlFinalStateLogic"
+                },
+                {
+                    "@type": "item",
+                    "name": "edu.uci.isr.archstudio4.comp.archipelago.generic.logics.mapping.SingleAssemblyXadlMappingLogic"
+                },
+                {
+                    "@type": "item",
+                    "name": "edu.uci.isr.archstudio4.comp.archipelago.ArchipelagoUtils"
+                },
+                {
+                    "@type": "item",
+                    "name": "edu.uci.isr.archstudio4.comp.archipelago.codegen.SWTBrickSelectorThingPeer"
+                },
+                {
+                    "@type": "item",
+                    "name": "edu.uci.isr.archstudio4.comp.archipelago.types.TypesNewSignatureLogic"
+                },
+                {
+                    "@type": "item",
+                    "name": "edu.uci.isr.archstudio4.comp.archipelago.activitydiagrams.ActivityDiagramsRemoveContextMenuFiller"
+                },
+                {
+                    "@type": "item",
+                    "name": "edu.uci.isr.archstudio4.comp.archipelago.activitydiagrams.ActivityDiagramsXArchEventHandler"
+                },
+                {
+                    "@type": "item",
+                    "name": "edu.uci.isr.archstudio4.comp.archipelago.activitydiagrams.logics.mapping.MapXadlActorLogic"
+                },
+                {
+                    "@type": "item",
+                    "name": "edu.uci.isr.archstudio4.comp.archipelago.codegen.BrickLabelList"
+                },
+                {
+                    "@type": "item",
+                    "name": "edu.uci.isr.archstudio4.comp.archipelago.generic.logics.editing.XadlSelectionProviderLogic"
+                },
+                {
+                    "@type": "item",
+                    "name": "edu.uci.isr.archstudio4.comp.archipelago.types.StructureDoubleClickHandler"
+                },
+                {
+                    "@type": "item",
+                    "name": "edu.uci.isr.archstudio4.comp.archipelago.types.TypesTreePlugin"
+                },
+                {
+                    "@type": "item",
+                    "name": "edu.uci.isr.archstudio4.comp.archipelago.activitydiagrams.logics.mapping.MapXadlActionLogic"
+                },
+                {
+                    "@type": "item",
+                    "name": "edu.uci.isr.archstudio4.comp.archipelago.types.TypesRemoveContextMenuFiller"
+                },
+                {
+                    "@type": "item",
+                    "name": "edu.uci.isr.archstudio4.comp.archipelago.statecharts.StatechartsTreeLabelProvider"
+                },
+                {
+                    "@type": "item",
+                    "name": "edu.uci.isr.archstudio4.comp.archipelago.activitydiagrams.ActivityDiagramsNewActivityDiagramContextMenuFiller"
+                },
+                {
+                    "@type": "item",
+                    "name": "edu.uci.isr.archstudio4.comp.archipelago.FolderNodeLabelProvider"
+                },
+                {
+                    "@type": "item",
+                    "name": "edu.uci.isr.archstudio4.comp.archipelago.codegen.BrickContentProvider"
+                },
+                {
+                    "@type": "item",
+                    "name": "edu.uci.isr.archstudio4.comp.archipelago.types.StructureTypeDropLogic"
+                },
+                {
+                    "@type": "item",
+                    "name": "edu.uci.isr.archstudio4.comp.archipelago.types.StructureEditDescriptionContextMenuFiller"
+                },
+                {
+                    "@type": "item",
+                    "name": "edu.uci.isr.archstudio4.comp.archipelago.IArchipelagoEditorPane"
+                },
+                {
+                    "@type": "item",
+                    "name": "edu.uci.isr.archstudio4.comp.archipelago.variants.AddVariantLogic"
+                },
+                {
+                    "@type": "item",
+                    "name": "edu.uci.isr.archstudio4.comp.archipelago.util.AbstractEditDescriptionCellModifier"
+                },
+                {
+                    "@type": "item",
+                    "name": "edu.uci.isr.archstudio4.comp.archipelago.activitydiagrams.ActivityDiagramsFileManagerListener"
+                },
+                {
+                    "@type": "item",
+                    "name": "edu.uci.isr.archstudio4.comp.archipelago.types.StructureTreeLabelProvider"
+                },
+                {
+                    "@type": "item",
+                    "name": "edu.uci.isr.archstudio4.comp.archipelago.codegen.BrickList"
+                },
+                {
+                    "@type": "item",
+                    "name": "edu.uci.isr.archstudio4.comp.archipelago.activitydiagrams.logics.mapping.MapXadlNoteLogic"
+                },
+                {
+                    "@type": "item",
+                    "name": "edu.uci.isr.archstudio4.comp.archipelago.IArchipelagoTreeContentProvider"
+                },
+                {
+                    "@type": "item",
+                    "name": "edu.uci.isr.archstudio4.comp.archipelago.TreeNodeDataCache"
+                },
+                {
+                    "@type": "item",
+                    "name": "edu.uci.isr.archstudio4.comp.archipelago.statecharts.StatechartsEditDescriptionCellModifier"
+                },
+                {
+                    "@type": "item",
+                    "name": "edu.uci.isr.archstudio4.comp.archipelago.IArchipelagoTreePlugin"
+                },
+                {
+                    "@type": "item",
+                    "name": "edu.uci.isr.archstudio4.comp.archipelago.types.StructureFileManagerListener"
+                },
+                {
+                    "@type": "item",
+                    "name": "edu.uci.isr.archstudio4.comp.archipelago.types.TypesCreateSIMLogic"
+                },
+                {
+                    "@type": "item",
+                    "name": "edu.uci.isr.archstudio4.comp.archipelago.activitydiagrams.ActivityDiagramsEditDescriptionCellModifier"
+                },
+                {
+                    "@type": "item",
+                    "name": "edu.uci.isr.archstudio4.comp.archipelago.util.HintSupport"
+                },
+                {
+                    "@type": "item",
+                    "name": "edu.uci.isr.archstudio4.comp.archipelago.types.TypesFileManagerListener"
+                },
+                {
+                    "@type": "item",
+                    "name": "edu.uci.isr.archstudio4.comp.archipelago.statecharts.logics.mapping.MapXadlInitialStateLogic"
+                },
+                {
+                    "@type": "item",
+                    "name": "edu.uci.isr.archstudio4.comp.archipelago.generic.logics.editing.XadlCopyPasteLogic"
+                },
+                {
+                    "@type": "item",
+                    "name": "edu.uci.isr.archstudio4.comp.archipelago.statecharts.StatechartsTreePlugin"
+                },
+                {
+                    "@type": "item",
+                    "name": "edu.uci.isr.archstudio4.comp.archipelago.generic.logics.mapping.MapXadlNondirectionalSplineLogic"
+                },
+                {
+                    "@type": "item",
+                    "name": "edu.uci.isr.archstudio4.comp.archipelago.util.FileDirtyLogic"
+                },
+                {
+                    "@type": "item",
+                    "name": "edu.uci.isr.archstudio4.comp.archipelago.ObjRefTransfer"
+                },
+                {
+                    "@type": "item",
+                    "name": "edu.uci.isr.archstudio4.comp.archipelago.types.StructureEditDescriptionCellModifier"
+                },
+                {
+                    "@type": "item",
+                    "name": "edu.uci.isr.archstudio4.comp.archipelago.RootTreePlugin"
+                },
+                {
+                    "@type": "item",
+                    "name": "edu.uci.isr.archstudio4.comp.archipelago.types.TypesEditDescriptionLogic"
+                },
+                {
+                    "@type": "item",
+                    "name": "edu.uci.isr.archstudio4.comp.archipelago.util.BasicPropertyCoder"
+                },
+                {
+                    "@type": "item",
+                    "name": "edu.uci.isr.archstudio4.comp.archipelago.types.TypesTreeContentProvider"
+                },
+                {
+                    "@type": "item",
+                    "name": "edu.uci.isr.archstudio4.comp.archipelago.activitydiagrams.logic.util.ExportPPTLogic2"
+                },
+                {
+                    "@type": "item",
+                    "name": "edu.uci.isr.archstudio4.comp.archipelago.types.TypesEditDirectionLogic"
+                },
+                {
+                    "@type": "item",
+                    "name": "edu.uci.isr.archstudio4.comp.archipelago.ArchipelagoOutlinePage"
+                },
+                {
+                    "@type": "item",
+                    "name": "edu.uci.isr.archstudio4.comp.archipelago.generic.logics.editing.dialogs.OptionsDialogContentProvider"
+                },
+                {
+                    "@type": "item",
+                    "name": "edu.uci.isr.archstudio4.comp.archipelago.types.TypesEditorSupport"
+                },
+                {
+                    "@type": "item",
+                    "name": "edu.uci.isr.archstudio4.comp.archipelago.codegen.BrickLabel"
+                },
+                {
+                    "@type": "item",
+                    "name": "edu.uci.isr.archstudio4.comp.archipelago.util.InterfaceLocationSyncUtils"
+                },
+                {
+                    "@type": "item",
+                    "name": "edu.uci.isr.archstudio4.comp.archipelago.statecharts.StatechartsFileManagerListener"
+                },
+                {
+                    "@type": "item",
+                    "name": "edu.uci.isr.archstudio4.comp.archipelago.types.StructureNewInterfaceLogic"
+                },
+                {
+                    "@type": "item",
+                    "name": "edu.uci.isr.archstudio4.comp.archipelago.util.AbstractRemoveContextMenuFiller"
+                },
+                {
+                    "@type": "item",
+                    "name": "edu.uci.isr.archstudio4.comp.archipelago.types.StructureTreeContentProvider"
+                },
+                {
+                    "@type": "item",
+                    "name": "edu.uci.isr.archstudio4.comp.archipelago.variants.EditVariantsLogic"
+                },
+                {
+                    "@type": "item",
+                    "name": "edu.uci.isr.archstudio4.comp.archipelago.stateline.StatelineEventListener"
+                },
+                {
+                    "@type": "item",
+                    "name": "edu.uci.isr.archstudio4.comp.archipelago.types.StructureAssignTypeLogic"
+                },
+                {
+                    "@type": "item",
+                    "name": "edu.uci.isr.archstudio4.comp.archipelago.types.TypesTreeLabelProvider"
+                },
+                {
+                    "@type": "item",
+                    "name": "edu.uci.isr.archstudio4.comp.archipelago.activitydiagrams.logics.editing.ActivityDiagramsEditorContextMenuAddDiagramLogic"
+                },
+                {
+                    "@type": "item",
+                    "name": "edu.uci.isr.archstudio4.comp.archipelago.types.StructureHintSupport"
+                },
+                {
+                    "@type": "item",
+                    "name": "edu.uci.isr.archstudio4.comp.archipelago.statecharts.StatechartsTreeContentProvider"
+                },
+                {
+                    "@type": "item",
+                    "name": "edu.uci.isr.archstudio4.comp.archipelago.ArchipelagoServices"
+                },
+                {
+                    "@type": "item",
+                    "name": "edu.uci.isr.archstudio4.comp.archipelago.things.SWTXadlSelectorThingPeer"
+                },
+                {
+                    "@type": "item",
+                    "name": "edu.uci.isr.archstudio4.comp.archipelago.generic.logics.editing.XadlEditDescriptionLogic"
+                },
+                {
+                    "@type": "item",
+                    "name": "edu.uci.isr.archstudio4.comp.archipelago.types.ArchipelagoTypesConstants"
+                },
+                {
+                    "@type": "item",
+                    "name": "edu.uci.isr.archstudio4.comp.archipelago.util.EnumPropertyCoder"
+                },
+                {
+                    "@type": "item",
+                    "name": "edu.uci.isr.archstudio4.comp.archipelago.activitydiagrams.ActivityDiagramsTreeLabelProvider"
+                },
+                {
+                    "@type": "item",
+                    "name": "edu.uci.isr.archstudio4.comp.archipelago.types.TypesTreeDragSourceListener"
+                },
+                {
+                    "@type": "item",
+                    "name": "edu.uci.isr.archstudio4.comp.archipelago.things.SWTXadlSelectorThing"
+                },
+                {
+                    "@type": "item",
+                    "name": "edu.uci.isr.archstudio4.comp.archipelago.generic.logics.coordinating.MaintainXadlLinksLogic"
+                },
+                {
+                    "@type": "item",
+                    "name": "edu.uci.isr.archstudio4.comp.archipelago.stateline.StatelineUtils"
+                },
+                {
+                    "@type": "item",
+                    "name": "edu.uci.isr.archstudio4.comp.archipelago.types.TypesNewTypeContextMenuFiller"
+                },
+                {
+                    "@type": "item",
+                    "name": "edu.uci.isr.archstudio4.comp.archipelago.codegen.BrickSelectorLogic"
+                },
+                {
+                    "@type": "item",
+                    "name": "edu.uci.isr.archstudio4.comp.archipelago.util.ArrayPropertyCoder"
+                },
+                {
+                    "@type": "item",
+                    "name": "edu.uci.isr.archstudio4.comp.archipelago.generic.logics.mapping.AbstractAutomapSingleAssemblyXArchRelativePathMappingLogic"
+                },
+                {
+                    "@type": "item",
+                    "name": "edu.uci.isr.archstudio4.comp.archipelago.util.AbstractTypeDropLogic"
+                },
+                {
+                    "@type": "item",
+                    "name": "edu.uci.isr.archstudio4.comp.archipelago.statecharts.StatechartsNewStatechartContextMenuFiller"
+                },
+                {
+                    "@type": "item",
+                    "name": "edu.uci.isr.archstudio4.comp.archipelago.codegen.EditorUtil"
+                },
+                {
+                    "@type": "item",
+                    "name": "edu.uci.isr.archstudio4.comp.archipelago.stateline.StatelineStructureLogic"
+                },
+                {
+                    "@type": "item",
+                    "name": "edu.uci.isr.archstudio4.comp.archipelago.types.StructureEditDirectionLogic"
+                },
+                {
+                    "@type": "item",
+                    "name": "edu.uci.isr.archstudio4.comp.archipelago.IArchipelagoLabelProvider"
+                },
+                {
+                    "@type": "item",
+                    "name": "edu.uci.isr.archstudio4.comp.archipelago.generic.logics.mapping.MapXadlSplineLogic"
+                },
+                {
+                    "@type": "item",
+                    "name": "edu.uci.isr.archstudio4.comp.archipelago.types.StructureEditDescriptionLogic"
+                },
+                {
+                    "@type": "item",
+                    "name": "edu.uci.isr.archstudio4.comp.archipelago.util.AbstractEditDescriptionLogic"
+                },
+                {
+                    "@type": "item",
+                    "name": "edu.uci.isr.archstudio4.comp.archipelago.util.AbstractEditDirectionLogic"
+                },
+                {
+                    "@type": "item",
+                    "name": "edu.uci.isr.archstudio4.comp.archipelago.FolderNodeTreePlugin"
+                },
+                {
+                    "@type": "item",
+                    "name": "edu.uci.isr.archstudio4.comp.archipelago.util.AbstractEditDescriptionContextMenuFiller"
+                },
+                {
+                    "@type": "item",
+                    "name": "edu.uci.isr.archstudio4.comp.archipelago.types.TypesRemoveTypeSetContextMenuFiller"
+                },
+                {
+                    "@type": "item",
+                    "name": "edu.uci.isr.archstudio4.comp.archipelago.variants.VariantsEventListener"
+                },
+                {
+                    "@type": "item",
+                    "name": "edu.uci.isr.archstudio4.comp.archipelago.activitydiagrams.editorsupport.logics.StructureNewElementLogic"
+                },
+                {
+                    "@type": "item",
+                    "name": "edu.uci.isr.archstudio4.comp.archipelago.generic.logics.hints.XAdlHintRepository"
+                },
+                {
+                    "@type": "item",
+                    "name": "edu.uci.isr.archstudio4.comp.archipelago.AbstractArchipelagoTreePlugin"
+                },
+                {
+                    "@type": "item",
+                    "name": "edu.uci.isr.archstudio4.comp.archipelago.types.TypesDoubleClickHandler"
+                },
+                {
+                    "@type": "item",
+                    "name": "edu.uci.isr.archstudio4.comp.archipelago.types.StructureXArchEventHandler"
+                },
+                {
+                    "@type": "item",
+                    "name": "edu.uci.isr.archstudio4.comp.archipelago.IArchipelagoEventListener"
+                },
+                {
+                    "@type": "item",
+                    "name": "edu.uci.isr.archstudio4.comp.archipelago.types.StructureMapSignatureLogic"
+                },
+                {
+                    "@type": "item",
+                    "name": "edu.uci.isr.archstudio4.comp.archipelago.types.StructureEditColorLogic"
+                },
+                {
+                    "@type": "item",
+                    "name": "edu.uci.isr.archstudio4.comp.archipelago.generic.logics.editing.AlignSignatureInterfaceMappingsLogic"
+                }
+            ]
+        },
+        {
+            "@type": "group",
+            "name": "Meta",
+            "nested": [
+                {
+                    "@type": "item",
+                    "name": "edu.uci.isr.archstudio4.comp.bootstrap.AbstractBootstrapMyxComponent"
+                },
+                {
+                    "@type": "item",
+                    "name": "edu.uci.isr.archstudio4.comp.bootstrap.BootstrapMyxComponent"
+                },
+                {
+                    "@type": "item",
+                    "name": "edu.uci.isr.archstudio4.Bootstrap"
+                },
+                {
+                    "@type": "item",
+                    "name": "edu.uci.isr.archstudio4.Archstudio4Activator"
+                }
+            ]
+        },
+        {
+            "@type": "group",
+            "name": "CopyPasteManager",
+            "nested": [
+                {
+                    "@type": "item",
+                    "name": "edu.uci.isr.archstudio4.comp.copypaste.ObjRefNode"
+                },
+                {
+                    "@type": "item",
+                    "name": "edu.uci.isr.archstudio4.comp.copypaste.RelatedElementNode"
+                },
+                {
+                    "@type": "item",
+                    "name": "edu.uci.isr.archstudio4.comp.copypaste.CopyPasteManagerImpl"
+                },
+                {
+                    "@type": "item",
+                    "name": "edu.uci.isr.archstudio4.comp.copypaste.ICopyPasteManager"
+                },
+                {
+                    "@type": "item",
+                    "name": "edu.uci.isr.archstudio4.comp.copypaste.ICopiedElementNode"
+                },
+                {
+                    "@type": "item",
+                    "name": "edu.uci.isr.archstudio4.comp.copypaste.CopyPasteMyxComponent"
+                }
+            ]
+        },
+        {
+            "@type": "group",
+            "name": "ArchipelagoTypesPrefs",
+            "nested": [
+                {
+                    "@type": "item",
+                    "name": "edu.uci.isr.archstudio4.comp.archipelago.prefs.types.ArchipelagoTypesPrefsMyxComponent"
+                },
+                {
+                    "@type": "item",
+                    "name": "edu.uci.isr.archstudio4.comp.archipelago.prefs.types.ArchipelagoTypesPreferencePanel"
+                }
+            ]
+        },
+        {
+            "@type": "group",
+            "name": "FileTracker",
+            "nested": [
+                {
+                    "@type": "item",
+                    "name": "edu.uci.isr.archstudio4.comp.filetracker.FileTrackerMyxComponent"
+                },
+                {
+                    "@type": "item",
+                    "name": "edu.uci.isr.archstudio4.comp.filetracker.FileTrackerView"
+                }
+            ]
+        },
+        {
+            "@type": "group",
+            "name": "XArchADT",
+            "nested": [
+                {
+                    "@type": "item",
+                    "name": "edu.uci.isr.archstudio4.comp.xarchadt.XArchADTMyxComponent"
+                }
+            ]
+        },
+        {
+            "@type": "group",
+            "name": "ArchlightIssueADT",
+            "nested": [
+                {
+                    "@type": "item",
+                    "name": "edu.uci.isr.archstudio4.comp.archlight.issueadt.ArchlightIssueADTMyxComponent"
+                },
+                {
+                    "@type": "item",
+                    "name": "edu.uci.isr.archstudio4.comp.archlight.issueadt.ArchlightIssueADT"
+                },
+                {
+                    "@type": "item",
+                    "name": "edu.uci.isr.archstudio4.comp.archlight.issueadt.ArchlightIssueADTListener"
+                },
+                {
+                    "@type": "item",
+                    "name": "edu.uci.isr.archstudio4.comp.archlight.issueadt.IArchlightIssueADT"
+                },
+                {
+                    "@type": "item",
+                    "name": "edu.uci.isr.archstudio4.comp.archlight.issueadt.ArchlightIssueADTEvent"
+                }
+            ]
+        },
+        {
+            "@type": "group",
+            "name": "ArchStudioUtils",
+            "nested": [
+                {
+                    "@type": "item",
+                    "name": "edu.uci.isr.archstudio4.natures.ArchStudio4Nature"
+                },
+                {
+                    "@type": "item",
+                    "name": "edu.uci.isr.archstudio4.util.XadlTreeLabelProvider"
+                },
+                {
+                    "@type": "item",
+                    "name": "edu.uci.isr.archstudio4.utils.IHasObjRef"
+                },
+                {
+                    "@type": "item",
+                    "name": "edu.uci.isr.archstudio4.util.XadlTreeUtils"
+                },
+                {
+                    "@type": "item",
+                    "name": "edu.uci.isr.archstudio4.util.ArchstudioResources"
+                },
+                {
+                    "@type": "item",
+                    "name": "edu.uci.isr.archstudio4.util.EclipseUtils"
+                },
+                {
+                    "@type": "item",
+                    "name": "edu.uci.isr.archstudio4.utils.HasObjRefUtil"
+                },
+                {
+                    "@type": "item",
+                    "name": "edu.uci.isr.archstudio4.util.XadlSelectorDialog"
+                },
+                {
+                    "@type": "item",
+                    "name": "edu.uci.isr.archstudio4.util.XadlTreeContentProvider"
+                }
+            ]
+        },
+        {
+            "@type": "group",
+            "name": "Selector",
+            "nested": [
+                {
+                    "@type": "item",
+                    "name": "edu.uci.isr.archstudio4.comp.selector.InvalidURIException"
+                },
+                {
+                    "@type": "item",
+                    "name": "edu.uci.isr.archstudio4.comp.selector.ISelector"
+                },
+                {
+                    "@type": "item",
+                    "name": "edu.uci.isr.archstudio4.comp.pruner.InvalidURIException"
+                },
+                {
+                    "@type": "item",
+                    "name": "edu.uci.isr.archstudio4.comp.versionpruner.InvalidURIException"
+                },
+                {
+                    "@type": "item",
+                    "name": "edu.uci.isr.archstudio4.comp.selector.VariantEvaluationException"
+                },
+                {
+                    "@type": "item",
+                    "name": "edu.uci.isr.archstudio4.comp.selector.BrokenLinkException"
+                },
+                {
+                    "@type": "item",
+                    "name": "edu.uci.isr.archstudio4.comp.pruner.BrokenLinkException"
+                },
+                {
+                    "@type": "item",
+                    "name": "edu.uci.isr.archstudio4.comp.selector.SelectorMyxComponent"
+                },
+                {
+                    "@type": "item",
+                    "name": "edu.uci.isr.archstudio4.comp.selector.SelectorImpl"
+                },
+                {
+                    "@type": "item",
+                    "name": "edu.uci.isr.archstudio4.comp.selector.ElementCollector"
+                }
+            ]
+        },
+        {
+            "@type": "group",
+            "name": "ChangeSetView",
+            "nested": [
+                {
+                    "@type": "item",
+                    "name": "edu.uci.isr.archstudio4.comp.xarchcs.views.changesets.ChangeSetCellModifier"
+                },
+                {
+                    "@type": "item",
+                    "name": "edu.uci.isr.archstudio4.comp.xarchcs.actions.AddVariantRelationshipAction"
+                },
+                {
+                    "@type": "item",
+                    "name": "edu.uci.isr.archstudio4.comp.xarchcs.actions.AddAndRelationshipAction"
+                },
+                {
+                    "@type": "item",
+                    "name": "edu.uci.isr.archstudio4.comp.xarchcs.views.changesets.ChangeSetContentProvider"
+                },
+                {
+                    "@type": "item",
+                    "name": "edu.uci.isr.archstudio4.comp.xarchcs.views.variability.RelationshipColumnLabelProvider"
+                },
+                {
+                    "@type": "item",
+                    "name": "edu.uci.isr.archstudio4.comp.xarchcs.views.changesets.ChangeSetState"
+                },
+                {
+                    "@type": "item",
+                    "name": "edu.uci.isr.archstudio4.comp.xarchcs.actions.AddOrRelationshipAction"
+                },
+                {
+                    "@type": "item",
+                    "name": "edu.uci.isr.archstudio4.comp.xarchcs.views.changesets.ChangeSetViewPart"
+                },
+                {
+                    "@type": "item",
+                    "name": "edu.uci.isr.archstudio4.comp.xarchcs.views.changesets.ChangeSetSorter"
+                },
+                {
+                    "@type": "item",
+                    "name": "edu.uci.isr.archstudio4.comp.xarchcs.views.variability.RelationshipEditingSupport"
+                },
+                {
+                    "@type": "item",
+                    "name": "edu.uci.isr.archstudio4.comp.xarchcs.views.changesets.ChangeSetViewMyxComponent"
+                },
+                {
+                    "@type": "item",
+                    "name": "edu.uci.isr.archstudio4.comp.xarchcs.actions.AddChangeSetAction"
+                },
+                {
+                    "@type": "item",
+                    "name": "edu.uci.isr.archstudio4.comp.xarchcs.views.changesets.ChangeSetLabelProvider"
+                },
+                {
+                    "@type": "item",
+                    "name": "edu.uci.isr.archstudio4.comp.xarchcs.views.variability.VariabilityViewPart"
+                }
+            ]
+        },
+        {
+            "@type": "group",
+            "name": "GraphLayout",
+            "nested": [
+                {
+                    "@type": "item",
+                    "name": "edu.uci.isr.archstudio4.comp.graphlayout.graphviz.DotLayoutEngine"
+                },
+                {
+                    "@type": "item",
+                    "name": "edu.uci.isr.archstudio4.comp.graphlayout.AliasTable"
+                },
+                {
+                    "@type": "item",
+                    "name": "edu.uci.isr.archstudio4.graphlayout.GraphLayoutParameters"
+                },
+                {
+                    "@type": "item",
+                    "name": "edu.uci.isr.archstudio4.comp.graphlayout.GraphLayoutMyxComponent"
+                },
+                {
+                    "@type": "item",
+                    "name": "edu.uci.isr.archstudio4.graphlayout.GraphLayout"
+                },
+                {
+                    "@type": "item",
+                    "name": "edu.uci.isr.archstudio4.graphlayout.gui.DataValidationException"
+                },
+                {
+                    "@type": "item",
+                    "name": "edu.uci.isr.archstudio4.graphlayout.GraphLayoutException"
+                },
+                {
+                    "@type": "item",
+                    "name": "edu.uci.isr.archstudio4.comp.graphlayout.graphviz.AbstractGraphvizLayoutEngine"
+                },
+                {
+                    "@type": "item",
+                    "name": "edu.uci.isr.archstudio4.graphlayout.IGraphLayout"
+                },
+                {
+                    "@type": "item",
+                    "name": "edu.uci.isr.archstudio4.graphlayout.gui.NeatoPanelProvider"
+                },
+                {
+                    "@type": "item",
+                    "name": "edu.uci.isr.archstudio4.graphlayout.gui.SizeAndScaleParameterPanel"
+                },
+                {
+                    "@type": "item",
+                    "name": "edu.uci.isr.archstudio4.graphlayout.gui.GeneralOptionsParameterPanel"
+                },
+                {
+                    "@type": "item",
+                    "name": "edu.uci.isr.archstudio4.graphlayout.gui.DotPanelProvider"
+                },
+                {
+                    "@type": "item",
+                    "name": "edu.uci.isr.archstudio4.graphlayout.gui.DotSpacingParameterPanel"
+                },
+                {
+                    "@type": "item",
+                    "name": "edu.uci.isr.archstudio4.graphlayout.gui.IGraphLayoutParameterPanel"
+                },
+                {
+                    "@type": "item",
+                    "name": "edu.uci.isr.archstudio4.graphlayout.gui.IGraphLayoutParameterPanelProvider"
+                },
+                {
+                    "@type": "item",
+                    "name": "edu.uci.isr.archstudio4.graphlayout.gui.OrientInterfacesParameterPanel"
+                },
+                {
+                    "@type": "item",
+                    "name": "edu.uci.isr.archstudio4.comp.graphlayout.ILayoutEngine"
+                },
+                {
+                    "@type": "item",
+                    "name": "edu.uci.isr.archstudio4.graphlayout.gui.GraphLayoutDialog"
+                }
+            ]
+        },
+        {
+            "@type": "group",
+            "name": "AIM",
+            "nested": [
+                {
+                    "@type": "item",
+                    "name": "edu.uci.isr.archstudio4.comp.aim.AIMImpl"
+                },
+                {
+                    "@type": "item",
+                    "name": "edu.uci.isr.archstudio4.comp.aim.IAIM"
+                },
+                {
+                    "@type": "item",
+                    "name": "edu.uci.isr.archstudio4.comp.aim.AIMMyxComponent"
+                },
+                {
+                    "@type": "item",
+                    "name": "edu.uci.isr.archstudio4.comp.aim.ArchitectureInstantiationException"
+                },
+                {
+                    "@type": "item",
+                    "name": "edu.uci.isr.archstudio4.comp.aim.AbstractAIMMyxComponent"
+                }
+            ]
+        },
+        {
+            "@type": "group",
+            "name": "ChangeSetADT",
+            "nested": [
+                {
+                    "@type": "item",
+                    "name": "edu.uci.isr.archstudio4.comp.xarchcs.changesetadt.resolvers.MultiValueResolver"
+                },
+                {
+                    "@type": "item",
+                    "name": "edu.uci.isr.archstudio4.comp.xarchcs.changesetadt.resolvers.ElementTypeResolver"
+                },
+                {
+                    "@type": "item",
+                    "name": "edu.uci.isr.archstudio4.comp.xarchcs.changesetadt.ChangeSetFlatQueryImpl"
+                },
+                {
+                    "@type": "item",
+                    "name": "edu.uci.isr.archstudio4.comp.xarchcs.changesetadt.resolvers.NoResolver"
+                },
+                {
+                    "@type": "item",
+                    "name": "edu.uci.isr.archstudio4.comp.xarchcs.changesetadt.resolvers.IDResolver"
+                },
+                {
+                    "@type": "item",
+                    "name": "edu.uci.isr.archstudio4.comp.xarchcs.changesetadt.ChangeSetADTImpl"
+                },
+                {
+                    "@type": "item",
+                    "name": "edu.uci.isr.archstudio4.comp.xarchcs.changesetadt.resolvers.ValueResolver"
+                },
+                {
+                    "@type": "item",
+                    "name": "edu.uci.isr.archstudio4.comp.xarchcs.changesetadt.ChangeSetADTMyxComponent"
+                }
+            ]
+        },
+        {
+            "@type": "group",
+            "name": "Pruner",
+            "nested": [
+                {
+                    "@type": "item",
+                    "name": "edu.uci.isr.archstudio4.comp.pruner.InvalidElementIDException"
+                },
+                {
+                    "@type": "item",
+                    "name": "edu.uci.isr.archstudio4.comp.pruner.PrunerMyxComponent"
+                },
+                {
+                    "@type": "item",
+                    "name": "edu.uci.isr.archstudio4.comp.pruner.MissingAttributeException"
+                },
+                {
+                    "@type": "item",
+                    "name": "edu.uci.isr.archstudio4.comp.pruner.MissingElementException"
+                },
+                {
+                    "@type": "item",
+                    "name": "edu.uci.isr.archstudio4.comp.booleaneval.MissingElementException"
+                },
+                {
+                    "@type": "item",
+                    "name": "edu.uci.isr.archstudio4.comp.pruner.IPruner"
+                },
+                {
+                    "@type": "item",
+                    "name": "edu.uci.isr.archstudio4.comp.pruner.PrunerImpl"
+                }
+            ]
+        },
+        {
+            "@type": "group",
+            "name": "XArchDetach",
+            "nested": [
+                {
+                    "@type": "item",
+                    "name": "edu.uci.isr.archstudio4.comp.xarchcs.xarchfakedetach.XArchDetachImpl"
+                },
+                {
+                    "@type": "item",
+                    "name": "edu.uci.isr.archstudio4.comp.xarchcs.xarchfakedetach.XArchDetachMyxComponent"
+                }
+            ]
+        },
+        {
+            "@type": "group",
+            "name": "RationaleView",
+            "nested": [
+                {
+                    "@type": "item",
+                    "name": "edu.uci.isr.archstudio4.rationale.views.RationaleLabelProvider"
+                },
+                {
+                    "@type": "item",
+                    "name": "edu.uci.isr.archstudio4.rationale.views.AssociatedItemsContentProvider"
+                },
+                {
+                    "@type": "item",
+                    "name": "edu.uci.isr.archstudio4.rationale.views.RationaleCellModifier"
+                },
+                {
+                    "@type": "item",
+                    "name": "edu.uci.isr.archstudio4.rationale.views.RationaleViewMyxComponent"
+                },
+                {
+                    "@type": "item",
+                    "name": "edu.uci.isr.archstudio4.rationale.views.RationaleViewPart"
+                },
+                {
+                    "@type": "item",
+                    "name": "edu.uci.isr.archstudio4.rationale.dialog.CustomizedMessageDialog"
+                },
+                {
+                    "@type": "item",
+                    "name": "edu.uci.isr.archstudio4.rationale.views.AssociatedItemsLabelProvider"
+                },
+                {
+                    "@type": "item",
+                    "name": "edu.uci.isr.archstudio4.rationale.views.RationaleContentProvider"
+                },
+                {
+                    "@type": "item",
+                    "name": "edu.uci.isr.archstudio4.rationale.RationaleViewManager"
+                },
+                {
+                    "@type": "item",
+                    "name": "edu.uci.isr.archstudio4.rationale.views.AbstractRationaleViewMyxComponent"
+                },
+                {
+                    "@type": "item",
+                    "name": "edu.uci.isr.archstudio4.rationale.actions.AddRationaleAction"
+                },
+                {
+                    "@type": "item",
+                    "name": "edu.uci.isr.archstudio4.rationale.actions.DeleteRationaleAction"
+                }
+            ]
+        },
+        {
+            "@type": "group",
+            "name": "Archlight",
+            "nested": [
+                {
+                    "@type": "item",
+                    "name": "edu.uci.isr.archstudio4.comp.archlight.ArchlightDocTest"
+                },
+                {
+                    "@type": "item",
+                    "name": "edu.uci.isr.archstudio4.archlight.ArchlightElementIdentifier"
+                },
+                {
+                    "@type": "item",
+                    "name": "edu.uci.isr.archstudio4.comp.archlight.ArchlightEditor"
+                },
+                {
+                    "@type": "item",
+                    "name": "edu.uci.isr.archstudio4.archlight.ArchlightTestError"
+                },
+                {
+                    "@type": "item",
+                    "name": "edu.uci.isr.archstudio4.comp.archlight.DoubleClickAction"
+                },
+                {
+                    "@type": "item",
+                    "name": "edu.uci.isr.archstudio4.comp.archlight.ArchlightUtils"
+                },
+                {
+                    "@type": "item",
+                    "name": "edu.uci.isr.archstudio4.comp.archlight.ArchlightMyxComponent"
+                },
+                {
+                    "@type": "item",
+                    "name": "edu.uci.isr.archstudio4.archlight.ArchlightTest"
+                },
+                {
+                    "@type": "item",
+                    "name": "edu.uci.isr.archstudio4.comp.archlight.FolderNode"
+                },
+                {
+                    "@type": "item",
+                    "name": "edu.uci.isr.archstudio4.comp.archipelago.FolderNode"
+                },
+                {
+                    "@type": "item",
+                    "name": "edu.uci.isr.archstudio4.archlight.ArchlightIssue"
+                },
+                {
+                    "@type": "item",
+                    "name": "edu.uci.isr.archstudio4.comp.archlight.ArchlightOutlinePage"
+                },
+                {
+                    "@type": "item",
+                    "name": "edu.uci.isr.archstudio4.archlight.IArchlightTool"
+                },
+                {
+                    "@type": "item",
+                    "name": "edu.uci.isr.archstudio4.archlight.ArchlightNotice"
+                }
+            ]
+        },
+        {
+            "@type": "group",
+            "name": "FileManager",
+            "nested": [
+                {
+                    "@type": "item",
+                    "name": "edu.uci.isr.archstudio4.comp.fileman.FileManagerMyxComponent"
+                },
+                {
+                    "@type": "item",
+                    "name": "edu.uci.isr.archstudio4.comp.fileman.IFileManagerListener"
+                },
+                {
+                    "@type": "item",
+                    "name": "edu.uci.isr.archstudio4.comp.fileman.NewFileWizard"
+                },
+                {
+                    "@type": "item",
+                    "name": "edu.uci.isr.archstudio4.comp.fileman.IFileManager"
+                },
+                {
+                    "@type": "item",
+                    "name": "edu.uci.isr.archstudio4.comp.fileman.FileManagerView"
+                },
+                {
+                    "@type": "item",
+                    "name": "edu.uci.isr.archstudio4.comp.fileman.CantOpenFileException"
+                }
+            ]
+        },
+        {
+            "@type": "group",
+            "name": "ArchlightPrefs",
+            "nested": [
+                {
+                    "@type": "item",
+                    "name": "edu.uci.isr.archstudio4.comp.archlight.prefs.ArchlightPreferencePanel"
+                },
+                {
+                    "@type": "item",
+                    "name": "edu.uci.isr.archstudio4.comp.archlight.prefs.ArchlightPrefsMyxComponent"
+                }
+            ]
+        },
+        {
+            "@type": "group",
+            "name": "RelatedElements",
+            "nested": [
+                {
+                    "@type": "item",
+                    "name": "edu.uci.isr.archstudio4.comp.relatedelements.RelatedElementsMyxComponent"
+                },
+                {
+                    "@type": "item",
+                    "name": "edu.uci.isr.archstudio4.comp.relatedelements.processors.RelatedRationaleElement"
+                },
+                {
+                    "@type": "item",
+                    "name": "edu.uci.isr.archstudio4.comp.relatedelements.IRelatedElementsProcessor"
+                },
+                {
+                    "@type": "item",
+                    "name": "edu.uci.isr.archstudio4.comp.relatedelements.IRelatedElement"
+                },
+                {
+                    "@type": "item",
+                    "name": "edu.uci.isr.archstudio4.comp.relatedelements.processors.RelatedTypeElementsProcessor"
+                },
+                {
+                    "@type": "item",
+                    "name": "edu.uci.isr.archstudio4.comp.relatedelements.IRelatedElementsManager"
+                },
+                {
+                    "@type": "item",
+                    "name": "edu.uci.isr.archstudio4.comp.relatedelements.processors.RelatedHintedElementsProcessor"
+                },
+                {
+                    "@type": "item",
+                    "name": "edu.uci.isr.archstudio4.comp.relatedelements.processors.RelatedHintedElement"
+                },
+                {
+                    "@type": "item",
+                    "name": "edu.uci.isr.archstudio4.comp.relatedelements.RelatedElementsManagerImpl"
+                },
+                {
+                    "@type": "item",
+                    "name": "edu.uci.isr.archstudio4.comp.relatedelements.processors.RelatedRationaleElementsProcessor"
+                },
+                {
+                    "@type": "item",
+                    "name": "edu.uci.isr.archstudio4.comp.relatedelements.processors.RelatedTypeElement"
+                }
+            ]
+        },
+        {
+            "@type": "group",
+            "name": "TracelinkView",
+            "nested": [
+                {
+                    "@type": "item",
+                    "name": "edu.uci.isr.archstudio4.comp.tracelink.views.LinkAttributeFilterBoxView"
+                },
+                {
+                    "@type": "item",
+                    "name": "edu.uci.isr.archstudio4.comp.tracelink.models.TraceEndpointModel"
+                },
+                {
+                    "@type": "item",
+                    "name": "edu.uci.isr.archstudio4.comp.tracelink.analysis.LinkDiff"
+                },
+                {
+                    "@type": "item",
+                    "name": "edu.uci.isr.archstudio4.comp.tracelink.models.SelectionModel"
+                },
+                {
+                    "@type": "item",
+                    "name": "edu.uci.isr.archstudio4.comp.tracelink.views.IWidget"
+                },
+                {
+                    "@type": "item",
+                    "name": "edu.uci.isr.archstudio4.comp.tracelink.views.LinkTableView"
+                },
+                {
+                    "@type": "item",
+                    "name": "edu.uci.isr.archstudio4.comp.tracelink.models.AbstractDOMBasedTracelinkElementAdapter"
+                },
+                {
+                    "@type": "item",
+                    "name": "edu.uci.isr.archstudio4.comp.tracelink.models.MozillaBrowserHistoryModel"
+                },
+                {
+                    "@type": "item",
+                    "name": "edu.uci.isr.archstudio4.comp.tracelink.models.ITraceEndpointModel"
+                },
+                {
+                    "@type": "item",
+                    "name": "edu.uci.isr.archstudio4.comp.tracelink.preferences.IPreferencesView"
+                },
+                {
+                    "@type": "item",
+                    "name": "edu.uci.isr.archstudio4.comp.tracelink.addtracelinks.RecordLinkView"
+                },
+                {
+                    "@type": "item",
+                    "name": "edu.uci.isr.archstudio4.comp.tracelink.preferences.PreferencesConstants"
+                },
+                {
+                    "@type": "item",
+                    "name": "edu.uci.isr.archstudio4.comp.tracelink.addtracelinks.RecordBrowserHistory_Moz3"
+                },
+                {
+                    "@type": "item",
+                    "name": "edu.uci.isr.archstudio4.comp.tracelink.hypermedia.CodeEditor"
+                },
+                {
+                    "@type": "item",
+                    "name": "edu.uci.isr.archstudio4.comp.tracelink.addtracelinks.RecordBrowserHistory_Moz2"
+                },
+                {
+                    "@type": "item",
+                    "name": "edu.uci.isr.archstudio4.comp.tracelink.controllers.SimpleTracelinkController"
+                },
+                {
+                    "@type": "item",
+                    "name": "edu.uci.isr.archstudio4.comp.tracelink.views.GenericView"
+                },
+                {
+                    "@type": "item",
+                    "name": "edu.uci.isr.archstudio4.comp.tracelink.addtracelinks.ManualLinkView"
+                },
+                {
+                    "@type": "item",
+                    "name": "edu.uci.isr.archstudio4.comp.tracelink.reports.ReportsView"
+                },
+                {
+                    "@type": "item",
+                    "name": "edu.uci.isr.archstudio4.comp.tracelink.models.ITracelinkModel"
+                },
+                {
+                    "@type": "item",
+                    "name": "edu.uci.isr.archstudio4.comp.tracelink.addtracelinks.IManualLinkView"
+                },
+                {
+                    "@type": "item",
+                    "name": "edu.uci.isr.archstudio4.comp.tracelink.models.TracelinkModel"
+                },
+                {
+                    "@type": "item",
+                    "name": "edu.uci.isr.archstudio4.comp.tracelink.views.TracelinkDescriptionView"
+                },
+                {
+                    "@type": "item",
+                    "name": "edu.uci.isr.archstudio4.comp.tracelink.views.layouts.TracelinkSidebarViewPart"
+                },
+                {
+                    "@type": "item",
+                    "name": "edu.uci.isr.archstudio4.comp.tracelink.models.TraceEndpoint"
+                },
+                {
+                    "@type": "item",
+                    "name": "edu.uci.isr.archstudio4.comp.tracelink.controllers.LinkColumnSorterAdapter"
+                },
+                {
+                    "@type": "item",
+                    "name": "edu.uci.isr.archstudio4.comp.tracelink.publishextract.PublishExtractLinkView"
+                },
+                {
+                    "@type": "item",
+                    "name": "edu.uci.isr.archstudio4.comp.tracelink.analysis.SimpleRulePart"
+                },
+                {
+                    "@type": "item",
+                    "name": "edu.uci.isr.archstudio4.comp.tracelink.analysis.IRulePart"
+                },
+                {
+                    "@type": "item",
+                    "name": "edu.uci.isr.archstudio4.comp.tracelink.reports.Criteria"
+                },
+                {
+                    "@type": "item",
+                    "name": "edu.uci.isr.archstudio4.comp.tracelink.addtracelinks.RecoverLinkToolDialog"
+                },
+                {
+                    "@type": "item",
+                    "name": "edu.uci.isr.archstudio4.comp.tracelink.models.IMozillaBrowserHistoryModel"
+                },
+                {
+                    "@type": "item",
+                    "name": "edu.uci.isr.archstudio4.comp.tracelink.reports.ReportCriteriaViewer"
+                },
+                {
+                    "@type": "item",
+                    "name": "edu.uci.isr.archstudio4.comp.tracelink.reports.IReportView"
+                },
+                {
+                    "@type": "item",
+                    "name": "edu.uci.isr.archstudio4.comp.tracelink.analysis.ITracelinkRule"
+                },
+                {
+                    "@type": "item",
+                    "name": "edu.uci.isr.archstudio4.comp.tracelink.analysis.RuleDialog"
+                },
+                {
+                    "@type": "item",
+                    "name": "edu.uci.isr.archstudio4.comp.tracelink.models.SimpleTracelinkElement"
+                },
+                {
+                    "@type": "item",
+                    "name": "edu.uci.isr.archstudio4.comp.tracelink.hypermedia.HypermediaAdapter"
+                },
+                {
+                    "@type": "item",
+                    "name": "edu.uci.isr.archstudio4.comp.tracelink.views.MsgBox"
+                },
+                {
+                    "@type": "item",
+                    "name": "edu.uci.isr.archstudio4.comp.tracelink.views.SimpleTracelinkCellModifier"
+                },
+                {
+                    "@type": "item",
+                    "name": "edu.uci.isr.archstudio4.comp.tracelink.addtracelinks.RecoverLinkInputDialog"
+                },
+                {
+                    "@type": "item",
+                    "name": "edu.uci.isr.archstudio4.comp.tracelink.hypermedia.IHypermediaAdapter"
+                },
+                {
+                    "@type": "item",
+                    "name": "edu.uci.isr.archstudio4.comp.tracelink.models.ISelectionModel"
+                },
+                {
+                    "@type": "item",
+                    "name": "edu.uci.isr.archstudio4.comp.tracelink.controllers.TraceRecorder"
+                },
+                {
+                    "@type": "item",
+                    "name": "edu.uci.isr.archstudio4.comp.tracelink.addtracelinks.IRecoverLinkView"
+                },
+                {
+                    "@type": "item",
+                    "name": "edu.uci.isr.archstudio4.comp.tracelink.models.TraceLink"
+                },
+                {
+                    "@type": "item",
+                    "name": "edu.uci.isr.archstudio4.comp.tracelink.controllers.IXADLFacade"
+                },
+                {
+                    "@type": "item",
+                    "name": "edu.uci.isr.archstudio4.comp.tracelink.TracelinkViewMyxComponent"
+                },
+                {
+                    "@type": "item",
+                    "name": "edu.uci.isr.archstudio4.comp.tracelink.preferences.PreferencesView"
+                },
+                {
+                    "@type": "item",
+                    "name": "edu.uci.isr.archstudio4.comp.tracelink.addtracelinks.OneNormsReader"
+                },
+                {
+                    "@type": "item",
+                    "name": "edu.uci.isr.archstudio4.comp.tracelink.controllers.TracelinkSorter"
+                },
+                {
+                    "@type": "item",
+                    "name": "edu.uci.isr.archstudio4.comp.tracelink.Activator"
+                },
+                {
+                    "@type": "item",
+                    "name": "edu.uci.isr.archstudio4.comp.tracelink.controllers.ITracelinkController"
+                },
+                {
+                    "@type": "item",
+                    "name": "edu.uci.isr.archstudio4.comp.tracelink.models.ITracelinkElement"
+                },
+                {
+                    "@type": "item",
+                    "name": "edu.uci.isr.archstudio4.comp.tracelink.controllers.XADLFacade"
+                },
+                {
+                    "@type": "item",
+                    "name": "edu.uci.isr.archstudio4.comp.tracelink.addtracelinks.RecoverLinkView"
+                },
+                {
+                    "@type": "item",
+                    "name": "edu.uci.isr.archstudio4.comp.tracelink.hypermedia.LinkTest"
+                },
+                {
+                    "@type": "item",
+                    "name": "edu.uci.isr.archstudio4.comp.tracelink.views.SimpleTracelinkContentProvider"
+                },
+                {
+                    "@type": "item",
+                    "name": "edu.uci.isr.archstudio4.comp.tracelink.analysis.SimpleRuleObject"
+                },
+                {
+                    "@type": "item",
+                    "name": "edu.uci.isr.archstudio4.comp.tracelink.views.LinkLabelProvider"
+                },
+                {
+                    "@type": "item",
+                    "name": "edu.uci.isr.archstudio4.comp.tracelink.models.XMLSerializer"
+                },
+                {
+                    "@type": "item",
+                    "name": "edu.uci.isr.archstudio4.comp.tracelink.models.ObjRefTracelinkElementAdapter"
+                },
+                {
+                    "@type": "item",
+                    "name": "edu.uci.isr.archstudio4.comp.tracelink.preferences.PreferencesViewer"
+                },
+                {
+                    "@type": "item",
+                    "name": "edu.uci.isr.archstudio4.comp.tracelink.addtracelinks.IRecordLinkView"
+                },
+                {
+                    "@type": "item",
+                    "name": "edu.uci.isr.archstudio4.comp.tracelink.publishextract.IPublishExtractLinkView"
+                },
+                {
+                    "@type": "item",
+                    "name": "edu.uci.isr.archstudio4.comp.tracelink.publishextract.ExtractViewer"
+                },
+                {
+                    "@type": "item",
+                    "name": "edu.uci.isr.archstudio4.comp.tracelink.views.SimpleTracelinkLabelProvider"
+                },
+                {
+                    "@type": "item",
+                    "name": "edu.uci.isr.archstudio4.comp.tracelink.addtracelinks.ManualLinkInputDialog"
+                }
+            ]
+        },
+        {
+            "@type": "group",
+            "name": "ChangeSetStatusView",
+            "nested": [
+                {
+                    "@type": "item",
+                    "name": "edu.uci.isr.archstudio4.comp.xarchcs.changesetstatusview.ChangeSetStatusViewImpl"
+                },
+                {
+                    "@type": "item",
+                    "name": "edu.uci.isr.archstudio4.comp.xarchcs.changesetstatusview.ChangeSetStatusViewMyxComponent"
+                }
+            ]
+        },
+        {
+            "@type": "group",
+            "name": "GraphLayoutPrefs",
+            "nested": [
+                {
+                    "@type": "item",
+                    "name": "edu.uci.isr.archstudio4.comp.graphlayout.GraphLayoutPrefsMyxComponent"
+                },
+                {
+                    "@type": "item",
+                    "name": "edu.uci.isr.archstudio4.comp.graphlayout.GraphLayoutPreferencePanel"
+                }
+            ]
+        },
+        {
+            "@type": "group",
+            "name": "ArchlightIssueView",
+            "nested": [
+                {
+                    "@type": "item",
+                    "name": "edu.uci.isr.archstudio4.comp.archlight.issueview.ArchlightIssueViewMyxComponent"
+                },
+                {
+                    "@type": "item",
+                    "name": "edu.uci.isr.archstudio4.comp.archlight.issueview.ArchlightIssueView"
+                }
+            ]
+        },
+        {
+            "@type": "group",
+            "name": "ChangeSetRelationshipManager",
+            "nested": [
+                {
+                    "@type": "item",
+                    "name": "edu.uci.isr.archstudio4.comp.xarchcs.changesetrelationshipmanager.ChangeSetRelationshipManagerMyxComponent"
+                },
+                {
+                    "@type": "item",
+                    "name": "edu.uci.isr.archstudio4.comp.xarchcs.changesetrelationshipmanager.RightMergeHandler"
+                },
+                {
+                    "@type": "item",
+                    "name": "edu.uci.isr.archstudio4.comp.xarchcs.changesetrelationshipmanager.MergeKey"
+                },
+                {
+                    "@type": "item",
+                    "name": "edu.uci.isr.archstudio4.comp.xarchcs.changesetrelationshipmanager.ChangeSetRelationshipManagerImpl"
+                },
+                {
+                    "@type": "item",
+                    "name": "edu.uci.isr.archstudio4.comp.xarchcs.changesetrelationshipmanager.RelationshipElement"
+                },
+                {
+                    "@type": "item",
+                    "name": "edu.uci.isr.archstudio4.comp.xarchcs.changesetrelationshipmanager.RationaleElement"
+                },
+                {
+                    "@type": "item",
+                    "name": "edu.uci.isr.archstudio4.comp.xarchcs.changesetrelationshipmanager.MergeKeyAndRelationshipRegistry"
+                },
+                {
+                    "@type": "item",
+                    "name": "edu.uci.isr.archstudio4.comp.xarchcs.changesetrelationshipmanager.LeftMergeHandler"
+                }
+            ]
+        },
+        {
+            "@type": "group",
+            "name": "ChangeSetSync",
+            "nested": [
+                {
+                    "@type": "item",
+                    "name": "edu.uci.isr.archstudio4.comp.xarchcs.changesetsync.ChangeSetSyncImpl"
+                },
+                {
+                    "@type": "item",
+                    "name": "edu.uci.isr.archstudio4.comp.xarchcs.changesetsync.ChangeSetSyncMyxComponent"
+                }
+            ]
+        },
+        {
+            "@type": "group",
+            "name": "Launcher",
+            "nested": [
+                {
+                    "@type": "item",
+                    "name": "edu.uci.isr.archstudio4.comp.launcher.LauncherMyxComponent"
+                },
+                {
+                    "@type": "item",
+                    "name": "edu.uci.isr.archstudio4.launcher.LaunchData"
+                },
+                {
+                    "@type": "item",
+                    "name": "edu.uci.isr.archstudio4.launcher.ILaunchData"
+                },
+                {
+                    "@type": "item",
+                    "name": "edu.uci.isr.archstudio4.launcher.ILaunchable"
+                },
+                {
+                    "@type": "item",
+                    "name": "edu.uci.isr.archstudio4.comp.launcher.LauncherView"
+                }
+            ]
+        },
+        {
+            "@type": "group",
+            "name": "Resources",
+            "nested": [
+                {
+                    "@type": "item",
+                    "name": "edu.uci.isr.archstudio4.comp.resources.ResourcesMyxComponent"
+                },
+                {
+                    "@type": "item",
+                    "name": "edu.uci.isr.archstudio4.comp.resources.IResources"
+                }
+            ]
+        },
+        {
+            "@type": "group",
+            "name": "Schematron",
+            "nested": [
+                {
+                    "@type": "item",
+                    "name": "edu.uci.isr.archstudio4.archlight.ArchlightTestResult"
+                },
+                {
+                    "@type": "item",
+                    "name": "edu.uci.isr.archstudio4.comp.archlight.tools.schematron.SchematronInitializationException"
+                },
+                {
+                    "@type": "item",
+                    "name": "edu.uci.isr.archstudio4.comp.archlight.tools.schematron.SchematronTestException"
+                },
+                {
+                    "@type": "item",
+                    "name": "edu.uci.isr.archstudio4.comp.archlight.tools.schematron.SchematronTestResultParser"
+                },
+                {
+                    "@type": "item",
+                    "name": "edu.uci.isr.archstudio4.comp.archlight.tools.schematron.SchematronMyxComponent"
+                },
+                {
+                    "@type": "item",
+                    "name": "edu.uci.isr.archstudio4.comp.archlight.tools.schematron.SchematronTestFile"
+                },
+                {
+                    "@type": "item",
+                    "name": "edu.uci.isr.archstudio4.comp.archlight.tools.schematron.SchematronTester"
+                },
+                {
+                    "@type": "item",
+                    "name": "edu.uci.isr.archstudio4.comp.archlight.tools.schematron.SchematronTestManager"
+                },
+                {
+                    "@type": "item",
+                    "name": "edu.uci.isr.archstudio4.comp.archlight.tools.schematron.SchematronUtils"
+                },
+                {
+                    "@type": "item",
+                    "name": "edu.uci.isr.archstudio4.comp.archlight.tools.schematron.SchematronTestFileParseException"
+                }
+            ]
+        },
+        {
+            "@type": "group",
+            "name": "ChangeSetIdRelationships",
+            "nested": [
+                {
+                    "@type": "item",
+                    "name": "edu.uci.isr.archstudio4.comp.xarchcs.changesetidrelationships.ChangeSetIdRelationshipsMyxComponent"
+                },
+                {
+                    "@type": "item",
+                    "name": "edu.uci.isr.archstudio4.comp.xarchcs.changesetidrelationships.ChangeSetIdRelationshipsImpl"
+                }
+            ]
+        },
+        {
+            "@type": "group",
+            "name": "TypeWrangler",
+            "nested": [
+                {
+                    "@type": "item",
+                    "name": "edu.uci.isr.archstudio4.comp.typewrangler.TypeWranglerMyxComponent"
+                },
+                {
+                    "@type": "item",
+                    "name": "edu.uci.isr.archstudio4.comp.typewrangler.TypeWranglerEditor"
+                },
+                {
+                    "@type": "item",
+                    "name": "edu.uci.isr.archstudio4.comp.typewrangler.TypeWranglerOutlinePage"
+                }
+            ]
+        },
+        {
+            "@type": "group",
+            "name": "EditorPrefs",
+            "nested": [
+                {
+                    "@type": "item",
+                    "name": "edu.uci.isr.archstudio4.comp.editormanager.EditorPrefsMyxComponent"
+                },
+                {
+                    "@type": "item",
+                    "name": "edu.uci.isr.archstudio4.comp.editormanager.EditorPreferencePanel"
+                }
+            ]
+        },
+        {
+            "@type": "group",
+            "name": "SharedEditorInfrastructure",
+            "nested": [
+                {
+                    "@type": "item",
+                    "name": "edu.uci.isr.archstudio4.editors.AbstractArchstudioEditor"
+                },
+                {
+                    "@type": "item",
+                    "name": "edu.uci.isr.archstudio4.editors.AbstractArchstudioEditorMyxComponent"
+                },
+                {
+                    "@type": "item",
+                    "name": "edu.uci.isr.archstudio4.editors.XadlEditorMatchingStrategy"
+                },
+                {
+                    "@type": "item",
+                    "name": "edu.uci.isr.archstudio4.editors.FocusEditorListener"
+                },
+                {
+                    "@type": "item",
+                    "name": "edu.uci.isr.archstudio4.editors.XadlRootElementContentDescriber"
+                },
+                {
+                    "@type": "item",
+                    "name": "edu.uci.isr.archstudio4.editors.AbstractArchstudioOutlinePage"
+                }
+            ]
+        },
+        {
+            "@type": "group",
+            "name": "BooleanEval",
+            "nested": [
+                {
+                    "@type": "item",
+                    "name": "edu.uci.isr.archstudio4.comp.booleaneval.SymbolTable"
+                },
+                {
+                    "@type": "item",
+                    "name": "edu.uci.isr.archstudio4.comp.booleaneval.IBooleanEval"
+                },
+                {
+                    "@type": "item",
+                    "name": "edu.uci.isr.archstudio4.comp.booleaneval.TypeMismatchException"
+                },
+                {
+                    "@type": "item",
+                    "name": "edu.uci.isr.archstudio4.comp.booleaneval.NoSuchTypeException"
+                },
+                {
+                    "@type": "item",
+                    "name": "edu.uci.isr.archstudio4.comp.booleaneval.TypeParser"
+                },
+                {
+                    "@type": "item",
+                    "name": "edu.uci.isr.archstudio4.comp.booleaneval.BooleanEvalMyxComponent"
+                },
+                {
+                    "@type": "item",
+                    "name": "edu.uci.isr.archstudio4.comp.booleaneval.BooleanEvalImpl"
+                },
+                {
+                    "@type": "item",
+                    "name": "edu.uci.isr.archstudio4.comp.booleaneval.NoSuchVariableException"
+                }
+            ]
+        },
+        {
+            "@type": "group",
+            "name": "BooleanNotation",
+            "nested": [
+                {
+                    "@type": "item",
+                    "name": "edu.uci.isr.archstudio4.comp.booleannotation.IBooleanNotation"
+                },
+                {
+                    "@type": "item",
+                    "name": "edu.uci.isr.archstudio4.comp.booleannotation.BooleanGuardParser"
+                },
+                {
+                    "@type": "item",
+                    "name": "edu.uci.isr.archstudio4.comp.booleannotation.BooleanGuardParserTokenManager"
+                },
+                {
+                    "@type": "item",
+                    "name": "edu.uci.isr.archstudio4.comp.booleannotation.BPLessEqualNode"
+                },
+                {
+                    "@type": "item",
+                    "name": "edu.uci.isr.archstudio4.comp.booleannotation.BPStart"
+                },
+                {
+                    "@type": "item",
+                    "name": "edu.uci.isr.archstudio4.comp.booleannotation.BPUtilities"
+                },
+                {
+                    "@type": "item",
+                    "name": "edu.uci.isr.archstudio4.comp.booleannotation.JJTBooleanGuardParserState"
+                },
+                {
+                    "@type": "item",
+                    "name": "edu.uci.isr.archstudio4.comp.booleannotation.BooleanGuardParserTreeConstants"
+                },
+                {
+                    "@type": "item",
+                    "name": "edu.uci.isr.archstudio4.comp.booleannotation.BooleanNotationMyxComponent"
+                },
+                {
+                    "@type": "item",
+                    "name": "edu.uci.isr.archstudio4.comp.booleannotation.BPLessNode"
+                },
+                {
+                    "@type": "item",
+                    "name": "edu.uci.isr.archstudio4.comp.booleannotation.BPInRangeNode"
+                },
+                {
+                    "@type": "item",
+                    "name": "edu.uci.isr.archstudio4.comp.booleannotation.BooleanGuardParserConstants"
+                },
+                {
+                    "@type": "item",
+                    "name": "edu.uci.isr.archstudio4.comp.booleannotation.BPOrNode"
+                },
+                {
+                    "@type": "item",
+                    "name": "edu.uci.isr.archstudio4.comp.booleannotation.BPNotNode"
+                },
+                {
+                    "@type": "item",
+                    "name": "edu.uci.isr.archstudio4.comp.booleannotation.BPGreaterNode"
+                },
+                {
+                    "@type": "item",
+                    "name": "edu.uci.isr.archstudio4.comp.booleannotation.BPEqualNode"
+                },
+                {
+                    "@type": "item",
+                    "name": "edu.uci.isr.archstudio4.comp.booleannotation.BPGreaterEqualNode"
+                },
+                {
+                    "@type": "item",
+                    "name": "edu.uci.isr.archstudio4.comp.booleannotation.SimpleNode"
+                },
+                {
+                    "@type": "item",
+                    "name": "edu.uci.isr.archstudio4.comp.booleannotation.Node"
+                },
+                {
+                    "@type": "item",
+                    "name": "edu.uci.isr.archstudio4.comp.booleannotation.BPNotEqualNode"
+                },
+                {
+                    "@type": "item",
+                    "name": "edu.uci.isr.archstudio4.comp.booleannotation.BPAndNode"
+                },
+                {
+                    "@type": "item",
+                    "name": "edu.uci.isr.archstudio4.comp.booleannotation.SimpleCharStream"
+                },
+                {
+                    "@type": "item",
+                    "name": "edu.uci.isr.archstudio4.comp.booleannotation.Token"
+                },
+                {
+                    "@type": "item",
+                    "name": "edu.uci.isr.archstudio4.comp.booleannotation.BPInSetNode"
+                },
+                {
+                    "@type": "item",
+                    "name": "edu.uci.isr.archstudio4.comp.booleannotation.ParseException"
+                },
+                {
+                    "@type": "item",
+                    "name": "edu.uci.isr.archstudio4.comp.booleannotation.TokenMgrError"
+                },
+                {
+                    "@type": "item",
+                    "name": "edu.uci.isr.archstudio4.comp.booleannotation.BooleanGuardConverter"
+                }
+            ]
+        },
+        {
+            "@type": "group",
+            "name": "ChangeSetUtils",
+            "nested": [
+                {
+                    "@type": "item",
+                    "name": "edu.uci.isr.archstudio4.comp.xarchcs.ChangeSetUtils"
+                }
+            ]
+        },
+        {
+            "@type": "group",
+            "name": "GuardTracker",
+            "nested": [
+                {
+                    "@type": "item",
+                    "name": "edu.uci.isr.archstudio4.comp.guardtracker.GuardTrackerImpl"
+                },
+                {
+                    "@type": "item",
+                    "name": "edu.uci.isr.archstudio4.comp.guardtracker.IGuardTracker"
+                },
+                {
+                    "@type": "item",
+                    "name": "edu.uci.isr.archstudio4.comp.guardtracker.GuardTrackerMyxComponent"
+                }
+            ]
+        },
+        {
+            "@type": "group",
+            "name": "BasePreferences",
+            "nested": [
+                {
+                    "@type": "item",
+                    "name": "edu.uci.isr.archstudio4.comp.basepreferences.ArchStudioPreferencePanel"
+                },
+                {
+                    "@type": "item",
+                    "name": "edu.uci.isr.archstudio4.comp.basepreferences.BasePreferencesMyxComponent"
+                }
+            ]
+        },
+        {
+            "@type": "group",
+            "name": "ArchipelagoPrefs",
+            "nested": [
+                {
+                    "@type": "item",
+                    "name": "edu.uci.isr.archstudio4.comp.archipelago.prefs.ArchipelagoPrefsMyxComponent"
+                },
+                {
+                    "@type": "item",
+                    "name": "edu.uci.isr.archstudio4.comp.archipelago.prefs.ArchipelagoPreferencePanel"
+                }
+            ]
+        },
+        {
+            "@type": "group",
+            "name": "ArchEdit",
+            "nested": [
+                {
+                    "@type": "item",
+                    "name": "edu.uci.isr.archstudio4.comp.archedit.ArchEditMyxComponent"
+                },
+                {
+                    "@type": "item",
+                    "name": "edu.uci.isr.archstudio4.comp.archedit.ArchEditOutlinePage"
+                },
+                {
+                    "@type": "item",
+                    "name": "edu.uci.isr.archstudio4.comp.archedit.ArchEditEditor"
+                }
+            ]
+        },
+        {
+            "@type": "group",
+            "name": "EditorManager",
+            "nested": [
+                {
+                    "@type": "item",
+                    "name": "edu.uci.isr.archstudio4.comp.editormanager.EditorManagerMyxComponent"
+                },
+                {
+                    "@type": "item",
+                    "name": "edu.uci.isr.archstudio4.editors.IEditorManager"
+                }
+            ]
+        },
+        {
+            "@type": "group",
+            "name": "SelectorDriver",
+            "nested": [
+                {
+                    "@type": "item",
+                    "name": "edu.uci.isr.archstudio4.comp.selectordriver.SelectorDriverMyxComponent"
+                },
+                {
+                    "@type": "item",
+                    "name": "edu.uci.isr.archstudio4.comp.selectordriver.SelectorDriverEditor"
+                },
+                {
+                    "@type": "item",
+                    "name": "edu.uci.isr.archstudio4.comp.selectordriver.SelectorDriverOutlinePage"
+                }
+            ]
+        },
+        {
+            "@type": "group",
+            "name": "ArchlightToolAggregator",
+            "nested": [
+                {
+                    "@type": "item",
+                    "name": "edu.uci.isr.archstudio4.comp.archlight.ArchlightToolAggregatorMyxComponent"
+                }
+            ]
+        },
+        {
+            "@type": "group",
+            "name": "ChangeSetIdView",
+            "nested": [
+                {
+                    "@type": "item",
+                    "name": "edu.uci.isr.archstudio4.comp.xarchcs.changesetidview.IdReferences"
+                },
+                {
+                    "@type": "item",
+                    "name": "edu.uci.isr.archstudio4.comp.xarchcs.changesetidview.ChangeSetIdViewImpl"
+                },
+                {
+                    "@type": "item",
+                    "name": "edu.uci.isr.archstudio4.comp.xarchcs.changesetidview.ChangeSetIdViewMyxComponent"
+                },
+                {
+                    "@type": "item",
+                    "name": "edu.uci.isr.archstudio4.comp.xarchcs.changesetidview.IdCreators"
+                }
+            ]
+        },
+        {
+            "@type": "group",
+            "name": "ExplicitADT",
+            "nested": [
+                {
+                    "@type": "item",
+                    "name": "edu.uci.isr.archstudio4.comp.xarchcs.explicitadt.ExplicitADTImpl"
+                },
+                {
+                    "@type": "item",
+                    "name": "edu.uci.isr.archstudio4.comp.xarchcs.explicitadt.ExplicitADTMyxComponent"
+                }
+            ]
+        },
+        {
+            "@type": "group",
+            "name": "ChangeSetsViewer",
+            "nested": [
+                {
+                    "@type": "item",
+                    "name": "edu.uci.isr.archstudio4.comp.changesetsviewer.ChangeSetsViewerConstants"
+                },
+                {
+                    "@type": "item",
+                    "name": "edu.uci.isr.archstudio4.comp.archipelago.options.OptionsEventListener"
+                },
+                {
+                    "@type": "item",
+                    "name": "edu.uci.isr.archstudio4.comp.archipelago.options.OptionsUtils"
+                },
+                {
+                    "@type": "item",
+                    "name": "edu.uci.isr.archstudio4.comp.archipelago.options.OptionsTreePlugin"
+                },
+                {
+                    "@type": "item",
+                    "name": "edu.uci.isr.archstudio4.comp.changesetsviewer.ChangeSetsViewerOutlinePage"
+                },
+                {
+                    "@type": "item",
+                    "name": "edu.uci.isr.archstudio4.comp.changesetsviewer.ChangeSetsDisplayContentProvider"
+                },
+                {
+                    "@type": "item",
+                    "name": "edu.uci.isr.archstudio4.comp.changesetsviewer.ChangeSetsDisplayLabelProvider"
+                },
+                {
+                    "@type": "item",
+                    "name": "edu.uci.isr.archstudio4.comp.changesetsviewer.ChangeSetsViewerMyxComponent"
+                },
+                {
+                    "@type": "item",
+                    "name": "edu.uci.isr.archstudio4.comp.changesetsviewer.ChangeSetsViewerEditor"
+                },
+                {
+                    "@type": "item",
+                    "name": "edu.uci.isr.archstudio4.comp.archipelago.options.EditOptionalLogic"
+                }
+            ]
+        },
+        {
+            "@type": "group",
+            "name": "AIMEclipse",
+            "nested": [
+                {
+                    "@type": "item",
+                    "name": "edu.uci.isr.archstudio4.comp.aimeclipse.AIMEclipseMyxComponent"
+                },
+                {
+                    "@type": "item",
+                    "name": "edu.uci.isr.archstudio4.comp.aimeclipse.AIMEclipseImpl"
+                },
+                {
+                    "@type": "item",
+                    "name": "edu.uci.isr.archstudio4.comp.aimeclipse.AbstractAIMEclipseMyxComponent"
+                }
+            ]
+        },
+        {
+            "@type": "group",
+            "name": "ArchlightNoticeADT",
+            "nested": [
+                {
+                    "@type": "item",
+                    "name": "edu.uci.isr.archstudio4.comp.archlight.noticeadt.ArchlightNoticeADTListener"
+                },
+                {
+                    "@type": "item",
+                    "name": "edu.uci.isr.archstudio4.comp.archlight.noticeadt.ArchlightNoticeADTMyxComponent"
+                },
+                {
+                    "@type": "item",
+                    "name": "edu.uci.isr.archstudio4.comp.archlight.noticeadt.ArchlightNoticeADTEvent"
+                },
+                {
+                    "@type": "item",
+                    "name": "edu.uci.isr.archstudio4.comp.archlight.noticeadt.ArchlightNoticeADT"
+                },
+                {
+                    "@type": "item",
+                    "name": "edu.uci.isr.archstudio4.comp.archlight.noticeadt.IArchlightNoticeADT"
+                }
+            ]
+        },
+        {
+            "@type": "group",
+            "name": "SchematronPrefs",
+            "nested": [
+                {
+                    "@type": "item",
+                    "name": "edu.uci.isr.archstudio4.comp.archlight.tools.schematron.SchematronPrefsMyxComponent"
+                },
+                {
+                    "@type": "item",
+                    "name": "edu.uci.isr.archstudio4.comp.archlight.tools.schematron.SchematronPreferencePanel"
+                }
+            ]
+        },
+        {
+            "@type": "group",
+            "name": "ChangeSetStatusRelationships",
+            "nested": [
+                {
+                    "@type": "item",
+                    "name": "edu.uci.isr.archstudio4.comp.xarchcs.changesetstatusrelationships.ChangeSetStatusRelationshipsImpl"
+                },
+                {
+                    "@type": "item",
+                    "name": "edu.uci.isr.archstudio4.comp.xarchcs.changesetstatusrelationships.ChangeSetStatusRelationshipsMyxComponent"
+                }
+            ]
+        },
+        {
+            "@type": "group",
+            "name": "XArchChangeSet",
+            "nested": [
+                {
+                    "@type": "item",
+                    "name": "edu.uci.isr.archstudio4.comp.xarchcs.changesetidview.IChangeSetIdView"
+                },
+                {
+                    "@type": "item",
+                    "name": "edu.uci.isr.archstudio4.comp.xarchcs.logics.HighlightChangesInChangeSetViewLogic"
+                },
+                {
+                    "@type": "item",
+                    "name": "edu.uci.isr.archstudio4.comp.xarchcs.xarchcs.XArchChangeSetExplicitFilterMyxConnector"
+                },
+                {
+                    "@type": "item",
+                    "name": "edu.uci.isr.archstudio4.comp.xarchcs.changesetrelationshipmanager.AbstractChangeSetRelationshipMergeHandler"
+                },
+                {
+                    "@type": "item",
+                    "name": "edu.uci.isr.archstudio4.comp.xarchcs.explicitadt.ExplicitADTEvent"
+                },
+                {
+                    "@type": "item",
+                    "name": "edu.uci.isr.archstudio4.comp.xarchcs.changesetutils.OrRelationshipBuilder"
+                },
+                {
+                    "@type": "item",
+                    "name": "edu.uci.isr.archstudio4.comp.xarchcs.xarchfakedetach.XArchDetachListener"
+                },
+                {
+                    "@type": "item",
+                    "name": "edu.uci.isr.archstudio4.comp.xarchcs.views.changesets.ChangeSetStateEvent"
+                },
+                {
+                    "@type": "item",
+                    "name": "edu.uci.isr.archstudio4.comp.xarchcs.changesetidview.ChangeSetIdViewListeners"
+                },
+                {
+                    "@type": "item",
+                    "name": "edu.uci.isr.archstudio4.comp.xarchcs.explicitadt.IExplicitADT"
+                },
+                {
+                    "@type": "item",
+                    "name": "edu.uci.isr.archstudio4.comp.xarchcs.changesetstatusview.ChangeSetStatusViewEvent"
+                },
+                {
+                    "@type": "item",
+                    "name": "edu.uci.isr.archstudio4.comp.xarchcs.eventregulator.XArchCSEventRegulatorConnector"
+                },
+                {
+                    "@type": "item",
+                    "name": "edu.uci.isr.archstudio4.comp.xarchcs.ProgressToChangeSetMonitorWrapper"
+                },
+                {
+                    "@type": "item",
+                    "name": "edu.uci.isr.archstudio4.comp.xarchcs.xarchcs.XArchChangeSetImpl"
+                },
+                {
+                    "@type": "item",
+                    "name": "edu.uci.isr.archstudio4.comp.xarchcs.logics.AnnotateExplicitChangeLogic"
+                },
+                {
+                    "@type": "item",
+                    "name": "edu.uci.isr.archstudio4.comp.xarchcs.xarchcs.XArchChangeSetMyxComponent"
+                },
+                {
+                    "@type": "item",
+                    "name": "edu.uci.isr.archstudio4.comp.xarchcs.xarchcs.XArchChangeSetImplDelegate"
+                },
+                {
+                    "@type": "item",
+                    "name": "edu.uci.isr.archstudio4.comp.xarchcs.views.changesets.conversion.ComparableBooleanGuardConverter"
+                },
+                {
+                    "@type": "item",
+                    "name": "edu.uci.isr.archstudio4.comp.xarchcs.xarchcs.XArchChangeSetUtils"
+                },
+                {
+                    "@type": "item",
+                    "name": "edu.uci.isr.archstudio4.comp.xarchcs.logics.ChangeSetsModifierLogic"
+                },
+                {
+                    "@type": "item",
+                    "name": "edu.uci.isr.archstudio4.comp.xarchcs.views.changesets.IChangeSetStateListener"
+                },
+                {
+                    "@type": "item",
+                    "name": "edu.uci.isr.archstudio4.comp.xarchcs.xarchcs.XArchChangeSetInterface"
+                },
+                {
+                    "@type": "item",
+                    "name": "edu.uci.isr.archstudio4.comp.xarchcs.changesetutils.ChangeSetPathReference"
+                },
+                {
+                    "@type": "item",
+                    "name": "edu.uci.isr.archstudio4.comp.xarchcs.changesetrelationshipmanager.IChangeSetRelationshipManager"
+                },
+                {
+                    "@type": "item",
+                    "name": "edu.uci.isr.archstudio4.comp.xarchcs.changesetidview.IChangeSetIdViewListener"
+                },
+                {
+                    "@type": "item",
+                    "name": "edu.uci.isr.archstudio4.comp.xarchcs.changesetstatusview.IChangeSetStatusViewListener"
+                },
+                {
+                    "@type": "item",
+                    "name": "edu.uci.isr.archstudio4.comp.xarchcs.xarchcs.XArchChangeSetExplicitFilterImpl"
+                },
+                {
+                    "@type": "item",
+                    "name": "edu.uci.isr.archstudio4.comp.xarchcs.explicitadt.ExplicitADTListener"
+                },
+                {
+                    "@type": "item",
+                    "name": "edu.uci.isr.archstudio4.comp.xarchcs.changesetstatusview.ChangeSetStatusViewListeners"
+                },
+                {
+                    "@type": "item",
+                    "name": "edu.uci.isr.archstudio4.comp.xarchcs.eventmanager.IEventManager"
+                },
+                {
+                    "@type": "item",
+                    "name": "edu.uci.isr.archstudio4.comp.xarchcs.xarchcs.XArchChangeSetLegacyFilterMyxConnector"
+                },
+                {
+                    "@type": "item",
+                    "name": "edu.uci.isr.archstudio4.comp.xarchcs.xarchfakedetach.XArchDetachEvent"
+                },
+                {
+                    "@type": "item",
+                    "name": "edu.uci.isr.archstudio4.comp.xarchcs.eventmanager.XArchCSEventManagerConnector"
+                },
+                {
+                    "@type": "item",
+                    "name": "edu.uci.isr.archstudio4.comp.xarchcs.views.changesets.IChangeSetState"
+                },
+                {
+                    "@type": "item",
+                    "name": "edu.uci.isr.archstudio4.comp.xarchcs.XArchCSActivator"
+                },
+                {
+                    "@type": "item",
+                    "name": "edu.uci.isr.archstudio4.comp.xarchcs.changesetadt.IChangeSetADT"
+                },
+                {
+                    "@type": "item",
+                    "name": "edu.uci.isr.archstudio4.comp.xarchcs.changesetadt.resolvers.DoNotResolveElementTypeResolver"
+                },
+                {
+                    "@type": "item",
+                    "name": "edu.uci.isr.archstudio4.comp.xarchcs.changesetrelationshipmanager.IChangeSetRelationshipMergeHandler"
+                },
+                {
+                    "@type": "item",
+                    "name": "edu.uci.isr.archstudio4.comp.xarchcs.actions.IHasXArchRef"
+                },
+                {
+                    "@type": "item",
+                    "name": "edu.uci.isr.archstudio4.comp.xarchcs.xarchfakedetach.XArchDetachFilterImpl"
+                },
+                {
+                    "@type": "item",
+                    "name": "edu.uci.isr.archstudio4.comp.xarchcs.changesetstatusview.IChangeSetStatusView"
+                },
+                {
+                    "@type": "item",
+                    "name": "edu.uci.isr.archstudio4.comp.xarchcs.xarchcs.XArchChangeSetListener"
+                },
+                {
+                    "@type": "item",
+                    "name": "edu.uci.isr.archstudio4.comp.xarchcs.xarchcs.XArchChangeSetEvent"
+                },
+                {
+                    "@type": "item",
+                    "name": "edu.uci.isr.archstudio4.comp.xarchcs.views.changesets.ObjRefTransfer"
+                },
+                {
+                    "@type": "item",
+                    "name": "edu.uci.isr.archstudio4.comp.xarchcs.changesetadt.IObjRefResolver"
+                },
+                {
+                    "@type": "item",
+                    "name": "edu.uci.isr.archstudio4.comp.xarchcs.changesetidview.ChangeSetIdViewEvent"
+                },
+                {
+                    "@type": "item",
+                    "name": "edu.uci.isr.archstudio4.comp.xarchcs.changesetsync.IChangeSetSync"
+                },
+                {
+                    "@type": "item",
+                    "name": "edu.uci.isr.archstudio4.comp.xarchcs.changesetadt.resolvers.AbstractResolver"
+                },
+                {
+                    "@type": "item",
+                    "name": "edu.uci.isr.archstudio4.comp.xarchcs.xarchfakedetach.XArchDetachInterface"
+                },
+                {
+                    "@type": "item",
+                    "name": "edu.uci.isr.archstudio4.comp.xarchcs.changesetidview.WalkChangeSetTreeExample"
+                },
+                {
+                    "@type": "item",
+                    "name": "edu.uci.isr.archstudio4.comp.xarchcs.views.changesets.conversion.CSConverter"
+                },
+                {
+                    "@type": "item",
+                    "name": "edu.uci.isr.archstudio4.comp.xarchcs.views.changesets.MyxViewPart"
+                },
+                {
+                    "@type": "item",
+                    "name": "edu.uci.isr.archstudio4.comp.xarchcs.xarchcs.XArchChangeSetLegacyFilterImpl"
+                }
+            ]
+        },
+        {
+            "@type": "group",
+            "name": "ArchlightTestADT",
+            "nested": [
+                {
+                    "@type": "item",
+                    "name": "edu.uci.isr.archstudio4.comp.archlight.testadt.ArchlightTestADTMyxComponent"
+                },
+                {
+                    "@type": "item",
+                    "name": "edu.uci.isr.archstudio4.comp.archlight.testadt.ArchlightTestADTListener"
+                },
+                {
+                    "@type": "item",
+                    "name": "edu.uci.isr.archstudio4.comp.archlight.testadt.ArchlightTestADTEvent"
+                },
+                {
+                    "@type": "item",
+                    "name": "edu.uci.isr.archstudio4.comp.archlight.testadt.IArchlightTestADT"
+                },
+                {
+                    "@type": "item",
+                    "name": "edu.uci.isr.archstudio4.comp.archlight.testadt.ArchlightTestADT"
+                }
+            ]
+        },
+        {
+            "@type": "group",
+            "name": "PreferencesADT",
+            "nested": [
+                {
+                    "@type": "item",
+                    "name": "edu.uci.isr.archstudio4.comp.preferencesadt.PreferencesADTMyxComponent"
+                }
+            ]
+        },
+        {
+            "@type": "group",
+            "name": "VersionPruner",
+            "nested": [
+                {
+                    "@type": "item",
+                    "name": "edu.uci.isr.archstudio4.comp.versionpruner.IVersionPruner"
+                },
+                {
+                    "@type": "item",
+                    "name": "edu.uci.isr.archstudio4.comp.versionpruner.VersionPrunerMyxComponent"
+                },
+                {
+                    "@type": "item",
+                    "name": "edu.uci.isr.archstudio4.comp.versionpruner.VersionPrunerImpl"
+                }
+            ]
+        },
+        {
+            "@type": "group",
+            "name": "EclipseContentStore",
+            "nested": [
+                {
+                    "@type": "item",
+                    "name": "edu.uci.isr.archstudio4.comp.eclipsecontentstore.EclipseContentStoreMyxComponent"
+                }
+            ]
+        },
+        {
+            "@type": "group",
+            "name": "AIMLauncher",
+            "nested": [
+                {
+                    "@type": "item",
+                    "name": "edu.uci.isr.archstudio4.comp.aimlauncher.AIMLauncherOutlinePage"
+                },
+                {
+                    "@type": "item",
+                    "name": "edu.uci.isr.archstudio4.comp.aimlauncher.AIMLauncherEditor"
+                },
+                {
+                    "@type": "item",
+                    "name": "edu.uci.isr.archstudio4.comp.aimlauncher.AIMLauncherMyxComponent"
+                }
+            ]
+        },
+        {
+            "@type": "group",
+            "name": "ArchlightNoticeView",
+            "nested": [
+                {
+                    "@type": "item",
+                    "name": "edu.uci.isr.archstudio4.comp.archlight.noticeview.ArchlightNoticeViewMyxComponent"
+                },
+                {
+                    "@type": "item",
+                    "name": "edu.uci.isr.archstudio4.comp.archlight.noticeview.ArchlightNoticeView"
+                }
+            ]
+        }
+    ]
+}

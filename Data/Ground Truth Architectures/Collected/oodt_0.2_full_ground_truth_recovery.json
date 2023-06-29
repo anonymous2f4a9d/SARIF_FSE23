@@ -1,0 +1,4900 @@
+{
+    "@schemaVersion": "1.0",
+    "name": "clustering",
+    "structure": [
+        {
+            "@type": "group",
+            "name": "FileMgr.CacheandIngest",
+            "nested": [
+                {
+                    "@type": "item",
+                    "name": "org.apache.oodt.cas.filemgr.ingest.RmiCache"
+                }
+            ]
+        },
+        {
+            "@type": "group",
+            "name": "FileMgr.Query",
+            "nested": [
+                {
+                    "@type": "item",
+                    "name": "org.apache.oodt.cas.filemgr.structs.query.QueryResult"
+                }
+            ]
+        },
+        {
+            "@type": "group",
+            "name": "FileMgr.structs",
+            "nested": [
+                {
+                    "@type": "item",
+                    "name": "org.apache.oodt.cas.filemgr.structs.ProductPage"
+                },
+                {
+                    "@type": "item",
+                    "name": "org.apache.oodt.cas.filemgr.structs.Reference"
+                }
+            ]
+        },
+        {
+            "@type": "group",
+            "name": "FileMgr.repository",
+            "nested": [
+                {
+                    "@type": "item",
+                    "name": "org.apache.oodt.cas.filemgr.repository.XMLRepositoryManagerFactory"
+                }
+            ]
+        },
+        {
+            "@type": "group",
+            "name": "FileMgr.validation",
+            "nested": [
+                {
+                    "@type": "item",
+                    "name": "org.apache.oodt.cas.filemgr.validation.DataSourceValidationLayer"
+                }
+            ]
+        },
+        {
+            "@type": "group",
+            "name": "FileMgr.Exceptions",
+            "nested": [
+                {
+                    "@type": "item",
+                    "name": "org.apache.oodt.cas.filemgr.structs.exceptions.CatalogException"
+                },
+                {
+                    "@type": "item",
+                    "name": "org.apache.oodt.cas.filemgr.structs.exceptions.CacheException"
+                },
+                {
+                    "@type": "item",
+                    "name": "org.apache.oodt.cas.filemgr.structs.exceptions.ConnectionException"
+                },
+                {
+                    "@type": "item",
+                    "name": "org.apache.oodt.cas.filemgr.structs.exceptions.DataTransferException"
+                },
+                {
+                    "@type": "item",
+                    "name": "org.apache.oodt.cas.filemgr.structs.exceptions.IngestException"
+                },
+                {
+                    "@type": "item",
+                    "name": "org.apache.oodt.cas.filemgr.structs.exceptions.QueryFormulationException"
+                },
+                {
+                    "@type": "item",
+                    "name": "org.apache.oodt.cas.filemgr.structs.exceptions.RepositoryManagerException"
+                },
+                {
+                    "@type": "item",
+                    "name": "org.apache.oodt.cas.filemgr.structs.exceptions.ValidationLayerException"
+                },
+                {
+                    "@type": "item",
+                    "name": "org.apache.oodt.cas.filemgr.structs.exceptions.VersioningException"
+                }
+            ]
+        },
+        {
+            "@type": "group",
+            "name": "FileMgr.tools.ProductTypeDocTool",
+            "nested": [
+                {
+                    "@type": "item",
+                    "name": "org.apache.oodt.cas.filemgr.tools.ProductTypeDocTool"
+                }
+            ]
+        },
+        {
+            "@type": "group",
+            "name": "FileMgr.tools.OptimizeLuceneCatalog",
+            "nested": [
+                {
+                    "@type": "item",
+                    "name": "org.apache.oodt.cas.filemgr.tools.OptimizeLuceneCatalog"
+                }
+            ]
+        },
+        {
+            "@type": "group",
+            "name": "FileMgr.tools.DumpDbElementsToXml",
+            "nested": [
+                {
+                    "@type": "item",
+                    "name": "org.apache.oodt.cas.filemgr.tools.DumpDbElementsToXml"
+                }
+            ]
+        },
+        {
+            "@type": "group",
+            "name": "FileMgr.tools.CASAnalyzer",
+            "nested": [
+                {
+                    "@type": "item",
+                    "name": "org.apache.oodt.cas.filemgr.tools.CASAnalyzer"
+                }
+            ]
+        },
+        {
+            "@type": "group",
+            "name": "FileMgr.UtilityClasses",
+            "nested": [
+                {
+                    "@type": "item",
+                    "name": "org.apache.oodt.cas.filemgr.util.DbStructFactory"
+                },
+                {
+                    "@type": "item",
+                    "name": "org.apache.oodt.cas.filemgr.util.GenericFileManagerObjectFactory"
+                },
+                {
+                    "@type": "item",
+                    "name": "org.apache.oodt.cas.filemgr.util.QueryUtils"
+                },
+                {
+                    "@type": "item",
+                    "name": "org.apache.oodt.cas.filemgr.util.SqlParser"
+                },
+                {
+                    "@type": "item",
+                    "name": "org.apache.oodt.cas.filemgr.util.XmlRpcStructFactory"
+                },
+                {
+                    "@type": "item",
+                    "name": "org.apache.oodt.cas.filemgr.util.XmlStructFactory"
+                }
+            ]
+        },
+        {
+            "@type": "group",
+            "name": "FileMgr.Validation",
+            "nested": [
+                {
+                    "@type": "item",
+                    "name": "org.apache.oodt.cas.filemgr.validation.ValidationLayerFactory"
+                },
+                {
+                    "@type": "item",
+                    "name": "org.apache.oodt.cas.filemgr.validation.XMLValidationLayerFactory"
+                },
+                {
+                    "@type": "item",
+                    "name": "org.apache.oodt.cas.filemgr.validation.DataSourceValidationLayerFactory"
+                }
+            ]
+        },
+        {
+            "@type": "group",
+            "name": "FileMgr.Versioning",
+            "nested": [
+                {
+                    "@type": "item",
+                    "name": "org.apache.oodt.cas.filemgr.versioning.Versioner"
+                },
+                {
+                    "@type": "item",
+                    "name": "org.apache.oodt.cas.filemgr.versioning.InPlaceVersioner"
+                },
+                {
+                    "@type": "item",
+                    "name": "org.apache.oodt.cas.filemgr.versioning.SingleFileBasicVersioner"
+                },
+                {
+                    "@type": "item",
+                    "name": "org.apache.oodt.cas.filemgr.versioning.MetadataBasedFileVersioner"
+                },
+                {
+                    "@type": "item",
+                    "name": "org.apache.oodt.cas.filemgr.versioning.BasicVersioner"
+                },
+                {
+                    "@type": "item",
+                    "name": "org.apache.oodt.cas.filemgr.versioning.DateTimeVersioner"
+                },
+                {
+                    "@type": "item",
+                    "name": "org.apache.oodt.cas.filemgr.versioning.VersioningUtils"
+                },
+                {
+                    "@type": "item",
+                    "name": "org.apache.oodt.cas.filemgr.structs.query.QueryResultComparator"
+                }
+            ]
+        },
+        {
+            "@type": "group",
+            "name": "FileMgr.structs.query.filter",
+            "nested": [
+                {
+                    "@type": "item",
+                    "name": "org.apache.oodt.cas.filemgr.structs.query.filter.TimeEvent"
+                },
+                {
+                    "@type": "item",
+                    "name": "org.apache.oodt.cas.filemgr.structs.query.filter.ObjectTimeEvent"
+                }
+            ]
+        },
+        {
+            "@type": "group",
+            "name": "FileMgr.system.auth",
+            "nested": [
+                {
+                    "@type": "item",
+                    "name": "org.apache.oodt.cas.filemgr.system.auth.Dispatcher"
+                },
+                {
+                    "@type": "item",
+                    "name": "org.apache.oodt.cas.filemgr.system.auth.SecureWebServer"
+                }
+            ]
+        },
+        {
+            "@type": "group",
+            "name": "FileMgr.metadata",
+            "nested": [
+                {
+                    "@type": "item",
+                    "name": "org.apache.oodt.cas.filemgr.metadata.ProductMetKeys"
+                }
+            ]
+        },
+        {
+            "@type": "group",
+            "name": "FileMgr.metadata.extractors",
+            "nested": [
+                {
+                    "@type": "item",
+                    "name": "org.apache.oodt.cas.filemgr.metadata.extractors.FilemgrMetExtractor"
+                },
+                {
+                    "@type": "item",
+                    "name": "org.apache.oodt.cas.filemgr.metadata.extractors.CoreMetExtractor"
+                },
+                {
+                    "@type": "item",
+                    "name": "org.apache.oodt.cas.filemgr.metadata.extractors.AbstractFilemgrMetExtractor"
+                },
+                {
+                    "@type": "item",
+                    "name": "org.apache.oodt.cas.filemgr.structs.Element"
+                }
+            ]
+        },
+        {
+            "@type": "group",
+            "name": "FileMgr.datatransfer",
+            "nested": [
+                {
+                    "@type": "item",
+                    "name": "org.apache.oodt.cas.filemgr.datatransfer.DataTransferFactory"
+                },
+                {
+                    "@type": "item",
+                    "name": "org.apache.oodt.cas.filemgr.datatransfer.InPlaceDataTransferFactory"
+                },
+                {
+                    "@type": "item",
+                    "name": "org.apache.oodt.cas.filemgr.datatransfer.LocalDataTransferFactory"
+                },
+                {
+                    "@type": "item",
+                    "name": "org.apache.oodt.cas.filemgr.datatransfer.RemoteDataTransferFactory"
+                }
+            ]
+        },
+        {
+            "@type": "group",
+            "name": "FileMgr.ingest",
+            "nested": [
+                {
+                    "@type": "item",
+                    "name": "org.apache.oodt.cas.filemgr.ingest.CacheFactory"
+                },
+                {
+                    "@type": "item",
+                    "name": "org.apache.oodt.cas.filemgr.ingest.AbstractCacheServerFactory"
+                },
+                {
+                    "@type": "item",
+                    "name": "org.apache.oodt.cas.filemgr.ingest.LocalCacheFactory"
+                },
+                {
+                    "@type": "item",
+                    "name": "org.apache.oodt.cas.filemgr.ingest.RmiCacheFactory"
+                },
+                {
+                    "@type": "item",
+                    "name": "org.apache.oodt.cas.filemgr.repository.RepositoryManagerFactory"
+                },
+                {
+                    "@type": "item",
+                    "name": "org.apache.oodt.cas.filemgr.repository.DataSourceRepositoryManagerFactory"
+                }
+            ]
+        },
+        {
+            "@type": "group",
+            "name": "FileMgr.structs.type",
+            "nested": [
+                {
+                    "@type": "item",
+                    "name": "org.apache.oodt.cas.filemgr.structs.type.TypeHandler"
+                },
+                {
+                    "@type": "item",
+                    "name": "org.apache.oodt.cas.filemgr.ingest.RmiCacheServerFactory"
+                },
+                {
+                    "@type": "item",
+                    "name": "org.apache.oodt.cas.filemgr.structs.FileTransferStatus"
+                },
+                {
+                    "@type": "item",
+                    "name": "org.apache.oodt.cas.filemgr.structs.ProductType"
+                },
+                {
+                    "@type": "item",
+                    "name": "org.apache.oodt.cas.filemgr.structs.type.ValueReplaceTypeHandler"
+                },
+                {
+                    "@type": "item",
+                    "name": "org.apache.oodt.cas.filemgr.structs.ExtractorSpec"
+                },
+                {
+                    "@type": "item",
+                    "name": "org.apache.oodt.cas.filemgr.structs.Product"
+                }
+            ]
+        },
+        {
+            "@type": "group",
+            "name": "FileMgr.structs.type.examples",
+            "nested": [
+                {
+                    "@type": "item",
+                    "name": "org.apache.oodt.cas.filemgr.structs.type.examples.MajorMinorVersionTypeHandler"
+                },
+                {
+                    "@type": "item",
+                    "name": "org.apache.oodt.cas.filemgr.system.auth.Result"
+                },
+                {
+                    "@type": "item",
+                    "name": "org.apache.oodt.cas.filemgr.structs.Query"
+                },
+                {
+                    "@type": "item",
+                    "name": "org.apache.oodt.cas.filemgr.structs.TermQueryCriteria"
+                },
+                {
+                    "@type": "item",
+                    "name": "org.apache.oodt.cas.filemgr.structs.BooleanQueryCriteria"
+                },
+                {
+                    "@type": "item",
+                    "name": "org.apache.oodt.cas.filemgr.structs.query.ComplexQuery"
+                },
+                {
+                    "@type": "item",
+                    "name": "org.apache.oodt.cas.filemgr.structs.query.conv.AsciiSortableVersionConverter"
+                },
+                {
+                    "@type": "item",
+                    "name": "org.apache.oodt.cas.filemgr.structs.QueryCriteria"
+                },
+                {
+                    "@type": "item",
+                    "name": "org.apache.oodt.cas.filemgr.structs.FreeTextQueryCriteria"
+                },
+                {
+                    "@type": "item",
+                    "name": "org.apache.oodt.cas.filemgr.structs.query.QueryFilter"
+                },
+                {
+                    "@type": "item",
+                    "name": "org.apache.oodt.cas.filemgr.structs.query.conv.VersionConverter"
+                },
+                {
+                    "@type": "item",
+                    "name": "org.apache.oodt.cas.filemgr.structs.query.filter.FilterAlgor"
+                },
+                {
+                    "@type": "item",
+                    "name": "org.apache.oodt.cas.filemgr.structs.RangeQueryCriteria"
+                },
+                {
+                    "@type": "item",
+                    "name": "org.apache.oodt.cas.filemgr.ingest.RemoteableCache"
+                },
+                {
+                    "@type": "item",
+                    "name": "org.apache.oodt.cas.filemgr.ingest.LocalCache"
+                },
+                {
+                    "@type": "item",
+                    "name": "org.apache.oodt.cas.filemgr.ingest.CmdLineIngester"
+                },
+                {
+                    "@type": "item",
+                    "name": "org.apache.oodt.cas.filemgr.ingest.StdIngester"
+                }
+            ]
+        },
+        {
+            "@type": "group",
+            "name": "FileMgr.system.XmlRpcFileManagerClient",
+            "nested": [
+                {
+                    "@type": "item",
+                    "name": "org.apache.oodt.cas.filemgr.system.XmlRpcFileManagerClient"
+                },
+                {
+                    "@type": "item",
+                    "name": "org.apache.oodt.cas.filemgr.ingest.RmiCacheServer"
+                },
+                {
+                    "@type": "item",
+                    "name": "org.apache.oodt.cas.filemgr.ingest.CachedIngester"
+                },
+                {
+                    "@type": "item",
+                    "name": "org.apache.oodt.cas.filemgr.metadata.CoreMetKeys"
+                },
+                {
+                    "@type": "item",
+                    "name": "org.apache.oodt.cas.filemgr.ingest.Ingester"
+                },
+                {
+                    "@type": "item",
+                    "name": "org.apache.oodt.cas.filemgr.ingest.Cache"
+                }
+            ]
+        },
+        {
+            "@type": "group",
+            "name": "FileMgr.Catalog",
+            "nested": [
+                {
+                    "@type": "item",
+                    "name": "org.apache.oodt.cas.catalog.system.Catalog"
+                },
+                {
+                    "@type": "item",
+                    "name": "org.apache.oodt.cas.filemgr.catalog.MappedDataSourceCatalog"
+                },
+                {
+                    "@type": "item",
+                    "name": "org.apache.oodt.cas.filemgr.validation.ValidationLayer"
+                },
+                {
+                    "@type": "item",
+                    "name": "org.apache.oodt.cas.catalog.system.CatalogFactory"
+                },
+                {
+                    "@type": "item",
+                    "name": "org.apache.oodt.cas.filemgr.catalog.LuceneCatalogFactory"
+                },
+                {
+                    "@type": "item",
+                    "name": "org.apache.oodt.cas.filemgr.catalog.MappedDataSourceCatalogFactory"
+                }
+            ]
+        },
+        {
+            "@type": "group",
+            "name": "FileMgr.system.XmlRpcFileManager",
+            "nested": [
+                {
+                    "@type": "item",
+                    "name": "org.apache.oodt.cas.filemgr.system.XmlRpcFileManager"
+                },
+                {
+                    "@type": "item",
+                    "name": "org.apache.oodt.cas.filemgr.datatransfer.InPlaceDataTransferer"
+                },
+                {
+                    "@type": "item",
+                    "name": "org.apache.oodt.cas.filemgr.datatransfer.RemoteDataTransferer"
+                },
+                {
+                    "@type": "item",
+                    "name": "org.apache.oodt.cas.filemgr.repository.DataTransfer"
+                },
+                {
+                    "@type": "item",
+                    "name": "org.apache.oodt.cas.filemgr.repository.DataSourceRepositoryManager"
+                },
+                {
+                    "@type": "item",
+                    "name": "org.apache.oodt.cas.filemgr.repository.XMLRepositoryManager"
+                },
+                {
+                    "@type": "item",
+                    "name": "org.apache.oodt.cas.filemgr.datatransfer.TransferStatusTracker"
+                },
+                {
+                    "@type": "item",
+                    "name": "org.apache.oodt.cas.filemgr.catalog.DataSourceCatalog"
+                },
+                {
+                    "@type": "item",
+                    "name": "org.apache.oodt.cas.filemgr.util.Pagination"
+                },
+                {
+                    "@type": "item",
+                    "name": "org.apache.oodt.cas.filemgr.validation.XMLValidationLayer"
+                },
+                {
+                    "@type": "item",
+                    "name": "org.apache.oodt.cas.filemgr.catalog.DataSourceCatalogFactory"
+                },
+                {
+                    "@type": "item",
+                    "name": "org.apache.oodt.cas.filemgr.datatransfer.LocalDataTransferer"
+                },
+                {
+                    "@type": "item",
+                    "name": "org.apache.oodt.cas.filemgr.repository.RepositoryManager"
+                },
+                {
+                    "@type": "item",
+                    "name": "org.apache.oodt.cas.filemgr.catalog.LuceneCatalog"
+                }
+            ]
+        },
+        {
+            "@type": "group",
+            "name": "FileMgr.CatalogSearch",
+            "nested": [
+                {
+                    "@type": "item",
+                    "name": "org.apache.oodt.cas.filemgr.tools.CatalogSearch"
+                }
+            ]
+        },
+        {
+            "@type": "group",
+            "name": "FileMgr.DeleteProduct",
+            "nested": [
+                {
+                    "@type": "item",
+                    "name": "org.apache.oodt.cas.filemgr.tools.DeleteProduct"
+                }
+            ]
+        },
+        {
+            "@type": "group",
+            "name": "FileMgr.ExpImpCatalog",
+            "nested": [
+                {
+                    "@type": "item",
+                    "name": "org.apache.oodt.cas.filemgr.tools.ExpImpCatalog"
+                }
+            ]
+        },
+        {
+            "@type": "group",
+            "name": "FileMgr.Metadata-BasedProductMover",
+            "nested": [
+                {
+                    "@type": "item",
+                    "name": "org.apache.oodt.cas.filemgr.tools.MetadataBasedProductMover"
+                },
+                {
+                    "@type": "item",
+                    "name": "org.apache.oodt.cas.filemgr.system.XmlRpcFileManagerClient"
+                }
+            ]
+        },
+        {
+            "@type": "group",
+            "name": "FileMgr.ProductDumper",
+            "nested": [
+                {
+                    "@type": "item",
+                    "name": "org.apache.oodt.cas.filemgr.tools.ProductDumper"
+                }
+            ]
+        },
+        {
+            "@type": "group",
+            "name": "FileMgr.MetadataDumper",
+            "nested": [
+                {
+                    "@type": "item",
+                    "name": "org.apache.oodt.cas.filemgr.tools.MetadataDumper"
+                }
+            ]
+        },
+        {
+            "@type": "group",
+            "name": "FileMgr.QueryTool",
+            "nested": [
+                {
+                    "@type": "item",
+                    "name": "org.apache.oodt.cas.filemgr.tools.QueryTool"
+                }
+            ]
+        },
+        {
+            "@type": "group",
+            "name": "FileMgr.XmlRpcFileMgrBrowser",
+            "nested": [
+                {
+                    "@type": "item",
+                    "name": "org.apache.oodt.cas.filemgr.browser.system.XmlRpcFilemgrBrowser"
+                }
+            ]
+        },
+        {
+            "@type": "group",
+            "name": "FileManagerBrowser.ViewPanels",
+            "nested": [
+                {
+                    "@type": "item",
+                    "name": "org.apache.oodt.cas.filemgr.browser.view.panels.QueryField"
+                },
+                {
+                    "@type": "item",
+                    "name": "org.apache.oodt.cas.filemgr.browser.view.panels.HeaderCell"
+                },
+                {
+                    "@type": "item",
+                    "name": "org.apache.oodt.cas.filemgr.browser.view.panels.QueryPane"
+                },
+                {
+                    "@type": "item",
+                    "name": "org.apache.oodt.cas.filemgr.browser.view.panels.Row"
+                },
+                {
+                    "@type": "item",
+                    "name": "org.apache.oodt.cas.filemgr.browser.view.panels.TablePane"
+                },
+                {
+                    "@type": "item",
+                    "name": "org.apache.oodt.cas.filemgr.browser.view.panels.BottomPane"
+                },
+                {
+                    "@type": "item",
+                    "name": "org.apache.oodt.cas.filemgr.browser.view.panels.Cell"
+                },
+                {
+                    "@type": "item",
+                    "name": "org.apache.oodt.cas.filemgr.browser.view.panels.MiddlePane"
+                },
+                {
+                    "@type": "item",
+                    "name": "org.apache.oodt.cas.filemgr.browser.view.panels.HeaderRow"
+                },
+                {
+                    "@type": "item",
+                    "name": "org.apache.oodt.cas.filemgr.browser.view.panels.HeaderSpacer"
+                }
+            ]
+        },
+        {
+            "@type": "group",
+            "name": "FileManagerBrowser.MainView",
+            "nested": [
+                {
+                    "@type": "item",
+                    "name": "org.apache.oodt.cas.filemgr.browser.view.GuiParams"
+                },
+                {
+                    "@type": "item",
+                    "name": "org.apache.oodt.cas.filemgr.browser.view.MainWindow"
+                }
+            ]
+        },
+        {
+            "@type": "group",
+            "name": "FileManagerBrowser.ViewPrompts",
+            "nested": [
+                {
+                    "@type": "item",
+                    "name": "org.apache.oodt.cas.filemgr.browser.view.prompts.QueryBuilderPrompt"
+                },
+                {
+                    "@type": "item",
+                    "name": "org.apache.oodt.cas.filemgr.browser.view.prompts.ConnectPrompt"
+                },
+                {
+                    "@type": "item",
+                    "name": "org.apache.oodt.cas.filemgr.browser.view.prompts.SortPrompt"
+                }
+            ]
+        },
+        {
+            "@type": "group",
+            "name": "FileManagerBrowser.ViewMenus",
+            "nested": [
+                {
+                    "@type": "item",
+                    "name": "org.apache.oodt.cas.filemgr.browser.view.menus.MenuBar"
+                },
+                {
+                    "@type": "item",
+                    "name": "org.apache.oodt.cas.filemgr.browser.view.menus.RightClickMenu"
+                }
+            ]
+        },
+        {
+            "@type": "group",
+            "name": "FileManagerBrowser.Controller",
+            "nested": [
+                {
+                    "@type": "item",
+                    "name": "org.apache.oodt.cas.filemgr.browser.controller.TableListener"
+                },
+                {
+                    "@type": "item",
+                    "name": "org.apache.oodt.cas.filemgr.browser.controller.WindowListener"
+                }
+            ]
+        },
+        {
+            "@type": "group",
+            "name": "FileManagerBrowser.Model",
+            "nested": [
+                {
+                    "@type": "item",
+                    "name": "org.apache.oodt.cas.filemgr.browser.model.QueryBuilder"
+                },
+                {
+                    "@type": "item",
+                    "name": "org.apache.oodt.cas.filemgr.browser.model.CasDB"
+                },
+                {
+                    "@type": "item",
+                    "name": "org.apache.oodt.cas.filemgr.browser.model.Results"
+                }
+            ]
+        },
+        {
+            "@type": "group",
+            "name": "Commons.ConfiguredTestCase",
+            "nested": [
+                {
+                    "@type": "item",
+                    "name": "org.apache.oodt.commons.ConfiguredTestCase"
+                }
+            ]
+        },
+        {
+            "@type": "group",
+            "name": "Commons.ExecServerConfig",
+            "nested": [
+                {
+                    "@type": "item",
+                    "name": "org.apache.oodt.commons.ConfigurationEntityResolver"
+                },
+                {
+                    "@type": "item",
+                    "name": "org.apache.oodt.commons.Executable"
+                },
+                {
+                    "@type": "item",
+                    "name": "org.apache.oodt.commons.ExecServerConfig"
+                },
+                {
+                    "@type": "item",
+                    "name": "org.apache.oodt.commons.util.Documentable"
+                }
+            ]
+        },
+        {
+            "@type": "group",
+            "name": "Commons.Configuration",
+            "nested": [
+                {
+                    "@type": "item",
+                    "name": "org.apache.oodt.commons.Configuration"
+                }
+            ]
+        },
+        {
+            "@type": "group",
+            "name": "Commons.MultiServer",
+            "nested": [
+                {
+                    "@type": "item",
+                    "name": "org.apache.oodt.commons.Initializer"
+                },
+                {
+                    "@type": "item",
+                    "name": "org.apache.oodt.commons.MultiServer"
+                },
+                {
+                    "@type": "item",
+                    "name": "org.apache.oodt.commons.ExecServer"
+                },
+                {
+                    "@type": "item",
+                    "name": "org.apache.oodt.commons.EDAException"
+                }
+            ]
+        },
+        {
+            "@type": "group",
+            "name": "Commons.StorageService",
+            "nested": [
+                {
+                    "@type": "item",
+                    "name": "org.apache.oodt.commons.activity.StandardOutputStorage"
+                },
+                {
+                    "@type": "item",
+                    "name": "org.apache.oodt.commons.activity.NullStorage"
+                },
+                {
+                    "@type": "item",
+                    "name": "org.apache.oodt.commons.activity.XMLStorage"
+                },
+                {
+                    "@type": "item",
+                    "name": "org.apache.oodt.commons.activity.XMLStandardOutputStorage"
+                },
+                {
+                    "@type": "item",
+                    "name": "org.apache.oodt.commons.activity.WriterStorage"
+                },
+                {
+                    "@type": "item",
+                    "name": "org.apache.oodt.commons.activity.SQLDatabaseStorage"
+                },
+                {
+                    "@type": "item",
+                    "name": "org.apache.oodt.commons.activity.Storage"
+                }
+            ]
+        },
+        {
+            "@type": "group",
+            "name": "Commons.ProgramExecution",
+            "nested": [
+                {
+                    "@type": "item",
+                    "name": "org.apache.oodt.commons.exec.ExecUtils"
+                },
+                {
+                    "@type": "item",
+                    "name": "org.apache.oodt.commons.exec.ExecHelper"
+                },
+                {
+                    "@type": "item",
+                    "name": "org.apache.oodt.commons.exec.StreamGobbler"
+                },
+                {
+                    "@type": "item",
+                    "name": "org.apache.oodt.commons.exec.EnvUtilities"
+                }
+            ]
+        },
+        {
+            "@type": "group",
+            "name": "Commons.ActivityTrackingandFactories",
+            "nested": [
+                {
+                    "@type": "item",
+                    "name": "org.apache.oodt.commons.activity.ActivityTracker"
+                },
+                {
+                    "@type": "item",
+                    "name": "org.apache.oodt.commons.activity.ActivityFactory"
+                },
+                {
+                    "@type": "item",
+                    "name": "org.apache.oodt.commons.activity.DatagramLoggingActivityFactory"
+                },
+                {
+                    "@type": "item",
+                    "name": "org.apache.oodt.commons.activity.CompositeActivity"
+                },
+                {
+                    "@type": "item",
+                    "name": "org.apache.oodt.commons.activity.NullActivity"
+                }
+            ]
+        },
+        {
+            "@type": "group",
+            "name": "Commons.SQLDatabaseRetrieval",
+            "nested": [
+                {
+                    "@type": "item",
+                    "name": "org.apache.oodt.commons.activity.Retrieval"
+                },
+                {
+                    "@type": "item",
+                    "name": "org.apache.oodt.commons.activity.SQLDatabaseRetrieval"
+                }
+            ]
+        },
+        {
+            "@type": "group",
+            "name": "Commons.ActivityException",
+            "nested": [
+                {
+                    "@type": "item",
+                    "name": "org.apache.oodt.commons.activity.ActivityException"
+                },
+                {
+                    "@type": "item",
+                    "name": "org.apache.oodt.commons.activity.StoredActivity"
+                },
+                {
+                    "@type": "item",
+                    "name": "org.apache.oodt.commons.activity.StoredIncident"
+                }
+            ]
+        },
+        {
+            "@type": "group",
+            "name": "Commons.DatagramLogger",
+            "nested": [
+                {
+                    "@type": "item",
+                    "name": "org.apache.oodt.commons.activity.DatagramLogger"
+                },
+                {
+                    "@type": "item",
+                    "name": "org.apache.oodt.commons.activity.History"
+                }
+            ]
+        },
+        {
+            "@type": "group",
+            "name": "Commons.Net",
+            "nested": [
+                {
+                    "@type": "item",
+                    "name": "org.apache.oodt.commons.net.Net"
+                }
+            ]
+        },
+        {
+            "@type": "group",
+            "name": "Commons.Pagination",
+            "nested": [
+                {
+                    "@type": "item",
+                    "name": "org.apache.oodt.commons.pagination.PaginationUtils"
+                }
+            ]
+        },
+        {
+            "@type": "group",
+            "name": "Commons.Spring",
+            "nested": [
+                {
+                    "@type": "item",
+                    "name": "org.apache.oodt.commons.spring.SpringSetIdInjectionType"
+                },
+                {
+                    "@type": "item",
+                    "name": "org.apache.oodt.commons.spring.postprocessor.SetIdBeanPostProcessor"
+                }
+            ]
+        },
+        {
+            "@type": "group",
+            "name": "Commons.XMLUtils",
+            "nested": [
+                {
+                    "@type": "item",
+                    "name": "org.apache.oodt.commons.xml.XMLUtils"
+                },
+                {
+                    "@type": "item",
+                    "name": "org.apache.oodt.commons.xml.DOMUtil"
+                }
+            ]
+        },
+        {
+            "@type": "group",
+            "name": "Commons.DateUtils",
+            "nested": [
+                {
+                    "@type": "item",
+                    "name": "org.apache.oodt.commons.date.DateUtils"
+                }
+            ]
+        },
+        {
+            "@type": "group",
+            "name": "Commons.JNDIUtils",
+            "nested": [
+                {
+                    "@type": "item",
+                    "name": "org.apache.oodt.commons.object.jndi.ObjectCtxFactory"
+                },
+                {
+                    "@type": "item",
+                    "name": "org.apache.oodt.commons.object.jndi.ObjectContext"
+                },
+                {
+                    "@type": "item",
+                    "name": "org.apache.oodt.commons.object.jndi.ObjectNameParser"
+                },
+                {
+                    "@type": "item",
+                    "name": "org.apache.oodt.commons.object.jndi.RMIContext"
+                },
+                {
+                    "@type": "item",
+                    "name": "org.apache.oodt.commons.object.jndi.HTTPContext"
+                }
+            ]
+        },
+        {
+            "@type": "group",
+            "name": "Commons.ActivityUtils",
+            "nested": [
+                {
+                    "@type": "item",
+                    "name": "org.apache.oodt.commons.activity.Activity"
+                },
+                {
+                    "@type": "item",
+                    "name": "org.apache.oodt.commons.activity.ActivityStopped"
+                },
+                {
+                    "@type": "item",
+                    "name": "org.apache.oodt.commons.activity.Incident"
+                }
+            ]
+        },
+        {
+            "@type": "group",
+            "name": "Commons.LoggingUtils",
+            "nested": [
+                {
+                    "@type": "item",
+                    "name": "org.apache.oodt.commons.io.Log"
+                },
+                {
+                    "@type": "item",
+                    "name": "org.apache.oodt.commons.io.LogEvent"
+                },
+                {
+                    "@type": "item",
+                    "name": "org.apache.oodt.commons.io.LogListener"
+                },
+                {
+                    "@type": "item",
+                    "name": "org.apache.oodt.commons.io.LogFilter"
+                },
+                {
+                    "@type": "item",
+                    "name": "org.apache.oodt.commons.io.LogWriter"
+                },
+                {
+                    "@type": "item",
+                    "name": "org.apache.oodt.commons.io.WriterLogger"
+                }
+            ]
+        },
+        {
+            "@type": "group",
+            "name": "Commons.IOStreams",
+            "nested": [
+                {
+                    "@type": "item",
+                    "name": "org.apache.oodt.commons.io.Base64EncodingOutputStream"
+                },
+                {
+                    "@type": "item",
+                    "name": "org.apache.oodt.commons.io.LoggerOutputStream"
+                },
+                {
+                    "@type": "item",
+                    "name": "org.apache.oodt.commons.io.CountingOutputStream"
+                },
+                {
+                    "@type": "item",
+                    "name": "org.apache.oodt.commons.io.NullOutputStream"
+                },
+                {
+                    "@type": "item",
+                    "name": "org.apache.oodt.commons.io.Base64DecodingInputStream"
+                },
+                {
+                    "@type": "item",
+                    "name": "org.apache.oodt.commons.io.NullInputStream"
+                },
+                {
+                    "@type": "item",
+                    "name": "org.apache.oodt.commons.io.FixedBufferOutputStream"
+                }
+            ]
+        },
+        {
+            "@type": "group",
+            "name": "Commons.TimeEvent",
+            "nested": [
+                {
+                    "@type": "item",
+                    "name": "org.apache.oodt.commons.filter.ObjectTimeEvent"
+                },
+                {
+                    "@type": "item",
+                    "name": "org.apache.oodt.commons.filter.TimeEventWeightedHash"
+                },
+                {
+                    "@type": "item",
+                    "name": "org.apache.oodt.commons.filter.TimeEvent"
+                }
+            ]
+        },
+        {
+            "@type": "group",
+            "name": "Commons.CmdLineOptionValidator",
+            "nested": [
+                {
+                    "@type": "item",
+                    "name": "org.apache.oodt.commons.option.validator.AllowedArgsCmdLineOptionValidator"
+                },
+                {
+                    "@type": "item",
+                    "name": "org.apache.oodt.commons.option.validator.CmdLineOptionValidator"
+                },
+                {
+                    "@type": "item",
+                    "name": "org.apache.oodt.commons.option.validator.ArgRegExpCmdLineOptionValidator"
+                },
+                {
+                    "@type": "item",
+                    "name": "org.apache.oodt.commons.option.validator.ClassExistsCmdLineOptionValidator"
+                },
+                {
+                    "@type": "item",
+                    "name": "org.apache.oodt.commons.option.validator.FileExistCmdLineOptionValidator"
+                },
+                {
+                    "@type": "item",
+                    "name": "org.apache.oodt.commons.option.validator.NoRestrictionsCmdLineOptionValidator"
+                }
+            ]
+        },
+        {
+            "@type": "group",
+            "name": "Commons.CommandLineOptionHandling",
+            "nested": [
+                {
+                    "@type": "item",
+                    "name": "org.apache.oodt.commons.option.handler.BeanInfo"
+                },
+                {
+                    "@type": "item",
+                    "name": "org.apache.oodt.commons.option.handler.StdCmdLineOptionHandler"
+                },
+                {
+                    "@type": "item",
+                    "name": "org.apache.oodt.commons.option.handler.CmdLineOptionBeanHandler"
+                },
+                {
+                    "@type": "item",
+                    "name": "org.apache.oodt.commons.option.handler.CmdLineOptionHandler"
+                },
+                {
+                    "@type": "item",
+                    "name": "org.apache.oodt.commons.option.CmdLineOptionInstance"
+                },
+                {
+                    "@type": "item",
+                    "name": "org.apache.oodt.commons.option.CmdLineOption"
+                },
+                {
+                    "@type": "item",
+                    "name": "org.apache.oodt.commons.option.OptionHelpException"
+                },
+                {
+                    "@type": "item",
+                    "name": "org.apache.oodt.commons.option.parser.CmdLineOptionParser"
+                },
+                {
+                    "@type": "item",
+                    "name": "org.apache.oodt.commons.option.util.CmdLineOptionUtils"
+                },
+                {
+                    "@type": "item",
+                    "name": "org.apache.oodt.commons.option.util.CmdLineOptionsUsagePrinter"
+                },
+                {
+                    "@type": "item",
+                    "name": "org.apache.oodt.commons.option.required.RequiredOption"
+                }
+            ]
+        },
+        {
+            "@type": "group",
+            "name": "Commons.LogInitializer",
+            "nested": [
+                {
+                    "@type": "item",
+                    "name": "org.apache.oodt.commons.util.LogInit"
+                },
+                {
+                    "@type": "item",
+                    "name": "org.apache.oodt.commons.util.PropertyMgr"
+                },
+                {
+                    "@type": "item",
+                    "name": "org.apache.oodt.commons.util.LogEventMultiplexer"
+                },
+                {
+                    "@type": "item",
+                    "name": "org.apache.oodt.commons.util.MemoryLogger"
+                },
+                {
+                    "@type": "item",
+                    "name": "org.apache.oodt.commons.util.FileLogger"
+                },
+                {
+                    "@type": "item",
+                    "name": "org.apache.oodt.commons.util.DateConvert"
+                }
+            ]
+        },
+        {
+            "@type": "group",
+            "name": "Commons.XMLRPC",
+            "nested": [
+                {
+                    "@type": "item",
+                    "name": "org.apache.oodt.commons.util.SAXParser"
+                },
+                {
+                    "@type": "item",
+                    "name": "org.apache.oodt.commons.util.XMLRPCFault"
+                },
+                {
+                    "@type": "item",
+                    "name": "org.apache.oodt.commons.util.XMLRPC"
+                },
+                {
+                    "@type": "item",
+                    "name": "org.apache.oodt.commons.util.XML"
+                },
+                {
+                    "@type": "item",
+                    "name": "org.apache.oodt.commons.util.EnterpriseEntityResolver"
+                },
+                {
+                    "@type": "item",
+                    "name": "org.apache.oodt.commons.util.Base64"
+                },
+                {
+                    "@type": "item",
+                    "name": "org.apache.oodt.commons.util.DOMParser"
+                }
+            ]
+        },
+        {
+            "@type": "group",
+            "name": "Commons.OtherUtils",
+            "nested": [
+                {
+                    "@type": "item",
+                    "name": "org.apache.oodt.commons.util.JDBC_DB"
+                },
+                {
+                    "@type": "item",
+                    "name": "org.apache.oodt.commons.util.Utility"
+                },
+                {
+                    "@type": "item",
+                    "name": "org.apache.oodt.commons.util.CacheMap"
+                },
+                {
+                    "@type": "item",
+                    "name": "org.apache.oodt.commons.util.LDAP"
+                },
+                {
+                    "@type": "item",
+                    "name": "org.apache.oodt.commons.util.ScreenLogger"
+                },
+                {
+                    "@type": "item",
+                    "name": "org.apache.oodt.commons.Service"
+                }
+            ]
+        },
+        {
+            "@type": "group",
+            "name": "Commons.database.SQLScript",
+            "nested": [
+                {
+                    "@type": "item",
+                    "name": "org.apache.oodt.commons.database.SqlScript"
+                }
+            ]
+        },
+        {
+            "@type": "group",
+            "name": "Commons.database.DatabaseConnectionBuilder",
+            "nested": [
+                {
+                    "@type": "item",
+                    "name": "org.apache.oodt.commons.database.DatabaseConnectionBuilder"
+                }
+            ]
+        },
+        {
+            "@type": "group",
+            "name": "Catalog.XmlRpcClient",
+            "nested": [
+                {
+                    "@type": "item",
+                    "name": "org.apache.oodt.cas.catalog.server.channel.xmlrpc.XmlRpcCommunicationChannelClientFactory"
+                },
+                {
+                    "@type": "item",
+                    "name": "org.apache.oodt.cas.catalog.server.channel.xmlrpc.XmlRpcCommunicationChannelClient"
+                }
+            ]
+        },
+        {
+            "@type": "group",
+            "name": "Catalog.XmlRpcServer",
+            "nested": [
+                {
+                    "@type": "item",
+                    "name": "org.apache.oodt.cas.catalog.server.channel.xmlrpc.XmlRpcCommunicationChannelServerFactory"
+                },
+                {
+                    "@type": "item",
+                    "name": "org.apache.oodt.cas.catalog.server.channel.xmlrpc.XmlRpcCommunicationChannelServer"
+                }
+            ]
+        },
+        {
+            "@type": "group",
+            "name": "Catalog.RmiClient",
+            "nested": [
+                {
+                    "@type": "item",
+                    "name": "org.apache.oodt.cas.catalog.server.channel.rmi.RmiCommunicationChannelClientInterface"
+                },
+                {
+                    "@type": "item",
+                    "name": "org.apache.oodt.cas.catalog.server.channel.rmi.RmiCommunicationChannelClient"
+                },
+                {
+                    "@type": "item",
+                    "name": "org.apache.oodt.cas.catalog.server.channel.rmi.RmiCommunicationChannelClientMBean"
+                }
+            ]
+        },
+        {
+            "@type": "group",
+            "name": "Catalog.RmiServer",
+            "nested": [
+                {
+                    "@type": "item",
+                    "name": "org.apache.oodt.cas.catalog.server.channel.rmi.RmiCommunicationChannelServer"
+                }
+            ]
+        },
+        {
+            "@type": "group",
+            "name": "Catalog.CommChannelBaseClient",
+            "nested": [
+                {
+                    "@type": "item",
+                    "name": "org.apache.oodt.cas.catalog.server.channel.AbstractCommunicationChannelClient"
+                },
+                {
+                    "@type": "item",
+                    "name": "org.apache.oodt.cas.catalog.server.channel.CommunicationChannelClient"
+                },
+                {
+                    "@type": "item",
+                    "name": "org.apache.oodt.cas.catalog.server.channel.CommunicationChannelClientFactory"
+                }
+            ]
+        },
+        {
+            "@type": "group",
+            "name": "Catalog.CommChannelBaseServer",
+            "nested": [
+                {
+                    "@type": "item",
+                    "name": "org.apache.oodt.cas.catalog.server.channel.AbstractCommunicationChannelServer"
+                },
+                {
+                    "@type": "item",
+                    "name": "org.apache.oodt.cas.catalog.server.channel.CommunicationChannelServer"
+                },
+                {
+                    "@type": "item",
+                    "name": "org.apache.oodt.cas.catalog.server.channel.CommunicationChannelServerFactory"
+                },
+                {
+                    "@type": "item",
+                    "name": "org.apache.oodt.cas.catalog.server.CatalogServiceServerLauncher"
+                }
+            ]
+        },
+        {
+            "@type": "group",
+            "name": "Catalog.CatalogServiceClient",
+            "nested": [
+                {
+                    "@type": "item",
+                    "name": "org.apache.oodt.cas.catalog.system.impl.CatalogServiceClientFactory"
+                },
+                {
+                    "@type": "item",
+                    "name": "org.apache.oodt.cas.catalog.system.impl.CatalogServiceClient"
+                },
+                {
+                    "@type": "item",
+                    "name": "org.apache.oodt.cas.catalog.server.option.PrintSupportedClientsHandler"
+                }
+            ]
+        },
+        {
+            "@type": "group",
+            "name": "Catalog.CatalogBase",
+            "nested": [
+                {
+                    "@type": "item",
+                    "name": "org.apache.oodt.cas.catalog.system.CatalogServiceFactory"
+                },
+                {
+                    "@type": "item",
+                    "name": "org.apache.oodt.cas.catalog.system.CatalogService"
+                },
+                {
+                    "@type": "item",
+                    "name": "org.apache.oodt.cas.catalog.system.CatalogFactory"
+                },
+                {
+                    "@type": "item",
+                    "name": "org.apache.oodt.cas.catalog.system.Catalog"
+                }
+            ]
+        },
+        {
+            "@type": "group",
+            "name": "Catalog.CatalogServiceLocal",
+            "nested": [
+                {
+                    "@type": "item",
+                    "name": "org.apache.oodt.cas.catalog.system.impl.CatalogServiceLocal"
+                },
+                {
+                    "@type": "item",
+                    "name": "org.apache.oodt.cas.catalog.system.impl.CatalogServiceLocalFactory"
+                }
+            ]
+        },
+        {
+            "@type": "group",
+            "name": "Catalog.CatalogServiceServerAction",
+            "nested": [
+                {
+                    "@type": "item",
+                    "name": "org.apache.oodt.cas.catalog.server.action.PagedQueryServerAction"
+                },
+                {
+                    "@type": "item",
+                    "name": "org.apache.oodt.cas.catalog.server.action.LoadCatalogsServerAction"
+                },
+                {
+                    "@type": "item",
+                    "name": "org.apache.oodt.cas.catalog.server.action.ShutdownServerAction"
+                },
+                {
+                    "@type": "item",
+                    "name": "org.apache.oodt.cas.catalog.server.action.ReducedPagedQueryServerAction"
+                },
+                {
+                    "@type": "item",
+                    "name": "org.apache.oodt.cas.catalog.server.action.GetSupportedCatalogIds"
+                },
+                {
+                    "@type": "item",
+                    "name": "org.apache.oodt.cas.catalog.server.action.CatalogServiceServerAction"
+                },
+                {
+                    "@type": "item",
+                    "name": "org.apache.oodt.cas.catalog.server.action.QueryServerAction"
+                },
+                {
+                    "@type": "item",
+                    "name": "org.apache.oodt.cas.catalog.server.action.ReducedQueryServerAction"
+                },
+                {
+                    "@type": "item",
+                    "name": "org.apache.oodt.cas.catalog.server.action.LoadCatalogRepositoryServerAction"
+                },
+                {
+                    "@type": "item",
+                    "name": "org.apache.oodt.cas.catalog.server.option.PrintSupportedActionsHandler"
+                }
+            ]
+        },
+        {
+            "@type": "group",
+            "name": "Catalog.PrintSupportedServersHandler",
+            "nested": [
+                {
+                    "@type": "item",
+                    "name": "org.apache.oodt.cas.catalog.server.option.PrintSupportedServersHandler"
+                }
+            ]
+        },
+        {
+            "@type": "group",
+            "name": "Catalog.Exceptions",
+            "nested": [
+                {
+                    "@type": "item",
+                    "name": "org.apache.oodt.cas.catalog.exception.QueryServiceException"
+                },
+                {
+                    "@type": "item",
+                    "name": "org.apache.oodt.cas.catalog.exception.CatalogDictionaryException"
+                },
+                {
+                    "@type": "item",
+                    "name": "org.apache.oodt.cas.catalog.exception.IngestServiceException"
+                },
+                {
+                    "@type": "item",
+                    "name": "org.apache.oodt.cas.catalog.exception.CatalogIndexException"
+                },
+                {
+                    "@type": "item",
+                    "name": "org.apache.oodt.cas.catalog.exception.CatalogRepositoryException"
+                },
+                {
+                    "@type": "item",
+                    "name": "org.apache.oodt.cas.catalog.exception.CatalogServiceException"
+                },
+                {
+                    "@type": "item",
+                    "name": "org.apache.oodt.cas.catalog.exception.CatalogException"
+                }
+            ]
+        },
+        {
+            "@type": "group",
+            "name": "Catalog.CatalogServiceCommandLineClient",
+            "nested": [
+                {
+                    "@type": "item",
+                    "name": "org.apache.oodt.cas.catalog.server.CatalogServiceCommandLineClient"
+                }
+            ]
+        },
+        {
+            "@type": "group",
+            "name": "Catalog.IngesterMappers",
+            "nested": [
+                {
+                    "@type": "item",
+                    "name": "org.apache.oodt.cas.catalog.mapping.MemoryBasedIngestMapperFactory"
+                },
+                {
+                    "@type": "item",
+                    "name": "org.apache.oodt.cas.catalog.mapping.IngestMapper"
+                },
+                {
+                    "@type": "item",
+                    "name": "org.apache.oodt.cas.catalog.mapping.LuceneIngestMapperFactory"
+                },
+                {
+                    "@type": "item",
+                    "name": "org.apache.oodt.cas.catalog.mapping.IngestMapperFactory"
+                },
+                {
+                    "@type": "item",
+                    "name": "org.apache.oodt.cas.catalog.mapping.MemoryBasedIngestMapper"
+                },
+                {
+                    "@type": "item",
+                    "name": "org.apache.oodt.cas.catalog.mapping.LuceneIngestMapper"
+                },
+                {
+                    "@type": "item",
+                    "name": "org.apache.oodt.cas.catalog.mapping.InMemoryIngestMapperFactory"
+                },
+                {
+                    "@type": "item",
+                    "name": "org.apache.oodt.cas.catalog.mapping.DataSourceIngestMapperFactory"
+                },
+                {
+                    "@type": "item",
+                    "name": "org.apache.oodt.cas.catalog.mapping.DataSourceIngestMapper"
+                },
+                {
+                    "@type": "item",
+                    "name": "org.apache.oodt.cas.catalog.mapping.InMemoryIngestMapper"
+                }
+            ]
+        },
+        {
+            "@type": "group",
+            "name": "Catalog.CatalogRepositories",
+            "nested": [
+                {
+                    "@type": "item",
+                    "name": "org.apache.oodt.cas.catalog.repository.SerializedCatalogRepositoryFactory"
+                },
+                {
+                    "@type": "item",
+                    "name": "org.apache.oodt.cas.catalog.repository.SerializedCatalogRepository"
+                },
+                {
+                    "@type": "item",
+                    "name": "org.apache.oodt.cas.catalog.repository.SpringCatalogRepository"
+                },
+                {
+                    "@type": "item",
+                    "name": "org.apache.oodt.cas.catalog.repository.CatalogRepositoryFactory"
+                },
+                {
+                    "@type": "item",
+                    "name": "org.apache.oodt.cas.catalog.repository.MemoryBasedCatalogRepository"
+                },
+                {
+                    "@type": "item",
+                    "name": "org.apache.oodt.cas.catalog.repository.MemoryBasedCatalogRepositoryFactory"
+                },
+                {
+                    "@type": "item",
+                    "name": "org.apache.oodt.cas.catalog.repository.CatalogRepository"
+                },
+                {
+                    "@type": "item",
+                    "name": "org.apache.oodt.cas.catalog.repository.SpringCatalogRepositoryFactory"
+                }
+            ]
+        },
+        {
+            "@type": "group",
+            "name": "Catalog.QueryParser",
+            "nested": [
+                {
+                    "@type": "item",
+                    "name": "org.apache.oodt.cas.catalog.query.parser.TokenMgrError"
+                },
+                {
+                    "@type": "item",
+                    "name": "org.apache.oodt.cas.catalog.query.parser.SimpleNode"
+                },
+                {
+                    "@type": "item",
+                    "name": "org.apache.oodt.cas.catalog.query.parser.SimpleCharStream"
+                },
+                {
+                    "@type": "item",
+                    "name": "org.apache.oodt.cas.catalog.query.parser.QueryParser"
+                },
+                {
+                    "@type": "item",
+                    "name": "org.apache.oodt.cas.catalog.query.parser.QueryParserTreeConstants"
+                },
+                {
+                    "@type": "item",
+                    "name": "org.apache.oodt.cas.catalog.query.parser.Token"
+                },
+                {
+                    "@type": "item",
+                    "name": "org.apache.oodt.cas.catalog.query.parser.QueryParserConstants"
+                },
+                {
+                    "@type": "item",
+                    "name": "org.apache.oodt.cas.catalog.query.parser.QueryParserTokenManager"
+                },
+                {
+                    "@type": "item",
+                    "name": "org.apache.oodt.cas.catalog.query.parser.JJTQueryParserState"
+                },
+                {
+                    "@type": "item",
+                    "name": "org.apache.oodt.cas.catalog.query.parser.Node"
+                },
+                {
+                    "@type": "item",
+                    "name": "org.apache.oodt.cas.catalog.query.parser.ParseException"
+                }
+            ]
+        },
+        {
+            "@type": "group",
+            "name": "Catalog.QueryFiltering",
+            "nested": [
+                {
+                    "@type": "item",
+                    "name": "org.apache.oodt.cas.catalog.query.filter.QueryFilter"
+                },
+                {
+                    "@type": "item",
+                    "name": "org.apache.oodt.cas.catalog.query.filter.FilterAlgorithm"
+                },
+                {
+                    "@type": "item",
+                    "name": "org.apache.oodt.cas.catalog.query.filter.time.MetadataTimeEvent"
+                },
+                {
+                    "@type": "item",
+                    "name": "org.apache.oodt.cas.catalog.query.filter.time.MetadataTimeEventQueryFilter"
+                },
+                {
+                    "@type": "item",
+                    "name": "org.apache.oodt.cas.catalog.query.filter.time.MetadataTimeEventFilterAlgorithm"
+                },
+                {
+                    "@type": "item",
+                    "name": "org.apache.oodt.cas.catalog.query.filter.time.conv.AsciiSortableVersionConverter"
+                },
+                {
+                    "@type": "item",
+                    "name": "org.apache.oodt.cas.catalog.query.filter.time.conv.VersionConverter"
+                }
+            ]
+        },
+        {
+            "@type": "group",
+            "name": "Catalog.QueryExpression",
+            "nested": [
+                {
+                    "@type": "item",
+                    "name": "org.apache.oodt.cas.catalog.query.CustomQueryExpression"
+                },
+                {
+                    "@type": "item",
+                    "name": "org.apache.oodt.cas.catalog.query.CustomWrapperQueryExpression"
+                },
+                {
+                    "@type": "item",
+                    "name": "org.apache.oodt.cas.catalog.query.TermQueryExpression"
+                },
+                {
+                    "@type": "item",
+                    "name": "org.apache.oodt.cas.catalog.query.WrapperQueryExpression"
+                },
+                {
+                    "@type": "item",
+                    "name": "org.apache.oodt.cas.catalog.query.FreeTextQueryExpression"
+                },
+                {
+                    "@type": "item",
+                    "name": "org.apache.oodt.cas.catalog.query.StdQueryExpression"
+                },
+                {
+                    "@type": "item",
+                    "name": "org.apache.oodt.cas.catalog.query.QueryLogicalGroup"
+                },
+                {
+                    "@type": "item",
+                    "name": "org.apache.oodt.cas.catalog.query.QueryExpression"
+                },
+                {
+                    "@type": "item",
+                    "name": "org.apache.oodt.cas.catalog.query.NotQueryExpression"
+                },
+                {
+                    "@type": "item",
+                    "name": "org.apache.oodt.cas.catalog.query.ComparisonQueryExpression"
+                }
+            ]
+        },
+        {
+            "@type": "group",
+            "name": "Catalog.QueryPager",
+            "nested": [
+                {
+                    "@type": "item",
+                    "name": "org.apache.oodt.cas.catalog.page.IndexPager"
+                },
+                {
+                    "@type": "item",
+                    "name": "org.apache.oodt.cas.catalog.page.ProcessedPageInfo"
+                },
+                {
+                    "@type": "item",
+                    "name": "org.apache.oodt.cas.catalog.page.TransactionReceipt"
+                },
+                {
+                    "@type": "item",
+                    "name": "org.apache.oodt.cas.catalog.page.CatalogReceipt"
+                },
+                {
+                    "@type": "item",
+                    "name": "org.apache.oodt.cas.catalog.page.QueryPager"
+                },
+                {
+                    "@type": "item",
+                    "name": "org.apache.oodt.cas.catalog.page.PageInfo"
+                },
+                {
+                    "@type": "item",
+                    "name": "org.apache.oodt.cas.catalog.page.Page"
+                },
+                {
+                    "@type": "item",
+                    "name": "org.apache.oodt.cas.catalog.page.IngestReceipt"
+                },
+                {
+                    "@type": "item",
+                    "name": "org.apache.oodt.cas.catalog.struct.impl.transaction.LongTransactionIdFactory"
+                },
+                {
+                    "@type": "item",
+                    "name": "org.apache.oodt.cas.catalog.struct.impl.transaction.UuidTransactionIdFactory"
+                },
+                {
+                    "@type": "item",
+                    "name": "org.apache.oodt.cas.catalog.struct.impl.transaction.StringTransactionIdFactory"
+                },
+                {
+                    "@type": "item",
+                    "name": "org.apache.oodt.cas.catalog.struct.TransactionIdFactory"
+                }
+            ]
+        },
+        {
+            "@type": "group",
+            "name": "Catalog.DataSourceIndex",
+            "nested": [
+                {
+                    "@type": "item",
+                    "name": "org.apache.oodt.cas.catalog.struct.QueryService"
+                },
+                {
+                    "@type": "item",
+                    "name": "org.apache.oodt.cas.catalog.struct.impl.index.DataSourceIndex"
+                },
+                {
+                    "@type": "item",
+                    "name": "org.apache.oodt.cas.catalog.struct.impl.index.InMemoryIndex"
+                },
+                {
+                    "@type": "item",
+                    "name": "org.apache.oodt.cas.catalog.struct.impl.index.WorkflowManagerDataSourceIndex"
+                },
+                {
+                    "@type": "item",
+                    "name": "org.apache.oodt.cas.catalog.struct.impl.index.InMemoryIndexFactory"
+                },
+                {
+                    "@type": "item",
+                    "name": "org.apache.oodt.cas.catalog.struct.impl.index.DataSourceIndexFactory"
+                },
+                {
+                    "@type": "item",
+                    "name": "org.apache.oodt.cas.catalog.struct.impl.index.WorkflowManagerDataSourceIndexFactory"
+                },
+                {
+                    "@type": "item",
+                    "name": "org.apache.oodt.cas.catalog.struct.IngestService"
+                },
+                {
+                    "@type": "item",
+                    "name": "org.apache.oodt.cas.catalog.struct.IndexFactory"
+                }
+            ]
+        },
+        {
+            "@type": "group",
+            "name": "Catalog.Dictionary",
+            "nested": [
+                {
+                    "@type": "item",
+                    "name": "org.apache.oodt.cas.catalog.struct.DictionaryFactory"
+                },
+                {
+                    "@type": "item",
+                    "name": "org.apache.oodt.cas.catalog.struct.Dictionary"
+                },
+                {
+                    "@type": "item",
+                    "name": "org.apache.oodt.cas.catalog.struct.impl.dictionary.WorkflowManagerDictionary"
+                },
+                {
+                    "@type": "item",
+                    "name": "org.apache.oodt.cas.catalog.struct.impl.dictionary.WorkflowManagerDictionaryFactory"
+                }
+            ]
+        },
+        {
+            "@type": "group",
+            "name": "Catalog.TermsandBuckets",
+            "nested": [
+                {
+                    "@type": "item",
+                    "name": "org.apache.oodt.cas.catalog.term.Term"
+                },
+                {
+                    "@type": "item",
+                    "name": "org.apache.oodt.cas.catalog.term.TermBucket"
+                },
+                {
+                    "@type": "item",
+                    "name": "org.apache.oodt.cas.catalog.term.Bucket"
+                }
+            ]
+        },
+        {
+            "@type": "group",
+            "name": "Catalog.Utilities",
+            "nested": [
+                {
+                    "@type": "item",
+                    "name": "org.apache.oodt.cas.catalog.metadata.TransactionalMetadata"
+                },
+                {
+                    "@type": "item",
+                    "name": "org.apache.oodt.cas.catalog.struct.Index"
+                },
+                {
+                    "@type": "item",
+                    "name": "org.apache.oodt.cas.catalog.struct.TransactionId"
+                },
+                {
+                    "@type": "item",
+                    "name": "org.apache.oodt.cas.catalog.util.PluginClassLoader"
+                },
+                {
+                    "@type": "item",
+                    "name": "org.apache.oodt.cas.catalog.util.Serializer"
+                },
+                {
+                    "@type": "item",
+                    "name": "org.apache.oodt.cas.catalog.util.PluginURL"
+                },
+                {
+                    "@type": "item",
+                    "name": "org.apache.oodt.cas.catalog.util.CasPropertyPlaceholderConfigurer"
+                },
+                {
+                    "@type": "item",
+                    "name": "org.apache.oodt.cas.catalog.util.QueryUtils"
+                },
+                {
+                    "@type": "item",
+                    "name": "org.apache.oodt.cas.catalog.util.SpringUtils"
+                }
+            ]
+        },
+        {
+            "@type": "group",
+            "name": "Workflow.Conditionslibrary",
+            "nested": [
+                {
+                    "@type": "item",
+                    "name": "org.apache.oodt.cas.workflow.structs.WorkflowConditionInstance"
+                },
+                {
+                    "@type": "item",
+                    "name": "org.apache.oodt.cas.workflow.examples.CheckForMetadataKeys"
+                },
+                {
+                    "@type": "item",
+                    "name": "org.apache.oodt.cas.workflow.examples.FalseCondition"
+                },
+                {
+                    "@type": "item",
+                    "name": "org.apache.oodt.cas.workflow.examples.LongCondition"
+                },
+                {
+                    "@type": "item",
+                    "name": "org.apache.oodt.cas.workflow.examples.TrueCondition"
+                }
+            ]
+        },
+        {
+            "@type": "group",
+            "name": "Workflow.engine.structs.factories",
+            "nested": [
+                {
+                    "@type": "item",
+                    "name": "org.apache.oodt.cas.workflow.engine.WorkflowEngineFactory"
+                },
+                {
+                    "@type": "item",
+                    "name": "org.apache.oodt.cas.workflow.engine.NonBlockingThreadPoolWorkflowEngineFactory"
+                },
+                {
+                    "@type": "item",
+                    "name": "org.apache.oodt.cas.workflow.engine.ThreadPoolWorkflowEngineFactory"
+                }
+            ]
+        },
+        {
+            "@type": "group",
+            "name": "Workflow.factories",
+            "nested": [
+                {
+                    "@type": "item",
+                    "name": "org.apache.cas.workflow.util.XmlRpcFactory"
+                }
+            ]
+        },
+        {
+            "@type": "group",
+            "name": "Workflow.Lifecycle",
+            "nested": [
+                {
+                    "@type": "item",
+                    "name": "org.apache.oodt.cas.workflow.lifecycle.WorkflowLifecycle$1"
+                },
+                {
+                    "@type": "item",
+                    "name": "org.apache.oodt.cas.workflow.lifecycle.WorkflowLifecycle"
+                },
+                {
+                    "@type": "item",
+                    "name": "org.apache.oodt.cas.workflow.lifecycle.WorkflowLifecycleManager"
+                }
+            ]
+        },
+        {
+            "@type": "group",
+            "name": "Workflow.Metadatareader",
+            "nested": [
+                {
+                    "@type": "item",
+                    "name": "org.apache.oodt.cas.workflow.instrepo.WorkflowInstanceMetMap"
+                },
+                {
+                    "@type": "item",
+                    "name": "org.apache.oodt.cas.workflow.instrepo.WorkflowInstanceMetMapKeys"
+                },
+                {
+                    "@type": "item",
+                    "name": "org.apache.oodt.cas.workflow.instrepo.WorkflowInstanceMetadataReader"
+                }
+            ]
+        },
+        {
+            "@type": "group",
+            "name": "Workflow.RPCWorkflowManagerSystemInterface",
+            "nested": [
+                {
+                    "@type": "item",
+                    "name": "org.apache.oodt.cas.workflow.system.XmlRpcWorkflowManager"
+                },
+                {
+                    "@type": "item",
+                    "name": "org.apache.oodt.cas.workflow.structs.exceptions.InstanceRepositoryException"
+                },
+                {
+                    "@type": "item",
+                    "name": "org.apache.oodt.cas.workflow.system.XmlRpcWorkflowManagerClient"
+                }
+            ]
+        },
+        {
+            "@type": "group",
+            "name": "Workflow.ScriptFile",
+            "nested": [
+                {
+                    "@type": "item",
+                    "name": "org.apache.oodt.cas.workflow.util.ScriptFile"
+                }
+            ]
+        },
+        {
+            "@type": "group",
+            "name": "Workflow.structs",
+            "nested": [
+                {
+                    "@type": "item",
+                    "name": "org.apache.oodt.cas.workflow.util.DbStructFactory"
+                },
+                {
+                    "@type": "item",
+                    "name": "org.apache.oodt.cas.workflow.structs.WorkflowInstance"
+                },
+                {
+                    "@type": "item",
+                    "name": "org.apache.oodt.cas.workflow.structs.WorkflowTaskInstance"
+                },
+                {
+                    "@type": "item",
+                    "name": "org.apache.oodt.cas.workflow.structs.TaskJobInput"
+                },
+                {
+                    "@type": "item",
+                    "name": "org.apache.oodt.cas.workflow.structs.WorkflowStatus"
+                },
+                {
+                    "@type": "item",
+                    "name": "org.apache.oodt.cas.workflow.structs.TaskJob"
+                },
+                {
+                    "@type": "item",
+                    "name": "org.apache.oodt.cas.workflow.structs.WorkflowInstancePage"
+                },
+                {
+                    "@type": "item",
+                    "name": "org.apache.oodt.cas.workflow.structs.WorkflowTask"
+                },
+                {
+                    "@type": "item",
+                    "name": "org.apache.oodt.cas.workflow.structs.Workflow"
+                }
+            ]
+        },
+        {
+            "@type": "group",
+            "name": "Workflow.Workflowengine",
+            "nested": [
+                {
+                    "@type": "item",
+                    "name": "org.apache.oodt.cas.workflow.engine.WorkflowProcessorThread"
+                },
+                {
+                    "@type": "item",
+                    "name": "org.apache.oodt.cas.workflow.engine.IterativeWorkflowProcessorThread"
+                },
+                {
+                    "@type": "item",
+                    "name": "org.apache.oodt.cas.workflow.metadata.CoreMetKeys"
+                },
+                {
+                    "@type": "item",
+                    "name": "org.apache.oodt.cas.workflow.engine.NonBlockingIterativeWorkflowProcessorThread"
+                },
+                {
+                    "@type": "item",
+                    "name": "org.apache.oodt.cas.workflow.engine.NonBlockingShepardThread"
+                },
+                {
+                    "@type": "item",
+                    "name": "org.apache.oodt.cas.workflow.engine.NonBlockingThreadPoolWorkflowEngine"
+                },
+                {
+                    "@type": "item",
+                    "name": "org.apache.oodt.cas.workflow.engine.ThreadPoolWorkflowEngine"
+                },
+                {
+                    "@type": "item",
+                    "name": "org.apache.oodt.cas.workflow.engine.WorkflowEngine"
+                }
+            ]
+        },
+        {
+            "@type": "group",
+            "name": "Workflow.WorkflowInstance",
+            "nested": [
+                {
+                    "@type": "item",
+                    "name": "org.apache.oodt.cas.workflow.examples.ExternScriptTaskInstance"
+                },
+                {
+                    "@type": "item",
+                    "name": "org.apache.oodt.cas.workflow.examples.GoodbyeWorld"
+                },
+                {
+                    "@type": "item",
+                    "name": "org.apache.oodt.cas.workflow.examples.HelloWorld"
+                },
+                {
+                    "@type": "item",
+                    "name": "org.apache.oodt.cas.workflow.examples.LongTask"
+                },
+                {
+                    "@type": "item",
+                    "name": "org.apache.oodt.cas.workflow.examples.MailTask"
+                },
+                {
+                    "@type": "item",
+                    "name": "org.apache.oodt.cas.workflow.examples.NumIncrementTask"
+                },
+                {
+                    "@type": "item",
+                    "name": "org.apache.oodt.cas.workflow.examples.RandomStatusUpdateTask"
+                }
+            ]
+        },
+        {
+            "@type": "group",
+            "name": "Workflow.WorkflowInstancerepository",
+            "nested": [
+                {
+                    "@type": "item",
+                    "name": "org.apache.oodt.cas.workflow.instrepo.WorkflowInstanceRepository"
+                },
+                {
+                    "@type": "item",
+                    "name": "org.apache.oodt.cas.workflow.instrepo.AbstractPaginatibleInstanceRepository"
+                },
+                {
+                    "@type": "item",
+                    "name": "org.apache.oodt.cas.workflow.instrepo.DataSourceWorkflowInstanceRepository"
+                },
+                {
+                    "@type": "item",
+                    "name": "org.apache.oodt.cas.workflow.instrepo.LuceneWorkflowInstanceRepository"
+                },
+                {
+                    "@type": "item",
+                    "name": "org.apache.oodt.cas.workflow.instrepo.MemoryWorkflowInstanceRepository"
+                },
+                {
+                    "@type": "item",
+                    "name": "org.apache.oodt.cas.workflow.util.Pagination"
+                },
+                {
+                    "@type": "item",
+                    "name": "org.apache.oodt.cas.workflow.instrepo.MemoryWorkflowInstanceRepository$1"
+                }
+            ]
+        },
+        {
+            "@type": "group",
+            "name": "Workflow.WorkflowInstancerepository.factories",
+            "nested": [
+                {
+                    "@type": "item",
+                    "name": "org.apache.oodt.cas.workflow.instrepo.WorkflowInstanceRepositoryFactory"
+                },
+                {
+                    "@type": "item",
+                    "name": "org.apache.oodt.cas.workflow.instrepo.DataSourceWorkflowInstanceRepositoryFactory"
+                },
+                {
+                    "@type": "item",
+                    "name": "org.apache.oodt.cas.workflow.instrepo.LuceneWorkflowInstanceRepositoryFactory"
+                },
+                {
+                    "@type": "item",
+                    "name": "org.apache.oodt.cas.workflow.instrepo.MemoryWorkflowInstanceRepositoryFactory"
+                }
+            ]
+        },
+        {
+            "@type": "group",
+            "name": "Workflow.Workflowlifecyclereader",
+            "nested": [
+                {
+                    "@type": "item",
+                    "name": "org.apache.oodt.cas.workflow.lifecycle.WorkflowLifecycleMetKeys"
+                },
+                {
+                    "@type": "item",
+                    "name": "org.apache.oodt.cas.workflow.lifecycle.WorkflowLifecyclesReader"
+                }
+            ]
+        },
+        {
+            "@type": "group",
+            "name": "Workflow.Workflowrepository",
+            "nested": [
+                {
+                    "@type": "item",
+                    "name": "org.apache.oodt.cas.workflow.repository.WorkflowRepository13"
+                },
+                {
+                    "@type": "item",
+                    "name": "org.apache.oodt.cas.workflow.repository.DataSourceWorkflowRepository"
+                },
+                {
+                    "@type": "item",
+                    "name": "org.apache.oodt.cas.workflow.repository.XMLWorkflowRepository"
+                },
+                {
+                    "@type": "item",
+                    "name": "org.apache.oodt.cas.workflow.repository.XMLWorkflowRepository$1"
+                }
+            ]
+        },
+        {
+            "@type": "group",
+            "name": "Workflow.Workflowrepository.factories",
+            "nested": [
+                {
+                    "@type": "item",
+                    "name": "org.apache.oodt.cas.workflow.repository.WorkflowRepositoryFactory"
+                },
+                {
+                    "@type": "item",
+                    "name": "org.apache.oodt.cas.workflow.repository.DataSourceWorkflowRepositoryFactory"
+                },
+                {
+                    "@type": "item",
+                    "name": "org.apache.oodt.cas.workflow.repository.XMLWorkflowRepositoryFactory"
+                }
+            ]
+        },
+        {
+            "@type": "group",
+            "name": "Workflow.XMLPackager",
+            "nested": [
+                {
+                    "@type": "item",
+                    "name": "org.apache.oodt.cas.workflow.util.XmlStructFactory"
+                },
+                {
+                    "@type": "item",
+                    "name": "org.apache.oodt.cas.workflow.util.XmlRpcStructFactory"
+                }
+            ]
+        },
+        {
+            "@type": "group",
+            "name": "WorkflowLifecycleStage",
+            "nested": [
+                {
+                    "@type": "item",
+                    "name": "org.apache.oodt.cas.workflow.lifecycle.WorkflowLifecycleStage"
+                }
+            ]
+        },
+        {
+            "@type": "group",
+            "name": "ResourceManager.AssignmentMonitor",
+            "nested": [
+                {
+                    "@type": "item",
+                    "name": "org.apache.oodt.cas.resource.monitor.AssignmentMonitor"
+                }
+            ]
+        },
+        {
+            "@type": "group",
+            "name": "ResourceManager.BatchManager",
+            "nested": [
+                {
+                    "@type": "item",
+                    "name": "org.apache.oodt.cas.resource.batchmgr.Batchmgr"
+                },
+                {
+                    "@type": "item",
+                    "name": "org.apache.oodt.cas.resource.batchmgr.XmlRpcBatchMgr"
+                },
+                {
+                    "@type": "item",
+                    "name": "org.apache.oodt.cas.resource.batchmgr.XmlRpcBatchMgrProxy"
+                }
+            ]
+        },
+        {
+            "@type": "group",
+            "name": "ResourceManager.BatchManager.factories",
+            "nested": [
+                {
+                    "@type": "item",
+                    "name": "org.apache.oodt.cas.resource.batchmgr.BatchmgrFactory"
+                },
+                {
+                    "@type": "item",
+                    "name": "org.apache.oodt.cas.resource.batchmgr.XmlRpcBatchMgrFactory"
+                }
+            ]
+        },
+        {
+            "@type": "group",
+            "name": "ResourceManager.JobExceptions",
+            "nested": [
+                {
+                    "@type": "item",
+                    "name": "org.apache.oodt.cas.resource.structs.exceptions.JobException"
+                },
+                {
+                    "@type": "item",
+                    "name": "org.apache.oodt.cas.resource.structs.exceptions.JobExecutionException"
+                },
+                {
+                    "@type": "item",
+                    "name": "org.apache.oodt.cas.resource.structs.exceptions.JobInputException"
+                },
+                {
+                    "@type": "item",
+                    "name": "org.apache.oodt.cas.resource.structs.exceptions.JobQueueException"
+                },
+                {
+                    "@type": "item",
+                    "name": "org.apache.oodt.cas.resource.structs.exceptions.JobRepositoryException"
+                }
+            ]
+        },
+        {
+            "@type": "group",
+            "name": "ResourceManager.JobInstance",
+            "nested": [
+                {
+                    "@type": "item",
+                    "name": "org.apache.oodt.cas.resource.examples.HelloWorldJob"
+                },
+                {
+                    "@type": "item",
+                    "name": "org.apache.oodt.cas.resource.examples.LongJob"
+                },
+                {
+                    "@type": "item",
+                    "name": "org.apache.oodt.cas.resource.metadata.JobMetadata"
+                }
+            ]
+        },
+        {
+            "@type": "group",
+            "name": "ResourceManager.JobMonitor",
+            "nested": [
+                {
+                    "@type": "item",
+                    "name": "org.apache.oodt.cas.resource.monitor.AssignmentMonitor"
+                },
+                {
+                    "@type": "item",
+                    "name": "org.apache.oodt.cas.resource.monitor.Monitor"
+                },
+                {
+                    "@type": "item",
+                    "name": "org.apache.oodt.cas.resource.structs.exceptions.MonitorException"
+                }
+            ]
+        },
+        {
+            "@type": "group",
+            "name": "ResourceManager.JobMonitor.factories",
+            "nested": [
+                {
+                    "@type": "item",
+                    "name": "org.apache.oodt.cas.resource.monitor.AssignmentMonitorFactory"
+                },
+                {
+                    "@type": "item",
+                    "name": "org.apache.oodt.cas.resource.monitor.MonitorFactory"
+                }
+            ]
+        },
+        {
+            "@type": "group",
+            "name": "ResourceManager.JobRepository",
+            "nested": [
+                {
+                    "@type": "item",
+                    "name": "org.apache.oodt.cas.resource.jobrepo.JobRepository"
+                },
+                {
+                    "@type": "item",
+                    "name": "org.apache.oodt.cas.resource.jobrepo.MemoryJobRepository"
+                },
+                {
+                    "@type": "item",
+                    "name": "org.apache.oodt.cas.resource.jobrepo.XStreamJobRepository"
+                }
+            ]
+        },
+        {
+            "@type": "group",
+            "name": "ResourceManager.JobRepository.factories",
+            "nested": [
+                {
+                    "@type": "item",
+                    "name": "org.apache.oodt.cas.resource.jobrepo.JobRepositoryFactory"
+                },
+                {
+                    "@type": "item",
+                    "name": "org.apache.oodt.cas.resource.jobrepo.MemoryJobRepositoryFactory"
+                },
+                {
+                    "@type": "item",
+                    "name": "org.apache.oodt.cas.resource.jobrepo.XStreamJobRepositoryFactory"
+                }
+            ]
+        },
+        {
+            "@type": "group",
+            "name": "ResourceManager.JobSpecQueueing",
+            "nested": [
+                {
+                    "@type": "item",
+                    "name": "org.apache.oodt.cas.resource.jobqueue.JobQueue"
+                },
+                {
+                    "@type": "item",
+                    "name": "org.apache.oodt.cas.resource.jobqueue.JobStack"
+                }
+            ]
+        },
+        {
+            "@type": "group",
+            "name": "ResourceManager.JobSpecQueueing.factories",
+            "nested": [
+                {
+                    "@type": "item",
+                    "name": "org.apache.oodt.cas.resource.jobqueue.JobQueueFactory"
+                },
+                {
+                    "@type": "item",
+                    "name": "org.apache.oodt.cas.resource.jobqueue.JobStackJobQueueFactory"
+                }
+            ]
+        },
+        {
+            "@type": "group",
+            "name": "ResourceManager.Jobsubmittertool",
+            "nested": [
+                {
+                    "@type": "item",
+                    "name": "org.apache.oodt.cas.resource.tools.JobSubmitter"
+                },
+                {
+                    "@type": "item",
+                    "name": "org.apache.oodt.cas.resource.tools.JobSubmitter$1"
+                }
+            ]
+        },
+        {
+            "@type": "group",
+            "name": "ResourceManager.NodeRepository",
+            "nested": [
+                {
+                    "@type": "item",
+                    "name": "org.apache.oodt.cas.resource.noderepo.NodeRepository"
+                },
+                {
+                    "@type": "item",
+                    "name": "org.apache.oodt.cas.resource.noderepo.XmlNodeRepository"
+                },
+                {
+                    "@type": "item",
+                    "name": "org.apache.oodt.cas.resource.noderepo.XmlNodeRepository$1"
+                }
+            ]
+        },
+        {
+            "@type": "group",
+            "name": "ResourceManager.NodeRepository.factories",
+            "nested": [
+                {
+                    "@type": "item",
+                    "name": "org.apache.oodt.cas.resource.noderepo.NodeRepositoryFactory"
+                },
+                {
+                    "@type": "item",
+                    "name": "org.apache.oodt.cas.resource.noderepo.XmlNodeRepositoryFactory"
+                }
+            ]
+        },
+        {
+            "@type": "group",
+            "name": "ResourceManager.Objectmarshaller",
+            "nested": [
+                {
+                    "@type": "item",
+                    "name": "org.apache.oodt.cas.resource.util.Configurable"
+                },
+                {
+                    "@type": "item",
+                    "name": "org.apache.oodt.cas.resource.util.XmlRpcWriteable"
+                }
+            ]
+        },
+        {
+            "@type": "group",
+            "name": "ResourceManager.QueueManager",
+            "nested": [
+                {
+                    "@type": "item",
+                    "name": "org.apache.oodt.cas.resource.scheduler.LRUQueueManager"
+                },
+                {
+                    "@type": "item",
+                    "name": "org.apache.oodt.cas.resource.scheduler.QueueManager"
+                },
+                {
+                    "@type": "item",
+                    "name": "org.apache.oodt.cas.resource.structs.exceptions.QueueManagerException"
+                }
+            ]
+        },
+        {
+            "@type": "group",
+            "name": "ResourceManager.QueueRepository",
+            "nested": [
+                {
+                    "@type": "item",
+                    "name": "org.apache.oodt.cas.resource.queuerepo.QueueRepository"
+                },
+                {
+                    "@type": "item",
+                    "name": "org.apache.oodt.cas.resource.queuerepo.XmlQueueRepository"
+                },
+                {
+                    "@type": "item",
+                    "name": "org.apache.oodt.cas.resource.queuerepo.XmlQueueRepository$1"
+                }
+            ]
+        },
+        {
+            "@type": "group",
+            "name": "ResourceManager.QueueRepository.factories",
+            "nested": [
+                {
+                    "@type": "item",
+                    "name": "org.apache.oodt.cas.resource.queuerepo.QueueRepositoryFactory"
+                },
+                {
+                    "@type": "item",
+                    "name": "org.apache.oodt.cas.resource.queuerepo.XmlQueueRepositoryFactory"
+                }
+            ]
+        },
+        {
+            "@type": "group",
+            "name": "ResourceManager.RPCBatchStub",
+            "nested": [
+                {
+                    "@type": "item",
+                    "name": "org.apache.oodt.cas.resource.system.extern.XmlRpcBatchStub"
+                },
+                {
+                    "@type": "item",
+                    "name": "org.apache.oodt.cas.resource.system.extern.XmlRpcBatchStub$RunnableJob"
+                }
+            ]
+        },
+        {
+            "@type": "group",
+            "name": "ResourceManager.RunDirJobSubmitter",
+            "nested": [
+                {
+                    "@type": "item",
+                    "name": "org.apache.oodt.cas.resource.tools.RunDirJobSubmitter"
+                }
+            ]
+        },
+        {
+            "@type": "group",
+            "name": "ResourceManager.Scheduler",
+            "nested": [
+                {
+                    "@type": "item",
+                    "name": "org.apache.oodt.cas.resource.scheduler.LRUScheduler"
+                },
+                {
+                    "@type": "item",
+                    "name": "org.apache.oodt.cas.resource.scheduler.Scheduler"
+                }
+            ]
+        },
+        {
+            "@type": "group",
+            "name": "ResourceManager.Scheduler.factories",
+            "nested": [
+                {
+                    "@type": "item",
+                    "name": "org.apache.oodt.cas.resource.scheduler.LRUSchedulerFactory"
+                },
+                {
+                    "@type": "item",
+                    "name": "org.apache.oodt.cas.resource.scheduler.SchedulerFactory"
+                }
+            ]
+        },
+        {
+            "@type": "group",
+            "name": "ResourceManager.structs",
+            "nested": [
+                {
+                    "@type": "item",
+                    "name": "org.apache.oodt.cas.resource.structs.Job"
+                },
+                {
+                    "@type": "item",
+                    "name": "org.apache.oodt.cas.resource.structs.JobInput"
+                },
+                {
+                    "@type": "item",
+                    "name": "org.apache.oodt.cas.resource.structs.JobInstance"
+                },
+                {
+                    "@type": "item",
+                    "name": "org.apache.oodt.cas.resource.structs.JobSpec"
+                },
+                {
+                    "@type": "item",
+                    "name": "org.apache.oodt.cas.resource.structs.NameValueJobInput"
+                }
+            ]
+        },
+        {
+            "@type": "group",
+            "name": "ResourceManager.UlimitAPI",
+            "nested": [
+                {
+                    "@type": "item",
+                    "name": "org.apache.oodt.cas.resource.util.Ulimit"
+                },
+                {
+                    "@type": "item",
+                    "name": "org.apache.oodt.cas.resource.util.UlimitMetKeys"
+                },
+                {
+                    "@type": "item",
+                    "name": "org.apache.oodt.cas.resource.util.UlimitProperty"
+                }
+            ]
+        },
+        {
+            "@type": "group",
+            "name": "ResourceManager.XML-RPCResourceManagerClient",
+            "nested": [
+                {
+                    "@type": "item",
+                    "name": "org.apache.oodt.cas.resource.system.XmlRpcResourceManagerClient"
+                }
+            ]
+        },
+        {
+            "@type": "group",
+            "name": "ResourceManager.XML-RPCResourceManagerCore",
+            "nested": [
+                {
+                    "@type": "item",
+                    "name": "org.apache.oodt.cas.resource.structs.exceptions.SchedulerException"
+                },
+                {
+                    "@type": "item",
+                    "name": "org.apache.oodt.cas.resource.system.XmlRpcResourceManager"
+                }
+            ]
+        },
+        {
+            "@type": "group",
+            "name": "PushPull.Protocol",
+            "nested": [
+                {
+                    "@type": "item",
+                    "name": "org.apache.oodt.cas.pushpull.protocol.Protocol"
+                },
+                {
+                    "@type": "item",
+                    "name": "org.apache.oodt.cas.pushpull.protocol.ProtocolFile"
+                },
+                {
+                    "@type": "item",
+                    "name": "org.apache.oodt.cas.pushpull.protocol.ProtocolHandler"
+                },
+                {
+                    "@type": "item",
+                    "name": "org.apache.oodt.cas.pushpull.protocol.ProtocolPath"
+                },
+                {
+                    "@type": "item",
+                    "name": "org.apache.oodt.cas.pushpull.protocol.RemoteSite"
+                }
+            ]
+        },
+        {
+            "@type": "group",
+            "name": "PushPull.Protocol.ftp",
+            "nested": [
+                {
+                    "@type": "item",
+                    "name": "org.apache.oodt.cas.pushpull.protocol.ftp.CogJGlobusFtpClient"
+                },
+                {
+                    "@type": "item",
+                    "name": "org.apache.oodt.cas.pushpull.protocol.ftp.CogJGlobusFtpClient.CogJGlobusFtpClient"
+                },
+                {
+                    "@type": "item",
+                    "name": "org.apache.oodt.cas.pushpull.protocol.ftp.CogJGlobusFtpClient.abortCurFileTransfer"
+                },
+                {
+                    "@type": "item",
+                    "name": "org.apache.oodt.cas.pushpull.protocol.ftp.CommonsNetFtpClient"
+                }
+            ]
+        },
+        {
+            "@type": "group",
+            "name": "PushPull.Protocol.http",
+            "nested": [
+                {
+                    "@type": "item",
+                    "name": "org.apache.oodt.cas.pushpull.protocol.http.HttpClient"
+                }
+            ]
+        },
+        {
+            "@type": "group",
+            "name": "PushPull.Protocol.factories",
+            "nested": [
+                {
+                    "@type": "item",
+                    "name": "org.apache.oodt.cas.pushpull.protocol.http.HttpClientFactory"
+                },
+                {
+                    "@type": "item",
+                    "name": "org.apache.oodt.cas.pushpull.protocol.http.HttpPath"
+                }
+            ]
+        },
+        {
+            "@type": "group",
+            "name": "PushPull.Protocol.imaps",
+            "nested": [
+                {
+                    "@type": "item",
+                    "name": "org.apache.oodt.cas.pushpull.protocol.imaps.ImapsClient"
+                },
+                {
+                    "@type": "item",
+                    "name": "org.apache.oodt.cas.pushpull.protocol.imaps.ImapsClientFactory"
+                }
+            ]
+        },
+        {
+            "@type": "group",
+            "name": "PushPull.Protocol.local",
+            "nested": [
+                {
+                    "@type": "item",
+                    "name": "org.apache.oodt.cas.pushpull.protocol.local.LocalClient"
+                },
+                {
+                    "@type": "item",
+                    "name": "org.apache.oodt.cas.pushpull.protocol.local.LocalClientFactory"
+                }
+            ]
+        },
+        {
+            "@type": "group",
+            "name": "PushPull.Protocol.sftp",
+            "nested": [
+                {
+                    "@type": "item",
+                    "name": "org.apache.oodt.cas.pushpull.protocol.sftp.JschSftpClient"
+                },
+                {
+                    "@type": "item",
+                    "name": "org.apache.oodt.cas.pushpull.protocol.sftp.JschSftpClientFactory"
+                },
+                {
+                    "@type": "item",
+                    "name": "org.apache.oodt.cas.pushpull.objectfactory.PushPullObjectFactory"
+                }
+            ]
+        },
+        {
+            "@type": "group",
+            "name": "PushPull.FileRestriction",
+            "nested": [
+                {
+                    "@type": "item",
+                    "name": "org.apache.oodt.cas.pushpull.filerestrictions.FileRestrictions"
+                },
+                {
+                    "@type": "item",
+                    "name": "org.apache.oodt.cas.pushpull.filerestrictions.Parser"
+                },
+                {
+                    "@type": "item",
+                    "name": "org.apache.oodt.cas.pushpull.filerestrictions.VirtualFile"
+                },
+                {
+                    "@type": "item",
+                    "name": "org.apache.oodt.cas.pushpull.filerestrictions.parsers.ClassNoaaEmailParser"
+                }
+            ]
+        },
+        {
+            "@type": "group",
+            "name": "PushPull.FileRestriction.parsers",
+            "nested": [
+                {
+                    "@type": "item",
+                    "name": "org.apache.oodt.cas.pushpull.filerestrictions.parsers.DirStructXmlParser"
+                },
+                {
+                    "@type": "item",
+                    "name": "org.apache.oodt.cas.pushpull.filerestrictions.parsers.FileListParser"
+                }
+            ]
+        },
+        {
+            "@type": "group",
+            "name": "PushPull.FileRestriction.renamingcovention",
+            "nested": [
+                {
+                    "@type": "item",
+                    "name": "org.apache.oodt.cas.pushpull.filerestrictions.renamingconventions.RenamingConvention"
+                }
+            ]
+        },
+        {
+            "@type": "group",
+            "name": "PushPull.RetrievalSystem",
+            "nested": [
+                {
+                    "@type": "item",
+                    "name": "org.apache.oodt.cas.pushpull.retrievalsystem.DataFileToPropFileLinker"
+                },
+                {
+                    "@type": "item",
+                    "name": "org.apache.oodt.cas.pushpull.retrievalsystem.DownloadListener"
+                },
+                {
+                    "@type": "item",
+                    "name": "org.apache.oodt.cas.pushpull.retrievalsystem.DownloadThreadEvaluator"
+                },
+                {
+                    "@type": "item",
+                    "name": "org.apache.oodt.cas.pushpull.retrievalsystem.DownloadingFileInfo"
+                },
+                {
+                    "@type": "item",
+                    "name": "org.apache.oodt.cas.pushpull.retrievalsystem.FileRetrievalSystem"
+                },
+                {
+                    "@type": "item",
+                    "name": "org.apache.oodt.cas.pushpull.retrievalsystem.RemoteFile"
+                },
+                {
+                    "@type": "item",
+                    "name": "org.apache.oodt.cas.pushpull.retrievalsystem.RemoteFileMetKeys"
+                },
+                {
+                    "@type": "item",
+                    "name": "org.apache.oodt.cas.pushpull.retrievalsystem.RetrievalSetup"
+                },
+                {
+                    "@type": "item",
+                    "name": "org.apache.oodt.cas.pushpull.retrievalsystem.TimeAndThreadCount"
+                }
+            ]
+        },
+        {
+            "@type": "group",
+            "name": "PushPull.RetrivalMethod",
+            "nested": [
+                {
+                    "@type": "item",
+                    "name": "org.apache.oodt.cas.pushpull.retrievalmethod.ListRetriever"
+                },
+                {
+                    "@type": "item",
+                    "name": "org.apache.oodt.cas.pushpull.retrievalmethod.RemoteCrawler"
+                },
+                {
+                    "@type": "item",
+                    "name": "org.apache.oodt.cas.pushpull.retrievalmethod.RetrievalMethod"
+                }
+            ]
+        },
+        {
+            "@type": "group",
+            "name": "PushPull.AccessHandler",
+            "nested": [
+                {
+                    "@type": "item",
+                    "name": "org.apache.oodt.cas.pushpull.url.handlers.imaps.Handler"
+                },
+                {
+                    "@type": "item",
+                    "name": "org.apache.oodt.cas.pushpull.url.handlers.imaps.ImapsURLConnection"
+                },
+                {
+                    "@type": "item",
+                    "name": "org.apache.oodt.cas.pushpull.url.handlers.sftp.Handler"
+                },
+                {
+                    "@type": "item",
+                    "name": "org.apache.oodt.cas.pushpull.url.handlers.sftp.SftpURLConnection"
+                },
+                {
+                    "@type": "item",
+                    "name": "org.apache.oodt.cas.pushpull.url.handlers.sftp.SftpURLConnection"
+                }
+            ]
+        },
+        {
+            "@type": "group",
+            "name": "PushPull.ExpressionValidator",
+            "nested": [
+                {
+                    "@type": "item",
+                    "name": "org.apache.oodt.cas.pushpull.util.ExpressionValidator"
+                }
+            ]
+        },
+        {
+            "@type": "group",
+            "name": "PushPull.daemon",
+            "nested": [
+                {
+                    "@type": "item",
+                    "name": "org.apache.oodt.cas.pushpull.daemon.Daemon"
+                },
+                {
+                    "@type": "item",
+                    "name": "org.apache.oodt.cas.pushpull.daemon.DaemonController"
+                },
+                {
+                    "@type": "item",
+                    "name": "org.apache.oodt.cas.pushpull.daemon.DaemonLauncher"
+                },
+                {
+                    "@type": "item",
+                    "name": "org.apache.oodt.cas.pushpull.daemon.DaemonLauncherMBean"
+                },
+                {
+                    "@type": "item",
+                    "name": "org.apache.oodt.cas.pushpull.daemon.DaemonListener"
+                },
+                {
+                    "@type": "item",
+                    "name": "org.apache.oodt.cas.pushpull.daemon.DaemonMBean"
+                },
+                {
+                    "@type": "item",
+                    "name": "org.apache.oodt.cas.pushpull.daemon.DaemonManager"
+                },
+                {
+                    "@type": "item",
+                    "name": "org.apache.oodt.cas.pushpull.daemon.DaemonRmiInterface"
+                }
+            ]
+        },
+        {
+            "@type": "group",
+            "name": "PushPull.Config",
+            "nested": [
+                {
+                    "@type": "item",
+                    "name": "org.apache.oodt.cas.pushpull.config.Config"
+                },
+                {
+                    "@type": "item",
+                    "name": "org.apache.oodt.cas.pushpull.config.ConfigMetKeys"
+                },
+                {
+                    "@type": "item",
+                    "name": "org.apache.oodt.cas.pushpull.config.ConfigParserMetKeys"
+                },
+                {
+                    "@type": "item",
+                    "name": "org.apache.oodt.cas.pushpull.config.DaemonInfo"
+                },
+                {
+                    "@type": "item",
+                    "name": "org.apache.oodt.cas.pushpull.config.DataFilesInfo"
+                },
+                {
+                    "@type": "item",
+                    "name": "org.apache.oodt.cas.pushpull.config.DownloadInfo"
+                },
+                {
+                    "@type": "item",
+                    "name": "org.apache.oodt.cas.pushpull.config.ParserInfo"
+                },
+                {
+                    "@type": "item",
+                    "name": "org.apache.oodt.cas.pushpull.config.PropFilesInfo"
+                },
+                {
+                    "@type": "item",
+                    "name": "org.apache.oodt.cas.pushpull.config.ProtocolInfo"
+                },
+                {
+                    "@type": "item",
+                    "name": "org.apache.oodt.cas.pushpull.config.RemoteSpecs"
+                },
+                {
+                    "@type": "item",
+                    "name": "org.apache.oodt.cas.pushpull.config.SiteInfo"
+                }
+            ]
+        },
+        {
+            "@type": "group",
+            "name": "PushPull.Exceptions(Josh)",
+            "nested": [
+                {
+                    "@type": "item",
+                    "name": "org.apache.oodt.cas.pushpull.exceptions.AlreadyInDatabaseException"
+                },
+                {
+                    "@type": "item",
+                    "name": "org.apache.oodt.cas.pushpull.exceptions.ConfigException"
+                },
+                {
+                    "@type": "item",
+                    "name": "org.apache.oodt.cas.pushpull.exceptions.CrawlDaemonException"
+                },
+                {
+                    "@type": "item",
+                    "name": "org.apache.oodt.cas.pushpull.exceptions.CrawlerException"
+                },
+                {
+                    "@type": "item",
+                    "name": "org.apache.oodt.cas.pushpull.exceptions.FileRestrictionsException"
+                },
+                {
+                    "@type": "item",
+                    "name": "org.apache.oodt.cas.pushpull.exceptions.MetExtractorException"
+                },
+                {
+                    "@type": "item",
+                    "name": "org.apache.oodt.cas.pushpull.exceptions.MethodException"
+                },
+                {
+                    "@type": "item",
+                    "name": "org.apache.oodt.cas.pushpull.exceptions.ParserException"
+                },
+                {
+                    "@type": "item",
+                    "name": "org.apache.oodt.cas.pushpull.exceptions.ProtocolDeletionError"
+                },
+                {
+                    "@type": "item",
+                    "name": "org.apache.oodt.cas.pushpull.exceptions.ProtocolException"
+                },
+                {
+                    "@type": "item",
+                    "name": "org.apache.oodt.cas.pushpull.exceptions.ProtocolFileException"
+                },
+                {
+                    "@type": "item",
+                    "name": "org.apache.oodt.cas.pushpull.exceptions.PushPullFrameworkException"
+                },
+                {
+                    "@type": "item",
+                    "name": "org.apache.oodt.cas.pushpull.exceptions.RemoteConnectionException"
+                },
+                {
+                    "@type": "item",
+                    "name": "org.apache.oodt.cas.pushpull.exceptions.RetrievalMethodException"
+                },
+                {
+                    "@type": "item",
+                    "name": "org.apache.oodt.cas.pushpull.exceptions.ThreadEvaluatorException"
+                },
+                {
+                    "@type": "item",
+                    "name": "org.apache.oodt.cas.pushpull.exceptions.ToManyFailedDownloadsException"
+                },
+                {
+                    "@type": "item",
+                    "name": "org.apache.oodt.cas.pushpull.exceptions.UndefinedTypeException"
+                }
+            ]
+        },
+        {
+            "@type": "group",
+            "name": "PushPull.Expressions(Josh)",
+            "nested": [
+                {
+                    "@type": "item",
+                    "name": "org.apache.oodt.cas.pushpull.expressions.GlobalVariables"
+                },
+                {
+                    "@type": "item",
+                    "name": "org.apache.oodt.cas.pushpull.expressions.Method"
+                },
+                {
+                    "@type": "item",
+                    "name": "org.apache.oodt.cas.pushpull.expressions.Operator"
+                },
+                {
+                    "@type": "item",
+                    "name": "org.apache.oodt.cas.pushpull.expressions.Punctuation"
+                },
+                {
+                    "@type": "item",
+                    "name": "org.apache.oodt.cas.pushpull.expressions.ValidInput"
+                },
+                {
+                    "@type": "item",
+                    "name": "org.apache.oodt.cas.pushpull.expressions.Variable"
+                }
+            ]
+        },
+        {
+            "@type": "group",
+            "name": "Crawler.Utilities",
+            "nested": [
+                {
+                    "@type": "item",
+                    "name": "org.apache.oodt.cas.crawl.comparator.FilemgrUniquenessCheckComparator"
+                },
+                {
+                    "@type": "item",
+                    "name": "org.apache.oodt.cas.crawl.util.CasPropertyList"
+                },
+                {
+                    "@type": "item",
+                    "name": "org.apache.oodt.cas.crawl.util.CasPropertyPlaceholderConfigurer"
+                }
+            ]
+        },
+        {
+            "@type": "group",
+            "name": "Crawler.Exceptions",
+            "nested": [
+                {
+                    "@type": "item",
+                    "name": "org.apache.oodt.cas.crawl.structs.exceptions.CrawlerActionException"
+                },
+                {
+                    "@type": "item",
+                    "name": "org.apache.oodt.cas.crawl.structs.exceptions.CrawlException"
+                }
+            ]
+        },
+        {
+            "@type": "group",
+            "name": "Crawler.CrawlerLauncher",
+            "nested": [
+                {
+                    "@type": "item",
+                    "name": "org.apache.oodt.cas.crawl.CrawlerLauncher"
+                }
+            ]
+        },
+        {
+            "@type": "group",
+            "name": "Crawler.ProductCrawler",
+            "nested": [
+                {
+                    "@type": "item",
+                    "name": "org.apache.oodt.cas.crawl.daemon.CrawlDaemon"
+                },
+                {
+                    "@type": "item",
+                    "name": "org.apache.oodt.cas.crawl.AutoDetectProductCrawler"
+                },
+                {
+                    "@type": "item",
+                    "name": "org.apache.oodt.cas.crawl.StdProductCrawler"
+                },
+                {
+                    "@type": "item",
+                    "name": "org.apache.oodt.cas.crawl.MetExtractorProductCrawler"
+                },
+                {
+                    "@type": "item",
+                    "name": "org.apache.oodt.cas.crawl.status.IngestStatus"
+                },
+                {
+                    "@type": "item",
+                    "name": "org.apache.oodt.cas.crawl.typedetection.MimeExtractorConfigMetKeys"
+                },
+                {
+                    "@type": "item",
+                    "name": "org.apache.oodt.cas.crawl.typedetection.MimeExtractorConfigReader"
+                },
+                {
+                    "@type": "item",
+                    "name": "org.apache.oodt.cas.crawl.action.CrawlerActionPhases"
+                },
+                {
+                    "@type": "item",
+                    "name": "org.apache.oodt.cas.crawl.action.CrawlerAction"
+                },
+                {
+                    "@type": "item",
+                    "name": "org.apache.oodt.cas.crawl.action.MimeTypeCrawlerAction"
+                },
+                {
+                    "@type": "item",
+                    "name": "org.apache.oodt.cas.crawl.ProductCrawler"
+                },
+                {
+                    "@type": "item",
+                    "name": "org.apache.oodt.cas.crawl.config.ProductCrawlerBean"
+                },
+                {
+                    "@type": "item",
+                    "name": "org.apache.oodt.cas.crawl.action.CrawlerActionRepo"
+                },
+                {
+                    "@type": "item",
+                    "name": "org.apache.oodt.cas.crawl.action.DeleteFile"
+                },
+                {
+                    "@type": "item",
+                    "name": "org.apache.oodt.cas.crawl.action.MoveFile"
+                },
+                {
+                    "@type": "item",
+                    "name": "org.apache.oodt.cas.crawl.action.FilemgrUniquenessChecker"
+                },
+                {
+                    "@type": "item",
+                    "name": "org.apache.oodt.cas.crawl.action.WorkflowMgrStatusUpdate"
+                },
+                {
+                    "@type": "item",
+                    "name": "org.apache.oodt.cas.crawl.typedetection.MetExtractorSpec"
+                },
+                {
+                    "@type": "item",
+                    "name": "org.apache.oodt.cas.crawl.typedetection.MimeExtractorRepo"
+                }
+            ]
+        },
+        {
+            "@type": "group",
+            "name": "Crawler.CrawlerDaemonController",
+            "nested": [
+                {
+                    "@type": "item",
+                    "name": "org.apache.oodt.cas.crawl.daemon.CrawlDaemonController"
+                }
+            ]
+        },
+        {
+            "@type": "group",
+            "name": "Crawler.Command_Line_Crawler_Options_Handlers",
+            "nested": [
+                {
+                    "@type": "item",
+                    "name": "org.apache.oodt.cas.crawl.option.CmdLineOptionCrawlerActionInfoHandler"
+                },
+                {
+                    "@type": "item",
+                    "name": "org.apache.oodt.cas.crawl.option.CmdLineOptionInfoHandler"
+                },
+                {
+                    "@type": "item",
+                    "name": "org.apache.oodt.cas.crawl.option.CmdLineOptionPreconditionInfoHandler"
+                },
+                {
+                    "@type": "item",
+                    "name": "org.apache.oodt.cas.crawl.option.CmdLineOptionProductCrawlerInfoHandler"
+                },
+                {
+                    "@type": "item",
+                    "name": "org.apache.oodt.cas.crawl.option.CmdLineOptionJavaPropHandler"
+                }
+            ]
+        },
+        {
+            "@type": "group",
+            "name": "Metadata.MetExtractor.exceptions",
+            "nested": [
+                {
+                    "@type": "item",
+                    "name": "org.apache.oodt.cas.metadata.exceptions.MetExtractionException"
+                },
+                {
+                    "@type": "item",
+                    "name": "org.apache.oodt.cas.metadata.exceptions.MetExtractorConfigReaderException"
+                },
+                {
+                    "@type": "item",
+                    "name": "org.apache.oodt.cas.metadata.exceptions.PreconditionComparatorException"
+                }
+            ]
+        },
+        {
+            "@type": "group",
+            "name": "Metadata.MetExtractor.extractors",
+            "nested": [
+                {
+                    "@type": "item",
+                    "name": "org.apache.oodt.cas.metadata.extractors.CmdLineMetExtractor"
+                },
+                {
+                    "@type": "item",
+                    "name": "org.apache.oodt.cas.metadata.extractors.CopyAndRewriteConfig"
+                },
+                {
+                    "@type": "item",
+                    "name": "org.apache.oodt.cas.metadata.extractors.CopyAndRewriteConfigReader"
+                },
+                {
+                    "@type": "item",
+                    "name": "org.apache.oodt.cas.metadata.extractors.CopyAndRewriteExtractor"
+                },
+                {
+                    "@type": "item",
+                    "name": "org.apache.oodt.cas.metadata.extractors.ExternalMetExtractorConfig"
+                },
+                {
+                    "@type": "item",
+                    "name": "org.apache.oodt.cas.metadata.extractors.ExternConfigReader"
+                },
+                {
+                    "@type": "item",
+                    "name": "org.apache.oodt.cas.metadata.extractors.ExternConfigReaderMetKeys"
+                },
+                {
+                    "@type": "item",
+                    "name": "org.apache.oodt.cas.metadata.extractors.ExternMetExtractor"
+                },
+                {
+                    "@type": "item",
+                    "name": "org.apache.oodt.cas.metadata.extractors.ExternMetExtractorMetKeys"
+                },
+                {
+                    "@type": "item",
+                    "name": "org.apache.oodt.cas.metadata.extractors.FilenameTokenConfig"
+                },
+                {
+                    "@type": "item",
+                    "name": "org.apache.oodt.cas.metadata.extractors.FilenameTokenConfigReader"
+                },
+                {
+                    "@type": "item",
+                    "name": "org.apache.oodt.cas.metadata.extractors.FilenameTokenExtractorMetKeys"
+                },
+                {
+                    "@type": "item",
+                    "name": "org.apache.oodt.cas.metadata.extractors.FilenameTokenMetExtractor"
+                },
+                {
+                    "@type": "item",
+                    "name": "org.apache.oodt.cas.metadata.extractors.MetReaderConfig"
+                },
+                {
+                    "@type": "item",
+                    "name": "org.apache.oodt.cas.metadata.extractors.MetReaderConfigReader"
+                },
+                {
+                    "@type": "item",
+                    "name": "org.apache.oodt.cas.metadata.extractors.MetReaderExtractor"
+                }
+            ]
+        },
+        {
+            "@type": "group",
+            "name": "Metadata.MetExtractor",
+            "nested": [
+                {
+                    "@type": "item",
+                    "name": "org.apache.oodt.cas.metadata.MetExtractorConfig"
+                },
+                {
+                    "@type": "item",
+                    "name": "org.apache.oodt.cas.metadata.MetExtractorConfigReader"
+                },
+                {
+                    "@type": "item",
+                    "name": "org.apache.oodt.cas.metadata.util.GenericMetadataObjectFactory"
+                }
+            ]
+        },
+        {
+            "@type": "group",
+            "name": "Metadata.Metadata",
+            "nested": [
+                {
+                    "@type": "item",
+                    "name": "org.apache.oodt.cas.metadata.SerializableMetadata"
+                },
+                {
+                    "@type": "item",
+                    "name": "org.apache.oodt.cas.metadata.AbstractMetExtractor"
+                },
+                {
+                    "@type": "item",
+                    "name": "org.apache.oodt.cas.metadata.MetExtractor"
+                },
+                {
+                    "@type": "item",
+                    "name": "org.apache.oodt.cas.metadata.Metadata"
+                }
+            ]
+        },
+        {
+            "@type": "group",
+            "name": "Metadata.Utils",
+            "nested": [
+                {
+                    "@type": "item",
+                    "name": "org.apache.oodt.cas.metadata.util.MimeTypeUtils"
+                },
+                {
+                    "@type": "item",
+                    "name": "org.apache.oodt.cas.metadata.util.PathUtils"
+                },
+                {
+                    "@type": "item",
+                    "name": "org.apache.oodt.cas.metadata.util.PropertiesUtils"
+                }
+            ]
+        },
+        {
+            "@type": "group",
+            "name": "Metadata.PreConditionComparator",
+            "nested": [
+                {
+                    "@type": "item",
+                    "name": "org.apache.oodt.cas.metadata.preconditions.MimeTypeComparator"
+                },
+                {
+                    "@type": "item",
+                    "name": "org.apache.oodt.cas.metadata.preconditions.FileSizeComparator"
+                },
+                {
+                    "@type": "item",
+                    "name": "org.apache.oodt.cas.metadata.preconditions.ExistanceCheckComparator"
+                }
+            ]
+        },
+        {
+            "@type": "group",
+            "name": "Metadata.PreConditionOperatorMetKeys",
+            "nested": [
+                {
+                    "@type": "item",
+                    "name": "org.apache.oodt.cas.metadata.preconditions.PreCondEvalUtils"
+                }
+            ]
+        },
+        {
+            "@type": "group",
+            "name": "Product.OFSNFileHandler",
+            "nested": [
+                {
+                    "@type": "item",
+                    "name": "org.apache.oodt.product.handlers.ofsn.OFSNFileHandler"
+                },
+                {
+                    "@type": "item",
+                    "name": "org.apache.oodt.product.handlers.ofsn.metadata.XMLQueryMetKeys"
+                },
+                {
+                    "@type": "item",
+                    "name": "org.apache.oodt.product.LargeProductQueryHandler"
+                },
+                {
+                    "@type": "item",
+                    "name": "org.apache.oodt.product.QueryHandler"
+                }
+            ]
+        },
+        {
+            "@type": "group",
+            "name": "Product.OtherHandlers",
+            "nested": [
+                {
+                    "@type": "item",
+                    "name": "org.apache.oodt.product.handlers.ofsn.AbstractCrawlLister"
+                },
+                {
+                    "@type": "item",
+                    "name": "org.apache.oodt.product.handlers.ofsn.DirListNonRecursiveHandler"
+                },
+                {
+                    "@type": "item",
+                    "name": "org.apache.oodt.product.handlers.ofsn.DirListRecursiveHandler"
+                },
+                {
+                    "@type": "item",
+                    "name": "org.apache.oodt.product.handlers.ofsn.FileListNonRecursiveHandler"
+                },
+                {
+                    "@type": "item",
+                    "name": "org.apache.oodt.product.handlers.ofsn.FileListRecursiveHandler"
+                },
+                {
+                    "@type": "item",
+                    "name": "org.apache.oodt.product.handlers.ofsn.util.OFSNUtils"
+                },
+                {
+                    "@type": "item",
+                    "name": "org.apache.oodt.product.handlers.ofsn.OFSNListHandler"
+                },
+                {
+                    "@type": "item",
+                    "name": "org.apache.oodt.product.handlers.ofsn.SingleFileListHandler"
+                },
+                {
+                    "@type": "item",
+                    "name": "org.apache.oodt.product.handlers.ofsn.SingleZipFileListHandler"
+                },
+                {
+                    "@type": "item",
+                    "name": "org.apache.oodt.product.handlers.ofsn.RawSizeListHandler"
+                },
+                {
+                    "@type": "item",
+                    "name": "org.apache.oodt.product.handlers.ofsn.OFSNGetHandler"
+                },
+                {
+                    "@type": "item",
+                    "name": "org.apache.oodt.product.handlers.ofsn.MD5GetHandler"
+                },
+                {
+                    "@type": "item",
+                    "name": "org.apache.oodt.product.handlers.ofsn.util.OFSNObjectFactory"
+                },
+                {
+                    "@type": "item",
+                    "name": "org.apache.oodt.product.handlers.ofsn.StdOFSNGetHandler"
+                }
+            ]
+        },
+        {
+            "@type": "group",
+            "name": "Product.Handlerconfig",
+            "nested": [
+                {
+                    "@type": "item",
+                    "name": "org.apache.oodt.product.handlers.ofsn.OFSNHandlerConfig"
+                }
+            ]
+        },
+        {
+            "@type": "group",
+            "name": "Product.xmlquery",
+            "nested": [
+                {
+                    "@type": "item",
+                    "name": "org.apache.oodt.product.Retriever"
+                },
+                {
+                    "@type": "item",
+                    "name": "org.apache.oodt.product.ProductException"
+                },
+                {
+                    "@type": "item",
+                    "name": "org.apache.oodt.xmlquery.ByteArrayCodec"
+                },
+                {
+                    "@type": "item",
+                    "name": "org.apache.oodt.xmlquery.ChunkedProductInputStream"
+                },
+                {
+                    "@type": "item",
+                    "name": "org.apache.oodt.xmlquery.Codec"
+                },
+                {
+                    "@type": "item",
+                    "name": "org.apache.oodt.xmlquery.CodecFactory"
+                },
+                {
+                    "@type": "item",
+                    "name": "org.apache.oodt.xmlquery.CompressedObjectCodec"
+                },
+                {
+                    "@type": "item",
+                    "name": "org.apache.oodt.xmlquery.CompressedStringCodec"
+                },
+                {
+                    "@type": "item",
+                    "name": "org.apache.oodt.xmlquery.Header"
+                },
+                {
+                    "@type": "item",
+                    "name": "org.apache.oodt.xmlquery.LargeResult"
+                },
+                {
+                    "@type": "item",
+                    "name": "org.apache.oodt.xmlquery.ObjectCodec"
+                },
+                {
+                    "@type": "item",
+                    "name": "org.apache.oodt.xmlquery.QueryElement"
+                },
+                {
+                    "@type": "item",
+                    "name": "org.apache.oodt.xmlquery.QueryException"
+                },
+                {
+                    "@type": "item",
+                    "name": "org.apache.oodt.xmlquery.QueryHeader"
+                },
+                {
+                    "@type": "item",
+                    "name": "org.apache.oodt.xmlquery.QueryResult"
+                },
+                {
+                    "@type": "item",
+                    "name": "org.apache.oodt.xmlquery.Result"
+                },
+                {
+                    "@type": "item",
+                    "name": "org.apache.oodt.xmlquery.Results"
+                },
+                {
+                    "@type": "item",
+                    "name": "org.apache.oodt.xmlquery.Statistic"
+                },
+                {
+                    "@type": "item",
+                    "name": "org.apache.oodt.xmlquery.StringCodec"
+                },
+                {
+                    "@type": "item",
+                    "name": "org.apache.oodt.xmlquery.UnsupportedMimeTypeCodec"
+                },
+                {
+                    "@type": "item",
+                    "name": "org.apache.oodt.xmlquery.XMLQuery"
+                },
+                {
+                    "@type": "item",
+                    "name": "org.apache.oodt.xmlquery.activity.QueryConstructed"
+                }
+            ]
+        },
+        {
+            "@type": "group",
+            "name": "Product.Filehandlerconfiguration",
+            "nested": [
+                {
+                    "@type": "item",
+                    "name": "org.apache.oodt.product.handlers.ofsn.OFSNFileHandlerConfigurationReader"
+                },
+                {
+                    "@type": "item",
+                    "name": "org.apache.oodt.product.handlers.ofsn.OFSNFileHandlerConfiguration"
+                }
+            ]
+        },
+        {
+            "@type": "group",
+            "name": "Product.OFSNMetKeys",
+            "nested": [
+                {
+                    "@type": "item",
+                    "name": "org.apache.oodt.product.handlers.ofsn.metadata.OFSNMetKeys"
+                }
+            ]
+        },
+        {
+            "@type": "group",
+            "name": "Product.OFSNXMLConfigMetKeys",
+            "nested": [
+                {
+                    "@type": "item",
+                    "name": "org.apache.oodt.product.handlers.ofsn.metadata.OFSNXMLConfigMetKeys"
+                }
+            ]
+        },
+        {
+            "@type": "group",
+            "name": "Product.OFSNXMLMetKeys",
+            "nested": [
+                {
+                    "@type": "item",
+                    "name": "org.apache.oodt.product.handlers.ofsn.metadata.OFSNXMLMetKeys"
+                }
+            ]
+        },
+        {
+            "@type": "group",
+            "name": "Product.OODTMetKeys",
+            "nested": [
+                {
+                    "@type": "item",
+                    "name": "org.apache.oodt.product.handlers.ofsn.metadata.OODTMetKeys"
+                }
+            ]
+        },
+        {
+            "@type": "group",
+            "name": "XMLPS.QueryParser",
+            "nested": [
+                {
+                    "@type": "item",
+                    "name": "org.apache.oodt.xmlps.queryparser.GreaterThanEqualsExpression"
+                },
+                {
+                    "@type": "item",
+                    "name": "org.apache.oodt.xmlps.queryparser.HandlerQueryParser"
+                },
+                {
+                    "@type": "item",
+                    "name": "org.apache.oodt.xmlps.queryparser.LessThanExpression"
+                },
+                {
+                    "@type": "item",
+                    "name": "org.apache.oodt.xmlps.queryparser.WildcardLiteral"
+                },
+                {
+                    "@type": "item",
+                    "name": "org.apache.oodt.xmlps.queryparser.ContainsExpression"
+                },
+                {
+                    "@type": "item",
+                    "name": "org.apache.oodt.xmlps.queryparser.EqualsExpression"
+                },
+                {
+                    "@type": "item",
+                    "name": "org.apache.oodt.xmlps.queryparser.Literal"
+                },
+                {
+                    "@type": "item",
+                    "name": "org.apache.oodt.xmlps.queryparser.LogOpExpression"
+                },
+                {
+                    "@type": "item",
+                    "name": "org.apache.oodt.xmlps.queryparser.OrExpression"
+                },
+                {
+                    "@type": "item",
+                    "name": "org.apache.oodt.xmlps.queryparser.LessThanEqualsExpression"
+                },
+                {
+                    "@type": "item",
+                    "name": "org.apache.oodt.xmlps.queryparser.AndExpression"
+                },
+                {
+                    "@type": "item",
+                    "name": "org.apache.oodt.xmlps.queryparser.ParseConstants"
+                },
+                {
+                    "@type": "item",
+                    "name": "org.apache.oodt.xmlps.queryparser.RelOpExpression"
+                }
+            ]
+        },
+        {
+            "@type": "group",
+            "name": "XMLPS.Mapping",
+            "nested": [
+                {
+                    "@type": "item",
+                    "name": "org.apache.oodt.xmlps.mapping.FieldScope"
+                },
+                {
+                    "@type": "item",
+                    "name": "org.apache.oodt.xmlps.util.GenericCDEObjectFactory"
+                },
+                {
+                    "@type": "item",
+                    "name": "org.apache.oodt.xmlps.product.DBMSExecutor"
+                },
+                {
+                    "@type": "item",
+                    "name": "org.apache.oodt.xmlps.mapping.MappingField"
+                },
+                {
+                    "@type": "item",
+                    "name": "org.apache.oodt.xmlps.mapping.FieldType"
+                },
+                {
+                    "@type": "item",
+                    "name": "org.apache.oodt.xmlps.mapping.DatabaseTable"
+                },
+                {
+                    "@type": "item",
+                    "name": "org.apache.oodt.xmlps.mapping.DatabaseTableGroup"
+                },
+                {
+                    "@type": "item",
+                    "name": "org.apache.oodt.xmlps.mapping.Mapping\u807d"
+                },
+                {
+                    "@type": "item",
+                    "name": "org.apache.oodt.xmlps.mapping.MappingReader"
+                },
+                {
+                    "@type": "item",
+                    "name": "org.apache.oodt.xmlps.mapping.MappingReaderMetKeys"
+                }
+            ]
+        },
+        {
+            "@type": "group",
+            "name": "XMLPS.Helper",
+            "nested": [
+                {
+                    "@type": "item",
+                    "name": "org.apache.oodt.xmlps.util.XMLQueryHelper"
+                },
+                {
+                    "@type": "item",
+                    "name": "org.apache.oodt.xmlps.util.XMLQueryKeys"
+                }
+            ]
+        },
+        {
+            "@type": "group",
+            "name": "XMLPS.CDEstruct",
+            "nested": [
+                {
+                    "@type": "item",
+                    "name": "org.apache.oodt.xmlps.structs.CDEResult"
+                },
+                {
+                    "@type": "item",
+                    "name": "org.apache.oodt.xmlps.structs.CDERow"
+                },
+                {
+                    "@type": "item",
+                    "name": "org.apache.oodt.xmlps.structs.CDEValue"
+                }
+            ]
+        },
+        {
+            "@type": "group",
+            "name": "XMLPS.XMLPSHandler",
+            "nested": [
+                {
+                    "@type": "item",
+                    "name": "org.apache.oodt.xmlps.product.XMLPSProductHandler"
+                },
+                {
+                    "@type": "item",
+                    "name": "org.apache.oodt.xmlps.profile.XMLPSProfileHandler"
+                },
+                {
+                    "@type": "item",
+                    "name": "org.apache.oodt.xmlps.profile.DBMSExecutor"
+                }
+            ]
+        },
+        {
+            "@type": "group",
+            "name": "XMLPS.Function",
+            "nested": [
+                {
+                    "@type": "item",
+                    "name": "org.apache.oodt.xmlps.mapping.funcs.MappingFunc"
+                },
+                {
+                    "@type": "item",
+                    "name": "org.apache.oodt.xmlps.mapping.funcs.ReplaceFunc"
+                }
+            ]
+        },
+        {
+            "@type": "group",
+            "name": "ProfileServer",
+            "nested": [
+                {
+                    "@type": "item",
+                    "name": "org.apache.oodt.profile.handlers.cas.CASProfileHandler"
+                },
+                {
+                    "@type": "item",
+                    "name": "org.apache.oodt.profile.handlers.cas.util.ProfileUtils"
+                }
+            ]
+        },
+        {
+            "@type": "group",
+            "name": "ProfileServer.Lightweight",
+            "nested": [
+                {
+                    "@type": "item",
+                    "name": "org.apache.oodt.profile.handlers.lightweight.AndExpression"
+                },
+                {
+                    "@type": "item",
+                    "name": "org.apache.oodt.profile.handlers.lightweight.ConstantExpression"
+                },
+                {
+                    "@type": "item",
+                    "name": "org.apache.oodt.profile.handlers.lightweight.FalseResult"
+                },
+                {
+                    "@type": "item",
+                    "name": "org.apache.oodt.profile.handlers.lightweight.Intersection"
+                },
+                {
+                    "@type": "item",
+                    "name": "org.apache.oodt.profile.handlers.lightweight.LightweightProfileServer"
+                },
+                {
+                    "@type": "item",
+                    "name": "org.apache.oodt.profile.handlers.lightweight.MatchingResult"
+                },
+                {
+                    "@type": "item",
+                    "name": "org.apache.oodt.profile.handlers.lightweight.NotExpression"
+                },
+                {
+                    "@type": "item",
+                    "name": "org.apache.oodt.profile.handlers.lightweight.OperatorExpression"
+                },
+                {
+                    "@type": "item",
+                    "name": "org.apache.oodt.profile.handlers.lightweight.OrExpression"
+                },
+                {
+                    "@type": "item",
+                    "name": "org.apache.oodt.profile.handlers.lightweight.Result"
+                },
+                {
+                    "@type": "item",
+                    "name": "org.apache.oodt.profile.handlers.lightweight.SearchableEnumeratedProfileElement"
+                },
+                {
+                    "@type": "item",
+                    "name": "org.apache.oodt.profile.handlers.lightweight.SearchableObjectFactory"
+                },
+                {
+                    "@type": "item",
+                    "name": "org.apache.oodt.profile.handlers.lightweight.SearchableProfile"
+                },
+                {
+                    "@type": "item",
+                    "name": "org.apache.oodt.profile.handlers.lightweight.SearchableProfileElement"
+                },
+                {
+                    "@type": "item",
+                    "name": "org.apache.oodt.profile.handlers.lightweight.SearchableResourceAttributes"
+                },
+                {
+                    "@type": "item",
+                    "name": "org.apache.oodt.profile.handlers.lightweight.SearchableUnspecifiedProfileElement"
+                },
+                {
+                    "@type": "item",
+                    "name": "org.apache.oodt.profile.handlers.lightweight.Union"
+                },
+                {
+                    "@type": "item",
+                    "name": "org.apache.oodt.profile.handlers.lightweight.WhereExpression"
+                }
+            ]
+        },
+        {
+            "@type": "group",
+            "name": "ProfileServer.GUI",
+            "nested": [
+                {
+                    "@type": "item",
+                    "name": "org.apache.oodt.profile.gui.profileTree"
+                },
+                {
+                    "@type": "item",
+                    "name": "org.apache.oodt.profile.gui.LeafListener"
+                },
+                {
+                    "@type": "item",
+                    "name": "org.apache.oodt.profile.gui.ProfileBuilderGUI"
+                }
+            ]
+        },
+        {
+            "@type": "group",
+            "name": "ProfileServer..pstructs",
+            "nested": [
+                {
+                    "@type": "item",
+                    "name": "org.apache.oodt.profile.gui.pstructs.ProfileAttributesPrinter"
+                },
+                {
+                    "@type": "item",
+                    "name": "org.apache.oodt.profile.gui.pstructs.ProfilePrinter"
+                },
+                {
+                    "@type": "item",
+                    "name": "org.apache.oodt.profile.gui.pstructs.ProfileElementPrinter"
+                },
+                {
+                    "@type": "item",
+                    "name": "org.apache.oodt.profile.gui.pstructs.ResourceAttributesPrinter"
+                }
+            ]
+        },
+        {
+            "@type": "group",
+            "name": "ProfileServer.Handlers",
+            "nested": [
+                {
+                    "@type": "item",
+                    "name": "org.apache.oodt.profile.handlers.DatabaseProfileManager"
+                },
+                {
+                    "@type": "item",
+                    "name": "org.apache.oodt.profile.handlers.ProfileManager"
+                },
+                {
+                    "@type": "item",
+                    "name": "org.apache.oodt.profile.handlers.ProfileHandler"
+                }
+            ]
+        },
+        {
+            "@type": "group",
+            "name": "ProfileServer.Profile",
+            "nested": [
+                {
+                    "@type": "item",
+                    "name": "org.apache.oodt.profile.DefaultFactory"
+                },
+                {
+                    "@type": "item",
+                    "name": "org.apache.oodt.profile.EnumeratedProfileElement"
+                },
+                {
+                    "@type": "item",
+                    "name": "org.apache.oodt.profile.ObjectFactory"
+                },
+                {
+                    "@type": "item",
+                    "name": "org.apache.oodt.profile.Profile"
+                },
+                {
+                    "@type": "item",
+                    "name": "org.apache.oodt.profile.ProfileAttributes"
+                },
+                {
+                    "@type": "item",
+                    "name": "org.apache.oodt.profile.ProfileElement"
+                },
+                {
+                    "@type": "item",
+                    "name": "org.apache.oodt.profile.ProfileException"
+                },
+                {
+                    "@type": "item",
+                    "name": "org.apache.oodt.profile.ProfileSAXException"
+                },
+                {
+                    "@type": "item",
+                    "name": "org.apache.oodt.profile.ProfileSQLException"
+                },
+                {
+                    "@type": "item",
+                    "name": "org.apache.oodt.profile.RangedProfileElement"
+                },
+                {
+                    "@type": "item",
+                    "name": "org.apache.oodt.profile.ResourceAttributes"
+                },
+                {
+                    "@type": "item",
+                    "name": "org.apache.oodt.profile.UnspecifiedProfileElement"
+                },
+                {
+                    "@type": "item",
+                    "name": "org.apache.oodt.profile.Utility"
+                }
+            ]
+        },
+        {
+            "@type": "group",
+            "name": "ProfileServer.Activity",
+            "nested": [
+                {
+                    "@type": "item",
+                    "name": "org.apache.oodt.profile.activity.ConnectedToServer"
+                },
+                {
+                    "@type": "item",
+                    "name": "org.apache.oodt.profile.activity.ProfileClientConstructed"
+                },
+                {
+                    "@type": "item",
+                    "name": "org.apache.oodt.profile.activity.QueriedHandlers"
+                },
+                {
+                    "@type": "item",
+                    "name": "org.apache.oodt.profile.activity.ReceivedQuery"
+                }
+            ]
+        },
+        {
+            "@type": "group",
+            "name": "Curation.MainCurationService",
+            "nested": [
+                {
+                    "@type": "item",
+                    "name": "org.apache.oodt.cas.curation.service.IngestionResource"
+                },
+                {
+                    "@type": "item",
+                    "name": "org.apache.oodt.cas.curation.service.MetadataResource"
+                },
+                {
+                    "@type": "item",
+                    "name": "org.apache.oodt.cas.curation.service.CurationServiceConfig"
+                },
+                {
+                    "@type": "item",
+                    "name": "org.apache.oodt.cas.curation.service.PolicyResource"
+                },
+                {
+                    "@type": "item",
+                    "name": "org.apache.oodt.cas.curation.service.SystemResource"
+                },
+                {
+                    "@type": "item",
+                    "name": "org.apache.oodt.cas.curation.service.DirectoryResource"
+                },
+                {
+                    "@type": "item",
+                    "name": "org.apache.oodt.cas.curation.service.CurationService"
+                }
+            ]
+        },
+        {
+            "@type": "group",
+            "name": "Curation.SSOConfiguratedCuratorWebService",
+            "nested": [
+                {
+                    "@type": "item",
+                    "name": "org.apache.oodt.cas.curation.servlet.UploadDatasetDefinitionServlet"
+                },
+                {
+                    "@type": "item",
+                    "name": "org.apache.oodt.cas.curation.servlet.CuratorConfMetKeys"
+                },
+                {
+                    "@type": "item",
+                    "name": "org.apache.oodt.cas.curation.servlet.UploadPolicyServlet"
+                },
+                {
+                    "@type": "item",
+                    "name": "org.apache.oodt.cas.curation.servlet.BeginIngestionTaskServlet"
+                },
+                {
+                    "@type": "item",
+                    "name": "org.apache.oodt.cas.curation.servlet.ShowExistingDatasetsByPolicyServlet"
+                },
+                {
+                    "@type": "item",
+                    "name": "org.apache.oodt.cas.curation.servlet.MetViewerServlet"
+                },
+                {
+                    "@type": "item",
+                    "name": "org.apache.oodt.cas.curation.servlet.UploadMetExtractorConfigServlet"
+                },
+                {
+                    "@type": "item",
+                    "name": "org.apache.oodt.cas.curation.servlet.ShowExistingPoliciesServlet"
+                },
+                {
+                    "@type": "item",
+                    "name": "org.apache.oodt.cas.curation.servlet.SSOConfiguredCuratorWebService"
+                },
+                {
+                    "@type": "item",
+                    "name": "org.apache.oodt.cas.curation.servlet.DirectoryListingServlet"
+                },
+                {
+                    "@type": "item",
+                    "name": "org.apache.oodt.cas.curation.servlet.UpdateDatasetMetaDataServlet"
+                },
+                {
+                    "@type": "item",
+                    "name": "org.apache.oodt.cas.curation.policymgr.CurationPolicyManager"
+                }
+            ]
+        },
+        {
+            "@type": "group",
+            "name": "Curation.IngestionTaskStructures",
+            "nested": [
+                {
+                    "@type": "item",
+                    "name": "org.apache.oodt.cas.curation.structs.IngestionTaskStatus"
+                },
+                {
+                    "@type": "item",
+                    "name": "org.apache.oodt.cas.curation.structs.IngestionTask"
+                },
+                {
+                    "@type": "item",
+                    "name": "org.apache.oodt.cas.curation.structs.ExtractorConfig"
+                }
+            ]
+        },
+        {
+            "@type": "group",
+            "name": "Curation.CuratorLuceneCatalog",
+            "nested": [
+                {
+                    "@type": "item",
+                    "name": "org.apache.oodt.cas.curation.util.CuratorLuceneCatalog"
+                },
+                {
+                    "@type": "item",
+                    "name": "org.apache.oodt.cas.curation.util.CuratorLuceneCatalogFactory"
+                }
+            ]
+        },
+        {
+            "@type": "group",
+            "name": "Curation.OtherUtils",
+            "nested": [
+                {
+                    "@type": "item",
+                    "name": "org.apache.oodt.cas.curation.util.SSOUtils"
+                },
+                {
+                    "@type": "item",
+                    "name": "org.apache.oodt.cas.curation.util.ExtractorConfigReader"
+                },
+                {
+                    "@type": "item",
+                    "name": "org.apache.oodt.cas.curation.util.DateUtils"
+                },
+                {
+                    "@type": "item",
+                    "name": "org.apache.oodt.cas.curation.util.CurationXmlStructFactory"
+                },
+                {
+                    "@type": "item",
+                    "name": "org.apache.oodt.cas.curation.util.ExtractorConfigWriter"
+                }
+            ]
+        },
+        {
+            "@type": "group",
+            "name": "WebGrid.ProductServer",
+            "nested": [
+                {
+                    "@type": "item",
+                    "name": "org.apache.oodt.grid.ProductServer"
+                },
+                {
+                    "@type": "item",
+                    "name": "org.apache.oodt.grid.Server"
+                }
+            ]
+        },
+        {
+            "@type": "group",
+            "name": "WebGrid.ProfileServer",
+            "nested": [
+                {
+                    "@type": "item",
+                    "name": "org.apache.oodt.grid.ProfileServer"
+                }
+            ]
+        },
+        {
+            "@type": "group",
+            "name": "WebGrid.Configuration",
+            "nested": [
+                {
+                    "@type": "item",
+                    "name": "org.apache.oodt.grid.ConfigBean"
+                },
+                {
+                    "@type": "item",
+                    "name": "org.apache.oodt.grid.AuthenticationRequiredException"
+                },
+                {
+                    "@type": "item",
+                    "name": "org.apache.oodt.grid.Configuration"
+                }
+            ]
+        },
+        {
+            "@type": "group",
+            "name": "WebGrid.ConfigurationWebInterface",
+            "nested": [
+                {
+                    "@type": "item",
+                    "name": "org.apache.oodt.grid.ConfigServlet"
+                },
+                {
+                    "@type": "item",
+                    "name": "org.apache.oodt.grid.GridServlet"
+                },
+                {
+                    "@type": "item",
+                    "name": "org.apache.oodt.grid.Utility"
+                }
+            ]
+        },
+        {
+            "@type": "group",
+            "name": "WebGrid.Login",
+            "nested": [
+                {
+                    "@type": "item",
+                    "name": "org.apache.oodt.grid.LoginServlet"
+                }
+            ]
+        },
+        {
+            "@type": "group",
+            "name": "WebGrid.ProductQueryWebInterface",
+            "nested": [
+                {
+                    "@type": "item",
+                    "name": "org.apache.oodt.grid.ProductQueryServlet"
+                },
+                {
+                    "@type": "item",
+                    "name": "org.apache.oodt.grid.QueryServlet"
+                }
+            ]
+        },
+        {
+            "@type": "group",
+            "name": "WebGrid.ProfileQueryWebInterface",
+            "nested": [
+                {
+                    "@type": "item",
+                    "name": "org.apache.oodt.grid.ProfileQueryServlet"
+                }
+            ]
+        },
+        {
+            "@type": "group",
+            "name": "PCS.XMLWriter",
+            "nested": [
+                {
+                    "@type": "item",
+                    "name": "org.apache.oodt.pcs.input.PGEConfigFileKeys"
+                },
+                {
+                    "@type": "item",
+                    "name": "org.apache.oodt.pcs.input.PGEConfigFileWriter"
+                },
+                {
+                    "@type": "item",
+                    "name": "org.apache.oodt.pcs.input.PGEDataParseKeys"
+                },
+                {
+                    "@type": "item",
+                    "name": "org.apache.oodt.pcs.input.PGEConfigurationFile"
+                },
+                {
+                    "@type": "item",
+                    "name": "org.apache.oodt.pcs.input.PGEDataHandler"
+                }
+            ]
+        },
+        {
+            "@type": "group",
+            "name": "PCS.XMLReader",
+            "nested": [
+                {
+                    "@type": "item",
+                    "name": "org.apache.oodt.pcs.input.PGEConfigFileReader"
+                }
+            ]
+        },
+        {
+            "@type": "group",
+            "name": "PCS.PGEConfigurationrepresentation",
+            "nested": [
+                {
+                    "@type": "item",
+                    "name": "org.apache.oodt.pcs.input.PGEGroup"
+                },
+                {
+                    "@type": "item",
+                    "name": "org.apache.oodt.pcs.input.PGEVector"
+                },
+                {
+                    "@type": "item",
+                    "name": "org.apache.oodt.pcs.input.PGEScalar"
+                },
+                {
+                    "@type": "item",
+                    "name": "org.apache.oodt.pcs.input.PGEMatrix"
+                },
+                {
+                    "@type": "item",
+                    "name": "org.apache.oodt.pcs.input.PGEXMLFileUtils"
+                },
+                {
+                    "@type": "item",
+                    "name": "org.apache.oodt.pcs.input.PGEConfigFileException"
+                }
+            ]
+        },
+        {
+            "@type": "group",
+            "name": "CASPGE.config",
+            "nested": [
+                {
+                    "@type": "item",
+                    "name": "org.apache.oodt.cas.pge.config.DynamicConfigFile"
+                },
+                {
+                    "@type": "item",
+                    "name": "org.apache.oodt.cas.pge.config.OutputDir"
+                },
+                {
+                    "@type": "item",
+                    "name": "org.apache.oodt.cas.pge.config.PgeConfig"
+                },
+                {
+                    "@type": "item",
+                    "name": "org.apache.oodt.cas.pge.config.PgeConfigBuilder"
+                },
+                {
+                    "@type": "item",
+                    "name": "org.apache.oodt.cas.pge.config.PgeConfigMetKeys"
+                },
+                {
+                    "@type": "item",
+                    "name": "org.apache.oodt.cas.pge.config.RegExprOutputFiles"
+                },
+                {
+                    "@type": "item",
+                    "name": "org.apache.oodt.cas.pge.config.RenamingConv"
+                },
+                {
+                    "@type": "item",
+                    "name": "org.apache.oodt.cas.pge.config.XmlFilePgeConfigBuilder"
+                },
+                {
+                    "@type": "item",
+                    "name": "org.apache.oodt.cas.pge.ConfigFilePropertyAdder"
+                }
+            ]
+        },
+        {
+            "@type": "group",
+            "name": "CASPGE.metadata",
+            "nested": [
+                {
+                    "@type": "item",
+                    "name": "org.apache.oodt.cas.pge.metadata.PcsMetadataKeys"
+                },
+                {
+                    "@type": "item",
+                    "name": "org.apache.oodt.cas.pge.metadata.PgeMetadata"
+                },
+                {
+                    "@type": "item",
+                    "name": "org.apache.oodt.cas.pge.metadata.PgeTaskMetadataKeys"
+                }
+            ]
+        },
+        {
+            "@type": "group",
+            "name": "CASPGE.PGETask",
+            "nested": [
+                {
+                    "@type": "item",
+                    "name": "org.apache.oodt.cas.pge.PGETask"
+                },
+                {
+                    "@type": "item",
+                    "name": "org.apache.oodt.cas.pge.PGETaskInstance"
+                },
+                {
+                    "@type": "item",
+                    "name": "org.apache.oodt.cas.pge.PGETaskInstance"
+                }
+            ]
+        },
+        {
+            "@type": "group",
+            "name": "CASPGE.Dateversionconverter",
+            "nested": [
+                {
+                    "@type": "item",
+                    "name": "org.apache.oodt.cas.pge.query.conv.DateVersionConverter"
+                },
+                {
+                    "@type": "item",
+                    "name": "org.apache.oodt.cas.pge.StdPGETaskInstance"
+                }
+            ]
+        },
+        {
+            "@type": "group",
+            "name": "CASPGE.writers",
+            "nested": [
+                {
+                    "@type": "item",
+                    "name": "org.apache.oodt.cas.pge.writers.metlist.MetadataListPcsMetFileWriter"
+                },
+                {
+                    "@type": "item",
+                    "name": "org.apache.oodt.cas.pge.writers.PcsMetFileWriter"
+                },
+                {
+                    "@type": "item",
+                    "name": "org.apache.oodt.cas.pge.writers.SciPgeConfigFileWriter"
+                },
+                {
+                    "@type": "item",
+                    "name": "org.apache.oodt.cas.pge.writers.xslt.XslTransformWriter"
+                }
+            ]
+        },
+        {
+            "@type": "group",
+            "name": "OPeNDAPps.config",
+            "nested": [
+                {
+                    "@type": "item",
+                    "name": "org.apache.oodt.opendapps.config.ConstantSpec"
+                },
+                {
+                    "@type": "item",
+                    "name": "org.apache.oodt.opendapps.config.DapRoot"
+                },
+                {
+                    "@type": "item",
+                    "name": "org.apache.oodt.opendapps.config.DatasetMetElem"
+                },
+                {
+                    "@type": "item",
+                    "name": "org.apache.oodt.opendapps.config.OpendapConfig"
+                },
+                {
+                    "@type": "item",
+                    "name": "org.apache.oodt.opendapps.config.OpendapConfigMetKeys"
+                },
+                {
+                    "@type": "item",
+                    "name": "org.apache.oodt.opendapps.config.OpendapConfigReader"
+                },
+                {
+                    "@type": "item",
+                    "name": "org.apache.oodt.opendapps.config.RewriteSpec"
+                }
+            ]
+        },
+        {
+            "@type": "group",
+            "name": "OPeNDAPps.DapNames",
+            "nested": [
+                {
+                    "@type": "item",
+                    "name": "org.apache.oodt.opendapps.DapNames"
+                }
+            ]
+        },
+        {
+            "@type": "group",
+            "name": "OPeNDAPps.Main",
+            "nested": [
+                {
+                    "@type": "item",
+                    "name": "org.apache.oodt.opendapps.DatasetCrawler"
+                },
+                {
+                    "@type": "item",
+                    "name": "org.apache.oodt.opendapps.DatasetExtractor"
+                }
+            ]
+        },
+        {
+            "@type": "group",
+            "name": "OPeNDAPps.OpendapProfileElementExtractor",
+            "nested": [
+                {
+                    "@type": "item",
+                    "name": "org.apache.oodt.opendapps.OpendapProfileElementExtractor"
+                },
+                {
+                    "@type": "item",
+                    "name": "org.apache.oodt.opendapps.OpendapProfileHandler"
+                }
+            ]
+        },
+        {
+            "@type": "group",
+            "name": "OPeNDAPps.util",
+            "nested": [
+                {
+                    "@type": "item",
+                    "name": "org.apache.oodt.opendapps.util.OpendapURLEvaluator"
+                },
+                {
+                    "@type": "item",
+                    "name": "org.apache.oodt.opendapps.util.ProfileUtils"
+                }
+            ]
+        },
+        {
+            "@type": "group",
+            "name": "WebAppFileManagerProduct.ProductRDFHandling",
+            "nested": [
+                {
+                    "@type": "item",
+                    "name": "org.apache.oodt.cas.product.rdf.RDFConfigMetKeys"
+                },
+                {
+                    "@type": "item",
+                    "name": "org.apache.oodt.cas.product.rdf.RDFProductServlet"
+                },
+                {
+                    "@type": "item",
+                    "name": "org.apache.oodt.cas.product.rdf.RDFDatasetServlet"
+                },
+                {
+                    "@type": "item",
+                    "name": "org.apache.oodt.cas.product.rdf.RDFConfigReader"
+                },
+                {
+                    "@type": "item",
+                    "name": "org.apache.oodt.cas.product.rdf.RDFConfigReaderMetKeys"
+                },
+                {
+                    "@type": "item",
+                    "name": "org.apache.oodt.cas.product.rdf.RDFUtils"
+                },
+                {
+                    "@type": "item",
+                    "name": "org.apache.oodt.cas.product.rdf.ProductTypeFilter"
+                },
+                {
+                    "@type": "item",
+                    "name": "org.apache.oodt.cas.product.rdf.RDFConfig"
+                }
+            ]
+        },
+        {
+            "@type": "group",
+            "name": "WebAppFileManagerProductCasProductHandler",
+            "nested": [
+                {
+                    "@type": "item",
+                    "name": "org.apache.oodt.cas.product.CASProductHandlerMetKeys"
+                },
+                {
+                    "@type": "item",
+                    "name": "org.apache.oodt.cas.product.CASProductHandler"
+                }
+            ]
+        },
+        {
+            "@type": "group",
+            "name": "WebAppFileManagerProductRSSHandling",
+            "nested": [
+                {
+                    "@type": "item",
+                    "name": "org.apache.oodt.cas.product.rss.RSSTag"
+                },
+                {
+                    "@type": "item",
+                    "name": "org.apache.oodt.cas.product.rss.RSSConfigReader"
+                },
+                {
+                    "@type": "item",
+                    "name": "org.apache.oodt.cas.product.rss.RSSConfigReaderMetKeys"
+                },
+                {
+                    "@type": "item",
+                    "name": "org.apache.oodt.cas.product.rss.RSSProductServlet"
+                },
+                {
+                    "@type": "item",
+                    "name": "org.apache.oodt.cas.product.rss.RSSTagAttribute"
+                },
+                {
+                    "@type": "item",
+                    "name": "org.apache.oodt.cas.product.rss.RSSConfigMetKeys"
+                },
+                {
+                    "@type": "item",
+                    "name": "org.apache.oodt.cas.product.rss.RSSUtils"
+                },
+                {
+                    "@type": "item",
+                    "name": "org.apache.oodt.cas.product.rss.RSSConfig"
+                },
+                {
+                    "@type": "item",
+                    "name": "org.apache.oodt.cas.product.rss.RSSProductTransferServlet"
+                }
+            ]
+        },
+        {
+            "@type": "group",
+            "name": "WebAppFileManagerProductProductData",
+            "nested": [
+                {
+                    "@type": "item",
+                    "name": "org.apache.oodt.cas.product.data.DataDeliveryServlet"
+                },
+                {
+                    "@type": "item",
+                    "name": "org.apache.oodt.cas.product.data.DataUtils"
+                },
+                {
+                    "@type": "item",
+                    "name": "org.apache.oodt.cas.product.data.DataDeliveryKeys"
+                },
+                {
+                    "@type": "item",
+                    "name": "org.apache.oodt.cas.product.data.DatasetDeliveryServlet"
+                }
+            ]
+        },
+        {
+            "@type": "group",
+            "name": "SharedUtilitiesComponent",
+            "nested": [
+                {
+                    "@type": "item",
+                    "name": "org.apache.oodt.cas.resource.util.GenericResourceManagerObjectFactory\u807d"
+                },
+                {
+                    "@type": "item",
+                    "name": "org.apache.oodt.cas.resource.util.JobBuilder"
+                },
+                {
+                    "@type": "item",
+                    "name": "org.apache.oodt.cas.resource.util.XmlRpcStructFactory"
+                },
+                {
+                    "@type": "item",
+                    "name": "org.apache.oodt.cas.resource.util.XmlStructFactory"
+                },
+                {
+                    "@type": "item",
+                    "name": "org.apache.oodt.cas.workflow.util.GenericWorkflowObjectFactory"
+                }
+            ]
+        },
+        {
+            "@type": "group",
+            "name": "SharedWorkflowDataStructures",
+            "nested": [
+                {
+                    "@type": "item",
+                    "name": "org.apache.oodt.cas.workflow.structs.WorkflowCondition"
+                },
+                {
+                    "@type": "item",
+                    "name": "org.apache.oodt.cas.workflow.structs.WorkflowConditionConfiguration"
+                },
+                {
+                    "@type": "item",
+                    "name": "org.apache.oodt.cas.workflow.structs.WorkflowTaskConfiguration"
+                }
+            ]
+        },
+        {
+            "@type": "group",
+            "name": "SharedWorkflowExceptions",
+            "nested": [
+                {
+                    "@type": "item",
+                    "name": "org.apache.oodt.cas.workflow.structs.exceptions.EngineException"
+                },
+                {
+                    "@type": "item",
+                    "name": "org.apache.oodt.cas.workflow.structs.exceptions.RepositoryException"
+                },
+                {
+                    "@type": "item",
+                    "name": "\u807dorg.apache.oodt.cas.workflow.structs.exceptions.WorkflowTaskInstanceException"
+                }
+            ]
+        },
+        {
+            "@type": "group",
+            "name": "SSO",
+            "nested": [
+                {
+                    "@type": "item",
+                    "name": "org.apache.oodt.security.sso.DummyImpl"
+                },
+                {
+                    "@type": "item",
+                    "name": "org.apache.oodt.security.sso.SingleSignOn"
+                },
+                {
+                    "@type": "item",
+                    "name": "org.apache.oodt.security.sso.AbstractWebBasedSingleSignOn"
+                },
+                {
+                    "@type": "item",
+                    "name": "org.apache.oodt.security.sso.SingleSignOnFactory"
+                }
+            ]
+        }
+    ]
+}

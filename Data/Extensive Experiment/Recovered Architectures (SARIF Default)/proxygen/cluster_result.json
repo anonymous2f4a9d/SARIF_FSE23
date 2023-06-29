@@ -1,0 +1,2546 @@
+{
+    "@schemaVersion": "1.0",
+    "name": "clustering",
+    "structure": [
+        {
+            "@type": "group",
+            "name": "0",
+            "nested": [
+                {
+                    "@type": "item",
+                    "name": "proxygen/lib/http/session/HQStreamBase.h"
+                },
+                {
+                    "@type": "item",
+                    "name": "proxygen/lib/http/session/HQStreamBase.cpp"
+                },
+                {
+                    "@type": "item",
+                    "name": "proxygen/lib/http/session/HTTPSessionController.h"
+                },
+                {
+                    "@type": "item",
+                    "name": "proxygen/lib/http/session/test/HTTPSessionAcceptorTest.cpp"
+                },
+                {
+                    "@type": "item",
+                    "name": "proxygen/lib/http/session/HTTPSessionStats.h"
+                },
+                {
+                    "@type": "item",
+                    "name": "proxygen/lib/http/connpool/SessionHolder.cpp"
+                },
+                {
+                    "@type": "item",
+                    "name": "proxygen/lib/http/session/HTTPTransaction.h"
+                },
+                {
+                    "@type": "item",
+                    "name": "proxygen/lib/http/connpool/SessionPool.h"
+                },
+                {
+                    "@type": "item",
+                    "name": "proxygen/lib/http/connpool/SessionPool.cpp"
+                },
+                {
+                    "@type": "item",
+                    "name": "proxygen/lib/http/session/test/HTTPDefaultSessionCodecFactoryTest.cpp"
+                },
+                {
+                    "@type": "item",
+                    "name": "proxygen/lib/http/session/HTTPDownstreamSession.h"
+                },
+                {
+                    "@type": "item",
+                    "name": "proxygen/lib/http/session/HTTPDownstreamSession.cpp"
+                },
+                {
+                    "@type": "item",
+                    "name": "proxygen/lib/http/session/QuicProtocolInfo.h"
+                },
+                {
+                    "@type": "item",
+                    "name": "proxygen/lib/http/connpool/test/SessionPoolTest.cpp"
+                },
+                {
+                    "@type": "item",
+                    "name": "proxygen/lib/http/session/CodecErrorResponseHandler.h"
+                },
+                {
+                    "@type": "item",
+                    "name": "proxygen/lib/http/session/CodecErrorResponseHandler.cpp"
+                },
+                {
+                    "@type": "item",
+                    "name": "proxygen/lib/http/session/HTTP2PriorityQueue.h"
+                },
+                {
+                    "@type": "item",
+                    "name": "proxygen/lib/http/session/HTTP2PriorityQueue.cpp"
+                },
+                {
+                    "@type": "item",
+                    "name": "proxygen/lib/http/connpool/SessionHolder.h"
+                },
+                {
+                    "@type": "item",
+                    "name": "proxygen/lib/http/session/HTTPUpstreamSession.h"
+                },
+                {
+                    "@type": "item",
+                    "name": "proxygen/lib/http/session/HTTPUpstreamSession.cpp"
+                },
+                {
+                    "@type": "item",
+                    "name": "proxygen/lib/http/session/test/HQDownstreamSessionTest.h"
+                },
+                {
+                    "@type": "item",
+                    "name": "proxygen/lib/http/session/test/DownstreamTransactionTest.cpp"
+                },
+                {
+                    "@type": "item",
+                    "name": "proxygen/lib/http/session/HTTPSession.h"
+                },
+                {
+                    "@type": "item",
+                    "name": "proxygen/lib/http/session/HTTPSessionBase.h"
+                },
+                {
+                    "@type": "item",
+                    "name": "proxygen/lib/http/session/HTTPSessionBase.cpp"
+                },
+                {
+                    "@type": "item",
+                    "name": "proxygen/lib/http/session/test/HQUpstreamSessionTest.h"
+                },
+                {
+                    "@type": "item",
+                    "name": "proxygen/lib/http/session/HQStreamDispatcher.h"
+                },
+                {
+                    "@type": "item",
+                    "name": "proxygen/lib/http/session/HQStreamDispatcher.cpp"
+                },
+                {
+                    "@type": "item",
+                    "name": "proxygen/lib/http/session/test/MockHTTPSessionStats.h"
+                },
+                {
+                    "@type": "item",
+                    "name": "proxygen/lib/http/session/HQSession.h"
+                },
+                {
+                    "@type": "item",
+                    "name": "proxygen/lib/http/session/test/MockQuicSocketDriver.h"
+                },
+                {
+                    "@type": "item",
+                    "name": "proxygen/lib/http/session/test/HQSessionTestCommon.h"
+                },
+                {
+                    "@type": "item",
+                    "name": "proxygen/lib/http/session/test/HQSessionTestCommon.cpp"
+                },
+                {
+                    "@type": "item",
+                    "name": "proxygen/lib/http/session/HQSession.cpp"
+                },
+                {
+                    "@type": "item",
+                    "name": "proxygen/lib/http/session/test/TestUtils.h"
+                },
+                {
+                    "@type": "item",
+                    "name": "proxygen/lib/http/session/test/TestUtils.cpp"
+                },
+                {
+                    "@type": "item",
+                    "name": "proxygen/lib/http/session/test/HTTPTransactionMocks.h"
+                },
+                {
+                    "@type": "item",
+                    "name": "proxygen/lib/http/session/test/MockSessionObserver.h"
+                },
+                {
+                    "@type": "item",
+                    "name": "proxygen/lib/http/session/HTTPEvent.h"
+                },
+                {
+                    "@type": "item",
+                    "name": "proxygen/lib/http/session/HTTPEvent.cpp"
+                },
+                {
+                    "@type": "item",
+                    "name": "proxygen/lib/http/session/test/HQDownstreamSessionTest.cpp"
+                },
+                {
+                    "@type": "item",
+                    "name": "proxygen/lib/http/connpool/Endpoint.h"
+                },
+                {
+                    "@type": "item",
+                    "name": "proxygen/lib/http/session/test/HTTP2PriorityQueueBench.cpp"
+                },
+                {
+                    "@type": "item",
+                    "name": "proxygen/lib/http/session/TTLBAStats.h"
+                },
+                {
+                    "@type": "item",
+                    "name": "proxygen/lib/http/connpool/ServerIdleSessionController.h"
+                },
+                {
+                    "@type": "item",
+                    "name": "proxygen/lib/http/connpool/ServerIdleSessionController.cpp"
+                },
+                {
+                    "@type": "item",
+                    "name": "proxygen/lib/http/session/test/HTTPTransactionSMTest.cpp"
+                },
+                {
+                    "@type": "item",
+                    "name": "proxygen/lib/http/session/HQDownstreamSession.h"
+                },
+                {
+                    "@type": "item",
+                    "name": "proxygen/lib/http/session/HQDownstreamSession.cpp"
+                },
+                {
+                    "@type": "item",
+                    "name": "proxygen/lib/http/session/test/HTTPSessionTest.h"
+                },
+                {
+                    "@type": "item",
+                    "name": "proxygen/lib/http/session/HTTPErrorPage.h"
+                },
+                {
+                    "@type": "item",
+                    "name": "proxygen/lib/http/session/HTTPErrorPage.cpp"
+                },
+                {
+                    "@type": "item",
+                    "name": "proxygen/lib/http/session/test/HQStreamDispatcherTest.cpp"
+                },
+                {
+                    "@type": "item",
+                    "name": "proxygen/lib/http/session/HTTPTransactionEgressSM.h"
+                },
+                {
+                    "@type": "item",
+                    "name": "proxygen/lib/http/session/HTTPTransactionEgressSM.cpp"
+                },
+                {
+                    "@type": "item",
+                    "name": "proxygen/lib/http/connpool/test/SessionPoolTestFixture.h"
+                },
+                {
+                    "@type": "item",
+                    "name": "proxygen/lib/http/session/test/HQSessionMocksTest.cpp"
+                },
+                {
+                    "@type": "item",
+                    "name": "proxygen/lib/http/session/HTTPTransaction.cpp"
+                },
+                {
+                    "@type": "item",
+                    "name": "proxygen/lib/http/session/test/HQUpstreamSessionTest.cpp"
+                },
+                {
+                    "@type": "item",
+                    "name": "proxygen/lib/http/session/HTTPSession.cpp"
+                },
+                {
+                    "@type": "item",
+                    "name": "proxygen/lib/http/session/SimpleController.h"
+                },
+                {
+                    "@type": "item",
+                    "name": "proxygen/lib/http/session/SimpleController.cpp"
+                },
+                {
+                    "@type": "item",
+                    "name": "proxygen/lib/http/session/test/HQStreamBaseTest.cpp"
+                },
+                {
+                    "@type": "item",
+                    "name": "proxygen/lib/http/session/HTTPDirectResponseHandler.h"
+                },
+                {
+                    "@type": "item",
+                    "name": "proxygen/lib/http/session/HTTPDirectResponseHandler.cpp"
+                },
+                {
+                    "@type": "item",
+                    "name": "proxygen/lib/http/session/test/MockCodecDownstreamTest.cpp"
+                },
+                {
+                    "@type": "item",
+                    "name": "proxygen/lib/http/session/HTTPTransactionIngressSM.h"
+                },
+                {
+                    "@type": "item",
+                    "name": "proxygen/lib/http/session/HTTPTransactionIngressSM.cpp"
+                },
+                {
+                    "@type": "item",
+                    "name": "proxygen/lib/http/session/HTTPDefaultSessionCodecFactory.h"
+                },
+                {
+                    "@type": "item",
+                    "name": "proxygen/lib/http/session/HTTPDefaultSessionCodecFactory.cpp"
+                },
+                {
+                    "@type": "item",
+                    "name": "proxygen/lib/http/session/test/HTTPDownstreamSessionTest.cpp"
+                },
+                {
+                    "@type": "item",
+                    "name": "proxygen/lib/http/session/test/HTTP2PriorityQueueTest.cpp"
+                },
+                {
+                    "@type": "item",
+                    "name": "proxygen/lib/http/session/test/HTTPSessionMocks.h"
+                },
+                {
+                    "@type": "item",
+                    "name": "proxygen/lib/http/session/ServerPushLifecycle.h"
+                },
+                {
+                    "@type": "item",
+                    "name": "proxygen/lib/http/session/test/HQSessionMocks.h"
+                },
+                {
+                    "@type": "item",
+                    "name": "proxygen/lib/http/session/HQUpstreamSession.h"
+                },
+                {
+                    "@type": "item",
+                    "name": "proxygen/lib/http/session/HQUpstreamSession.cpp"
+                },
+                {
+                    "@type": "item",
+                    "name": "proxygen/lib/http/session/test/HTTPUpstreamSessionTest.cpp"
+                },
+                {
+                    "@type": "item",
+                    "name": "proxygen/lib/http/session/HTTPSessionAcceptor.h"
+                },
+                {
+                    "@type": "item",
+                    "name": "proxygen/lib/http/session/HTTPSessionAcceptor.cpp"
+                },
+                {
+                    "@type": "item",
+                    "name": "proxygen/lib/http/connpool/ThreadIdleSessionController.h"
+                },
+                {
+                    "@type": "item",
+                    "name": "proxygen/lib/http/connpool/ThreadIdleSessionController.cpp"
+                }
+            ]
+        },
+        {
+            "@type": "group",
+            "name": "1",
+            "nested": [
+                {
+                    "@type": "item",
+                    "name": "proxygen/httpserver/RequestHandler.h"
+                },
+                {
+                    "@type": "item",
+                    "name": "proxygen/httpserver/samples/push/PushStats.h"
+                },
+                {
+                    "@type": "item",
+                    "name": "proxygen/httpserver/samples/hq/SampleHandlers.h"
+                },
+                {
+                    "@type": "item",
+                    "name": "proxygen/httpserver/RequestHandlerAdaptor.cpp"
+                },
+                {
+                    "@type": "item",
+                    "name": "proxygen/httpserver/filters/DirectResponseHandler.h"
+                },
+                {
+                    "@type": "item",
+                    "name": "proxygen/httpserver/filters/tests/CompressionFilterTest.cpp"
+                },
+                {
+                    "@type": "item",
+                    "name": "proxygen/httpserver/samples/proxy/ProxyStats.h"
+                },
+                {
+                    "@type": "item",
+                    "name": "proxygen/httpserver/samples/proxy/ProxyServer.cpp"
+                },
+                {
+                    "@type": "item",
+                    "name": "proxygen/httpserver/samples/hq/FizzContext.cpp"
+                },
+                {
+                    "@type": "item",
+                    "name": "proxygen/httpserver/filters/CompressionFilter.h"
+                },
+                {
+                    "@type": "item",
+                    "name": "proxygen/httpserver/HTTPServer.h"
+                },
+                {
+                    "@type": "item",
+                    "name": "proxygen/httpserver/HTTPServer.cpp"
+                },
+                {
+                    "@type": "item",
+                    "name": "proxygen/httpserver/Mocks.h"
+                },
+                {
+                    "@type": "item",
+                    "name": "proxygen/httpserver/samples/hq/HQServer.h"
+                },
+                {
+                    "@type": "item",
+                    "name": "proxygen/httpserver/samples/proxy/ProxyHandler.cpp"
+                },
+                {
+                    "@type": "item",
+                    "name": "proxygen/httpserver/tests/RequestHandlerAdaptorTest.cpp"
+                },
+                {
+                    "@type": "item",
+                    "name": "proxygen/httpserver/samples/hq/H1QUpstreamSession.h"
+                },
+                {
+                    "@type": "item",
+                    "name": "proxygen/httpserver/PushHandler.h"
+                },
+                {
+                    "@type": "item",
+                    "name": "proxygen/httpserver/RequestHandlerFactory.h"
+                },
+                {
+                    "@type": "item",
+                    "name": "proxygen/httpserver/samples/hq/HQServerModule.cpp"
+                },
+                {
+                    "@type": "item",
+                    "name": "proxygen/httpserver/SignalHandler.h"
+                },
+                {
+                    "@type": "item",
+                    "name": "proxygen/httpserver/SignalHandler.cpp"
+                },
+                {
+                    "@type": "item",
+                    "name": "proxygen/httpserver/ExMessageHandler.h"
+                },
+                {
+                    "@type": "item",
+                    "name": "proxygen/httpserver/ScopedHTTPServer.h"
+                },
+                {
+                    "@type": "item",
+                    "name": "proxygen/httpserver/samples/hq/main.cpp"
+                },
+                {
+                    "@type": "item",
+                    "name": "proxygen/httpserver/samples/echo/test/EchoHandlerTest.cpp"
+                },
+                {
+                    "@type": "item",
+                    "name": "proxygen/httpserver/tests/HTTPServerTest.cpp"
+                },
+                {
+                    "@type": "item",
+                    "name": "proxygen/httpserver/samples/proxy/SessionWrapper.h"
+                },
+                {
+                    "@type": "item",
+                    "name": "proxygen/httpserver/samples/hq/HQLoggerHelper.h"
+                },
+                {
+                    "@type": "item",
+                    "name": "proxygen/httpserver/samples/hq/HQLoggerHelper.cpp"
+                },
+                {
+                    "@type": "item",
+                    "name": "proxygen/httpserver/samples/hq/HQCommandLine.cpp"
+                },
+                {
+                    "@type": "item",
+                    "name": "proxygen/httpserver/samples/hq/InsecureVerifierDangerousDoNotUseInProduction.h"
+                },
+                {
+                    "@type": "item",
+                    "name": "proxygen/httpserver/samples/echo/EchoHandler.h"
+                },
+                {
+                    "@type": "item",
+                    "name": "proxygen/httpserver/samples/echo/EchoHandler.cpp"
+                },
+                {
+                    "@type": "item",
+                    "name": "proxygen/httpserver/samples/hq/H1QDownstreamSession.h"
+                },
+                {
+                    "@type": "item",
+                    "name": "proxygen/httpserver/samples/hq/FizzContext.h"
+                },
+                {
+                    "@type": "item",
+                    "name": "proxygen/httpserver/RequestHandlerAdaptor.h"
+                },
+                {
+                    "@type": "item",
+                    "name": "proxygen/httpserver/samples/push/PushServer.cpp"
+                },
+                {
+                    "@type": "item",
+                    "name": "proxygen/httpserver/samples/hq/HQServerModule.h"
+                },
+                {
+                    "@type": "item",
+                    "name": "proxygen/httpserver/samples/hq/HQServer.cpp"
+                },
+                {
+                    "@type": "item",
+                    "name": "proxygen/httpserver/HTTPServerOptions.h"
+                },
+                {
+                    "@type": "item",
+                    "name": "proxygen/httpserver/ResponseHandler.h"
+                },
+                {
+                    "@type": "item",
+                    "name": "proxygen/httpserver/samples/proxy/ProxyHandler.h"
+                },
+                {
+                    "@type": "item",
+                    "name": "proxygen/httpserver/HTTPTransactionHandlerAdaptor.h"
+                },
+                {
+                    "@type": "item",
+                    "name": "proxygen/httpserver/samples/hq/ConnIdLogger.h"
+                },
+                {
+                    "@type": "item",
+                    "name": "proxygen/httpserver/HTTPServerAcceptor.h"
+                },
+                {
+                    "@type": "item",
+                    "name": "proxygen/httpserver/HTTPServerAcceptor.cpp"
+                },
+                {
+                    "@type": "item",
+                    "name": "proxygen/httpserver/samples/echo/EchoStats.h"
+                },
+                {
+                    "@type": "item",
+                    "name": "proxygen/httpserver/Filters.h"
+                },
+                {
+                    "@type": "item",
+                    "name": "proxygen/httpserver/samples/hq/HQClient.h"
+                },
+                {
+                    "@type": "item",
+                    "name": "proxygen/httpserver/samples/hq/HQClient.cpp"
+                },
+                {
+                    "@type": "item",
+                    "name": "proxygen/httpserver/ResponseBuilder.h"
+                },
+                {
+                    "@type": "item",
+                    "name": "proxygen/httpserver/samples/echo/EchoServer.cpp"
+                },
+                {
+                    "@type": "item",
+                    "name": "proxygen/httpserver/filters/RejectConnectFilter.h"
+                },
+                {
+                    "@type": "item",
+                    "name": "proxygen/httpserver/samples/static/StaticHandler.h"
+                },
+                {
+                    "@type": "item",
+                    "name": "proxygen/httpserver/samples/static/StaticHandler.cpp"
+                },
+                {
+                    "@type": "item",
+                    "name": "proxygen/httpserver/samples/hq/HQCommandLine.h"
+                },
+                {
+                    "@type": "item",
+                    "name": "proxygen/httpserver/samples/push/PushRequestHandler.h"
+                },
+                {
+                    "@type": "item",
+                    "name": "proxygen/httpserver/samples/push/PushRequestHandler.cpp"
+                },
+                {
+                    "@type": "item",
+                    "name": "proxygen/httpserver/samples/hq/SampleHandlers.cpp"
+                },
+                {
+                    "@type": "item",
+                    "name": "proxygen/httpserver/samples/hq/H2Server.h"
+                },
+                {
+                    "@type": "item",
+                    "name": "proxygen/httpserver/samples/hq/H2Server.cpp"
+                },
+                {
+                    "@type": "item",
+                    "name": "proxygen/httpserver/samples/static/StaticServer.cpp"
+                },
+                {
+                    "@type": "item",
+                    "name": "proxygen/httpserver/samples/hq/HQParams.h"
+                },
+                {
+                    "@type": "item",
+                    "name": "proxygen/httpserver/samples/hq/HQParams.cpp"
+                }
+            ]
+        },
+        {
+            "@type": "group",
+            "name": "2",
+            "nested": [
+                {
+                    "@type": "item",
+                    "name": "proxygen/lib/utils/test/TraceEventTest.cpp"
+                },
+                {
+                    "@type": "item",
+                    "name": "proxygen/lib/utils/ConditionalGate.h"
+                },
+                {
+                    "@type": "item",
+                    "name": "proxygen/lib/utils/Logging.h"
+                },
+                {
+                    "@type": "item",
+                    "name": "proxygen/lib/utils/Logging.cpp"
+                },
+                {
+                    "@type": "item",
+                    "name": "proxygen/lib/utils/TraceEventContext.h"
+                },
+                {
+                    "@type": "item",
+                    "name": "proxygen/lib/utils/TraceEventContext.cpp"
+                },
+                {
+                    "@type": "item",
+                    "name": "proxygen/lib/utils/test/TimeTest.cpp"
+                },
+                {
+                    "@type": "item",
+                    "name": "proxygen/lib/utils/Exception.h"
+                },
+                {
+                    "@type": "item",
+                    "name": "proxygen/lib/utils/Exception.cpp"
+                },
+                {
+                    "@type": "item",
+                    "name": "proxygen/lib/utils/test/CryptUtilTest.cpp"
+                },
+                {
+                    "@type": "item",
+                    "name": "proxygen/lib/utils/RendezvousHash.h"
+                },
+                {
+                    "@type": "item",
+                    "name": "proxygen/lib/utils/RendezvousHash.cpp"
+                },
+                {
+                    "@type": "item",
+                    "name": "proxygen/lib/utils/test/UtilTest.cpp"
+                },
+                {
+                    "@type": "item",
+                    "name": "proxygen/lib/utils/ZstdStreamCompressor.h"
+                },
+                {
+                    "@type": "item",
+                    "name": "proxygen/lib/utils/ZstdStreamCompressor.cpp"
+                },
+                {
+                    "@type": "item",
+                    "name": "proxygen/lib/utils/test/URLTest.cpp"
+                },
+                {
+                    "@type": "item",
+                    "name": "proxygen/lib/utils/StreamDecompressor.h"
+                },
+                {
+                    "@type": "item",
+                    "name": "proxygen/lib/utils/test/ParseURLTest.cpp"
+                },
+                {
+                    "@type": "item",
+                    "name": "proxygen/lib/utils/perfect_hash_table_template.h"
+                },
+                {
+                    "@type": "item",
+                    "name": "proxygen/lib/utils/WeakRefCountedPtr.h"
+                },
+                {
+                    "@type": "item",
+                    "name": "proxygen/lib/utils/ZlibStreamCompressor.h"
+                },
+                {
+                    "@type": "item",
+                    "name": "proxygen/lib/utils/PerfectIndexMap.h"
+                },
+                {
+                    "@type": "item",
+                    "name": "proxygen/lib/utils/ParseURL.h"
+                },
+                {
+                    "@type": "item",
+                    "name": "proxygen/lib/utils/ParseURL.cpp"
+                },
+                {
+                    "@type": "item",
+                    "name": "proxygen/lib/utils/test/HTTPTimeTest.cpp"
+                },
+                {
+                    "@type": "item",
+                    "name": "proxygen/lib/utils/test/PerfectIndexMapTest.cpp"
+                },
+                {
+                    "@type": "item",
+                    "name": "proxygen/lib/utils/test/ConditionalGateTest.cpp"
+                },
+                {
+                    "@type": "item",
+                    "name": "proxygen/lib/utils/CryptUtil.h"
+                },
+                {
+                    "@type": "item",
+                    "name": "proxygen/lib/utils/CryptUtil.cpp"
+                },
+                {
+                    "@type": "item",
+                    "name": "proxygen/lib/utils/test/RendezvousHashTest.cpp"
+                },
+                {
+                    "@type": "item",
+                    "name": "proxygen/lib/utils/StreamCompressor.h"
+                },
+                {
+                    "@type": "item",
+                    "name": "proxygen/lib/utils/ConsistentHash.h"
+                },
+                {
+                    "@type": "item",
+                    "name": "proxygen/lib/utils/HTTPTime.h"
+                },
+                {
+                    "@type": "item",
+                    "name": "proxygen/lib/utils/HTTPTime.cpp"
+                },
+                {
+                    "@type": "item",
+                    "name": "proxygen/lib/utils/ZlibStreamCompressor.cpp"
+                },
+                {
+                    "@type": "item",
+                    "name": "proxygen/lib/utils/TraceEvent.h"
+                },
+                {
+                    "@type": "item",
+                    "name": "proxygen/lib/utils/TraceEvent.cpp"
+                },
+                {
+                    "@type": "item",
+                    "name": "proxygen/lib/utils/ZlibStreamDecompressor.h"
+                },
+                {
+                    "@type": "item",
+                    "name": "proxygen/lib/utils/ZlibStreamDecompressor.cpp"
+                },
+                {
+                    "@type": "item",
+                    "name": "proxygen/lib/utils/UtilInl.h"
+                },
+                {
+                    "@type": "item",
+                    "name": "proxygen/lib/utils/NullTraceEventObserver.h"
+                },
+                {
+                    "@type": "item",
+                    "name": "proxygen/lib/utils/test/PerfectIndexMapBenchmark.cpp"
+                },
+                {
+                    "@type": "item",
+                    "name": "proxygen/lib/utils/test/ZstdTests.cpp"
+                },
+                {
+                    "@type": "item",
+                    "name": "proxygen/lib/utils/test/WeakRefCountedPtrTest.cpp"
+                },
+                {
+                    "@type": "item",
+                    "name": "proxygen/lib/utils/ZstdStreamDecompressor.h"
+                },
+                {
+                    "@type": "item",
+                    "name": "proxygen/lib/utils/ZstdStreamDecompressor.cpp"
+                },
+                {
+                    "@type": "item",
+                    "name": "proxygen/lib/utils/CompressionFilterUtils.h"
+                },
+                {
+                    "@type": "item",
+                    "name": "proxygen/lib/utils/test/LoggingTests.cpp"
+                },
+                {
+                    "@type": "item",
+                    "name": "proxygen/lib/utils/test/ZlibTests.cpp"
+                },
+                {
+                    "@type": "item",
+                    "name": "proxygen/lib/utils/TraceEventObserver.h"
+                },
+                {
+                    "@type": "item",
+                    "name": "proxygen/lib/utils/URL.h"
+                },
+                {
+                    "@type": "item",
+                    "name": "proxygen/lib/utils/test/MockTime.h"
+                },
+                {
+                    "@type": "item",
+                    "name": "proxygen/lib/utils/Export.h"
+                },
+                {
+                    "@type": "item",
+                    "name": "proxygen/lib/utils/Time.h"
+                },
+                {
+                    "@type": "item",
+                    "name": "proxygen/lib/utils/Time.cpp"
+                }
+            ]
+        },
+        {
+            "@type": "group",
+            "name": "3",
+            "nested": [
+                {
+                    "@type": "item",
+                    "name": "proxygen/lib/http/codec/compress/test/QPACKCodecTests.cpp"
+                },
+                {
+                    "@type": "item",
+                    "name": "proxygen/lib/http/codec/compress/test/TestStreamingCallback.h"
+                },
+                {
+                    "@type": "item",
+                    "name": "proxygen/lib/http/codec/compress/QPACKEncoder.h"
+                },
+                {
+                    "@type": "item",
+                    "name": "proxygen/lib/http/codec/compress/QPACKEncoder.cpp"
+                },
+                {
+                    "@type": "item",
+                    "name": "proxygen/lib/http/codec/compress/test/HPACKBenchmark.cpp"
+                },
+                {
+                    "@type": "item",
+                    "name": "proxygen/lib/http/codec/HQUnidirectionalCodec.h"
+                },
+                {
+                    "@type": "item",
+                    "name": "proxygen/lib/http/codec/compress/HPACKHeaderName.h"
+                },
+                {
+                    "@type": "item",
+                    "name": "proxygen/lib/http/codec/HQUnidirectionalCodec.cpp"
+                },
+                {
+                    "@type": "item",
+                    "name": "proxygen/lib/http/codec/compress/HPACKEncoderBase.h"
+                },
+                {
+                    "@type": "item",
+                    "name": "proxygen/lib/http/codec/compress/HPACKEncoderBase.cpp"
+                },
+                {
+                    "@type": "item",
+                    "name": "proxygen/lib/http/codec/compress/test/LoggingTests.cpp"
+                },
+                {
+                    "@type": "item",
+                    "name": "proxygen/lib/http/codec/compress/HPACKEncodeBuffer.h"
+                },
+                {
+                    "@type": "item",
+                    "name": "proxygen/lib/http/codec/compress/HPACKEncodeBuffer.cpp"
+                },
+                {
+                    "@type": "item",
+                    "name": "proxygen/lib/http/codec/compress/QPACKDecoder.h"
+                },
+                {
+                    "@type": "item",
+                    "name": "proxygen/lib/http/codec/compress/QPACKDecoder.cpp"
+                },
+                {
+                    "@type": "item",
+                    "name": "proxygen/lib/http/codec/TransportDirection.cpp"
+                },
+                {
+                    "@type": "item",
+                    "name": "proxygen/lib/http/codec/compress/experimental/simulator/CompressionUtils.cpp"
+                },
+                {
+                    "@type": "item",
+                    "name": "proxygen/lib/http/codec/compress/Header.h"
+                },
+                {
+                    "@type": "item",
+                    "name": "proxygen/lib/http/codec/compress/Huffman.h"
+                },
+                {
+                    "@type": "item",
+                    "name": "proxygen/lib/http/codec/compress/Huffman.cpp"
+                },
+                {
+                    "@type": "item",
+                    "name": "proxygen/lib/http/codec/compress/test/HPACKContextTests.cpp"
+                },
+                {
+                    "@type": "item",
+                    "name": "proxygen/lib/http/codec/compress/test/HPACKCodecTests.cpp"
+                },
+                {
+                    "@type": "item",
+                    "name": "proxygen/lib/http/codec/compress/HPACKDecoderBase.h"
+                },
+                {
+                    "@type": "item",
+                    "name": "proxygen/lib/http/codec/compress/HPACKDecoderBase.cpp"
+                },
+                {
+                    "@type": "item",
+                    "name": "proxygen/lib/http/codec/compress/experimental/simulator/HPACKQueue.h"
+                },
+                {
+                    "@type": "item",
+                    "name": "proxygen/lib/http/codec/compress/HPACKDecodeBuffer.h"
+                },
+                {
+                    "@type": "item",
+                    "name": "proxygen/lib/http/codec/compress/HPACKDecodeBuffer.cpp"
+                },
+                {
+                    "@type": "item",
+                    "name": "proxygen/lib/http/codec/compress/HeaderPiece.h"
+                },
+                {
+                    "@type": "item",
+                    "name": "proxygen/lib/http/codec/compress/test/QPACKContextTests.cpp"
+                },
+                {
+                    "@type": "item",
+                    "name": "proxygen/lib/http/codec/compress/test/HPACKHeaderTests.cpp"
+                },
+                {
+                    "@type": "item",
+                    "name": "proxygen/lib/http/codec/compress/HPACKDecoder.h"
+                },
+                {
+                    "@type": "item",
+                    "name": "proxygen/lib/http/codec/compress/HPACKDecoder.cpp"
+                },
+                {
+                    "@type": "item",
+                    "name": "proxygen/lib/http/codec/compress/test/TestUtil.h"
+                },
+                {
+                    "@type": "item",
+                    "name": "proxygen/lib/http/codec/compress/test/TestUtil.cpp"
+                },
+                {
+                    "@type": "item",
+                    "name": "proxygen/lib/http/codec/compress/test/HPACKBufferTests.cpp"
+                },
+                {
+                    "@type": "item",
+                    "name": "proxygen/lib/http/codec/TransportDirection.h"
+                },
+                {
+                    "@type": "item",
+                    "name": "proxygen/lib/http/codec/compress/HPACKCodec.h"
+                },
+                {
+                    "@type": "item",
+                    "name": "proxygen/lib/http/codec/compress/QPACKCodec.h"
+                },
+                {
+                    "@type": "item",
+                    "name": "proxygen/lib/http/codec/compress/HPACKCodec.cpp"
+                },
+                {
+                    "@type": "item",
+                    "name": "proxygen/lib/http/codec/compress/QPACKCodec.cpp"
+                },
+                {
+                    "@type": "item",
+                    "name": "proxygen/lib/http/codec/compress/HeaderCodec.h"
+                },
+                {
+                    "@type": "item",
+                    "name": "proxygen/lib/http/codec/compress/experimental/simulator/CompressionUtils.h"
+                },
+                {
+                    "@type": "item",
+                    "name": "proxygen/lib/http/codec/compress/test/EncoderBenchmark.cpp"
+                },
+                {
+                    "@type": "item",
+                    "name": "proxygen/lib/http/codec/compress/test/HeaderPieceTests.cpp"
+                },
+                {
+                    "@type": "item",
+                    "name": "proxygen/lib/http/codec/compress/HPACKEncoder.h"
+                },
+                {
+                    "@type": "item",
+                    "name": "proxygen/lib/http/codec/compress/HPACKEncoder.cpp"
+                },
+                {
+                    "@type": "item",
+                    "name": "proxygen/lib/http/codec/compress/HPACKStreamingCallback.h"
+                },
+                {
+                    "@type": "item",
+                    "name": "proxygen/lib/http/codec/compress/experimental/simulator/HPACKQueueTests.cpp"
+                },
+                {
+                    "@type": "item",
+                    "name": "proxygen/lib/http/codec/compress/HPACKConstants.h"
+                },
+                {
+                    "@type": "item",
+                    "name": "proxygen/lib/http/codec/compress/experimental/interop/QPACKInterop.cpp"
+                },
+                {
+                    "@type": "item",
+                    "name": "proxygen/lib/http/codec/compress/test/HuffmanTests.cpp"
+                }
+            ]
+        },
+        {
+            "@type": "group",
+            "name": "4",
+            "nested": [
+                {
+                    "@type": "item",
+                    "name": "proxygen/lib/http/codec/HTTPParallelCodec.h"
+                },
+                {
+                    "@type": "item",
+                    "name": "proxygen/lib/http/codec/HTTPParallelCodec.cpp"
+                },
+                {
+                    "@type": "item",
+                    "name": "proxygen/lib/http/codec/HTTPSettings.h"
+                },
+                {
+                    "@type": "item",
+                    "name": "proxygen/lib/http/codec/HTTPSettings.cpp"
+                },
+                {
+                    "@type": "item",
+                    "name": "proxygen/lib/http/codec/QPACKEncoderCodec.h"
+                },
+                {
+                    "@type": "item",
+                    "name": "proxygen/lib/http/codec/HTTP1xCodec.cpp"
+                },
+                {
+                    "@type": "item",
+                    "name": "proxygen/lib/http/codec/FlowControlFilter.h"
+                },
+                {
+                    "@type": "item",
+                    "name": "proxygen/lib/http/codec/HQUtils.h"
+                },
+                {
+                    "@type": "item",
+                    "name": "proxygen/lib/http/codec/HQUtils.cpp"
+                },
+                {
+                    "@type": "item",
+                    "name": "proxygen/lib/http/codec/DebugFilter.h"
+                },
+                {
+                    "@type": "item",
+                    "name": "proxygen/lib/http/codec/DefaultHTTPCodecFactory.h"
+                },
+                {
+                    "@type": "item",
+                    "name": "proxygen/lib/http/codec/DefaultHTTPCodecFactory.cpp"
+                },
+                {
+                    "@type": "item",
+                    "name": "proxygen/lib/http/codec/HeaderDecodeInfo.h"
+                },
+                {
+                    "@type": "item",
+                    "name": "proxygen/lib/http/codec/HeaderDecodeInfo.cpp"
+                },
+                {
+                    "@type": "item",
+                    "name": "proxygen/lib/http/codec/HQControlCodec.cpp"
+                },
+                {
+                    "@type": "item",
+                    "name": "proxygen/lib/http/codec/HQControlCodec.h"
+                },
+                {
+                    "@type": "item",
+                    "name": "proxygen/lib/http/codec/CodecProtocol.cpp"
+                },
+                {
+                    "@type": "item",
+                    "name": "proxygen/lib/http/codec/HTTPCodec.h"
+                },
+                {
+                    "@type": "item",
+                    "name": "proxygen/lib/http/codec/ControlMessageRateLimitFilter.h"
+                },
+                {
+                    "@type": "item",
+                    "name": "proxygen/lib/http/codec/HTTPRequestVerifier.h"
+                },
+                {
+                    "@type": "item",
+                    "name": "proxygen/lib/http/codec/HTTPCodecFactory.h"
+                },
+                {
+                    "@type": "item",
+                    "name": "proxygen/lib/http/codec/HTTPCodecFactory.cpp"
+                },
+                {
+                    "@type": "item",
+                    "name": "proxygen/lib/http/codec/FlowControlFilter.cpp"
+                },
+                {
+                    "@type": "item",
+                    "name": "proxygen/lib/http/codec/CodecProtocol.h"
+                },
+                {
+                    "@type": "item",
+                    "name": "proxygen/lib/http/codec/HQMultiCodec.h"
+                },
+                {
+                    "@type": "item",
+                    "name": "proxygen/lib/http/codec/HTTPBinaryCodec.cpp"
+                },
+                {
+                    "@type": "item",
+                    "name": "proxygen/lib/http/codec/HTTPChecks.h"
+                },
+                {
+                    "@type": "item",
+                    "name": "proxygen/lib/http/codec/HTTPChecks.cpp"
+                },
+                {
+                    "@type": "item",
+                    "name": "proxygen/lib/http/codec/QPACKDecoderCodec.h"
+                },
+                {
+                    "@type": "item",
+                    "name": "proxygen/lib/http/codec/HTTPBinaryCodec.h"
+                },
+                {
+                    "@type": "item",
+                    "name": "proxygen/lib/http/codec/HQStreamCodec.cpp"
+                },
+                {
+                    "@type": "item",
+                    "name": "proxygen/lib/http/codec/SettingsId.h"
+                },
+                {
+                    "@type": "item",
+                    "name": "proxygen/lib/http/codec/HTTP1xCodec.h"
+                },
+                {
+                    "@type": "item",
+                    "name": "proxygen/lib/http/codec/HQStreamCodec.h"
+                },
+                {
+                    "@type": "item",
+                    "name": "proxygen/lib/http/codec/CodecDictionaries.h"
+                },
+                {
+                    "@type": "item",
+                    "name": "proxygen/lib/http/codec/CodecUtil.h"
+                },
+                {
+                    "@type": "item",
+                    "name": "proxygen/lib/http/codec/CodecUtil.cpp"
+                },
+                {
+                    "@type": "item",
+                    "name": "proxygen/lib/http/codec/HTTPCodecPrinter.h"
+                },
+                {
+                    "@type": "item",
+                    "name": "proxygen/lib/http/codec/HTTPCodecPrinter.cpp"
+                },
+                {
+                    "@type": "item",
+                    "name": "proxygen/lib/http/codec/HQFramer.h"
+                },
+                {
+                    "@type": "item",
+                    "name": "proxygen/lib/http/codec/HQFramer.cpp"
+                },
+                {
+                    "@type": "item",
+                    "name": "proxygen/lib/http/codec/HQFramedCodec.h"
+                },
+                {
+                    "@type": "item",
+                    "name": "proxygen/lib/http/codec/HQFramedCodec.cpp"
+                },
+                {
+                    "@type": "item",
+                    "name": "proxygen/lib/http/codec/HTTPCodecFilter.h"
+                },
+                {
+                    "@type": "item",
+                    "name": "proxygen/lib/http/codec/HTTPCodecFilter.cpp"
+                }
+            ]
+        },
+        {
+            "@type": "group",
+            "name": "5",
+            "nested": [
+                {
+                    "@type": "item",
+                    "name": "proxygen/lib/http/StatusTypeEnum.h"
+                },
+                {
+                    "@type": "item",
+                    "name": "proxygen/lib/http/StatusTypeEnum.cpp"
+                },
+                {
+                    "@type": "item",
+                    "name": "proxygen/lib/http/RFC2616.h"
+                },
+                {
+                    "@type": "item",
+                    "name": "proxygen/lib/http/HTTPException.h"
+                },
+                {
+                    "@type": "item",
+                    "name": "proxygen/lib/http/HTTPException.cpp"
+                },
+                {
+                    "@type": "item",
+                    "name": "proxygen/lib/http/HeaderConstants.h"
+                },
+                {
+                    "@type": "item",
+                    "name": "proxygen/lib/http/HTTPPriorityFunctions.cpp"
+                },
+                {
+                    "@type": "item",
+                    "name": "proxygen/lib/http/HTTPMessageFilters.h"
+                },
+                {
+                    "@type": "item",
+                    "name": "proxygen/lib/http/HTTPMessageFilters.cpp"
+                },
+                {
+                    "@type": "item",
+                    "name": "proxygen/lib/http/HTTPMessage.cpp"
+                },
+                {
+                    "@type": "item",
+                    "name": "proxygen/lib/http/HTTPConstants.h"
+                },
+                {
+                    "@type": "item",
+                    "name": "proxygen/lib/http/HTTPConstants.cpp"
+                },
+                {
+                    "@type": "item",
+                    "name": "proxygen/lib/http/HTTPHeaders.h"
+                },
+                {
+                    "@type": "item",
+                    "name": "proxygen/lib/http/HTTPHeaders.cpp"
+                },
+                {
+                    "@type": "item",
+                    "name": "proxygen/lib/http/HTTPMethod.cpp"
+                },
+                {
+                    "@type": "item",
+                    "name": "proxygen/lib/http/HTTPHeaderSize.h"
+                },
+                {
+                    "@type": "item",
+                    "name": "proxygen/lib/http/HTTPConnector.h"
+                },
+                {
+                    "@type": "item",
+                    "name": "proxygen/lib/http/HTTPConnector.cpp"
+                },
+                {
+                    "@type": "item",
+                    "name": "proxygen/lib/http/HTTPMessage.h"
+                },
+                {
+                    "@type": "item",
+                    "name": "proxygen/lib/http/RFC2616.cpp"
+                },
+                {
+                    "@type": "item",
+                    "name": "proxygen/lib/http/HeaderConstants.cpp"
+                },
+                {
+                    "@type": "item",
+                    "name": "proxygen/lib/http/HTTPPriorityFunctions.h"
+                },
+                {
+                    "@type": "item",
+                    "name": "proxygen/lib/http/HTTP3ErrorCode.h"
+                },
+                {
+                    "@type": "item",
+                    "name": "proxygen/lib/http/HTTP3ErrorCode.cpp"
+                },
+                {
+                    "@type": "item",
+                    "name": "proxygen/lib/http/HTTPConnectorWithFizz.h"
+                },
+                {
+                    "@type": "item",
+                    "name": "proxygen/lib/http/HTTPConnectorWithFizz.cpp"
+                },
+                {
+                    "@type": "item",
+                    "name": "proxygen/lib/http/HQConnector.h"
+                },
+                {
+                    "@type": "item",
+                    "name": "proxygen/lib/http/HQConnector.cpp"
+                },
+                {
+                    "@type": "item",
+                    "name": "proxygen/lib/http/ProxyStatus.cpp"
+                },
+                {
+                    "@type": "item",
+                    "name": "proxygen/lib/http/HTTPMethod.h"
+                },
+                {
+                    "@type": "item",
+                    "name": "proxygen/lib/http/ProxyStatus.h"
+                },
+                {
+                    "@type": "item",
+                    "name": "proxygen/lib/http/ProxygenErrorEnum.h"
+                },
+                {
+                    "@type": "item",
+                    "name": "proxygen/lib/http/ProxygenErrorEnum.cpp"
+                }
+            ]
+        },
+        {
+            "@type": "group",
+            "name": "6",
+            "nested": [
+                {
+                    "@type": "item",
+                    "name": "proxygen/lib/dns/test/SyncDNSResolverTest.h"
+                },
+                {
+                    "@type": "item",
+                    "name": "proxygen/lib/dns/SyncDNSResolver.h"
+                },
+                {
+                    "@type": "item",
+                    "name": "proxygen/lib/dns/SyncDNSResolver.cpp"
+                },
+                {
+                    "@type": "item",
+                    "name": "proxygen/lib/dns/DNSResolver.h"
+                },
+                {
+                    "@type": "item",
+                    "name": "proxygen/lib/dns/DNSResolver.cpp"
+                },
+                {
+                    "@type": "item",
+                    "name": "proxygen/lib/dns/test/SyncDNSResolverTest.cpp"
+                },
+                {
+                    "@type": "item",
+                    "name": "proxygen/lib/dns/test/Mocks.h"
+                },
+                {
+                    "@type": "item",
+                    "name": "proxygen/lib/dns/FutureDNSResolver.h"
+                },
+                {
+                    "@type": "item",
+                    "name": "proxygen/lib/dns/test/Rfc6724Test.cpp"
+                },
+                {
+                    "@type": "item",
+                    "name": "proxygen/lib/dns/test/FutureDNSResolverTest.cpp"
+                },
+                {
+                    "@type": "item",
+                    "name": "proxygen/lib/dns/CAresResolver.h"
+                },
+                {
+                    "@type": "item",
+                    "name": "proxygen/lib/dns/NaiveResolutionCallback.h"
+                },
+                {
+                    "@type": "item",
+                    "name": "proxygen/lib/dns/test/CAresResolverTest.cpp"
+                },
+                {
+                    "@type": "item",
+                    "name": "proxygen/lib/dns/NaiveResolutionCallback.cpp"
+                },
+                {
+                    "@type": "item",
+                    "name": "proxygen/lib/dns/test/Dummies.h"
+                },
+                {
+                    "@type": "item",
+                    "name": "proxygen/lib/dns/FutureDNSResolver.cpp"
+                },
+                {
+                    "@type": "item",
+                    "name": "proxygen/lib/dns/test/MockDNSModule.h"
+                },
+                {
+                    "@type": "item",
+                    "name": "proxygen/lib/dns/test/MockDNSModule.cpp"
+                },
+                {
+                    "@type": "item",
+                    "name": "proxygen/lib/dns/DNSModule.h"
+                },
+                {
+                    "@type": "item",
+                    "name": "proxygen/lib/dns/DNSModule.cpp"
+                },
+                {
+                    "@type": "item",
+                    "name": "proxygen/lib/dns/test/CachingDNSResolverTest.cpp"
+                },
+                {
+                    "@type": "item",
+                    "name": "proxygen/lib/dns/CAresResolver.cpp"
+                },
+                {
+                    "@type": "item",
+                    "name": "proxygen/lib/dns/test/MockDNSResolver.h"
+                },
+                {
+                    "@type": "item",
+                    "name": "proxygen/lib/dns/CachingDNSResolver.h"
+                },
+                {
+                    "@type": "item",
+                    "name": "proxygen/lib/dns/CachingDNSResolver.cpp"
+                },
+                {
+                    "@type": "item",
+                    "name": "proxygen/lib/dns/Rfc6724.h"
+                },
+                {
+                    "@type": "item",
+                    "name": "proxygen/lib/dns/Rfc6724.cpp"
+                }
+            ]
+        },
+        {
+            "@type": "group",
+            "name": "7",
+            "nested": [
+                {
+                    "@type": "item",
+                    "name": "proxygen/lib/http/codec/compress/HPACKHeader.h"
+                },
+                {
+                    "@type": "item",
+                    "name": "proxygen/lib/http/codec/compress/HPACKHeader.cpp"
+                },
+                {
+                    "@type": "item",
+                    "name": "proxygen/lib/http/codec/compress/StaticHeaderTable.h"
+                },
+                {
+                    "@type": "item",
+                    "name": "proxygen/lib/http/codec/compress/StaticHeaderTable.cpp"
+                },
+                {
+                    "@type": "item",
+                    "name": "proxygen/lib/http/codec/compress/HeaderIndexingStrategy.h"
+                },
+                {
+                    "@type": "item",
+                    "name": "proxygen/lib/http/codec/compress/HeaderIndexingStrategy.cpp"
+                },
+                {
+                    "@type": "item",
+                    "name": "proxygen/lib/http/codec/compress/test/HTTPArchive.h"
+                },
+                {
+                    "@type": "item",
+                    "name": "proxygen/lib/http/codec/compress/CompressionInfo.h"
+                },
+                {
+                    "@type": "item",
+                    "name": "proxygen/lib/http/codec/compress/QPACKHeaderTable.h"
+                },
+                {
+                    "@type": "item",
+                    "name": "proxygen/lib/http/codec/compress/QPACKHeaderTable.cpp"
+                },
+                {
+                    "@type": "item",
+                    "name": "proxygen/lib/http/codec/compress/NoPathIndexingStrategy.h"
+                },
+                {
+                    "@type": "item",
+                    "name": "proxygen/lib/http/codec/compress/NoPathIndexingStrategy.cpp"
+                },
+                {
+                    "@type": "item",
+                    "name": "proxygen/lib/http/codec/compress/test/QPACKHeaderTableTests.cpp"
+                },
+                {
+                    "@type": "item",
+                    "name": "proxygen/lib/http/codec/compress/test/HTTPArchive.cpp"
+                },
+                {
+                    "@type": "item",
+                    "name": "proxygen/lib/http/codec/compress/QPACKStaticHeaderTable.h"
+                },
+                {
+                    "@type": "item",
+                    "name": "proxygen/lib/http/codec/compress/test/HeaderTableTests.cpp"
+                },
+                {
+                    "@type": "item",
+                    "name": "proxygen/lib/http/codec/compress/HeaderTable.h"
+                },
+                {
+                    "@type": "item",
+                    "name": "proxygen/lib/http/codec/compress/QPACKContext.h"
+                },
+                {
+                    "@type": "item",
+                    "name": "proxygen/lib/http/codec/compress/HPACKContext.h"
+                },
+                {
+                    "@type": "item",
+                    "name": "proxygen/lib/http/codec/compress/QPACKContext.cpp"
+                },
+                {
+                    "@type": "item",
+                    "name": "proxygen/lib/http/codec/compress/Logging.cpp"
+                },
+                {
+                    "@type": "item",
+                    "name": "proxygen/lib/http/codec/compress/HeaderTable.cpp"
+                },
+                {
+                    "@type": "item",
+                    "name": "proxygen/lib/http/codec/compress/HPACKContext.cpp"
+                },
+                {
+                    "@type": "item",
+                    "name": "proxygen/lib/http/codec/compress/QPACKStaticHeaderTable.cpp"
+                },
+                {
+                    "@type": "item",
+                    "name": "proxygen/lib/http/codec/compress/test/RFCExamplesTests.cpp"
+                },
+                {
+                    "@type": "item",
+                    "name": "proxygen/lib/http/codec/compress/Logging.h"
+                }
+            ]
+        },
+        {
+            "@type": "group",
+            "name": "8",
+            "nested": [
+                {
+                    "@type": "item",
+                    "name": "proxygen/lib/http/codec/test/TestUtils.h"
+                },
+                {
+                    "@type": "item",
+                    "name": "proxygen/lib/http/codec/test/TestUtils.cpp"
+                },
+                {
+                    "@type": "item",
+                    "name": "proxygen/lib/http/codec/test/CodecUtilTests.cpp"
+                },
+                {
+                    "@type": "item",
+                    "name": "proxygen/lib/http/codec/test/HQMultiCodecTest.cpp"
+                },
+                {
+                    "@type": "item",
+                    "name": "proxygen/lib/http/codec/test/HQFramerTest.cpp"
+                },
+                {
+                    "@type": "item",
+                    "name": "proxygen/lib/http/codec/test/HQFramerTest.h"
+                },
+                {
+                    "@type": "item",
+                    "name": "proxygen/lib/http/codec/test/HTTPBinaryCodecTest.cpp"
+                },
+                {
+                    "@type": "item",
+                    "name": "proxygen/lib/http/codec/test/MockHTTPCodec.h"
+                },
+                {
+                    "@type": "item",
+                    "name": "proxygen/lib/http/codec/test/DefaultHTTPCodecFactoryTest.cpp"
+                },
+                {
+                    "@type": "item",
+                    "name": "proxygen/lib/http/codec/test/HTTP2FramerTest.h"
+                },
+                {
+                    "@type": "item",
+                    "name": "proxygen/lib/http/codec/test/HTTP2FramerTest.cpp"
+                },
+                {
+                    "@type": "item",
+                    "name": "proxygen/lib/http/codec/test/HTTPParallelCodecTest.h"
+                },
+                {
+                    "@type": "item",
+                    "name": "proxygen/lib/http/codec/test/HTTP2CodecTest.cpp"
+                },
+                {
+                    "@type": "item",
+                    "name": "proxygen/lib/http/codec/test/FilterTests.cpp"
+                },
+                {
+                    "@type": "item",
+                    "name": "proxygen/lib/http/codec/test/HTTP1xCodecTest.cpp"
+                },
+                {
+                    "@type": "item",
+                    "name": "proxygen/lib/http/codec/test/HQCodecTest.cpp"
+                }
+            ]
+        },
+        {
+            "@type": "group",
+            "name": "9",
+            "nested": [
+                {
+                    "@type": "item",
+                    "name": "proxygen/lib/http/session/test/HQByteEventTrackerTest.cpp"
+                },
+                {
+                    "@type": "item",
+                    "name": "proxygen/lib/http/session/TransactionByteEvents.h"
+                },
+                {
+                    "@type": "item",
+                    "name": "proxygen/lib/http/session/ByteEvents.h"
+                },
+                {
+                    "@type": "item",
+                    "name": "proxygen/lib/http/session/ByteEvents.cpp"
+                },
+                {
+                    "@type": "item",
+                    "name": "proxygen/lib/http/session/test/ByteEventTrackerTest.cpp"
+                },
+                {
+                    "@type": "item",
+                    "name": "proxygen/lib/http/session/ByteEventTracker.h"
+                },
+                {
+                    "@type": "item",
+                    "name": "proxygen/lib/http/session/ByteEventTracker.cpp"
+                },
+                {
+                    "@type": "item",
+                    "name": "proxygen/lib/http/session/HQByteEventTracker.h"
+                },
+                {
+                    "@type": "item",
+                    "name": "proxygen/lib/http/session/HTTPSessionActivityTracker.h"
+                },
+                {
+                    "@type": "item",
+                    "name": "proxygen/lib/http/session/HTTPSessionActivityTracker.cpp"
+                },
+                {
+                    "@type": "item",
+                    "name": "proxygen/lib/http/session/HQByteEventTracker.cpp"
+                },
+                {
+                    "@type": "item",
+                    "name": "proxygen/lib/http/session/test/HTTPSessionActivityTrackerTest.cpp"
+                },
+                {
+                    "@type": "item",
+                    "name": "proxygen/lib/http/session/test/ByteEventTrackerMocks.h"
+                },
+                {
+                    "@type": "item",
+                    "name": "proxygen/lib/http/session/AckLatencyEvent.h"
+                },
+                {
+                    "@type": "item",
+                    "name": "proxygen/lib/http/session/test/MockByteEventTracker.h"
+                }
+            ]
+        },
+        {
+            "@type": "group",
+            "name": "10",
+            "nested": [
+                {
+                    "@type": "item",
+                    "name": "proxygen/lib/http/structuredheaders/StructuredHeadersUtilities.h"
+                },
+                {
+                    "@type": "item",
+                    "name": "proxygen/lib/http/structuredheaders/StructuredHeadersUtilities.cpp"
+                },
+                {
+                    "@type": "item",
+                    "name": "proxygen/lib/http/structuredheaders/test/StructuredHeadersStandardTest.cpp"
+                },
+                {
+                    "@type": "item",
+                    "name": "proxygen/lib/http/structuredheaders/test/StructuredHeadersDecoderTest.cpp"
+                },
+                {
+                    "@type": "item",
+                    "name": "proxygen/lib/http/structuredheaders/StructuredHeadersBuffer.h"
+                },
+                {
+                    "@type": "item",
+                    "name": "proxygen/lib/http/structuredheaders/StructuredHeadersBuffer.cpp"
+                },
+                {
+                    "@type": "item",
+                    "name": "proxygen/lib/http/structuredheaders/StructuredHeadersDecoder.h"
+                },
+                {
+                    "@type": "item",
+                    "name": "proxygen/lib/http/structuredheaders/StructuredHeadersDecoder.cpp"
+                },
+                {
+                    "@type": "item",
+                    "name": "proxygen/lib/http/structuredheaders/StructuredHeadersConstants.h"
+                },
+                {
+                    "@type": "item",
+                    "name": "proxygen/lib/http/structuredheaders/StructuredHeadersEncoder.h"
+                },
+                {
+                    "@type": "item",
+                    "name": "proxygen/lib/http/structuredheaders/StructuredHeadersEncoder.cpp"
+                },
+                {
+                    "@type": "item",
+                    "name": "proxygen/lib/http/structuredheaders/test/StructuredHeadersUtilitiesTest.cpp"
+                },
+                {
+                    "@type": "item",
+                    "name": "proxygen/lib/http/structuredheaders/test/StructuredHeadersBufferTest.cpp"
+                },
+                {
+                    "@type": "item",
+                    "name": "proxygen/lib/http/structuredheaders/test/StructuredHeadersEncoderTest.cpp"
+                }
+            ]
+        },
+        {
+            "@type": "group",
+            "name": "11",
+            "nested": [
+                {
+                    "@type": "item",
+                    "name": "proxygen/lib/transport/PersistentFizzPskCache.h"
+                },
+                {
+                    "@type": "item",
+                    "name": "proxygen/lib/transport/PersistentFizzPskCache.cpp"
+                },
+                {
+                    "@type": "item",
+                    "name": "proxygen/lib/transport/test/PersistentFizzPskCacheTest.cpp"
+                },
+                {
+                    "@type": "item",
+                    "name": "proxygen/lib/transport/H3DatagramAsyncSocket.h"
+                },
+                {
+                    "@type": "item",
+                    "name": "proxygen/lib/transport/H3DatagramAsyncSocket.cpp"
+                },
+                {
+                    "@type": "item",
+                    "name": "proxygen/lib/transport/test/AsyncUDPSocketFactoryTest.cpp"
+                },
+                {
+                    "@type": "item",
+                    "name": "proxygen/lib/transport/PersistentQuicTokenCache.h"
+                },
+                {
+                    "@type": "item",
+                    "name": "proxygen/lib/transport/PersistentQuicTokenCache.cpp"
+                },
+                {
+                    "@type": "item",
+                    "name": "proxygen/lib/transport/AsyncUDPSocketFactory.h"
+                },
+                {
+                    "@type": "item",
+                    "name": "proxygen/lib/transport/AsyncUDPSocketFactory.cpp"
+                },
+                {
+                    "@type": "item",
+                    "name": "proxygen/lib/transport/test/PersistentQuicPskCacheTest.cpp"
+                },
+                {
+                    "@type": "item",
+                    "name": "proxygen/lib/transport/test/H3DatagramAsyncSocketTest.h"
+                },
+                {
+                    "@type": "item",
+                    "name": "proxygen/lib/transport/test/H3DatagramAsyncSocketTest.cpp"
+                },
+                {
+                    "@type": "item",
+                    "name": "proxygen/lib/transport/PersistentQuicPskCache.h"
+                },
+                {
+                    "@type": "item",
+                    "name": "proxygen/lib/transport/PersistentQuicPskCache.cpp"
+                }
+            ]
+        },
+        {
+            "@type": "group",
+            "name": "12",
+            "nested": [
+                {
+                    "@type": "item",
+                    "name": "proxygen/lib/http/codec/compress/experimental/simulator/CompressionScheme.h"
+                },
+                {
+                    "@type": "item",
+                    "name": "proxygen/lib/http/codec/compress/experimental/simulator/SimStreamingCallback.h"
+                },
+                {
+                    "@type": "item",
+                    "name": "proxygen/lib/http/codec/compress/experimental/simulator/Main.cpp"
+                },
+                {
+                    "@type": "item",
+                    "name": "proxygen/lib/http/codec/compress/experimental/simulator/HPACKScheme.h"
+                },
+                {
+                    "@type": "item",
+                    "name": "proxygen/lib/http/codec/compress/experimental/simulator/CompressionTypes.h"
+                },
+                {
+                    "@type": "item",
+                    "name": "proxygen/lib/http/codec/compress/experimental/simulator/QPACKScheme.h"
+                },
+                {
+                    "@type": "item",
+                    "name": "proxygen/lib/http/codec/compress/experimental/simulator/CompressionSimulator.h"
+                },
+                {
+                    "@type": "item",
+                    "name": "proxygen/lib/http/codec/compress/experimental/simulator/CompressionSimulator.cpp"
+                },
+                {
+                    "@type": "item",
+                    "name": "proxygen/lib/http/codec/compress/experimental/simulator/QMINScheme.h"
+                }
+            ]
+        },
+        {
+            "@type": "group",
+            "name": "13",
+            "nested": [
+                {
+                    "@type": "item",
+                    "name": "proxygen/lib/http/test/HTTPMessageFilterTest.cpp"
+                },
+                {
+                    "@type": "item",
+                    "name": "proxygen/lib/http/test/ProxyStatusTest.cpp"
+                },
+                {
+                    "@type": "item",
+                    "name": "proxygen/lib/http/test/MockHTTPMessageFilter.h"
+                },
+                {
+                    "@type": "item",
+                    "name": "proxygen/lib/http/test/WindowTest.cpp"
+                },
+                {
+                    "@type": "item",
+                    "name": "proxygen/lib/http/test/HTTPCommonHeadersTests.cpp"
+                },
+                {
+                    "@type": "item",
+                    "name": "proxygen/lib/http/test/HTTPPriorityFunctionsTest.cpp"
+                },
+                {
+                    "@type": "item",
+                    "name": "proxygen/lib/http/test/HTTPMessageTest.cpp"
+                },
+                {
+                    "@type": "item",
+                    "name": "proxygen/lib/http/test/RFC2616Test.cpp"
+                }
+            ]
+        },
+        {
+            "@type": "group",
+            "name": "14",
+            "nested": [
+                {
+                    "@type": "item",
+                    "name": "proxygen/lib/stats/test/PeriodicStatsTest.cpp"
+                },
+                {
+                    "@type": "item",
+                    "name": "proxygen/lib/stats/test/PeriodicStatsTestHelper.h"
+                },
+                {
+                    "@type": "item",
+                    "name": "proxygen/lib/stats/test/ResourceStatsTest.cpp"
+                },
+                {
+                    "@type": "item",
+                    "name": "proxygen/lib/stats/PeriodicStatsDataBase.h"
+                },
+                {
+                    "@type": "item",
+                    "name": "proxygen/lib/stats/ResourceData.h"
+                },
+                {
+                    "@type": "item",
+                    "name": "proxygen/lib/stats/PeriodicStats.h"
+                },
+                {
+                    "@type": "item",
+                    "name": "proxygen/lib/stats/ResourceStats.h"
+                },
+                {
+                    "@type": "item",
+                    "name": "proxygen/lib/stats/ResourceStats.cpp"
+                },
+                {
+                    "@type": "item",
+                    "name": "proxygen/lib/stats/test/MockResources.h"
+                }
+            ]
+        },
+        {
+            "@type": "group",
+            "name": "15",
+            "nested": [
+                {
+                    "@type": "item",
+                    "name": "proxygen/lib/http/codec/HTTP2Framer.cpp"
+                },
+                {
+                    "@type": "item",
+                    "name": "proxygen/lib/http/codec/HTTP2Framer.h"
+                },
+                {
+                    "@type": "item",
+                    "name": "proxygen/lib/http/codec/HTTP2Constants.cpp"
+                },
+                {
+                    "@type": "item",
+                    "name": "proxygen/lib/http/codec/HTTP2Codec.h"
+                },
+                {
+                    "@type": "item",
+                    "name": "proxygen/lib/http/codec/ErrorCode.h"
+                },
+                {
+                    "@type": "item",
+                    "name": "proxygen/lib/http/codec/ErrorCode.cpp"
+                },
+                {
+                    "@type": "item",
+                    "name": "proxygen/lib/http/codec/HTTP2Codec.cpp"
+                },
+                {
+                    "@type": "item",
+                    "name": "proxygen/lib/http/codec/HTTP2Constants.h"
+                }
+            ]
+        },
+        {
+            "@type": "group",
+            "name": "16",
+            "nested": [
+                {
+                    "@type": "item",
+                    "name": "proxygen/lib/services/test/RequestWorkerThreadTest.cpp"
+                },
+                {
+                    "@type": "item",
+                    "name": "proxygen/lib/services/Service.h"
+                },
+                {
+                    "@type": "item",
+                    "name": "proxygen/lib/services/Service.cpp"
+                },
+                {
+                    "@type": "item",
+                    "name": "proxygen/lib/services/RequestWorkerThread.h"
+                },
+                {
+                    "@type": "item",
+                    "name": "proxygen/lib/services/RequestWorkerThread.cpp"
+                },
+                {
+                    "@type": "item",
+                    "name": "proxygen/lib/services/RequestWorkerThreadNoExecutor.h"
+                },
+                {
+                    "@type": "item",
+                    "name": "proxygen/lib/services/RequestWorkerThreadNoExecutor.cpp"
+                },
+                {
+                    "@type": "item",
+                    "name": "proxygen/lib/services/WorkerThread.h"
+                },
+                {
+                    "@type": "item",
+                    "name": "proxygen/lib/services/WorkerThread.cpp"
+                },
+                {
+                    "@type": "item",
+                    "name": "proxygen/lib/services/ServiceWorker.h"
+                }
+            ]
+        },
+        {
+            "@type": "group",
+            "name": "17",
+            "nested": [
+                {
+                    "@type": "item",
+                    "name": "proxygen/lib/http/session/test/SecondaryAuthManagerTest.cpp"
+                },
+                {
+                    "@type": "item",
+                    "name": "proxygen/lib/http/session/test/MockSecondaryAuthManager.h"
+                },
+                {
+                    "@type": "item",
+                    "name": "proxygen/lib/http/session/SecondaryAuthManagerBase.h"
+                },
+                {
+                    "@type": "item",
+                    "name": "proxygen/lib/http/session/SecondaryAuthManager.h"
+                },
+                {
+                    "@type": "item",
+                    "name": "proxygen/lib/http/session/SecondaryAuthManager.cpp"
+                }
+            ]
+        },
+        {
+            "@type": "group",
+            "name": "18",
+            "nested": [
+                {
+                    "@type": "item",
+                    "name": "proxygen/lib/sampling/test/SamplingTest.cpp"
+                },
+                {
+                    "@type": "item",
+                    "name": "proxygen/lib/sampling/MultiSampled.h"
+                },
+                {
+                    "@type": "item",
+                    "name": "proxygen/lib/sampling/Sampled.h"
+                },
+                {
+                    "@type": "item",
+                    "name": "proxygen/lib/sampling/Sampling.h"
+                },
+                {
+                    "@type": "item",
+                    "name": "proxygen/lib/sampling/Sampling.cpp"
+                }
+            ]
+        },
+        {
+            "@type": "group",
+            "name": "19",
+            "nested": [
+                {
+                    "@type": "item",
+                    "name": "proxygen/lib/http/experimental/RFC1867.h"
+                },
+                {
+                    "@type": "item",
+                    "name": "proxygen/lib/http/experimental/RFC1867.cpp"
+                },
+                {
+                    "@type": "item",
+                    "name": "proxygen/lib/http/experimental/test/RFC1867Test.cpp"
+                }
+            ]
+        },
+        {
+            "@type": "group",
+            "name": "20",
+            "nested": [
+                {
+                    "@type": "item",
+                    "name": "proxygen/lib/services/ServiceConfiguration.h"
+                },
+                {
+                    "@type": "item",
+                    "name": "proxygen/lib/services/AcceptorConfiguration.h"
+                },
+                {
+                    "@type": "item",
+                    "name": "proxygen/lib/services/HTTPAcceptor.h"
+                }
+            ]
+        },
+        {
+            "@type": "group",
+            "name": "21",
+            "nested": [
+                {
+                    "@type": "item",
+                    "name": "proxygen/lib/http/stats/HTTPCodecStats.h"
+                },
+                {
+                    "@type": "item",
+                    "name": "proxygen/lib/http/stats/HTTPCodecStatsFilter.h"
+                },
+                {
+                    "@type": "item",
+                    "name": "proxygen/lib/http/stats/HTTPCodecStatsFilter.cpp"
+                },
+                {
+                    "@type": "item",
+                    "name": "proxygen/lib/http/stats/HTTPCodecStats.cpp"
+                }
+            ]
+        },
+        {
+            "@type": "group",
+            "name": "22",
+            "nested": [
+                {
+                    "@type": "item",
+                    "name": "proxygen/lib/pools/generators/MemberGroupConfig.h"
+                },
+                {
+                    "@type": "item",
+                    "name": "proxygen/lib/pools/generators/ServerListGenerator.h"
+                },
+                {
+                    "@type": "item",
+                    "name": "proxygen/lib/pools/generators/ServerListGenerator.cpp"
+                },
+                {
+                    "@type": "item",
+                    "name": "proxygen/lib/pools/generators/FileServerListGenerator.h"
+                },
+                {
+                    "@type": "item",
+                    "name": "proxygen/lib/pools/generators/FileServerListGenerator.cpp"
+                }
+            ]
+        },
+        {
+            "@type": "group",
+            "name": "23",
+            "nested": [
+                {
+                    "@type": "item",
+                    "name": "proxygen/lib/http/stats/ResponseCodeStatsMinute.h"
+                },
+                {
+                    "@type": "item",
+                    "name": "proxygen/lib/http/stats/ResponseCodeStatsMinute.cpp"
+                },
+                {
+                    "@type": "item",
+                    "name": "proxygen/lib/http/stats/ConnectionStats.h"
+                },
+                {
+                    "@type": "item",
+                    "name": "proxygen/lib/http/stats/ConnectionStats.cpp"
+                },
+                {
+                    "@type": "item",
+                    "name": "proxygen/lib/http/stats/TLResponseCodeStats.h"
+                },
+                {
+                    "@type": "item",
+                    "name": "proxygen/lib/http/stats/TLResponseCodeStats.cpp"
+                }
+            ]
+        },
+        {
+            "@type": "group",
+            "name": "24",
+            "nested": [
+                {
+                    "@type": "item",
+                    "name": "proxygen/lib/http/stats/HeaderCodecStats.cpp"
+                },
+                {
+                    "@type": "item",
+                    "name": "proxygen/lib/http/stats/HeaderCodecStats.h"
+                }
+            ]
+        },
+        {
+            "@type": "group",
+            "name": "25",
+            "nested": [
+                {
+                    "@type": "item",
+                    "name": "proxygen/lib/stats/BaseStats.cpp"
+                },
+                {
+                    "@type": "item",
+                    "name": "proxygen/lib/stats/BaseStats.h"
+                }
+            ]
+        },
+        {
+            "@type": "group",
+            "name": "26",
+            "nested": [
+                {
+                    "@type": "item",
+                    "name": "proxygen/lib/utils/test/AsyncTimeoutSetTest.cpp"
+                },
+                {
+                    "@type": "item",
+                    "name": "proxygen/lib/utils/AsyncTimeoutSet.h"
+                },
+                {
+                    "@type": "item",
+                    "name": "proxygen/lib/utils/AsyncTimeoutSet.cpp"
+                }
+            ]
+        },
+        {
+            "@type": "group",
+            "name": "27",
+            "nested": [
+                {
+                    "@type": "item",
+                    "name": "proxygen/lib/utils/test/GenericFilterTest.cpp"
+                },
+                {
+                    "@type": "item",
+                    "name": "proxygen/lib/utils/FilterChain.h"
+                }
+            ]
+        },
+        {
+            "@type": "group",
+            "name": "28",
+            "nested": [
+                {
+                    "@type": "item",
+                    "name": "proxygen/lib/http/stats/SPDYStatsFilter.h"
+                },
+                {
+                    "@type": "item",
+                    "name": "proxygen/lib/http/stats/SPDYStats.h"
+                }
+            ]
+        },
+        {
+            "@type": "group",
+            "name": "29",
+            "nested": [
+                {
+                    "@type": "item",
+                    "name": "proxygen/lib/ssl/ThreadLocalSSLContext.h"
+                },
+                {
+                    "@type": "item",
+                    "name": "proxygen/lib/ssl/ProxygenSSL.h"
+                }
+            ]
+        },
+        {
+            "@type": "group",
+            "name": "30",
+            "nested": [
+                {
+                    "@type": "item",
+                    "name": "proxygen/lib/utils/AcceptorAddress.h"
+                },
+                {
+                    "@type": "item",
+                    "name": "proxygen/lib/utils/WheelTimerInstance.h"
+                },
+                {
+                    "@type": "item",
+                    "name": "proxygen/lib/utils/WheelTimerInstance.cpp"
+                }
+            ]
+        },
+        {
+            "@type": "group",
+            "name": "31",
+            "nested": [
+                {
+                    "@type": "item",
+                    "name": "proxygen/lib/http/sink/HTTPSink.h"
+                },
+                {
+                    "@type": "item",
+                    "name": "proxygen/lib/http/sink/HTTPTransactionSink.h"
+                },
+                {
+                    "@type": "item",
+                    "name": "proxygen/lib/http/sink/HTTPTransactionSink.cpp"
+                }
+            ]
+        },
+        {
+            "@type": "group",
+            "name": "32",
+            "nested": [
+                {
+                    "@type": "item",
+                    "name": "proxygen/lib/http/observer/HTTPSessionObserverInterface.h"
+                },
+                {
+                    "@type": "item",
+                    "name": "proxygen/lib/http/observer/HTTPSessionObserverInterface.cpp"
+                },
+                {
+                    "@type": "item",
+                    "name": "proxygen/lib/http/observer/HTTPSessionObserverContainer.h"
+                }
+            ]
+        },
+        {
+            "@type": "group",
+            "name": "33",
+            "nested": [
+                {
+                    "@type": "item",
+                    "name": "proxygen/lib/healthcheck/ServerHealthCheckerCallback.h"
+                },
+                {
+                    "@type": "item",
+                    "name": "proxygen/lib/healthcheck/ServerHealthCheckerCallback.cpp"
+                },
+                {
+                    "@type": "item",
+                    "name": "proxygen/lib/healthcheck/PoolHealthChecker.h"
+                }
+            ]
+        },
+        {
+            "@type": "group",
+            "name": "34",
+            "nested": [
+                {
+                    "@type": "item",
+                    "name": "proxygen/lib/http/test/HTTPConnectorWithFizzTest.cpp"
+                }
+            ]
+        },
+        {
+            "@type": "group",
+            "name": "35",
+            "nested": [
+                {
+                    "@type": "item",
+                    "name": "proxygen/lib/http/test/HTTPHeadersBenchmark.cpp"
+                }
+            ]
+        },
+        {
+            "@type": "group",
+            "name": "36",
+            "nested": [
+                {
+                    "@type": "item",
+                    "name": "proxygen/lib/services/test/AcceptorTest.cpp"
+                }
+            ]
+        },
+        {
+            "@type": "group",
+            "name": "37",
+            "nested": [
+                {
+                    "@type": "item",
+                    "name": "proxygen/lib/transport/test/MockAsyncTransportCertificate.h"
+                }
+            ]
+        },
+        {
+            "@type": "group",
+            "name": "38",
+            "nested": [
+                {
+                    "@type": "item",
+                    "name": "proxygen/lib/utils/StateMachine.h"
+                }
+            ]
+        },
+        {
+            "@type": "group",
+            "name": "39",
+            "nested": [
+                {
+                    "@type": "item",
+                    "name": "proxygen/lib/utils/TestUtils.h"
+                }
+            ]
+        },
+        {
+            "@type": "group",
+            "name": "40",
+            "nested": [
+                {
+                    "@type": "item",
+                    "name": "proxygen/lib/http/test/MockHTTPHeaders.h"
+                }
+            ]
+        },
+        {
+            "@type": "group",
+            "name": "41",
+            "nested": [
+                {
+                    "@type": "item",
+                    "name": "proxygen/lib/sampling/SamplingFunctions.h"
+                }
+            ]
+        },
+        {
+            "@type": "group",
+            "name": "42",
+            "nested": [
+                {
+                    "@type": "item",
+                    "name": "proxygen/lib/utils/CobHelper.h"
+                }
+            ]
+        },
+        {
+            "@type": "group",
+            "name": "43",
+            "nested": [
+                {
+                    "@type": "item",
+                    "name": "proxygen/lib/utils/UnionBasedStatic.h"
+                }
+            ]
+        },
+        {
+            "@type": "group",
+            "name": "44",
+            "nested": [
+                {
+                    "@type": "item",
+                    "name": "proxygen/lib/http/Window.h"
+                },
+                {
+                    "@type": "item",
+                    "name": "proxygen/lib/http/Window.cpp"
+                }
+            ]
+        },
+        {
+            "@type": "group",
+            "name": "45",
+            "nested": [
+                {
+                    "@type": "item",
+                    "name": "proxygen/lib/http/stats/ThreadLocalHTTPSessionStats.h"
+                },
+                {
+                    "@type": "item",
+                    "name": "proxygen/lib/http/stats/ThreadLocalHTTPSessionStats.cpp"
+                }
+            ]
+        },
+        {
+            "@type": "group",
+            "name": "46",
+            "nested": [
+                {
+                    "@type": "item",
+                    "name": "proxygen/lib/ssl/ThreadLocalSSLStats.h"
+                },
+                {
+                    "@type": "item",
+                    "name": "proxygen/lib/ssl/ThreadLocalSSLStats.cpp"
+                }
+            ]
+        },
+        {
+            "@type": "group",
+            "name": "47",
+            "nested": [
+                {
+                    "@type": "item",
+                    "name": "proxygen/lib/http/SynchronizedLruQuicPskCache.h"
+                },
+                {
+                    "@type": "item",
+                    "name": "proxygen/lib/http/SynchronizedLruQuicPskCache.cpp"
+                }
+            ]
+        }
+    ]
+}

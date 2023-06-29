@@ -1,0 +1,442 @@
+{
+    "@schemaVersion": "1.0",
+    "name": "clustering",
+    "structure": [
+        {
+            "@type": "group",
+            "name": "trio",
+            "nested": [
+                {
+                    "@type": "item",
+                    "name": "trio.h"
+                },
+                {
+                    "@type": "item",
+                    "name": "trio.c"
+                },
+                {
+                    "@type": "item",
+                    "name": "triop.h"
+                },
+                {
+                    "@type": "item",
+                    "name": "trionan.c"
+                },
+                {
+                    "@type": "item",
+                    "name": "trionan.h"
+                },
+                {
+                    "@type": "item",
+                    "name": "triodef.h"
+                },
+                {
+                    "@type": "item",
+                    "name": "triostr.h"
+                },
+                {
+                    "@type": "item",
+                    "name": "triostr.c"
+                }
+            ]
+        },
+        {
+            "@type": "group",
+            "name": "platform",
+            "nested": [
+                {
+                    "@type": "item",
+                    "name": "macos/src/config-mac.h"
+                },
+                {
+                    "@type": "item",
+                    "name": "include/win32config.h"
+                },
+                {
+                    "@type": "item",
+                    "name": "include/libxml/xmlwin32version.h"
+                }
+            ]
+        },
+        {
+            "@type": "group",
+            "name": "c14n",
+            "nested": [
+                {
+                    "@type": "item",
+                    "name": "include/libxml/c14n.h"
+                },
+                {
+                    "@type": "item",
+                    "name": "c14n.c"
+                },
+                {
+                    "@type": "item",
+                    "name": "list.c"
+                },
+                {
+                    "@type": "item",
+                    "name": "include/libxml/list.h"
+                }
+            ]
+        },
+        {
+            "@type": "group",
+            "name": "xpath",
+            "nested": [
+                {
+                    "@type": "item",
+                    "name": "include/libxml/xpath.h"
+                },
+                {
+                    "@type": "item",
+                    "name": "xpath.c"
+                },
+                {
+                    "@type": "item",
+                    "name": "include/libxml/xpathInternals.h"
+                },
+                {
+                    "@type": "item",
+                    "name": "include/libxml/xpointer.h"
+                },
+                {
+                    "@type": "item",
+                    "name": "xpointer.c"
+                }
+            ]
+        },
+        {
+            "@type": "group",
+            "name": "tree",
+            "nested": [
+                {
+                    "@type": "item",
+                    "name": "tree.c"
+                },
+                {
+                    "@type": "item",
+                    "name": "include/libxml/tree.h"
+                },
+                {
+                    "@type": "item",
+                    "name": "HTMLtree.c"
+                },
+                {
+                    "@type": "item",
+                    "name": "include/libxml/HTMLtree.h"
+                },
+                {
+                    "@type": "item",
+                    "name": "xlink.c"
+                },
+                {
+                    "@type": "item",
+                    "name": "include/libxml/xlink.h"
+                }
+            ]
+        },
+        {
+            "@type": "group",
+            "name": "schema",
+            "nested": [
+                {
+                    "@type": "item",
+                    "name": "xmlschemas.c"
+                },
+                {
+                    "@type": "item",
+                    "name": "include/libxml/xmlschemas.h"
+                },
+                {
+                    "@type": "item",
+                    "name": "xmlschemastypes.c"
+                },
+                {
+                    "@type": "item",
+                    "name": "include/libxml/xmlschemastypes.h"
+                },                
+                {
+                    "@type": "item",
+                    "name": "include/libxml/schemasInternals.h"
+                }
+            ]
+        },
+        {
+            "@type": "group",
+            "name": "python",
+            "nested": [
+                {
+                    "@type": "item",
+                    "name": "python/libxml_wrap.h"
+                },
+                {
+                    "@type": "item",
+                    "name": "python/libxml.c"
+                },
+                {
+                    "@type": "item",
+                    "name": "python/types.c"
+                }
+            ]
+        },
+        {
+            "@type": "group",
+            "name": "URI",
+            "nested": [
+                {
+                    "@type": "item",
+                    "name": "uri.c"
+                },
+                {
+                    "@type": "item",
+                    "name": "include/libxml/uri.h"
+                }
+            ]
+        },
+        {
+            "@type": "group",
+            "name": "threads",
+            "nested": [
+                {
+                    "@type": "item",
+                    "name": "threads.c"
+                },
+                {
+                    "@type": "item",
+                    "name": "include/libxml/threads.h"
+                }
+            ]
+        },
+        {
+            "@type": "group",
+            "name": "catalog",
+            "nested": [
+                {
+                    "@type": "item",
+                    "name": "catalog.c"
+                },
+                {
+                    "@type": "item",
+                    "name": "include/libxml/catalog.h"
+                },
+                {
+                    "@type": "item",
+                    "name": "xmlcatalog.c"
+                }
+            ]
+        },
+        {
+            "@type": "group",
+            "name": "IOLayer",
+            "nested": [
+                {
+                    "@type": "item",
+                    "name": "xmlIO.c"
+                },
+                {
+                    "@type": "item",
+                    "name": "include/libxml/xmlIO.h"
+                },
+                {
+                    "@type": "item",
+                    "name": "nanohttp.c"
+                },
+                {
+                    "@type": "item",
+                    "name": "include/libxml/nanohttp.h"
+                },
+                {
+                    "@type": "item",
+                    "name": "nanoftp.c"
+                },
+                {
+                    "@type": "item",
+                    "name": "include/libxml/nanoftp.h"
+                }
+            ]
+        },
+        {
+            "@type": "group",
+            "name": "parser",
+            "nested": [
+                {
+                    "@type": "item",
+                    "name": "parser.c"
+                },
+                {
+                    "@type": "item",
+                    "name": "include/libxml/parser.h"
+                },
+                {
+                    "@type": "item",
+                    "name": "parserInternals.c"
+                },
+                {
+                    "@type": "item",
+                    "name": "include/libxml/parserInternals.h"
+                },
+                {
+                    "@type": "item",
+                    "name": "HTMLparser.c"
+                },
+                {
+                    "@type": "item",
+                    "name": "include/libxml/HTMLparser.h"
+                },
+                {
+                    "@type": "item",
+                    "name": "DOCBparser.c"
+                },
+                {
+                    "@type": "item",
+                    "name": "include/libxml/DOCBparser.h"
+                }
+            ]
+        },
+        {
+            "@type": "group",
+            "name": "SAX",
+            "nested": [
+                {
+                    "@type": "item",
+                    "name": "SAX.c"
+                },
+                {
+                    "@type": "item",
+                    "name": "include/libxml/SAX.h"
+                }
+            ]
+        },
+        {
+            "@type": "group",
+            "name": "xinclude",
+            "nested": [
+                {
+                    "@type": "item",
+                    "name": "xinclude.c"
+                },
+                {
+                    "@type": "item",
+                    "name": "include/libxml/xinclude.h"
+                }
+            ]
+        },
+        {
+            "@type": "group",
+            "name": "xmlunicode",
+            "nested": [
+                {
+                    "@type": "item",
+                    "name": "xmlregexp.c"
+                },
+                {
+                    "@type": "item",
+                    "name": "include/libxml/xmlregexp.h"
+                },
+                {
+                    "@type": "item",
+                    "name": "xmlunicode.c"
+                },
+                {
+                    "@type": "item",
+                    "name": "include/libxml/xmlunicode.h"
+                },
+                {
+                    "@type": "item",
+                    "name": "include/libxml/xmlautomata.h"
+                }
+            ]
+        },
+        {
+            "@type": "group",
+            "name": "xmllint",
+            "nested": [
+                {
+                    "@type": "item",
+                    "name": "xmllint.c"
+                }
+            ]
+        },
+        {
+            "@type": "group",
+            "name": "globals",
+            "nested": [
+                {
+                    "@type": "item",
+                    "name": "globals.c"
+                },
+                {
+                    "@type": "item",
+                    "name": "include/libxml/globals.h"
+                }
+            ]
+        },
+        {
+            "@type": "group",
+            "name": "utils",
+            "nested": [
+                {
+                    "@type": "item",
+                    "name": "entities.c"
+                },
+                {
+                    "@type": "item",
+                    "name": "include/libxml/entities.h"
+                },
+                {
+                    "@type": "item",
+                    "name": "valid.c"
+                },
+                {
+                    "@type": "item",
+                    "name": "include/libxml/valid.h"
+                },
+                {
+                    "@type": "item",
+                    "name": "xmlmemory.c"
+                },
+                {
+                    "@type": "item",
+                    "name": "include/libxml/xmlmemory.h"
+                },
+                {
+                    "@type": "item",
+                    "name": "hash.c"
+                },
+                {
+                    "@type": "item",
+                    "name": "include/libxml/hash.h"
+                },
+                {
+                    "@type": "item",
+                    "name": "error.c"
+                },
+                {
+                    "@type": "item",
+                    "name": "include/libxml/xmlerror.h"
+                },
+                {
+                    "@type": "item",
+                    "name": "debugXML.c"
+                },
+                {
+                    "@type": "item",
+                    "name": "include/libxml/debugXML.h"
+                },
+                {
+                    "@type": "item",
+                    "name": "encoding.c"
+                },
+                {
+                    "@type": "item",
+                    "name": "include/libxml/encoding.h"
+                },
+                {
+                    "@type": "item",
+                    "name": "libxml.h"
+                }
+            ]
+        }
+    ]
+}

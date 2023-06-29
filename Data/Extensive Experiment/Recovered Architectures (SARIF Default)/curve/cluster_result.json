@@ -1,0 +1,1968 @@
+{
+    "@schemaVersion": "1.0",
+    "name": "clustering",
+    "structure": [
+        {
+            "@type": "group",
+            "name": "0",
+            "nested": [
+                {
+                    "@type": "item",
+                    "name": "src/client/service_helper.h"
+                },
+                {
+                    "@type": "item",
+                    "name": "src/client/service_helper.cpp"
+                },
+                {
+                    "@type": "item",
+                    "name": "src/client/client_metric.h"
+                },
+                {
+                    "@type": "item",
+                    "name": "src/client/chunkserver_broadcaster.h"
+                },
+                {
+                    "@type": "item",
+                    "name": "src/client/chunkserver_broadcaster.cpp"
+                },
+                {
+                    "@type": "item",
+                    "name": "src/client/file_instance.h"
+                },
+                {
+                    "@type": "item",
+                    "name": "src/client/file_instance.cpp"
+                },
+                {
+                    "@type": "item",
+                    "name": "src/client/libcurve_snapshot.h"
+                },
+                {
+                    "@type": "item",
+                    "name": "src/client/libcurve_snapshot.cpp"
+                },
+                {
+                    "@type": "item",
+                    "name": "src/client/io_condition_varaiable.h"
+                },
+                {
+                    "@type": "item",
+                    "name": "src/client/lease_executor.h"
+                },
+                {
+                    "@type": "item",
+                    "name": "src/client/lease_executor.cpp"
+                },
+                {
+                    "@type": "item",
+                    "name": "src/client/iomanager.h"
+                },
+                {
+                    "@type": "item",
+                    "name": "src/client/request_sender_manager.h"
+                },
+                {
+                    "@type": "item",
+                    "name": "src/client/request_sender_manager.cpp"
+                },
+                {
+                    "@type": "item",
+                    "name": "src/client/unstable_helper.h"
+                },
+                {
+                    "@type": "item",
+                    "name": "src/client/unstable_helper.cpp"
+                },
+                {
+                    "@type": "item",
+                    "name": "src/client/source_reader.h"
+                },
+                {
+                    "@type": "item",
+                    "name": "src/client/source_reader.cpp"
+                },
+                {
+                    "@type": "item",
+                    "name": "src/client/metacache.h"
+                },
+                {
+                    "@type": "item",
+                    "name": "src/client/metacache.cpp"
+                },
+                {
+                    "@type": "item",
+                    "name": "src/client/request_closure.h"
+                },
+                {
+                    "@type": "item",
+                    "name": "src/client/request_closure.cpp"
+                },
+                {
+                    "@type": "item",
+                    "name": "src/client/inflight_controller.h"
+                },
+                {
+                    "@type": "item",
+                    "name": "src/client/chunkserver_client.h"
+                },
+                {
+                    "@type": "item",
+                    "name": "src/client/chunkserver_client.cpp"
+                },
+                {
+                    "@type": "item",
+                    "name": "src/client/copyset_client.h"
+                },
+                {
+                    "@type": "item",
+                    "name": "src/client/copyset_client.cpp"
+                },
+                {
+                    "@type": "item",
+                    "name": "src/client/client_config.h"
+                },
+                {
+                    "@type": "item",
+                    "name": "src/client/client_config.cpp"
+                },
+                {
+                    "@type": "item",
+                    "name": "src/client/mds_client.h"
+                },
+                {
+                    "@type": "item",
+                    "name": "src/client/mds_client.cpp"
+                },
+                {
+                    "@type": "item",
+                    "name": "src/client/chunk_closure.h"
+                },
+                {
+                    "@type": "item",
+                    "name": "src/client/chunk_closure.cpp"
+                },
+                {
+                    "@type": "item",
+                    "name": "src/client/iomanager4chunk.h"
+                },
+                {
+                    "@type": "item",
+                    "name": "src/client/iomanager4chunk.cpp"
+                },
+                {
+                    "@type": "item",
+                    "name": "src/client/mds_client_base.h"
+                },
+                {
+                    "@type": "item",
+                    "name": "src/client/mds_client_base.cpp"
+                },
+                {
+                    "@type": "item",
+                    "name": "src/client/request_scheduler.h"
+                },
+                {
+                    "@type": "item",
+                    "name": "src/client/request_scheduler.cpp"
+                },
+                {
+                    "@type": "item",
+                    "name": "src/client/splitor.h"
+                },
+                {
+                    "@type": "item",
+                    "name": "src/client/splitor.cpp"
+                },
+                {
+                    "@type": "item",
+                    "name": "src/client/config_info.h"
+                },
+                {
+                    "@type": "item",
+                    "name": "src/client/request_context.cpp"
+                },
+                {
+                    "@type": "item",
+                    "name": "src/client/libcurve_file.h"
+                },
+                {
+                    "@type": "item",
+                    "name": "src/client/request_sender.h"
+                },
+                {
+                    "@type": "item",
+                    "name": "src/client/request_sender.cpp"
+                },
+                {
+                    "@type": "item",
+                    "name": "src/client/libcbd_ext4.cpp"
+                },
+                {
+                    "@type": "item",
+                    "name": "src/client/discard_task.h"
+                },
+                {
+                    "@type": "item",
+                    "name": "src/client/discard_task.cpp"
+                },
+                {
+                    "@type": "item",
+                    "name": "src/client/iomanager4file.h"
+                },
+                {
+                    "@type": "item",
+                    "name": "src/client/iomanager4file.cpp"
+                },
+                {
+                    "@type": "item",
+                    "name": "src/client/libcbd_libcurve.cpp"
+                },
+                {
+                    "@type": "item",
+                    "name": "src/client/libcurve_client.cpp"
+                },
+                {
+                    "@type": "item",
+                    "name": "src/client/libcurve_file.cpp"
+                },
+                {
+                    "@type": "item",
+                    "name": "src/client/io_tracker.h"
+                },
+                {
+                    "@type": "item",
+                    "name": "src/client/io_tracker.cpp"
+                },
+                {
+                    "@type": "item",
+                    "name": "src/client/client_common.h"
+                },
+                {
+                    "@type": "item",
+                    "name": "src/client/request_context.h"
+                },
+                {
+                    "@type": "item",
+                    "name": "src/client/metacache_struct.h"
+                },
+                {
+                    "@type": "item",
+                    "name": "src/client/client_common.cpp"
+                }
+            ]
+        },
+        {
+            "@type": "group",
+            "name": "1",
+            "nested": [
+                {
+                    "@type": "item",
+                    "name": "src/chunkserver/chunk_service_closure.h"
+                },
+                {
+                    "@type": "item",
+                    "name": "src/chunkserver/chunk_service_closure.cpp"
+                },
+                {
+                    "@type": "item",
+                    "name": "src/chunkserver/passive_getfn.h"
+                },
+                {
+                    "@type": "item",
+                    "name": "src/chunkserver/passive_getfn.cpp"
+                },
+                {
+                    "@type": "item",
+                    "name": "src/chunkserver/clone_copyer.h"
+                },
+                {
+                    "@type": "item",
+                    "name": "src/chunkserver/clone_copyer.cpp"
+                },
+                {
+                    "@type": "item",
+                    "name": "src/chunkserver/register.h"
+                },
+                {
+                    "@type": "item",
+                    "name": "src/chunkserver/register.cpp"
+                },
+                {
+                    "@type": "item",
+                    "name": "src/chunkserver/chunkserver.h"
+                },
+                {
+                    "@type": "item",
+                    "name": "src/chunkserver/chunkserver.cpp"
+                },
+                {
+                    "@type": "item",
+                    "name": "src/chunkserver/epoch_map.h"
+                },
+                {
+                    "@type": "item",
+                    "name": "src/chunkserver/epoch_map.cpp"
+                },
+                {
+                    "@type": "item",
+                    "name": "src/chunkserver/clone_task.h"
+                },
+                {
+                    "@type": "item",
+                    "name": "src/chunkserver/chunk_service.h"
+                },
+                {
+                    "@type": "item",
+                    "name": "src/chunkserver/chunk_service.cpp"
+                },
+                {
+                    "@type": "item",
+                    "name": "src/chunkserver/chunkserver_main.cpp"
+                },
+                {
+                    "@type": "item",
+                    "name": "src/chunkserver/copyset_service.h"
+                },
+                {
+                    "@type": "item",
+                    "name": "src/chunkserver/copyset_service.cpp"
+                },
+                {
+                    "@type": "item",
+                    "name": "src/chunkserver/clone_manager.h"
+                },
+                {
+                    "@type": "item",
+                    "name": "src/chunkserver/clone_manager.cpp"
+                },
+                {
+                    "@type": "item",
+                    "name": "src/chunkserver/inflight_throttle.h"
+                },
+                {
+                    "@type": "item",
+                    "name": "src/chunkserver/config_info.h"
+                },
+                {
+                    "@type": "item",
+                    "name": "src/chunkserver/config_info.cpp"
+                },
+                {
+                    "@type": "item",
+                    "name": "src/chunkserver/chunkserver_helper.h"
+                },
+                {
+                    "@type": "item",
+                    "name": "src/chunkserver/chunkserver_helper.cpp"
+                },
+                {
+                    "@type": "item",
+                    "name": "src/chunkserver/scan_manager.h"
+                },
+                {
+                    "@type": "item",
+                    "name": "src/chunkserver/scan_manager.cpp"
+                },
+                {
+                    "@type": "item",
+                    "name": "src/chunkserver/concurrent_apply/concurrent_apply.h"
+                },
+                {
+                    "@type": "item",
+                    "name": "src/chunkserver/concurrent_apply/concurrent_apply.cpp"
+                },
+                {
+                    "@type": "item",
+                    "name": "src/chunkserver/op_request.cpp"
+                },
+                {
+                    "@type": "item",
+                    "name": "src/chunkserver/op_request.h"
+                },
+                {
+                    "@type": "item",
+                    "name": "src/chunkserver/trash.h"
+                },
+                {
+                    "@type": "item",
+                    "name": "src/chunkserver/trash.cpp"
+                },
+                {
+                    "@type": "item",
+                    "name": "src/chunkserver/copyset_node_manager.h"
+                },
+                {
+                    "@type": "item",
+                    "name": "src/chunkserver/copyset_node_manager.cpp"
+                },
+                {
+                    "@type": "item",
+                    "name": "src/chunkserver/chunk_closure.h"
+                },
+                {
+                    "@type": "item",
+                    "name": "src/chunkserver/chunk_closure.cpp"
+                },
+                {
+                    "@type": "item",
+                    "name": "src/chunkserver/copyset_node.h"
+                },
+                {
+                    "@type": "item",
+                    "name": "src/chunkserver/copyset_node.cpp"
+                },
+                {
+                    "@type": "item",
+                    "name": "src/chunkserver/heartbeat_helper.h"
+                },
+                {
+                    "@type": "item",
+                    "name": "src/chunkserver/heartbeat_helper.cpp"
+                },
+                {
+                    "@type": "item",
+                    "name": "src/chunkserver/conf_epoch_file.h"
+                },
+                {
+                    "@type": "item",
+                    "name": "src/chunkserver/conf_epoch_file.cpp"
+                },
+                {
+                    "@type": "item",
+                    "name": "src/chunkserver/scan_service.h"
+                },
+                {
+                    "@type": "item",
+                    "name": "src/chunkserver/scan_service.cpp"
+                },
+                {
+                    "@type": "item",
+                    "name": "src/chunkserver/chunkserver_service.h"
+                },
+                {
+                    "@type": "item",
+                    "name": "src/chunkserver/chunkserver_service.cpp"
+                },
+                {
+                    "@type": "item",
+                    "name": "src/chunkserver/heartbeat.h"
+                },
+                {
+                    "@type": "item",
+                    "name": "src/chunkserver/heartbeat.cpp"
+                },
+                {
+                    "@type": "item",
+                    "name": "src/chunkserver/clone_core.h"
+                },
+                {
+                    "@type": "item",
+                    "name": "src/chunkserver/clone_core.cpp"
+                },
+                {
+                    "@type": "item",
+                    "name": "src/chunkserver/chunkserver_metrics.h"
+                },
+                {
+                    "@type": "item",
+                    "name": "src/chunkserver/chunkserver_metrics.cpp"
+                }
+            ]
+        },
+        {
+            "@type": "group",
+            "name": "2",
+            "nested": [
+                {
+                    "@type": "item",
+                    "name": "src/snapshotcloneserver/snapshotclone_server.h"
+                },
+                {
+                    "@type": "item",
+                    "name": "src/snapshotcloneserver/snapshotclone_server.cpp"
+                },
+                {
+                    "@type": "item",
+                    "name": "src/snapshotcloneserver/common/snapshotclone_metric.h"
+                },
+                {
+                    "@type": "item",
+                    "name": "src/snapshotcloneserver/common/snapshotclone_metric.cpp"
+                },
+                {
+                    "@type": "item",
+                    "name": "src/snapshotcloneserver/clone/clone_service_manager.h"
+                },
+                {
+                    "@type": "item",
+                    "name": "src/snapshotcloneserver/clone/clone_service_manager.cpp"
+                },
+                {
+                    "@type": "item",
+                    "name": "src/snapshotcloneserver/snapshot/snapshot_core.h"
+                },
+                {
+                    "@type": "item",
+                    "name": "src/snapshotcloneserver/snapshot/snapshot_core.cpp"
+                },
+                {
+                    "@type": "item",
+                    "name": "src/snapshotcloneserver/main.cpp"
+                },
+                {
+                    "@type": "item",
+                    "name": "src/snapshotcloneserver/common/task_info.h"
+                },
+                {
+                    "@type": "item",
+                    "name": "src/snapshotcloneserver/snapshot/snapshot_task_manager.h"
+                },
+                {
+                    "@type": "item",
+                    "name": "src/snapshotcloneserver/snapshot/snapshot_task_manager.cpp"
+                },
+                {
+                    "@type": "item",
+                    "name": "src/snapshotcloneserver/clone/clone_task.h"
+                },
+                {
+                    "@type": "item",
+                    "name": "src/snapshotcloneserver/clone/clone_task.cpp"
+                },
+                {
+                    "@type": "item",
+                    "name": "src/snapshotcloneserver/snapshot/snapshot_service_manager.h"
+                },
+                {
+                    "@type": "item",
+                    "name": "src/snapshotcloneserver/snapshot/snapshot_service_manager.cpp"
+                },
+                {
+                    "@type": "item",
+                    "name": "src/snapshotcloneserver/clone/clone_reference.h"
+                },
+                {
+                    "@type": "item",
+                    "name": "src/snapshotcloneserver/clone/clone_reference.cpp"
+                },
+                {
+                    "@type": "item",
+                    "name": "src/snapshotcloneserver/common/snapshotclonecodec.h"
+                },
+                {
+                    "@type": "item",
+                    "name": "src/snapshotcloneserver/common/snapshotclonecodec.cpp"
+                },
+                {
+                    "@type": "item",
+                    "name": "src/snapshotcloneserver/snapshot/snapshot_data_store.h"
+                },
+                {
+                    "@type": "item",
+                    "name": "src/snapshotcloneserver/snapshot/snapshot_data_store.cpp"
+                },
+                {
+                    "@type": "item",
+                    "name": "src/snapshotcloneserver/snapshotclone_service.h"
+                },
+                {
+                    "@type": "item",
+                    "name": "src/snapshotcloneserver/snapshotclone_service.cpp"
+                },
+                {
+                    "@type": "item",
+                    "name": "src/snapshotcloneserver/common/task.h"
+                },
+                {
+                    "@type": "item",
+                    "name": "src/snapshotcloneserver/common/task_tracker.h"
+                },
+                {
+                    "@type": "item",
+                    "name": "src/snapshotcloneserver/common/snapshot_reference.h"
+                },
+                {
+                    "@type": "item",
+                    "name": "src/snapshotcloneserver/common/snapshot_reference.cpp"
+                },
+                {
+                    "@type": "item",
+                    "name": "src/snapshotcloneserver/common/snapshotclone_meta_store_etcd.h"
+                },
+                {
+                    "@type": "item",
+                    "name": "src/snapshotcloneserver/common/snapshotclone_meta_store_etcd.cpp"
+                },
+                {
+                    "@type": "item",
+                    "name": "src/snapshotcloneserver/snapshot/snapshot_data_store_s3.h"
+                },
+                {
+                    "@type": "item",
+                    "name": "src/snapshotcloneserver/snapshot/snapshot_data_store_s3.cpp"
+                },
+                {
+                    "@type": "item",
+                    "name": "src/snapshotcloneserver/common/thread_pool.h"
+                },
+                {
+                    "@type": "item",
+                    "name": "src/snapshotcloneserver/common/thread_pool.cpp"
+                },
+                {
+                    "@type": "item",
+                    "name": "src/snapshotcloneserver/clone/clone_closure.h"
+                },
+                {
+                    "@type": "item",
+                    "name": "src/snapshotcloneserver/common/snapshotclone_info.h"
+                },
+                {
+                    "@type": "item",
+                    "name": "src/snapshotcloneserver/common/snapshotclone_info.cpp"
+                },
+                {
+                    "@type": "item",
+                    "name": "src/snapshotcloneserver/clone/clone_task_manager.h"
+                },
+                {
+                    "@type": "item",
+                    "name": "src/snapshotcloneserver/clone/clone_task_manager.cpp"
+                },
+                {
+                    "@type": "item",
+                    "name": "src/snapshotcloneserver/common/curvefs_client.h"
+                },
+                {
+                    "@type": "item",
+                    "name": "src/snapshotcloneserver/common/curvefs_client.cpp"
+                },
+                {
+                    "@type": "item",
+                    "name": "src/snapshotcloneserver/clone/clone_core.h"
+                },
+                {
+                    "@type": "item",
+                    "name": "src/snapshotcloneserver/clone/clone_core.cpp"
+                },
+                {
+                    "@type": "item",
+                    "name": "src/snapshotcloneserver/common/snapshotclone_meta_store.h"
+                },
+                {
+                    "@type": "item",
+                    "name": "src/snapshotcloneserver/snapshot/snapshot_task.h"
+                },
+                {
+                    "@type": "item",
+                    "name": "src/snapshotcloneserver/snapshot/snapshot_task.cpp"
+                },
+                {
+                    "@type": "item",
+                    "name": "src/snapshotcloneserver/common/config.h"
+                }
+            ]
+        },
+        {
+            "@type": "group",
+            "name": "3",
+            "nested": [
+                {
+                    "@type": "item",
+                    "name": "src/tools/chunkserver_tool_main.cpp"
+                },
+                {
+                    "@type": "item",
+                    "name": "src/tools/curve_tool.h"
+                },
+                {
+                    "@type": "item",
+                    "name": "src/tools/copyset_check.h"
+                },
+                {
+                    "@type": "item",
+                    "name": "src/tools/copyset_check.cpp"
+                },
+                {
+                    "@type": "item",
+                    "name": "src/tools/namespace_tool.h"
+                },
+                {
+                    "@type": "item",
+                    "name": "src/tools/namespace_tool.cpp"
+                },
+                {
+                    "@type": "item",
+                    "name": "src/tools/chunkserver_tool_factory.h"
+                },
+                {
+                    "@type": "item",
+                    "name": "src/tools/chunkserver_tool_factory.cpp"
+                },
+                {
+                    "@type": "item",
+                    "name": "src/tools/copyset_check_core.h"
+                },
+                {
+                    "@type": "item",
+                    "name": "src/tools/copyset_check_core.cpp"
+                },
+                {
+                    "@type": "item",
+                    "name": "src/tools/curve_tool_define.cpp"
+                },
+                {
+                    "@type": "item",
+                    "name": "src/tools/copyset_tool.h"
+                },
+                {
+                    "@type": "item",
+                    "name": "src/tools/copyset_tool.cpp"
+                },
+                {
+                    "@type": "item",
+                    "name": "src/tools/curve_tool_factory.h"
+                },
+                {
+                    "@type": "item",
+                    "name": "src/tools/curve_tool_factory.cpp"
+                },
+                {
+                    "@type": "item",
+                    "name": "src/tools/namespace_tool_core.h"
+                },
+                {
+                    "@type": "item",
+                    "name": "src/tools/namespace_tool_core.cpp"
+                },
+                {
+                    "@type": "item",
+                    "name": "src/tools/metric_name.h"
+                },
+                {
+                    "@type": "item",
+                    "name": "src/tools/snapshot_clone_client.h"
+                },
+                {
+                    "@type": "item",
+                    "name": "src/tools/snapshot_clone_client.cpp"
+                },
+                {
+                    "@type": "item",
+                    "name": "src/tools/curve_meta_tool.h"
+                },
+                {
+                    "@type": "item",
+                    "name": "src/tools/curve_meta_tool.cpp"
+                },
+                {
+                    "@type": "item",
+                    "name": "src/tools/consistency_check.h"
+                },
+                {
+                    "@type": "item",
+                    "name": "src/tools/raft_log_tool.h"
+                },
+                {
+                    "@type": "item",
+                    "name": "src/tools/raft_log_tool.cpp"
+                },
+                {
+                    "@type": "item",
+                    "name": "src/tools/version_tool.h"
+                },
+                {
+                    "@type": "item",
+                    "name": "src/tools/version_tool.cpp"
+                },
+                {
+                    "@type": "item",
+                    "name": "src/tools/schedule_tool.h"
+                },
+                {
+                    "@type": "item",
+                    "name": "src/tools/schedule_tool.cpp"
+                },
+                {
+                    "@type": "item",
+                    "name": "src/tools/etcd_client.h"
+                },
+                {
+                    "@type": "item",
+                    "name": "src/tools/etcd_client.cpp"
+                },
+                {
+                    "@type": "item",
+                    "name": "src/tools/curve_tool_define.h"
+                },
+                {
+                    "@type": "item",
+                    "name": "src/tools/snapshot_check.h"
+                },
+                {
+                    "@type": "item",
+                    "name": "src/tools/curve_cli.h"
+                },
+                {
+                    "@type": "item",
+                    "name": "src/tools/curve_cli.cpp"
+                },
+                {
+                    "@type": "item",
+                    "name": "src/tools/mds_client.h"
+                },
+                {
+                    "@type": "item",
+                    "name": "src/tools/mds_client.cpp"
+                },
+                {
+                    "@type": "item",
+                    "name": "src/tools/chunkserver_client.h"
+                },
+                {
+                    "@type": "item",
+                    "name": "src/tools/status_tool.h"
+                },
+                {
+                    "@type": "item",
+                    "name": "src/tools/chunkserver_client.cpp"
+                },
+                {
+                    "@type": "item",
+                    "name": "src/tools/consistency_check.cpp"
+                },
+                {
+                    "@type": "item",
+                    "name": "src/tools/status_tool.cpp"
+                },
+                {
+                    "@type": "item",
+                    "name": "src/tools/curve_tool_main.cpp"
+                },
+                {
+                    "@type": "item",
+                    "name": "src/tools/common.h"
+                },
+                {
+                    "@type": "item",
+                    "name": "src/tools/common.cpp"
+                },
+                {
+                    "@type": "item",
+                    "name": "src/tools/metric_client.h"
+                },
+                {
+                    "@type": "item",
+                    "name": "src/tools/metric_client.cpp"
+                }
+            ]
+        },
+        {
+            "@type": "group",
+            "name": "4",
+            "nested": [
+                {
+                    "@type": "item",
+                    "name": "src/mds/schedule/operatorTemplate.h"
+                },
+                {
+                    "@type": "item",
+                    "name": "src/mds/schedule/scheduleMetrics.h"
+                },
+                {
+                    "@type": "item",
+                    "name": "src/mds/schedule/scheduler_helper.h"
+                },
+                {
+                    "@type": "item",
+                    "name": "src/mds/schedule/scheduler_helper.cpp"
+                },
+                {
+                    "@type": "item",
+                    "name": "src/mds/schedule/topoAdapter.h"
+                },
+                {
+                    "@type": "item",
+                    "name": "src/mds/schedule/topoAdapter.cpp"
+                },
+                {
+                    "@type": "item",
+                    "name": "src/mds/schedule/scheduler.h"
+                },
+                {
+                    "@type": "item",
+                    "name": "src/mds/schedule/rapidLeaderScheduler.cpp"
+                },
+                {
+                    "@type": "item",
+                    "name": "src/mds/schedule/copySetScheduler.cpp"
+                },
+                {
+                    "@type": "item",
+                    "name": "src/mds/schedule/leaderScheduler.cpp"
+                },
+                {
+                    "@type": "item",
+                    "name": "src/mds/schedule/replicaScheduler.cpp"
+                },
+                {
+                    "@type": "item",
+                    "name": "src/mds/schedule/scanScheduler.cpp"
+                },
+                {
+                    "@type": "item",
+                    "name": "src/mds/schedule/scheduler.cpp"
+                },
+                {
+                    "@type": "item",
+                    "name": "src/mds/schedule/recoverScheduler.cpp"
+                },
+                {
+                    "@type": "item",
+                    "name": "src/mds/nameserver2/idgenerator/inode_id_generator.h"
+                },
+                {
+                    "@type": "item",
+                    "name": "src/mds/nameserver2/idgenerator/inode_id_generator.cpp"
+                },
+                {
+                    "@type": "item",
+                    "name": "src/mds/schedule/operatorStepTemplate.h"
+                },
+                {
+                    "@type": "item",
+                    "name": "src/mds/schedule/scheduleService/scheduleService.h"
+                },
+                {
+                    "@type": "item",
+                    "name": "src/mds/schedule/scheduleService/scheduleService.cpp"
+                },
+                {
+                    "@type": "item",
+                    "name": "src/mds/topology/topology_token_generator.h"
+                },
+                {
+                    "@type": "item",
+                    "name": "src/mds/topology/topology_token_generator.cpp"
+                },
+                {
+                    "@type": "item",
+                    "name": "src/mds/schedule/operatorControllerTemplate.h"
+                },
+                {
+                    "@type": "item",
+                    "name": "src/mds/schedule/operatorController.h"
+                },
+                {
+                    "@type": "item",
+                    "name": "src/mds/nameserver2/metric.h"
+                },
+                {
+                    "@type": "item",
+                    "name": "src/mds/nameserver2/metric.cpp"
+                },
+                {
+                    "@type": "item",
+                    "name": "src/mds/schedule/operatorFactoryTemplate.h"
+                },
+                {
+                    "@type": "item",
+                    "name": "src/mds/schedule/operator.h"
+                },
+                {
+                    "@type": "item",
+                    "name": "src/mds/schedule/coordinator.h"
+                },
+                {
+                    "@type": "item",
+                    "name": "src/mds/schedule/coordinator.cpp"
+                },
+                {
+                    "@type": "item",
+                    "name": "src/mds/schedule/operatorFactory.h"
+                },
+                {
+                    "@type": "item",
+                    "name": "src/mds/schedule/scheduleMetricsTemplate.h"
+                },
+                {
+                    "@type": "item",
+                    "name": "src/mds/nameserver2/chunk_allocator.h"
+                },
+                {
+                    "@type": "item",
+                    "name": "src/mds/nameserver2/chunk_allocator.cpp"
+                },
+                {
+                    "@type": "item",
+                    "name": "src/mds/schedule/schedule_define.h"
+                },
+                {
+                    "@type": "item",
+                    "name": "src/mds/heartbeat/heartbeat_service.h"
+                },
+                {
+                    "@type": "item",
+                    "name": "src/mds/heartbeat/heartbeat_service.cpp"
+                },
+                {
+                    "@type": "item",
+                    "name": "src/mds/nameserver2/idgenerator/chunk_id_generator.h"
+                },
+                {
+                    "@type": "item",
+                    "name": "src/mds/nameserver2/idgenerator/chunk_id_generator.cpp"
+                },
+                {
+                    "@type": "item",
+                    "name": "src/mds/schedule/operatorStep.h"
+                },
+                {
+                    "@type": "item",
+                    "name": "src/mds/schedule/operatorFactory.cpp"
+                }
+            ]
+        },
+        {
+            "@type": "group",
+            "name": "5",
+            "nested": [
+                {
+                    "@type": "item",
+                    "name": "src/chunkserver/raftsnapshot/curve_snapshot_attachment.h"
+                },
+                {
+                    "@type": "item",
+                    "name": "src/chunkserver/raftsnapshot/curve_snapshot_attachment.cpp"
+                },
+                {
+                    "@type": "item",
+                    "name": "src/chunkserver/raftlog/curve_segment.cpp"
+                },
+                {
+                    "@type": "item",
+                    "name": "src/chunkserver/datastore/filename_operator.h"
+                },
+                {
+                    "@type": "item",
+                    "name": "src/chunkserver/raftsnapshot/curve_snapshot_writer.h"
+                },
+                {
+                    "@type": "item",
+                    "name": "src/chunkserver/raftsnapshot/curve_snapshot_writer.cpp"
+                },
+                {
+                    "@type": "item",
+                    "name": "src/chunkserver/raftsnapshot/curve_snapshot.h"
+                },
+                {
+                    "@type": "item",
+                    "name": "src/chunkserver/raftsnapshot/curve_snapshot.cpp"
+                },
+                {
+                    "@type": "item",
+                    "name": "src/chunkserver/raftsnapshot/curve_file_service.h"
+                },
+                {
+                    "@type": "item",
+                    "name": "src/chunkserver/datastore/datastore_file_helper.h"
+                },
+                {
+                    "@type": "item",
+                    "name": "src/chunkserver/datastore/datastore_file_helper.cpp"
+                },
+                {
+                    "@type": "item",
+                    "name": "src/chunkserver/raftsnapshot/curve_snapshot_file_reader.h"
+                },
+                {
+                    "@type": "item",
+                    "name": "src/chunkserver/raftsnapshot/curve_snapshot_file_reader.cpp"
+                },
+                {
+                    "@type": "item",
+                    "name": "src/chunkserver/raftsnapshot/curve_snapshot_storage.h"
+                },
+                {
+                    "@type": "item",
+                    "name": "src/chunkserver/raftsnapshot/curve_snapshot_storage.cpp"
+                },
+                {
+                    "@type": "item",
+                    "name": "src/chunkserver/raftsnapshot/curve_snapshot_copier.h"
+                },
+                {
+                    "@type": "item",
+                    "name": "src/chunkserver/raftsnapshot/curve_snapshot_copier.cpp"
+                },
+                {
+                    "@type": "item",
+                    "name": "src/chunkserver/raftlog/curve_segment_log_storage.h"
+                },
+                {
+                    "@type": "item",
+                    "name": "src/chunkserver/raftlog/curve_segment_log_storage.cpp"
+                },
+                {
+                    "@type": "item",
+                    "name": "src/chunkserver/raftlog/braft_segment.h"
+                },
+                {
+                    "@type": "item",
+                    "name": "src/chunkserver/raftlog/segment.h"
+                },
+                {
+                    "@type": "item",
+                    "name": "src/chunkserver/raftlog/define.h"
+                },
+                {
+                    "@type": "item",
+                    "name": "src/chunkserver/raftsnapshot/curve_file_service.cpp"
+                },
+                {
+                    "@type": "item",
+                    "name": "src/chunkserver/raftsnapshot/curve_snapshot_reader.h"
+                },
+                {
+                    "@type": "item",
+                    "name": "src/chunkserver/raftsnapshot/curve_snapshot_reader.cpp"
+                },
+                {
+                    "@type": "item",
+                    "name": "src/chunkserver/raftlog/curve_segment.h"
+                },
+                {
+                    "@type": "item",
+                    "name": "src/chunkserver/raftsnapshot/define.h"
+                }
+            ]
+        },
+        {
+            "@type": "group",
+            "name": "6",
+            "nested": [
+                {
+                    "@type": "item",
+                    "name": "src/common/curve_define.h"
+                },
+                {
+                    "@type": "item",
+                    "name": "src/common/timeutility.h"
+                },
+                {
+                    "@type": "item",
+                    "name": "src/common/macros.h"
+                },
+                {
+                    "@type": "item",
+                    "name": "src/common/authenticator.h"
+                },
+                {
+                    "@type": "item",
+                    "name": "src/common/authenticator.cpp"
+                },
+                {
+                    "@type": "item",
+                    "name": "src/common/fs_util.h"
+                },
+                {
+                    "@type": "item",
+                    "name": "src/common/hash.h"
+                },
+                {
+                    "@type": "item",
+                    "name": "src/common/curve_version.h"
+                },
+                {
+                    "@type": "item",
+                    "name": "src/common/curve_version.cpp"
+                },
+                {
+                    "@type": "item",
+                    "name": "src/common/crc32.h"
+                },
+                {
+                    "@type": "item",
+                    "name": "src/common/string_util.h"
+                },
+                {
+                    "@type": "item",
+                    "name": "src/common/lru_cache.h"
+                },
+                {
+                    "@type": "item",
+                    "name": "src/common/leaky_bucket.h"
+                },
+                {
+                    "@type": "item",
+                    "name": "src/common/leaky_bucket.cpp"
+                },
+                {
+                    "@type": "item",
+                    "name": "src/common/throttle.h"
+                },
+                {
+                    "@type": "item",
+                    "name": "src/common/throttle.cpp"
+                },
+                {
+                    "@type": "item",
+                    "name": "src/common/s3_adapter.h"
+                },
+                {
+                    "@type": "item",
+                    "name": "src/common/s3_adapter.cpp"
+                },
+                {
+                    "@type": "item",
+                    "name": "src/common/stringstatus.h"
+                },
+                {
+                    "@type": "item",
+                    "name": "src/common/stringstatus.cpp"
+                },
+                {
+                    "@type": "item",
+                    "name": "src/common/gflags_helper.h"
+                },
+                {
+                    "@type": "item",
+                    "name": "src/common/configuration.h"
+                },
+                {
+                    "@type": "item",
+                    "name": "src/common/configuration.cpp"
+                },
+                {
+                    "@type": "item",
+                    "name": "src/common/net_common.h"
+                },
+                {
+                    "@type": "item",
+                    "name": "src/common/dummyserver.h"
+                }
+            ]
+        },
+        {
+            "@type": "group",
+            "name": "7",
+            "nested": [
+                {
+                    "@type": "item",
+                    "name": "src/mds/nameserver2/clean_task_manager.h"
+                },
+                {
+                    "@type": "item",
+                    "name": "src/mds/nameserver2/clean_task_manager.cpp"
+                },
+                {
+                    "@type": "item",
+                    "name": "src/mds/nameserver2/curvefs.h"
+                },
+                {
+                    "@type": "item",
+                    "name": "src/mds/nameserver2/curvefs.cpp"
+                },
+                {
+                    "@type": "item",
+                    "name": "src/mds/nameserver2/clean_manager.h"
+                },
+                {
+                    "@type": "item",
+                    "name": "src/mds/nameserver2/clean_manager.cpp"
+                },
+                {
+                    "@type": "item",
+                    "name": "src/mds/main/main.cpp"
+                },
+                {
+                    "@type": "item",
+                    "name": "src/mds/nameserver2/file_record.h"
+                },
+                {
+                    "@type": "item",
+                    "name": "src/mds/nameserver2/file_record.cpp"
+                },
+                {
+                    "@type": "item",
+                    "name": "src/mds/nameserver2/task_progress.h"
+                },
+                {
+                    "@type": "item",
+                    "name": "src/mds/nameserver2/helper/namespace_helper.h"
+                },
+                {
+                    "@type": "item",
+                    "name": "src/mds/nameserver2/helper/namespace_helper.cpp"
+                },
+                {
+                    "@type": "item",
+                    "name": "src/mds/nameserver2/clean_task.h"
+                },
+                {
+                    "@type": "item",
+                    "name": "src/mds/nameserver2/file_lock.h"
+                },
+                {
+                    "@type": "item",
+                    "name": "src/mds/nameserver2/file_lock.cpp"
+                },
+                {
+                    "@type": "item",
+                    "name": "src/mds/nameserver2/namespace_service.h"
+                },
+                {
+                    "@type": "item",
+                    "name": "src/mds/nameserver2/namespace_service.cpp"
+                },
+                {
+                    "@type": "item",
+                    "name": "src/mds/server/mds.h"
+                },
+                {
+                    "@type": "item",
+                    "name": "src/mds/server/mds.cpp"
+                },
+                {
+                    "@type": "item",
+                    "name": "src/mds/nameserver2/allocstatistic/alloc_statistic.h"
+                },
+                {
+                    "@type": "item",
+                    "name": "src/mds/nameserver2/allocstatistic/alloc_statistic.cpp"
+                },
+                {
+                    "@type": "item",
+                    "name": "src/mds/nameserver2/namespace_storage.h"
+                },
+                {
+                    "@type": "item",
+                    "name": "src/mds/nameserver2/namespace_storage.cpp"
+                },
+                {
+                    "@type": "item",
+                    "name": "src/mds/snapshotcloneclient/snapshotclone_client.h"
+                },
+                {
+                    "@type": "item",
+                    "name": "src/mds/snapshotcloneclient/snapshotclone_client.cpp"
+                },
+                {
+                    "@type": "item",
+                    "name": "src/mds/nameserver2/clean_core.h"
+                },
+                {
+                    "@type": "item",
+                    "name": "src/mds/nameserver2/clean_core.cpp"
+                },
+                {
+                    "@type": "item",
+                    "name": "src/mds/nameserver2/async_delete_snapshot_entity.h"
+                },
+                {
+                    "@type": "item",
+                    "name": "src/mds/nameserver2/allocstatistic/alloc_statistic_helper.h"
+                },
+                {
+                    "@type": "item",
+                    "name": "src/mds/nameserver2/allocstatistic/alloc_statistic_helper.cpp"
+                }
+            ]
+        },
+        {
+            "@type": "group",
+            "name": "8",
+            "nested": [
+                {
+                    "@type": "item",
+                    "name": "src/mds/chunkserverclient/chunkserver_client.h"
+                },
+                {
+                    "@type": "item",
+                    "name": "src/mds/chunkserverclient/chunkserver_client.cpp"
+                },
+                {
+                    "@type": "item",
+                    "name": "src/mds/topology/topology_service.h"
+                },
+                {
+                    "@type": "item",
+                    "name": "src/mds/topology/topology_service.cpp"
+                },
+                {
+                    "@type": "item",
+                    "name": "src/mds/topology/topology_chunk_allocator.h"
+                },
+                {
+                    "@type": "item",
+                    "name": "src/mds/topology/topology_chunk_allocator.cpp"
+                },
+                {
+                    "@type": "item",
+                    "name": "src/mds/topology/topology_service_manager.h"
+                },
+                {
+                    "@type": "item",
+                    "name": "src/mds/topology/topology_service_manager.cpp"
+                },
+                {
+                    "@type": "item",
+                    "name": "src/mds/topology/topology_storge.h"
+                },
+                {
+                    "@type": "item",
+                    "name": "src/mds/topology/topology_storge_etcd.h"
+                },
+                {
+                    "@type": "item",
+                    "name": "src/mds/topology/topology_storge_etcd.cpp"
+                },
+                {
+                    "@type": "item",
+                    "name": "src/mds/topology/topology_config.h"
+                },
+                {
+                    "@type": "item",
+                    "name": "src/mds/topology/topology_metric.h"
+                },
+                {
+                    "@type": "item",
+                    "name": "src/mds/topology/topology_metric.cpp"
+                },
+                {
+                    "@type": "item",
+                    "name": "src/mds/common/mds_define.h"
+                },
+                {
+                    "@type": "item",
+                    "name": "src/mds/topology/topology_stat.h"
+                },
+                {
+                    "@type": "item",
+                    "name": "src/mds/topology/topology_stat.cpp"
+                },
+                {
+                    "@type": "item",
+                    "name": "src/mds/topology/topology_item.h"
+                },
+                {
+                    "@type": "item",
+                    "name": "src/mds/topology/topology_item.cpp"
+                },
+                {
+                    "@type": "item",
+                    "name": "src/mds/topology/topology_id_generator.h"
+                },
+                {
+                    "@type": "item",
+                    "name": "src/mds/topology/topology_id_generator.cpp"
+                },
+                {
+                    "@type": "item",
+                    "name": "src/mds/chunkserverclient/chunkserverclient_config.h"
+                },
+                {
+                    "@type": "item",
+                    "name": "src/mds/topology/topology_storage_codec.h"
+                },
+                {
+                    "@type": "item",
+                    "name": "src/mds/topology/topology_storage_codec.cpp"
+                },
+                {
+                    "@type": "item",
+                    "name": "src/mds/chunkserverclient/copyset_client.h"
+                },
+                {
+                    "@type": "item",
+                    "name": "src/mds/chunkserverclient/copyset_client.cpp"
+                },
+                {
+                    "@type": "item",
+                    "name": "src/mds/topology/topology.h"
+                },
+                {
+                    "@type": "item",
+                    "name": "src/mds/topology/topology.cpp"
+                }
+            ]
+        },
+        {
+            "@type": "group",
+            "name": "9",
+            "nested": [
+                {
+                    "@type": "item",
+                    "name": "src/common/concurrent/bounded_blocking_queue.h"
+                },
+                {
+                    "@type": "item",
+                    "name": "src/common/concurrent/task_thread_pool.h"
+                },
+                {
+                    "@type": "item",
+                    "name": "src/common/concurrent/name_lock.h"
+                },
+                {
+                    "@type": "item",
+                    "name": "src/common/concurrent/count_down_event.h"
+                },
+                {
+                    "@type": "item",
+                    "name": "src/common/concurrent/rw_lock.h"
+                },
+                {
+                    "@type": "item",
+                    "name": "src/common/concurrent/generic_name_lock-inl.h"
+                },
+                {
+                    "@type": "item",
+                    "name": "src/common/concurrent/concurrent.h"
+                },
+                {
+                    "@type": "item",
+                    "name": "src/common/concurrent/spinlock.h"
+                },
+                {
+                    "@type": "item",
+                    "name": "src/common/concurrent/thread_pool.h"
+                },
+                {
+                    "@type": "item",
+                    "name": "src/common/concurrent/thread_pool.cpp"
+                },
+                {
+                    "@type": "item",
+                    "name": "src/common/concurrent/task_queue.h"
+                },
+                {
+                    "@type": "item",
+                    "name": "src/common/concurrent/generic_name_lock.h"
+                }
+            ]
+        },
+        {
+            "@type": "group",
+            "name": "10",
+            "nested": [
+                {
+                    "@type": "item",
+                    "name": "src/chunkserver/datastore/chunkserver_datastore.h"
+                },
+                {
+                    "@type": "item",
+                    "name": "src/chunkserver/datastore/chunkserver_datastore.cpp"
+                },
+                {
+                    "@type": "item",
+                    "name": "src/chunkserver/datastore/chunkserver_snapshot.h"
+                },
+                {
+                    "@type": "item",
+                    "name": "src/chunkserver/datastore/chunkserver_snapshot.cpp"
+                },
+                {
+                    "@type": "item",
+                    "name": "src/chunkserver/datastore/chunkserver_chunkfile.cpp"
+                },
+                {
+                    "@type": "item",
+                    "name": "src/chunkserver/datastore/file_pool.h"
+                },
+                {
+                    "@type": "item",
+                    "name": "src/chunkserver/datastore/file_pool.cpp"
+                },
+                {
+                    "@type": "item",
+                    "name": "src/chunkserver/datastore/chunkserver_chunkfile.h"
+                },
+                {
+                    "@type": "item",
+                    "name": "src/chunkserver/raftsnapshot/curve_filesystem_adaptor.h"
+                },
+                {
+                    "@type": "item",
+                    "name": "src/chunkserver/raftsnapshot/curve_filesystem_adaptor.cpp"
+                },
+                {
+                    "@type": "item",
+                    "name": "src/chunkserver/raftsnapshot/curve_file_adaptor.h"
+                },
+                {
+                    "@type": "item",
+                    "name": "src/chunkserver/datastore/define.h"
+                }
+            ]
+        },
+        {
+            "@type": "group",
+            "name": "11",
+            "nested": [
+                {
+                    "@type": "item",
+                    "name": "src/chunkserver/braft_cli_service.h"
+                },
+                {
+                    "@type": "item",
+                    "name": "src/chunkserver/braft_cli_service.cpp"
+                },
+                {
+                    "@type": "item",
+                    "name": "src/chunkserver/cli2.h"
+                },
+                {
+                    "@type": "item",
+                    "name": "src/chunkserver/cli2.cpp"
+                },
+                {
+                    "@type": "item",
+                    "name": "src/chunkserver/braft_cli_service2.h"
+                },
+                {
+                    "@type": "item",
+                    "name": "src/chunkserver/braft_cli_service2.cpp"
+                },
+                {
+                    "@type": "item",
+                    "name": "src/chunkserver/cli.h"
+                },
+                {
+                    "@type": "item",
+                    "name": "src/chunkserver/cli.cpp"
+                },
+                {
+                    "@type": "item",
+                    "name": "src/chunkserver/raft_node.h"
+                }
+            ]
+        },
+        {
+            "@type": "group",
+            "name": "12",
+            "nested": [
+                {
+                    "@type": "item",
+                    "name": "src/mds/copyset/copyset_policy.h"
+                },
+                {
+                    "@type": "item",
+                    "name": "src/mds/copyset/copyset_structure.h"
+                },
+                {
+                    "@type": "item",
+                    "name": "src/mds/copyset/copyset_policy.cpp"
+                },
+                {
+                    "@type": "item",
+                    "name": "src/mds/copyset/copyset_manager.h"
+                },
+                {
+                    "@type": "item",
+                    "name": "src/mds/copyset/copyset_manager.cpp"
+                },
+                {
+                    "@type": "item",
+                    "name": "src/mds/copyset/copyset_config.h"
+                },
+                {
+                    "@type": "item",
+                    "name": "src/mds/copyset/copyset_validation.h"
+                },
+                {
+                    "@type": "item",
+                    "name": "src/mds/copyset/copyset_validation.cpp"
+                }
+            ]
+        },
+        {
+            "@type": "group",
+            "name": "13",
+            "nested": [
+                {
+                    "@type": "item",
+                    "name": "src/common/interruptible_sleeper.h"
+                },
+                {
+                    "@type": "item",
+                    "name": "src/common/wait_interval.h"
+                },
+                {
+                    "@type": "item",
+                    "name": "src/common/wait_interval.cpp"
+                },
+                {
+                    "@type": "item",
+                    "name": "src/common/task_tracker.h"
+                },
+                {
+                    "@type": "item",
+                    "name": "src/common/task_tracker.cpp"
+                },
+                {
+                    "@type": "item",
+                    "name": "src/common/uncopyable.h"
+                }
+            ]
+        },
+        {
+            "@type": "group",
+            "name": "14",
+            "nested": [
+                {
+                    "@type": "item",
+                    "name": "src/fs/local_filesystem.h"
+                },
+                {
+                    "@type": "item",
+                    "name": "src/fs/local_filesystem.cpp"
+                },
+                {
+                    "@type": "item",
+                    "name": "src/fs/fs_common.h"
+                },
+                {
+                    "@type": "item",
+                    "name": "src/fs/wrap_posix.h"
+                },
+                {
+                    "@type": "item",
+                    "name": "src/fs/wrap_posix.cpp"
+                },
+                {
+                    "@type": "item",
+                    "name": "src/fs/ext4_filesystem_impl.h"
+                },
+                {
+                    "@type": "item",
+                    "name": "src/fs/ext4_filesystem_impl.cpp"
+                }
+            ]
+        },
+        {
+            "@type": "group",
+            "name": "15",
+            "nested": [
+                {
+                    "@type": "item",
+                    "name": "src/mds/heartbeat/heartbeat_manager.h"
+                },
+                {
+                    "@type": "item",
+                    "name": "src/mds/heartbeat/heartbeat_manager.cpp"
+                },
+                {
+                    "@type": "item",
+                    "name": "src/mds/heartbeat/topo_updater.h"
+                },
+                {
+                    "@type": "item",
+                    "name": "src/mds/heartbeat/topo_updater.cpp"
+                },
+                {
+                    "@type": "item",
+                    "name": "src/mds/heartbeat/chunkserver_healthy_checker.h"
+                },
+                {
+                    "@type": "item",
+                    "name": "src/mds/heartbeat/chunkserver_healthy_checker.cpp"
+                },
+                {
+                    "@type": "item",
+                    "name": "src/mds/heartbeat/copyset_conf_generator.h"
+                },
+                {
+                    "@type": "item",
+                    "name": "src/mds/heartbeat/copyset_conf_generator.cpp"
+                }
+            ]
+        },
+        {
+            "@type": "group",
+            "name": "16",
+            "nested": [
+                {
+                    "@type": "item",
+                    "name": "src/common/math_util.h"
+                },
+                {
+                    "@type": "item",
+                    "name": "src/common/bitmap.h"
+                },
+                {
+                    "@type": "item",
+                    "name": "src/common/bitmap.cpp"
+                }
+            ]
+        },
+        {
+            "@type": "group",
+            "name": "17",
+            "nested": [
+                {
+                    "@type": "item",
+                    "name": "src/common/encode.h"
+                }
+            ]
+        },
+        {
+            "@type": "group",
+            "name": "18",
+            "nested": [
+                {
+                    "@type": "item",
+                    "name": "src/common/fast_align.h"
+                }
+            ]
+        },
+        {
+            "@type": "group",
+            "name": "19",
+            "nested": [
+                {
+                    "@type": "item",
+                    "name": "src/common/namespace_define.h"
+                }
+            ]
+        },
+        {
+            "@type": "group",
+            "name": "20",
+            "nested": [
+                {
+                    "@type": "item",
+                    "name": "src/common/uri_parser.h"
+                }
+            ]
+        },
+        {
+            "@type": "group",
+            "name": "21",
+            "nested": [
+                {
+                    "@type": "item",
+                    "name": "src/common/uuid.h"
+                }
+            ]
+        },
+        {
+            "@type": "group",
+            "name": "22",
+            "nested": [
+                {
+                    "@type": "item",
+                    "name": "src/tools/curve_format_main.cpp"
+                }
+            ]
+        },
+        {
+            "@type": "group",
+            "name": "23",
+            "nested": [
+                {
+                    "@type": "item",
+                    "name": "src/common/define.h"
+                }
+            ]
+        },
+        {
+            "@type": "group",
+            "name": "24",
+            "nested": [
+                {
+                    "@type": "item",
+                    "name": "src/common/channel_pool.h"
+                },
+                {
+                    "@type": "item",
+                    "name": "src/common/channel_pool.cpp"
+                }
+            ]
+        },
+        {
+            "@type": "group",
+            "name": "25",
+            "nested": [
+                {
+                    "@type": "item",
+                    "name": "src/kvstorageclient/etcd_client.h"
+                },
+                {
+                    "@type": "item",
+                    "name": "src/kvstorageclient/etcd_client.cpp"
+                }
+            ]
+        },
+        {
+            "@type": "group",
+            "name": "26",
+            "nested": [
+                {
+                    "@type": "item",
+                    "name": "src/common/concurrent/dlock.h"
+                },
+                {
+                    "@type": "item",
+                    "name": "src/common/concurrent/dlock.cpp"
+                }
+            ]
+        },
+        {
+            "@type": "group",
+            "name": "27",
+            "nested": [
+                {
+                    "@type": "item",
+                    "name": "src/common/location_operator.h"
+                },
+                {
+                    "@type": "item",
+                    "name": "src/common/location_operator.cpp"
+                }
+            ]
+        },
+        {
+            "@type": "group",
+            "name": "28",
+            "nested": [
+                {
+                    "@type": "item",
+                    "name": "src/idgenerator/etcd_id_generator.h"
+                },
+                {
+                    "@type": "item",
+                    "name": "src/idgenerator/etcd_id_generator.cpp"
+                }
+            ]
+        },
+        {
+            "@type": "group",
+            "name": "29",
+            "nested": [
+                {
+                    "@type": "item",
+                    "name": "src/common/snapshotclone/snapshotclone_define.h"
+                },
+                {
+                    "@type": "item",
+                    "name": "src/common/snapshotclone/snapshotclone_define.cpp"
+                }
+            ]
+        },
+        {
+            "@type": "group",
+            "name": "30",
+            "nested": [
+                {
+                    "@type": "item",
+                    "name": "src/leader_election/leader_election.h"
+                },
+                {
+                    "@type": "item",
+                    "name": "src/leader_election/leader_election.cpp"
+                }
+            ]
+        }
+    ]
+}
