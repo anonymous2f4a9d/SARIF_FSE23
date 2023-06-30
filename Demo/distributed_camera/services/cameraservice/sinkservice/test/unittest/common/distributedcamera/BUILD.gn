@@ -1,0 +1,59 @@
+# Copyright (c) 2021 Huawei Device Co., Ltd.
+# Licensed under the Apache License, Version 2.0 (the "License");
+# you may not use this file except in compliance with the License.
+# You may obtain a copy of the License at
+#
+#     http://www.apache.org/licenses/LICENSE-2.0
+#
+# Unless required by applicable law or agreed to in writing, software
+# distributed under the License is distributed on an "AS IS" BASIS,
+# WITHOUT WARRANTIES OR CONDITIONS OF ANY KIND, either express or implied.
+# See the License for the specific language governing permissions and
+# limitations under the License.
+
+import("//build/test.gni")
+import(
+    "//foundation/distributedhardware/distributedcamera/distributedcamera.gni")
+
+module_out_path = "distributed_camera/dcamera_sink_test"
+
+config("module_private_config") {
+  visibility = [ ":*" ]
+  include_dirs = [
+    "${services_path}/cameraservice/sinkservice/include/distributedcamera",
+    "${services_path}/cameraservice/sinkservice/include/distributedcameramgr",
+    "${services_path}/cameraservice/sinkservice/include/distributedcameramgr/interface",
+    "${services_path}/cameraservice/base/include",
+    "${common_path}/include/constants",
+    "${common_path}/include/utils",
+    "${distributedcamera_hdf_path}/interfaces/include",
+    "${innerkits_path}/native_cpp/camera_sink/include",
+    "//drivers/peripheral/base",
+  ]
+}
+
+ohos_unittest("DistributedCameraSinkServiceTest") {
+  module_out_path = module_out_path
+
+  sources = [ "distributed_camera_sink_service_test.cpp" ]
+
+  configs = [ ":module_private_config" ]
+
+  deps = [
+    "${services_path}/cameraservice/sinkservice:distributed_camera_sink",
+    "//third_party/jsoncpp:jsoncpp",
+    "//utils/native/base:utils",
+  ]
+
+  defines = [ "HI_LOG_ENABLE" ]
+  external_deps = [
+    "eventhandler:libeventhandler",
+    "ipc:ipc_core",
+    "safwk:system_ability_fwk",
+  ]
+}
+
+group("dcamera_sink_test") {
+  testonly = true
+  deps = [ ":DistributedCameraSinkServiceTest" ]
+}

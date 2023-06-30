@@ -1,0 +1,121 @@
+# Copyright (C) 2021 Huawei Device Co., Ltd.
+# Licensed under the Apache License, Version 2.0 (the "License");
+# you may not use this file except in compliance with the License.
+# You may obtain a copy of the License at
+#
+#     http://www.apache.org/licenses/LICENSE-2.0
+#
+# Unless required by applicable law or agreed to in writing, software
+# distributed under the License is distributed on an "AS IS" BASIS,
+# WITHOUT WARRANTIES OR CONDITIONS OF ANY KIND, either express or implied.
+# See the License for the specific language governing permissions and
+# limitations under the License.
+
+import("//build/ohos.gni")
+import("//drivers/adapter/uhdf2/uhdf.gni")
+import(
+    "//foundation/distributedhardware/distributedcamera/distributedcamera.gni")
+
+ohos_shared_library("distributed_camera_hdf") {
+  include_dirs = [
+    "include/dcamera_device",
+    "include/dcamera_host",
+    "include/dcamera_provider",
+    "include/dstream_operator",
+    "include/utils",
+    "../interfaces/include",
+    "../interfaces/hdi_ipc",
+    "../interfaces/hdi_ipc/server/device",
+    "../interfaces/hdi_ipc/server/host",
+    "../interfaces/hdi_ipc/server/operator",
+    "../interfaces/hdi_ipc/server/provider",
+    "//utils/native/base/include",
+    "//utils/system/safwk/native/include",
+    "${common_path}/include/utils",
+    "${common_path}/include/constants",
+    "${fwk_common_path}/log/include",
+    "${fwk_common_path}/utils/include/",
+    "${fwk_utils_path}/include",
+    "${fwk_utils_path}/include/log",
+    "${display_hdf_path}/interfaces/include",
+    "${hdf_framework_path}/include/utils",
+    "${hdf_framework_path}/include/core",
+    "${hdf_framework_path}/include/osal",
+    "${hdf_uhdf_path}/include/hdi",
+    "${hdf_uhdf_path}/osal/include",
+    "${hdf_uhdf_path}/ipc/include",
+    "${hdf_uhdf_path}/include/host",
+    "//third_party/jsoncpp/include",
+
+    #producer
+    "//foundation/graphic/standard/frameworks/surface/include",
+    "//foundation/graphic/standard/interfaces/kits/surface",
+    "//foundation/graphic/standard/utils/buffer_handle/export",
+    "//foundation/communication/ipc/ipc/native/src/core/include",
+    "//foundation/multimedia/camera_standard/frameworks/native/metadata/include",
+  ]
+
+  sources = [
+    "../interfaces/hdi_ipc/server/device/dcamera_device_callback_proxy.cpp",
+    "../interfaces/hdi_ipc/server/device/dcamera_device_stub.cpp",
+    "../interfaces/hdi_ipc/server/host/dcamera_host_callback_proxy.cpp",
+    "../interfaces/hdi_ipc/server/host/dcamera_host_stub.cpp",
+    "../interfaces/hdi_ipc/server/operator/doffline_stream_operator_stub.cpp",
+    "../interfaces/hdi_ipc/server/operator/dstream_operator_callback_proxy.cpp",
+    "../interfaces/hdi_ipc/server/operator/dstream_operator_stub.cpp",
+    "../interfaces/hdi_ipc/server/provider/dcamera_provider_callback_proxy.cpp",
+    "../interfaces/hdi_ipc/server/provider/dcamera_provider_stub.cpp",
+    "src/dcamera_device/dcamera_device.cpp",
+    "src/dcamera_device/dmetadata_processor.cpp",
+    "src/dcamera_host/dcamera_host.cpp",
+    "src/dcamera_provider/dcamera_provider.cpp",
+    "src/dstream_operator/dbuffer_manager.cpp",
+    "src/dstream_operator/dcamera_steam.cpp",
+    "src/dstream_operator/dimage_buffer.cpp",
+    "src/dstream_operator/doffline_stream_operator.cpp",
+    "src/dstream_operator/dstream_operator.cpp",
+    "src/utils/dcamera.cpp",
+  ]
+
+  cflags = [
+    "-fPIC",
+    "-Wall",
+  ]
+
+  if (device_name == "baltimore") {
+    cflags += [ "-DBALTIMORE_CAMERA" ]
+    include_dirs += [ "${camera_hdf_path_baltimore}/camera/interfaces/include" ]
+  } else {
+    include_dirs += [
+      "${camera_hdf_path}/camera/interfaces/include",
+      "${camera_hdf_path}/camera/interfaces/hdi_ipc",
+    ]
+  }
+
+  deps = [
+    "${common_path}:distributed_camera_utils",
+    "${fwk_utils_path}:distributedhardwareutils",
+    "//drivers/adapter/uhdf2/ipc:libhdf_ipc_adapter",
+    "//drivers/peripheral/display/hal:hdi_display_gralloc",
+    "//foundation/graphic/standard/frameworks/surface:surface",
+    "//foundation/multimedia/camera_standard/frameworks/native/metadata:metadata",
+    "//third_party/jsoncpp:jsoncpp",
+    "//utils/native/base:utils",
+  ]
+
+  defines = [
+    "HI_LOG_ENABLE",
+    "DH_LOG_TAG=\"distributedcamerahdf\"",
+    "LOG_DOMAIN=0xD004100",
+  ]
+
+  external_deps = [
+    "hiviewdfx_hilog_native:libhilog",
+    "ipc:ipc_single",
+  ]
+
+  cflags_cc = cflags
+  subsystem_name = "distributedhardware"
+
+  part_name = "distributed_camera"
+}

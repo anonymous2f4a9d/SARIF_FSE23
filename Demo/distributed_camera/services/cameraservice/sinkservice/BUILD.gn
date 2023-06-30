@@ -1,0 +1,130 @@
+# Copyright (C) 2021 Huawei Device Co., Ltd.
+# Licensed under the Apache License, Version 2.0 (the "License");
+# you may not use this file except in compliance with the License.
+# You may obtain a copy of the License at
+#
+#     http://www.apache.org/licenses/LICENSE-2.0
+#
+# Unless required by applicable law or agreed to in writing, software
+# distributed under the License is distributed on an "AS IS" BASIS,
+# WITHOUT WARRANTIES OR CONDITIONS OF ANY KIND, either express or implied.
+# See the License for the specific language governing permissions and
+# limitations under the License.
+
+import("//build/ohos.gni")
+import("//build/ohos_var.gni")
+import(
+    "//foundation/distributedhardware/distributedcamera/distributedcamera.gni")
+
+ohos_shared_library("distributed_camera_sink") {
+  include_dirs = [
+    "//utils/native/base/include",
+    "//utils/system/safwk/native/include",
+    "${graphicstandard_path}/frameworks/surface/include",
+    "${camerastandard_path}/frameworks/native/metadata/include",
+    "${camerastandard_path}/interfaces/inner_api/native/camera/include",
+    "${camerastandard_path}/interfaces/inner_api/native/camera/include/input",
+    "${camerastandard_path}/interfaces/inner_api/native/camera/include/output",
+    "${camerastandard_path}/interfaces/inner_api/native/camera/include/session",
+    "${camerastandard_path}/services/camera_service/binder/base/include",
+    "${camerastandard_path}/services/camera_service/binder/client/include",
+    "${camerastandard_path}/services/camera_service/binder/server/include",
+    "${camerastandard_path}/services/camera_service/include",
+    "${fwk_common_path}/log/include",
+    "${fwk_common_path}/utils/include",
+    "${fwk_utils_path}/include/eventbus",
+    "${fwk_utils_path}/include/log",
+    "${fwk_utils_path}/include",
+    "//third_party/jsoncpp/include",
+  ]
+
+  include_dirs += [
+    "include/distributedcamera",
+    "include/distributedcameramgr",
+    "include/distributedcameramgr/callback",
+    "include/distributedcameramgr/eventbus",
+    "include/distributedcameramgr/interface",
+    "include/distributedcameramgr/listener",
+    "${common_path}/include/constants",
+    "${common_path}/include/utils",
+    "${innerkits_path}/native_cpp/camera_sink/include",
+    "${innerkits_path}/native_cpp/camera_source/include",
+    "${innerkits_path}/native_cpp/camera_source/include/callback",
+    "${distributedcamera_hdf_path}/interfaces/include",
+    "${services_path}/cameraservice/base/include",
+    "${services_path}/cameraservice/cameraoperator/client/include",
+    "${services_path}/cameraservice/cameraoperator/client/include/callback",
+    "${services_path}/cameraservice/cameraoperator/client/include/listener",
+    "${services_path}/cameraservice/cameraoperator/handler/include",
+    "${services_path}/channel/include",
+    "${services_path}/data_process/include/eventbus",
+    "${services_path}/data_process/include/interfaces",
+    "${services_path}/data_process/include/pipeline",
+    "${services_path}/data_process/include/utils",
+  ]
+
+  sources = [
+    "${innerkits_path}/native_cpp/camera_source/src/distributed_camera_source_proxy.cpp",
+    "${services_path}/cameraservice/base/src/dcamera_capture_info_cmd.cpp",
+    "${services_path}/cameraservice/base/src/dcamera_channel_info_cmd.cpp",
+    "${services_path}/cameraservice/base/src/dcamera_event_cmd.cpp",
+    "${services_path}/cameraservice/base/src/dcamera_info_cmd.cpp",
+    "${services_path}/cameraservice/base/src/dcamera_metadata_setting_cmd.cpp",
+    "${services_path}/cameraservice/base/src/dcamera_open_info_cmd.cpp",
+    "src/distributedcamera/distributed_camera_sink_service.cpp",
+    "src/distributedcamera/distributed_camera_sink_stub.cpp",
+    "src/distributedcameramgr/callback/dcamera_sink_controller_state_callback.cpp",
+    "src/distributedcameramgr/callback/dcamera_sink_output_result_callback.cpp",
+    "src/distributedcameramgr/dcamera_sink_access_control.cpp",
+    "src/distributedcameramgr/dcamera_sink_controller.cpp",
+    "src/distributedcameramgr/dcamera_sink_dev.cpp",
+    "src/distributedcameramgr/dcamera_sink_output.cpp",
+    "src/distributedcameramgr/dcamera_sink_service_ipc.cpp",
+    "src/distributedcameramgr/eventbus/dcamera_frame_trigger_event.cpp",
+    "src/distributedcameramgr/eventbus/dcamera_photo_output_event.cpp",
+    "src/distributedcameramgr/eventbus/dcamera_post_authorization_event.cpp",
+    "src/distributedcameramgr/eventbus/dcamera_video_output_event.cpp",
+    "src/distributedcameramgr/listener/dcamera_sink_controller_channel_listener.cpp",
+    "src/distributedcameramgr/listener/dcamera_sink_data_process_listener.cpp",
+    "src/distributedcameramgr/listener/dcamera_sink_output_channel_listener.cpp",
+  ]
+
+  if (device_name == "baltimore") {
+    sources += [ "src/distributedcameramgr/dcamera_sink_data_process.cpp" ]
+  } else {
+    sources +=
+        [ "src/distributedcameramgr/dcamera_sink_data_process_common.cpp" ]
+  }
+
+  deps = [
+    "${camerastandard_path}/frameworks/native/camera:camera_framework",
+    "${camerastandard_path}/frameworks/native/metadata:metadata",
+    "${common_path}:distributed_camera_utils",
+    "${fwk_utils_path}:distributedhardwareutils",
+    "${graphicstandard_path}:libsurface",
+    "${services_path}/cameraservice/cameraoperator/client:distributed_camera_client",
+    "${services_path}/cameraservice/cameraoperator/handler:distributed_camera_handler",
+    "${services_path}/channel:distributed_camera_channel",
+    "${services_path}/data_process:distributed_camera_data_process",
+    "//third_party/jsoncpp:jsoncpp",
+    "//utils/native/base:utils",
+  ]
+
+  defines = [
+    "HI_LOG_ENABLE",
+    "DH_LOG_TAG=\"dcamerasinksvr\"",
+    "LOG_DOMAIN=0xD004100",
+  ]
+
+  external_deps = [
+    "eventhandler:libeventhandler",
+    "hiviewdfx_hilog_native:libhilog",
+    "ipc:ipc_core",
+    "safwk:system_ability_fwk",
+    "samgr_standard:samgr_proxy",
+  ]
+
+  subsystem_name = "distributedhardware"
+
+  part_name = "distributed_camera"
+}

@@ -1,0 +1,92 @@
+# Copyright (C) 2021 Huawei Device Co., Ltd.
+# Licensed under the Apache License, Version 2.0 (the "License");
+# you may not use this file except in compliance with the License.
+# You may obtain a copy of the License at
+#
+#     http://www.apache.org/licenses/LICENSE-2.0
+#
+# Unless required by applicable law or agreed to in writing, software
+# distributed under the License is distributed on an "AS IS" BASIS,
+# WITHOUT WARRANTIES OR CONDITIONS OF ANY KIND, either express or implied.
+# See the License for the specific language governing permissions and
+# limitations under the License.
+
+import("//build/ohos.gni")
+import("//build/ohos_var.gni")
+import(
+    "//foundation/distributedhardware/distributedcamera/distributedcamera.gni")
+
+ohos_shared_library("distributed_camera_data_process") {
+  include_dirs = [
+    "//utils/native/base/include",
+    "//utils/system/safwk/native/include",
+    "//foundation/graphic/standard/interfaces/innerkits/common",
+    "//foundation/graphic/standard/interfaces/innerkits/surface",
+    "//drivers/peripheral/display/interfaces/include",
+    "//foundation/multimedia/media_standard/interfaces/innerkits/native/media/include",
+    "${fwk_common_path}/log/include",
+    "${fwk_common_path}/utils/include",
+    "${fwk_utils_path}/include/log",
+    "${fwk_utils_path}/include/eventbus",
+    "${fwk_utils_path}/include",
+  ]
+
+  include_dirs += [
+    "include/interfaces",
+    "include/eventbus",
+    "include/pipeline",
+    "include/utils",
+    "include/pipeline_node/multimedia_codec",
+    "include/pipeline_node/colorspace_conversion",
+    "include/pipeline_node/fpscontroller",
+    "${common_path}/include/constants",
+    "${common_path}/include/utils",
+    "${innerkits_path}/native_cpp/camera_source/include",
+  ]
+
+  sources = [
+    "src/pipeline/abstract_data_process.cpp",
+    "src/pipeline/dcamera_pipeline_sink.cpp",
+    "src/pipeline/dcamera_pipeline_source.cpp",
+    "src/pipeline_node/colorspace_conversion/convert_nv12_to_nv21.cpp",
+    "src/pipeline_node/fpscontroller/fps_controller_process.cpp",
+    "src/pipeline_node/multimedia_codec/decode_video_callback.cpp",
+    "src/pipeline_node/multimedia_codec/encode_video_callback.cpp",
+    "src/utils/image_common_type.cpp",
+  ]
+
+  if (device_name == "baltimore") {
+    sources += [
+      "src/pipeline_node/multimedia_codec/decode_data_process.cpp",
+      "src/pipeline_node/multimedia_codec/encode_data_process.cpp",
+    ]
+  } else {
+    sources += [
+      "src/pipeline_node/multimedia_codec/decode_data_process_common.cpp",
+      "src/pipeline_node/multimedia_codec/encode_data_process_common.cpp",
+    ]
+  }
+
+  deps = [
+    "${common_path}:distributed_camera_utils",
+    "${fwk_utils_path}:distributedhardwareutils",
+    "//foundation/graphic/standard/frameworks/surface:surface",
+    "//utils/native/base:utils",
+  ]
+
+  defines = [
+    "HI_LOG_ENABLE",
+    "DH_LOG_TAG=\"dcameradataproc\"",
+    "LOG_DOMAIN=0xD004100",
+  ]
+
+  external_deps = [
+    "eventhandler:libeventhandler",
+    "hiviewdfx_hilog_native:libhilog",
+    "multimedia_media_standard:media_client",
+  ]
+
+  subsystem_name = "distributedhardware"
+
+  part_name = "distributed_camera"
+}

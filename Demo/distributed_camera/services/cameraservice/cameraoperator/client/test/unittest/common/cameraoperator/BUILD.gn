@@ -1,0 +1,90 @@
+# Copyright (c) 2021 Huawei Device Co., Ltd.
+# Licensed under the Apache License, Version 2.0 (the "License");
+# you may not use this file except in compliance with the License.
+# You may obtain a copy of the License at
+#
+#     http://www.apache.org/licenses/LICENSE-2.0
+#
+# Unless required by applicable law or agreed to in writing, software
+# distributed under the License is distributed on an "AS IS" BASIS,
+# WITHOUT WARRANTIES OR CONDITIONS OF ANY KIND, either express or implied.
+# See the License for the specific language governing permissions and
+# limitations under the License.
+
+import("//build/test.gni")
+import("//foundation/distributedhardware/distributedcamera/distributedcamera.gni")
+module_out_path = "distributed_camera/dcamera_client_test"
+
+config("module_private_config") {
+  visibility = [ ":*" ]
+  include_dirs = [
+    "//third_party/jsoncpp/include",
+    "//utils/native/base/include",
+    "//utils/system/safwk/native/include",
+    "${graphicstandard_path}/frameworks/surface/include",
+    "${camerastandard_path}/frameworks/native/metadata/include",
+    "${camerastandard_path}/interfaces/inner_api/native/camera/include",
+    "${camerastandard_path}/interfaces/inner_api/native/camera/include/input",
+    "${camerastandard_path}/interfaces/inner_api/native/camera/include/output",
+    "${camerastandard_path}/interfaces/inner_api/native/camera/include/session",
+    "${camerastandard_path}/services/camera_service/binder/base/include",
+    "${camerastandard_path}/services/camera_service/binder/client/include",
+    "${camerastandard_path}/services/camera_service/binder/server/include",
+    "${camerastandard_path}/services/camera_service/include",
+    "${fwk_common_path}/log/include",
+    "${fwk_common_path}/utils/include",
+    "${fwk_utils_path}/include/log",
+    "${fwk_utils_path}/include",
+  ]
+
+  include_dirs += [
+    "${distributedcamera_hdf_path}/interfaces/include",
+    "${common_path}/include/constants",
+    "${common_path}/include/utils",
+    "${services_path}/cameraservice/base/include",
+    "${services_path}/cameraservice/cameraoperator/client/include",
+    "${services_path}/cameraservice/cameraoperator/client/include/callback",
+    "${services_path}/cameraservice/cameraoperator/client/include/listener",
+  ]
+}
+
+ohos_unittest("DCameraClientTest") {
+  module_out_path = module_out_path
+
+  sources = [
+    "dcamera_client_test.cpp"
+  ]
+
+  configs = [ ":module_private_config" ]
+
+  deps = [
+    "//third_party/googletest:gtest_main",
+    "//third_party/jsoncpp:jsoncpp",
+    "//utils/native/base:utils",
+    "${fwk_utils_path}:distributedhardwareutils",
+    "${common_path}:distributed_camera_utils",
+    "${graphicstandard_path}:libsurface",
+    "${camerastandard_path}/frameworks/native/camera:camera_framework",
+    "${camerastandard_path}/frameworks/native/metadata:metadata",
+    "${services_path}/cameraservice/cameraoperator/client:distributed_camera_client",
+    "${services_path}/cameraservice/sinkservice:distributed_camera_sink"
+  ]
+
+  external_deps = [
+    "hiviewdfx_hilog_native:libhilog",
+    "eventhandler:libeventhandler",
+    "ipc:ipc_core",
+    "samgr_standard:samgr_proxy",
+  ]
+
+  defines = [
+    "HI_LOG_ENABLE",
+    "DH_LOG_TAG=\"DCameraClientTest\"",
+    "LOG_DOMAIN=0xD004100",
+  ]
+}
+
+group("dcamera_client_test") {
+  testonly = true
+  deps = [ ":DCameraClientTest" ]
+}
