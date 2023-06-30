@@ -1,0 +1,212 @@
+{
+    "@schemaVersion": "1.0",
+    "name": "clustering",
+    "structure": [
+        {
+            "@type": "group",
+            "name": "0",
+            "nested": [
+                {
+                    "@type": "item",
+                    "name": "include/list.h"
+                },
+                {
+                    "@type": "item",
+                    "name": "src/extract_gpuinfo_amdgpu.c"
+                },
+                {
+                    "@type": "item",
+                    "name": "include/nvtop/extract_processinfo_fdinfo.h"
+                },
+                {
+                    "@type": "item",
+                    "name": "src/extract_processinfo_fdinfo.c"
+                },
+                {
+                    "@type": "item",
+                    "name": "include/uthash.h"
+                },
+                {
+                    "@type": "item",
+                    "name": "include/nvtop/extract_gpuinfo.h"
+                },
+                {
+                    "@type": "item",
+                    "name": "include/nvtop/extract_gpuinfo_common.h"
+                },
+                {
+                    "@type": "item",
+                    "name": "src/extract_gpuinfo.c"
+                },
+                {
+                    "@type": "item",
+                    "name": "include/nvtop/info_messages.h"
+                },
+                {
+                    "@type": "item",
+                    "name": "src/info_messages_linux.c"
+                },
+                {
+                    "@type": "item",
+                    "name": "include/nvtop/device_discovery.h"
+                },
+                {
+                    "@type": "item",
+                    "name": "src/device_discovery_linux.c"
+                },
+                {
+                    "@type": "item",
+                    "name": "src/extract_gpuinfo_intel.c"
+                },
+                {
+                    "@type": "item",
+                    "name": "src/extract_gpuinfo_msm.c"
+                },
+                {
+                    "@type": "item",
+                    "name": "src/extract_gpuinfo_nvidia.c"
+                }
+            ]
+        },
+        {
+            "@type": "group",
+            "name": "1",
+            "nested": [
+                {
+                    "@type": "item",
+                    "name": "include/nvtop/interface_ring_buffer.h"
+                },
+                {
+                    "@type": "item",
+                    "name": "src/interface_ring_buffer.c"
+                },
+                {
+                    "@type": "item",
+                    "name": "tests/interfaceTests.cpp"
+                },
+                {
+                    "@type": "item",
+                    "name": "src/extract_gpuinfo_msm_utils.c"
+                },
+                {
+                    "@type": "item",
+                    "name": "include/nvtop/interface_setup_win.h"
+                },
+                {
+                    "@type": "item",
+                    "name": "src/interface_setup_win.c"
+                },
+                {
+                    "@type": "item",
+                    "name": "include/nvtop/interface_layout_selection.h"
+                },
+                {
+                    "@type": "item",
+                    "name": "src/interface_layout_selection.c"
+                },
+                {
+                    "@type": "item",
+                    "name": "include/nvtop/interface_internal_common.h"
+                }
+            ]
+        },
+        {
+            "@type": "group",
+            "name": "2",
+            "nested": [
+                {
+                    "@type": "item",
+                    "name": "include/nvtop/get_process_info.h"
+                },
+                {
+                    "@type": "item",
+                    "name": "src/get_process_info_linux.c"
+                },
+                {
+                    "@type": "item",
+                    "name": "src/time.c"
+                },
+                {
+                    "@type": "item",
+                    "name": "include/nvtop/time.h"
+                }
+            ]
+        },
+        {
+            "@type": "group",
+            "name": "3",
+            "nested": [
+                {
+                    "@type": "item",
+                    "name": "include/ini.h"
+                },
+                {
+                    "@type": "item",
+                    "name": "src/ini.c"
+                },
+                {
+                    "@type": "item",
+                    "name": "src/extract_gpuinfo_amdgpu_utils.c"
+                },
+                {
+                    "@type": "item",
+                    "name": "src/amdgpu_ids.h"
+                }
+            ]
+        },
+        {
+            "@type": "group",
+            "name": "4",
+            "nested": [
+                {
+                    "@type": "item",
+                    "name": "include/nvtop/interface.h"
+                },
+                {
+                    "@type": "item",
+                    "name": "src/interface.c"
+                },
+                {
+                    "@type": "item",
+                    "name": "src/nvtop.c"
+                }
+            ]
+        },
+        {
+            "@type": "group",
+            "name": "5",
+            "nested": [
+                {
+                    "@type": "item",
+                    "name": "include/nvtop/plot.h"
+                },
+                {
+                    "@type": "item",
+                    "name": "src/plot.c"
+                },
+                {
+                    "@type": "item",
+                    "name": "include/nvtop/common.h"
+                }
+            ]
+        },
+        {
+            "@type": "group",
+            "name": "6",
+            "nested": [
+                {
+                    "@type": "item",
+                    "name": "include/nvtop/interface_common.h"
+                },
+                {
+                    "@type": "item",
+                    "name": "include/nvtop/interface_options.h"
+                },
+                {
+                    "@type": "item",
+                    "name": "src/interface_options.c"
+                }
+            ]
+        }
+    ]
+}

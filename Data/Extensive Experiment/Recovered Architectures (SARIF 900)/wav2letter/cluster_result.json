@@ -1,0 +1,584 @@
+{
+    "@schemaVersion": "1.0",
+    "name": "clustering",
+    "structure": [
+        {
+            "@type": "group",
+            "name": "0",
+            "nested": [
+                {
+                    "@type": "item",
+                    "name": "recipes/streaming_convnets/inference/inference/module/module.h"
+                },
+                {
+                    "@type": "item",
+                    "name": "recipes/streaming_convnets/inference/inference/examples/InteractiveStreamingASRExample.cpp"
+                },
+                {
+                    "@type": "item",
+                    "name": "recipes/streaming_convnets/inference/inference/examples/Util.h"
+                },
+                {
+                    "@type": "item",
+                    "name": "recipes/streaming_convnets/inference/inference/examples/Util.cpp"
+                },
+                {
+                    "@type": "item",
+                    "name": "recipes/streaming_convnets/inference/inference/common/common.h"
+                },
+                {
+                    "@type": "item",
+                    "name": "recipes/streaming_convnets/inference/inference/module/feature/feature.h"
+                },
+                {
+                    "@type": "item",
+                    "name": "recipes/streaming_convnets/inference/inference/examples/MultithreadedStreamingASRExample.cpp"
+                },
+                {
+                    "@type": "item",
+                    "name": "recipes/streaming_convnets/inference/inference/examples/SimpleStreamingASRExample.cpp"
+                },
+                {
+                    "@type": "item",
+                    "name": "recipes/streaming_convnets/inference/inference/examples/threadpool/ThreadPool.h"
+                },
+                {
+                    "@type": "item",
+                    "name": "recipes/streaming_convnets/inference/inference/decoder/Decoder.h"
+                },
+                {
+                    "@type": "item",
+                    "name": "recipes/streaming_convnets/inference/inference/decoder/Decoder.cpp"
+                },
+                {
+                    "@type": "item",
+                    "name": "recipes/streaming_convnets/inference/inference/examples/AudioToWords.h"
+                },
+                {
+                    "@type": "item",
+                    "name": "recipes/streaming_convnets/inference/inference/examples/AudioToWords.cpp"
+                },
+                {
+                    "@type": "item",
+                    "name": "recipes/streaming_convnets/inference/inference/module/nn/backend/fbgemm/fbgemm.h"
+                }
+            ]
+        },
+        {
+            "@type": "group",
+            "name": "1",
+            "nested": [
+                {
+                    "@type": "item",
+                    "name": "recipes/streaming_convnets/inference/inference/module/test/Conv1dTest.cpp"
+                },
+                {
+                    "@type": "item",
+                    "name": "recipes/streaming_convnets/inference/inference/module/test/ReluTest.cpp"
+                },
+                {
+                    "@type": "item",
+                    "name": "recipes/streaming_convnets/inference/inference/module/test/ResidualTest.cpp"
+                },
+                {
+                    "@type": "item",
+                    "name": "recipes/streaming_convnets/inference/inference/module/test/TestUtils.h"
+                },
+                {
+                    "@type": "item",
+                    "name": "recipes/streaming_convnets/inference/inference/module/test/MemoryManagerTest.cpp"
+                },
+                {
+                    "@type": "item",
+                    "name": "recipes/streaming_convnets/inference/inference/module/test/TDSBlockTest.cpp"
+                },
+                {
+                    "@type": "item",
+                    "name": "recipes/streaming_convnets/inference/inference/module/test/LogMelFeatureTest.cpp"
+                },
+                {
+                    "@type": "item",
+                    "name": "recipes/streaming_convnets/inference/inference/module/test/LinearTest.cpp"
+                },
+                {
+                    "@type": "item",
+                    "name": "recipes/streaming_convnets/inference/inference/module/test/LayerNormTest.cpp"
+                },
+                {
+                    "@type": "item",
+                    "name": "recipes/streaming_convnets/inference/inference/module/test/IdentityTest.cpp"
+                }
+            ]
+        },
+        {
+            "@type": "group",
+            "name": "2",
+            "nested": [
+                {
+                    "@type": "item",
+                    "name": "recipes/joint_training_vox_populi/cpc/MTLLoss.cpp"
+                },
+                {
+                    "@type": "item",
+                    "name": "recipes/joint_training_vox_populi/cpc/SequentialBuilder.h"
+                },
+                {
+                    "@type": "item",
+                    "name": "recipes/joint_training_vox_populi/cpc/SequentialBuilder.cpp"
+                },
+                {
+                    "@type": "item",
+                    "name": "recipes/joint_training_vox_populi/cpc/Train.cpp"
+                },
+                {
+                    "@type": "item",
+                    "name": "recipes/joint_training_vox_populi/cpc/TransformerCPC.h"
+                },
+                {
+                    "@type": "item",
+                    "name": "recipes/joint_training_vox_populi/cpc/TransformerCPC.cpp"
+                },
+                {
+                    "@type": "item",
+                    "name": "recipes/joint_training_vox_populi/cpc/MTLLoss.h"
+                },
+                {
+                    "@type": "item",
+                    "name": "recipes/joint_training_vox_populi/cpc/Decode.cpp"
+                },
+                {
+                    "@type": "item",
+                    "name": "recipes/joint_training_vox_populi/cpc/CPCSpecAugment.h"
+                },
+                {
+                    "@type": "item",
+                    "name": "recipes/joint_training_vox_populi/cpc/CPCSpecAugment.cpp"
+                },
+                {
+                    "@type": "item",
+                    "name": "recipes/joint_training_vox_populi/cpc/CPCCriterion.h"
+                },
+                {
+                    "@type": "item",
+                    "name": "recipes/joint_training_vox_populi/cpc/CPCCriterion.cpp"
+                },
+                {
+                    "@type": "item",
+                    "name": "recipes/joint_training_vox_populi/cpc/Test.cpp"
+                }
+            ]
+        },
+        {
+            "@type": "group",
+            "name": "3",
+            "nested": [
+                {
+                    "@type": "item",
+                    "name": "recipes/local_prior_match/src/runtime/runtime.h"
+                },
+                {
+                    "@type": "item",
+                    "name": "recipes/local_prior_match/src/runtime/Init.h"
+                },
+                {
+                    "@type": "item",
+                    "name": "recipes/local_prior_match/Train_lpm.cpp"
+                },
+                {
+                    "@type": "item",
+                    "name": "recipes/local_prior_match/src/runtime/Defines.h"
+                },
+                {
+                    "@type": "item",
+                    "name": "recipes/local_prior_match/Decode_length_lpm.cpp"
+                },
+                {
+                    "@type": "item",
+                    "name": "recipes/local_prior_match/src/runtime/Init.cpp"
+                },
+                {
+                    "@type": "item",
+                    "name": "recipes/local_prior_match/src/runtime/Defines.cpp"
+                }
+            ]
+        },
+        {
+            "@type": "group",
+            "name": "4",
+            "nested": [
+                {
+                    "@type": "item",
+                    "name": "recipes/streaming_convnets/inference/inference/module/nn/Linear.h"
+                },
+                {
+                    "@type": "item",
+                    "name": "recipes/streaming_convnets/inference/inference/module/nn/Linear.cpp"
+                },
+                {
+                    "@type": "item",
+                    "name": "recipes/streaming_convnets/inference/inference/module/nn/backend/fbgemm/PackedGemmMatrixFP16.h"
+                },
+                {
+                    "@type": "item",
+                    "name": "recipes/streaming_convnets/inference/inference/module/nn/backend/fbgemm/PackedGemmMatrixFP16.cpp"
+                },
+                {
+                    "@type": "item",
+                    "name": "recipes/streaming_convnets/inference/inference/module/nn/Relu.h"
+                },
+                {
+                    "@type": "item",
+                    "name": "recipes/streaming_convnets/inference/inference/module/nn/Relu.cpp"
+                },
+                {
+                    "@type": "item",
+                    "name": "recipes/streaming_convnets/inference/inference/module/nn/Identity.h"
+                },
+                {
+                    "@type": "item",
+                    "name": "recipes/streaming_convnets/inference/inference/module/nn/Identity.cpp"
+                },
+                {
+                    "@type": "item",
+                    "name": "recipes/streaming_convnets/inference/inference/module/nn/backend/fbgemm/Conv1dFbGemm.cpp"
+                },
+                {
+                    "@type": "item",
+                    "name": "recipes/streaming_convnets/inference/inference/module/nn/backend/fbgemm/LinearFbGemm.h"
+                },
+                {
+                    "@type": "item",
+                    "name": "recipes/streaming_convnets/inference/inference/module/nn/backend/fbgemm/LinearFbGemm.cpp"
+                },
+                {
+                    "@type": "item",
+                    "name": "recipes/streaming_convnets/inference/inference/module/nn/backend/fbgemm/Conv1dFbGemm.h"
+                }
+            ]
+        },
+        {
+            "@type": "group",
+            "name": "5",
+            "nested": [
+                {
+                    "@type": "item",
+                    "name": "recipes/streaming_convnets/inference/inference/module/nn/LayerNorm.h"
+                },
+                {
+                    "@type": "item",
+                    "name": "recipes/streaming_convnets/inference/inference/module/nn/LocalNorm.h"
+                },
+                {
+                    "@type": "item",
+                    "name": "recipes/streaming_convnets/inference/inference/common/Functions.cpp"
+                },
+                {
+                    "@type": "item",
+                    "name": "recipes/streaming_convnets/inference/inference/module/nn/LocalNorm.cpp"
+                },
+                {
+                    "@type": "item",
+                    "name": "recipes/streaming_convnets/inference/inference/module/nn/LayerNorm.cpp"
+                },
+                {
+                    "@type": "item",
+                    "name": "recipes/streaming_convnets/inference/inference/common/Functions.h"
+                }
+            ]
+        },
+        {
+            "@type": "group",
+            "name": "6",
+            "nested": [
+                {
+                    "@type": "item",
+                    "name": "recipes/streaming_convnets/inference/inference/module/nn/TDSBlock.h"
+                },
+                {
+                    "@type": "item",
+                    "name": "recipes/streaming_convnets/inference/inference/module/nn/TDSBlock.cpp"
+                },
+                {
+                    "@type": "item",
+                    "name": "recipes/streaming_convnets/inference/inference/module/nn/nn.h"
+                },
+                {
+                    "@type": "item",
+                    "name": "recipes/streaming_convnets/tools/StreamingTDSModelConverter.cpp"
+                },
+                {
+                    "@type": "item",
+                    "name": "recipes/streaming_convnets/inference/inference/module/nn/Sequential.h"
+                },
+                {
+                    "@type": "item",
+                    "name": "recipes/streaming_convnets/inference/inference/module/nn/Sequential.cpp"
+                },
+                {
+                    "@type": "item",
+                    "name": "recipes/streaming_convnets/inference/inference/module/nn/Residual.h"
+                },
+                {
+                    "@type": "item",
+                    "name": "recipes/streaming_convnets/inference/inference/module/nn/Residual.cpp"
+                },
+                {
+                    "@type": "item",
+                    "name": "recipes/streaming_convnets/inference/inference/module/nn/Conv1d.h"
+                },
+                {
+                    "@type": "item",
+                    "name": "recipes/streaming_convnets/inference/inference/module/nn/Conv1d.cpp"
+                }
+            ]
+        },
+        {
+            "@type": "group",
+            "name": "7",
+            "nested": [
+                {
+                    "@type": "item",
+                    "name": "recipes/streaming_convnets/inference/inference/module/ModuleParameter.h"
+                },
+                {
+                    "@type": "item",
+                    "name": "recipes/streaming_convnets/inference/inference/module/ModuleParameter.cpp"
+                },
+                {
+                    "@type": "item",
+                    "name": "recipes/streaming_convnets/inference/inference/module/ModuleProcessingState.h"
+                },
+                {
+                    "@type": "item",
+                    "name": "recipes/streaming_convnets/inference/inference/module/ModuleProcessingState.cpp"
+                },
+                {
+                    "@type": "item",
+                    "name": "recipes/streaming_convnets/inference/inference/module/feature/LogMelFeature.h"
+                },
+                {
+                    "@type": "item",
+                    "name": "recipes/streaming_convnets/inference/inference/module/feature/LogMelFeature.cpp"
+                },
+                {
+                    "@type": "item",
+                    "name": "recipes/streaming_convnets/inference/inference/common/IOBuffer.h"
+                },
+                {
+                    "@type": "item",
+                    "name": "recipes/streaming_convnets/inference/inference/common/IOBuffer.cpp"
+                },
+                {
+                    "@type": "item",
+                    "name": "recipes/streaming_convnets/inference/inference/common/DataType.h"
+                },
+                {
+                    "@type": "item",
+                    "name": "recipes/streaming_convnets/inference/inference/common/DataType.cpp"
+                }
+            ]
+        },
+        {
+            "@type": "group",
+            "name": "8",
+            "nested": [
+                {
+                    "@type": "item",
+                    "name": "recipes/slimIPL/10h_supervised_slimipl.cpp"
+                },
+                {
+                    "@type": "item",
+                    "name": "recipes/slimIPL/100h_supervised_slimipl.cpp"
+                },
+                {
+                    "@type": "item",
+                    "name": "recipes/slimIPL/100h_supervised.cpp"
+                },
+                {
+                    "@type": "item",
+                    "name": "recipes/slimIPL/10h_supervised.cpp"
+                }
+            ]
+        },
+        {
+            "@type": "group",
+            "name": "9",
+            "nested": [
+                {
+                    "@type": "item",
+                    "name": "recipes/streaming_convnets/inference/inference/common/DefaultMemoryManager.h"
+                },
+                {
+                    "@type": "item",
+                    "name": "recipes/streaming_convnets/inference/inference/common/DefaultMemoryManager.cpp"
+                },
+                {
+                    "@type": "item",
+                    "name": "recipes/streaming_convnets/inference/inference/common/MemoryManager.h"
+                },
+                {
+                    "@type": "item",
+                    "name": "recipes/streaming_convnets/inference/inference/module/InferenceModule.h"
+                },
+                {
+                    "@type": "item",
+                    "name": "recipes/streaming_convnets/inference/inference/module/InferenceModule.cpp"
+                }
+            ]
+        },
+        {
+            "@type": "group",
+            "name": "10",
+            "nested": [
+                {
+                    "@type": "item",
+                    "name": "recipes/self_training/pseudo_labeling/Dataset.h"
+                },
+                {
+                    "@type": "item",
+                    "name": "recipes/self_training/pseudo_labeling/AnalyzeDataset.cpp"
+                }
+            ]
+        },
+        {
+            "@type": "group",
+            "name": "11",
+            "nested": [
+                {
+                    "@type": "item",
+                    "name": "recipes/slimIPL/src/MyLogger.h"
+                },
+                {
+                    "@type": "item",
+                    "name": "recipes/slimIPL/src/MyLogger.cpp"
+                },
+                {
+                    "@type": "item",
+                    "name": "recipes/slimIPL/src/Train.cpp"
+                }
+            ]
+        },
+        {
+            "@type": "group",
+            "name": "12",
+            "nested": [
+                {
+                    "@type": "item",
+                    "name": "recipes/local_prior_match/src/module/LMWrapper.h"
+                },
+                {
+                    "@type": "item",
+                    "name": "recipes/local_prior_match/src/module/LMWrapper.cpp"
+                }
+            ]
+        },
+        {
+            "@type": "group",
+            "name": "13",
+            "nested": [
+                {
+                    "@type": "item",
+                    "name": "recipes/local_prior_match/src/runtime/Utils.h"
+                },
+                {
+                    "@type": "item",
+                    "name": "recipes/local_prior_match/src/runtime/Utils.cpp"
+                }
+            ]
+        },
+        {
+            "@type": "group",
+            "name": "14",
+            "nested": [
+                {
+                    "@type": "item",
+                    "name": "recipes/local_prior_match/src/runtime/DataScheduler.cpp"
+                },
+                {
+                    "@type": "item",
+                    "name": "recipes/local_prior_match/src/runtime/DataScheduler.h"
+                }
+            ]
+        },
+        {
+            "@type": "group",
+            "name": "15",
+            "nested": [
+                {
+                    "@type": "item",
+                    "name": "recipes/local_prior_match/src/runtime/Eval.cpp"
+                },
+                {
+                    "@type": "item",
+                    "name": "recipes/local_prior_match/src/runtime/Eval.h"
+                }
+            ]
+        },
+        {
+            "@type": "group",
+            "name": "16",
+            "nested": [
+                {
+                    "@type": "item",
+                    "name": "recipes/local_prior_match/src/runtime/Logging.cpp"
+                },
+                {
+                    "@type": "item",
+                    "name": "recipes/local_prior_match/src/runtime/Logging.h"
+                }
+            ]
+        },
+        {
+            "@type": "group",
+            "name": "17",
+            "nested": [
+                {
+                    "@type": "item",
+                    "name": "recipes/sota/2019/rescoring/src/LexiconFreeSeq2SeqDecoder.cpp"
+                },
+                {
+                    "@type": "item",
+                    "name": "recipes/sota/2019/rescoring/src/LexiconFreeSeq2SeqDecoder.h"
+                }
+            ]
+        },
+        {
+            "@type": "group",
+            "name": "18",
+            "nested": [
+                {
+                    "@type": "item",
+                    "name": "recipes/utilities/convlm_serializer/Serialize.cpp"
+                },
+                {
+                    "@type": "item",
+                    "name": "recipes/utilities/convlm_serializer/Utils.h"
+                },
+                {
+                    "@type": "item",
+                    "name": "recipes/utilities/convlm_serializer/Utils.cpp"
+                }
+            ]
+        },
+        {
+            "@type": "group",
+            "name": "19",
+            "nested": [
+                {
+                    "@type": "item",
+                    "name": "recipes/joint_training_vox_populi/cpc/tests/test_mtl.cpp"
+                }
+            ]
+        },
+        {
+            "@type": "group",
+            "name": "20",
+            "nested": [
+                {
+                    "@type": "item",
+                    "name": "recipes/mling_pl/mling_large.cpp"
+                }
+            ]
+        }
+    ]
+}

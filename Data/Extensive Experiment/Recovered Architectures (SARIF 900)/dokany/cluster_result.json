@@ -1,0 +1,474 @@
+{
+    "@schemaVersion": "1.0",
+    "name": "clustering",
+    "structure": [
+        {
+            "@type": "group",
+            "name": "0",
+            "nested": [
+                {
+                    "@type": "item",
+                    "name": "sys/flush.c"
+                },
+                {
+                    "@type": "item",
+                    "name": "sys/cleanup.c"
+                },
+                {
+                    "@type": "item",
+                    "name": "sys/read.c"
+                },
+                {
+                    "@type": "item",
+                    "name": "sys/event.c"
+                },
+                {
+                    "@type": "item",
+                    "name": "sys/dispatch.c"
+                },
+                {
+                    "@type": "item",
+                    "name": "sys/access.c"
+                },
+                {
+                    "@type": "item",
+                    "name": "sys/fileinfo.c"
+                },
+                {
+                    "@type": "item",
+                    "name": "sys/public.h"
+                },
+                {
+                    "@type": "item",
+                    "name": "sys/fscontrol.c"
+                },
+                {
+                    "@type": "item",
+                    "name": "sys/timeout.c"
+                },
+                {
+                    "@type": "item",
+                    "name": "sys/notification.c"
+                },
+                {
+                    "@type": "item",
+                    "name": "sys/util/log.h"
+                },
+                {
+                    "@type": "item",
+                    "name": "sys/util/log.c"
+                },
+                {
+                    "@type": "item",
+                    "name": "sys/dokan.h"
+                },
+                {
+                    "@type": "item",
+                    "name": "sys/init.c"
+                },
+                {
+                    "@type": "item",
+                    "name": "sys/dokan.c"
+                },
+                {
+                    "@type": "item",
+                    "name": "sys/security.c"
+                },
+                {
+                    "@type": "item",
+                    "name": "sys/directory.c"
+                },
+                {
+                    "@type": "item",
+                    "name": "sys/util/mountmgr.h"
+                },
+                {
+                    "@type": "item",
+                    "name": "sys/util/mountmgr.c"
+                },
+                {
+                    "@type": "item",
+                    "name": "sys/create.c"
+                },
+                {
+                    "@type": "item",
+                    "name": "sys/util/fcb.h"
+                },
+                {
+                    "@type": "item",
+                    "name": "sys/util/fcb.c"
+                },
+                {
+                    "@type": "item",
+                    "name": "sys/lock.c"
+                },
+                {
+                    "@type": "item",
+                    "name": "sys/write.c"
+                },
+                {
+                    "@type": "item",
+                    "name": "sys/close.c"
+                },
+                {
+                    "@type": "item",
+                    "name": "sys/util/str.h"
+                },
+                {
+                    "@type": "item",
+                    "name": "sys/util/str.c"
+                }
+            ]
+        },
+        {
+            "@type": "group",
+            "name": "1",
+            "nested": [
+                {
+                    "@type": "item",
+                    "name": "dokan/dokan.h"
+                },
+                {
+                    "@type": "item",
+                    "name": "dokan/dokan.c"
+                },
+                {
+                    "@type": "item",
+                    "name": "dokan/dokani.h"
+                },
+                {
+                    "@type": "item",
+                    "name": "dokan/write.c"
+                },
+                {
+                    "@type": "item",
+                    "name": "dokan/read.c"
+                },
+                {
+                    "@type": "item",
+                    "name": "dokan/fileinfo.c"
+                },
+                {
+                    "@type": "item",
+                    "name": "dokan/volume.c"
+                },
+                {
+                    "@type": "item",
+                    "name": "dokan/cleanup.c"
+                },
+                {
+                    "@type": "item",
+                    "name": "dokan/lock.c"
+                },
+                {
+                    "@type": "item",
+                    "name": "dokan/create.c"
+                },
+                {
+                    "@type": "item",
+                    "name": "dokan/flush.c"
+                },
+                {
+                    "@type": "item",
+                    "name": "dokan/directory.c"
+                },
+                {
+                    "@type": "item",
+                    "name": "dokan/setfile.c"
+                },
+                {
+                    "@type": "item",
+                    "name": "dokan/security.c"
+                },
+                {
+                    "@type": "item",
+                    "name": "dokan/mount.c"
+                },
+                {
+                    "@type": "item",
+                    "name": "dokan/close.c"
+                },
+                {
+                    "@type": "item",
+                    "name": "dokan/access.c"
+                },
+                {
+                    "@type": "item",
+                    "name": "dokan/fileinfo.h"
+                },
+                {
+                    "@type": "item",
+                    "name": "dokan/version.c"
+                },
+                {
+                    "@type": "item",
+                    "name": "dokan/ntstatus.c"
+                },
+                {
+                    "@type": "item",
+                    "name": "dokan/timeout.c"
+                },
+                {
+                    "@type": "item",
+                    "name": "dokan/list.h"
+                },
+                {
+                    "@type": "item",
+                    "name": "dokan/dokanc.h"
+                }
+            ]
+        },
+        {
+            "@type": "group",
+            "name": "2",
+            "nested": [
+                {
+                    "@type": "item",
+                    "name": "samples/dokan_memfs/memfs_helper.h"
+                },
+                {
+                    "@type": "item",
+                    "name": "samples/dokan_memfs/memfs_operations.h"
+                },
+                {
+                    "@type": "item",
+                    "name": "samples/dokan_memfs/memfs_operations.cpp"
+                },
+                {
+                    "@type": "item",
+                    "name": "samples/dokan_memfs/memfs.h"
+                },
+                {
+                    "@type": "item",
+                    "name": "samples/dokan_memfs/memfs.cpp"
+                },
+                {
+                    "@type": "item",
+                    "name": "samples/dokan_memfs/filenode.h"
+                },
+                {
+                    "@type": "item",
+                    "name": "samples/dokan_memfs/filenode.cpp"
+                },
+                {
+                    "@type": "item",
+                    "name": "samples/dokan_memfs/filenodes.h"
+                },
+                {
+                    "@type": "item",
+                    "name": "samples/dokan_memfs/filenodes.cpp"
+                },
+                {
+                    "@type": "item",
+                    "name": "samples/dokan_memfs/memfs_helper.cpp"
+                },
+                {
+                    "@type": "item",
+                    "name": "samples/dokan_memfs/main.cpp"
+                }
+            ]
+        },
+        {
+            "@type": "group",
+            "name": "3",
+            "nested": [
+                {
+                    "@type": "item",
+                    "name": "dokan_fuse/include/utils.h"
+                },
+                {
+                    "@type": "item",
+                    "name": "dokan_fuse/include/fuse_win.h"
+                },
+                {
+                    "@type": "item",
+                    "name": "dokan_fuse/src/utils.cpp"
+                },
+                {
+                    "@type": "item",
+                    "name": "dokan_fuse/include/fuse_opt.h"
+                },
+                {
+                    "@type": "item",
+                    "name": "dokan_fuse/src/fuse_opt.c"
+                },
+                {
+                    "@type": "item",
+                    "name": "dokan_fuse/include/fuse_common.h"
+                },
+                {
+                    "@type": "item",
+                    "name": "dokan_fuse/include/fuse_sem_fix.h"
+                },
+                {
+                    "@type": "item",
+                    "name": "dokan_fuse/include/old/fuse.h"
+                },
+                {
+                    "@type": "item",
+                    "name": "dokan_fuse/src/fuse_helpers.c"
+                },
+                {
+                    "@type": "item",
+                    "name": "dokan_fuse/include/fuse.h"
+                },
+                {
+                    "@type": "item",
+                    "name": "dokan_fuse/include/dokanfuse.h"
+                },
+                {
+                    "@type": "item",
+                    "name": "dokan_fuse/include/fusemain.h"
+                },
+                {
+                    "@type": "item",
+                    "name": "dokan_fuse/src/dokanfuse.cpp"
+                },
+                {
+                    "@type": "item",
+                    "name": "dokan_fuse/src/fusemain.cpp"
+                }
+            ]
+        },
+        {
+            "@type": "group",
+            "name": "4",
+            "nested": [
+                {
+                    "@type": "item",
+                    "name": "sys/device.c"
+                },
+                {
+                    "@type": "item",
+                    "name": "sys/util/irp_buffer_helper.c"
+                },
+                {
+                    "@type": "item",
+                    "name": "sys/util/irp_buffer_helper.h"
+                },
+                {
+                    "@type": "item",
+                    "name": "sys/except.c"
+                },
+                {
+                    "@type": "item",
+                    "name": "sys/volume.c"
+                }
+            ]
+        },
+        {
+            "@type": "group",
+            "name": "5",
+            "nested": [
+                {
+                    "@type": "item",
+                    "name": "dokan_wix/WiXCA/stdafx.h"
+                },
+                {
+                    "@type": "item",
+                    "name": "dokan_wix/WiXCA/CustomAction.cpp"
+                },
+                {
+                    "@type": "item",
+                    "name": "dokan_wix/WiXCA/targetver.h"
+                },
+                {
+                    "@type": "item",
+                    "name": "dokan_wix/WiXCA/stdafx.cpp"
+                }
+            ]
+        },
+        {
+            "@type": "group",
+            "name": "6",
+            "nested": [
+                {
+                    "@type": "item",
+                    "name": "dokan/dokan_pool.h"
+                },
+                {
+                    "@type": "item",
+                    "name": "dokan/dokan_pool.c"
+                },
+                {
+                    "@type": "item",
+                    "name": "dokan/dokan_vector.h"
+                },
+                {
+                    "@type": "item",
+                    "name": "dokan/dokan_vector.c"
+                }
+            ]
+        },
+        {
+            "@type": "group",
+            "name": "7",
+            "nested": [
+                {
+                    "@type": "item",
+                    "name": "dokan_control/dokanctl.c"
+                }
+            ]
+        },
+        {
+            "@type": "group",
+            "name": "8",
+            "nested": [
+                {
+                    "@type": "item",
+                    "name": "dokan_np/dokannp.c"
+                }
+            ]
+        },
+        {
+            "@type": "group",
+            "name": "9",
+            "nested": [
+                {
+                    "@type": "item",
+                    "name": "samples/dokan_mirror/mirror.c"
+                }
+            ]
+        },
+        {
+            "@type": "group",
+            "name": "10",
+            "nested": [
+                {
+                    "@type": "item",
+                    "name": "samples/fuse_mirror/fusexmp.c"
+                }
+            ]
+        },
+        {
+            "@type": "group",
+            "name": "11",
+            "nested": [
+                {
+                    "@type": "item",
+                    "name": "dokan_np/resource.h"
+                }
+            ]
+        },
+        {
+            "@type": "group",
+            "name": "12",
+            "nested": [
+                {
+                    "@type": "item",
+                    "name": "dokan/resource.h"
+                }
+            ]
+        },
+        {
+            "@type": "group",
+            "name": "13",
+            "nested": [
+                {
+                    "@type": "item",
+                    "name": "dokan_fuse/src/resource.h"
+                }
+            ]
+        }
+    ]
+}

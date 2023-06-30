@@ -1,0 +1,420 @@
+{
+    "@schemaVersion": "1.0",
+    "name": "clustering",
+    "structure": [
+        {
+            "@type": "group",
+            "name": "0",
+            "nested": [
+                {
+                    "@type": "item",
+                    "name": "libhfuzz/persistent.c"
+                },
+                {
+                    "@type": "item",
+                    "name": "examples/openssl/hf_ssl_lib.h"
+                },
+                {
+                    "@type": "item",
+                    "name": "libhfuzz/libhfuzz.h"
+                },
+                {
+                    "@type": "item",
+                    "name": "examples/openssl/privkey.c"
+                },
+                {
+                    "@type": "item",
+                    "name": "examples/openssl/x509.c"
+                },
+                {
+                    "@type": "item",
+                    "name": "examples/openssl/client.c"
+                },
+                {
+                    "@type": "item",
+                    "name": "examples/openssl/server.c"
+                },
+                {
+                    "@type": "item",
+                    "name": "examples/libxml2/persistent-xml2.c"
+                },
+                {
+                    "@type": "item",
+                    "name": "examples/libjpeg/persistent-jpegturbo.c"
+                },
+                {
+                    "@type": "item",
+                    "name": "examples/libjpeg/persistent-jpeg.c"
+                },
+                {
+                    "@type": "item",
+                    "name": "examples/terminal-emulators/terminal-test.c"
+                },
+                {
+                    "@type": "item",
+                    "name": "examples/linux_kernel_ip/tun.c"
+                },
+                {
+                    "@type": "item",
+                    "name": "libhfuzz/linux.c"
+                },
+                {
+                    "@type": "item",
+                    "name": "libhfuzz/performance.h"
+                },
+                {
+                    "@type": "item",
+                    "name": "libhfuzz/performance.c"
+                },
+                {
+                    "@type": "item",
+                    "name": "libhfuzz/persistent.h"
+                },
+                {
+                    "@type": "item",
+                    "name": "examples/terminal-emulators/libclose.c"
+                },
+                {
+                    "@type": "item",
+                    "name": "examples/glibc/resolver.c"
+                },
+                {
+                    "@type": "item",
+                    "name": "examples/file/persistent-file.c"
+                },
+                {
+                    "@type": "item",
+                    "name": "libhfuzz/fetch.h"
+                },
+                {
+                    "@type": "item",
+                    "name": "libhfuzz/fetch.c"
+                },
+                {
+                    "@type": "item",
+                    "name": "examples/libpng/persistent-png.c"
+                },
+                {
+                    "@type": "item",
+                    "name": "examples/badcode/targets/badcode1.c"
+                }
+            ]
+        },
+        {
+            "@type": "group",
+            "name": "1",
+            "nested": [
+                {
+                    "@type": "item",
+                    "name": "hfuzz_cc/hfuzz-cc.c"
+                },
+                {
+                    "@type": "item",
+                    "name": "libhfcommon/util.h"
+                },
+                {
+                    "@type": "item",
+                    "name": "libhfcommon/util.c"
+                },
+                {
+                    "@type": "item",
+                    "name": "libhfcommon/common.h"
+                },
+                {
+                    "@type": "item",
+                    "name": "libhfcommon/ns.c"
+                },
+                {
+                    "@type": "item",
+                    "name": "libhfcommon/ns.h"
+                },
+                {
+                    "@type": "item",
+                    "name": "libhfnetdriver/netdriver.h"
+                },
+                {
+                    "@type": "item",
+                    "name": "libhfnetdriver/netdriver.c"
+                },
+                {
+                    "@type": "item",
+                    "name": "libhfcommon/files.h"
+                },
+                {
+                    "@type": "item",
+                    "name": "libhfcommon/files.c"
+                },
+                {
+                    "@type": "item",
+                    "name": "libhfcommon/log.h"
+                },
+                {
+                    "@type": "item",
+                    "name": "libhfcommon/log.c"
+                }
+            ]
+        },
+        {
+            "@type": "group",
+            "name": "2",
+            "nested": [
+                {
+                    "@type": "item",
+                    "name": "linux/arch.c"
+                },
+                {
+                    "@type": "item",
+                    "name": "linux/unwind.h"
+                },
+                {
+                    "@type": "item",
+                    "name": "linux/unwind.c"
+                },
+                {
+                    "@type": "item",
+                    "name": "linux/pt.h"
+                },
+                {
+                    "@type": "item",
+                    "name": "linux/pt.c"
+                },
+                {
+                    "@type": "item",
+                    "name": "linux/perf.h"
+                },
+                {
+                    "@type": "item",
+                    "name": "linux/perf.c"
+                },
+                {
+                    "@type": "item",
+                    "name": "linux/bfd.h"
+                },
+                {
+                    "@type": "item",
+                    "name": "linux/bfd.c"
+                },
+                {
+                    "@type": "item",
+                    "name": "linux/trace.h"
+                },
+                {
+                    "@type": "item",
+                    "name": "linux/trace.c"
+                }
+            ]
+        },
+        {
+            "@type": "group",
+            "name": "3",
+            "nested": [
+                {
+                    "@type": "item",
+                    "name": "fuzz.h"
+                },
+                {
+                    "@type": "item",
+                    "name": "fuzz.c"
+                },
+                {
+                    "@type": "item",
+                    "name": "input.h"
+                },
+                {
+                    "@type": "item",
+                    "name": "input.c"
+                },
+                {
+                    "@type": "item",
+                    "name": "honggfuzz.c"
+                },
+                {
+                    "@type": "item",
+                    "name": "sanitizers.h"
+                },
+                {
+                    "@type": "item",
+                    "name": "sanitizers.c"
+                }
+            ]
+        },
+        {
+            "@type": "group",
+            "name": "4",
+            "nested": [
+                {
+                    "@type": "item",
+                    "name": "cmdline.h"
+                },
+                {
+                    "@type": "item",
+                    "name": "cmdline.c"
+                },
+                {
+                    "@type": "item",
+                    "name": "mangle.h"
+                },
+                {
+                    "@type": "item",
+                    "name": "mangle.c"
+                },
+                {
+                    "@type": "item",
+                    "name": "honggfuzz.h"
+                },
+                {
+                    "@type": "item",
+                    "name": "socketfuzzer.h"
+                },
+                {
+                    "@type": "item",
+                    "name": "socketfuzzer.c"
+                }
+            ]
+        },
+        {
+            "@type": "group",
+            "name": "5",
+            "nested": [
+                {
+                    "@type": "item",
+                    "name": "display.h"
+                },
+                {
+                    "@type": "item",
+                    "name": "display.c"
+                },
+                {
+                    "@type": "item",
+                    "name": "arch.h"
+                },
+                {
+                    "@type": "item",
+                    "name": "mac/arch.c"
+                },
+                {
+                    "@type": "item",
+                    "name": "posix/arch.c"
+                }
+            ]
+        },
+        {
+            "@type": "group",
+            "name": "6",
+            "nested": [
+                {
+                    "@type": "item",
+                    "name": "third_party/android/libBlocksRuntime/Block_private.h"
+                },
+                {
+                    "@type": "item",
+                    "name": "third_party/android/libBlocksRuntime/runtime.c"
+                },
+                {
+                    "@type": "item",
+                    "name": "third_party/android/libBlocksRuntime/data.c"
+                },
+                {
+                    "@type": "item",
+                    "name": "third_party/android/libBlocksRuntime/Block.h"
+                }
+            ]
+        },
+        {
+            "@type": "group",
+            "name": "7",
+            "nested": [
+                {
+                    "@type": "item",
+                    "name": "netbsd/trace.h"
+                },
+                {
+                    "@type": "item",
+                    "name": "netbsd/trace.c"
+                },
+                {
+                    "@type": "item",
+                    "name": "netbsd/unwind.h"
+                },
+                {
+                    "@type": "item",
+                    "name": "netbsd/unwind.c"
+                },
+                {
+                    "@type": "item",
+                    "name": "netbsd/arch.c"
+                }
+            ]
+        },
+        {
+            "@type": "group",
+            "name": "8",
+            "nested": [
+                {
+                    "@type": "item",
+                    "name": "libhfuzz/memorycmp.c"
+                },
+                {
+                    "@type": "item",
+                    "name": "libhfuzz/instrument.h"
+                },
+                {
+                    "@type": "item",
+                    "name": "libhfuzz/instrument.c"
+                }
+            ]
+        },
+        {
+            "@type": "group",
+            "name": "9",
+            "nested": [
+                {
+                    "@type": "item",
+                    "name": "subproc.h"
+                },
+                {
+                    "@type": "item",
+                    "name": "subproc.c"
+                },
+                {
+                    "@type": "item",
+                    "name": "report.h"
+                },
+                {
+                    "@type": "item",
+                    "name": "report.c"
+                }
+            ]
+        },
+        {
+            "@type": "group",
+            "name": "10",
+            "nested": [
+                {
+                    "@type": "item",
+                    "name": "examples/badcode/targets/badcode2.c"
+                }
+            ]
+        },
+        {
+            "@type": "group",
+            "name": "11",
+            "nested": [
+                {
+                    "@type": "item",
+                    "name": "examples/glibc/wrappers.c"
+                }
+            ]
+        },
+        {
+            "@type": "group",
+            "name": "12",
+            "nested": [
+                {
+                    "@type": "item",
+                    "name": "socketfuzzer/vulnserver_cov.c"
+                }
+            ]
+        }
+    ]
+}

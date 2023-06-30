@@ -1,0 +1,1240 @@
+{
+    "@schemaVersion": "1.0",
+    "name": "clustering",
+    "structure": [
+        {
+            "@type": "group",
+            "name": "0",
+            "nested": [
+                {
+                    "@type": "item",
+                    "name": "include/swaynag/swaynag.h"
+                },
+                {
+                    "@type": "item",
+                    "name": "swaynag/swaynag.c"
+                },
+                {
+                    "@type": "item",
+                    "name": "include/swaynag/types.h"
+                },
+                {
+                    "@type": "item",
+                    "name": "swaynag/types.c"
+                },
+                {
+                    "@type": "item",
+                    "name": "swaynag/main.c"
+                },
+                {
+                    "@type": "item",
+                    "name": "include/stringop.h"
+                },
+                {
+                    "@type": "item",
+                    "name": "common/stringop.c"
+                },
+                {
+                    "@type": "item",
+                    "name": "include/list.h"
+                },
+                {
+                    "@type": "item",
+                    "name": "common/list.c"
+                },
+                {
+                    "@type": "item",
+                    "name": "include/swaynag/config.h"
+                },
+                {
+                    "@type": "item",
+                    "name": "common/pango.c"
+                },
+                {
+                    "@type": "item",
+                    "name": "include/pool-buffer.h"
+                },
+                {
+                    "@type": "item",
+                    "name": "client/pool-buffer.c"
+                },
+                {
+                    "@type": "item",
+                    "name": "include/pango.h"
+                },
+                {
+                    "@type": "item",
+                    "name": "include/swaybar/tray/icon.h"
+                },
+                {
+                    "@type": "item",
+                    "name": "swaybar/tray/icon.c"
+                },
+                {
+                    "@type": "item",
+                    "name": "include/sway/swaynag.h"
+                },
+                {
+                    "@type": "item",
+                    "name": "sway/swaynag.c"
+                },
+                {
+                    "@type": "item",
+                    "name": "swaynag/render.c"
+                },
+                {
+                    "@type": "item",
+                    "name": "include/gesture.h"
+                },
+                {
+                    "@type": "item",
+                    "name": "common/gesture.c"
+                },
+                {
+                    "@type": "item",
+                    "name": "include/sway/config.h"
+                },
+                {
+                    "@type": "item",
+                    "name": "sway/commands/bind.c"
+                },
+                {
+                    "@type": "item",
+                    "name": "sway/commands/gesture.c"
+                },
+                {
+                    "@type": "item",
+                    "name": "sway/commands/set.c"
+                },
+                {
+                    "@type": "item",
+                    "name": "sway/commands/workspace.c"
+                },
+                {
+                    "@type": "item",
+                    "name": "swaynag/config.c"
+                },
+                {
+                    "@type": "item",
+                    "name": "include/sway/input/switch.h"
+                },
+                {
+                    "@type": "item",
+                    "name": "sway/input/switch.c"
+                },
+                {
+                    "@type": "item",
+                    "name": "include/sway/desktop/launcher.h"
+                },
+                {
+                    "@type": "item",
+                    "name": "sway/desktop/launcher.c"
+                },
+                {
+                    "@type": "item",
+                    "name": "include/loop.h"
+                },
+                {
+                    "@type": "item",
+                    "name": "common/loop.c"
+                }
+            ]
+        },
+        {
+            "@type": "group",
+            "name": "1",
+            "nested": [
+                {
+                    "@type": "item",
+                    "name": "include/ipc-client.h"
+                },
+                {
+                    "@type": "item",
+                    "name": "common/ipc-client.c"
+                },
+                {
+                    "@type": "item",
+                    "name": "include/swaybar/config.h"
+                },
+                {
+                    "@type": "item",
+                    "name": "swaybar/config.c"
+                },
+                {
+                    "@type": "item",
+                    "name": "include/swaybar/i3bar.h"
+                },
+                {
+                    "@type": "item",
+                    "name": "swaybar/i3bar.c"
+                },
+                {
+                    "@type": "item",
+                    "name": "include/swaybar/bar.h"
+                },
+                {
+                    "@type": "item",
+                    "name": "swaybar/bar.c"
+                },
+                {
+                    "@type": "item",
+                    "name": "include/cairo_util.h"
+                },
+                {
+                    "@type": "item",
+                    "name": "common/cairo.c"
+                },
+                {
+                    "@type": "item",
+                    "name": "include/swaynag/render.h"
+                },
+                {
+                    "@type": "item",
+                    "name": "include/swaybar/render.h"
+                },
+                {
+                    "@type": "item",
+                    "name": "swaybar/render.c"
+                },
+                {
+                    "@type": "item",
+                    "name": "include/ipc.h"
+                },
+                {
+                    "@type": "item",
+                    "name": "include/swaybar/ipc.h"
+                },
+                {
+                    "@type": "item",
+                    "name": "swaybar/ipc.c"
+                },
+                {
+                    "@type": "item",
+                    "name": "include/util.h"
+                },
+                {
+                    "@type": "item",
+                    "name": "common/util.c"
+                },
+                {
+                    "@type": "item",
+                    "name": "include/sway/ipc-server.h"
+                },
+                {
+                    "@type": "item",
+                    "name": "sway/ipc-server.c"
+                },
+                {
+                    "@type": "item",
+                    "name": "include/swaybar/status_line.h"
+                },
+                {
+                    "@type": "item",
+                    "name": "swaybar/status_line.c"
+                },
+                {
+                    "@type": "item",
+                    "name": "swaymsg/main.c"
+                },
+                {
+                    "@type": "item",
+                    "name": "include/background-image.h"
+                },
+                {
+                    "@type": "item",
+                    "name": "common/background-image.c"
+                },
+                {
+                    "@type": "item",
+                    "name": "include/sway/ipc-json.h"
+                },
+                {
+                    "@type": "item",
+                    "name": "sway/ipc-json.c"
+                },
+                {
+                    "@type": "item",
+                    "name": "swaybar/main.c"
+                }
+            ]
+        },
+        {
+            "@type": "group",
+            "name": "2",
+            "nested": [
+                {
+                    "@type": "item",
+                    "name": "include/sway/input/seat.h"
+                },
+                {
+                    "@type": "item",
+                    "name": "sway/input/seatop_default.c"
+                },
+                {
+                    "@type": "item",
+                    "name": "sway/input/seat.c"
+                },
+                {
+                    "@type": "item",
+                    "name": "sway/input/seatop_move_tiling.c"
+                },
+                {
+                    "@type": "item",
+                    "name": "sway/input/seatop_down.c"
+                },
+                {
+                    "@type": "item",
+                    "name": "sway/input/seatop_resize_tiling.c"
+                },
+                {
+                    "@type": "item",
+                    "name": "sway/input/seatop_move_floating.c"
+                },
+                {
+                    "@type": "item",
+                    "name": "sway/input/seatop_resize_floating.c"
+                },
+                {
+                    "@type": "item",
+                    "name": "include/sway/input/input-manager.h"
+                },
+                {
+                    "@type": "item",
+                    "name": "sway/input/input-manager.c"
+                },
+                {
+                    "@type": "item",
+                    "name": "include/sway/input/keyboard.h"
+                },
+                {
+                    "@type": "item",
+                    "name": "sway/input/keyboard.c"
+                },
+                {
+                    "@type": "item",
+                    "name": "include/sway/input/cursor.h"
+                },
+                {
+                    "@type": "item",
+                    "name": "sway/input/cursor.c"
+                },
+                {
+                    "@type": "item",
+                    "name": "include/sway/tree/node.h"
+                },
+                {
+                    "@type": "item",
+                    "name": "sway/tree/node.c"
+                },
+                {
+                    "@type": "item",
+                    "name": "include/log.h"
+                },
+                {
+                    "@type": "item",
+                    "name": "common/log.c"
+                },
+                {
+                    "@type": "item",
+                    "name": "include/swaybar/input.h"
+                },
+                {
+                    "@type": "item",
+                    "name": "swaybar/input.c"
+                }
+            ]
+        },
+        {
+            "@type": "group",
+            "name": "3",
+            "nested": [
+                {
+                    "@type": "item",
+                    "name": "include/sway/desktop/transaction.h"
+                },
+                {
+                    "@type": "item",
+                    "name": "sway/desktop/transaction.c"
+                },
+                {
+                    "@type": "item",
+                    "name": "include/sway/input/tablet.h"
+                },
+                {
+                    "@type": "item",
+                    "name": "sway/input/tablet.c"
+                },
+                {
+                    "@type": "item",
+                    "name": "include/sway/layers.h"
+                },
+                {
+                    "@type": "item",
+                    "name": "include/sway/output.h"
+                },
+                {
+                    "@type": "item",
+                    "name": "include/sway/desktop/idle_inhibit_v1.h"
+                },
+                {
+                    "@type": "item",
+                    "name": "include/sway/surface.h"
+                },
+                {
+                    "@type": "item",
+                    "name": "include/sway/tree/view.h"
+                },
+                {
+                    "@type": "item",
+                    "name": "sway/desktop/layer_shell.c"
+                },
+                {
+                    "@type": "item",
+                    "name": "sway/desktop/render.c"
+                },
+                {
+                    "@type": "item",
+                    "name": "sway/desktop/idle_inhibit_v1.c"
+                },
+                {
+                    "@type": "item",
+                    "name": "sway/desktop/output.c"
+                },
+                {
+                    "@type": "item",
+                    "name": "sway/desktop/surface.c"
+                },
+                {
+                    "@type": "item",
+                    "name": "sway/desktop/xdg_shell.c"
+                },
+                {
+                    "@type": "item",
+                    "name": "include/sway/desktop.h"
+                },
+                {
+                    "@type": "item",
+                    "name": "sway/desktop/desktop.c"
+                },
+                {
+                    "@type": "item",
+                    "name": "include/sway/xwayland.h"
+                },
+                {
+                    "@type": "item",
+                    "name": "sway/desktop/xwayland.c"
+                },
+                {
+                    "@type": "item",
+                    "name": "include/sway/server.h"
+                },
+                {
+                    "@type": "item",
+                    "name": "include/sway/xdg_decoration.h"
+                },
+                {
+                    "@type": "item",
+                    "name": "include/sway/decoration.h"
+                },
+                {
+                    "@type": "item",
+                    "name": "sway/lock.c"
+                },
+                {
+                    "@type": "item",
+                    "name": "sway/xdg_decoration.c"
+                },
+                {
+                    "@type": "item",
+                    "name": "sway/main.c"
+                },
+                {
+                    "@type": "item",
+                    "name": "sway/server.c"
+                },
+                {
+                    "@type": "item",
+                    "name": "sway/decoration.c"
+                },
+                {
+                    "@type": "item",
+                    "name": "sway/realtime.c"
+                },
+                {
+                    "@type": "item",
+                    "name": "sway/xdg_activation_v1.c"
+                }
+            ]
+        },
+        {
+            "@type": "group",
+            "name": "4",
+            "nested": [
+                {
+                    "@type": "item",
+                    "name": "include/sway/criteria.h"
+                },
+                {
+                    "@type": "item",
+                    "name": "sway/criteria.c"
+                },
+                {
+                    "@type": "item",
+                    "name": "include/sway/tree/root.h"
+                },
+                {
+                    "@type": "item",
+                    "name": "sway/tree/root.c"
+                },
+                {
+                    "@type": "item",
+                    "name": "include/sway/tree/container.h"
+                },
+                {
+                    "@type": "item",
+                    "name": "sway/tree/container.c"
+                },
+                {
+                    "@type": "item",
+                    "name": "sway/tree/output.c"
+                },
+                {
+                    "@type": "item",
+                    "name": "sway/tree/view.c"
+                },
+                {
+                    "@type": "item",
+                    "name": "include/sway/tree/workspace.h"
+                },
+                {
+                    "@type": "item",
+                    "name": "sway/tree/workspace.c"
+                },
+                {
+                    "@type": "item",
+                    "name": "include/sway/tree/arrange.h"
+                },
+                {
+                    "@type": "item",
+                    "name": "sway/tree/arrange.c"
+                }
+            ]
+        },
+        {
+            "@type": "group",
+            "name": "5",
+            "nested": [
+                {
+                    "@type": "item",
+                    "name": "sway/commands/bar/strip_workspace_name.c"
+                },
+                {
+                    "@type": "item",
+                    "name": "sway/commands/bar/mode.c"
+                },
+                {
+                    "@type": "item",
+                    "name": "sway/commands/bar/status_edge_padding.c"
+                },
+                {
+                    "@type": "item",
+                    "name": "sway/commands/bar/workspace_min_width.c"
+                },
+                {
+                    "@type": "item",
+                    "name": "sway/commands/bar/colors.c"
+                },
+                {
+                    "@type": "item",
+                    "name": "sway/commands/bar/tray_bind.c"
+                },
+                {
+                    "@type": "item",
+                    "name": "sway/commands/bar/output.c"
+                },
+                {
+                    "@type": "item",
+                    "name": "sway/commands/bar/workspace_buttons.c"
+                },
+                {
+                    "@type": "item",
+                    "name": "sway/commands/bar/separator_symbol.c"
+                },
+                {
+                    "@type": "item",
+                    "name": "sway/commands/bar/gaps.c"
+                },
+                {
+                    "@type": "item",
+                    "name": "sway/commands/bar/binding_mode_indicator.c"
+                },
+                {
+                    "@type": "item",
+                    "name": "sway/commands/bar/modifier.c"
+                },
+                {
+                    "@type": "item",
+                    "name": "sway/commands/bar/wrap_scroll.c"
+                },
+                {
+                    "@type": "item",
+                    "name": "sway/commands/bar/status_command.c"
+                },
+                {
+                    "@type": "item",
+                    "name": "sway/commands/bar/id.c"
+                },
+                {
+                    "@type": "item",
+                    "name": "sway/commands/bar/strip_workspace_numbers.c"
+                },
+                {
+                    "@type": "item",
+                    "name": "sway/commands/bar/hidden_state.c"
+                },
+                {
+                    "@type": "item",
+                    "name": "sway/commands/bar/tray_output.c"
+                },
+                {
+                    "@type": "item",
+                    "name": "sway/commands/bar/pango_markup.c"
+                },
+                {
+                    "@type": "item",
+                    "name": "sway/commands/bar/position.c"
+                },
+                {
+                    "@type": "item",
+                    "name": "sway/commands/bar/height.c"
+                },
+                {
+                    "@type": "item",
+                    "name": "sway/commands/bar/tray_padding.c"
+                },
+                {
+                    "@type": "item",
+                    "name": "sway/commands/bar/font.c"
+                },
+                {
+                    "@type": "item",
+                    "name": "sway/commands/bar/swaybar_command.c"
+                },
+                {
+                    "@type": "item",
+                    "name": "sway/commands/bar/bind.c"
+                },
+                {
+                    "@type": "item",
+                    "name": "sway/commands/bar/status_padding.c"
+                },
+                {
+                    "@type": "item",
+                    "name": "sway/commands/bar/icon_theme.c"
+                },
+                {
+                    "@type": "item",
+                    "name": "sway/commands/seat/hide_cursor.c"
+                },
+                {
+                    "@type": "item",
+                    "name": "sway/commands/seat/keyboard_grouping.c"
+                },
+                {
+                    "@type": "item",
+                    "name": "sway/commands/seat/pointer_constraint.c"
+                },
+                {
+                    "@type": "item",
+                    "name": "sway/commands/seat/xcursor_theme.c"
+                },
+                {
+                    "@type": "item",
+                    "name": "sway/commands/seat/cursor.c"
+                },
+                {
+                    "@type": "item",
+                    "name": "sway/commands/seat/idle.c"
+                },
+                {
+                    "@type": "item",
+                    "name": "sway/commands/seat/attach.c"
+                },
+                {
+                    "@type": "item",
+                    "name": "sway/commands/seat/fallback.c"
+                },
+                {
+                    "@type": "item",
+                    "name": "sway/commands/seat/shortcuts_inhibitor.c"
+                },
+                {
+                    "@type": "item",
+                    "name": "include/sway/input/libinput.h"
+                },
+                {
+                    "@type": "item",
+                    "name": "sway/input/libinput.c"
+                },
+                {
+                    "@type": "item",
+                    "name": "sway/commands/input/calibration_matrix.c"
+                },
+                {
+                    "@type": "item",
+                    "name": "sway/commands/input/left_handed.c"
+                },
+                {
+                    "@type": "item",
+                    "name": "sway/commands/input/xkb_file.c"
+                },
+                {
+                    "@type": "item",
+                    "name": "sway/commands/input/tool_mode.c"
+                },
+                {
+                    "@type": "item",
+                    "name": "sway/commands/input/drag.c"
+                },
+                {
+                    "@type": "item",
+                    "name": "sway/commands/input/xkb_rules.c"
+                },
+                {
+                    "@type": "item",
+                    "name": "sway/commands/input/map_to_output.c"
+                },
+                {
+                    "@type": "item",
+                    "name": "sway/commands/input/xkb_variant.c"
+                },
+                {
+                    "@type": "item",
+                    "name": "sway/commands/input/rotation_angle.c"
+                },
+                {
+                    "@type": "item",
+                    "name": "sway/commands/input/scroll_method.c"
+                },
+                {
+                    "@type": "item",
+                    "name": "sway/commands/input/dwt.c"
+                },
+                {
+                    "@type": "item",
+                    "name": "sway/commands/input/tap.c"
+                },
+                {
+                    "@type": "item",
+                    "name": "sway/commands/input/xkb_options.c"
+                },
+                {
+                    "@type": "item",
+                    "name": "sway/commands/input/middle_emulation.c"
+                },
+                {
+                    "@type": "item",
+                    "name": "sway/commands/input/xkb_model.c"
+                },
+                {
+                    "@type": "item",
+                    "name": "sway/commands/input/repeat_delay.c"
+                },
+                {
+                    "@type": "item",
+                    "name": "sway/commands/input/xkb_switch_layout.c"
+                },
+                {
+                    "@type": "item",
+                    "name": "sway/commands/input/xkb_capslock.c"
+                },
+                {
+                    "@type": "item",
+                    "name": "sway/commands/input/click_method.c"
+                },
+                {
+                    "@type": "item",
+                    "name": "sway/commands/input/map_from_region.c"
+                },
+                {
+                    "@type": "item",
+                    "name": "sway/commands/input/accel_profile.c"
+                },
+                {
+                    "@type": "item",
+                    "name": "sway/commands/input/scroll_button.c"
+                },
+                {
+                    "@type": "item",
+                    "name": "sway/commands/input/repeat_rate.c"
+                },
+                {
+                    "@type": "item",
+                    "name": "sway/commands/input/events.c"
+                },
+                {
+                    "@type": "item",
+                    "name": "sway/commands/input/map_to_region.c"
+                },
+                {
+                    "@type": "item",
+                    "name": "sway/commands/input/drag_lock.c"
+                },
+                {
+                    "@type": "item",
+                    "name": "sway/commands/input/scroll_factor.c"
+                },
+                {
+                    "@type": "item",
+                    "name": "sway/commands/input/xkb_layout.c"
+                },
+                {
+                    "@type": "item",
+                    "name": "sway/commands/input/xkb_numlock.c"
+                },
+                {
+                    "@type": "item",
+                    "name": "sway/commands/input/natural_scroll.c"
+                },
+                {
+                    "@type": "item",
+                    "name": "sway/commands/input/pointer_accel.c"
+                },
+                {
+                    "@type": "item",
+                    "name": "sway/commands/input/tap_button_map.c"
+                },
+                {
+                    "@type": "item",
+                    "name": "sway/commands/input/dwtp.c"
+                },
+                {
+                    "@type": "item",
+                    "name": "sway/commands/input/scroll_button_lock.c"
+                },
+                {
+                    "@type": "item",
+                    "name": "include/sway/input/text_input.h"
+                },
+                {
+                    "@type": "item",
+                    "name": "sway/input/text_input.c"
+                }
+            ]
+        },
+        {
+            "@type": "group",
+            "name": "6",
+            "nested": [
+                {
+                    "@type": "item",
+                    "name": "include/swaybar/tray/tray.h"
+                },
+                {
+                    "@type": "item",
+                    "name": "swaybar/tray/tray.c"
+                },
+                {
+                    "@type": "item",
+                    "name": "include/swaybar/tray/watcher.h"
+                },
+                {
+                    "@type": "item",
+                    "name": "swaybar/tray/watcher.c"
+                },
+                {
+                    "@type": "item",
+                    "name": "include/swaybar/tray/host.h"
+                },
+                {
+                    "@type": "item",
+                    "name": "swaybar/tray/host.c"
+                },
+                {
+                    "@type": "item",
+                    "name": "include/swaybar/tray/item.h"
+                },
+                {
+                    "@type": "item",
+                    "name": "swaybar/tray/item.c"
+                }
+            ]
+        },
+        {
+            "@type": "group",
+            "name": "7",
+            "nested": [
+                {
+                    "@type": "item",
+                    "name": "sway/commands/output/scale_filter.c"
+                },
+                {
+                    "@type": "item",
+                    "name": "sway/commands/output/enable.c"
+                },
+                {
+                    "@type": "item",
+                    "name": "sway/commands/output/mode.c"
+                },
+                {
+                    "@type": "item",
+                    "name": "sway/commands/output/adaptive_sync.c"
+                },
+                {
+                    "@type": "item",
+                    "name": "sway/commands/output/toggle.c"
+                },
+                {
+                    "@type": "item",
+                    "name": "sway/commands/output/transform.c"
+                },
+                {
+                    "@type": "item",
+                    "name": "sway/commands/output/unplug.c"
+                },
+                {
+                    "@type": "item",
+                    "name": "sway/commands/output/background.c"
+                },
+                {
+                    "@type": "item",
+                    "name": "sway/commands/output/power.c"
+                },
+                {
+                    "@type": "item",
+                    "name": "sway/commands/output/dpms.c"
+                },
+                {
+                    "@type": "item",
+                    "name": "sway/commands/output/subpixel.c"
+                },
+                {
+                    "@type": "item",
+                    "name": "sway/commands/output/max_render_time.c"
+                },
+                {
+                    "@type": "item",
+                    "name": "sway/commands/output/scale.c"
+                },
+                {
+                    "@type": "item",
+                    "name": "sway/commands/output/position.c"
+                },
+                {
+                    "@type": "item",
+                    "name": "sway/commands/output/render_bit_depth.c"
+                },
+                {
+                    "@type": "item",
+                    "name": "sway/commands/output/disable.c"
+                },
+                {
+                    "@type": "item",
+                    "name": "sway/commands.c"
+                },
+                {
+                    "@type": "item",
+                    "name": "include/sway/commands.h"
+                },
+                {
+                    "@type": "item",
+                    "name": "sway/commands/default_border.c"
+                },
+                {
+                    "@type": "item",
+                    "name": "sway/commands/resize.c"
+                },
+                {
+                    "@type": "item",
+                    "name": "sway/commands/workspace_layout.c"
+                },
+                {
+                    "@type": "item",
+                    "name": "sway/commands/shortcuts_inhibitor.c"
+                },
+                {
+                    "@type": "item",
+                    "name": "sway/commands/smart_borders.c"
+                },
+                {
+                    "@type": "item",
+                    "name": "sway/commands/new_window.c"
+                },
+                {
+                    "@type": "item",
+                    "name": "sway/commands/focus.c"
+                },
+                {
+                    "@type": "item",
+                    "name": "sway/commands/tiling_drag.c"
+                },
+                {
+                    "@type": "item",
+                    "name": "sway/commands/nop.c"
+                },
+                {
+                    "@type": "item",
+                    "name": "sway/commands/floating_minmax_size.c"
+                },
+                {
+                    "@type": "item",
+                    "name": "sway/commands/urgent.c"
+                },
+                {
+                    "@type": "item",
+                    "name": "sway/commands/for_window.c"
+                },
+                {
+                    "@type": "item",
+                    "name": "sway/commands/default_orientation.c"
+                },
+                {
+                    "@type": "item",
+                    "name": "sway/commands/move.c"
+                },
+                {
+                    "@type": "item",
+                    "name": "sway/commands/client.c"
+                },
+                {
+                    "@type": "item",
+                    "name": "sway/commands/exit.c"
+                },
+                {
+                    "@type": "item",
+                    "name": "sway/commands/max_render_time.c"
+                },
+                {
+                    "@type": "item",
+                    "name": "sway/commands/gaps.c"
+                },
+                {
+                    "@type": "item",
+                    "name": "sway/commands/focus_on_window_activation.c"
+                },
+                {
+                    "@type": "item",
+                    "name": "sway/commands/include.c"
+                },
+                {
+                    "@type": "item",
+                    "name": "sway/commands/mode.c"
+                },
+                {
+                    "@type": "item",
+                    "name": "sway/commands/exec_always.c"
+                },
+                {
+                    "@type": "item",
+                    "name": "sway/commands/assign.c"
+                },
+                {
+                    "@type": "item",
+                    "name": "sway/commands/inhibit_idle.c"
+                },
+                {
+                    "@type": "item",
+                    "name": "sway/commands/focus_wrapping.c"
+                },
+                {
+                    "@type": "item",
+                    "name": "sway/commands/swap.c"
+                },
+                {
+                    "@type": "item",
+                    "name": "sway/commands/title_align.c"
+                },
+                {
+                    "@type": "item",
+                    "name": "sway/commands/smart_gaps.c"
+                },
+                {
+                    "@type": "item",
+                    "name": "sway/commands/scratchpad.c"
+                },
+                {
+                    "@type": "item",
+                    "name": "sway/commands/force_focus_wrapping.c"
+                },
+                {
+                    "@type": "item",
+                    "name": "sway/commands/titlebar_border_thickness.c"
+                },
+                {
+                    "@type": "item",
+                    "name": "sway/commands/layout.c"
+                },
+                {
+                    "@type": "item",
+                    "name": "sway/commands/opacity.c"
+                },
+                {
+                    "@type": "item",
+                    "name": "sway/commands/reload.c"
+                },
+                {
+                    "@type": "item",
+                    "name": "sway/commands/floating.c"
+                },
+                {
+                    "@type": "item",
+                    "name": "sway/commands/fullscreen.c"
+                },
+                {
+                    "@type": "item",
+                    "name": "sway/commands/kill.c"
+                },
+                {
+                    "@type": "item",
+                    "name": "sway/commands/show_marks.c"
+                },
+                {
+                    "@type": "item",
+                    "name": "sway/commands/floating_modifier.c"
+                },
+                {
+                    "@type": "item",
+                    "name": "sway/commands/no_focus.c"
+                },
+                {
+                    "@type": "item",
+                    "name": "sway/commands/swaynag_command.c"
+                },
+                {
+                    "@type": "item",
+                    "name": "sway/commands/create_output.c"
+                },
+                {
+                    "@type": "item",
+                    "name": "sway/commands/new_float.c"
+                },
+                {
+                    "@type": "item",
+                    "name": "sway/commands/rename.c"
+                },
+                {
+                    "@type": "item",
+                    "name": "sway/commands/mark.c"
+                },
+                {
+                    "@type": "item",
+                    "name": "sway/commands/title_format.c"
+                },
+                {
+                    "@type": "item",
+                    "name": "sway/commands/bar.c"
+                },
+                {
+                    "@type": "item",
+                    "name": "sway/commands/ws_auto_back_and_forth.c"
+                },
+                {
+                    "@type": "item",
+                    "name": "sway/commands/force_display_urgency_hint.c"
+                },
+                {
+                    "@type": "item",
+                    "name": "sway/commands/default_floating_border.c"
+                },
+                {
+                    "@type": "item",
+                    "name": "sway/commands/sticky.c"
+                },
+                {
+                    "@type": "item",
+                    "name": "sway/commands/unmark.c"
+                },
+                {
+                    "@type": "item",
+                    "name": "sway/commands/titlebar_padding.c"
+                },
+                {
+                    "@type": "item",
+                    "name": "sway/commands/popup_during_fullscreen.c"
+                },
+                {
+                    "@type": "item",
+                    "name": "sway/commands/hide_edge_borders.c"
+                },
+                {
+                    "@type": "item",
+                    "name": "sway/commands/output.c"
+                },
+                {
+                    "@type": "item",
+                    "name": "sway/commands/primary_selection.c"
+                },
+                {
+                    "@type": "item",
+                    "name": "sway/commands/border.c"
+                },
+                {
+                    "@type": "item",
+                    "name": "sway/commands/swaybg_command.c"
+                },
+                {
+                    "@type": "item",
+                    "name": "sway/commands/seat.c"
+                },
+                {
+                    "@type": "item",
+                    "name": "sway/commands/split.c"
+                },
+                {
+                    "@type": "item",
+                    "name": "sway/commands/focus_follows_mouse.c"
+                },
+                {
+                    "@type": "item",
+                    "name": "sway/commands/mouse_warping.c"
+                },
+                {
+                    "@type": "item",
+                    "name": "sway/commands/tiling_drag_threshold.c"
+                },
+                {
+                    "@type": "item",
+                    "name": "sway/commands/font.c"
+                },
+                {
+                    "@type": "item",
+                    "name": "sway/commands/xwayland.c"
+                },
+                {
+                    "@type": "item",
+                    "name": "sway/commands/input.c"
+                },
+                {
+                    "@type": "item",
+                    "name": "sway/commands/exec.c"
+                }
+            ]
+        },
+        {
+            "@type": "group",
+            "name": "8",
+            "nested": [
+                {
+                    "@type": "item",
+                    "name": "sway/config.c"
+                },
+                {
+                    "@type": "item",
+                    "name": "sway/config/input.c"
+                },
+                {
+                    "@type": "item",
+                    "name": "sway/config/output.c"
+                },
+                {
+                    "@type": "item",
+                    "name": "sway/config/seat.c"
+                },
+                {
+                    "@type": "item",
+                    "name": "sway/config/bar.c"
+                }
+            ]
+        }
+    ]
+}

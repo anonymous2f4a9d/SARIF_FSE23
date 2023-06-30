@@ -1,0 +1,316 @@
+{
+    "@schemaVersion": "1.0",
+    "name": "clustering",
+    "structure": [
+        {
+            "@type": "group",
+            "name": "0",
+            "nested": [
+                {
+                    "@type": "item",
+                    "name": "include/editor/toolbox.hpp"
+                },
+                {
+                    "@type": "item",
+                    "name": "include/common/event_manager.hpp"
+                },
+                {
+                    "@type": "item",
+                    "name": "include/editor/GUI/grid_container.hpp"
+                },
+                {
+                    "@type": "item",
+                    "name": "include/editor/GUI/item.hpp"
+                },
+                {
+                    "@type": "item",
+                    "name": "include/editor/slider.hpp"
+                },
+                {
+                    "@type": "item",
+                    "name": "include/common/dynamic_blur.hpp"
+                },
+                {
+                    "@type": "item",
+                    "name": "include/editor/GUI/named_container.hpp"
+                },
+                {
+                    "@type": "item",
+                    "name": "include/editor/GUI/container.hpp"
+                },
+                {
+                    "@type": "item",
+                    "name": "include/editor/GUI/empty_item.hpp"
+                },
+                {
+                    "@type": "item",
+                    "name": "include/editor/GUI/scene.hpp"
+                }
+            ]
+        },
+        {
+            "@type": "group",
+            "name": "1",
+            "nested": [
+                {
+                    "@type": "item",
+                    "name": "include/simulation/world/distance_field_builder.hpp"
+                },
+                {
+                    "@type": "item",
+                    "name": "include/common/grid.hpp"
+                },
+                {
+                    "@type": "item",
+                    "name": "include/render/async_va_renderer.hpp"
+                },
+                {
+                    "@type": "item",
+                    "name": "include/simulation/world/async_distance_field_builder.hpp"
+                },
+                {
+                    "@type": "item",
+                    "name": "include/editor/GUI/rounded_rectangle.hpp"
+                },
+                {
+                    "@type": "item",
+                    "name": "include/simulation/world/world_grid.hpp"
+                },
+                {
+                    "@type": "item",
+                    "name": "include/render/world_renderer.hpp"
+                },
+                {
+                    "@type": "item",
+                    "name": "include/editor/GUI/item.cpp"
+                },
+                {
+                    "@type": "item",
+                    "name": "include/simulation/config.hpp"
+                },
+                {
+                    "@type": "item",
+                    "name": "include/common/double_buffer.hpp"
+                }
+            ]
+        },
+        {
+            "@type": "group",
+            "name": "2",
+            "nested": [
+                {
+                    "@type": "item",
+                    "name": "include/editor/colony_creator/colony_tool.hpp"
+                },
+                {
+                    "@type": "item",
+                    "name": "include/editor/GUI/utils.hpp"
+                },
+                {
+                    "@type": "item",
+                    "name": "include/editor/colony_creator/colony_stats.hpp"
+                },
+                {
+                    "@type": "item",
+                    "name": "include/editor/color_picker/color_picker.hpp"
+                },
+                {
+                    "@type": "item",
+                    "name": "include/common/math.hpp"
+                },
+                {
+                    "@type": "item",
+                    "name": "include/common/graph.hpp"
+                },
+                {
+                    "@type": "item",
+                    "name": "include/editor/colony_creator/colony_creator.hpp"
+                },
+                {
+                    "@type": "item",
+                    "name": "include/common/color_utils.hpp"
+                }
+            ]
+        },
+        {
+            "@type": "group",
+            "name": "3",
+            "nested": [
+                {
+                    "@type": "item",
+                    "name": "include/simulation/ant/ant_mode.hpp"
+                },
+                {
+                    "@type": "item",
+                    "name": "include/common/number_generator.hpp"
+                },
+                {
+                    "@type": "item",
+                    "name": "include/simulation/ant/ant_updater.hpp"
+                },
+                {
+                    "@type": "item",
+                    "name": "include/simulation/ant/ant.hpp"
+                },
+                {
+                    "@type": "item",
+                    "name": "include/simulation/ant/fight_system.hpp"
+                },
+                {
+                    "@type": "item",
+                    "name": "include/simulation/ant/worker.hpp"
+                },
+                {
+                    "@type": "item",
+                    "name": "include/common/cooldown.hpp"
+                },
+                {
+                    "@type": "item",
+                    "name": "include/simulation/ant/soldier.hpp"
+                }
+            ]
+        },
+        {
+            "@type": "group",
+            "name": "4",
+            "nested": [
+                {
+                    "@type": "item",
+                    "name": "include/common/racc.hpp"
+                },
+                {
+                    "@type": "item",
+                    "name": "include/common/circular_gauge.hpp"
+                },
+                {
+                    "@type": "item",
+                    "name": "include/render/colony_renderer.hpp"
+                },
+                {
+                    "@type": "item",
+                    "name": "include/common/index_vector.hpp"
+                },
+                {
+                    "@type": "item",
+                    "name": "include/render/renderer.hpp"
+                },
+                {
+                    "@type": "item",
+                    "name": "include/simulation/colony/colony_base.hpp"
+                },
+                {
+                    "@type": "item",
+                    "name": "include/simulation/simulation.hpp"
+                },
+                {
+                    "@type": "item",
+                    "name": "include/simulation/colony/colony.hpp"
+                }
+            ]
+        },
+        {
+            "@type": "group",
+            "name": "5",
+            "nested": [
+                {
+                    "@type": "item",
+                    "name": "src/main.cpp"
+                },
+                {
+                    "@type": "item",
+                    "name": "include/editor/world_view.hpp"
+                },
+                {
+                    "@type": "item",
+                    "name": "include/editor/control_state.hpp"
+                },
+                {
+                    "@type": "item",
+                    "name": "include/editor/time_control/time_controller.hpp"
+                },
+                {
+                    "@type": "item",
+                    "name": "include/editor/tool_selector.hpp"
+                },
+                {
+                    "@type": "item",
+                    "name": "include/editor/editor_scene.hpp"
+                },
+                {
+                    "@type": "item",
+                    "name": "include/editor/display_options/display_options.hpp"
+                }
+            ]
+        },
+        {
+            "@type": "group",
+            "name": "6",
+            "nested": [
+                {
+                    "@type": "item",
+                    "name": "include/editor/GUI/toggle.hpp"
+                },
+                {
+                    "@type": "item",
+                    "name": "include/simulation/world/world.hpp"
+                },
+                {
+                    "@type": "item",
+                    "name": "include/common/viewport_handler.hpp"
+                },
+                {
+                    "@type": "item",
+                    "name": "include/simulation/event_state.hpp"
+                },
+                {
+                    "@type": "item",
+                    "name": "include/simulation/world/map_loader.hpp"
+                },
+                {
+                    "@type": "item",
+                    "name": "include/simulation/world/wall.hpp"
+                }
+            ]
+        },
+        {
+            "@type": "group",
+            "name": "7",
+            "nested": [
+                {
+                    "@type": "item",
+                    "name": "include/editor/GUI/button.hpp"
+                },
+                {
+                    "@type": "item",
+                    "name": "include/editor/color_saver.hpp"
+                },
+                {
+                    "@type": "item",
+                    "name": "include/editor/GUI/text_label.hpp"
+                },
+                {
+                    "@type": "item",
+                    "name": "include/editor/transition.hpp"
+                },
+                {
+                    "@type": "item",
+                    "name": "include/editor/set_color_button.hpp"
+                }
+            ]
+        },
+        {
+            "@type": "group",
+            "name": "8",
+            "nested": [
+                {
+                    "@type": "item",
+                    "name": "include/common/direction.hpp"
+                },
+                {
+                    "@type": "item",
+                    "name": "include/common/utils.hpp"
+                }
+            ]
+        }
+    ]
+}

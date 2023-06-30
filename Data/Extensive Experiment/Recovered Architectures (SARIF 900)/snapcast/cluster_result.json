@@ -1,0 +1,752 @@
+{
+    "@schemaVersion": "1.0",
+    "name": "clustering",
+    "structure": [
+        {
+            "@type": "group",
+            "name": "0",
+            "nested": [
+                {
+                    "@type": "item",
+                    "name": "server/server_settings.hpp"
+                },
+                {
+                    "@type": "item",
+                    "name": "server/server.hpp"
+                },
+                {
+                    "@type": "item",
+                    "name": "server/server.cpp"
+                },
+                {
+                    "@type": "item",
+                    "name": "server/control_session_tcp.hpp"
+                },
+                {
+                    "@type": "item",
+                    "name": "server/control_session_tcp.cpp"
+                },
+                {
+                    "@type": "item",
+                    "name": "server/control_session_http.cpp"
+                },
+                {
+                    "@type": "item",
+                    "name": "server/snapserver.cpp"
+                },
+                {
+                    "@type": "item",
+                    "name": "server/jsonrpcpp.hpp"
+                },
+                {
+                    "@type": "item",
+                    "name": "server/config.hpp"
+                },
+                {
+                    "@type": "item",
+                    "name": "server/config.cpp"
+                },
+                {
+                    "@type": "item",
+                    "name": "server/control_server.hpp"
+                },
+                {
+                    "@type": "item",
+                    "name": "server/control_server.cpp"
+                },
+                {
+                    "@type": "item",
+                    "name": "server/image_cache.hpp"
+                },
+                {
+                    "@type": "item",
+                    "name": "server/stream_session.hpp"
+                },
+                {
+                    "@type": "item",
+                    "name": "server/stream_session.cpp"
+                },
+                {
+                    "@type": "item",
+                    "name": "server/stream_server.hpp"
+                },
+                {
+                    "@type": "item",
+                    "name": "server/stream_server.cpp"
+                },
+                {
+                    "@type": "item",
+                    "name": "server/control_session_http.hpp"
+                },
+                {
+                    "@type": "item",
+                    "name": "server/stream_session_ws.hpp"
+                },
+                {
+                    "@type": "item",
+                    "name": "server/stream_session_ws.cpp"
+                },
+                {
+                    "@type": "item",
+                    "name": "server/control_session.hpp"
+                },
+                {
+                    "@type": "item",
+                    "name": "server/control_session_ws.hpp"
+                },
+                {
+                    "@type": "item",
+                    "name": "server/control_session_ws.cpp"
+                },
+                {
+                    "@type": "item",
+                    "name": "server/stream_session_tcp.hpp"
+                },
+                {
+                    "@type": "item",
+                    "name": "server/stream_session_tcp.cpp"
+                }
+            ]
+        },
+        {
+            "@type": "group",
+            "name": "1",
+            "nested": [
+                {
+                    "@type": "item",
+                    "name": "common/message/time.hpp"
+                },
+                {
+                    "@type": "item",
+                    "name": "common/message/codec_header.hpp"
+                },
+                {
+                    "@type": "item",
+                    "name": "common/message/server_settings.hpp"
+                },
+                {
+                    "@type": "item",
+                    "name": "common/message/hello.hpp"
+                },
+                {
+                    "@type": "item",
+                    "name": "common/message/client_info.hpp"
+                },
+                {
+                    "@type": "item",
+                    "name": "common/message/json_message.hpp"
+                },
+                {
+                    "@type": "item",
+                    "name": "common/message/factory.hpp"
+                },
+                {
+                    "@type": "item",
+                    "name": "common/message/pcm_chunk.hpp"
+                },
+                {
+                    "@type": "item",
+                    "name": "common/message/wire_chunk.hpp"
+                },
+                {
+                    "@type": "item",
+                    "name": "common/message/message.hpp"
+                }
+            ]
+        },
+        {
+            "@type": "group",
+            "name": "2",
+            "nested": [
+                {
+                    "@type": "item",
+                    "name": "server/streamreader/process_stream.hpp"
+                },
+                {
+                    "@type": "item",
+                    "name": "server/streamreader/process_stream.cpp"
+                },
+                {
+                    "@type": "item",
+                    "name": "server/streamreader/watchdog.hpp"
+                },
+                {
+                    "@type": "item",
+                    "name": "server/streamreader/watchdog.cpp"
+                },
+                {
+                    "@type": "item",
+                    "name": "server/streamreader/file_stream.hpp"
+                },
+                {
+                    "@type": "item",
+                    "name": "server/streamreader/file_stream.cpp"
+                },
+                {
+                    "@type": "item",
+                    "name": "server/streamreader/stream_control.hpp"
+                },
+                {
+                    "@type": "item",
+                    "name": "server/streamreader/stream_control.cpp"
+                },
+                {
+                    "@type": "item",
+                    "name": "server/streamreader/librespot_stream.hpp"
+                },
+                {
+                    "@type": "item",
+                    "name": "server/streamreader/librespot_stream.cpp"
+                },
+                {
+                    "@type": "item",
+                    "name": "server/streamreader/asio_stream.hpp"
+                },
+                {
+                    "@type": "item",
+                    "name": "server/streamreader/pipe_stream.hpp"
+                },
+                {
+                    "@type": "item",
+                    "name": "server/streamreader/pipe_stream.cpp"
+                },
+                {
+                    "@type": "item",
+                    "name": "server/streamreader/posix_stream.hpp"
+                },
+                {
+                    "@type": "item",
+                    "name": "server/streamreader/posix_stream.cpp"
+                },
+                {
+                    "@type": "item",
+                    "name": "server/streamreader/alsa_stream.hpp"
+                },
+                {
+                    "@type": "item",
+                    "name": "server/streamreader/tcp_stream.hpp"
+                },
+                {
+                    "@type": "item",
+                    "name": "server/streamreader/tcp_stream.cpp"
+                }
+            ]
+        },
+        {
+            "@type": "group",
+            "name": "3",
+            "nested": [
+                {
+                    "@type": "item",
+                    "name": "server/streamreader/pcm_stream.hpp"
+                },
+                {
+                    "@type": "item",
+                    "name": "server/streamreader/pcm_stream.cpp"
+                },
+                {
+                    "@type": "item",
+                    "name": "server/streamreader/control_error.hpp"
+                },
+                {
+                    "@type": "item",
+                    "name": "server/streamreader/control_error.cpp"
+                },
+                {
+                    "@type": "item",
+                    "name": "server/streamreader/alsa_stream.cpp"
+                },
+                {
+                    "@type": "item",
+                    "name": "server/streamreader/airplay_stream.cpp"
+                },
+                {
+                    "@type": "item",
+                    "name": "server/streamreader/stream_manager.hpp"
+                },
+                {
+                    "@type": "item",
+                    "name": "server/streamreader/stream_manager.cpp"
+                },
+                {
+                    "@type": "item",
+                    "name": "server/streamreader/airplay_stream.hpp"
+                },
+                {
+                    "@type": "item",
+                    "name": "server/streamreader/meta_stream.hpp"
+                },
+                {
+                    "@type": "item",
+                    "name": "server/streamreader/meta_stream.cpp"
+                },
+                {
+                    "@type": "item",
+                    "name": "server/streamreader/base64.h"
+                },
+                {
+                    "@type": "item",
+                    "name": "server/streamreader/base64.cpp"
+                },
+                {
+                    "@type": "item",
+                    "name": "server/streamreader/stream_uri.hpp"
+                },
+                {
+                    "@type": "item",
+                    "name": "server/streamreader/stream_uri.cpp"
+                }
+            ]
+        },
+        {
+            "@type": "group",
+            "name": "4",
+            "nested": [
+                {
+                    "@type": "item",
+                    "name": "client/player/pulse_player.hpp"
+                },
+                {
+                    "@type": "item",
+                    "name": "client/player/pulse_player.cpp"
+                },
+                {
+                    "@type": "item",
+                    "name": "client/player/pcm_device.hpp"
+                },
+                {
+                    "@type": "item",
+                    "name": "client/player/oboe_player.hpp"
+                },
+                {
+                    "@type": "item",
+                    "name": "client/player/oboe_player.cpp"
+                },
+                {
+                    "@type": "item",
+                    "name": "client/player/coreaudio_player.hpp"
+                },
+                {
+                    "@type": "item",
+                    "name": "client/player/coreaudio_player.cpp"
+                },
+                {
+                    "@type": "item",
+                    "name": "client/player/file_player.hpp"
+                },
+                {
+                    "@type": "item",
+                    "name": "client/player/file_player.cpp"
+                },
+                {
+                    "@type": "item",
+                    "name": "client/player/player.hpp"
+                },
+                {
+                    "@type": "item",
+                    "name": "client/player/player.cpp"
+                },
+                {
+                    "@type": "item",
+                    "name": "client/player/alsa_player.hpp"
+                },
+                {
+                    "@type": "item",
+                    "name": "client/player/alsa_player.cpp"
+                },
+                {
+                    "@type": "item",
+                    "name": "client/player/opensl_player.hpp"
+                },
+                {
+                    "@type": "item",
+                    "name": "client/player/opensl_player.cpp"
+                },
+                {
+                    "@type": "item",
+                    "name": "client/player/wasapi_player.hpp"
+                },
+                {
+                    "@type": "item",
+                    "name": "client/player/wasapi_player.cpp"
+                }
+            ]
+        },
+        {
+            "@type": "group",
+            "name": "5",
+            "nested": [
+                {
+                    "@type": "item",
+                    "name": "server/encoder/encoder.hpp"
+                },
+                {
+                    "@type": "item",
+                    "name": "server/encoder/pcm_encoder.cpp"
+                },
+                {
+                    "@type": "item",
+                    "name": "server/encoder/null_encoder.hpp"
+                },
+                {
+                    "@type": "item",
+                    "name": "server/encoder/null_encoder.cpp"
+                },
+                {
+                    "@type": "item",
+                    "name": "server/encoder/pcm_encoder.hpp"
+                },
+                {
+                    "@type": "item",
+                    "name": "server/encoder/encoder_factory.hpp"
+                },
+                {
+                    "@type": "item",
+                    "name": "server/encoder/encoder_factory.cpp"
+                },
+                {
+                    "@type": "item",
+                    "name": "server/encoder/opus_encoder.hpp"
+                },
+                {
+                    "@type": "item",
+                    "name": "server/encoder/opus_encoder.cpp"
+                },
+                {
+                    "@type": "item",
+                    "name": "server/encoder/flac_encoder.hpp"
+                },
+                {
+                    "@type": "item",
+                    "name": "server/encoder/flac_encoder.cpp"
+                },
+                {
+                    "@type": "item",
+                    "name": "server/encoder/ogg_encoder.hpp"
+                },
+                {
+                    "@type": "item",
+                    "name": "server/encoder/ogg_encoder.cpp"
+                }
+            ]
+        },
+        {
+            "@type": "group",
+            "name": "6",
+            "nested": [
+                {
+                    "@type": "item",
+                    "name": "client/double_buffer.hpp"
+                },
+                {
+                    "@type": "item",
+                    "name": "client/stream.hpp"
+                },
+                {
+                    "@type": "item",
+                    "name": "client/stream.cpp"
+                },
+                {
+                    "@type": "item",
+                    "name": "client/client_connection.hpp"
+                },
+                {
+                    "@type": "item",
+                    "name": "client/client_connection.cpp"
+                },
+                {
+                    "@type": "item",
+                    "name": "client/client_settings.hpp"
+                },
+                {
+                    "@type": "item",
+                    "name": "client/snapclient.cpp"
+                },
+                {
+                    "@type": "item",
+                    "name": "client/controller.hpp"
+                },
+                {
+                    "@type": "item",
+                    "name": "client/controller.cpp"
+                },
+                {
+                    "@type": "item",
+                    "name": "client/time_provider.hpp"
+                },
+                {
+                    "@type": "item",
+                    "name": "client/time_provider.cpp"
+                }
+            ]
+        },
+        {
+            "@type": "group",
+            "name": "7",
+            "nested": [
+                {
+                    "@type": "item",
+                    "name": "client/decoder/pcm_decoder.hpp"
+                },
+                {
+                    "@type": "item",
+                    "name": "client/decoder/pcm_decoder.cpp"
+                },
+                {
+                    "@type": "item",
+                    "name": "client/decoder/opus_decoder.hpp"
+                },
+                {
+                    "@type": "item",
+                    "name": "client/decoder/opus_decoder.cpp"
+                },
+                {
+                    "@type": "item",
+                    "name": "client/decoder/flac_decoder.hpp"
+                },
+                {
+                    "@type": "item",
+                    "name": "client/decoder/decoder.hpp"
+                },
+                {
+                    "@type": "item",
+                    "name": "client/decoder/ogg_decoder.hpp"
+                },
+                {
+                    "@type": "item",
+                    "name": "client/decoder/ogg_decoder.cpp"
+                },
+                {
+                    "@type": "item",
+                    "name": "client/decoder/null_decoder.hpp"
+                },
+                {
+                    "@type": "item",
+                    "name": "client/decoder/null_decoder.cpp"
+                },
+                {
+                    "@type": "item",
+                    "name": "client/decoder/flac_decoder.cpp"
+                }
+            ]
+        },
+        {
+            "@type": "group",
+            "name": "8",
+            "nested": [
+                {
+                    "@type": "item",
+                    "name": "common/sample_format.hpp"
+                },
+                {
+                    "@type": "item",
+                    "name": "common/sample_format.cpp"
+                },
+                {
+                    "@type": "item",
+                    "name": "common/daemon.hpp"
+                },
+                {
+                    "@type": "item",
+                    "name": "common/daemon.cpp"
+                },
+                {
+                    "@type": "item",
+                    "name": "common/utils.hpp"
+                },
+                {
+                    "@type": "item",
+                    "name": "common/str_compat.hpp"
+                },
+                {
+                    "@type": "item",
+                    "name": "common/snap_exception.hpp"
+                },
+                {
+                    "@type": "item",
+                    "name": "common/resampler.hpp"
+                },
+                {
+                    "@type": "item",
+                    "name": "common/resampler.cpp"
+                }
+            ]
+        },
+        {
+            "@type": "group",
+            "name": "9",
+            "nested": [
+                {
+                    "@type": "item",
+                    "name": "client/browseZeroConf/browse_avahi.hpp"
+                },
+                {
+                    "@type": "item",
+                    "name": "client/browseZeroConf/browse_avahi.cpp"
+                },
+                {
+                    "@type": "item",
+                    "name": "client/browseZeroConf/browse_mdns.hpp"
+                },
+                {
+                    "@type": "item",
+                    "name": "client/browseZeroConf/browse_bonjour.hpp"
+                },
+                {
+                    "@type": "item",
+                    "name": "client/browseZeroConf/browse_bonjour.cpp"
+                }
+            ]
+        },
+        {
+            "@type": "group",
+            "name": "10",
+            "nested": [
+                {
+                    "@type": "item",
+                    "name": "server/publishZeroConf/publish_avahi.hpp"
+                },
+                {
+                    "@type": "item",
+                    "name": "server/publishZeroConf/publish_avahi.cpp"
+                },
+                {
+                    "@type": "item",
+                    "name": "server/publishZeroConf/publish_mdns.hpp"
+                },
+                {
+                    "@type": "item",
+                    "name": "server/publishZeroConf/publish_bonjour.hpp"
+                },
+                {
+                    "@type": "item",
+                    "name": "server/publishZeroConf/publish_bonjour.cpp"
+                }
+            ]
+        },
+        {
+            "@type": "group",
+            "name": "11",
+            "nested": [
+                {
+                    "@type": "item",
+                    "name": "common/utils/file_utils.hpp"
+                },
+                {
+                    "@type": "item",
+                    "name": "common/utils/string_utils.hpp"
+                }
+            ]
+        },
+        {
+            "@type": "group",
+            "name": "12",
+            "nested": [
+                {
+                    "@type": "item",
+                    "name": "common/version.hpp"
+                },
+                {
+                    "@type": "item",
+                    "name": "common/error_code.hpp"
+                }
+            ]
+        },
+        {
+            "@type": "group",
+            "name": "13",
+            "nested": [
+                {
+                    "@type": "item",
+                    "name": "server/streamreader/properties.hpp"
+                },
+                {
+                    "@type": "item",
+                    "name": "server/streamreader/properties.cpp"
+                },
+                {
+                    "@type": "item",
+                    "name": "server/streamreader/metadata.hpp"
+                },
+                {
+                    "@type": "item",
+                    "name": "common/aixlog.hpp"
+                },
+                {
+                    "@type": "item",
+                    "name": "server/streamreader/metadata.cpp"
+                }
+            ]
+        },
+        {
+            "@type": "group",
+            "name": "14",
+            "nested": [
+                {
+                    "@type": "item",
+                    "name": "common/endian.hpp"
+                }
+            ]
+        },
+        {
+            "@type": "group",
+            "name": "15",
+            "nested": [
+                {
+                    "@type": "item",
+                    "name": "common/json.hpp"
+                }
+            ]
+        },
+        {
+            "@type": "group",
+            "name": "16",
+            "nested": [
+                {
+                    "@type": "item",
+                    "name": "common/popl.hpp"
+                }
+            ]
+        },
+        {
+            "@type": "group",
+            "name": "17",
+            "nested": [
+                {
+                    "@type": "item",
+                    "name": "common/queue.h"
+                }
+            ]
+        },
+        {
+            "@type": "group",
+            "name": "18",
+            "nested": [
+                {
+                    "@type": "item",
+                    "name": "common/time_defs.hpp"
+                }
+            ]
+        },
+        {
+            "@type": "group",
+            "name": "19",
+            "nested": [
+                {
+                    "@type": "item",
+                    "name": "common/utils/logging.hpp"
+                }
+            ]
+        },
+        {
+            "@type": "group",
+            "name": "20",
+            "nested": [
+                {
+                    "@type": "item",
+                    "name": "client/metadata.hpp"
+                }
+            ]
+        }
+    ]
+}

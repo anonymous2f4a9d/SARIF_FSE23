@@ -1,0 +1,958 @@
+{
+    "@schemaVersion": "1.0",
+    "name": "clustering",
+    "structure": [
+        {
+            "@type": "group",
+            "name": "0",
+            "nested": [
+                {
+                    "@type": "item",
+                    "name": "include/xtensor/xdynamic_view.hpp"
+                },
+                {
+                    "@type": "item",
+                    "name": "include/xtensor/xreducer.hpp"
+                },
+                {
+                    "@type": "item",
+                    "name": "include/xtensor/xmanipulation.hpp"
+                },
+                {
+                    "@type": "item",
+                    "name": "include/xtensor/xeval.hpp"
+                },
+                {
+                    "@type": "item",
+                    "name": "include/xtensor/xassign.hpp"
+                },
+                {
+                    "@type": "item",
+                    "name": "include/xtensor/xoptional_assembly_base.hpp"
+                },
+                {
+                    "@type": "item",
+                    "name": "include/xtensor/xshape.hpp"
+                },
+                {
+                    "@type": "item",
+                    "name": "include/xtensor/xexception.hpp"
+                },
+                {
+                    "@type": "item",
+                    "name": "include/xtensor/xoperation.hpp"
+                },
+                {
+                    "@type": "item",
+                    "name": "include/xtensor/xfunction.hpp"
+                },
+                {
+                    "@type": "item",
+                    "name": "include/xtensor/xoptional_assembly.hpp"
+                },
+                {
+                    "@type": "item",
+                    "name": "include/xtensor/xsort.hpp"
+                },
+                {
+                    "@type": "item",
+                    "name": "include/xtensor/xindex_view.hpp"
+                },
+                {
+                    "@type": "item",
+                    "name": "include/xtensor/xarray.hpp"
+                },
+                {
+                    "@type": "item",
+                    "name": "include/xtensor/xcsv.hpp"
+                },
+                {
+                    "@type": "item",
+                    "name": "include/xtensor/xstrided_view_base.hpp"
+                },
+                {
+                    "@type": "item",
+                    "name": "include/xtensor/xchunked_array.hpp"
+                },
+                {
+                    "@type": "item",
+                    "name": "include/xtensor/xrepeat.hpp"
+                },
+                {
+                    "@type": "item",
+                    "name": "include/xtensor/xadapt.hpp"
+                },
+                {
+                    "@type": "item",
+                    "name": "include/xtensor/xstorage.hpp"
+                },
+                {
+                    "@type": "item",
+                    "name": "include/xtensor/xutils.hpp"
+                },
+                {
+                    "@type": "item",
+                    "name": "include/xtensor/xaccumulator.hpp"
+                },
+                {
+                    "@type": "item",
+                    "name": "include/xtensor/xjson.hpp"
+                },
+                {
+                    "@type": "item",
+                    "name": "include/xtensor/xexpression_holder.hpp"
+                },
+                {
+                    "@type": "item",
+                    "name": "include/xtensor/xtensor_simd.hpp"
+                },
+                {
+                    "@type": "item",
+                    "name": "include/xtensor/xhistogram.hpp"
+                },
+                {
+                    "@type": "item",
+                    "name": "include/xtensor/xtensor_config.hpp"
+                },
+                {
+                    "@type": "item",
+                    "name": "include/xtensor/xfixed.hpp"
+                },
+                {
+                    "@type": "item",
+                    "name": "include/xtensor/xoptional.hpp"
+                },
+                {
+                    "@type": "item",
+                    "name": "include/xtensor/xiterable.hpp"
+                },
+                {
+                    "@type": "item",
+                    "name": "include/xtensor/xlayout.hpp"
+                },
+                {
+                    "@type": "item",
+                    "name": "include/xtensor/xgenerator.hpp"
+                },
+                {
+                    "@type": "item",
+                    "name": "include/xtensor/xexpression.hpp"
+                },
+                {
+                    "@type": "item",
+                    "name": "include/xtensor/xvectorize.hpp"
+                },
+                {
+                    "@type": "item",
+                    "name": "include/xtensor/xblockwise_reducer.hpp"
+                },
+                {
+                    "@type": "item",
+                    "name": "include/xtensor/xexpression_traits.hpp"
+                },
+                {
+                    "@type": "item",
+                    "name": "include/xtensor/xview_utils.hpp"
+                },
+                {
+                    "@type": "item",
+                    "name": "include/xtensor/xset_operation.hpp"
+                },
+                {
+                    "@type": "item",
+                    "name": "include/xtensor/xiterator.hpp"
+                },
+                {
+                    "@type": "item",
+                    "name": "include/xtensor/xbroadcast.hpp"
+                },
+                {
+                    "@type": "item",
+                    "name": "include/xtensor/xscalar.hpp"
+                },
+                {
+                    "@type": "item",
+                    "name": "include/xtensor/xstrides.hpp"
+                },
+                {
+                    "@type": "item",
+                    "name": "benchmark/benchmark_view_assignment.cpp"
+                },
+                {
+                    "@type": "item",
+                    "name": "include/xtensor/xmasked_view.hpp"
+                },
+                {
+                    "@type": "item",
+                    "name": "include/xtensor/xtensor.hpp"
+                },
+                {
+                    "@type": "item",
+                    "name": "include/xtensor/xtensor_forward.hpp"
+                },
+                {
+                    "@type": "item",
+                    "name": "include/xtensor/xnpy.hpp"
+                },
+                {
+                    "@type": "item",
+                    "name": "include/xtensor/xslice.hpp"
+                },
+                {
+                    "@type": "item",
+                    "name": "include/xtensor/xcontainer.hpp"
+                },
+                {
+                    "@type": "item",
+                    "name": "include/xtensor/xaccessible.hpp"
+                },
+                {
+                    "@type": "item",
+                    "name": "include/xtensor/xpad.hpp"
+                },
+                {
+                    "@type": "item",
+                    "name": "include/xtensor/xview.hpp"
+                },
+                {
+                    "@type": "item",
+                    "name": "include/xtensor/xsemantic.hpp"
+                }
+            ]
+        },
+        {
+            "@type": "group",
+            "name": "1",
+            "nested": [
+                {
+                    "@type": "item",
+                    "name": "test/test_xfunctor_adaptor.cpp"
+                },
+                {
+                    "@type": "item",
+                    "name": "test/test_extended_xsort.cpp"
+                },
+                {
+                    "@type": "item",
+                    "name": "test/test_utils.hpp"
+                },
+                {
+                    "@type": "item",
+                    "name": "test/test_xfunc_on_xexpression.cpp"
+                },
+                {
+                    "@type": "item",
+                    "name": "test/test_extended_broadcast_view.cpp"
+                },
+                {
+                    "@type": "item",
+                    "name": "test/test_xscalar_semantic.cpp"
+                },
+                {
+                    "@type": "item",
+                    "name": "test/test_xassign.cpp"
+                },
+                {
+                    "@type": "item",
+                    "name": "test/test_xblockwise_reducer.cpp"
+                },
+                {
+                    "@type": "item",
+                    "name": "test/test_common.hpp"
+                },
+                {
+                    "@type": "item",
+                    "name": "test/test_xfunction.cpp"
+                },
+                {
+                    "@type": "item",
+                    "name": "test/test_xsemantic.hpp"
+                },
+                {
+                    "@type": "item",
+                    "name": "test/test_xnoalias.cpp"
+                },
+                {
+                    "@type": "item",
+                    "name": "test/test_xmultiindex_iterator.cpp"
+                },
+                {
+                    "@type": "item",
+                    "name": "test/test_extended_xhistogram.cpp"
+                },
+                {
+                    "@type": "item",
+                    "name": "test/test_common_macros.hpp"
+                },
+                {
+                    "@type": "item",
+                    "name": "test/test_xadaptor_semantic.cpp"
+                },
+                {
+                    "@type": "item",
+                    "name": "test/test_xcontainer_semantic.cpp"
+                },
+                {
+                    "@type": "item",
+                    "name": "test/test_xoperation.cpp"
+                },
+                {
+                    "@type": "item",
+                    "name": "test/test_extended_xmath_interp.cpp"
+                },
+                {
+                    "@type": "item",
+                    "name": "test/test_xexpression.cpp"
+                },
+                {
+                    "@type": "item",
+                    "name": "test/test_extended_xmath_reducers.cpp"
+                },
+                {
+                    "@type": "item",
+                    "name": "test/test_xview_semantic.cpp"
+                },
+                {
+                    "@type": "item",
+                    "name": "test/main.cpp"
+                }
+            ]
+        },
+        {
+            "@type": "group",
+            "name": "2",
+            "nested": [
+                {
+                    "@type": "item",
+                    "name": "test/test_xexpression_holder.cpp"
+                },
+                {
+                    "@type": "item",
+                    "name": "test/test_xjson.cpp"
+                },
+                {
+                    "@type": "item",
+                    "name": "test/test_xchunked_view.cpp"
+                },
+                {
+                    "@type": "item",
+                    "name": "test/test_strided_assign.cpp"
+                },
+                {
+                    "@type": "item",
+                    "name": "test/test_xchunked_array.cpp"
+                },
+                {
+                    "@type": "item",
+                    "name": "test/test_xmime.cpp"
+                },
+                {
+                    "@type": "item",
+                    "name": "test/test_xsimd8.cpp"
+                },
+                {
+                    "@type": "item",
+                    "name": "test/test_xinfo.cpp"
+                },
+                {
+                    "@type": "item",
+                    "name": "test/test_xcsv.cpp"
+                },
+                {
+                    "@type": "item",
+                    "name": "test/test_xexpression_traits.cpp"
+                },
+                {
+                    "@type": "item",
+                    "name": "test/test_xexception.cpp"
+                },
+                {
+                    "@type": "item",
+                    "name": "test/test_sfinae.cpp"
+                },
+                {
+                    "@type": "item",
+                    "name": "test/test_xset_operation.cpp"
+                }
+            ]
+        },
+        {
+            "@type": "group",
+            "name": "3",
+            "nested": [
+                {
+                    "@type": "item",
+                    "name": "include/xtensor/xoffset_view.hpp"
+                },
+                {
+                    "@type": "item",
+                    "name": "include/xtensor/xbuilder.hpp"
+                },
+                {
+                    "@type": "item",
+                    "name": "include/xtensor/xmath.hpp"
+                },
+                {
+                    "@type": "item",
+                    "name": "include/xtensor/xnoalias.hpp"
+                },
+                {
+                    "@type": "item",
+                    "name": "include/xtensor/xblockwise_reducer_functors.hpp"
+                },
+                {
+                    "@type": "item",
+                    "name": "include/xtensor/xnorm.hpp"
+                },
+                {
+                    "@type": "item",
+                    "name": "include/xtensor/xchunked_view.hpp"
+                },
+                {
+                    "@type": "item",
+                    "name": "include/xtensor/xchunked_assign.hpp"
+                },
+                {
+                    "@type": "item",
+                    "name": "include/xtensor/xcomplex.hpp"
+                },
+                {
+                    "@type": "item",
+                    "name": "include/xtensor/xinfo.hpp"
+                }
+            ]
+        },
+        {
+            "@type": "group",
+            "name": "4",
+            "nested": [
+                {
+                    "@type": "item",
+                    "name": "include/xtensor/xmime.hpp"
+                },
+                {
+                    "@type": "item",
+                    "name": "include/xtensor/xstrided_view.hpp"
+                },
+                {
+                    "@type": "item",
+                    "name": "include/xtensor/xaxis_iterator.hpp"
+                },
+                {
+                    "@type": "item",
+                    "name": "include/xtensor/xio.hpp"
+                },
+                {
+                    "@type": "item",
+                    "name": "test/test_xdatesupport.cpp"
+                },
+                {
+                    "@type": "item",
+                    "name": "include/xtensor/xmultiindex_iterator.hpp"
+                },
+                {
+                    "@type": "item",
+                    "name": "include/xtensor/xaxis_slice_iterator.hpp"
+                }
+            ]
+        },
+        {
+            "@type": "group",
+            "name": "5",
+            "nested": [
+                {
+                    "@type": "item",
+                    "name": "benchmark/benchmark_assign.cpp"
+                },
+                {
+                    "@type": "item",
+                    "name": "benchmark/benchmark_builder.cpp"
+                },
+                {
+                    "@type": "item",
+                    "name": "benchmark/benchmark_random.cpp"
+                },
+                {
+                    "@type": "item",
+                    "name": "benchmark/benchmark_view_adapt.cpp"
+                },
+                {
+                    "@type": "item",
+                    "name": "benchmark/benchmark_views.cpp"
+                }
+            ]
+        },
+        {
+            "@type": "group",
+            "name": "6",
+            "nested": [
+                {
+                    "@type": "item",
+                    "name": "benchmark/benchmark_xshape.cpp"
+                },
+                {
+                    "@type": "item",
+                    "name": "benchmark/benchmark_increment_stepper.cpp"
+                },
+                {
+                    "@type": "item",
+                    "name": "benchmark/benchmark_math.cpp"
+                },
+                {
+                    "@type": "item",
+                    "name": "benchmark/benchmark_creation.cpp"
+                },
+                {
+                    "@type": "item",
+                    "name": "benchmark/benchmark_container.cpp"
+                }
+            ]
+        },
+        {
+            "@type": "group",
+            "name": "7",
+            "nested": [
+                {
+                    "@type": "item",
+                    "name": "test/test_xmath_result_type.cpp"
+                },
+                {
+                    "@type": "item",
+                    "name": "test/test_xtensor_semantic.cpp"
+                },
+                {
+                    "@type": "item",
+                    "name": "test/test_xoptional_assembly.cpp"
+                },
+                {
+                    "@type": "item",
+                    "name": "test/test_xoptional_assembly_adaptor.cpp"
+                }
+            ]
+        },
+        {
+            "@type": "group",
+            "name": "8",
+            "nested": [
+                {
+                    "@type": "item",
+                    "name": "test/test_xrandom.cpp"
+                },
+                {
+                    "@type": "item",
+                    "name": "test/test_xmath.cpp"
+                },
+                {
+                    "@type": "item",
+                    "name": "test/test_xnpy.cpp"
+                },
+                {
+                    "@type": "item",
+                    "name": "test/test_xutils.cpp"
+                }
+            ]
+        },
+        {
+            "@type": "group",
+            "name": "9",
+            "nested": [
+                {
+                    "@type": "item",
+                    "name": "test/test_xbroadcast.cpp"
+                },
+                {
+                    "@type": "item",
+                    "name": "test/test_xbuffer_adaptor.cpp"
+                },
+                {
+                    "@type": "item",
+                    "name": "test/test_xiterator.cpp"
+                }
+            ]
+        },
+        {
+            "@type": "group",
+            "name": "10",
+            "nested": [
+                {
+                    "@type": "item",
+                    "name": "test/test_xfixed.cpp"
+                },
+                {
+                    "@type": "item",
+                    "name": "test/test_xsimd.cpp"
+                },
+                {
+                    "@type": "item",
+                    "name": "test/test_xmanipulation.cpp"
+                }
+            ]
+        },
+        {
+            "@type": "group",
+            "name": "11",
+            "nested": [
+                {
+                    "@type": "item",
+                    "name": "test/files/xio_expected_results.hpp"
+                },
+                {
+                    "@type": "item",
+                    "name": "test/test_xio.cpp"
+                }
+            ]
+        },
+        {
+            "@type": "group",
+            "name": "12",
+            "nested": [
+                {
+                    "@type": "item",
+                    "name": "test/test_xcomplex.cpp"
+                },
+                {
+                    "@type": "item",
+                    "name": "test/test_xoptional.cpp"
+                }
+            ]
+        },
+        {
+            "@type": "group",
+            "name": "13",
+            "nested": [
+                {
+                    "@type": "item",
+                    "name": "test/test_xarray_adaptor.cpp"
+                },
+                {
+                    "@type": "item",
+                    "name": "test/test_xtensor_adaptor.cpp"
+                }
+            ]
+        },
+        {
+            "@type": "group",
+            "name": "14",
+            "nested": [
+                {
+                    "@type": "item",
+                    "name": "include/xtensor/xbuffer_adaptor.hpp"
+                },
+                {
+                    "@type": "item",
+                    "name": "test/test_xreducer.cpp"
+                },
+                {
+                    "@type": "item",
+                    "name": "test/test_xbuilder.cpp"
+                },
+                {
+                    "@type": "item",
+                    "name": "test/test_xstrided_view.cpp"
+                },
+                {
+                    "@type": "item",
+                    "name": "test/test_xview.cpp"
+                },
+                {
+                    "@type": "item",
+                    "name": "include/xtensor/xoptional_assembly_storage.hpp"
+                },
+                {
+                    "@type": "item",
+                    "name": "include/xtensor/xfunctor_view.hpp"
+                }
+            ]
+        },
+        {
+            "@type": "group",
+            "name": "15",
+            "nested": [
+                {
+                    "@type": "item",
+                    "name": "benchmark/benchmark_adapter.cpp"
+                }
+            ]
+        },
+        {
+            "@type": "group",
+            "name": "16",
+            "nested": [
+                {
+                    "@type": "item",
+                    "name": "benchmark/benchmark_lambda_expressions.cpp"
+                }
+            ]
+        },
+        {
+            "@type": "group",
+            "name": "17",
+            "nested": [
+                {
+                    "@type": "item",
+                    "name": "benchmark/benchmark_reducer.cpp"
+                }
+            ]
+        },
+        {
+            "@type": "group",
+            "name": "18",
+            "nested": [
+                {
+                    "@type": "item",
+                    "name": "benchmark/benchmark_view_access.cpp"
+                }
+            ]
+        },
+        {
+            "@type": "group",
+            "name": "19",
+            "nested": [
+                {
+                    "@type": "item",
+                    "name": "benchmark/main.cpp"
+                }
+            ]
+        },
+        {
+            "@type": "group",
+            "name": "20",
+            "nested": [
+                {
+                    "@type": "item",
+                    "name": "include/xtensor/xrandom.hpp"
+                }
+            ]
+        },
+        {
+            "@type": "group",
+            "name": "21",
+            "nested": [
+                {
+                    "@type": "item",
+                    "name": "test/test_xaccumulator.cpp"
+                }
+            ]
+        },
+        {
+            "@type": "group",
+            "name": "22",
+            "nested": [
+                {
+                    "@type": "item",
+                    "name": "test/test_xadapt.cpp"
+                }
+            ]
+        },
+        {
+            "@type": "group",
+            "name": "23",
+            "nested": [
+                {
+                    "@type": "item",
+                    "name": "test/test_xarray.cpp"
+                }
+            ]
+        },
+        {
+            "@type": "group",
+            "name": "24",
+            "nested": [
+                {
+                    "@type": "item",
+                    "name": "test/test_xaxis_iterator.cpp"
+                }
+            ]
+        },
+        {
+            "@type": "group",
+            "name": "25",
+            "nested": [
+                {
+                    "@type": "item",
+                    "name": "test/test_xaxis_slice_iterator.cpp"
+                }
+            ]
+        },
+        {
+            "@type": "group",
+            "name": "26",
+            "nested": [
+                {
+                    "@type": "item",
+                    "name": "test/test_xdynamic_view.cpp"
+                }
+            ]
+        },
+        {
+            "@type": "group",
+            "name": "27",
+            "nested": [
+                {
+                    "@type": "item",
+                    "name": "test/test_xeval.cpp"
+                }
+            ]
+        },
+        {
+            "@type": "group",
+            "name": "28",
+            "nested": [
+                {
+                    "@type": "item",
+                    "name": "test/test_xhistogram.cpp"
+                }
+            ]
+        },
+        {
+            "@type": "group",
+            "name": "29",
+            "nested": [
+                {
+                    "@type": "item",
+                    "name": "test/test_xindex_view.cpp"
+                }
+            ]
+        },
+        {
+            "@type": "group",
+            "name": "30",
+            "nested": [
+                {
+                    "@type": "item",
+                    "name": "test/test_xlayout.cpp"
+                }
+            ]
+        },
+        {
+            "@type": "group",
+            "name": "31",
+            "nested": [
+                {
+                    "@type": "item",
+                    "name": "test/test_xmasked_view.cpp"
+                }
+            ]
+        },
+        {
+            "@type": "group",
+            "name": "32",
+            "nested": [
+                {
+                    "@type": "item",
+                    "name": "test/test_xnan_functions.cpp"
+                }
+            ]
+        },
+        {
+            "@type": "group",
+            "name": "33",
+            "nested": [
+                {
+                    "@type": "item",
+                    "name": "test/test_xnorm.cpp"
+                }
+            ]
+        },
+        {
+            "@type": "group",
+            "name": "34",
+            "nested": [
+                {
+                    "@type": "item",
+                    "name": "test/test_xoptional_assembly_storage.cpp"
+                }
+            ]
+        },
+        {
+            "@type": "group",
+            "name": "35",
+            "nested": [
+                {
+                    "@type": "item",
+                    "name": "test/test_xpad.cpp"
+                }
+            ]
+        },
+        {
+            "@type": "group",
+            "name": "36",
+            "nested": [
+                {
+                    "@type": "item",
+                    "name": "test/test_xrepeat.cpp"
+                }
+            ]
+        },
+        {
+            "@type": "group",
+            "name": "37",
+            "nested": [
+                {
+                    "@type": "item",
+                    "name": "test/test_xscalar.cpp"
+                }
+            ]
+        },
+        {
+            "@type": "group",
+            "name": "38",
+            "nested": [
+                {
+                    "@type": "item",
+                    "name": "test/test_xshape.cpp"
+                }
+            ]
+        },
+        {
+            "@type": "group",
+            "name": "39",
+            "nested": [
+                {
+                    "@type": "item",
+                    "name": "test/test_xsort.cpp"
+                }
+            ]
+        },
+        {
+            "@type": "group",
+            "name": "40",
+            "nested": [
+                {
+                    "@type": "item",
+                    "name": "test/test_xstorage.cpp"
+                }
+            ]
+        },
+        {
+            "@type": "group",
+            "name": "41",
+            "nested": [
+                {
+                    "@type": "item",
+                    "name": "test/test_xstrides.cpp"
+                }
+            ]
+        },
+        {
+            "@type": "group",
+            "name": "42",
+            "nested": [
+                {
+                    "@type": "item",
+                    "name": "test/test_xtensor.cpp"
+                }
+            ]
+        },
+        {
+            "@type": "group",
+            "name": "43",
+            "nested": [
+                {
+                    "@type": "item",
+                    "name": "test/test_xvectorize.cpp"
+                }
+            ]
+        }
+    ]
+}

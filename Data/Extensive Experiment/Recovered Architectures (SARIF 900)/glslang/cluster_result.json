@@ -1,0 +1,822 @@
+{
+    "@schemaVersion": "1.0",
+    "name": "clustering",
+    "structure": [
+        {
+            "@type": "group",
+            "name": "0",
+            "nested": [
+                {
+                    "@type": "item",
+                    "name": "gtests/HexFloat.cpp"
+                },
+                {
+                    "@type": "item",
+                    "name": "gtests/Settings.h"
+                },
+                {
+                    "@type": "item",
+                    "name": "gtests/Remap.FromFile.cpp"
+                },
+                {
+                    "@type": "item",
+                    "name": "gtests/pch.h"
+                },
+                {
+                    "@type": "item",
+                    "name": "gtests/TestFixture.h"
+                },
+                {
+                    "@type": "item",
+                    "name": "gtests/TestFixture.cpp"
+                },
+                {
+                    "@type": "item",
+                    "name": "gtests/Settings.cpp"
+                },
+                {
+                    "@type": "item",
+                    "name": "gtests/Pp.FromFile.cpp"
+                },
+                {
+                    "@type": "item",
+                    "name": "gtests/GlslMapIO.FromFile.cpp"
+                },
+                {
+                    "@type": "item",
+                    "name": "gtests/BuiltInResource.FromFile.cpp"
+                },
+                {
+                    "@type": "item",
+                    "name": "gtests/main.cpp"
+                },
+                {
+                    "@type": "item",
+                    "name": "gtests/Link.FromFile.cpp"
+                },
+                {
+                    "@type": "item",
+                    "name": "gtests/Initializer.h"
+                },
+                {
+                    "@type": "item",
+                    "name": "gtests/AST.FromFile.cpp"
+                },
+                {
+                    "@type": "item",
+                    "name": "gtests/Common.cpp"
+                },
+                {
+                    "@type": "item",
+                    "name": "gtests/VkRelaxed.FromFile.cpp"
+                },
+                {
+                    "@type": "item",
+                    "name": "gtests/Hlsl.FromFile.cpp"
+                },
+                {
+                    "@type": "item",
+                    "name": "gtests/Spv.FromFile.cpp"
+                },
+                {
+                    "@type": "item",
+                    "name": "gtests/Link.FromFile.Vk.cpp"
+                },
+                {
+                    "@type": "item",
+                    "name": "gtests/Config.FromFile.cpp"
+                }
+            ]
+        },
+        {
+            "@type": "group",
+            "name": "1",
+            "nested": [
+                {
+                    "@type": "item",
+                    "name": "glslang/Include/InitializeGlobals.h"
+                },
+                {
+                    "@type": "item",
+                    "name": "glslang/Include/PoolAlloc.h"
+                },
+                {
+                    "@type": "item",
+                    "name": "glslang/MachineIndependent/PoolAlloc.cpp"
+                },
+                {
+                    "@type": "item",
+                    "name": "glslang/MachineIndependent/localintermediate.h"
+                },
+                {
+                    "@type": "item",
+                    "name": "glslang/MachineIndependent/Intermediate.cpp"
+                },
+                {
+                    "@type": "item",
+                    "name": "glslang/MachineIndependent/intermOut.cpp"
+                },
+                {
+                    "@type": "item",
+                    "name": "glslang/MachineIndependent/linkValidate.cpp"
+                },
+                {
+                    "@type": "item",
+                    "name": "glslang/MachineIndependent/parseConst.cpp"
+                },
+                {
+                    "@type": "item",
+                    "name": "glslang/MachineIndependent/IntermTraverse.cpp"
+                },
+                {
+                    "@type": "item",
+                    "name": "glslang/MachineIndependent/pch.h"
+                },
+                {
+                    "@type": "item",
+                    "name": "glslang/OSDependent/Unix/ossource.cpp"
+                },
+                {
+                    "@type": "item",
+                    "name": "glslang/HLSL/hlslAttributes.h"
+                },
+                {
+                    "@type": "item",
+                    "name": "glslang/MachineIndependent/RemoveTree.h"
+                },
+                {
+                    "@type": "item",
+                    "name": "glslang/MachineIndependent/RemoveTree.cpp"
+                },
+                {
+                    "@type": "item",
+                    "name": "glslang/MachineIndependent/propagateNoContraction.h"
+                },
+                {
+                    "@type": "item",
+                    "name": "glslang/Include/InfoSink.h"
+                },
+                {
+                    "@type": "item",
+                    "name": "glslang/MachineIndependent/InfoSink.cpp"
+                },
+                {
+                    "@type": "item",
+                    "name": "glslang/HLSL/pch.h"
+                },
+                {
+                    "@type": "item",
+                    "name": "glslang/HLSL/hlslParseables.h"
+                },
+                {
+                    "@type": "item",
+                    "name": "glslang/OSDependent/Windows/main.cpp"
+                },
+                {
+                    "@type": "item",
+                    "name": "glslang/OSDependent/osinclude.h"
+                },
+                {
+                    "@type": "item",
+                    "name": "glslang/OSDependent/Windows/ossource.cpp"
+                },
+                {
+                    "@type": "item",
+                    "name": "glslang/HLSL/hlslOpMap.h"
+                },
+                {
+                    "@type": "item",
+                    "name": "glslang/HLSL/hlslOpMap.cpp"
+                }
+            ]
+        },
+        {
+            "@type": "group",
+            "name": "2",
+            "nested": [
+                {
+                    "@type": "item",
+                    "name": "SPIRV/disassemble.h"
+                },
+                {
+                    "@type": "item",
+                    "name": "SPIRV/disassemble.cpp"
+                },
+                {
+                    "@type": "item",
+                    "name": "SPIRV/Logger.h"
+                },
+                {
+                    "@type": "item",
+                    "name": "SPIRV/Logger.cpp"
+                },
+                {
+                    "@type": "item",
+                    "name": "SPIRV/GLSL.ext.NV.h"
+                },
+                {
+                    "@type": "item",
+                    "name": "SPIRV/GLSL.ext.EXT.h"
+                },
+                {
+                    "@type": "item",
+                    "name": "SPIRV/GLSL.ext.ARM.h"
+                },
+                {
+                    "@type": "item",
+                    "name": "SPIRV/NonSemanticDebugPrintf.h"
+                },
+                {
+                    "@type": "item",
+                    "name": "SPIRV/SpvTools.cpp"
+                },
+                {
+                    "@type": "item",
+                    "name": "SPIRV/doc.h"
+                },
+                {
+                    "@type": "item",
+                    "name": "SPIRV/doc.cpp"
+                },
+                {
+                    "@type": "item",
+                    "name": "SPIRV/GlslangToSpv.h"
+                },
+                {
+                    "@type": "item",
+                    "name": "SPIRV/GLSL.ext.AMD.h"
+                },
+                {
+                    "@type": "item",
+                    "name": "SPIRV/SpvTools.h"
+                },
+                {
+                    "@type": "item",
+                    "name": "SPIRV/NonSemanticShaderDebugInfo100.h"
+                },
+                {
+                    "@type": "item",
+                    "name": "SPIRV/GLSL.ext.KHR.h"
+                }
+            ]
+        },
+        {
+            "@type": "group",
+            "name": "3",
+            "nested": [
+                {
+                    "@type": "item",
+                    "name": "glslang/HLSL/hlslScanContext.cpp"
+                },
+                {
+                    "@type": "item",
+                    "name": "glslang/HLSL/hlslTokens.h"
+                },
+                {
+                    "@type": "item",
+                    "name": "glslang/MachineIndependent/Scan.h"
+                },
+                {
+                    "@type": "item",
+                    "name": "glslang/MachineIndependent/preprocessor/PpAtom.cpp"
+                },
+                {
+                    "@type": "item",
+                    "name": "glslang/HLSL/hlslTokenStream.h"
+                },
+                {
+                    "@type": "item",
+                    "name": "glslang/HLSL/hlslTokenStream.cpp"
+                },
+                {
+                    "@type": "item",
+                    "name": "glslang/MachineIndependent/preprocessor/PpContext.h"
+                },
+                {
+                    "@type": "item",
+                    "name": "glslang/MachineIndependent/preprocessor/PpTokens.cpp"
+                },
+                {
+                    "@type": "item",
+                    "name": "glslang/MachineIndependent/preprocessor/PpContext.cpp"
+                },
+                {
+                    "@type": "item",
+                    "name": "glslang/MachineIndependent/preprocessor/PpScanner.cpp"
+                },
+                {
+                    "@type": "item",
+                    "name": "glslang/MachineIndependent/glslang_tab.cpp.h"
+                },
+                {
+                    "@type": "item",
+                    "name": "glslang/MachineIndependent/glslang_tab.cpp"
+                },
+                {
+                    "@type": "item",
+                    "name": "glslang/MachineIndependent/ScanContext.h"
+                },
+                {
+                    "@type": "item",
+                    "name": "glslang/MachineIndependent/Scan.cpp"
+                },
+                {
+                    "@type": "item",
+                    "name": "glslang/MachineIndependent/preprocessor/PpTokens.h"
+                },
+                {
+                    "@type": "item",
+                    "name": "glslang/MachineIndependent/preprocessor/Pp.cpp"
+                },
+                {
+                    "@type": "item",
+                    "name": "glslang/HLSL/hlslScanContext.h"
+                }
+            ]
+        },
+        {
+            "@type": "group",
+            "name": "4",
+            "nested": [
+                {
+                    "@type": "item",
+                    "name": "glslang/MachineIndependent/iomapper.h"
+                },
+                {
+                    "@type": "item",
+                    "name": "glslang/MachineIndependent/iomapper.cpp"
+                },
+                {
+                    "@type": "item",
+                    "name": "glslang/MachineIndependent/reflection.h"
+                },
+                {
+                    "@type": "item",
+                    "name": "glslang/Public/ShaderLang.h"
+                },
+                {
+                    "@type": "item",
+                    "name": "glslang/MachineIndependent/reflection.cpp"
+                },
+                {
+                    "@type": "item",
+                    "name": "glslang/MachineIndependent/gl_types.h"
+                },
+                {
+                    "@type": "item",
+                    "name": "glslang/MachineIndependent/ShaderLang.cpp"
+                },
+                {
+                    "@type": "item",
+                    "name": "glslang/HLSL/hlslParseables.cpp"
+                },
+                {
+                    "@type": "item",
+                    "name": "glslang/Include/ShHandle.h"
+                },
+                {
+                    "@type": "item",
+                    "name": "glslang/GenericCodeGen/CodeGen.cpp"
+                },
+                {
+                    "@type": "item",
+                    "name": "glslang/GenericCodeGen/Link.cpp"
+                },
+                {
+                    "@type": "item",
+                    "name": "glslang/MachineIndependent/Initialize.h"
+                },
+                {
+                    "@type": "item",
+                    "name": "glslang/MachineIndependent/parseVersions.h"
+                },
+                {
+                    "@type": "item",
+                    "name": "glslang/MachineIndependent/Versions.cpp"
+                },
+                {
+                    "@type": "item",
+                    "name": "glslang/MachineIndependent/Initialize.cpp"
+                },
+                {
+                    "@type": "item",
+                    "name": "glslang/MachineIndependent/Versions.h"
+                }
+            ]
+        },
+        {
+            "@type": "group",
+            "name": "5",
+            "nested": [
+                {
+                    "@type": "item",
+                    "name": "glslang/HLSL/hlslGrammar.h"
+                },
+                {
+                    "@type": "item",
+                    "name": "glslang/HLSL/hlslGrammar.cpp"
+                },
+                {
+                    "@type": "item",
+                    "name": "glslang/Include/Common.h"
+                },
+                {
+                    "@type": "item",
+                    "name": "glslang/Include/arrays.h"
+                },
+                {
+                    "@type": "item",
+                    "name": "glslang/Include/intermediate.h"
+                },
+                {
+                    "@type": "item",
+                    "name": "glslang/Include/SpirvIntrinsics.h"
+                },
+                {
+                    "@type": "item",
+                    "name": "glslang/HLSL/hlslParseHelper.h"
+                },
+                {
+                    "@type": "item",
+                    "name": "glslang/HLSL/hlslAttributes.cpp"
+                },
+                {
+                    "@type": "item",
+                    "name": "glslang/HLSL/hlslParseHelper.cpp"
+                },
+                {
+                    "@type": "item",
+                    "name": "glslang/Include/BaseTypes.h"
+                },
+                {
+                    "@type": "item",
+                    "name": "glslang/MachineIndependent/propagateNoContraction.cpp"
+                },
+                {
+                    "@type": "item",
+                    "name": "glslang/MachineIndependent/ParseHelper.h"
+                },
+                {
+                    "@type": "item",
+                    "name": "glslang/MachineIndependent/SymbolTable.h"
+                },
+                {
+                    "@type": "item",
+                    "name": "glslang/Include/Types.h"
+                },
+                {
+                    "@type": "item",
+                    "name": "glslang/MachineIndependent/attribute.h"
+                },
+                {
+                    "@type": "item",
+                    "name": "glslang/MachineIndependent/limits.cpp"
+                },
+                {
+                    "@type": "item",
+                    "name": "glslang/MachineIndependent/SymbolTable.cpp"
+                },
+                {
+                    "@type": "item",
+                    "name": "glslang/MachineIndependent/attribute.cpp"
+                },
+                {
+                    "@type": "item",
+                    "name": "glslang/MachineIndependent/ParseHelper.cpp"
+                },
+                {
+                    "@type": "item",
+                    "name": "glslang/MachineIndependent/SpirvIntrinsics.cpp"
+                },
+                {
+                    "@type": "item",
+                    "name": "glslang/MachineIndependent/ParseContextBase.cpp"
+                }
+            ]
+        },
+        {
+            "@type": "group",
+            "name": "6",
+            "nested": [
+                {
+                    "@type": "item",
+                    "name": "glslang/Include/ResourceLimits.h"
+                },
+                {
+                    "@type": "item",
+                    "name": "glslang/OSDependent/Web/glslang.js.cpp"
+                },
+                {
+                    "@type": "item",
+                    "name": "glslang/Include/glslang_c_shader_types.h"
+                },
+                {
+                    "@type": "item",
+                    "name": "glslang/Include/glslang_c_interface.h"
+                },
+                {
+                    "@type": "item",
+                    "name": "SPIRV/CInterface/spirv_c_interface.cpp"
+                },
+                {
+                    "@type": "item",
+                    "name": "glslang/CInterface/glslang_c_interface.cpp"
+                },
+                {
+                    "@type": "item",
+                    "name": "glslang/Public/ResourceLimits.h"
+                },
+                {
+                    "@type": "item",
+                    "name": "glslang/ResourceLimits/ResourceLimits.cpp"
+                },
+                {
+                    "@type": "item",
+                    "name": "glslang/Public/resource_limits_c.h"
+                },
+                {
+                    "@type": "item",
+                    "name": "glslang/ResourceLimits/resource_limits_c.cpp"
+                }
+            ]
+        },
+        {
+            "@type": "group",
+            "name": "7",
+            "nested": [
+                {
+                    "@type": "item",
+                    "name": "SPIRV/SpvBuilder.h"
+                },
+                {
+                    "@type": "item",
+                    "name": "SPIRV/SpvPostProcess.cpp"
+                },
+                {
+                    "@type": "item",
+                    "name": "SPIRV/SpvBuilder.cpp"
+                },
+                {
+                    "@type": "item",
+                    "name": "SPIRV/spirv.hpp"
+                },
+                {
+                    "@type": "item",
+                    "name": "SPIRV/GlslangToSpv.cpp"
+                },
+                {
+                    "@type": "item",
+                    "name": "SPIRV/SPVRemapper.h"
+                },
+                {
+                    "@type": "item",
+                    "name": "SPIRV/SPVRemapper.cpp"
+                },
+                {
+                    "@type": "item",
+                    "name": "SPIRV/spvIR.h"
+                },
+                {
+                    "@type": "item",
+                    "name": "SPIRV/InReadableOrder.cpp"
+                },
+                {
+                    "@type": "item",
+                    "name": "SPIRV/GLSL.std.450.h"
+                }
+            ]
+        },
+        {
+            "@type": "group",
+            "name": "8",
+            "nested": [
+                {
+                    "@type": "item",
+                    "name": "StandAlone/StandAlone.cpp"
+                },
+                {
+                    "@type": "item",
+                    "name": "StandAlone/spirv-remap.cpp"
+                },
+                {
+                    "@type": "item",
+                    "name": "StandAlone/DirStackFileIncluder.h"
+                },
+                {
+                    "@type": "item",
+                    "name": "StandAlone/Worklist.h"
+                }
+            ]
+        },
+        {
+            "@type": "group",
+            "name": "9",
+            "nested": [
+                {
+                    "@type": "item",
+                    "name": "glslang/Include/ConstantUnion.h"
+                },
+                {
+                    "@type": "item",
+                    "name": "glslang/MachineIndependent/LiveTraverser.h"
+                },
+                {
+                    "@type": "item",
+                    "name": "glslang/MachineIndependent/Constant.cpp"
+                }
+            ]
+        },
+        {
+            "@type": "group",
+            "name": "10",
+            "nested": [
+                {
+                    "@type": "item",
+                    "name": "SPIRV/hex_float.h"
+                },
+                {
+                    "@type": "item",
+                    "name": "SPIRV/bitutils.h"
+                }
+            ]
+        },
+        {
+            "@type": "group",
+            "name": "11",
+            "nested": [
+                {
+                    "@type": "item",
+                    "name": "Test/foo.h"
+                },
+                {
+                    "@type": "item",
+                    "name": "Test/i1.h"
+                }
+            ]
+        },
+        {
+            "@type": "group",
+            "name": "12",
+            "nested": [
+                {
+                    "@type": "item",
+                    "name": "hlsl/stub.cpp"
+                }
+            ]
+        },
+        {
+            "@type": "group",
+            "name": "13",
+            "nested": [
+                {
+                    "@type": "item",
+                    "name": "ndk_test/test.cpp"
+                }
+            ]
+        },
+        {
+            "@type": "group",
+            "name": "14",
+            "nested": [
+                {
+                    "@type": "item",
+                    "name": "Test/bar.h"
+                }
+            ]
+        },
+        {
+            "@type": "group",
+            "name": "15",
+            "nested": [
+                {
+                    "@type": "item",
+                    "name": "Test/parent.h"
+                }
+            ]
+        },
+        {
+            "@type": "group",
+            "name": "16",
+            "nested": [
+                {
+                    "@type": "item",
+                    "name": "Test/inc1/bar.h"
+                }
+            ]
+        },
+        {
+            "@type": "group",
+            "name": "17",
+            "nested": [
+                {
+                    "@type": "item",
+                    "name": "Test/inc1/foo.h"
+                }
+            ]
+        },
+        {
+            "@type": "group",
+            "name": "18",
+            "nested": [
+                {
+                    "@type": "item",
+                    "name": "Test/inc1/badInc.h"
+                }
+            ]
+        },
+        {
+            "@type": "group",
+            "name": "19",
+            "nested": [
+                {
+                    "@type": "item",
+                    "name": "Test/inc1/path1/bar.h"
+                }
+            ]
+        },
+        {
+            "@type": "group",
+            "name": "20",
+            "nested": [
+                {
+                    "@type": "item",
+                    "name": "Test/inc1/path1/local.h"
+                }
+            ]
+        },
+        {
+            "@type": "group",
+            "name": "21",
+            "nested": [
+                {
+                    "@type": "item",
+                    "name": "Test/inc1/path1/notHere.h"
+                }
+            ]
+        },
+        {
+            "@type": "group",
+            "name": "22",
+            "nested": [
+                {
+                    "@type": "item",
+                    "name": "Test/inc1/path2/bar.h"
+                }
+            ]
+        },
+        {
+            "@type": "group",
+            "name": "23",
+            "nested": [
+                {
+                    "@type": "item",
+                    "name": "Test/inc1/path2/notHere.h"
+                }
+            ]
+        },
+        {
+            "@type": "group",
+            "name": "24",
+            "nested": [
+                {
+                    "@type": "item",
+                    "name": "Test/inc1/path2/remote.h"
+                }
+            ]
+        },
+        {
+            "@type": "group",
+            "name": "25",
+            "nested": [
+                {
+                    "@type": "item",
+                    "name": "Test/inc2/bar.h"
+                }
+            ]
+        },
+        {
+            "@type": "group",
+            "name": "26",
+            "nested": [
+                {
+                    "@type": "item",
+                    "name": "Test/inc2/foo.h"
+                }
+            ]
+        },
+        {
+            "@type": "group",
+            "name": "27",
+            "nested": [
+                {
+                    "@type": "item",
+                    "name": "OGLCompilersDLL/InitializeDll.h"
+                },
+                {
+                    "@type": "item",
+                    "name": "OGLCompilersDLL/InitializeDll.cpp"
+                }
+            ]
+        }
+    ]
+}

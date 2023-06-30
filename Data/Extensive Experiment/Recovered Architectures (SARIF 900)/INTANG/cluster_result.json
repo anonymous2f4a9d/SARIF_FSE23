@@ -1,0 +1,656 @@
+{
+    "@schemaVersion": "1.0",
+    "name": "clustering",
+    "structure": [
+        {
+            "@type": "group",
+            "name": "0",
+            "nested": [
+                {
+                    "@type": "item",
+                    "name": "src/helper.h"
+                },
+                {
+                    "@type": "item",
+                    "name": "src/helper.c"
+                },
+                {
+                    "@type": "item",
+                    "name": "src/redis.c"
+                },
+                {
+                    "@type": "item",
+                    "name": "src/notinuse/mycache.h"
+                },
+                {
+                    "@type": "item",
+                    "name": "src/notinuse/mycache.c"
+                },
+                {
+                    "@type": "item",
+                    "name": "src/discrepancy.h"
+                },
+                {
+                    "@type": "item",
+                    "name": "src/discrepancy.c"
+                },
+                {
+                    "@type": "item",
+                    "name": "src/test.h"
+                },
+                {
+                    "@type": "item",
+                    "name": "src/protocol.h"
+                },
+                {
+                    "@type": "item",
+                    "name": "src/ttl_probing.h"
+                },
+                {
+                    "@type": "item",
+                    "name": "src/ttl_probing.c"
+                },
+                {
+                    "@type": "item",
+                    "name": "src/test.c"
+                },
+                {
+                    "@type": "item",
+                    "name": "src/feedback.h"
+                },
+                {
+                    "@type": "item",
+                    "name": "src/memcache.h"
+                },
+                {
+                    "@type": "item",
+                    "name": "src/memcache.c"
+                },
+                {
+                    "@type": "item",
+                    "name": "src/dnscli.c"
+                },
+                {
+                    "@type": "item",
+                    "name": "src/dns.h"
+                },
+                {
+                    "@type": "item",
+                    "name": "src/dns.c"
+                },
+                {
+                    "@type": "item",
+                    "name": "src/logging.h"
+                },
+                {
+                    "@type": "item",
+                    "name": "src/notinuse/dbhelper.h"
+                },
+                {
+                    "@type": "item",
+                    "name": "src/notinuse/dbhelper.c"
+                },
+                {
+                    "@type": "item",
+                    "name": "src/redis.h"
+                },
+                {
+                    "@type": "item",
+                    "name": "src/cache.h"
+                },
+                {
+                    "@type": "item",
+                    "name": "src/cache.c"
+                },
+                {
+                    "@type": "item",
+                    "name": "src/logging.c"
+                },
+                {
+                    "@type": "item",
+                    "name": "src/strategy.h"
+                },
+                {
+                    "@type": "item",
+                    "name": "src/strategy.c"
+                },
+                {
+                    "@type": "item",
+                    "name": "src/dnscli.h"
+                },
+                {
+                    "@type": "item",
+                    "name": "src/socket.h"
+                },
+                {
+                    "@type": "item",
+                    "name": "src/socket.c"
+                },
+                {
+                    "@type": "item",
+                    "name": "src/order.c"
+                },
+                {
+                    "@type": "item",
+                    "name": "src/globals.h"
+                },
+                {
+                    "@type": "item",
+                    "name": "src/main.c"
+                },
+                {
+                    "@type": "item",
+                    "name": "src/order.h"
+                },
+                {
+                    "@type": "item",
+                    "name": "src/feedback.c"
+                }
+            ]
+        },
+        {
+            "@type": "group",
+            "name": "1",
+            "nested": [
+                {
+                    "@type": "item",
+                    "name": "src/strategies/rst_small_ttl_and_wrong_ack.h"
+                },
+                {
+                    "@type": "item",
+                    "name": "src/strategies/rst_small_ttl_and_wrong_ack.c"
+                },
+                {
+                    "@type": "item",
+                    "name": "src/strategies/rst_small_ttl.h"
+                },
+                {
+                    "@type": "item",
+                    "name": "src/strategies/rst_small_ttl.c"
+                },
+                {
+                    "@type": "item",
+                    "name": "src/strategies/rst_organic_wrong_checksum.h"
+                },
+                {
+                    "@type": "item",
+                    "name": "src/strategies/rst_organic_wrong_checksum.c"
+                },
+                {
+                    "@type": "item",
+                    "name": "src/strategies/reverse_tcb.h"
+                },
+                {
+                    "@type": "item",
+                    "name": "src/strategies/reverse_tcb.c"
+                },
+                {
+                    "@type": "item",
+                    "name": "src/strategies/rst_organic.h"
+                },
+                {
+                    "@type": "item",
+                    "name": "src/strategies/rst_organic.c"
+                },
+                {
+                    "@type": "item",
+                    "name": "src/strategies/do_super.h"
+                },
+                {
+                    "@type": "item",
+                    "name": "src/strategies/do_super.c"
+                },
+                {
+                    "@type": "item",
+                    "name": "src/strategies/multiple_syn.h"
+                },
+                {
+                    "@type": "item",
+                    "name": "src/strategies/multiple_syn.c"
+                }
+            ]
+        },
+        {
+            "@type": "group",
+            "name": "2",
+            "nested": [
+                {
+                    "@type": "item",
+                    "name": "src/strategies/reverse_tcb_wrong_checksum.h"
+                },
+                {
+                    "@type": "item",
+                    "name": "src/strategies/reverse_tcb_wrong_checksum.c"
+                },
+                {
+                    "@type": "item",
+                    "name": "src/strategies/old_io_ttl.h"
+                },
+                {
+                    "@type": "item",
+                    "name": "src/strategies/old_io_ttl.c"
+                },
+                {
+                    "@type": "item",
+                    "name": "src/strategies/multiple_syn_wrong_checksum.h"
+                },
+                {
+                    "@type": "item",
+                    "name": "src/strategies/multiple_syn_wrong_checksum.c"
+                },
+                {
+                    "@type": "item",
+                    "name": "src/strategies/do_organic.h"
+                },
+                {
+                    "@type": "item",
+                    "name": "src/strategies/do_organic.c"
+                },
+                {
+                    "@type": "item",
+                    "name": "src/strategies/old_rst_ack_wrong_checksum.h"
+                },
+                {
+                    "@type": "item",
+                    "name": "src/strategies/old_rst_ack_wrong_checksum.c"
+                },
+                {
+                    "@type": "item",
+                    "name": "src/strategies/do_organic_wrong_checksum.h"
+                },
+                {
+                    "@type": "item",
+                    "name": "src/strategies/do_organic_wrong_checksum.c"
+                }
+            ]
+        },
+        {
+            "@type": "group",
+            "name": "3",
+            "nested": [
+                {
+                    "@type": "item",
+                    "name": "src/strategies/syn_reset.h"
+                },
+                {
+                    "@type": "item",
+                    "name": "src/strategies/syn_reset.c"
+                },
+                {
+                    "@type": "item",
+                    "name": "src/strategies/rst_super.h"
+                },
+                {
+                    "@type": "item",
+                    "name": "src/strategies/rst_super.c"
+                },
+                {
+                    "@type": "item",
+                    "name": "src/strategies/old_rst_wrong_seq.h"
+                },
+                {
+                    "@type": "item",
+                    "name": "src/strategies/old_rst_wrong_seq.c"
+                },
+                {
+                    "@type": "item",
+                    "name": "src/strategies/test_probing_ttl.h"
+                },
+                {
+                    "@type": "item",
+                    "name": "src/strategies/test_probing_ttl.c"
+                }
+            ]
+        },
+        {
+            "@type": "group",
+            "name": "4",
+            "nested": [
+                {
+                    "@type": "item",
+                    "name": "src/strategies/dummy.h"
+                },
+                {
+                    "@type": "item",
+                    "name": "src/strategies/dummy.c"
+                },
+                {
+                    "@type": "item",
+                    "name": "src/strategies/old_ooo_ip_fragment.h"
+                },
+                {
+                    "@type": "item",
+                    "name": "src/strategies/old_ooo_ip_fragment.c"
+                },
+                {
+                    "@type": "item",
+                    "name": "src/strategies/old_io_wrong_ack.h"
+                },
+                {
+                    "@type": "item",
+                    "name": "src/strategies/old_io_wrong_ack.c"
+                }
+            ]
+        },
+        {
+            "@type": "group",
+            "name": "5",
+            "nested": [
+                {
+                    "@type": "item",
+                    "name": "src/strategies/mixed_strategy.h"
+                },
+                {
+                    "@type": "item",
+                    "name": "src/strategies/mixed_strategy.c"
+                },
+                {
+                    "@type": "item",
+                    "name": "src/strategies/old_fake_syn_ttl.h"
+                },
+                {
+                    "@type": "item",
+                    "name": "src/strategies/old_fake_syn_ttl.c"
+                },
+                {
+                    "@type": "item",
+                    "name": "src/strategies/mixed_ms_rd.h"
+                },
+                {
+                    "@type": "item",
+                    "name": "src/strategies/mixed_ms_rd.c"
+                }
+            ]
+        },
+        {
+            "@type": "group",
+            "name": "6",
+            "nested": [
+                {
+                    "@type": "item",
+                    "name": "src/strategies/old_rst_ack_wrong_seq.h"
+                },
+                {
+                    "@type": "item",
+                    "name": "src/strategies/old_rst_ack_wrong_seq.c"
+                },
+                {
+                    "@type": "item",
+                    "name": "src/strategies/mixed_do_ms.h"
+                },
+                {
+                    "@type": "item",
+                    "name": "src/strategies/mixed_do_ms.c"
+                }
+            ]
+        },
+        {
+            "@type": "group",
+            "name": "7",
+            "nested": [
+                {
+                    "@type": "item",
+                    "name": "src/strategies/old_rst_ttl.h"
+                },
+                {
+                    "@type": "item",
+                    "name": "src/strategies/old_rst_ttl.c"
+                },
+                {
+                    "@type": "item",
+                    "name": "src/strategies/old_fin_ttl.h"
+                },
+                {
+                    "@type": "item",
+                    "name": "src/strategies/old_fin_ttl.c"
+                }
+            ]
+        },
+        {
+            "@type": "group",
+            "name": "8",
+            "nested": [
+                {
+                    "@type": "item",
+                    "name": "src/strategies/rst_wrong_checksum.h"
+                },
+                {
+                    "@type": "item",
+                    "name": "src/strategies/rst_wrong_checksum.c"
+                },
+                {
+                    "@type": "item",
+                    "name": "src/strategies/mixed_do_rd.h"
+                },
+                {
+                    "@type": "item",
+                    "name": "src/strategies/mixed_do_rd.c"
+                }
+            ]
+        },
+        {
+            "@type": "group",
+            "name": "9",
+            "nested": [
+                {
+                    "@type": "item",
+                    "name": "src/strategies/old_fake_syn_wrong_checksum.h"
+                },
+                {
+                    "@type": "item",
+                    "name": "src/strategies/old_fake_syn_wrong_checksum.c"
+                }
+            ]
+        },
+        {
+            "@type": "group",
+            "name": "10",
+            "nested": [
+                {
+                    "@type": "item",
+                    "name": "src/strategies/old_rst_ttl_max.h"
+                },
+                {
+                    "@type": "item",
+                    "name": "src/strategies/old_rst_ttl_max.c"
+                }
+            ]
+        },
+        {
+            "@type": "group",
+            "name": "11",
+            "nested": [
+                {
+                    "@type": "item",
+                    "name": "src/strategies/old_rst_ack_ttl.h"
+                },
+                {
+                    "@type": "item",
+                    "name": "src/strategies/old_rst_ack_ttl.c"
+                }
+            ]
+        },
+        {
+            "@type": "group",
+            "name": "12",
+            "nested": [
+                {
+                    "@type": "item",
+                    "name": "src/strategies/old_fin_wrong_checksum.h"
+                },
+                {
+                    "@type": "item",
+                    "name": "src/strategies/old_fin_wrong_checksum.c"
+                }
+            ]
+        },
+        {
+            "@type": "group",
+            "name": "13",
+            "nested": [
+                {
+                    "@type": "item",
+                    "name": "src/strategies/old_io_ttl_max.h"
+                },
+                {
+                    "@type": "item",
+                    "name": "src/strategies/old_io_ttl_max.c"
+                }
+            ]
+        },
+        {
+            "@type": "group",
+            "name": "14",
+            "nested": [
+                {
+                    "@type": "item",
+                    "name": "src/strategies/old_rst_wrong_checksum.h"
+                },
+                {
+                    "@type": "item",
+                    "name": "src/strategies/old_rst_wrong_checksum.c"
+                }
+            ]
+        },
+        {
+            "@type": "group",
+            "name": "15",
+            "nested": [
+                {
+                    "@type": "item",
+                    "name": "src/strategies/rst_desync.h"
+                },
+                {
+                    "@type": "item",
+                    "name": "src/strategies/rst_desync.c"
+                }
+            ]
+        },
+        {
+            "@type": "group",
+            "name": "16",
+            "nested": [
+                {
+                    "@type": "item",
+                    "name": "src/strategies/rst_md5_opt.h"
+                },
+                {
+                    "@type": "item",
+                    "name": "src/strategies/rst_md5_opt.c"
+                }
+            ]
+        },
+        {
+            "@type": "group",
+            "name": "17",
+            "nested": [
+                {
+                    "@type": "item",
+                    "name": "src/strategies/rst_wrong_ack.h"
+                },
+                {
+                    "@type": "item",
+                    "name": "src/strategies/rst_wrong_ack.c"
+                }
+            ]
+        },
+        {
+            "@type": "group",
+            "name": "18",
+            "nested": [
+                {
+                    "@type": "item",
+                    "name": "src/strategies/old_ooo_tcp_fragment.h"
+                },
+                {
+                    "@type": "item",
+                    "name": "src/strategies/old_ooo_tcp_fragment.c"
+                }
+            ]
+        },
+        {
+            "@type": "group",
+            "name": "19",
+            "nested": [
+                {
+                    "@type": "item",
+                    "name": "src/strategies/old_fin_wrong_seq.h"
+                },
+                {
+                    "@type": "item",
+                    "name": "src/strategies/old_fin_wrong_seq.c"
+                }
+            ]
+        },
+        {
+            "@type": "group",
+            "name": "20",
+            "nested": [
+                {
+                    "@type": "item",
+                    "name": "src/strategies/do_wrong_checksum.h"
+                },
+                {
+                    "@type": "item",
+                    "name": "src/strategies/do_wrong_checksum.c"
+                }
+            ]
+        },
+        {
+            "@type": "group",
+            "name": "21",
+            "nested": [
+                {
+                    "@type": "item",
+                    "name": "src/strategies/do_md5_opt.h"
+                },
+                {
+                    "@type": "item",
+                    "name": "src/strategies/do_md5_opt.c"
+                }
+            ]
+        },
+        {
+            "@type": "group",
+            "name": "22",
+            "nested": [
+                {
+                    "@type": "item",
+                    "name": "src/strategies/old_io_wrong_checksum.h"
+                },
+                {
+                    "@type": "item",
+                    "name": "src/strategies/old_io_wrong_checksum.c"
+                }
+            ]
+        },
+        {
+            "@type": "group",
+            "name": "23",
+            "nested": [
+                {
+                    "@type": "item",
+                    "name": "src/strategies/do_super_wrong_checksum.h"
+                },
+                {
+                    "@type": "item",
+                    "name": "src/strategies/do_super_wrong_checksum.c"
+                }
+            ]
+        },
+        {
+            "@type": "group",
+            "name": "24",
+            "nested": [
+                {
+                    "@type": "item",
+                    "name": "src/strategies/old_io_no_ack_flag.h"
+                },
+                {
+                    "@type": "item",
+                    "name": "src/strategies/old_io_no_ack_flag.c"
+                }
+            ]
+        }
+    ]
+}

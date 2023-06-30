@@ -1,0 +1,502 @@
+{
+    "@schemaVersion": "1.0",
+    "name": "clustering",
+    "structure": [
+        {
+            "@type": "group",
+            "name": "0",
+            "nested": [
+                {
+                    "@type": "item",
+                    "name": "src/ppbloom.h"
+                },
+                {
+                    "@type": "item",
+                    "name": "src/ppbloom.c"
+                },
+                {
+                    "@type": "item",
+                    "name": "src/ssr_cipher_names.h"
+                },
+                {
+                    "@type": "item",
+                    "name": "src/ssr_cipher_names.c"
+                },
+                {
+                    "@type": "item",
+                    "name": "src/config_json.h"
+                },
+                {
+                    "@type": "item",
+                    "name": "src/config_json.c"
+                },
+                {
+                    "@type": "item",
+                    "name": "src/aead.h"
+                },
+                {
+                    "@type": "item",
+                    "name": "src/aead.c"
+                },
+                {
+                    "@type": "item",
+                    "name": "src/ssr_executive.h"
+                },
+                {
+                    "@type": "item",
+                    "name": "src/ssr_executive.c"
+                },
+                {
+                    "@type": "item",
+                    "name": "src/shadowsocks.h"
+                },
+                {
+                    "@type": "item",
+                    "name": "src/ssr_qr_code.c"
+                },
+                {
+                    "@type": "item",
+                    "name": "src/strtrim.h"
+                },
+                {
+                    "@type": "item",
+                    "name": "src/strtrim.c"
+                },
+                {
+                    "@type": "item",
+                    "name": "src/ssr_qr_code.h"
+                },
+                {
+                    "@type": "item",
+                    "name": "src/encrypt.h"
+                },
+                {
+                    "@type": "item",
+                    "name": "src/encrypt.c"
+                },
+                {
+                    "@type": "item",
+                    "name": "src/ssrbuffer.h"
+                },
+                {
+                    "@type": "item",
+                    "name": "src/ssrbuffer.c"
+                }
+            ]
+        },
+        {
+            "@type": "group",
+            "name": "1",
+            "nested": [
+                {
+                    "@type": "item",
+                    "name": "src/tunnel.h"
+                },
+                {
+                    "@type": "item",
+                    "name": "src/tunnel.c"
+                },
+                {
+                    "@type": "item",
+                    "name": "src/text_in_color.h"
+                },
+                {
+                    "@type": "item",
+                    "name": "src/text_in_color.c"
+                },
+                {
+                    "@type": "item",
+                    "name": "src/includeobfs.h"
+                },
+                {
+                    "@type": "item",
+                    "name": "src/ip_addr_cache.h"
+                },
+                {
+                    "@type": "item",
+                    "name": "src/ip_addr_cache.c"
+                },
+                {
+                    "@type": "item",
+                    "name": "src/common.h"
+                },
+                {
+                    "@type": "item",
+                    "name": "src/sockaddr_universal.h"
+                },
+                {
+                    "@type": "item",
+                    "name": "src/sockaddr_universal.c"
+                },
+                {
+                    "@type": "item",
+                    "name": "src/ref_count_def.h"
+                },
+                {
+                    "@type": "item",
+                    "name": "src/dump_info.h"
+                },
+                {
+                    "@type": "item",
+                    "name": "src/dump_info.c"
+                },
+                {
+                    "@type": "item",
+                    "name": "src/udprelay.h"
+                },
+                {
+                    "@type": "item",
+                    "name": "src/udp_ssr_server.c"
+                },
+                {
+                    "@type": "item",
+                    "name": "src/udp_ssr_client.c"
+                },
+                {
+                    "@type": "item",
+                    "name": "src/udprelay.c"
+                }
+            ]
+        },
+        {
+            "@type": "group",
+            "name": "2",
+            "nested": [
+                {
+                    "@type": "item",
+                    "name": "src/obfs/auth.h"
+                },
+                {
+                    "@type": "item",
+                    "name": "src/obfs/auth.c"
+                },
+                {
+                    "@type": "item",
+                    "name": "src/obfs/obfsutil.h"
+                },
+                {
+                    "@type": "item",
+                    "name": "src/obfs/obfsutil.c"
+                },
+                {
+                    "@type": "item",
+                    "name": "src/obfs/verify.h"
+                },
+                {
+                    "@type": "item",
+                    "name": "src/obfs/verify.c"
+                },
+                {
+                    "@type": "item",
+                    "name": "src/obfs/http_simple.h"
+                },
+                {
+                    "@type": "item",
+                    "name": "src/obfs/http_simple.c"
+                },
+                {
+                    "@type": "item",
+                    "name": "src/obfs/auth_chain.h"
+                },
+                {
+                    "@type": "item",
+                    "name": "src/obfs/auth_chain.c"
+                },
+                {
+                    "@type": "item",
+                    "name": "src/obfs/obfs.h"
+                },
+                {
+                    "@type": "item",
+                    "name": "src/obfs/obfs.c"
+                },
+                {
+                    "@type": "item",
+                    "name": "src/obfs/base64.h"
+                },
+                {
+                    "@type": "item",
+                    "name": "src/obfs/base64.c"
+                },
+                {
+                    "@type": "item",
+                    "name": "src/obfs/crc32.h"
+                },
+                {
+                    "@type": "item",
+                    "name": "src/obfs/crc32.c"
+                },
+                {
+                    "@type": "item",
+                    "name": "src/obfs/tls1.2_ticket.h"
+                },
+                {
+                    "@type": "item",
+                    "name": "src/obfs/tls1.2_ticket.c"
+                }
+            ]
+        },
+        {
+            "@type": "group",
+            "name": "3",
+            "nested": [
+                {
+                    "@type": "item",
+                    "name": "src/client/s5.h"
+                },
+                {
+                    "@type": "item",
+                    "name": "src/client/s5.c"
+                },
+                {
+                    "@type": "item",
+                    "name": "src/client/ssr_client_api.h"
+                },
+                {
+                    "@type": "item",
+                    "name": "src/client/listener.c"
+                },
+                {
+                    "@type": "item",
+                    "name": "src/client/defs.h"
+                },
+                {
+                    "@type": "item",
+                    "name": "src/client/client.c"
+                },
+                {
+                    "@type": "item",
+                    "name": "src/client/main.c"
+                },
+                {
+                    "@type": "item",
+                    "name": "src/client/tls_cli.h"
+                },
+                {
+                    "@type": "item",
+                    "name": "src/client/tls_cli.c"
+                },
+                {
+                    "@type": "item",
+                    "name": "src/client/tls_cli2.c"
+                }
+            ]
+        },
+        {
+            "@type": "group",
+            "name": "4",
+            "nested": [
+                {
+                    "@type": "item",
+                    "name": "src/ssrutils.h"
+                },
+                {
+                    "@type": "item",
+                    "name": "src/ssrutils.c"
+                },
+                {
+                    "@type": "item",
+                    "name": "src/android.c"
+                },
+                {
+                    "@type": "item",
+                    "name": "src/exe_file_path.h"
+                },
+                {
+                    "@type": "item",
+                    "name": "src/exe_file_path.c"
+                }
+            ]
+        },
+        {
+            "@type": "group",
+            "name": "5",
+            "nested": [
+                {
+                    "@type": "item",
+                    "name": "src/uthash.h"
+                },
+                {
+                    "@type": "item",
+                    "name": "src/cache.h"
+                },
+                {
+                    "@type": "item",
+                    "name": "src/cache.c"
+                }
+            ]
+        },
+        {
+            "@type": "group",
+            "name": "6",
+            "nested": [
+                {
+                    "@type": "item",
+                    "name": "src/daemon_wrapper.h"
+                },
+                {
+                    "@type": "item",
+                    "name": "src/daemon_wrapper.c"
+                },
+                {
+                    "@type": "item",
+                    "name": "src/cmd_line_parser.h"
+                },
+                {
+                    "@type": "item",
+                    "name": "src/cmd_line_parser.c"
+                }
+            ]
+        },
+        {
+            "@type": "group",
+            "name": "7",
+            "nested": [
+                {
+                    "@type": "item",
+                    "name": "win32/src/getopt.h"
+                },
+                {
+                    "@type": "item",
+                    "name": "win32/src/getopt.c"
+                },
+                {
+                    "@type": "item",
+                    "name": "win32/src/getopt_long.h"
+                },
+                {
+                    "@type": "item",
+                    "name": "win32/src/getopt_long.c"
+                }
+            ]
+        },
+        {
+            "@type": "group",
+            "name": "8",
+            "nested": [
+                {
+                    "@type": "item",
+                    "name": "src/server/server.c"
+                }
+            ]
+        },
+        {
+            "@type": "group",
+            "name": "9",
+            "nested": [
+                {
+                    "@type": "item",
+                    "name": "src/ssr_extern_def.h"
+                }
+            ]
+        },
+        {
+            "@type": "group",
+            "name": "10",
+            "nested": [
+                {
+                    "@type": "item",
+                    "name": "win32/include/inttypes.h"
+                }
+            ]
+        },
+        {
+            "@type": "group",
+            "name": "11",
+            "nested": [
+                {
+                    "@type": "item",
+                    "name": "win32/include/stdbool.h"
+                }
+            ]
+        },
+        {
+            "@type": "group",
+            "name": "12",
+            "nested": [
+                {
+                    "@type": "item",
+                    "name": "win32/include/strings.h"
+                }
+            ]
+        },
+        {
+            "@type": "group",
+            "name": "13",
+            "nested": [
+                {
+                    "@type": "item",
+                    "name": "win32/include/unistd.h"
+                }
+            ]
+        },
+        {
+            "@type": "group",
+            "name": "14",
+            "nested": [
+                {
+                    "@type": "item",
+                    "name": "win32/src/strncasecmp.c"
+                }
+            ]
+        },
+        {
+            "@type": "group",
+            "name": "15",
+            "nested": [
+                {
+                    "@type": "item",
+                    "name": "win32/libsodium/include/sodium/version.h"
+                }
+            ]
+        },
+        {
+            "@type": "group",
+            "name": "16",
+            "nested": [
+                {
+                    "@type": "item",
+                    "name": "ios/ssrNative/ssrNative.h"
+                }
+            ]
+        },
+        {
+            "@type": "group",
+            "name": "17",
+            "nested": [
+                {
+                    "@type": "item",
+                    "name": "src/local_api.h"
+                }
+            ]
+        },
+        {
+            "@type": "group",
+            "name": "18",
+            "nested": [
+                {
+                    "@type": "item",
+                    "name": "src/websocket_basic.h"
+                },
+                {
+                    "@type": "item",
+                    "name": "src/websocket_basic.c"
+                }
+            ]
+        },
+        {
+            "@type": "group",
+            "name": "19",
+            "nested": [
+                {
+                    "@type": "item",
+                    "name": "src/socks5.h"
+                },
+                {
+                    "@type": "item",
+                    "name": "src/socks5.c"
+                }
+            ]
+        }
+    ]
+}

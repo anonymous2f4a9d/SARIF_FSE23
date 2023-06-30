@@ -1,0 +1,1208 @@
+{
+    "@schemaVersion": "1.0",
+    "name": "clustering",
+    "structure": [
+        {
+            "@type": "group",
+            "name": "0",
+            "nested": [
+                {
+                    "@type": "item",
+                    "name": "Compiler/Utils/rapidjson/msinttypes/inttypes.h"
+                },
+                {
+                    "@type": "item",
+                    "name": "Compiler/Utils/rapidjson/internal/meta.h"
+                },
+                {
+                    "@type": "item",
+                    "name": "Compiler/Utils/rapidjson/filereadstream.h"
+                },
+                {
+                    "@type": "item",
+                    "name": "Compiler/Utils/rapidjson/prettywriter.h"
+                },
+                {
+                    "@type": "item",
+                    "name": "Compiler/Utils/rapidjson/internal/dtoa.h"
+                },
+                {
+                    "@type": "item",
+                    "name": "Compiler/Utils/rapidjson/reader.h"
+                },
+                {
+                    "@type": "item",
+                    "name": "Compiler/Utils/rapidjson/internal/ieee754.h"
+                },
+                {
+                    "@type": "item",
+                    "name": "Compiler/Utils/rapidjson/internal/strtod.h"
+                },
+                {
+                    "@type": "item",
+                    "name": "Compiler/Utils/rapidjson/internal/itoa.h"
+                },
+                {
+                    "@type": "item",
+                    "name": "Compiler/Utils/rapidjson/memorybuffer.h"
+                },
+                {
+                    "@type": "item",
+                    "name": "Compiler/Utils/rapidjson/error/error.h"
+                },
+                {
+                    "@type": "item",
+                    "name": "Compiler/Utils/rapidjson/internal/strfunc.h"
+                },
+                {
+                    "@type": "item",
+                    "name": "Compiler/Utils/rapidjson/internal/diyfp.h"
+                },
+                {
+                    "@type": "item",
+                    "name": "Compiler/Utils/rapidjson/ostreamwrapper.h"
+                },
+                {
+                    "@type": "item",
+                    "name": "Compiler/Utils/rapidjson/error/en.h"
+                },
+                {
+                    "@type": "item",
+                    "name": "Compiler/Utils/rapidjson/encodings.h"
+                },
+                {
+                    "@type": "item",
+                    "name": "Compiler/Utils/rapidjson/stream.h"
+                },
+                {
+                    "@type": "item",
+                    "name": "Compiler/Utils/rapidjson/stringbuffer.h"
+                },
+                {
+                    "@type": "item",
+                    "name": "Compiler/Utils/rapidjson/istreamwrapper.h"
+                },
+                {
+                    "@type": "item",
+                    "name": "Compiler/Utils/rapidjson/writer.h"
+                },
+                {
+                    "@type": "item",
+                    "name": "Compiler/Utils/rapidjson/msinttypes/stdint.h"
+                },
+                {
+                    "@type": "item",
+                    "name": "Compiler/Utils/rapidjson/internal/pow10.h"
+                },
+                {
+                    "@type": "item",
+                    "name": "Compiler/Utils/rapidjson/encodedstream.h"
+                },
+                {
+                    "@type": "item",
+                    "name": "Compiler/Utils/rapidjson/memorystream.h"
+                },
+                {
+                    "@type": "item",
+                    "name": "Compiler/Utils/rapidjson/internal/stack.h"
+                },
+                {
+                    "@type": "item",
+                    "name": "Compiler/Utils/rapidjson/internal/swap.h"
+                },
+                {
+                    "@type": "item",
+                    "name": "Compiler/Utils/rapidjson/schema.h"
+                },
+                {
+                    "@type": "item",
+                    "name": "Compiler/Utils/rapidjson/rapidjson.h"
+                },
+                {
+                    "@type": "item",
+                    "name": "Compiler/Utils/rapidjson/allocators.h"
+                },
+                {
+                    "@type": "item",
+                    "name": "Compiler/Utils/rapidjson/fwd.h"
+                },
+                {
+                    "@type": "item",
+                    "name": "Compiler/Utils/rapidjson/filewritestream.h"
+                }
+            ]
+        },
+        {
+            "@type": "group",
+            "name": "1",
+            "nested": [
+                {
+                    "@type": "item",
+                    "name": "Compiler/AST/ASTUnary.hpp"
+                },
+                {
+                    "@type": "item",
+                    "name": "Compiler/AST/ASTUnary.cpp"
+                },
+                {
+                    "@type": "item",
+                    "name": "Compiler/AST/ASTUnary_CG.cpp"
+                },
+                {
+                    "@type": "item",
+                    "name": "Compiler/Prettyprint/PrettyPrinter.hpp"
+                },
+                {
+                    "@type": "item",
+                    "name": "Compiler/Prettyprint/PrettyPrinter.cpp"
+                },
+                {
+                    "@type": "item",
+                    "name": "Compiler/AST/ASTExpr.hpp"
+                },
+                {
+                    "@type": "item",
+                    "name": "Compiler/AST/ASTExpr_CG.cpp"
+                },
+                {
+                    "@type": "item",
+                    "name": "Compiler/AST/ASTExpr.cpp"
+                },
+                {
+                    "@type": "item",
+                    "name": "Compiler/AST/ErrorSelfDestructing.hpp"
+                },
+                {
+                    "@type": "item",
+                    "name": "Compiler/AST/ErrorSelfDestructing.cpp"
+                },
+                {
+                    "@type": "item",
+                    "name": "Compiler/AST/ASTClosure.hpp"
+                },
+                {
+                    "@type": "item",
+                    "name": "Compiler/AST/ASTUnsafeBlock.hpp"
+                },
+                {
+                    "@type": "item",
+                    "name": "Compiler/AST/ASTCast.hpp"
+                },
+                {
+                    "@type": "item",
+                    "name": "Compiler/AST/ASTConditionalAssignment.hpp"
+                },
+                {
+                    "@type": "item",
+                    "name": "Compiler/AST/ASTBinaryOperator.hpp"
+                },
+                {
+                    "@type": "item",
+                    "name": "Compiler/AST/ASTClosure.cpp"
+                },
+                {
+                    "@type": "item",
+                    "name": "Compiler/AST/ASTUnsafeBlock.cpp"
+                },
+                {
+                    "@type": "item",
+                    "name": "Compiler/AST/ASTCast.cpp"
+                },
+                {
+                    "@type": "item",
+                    "name": "Compiler/AST/ASTConditionalAssignment.cpp"
+                },
+                {
+                    "@type": "item",
+                    "name": "Compiler/AST/ASTCast_CG.cpp"
+                },
+                {
+                    "@type": "item",
+                    "name": "Compiler/AST/ASTBinaryOperator.cpp"
+                },
+                {
+                    "@type": "item",
+                    "name": "Compiler/AST/ASTBinaryOperator_CG.cpp"
+                },
+                {
+                    "@type": "item",
+                    "name": "Compiler/AST/ASTTypeAsValue.cpp"
+                },
+                {
+                    "@type": "item",
+                    "name": "Compiler/AST/ASTType.cpp"
+                },
+                {
+                    "@type": "item",
+                    "name": "Compiler/AST/ASTClosure_CG.cpp"
+                },
+                {
+                    "@type": "item",
+                    "name": "Compiler/AST/ASTSuper.cpp"
+                },
+                {
+                    "@type": "item",
+                    "name": "Compiler/AST/ASTBoxing.hpp"
+                },
+                {
+                    "@type": "item",
+                    "name": "Compiler/AST/ASTBoxing_CG.cpp"
+                },
+                {
+                    "@type": "item",
+                    "name": "Compiler/AST/ASTInitialization.hpp"
+                },
+                {
+                    "@type": "item",
+                    "name": "Compiler/AST/ASTInitialization.cpp"
+                },
+                {
+                    "@type": "item",
+                    "name": "Compiler/AST/ASTInitialization_CG.cpp"
+                },
+                {
+                    "@type": "item",
+                    "name": "Compiler/AST/ASTTypeExpr.hpp"
+                },
+                {
+                    "@type": "item",
+                    "name": "Compiler/AST/ASTTypeExpr_CG.cpp"
+                },
+                {
+                    "@type": "item",
+                    "name": "Compiler/AST/ASTTypeExpr.cpp"
+                },
+                {
+                    "@type": "item",
+                    "name": "Compiler/AST/ASTTypeAsValue.hpp"
+                },
+                {
+                    "@type": "item",
+                    "name": "Compiler/AST/ASTType.hpp"
+                },
+                {
+                    "@type": "item",
+                    "name": "Compiler/AST/ASTSuper.hpp"
+                },
+                {
+                    "@type": "item",
+                    "name": "Compiler/Prettyprint/ASTToCode.cpp"
+                },
+                {
+                    "@type": "item",
+                    "name": "Compiler/AST/ASTMemory.hpp"
+                },
+                {
+                    "@type": "item",
+                    "name": "Compiler/AST/ASTMemory.cpp"
+                },
+                {
+                    "@type": "item",
+                    "name": "Compiler/AST/ASTLiterals.hpp"
+                },
+                {
+                    "@type": "item",
+                    "name": "Compiler/AST/ASTLiterals.cpp"
+                },
+                {
+                    "@type": "item",
+                    "name": "Compiler/AST/ASTLiterals_CG.cpp"
+                },
+                {
+                    "@type": "item",
+                    "name": "Compiler/AST/ASTNode.hpp"
+                },
+                {
+                    "@type": "item",
+                    "name": "Compiler/AST/ASTControlFlow.hpp"
+                },
+                {
+                    "@type": "item",
+                    "name": "Compiler/AST/ASTControlFlow.cpp"
+                },
+                {
+                    "@type": "item",
+                    "name": "Compiler/AST/ASTControlFlow_CG.cpp"
+                },
+                {
+                    "@type": "item",
+                    "name": "Compiler/AST/Releasing.hpp"
+                },
+                {
+                    "@type": "item",
+                    "name": "Compiler/AST/Releasing.cpp"
+                },
+                {
+                    "@type": "item",
+                    "name": "Compiler/AST/ASTStatements.hpp"
+                },
+                {
+                    "@type": "item",
+                    "name": "Compiler/AST/ASTStatements_CG.cpp"
+                },
+                {
+                    "@type": "item",
+                    "name": "Compiler/AST/ASTStatements.cpp"
+                },
+                {
+                    "@type": "item",
+                    "name": "Compiler/AST/ASTMethod.hpp"
+                },
+                {
+                    "@type": "item",
+                    "name": "Compiler/AST/ASTMethod.cpp"
+                },
+                {
+                    "@type": "item",
+                    "name": "Compiler/AST/ASTMethod_CG.cpp"
+                },
+                {
+                    "@type": "item",
+                    "name": "Compiler/AST/ASTVariables.hpp"
+                },
+                {
+                    "@type": "item",
+                    "name": "Compiler/AST/ASTVariables.cpp"
+                },
+                {
+                    "@type": "item",
+                    "name": "Compiler/AST/ASTVariables_CG.cpp"
+                },
+                {
+                    "@type": "item",
+                    "name": "Compiler/Prettyprint/PrettyStream.hpp"
+                },
+                {
+                    "@type": "item",
+                    "name": "Compiler/Prettyprint/PrettyStream.cpp"
+                }
+            ]
+        },
+        {
+            "@type": "group",
+            "name": "2",
+            "nested": [
+                {
+                    "@type": "item",
+                    "name": "Compiler/Generation/TypeDescriptionGenerator.hpp"
+                },
+                {
+                    "@type": "item",
+                    "name": "Compiler/Generation/TypeDescriptionGenerator.cpp"
+                },
+                {
+                    "@type": "item",
+                    "name": "Compiler/Generation/RunTimeHelper.hpp"
+                },
+                {
+                    "@type": "item",
+                    "name": "Compiler/Generation/RunTimeHelper.cpp"
+                },
+                {
+                    "@type": "item",
+                    "name": "Compiler/Generation/OptimizationManager.hpp"
+                },
+                {
+                    "@type": "item",
+                    "name": "Compiler/Generation/OptimizationManager.cpp"
+                },
+                {
+                    "@type": "item",
+                    "name": "Compiler/Generation/ReificationContext.hpp"
+                },
+                {
+                    "@type": "item",
+                    "name": "Compiler/Generation/CallCodeGenerator.hpp"
+                },
+                {
+                    "@type": "item",
+                    "name": "Compiler/Generation/CallCodeGenerator.cpp"
+                },
+                {
+                    "@type": "item",
+                    "name": "Compiler/Generation/Creator.hpp"
+                },
+                {
+                    "@type": "item",
+                    "name": "Compiler/Generation/Creator.cpp"
+                },
+                {
+                    "@type": "item",
+                    "name": "Compiler/Generation/FunctionCodeGenerator.hpp"
+                },
+                {
+                    "@type": "item",
+                    "name": "Compiler/Generation/FunctionCodeGenerator.cpp"
+                },
+                {
+                    "@type": "item",
+                    "name": "Compiler/Generation/Mangler.hpp"
+                },
+                {
+                    "@type": "item",
+                    "name": "Compiler/Generation/Mangler.cpp"
+                },
+                {
+                    "@type": "item",
+                    "name": "Compiler/Generation/ReferenceCountingPasses.hpp"
+                },
+                {
+                    "@type": "item",
+                    "name": "Compiler/Generation/ReferenceCountingPasses.cpp"
+                },
+                {
+                    "@type": "item",
+                    "name": "Compiler/Generation/CodeGenerator.hpp"
+                },
+                {
+                    "@type": "item",
+                    "name": "Compiler/Generation/CodeGenerator.cpp"
+                },
+                {
+                    "@type": "item",
+                    "name": "Compiler/Generation/LLVMTypeHelper.hpp"
+                },
+                {
+                    "@type": "item",
+                    "name": "Compiler/Generation/LLVMTypeHelper.cpp"
+                },
+                {
+                    "@type": "item",
+                    "name": "Compiler/Generation/ProtocolsTableGenerator.hpp"
+                },
+                {
+                    "@type": "item",
+                    "name": "Compiler/Generation/ProtocolsTableGenerator.cpp"
+                },
+                {
+                    "@type": "item",
+                    "name": "Compiler/Generation/VTCreator.hpp"
+                },
+                {
+                    "@type": "item",
+                    "name": "Compiler/Generation/VTCreator.cpp"
+                },
+                {
+                    "@type": "item",
+                    "name": "Compiler/Generation/StringPool.hpp"
+                },
+                {
+                    "@type": "item",
+                    "name": "Compiler/Generation/StringPool.cpp"
+                },
+                {
+                    "@type": "item",
+                    "name": "Compiler/Generation/ClosureCodeGenerator.hpp"
+                },
+                {
+                    "@type": "item",
+                    "name": "Compiler/Generation/ClosureCodeGenerator.cpp"
+                },
+                {
+                    "@type": "item",
+                    "name": "Compiler/Generation/BoxRetainReleaseBuilder.hpp"
+                },
+                {
+                    "@type": "item",
+                    "name": "Compiler/Generation/BoxRetainReleaseBuilder.cpp"
+                },
+                {
+                    "@type": "item",
+                    "name": "Compiler/Generation/ReificationContext.cpp"
+                },
+                {
+                    "@type": "item",
+                    "name": "Compiler/Generation/RunTimeTypeInfoFlags.hpp"
+                }
+            ]
+        },
+        {
+            "@type": "group",
+            "name": "3",
+            "nested": [
+                {
+                    "@type": "item",
+                    "name": "Compiler/Types/StorageType.hpp"
+                },
+                {
+                    "@type": "item",
+                    "name": "Compiler/Types/TypeContext.hpp"
+                },
+                {
+                    "@type": "item",
+                    "name": "Compiler/Types/Protocol.hpp"
+                },
+                {
+                    "@type": "item",
+                    "name": "Compiler/Types/Protocol.cpp"
+                },
+                {
+                    "@type": "item",
+                    "name": "Compiler/Types/StorageType.cpp"
+                },
+                {
+                    "@type": "item",
+                    "name": "Compiler/Types/TypeExpectation.hpp"
+                },
+                {
+                    "@type": "item",
+                    "name": "Compiler/Types/TypeExpectation.cpp"
+                },
+                {
+                    "@type": "item",
+                    "name": "Compiler/Types/CommonTypeFinder.hpp"
+                },
+                {
+                    "@type": "item",
+                    "name": "Compiler/Types/CommonTypeFinder.cpp"
+                },
+                {
+                    "@type": "item",
+                    "name": "Compiler/Types/Class.hpp"
+                },
+                {
+                    "@type": "item",
+                    "name": "Compiler/Types/Class.cpp"
+                },
+                {
+                    "@type": "item",
+                    "name": "Compiler/Types/TypeContext.cpp"
+                },
+                {
+                    "@type": "item",
+                    "name": "Compiler/Types/Generic.hpp"
+                },
+                {
+                    "@type": "item",
+                    "name": "Compiler/Types/Enum.hpp"
+                },
+                {
+                    "@type": "item",
+                    "name": "Compiler/Types/Enum.cpp"
+                },
+                {
+                    "@type": "item",
+                    "name": "Compiler/Types/Type.hpp"
+                },
+                {
+                    "@type": "item",
+                    "name": "Compiler/Types/Type.cpp"
+                },
+                {
+                    "@type": "item",
+                    "name": "Compiler/Types/ValueType.hpp"
+                },
+                {
+                    "@type": "item",
+                    "name": "Compiler/Types/ValueType.cpp"
+                },
+                {
+                    "@type": "item",
+                    "name": "Compiler/Types/TypeDefinition.hpp"
+                },
+                {
+                    "@type": "item",
+                    "name": "Compiler/Types/TypeDefinition.cpp"
+                }
+            ]
+        },
+        {
+            "@type": "group",
+            "name": "4",
+            "nested": [
+                {
+                    "@type": "item",
+                    "name": "Compiler/Parsing/FunctionParser.hpp"
+                },
+                {
+                    "@type": "item",
+                    "name": "Compiler/Parsing/FunctionParser.cpp"
+                },
+                {
+                    "@type": "item",
+                    "name": "Compiler/Parsing/AbstractParser.hpp"
+                },
+                {
+                    "@type": "item",
+                    "name": "Compiler/Parsing/AbstractParser.cpp"
+                },
+                {
+                    "@type": "item",
+                    "name": "Compiler/Parsing/AttributesParser.cpp"
+                },
+                {
+                    "@type": "item",
+                    "name": "Compiler/Parsing/OperatorHelper.hpp"
+                },
+                {
+                    "@type": "item",
+                    "name": "Compiler/Parsing/OperatorHelper.cpp"
+                },
+                {
+                    "@type": "item",
+                    "name": "Compiler/Parsing/DocumentParser.hpp"
+                },
+                {
+                    "@type": "item",
+                    "name": "Compiler/Parsing/DocumentParser.cpp"
+                },
+                {
+                    "@type": "item",
+                    "name": "Compiler/Parsing/TypeBodyParser.hpp"
+                },
+                {
+                    "@type": "item",
+                    "name": "Compiler/Parsing/AttributesParser.hpp"
+                },
+                {
+                    "@type": "item",
+                    "name": "Compiler/Parsing/TypeBodyParser.cpp"
+                }
+            ]
+        },
+        {
+            "@type": "group",
+            "name": "5",
+            "nested": [
+                {
+                    "@type": "item",
+                    "name": "s/Data.h"
+                },
+                {
+                    "@type": "item",
+                    "name": "s/Data.cpp"
+                },
+                {
+                    "@type": "item",
+                    "name": "s/Integer.cpp"
+                },
+                {
+                    "@type": "item",
+                    "name": "s/Error.h"
+                },
+                {
+                    "@type": "item",
+                    "name": "s/Error.cpp"
+                },
+                {
+                    "@type": "item",
+                    "name": "s/String.h"
+                },
+                {
+                    "@type": "item",
+                    "name": "s/String.cpp"
+                },
+                {
+                    "@type": "item",
+                    "name": "s/utf8proc_data.c"
+                },
+                {
+                    "@type": "item",
+                    "name": "s/utf8proc.h"
+                },
+                {
+                    "@type": "item",
+                    "name": "s/utf8proc.c"
+                },
+                {
+                    "@type": "item",
+                    "name": "s/System.cpp"
+                }
+            ]
+        },
+        {
+            "@type": "group",
+            "name": "6",
+            "nested": [
+                {
+                    "@type": "item",
+                    "name": "Compiler/Functions/FunctionType.hpp"
+                },
+                {
+                    "@type": "item",
+                    "name": "Compiler/Functions/FunctionType.cpp"
+                },
+                {
+                    "@type": "item",
+                    "name": "Compiler/Functions/FunctionResolver.hpp"
+                },
+                {
+                    "@type": "item",
+                    "name": "Compiler/Functions/FunctionResolver.cpp"
+                },
+                {
+                    "@type": "item",
+                    "name": "Compiler/Functions/Function.hpp"
+                },
+                {
+                    "@type": "item",
+                    "name": "Compiler/Functions/Function.cpp"
+                },
+                {
+                    "@type": "item",
+                    "name": "Compiler/Functions/Mood.hpp"
+                },
+                {
+                    "@type": "item",
+                    "name": "Compiler/Functions/Initializer.hpp"
+                },
+                {
+                    "@type": "item",
+                    "name": "Compiler/Functions/Initializer.cpp"
+                }
+            ]
+        },
+        {
+            "@type": "group",
+            "name": "7",
+            "nested": [
+                {
+                    "@type": "item",
+                    "name": "Compiler/Scoping/IDScoper.hpp"
+                },
+                {
+                    "@type": "item",
+                    "name": "Compiler/Scoping/SemanticScopeStats.hpp"
+                },
+                {
+                    "@type": "item",
+                    "name": "Compiler/Scoping/Variable.hpp"
+                },
+                {
+                    "@type": "item",
+                    "name": "Compiler/Scoping/Variable.cpp"
+                },
+                {
+                    "@type": "item",
+                    "name": "Compiler/Scoping/SemanticScoper.hpp"
+                },
+                {
+                    "@type": "item",
+                    "name": "Compiler/Scoping/SemanticScoper.cpp"
+                },
+                {
+                    "@type": "item",
+                    "name": "Compiler/Scoping/Scope.hpp"
+                },
+                {
+                    "@type": "item",
+                    "name": "Compiler/Scoping/Scope.cpp"
+                },
+                {
+                    "@type": "item",
+                    "name": "Compiler/Scoping/VariableNotFoundError.hpp"
+                },
+                {
+                    "@type": "item",
+                    "name": "Compiler/Scoping/CapturingSemanticScoper.hpp"
+                },
+                {
+                    "@type": "item",
+                    "name": "Compiler/Scoping/CapturingSemanticScoper.cpp"
+                }
+            ]
+        },
+        {
+            "@type": "group",
+            "name": "8",
+            "nested": [
+                {
+                    "@type": "item",
+                    "name": "Compiler/Lex/Lexer.hpp"
+                },
+                {
+                    "@type": "item",
+                    "name": "Compiler/Lex/Lexer.cpp"
+                },
+                {
+                    "@type": "item",
+                    "name": "Compiler/Lex/EmojiTokenization.hpp"
+                },
+                {
+                    "@type": "item",
+                    "name": "Compiler/Lex/EmojiTokenization.cpp"
+                },
+                {
+                    "@type": "item",
+                    "name": "Compiler/Lex/Token.hpp"
+                },
+                {
+                    "@type": "item",
+                    "name": "Compiler/Lex/Token.cpp"
+                },
+                {
+                    "@type": "item",
+                    "name": "Compiler/Lex/SourceManager.hpp"
+                },
+                {
+                    "@type": "item",
+                    "name": "Compiler/Lex/SourceManager.cpp"
+                },
+                {
+                    "@type": "item",
+                    "name": "Compiler/Lex/TokenStream.hpp"
+                },
+                {
+                    "@type": "item",
+                    "name": "Compiler/Lex/TokenStream.cpp"
+                },
+                {
+                    "@type": "item",
+                    "name": "Compiler/Lex/SourcePosition.hpp"
+                },
+                {
+                    "@type": "item",
+                    "name": "Compiler/Lex/SourcePosition.cpp"
+                }
+            ]
+        },
+        {
+            "@type": "group",
+            "name": "9",
+            "nested": [
+                {
+                    "@type": "item",
+                    "name": "Compiler/CLI/HRFCompilerDelegate.hpp"
+                },
+                {
+                    "@type": "item",
+                    "name": "Compiler/CLI/HRFCompilerDelegate.cpp"
+                },
+                {
+                    "@type": "item",
+                    "name": "Compiler/CLI/JSONCompilerDelegate.hpp"
+                },
+                {
+                    "@type": "item",
+                    "name": "Compiler/CLI/JSONCompilerDelegate.cpp"
+                },
+                {
+                    "@type": "item",
+                    "name": "Compiler/CLI/Options.hpp"
+                },
+                {
+                    "@type": "item",
+                    "name": "Compiler/CLI/Options.cpp"
+                },
+                {
+                    "@type": "item",
+                    "name": "Compiler/CLI/main.cpp"
+                },
+                {
+                    "@type": "item",
+                    "name": "Compiler/CLI/PackageReporter.hpp"
+                },
+                {
+                    "@type": "item",
+                    "name": "Compiler/CLI/PackageReporter.cpp"
+                }
+            ]
+        },
+        {
+            "@type": "group",
+            "name": "10",
+            "nested": [
+                {
+                    "@type": "item",
+                    "name": "Compiler/Analysis/ThunkBuilder.hpp"
+                },
+                {
+                    "@type": "item",
+                    "name": "Compiler/Analysis/ThunkBuilder.cpp"
+                },
+                {
+                    "@type": "item",
+                    "name": "Compiler/Analysis/FunctionAnalyser.hpp"
+                },
+                {
+                    "@type": "item",
+                    "name": "Compiler/Analysis/FunctionAnalyser.cpp"
+                },
+                {
+                    "@type": "item",
+                    "name": "Compiler/Analysis/ExpressionAnalyser.hpp"
+                },
+                {
+                    "@type": "item",
+                    "name": "Compiler/Analysis/ExpressionAnalyser.cpp"
+                },
+                {
+                    "@type": "item",
+                    "name": "Compiler/Analysis/SemanticAnalyser.hpp"
+                },
+                {
+                    "@type": "item",
+                    "name": "Compiler/Analysis/SemanticAnalyser.cpp"
+                },
+                {
+                    "@type": "item",
+                    "name": "Compiler/Analysis/PathAnalyser.hpp"
+                },
+                {
+                    "@type": "item",
+                    "name": "Compiler/Analysis/PathAnalyser.cpp"
+                }
+            ]
+        },
+        {
+            "@type": "group",
+            "name": "11",
+            "nested": [
+                {
+                    "@type": "item",
+                    "name": "Compiler/MemoryFlowAnalysis/MFAnalyser.hpp"
+                },
+                {
+                    "@type": "item",
+                    "name": "Compiler/MemoryFlowAnalysis/MFAnalyser.cpp"
+                },
+                {
+                    "@type": "item",
+                    "name": "Compiler/MemoryFlowAnalysis/MFFlowCategory.hpp"
+                },
+                {
+                    "@type": "item",
+                    "name": "Compiler/MemoryFlowAnalysis/MFHeapAllocates.hpp"
+                },
+                {
+                    "@type": "item",
+                    "name": "Compiler/MemoryFlowAnalysis/MFHeapAllocates.cpp"
+                },
+                {
+                    "@type": "item",
+                    "name": "Compiler/MemoryFlowAnalysis/MFFunctionAnalyser.hpp"
+                },
+                {
+                    "@type": "item",
+                    "name": "Compiler/MemoryFlowAnalysis/MFFunctionAnalyser.cpp"
+                }
+            ]
+        },
+        {
+            "@type": "group",
+            "name": "12",
+            "nested": [
+                {
+                    "@type": "item",
+                    "name": "Compiler/CompilerError.cpp"
+                },
+                {
+                    "@type": "item",
+                    "name": "Compiler/CompilerError.hpp"
+                },
+                {
+                    "@type": "item",
+                    "name": "Compiler/Compiler.hpp"
+                },
+                {
+                    "@type": "item",
+                    "name": "Compiler/Compiler.cpp"
+                }
+            ]
+        },
+        {
+            "@type": "group",
+            "name": "13",
+            "nested": [
+                {
+                    "@type": "item",
+                    "name": "Compiler/Package/Package.hpp"
+                },
+                {
+                    "@type": "item",
+                    "name": "Compiler/Package/Package.cpp"
+                },
+                {
+                    "@type": "item",
+                    "name": "Compiler/Package/Definition.hpp"
+                },
+                {
+                    "@type": "item",
+                    "name": "Compiler/Package/RecordingPackage.hpp"
+                },
+                {
+                    "@type": "item",
+                    "name": "Compiler/Package/RecordingPackage.cpp"
+                }
+            ]
+        },
+        {
+            "@type": "group",
+            "name": "14",
+            "nested": [
+                {
+                    "@type": "item",
+                    "name": "runtime/Runtime.h"
+                },
+                {
+                    "@type": "item",
+                    "name": "runtime/main.cpp"
+                },
+                {
+                    "@type": "item",
+                    "name": "runtime/Internal.hpp"
+                }
+            ]
+        },
+        {
+            "@type": "group",
+            "name": "15",
+            "nested": [
+                {
+                    "@type": "item",
+                    "name": "Compiler/Analysis/GenericInferer.hpp"
+                }
+            ]
+        },
+        {
+            "@type": "group",
+            "name": "16",
+            "nested": [
+                {
+                    "@type": "item",
+                    "name": "Compiler/Emojis.h"
+                }
+            ]
+        },
+        {
+            "@type": "group",
+            "name": "17",
+            "nested": [
+                {
+                    "@type": "item",
+                    "name": "Compiler/Functions/CallType.h"
+                }
+            ]
+        },
+        {
+            "@type": "group",
+            "name": "18",
+            "nested": [
+                {
+                    "@type": "item",
+                    "name": "Compiler/Utils/StringUtils.hpp"
+                }
+            ]
+        },
+        {
+            "@type": "group",
+            "name": "19",
+            "nested": [
+                {
+                    "@type": "item",
+                    "name": "Compiler/Utils/args.hxx"
+                }
+            ]
+        },
+        {
+            "@type": "group",
+            "name": "20",
+            "nested": [
+                {
+                    "@type": "item",
+                    "name": "Compiler/Utils/rang.hpp"
+                }
+            ]
+        },
+        {
+            "@type": "group",
+            "name": "21",
+            "nested": [
+                {
+                    "@type": "item",
+                    "name": "files/File.cpp"
+                }
+            ]
+        },
+        {
+            "@type": "group",
+            "name": "22",
+            "nested": [
+                {
+                    "@type": "item",
+                    "name": "files/filesystem.cpp"
+                }
+            ]
+        },
+        {
+            "@type": "group",
+            "name": "23",
+            "nested": [
+                {
+                    "@type": "item",
+                    "name": "s/Prng.cpp"
+                }
+            ]
+        },
+        {
+            "@type": "group",
+            "name": "24",
+            "nested": [
+                {
+                    "@type": "item",
+                    "name": "s/Real.cpp"
+                }
+            ]
+        },
+        {
+            "@type": "group",
+            "name": "25",
+            "nested": [
+                {
+                    "@type": "item",
+                    "name": "s/Thread.cpp"
+                }
+            ]
+        },
+        {
+            "@type": "group",
+            "name": "26",
+            "nested": [
+                {
+                    "@type": "item",
+                    "name": "sockets/Socket.cpp"
+                }
+            ]
+        },
+        {
+            "@type": "group",
+            "name": "27",
+            "nested": [
+                {
+                    "@type": "item",
+                    "name": "Compiler/Utils/rapidjson/document.h"
+                }
+            ]
+        },
+        {
+            "@type": "group",
+            "name": "28",
+            "nested": [
+                {
+                    "@type": "item",
+                    "name": "Compiler/Utils/rapidjson/pointer.h"
+                }
+            ]
+        },
+        {
+            "@type": "group",
+            "name": "29",
+            "nested": [
+                {
+                    "@type": "item",
+                    "name": "Compiler/Utils/rapidjson/internal/biginteger.h"
+                }
+            ]
+        },
+        {
+            "@type": "group",
+            "name": "30",
+            "nested": [
+                {
+                    "@type": "item",
+                    "name": "Compiler/Utils/rapidjson/internal/regex.h"
+                }
+            ]
+        }
+    ]
+}

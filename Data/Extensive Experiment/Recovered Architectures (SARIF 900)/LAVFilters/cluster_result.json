@@ -1,0 +1,3302 @@
+{
+    "@schemaVersion": "1.0",
+    "name": "clustering",
+    "structure": [
+        {
+            "@type": "group",
+            "name": "0",
+            "nested": [
+                {
+                    "@type": "item",
+                    "name": "common/baseclasses/msgthrd.h"
+                },
+                {
+                    "@type": "item",
+                    "name": "common/baseclasses/amfilter.h"
+                },
+                {
+                    "@type": "item",
+                    "name": "common/baseclasses/amfilter.cpp"
+                },
+                {
+                    "@type": "item",
+                    "name": "common/baseclasses/winctrl.h"
+                },
+                {
+                    "@type": "item",
+                    "name": "common/baseclasses/winctrl.cpp"
+                },
+                {
+                    "@type": "item",
+                    "name": "common/baseclasses/pullpin.h"
+                },
+                {
+                    "@type": "item",
+                    "name": "common/baseclasses/pullpin.cpp"
+                },
+                {
+                    "@type": "item",
+                    "name": "common/baseclasses/cache.h"
+                },
+                {
+                    "@type": "item",
+                    "name": "common/baseclasses/winutil.h"
+                },
+                {
+                    "@type": "item",
+                    "name": "common/baseclasses/winutil.cpp"
+                },
+                {
+                    "@type": "item",
+                    "name": "common/baseclasses/dllsetup.h"
+                },
+                {
+                    "@type": "item",
+                    "name": "common/baseclasses/dllsetup.cpp"
+                },
+                {
+                    "@type": "item",
+                    "name": "common/baseclasses/renbase.h"
+                },
+                {
+                    "@type": "item",
+                    "name": "common/baseclasses/renbase.cpp"
+                },
+                {
+                    "@type": "item",
+                    "name": "common/baseclasses/checkbmi.h"
+                },
+                {
+                    "@type": "item",
+                    "name": "common/baseclasses/transfrm.h"
+                },
+                {
+                    "@type": "item",
+                    "name": "common/baseclasses/transfrm.cpp"
+                },
+                {
+                    "@type": "item",
+                    "name": "common/baseclasses/wxlist.h"
+                },
+                {
+                    "@type": "item",
+                    "name": "common/baseclasses/wxlist.cpp"
+                },
+                {
+                    "@type": "item",
+                    "name": "common/baseclasses/mtype.h"
+                },
+                {
+                    "@type": "item",
+                    "name": "common/baseclasses/mtype.cpp"
+                },
+                {
+                    "@type": "item",
+                    "name": "common/baseclasses/ctlutil.h"
+                },
+                {
+                    "@type": "item",
+                    "name": "common/baseclasses/ctlutil.cpp"
+                },
+                {
+                    "@type": "item",
+                    "name": "common/baseclasses/strmctl.h"
+                },
+                {
+                    "@type": "item",
+                    "name": "common/baseclasses/strmctl.cpp"
+                },
+                {
+                    "@type": "item",
+                    "name": "common/baseclasses/streams.h"
+                },
+                {
+                    "@type": "item",
+                    "name": "common/baseclasses/source.h"
+                },
+                {
+                    "@type": "item",
+                    "name": "common/baseclasses/source.cpp"
+                },
+                {
+                    "@type": "item",
+                    "name": "common/baseclasses/measure.h"
+                },
+                {
+                    "@type": "item",
+                    "name": "common/baseclasses/cprop.h"
+                },
+                {
+                    "@type": "item",
+                    "name": "common/baseclasses/dllentry.cpp"
+                },
+                {
+                    "@type": "item",
+                    "name": "common/baseclasses/wxdebug.h"
+                },
+                {
+                    "@type": "item",
+                    "name": "common/baseclasses/wxdebug.cpp"
+                },
+                {
+                    "@type": "item",
+                    "name": "common/baseclasses/wxutil.h"
+                },
+                {
+                    "@type": "item",
+                    "name": "common/baseclasses/combase.h"
+                },
+                {
+                    "@type": "item",
+                    "name": "common/baseclasses/wxutil.cpp"
+                },
+                {
+                    "@type": "item",
+                    "name": "common/baseclasses/combase.cpp"
+                },
+                {
+                    "@type": "item",
+                    "name": "common/baseclasses/arithutil.cpp"
+                },
+                {
+                    "@type": "item",
+                    "name": "common/baseclasses/fourcc.h"
+                },
+                {
+                    "@type": "item",
+                    "name": "common/baseclasses/amvideo.cpp"
+                },
+                {
+                    "@type": "item",
+                    "name": "common/baseclasses/seekpt.h"
+                },
+                {
+                    "@type": "item",
+                    "name": "common/baseclasses/seekpt.cpp"
+                },
+                {
+                    "@type": "item",
+                    "name": "common/baseclasses/reftime.h"
+                },
+                {
+                    "@type": "item",
+                    "name": "common/baseclasses/vtrans.h"
+                },
+                {
+                    "@type": "item",
+                    "name": "common/baseclasses/vtrans.cpp"
+                },
+                {
+                    "@type": "item",
+                    "name": "common/baseclasses/amextra.h"
+                },
+                {
+                    "@type": "item",
+                    "name": "common/baseclasses/amextra.cpp"
+                },
+                {
+                    "@type": "item",
+                    "name": "common/baseclasses/cprop.cpp"
+                },
+                {
+                    "@type": "item",
+                    "name": "common/baseclasses/outputq.h"
+                },
+                {
+                    "@type": "item",
+                    "name": "common/baseclasses/outputq.cpp"
+                },
+                {
+                    "@type": "item",
+                    "name": "common/baseclasses/transip.h"
+                },
+                {
+                    "@type": "item",
+                    "name": "common/baseclasses/transip.cpp"
+                },
+                {
+                    "@type": "item",
+                    "name": "common/baseclasses/sysclock.h"
+                },
+                {
+                    "@type": "item",
+                    "name": "common/baseclasses/sysclock.cpp"
+                },
+                {
+                    "@type": "item",
+                    "name": "common/baseclasses/pstream.h"
+                },
+                {
+                    "@type": "item",
+                    "name": "common/baseclasses/pstream.cpp"
+                }
+            ]
+        },
+        {
+            "@type": "group",
+            "name": "1",
+            "nested": [
+                {
+                    "@type": "item",
+                    "name": "thirdparty/32/include/nettle/pkcs1.h"
+                },
+                {
+                    "@type": "item",
+                    "name": "thirdparty/32/include/nettle/md2.h"
+                },
+                {
+                    "@type": "item",
+                    "name": "thirdparty/32/include/nettle/md4.h"
+                },
+                {
+                    "@type": "item",
+                    "name": "thirdparty/32/include/nettle/sha1.h"
+                },
+                {
+                    "@type": "item",
+                    "name": "thirdparty/32/include/nettle/sha2.h"
+                },
+                {
+                    "@type": "item",
+                    "name": "thirdparty/32/include/nettle/sha3.h"
+                },
+                {
+                    "@type": "item",
+                    "name": "thirdparty/32/include/nettle/dsa-compat.h"
+                },
+                {
+                    "@type": "item",
+                    "name": "thirdparty/32/include/nettle/streebog.h"
+                },
+                {
+                    "@type": "item",
+                    "name": "thirdparty/32/include/nettle/hkdf.h"
+                },
+                {
+                    "@type": "item",
+                    "name": "thirdparty/32/include/nettle/pbkdf2.h"
+                },
+                {
+                    "@type": "item",
+                    "name": "thirdparty/32/include/nettle/gosthash94.h"
+                },
+                {
+                    "@type": "item",
+                    "name": "thirdparty/32/include/nettle/rsa.h"
+                },
+                {
+                    "@type": "item",
+                    "name": "thirdparty/32/include/nettle/md5.h"
+                },
+                {
+                    "@type": "item",
+                    "name": "thirdparty/32/include/nettle/dsa.h"
+                },
+                {
+                    "@type": "item",
+                    "name": "thirdparty/32/include/nettle/pss-mgf1.h"
+                },
+                {
+                    "@type": "item",
+                    "name": "thirdparty/32/include/nettle/umac.h"
+                },
+                {
+                    "@type": "item",
+                    "name": "thirdparty/32/include/nettle/pss.h"
+                },
+                {
+                    "@type": "item",
+                    "name": "thirdparty/32/include/nettle/ripemd160.h"
+                },
+                {
+                    "@type": "item",
+                    "name": "thirdparty/32/include/nettle/hmac.h"
+                }
+            ]
+        },
+        {
+            "@type": "group",
+            "name": "2",
+            "nested": [
+                {
+                    "@type": "item",
+                    "name": "thirdparty/64/include/nettle/pss-mgf1.h"
+                },
+                {
+                    "@type": "item",
+                    "name": "thirdparty/64/include/nettle/hmac.h"
+                },
+                {
+                    "@type": "item",
+                    "name": "thirdparty/64/include/nettle/dsa-compat.h"
+                },
+                {
+                    "@type": "item",
+                    "name": "thirdparty/64/include/nettle/md5.h"
+                },
+                {
+                    "@type": "item",
+                    "name": "thirdparty/64/include/nettle/umac.h"
+                },
+                {
+                    "@type": "item",
+                    "name": "thirdparty/64/include/nettle/dsa.h"
+                },
+                {
+                    "@type": "item",
+                    "name": "thirdparty/64/include/nettle/md2.h"
+                },
+                {
+                    "@type": "item",
+                    "name": "thirdparty/64/include/nettle/ripemd160.h"
+                },
+                {
+                    "@type": "item",
+                    "name": "thirdparty/64/include/nettle/sha3.h"
+                },
+                {
+                    "@type": "item",
+                    "name": "thirdparty/64/include/nettle/hkdf.h"
+                },
+                {
+                    "@type": "item",
+                    "name": "thirdparty/64/include/nettle/gosthash94.h"
+                },
+                {
+                    "@type": "item",
+                    "name": "thirdparty/64/include/nettle/pss.h"
+                },
+                {
+                    "@type": "item",
+                    "name": "thirdparty/64/include/nettle/pkcs1.h"
+                },
+                {
+                    "@type": "item",
+                    "name": "thirdparty/64/include/nettle/sha1.h"
+                },
+                {
+                    "@type": "item",
+                    "name": "thirdparty/64/include/nettle/sha2.h"
+                },
+                {
+                    "@type": "item",
+                    "name": "thirdparty/64/include/nettle/rsa.h"
+                },
+                {
+                    "@type": "item",
+                    "name": "thirdparty/64/include/nettle/pbkdf2.h"
+                },
+                {
+                    "@type": "item",
+                    "name": "thirdparty/64/include/nettle/streebog.h"
+                },
+                {
+                    "@type": "item",
+                    "name": "thirdparty/64/include/nettle/md4.h"
+                }
+            ]
+        },
+        {
+            "@type": "group",
+            "name": "3",
+            "nested": [
+                {
+                    "@type": "item",
+                    "name": "common/DSUtilLite/registry.h"
+                },
+                {
+                    "@type": "item",
+                    "name": "common/DSUtilLite/registry.cpp"
+                },
+                {
+                    "@type": "item",
+                    "name": "common/DSUtilLite/FontInstaller.h"
+                },
+                {
+                    "@type": "item",
+                    "name": "common/DSUtilLite/FontInstaller.cpp"
+                },
+                {
+                    "@type": "item",
+                    "name": "common/DSUtilLite/DShowUtil.h"
+                },
+                {
+                    "@type": "item",
+                    "name": "common/DSUtilLite/locale.cpp"
+                },
+                {
+                    "@type": "item",
+                    "name": "common/DSUtilLite/filterreg.cpp"
+                },
+                {
+                    "@type": "item",
+                    "name": "common/DSUtilLite/DShowUtil.cpp"
+                },
+                {
+                    "@type": "item",
+                    "name": "common/DSUtilLite/H264Nalu.h"
+                },
+                {
+                    "@type": "item",
+                    "name": "common/DSUtilLite/H264Nalu.cpp"
+                },
+                {
+                    "@type": "item",
+                    "name": "common/DSUtilLite/MediaSampleSideData.h"
+                },
+                {
+                    "@type": "item",
+                    "name": "common/DSUtilLite/MediaSampleSideData.cpp"
+                },
+                {
+                    "@type": "item",
+                    "name": "common/DSUtilLite/CueSheet.h"
+                },
+                {
+                    "@type": "item",
+                    "name": "common/DSUtilLite/CueSheet.cpp"
+                },
+                {
+                    "@type": "item",
+                    "name": "common/DSUtilLite/DSMResourceBag.h"
+                },
+                {
+                    "@type": "item",
+                    "name": "common/DSUtilLite/DSMResourceBag.cpp"
+                },
+                {
+                    "@type": "item",
+                    "name": "common/DSUtilLite/ByteParser.h"
+                },
+                {
+                    "@type": "item",
+                    "name": "common/DSUtilLite/ByteParser.cpp"
+                },
+                {
+                    "@type": "item",
+                    "name": "common/DSUtilLite/stdafx.cpp"
+                },
+                {
+                    "@type": "item",
+                    "name": "common/DSUtilLite/BaseTrayIcon.h"
+                },
+                {
+                    "@type": "item",
+                    "name": "common/DSUtilLite/BaseTrayIcon.cpp"
+                },
+                {
+                    "@type": "item",
+                    "name": "common/DSUtilLite/PopupMenu.h"
+                },
+                {
+                    "@type": "item",
+                    "name": "common/DSUtilLite/PopupMenu.cpp"
+                },
+                {
+                    "@type": "item",
+                    "name": "common/DSUtilLite/growarray.h"
+                },
+                {
+                    "@type": "item",
+                    "name": "common/DSUtilLite/BaseDSPropPage.h"
+                },
+                {
+                    "@type": "item",
+                    "name": "common/DSUtilLite/BaseDSPropPage.cpp"
+                },
+                {
+                    "@type": "item",
+                    "name": "common/DSUtilLite/stdafx.h"
+                },
+                {
+                    "@type": "item",
+                    "name": "common/DSUtilLite/FloatingAverage.h"
+                }
+            ]
+        },
+        {
+            "@type": "group",
+            "name": "4",
+            "nested": [
+                {
+                    "@type": "item",
+                    "name": "demuxer/Demuxers/StreamInfo.h"
+                },
+                {
+                    "@type": "item",
+                    "name": "demuxer/Demuxers/StreamInfo.cpp"
+                },
+                {
+                    "@type": "item",
+                    "name": "demuxer/Demuxers/stdafx.cpp"
+                },
+                {
+                    "@type": "item",
+                    "name": "demuxer/Demuxers/BaseDemuxer.h"
+                },
+                {
+                    "@type": "item",
+                    "name": "demuxer/Demuxers/BaseDemuxer.cpp"
+                },
+                {
+                    "@type": "item",
+                    "name": "demuxer/Demuxers/BDDemuxer.h"
+                },
+                {
+                    "@type": "item",
+                    "name": "demuxer/Demuxers/BDDemuxer.cpp"
+                },
+                {
+                    "@type": "item",
+                    "name": "demuxer/Demuxers/LAVFAudioHelper.h"
+                },
+                {
+                    "@type": "item",
+                    "name": "demuxer/Demuxers/LAVFAudioHelper.cpp"
+                },
+                {
+                    "@type": "item",
+                    "name": "demuxer/Demuxers/ExtradataParser.h"
+                },
+                {
+                    "@type": "item",
+                    "name": "demuxer/Demuxers/ExtradataParser.cpp"
+                },
+                {
+                    "@type": "item",
+                    "name": "demuxer/Demuxers/LAVFDemuxer.h"
+                },
+                {
+                    "@type": "item",
+                    "name": "demuxer/Demuxers/LAVFDemuxer.cpp"
+                },
+                {
+                    "@type": "item",
+                    "name": "demuxer/Demuxers/LAVFUtils.cpp"
+                },
+                {
+                    "@type": "item",
+                    "name": "demuxer/Demuxers/LAVFInputFormats.cpp"
+                },
+                {
+                    "@type": "item",
+                    "name": "demuxer/Demuxers/LAVFVideoHelper.h"
+                },
+                {
+                    "@type": "item",
+                    "name": "demuxer/Demuxers/LAVFVideoHelper.cpp"
+                },
+                {
+                    "@type": "item",
+                    "name": "demuxer/Demuxers/Packet.h"
+                },
+                {
+                    "@type": "item",
+                    "name": "demuxer/Demuxers/Packet.cpp"
+                },
+                {
+                    "@type": "item",
+                    "name": "demuxer/Demuxers/stdafx.h"
+                },
+                {
+                    "@type": "item",
+                    "name": "demuxer/Demuxers/LAVFStreamInfo.h"
+                },
+                {
+                    "@type": "item",
+                    "name": "demuxer/Demuxers/LAVFStreamInfo.cpp"
+                },
+                {
+                    "@type": "item",
+                    "name": "demuxer/Demuxers/LAVFUtils.h"
+                }
+            ]
+        },
+        {
+            "@type": "group",
+            "name": "5",
+            "nested": [
+                {
+                    "@type": "item",
+                    "name": "demuxer/LAVSplitter/LAVSplitterTrayIcon.h"
+                },
+                {
+                    "@type": "item",
+                    "name": "demuxer/LAVSplitter/LAVSplitterTrayIcon.cpp"
+                },
+                {
+                    "@type": "item",
+                    "name": "demuxer/LAVSplitter/SettingsProp.h"
+                },
+                {
+                    "@type": "item",
+                    "name": "demuxer/LAVSplitter/SettingsProp.cpp"
+                },
+                {
+                    "@type": "item",
+                    "name": "demuxer/LAVSplitter/stdafx.cpp"
+                },
+                {
+                    "@type": "item",
+                    "name": "demuxer/LAVSplitter/PacketAllocator.h"
+                },
+                {
+                    "@type": "item",
+                    "name": "demuxer/LAVSplitter/PacketAllocator.cpp"
+                },
+                {
+                    "@type": "item",
+                    "name": "demuxer/LAVSplitter/PacketQueue.h"
+                },
+                {
+                    "@type": "item",
+                    "name": "demuxer/LAVSplitter/PacketQueue.cpp"
+                },
+                {
+                    "@type": "item",
+                    "name": "demuxer/LAVSplitter/StreamParser.h"
+                },
+                {
+                    "@type": "item",
+                    "name": "demuxer/LAVSplitter/StreamParser.cpp"
+                },
+                {
+                    "@type": "item",
+                    "name": "demuxer/LAVSplitter/resource.h"
+                },
+                {
+                    "@type": "item",
+                    "name": "demuxer/LAVSplitter/LAVSplitter.h"
+                },
+                {
+                    "@type": "item",
+                    "name": "demuxer/LAVSplitter/LAVSplitter.cpp"
+                },
+                {
+                    "@type": "item",
+                    "name": "demuxer/LAVSplitter/stdafx.h"
+                },
+                {
+                    "@type": "item",
+                    "name": "demuxer/LAVSplitter/InputPin.h"
+                },
+                {
+                    "@type": "item",
+                    "name": "demuxer/LAVSplitter/InputPin.cpp"
+                },
+                {
+                    "@type": "item",
+                    "name": "demuxer/LAVSplitter/dllmain.cpp"
+                },
+                {
+                    "@type": "item",
+                    "name": "demuxer/LAVSplitter/OutputPin.h"
+                },
+                {
+                    "@type": "item",
+                    "name": "demuxer/LAVSplitter/OutputPin.cpp"
+                }
+            ]
+        },
+        {
+            "@type": "group",
+            "name": "6",
+            "nested": [
+                {
+                    "@type": "item",
+                    "name": "decoder/LAVVideo/Media.h"
+                },
+                {
+                    "@type": "item",
+                    "name": "decoder/LAVVideo/Media.cpp"
+                },
+                {
+                    "@type": "item",
+                    "name": "decoder/LAVVideo/DecodeManager.h"
+                },
+                {
+                    "@type": "item",
+                    "name": "decoder/LAVVideo/DecodeManager.cpp"
+                },
+                {
+                    "@type": "item",
+                    "name": "decoder/LAVVideo/VideoSettingsProp.h"
+                },
+                {
+                    "@type": "item",
+                    "name": "decoder/LAVVideo/VideoSettingsProp.cpp"
+                },
+                {
+                    "@type": "item",
+                    "name": "decoder/LAVVideo/LAVVideo.h"
+                },
+                {
+                    "@type": "item",
+                    "name": "decoder/LAVVideo/LAVVideo.cpp"
+                },
+                {
+                    "@type": "item",
+                    "name": "decoder/LAVVideo/Filtering.cpp"
+                },
+                {
+                    "@type": "item",
+                    "name": "decoder/LAVVideo/VideoOutputPin.h"
+                },
+                {
+                    "@type": "item",
+                    "name": "decoder/LAVVideo/VideoOutputPin.cpp"
+                },
+                {
+                    "@type": "item",
+                    "name": "decoder/LAVVideo/stdafx.cpp"
+                },
+                {
+                    "@type": "item",
+                    "name": "decoder/LAVVideo/VideoInputPin.h"
+                },
+                {
+                    "@type": "item",
+                    "name": "decoder/LAVVideo/VideoInputPin.cpp"
+                },
+                {
+                    "@type": "item",
+                    "name": "decoder/LAVVideo/dllmain.cpp"
+                },
+                {
+                    "@type": "item",
+                    "name": "decoder/LAVVideo/resource.h"
+                },
+                {
+                    "@type": "item",
+                    "name": "decoder/LAVVideo/stdafx.h"
+                },
+                {
+                    "@type": "item",
+                    "name": "decoder/LAVVideo/CCOutputPin.h"
+                },
+                {
+                    "@type": "item",
+                    "name": "decoder/LAVVideo/CCOutputPin.cpp"
+                }
+            ]
+        },
+        {
+            "@type": "group",
+            "name": "7",
+            "nested": [
+                {
+                    "@type": "item",
+                    "name": "thirdparty/32/include/libxml2/libxml/entities.h"
+                },
+                {
+                    "@type": "item",
+                    "name": "thirdparty/32/include/libxml2/libxml/SAX.h"
+                },
+                {
+                    "@type": "item",
+                    "name": "thirdparty/32/include/libxml2/libxml/debugXML.h"
+                },
+                {
+                    "@type": "item",
+                    "name": "thirdparty/32/include/libxml2/libxml/xmlstring.h"
+                },
+                {
+                    "@type": "item",
+                    "name": "thirdparty/32/include/libxml2/libxml/c14n.h"
+                },
+                {
+                    "@type": "item",
+                    "name": "thirdparty/32/include/libxml2/libxml/valid.h"
+                },
+                {
+                    "@type": "item",
+                    "name": "thirdparty/32/include/libxml2/libxml/tree.h"
+                },
+                {
+                    "@type": "item",
+                    "name": "thirdparty/32/include/libxml2/libxml/xpath.h"
+                },
+                {
+                    "@type": "item",
+                    "name": "thirdparty/32/include/libxml2/libxml/xpathInternals.h"
+                },
+                {
+                    "@type": "item",
+                    "name": "thirdparty/32/include/libxml2/libxml/dict.h"
+                },
+                {
+                    "@type": "item",
+                    "name": "thirdparty/32/include/libxml2/libxml/SAX2.h"
+                }
+            ]
+        },
+        {
+            "@type": "group",
+            "name": "8",
+            "nested": [
+                {
+                    "@type": "item",
+                    "name": "thirdparty/64/include/libxml2/libxml/xpathInternals.h"
+                },
+                {
+                    "@type": "item",
+                    "name": "thirdparty/64/include/libxml2/libxml/valid.h"
+                },
+                {
+                    "@type": "item",
+                    "name": "thirdparty/64/include/libxml2/libxml/debugXML.h"
+                },
+                {
+                    "@type": "item",
+                    "name": "thirdparty/64/include/libxml2/libxml/dict.h"
+                },
+                {
+                    "@type": "item",
+                    "name": "thirdparty/64/include/libxml2/libxml/SAX.h"
+                },
+                {
+                    "@type": "item",
+                    "name": "thirdparty/64/include/libxml2/libxml/xmlstring.h"
+                },
+                {
+                    "@type": "item",
+                    "name": "thirdparty/64/include/libxml2/libxml/c14n.h"
+                },
+                {
+                    "@type": "item",
+                    "name": "thirdparty/64/include/libxml2/libxml/tree.h"
+                },
+                {
+                    "@type": "item",
+                    "name": "thirdparty/64/include/libxml2/libxml/xpath.h"
+                },
+                {
+                    "@type": "item",
+                    "name": "thirdparty/64/include/libxml2/libxml/SAX2.h"
+                },
+                {
+                    "@type": "item",
+                    "name": "thirdparty/64/include/libxml2/libxml/entities.h"
+                }
+            ]
+        },
+        {
+            "@type": "group",
+            "name": "9",
+            "nested": [
+                {
+                    "@type": "item",
+                    "name": "decoder/LAVVideo/decoders/DecBase.h"
+                },
+                {
+                    "@type": "item",
+                    "name": "decoder/LAVVideo/decoders/cuvid/dynlink_cuviddec.h"
+                },
+                {
+                    "@type": "item",
+                    "name": "decoder/LAVVideo/decoders/cuvid/dynlink_cuda_d3d.h"
+                },
+                {
+                    "@type": "item",
+                    "name": "decoder/LAVVideo/decoders/cuvid/dynlink_cuda_cuda.h"
+                },
+                {
+                    "@type": "item",
+                    "name": "decoder/LAVVideo/decoders/cuvid/dynlink_cuda.h"
+                },
+                {
+                    "@type": "item",
+                    "name": "decoder/LAVVideo/decoders/ILAVDecoder.h"
+                },
+                {
+                    "@type": "item",
+                    "name": "decoder/LAVVideo/decoders/avcodec.h"
+                },
+                {
+                    "@type": "item",
+                    "name": "decoder/LAVVideo/decoders/dxva2dec.h"
+                },
+                {
+                    "@type": "item",
+                    "name": "decoder/LAVVideo/decoders/msdk_mvc.h"
+                },
+                {
+                    "@type": "item",
+                    "name": "decoder/LAVVideo/decoders/quicksync.h"
+                },
+                {
+                    "@type": "item",
+                    "name": "decoder/LAVVideo/decoders/wmv9mft.h"
+                },
+                {
+                    "@type": "item",
+                    "name": "decoder/LAVVideo/decoders/d3d11va.h"
+                },
+                {
+                    "@type": "item",
+                    "name": "decoder/LAVVideo/decoders/cuvid.h"
+                },
+                {
+                    "@type": "item",
+                    "name": "decoder/LAVVideo/decoders/avcodec.cpp"
+                },
+                {
+                    "@type": "item",
+                    "name": "decoder/LAVVideo/decoders/dxva2dec.cpp"
+                },
+                {
+                    "@type": "item",
+                    "name": "decoder/LAVVideo/decoders/msdk_mvc.cpp"
+                },
+                {
+                    "@type": "item",
+                    "name": "decoder/LAVVideo/decoders/quicksync.cpp"
+                },
+                {
+                    "@type": "item",
+                    "name": "decoder/LAVVideo/decoders/wmv9mft.cpp"
+                },
+                {
+                    "@type": "item",
+                    "name": "decoder/LAVVideo/decoders/pixfmt.cpp"
+                },
+                {
+                    "@type": "item",
+                    "name": "decoder/LAVVideo/decoders/d3d11va.cpp"
+                },
+                {
+                    "@type": "item",
+                    "name": "decoder/LAVVideo/decoders/cuvid.cpp"
+                },
+                {
+                    "@type": "item",
+                    "name": "decoder/LAVVideo/decoders/cuvid/dynlink_nvcuvid.h"
+                },
+                {
+                    "@type": "item",
+                    "name": "decoder/LAVVideo/decoders/dxva2/DXVA2SurfaceAllocator.h"
+                },
+                {
+                    "@type": "item",
+                    "name": "decoder/LAVVideo/decoders/dxva2/DXVA2SurfaceAllocator.cpp"
+                },
+                {
+                    "@type": "item",
+                    "name": "decoder/LAVVideo/decoders/d3d11/D3D11SurfaceAllocator.h"
+                },
+                {
+                    "@type": "item",
+                    "name": "decoder/LAVVideo/decoders/d3d11/D3D11SurfaceAllocator.cpp"
+                },
+                {
+                    "@type": "item",
+                    "name": "decoder/LAVVideo/decoders/dxva2/dxva_common.h"
+                },
+                {
+                    "@type": "item",
+                    "name": "decoder/LAVVideo/decoders/dxva2/dxva_common.cpp"
+                }
+            ]
+        },
+        {
+            "@type": "group",
+            "name": "10",
+            "nested": [
+                {
+                    "@type": "item",
+                    "name": "decoder/LAVAudio/BitstreamParser.h"
+                },
+                {
+                    "@type": "item",
+                    "name": "decoder/LAVAudio/BitstreamParser.cpp"
+                },
+                {
+                    "@type": "item",
+                    "name": "decoder/LAVAudio/parser/dts.h"
+                },
+                {
+                    "@type": "item",
+                    "name": "decoder/LAVAudio/parser/dts.cpp"
+                },
+                {
+                    "@type": "item",
+                    "name": "decoder/LAVAudio/stdafx.cpp"
+                },
+                {
+                    "@type": "item",
+                    "name": "decoder/LAVAudio/stdafx.h"
+                },
+                {
+                    "@type": "item",
+                    "name": "decoder/LAVAudio/resource.h"
+                },
+                {
+                    "@type": "item",
+                    "name": "decoder/LAVAudio/parser/parser.h"
+                },
+                {
+                    "@type": "item",
+                    "name": "decoder/LAVAudio/LAVAudio.h"
+                },
+                {
+                    "@type": "item",
+                    "name": "decoder/LAVAudio/Media.h"
+                },
+                {
+                    "@type": "item",
+                    "name": "decoder/LAVAudio/PostProcessor.h"
+                },
+                {
+                    "@type": "item",
+                    "name": "decoder/LAVAudio/Media.cpp"
+                },
+                {
+                    "@type": "item",
+                    "name": "decoder/LAVAudio/PostProcessor.cpp"
+                },
+                {
+                    "@type": "item",
+                    "name": "decoder/LAVAudio/LAVAudio.cpp"
+                },
+                {
+                    "@type": "item",
+                    "name": "decoder/LAVAudio/BitstreamMAT.cpp"
+                },
+                {
+                    "@type": "item",
+                    "name": "decoder/LAVAudio/Bitstream.cpp"
+                },
+                {
+                    "@type": "item",
+                    "name": "decoder/LAVAudio/AudioSettingsProp.h"
+                },
+                {
+                    "@type": "item",
+                    "name": "decoder/LAVAudio/AudioSettingsProp.cpp"
+                },
+                {
+                    "@type": "item",
+                    "name": "decoder/LAVAudio/dllmain.cpp"
+                }
+            ]
+        },
+        {
+            "@type": "group",
+            "name": "11",
+            "nested": [
+                {
+                    "@type": "item",
+                    "name": "include/ILAVDynamicAllocator.h"
+                },
+                {
+                    "@type": "item",
+                    "name": "include/IMediaSample3D.h"
+                },
+                {
+                    "@type": "item",
+                    "name": "include/IDSMResourceBag.h"
+                },
+                {
+                    "@type": "item",
+                    "name": "include/LAVSplitterSettings.h"
+                },
+                {
+                    "@type": "item",
+                    "name": "include/LAVAudioSettings.h"
+                },
+                {
+                    "@type": "item",
+                    "name": "include/IKeyFrameInfo.h"
+                },
+                {
+                    "@type": "item",
+                    "name": "include/IStreamSourceControl.h"
+                },
+                {
+                    "@type": "item",
+                    "name": "include/IGraphRebuildDelegate.h"
+                },
+                {
+                    "@type": "item",
+                    "name": "include/ITrackInfo.h"
+                }
+            ]
+        },
+        {
+            "@type": "group",
+            "name": "12",
+            "nested": [
+                {
+                    "@type": "item",
+                    "name": "thirdparty/32/include/nettle/gcm.h"
+                },
+                {
+                    "@type": "item",
+                    "name": "thirdparty/32/include/nettle/ccm.h"
+                },
+                {
+                    "@type": "item",
+                    "name": "thirdparty/32/include/nettle/siv-cmac.h"
+                },
+                {
+                    "@type": "item",
+                    "name": "thirdparty/32/include/nettle/aes.h"
+                },
+                {
+                    "@type": "item",
+                    "name": "thirdparty/32/include/nettle/xts.h"
+                },
+                {
+                    "@type": "item",
+                    "name": "thirdparty/32/include/nettle/des.h"
+                },
+                {
+                    "@type": "item",
+                    "name": "thirdparty/32/include/nettle/cmac.h"
+                },
+                {
+                    "@type": "item",
+                    "name": "thirdparty/32/include/nettle/camellia.h"
+                }
+            ]
+        },
+        {
+            "@type": "group",
+            "name": "13",
+            "nested": [
+                {
+                    "@type": "item",
+                    "name": "thirdparty/32/include/libxml2/libxml/parserInternals.h"
+                },
+                {
+                    "@type": "item",
+                    "name": "thirdparty/32/include/libxml2/libxml/parser.h"
+                },
+                {
+                    "@type": "item",
+                    "name": "thirdparty/32/include/libxml2/libxml/schemasInternals.h"
+                },
+                {
+                    "@type": "item",
+                    "name": "thirdparty/32/include/libxml2/libxml/schematron.h"
+                },
+                {
+                    "@type": "item",
+                    "name": "thirdparty/32/include/libxml2/libxml/xmlschemas.h"
+                },
+                {
+                    "@type": "item",
+                    "name": "thirdparty/32/include/libxml2/libxml/xmlschemastypes.h"
+                },
+                {
+                    "@type": "item",
+                    "name": "thirdparty/32/include/libxml2/libxml/relaxng.h"
+                },
+                {
+                    "@type": "item",
+                    "name": "thirdparty/32/include/libxml2/libxml/uri.h"
+                }
+            ]
+        },
+        {
+            "@type": "group",
+            "name": "14",
+            "nested": [
+                {
+                    "@type": "item",
+                    "name": "thirdparty/64/include/nettle/des.h"
+                },
+                {
+                    "@type": "item",
+                    "name": "thirdparty/64/include/nettle/cmac.h"
+                },
+                {
+                    "@type": "item",
+                    "name": "thirdparty/64/include/nettle/ccm.h"
+                },
+                {
+                    "@type": "item",
+                    "name": "thirdparty/64/include/nettle/aes.h"
+                },
+                {
+                    "@type": "item",
+                    "name": "thirdparty/64/include/nettle/siv-cmac.h"
+                },
+                {
+                    "@type": "item",
+                    "name": "thirdparty/64/include/nettle/gcm.h"
+                },
+                {
+                    "@type": "item",
+                    "name": "thirdparty/64/include/nettle/camellia.h"
+                },
+                {
+                    "@type": "item",
+                    "name": "thirdparty/64/include/nettle/xts.h"
+                }
+            ]
+        },
+        {
+            "@type": "group",
+            "name": "15",
+            "nested": [
+                {
+                    "@type": "item",
+                    "name": "thirdparty/64/include/libxml2/libxml/xmlschemastypes.h"
+                },
+                {
+                    "@type": "item",
+                    "name": "thirdparty/64/include/libxml2/libxml/relaxng.h"
+                },
+                {
+                    "@type": "item",
+                    "name": "thirdparty/64/include/libxml2/libxml/uri.h"
+                },
+                {
+                    "@type": "item",
+                    "name": "thirdparty/64/include/libxml2/libxml/xmlschemas.h"
+                },
+                {
+                    "@type": "item",
+                    "name": "thirdparty/64/include/libxml2/libxml/schematron.h"
+                },
+                {
+                    "@type": "item",
+                    "name": "thirdparty/64/include/libxml2/libxml/parser.h"
+                },
+                {
+                    "@type": "item",
+                    "name": "thirdparty/64/include/libxml2/libxml/parserInternals.h"
+                },
+                {
+                    "@type": "item",
+                    "name": "thirdparty/64/include/libxml2/libxml/schemasInternals.h"
+                }
+            ]
+        },
+        {
+            "@type": "group",
+            "name": "16",
+            "nested": [
+                {
+                    "@type": "item",
+                    "name": "decoder/LAVVideo/decoders/mvc/include/mfxsession.h"
+                },
+                {
+                    "@type": "item",
+                    "name": "decoder/LAVVideo/decoders/mvc/include/mfxcommon.h"
+                },
+                {
+                    "@type": "item",
+                    "name": "decoder/LAVVideo/decoders/mvc/include/mfxstructures.h"
+                },
+                {
+                    "@type": "item",
+                    "name": "decoder/LAVVideo/decoders/mvc/include/mfxvideo.h"
+                },
+                {
+                    "@type": "item",
+                    "name": "decoder/LAVVideo/decoders/mvc/include/mfxdefs.h"
+                },
+                {
+                    "@type": "item",
+                    "name": "decoder/LAVVideo/decoders/mvc/include/mfxvstructures.h"
+                },
+                {
+                    "@type": "item",
+                    "name": "decoder/LAVVideo/decoders/mvc/include/mfxmvc.h"
+                }
+            ]
+        },
+        {
+            "@type": "group",
+            "name": "17",
+            "nested": [
+                {
+                    "@type": "item",
+                    "name": "thirdparty/32/include/nettle/sha.h"
+                },
+                {
+                    "@type": "item",
+                    "name": "thirdparty/32/include/nettle/ecc-curve.h"
+                },
+                {
+                    "@type": "item",
+                    "name": "thirdparty/32/include/nettle/ctr.h"
+                },
+                {
+                    "@type": "item",
+                    "name": "thirdparty/32/include/nettle/yarrow.h"
+                },
+                {
+                    "@type": "item",
+                    "name": "thirdparty/32/include/nettle/eax.h"
+                },
+                {
+                    "@type": "item",
+                    "name": "thirdparty/32/include/nettle/cfb.h"
+                },
+                {
+                    "@type": "item",
+                    "name": "thirdparty/32/include/nettle/cbc.h"
+                }
+            ]
+        },
+        {
+            "@type": "group",
+            "name": "18",
+            "nested": [
+                {
+                    "@type": "item",
+                    "name": "thirdparty/32/include/gnutls/dtls.h"
+                },
+                {
+                    "@type": "item",
+                    "name": "thirdparty/32/include/gnutls/system-keys.h"
+                },
+                {
+                    "@type": "item",
+                    "name": "thirdparty/32/include/gnutls/pkcs12.h"
+                },
+                {
+                    "@type": "item",
+                    "name": "thirdparty/32/include/gnutls/tpm.h"
+                },
+                {
+                    "@type": "item",
+                    "name": "thirdparty/32/include/gnutls/x509.h"
+                },
+                {
+                    "@type": "item",
+                    "name": "thirdparty/32/include/gnutls/socket.h"
+                },
+                {
+                    "@type": "item",
+                    "name": "thirdparty/32/include/gnutls/ocsp.h"
+                }
+            ]
+        },
+        {
+            "@type": "group",
+            "name": "19",
+            "nested": [
+                {
+                    "@type": "item",
+                    "name": "thirdparty/32/include/gnutls/abstract.h"
+                },
+                {
+                    "@type": "item",
+                    "name": "thirdparty/32/include/gnutls/urls.h"
+                },
+                {
+                    "@type": "item",
+                    "name": "thirdparty/32/include/gnutls/crypto.h"
+                },
+                {
+                    "@type": "item",
+                    "name": "thirdparty/32/include/gnutls/pkcs11.h"
+                },
+                {
+                    "@type": "item",
+                    "name": "thirdparty/32/include/gnutls/pkcs7.h"
+                },
+                {
+                    "@type": "item",
+                    "name": "thirdparty/32/include/gnutls/gnutls.h"
+                },
+                {
+                    "@type": "item",
+                    "name": "thirdparty/32/include/gnutls/self-test.h"
+                }
+            ]
+        },
+        {
+            "@type": "group",
+            "name": "20",
+            "nested": [
+                {
+                    "@type": "item",
+                    "name": "thirdparty/64/include/nettle/ecc-curve.h"
+                },
+                {
+                    "@type": "item",
+                    "name": "thirdparty/64/include/nettle/sha.h"
+                },
+                {
+                    "@type": "item",
+                    "name": "thirdparty/64/include/nettle/eax.h"
+                },
+                {
+                    "@type": "item",
+                    "name": "thirdparty/64/include/nettle/cbc.h"
+                },
+                {
+                    "@type": "item",
+                    "name": "thirdparty/64/include/nettle/cfb.h"
+                },
+                {
+                    "@type": "item",
+                    "name": "thirdparty/64/include/nettle/ctr.h"
+                },
+                {
+                    "@type": "item",
+                    "name": "thirdparty/64/include/nettle/yarrow.h"
+                }
+            ]
+        },
+        {
+            "@type": "group",
+            "name": "21",
+            "nested": [
+                {
+                    "@type": "item",
+                    "name": "thirdparty/64/include/gnutls/dtls.h"
+                },
+                {
+                    "@type": "item",
+                    "name": "thirdparty/64/include/gnutls/x509.h"
+                },
+                {
+                    "@type": "item",
+                    "name": "thirdparty/64/include/gnutls/ocsp.h"
+                },
+                {
+                    "@type": "item",
+                    "name": "thirdparty/64/include/gnutls/system-keys.h"
+                },
+                {
+                    "@type": "item",
+                    "name": "thirdparty/64/include/gnutls/tpm.h"
+                },
+                {
+                    "@type": "item",
+                    "name": "thirdparty/64/include/gnutls/pkcs12.h"
+                },
+                {
+                    "@type": "item",
+                    "name": "thirdparty/64/include/gnutls/socket.h"
+                }
+            ]
+        },
+        {
+            "@type": "group",
+            "name": "22",
+            "nested": [
+                {
+                    "@type": "item",
+                    "name": "thirdparty/64/include/gnutls/pkcs7.h"
+                },
+                {
+                    "@type": "item",
+                    "name": "thirdparty/64/include/gnutls/abstract.h"
+                },
+                {
+                    "@type": "item",
+                    "name": "thirdparty/64/include/gnutls/urls.h"
+                },
+                {
+                    "@type": "item",
+                    "name": "thirdparty/64/include/gnutls/crypto.h"
+                },
+                {
+                    "@type": "item",
+                    "name": "thirdparty/64/include/gnutls/pkcs11.h"
+                },
+                {
+                    "@type": "item",
+                    "name": "thirdparty/64/include/gnutls/gnutls.h"
+                },
+                {
+                    "@type": "item",
+                    "name": "thirdparty/64/include/gnutls/self-test.h"
+                }
+            ]
+        },
+        {
+            "@type": "group",
+            "name": "23",
+            "nested": [
+                {
+                    "@type": "item",
+                    "name": "common/baseclasses/schedule.cpp"
+                },
+                {
+                    "@type": "item",
+                    "name": "common/baseclasses/schedule.h"
+                },
+                {
+                    "@type": "item",
+                    "name": "common/baseclasses/dxmperf.h"
+                },
+                {
+                    "@type": "item",
+                    "name": "common/baseclasses/perflog.h"
+                },
+                {
+                    "@type": "item",
+                    "name": "common/baseclasses/perflog.cpp"
+                },
+                {
+                    "@type": "item",
+                    "name": "common/baseclasses/refclock.h"
+                },
+                {
+                    "@type": "item",
+                    "name": "common/baseclasses/refclock.cpp"
+                },
+                {
+                    "@type": "item",
+                    "name": "common/baseclasses/perfstruct.h"
+                }
+            ]
+        },
+        {
+            "@type": "group",
+            "name": "24",
+            "nested": [
+                {
+                    "@type": "item",
+                    "name": "thirdparty/32/include/nettle/buffer.h"
+                },
+                {
+                    "@type": "item",
+                    "name": "thirdparty/32/include/nettle/bignum.h"
+                },
+                {
+                    "@type": "item",
+                    "name": "thirdparty/32/include/nettle/realloc.h"
+                },
+                {
+                    "@type": "item",
+                    "name": "thirdparty/32/include/nettle/nettle-meta.h"
+                },
+                {
+                    "@type": "item",
+                    "name": "thirdparty/32/include/nettle/version.h"
+                },
+                {
+                    "@type": "item",
+                    "name": "thirdparty/32/include/nettle/nettle-types.h"
+                }
+            ]
+        },
+        {
+            "@type": "group",
+            "name": "25",
+            "nested": [
+                {
+                    "@type": "item",
+                    "name": "thirdparty/32/include/avisynth/avs/alignment.h"
+                },
+                {
+                    "@type": "item",
+                    "name": "thirdparty/32/include/avisynth/avs/win.h"
+                },
+                {
+                    "@type": "item",
+                    "name": "thirdparty/32/include/avisynth/avs/cpuid.h"
+                },
+                {
+                    "@type": "item",
+                    "name": "thirdparty/32/include/avisynth/avs/types.h"
+                },
+                {
+                    "@type": "item",
+                    "name": "thirdparty/32/include/avisynth/avs/minmax.h"
+                },
+                {
+                    "@type": "item",
+                    "name": "thirdparty/32/include/avisynth/avs/capi.h"
+                }
+            ]
+        },
+        {
+            "@type": "group",
+            "name": "26",
+            "nested": [
+                {
+                    "@type": "item",
+                    "name": "thirdparty/64/include/nettle/nettle-meta.h"
+                },
+                {
+                    "@type": "item",
+                    "name": "thirdparty/64/include/nettle/buffer.h"
+                },
+                {
+                    "@type": "item",
+                    "name": "thirdparty/64/include/nettle/version.h"
+                },
+                {
+                    "@type": "item",
+                    "name": "thirdparty/64/include/nettle/nettle-types.h"
+                },
+                {
+                    "@type": "item",
+                    "name": "thirdparty/64/include/nettle/realloc.h"
+                },
+                {
+                    "@type": "item",
+                    "name": "thirdparty/64/include/nettle/bignum.h"
+                }
+            ]
+        },
+        {
+            "@type": "group",
+            "name": "27",
+            "nested": [
+                {
+                    "@type": "item",
+                    "name": "thirdparty/64/include/avisynth/avs/types.h"
+                },
+                {
+                    "@type": "item",
+                    "name": "thirdparty/64/include/avisynth/avs/cpuid.h"
+                },
+                {
+                    "@type": "item",
+                    "name": "thirdparty/64/include/avisynth/avs/minmax.h"
+                },
+                {
+                    "@type": "item",
+                    "name": "thirdparty/64/include/avisynth/avs/capi.h"
+                },
+                {
+                    "@type": "item",
+                    "name": "thirdparty/64/include/avisynth/avs/win.h"
+                },
+                {
+                    "@type": "item",
+                    "name": "thirdparty/64/include/avisynth/avs/alignment.h"
+                }
+            ]
+        },
+        {
+            "@type": "group",
+            "name": "28",
+            "nested": [
+                {
+                    "@type": "item",
+                    "name": "decoder/LAVVideo/subtitles/LAVSubtitleFrame.h"
+                },
+                {
+                    "@type": "item",
+                    "name": "decoder/LAVVideo/subtitles/LAVSubtitleFrame.cpp"
+                },
+                {
+                    "@type": "item",
+                    "name": "decoder/LAVVideo/subtitles/SubRenderOptionsImpl.h"
+                },
+                {
+                    "@type": "item",
+                    "name": "decoder/LAVVideo/subtitles/SubRenderOptionsImpl.cpp"
+                },
+                {
+                    "@type": "item",
+                    "name": "decoder/LAVVideo/subtitles/LAVVideoSubtitleInputPin.h"
+                },
+                {
+                    "@type": "item",
+                    "name": "decoder/LAVVideo/subtitles/LAVVideoSubtitleInputPin.cpp"
+                },
+                {
+                    "@type": "item",
+                    "name": "decoder/LAVVideo/subtitles/LAVSubtitleConsumer.h"
+                },
+                {
+                    "@type": "item",
+                    "name": "decoder/LAVVideo/subtitles/blend/blend_generic.cpp"
+                },
+                {
+                    "@type": "item",
+                    "name": "decoder/LAVVideo/subtitles/LAVSubtitleConsumer.cpp"
+                },
+                {
+                    "@type": "item",
+                    "name": "decoder/LAVVideo/subtitles/LAVSubtitleProvider.h"
+                },
+                {
+                    "@type": "item",
+                    "name": "decoder/LAVVideo/subtitles/LAVSubtitleProvider.cpp"
+                }
+            ]
+        },
+        {
+            "@type": "group",
+            "name": "29",
+            "nested": [
+                {
+                    "@type": "item",
+                    "name": "thirdparty/32/include/nettle/chacha.h"
+                },
+                {
+                    "@type": "item",
+                    "name": "thirdparty/32/include/nettle/arcfour.h"
+                },
+                {
+                    "@type": "item",
+                    "name": "thirdparty/32/include/nettle/poly1305.h"
+                },
+                {
+                    "@type": "item",
+                    "name": "thirdparty/32/include/nettle/salsa20.h"
+                },
+                {
+                    "@type": "item",
+                    "name": "thirdparty/32/include/nettle/chacha-poly1305.h"
+                }
+            ]
+        },
+        {
+            "@type": "group",
+            "name": "30",
+            "nested": [
+                {
+                    "@type": "item",
+                    "name": "thirdparty/64/include/nettle/chacha-poly1305.h"
+                },
+                {
+                    "@type": "item",
+                    "name": "thirdparty/64/include/nettle/chacha.h"
+                },
+                {
+                    "@type": "item",
+                    "name": "thirdparty/64/include/nettle/poly1305.h"
+                },
+                {
+                    "@type": "item",
+                    "name": "thirdparty/64/include/nettle/salsa20.h"
+                },
+                {
+                    "@type": "item",
+                    "name": "thirdparty/64/include/nettle/arcfour.h"
+                }
+            ]
+        },
+        {
+            "@type": "group",
+            "name": "31",
+            "nested": [
+                {
+                    "@type": "item",
+                    "name": "common/DSUtilLite/DeCSS/CSSauth.cpp"
+                },
+                {
+                    "@type": "item",
+                    "name": "common/DSUtilLite/DeCSS/DeCSSInputPin.h"
+                },
+                {
+                    "@type": "item",
+                    "name": "common/DSUtilLite/DeCSS/DeCSSInputPin.cpp"
+                },
+                {
+                    "@type": "item",
+                    "name": "common/DSUtilLite/DeCSS/CSSauth.h"
+                },
+                {
+                    "@type": "item",
+                    "name": "common/DSUtilLite/DeCSS/CSSscramble.cpp"
+                },
+                {
+                    "@type": "item",
+                    "name": "common/DSUtilLite/DeCSS/CSSscramble.h"
+                }
+            ]
+        },
+        {
+            "@type": "group",
+            "name": "32",
+            "nested": [
+                {
+                    "@type": "item",
+                    "name": "thirdparty/32/include/speex/speex_stereo.h"
+                },
+                {
+                    "@type": "item",
+                    "name": "thirdparty/32/include/speex/speex_callbacks.h"
+                },
+                {
+                    "@type": "item",
+                    "name": "thirdparty/32/include/speex/speex_header.h"
+                },
+                {
+                    "@type": "item",
+                    "name": "thirdparty/32/include/speex/speex.h"
+                }
+            ]
+        },
+        {
+            "@type": "group",
+            "name": "33",
+            "nested": [
+                {
+                    "@type": "item",
+                    "name": "thirdparty/32/include/nettle/serpent.h"
+                },
+                {
+                    "@type": "item",
+                    "name": "thirdparty/32/include/nettle/arctwo.h"
+                },
+                {
+                    "@type": "item",
+                    "name": "thirdparty/32/include/nettle/cast128.h"
+                },
+                {
+                    "@type": "item",
+                    "name": "thirdparty/32/include/nettle/twofish.h"
+                }
+            ]
+        },
+        {
+            "@type": "group",
+            "name": "34",
+            "nested": [
+                {
+                    "@type": "item",
+                    "name": "thirdparty/32/include/dav1d/common.h"
+                },
+                {
+                    "@type": "item",
+                    "name": "thirdparty/32/include/dav1d/picture.h"
+                },
+                {
+                    "@type": "item",
+                    "name": "thirdparty/32/include/dav1d/data.h"
+                },
+                {
+                    "@type": "item",
+                    "name": "thirdparty/32/include/dav1d/dav1d.h"
+                }
+            ]
+        },
+        {
+            "@type": "group",
+            "name": "35",
+            "nested": [
+                {
+                    "@type": "item",
+                    "name": "thirdparty/64/include/speex/speex.h"
+                },
+                {
+                    "@type": "item",
+                    "name": "thirdparty/64/include/speex/speex_stereo.h"
+                },
+                {
+                    "@type": "item",
+                    "name": "thirdparty/64/include/speex/speex_callbacks.h"
+                },
+                {
+                    "@type": "item",
+                    "name": "thirdparty/64/include/speex/speex_header.h"
+                }
+            ]
+        },
+        {
+            "@type": "group",
+            "name": "36",
+            "nested": [
+                {
+                    "@type": "item",
+                    "name": "thirdparty/64/include/nettle/twofish.h"
+                },
+                {
+                    "@type": "item",
+                    "name": "thirdparty/64/include/nettle/serpent.h"
+                },
+                {
+                    "@type": "item",
+                    "name": "thirdparty/64/include/nettle/cast128.h"
+                },
+                {
+                    "@type": "item",
+                    "name": "thirdparty/64/include/nettle/arctwo.h"
+                }
+            ]
+        },
+        {
+            "@type": "group",
+            "name": "37",
+            "nested": [
+                {
+                    "@type": "item",
+                    "name": "thirdparty/64/include/dav1d/dav1d.h"
+                },
+                {
+                    "@type": "item",
+                    "name": "thirdparty/64/include/dav1d/common.h"
+                },
+                {
+                    "@type": "item",
+                    "name": "thirdparty/64/include/dav1d/picture.h"
+                },
+                {
+                    "@type": "item",
+                    "name": "thirdparty/64/include/dav1d/data.h"
+                }
+            ]
+        },
+        {
+            "@type": "group",
+            "name": "38",
+            "nested": [
+                {
+                    "@type": "item",
+                    "name": "decoder/LAVVideo/LAVPixFmtConverter.h"
+                },
+                {
+                    "@type": "item",
+                    "name": "decoder/LAVVideo/pixconv/yuv420_yuy2.cpp"
+                },
+                {
+                    "@type": "item",
+                    "name": "decoder/LAVVideo/pixconv/pixconv.cpp"
+                },
+                {
+                    "@type": "item",
+                    "name": "decoder/LAVVideo/pixconv/rgb2rgb_unscaled.cpp"
+                },
+                {
+                    "@type": "item",
+                    "name": "decoder/LAVVideo/pixconv/yuv2rgb.cpp"
+                },
+                {
+                    "@type": "item",
+                    "name": "decoder/LAVVideo/pixconv/convert_direct.cpp"
+                },
+                {
+                    "@type": "item",
+                    "name": "decoder/LAVVideo/pixconv/interleave.cpp"
+                },
+                {
+                    "@type": "item",
+                    "name": "decoder/LAVVideo/pixconv/yuv444_ayuv.cpp"
+                },
+                {
+                    "@type": "item",
+                    "name": "decoder/LAVVideo/pixconv/convert_generic.cpp"
+                },
+                {
+                    "@type": "item",
+                    "name": "decoder/LAVVideo/pixconv/yuv2yuv_unscaled.cpp"
+                },
+                {
+                    "@type": "item",
+                    "name": "decoder/LAVVideo/pixconv/pixconv_sse2_templates.h"
+                },
+                {
+                    "@type": "item",
+                    "name": "decoder/LAVVideo/pixconv/pixconv_internal.h"
+                },
+                {
+                    "@type": "item",
+                    "name": "decoder/LAVVideo/LAVPixFmtConverter.cpp"
+                }
+            ]
+        },
+        {
+            "@type": "group",
+            "name": "39",
+            "nested": [
+                {
+                    "@type": "item",
+                    "name": "decoder/LAVVideo/parsers/MPEG2HeaderParser.h"
+                },
+                {
+                    "@type": "item",
+                    "name": "decoder/LAVVideo/parsers/MPEG2HeaderParser.cpp"
+                },
+                {
+                    "@type": "item",
+                    "name": "decoder/LAVVideo/parsers/HEVCSequenceParser.h"
+                },
+                {
+                    "@type": "item",
+                    "name": "decoder/LAVVideo/parsers/HEVCSequenceParser.cpp"
+                },
+                {
+                    "@type": "item",
+                    "name": "decoder/LAVVideo/parsers/H264SequenceParser.h"
+                },
+                {
+                    "@type": "item",
+                    "name": "decoder/LAVVideo/parsers/H264SequenceParser.cpp"
+                },
+                {
+                    "@type": "item",
+                    "name": "decoder/LAVVideo/parsers/VC1HeaderParser.h"
+                },
+                {
+                    "@type": "item",
+                    "name": "decoder/LAVVideo/parsers/VC1HeaderParser.cpp"
+                }
+            ]
+        },
+        {
+            "@type": "group",
+            "name": "40",
+            "nested": [
+                {
+                    "@type": "item",
+                    "name": "include/ISpecifyPropertyPages2.h"
+                },
+                {
+                    "@type": "item",
+                    "name": "include/IBitRateInfo.h"
+                },
+                {
+                    "@type": "item",
+                    "name": "include/IBufferInfo.h"
+                }
+            ]
+        },
+        {
+            "@type": "group",
+            "name": "41",
+            "nested": [
+                {
+                    "@type": "item",
+                    "name": "thirdparty/32/include/nettle/base64.h"
+                },
+                {
+                    "@type": "item",
+                    "name": "thirdparty/32/include/nettle/base16.h"
+                },
+                {
+                    "@type": "item",
+                    "name": "thirdparty/32/include/nettle/memxor.h"
+                }
+            ]
+        },
+        {
+            "@type": "group",
+            "name": "42",
+            "nested": [
+                {
+                    "@type": "item",
+                    "name": "thirdparty/32/include/nettle/gostdsa.h"
+                },
+                {
+                    "@type": "item",
+                    "name": "thirdparty/32/include/nettle/ecc.h"
+                },
+                {
+                    "@type": "item",
+                    "name": "thirdparty/32/include/nettle/ecdsa.h"
+                }
+            ]
+        },
+        {
+            "@type": "group",
+            "name": "43",
+            "nested": [
+                {
+                    "@type": "item",
+                    "name": "thirdparty/32/include/libxml2/libxml/xmlunicode.h"
+                },
+                {
+                    "@type": "item",
+                    "name": "thirdparty/32/include/libxml2/libxml/encoding.h"
+                },
+                {
+                    "@type": "item",
+                    "name": "thirdparty/32/include/libxml2/libxml/xmlregexp.h"
+                }
+            ]
+        },
+        {
+            "@type": "group",
+            "name": "44",
+            "nested": [
+                {
+                    "@type": "item",
+                    "name": "thirdparty/32/include/libxml2/libxml/catalog.h"
+                },
+                {
+                    "@type": "item",
+                    "name": "thirdparty/32/include/libxml2/libxml/threads.h"
+                },
+                {
+                    "@type": "item",
+                    "name": "thirdparty/32/include/libxml2/libxml/xmlerror.h"
+                }
+            ]
+        },
+        {
+            "@type": "group",
+            "name": "45",
+            "nested": [
+                {
+                    "@type": "item",
+                    "name": "thirdparty/32/include/libxml2/libxml/xmlIO.h"
+                },
+                {
+                    "@type": "item",
+                    "name": "thirdparty/32/include/libxml2/libxml/xmlreader.h"
+                },
+                {
+                    "@type": "item",
+                    "name": "thirdparty/32/include/libxml2/libxml/list.h"
+                }
+            ]
+        },
+        {
+            "@type": "group",
+            "name": "46",
+            "nested": [
+                {
+                    "@type": "item",
+                    "name": "thirdparty/64/include/nettle/memxor.h"
+                },
+                {
+                    "@type": "item",
+                    "name": "thirdparty/64/include/nettle/base16.h"
+                },
+                {
+                    "@type": "item",
+                    "name": "thirdparty/64/include/nettle/base64.h"
+                }
+            ]
+        },
+        {
+            "@type": "group",
+            "name": "47",
+            "nested": [
+                {
+                    "@type": "item",
+                    "name": "thirdparty/64/include/nettle/ecc.h"
+                },
+                {
+                    "@type": "item",
+                    "name": "thirdparty/64/include/nettle/ecdsa.h"
+                },
+                {
+                    "@type": "item",
+                    "name": "thirdparty/64/include/nettle/gostdsa.h"
+                }
+            ]
+        },
+        {
+            "@type": "group",
+            "name": "48",
+            "nested": [
+                {
+                    "@type": "item",
+                    "name": "thirdparty/64/include/libxml2/libxml/xmlregexp.h"
+                },
+                {
+                    "@type": "item",
+                    "name": "thirdparty/64/include/libxml2/libxml/xmlunicode.h"
+                },
+                {
+                    "@type": "item",
+                    "name": "thirdparty/64/include/libxml2/libxml/encoding.h"
+                }
+            ]
+        },
+        {
+            "@type": "group",
+            "name": "49",
+            "nested": [
+                {
+                    "@type": "item",
+                    "name": "thirdparty/64/include/libxml2/libxml/catalog.h"
+                },
+                {
+                    "@type": "item",
+                    "name": "thirdparty/64/include/libxml2/libxml/xmlerror.h"
+                },
+                {
+                    "@type": "item",
+                    "name": "thirdparty/64/include/libxml2/libxml/threads.h"
+                }
+            ]
+        },
+        {
+            "@type": "group",
+            "name": "50",
+            "nested": [
+                {
+                    "@type": "item",
+                    "name": "thirdparty/64/include/libxml2/libxml/xmlIO.h"
+                },
+                {
+                    "@type": "item",
+                    "name": "thirdparty/64/include/libxml2/libxml/xmlreader.h"
+                },
+                {
+                    "@type": "item",
+                    "name": "thirdparty/64/include/libxml2/libxml/list.h"
+                }
+            ]
+        },
+        {
+            "@type": "group",
+            "name": "51",
+            "nested": [
+                {
+                    "@type": "item",
+                    "name": "common/baseclasses/ddmm.cpp"
+                },
+                {
+                    "@type": "item",
+                    "name": "common/baseclasses/ddmm.h"
+                },
+                {
+                    "@type": "item",
+                    "name": "common/baseclasses/videoctl.h"
+                },
+                {
+                    "@type": "item",
+                    "name": "common/baseclasses/videoctl.cpp"
+                }
+            ]
+        },
+        {
+            "@type": "group",
+            "name": "52",
+            "nested": [
+                {
+                    "@type": "item",
+                    "name": "common/includes/IMediaSideDataFFmpeg.h"
+                },
+                {
+                    "@type": "item",
+                    "name": "common/includes/version.h"
+                }
+            ]
+        },
+        {
+            "@type": "group",
+            "name": "53",
+            "nested": [
+                {
+                    "@type": "item",
+                    "name": "thirdparty/32/include/speex/speex_config_types.h"
+                },
+                {
+                    "@type": "item",
+                    "name": "thirdparty/32/include/speex/speex_types.h"
+                }
+            ]
+        },
+        {
+            "@type": "group",
+            "name": "54",
+            "nested": [
+                {
+                    "@type": "item",
+                    "name": "thirdparty/32/include/opencore-amrwb/if_rom.h"
+                },
+                {
+                    "@type": "item",
+                    "name": "thirdparty/32/include/opencore-amrwb/dec_if.h"
+                }
+            ]
+        },
+        {
+            "@type": "group",
+            "name": "55",
+            "nested": [
+                {
+                    "@type": "item",
+                    "name": "thirdparty/32/include/opencore-amrnb/interf_enc.h"
+                },
+                {
+                    "@type": "item",
+                    "name": "thirdparty/32/include/opencore-amrnb/interf_dec.h"
+                }
+            ]
+        },
+        {
+            "@type": "group",
+            "name": "56",
+            "nested": [
+                {
+                    "@type": "item",
+                    "name": "thirdparty/32/include/libxml2/libxml/xmlmodule.h"
+                },
+                {
+                    "@type": "item",
+                    "name": "thirdparty/32/include/libxml2/libxml/xmlsave.h"
+                }
+            ]
+        },
+        {
+            "@type": "group",
+            "name": "57",
+            "nested": [
+                {
+                    "@type": "item",
+                    "name": "thirdparty/32/include/libxml2/libxml/xmlmemory.h"
+                },
+                {
+                    "@type": "item",
+                    "name": "thirdparty/32/include/libxml2/libxml/globals.h"
+                }
+            ]
+        },
+        {
+            "@type": "group",
+            "name": "58",
+            "nested": [
+                {
+                    "@type": "item",
+                    "name": "thirdparty/32/include/libxml2/libxml/HTMLtree.h"
+                },
+                {
+                    "@type": "item",
+                    "name": "thirdparty/32/include/libxml2/libxml/HTMLparser.h"
+                }
+            ]
+        },
+        {
+            "@type": "group",
+            "name": "59",
+            "nested": [
+                {
+                    "@type": "item",
+                    "name": "thirdparty/32/include/libxml2/libxml/nanoftp.h"
+                },
+                {
+                    "@type": "item",
+                    "name": "thirdparty/32/include/libxml2/libxml/nanohttp.h"
+                }
+            ]
+        },
+        {
+            "@type": "group",
+            "name": "60",
+            "nested": [
+                {
+                    "@type": "item",
+                    "name": "thirdparty/32/include/avisynth/avisynth.h"
+                },
+                {
+                    "@type": "item",
+                    "name": "thirdparty/32/include/avisynth/avisynth_c.h"
+                }
+            ]
+        },
+        {
+            "@type": "group",
+            "name": "61",
+            "nested": [
+                {
+                    "@type": "item",
+                    "name": "thirdparty/32/include/avisynth/avs/arch.h"
+                },
+                {
+                    "@type": "item",
+                    "name": "thirdparty/32/include/avisynth/avs/version.h"
+                }
+            ]
+        },
+        {
+            "@type": "group",
+            "name": "62",
+            "nested": [
+                {
+                    "@type": "item",
+                    "name": "thirdparty/32/include/dav1d/version.h"
+                },
+                {
+                    "@type": "item",
+                    "name": "thirdparty/32/include/dav1d/headers.h"
+                }
+            ]
+        },
+        {
+            "@type": "group",
+            "name": "63",
+            "nested": [
+                {
+                    "@type": "item",
+                    "name": "thirdparty/64/include/speex/speex_types.h"
+                },
+                {
+                    "@type": "item",
+                    "name": "thirdparty/64/include/speex/speex_config_types.h"
+                }
+            ]
+        },
+        {
+            "@type": "group",
+            "name": "64",
+            "nested": [
+                {
+                    "@type": "item",
+                    "name": "thirdparty/64/include/opencore-amrwb/if_rom.h"
+                },
+                {
+                    "@type": "item",
+                    "name": "thirdparty/64/include/opencore-amrwb/dec_if.h"
+                }
+            ]
+        },
+        {
+            "@type": "group",
+            "name": "65",
+            "nested": [
+                {
+                    "@type": "item",
+                    "name": "thirdparty/64/include/opencore-amrnb/interf_enc.h"
+                },
+                {
+                    "@type": "item",
+                    "name": "thirdparty/64/include/opencore-amrnb/interf_dec.h"
+                }
+            ]
+        },
+        {
+            "@type": "group",
+            "name": "66",
+            "nested": [
+                {
+                    "@type": "item",
+                    "name": "thirdparty/64/include/libxml2/libxml/xmlsave.h"
+                },
+                {
+                    "@type": "item",
+                    "name": "thirdparty/64/include/libxml2/libxml/xmlmodule.h"
+                }
+            ]
+        },
+        {
+            "@type": "group",
+            "name": "67",
+            "nested": [
+                {
+                    "@type": "item",
+                    "name": "thirdparty/64/include/libxml2/libxml/xmlmemory.h"
+                },
+                {
+                    "@type": "item",
+                    "name": "thirdparty/64/include/libxml2/libxml/globals.h"
+                }
+            ]
+        },
+        {
+            "@type": "group",
+            "name": "68",
+            "nested": [
+                {
+                    "@type": "item",
+                    "name": "thirdparty/64/include/libxml2/libxml/HTMLtree.h"
+                },
+                {
+                    "@type": "item",
+                    "name": "thirdparty/64/include/libxml2/libxml/HTMLparser.h"
+                }
+            ]
+        },
+        {
+            "@type": "group",
+            "name": "69",
+            "nested": [
+                {
+                    "@type": "item",
+                    "name": "thirdparty/64/include/libxml2/libxml/nanoftp.h"
+                },
+                {
+                    "@type": "item",
+                    "name": "thirdparty/64/include/libxml2/libxml/nanohttp.h"
+                }
+            ]
+        },
+        {
+            "@type": "group",
+            "name": "70",
+            "nested": [
+                {
+                    "@type": "item",
+                    "name": "thirdparty/64/include/avisynth/avisynth.h"
+                },
+                {
+                    "@type": "item",
+                    "name": "thirdparty/64/include/avisynth/avisynth_c.h"
+                }
+            ]
+        },
+        {
+            "@type": "group",
+            "name": "71",
+            "nested": [
+                {
+                    "@type": "item",
+                    "name": "thirdparty/64/include/avisynth/avs/arch.h"
+                },
+                {
+                    "@type": "item",
+                    "name": "thirdparty/64/include/avisynth/avs/version.h"
+                }
+            ]
+        },
+        {
+            "@type": "group",
+            "name": "72",
+            "nested": [
+                {
+                    "@type": "item",
+                    "name": "thirdparty/64/include/dav1d/version.h"
+                },
+                {
+                    "@type": "item",
+                    "name": "thirdparty/64/include/dav1d/headers.h"
+                }
+            ]
+        },
+        {
+            "@type": "group",
+            "name": "73",
+            "nested": [
+                {
+                    "@type": "item",
+                    "name": "common/DSUtilLite/SynchronizedQueue.h"
+                }
+            ]
+        },
+        {
+            "@type": "group",
+            "name": "74",
+            "nested": [
+                {
+                    "@type": "item",
+                    "name": "common/DSUtilLite/lavf_log.h"
+                }
+            ]
+        },
+        {
+            "@type": "group",
+            "name": "75",
+            "nested": [
+                {
+                    "@type": "item",
+                    "name": "common/DSUtilLite/rand_sse.h"
+                }
+            ]
+        },
+        {
+            "@type": "group",
+            "name": "76",
+            "nested": [
+                {
+                    "@type": "item",
+                    "name": "common/DSUtilLite/timer.h"
+                }
+            ]
+        },
+        {
+            "@type": "group",
+            "name": "77",
+            "nested": [
+                {
+                    "@type": "item",
+                    "name": "common/includes/ILAVPinInfo.h"
+                }
+            ]
+        },
+        {
+            "@type": "group",
+            "name": "78",
+            "nested": [
+                {
+                    "@type": "item",
+                    "name": "common/includes/LAVSplitterSettingsInternal.h"
+                }
+            ]
+        },
+        {
+            "@type": "group",
+            "name": "79",
+            "nested": [
+                {
+                    "@type": "item",
+                    "name": "common/includes/SubRenderIntf.h"
+                }
+            ]
+        },
+        {
+            "@type": "group",
+            "name": "80",
+            "nested": [
+                {
+                    "@type": "item",
+                    "name": "common/includes/common_defines.h"
+                }
+            ]
+        },
+        {
+            "@type": "group",
+            "name": "81",
+            "nested": [
+                {
+                    "@type": "item",
+                    "name": "common/includes/moreuuids.h"
+                }
+            ]
+        },
+        {
+            "@type": "group",
+            "name": "82",
+            "nested": [
+                {
+                    "@type": "item",
+                    "name": "include/ID3DVideoMemoryConfiguration.h"
+                }
+            ]
+        },
+        {
+            "@type": "group",
+            "name": "83",
+            "nested": [
+                {
+                    "@type": "item",
+                    "name": "include/IMediaSideData.h"
+                }
+            ]
+        },
+        {
+            "@type": "group",
+            "name": "84",
+            "nested": [
+                {
+                    "@type": "item",
+                    "name": "include/IPinSegmentEx.h"
+                }
+            ]
+        },
+        {
+            "@type": "group",
+            "name": "85",
+            "nested": [
+                {
+                    "@type": "item",
+                    "name": "include/LAVVideoSettings.h"
+                }
+            ]
+        },
+        {
+            "@type": "group",
+            "name": "86",
+            "nested": [
+                {
+                    "@type": "item",
+                    "name": "common/DSUtilLite/gpu_memcpy_sse4.h"
+                }
+            ]
+        },
+        {
+            "@type": "group",
+            "name": "87",
+            "nested": [
+                {
+                    "@type": "item",
+                    "name": "thirdparty/32/include/gmp.h"
+                }
+            ]
+        },
+        {
+            "@type": "group",
+            "name": "88",
+            "nested": [
+                {
+                    "@type": "item",
+                    "name": "thirdparty/32/include/speex/speex_bits.h"
+                }
+            ]
+        },
+        {
+            "@type": "group",
+            "name": "89",
+            "nested": [
+                {
+                    "@type": "item",
+                    "name": "thirdparty/32/include/nettle/sexp.h"
+                }
+            ]
+        },
+        {
+            "@type": "group",
+            "name": "90",
+            "nested": [
+                {
+                    "@type": "item",
+                    "name": "thirdparty/32/include/nettle/curve25519.h"
+                }
+            ]
+        },
+        {
+            "@type": "group",
+            "name": "91",
+            "nested": [
+                {
+                    "@type": "item",
+                    "name": "thirdparty/32/include/nettle/macros.h"
+                }
+            ]
+        },
+        {
+            "@type": "group",
+            "name": "92",
+            "nested": [
+                {
+                    "@type": "item",
+                    "name": "thirdparty/32/include/nettle/md5-compat.h"
+                }
+            ]
+        },
+        {
+            "@type": "group",
+            "name": "93",
+            "nested": [
+                {
+                    "@type": "item",
+                    "name": "thirdparty/32/include/nettle/memops.h"
+                }
+            ]
+        },
+        {
+            "@type": "group",
+            "name": "94",
+            "nested": [
+                {
+                    "@type": "item",
+                    "name": "thirdparty/32/include/nettle/eddsa.h"
+                }
+            ]
+        },
+        {
+            "@type": "group",
+            "name": "95",
+            "nested": [
+                {
+                    "@type": "item",
+                    "name": "thirdparty/32/include/nettle/asn1.h"
+                }
+            ]
+        },
+        {
+            "@type": "group",
+            "name": "96",
+            "nested": [
+                {
+                    "@type": "item",
+                    "name": "thirdparty/32/include/nettle/blowfish.h"
+                }
+            ]
+        },
+        {
+            "@type": "group",
+            "name": "97",
+            "nested": [
+                {
+                    "@type": "item",
+                    "name": "thirdparty/32/include/nettle/pgp.h"
+                }
+            ]
+        },
+        {
+            "@type": "group",
+            "name": "98",
+            "nested": [
+                {
+                    "@type": "item",
+                    "name": "thirdparty/32/include/nettle/curve448.h"
+                }
+            ]
+        },
+        {
+            "@type": "group",
+            "name": "99",
+            "nested": [
+                {
+                    "@type": "item",
+                    "name": "thirdparty/32/include/nettle/knuth-lfib.h"
+                }
+            ]
+        },
+        {
+            "@type": "group",
+            "name": "100",
+            "nested": [
+                {
+                    "@type": "item",
+                    "name": "thirdparty/32/include/libxml2/libxml/DOCBparser.h"
+                }
+            ]
+        },
+        {
+            "@type": "group",
+            "name": "101",
+            "nested": [
+                {
+                    "@type": "item",
+                    "name": "thirdparty/32/include/libxml2/libxml/pattern.h"
+                }
+            ]
+        },
+        {
+            "@type": "group",
+            "name": "102",
+            "nested": [
+                {
+                    "@type": "item",
+                    "name": "thirdparty/32/include/libxml2/libxml/xpointer.h"
+                }
+            ]
+        },
+        {
+            "@type": "group",
+            "name": "103",
+            "nested": [
+                {
+                    "@type": "item",
+                    "name": "thirdparty/32/include/libxml2/libxml/xmlversion.h"
+                }
+            ]
+        },
+        {
+            "@type": "group",
+            "name": "104",
+            "nested": [
+                {
+                    "@type": "item",
+                    "name": "thirdparty/32/include/libxml2/libxml/xlink.h"
+                }
+            ]
+        },
+        {
+            "@type": "group",
+            "name": "105",
+            "nested": [
+                {
+                    "@type": "item",
+                    "name": "thirdparty/32/include/libxml2/libxml/chvalid.h"
+                }
+            ]
+        },
+        {
+            "@type": "group",
+            "name": "106",
+            "nested": [
+                {
+                    "@type": "item",
+                    "name": "thirdparty/32/include/libxml2/libxml/xmlexports.h"
+                }
+            ]
+        },
+        {
+            "@type": "group",
+            "name": "107",
+            "nested": [
+                {
+                    "@type": "item",
+                    "name": "thirdparty/32/include/libxml2/libxml/xmlautomata.h"
+                }
+            ]
+        },
+        {
+            "@type": "group",
+            "name": "108",
+            "nested": [
+                {
+                    "@type": "item",
+                    "name": "thirdparty/32/include/libxml2/libxml/hash.h"
+                }
+            ]
+        },
+        {
+            "@type": "group",
+            "name": "109",
+            "nested": [
+                {
+                    "@type": "item",
+                    "name": "thirdparty/32/include/libxml2/libxml/xinclude.h"
+                }
+            ]
+        },
+        {
+            "@type": "group",
+            "name": "110",
+            "nested": [
+                {
+                    "@type": "item",
+                    "name": "thirdparty/32/include/libxml2/libxml/xmlwriter.h"
+                }
+            ]
+        },
+        {
+            "@type": "group",
+            "name": "111",
+            "nested": [
+                {
+                    "@type": "item",
+                    "name": "thirdparty/32/include/avisynth/avs/filesystem.h"
+                }
+            ]
+        },
+        {
+            "@type": "group",
+            "name": "112",
+            "nested": [
+                {
+                    "@type": "item",
+                    "name": "thirdparty/32/include/avisynth/avs/config.h"
+                }
+            ]
+        },
+        {
+            "@type": "group",
+            "name": "113",
+            "nested": [
+                {
+                    "@type": "item",
+                    "name": "thirdparty/32/include/avisynth/avs/posix.h"
+                }
+            ]
+        },
+        {
+            "@type": "group",
+            "name": "114",
+            "nested": [
+                {
+                    "@type": "item",
+                    "name": "thirdparty/32/include/gnutls/compat.h"
+                }
+            ]
+        },
+        {
+            "@type": "group",
+            "name": "115",
+            "nested": [
+                {
+                    "@type": "item",
+                    "name": "thirdparty/32/include/gnutls/x509-ext.h"
+                }
+            ]
+        },
+        {
+            "@type": "group",
+            "name": "116",
+            "nested": [
+                {
+                    "@type": "item",
+                    "name": "thirdparty/32/include/gnutls/openpgp.h"
+                }
+            ]
+        },
+        {
+            "@type": "group",
+            "name": "117",
+            "nested": [
+                {
+                    "@type": "item",
+                    "name": "thirdparty/64/include/gmp.h"
+                }
+            ]
+        },
+        {
+            "@type": "group",
+            "name": "118",
+            "nested": [
+                {
+                    "@type": "item",
+                    "name": "thirdparty/64/include/speex/speex_bits.h"
+                }
+            ]
+        },
+        {
+            "@type": "group",
+            "name": "119",
+            "nested": [
+                {
+                    "@type": "item",
+                    "name": "thirdparty/64/include/nettle/sexp.h"
+                }
+            ]
+        },
+        {
+            "@type": "group",
+            "name": "120",
+            "nested": [
+                {
+                    "@type": "item",
+                    "name": "thirdparty/64/include/nettle/curve25519.h"
+                }
+            ]
+        },
+        {
+            "@type": "group",
+            "name": "121",
+            "nested": [
+                {
+                    "@type": "item",
+                    "name": "thirdparty/64/include/nettle/macros.h"
+                }
+            ]
+        },
+        {
+            "@type": "group",
+            "name": "122",
+            "nested": [
+                {
+                    "@type": "item",
+                    "name": "thirdparty/64/include/nettle/md5-compat.h"
+                }
+            ]
+        },
+        {
+            "@type": "group",
+            "name": "123",
+            "nested": [
+                {
+                    "@type": "item",
+                    "name": "thirdparty/64/include/nettle/memops.h"
+                }
+            ]
+        },
+        {
+            "@type": "group",
+            "name": "124",
+            "nested": [
+                {
+                    "@type": "item",
+                    "name": "thirdparty/64/include/nettle/eddsa.h"
+                }
+            ]
+        },
+        {
+            "@type": "group",
+            "name": "125",
+            "nested": [
+                {
+                    "@type": "item",
+                    "name": "thirdparty/64/include/nettle/asn1.h"
+                }
+            ]
+        },
+        {
+            "@type": "group",
+            "name": "126",
+            "nested": [
+                {
+                    "@type": "item",
+                    "name": "thirdparty/64/include/nettle/blowfish.h"
+                }
+            ]
+        },
+        {
+            "@type": "group",
+            "name": "127",
+            "nested": [
+                {
+                    "@type": "item",
+                    "name": "thirdparty/64/include/nettle/pgp.h"
+                }
+            ]
+        },
+        {
+            "@type": "group",
+            "name": "128",
+            "nested": [
+                {
+                    "@type": "item",
+                    "name": "thirdparty/64/include/nettle/curve448.h"
+                }
+            ]
+        },
+        {
+            "@type": "group",
+            "name": "129",
+            "nested": [
+                {
+                    "@type": "item",
+                    "name": "thirdparty/64/include/nettle/knuth-lfib.h"
+                }
+            ]
+        },
+        {
+            "@type": "group",
+            "name": "130",
+            "nested": [
+                {
+                    "@type": "item",
+                    "name": "thirdparty/64/include/libxml2/libxml/DOCBparser.h"
+                }
+            ]
+        },
+        {
+            "@type": "group",
+            "name": "131",
+            "nested": [
+                {
+                    "@type": "item",
+                    "name": "thirdparty/64/include/libxml2/libxml/pattern.h"
+                }
+            ]
+        },
+        {
+            "@type": "group",
+            "name": "132",
+            "nested": [
+                {
+                    "@type": "item",
+                    "name": "thirdparty/64/include/libxml2/libxml/xpointer.h"
+                }
+            ]
+        },
+        {
+            "@type": "group",
+            "name": "133",
+            "nested": [
+                {
+                    "@type": "item",
+                    "name": "thirdparty/64/include/libxml2/libxml/xmlversion.h"
+                }
+            ]
+        },
+        {
+            "@type": "group",
+            "name": "134",
+            "nested": [
+                {
+                    "@type": "item",
+                    "name": "thirdparty/64/include/libxml2/libxml/xlink.h"
+                }
+            ]
+        },
+        {
+            "@type": "group",
+            "name": "135",
+            "nested": [
+                {
+                    "@type": "item",
+                    "name": "thirdparty/64/include/libxml2/libxml/chvalid.h"
+                }
+            ]
+        },
+        {
+            "@type": "group",
+            "name": "136",
+            "nested": [
+                {
+                    "@type": "item",
+                    "name": "thirdparty/64/include/libxml2/libxml/xmlexports.h"
+                }
+            ]
+        },
+        {
+            "@type": "group",
+            "name": "137",
+            "nested": [
+                {
+                    "@type": "item",
+                    "name": "thirdparty/64/include/libxml2/libxml/xmlautomata.h"
+                }
+            ]
+        },
+        {
+            "@type": "group",
+            "name": "138",
+            "nested": [
+                {
+                    "@type": "item",
+                    "name": "thirdparty/64/include/libxml2/libxml/hash.h"
+                }
+            ]
+        },
+        {
+            "@type": "group",
+            "name": "139",
+            "nested": [
+                {
+                    "@type": "item",
+                    "name": "thirdparty/64/include/libxml2/libxml/xinclude.h"
+                }
+            ]
+        },
+        {
+            "@type": "group",
+            "name": "140",
+            "nested": [
+                {
+                    "@type": "item",
+                    "name": "thirdparty/64/include/libxml2/libxml/xmlwriter.h"
+                }
+            ]
+        },
+        {
+            "@type": "group",
+            "name": "141",
+            "nested": [
+                {
+                    "@type": "item",
+                    "name": "thirdparty/64/include/avisynth/avs/filesystem.h"
+                }
+            ]
+        },
+        {
+            "@type": "group",
+            "name": "142",
+            "nested": [
+                {
+                    "@type": "item",
+                    "name": "thirdparty/64/include/avisynth/avs/config.h"
+                }
+            ]
+        },
+        {
+            "@type": "group",
+            "name": "143",
+            "nested": [
+                {
+                    "@type": "item",
+                    "name": "thirdparty/64/include/avisynth/avs/posix.h"
+                }
+            ]
+        },
+        {
+            "@type": "group",
+            "name": "144",
+            "nested": [
+                {
+                    "@type": "item",
+                    "name": "thirdparty/64/include/gnutls/compat.h"
+                }
+            ]
+        },
+        {
+            "@type": "group",
+            "name": "145",
+            "nested": [
+                {
+                    "@type": "item",
+                    "name": "thirdparty/64/include/gnutls/x509-ext.h"
+                }
+            ]
+        },
+        {
+            "@type": "group",
+            "name": "146",
+            "nested": [
+                {
+                    "@type": "item",
+                    "name": "thirdparty/64/include/gnutls/openpgp.h"
+                }
+            ]
+        },
+        {
+            "@type": "group",
+            "name": "147",
+            "nested": [
+                {
+                    "@type": "item",
+                    "name": "decoder/LAVVideo/parsers/AnnexBConverter.h"
+                },
+                {
+                    "@type": "item",
+                    "name": "decoder/LAVVideo/parsers/AnnexBConverter.cpp"
+                }
+            ]
+        }
+    ]
+}

@@ -1,0 +1,190 @@
+{
+    "@schemaVersion": "1.0",
+    "name": "clustering",
+    "structure": [
+        {
+            "@type": "group",
+            "name": "0",
+            "nested": [
+                {
+                    "@type": "item",
+                    "name": "src/daemon/udpclient.c"
+                },
+                {
+                    "@type": "item",
+                    "name": "tests/test_getaddrinfo.c"
+                },
+                {
+                    "@type": "item",
+                    "name": "tests/test_shm.c"
+                },
+                {
+                    "@type": "item",
+                    "name": "tests/test_sendto.c"
+                },
+                {
+                    "@type": "item",
+                    "name": "tests/test_proxy_gethostbyname.c"
+                },
+                {
+                    "@type": "item",
+                    "name": "tests/test_gethostent_r.c"
+                },
+                {
+                    "@type": "item",
+                    "name": "tests/test_gethostbyname.c"
+                },
+                {
+                    "@type": "item",
+                    "name": "tests/test_gethostent.c"
+                }
+            ]
+        },
+        {
+            "@type": "group",
+            "name": "1",
+            "nested": [
+                {
+                    "@type": "item",
+                    "name": "src/debug.h"
+                },
+                {
+                    "@type": "item",
+                    "name": "src/debug.c"
+                },
+                {
+                    "@type": "item",
+                    "name": "src/libproxychains.c"
+                },
+                {
+                    "@type": "item",
+                    "name": "src/core.h"
+                },
+                {
+                    "@type": "item",
+                    "name": "src/core.c"
+                },
+                {
+                    "@type": "item",
+                    "name": "src/rdns.h"
+                },
+                {
+                    "@type": "item",
+                    "name": "src/rdns.c"
+                },
+                {
+                    "@type": "item",
+                    "name": "tests/test_getnameinfo.c"
+                }
+            ]
+        },
+        {
+            "@type": "group",
+            "name": "2",
+            "nested": [
+                {
+                    "@type": "item",
+                    "name": "tests/test_v4_in_v6.c"
+                },
+                {
+                    "@type": "item",
+                    "name": "src/ip_type.h"
+                },
+                {
+                    "@type": "item",
+                    "name": "src/remotedns.h"
+                },
+                {
+                    "@type": "item",
+                    "name": "src/allocator_thread.h"
+                },
+                {
+                    "@type": "item",
+                    "name": "src/allocator_thread.c"
+                },
+                {
+                    "@type": "item",
+                    "name": "src/mutex.h"
+                }
+            ]
+        },
+        {
+            "@type": "group",
+            "name": "3",
+            "nested": [
+                {
+                    "@type": "item",
+                    "name": "src/main.c"
+                },
+                {
+                    "@type": "item",
+                    "name": "src/hostsreader.c"
+                },
+                {
+                    "@type": "item",
+                    "name": "src/common.h"
+                },
+                {
+                    "@type": "item",
+                    "name": "src/common.c"
+                }
+            ]
+        },
+        {
+            "@type": "group",
+            "name": "4",
+            "nested": [
+                {
+                    "@type": "item",
+                    "name": "src/daemon/hsearch.h"
+                },
+                {
+                    "@type": "item",
+                    "name": "src/daemon/hsearch.c"
+                },
+                {
+                    "@type": "item",
+                    "name": "src/hash.h"
+                },
+                {
+                    "@type": "item",
+                    "name": "src/hash.c"
+                },
+                {
+                    "@type": "item",
+                    "name": "src/version.c"
+                }
+            ]
+        },
+        {
+            "@type": "group",
+            "name": "5",
+            "nested": [
+                {
+                    "@type": "item",
+                    "name": "src/daemon/udpserver.h"
+                },
+                {
+                    "@type": "item",
+                    "name": "src/daemon/udpserver.c"
+                },
+                {
+                    "@type": "item",
+                    "name": "src/daemon/daemon.c"
+                },
+                {
+                    "@type": "item",
+                    "name": "src/daemon/sblist.h"
+                },
+                {
+                    "@type": "item",
+                    "name": "src/daemon/sblist_delete.c"
+                },
+                {
+                    "@type": "item",
+                    "name": "src/daemon/sblist.c"
+                }
+            ]
+        }
+    ]
+}

@@ -1,0 +1,2410 @@
+{
+    "@schemaVersion": "1.0",
+    "name": "clustering",
+    "structure": [
+        {
+            "@type": "group",
+            "name": "0",
+            "nested": [
+                {
+                    "@type": "item",
+                    "name": "src/platform/console/terminal.cpp"
+                },
+                {
+                    "@type": "item",
+                    "name": "include/multipass/vm_image_info.h"
+                },
+                {
+                    "@type": "item",
+                    "name": "include/multipass/network_access_manager.h"
+                },
+                {
+                    "@type": "item",
+                    "name": "include/multipass/logging/standard_logger.h"
+                },
+                {
+                    "@type": "item",
+                    "name": "include/multipass/exceptions/not_implemented_on_this_backend_exception.h"
+                },
+                {
+                    "@type": "item",
+                    "name": "include/multipass/settings/bool_setting_spec.h"
+                },
+                {
+                    "@type": "item",
+                    "name": "include/multipass/days.h"
+                },
+                {
+                    "@type": "item",
+                    "name": "include/multipass/logging/level.h"
+                },
+                {
+                    "@type": "item",
+                    "name": "include/multipass/logging/client_logger.h"
+                },
+                {
+                    "@type": "item",
+                    "name": "include/multipass/url_downloader.h"
+                },
+                {
+                    "@type": "item",
+                    "name": "include/multipass/memory_size.h"
+                },
+                {
+                    "@type": "item",
+                    "name": "include/multipass/private_pass_provider.h"
+                },
+                {
+                    "@type": "item",
+                    "name": "include/multipass/console.h"
+                },
+                {
+                    "@type": "item",
+                    "name": "src/settings/persistent_settings_handler.cpp"
+                },
+                {
+                    "@type": "item",
+                    "name": "include/multipass/ssh/sftp_client.h"
+                },
+                {
+                    "@type": "item",
+                    "name": "src/ssh/sftp_client.cpp"
+                },
+                {
+                    "@type": "item",
+                    "name": "include/multipass/settings/custom_setting_spec.h"
+                },
+                {
+                    "@type": "item",
+                    "name": "include/multipass/process/basic_process.h"
+                },
+                {
+                    "@type": "item",
+                    "name": "include/multipass/exceptions/ssh_exception.h"
+                },
+                {
+                    "@type": "item",
+                    "name": "include/multipass/ssh/ssh_client.h"
+                },
+                {
+                    "@type": "item",
+                    "name": "include/multipass/new_release_info.h"
+                },
+                {
+                    "@type": "item",
+                    "name": "include/multipass/settings/basic_setting_spec.h"
+                },
+                {
+                    "@type": "item",
+                    "name": "src/settings/basic_setting_spec.cpp"
+                },
+                {
+                    "@type": "item",
+                    "name": "include/multipass/exceptions/autostart_setup_exception.h"
+                },
+                {
+                    "@type": "item",
+                    "name": "include/multipass/ip_address.h"
+                },
+                {
+                    "@type": "item",
+                    "name": "include/multipass/default_vm_blueprint_provider.h"
+                },
+                {
+                    "@type": "item",
+                    "name": "include/multipass/virtual_machine_factory.h"
+                },
+                {
+                    "@type": "item",
+                    "name": "include/multipass/poco_zip_utils.h"
+                },
+                {
+                    "@type": "item",
+                    "name": "src/platform/backends/shared/linux/apparmor.cpp"
+                },
+                {
+                    "@type": "item",
+                    "name": "include/multipass/cli/json_formatter.h"
+                },
+                {
+                    "@type": "item",
+                    "name": "include/multipass/singleton.h"
+                },
+                {
+                    "@type": "item",
+                    "name": "include/multipass/settings/setting_spec.h"
+                },
+                {
+                    "@type": "item",
+                    "name": "src/platform/console/unix_console.cpp"
+                },
+                {
+                    "@type": "item",
+                    "name": "include/multipass/exceptions/cmd_exceptions.h"
+                },
+                {
+                    "@type": "item",
+                    "name": "include/multipass/cli/return_codes.h"
+                },
+                {
+                    "@type": "item",
+                    "name": "include/multipass/sshfs_server_config.h"
+                },
+                {
+                    "@type": "item",
+                    "name": "include/multipass/cli/csv_formatter.h"
+                },
+                {
+                    "@type": "item",
+                    "name": "include/multipass/ssh/openssh_key_provider.h"
+                },
+                {
+                    "@type": "item",
+                    "name": "src/daemon/vm_specs.h"
+                },
+                {
+                    "@type": "item",
+                    "name": "include/multipass/logging/multiplexing_logger.h"
+                },
+                {
+                    "@type": "item",
+                    "name": "src/daemon/daemon_init_settings.h"
+                },
+                {
+                    "@type": "item",
+                    "name": "include/multipass/logging/log.h"
+                },
+                {
+                    "@type": "item",
+                    "name": "include/multipass/exceptions/settings_exceptions.h"
+                },
+                {
+                    "@type": "item",
+                    "name": "include/multipass/delayed_shutdown_timer.h"
+                },
+                {
+                    "@type": "item",
+                    "name": "include/multipass/utils.h"
+                },
+                {
+                    "@type": "item",
+                    "name": "include/multipass/settings/settings_handler.h"
+                },
+                {
+                    "@type": "item",
+                    "name": "include/multipass/exceptions/exitless_sshprocess_exception.h"
+                },
+                {
+                    "@type": "item",
+                    "name": "include/multipass/ssh/ssh_key_provider.h"
+                },
+                {
+                    "@type": "item",
+                    "name": "include/multipass/cli/client_platform.h"
+                },
+                {
+                    "@type": "item",
+                    "name": "src/platform/console/unix_console.h"
+                },
+                {
+                    "@type": "item",
+                    "name": "src/platform/backends/shared/qemu_img_utils/qemu_img_utils.cpp"
+                },
+                {
+                    "@type": "item",
+                    "name": "include/multipass/exceptions/create_image_exception.h"
+                },
+                {
+                    "@type": "item",
+                    "name": "include/multipass/mount_handler.h"
+                },
+                {
+                    "@type": "item",
+                    "name": "include/multipass/ssh/sftp_dir_iterator.h"
+                },
+                {
+                    "@type": "item",
+                    "name": "src/ssh/sftp_dir_iterator.cpp"
+                },
+                {
+                    "@type": "item",
+                    "name": "include/multipass/vm_mount.h"
+                },
+                {
+                    "@type": "item",
+                    "name": "src/platform/console/unix_terminal.h"
+                },
+                {
+                    "@type": "item",
+                    "name": "include/multipass/network_interface.h"
+                },
+                {
+                    "@type": "item",
+                    "name": "include/multipass/vm_status_monitor.h"
+                },
+                {
+                    "@type": "item",
+                    "name": "include/multipass/exceptions/invalid_memory_size_exception.h"
+                },
+                {
+                    "@type": "item",
+                    "name": "include/multipass/settings/settings.h"
+                },
+                {
+                    "@type": "item",
+                    "name": "src/settings/settings.cpp"
+                },
+                {
+                    "@type": "item",
+                    "name": "include/multipass/exceptions/blueprint_exceptions.h"
+                },
+                {
+                    "@type": "item",
+                    "name": "include/multipass/ssh/throw_on_error.h"
+                },
+                {
+                    "@type": "item",
+                    "name": "include/multipass/constants.h"
+                },
+                {
+                    "@type": "item",
+                    "name": "include/multipass/cli/argparser.h"
+                },
+                {
+                    "@type": "item",
+                    "name": "include/multipass/progress_monitor.h"
+                },
+                {
+                    "@type": "item",
+                    "name": "include/multipass/exceptions/unsupported_image_exception.h"
+                },
+                {
+                    "@type": "item",
+                    "name": "include/multipass/exceptions/sshfs_missing_error.h"
+                },
+                {
+                    "@type": "item",
+                    "name": "include/multipass/cli/yaml_formatter.h"
+                },
+                {
+                    "@type": "item",
+                    "name": "include/multipass/virtual_machine.h"
+                },
+                {
+                    "@type": "item",
+                    "name": "include/multipass/cloud_init_iso.h"
+                },
+                {
+                    "@type": "item",
+                    "name": "src/platform/backends/shared/shared_backend_utils.h"
+                },
+                {
+                    "@type": "item",
+                    "name": "include/multipass/logging/logger.h"
+                },
+                {
+                    "@type": "item",
+                    "name": "src/platform/backends/shared/qemu_img_utils/qemu_img_utils.h"
+                },
+                {
+                    "@type": "item",
+                    "name": "include/multipass/ssh/sftp_utils.h"
+                },
+                {
+                    "@type": "item",
+                    "name": "src/ssh/sftp_utils.cpp"
+                },
+                {
+                    "@type": "item",
+                    "name": "include/multipass/cli/formatter.h"
+                },
+                {
+                    "@type": "item",
+                    "name": "include/multipass/format.h"
+                },
+                {
+                    "@type": "item",
+                    "name": "include/multipass/cli/format_utils.h"
+                },
+                {
+                    "@type": "item",
+                    "name": "include/multipass/qt_delete_later_unique_ptr.h"
+                },
+                {
+                    "@type": "item",
+                    "name": "include/multipass/exceptions/manifest_exceptions.h"
+                },
+                {
+                    "@type": "item",
+                    "name": "include/multipass/cli/command.h"
+                },
+                {
+                    "@type": "item",
+                    "name": "src/settings/bool_setting_spec.cpp"
+                },
+                {
+                    "@type": "item",
+                    "name": "include/multipass/vm_image_vault.h"
+                },
+                {
+                    "@type": "item",
+                    "name": "src/settings/custom_setting_spec.cpp"
+                },
+                {
+                    "@type": "item",
+                    "name": "include/multipass/cli/table_formatter.h"
+                },
+                {
+                    "@type": "item",
+                    "name": "include/multipass/exceptions/cli_exceptions.h"
+                },
+                {
+                    "@type": "item",
+                    "name": "include/multipass/exceptions/unsupported_remote_exception.h"
+                },
+                {
+                    "@type": "item",
+                    "name": "include/multipass/ssh/ssh_session.h"
+                },
+                {
+                    "@type": "item",
+                    "name": "include/multipass/settings/persistent_settings_handler.h"
+                },
+                {
+                    "@type": "item",
+                    "name": "include/multipass/process/process.h"
+                },
+                {
+                    "@type": "item",
+                    "name": "src/daemon/daemon_init_settings.cpp"
+                },
+                {
+                    "@type": "item",
+                    "name": "include/multipass/cli/prompters.h"
+                },
+                {
+                    "@type": "item",
+                    "name": "include/multipass/disabled_copy_move.h"
+                },
+                {
+                    "@type": "item",
+                    "name": "include/multipass/exceptions/start_exception.h"
+                },
+                {
+                    "@type": "item",
+                    "name": "include/multipass/snap_utils.h"
+                },
+                {
+                    "@type": "item",
+                    "name": "include/multipass/exceptions/unsupported_alias_exception.h"
+                },
+                {
+                    "@type": "item",
+                    "name": "include/multipass/path.h"
+                },
+                {
+                    "@type": "item",
+                    "name": "include/multipass/client_launch_data.h"
+                },
+                {
+                    "@type": "item",
+                    "name": "include/multipass/exceptions/aborted_download_exception.h"
+                },
+                {
+                    "@type": "item",
+                    "name": "include/multipass/cli/alias_dict.h"
+                },
+                {
+                    "@type": "item",
+                    "name": "include/multipass/terminal.h"
+                },
+                {
+                    "@type": "item",
+                    "name": "src/platform/backends/shared/linux/apparmor.h"
+                },
+                {
+                    "@type": "item",
+                    "name": "include/multipass/platform.h"
+                },
+                {
+                    "@type": "item",
+                    "name": "src/client/cli/cmd/remote_settings_handler.h"
+                },
+                {
+                    "@type": "item",
+                    "name": "include/multipass/alias_definition.h"
+                },
+                {
+                    "@type": "item",
+                    "name": "include/multipass/id_mappings.h"
+                },
+                {
+                    "@type": "item",
+                    "name": "include/multipass/standard_paths.h"
+                },
+                {
+                    "@type": "item",
+                    "name": "include/multipass/sshfs_mount/sshfs_mount_handler.h"
+                },
+                {
+                    "@type": "item",
+                    "name": "include/multipass/exceptions/snap_environment_exception.h"
+                },
+                {
+                    "@type": "item",
+                    "name": "src/settings/wrapped_qsettings.h"
+                },
+                {
+                    "@type": "item",
+                    "name": "src/platform/console/unix_terminal.cpp"
+                },
+                {
+                    "@type": "item",
+                    "name": "include/multipass/timer.h"
+                },
+                {
+                    "@type": "item",
+                    "name": "include/multipass/exceptions/image_vault_exceptions.h"
+                },
+                {
+                    "@type": "item",
+                    "name": "include/multipass/simple_streams_manifest.h"
+                },
+                {
+                    "@type": "item",
+                    "name": "include/multipass/fetch_type.h"
+                },
+                {
+                    "@type": "item",
+                    "name": "include/multipass/vm_blueprint_provider.h"
+                },
+                {
+                    "@type": "item",
+                    "name": "include/multipass/callable_traits.h"
+                },
+                {
+                    "@type": "item",
+                    "name": "include/multipass/vm_image.h"
+                },
+                {
+                    "@type": "item",
+                    "name": "include/multipass/exceptions/download_exception.h"
+                },
+                {
+                    "@type": "item",
+                    "name": "include/multipass/query.h"
+                },
+                {
+                    "@type": "item",
+                    "name": "include/multipass/network_interface_info.h"
+                },
+                {
+                    "@type": "item",
+                    "name": "include/multipass/vm_image_host.h"
+                },
+                {
+                    "@type": "item",
+                    "name": "include/multipass/cli/client_common.h"
+                },
+                {
+                    "@type": "item",
+                    "name": "include/multipass/update_prompt.h"
+                },
+                {
+                    "@type": "item",
+                    "name": "include/multipass/top_catch_all.h"
+                },
+                {
+                    "@type": "item",
+                    "name": "include/multipass/xz_image_decoder.h"
+                },
+                {
+                    "@type": "item",
+                    "name": "include/multipass/logging/cstring.h"
+                },
+                {
+                    "@type": "item",
+                    "name": "src/utils/snap_utils.cpp"
+                },
+                {
+                    "@type": "item",
+                    "name": "src/platform/console/console.cpp"
+                },
+                {
+                    "@type": "item",
+                    "name": "include/multipass/virtual_machine_description.h"
+                }
+            ]
+        },
+        {
+            "@type": "group",
+            "name": "1",
+            "nested": [
+                {
+                    "@type": "item",
+                    "name": "tests/test_sftp_dir_iterator.cpp"
+                },
+                {
+                    "@type": "item",
+                    "name": "tests/test_top_catch_all.cpp"
+                },
+                {
+                    "@type": "item",
+                    "name": "tests/test_client_common.cpp"
+                },
+                {
+                    "@type": "item",
+                    "name": "include/multipass/file_ops.h"
+                },
+                {
+                    "@type": "item",
+                    "name": "tests/test_file_ops.cpp"
+                },
+                {
+                    "@type": "item",
+                    "name": "tests/test_custom_image_host.cpp"
+                },
+                {
+                    "@type": "item",
+                    "name": "tests/linux/test_backend_utils.cpp"
+                },
+                {
+                    "@type": "item",
+                    "name": "tests/lxd/test_lxd_backend.cpp"
+                },
+                {
+                    "@type": "item",
+                    "name": "tests/test_sftp_utils.cpp"
+                },
+                {
+                    "@type": "item",
+                    "name": "tests/linux/test_local_network_access_manager.cpp"
+                },
+                {
+                    "@type": "item",
+                    "name": "tests/test_petname.cpp"
+                },
+                {
+                    "@type": "item",
+                    "name": "tests/test_persistent_settings_handler.cpp"
+                },
+                {
+                    "@type": "item",
+                    "name": "tests/qemu/test_qemu_vm_process_spec.cpp"
+                },
+                {
+                    "@type": "item",
+                    "name": "tests/test_ssh_session.cpp"
+                },
+                {
+                    "@type": "item",
+                    "name": "tests/mock_environment_helpers.h"
+                },
+                {
+                    "@type": "item",
+                    "name": "tests/path.h"
+                },
+                {
+                    "@type": "item",
+                    "name": "tests/stub_logger.h"
+                },
+                {
+                    "@type": "item",
+                    "name": "tests/test_ssh_client.cpp"
+                },
+                {
+                    "@type": "item",
+                    "name": "tests/mock_sftp.cpp"
+                },
+                {
+                    "@type": "item",
+                    "name": "tests/linux/test_snap_utils.cpp"
+                },
+                {
+                    "@type": "item",
+                    "name": "tests/test_cli_client.cpp"
+                },
+                {
+                    "@type": "item",
+                    "name": "tests/test_client_cert_store.cpp"
+                },
+                {
+                    "@type": "item",
+                    "name": "tests/test_daemon_launch.cpp"
+                },
+                {
+                    "@type": "item",
+                    "name": "tests/qemu/linux/test_firewall_config.cpp"
+                },
+                {
+                    "@type": "item",
+                    "name": "tests/test_daemon_start.cpp"
+                },
+                {
+                    "@type": "item",
+                    "name": "tests/test_daemon.cpp"
+                },
+                {
+                    "@type": "item",
+                    "name": "tests/test_id_mappings.cpp"
+                },
+                {
+                    "@type": "item",
+                    "name": "tests/libvirt/test_libvirt_backend.cpp"
+                },
+                {
+                    "@type": "item",
+                    "name": "tests/test_url_downloader.cpp"
+                },
+                {
+                    "@type": "item",
+                    "name": "tests/disabling_macros.h"
+                },
+                {
+                    "@type": "item",
+                    "name": "tests/test_alias_dict.cpp"
+                },
+                {
+                    "@type": "item",
+                    "name": "tests/test_daemon_authenticate.cpp"
+                },
+                {
+                    "@type": "item",
+                    "name": "tests/test_argparser.cpp"
+                },
+                {
+                    "@type": "item",
+                    "name": "tests/mock_ssh_client.cpp"
+                },
+                {
+                    "@type": "item",
+                    "name": "tests/mock_sftpserver.cpp"
+                },
+                {
+                    "@type": "item",
+                    "name": "tests/test_blueprint_provider.cpp"
+                },
+                {
+                    "@type": "item",
+                    "name": "tests/test_ip_address.cpp"
+                },
+                {
+                    "@type": "item",
+                    "name": "tests/test_settings.cpp"
+                },
+                {
+                    "@type": "item",
+                    "name": "include/multipass/recursive_dir_iterator.h"
+                },
+                {
+                    "@type": "item",
+                    "name": "tests/test_recursive_dir_iter.cpp"
+                },
+                {
+                    "@type": "item",
+                    "name": "tests/test_basic_process.cpp"
+                },
+                {
+                    "@type": "item",
+                    "name": "tests/qemu/test_qemu_img_utils.cpp"
+                },
+                {
+                    "@type": "item",
+                    "name": "tests/test_ubuntu_image_host.cpp"
+                },
+                {
+                    "@type": "item",
+                    "name": "tests/test_qemuimg_process_spec.cpp"
+                },
+                {
+                    "@type": "item",
+                    "name": "tests/test_simple_streams_index.cpp"
+                },
+                {
+                    "@type": "item",
+                    "name": "tests/test_with_mocked_bin_path.h"
+                },
+                {
+                    "@type": "item",
+                    "name": "tests/unix/test_daemon_rpc.cpp"
+                },
+                {
+                    "@type": "item",
+                    "name": "tests/unix/test_platform_unix.cpp"
+                },
+                {
+                    "@type": "item",
+                    "name": "tests/stub_console.h"
+                },
+                {
+                    "@type": "item",
+                    "name": "tests/unix/test_unix_terminal.cpp"
+                },
+                {
+                    "@type": "item",
+                    "name": "tests/test_with_mocked_bin_path.cpp"
+                },
+                {
+                    "@type": "item",
+                    "name": "tests/mock_network.h"
+                },
+                {
+                    "@type": "item",
+                    "name": "tests/linux/local_socket_server_test_fixture.h"
+                },
+                {
+                    "@type": "item",
+                    "name": "tests/test_ssh_key_provider.cpp"
+                },
+                {
+                    "@type": "item",
+                    "name": "tests/test_base_virtual_machine_factory.cpp"
+                },
+                {
+                    "@type": "item",
+                    "name": "tests/lxd/mock_network_access_manager.h"
+                },
+                {
+                    "@type": "item",
+                    "name": "tests/common.h"
+                },
+                {
+                    "@type": "item",
+                    "name": "tests/common.cpp"
+                },
+                {
+                    "@type": "item",
+                    "name": "tests/test_private_pass_provider.cpp"
+                },
+                {
+                    "@type": "item",
+                    "name": "tests/test_sftp_client.cpp"
+                },
+                {
+                    "@type": "item",
+                    "name": "tests/lxd/test_lxd_image_vault.cpp"
+                },
+                {
+                    "@type": "item",
+                    "name": "tests/test_daemon_umount.cpp"
+                },
+                {
+                    "@type": "item",
+                    "name": "tests/test_global_settings_handlers.cpp"
+                },
+                {
+                    "@type": "item",
+                    "name": "tests/mock_openssl_syscalls.cpp"
+                },
+                {
+                    "@type": "item",
+                    "name": "tests/test_image_vault.cpp"
+                },
+                {
+                    "@type": "item",
+                    "name": "tests/test_utils.cpp"
+                },
+                {
+                    "@type": "item",
+                    "name": "tests/qemu/test_qemu_vmstate_process_spec.cpp"
+                },
+                {
+                    "@type": "item",
+                    "name": "tests/test_instance_settings_handler.cpp"
+                },
+                {
+                    "@type": "item",
+                    "name": "tests/test_ssh_process.cpp"
+                },
+                {
+                    "@type": "item",
+                    "name": "tests/test_remote_settings_handler.cpp"
+                },
+                {
+                    "@type": "item",
+                    "name": "tests/linux/mock_q_local_socket.h"
+                },
+                {
+                    "@type": "item",
+                    "name": "tests/test_memory_size.cpp"
+                },
+                {
+                    "@type": "item",
+                    "name": "tests/test_format_utils.cpp"
+                },
+                {
+                    "@type": "item",
+                    "name": "tests/test_delayed_shutdown.cpp"
+                },
+                {
+                    "@type": "item",
+                    "name": "tests/test_common_callbacks.cpp"
+                },
+                {
+                    "@type": "item",
+                    "name": "tests/linux/mock_aa_syscalls.cpp"
+                },
+                {
+                    "@type": "item",
+                    "name": "tests/test_simple_streams_manifest.cpp"
+                },
+                {
+                    "@type": "item",
+                    "name": "tests/test_platform_shared.cpp"
+                },
+                {
+                    "@type": "item",
+                    "name": "tests/test_mock_standard_paths.cpp"
+                },
+                {
+                    "@type": "item",
+                    "name": "tests/test_new_release_monitor.cpp"
+                },
+                {
+                    "@type": "item",
+                    "name": "tests/test_constants.cpp"
+                },
+                {
+                    "@type": "item",
+                    "name": "tests/test_sshfs_server_process_spec.cpp"
+                },
+                {
+                    "@type": "item",
+                    "name": "tests/mock_ssh.cpp"
+                },
+                {
+                    "@type": "item",
+                    "name": "tests/fake_handle.h"
+                },
+                {
+                    "@type": "item",
+                    "name": "include/multipass/ssh/ssh_process.h"
+                },
+                {
+                    "@type": "item",
+                    "name": "tests/fake_alias_config.h"
+                },
+                {
+                    "@type": "item",
+                    "name": "tests/test_singleton.cpp"
+                },
+                {
+                    "@type": "item",
+                    "name": "tests/linux/test_platform_linux.cpp"
+                },
+                {
+                    "@type": "item",
+                    "name": "tests/test_sftpserver.cpp"
+                },
+                {
+                    "@type": "item",
+                    "name": "tests/test_daemon_mount.cpp"
+                },
+                {
+                    "@type": "item",
+                    "name": "tests/test_cli_prompters.cpp"
+                },
+                {
+                    "@type": "item",
+                    "name": "tests/qemu/linux/test_dnsmasq_process_spec.cpp"
+                },
+                {
+                    "@type": "item",
+                    "name": "tests/test_setting_specs.cpp"
+                },
+                {
+                    "@type": "item",
+                    "name": "tests/test_daemon_find.cpp"
+                }
+            ]
+        },
+        {
+            "@type": "group",
+            "name": "2",
+            "nested": [
+                {
+                    "@type": "item",
+                    "name": "tests/test_base_virtual_machine.cpp"
+                },
+                {
+                    "@type": "item",
+                    "name": "tests/qemu/linux/test_dnsmasq_server.cpp"
+                },
+                {
+                    "@type": "item",
+                    "name": "tests/qemu/linux/mock_dhcp_release.cpp"
+                },
+                {
+                    "@type": "item",
+                    "name": "tests/mock_recursive_dir_iterator.h"
+                },
+                {
+                    "@type": "item",
+                    "name": "tests/main.cpp"
+                },
+                {
+                    "@type": "item",
+                    "name": "tests/blueprint_test_lambdas.h"
+                },
+                {
+                    "@type": "item",
+                    "name": "tests/image_host_remote_count.h"
+                },
+                {
+                    "@type": "item",
+                    "name": "tests/json_utils.h"
+                },
+                {
+                    "@type": "item",
+                    "name": "tests/json_utils.cpp"
+                },
+                {
+                    "@type": "item",
+                    "name": "tests/dummy_ssh_key_provider.h"
+                },
+                {
+                    "@type": "item",
+                    "name": "tests/fake_key_data.h"
+                },
+                {
+                    "@type": "item",
+                    "name": "tests/mock_process.cpp"
+                },
+                {
+                    "@type": "item",
+                    "name": "tests/stub_virtual_machine_factory.h"
+                },
+                {
+                    "@type": "item",
+                    "name": "tests/reset_process_factory.cpp"
+                },
+                {
+                    "@type": "item",
+                    "name": "tests/mock_mount_handler.h"
+                },
+                {
+                    "@type": "item",
+                    "name": "tests/qemu/mock_qemuimg.cpp"
+                },
+                {
+                    "@type": "item",
+                    "name": "tests/stub_status_monitor.h"
+                },
+                {
+                    "@type": "item",
+                    "name": "tests/stub_ssh_key_provider.h"
+                },
+                {
+                    "@type": "item",
+                    "name": "tests/test_sshfs_mount_handler.cpp"
+                },
+                {
+                    "@type": "item",
+                    "name": "tests/lxd/mock_lxd_server_responses.h"
+                },
+                {
+                    "@type": "item",
+                    "name": "tests/linux/mock_apparmor_parser.cpp"
+                },
+                {
+                    "@type": "item",
+                    "name": "tests/mock_process_factory.cpp"
+                },
+                {
+                    "@type": "item",
+                    "name": "tests/stub_virtual_machine.h"
+                },
+                {
+                    "@type": "item",
+                    "name": "tests/file_operations.h"
+                },
+                {
+                    "@type": "item",
+                    "name": "tests/test_output_formatter.cpp"
+                },
+                {
+                    "@type": "item",
+                    "name": "tests/mock_vm_image_vault.h"
+                },
+                {
+                    "@type": "item",
+                    "name": "tests/qemu/test_qemu_backend.cpp"
+                },
+                {
+                    "@type": "item",
+                    "name": "tests/qemu/linux/mock_dnsmasq.cpp"
+                },
+                {
+                    "@type": "item",
+                    "name": "tests/mock_virtual_machine.h"
+                },
+                {
+                    "@type": "item",
+                    "name": "tests/mock_logger.cpp"
+                },
+                {
+                    "@type": "item",
+                    "name": "tests/stub_image_host.h"
+                },
+                {
+                    "@type": "item",
+                    "name": "tests/stub_process_factory.h"
+                },
+                {
+                    "@type": "item",
+                    "name": "tests/stub_mount_handler.h"
+                },
+                {
+                    "@type": "item",
+                    "name": "tests/temp_dir.cpp"
+                },
+                {
+                    "@type": "item",
+                    "name": "tests/linux/test_apparmored_process.cpp"
+                },
+                {
+                    "@type": "item",
+                    "name": "tests/qemu/test_qemu_mount_handler.cpp"
+                },
+                {
+                    "@type": "item",
+                    "name": "tests/temp_file.cpp"
+                },
+                {
+                    "@type": "item",
+                    "name": "tests/lxd/test_lxd_mount_handler.cpp"
+                },
+                {
+                    "@type": "item",
+                    "name": "tests/temp_dir.h"
+                },
+                {
+                    "@type": "item",
+                    "name": "tests/file_operations.cpp"
+                },
+                {
+                    "@type": "item",
+                    "name": "tests/mock_logger.h"
+                },
+                {
+                    "@type": "item",
+                    "name": "tests/qemu/linux/mock_dnsmasq_server.h"
+                },
+                {
+                    "@type": "item",
+                    "name": "tests/image_host_remote_count.cpp"
+                },
+                {
+                    "@type": "item",
+                    "name": "tests/mock_virtual_machine_factory.h"
+                },
+                {
+                    "@type": "item",
+                    "name": "tests/stub_process_factory.cpp"
+                },
+                {
+                    "@type": "item",
+                    "name": "tests/mock_status_monitor.h"
+                },
+                {
+                    "@type": "item",
+                    "name": "tests/temp_file.h"
+                },
+                {
+                    "@type": "item",
+                    "name": "tests/reset_process_factory.h"
+                },
+                {
+                    "@type": "item",
+                    "name": "tests/blueprint_test_lambdas.cpp"
+                },
+                {
+                    "@type": "item",
+                    "name": "tests/stub_vm_image_vault.h"
+                },
+                {
+                    "@type": "item",
+                    "name": "tests/mock_image_host.h"
+                },
+                {
+                    "@type": "item",
+                    "name": "tests/path.cpp"
+                },
+                {
+                    "@type": "item",
+                    "name": "tests/mock_process_factory.h"
+                }
+            ]
+        },
+        {
+            "@type": "group",
+            "name": "3",
+            "nested": [
+                {
+                    "@type": "item",
+                    "name": "tests/stub_url_downloader.h"
+                },
+                {
+                    "@type": "item",
+                    "name": "tests/mock_file_ops.h"
+                },
+                {
+                    "@type": "item",
+                    "name": "tests/qemu/mock_qemu_platform.h"
+                },
+                {
+                    "@type": "item",
+                    "name": "tests/mock_poco_zip_utils.h"
+                },
+                {
+                    "@type": "item",
+                    "name": "tests/mock_server_reader_writer.h"
+                },
+                {
+                    "@type": "item",
+                    "name": "tests/daemon_test_fixture.cpp"
+                },
+                {
+                    "@type": "item",
+                    "name": "tests/stub_terminal.h"
+                },
+                {
+                    "@type": "item",
+                    "name": "tests/mock_client_rpc.h"
+                },
+                {
+                    "@type": "item",
+                    "name": "tests/mock_sftp_dir_iterator.h"
+                },
+                {
+                    "@type": "item",
+                    "name": "tests/mock_standard_paths.h"
+                },
+                {
+                    "@type": "item",
+                    "name": "tests/test_sshfsmount.cpp"
+                },
+                {
+                    "@type": "item",
+                    "name": "tests/mock_client_platform.h"
+                },
+                {
+                    "@type": "item",
+                    "name": "tests/qemu/linux/mock_firewall_config.h"
+                },
+                {
+                    "@type": "item",
+                    "name": "tests/mock_backend_utils.h"
+                },
+                {
+                    "@type": "item",
+                    "name": "tests/mock_openssl_syscalls.h"
+                },
+                {
+                    "@type": "item",
+                    "name": "tests/test_cloud_init_iso.cpp"
+                },
+                {
+                    "@type": "item",
+                    "name": "tests/mock_qsettings.h"
+                },
+                {
+                    "@type": "item",
+                    "name": "tests/mock_utils.h"
+                },
+                {
+                    "@type": "item",
+                    "name": "tests/mock_terminal.h"
+                },
+                {
+                    "@type": "item",
+                    "name": "tests/mock_ssh_client.h"
+                },
+                {
+                    "@type": "item",
+                    "name": "tests/unix/mock_libc_functions.h"
+                },
+                {
+                    "@type": "item",
+                    "name": "tests/sftp_server_test_fixture.h"
+                },
+                {
+                    "@type": "item",
+                    "name": "tests/mock_ssh_test_fixture.h"
+                },
+                {
+                    "@type": "item",
+                    "name": "tests/mock_sftp.h"
+                },
+                {
+                    "@type": "item",
+                    "name": "tests/qemu/linux/test_qemu_platform_detail.cpp"
+                },
+                {
+                    "@type": "item",
+                    "name": "tests/mock_daemon.h"
+                },
+                {
+                    "@type": "item",
+                    "name": "tests/unix/mock_libc_functions.cpp"
+                },
+                {
+                    "@type": "item",
+                    "name": "tests/linux/mock_aa_syscalls.h"
+                },
+                {
+                    "@type": "item",
+                    "name": "tests/mock_ssh.h"
+                },
+                {
+                    "@type": "item",
+                    "name": "tests/mischievous_url_downloader.cpp"
+                },
+                {
+                    "@type": "item",
+                    "name": "tests/mock_stdcin.h"
+                },
+                {
+                    "@type": "item",
+                    "name": "tests/mock_singleton_helpers.h"
+                },
+                {
+                    "@type": "item",
+                    "name": "tests/mock_sftp_client.h"
+                },
+                {
+                    "@type": "item",
+                    "name": "tests/mock_sftp_utils.h"
+                },
+                {
+                    "@type": "item",
+                    "name": "tests/mock_ssh_process_exit_status.h"
+                },
+                {
+                    "@type": "item",
+                    "name": "tests/tracking_url_downloader.h"
+                },
+                {
+                    "@type": "item",
+                    "name": "tests/mischievous_url_downloader.h"
+                },
+                {
+                    "@type": "item",
+                    "name": "tests/mock_standard_paths.cpp"
+                },
+                {
+                    "@type": "item",
+                    "name": "tests/daemon_test_fixture.h"
+                },
+                {
+                    "@type": "item",
+                    "name": "tests/mock_sftpserver.h"
+                },
+                {
+                    "@type": "item",
+                    "name": "tests/mock_platform.h"
+                },
+                {
+                    "@type": "item",
+                    "name": "tests/mock_settings.h"
+                },
+                {
+                    "@type": "item",
+                    "name": "tests/mock_url_downloader.h"
+                }
+            ]
+        },
+        {
+            "@type": "group",
+            "name": "4",
+            "nested": [
+                {
+                    "@type": "item",
+                    "name": "src/client/cli/cmd/shell.h"
+                },
+                {
+                    "@type": "item",
+                    "name": "src/client/cli/cmd/shell.cpp"
+                },
+                {
+                    "@type": "item",
+                    "name": "src/client/cli/cmd/networks.h"
+                },
+                {
+                    "@type": "item",
+                    "name": "src/client/cli/cmd/networks.cpp"
+                },
+                {
+                    "@type": "item",
+                    "name": "src/client/cli/cmd/exec.cpp"
+                },
+                {
+                    "@type": "item",
+                    "name": "src/client/cli/cmd/common_callbacks.h"
+                },
+                {
+                    "@type": "item",
+                    "name": "src/client/cli/cmd/aliases.h"
+                },
+                {
+                    "@type": "item",
+                    "name": "src/client/cli/cmd/aliases.cpp"
+                },
+                {
+                    "@type": "item",
+                    "name": "src/client/cli/cmd/prefer.h"
+                },
+                {
+                    "@type": "item",
+                    "name": "src/client/cli/cmd/prefer.cpp"
+                },
+                {
+                    "@type": "item",
+                    "name": "src/client/cli/cmd/info.h"
+                },
+                {
+                    "@type": "item",
+                    "name": "src/client/cli/cmd/info.cpp"
+                },
+                {
+                    "@type": "item",
+                    "name": "src/client/cli/cmd/stop.h"
+                },
+                {
+                    "@type": "item",
+                    "name": "src/client/cli/cmd/stop.cpp"
+                },
+                {
+                    "@type": "item",
+                    "name": "src/client/cli/cmd/mount.h"
+                },
+                {
+                    "@type": "item",
+                    "name": "src/client/common/alias_dict.cpp"
+                },
+                {
+                    "@type": "item",
+                    "name": "src/client/cli/cmd/get.h"
+                },
+                {
+                    "@type": "item",
+                    "name": "src/client/cli/cmd/get.cpp"
+                },
+                {
+                    "@type": "item",
+                    "name": "src/client/cli/cmd/create_alias.h"
+                },
+                {
+                    "@type": "item",
+                    "name": "src/client/cli/cmd/version.h"
+                },
+                {
+                    "@type": "item",
+                    "name": "src/client/cli/cmd/version.cpp"
+                },
+                {
+                    "@type": "item",
+                    "name": "src/client/cli/cmd/start.h"
+                },
+                {
+                    "@type": "item",
+                    "name": "src/client/cli/cmd/recover.h"
+                },
+                {
+                    "@type": "item",
+                    "name": "src/client/cli/cmd/recover.cpp"
+                },
+                {
+                    "@type": "item",
+                    "name": "src/client/cli/cmd/animated_spinner.h"
+                },
+                {
+                    "@type": "item",
+                    "name": "src/client/cli/cmd/transfer.h"
+                },
+                {
+                    "@type": "item",
+                    "name": "src/client/cli/cmd/purge.h"
+                },
+                {
+                    "@type": "item",
+                    "name": "src/client/cli/cmd/purge.cpp"
+                },
+                {
+                    "@type": "item",
+                    "name": "src/daemon/delayed_shutdown_timer.cpp"
+                },
+                {
+                    "@type": "item",
+                    "name": "src/client/cli/cmd/find.h"
+                },
+                {
+                    "@type": "item",
+                    "name": "src/client/cli/cmd/find.cpp"
+                },
+                {
+                    "@type": "item",
+                    "name": "src/client/cli/cmd/transfer.cpp"
+                },
+                {
+                    "@type": "item",
+                    "name": "src/client/cli/cmd/launch.cpp"
+                },
+                {
+                    "@type": "item",
+                    "name": "src/client/cli/cmd/create_alias.cpp"
+                },
+                {
+                    "@type": "item",
+                    "name": "src/client/cli/cmd/delete.h"
+                },
+                {
+                    "@type": "item",
+                    "name": "src/client/cli/cmd/delete.cpp"
+                },
+                {
+                    "@type": "item",
+                    "name": "src/daemon/cli.cpp"
+                },
+                {
+                    "@type": "item",
+                    "name": "src/client/cli/cmd/umount.h"
+                },
+                {
+                    "@type": "item",
+                    "name": "src/client/cli/cmd/umount.cpp"
+                },
+                {
+                    "@type": "item",
+                    "name": "src/client/cli/cmd/help.h"
+                },
+                {
+                    "@type": "item",
+                    "name": "src/client/cli/cmd/help.cpp"
+                },
+                {
+                    "@type": "item",
+                    "name": "src/client/cli/cmd/authenticate.h"
+                },
+                {
+                    "@type": "item",
+                    "name": "src/client/cli/cmd/authenticate.cpp"
+                },
+                {
+                    "@type": "item",
+                    "name": "src/client/cli/cmd/animated_spinner.cpp"
+                },
+                {
+                    "@type": "item",
+                    "name": "src/client/cli/cmd/launch.h"
+                },
+                {
+                    "@type": "item",
+                    "name": "src/client/cli/cmd/alias.cpp"
+                },
+                {
+                    "@type": "item",
+                    "name": "src/utils/json_utils.cpp"
+                },
+                {
+                    "@type": "item",
+                    "name": "src/client/cli/cmd/exec.h"
+                },
+                {
+                    "@type": "item",
+                    "name": "src/client/cli/cmd/alias.h"
+                },
+                {
+                    "@type": "item",
+                    "name": "src/client/cli/cmd/list.h"
+                },
+                {
+                    "@type": "item",
+                    "name": "src/client/cli/cmd/list.cpp"
+                },
+                {
+                    "@type": "item",
+                    "name": "src/simplestreams/simple_streams_index.cpp"
+                },
+                {
+                    "@type": "item",
+                    "name": "src/platform/backends/qemu/linux/firewall_config.h"
+                },
+                {
+                    "@type": "item",
+                    "name": "src/client/cli/cmd/start.cpp"
+                },
+                {
+                    "@type": "item",
+                    "name": "src/client/cli/cmd/restart.h"
+                },
+                {
+                    "@type": "item",
+                    "name": "src/client/cli/cmd/restart.cpp"
+                },
+                {
+                    "@type": "item",
+                    "name": "src/client/cli/cmd/suspend.h"
+                },
+                {
+                    "@type": "item",
+                    "name": "src/client/cli/cmd/suspend.cpp"
+                },
+                {
+                    "@type": "item",
+                    "name": "src/client/cli/cmd/unalias.h"
+                },
+                {
+                    "@type": "item",
+                    "name": "src/client/cli/cmd/unalias.cpp"
+                },
+                {
+                    "@type": "item",
+                    "name": "src/client/cli/cmd/set.h"
+                },
+                {
+                    "@type": "item",
+                    "name": "src/client/cli/cmd/set.cpp"
+                }
+            ]
+        },
+        {
+            "@type": "group",
+            "name": "5",
+            "nested": [
+                {
+                    "@type": "item",
+                    "name": "src/platform/client/client_platform_linux.cpp"
+                },
+                {
+                    "@type": "item",
+                    "name": "src/client/cli/client.h"
+                },
+                {
+                    "@type": "item",
+                    "name": "src/sshfs_mount/sshfs_server.cpp"
+                },
+                {
+                    "@type": "item",
+                    "name": "src/client/cli/main.cpp"
+                },
+                {
+                    "@type": "item",
+                    "name": "src/client/cli/formatter/table_formatter.cpp"
+                },
+                {
+                    "@type": "item",
+                    "name": "src/petname/petname.cpp"
+                },
+                {
+                    "@type": "item",
+                    "name": "src/utils/memory_size.cpp"
+                },
+                {
+                    "@type": "item",
+                    "name": "src/client/gui/client_gui.cpp"
+                },
+                {
+                    "@type": "item",
+                    "name": "src/daemon/daemon_main.cpp"
+                },
+                {
+                    "@type": "item",
+                    "name": "src/client/gui/gui_cmd.cpp"
+                },
+                {
+                    "@type": "item",
+                    "name": "src/cert/ssl_cert_provider.cpp"
+                },
+                {
+                    "@type": "item",
+                    "name": "src/petname/make_name_generator.cpp"
+                },
+                {
+                    "@type": "item",
+                    "name": "src/daemon/daemon_rpc.h"
+                },
+                {
+                    "@type": "item",
+                    "name": "src/daemon/daemon.h"
+                },
+                {
+                    "@type": "item",
+                    "name": "src/client/common/client_common.cpp"
+                },
+                {
+                    "@type": "item",
+                    "name": "src/petname/petname.h"
+                },
+                {
+                    "@type": "item",
+                    "name": "src/client/gui/main.cpp"
+                },
+                {
+                    "@type": "item",
+                    "name": "src/client/cli/client.cpp"
+                },
+                {
+                    "@type": "item",
+                    "name": "src/client/cli/formatter/yaml_formatter.cpp"
+                },
+                {
+                    "@type": "item",
+                    "name": "src/client/cli/formatter/json_formatter.cpp"
+                },
+                {
+                    "@type": "item",
+                    "name": "src/client/cli/formatter/format_utils.cpp"
+                },
+                {
+                    "@type": "item",
+                    "name": "src/daemon/daemon_config.cpp"
+                },
+                {
+                    "@type": "item",
+                    "name": "src/daemon/daemon_config.h"
+                },
+                {
+                    "@type": "item",
+                    "name": "src/platform/client/client_platform.cpp"
+                },
+                {
+                    "@type": "item",
+                    "name": "src/sshfs_mount/sshfs_mount.h"
+                },
+                {
+                    "@type": "item",
+                    "name": "src/client/cli/formatter/csv_formatter.cpp"
+                },
+                {
+                    "@type": "item",
+                    "name": "src/petname/text_to_string_array.cpp"
+                },
+                {
+                    "@type": "item",
+                    "name": "src/client/gui/client_gui.h"
+                },
+                {
+                    "@type": "item",
+                    "name": "src/client/gui/gui_cmd.h"
+                },
+                {
+                    "@type": "item",
+                    "name": "src/daemon/cli.h"
+                }
+            ]
+        },
+        {
+            "@type": "group",
+            "name": "6",
+            "nested": [
+                {
+                    "@type": "item",
+                    "name": "src/sshfs_mount/sftp_server.h"
+                },
+                {
+                    "@type": "item",
+                    "name": "src/utils/utils.cpp"
+                },
+                {
+                    "@type": "item",
+                    "name": "src/client/cli/cmd/mount.cpp"
+                },
+                {
+                    "@type": "item",
+                    "name": "src/daemon/daemon.cpp"
+                },
+                {
+                    "@type": "item",
+                    "name": "src/daemon/default_vm_image_vault.cpp"
+                },
+                {
+                    "@type": "item",
+                    "name": "src/platform/backends/qemu/linux/firewall_config.cpp"
+                },
+                {
+                    "@type": "item",
+                    "name": "src/daemon/daemon_rpc.cpp"
+                },
+                {
+                    "@type": "item",
+                    "name": "src/blueprint_provider/default_vm_blueprint_provider.cpp"
+                },
+                {
+                    "@type": "item",
+                    "name": "src/ssh/ssh_process.cpp"
+                },
+                {
+                    "@type": "item",
+                    "name": "src/client/cli/cmd/remote_settings_handler.cpp"
+                },
+                {
+                    "@type": "item",
+                    "name": "src/cert/client_cert_store.cpp"
+                },
+                {
+                    "@type": "item",
+                    "name": "src/platform/backends/lxd/lxd_virtual_machine_factory.cpp"
+                },
+                {
+                    "@type": "item",
+                    "name": "src/daemon/common_image_host.cpp"
+                },
+                {
+                    "@type": "item",
+                    "name": "src/platform/backends/qemu/linux/qemu_platform_detail_linux.cpp"
+                },
+                {
+                    "@type": "item",
+                    "name": "src/platform/backends/lxd/lxd_mount_handler.cpp"
+                },
+                {
+                    "@type": "item",
+                    "name": "src/platform/backends/qemu/qemu_virtual_machine_factory.cpp"
+                },
+                {
+                    "@type": "item",
+                    "name": "src/daemon/base_cloud_init_config.h"
+                },
+                {
+                    "@type": "item",
+                    "name": "src/utils/poco_zip_utils.cpp"
+                },
+                {
+                    "@type": "item",
+                    "name": "src/platform/platform_linux.cpp"
+                },
+                {
+                    "@type": "item",
+                    "name": "src/sshfs_mount/sshfs_mount.cpp"
+                },
+                {
+                    "@type": "item",
+                    "name": "src/sshfs_mount/sshfs_mount_handler.cpp"
+                },
+                {
+                    "@type": "item",
+                    "name": "src/network/url_downloader.cpp"
+                },
+                {
+                    "@type": "item",
+                    "name": "src/platform/backends/lxd/lxd_vm_image_vault.cpp"
+                },
+                {
+                    "@type": "item",
+                    "name": "src/sshfs_mount/sftp_server.cpp"
+                },
+                {
+                    "@type": "item",
+                    "name": "src/utils/file_ops.cpp"
+                },
+                {
+                    "@type": "item",
+                    "name": "src/platform/backends/qemu/qemu_mount_handler.cpp"
+                }
+            ]
+        },
+        {
+            "@type": "group",
+            "name": "7",
+            "nested": [
+                {
+                    "@type": "item",
+                    "name": "src/platform/backends/shared/sshfs_server_process_spec.h"
+                },
+                {
+                    "@type": "item",
+                    "name": "include/multipass/simple_streams_index.h"
+                },
+                {
+                    "@type": "item",
+                    "name": "src/platform/backends/qemu/linux/dnsmasq_server.h"
+                },
+                {
+                    "@type": "item",
+                    "name": "src/platform/backends/shared/sshfs_server_process_spec.cpp"
+                },
+                {
+                    "@type": "item",
+                    "name": "src/platform/backends/qemu/linux/dnsmasq_process_spec.cpp"
+                },
+                {
+                    "@type": "item",
+                    "name": "include/multipass/process/process_spec.h"
+                },
+                {
+                    "@type": "item",
+                    "name": "src/process/process_spec.cpp"
+                },
+                {
+                    "@type": "item",
+                    "name": "src/platform/backends/shared/linux/process_factory.cpp"
+                },
+                {
+                    "@type": "item",
+                    "name": "src/platform/backends/qemu/linux/dnsmasq_process_spec.h"
+                },
+                {
+                    "@type": "item",
+                    "name": "src/platform/backends/qemu/qemu_base_process_spec.h"
+                },
+                {
+                    "@type": "item",
+                    "name": "src/platform/backends/qemu/qemu_vm_process_spec.h"
+                },
+                {
+                    "@type": "item",
+                    "name": "src/process/simple_process_spec.cpp"
+                },
+                {
+                    "@type": "item",
+                    "name": "src/process/qemuimg_process_spec.cpp"
+                },
+                {
+                    "@type": "item",
+                    "name": "src/platform/backends/shared/linux/backend_utils.h"
+                },
+                {
+                    "@type": "item",
+                    "name": "src/platform/backends/qemu/qemu_base_process_spec.cpp"
+                },
+                {
+                    "@type": "item",
+                    "name": "src/utils/standard_paths.cpp"
+                },
+                {
+                    "@type": "item",
+                    "name": "src/platform/backends/qemu/linux/dnsmasq_server.cpp"
+                },
+                {
+                    "@type": "item",
+                    "name": "src/platform/backends/shared/linux/backend_utils.cpp"
+                },
+                {
+                    "@type": "item",
+                    "name": "include/multipass/process/qemuimg_process_spec.h"
+                },
+                {
+                    "@type": "item",
+                    "name": "src/platform/backends/shared/linux/process_factory.h"
+                },
+                {
+                    "@type": "item",
+                    "name": "src/platform/backends/qemu/qemu_vmstate_process_spec.h"
+                },
+                {
+                    "@type": "item",
+                    "name": "src/platform/backends/shared/linux/dbus_wrappers.h"
+                },
+                {
+                    "@type": "item",
+                    "name": "include/multipass/process/simple_process_spec.h"
+                },
+                {
+                    "@type": "item",
+                    "name": "src/platform/backends/qemu/qemu_vm_process_spec.cpp"
+                },
+                {
+                    "@type": "item",
+                    "name": "src/platform/backends/qemu/qemu_vmstate_process_spec.cpp"
+                }
+            ]
+        },
+        {
+            "@type": "group",
+            "name": "8",
+            "nested": [
+                {
+                    "@type": "item",
+                    "name": "src/platform/backends/qemu/qemu_platform.h"
+                },
+                {
+                    "@type": "item",
+                    "name": "src/client/cli/argparser.cpp"
+                },
+                {
+                    "@type": "item",
+                    "name": "src/platform/platform_shared.cpp"
+                },
+                {
+                    "@type": "item",
+                    "name": "src/client/cli/cmd/common_cli.cpp"
+                },
+                {
+                    "@type": "item",
+                    "name": "src/platform/backends/shared/base_vm_image_vault.h"
+                },
+                {
+                    "@type": "item",
+                    "name": "src/client/gui/argparser.cpp"
+                },
+                {
+                    "@type": "item",
+                    "name": "src/platform/platform_linux_detail.h"
+                },
+                {
+                    "@type": "item",
+                    "name": "src/daemon/common_image_host.h"
+                },
+                {
+                    "@type": "item",
+                    "name": "src/daemon/ubuntu_image_host.cpp"
+                },
+                {
+                    "@type": "item",
+                    "name": "src/platform/platform_unix.cpp"
+                },
+                {
+                    "@type": "item",
+                    "name": "src/platform/update/new_release_monitor.h"
+                },
+                {
+                    "@type": "item",
+                    "name": "src/simplestreams/simple_streams_manifest.cpp"
+                },
+                {
+                    "@type": "item",
+                    "name": "src/platform/backends/lxd/lxd_vm_image_vault.h"
+                },
+                {
+                    "@type": "item",
+                    "name": "src/platform/backends/qemu/linux/qemu_platform_detail.h"
+                },
+                {
+                    "@type": "item",
+                    "name": "src/daemon/ubuntu_image_host.h"
+                },
+                {
+                    "@type": "item",
+                    "name": "src/platform/update/new_release_monitor.cpp"
+                },
+                {
+                    "@type": "item",
+                    "name": "src/daemon/custom_image_host.h"
+                },
+                {
+                    "@type": "item",
+                    "name": "src/daemon/custom_image_host.cpp"
+                },
+                {
+                    "@type": "item",
+                    "name": "src/platform/platform_shared.h"
+                },
+                {
+                    "@type": "item",
+                    "name": "src/client/cli/cmd/common_cli.h"
+                },
+                {
+                    "@type": "item",
+                    "name": "src/client/gui/argparser.h"
+                },
+                {
+                    "@type": "item",
+                    "name": "src/utils/vm_image_vault_utils.cpp"
+                },
+                {
+                    "@type": "item",
+                    "name": "src/daemon/default_vm_image_vault.h"
+                }
+            ]
+        },
+        {
+            "@type": "group",
+            "name": "9",
+            "nested": [
+                {
+                    "@type": "item",
+                    "name": "src/platform/backends/lxd/lxd_request.h"
+                },
+                {
+                    "@type": "item",
+                    "name": "src/platform/backends/qemu/qemu_mount_handler.h"
+                },
+                {
+                    "@type": "item",
+                    "name": "src/platform/backends/libvirt/libvirt_virtual_machine.h"
+                },
+                {
+                    "@type": "item",
+                    "name": "src/platform/backends/qemu/qemu_virtual_machine.h"
+                },
+                {
+                    "@type": "item",
+                    "name": "src/platform/backends/libvirt/libvirt_wrapper.h"
+                },
+                {
+                    "@type": "item",
+                    "name": "src/platform/backends/shared/base_virtual_machine_factory.cpp"
+                },
+                {
+                    "@type": "item",
+                    "name": "src/network/local_socket_reply.h"
+                },
+                {
+                    "@type": "item",
+                    "name": "src/platform/backends/libvirt/libvirt_virtual_machine.cpp"
+                },
+                {
+                    "@type": "item",
+                    "name": "src/platform/backends/lxd/lxd_mount_handler.h"
+                },
+                {
+                    "@type": "item",
+                    "name": "src/platform/backends/lxd/lxd_virtual_machine.cpp"
+                },
+                {
+                    "@type": "item",
+                    "name": "src/platform/backends/lxd/lxd_request.cpp"
+                },
+                {
+                    "@type": "item",
+                    "name": "src/platform/backends/lxd/lxd_virtual_machine.h"
+                },
+                {
+                    "@type": "item",
+                    "name": "src/platform/backends/libvirt/libvirt_virtual_machine_factory.h"
+                },
+                {
+                    "@type": "item",
+                    "name": "src/platform/backends/qemu/qemu_virtual_machine_factory.h"
+                },
+                {
+                    "@type": "item",
+                    "name": "src/platform/backends/shared/base_virtual_machine.h"
+                },
+                {
+                    "@type": "item",
+                    "name": "src/platform/backends/shared/base_virtual_machine.cpp"
+                },
+                {
+                    "@type": "item",
+                    "name": "src/platform/backends/libvirt/libvirt_wrapper.cpp"
+                },
+                {
+                    "@type": "item",
+                    "name": "src/platform/backends/libvirt/libvirt_virtual_machine_factory.cpp"
+                },
+                {
+                    "@type": "item",
+                    "name": "src/platform/backends/qemu/qemu_virtual_machine.cpp"
+                },
+                {
+                    "@type": "item",
+                    "name": "src/network/local_socket_reply.cpp"
+                },
+                {
+                    "@type": "item",
+                    "name": "src/platform/backends/lxd/lxd_virtual_machine_factory.h"
+                },
+                {
+                    "@type": "item",
+                    "name": "src/network/network_access_manager.cpp"
+                },
+                {
+                    "@type": "item",
+                    "name": "src/platform/backends/shared/base_virtual_machine_factory.h"
+                }
+            ]
+        },
+        {
+            "@type": "group",
+            "name": "10",
+            "nested": [
+                {
+                    "@type": "item",
+                    "name": "src/platform/logger/syslog_logger.cpp"
+                },
+                {
+                    "@type": "item",
+                    "name": "src/platform/logger/syslog_logger.h"
+                },
+                {
+                    "@type": "item",
+                    "name": "src/process/basic_process.cpp"
+                },
+                {
+                    "@type": "item",
+                    "name": "src/platform/logger/journald_logger.h"
+                },
+                {
+                    "@type": "item",
+                    "name": "src/platform/logger/journald_logger.cpp"
+                },
+                {
+                    "@type": "item",
+                    "name": "src/platform/logger/linux_logger.h"
+                },
+                {
+                    "@type": "item",
+                    "name": "src/logging/multiplexing_logger.cpp"
+                },
+                {
+                    "@type": "item",
+                    "name": "src/platform/logger/linux_logger.cpp"
+                },
+                {
+                    "@type": "item",
+                    "name": "src/logging/log.cpp"
+                },
+                {
+                    "@type": "item",
+                    "name": "src/logging/standard_logger.cpp"
+                }
+            ]
+        },
+        {
+            "@type": "group",
+            "name": "11",
+            "nested": [
+                {
+                    "@type": "item",
+                    "name": "src/ssh/ssh_client_key_provider.h"
+                },
+                {
+                    "@type": "item",
+                    "name": "src/client/common/prompters.cpp"
+                },
+                {
+                    "@type": "item",
+                    "name": "src/ssh/ssh_client_key_provider.cpp"
+                },
+                {
+                    "@type": "item",
+                    "name": "src/platform/update/default_update_prompt.h"
+                },
+                {
+                    "@type": "item",
+                    "name": "src/ssh/openssh_key_provider.cpp"
+                },
+                {
+                    "@type": "item",
+                    "name": "src/ssh/ssh_client.cpp"
+                },
+                {
+                    "@type": "item",
+                    "name": "src/ssh/ssh_session.cpp"
+                },
+                {
+                    "@type": "item",
+                    "name": "src/platform/update/disabled_update_prompt.h"
+                },
+                {
+                    "@type": "item",
+                    "name": "src/platform/update/default_update_prompt.cpp"
+                }
+            ]
+        },
+        {
+            "@type": "group",
+            "name": "12",
+            "nested": [
+                {
+                    "@type": "item",
+                    "name": "include/multipass/cert_store.h"
+                },
+                {
+                    "@type": "item",
+                    "name": "include/multipass/cert_provider.h"
+                },
+                {
+                    "@type": "item",
+                    "name": "tests/stub_cert_store.h"
+                },
+                {
+                    "@type": "item",
+                    "name": "include/multipass/ssl_cert_provider.h"
+                },
+                {
+                    "@type": "item",
+                    "name": "tests/test_ssl_cert_provider.cpp"
+                },
+                {
+                    "@type": "item",
+                    "name": "include/multipass/name_generator.h"
+                },
+                {
+                    "@type": "item",
+                    "name": "tests/mock_cert_provider.h"
+                },
+                {
+                    "@type": "item",
+                    "name": "include/multipass/client_cert_store.h"
+                },
+                {
+                    "@type": "item",
+                    "name": "tests/mock_cert_store.h"
+                }
+            ]
+        },
+        {
+            "@type": "group",
+            "name": "13",
+            "nested": [
+                {
+                    "@type": "item",
+                    "name": "tests/test_disabled_copy_move.cpp"
+                },
+                {
+                    "@type": "item",
+                    "name": "tests/linux/mock_q_buffer.h"
+                },
+                {
+                    "@type": "item",
+                    "name": "tests/signal.h"
+                },
+                {
+                    "@type": "item",
+                    "name": "tests/test_timer.cpp"
+                },
+                {
+                    "@type": "item",
+                    "name": "tests/lxd/mock_local_socket_reply.h"
+                }
+            ]
+        },
+        {
+            "@type": "group",
+            "name": "14",
+            "nested": [
+                {
+                    "@type": "item",
+                    "name": "src/cert/biomem.cpp"
+                },
+                {
+                    "@type": "item",
+                    "name": "src/daemon/instance_settings_handler.cpp"
+                },
+                {
+                    "@type": "item",
+                    "name": "src/cert/biomem.h"
+                },
+                {
+                    "@type": "item",
+                    "name": "src/daemon/instance_settings_handler.h"
+                }
+            ]
+        },
+        {
+            "@type": "group",
+            "name": "15",
+            "nested": [
+                {
+                    "@type": "item",
+                    "name": "include/multipass/exceptions/local_socket_connection_exception.h"
+                },
+                {
+                    "@type": "item",
+                    "name": "include/multipass/exceptions/http_local_socket_exception.h"
+                }
+            ]
+        },
+        {
+            "@type": "group",
+            "name": "16",
+            "nested": [
+                {
+                    "@type": "item",
+                    "name": "tests/libvirt/broken_libvirt_library.cpp"
+                },
+                {
+                    "@type": "item",
+                    "name": "tests/libvirt/fake_libvirt_library.cpp"
+                }
+            ]
+        },
+        {
+            "@type": "group",
+            "name": "17",
+            "nested": [
+                {
+                    "@type": "item",
+                    "name": "tests/mock_vm_blueprint_provider.h"
+                },
+                {
+                    "@type": "item",
+                    "name": "tests/stub_vm_blueprint_provider.h"
+                }
+            ]
+        },
+        {
+            "@type": "group",
+            "name": "18",
+            "nested": [
+                {
+                    "@type": "item",
+                    "name": "3rd-party/premock/premock.hpp"
+                }
+            ]
+        },
+        {
+            "@type": "group",
+            "name": "19",
+            "nested": [
+                {
+                    "@type": "item",
+                    "name": "include/multipass/auto_join_thread.h"
+                }
+            ]
+        },
+        {
+            "@type": "group",
+            "name": "20",
+            "nested": [
+                {
+                    "@type": "item",
+                    "name": "include/multipass/json_utils.h"
+                }
+            ]
+        },
+        {
+            "@type": "group",
+            "name": "21",
+            "nested": [
+                {
+                    "@type": "item",
+                    "name": "include/multipass/platform_unix.h"
+                }
+            ]
+        },
+        {
+            "@type": "group",
+            "name": "22",
+            "nested": [
+                {
+                    "@type": "item",
+                    "name": "src/iso/cloud_init_iso.cpp"
+                }
+            ]
+        },
+        {
+            "@type": "group",
+            "name": "23",
+            "nested": [
+                {
+                    "@type": "item",
+                    "name": "src/network/ip_address.cpp"
+                }
+            ]
+        },
+        {
+            "@type": "group",
+            "name": "24",
+            "nested": [
+                {
+                    "@type": "item",
+                    "name": "src/utils/timer.cpp"
+                }
+            ]
+        },
+        {
+            "@type": "group",
+            "name": "25",
+            "nested": [
+                {
+                    "@type": "item",
+                    "name": "src/xz_decoder/xz_image_decoder.cpp"
+                }
+            ]
+        }
+    ]
+}

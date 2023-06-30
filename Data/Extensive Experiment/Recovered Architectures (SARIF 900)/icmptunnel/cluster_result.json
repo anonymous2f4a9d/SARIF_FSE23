@@ -1,0 +1,46 @@
+{
+    "@schemaVersion": "1.0",
+    "name": "clustering",
+    "structure": [
+        {
+            "@type": "group",
+            "name": "0",
+            "nested": [
+                {
+                    "@type": "item",
+                    "name": "test_client.c"
+                },
+                {
+                    "@type": "item",
+                    "name": "test_server.c"
+                },
+                {
+                    "@type": "item",
+                    "name": "icmptunnel.c"
+                }
+            ]
+        },
+        {
+            "@type": "group",
+            "name": "1",
+            "nested": [
+                {
+                    "@type": "item",
+                    "name": "tunnel.h"
+                },
+                {
+                    "@type": "item",
+                    "name": "tunnel.c"
+                },
+                {
+                    "@type": "item",
+                    "name": "icmp.h"
+                },
+                {
+                    "@type": "item",
+                    "name": "icmp.c"
+                }
+            ]
+        }
+    ]
+}

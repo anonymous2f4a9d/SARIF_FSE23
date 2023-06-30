@@ -1,0 +1,548 @@
+{
+    "@schemaVersion": "1.0",
+    "name": "clustering",
+    "structure": [
+        {
+            "@type": "group",
+            "name": "0",
+            "nested": [
+                {
+                    "@type": "item",
+                    "name": "src/postprocessing/pp-srt.h"
+                },
+                {
+                    "@type": "item",
+                    "name": "src/postprocessing/pp-srt.c"
+                },
+                {
+                    "@type": "item",
+                    "name": "src/postprocessing/pp-l16.h"
+                },
+                {
+                    "@type": "item",
+                    "name": "src/postprocessing/pp-l16.c"
+                },
+                {
+                    "@type": "item",
+                    "name": "src/postprocessing/pp-h264.h"
+                },
+                {
+                    "@type": "item",
+                    "name": "src/postprocessing/pp-h264.c"
+                },
+                {
+                    "@type": "item",
+                    "name": "src/postprocessing/pp-rtp.h"
+                },
+                {
+                    "@type": "item",
+                    "name": "src/postprocessing/janus-pp-rec.c"
+                },
+                {
+                    "@type": "item",
+                    "name": "src/postprocessing/pp-opus-silence.h"
+                },
+                {
+                    "@type": "item",
+                    "name": "src/postprocessing/pp-g711.h"
+                },
+                {
+                    "@type": "item",
+                    "name": "src/postprocessing/pp-g711.c"
+                },
+                {
+                    "@type": "item",
+                    "name": "src/postprocessing/pp-opus.h"
+                },
+                {
+                    "@type": "item",
+                    "name": "src/postprocessing/pp-opus.c"
+                },
+                {
+                    "@type": "item",
+                    "name": "src/postprocessing/pp-h265.h"
+                },
+                {
+                    "@type": "item",
+                    "name": "src/postprocessing/pp-h265.c"
+                },
+                {
+                    "@type": "item",
+                    "name": "src/postprocessing/pp-webm.h"
+                },
+                {
+                    "@type": "item",
+                    "name": "src/postprocessing/pp-webm.c"
+                },
+                {
+                    "@type": "item",
+                    "name": "src/postprocessing/pp-av1.h"
+                },
+                {
+                    "@type": "item",
+                    "name": "src/postprocessing/pp-av1.c"
+                },
+                {
+                    "@type": "item",
+                    "name": "src/postprocessing/pp-options.h"
+                },
+                {
+                    "@type": "item",
+                    "name": "src/postprocessing/pp-options.c"
+                },
+                {
+                    "@type": "item",
+                    "name": "src/postprocessing/pp-avformat.h"
+                },
+                {
+                    "@type": "item",
+                    "name": "src/postprocessing/pp-avformat.c"
+                },
+                {
+                    "@type": "item",
+                    "name": "src/postprocessing/pp-g722.h"
+                },
+                {
+                    "@type": "item",
+                    "name": "src/postprocessing/pp-g722.c"
+                },
+                {
+                    "@type": "item",
+                    "name": "src/postprocessing/pp-binary.h"
+                },
+                {
+                    "@type": "item",
+                    "name": "src/postprocessing/pp-binary.c"
+                }
+            ]
+        },
+        {
+            "@type": "group",
+            "name": "1",
+            "nested": [
+                {
+                    "@type": "item",
+                    "name": "src/events/janus_rabbitmqevh.c"
+                },
+                {
+                    "@type": "item",
+                    "name": "src/transports/janus_rabbitmq.c"
+                },
+                {
+                    "@type": "item",
+                    "name": "src/transports/transport.h"
+                },
+                {
+                    "@type": "item",
+                    "name": "src/transports/transport.c"
+                },
+                {
+                    "@type": "item",
+                    "name": "src/plugins/janus_streaming.c"
+                },
+                {
+                    "@type": "item",
+                    "name": "src/events/janus_gelfevh.c"
+                },
+                {
+                    "@type": "item",
+                    "name": "src/plugins/janus_audiobridge.c"
+                },
+                {
+                    "@type": "item",
+                    "name": "src/transports/janus_pfunix.c"
+                },
+                {
+                    "@type": "item",
+                    "name": "src/apierror.h"
+                },
+                {
+                    "@type": "item",
+                    "name": "src/apierror.c"
+                },
+                {
+                    "@type": "item",
+                    "name": "src/ip-utils.h"
+                },
+                {
+                    "@type": "item",
+                    "name": "src/ip-utils.c"
+                },
+                {
+                    "@type": "item",
+                    "name": "src/transports/janus_http.c"
+                },
+                {
+                    "@type": "item",
+                    "name": "src/transports/janus_websockets.c"
+                },
+                {
+                    "@type": "item",
+                    "name": "src/transports/janus_nanomsg.c"
+                },
+                {
+                    "@type": "item",
+                    "name": "src/config.h"
+                },
+                {
+                    "@type": "item",
+                    "name": "src/config.c"
+                },
+                {
+                    "@type": "item",
+                    "name": "src/events/janus_mqttevh.c"
+                },
+                {
+                    "@type": "item",
+                    "name": "src/transports/janus_mqtt.c"
+                }
+            ]
+        },
+        {
+            "@type": "group",
+            "name": "2",
+            "nested": [
+                {
+                    "@type": "item",
+                    "name": "src/plugins/janus_sip.c"
+                },
+                {
+                    "@type": "item",
+                    "name": "src/plugins/janus_nosip.c"
+                },
+                {
+                    "@type": "item",
+                    "name": "src/plugins/janus_textroom.c"
+                },
+                {
+                    "@type": "item",
+                    "name": "src/plugins/duktape-deps/duk_module_duktape.h"
+                },
+                {
+                    "@type": "item",
+                    "name": "src/plugins/duktape-deps/duk_module_duktape.c"
+                },
+                {
+                    "@type": "item",
+                    "name": "src/plugins/plugin.h"
+                },
+                {
+                    "@type": "item",
+                    "name": "src/plugins/plugin.c"
+                },
+                {
+                    "@type": "item",
+                    "name": "src/record.h"
+                },
+                {
+                    "@type": "item",
+                    "name": "src/record.c"
+                },
+                {
+                    "@type": "item",
+                    "name": "src/plugins/janus_recordplay.c"
+                },
+                {
+                    "@type": "item",
+                    "name": "src/plugins/janus_videocall.c"
+                },
+                {
+                    "@type": "item",
+                    "name": "src/version.h"
+                },
+                {
+                    "@type": "item",
+                    "name": "src/plugins/janus_echotest.c"
+                },
+                {
+                    "@type": "item",
+                    "name": "src/plugins/janus_lua_data.h"
+                },
+                {
+                    "@type": "item",
+                    "name": "src/plugins/janus_lua.c"
+                },
+                {
+                    "@type": "item",
+                    "name": "src/plugins/janus_duktape_data.h"
+                },
+                {
+                    "@type": "item",
+                    "name": "src/plugins/janus_duktape.c"
+                }
+            ]
+        },
+        {
+            "@type": "group",
+            "name": "3",
+            "nested": [
+                {
+                    "@type": "item",
+                    "name": "src/events/janus_sampleevh.c"
+                },
+                {
+                    "@type": "item",
+                    "name": "src/events/janus_wsevh.c"
+                },
+                {
+                    "@type": "item",
+                    "name": "src/loggers/logger.h"
+                },
+                {
+                    "@type": "item",
+                    "name": "src/loggers/janus_jsonlog.c"
+                },
+                {
+                    "@type": "item",
+                    "name": "src/turnrest.h"
+                },
+                {
+                    "@type": "item",
+                    "name": "src/log.h"
+                },
+                {
+                    "@type": "item",
+                    "name": "src/log.c"
+                },
+                {
+                    "@type": "item",
+                    "name": "src/events/eventhandler.h"
+                },
+                {
+                    "@type": "item",
+                    "name": "src/turnrest.c"
+                },
+                {
+                    "@type": "item",
+                    "name": "src/events/janus_nanomsgevh.c"
+                }
+            ]
+        },
+        {
+            "@type": "group",
+            "name": "4",
+            "nested": [
+                {
+                    "@type": "item",
+                    "name": "src/janus.h"
+                },
+                {
+                    "@type": "item",
+                    "name": "src/janus.c"
+                },
+                {
+                    "@type": "item",
+                    "name": "src/dtls.h"
+                },
+                {
+                    "@type": "item",
+                    "name": "src/dtls.c"
+                },
+                {
+                    "@type": "item",
+                    "name": "src/sctp.c"
+                },
+                {
+                    "@type": "item",
+                    "name": "src/events.h"
+                },
+                {
+                    "@type": "item",
+                    "name": "src/events.c"
+                },
+                {
+                    "@type": "item",
+                    "name": "src/ice.h"
+                },
+                {
+                    "@type": "item",
+                    "name": "src/ice.c"
+                },
+                {
+                    "@type": "item",
+                    "name": "src/dtls-bio.h"
+                },
+                {
+                    "@type": "item",
+                    "name": "src/dtls-bio.c"
+                },
+                {
+                    "@type": "item",
+                    "name": "src/sdp.h"
+                },
+                {
+                    "@type": "item",
+                    "name": "src/sdp.c"
+                },
+                {
+                    "@type": "item",
+                    "name": "src/sdp-utils.h"
+                },
+                {
+                    "@type": "item",
+                    "name": "src/sdp-utils.c"
+                },
+                {
+                    "@type": "item",
+                    "name": "src/auth.h"
+                },
+                {
+                    "@type": "item",
+                    "name": "src/auth.c"
+                }
+            ]
+        },
+        {
+            "@type": "group",
+            "name": "5",
+            "nested": [
+                {
+                    "@type": "item",
+                    "name": "src/plugins/janus_videoroom.c"
+                },
+                {
+                    "@type": "item",
+                    "name": "fuzzers/rtcp_fuzzer.c"
+                },
+                {
+                    "@type": "item",
+                    "name": "fuzzers/engines/standalone.c"
+                },
+                {
+                    "@type": "item",
+                    "name": "fuzzers/rtp_fuzzer.c"
+                },
+                {
+                    "@type": "item",
+                    "name": "src/rtp.h"
+                },
+                {
+                    "@type": "item",
+                    "name": "src/rtpsrtp.h"
+                },
+                {
+                    "@type": "item",
+                    "name": "src/rtp.c"
+                },
+                {
+                    "@type": "item",
+                    "name": "src/rtpfwd.h"
+                },
+                {
+                    "@type": "item",
+                    "name": "src/rtpfwd.c"
+                },
+                {
+                    "@type": "item",
+                    "name": "src/utils.h"
+                },
+                {
+                    "@type": "item",
+                    "name": "src/utils.c"
+                },
+                {
+                    "@type": "item",
+                    "name": "src/rtcp.h"
+                },
+                {
+                    "@type": "item",
+                    "name": "src/rtcp.c"
+                },
+                {
+                    "@type": "item",
+                    "name": "src/mach_gettime.h"
+                }
+            ]
+        },
+        {
+            "@type": "group",
+            "name": "6",
+            "nested": [
+                {
+                    "@type": "item",
+                    "name": "fuzzers/sdp_fuzzer.c"
+                },
+                {
+                    "@type": "item",
+                    "name": "src/plugins/duktape-deps/duk_console.h"
+                },
+                {
+                    "@type": "item",
+                    "name": "src/plugins/duktape-deps/duk_console.c"
+                },
+                {
+                    "@type": "item",
+                    "name": "src/postprocessing/pcap2mjr.c"
+                },
+                {
+                    "@type": "item",
+                    "name": "src/text2pcap.h"
+                },
+                {
+                    "@type": "item",
+                    "name": "src/text2pcap.c"
+                },
+                {
+                    "@type": "item",
+                    "name": "src/postprocessing/mjr2pcap.c"
+                },
+                {
+                    "@type": "item",
+                    "name": "src/options.h"
+                },
+                {
+                    "@type": "item",
+                    "name": "src/options.c"
+                },
+                {
+                    "@type": "item",
+                    "name": "src/janus-cfgconv.c"
+                },
+                {
+                    "@type": "item",
+                    "name": "src/debug.h"
+                }
+            ]
+        },
+        {
+            "@type": "group",
+            "name": "7",
+            "nested": [
+                {
+                    "@type": "item",
+                    "name": "src/mutex.h"
+                },
+                {
+                    "@type": "item",
+                    "name": "src/sctp.h"
+                },
+                {
+                    "@type": "item",
+                    "name": "src/refcount.h"
+                }
+            ]
+        },
+        {
+            "@type": "group",
+            "name": "8",
+            "nested": [
+                {
+                    "@type": "item",
+                    "name": "src/plugins/janus_lua_extra.h"
+                },
+                {
+                    "@type": "item",
+                    "name": "src/plugins/janus_lua_extra.c"
+                },
+                {
+                    "@type": "item",
+                    "name": "src/plugins/janus_duktape_extra.h"
+                },
+                {
+                    "@type": "item",
+                    "name": "src/plugins/janus_duktape_extra.c"
+                }
+            ]
+        }
+    ]
+}

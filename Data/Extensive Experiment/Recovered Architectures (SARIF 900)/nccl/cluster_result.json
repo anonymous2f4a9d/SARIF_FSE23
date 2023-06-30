@@ -1,0 +1,690 @@
+{
+    "@schemaVersion": "1.0",
+    "name": "clustering",
+    "structure": [
+        {
+            "@type": "group",
+            "name": "0",
+            "nested": [
+                {
+                    "@type": "item",
+                    "name": "src/include/utils.h"
+                },
+                {
+                    "@type": "item",
+                    "name": "src/include/alloc.h"
+                },
+                {
+                    "@type": "item",
+                    "name": "src/include/channel.h"
+                },
+                {
+                    "@type": "item",
+                    "name": "src/channel.cc"
+                },
+                {
+                    "@type": "item",
+                    "name": "src/include/info.h"
+                },
+                {
+                    "@type": "item",
+                    "name": "src/include/profiler.h"
+                },
+                {
+                    "@type": "item",
+                    "name": "src/misc/profiler.cc"
+                },
+                {
+                    "@type": "item",
+                    "name": "src/include/enqueue.h"
+                },
+                {
+                    "@type": "item",
+                    "name": "src/enqueue.cc"
+                },
+                {
+                    "@type": "item",
+                    "name": "src/include/strongstream.h"
+                },
+                {
+                    "@type": "item",
+                    "name": "src/misc/strongstream.cc"
+                },
+                {
+                    "@type": "item",
+                    "name": "src/include/align.h"
+                },
+                {
+                    "@type": "item",
+                    "name": "src/include/collectives.h"
+                },
+                {
+                    "@type": "item",
+                    "name": "src/include/nvtx.h"
+                },
+                {
+                    "@type": "item",
+                    "name": "src/init_nvtx.cc"
+                },
+                {
+                    "@type": "item",
+                    "name": "src/transport.cc"
+                },
+                {
+                    "@type": "item",
+                    "name": "src/include/comm.h"
+                },
+                {
+                    "@type": "item",
+                    "name": "src/init.cc"
+                },
+                {
+                    "@type": "item",
+                    "name": "src/include/devcomm.h"
+                },
+                {
+                    "@type": "item",
+                    "name": "src/include/argcheck.h"
+                },
+                {
+                    "@type": "item",
+                    "name": "src/misc/argcheck.cc"
+                },
+                {
+                    "@type": "item",
+                    "name": "src/include/shm.h"
+                },
+                {
+                    "@type": "item",
+                    "name": "src/misc/shmutils.cc"
+                },
+                {
+                    "@type": "item",
+                    "name": "src/include/group.h"
+                },
+                {
+                    "@type": "item",
+                    "name": "src/group.cc"
+                },
+                {
+                    "@type": "item",
+                    "name": "src/include/transport.h"
+                },
+                {
+                    "@type": "item",
+                    "name": "src/transport/nvls.cc"
+                },
+                {
+                    "@type": "item",
+                    "name": "src/include/proxy.h"
+                },
+                {
+                    "@type": "item",
+                    "name": "src/proxy.cc"
+                }
+            ]
+        },
+        {
+            "@type": "group",
+            "name": "1",
+            "nested": [
+                {
+                    "@type": "item",
+                    "name": "src/include/nvtx3/nvtxExtDetail/nvtxExtImplPayload_v1.h"
+                },
+                {
+                    "@type": "item",
+                    "name": "src/include/nvtx3/nvToolsExtPayload.h"
+                },
+                {
+                    "@type": "item",
+                    "name": "src/include/nvtx3/nvtxDetail/nvtxImplCore.h"
+                },
+                {
+                    "@type": "item",
+                    "name": "src/include/nvtx3/nvtxDetail/nvtxImpl.h"
+                },
+                {
+                    "@type": "item",
+                    "name": "src/include/nvtx3/nvtx3.hpp"
+                },
+                {
+                    "@type": "item",
+                    "name": "src/include/nvtx3/nvtxDetail/nvtxLinkOnce.h"
+                },
+                {
+                    "@type": "item",
+                    "name": "src/include/nvtx3/nvtxDetail/nvtxTypes.h"
+                },
+                {
+                    "@type": "item",
+                    "name": "src/include/nvtx3/nvtxExtDetail/nvtxExtTypes.h"
+                },
+                {
+                    "@type": "item",
+                    "name": "src/include/nvtx3/nvToolsExt.h"
+                },
+                {
+                    "@type": "item",
+                    "name": "src/include/nvtx3/nvtxExtDetail/nvtxExtPayloadTypeInfo.h"
+                },
+                {
+                    "@type": "item",
+                    "name": "src/include/nvtx3/nvtxExtDetail/nvtxExtImpl.h"
+                },
+                {
+                    "@type": "item",
+                    "name": "src/include/nvtx3/nvtxDetail/nvtxInitDecls.h"
+                },
+                {
+                    "@type": "item",
+                    "name": "src/include/nvtx3/nvtxDetail/nvtxInitDefs.h"
+                },
+                {
+                    "@type": "item",
+                    "name": "src/include/nvtx3/nvtxDetail/nvtxInit.h"
+                },
+                {
+                    "@type": "item",
+                    "name": "src/include/nvtx3/nvtxExtDetail/nvtxExtInit.h"
+                }
+            ]
+        },
+        {
+            "@type": "group",
+            "name": "2",
+            "nested": [
+                {
+                    "@type": "item",
+                    "name": "ext-net/example/nccl/net_v4.h"
+                },
+                {
+                    "@type": "item",
+                    "name": "ext-net/example/nccl/net.h"
+                },
+                {
+                    "@type": "item",
+                    "name": "ext-net/example/nccl/net_v3.h"
+                },
+                {
+                    "@type": "item",
+                    "name": "ext-net/example/nccl/net_v2.h"
+                },
+                {
+                    "@type": "item",
+                    "name": "ext-net/example/nccl/types.h"
+                },
+                {
+                    "@type": "item",
+                    "name": "ext-net/example/nccl/net_v5.h"
+                },
+                {
+                    "@type": "item",
+                    "name": "ext-net/example/nccl/net_v6.h"
+                },
+                {
+                    "@type": "item",
+                    "name": "ext-net/example/plugin.c"
+                },
+                {
+                    "@type": "item",
+                    "name": "ext-net/example/nccl/err.h"
+                }
+            ]
+        },
+        {
+            "@type": "group",
+            "name": "3",
+            "nested": [
+                {
+                    "@type": "item",
+                    "name": "src/collectives/broadcast.cc"
+                },
+                {
+                    "@type": "item",
+                    "name": "src/collectives/reduce_scatter.cc"
+                },
+                {
+                    "@type": "item",
+                    "name": "src/collectives/all_reduce.cc"
+                },
+                {
+                    "@type": "item",
+                    "name": "src/collectives/sendrecv.cc"
+                },
+                {
+                    "@type": "item",
+                    "name": "src/collectives/all_gather.cc"
+                },
+                {
+                    "@type": "item",
+                    "name": "src/collectives/reduce.cc"
+                }
+            ]
+        },
+        {
+            "@type": "group",
+            "name": "4",
+            "nested": [
+                {
+                    "@type": "item",
+                    "name": "src/include/debug.h"
+                },
+                {
+                    "@type": "item",
+                    "name": "src/debug.cc"
+                },
+                {
+                    "@type": "item",
+                    "name": "src/net.cc"
+                },
+                {
+                    "@type": "item",
+                    "name": "src/include/trees.h"
+                },
+                {
+                    "@type": "item",
+                    "name": "src/include/core.h"
+                },
+                {
+                    "@type": "item",
+                    "name": "src/include/param.h"
+                },
+                {
+                    "@type": "item",
+                    "name": "src/misc/param.cc"
+                },
+                {
+                    "@type": "item",
+                    "name": "src/include/checks.h"
+                }
+            ]
+        },
+        {
+            "@type": "group",
+            "name": "5",
+            "nested": [
+                {
+                    "@type": "item",
+                    "name": "src/collectives/device/broadcast.h"
+                },
+                {
+                    "@type": "item",
+                    "name": "src/collectives/device/sendrecv.h"
+                },
+                {
+                    "@type": "item",
+                    "name": "src/collectives/device/all_gather.h"
+                },
+                {
+                    "@type": "item",
+                    "name": "src/collectives/device/reduce_scatter.h"
+                },
+                {
+                    "@type": "item",
+                    "name": "src/collectives/device/reduce.h"
+                },
+                {
+                    "@type": "item",
+                    "name": "src/collectives/device/all_reduce.h"
+                }
+            ]
+        },
+        {
+            "@type": "group",
+            "name": "6",
+            "nested": [
+                {
+                    "@type": "item",
+                    "name": "src/include/nvtx3/nvtxDetail/nvtxImplCudaRt_v3.h"
+                },
+                {
+                    "@type": "item",
+                    "name": "src/include/nvtx3/nvToolsExtCuda.h"
+                },
+                {
+                    "@type": "item",
+                    "name": "src/include/nvtx3/nvToolsExtOpenCL.h"
+                },
+                {
+                    "@type": "item",
+                    "name": "src/include/nvtx3/nvtxDetail/nvtxImplCuda_v3.h"
+                },
+                {
+                    "@type": "item",
+                    "name": "src/include/nvtx3/nvtxDetail/nvtxImplOpenCL_v3.h"
+                },
+                {
+                    "@type": "item",
+                    "name": "src/include/nvtx3/nvToolsExtCudaRt.h"
+                }
+            ]
+        },
+        {
+            "@type": "group",
+            "name": "7",
+            "nested": [
+                {
+                    "@type": "item",
+                    "name": "src/include/bootstrap.h"
+                },
+                {
+                    "@type": "item",
+                    "name": "src/bootstrap.cc"
+                },
+                {
+                    "@type": "item",
+                    "name": "src/include/coll_net.h"
+                },
+                {
+                    "@type": "item",
+                    "name": "src/include/net.h"
+                },
+                {
+                    "@type": "item",
+                    "name": "src/include/nccl_net.h"
+                }
+            ]
+        },
+        {
+            "@type": "group",
+            "name": "8",
+            "nested": [
+                {
+                    "@type": "item",
+                    "name": "src/graph/trees.cc"
+                },
+                {
+                    "@type": "item",
+                    "name": "src/graph/xml.h"
+                },
+                {
+                    "@type": "item",
+                    "name": "src/graph/xml.cc"
+                },
+                {
+                    "@type": "item",
+                    "name": "src/graph/rings.h"
+                },
+                {
+                    "@type": "item",
+                    "name": "src/graph/topo.h"
+                },
+                {
+                    "@type": "item",
+                    "name": "src/include/graph.h"
+                },
+                {
+                    "@type": "item",
+                    "name": "src/graph/topo.cc"
+                },
+                {
+                    "@type": "item",
+                    "name": "src/graph/paths.cc"
+                },
+                {
+                    "@type": "item",
+                    "name": "src/graph/tuning.cc"
+                },
+                {
+                    "@type": "item",
+                    "name": "src/graph/connect.cc"
+                },
+                {
+                    "@type": "item",
+                    "name": "src/graph/search.cc"
+                }
+            ]
+        },
+        {
+            "@type": "group",
+            "name": "9",
+            "nested": [
+                {
+                    "@type": "item",
+                    "name": "src/collectives/device/prims_ll.h"
+                },
+                {
+                    "@type": "item",
+                    "name": "src/collectives/device/prims_ll128.h"
+                },
+                {
+                    "@type": "item",
+                    "name": "src/collectives/device/prims_simple.h"
+                }
+            ]
+        },
+        {
+            "@type": "group",
+            "name": "10",
+            "nested": [
+                {
+                    "@type": "item",
+                    "name": "src/include/socket.h"
+                },
+                {
+                    "@type": "item",
+                    "name": "src/misc/socket.cc"
+                },
+                {
+                    "@type": "item",
+                    "name": "src/misc/utils.cc"
+                },
+                {
+                    "@type": "item",
+                    "name": "src/include/ipcsocket.h"
+                },
+                {
+                    "@type": "item",
+                    "name": "src/misc/ipcsocket.cc"
+                }
+            ]
+        },
+        {
+            "@type": "group",
+            "name": "11",
+            "nested": [
+                {
+                    "@type": "item",
+                    "name": "src/include/cudawrap.h"
+                },
+                {
+                    "@type": "item",
+                    "name": "src/misc/cudawrap.cc"
+                },
+                {
+                    "@type": "item",
+                    "name": "src/include/nvmlwrap.h"
+                },
+                {
+                    "@type": "item",
+                    "name": "src/misc/nvmlwrap.cc"
+                },
+                {
+                    "@type": "item",
+                    "name": "src/include/gdrwrap.h"
+                },
+                {
+                    "@type": "item",
+                    "name": "src/misc/gdrwrap.cc"
+                }
+            ]
+        },
+        {
+            "@type": "group",
+            "name": "12",
+            "nested": [
+                {
+                    "@type": "item",
+                    "name": "src/include/ibvwrap.h"
+                },
+                {
+                    "@type": "item",
+                    "name": "src/misc/ibvwrap.cc"
+                },
+                {
+                    "@type": "item",
+                    "name": "src/include/ibvcore.h"
+                },
+                {
+                    "@type": "item",
+                    "name": "src/include/ibvsymbols.h"
+                },
+                {
+                    "@type": "item",
+                    "name": "src/misc/ibvsymbols.cc"
+                }
+            ]
+        },
+        {
+            "@type": "group",
+            "name": "13",
+            "nested": [
+                {
+                    "@type": "item",
+                    "name": "src/transport/net.cc"
+                },
+                {
+                    "@type": "item",
+                    "name": "src/transport/coll_net.cc"
+                }
+            ]
+        },
+        {
+            "@type": "group",
+            "name": "14",
+            "nested": [
+                {
+                    "@type": "item",
+                    "name": "src/include/p2p.h"
+                },
+                {
+                    "@type": "item",
+                    "name": "src/transport/p2p.cc"
+                },
+                {
+                    "@type": "item",
+                    "name": "src/transport/shm.cc"
+                }
+            ]
+        },
+        {
+            "@type": "group",
+            "name": "15",
+            "nested": [
+                {
+                    "@type": "item",
+                    "name": "src/collectives/device/op128.h"
+                },
+                {
+                    "@type": "item",
+                    "name": "src/collectives/device/reduce_kernel.h"
+                }
+            ]
+        },
+        {
+            "@type": "group",
+            "name": "16",
+            "nested": [
+                {
+                    "@type": "item",
+                    "name": "src/include/nvtx3/nvtxDetail/nvtxImplSync_v3.h"
+                },
+                {
+                    "@type": "item",
+                    "name": "src/include/nvtx3/nvToolsExtSync.h"
+                }
+            ]
+        },
+        {
+            "@type": "group",
+            "name": "17",
+            "nested": [
+                {
+                    "@type": "item",
+                    "name": "src/enhcompat.cc"
+                }
+            ]
+        },
+        {
+            "@type": "group",
+            "name": "18",
+            "nested": [
+                {
+                    "@type": "item",
+                    "name": "src/graph/rings.cc"
+                }
+            ]
+        },
+        {
+            "@type": "group",
+            "name": "19",
+            "nested": [
+                {
+                    "@type": "item",
+                    "name": "src/include/cpuset.h"
+                }
+            ]
+        },
+        {
+            "@type": "group",
+            "name": "20",
+            "nested": [
+                {
+                    "@type": "item",
+                    "name": "src/include/timer.h"
+                }
+            ]
+        },
+        {
+            "@type": "group",
+            "name": "21",
+            "nested": [
+                {
+                    "@type": "item",
+                    "name": "src/transport/net_ib.cc"
+                }
+            ]
+        },
+        {
+            "@type": "group",
+            "name": "22",
+            "nested": [
+                {
+                    "@type": "item",
+                    "name": "src/transport/net_socket.cc"
+                }
+            ]
+        },
+        {
+            "@type": "group",
+            "name": "23",
+            "nested": [
+                {
+                    "@type": "item",
+                    "name": "src/collectives/device/common_kernel.h"
+                }
+            ]
+        },
+        {
+            "@type": "group",
+            "name": "24",
+            "nested": [
+                {
+                    "@type": "item",
+                    "name": "src/collectives/device/common.h"
+                }
+            ]
+        },
+        {
+            "@type": "group",
+            "name": "25",
+            "nested": [
+                {
+                    "@type": "item",
+                    "name": "src/collectives/device/primitives.h"
+                }
+            ]
+        }
+    ]
+}

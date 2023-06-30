@@ -1,0 +1,778 @@
+{
+    "@schemaVersion": "1.0",
+    "name": "clustering",
+    "structure": [
+        {
+            "@type": "group",
+            "name": "0",
+            "nested": [
+                {
+                    "@type": "item",
+                    "name": "src/tools/extract_seccomp.c"
+                },
+                {
+                    "@type": "item",
+                    "name": "src/fsec-optimize/main.c"
+                },
+                {
+                    "@type": "item",
+                    "name": "src/include/syscall_armeabi.h"
+                },
+                {
+                    "@type": "item",
+                    "name": "src/ftee/ftee.h"
+                },
+                {
+                    "@type": "item",
+                    "name": "src/tools/ttytest.c"
+                },
+                {
+                    "@type": "item",
+                    "name": "src/fsec-print/fsec_print.h"
+                },
+                {
+                    "@type": "item",
+                    "name": "src/fsec-print/print.c"
+                },
+                {
+                    "@type": "item",
+                    "name": "src/include/seccomp.h"
+                },
+                {
+                    "@type": "item",
+                    "name": "src/include/syscall_i386.h"
+                },
+                {
+                    "@type": "item",
+                    "name": "src/fsec-optimize/fsec_optimize.h"
+                },
+                {
+                    "@type": "item",
+                    "name": "src/fsec-optimize/optimizer.c"
+                },
+                {
+                    "@type": "item",
+                    "name": "test/filters/namespaces.c"
+                },
+                {
+                    "@type": "item",
+                    "name": "src/tools/unixsocket.c"
+                },
+                {
+                    "@type": "item",
+                    "name": "src/fldd/main.c"
+                },
+                {
+                    "@type": "item",
+                    "name": "src/fseccomp/fseccomp.h"
+                },
+                {
+                    "@type": "item",
+                    "name": "src/fseccomp/seccomp_file.c"
+                },
+                {
+                    "@type": "item",
+                    "name": "src/fseccomp/seccomp.c"
+                },
+                {
+                    "@type": "item",
+                    "name": "src/fseccomp/protocol.c"
+                },
+                {
+                    "@type": "item",
+                    "name": "src/fseccomp/seccomp_secondary.c"
+                },
+                {
+                    "@type": "item",
+                    "name": "src/fseccomp/namespaces.c"
+                },
+                {
+                    "@type": "item",
+                    "name": "src/firejail/appimage_size.c"
+                },
+                {
+                    "@type": "item",
+                    "name": "src/ftee/main.c"
+                },
+                {
+                    "@type": "item",
+                    "name": "src/fseccomp/main.c"
+                },
+                {
+                    "@type": "item",
+                    "name": "src/tools/extract_syscalls.c"
+                },
+                {
+                    "@type": "item",
+                    "name": "src/include/ldd_utils.h"
+                },
+                {
+                    "@type": "item",
+                    "name": "test/seccomp-extra/memwrexe.c"
+                },
+                {
+                    "@type": "item",
+                    "name": "src/include/syscall_x86_64.h"
+                },
+                {
+                    "@type": "item",
+                    "name": "src/fnetfilter/main.c"
+                },
+                {
+                    "@type": "item",
+                    "name": "src/libpostexecseccomp/libpostexecseccomp.c"
+                },
+                {
+                    "@type": "item",
+                    "name": "src/fsec-print/main.c"
+                },
+                {
+                    "@type": "item",
+                    "name": "src/tools/testuid.c"
+                },
+                {
+                    "@type": "item",
+                    "name": "src/include/syscall.h"
+                },
+                {
+                    "@type": "item",
+                    "name": "src/lib/errno.c"
+                },
+                {
+                    "@type": "item",
+                    "name": "src/lib/syscall.c"
+                },
+                {
+                    "@type": "item",
+                    "name": "src/tools/extract_caps.c"
+                },
+                {
+                    "@type": "item",
+                    "name": "src/lib/ldd_utils.c"
+                }
+            ]
+        },
+        {
+            "@type": "group",
+            "name": "1",
+            "nested": [
+                {
+                    "@type": "item",
+                    "name": "src/fnettrace-dns/fnettrace_dns.h"
+                },
+                {
+                    "@type": "item",
+                    "name": "src/libtracelog/libtracelog.c"
+                },
+                {
+                    "@type": "item",
+                    "name": "src/fnettrace-sni/main.c"
+                },
+                {
+                    "@type": "item",
+                    "name": "src/fnettrace/radix.h"
+                },
+                {
+                    "@type": "item",
+                    "name": "src/fnettrace/radix.c"
+                },
+                {
+                    "@type": "item",
+                    "name": "src/fnettrace/fnettrace.h"
+                },
+                {
+                    "@type": "item",
+                    "name": "src/fnettrace/hostnames.c"
+                },
+                {
+                    "@type": "item",
+                    "name": "src/fnettrace/tail.c"
+                },
+                {
+                    "@type": "item",
+                    "name": "src/fnettrace/main.c"
+                },
+                {
+                    "@type": "item",
+                    "name": "src/fids/db_exclude.c"
+                },
+                {
+                    "@type": "item",
+                    "name": "src/fids/main.c"
+                },
+                {
+                    "@type": "item",
+                    "name": "src/fnettrace-dns/main.c"
+                },
+                {
+                    "@type": "item",
+                    "name": "src/fnettrace-icmp/main.c"
+                },
+                {
+                    "@type": "item",
+                    "name": "src/fids/db.c"
+                },
+                {
+                    "@type": "item",
+                    "name": "test/chroot/unchroot.c"
+                },
+                {
+                    "@type": "item",
+                    "name": "src/fids/fids.h"
+                },
+                {
+                    "@type": "item",
+                    "name": "src/fids/blake2b.c"
+                },
+                {
+                    "@type": "item",
+                    "name": "src/fnettrace-icmp/fnettrace_icmp.h"
+                },
+                {
+                    "@type": "item",
+                    "name": "src/include/rundefs.h"
+                },
+                {
+                    "@type": "item",
+                    "name": "src/libtrace/libtrace.c"
+                },
+                {
+                    "@type": "item",
+                    "name": "src/fnettrace-sni/fnettrace_sni.h"
+                }
+            ]
+        },
+        {
+            "@type": "group",
+            "name": "2",
+            "nested": [
+                {
+                    "@type": "item",
+                    "name": "src/firejail/fs_lib2.c"
+                },
+                {
+                    "@type": "item",
+                    "name": "src/firejail/fs_overlayfs.c"
+                },
+                {
+                    "@type": "item",
+                    "name": "src/firejail/dbus.c"
+                },
+                {
+                    "@type": "item",
+                    "name": "src/firejail/chroot.c"
+                },
+                {
+                    "@type": "item",
+                    "name": "src/firejail/output.c"
+                },
+                {
+                    "@type": "item",
+                    "name": "src/firejail/firejail.h"
+                },
+                {
+                    "@type": "item",
+                    "name": "src/firejail/shutdown.c"
+                },
+                {
+                    "@type": "item",
+                    "name": "src/firejail/env.c"
+                },
+                {
+                    "@type": "item",
+                    "name": "src/firejail/fs_lib.c"
+                },
+                {
+                    "@type": "item",
+                    "name": "src/firejail/fs_dev.c"
+                },
+                {
+                    "@type": "item",
+                    "name": "src/firejail/fs_trace.c"
+                },
+                {
+                    "@type": "item",
+                    "name": "src/firejail/preproc.c"
+                },
+                {
+                    "@type": "item",
+                    "name": "src/firejail/fs_whitelist.c"
+                },
+                {
+                    "@type": "item",
+                    "name": "src/firejail/bandwidth.c"
+                },
+                {
+                    "@type": "item",
+                    "name": "src/firejail/dhcp.c"
+                },
+                {
+                    "@type": "item",
+                    "name": "src/firejail/fs.c"
+                },
+                {
+                    "@type": "item",
+                    "name": "src/firejail/util.c"
+                },
+                {
+                    "@type": "item",
+                    "name": "src/firejail/paths.c"
+                },
+                {
+                    "@type": "item",
+                    "name": "src/firejail/usage.c"
+                },
+                {
+                    "@type": "item",
+                    "name": "src/firejail/caps.c"
+                },
+                {
+                    "@type": "item",
+                    "name": "src/firejail/netns.c"
+                },
+                {
+                    "@type": "item",
+                    "name": "src/firejail/oom.c"
+                },
+                {
+                    "@type": "item",
+                    "name": "src/firejail/seccomp.c"
+                },
+                {
+                    "@type": "item",
+                    "name": "src/firejail/pulseaudio.c"
+                },
+                {
+                    "@type": "item",
+                    "name": "src/firejail/fs_hostname.c"
+                },
+                {
+                    "@type": "item",
+                    "name": "src/firejail/arp.c"
+                },
+                {
+                    "@type": "item",
+                    "name": "src/firejail/join.c"
+                },
+                {
+                    "@type": "item",
+                    "name": "src/firejail/run_files.c"
+                },
+                {
+                    "@type": "item",
+                    "name": "src/firejail/network_main.c"
+                },
+                {
+                    "@type": "item",
+                    "name": "src/firejail/sandbox.c"
+                },
+                {
+                    "@type": "item",
+                    "name": "src/firejail/ids.c"
+                },
+                {
+                    "@type": "item",
+                    "name": "src/firejail/restrict_users.c"
+                },
+                {
+                    "@type": "item",
+                    "name": "src/firejail/fs_home.c"
+                },
+                {
+                    "@type": "item",
+                    "name": "src/firejail/netfilter.c"
+                },
+                {
+                    "@type": "item",
+                    "name": "src/firejail/rlimit.c"
+                },
+                {
+                    "@type": "item",
+                    "name": "src/firejail/restricted_shell.c"
+                },
+                {
+                    "@type": "item",
+                    "name": "src/firejail/profile.c"
+                },
+                {
+                    "@type": "item",
+                    "name": "src/firejail/fs_etc.c"
+                },
+                {
+                    "@type": "item",
+                    "name": "src/firejail/macros.c"
+                },
+                {
+                    "@type": "item",
+                    "name": "src/firejail/fs_var.c"
+                },
+                {
+                    "@type": "item",
+                    "name": "src/firejail/selinux.c"
+                },
+                {
+                    "@type": "item",
+                    "name": "src/firejail/sbox.c"
+                },
+                {
+                    "@type": "item",
+                    "name": "src/firejail/x11.c"
+                },
+                {
+                    "@type": "item",
+                    "name": "src/firejail/appimage.c"
+                },
+                {
+                    "@type": "item",
+                    "name": "src/firejail/fs_mkdir.c"
+                },
+                {
+                    "@type": "item",
+                    "name": "src/firejail/network.c"
+                },
+                {
+                    "@type": "item",
+                    "name": "src/firejail/no_sandbox.c"
+                },
+                {
+                    "@type": "item",
+                    "name": "src/firejail/protocol.c"
+                },
+                {
+                    "@type": "item",
+                    "name": "src/firejail/fs_bin.c"
+                },
+                {
+                    "@type": "item",
+                    "name": "src/firejail/run_symlink.c"
+                },
+                {
+                    "@type": "item",
+                    "name": "src/firejail/process.c"
+                },
+                {
+                    "@type": "item",
+                    "name": "src/firejail/cpu.c"
+                },
+                {
+                    "@type": "item",
+                    "name": "src/firejail/mountinfo.c"
+                },
+                {
+                    "@type": "item",
+                    "name": "src/firejail/cmdline.c"
+                },
+                {
+                    "@type": "item",
+                    "name": "src/firejail/checkcfg.c"
+                },
+                {
+                    "@type": "item",
+                    "name": "src/firejail/ls.c"
+                },
+                {
+                    "@type": "item",
+                    "name": "src/firejail/fs_logger.c"
+                }
+            ]
+        },
+        {
+            "@type": "group",
+            "name": "3",
+            "nested": [
+                {
+                    "@type": "item",
+                    "name": "src/include/common.h"
+                },
+                {
+                    "@type": "item",
+                    "name": "src/lib/common.c"
+                },
+                {
+                    "@type": "item",
+                    "name": "src/fzenity/main.c"
+                },
+                {
+                    "@type": "item",
+                    "name": "src/include/pid.h"
+                },
+                {
+                    "@type": "item",
+                    "name": "src/lib/pid.c"
+                },
+                {
+                    "@type": "item",
+                    "name": "src/firemon/firemon.h"
+                },
+                {
+                    "@type": "item",
+                    "name": "src/firemon/tree.c"
+                },
+                {
+                    "@type": "item",
+                    "name": "src/firemon/x11.c"
+                },
+                {
+                    "@type": "item",
+                    "name": "src/firemon/usage.c"
+                },
+                {
+                    "@type": "item",
+                    "name": "src/firemon/seccomp.c"
+                },
+                {
+                    "@type": "item",
+                    "name": "src/firemon/arp.c"
+                },
+                {
+                    "@type": "item",
+                    "name": "src/firemon/firemon.c"
+                },
+                {
+                    "@type": "item",
+                    "name": "src/firemon/caps.c"
+                },
+                {
+                    "@type": "item",
+                    "name": "src/firemon/list.c"
+                },
+                {
+                    "@type": "item",
+                    "name": "src/firemon/route.c"
+                },
+                {
+                    "@type": "item",
+                    "name": "src/firemon/top.c"
+                },
+                {
+                    "@type": "item",
+                    "name": "src/firemon/procevent.c"
+                },
+                {
+                    "@type": "item",
+                    "name": "src/firemon/apparmor.c"
+                },
+                {
+                    "@type": "item",
+                    "name": "src/firemon/cpu.c"
+                },
+                {
+                    "@type": "item",
+                    "name": "src/firemon/netstats.c"
+                },
+                {
+                    "@type": "item",
+                    "name": "src/include/gcov_wrapper.h"
+                }
+            ]
+        },
+        {
+            "@type": "group",
+            "name": "4",
+            "nested": [
+                {
+                    "@type": "item",
+                    "name": "src/fbuilder/fbuilder.h"
+                },
+                {
+                    "@type": "item",
+                    "name": "src/fbuilder/build_home.c"
+                },
+                {
+                    "@type": "item",
+                    "name": "src/fbuilder/build_fs.c"
+                },
+                {
+                    "@type": "item",
+                    "name": "src/fbuilder/build_seccomp.c"
+                },
+                {
+                    "@type": "item",
+                    "name": "src/fbuilder/build_profile.c"
+                },
+                {
+                    "@type": "item",
+                    "name": "src/fbuilder/utils.c"
+                },
+                {
+                    "@type": "item",
+                    "name": "src/fbuilder/filedb.c"
+                },
+                {
+                    "@type": "item",
+                    "name": "src/fbuilder/build_bin.c"
+                },
+                {
+                    "@type": "item",
+                    "name": "test/appimage/main.c"
+                },
+                {
+                    "@type": "item",
+                    "name": "src/fbuilder/main.c"
+                }
+            ]
+        },
+        {
+            "@type": "group",
+            "name": "5",
+            "nested": [
+                {
+                    "@type": "item",
+                    "name": "src/firecfg/main.c"
+                },
+                {
+                    "@type": "item",
+                    "name": "src/include/firejail_user.h"
+                },
+                {
+                    "@type": "item",
+                    "name": "src/lib/firejail_user.c"
+                },
+                {
+                    "@type": "item",
+                    "name": "src/firecfg/firecfg.h"
+                },
+                {
+                    "@type": "item",
+                    "name": "src/firecfg/sound.c"
+                },
+                {
+                    "@type": "item",
+                    "name": "src/firecfg/desktop_files.c"
+                },
+                {
+                    "@type": "item",
+                    "name": "src/firecfg/util.c"
+                }
+            ]
+        },
+        {
+            "@type": "group",
+            "name": "6",
+            "nested": [
+                {
+                    "@type": "item",
+                    "name": "src/include/etc_groups.h"
+                },
+                {
+                    "@type": "item",
+                    "name": "src/etc-cleanup/main.c"
+                }
+            ]
+        },
+        {
+            "@type": "group",
+            "name": "7",
+            "nested": [
+                {
+                    "@type": "item",
+                    "name": "src/firejail/main.c"
+                },
+                {
+                    "@type": "item",
+                    "name": "src/include/euid_common.h"
+                }
+            ]
+        },
+        {
+            "@type": "group",
+            "name": "8",
+            "nested": [
+                {
+                    "@type": "item",
+                    "name": "src/jailcheck/main.c"
+                },
+                {
+                    "@type": "item",
+                    "name": "src/jailcheck/jailcheck.h"
+                },
+                {
+                    "@type": "item",
+                    "name": "src/jailcheck/access.c"
+                },
+                {
+                    "@type": "item",
+                    "name": "src/jailcheck/noexec.c"
+                },
+                {
+                    "@type": "item",
+                    "name": "src/jailcheck/apparmor.c"
+                },
+                {
+                    "@type": "item",
+                    "name": "src/jailcheck/sysfiles.c"
+                },
+                {
+                    "@type": "item",
+                    "name": "src/jailcheck/network.c"
+                },
+                {
+                    "@type": "item",
+                    "name": "src/jailcheck/virtual.c"
+                },
+                {
+                    "@type": "item",
+                    "name": "src/jailcheck/seccomp.c"
+                },
+                {
+                    "@type": "item",
+                    "name": "src/jailcheck/utils.c"
+                }
+            ]
+        },
+        {
+            "@type": "group",
+            "name": "9",
+            "nested": [
+                {
+                    "@type": "item",
+                    "name": "src/fnet/fnet.h"
+                },
+                {
+                    "@type": "item",
+                    "name": "src/fnet/arp.c"
+                },
+                {
+                    "@type": "item",
+                    "name": "src/fnet/main.c"
+                },
+                {
+                    "@type": "item",
+                    "name": "src/fnet/veth.c"
+                },
+                {
+                    "@type": "item",
+                    "name": "src/fnet/interface.c"
+                },
+                {
+                    "@type": "item",
+                    "name": "src/include/libnetlink.h"
+                },
+                {
+                    "@type": "item",
+                    "name": "src/lib/libnetlink.c"
+                }
+            ]
+        },
+        {
+            "@type": "group",
+            "name": "10",
+            "nested": [
+                {
+                    "@type": "item",
+                    "name": "src/fcopy/main.c"
+                }
+            ]
+        },
+        {
+            "@type": "group",
+            "name": "11",
+            "nested": [
+                {
+                    "@type": "item",
+                    "name": "src/profstats/main.c"
+                }
+            ]
+        }
+    ]
+}

@@ -1,0 +1,946 @@
+{
+    "@schemaVersion": "1.0",
+    "name": "clustering",
+    "structure": [
+        {
+            "@type": "group",
+            "name": "0",
+            "nested": [
+                {
+                    "@type": "item",
+                    "name": "src/main/java/com/hugnew/core/common/exception/ResultCode.java"
+                },
+                {
+                    "@type": "item",
+                    "name": "src/main/java/com/hugnew/core/util/DateUtils.java"
+                },
+                {
+                    "@type": "item",
+                    "name": "src/main/java/com/hugnew/core/service/impl/BaseService.java"
+                },
+                {
+                    "@type": "item",
+                    "name": "src/main/java/com/hugnew/core/common/constant/ActionConstants.java"
+                },
+                {
+                    "@type": "item",
+                    "name": "src/main/java/com/hugnew/core/util/SqlSessionFactoryBeanUtil.java"
+                },
+                {
+                    "@type": "item",
+                    "name": "src/main/java/com/hugnew/core/common/exception/DBException.java"
+                },
+                {
+                    "@type": "item",
+                    "name": "src/main/java/com/hugnew/core/util/PropertiesUtil.java"
+                },
+                {
+                    "@type": "item",
+                    "name": "src/main/java/com/hugnew/core/common/model/json/AjaxResult.java"
+                },
+                {
+                    "@type": "item",
+                    "name": "src/main/java/com/hugnew/core/common/exception/BaseException.java"
+                },
+                {
+                    "@type": "item",
+                    "name": "src/main/java/com/hugnew/core/common/exception/BusinessException.java"
+                },
+                {
+                    "@type": "item",
+                    "name": "src/main/java/com/hugnew/core/mq/Gson2JsonMessageConverter.java"
+                },
+                {
+                    "@type": "item",
+                    "name": "src/main/java/com/hugnew/core/service/IBaseService.java"
+                },
+                {
+                    "@type": "item",
+                    "name": "src/main/java/com/hugnew/core/dao/IBaseMapper.java"
+                },
+                {
+                    "@type": "item",
+                    "name": "src/main/java/com/hugnew/core/common/exception/SystemException.java"
+                },
+                {
+                    "@type": "item",
+                    "name": "src/main/java/com/hugnew/core/common/constant/SystemConfig.java"
+                },
+                {
+                    "@type": "item",
+                    "name": "src/main/java/com/hugnew/core/common/exception/ValidationError.java"
+                }
+            ]
+        },
+        {
+            "@type": "group",
+            "name": "1",
+            "nested": [
+                {
+                    "@type": "item",
+                    "name": "src/main/java/com/hugnew/sps/services/pay/strategy/UnionWebStrategy.java"
+                },
+                {
+                    "@type": "item",
+                    "name": "src/main/java/com/hugnew/sps/services/pay/strategy/StrategyContext.java"
+                },
+                {
+                    "@type": "item",
+                    "name": "src/main/java/com/hugnew/sps/services/pay/strategy/CEBGatewayPayStrategy.java"
+                },
+                {
+                    "@type": "item",
+                    "name": "src/main/java/com/hugnew/sps/services/pay/strategy/PSBCWebStragegy.java"
+                },
+                {
+                    "@type": "item",
+                    "name": "src/main/java/com/hugnew/sps/services/pay/strategy/CEBWapStragegy.java"
+                },
+                {
+                    "@type": "item",
+                    "name": "src/main/java/com/hugnew/sps/services/pay/strategy/PSBCWapStragegy.java"
+                },
+                {
+                    "@type": "item",
+                    "name": "src/main/java/com/hugnew/sps/services/pay/strategy/StrategyFactory.java"
+                },
+                {
+                    "@type": "item",
+                    "name": "src/main/java/com/hugnew/sps/services/pay/strategy/PayStrategy.java"
+                },
+                {
+                    "@type": "item",
+                    "name": "src/main/java/com/hugnew/sps/services/pay/strategy/CEBGatewayPayWapStrategy.java"
+                },
+                {
+                    "@type": "item",
+                    "name": "src/main/java/com/hugnew/sps/services/pay/strategy/CEBWebStragegy.java"
+                },
+                {
+                    "@type": "item",
+                    "name": "src/main/java/com/hugnew/sps/services/pay/strategy/UnionWapStrategy.java"
+                },
+                {
+                    "@type": "item",
+                    "name": "src/main/java/com/hugnew/sps/services/pay/strategy/AlipayAppStrategy.java"
+                },
+                {
+                    "@type": "item",
+                    "name": "src/main/java/com/hugnew/sps/services/pay/strategy/WechatPayAppStrategy.java"
+                },
+                {
+                    "@type": "item",
+                    "name": "src/main/java/com/hugnew/sps/services/pay/strategy/UnionAppStrategy.java"
+                },
+                {
+                    "@type": "item",
+                    "name": "src/main/java/com/hugnew/sps/services/pay/strategy/AlipayWebStrategy.java"
+                },
+                {
+                    "@type": "item",
+                    "name": "src/main/java/com/hugnew/sps/services/pay/strategy/AlipayWapStrategy.java"
+                }
+            ]
+        },
+        {
+            "@type": "group",
+            "name": "2",
+            "nested": [
+                {
+                    "@type": "item",
+                    "name": "src/main/java/com/hugnew/sps/services/pay/util/web/unionpay/util/Form_6_2_FrontConsume.java"
+                },
+                {
+                    "@type": "item",
+                    "name": "src/main/java/com/hugnew/sps/services/pay/util/web/unionpay/util/DemoBase.java"
+                },
+                {
+                    "@type": "item",
+                    "name": "src/main/java/com/hugnew/sps/services/pay/util/web/unionpay/util/Form_6_7_1_AuthDeal_Front.java"
+                },
+                {
+                    "@type": "item",
+                    "name": "src/main/java/com/hugnew/sps/services/pay/util/web/unionpay/util/Form_6_7_2_AuthUndo.java"
+                },
+                {
+                    "@type": "item",
+                    "name": "src/main/java/com/hugnew/sps/services/pay/util/web/unionpay/util/Form_6_6_FileTransfer.java"
+                },
+                {
+                    "@type": "item",
+                    "name": "src/main/java/com/hugnew/sps/services/pay/util/web/unionpay/util/FrontRcvResponse.java"
+                },
+                {
+                    "@type": "item",
+                    "name": "src/main/java/com/hugnew/sps/services/pay/util/web/unionpay/util/Form_6_2_AppConsume.java"
+                },
+                {
+                    "@type": "item",
+                    "name": "src/main/java/com/hugnew/sps/services/pay/util/web/unionpay/util/Form_6_7_4_AutnFinishUndo.java"
+                },
+                {
+                    "@type": "item",
+                    "name": "src/main/java/com/hugnew/sps/services/pay/util/web/unionpay/util/Form_6_4_Refund.java"
+                },
+                {
+                    "@type": "item",
+                    "name": "src/main/java/com/hugnew/sps/services/pay/util/web/unionpay/util/Form_6_3_ConsumeUndo.java"
+                },
+                {
+                    "@type": "item",
+                    "name": "src/main/java/com/hugnew/sps/services/pay/util/web/unionpay/util/Form_6_7_1_AuthDeal_App.java"
+                },
+                {
+                    "@type": "item",
+                    "name": "src/main/java/com/hugnew/sps/services/pay/util/web/unionpay/util/Form_6_5_Query.java"
+                },
+                {
+                    "@type": "item",
+                    "name": "src/main/java/com/hugnew/sps/services/pay/util/web/unionpay/util/BackRcvResponse.java"
+                },
+                {
+                    "@type": "item",
+                    "name": "src/main/java/com/hugnew/sps/services/pay/util/web/unionpay/util/Form_6_7_3_AuthFinish.java"
+                }
+            ]
+        },
+        {
+            "@type": "group",
+            "name": "3",
+            "nested": [
+                {
+                    "@type": "item",
+                    "name": "src/main/java/com/hugnew/sps/services/pay/util/app/ali/global/util/httpClient/HttpResultType.java"
+                },
+                {
+                    "@type": "item",
+                    "name": "src/main/java/com/hugnew/sps/services/pay/util/app/ali/global/util/AlipaySubmit.java"
+                },
+                {
+                    "@type": "item",
+                    "name": "src/main/java/com/hugnew/sps/services/pay/util/app/ali/global/util/AlipayCore.java"
+                },
+                {
+                    "@type": "item",
+                    "name": "src/main/java/com/hugnew/sps/services/pay/util/app/ali/global/sign/Base64.java"
+                },
+                {
+                    "@type": "item",
+                    "name": "src/main/java/com/hugnew/sps/services/pay/util/app/ali/global/util/httpClient/HttpRequest.java"
+                },
+                {
+                    "@type": "item",
+                    "name": "src/main/java/com/hugnew/sps/services/pay/util/app/ali/global/util/AlipayNotify.java"
+                },
+                {
+                    "@type": "item",
+                    "name": "src/main/java/com/hugnew/sps/services/pay/util/app/ali/global/util/httpClient/HttpProtocolHandler.java"
+                },
+                {
+                    "@type": "item",
+                    "name": "src/main/java/com/hugnew/sps/services/pay/util/app/ali/global/util/httpClient/HttpResponse.java"
+                },
+                {
+                    "@type": "item",
+                    "name": "src/main/java/com/hugnew/sps/services/pay/util/app/ali/global/sign/RSA.java"
+                }
+            ]
+        },
+        {
+            "@type": "group",
+            "name": "4",
+            "nested": [
+                {
+                    "@type": "item",
+                    "name": "src/main/java/com/hugnew/sps/services/pay/util/app/ali/main/util/httpClient/HttpRequest.java"
+                },
+                {
+                    "@type": "item",
+                    "name": "src/main/java/com/hugnew/sps/services/pay/util/app/ali/main/util/AlipayNotify.java"
+                },
+                {
+                    "@type": "item",
+                    "name": "src/main/java/com/hugnew/sps/services/pay/util/app/ali/main/util/httpClient/HttpResponse.java"
+                },
+                {
+                    "@type": "item",
+                    "name": "src/main/java/com/hugnew/sps/services/pay/util/app/ali/main/sign/RSA.java"
+                },
+                {
+                    "@type": "item",
+                    "name": "src/main/java/com/hugnew/sps/services/pay/util/app/ali/main/util/AlipaySubmit.java"
+                },
+                {
+                    "@type": "item",
+                    "name": "src/main/java/com/hugnew/sps/services/pay/util/app/ali/main/util/httpClient/HttpResultType.java"
+                },
+                {
+                    "@type": "item",
+                    "name": "src/main/java/com/hugnew/sps/services/pay/util/app/ali/main/util/httpClient/HttpProtocolHandler.java"
+                },
+                {
+                    "@type": "item",
+                    "name": "src/main/java/com/hugnew/sps/services/pay/util/app/ali/main/sign/Base64.java"
+                },
+                {
+                    "@type": "item",
+                    "name": "src/main/java/com/hugnew/sps/services/pay/util/app/ali/main/util/AlipayCore.java"
+                }
+            ]
+        },
+        {
+            "@type": "group",
+            "name": "5",
+            "nested": [
+                {
+                    "@type": "item",
+                    "name": "src/main/java/com/hugnew/sps/services/pay/util/web/ali/bonded/util/httpClient/HttpResultType.java"
+                },
+                {
+                    "@type": "item",
+                    "name": "src/main/java/com/hugnew/sps/services/pay/util/web/ali/bonded/util/AlipayCore.java"
+                },
+                {
+                    "@type": "item",
+                    "name": "src/main/java/com/hugnew/sps/services/pay/util/web/ali/bonded/util/httpClient/HttpRequest.java"
+                },
+                {
+                    "@type": "item",
+                    "name": "src/main/java/com/hugnew/sps/services/pay/util/web/ali/bonded/config/AlipayConfig.java"
+                },
+                {
+                    "@type": "item",
+                    "name": "src/main/java/com/hugnew/sps/services/pay/util/web/ali/bonded/util/AlipayNotify.java"
+                },
+                {
+                    "@type": "item",
+                    "name": "src/main/java/com/hugnew/sps/services/pay/util/web/ali/bonded/util/httpClient/HttpResponse.java"
+                },
+                {
+                    "@type": "item",
+                    "name": "src/main/java/com/hugnew/sps/services/pay/util/web/ali/bonded/sign/MD5.java"
+                },
+                {
+                    "@type": "item",
+                    "name": "src/main/java/com/hugnew/sps/services/pay/util/web/ali/bonded/util/AlipaySubmit.java"
+                },
+                {
+                    "@type": "item",
+                    "name": "src/main/java/com/hugnew/sps/services/pay/util/web/ali/bonded/util/httpClient/HttpProtocolHandler.java"
+                }
+            ]
+        },
+        {
+            "@type": "group",
+            "name": "6",
+            "nested": [
+                {
+                    "@type": "item",
+                    "name": "src/main/java/com/hugnew/sps/dao/MemberMapper.java"
+                },
+                {
+                    "@type": "item",
+                    "name": "src/main/java/com/hugnew/sps/dao/domain/SysConfig.java"
+                },
+                {
+                    "@type": "item",
+                    "name": "src/main/java/com/hugnew/sps/dao/PayMapMapper.java"
+                },
+                {
+                    "@type": "item",
+                    "name": "src/main/java/com/hugnew/sps/dao/domain/Member.java"
+                },
+                {
+                    "@type": "item",
+                    "name": "src/main/java/com/hugnew/sps/dao/SysConfigMapper.java"
+                },
+                {
+                    "@type": "item",
+                    "name": "src/main/java/com/hugnew/sps/dao/domain/Payment.java"
+                },
+                {
+                    "@type": "item",
+                    "name": "src/main/java/com/hugnew/sps/dao/domain/BaseDomain.java"
+                },
+                {
+                    "@type": "item",
+                    "name": "src/main/java/com/hugnew/sps/dao/domain/PayMap.java"
+                }
+            ]
+        },
+        {
+            "@type": "group",
+            "name": "7",
+            "nested": [
+                {
+                    "@type": "item",
+                    "name": "src/main/java/com/hugnew/sps/services/pay/util/web/ali/global/util/AlipaySubmit.java"
+                },
+                {
+                    "@type": "item",
+                    "name": "src/main/java/com/hugnew/sps/services/pay/util/web/ali/global/sign/MD5.java"
+                },
+                {
+                    "@type": "item",
+                    "name": "src/main/java/com/hugnew/sps/services/pay/util/web/ali/global/util/AlipayNotify.java"
+                },
+                {
+                    "@type": "item",
+                    "name": "src/main/java/com/hugnew/sps/services/pay/util/web/ali/global/util/httpClient/HttpRequest.java"
+                },
+                {
+                    "@type": "item",
+                    "name": "src/main/java/com/hugnew/sps/services/pay/util/web/ali/global/util/httpClient/HttpResponse.java"
+                },
+                {
+                    "@type": "item",
+                    "name": "src/main/java/com/hugnew/sps/services/pay/util/web/ali/global/util/AlipayCore.java"
+                },
+                {
+                    "@type": "item",
+                    "name": "src/main/java/com/hugnew/sps/services/pay/util/web/ali/global/util/httpClient/HttpResultType.java"
+                },
+                {
+                    "@type": "item",
+                    "name": "src/main/java/com/hugnew/sps/services/pay/util/web/ali/global/util/httpClient/HttpProtocolHandler.java"
+                }
+            ]
+        },
+        {
+            "@type": "group",
+            "name": "8",
+            "nested": [
+                {
+                    "@type": "item",
+                    "name": "src/main/java/com/hugnew/sps/services/pay/util/web/ali/main/util/AlipayNotify.java"
+                },
+                {
+                    "@type": "item",
+                    "name": "src/main/java/com/hugnew/sps/services/pay/util/web/ali/main/util/AlipayCore.java"
+                },
+                {
+                    "@type": "item",
+                    "name": "src/main/java/com/hugnew/sps/services/pay/util/web/ali/main/util/httpClient/HttpProtocolHandler.java"
+                },
+                {
+                    "@type": "item",
+                    "name": "src/main/java/com/hugnew/sps/services/pay/util/web/ali/main/util/httpClient/HttpResultType.java"
+                },
+                {
+                    "@type": "item",
+                    "name": "src/main/java/com/hugnew/sps/services/pay/util/web/ali/main/util/httpClient/HttpResponse.java"
+                },
+                {
+                    "@type": "item",
+                    "name": "src/main/java/com/hugnew/sps/services/pay/util/web/ali/main/util/httpClient/HttpRequest.java"
+                },
+                {
+                    "@type": "item",
+                    "name": "src/main/java/com/hugnew/sps/services/pay/util/web/ali/main/sign/MD5.java"
+                },
+                {
+                    "@type": "item",
+                    "name": "src/main/java/com/hugnew/sps/services/pay/util/web/ali/main/util/AlipaySubmit.java"
+                }
+            ]
+        },
+        {
+            "@type": "group",
+            "name": "9",
+            "nested": [
+                {
+                    "@type": "item",
+                    "name": "src/main/java/com/hugnew/sps/services/impls/PSBCNotifyService.java"
+                },
+                {
+                    "@type": "item",
+                    "name": "src/main/java/com/hugnew/sps/services/impls/WechatNotifyService.java"
+                },
+                {
+                    "@type": "item",
+                    "name": "src/main/java/com/hugnew/sps/services/impls/PayMapService.java"
+                },
+                {
+                    "@type": "item",
+                    "name": "src/main/java/com/hugnew/sps/services/impls/PayRouteService.java"
+                },
+                {
+                    "@type": "item",
+                    "name": "src/main/java/com/hugnew/sps/services/impls/CEBGatewayNotifyService.java"
+                },
+                {
+                    "@type": "item",
+                    "name": "src/main/java/com/hugnew/sps/services/impls/UnionPayNotifyService.java"
+                },
+                {
+                    "@type": "item",
+                    "name": "src/main/java/com/hugnew/sps/services/impls/CEBNotifyService.java"
+                }
+            ]
+        },
+        {
+            "@type": "group",
+            "name": "10",
+            "nested": [
+                {
+                    "@type": "item",
+                    "name": "src/main/java/com/hugnew/sps/services/pay/util/web/unionpay/upop/sdk/QuickPaySampleServLet.java"
+                },
+                {
+                    "@type": "item",
+                    "name": "src/main/java/com/hugnew/sps/services/pay/util/web/unionpay/upop/sdk/QuickPayUtils.java"
+                },
+                {
+                    "@type": "item",
+                    "name": "src/main/java/com/hugnew/sps/services/pay/util/web/unionpay/upop/sdk/QuickPayConf.java"
+                },
+                {
+                    "@type": "item",
+                    "name": "src/main/java/com/hugnew/sps/services/pay/util/web/unionpay/upop/sdk/Sms.java"
+                },
+                {
+                    "@type": "item",
+                    "name": "src/main/java/com/hugnew/sps/services/pay/util/web/unionpay/upop/sdk/QuickPayBack.java"
+                },
+                {
+                    "@type": "item",
+                    "name": "src/main/java/com/hugnew/sps/services/pay/util/web/unionpay/upop/sdk/QuickPayQuery.java"
+                },
+                {
+                    "@type": "item",
+                    "name": "src/main/java/com/hugnew/sps/services/pay/util/web/unionpay/upop/sdk/QuickPayResSampleServLet.java"
+                }
+            ]
+        },
+        {
+            "@type": "group",
+            "name": "11",
+            "nested": [
+                {
+                    "@type": "item",
+                    "name": "src/main/java/com/hugnew/sps/services/ICEBNotifyService.java"
+                },
+                {
+                    "@type": "item",
+                    "name": "src/main/java/com/hugnew/sps/services/ICheckSellerService.java"
+                },
+                {
+                    "@type": "item",
+                    "name": "src/main/java/com/hugnew/sps/services/IPayMapService.java"
+                },
+                {
+                    "@type": "item",
+                    "name": "src/main/java/com/hugnew/sps/services/ICEBGatewayNotifyService.java"
+                },
+                {
+                    "@type": "item",
+                    "name": "src/main/java/com/hugnew/sps/services/IPSBCNotifyService.java"
+                }
+            ]
+        },
+        {
+            "@type": "group",
+            "name": "12",
+            "nested": [
+                {
+                    "@type": "item",
+                    "name": "src/main/java/com/hugnew/core/web/system/filters/LoggingFilter.java"
+                },
+                {
+                    "@type": "item",
+                    "name": "src/main/java/com/hugnew/core/web/system/filters/ResponseWrapper.java"
+                },
+                {
+                    "@type": "item",
+                    "name": "src/main/java/com/hugnew/core/web/system/filters/TeePrintWriter.java"
+                },
+                {
+                    "@type": "item",
+                    "name": "src/main/java/com/hugnew/core/web/system/filters/RequestWrapper.java"
+                }
+            ]
+        },
+        {
+            "@type": "group",
+            "name": "13",
+            "nested": [
+                {
+                    "@type": "item",
+                    "name": "src/main/java/com/hugnew/sps/controllers/front/mobile/pay/PayRequestController.java"
+                },
+                {
+                    "@type": "item",
+                    "name": "src/main/java/com/hugnew/sps/controllers/front/open/pay/PayNotifyController.java"
+                },
+                {
+                    "@type": "item",
+                    "name": "src/main/java/com/hugnew/sps/controllers/base/BaseController.java"
+                },
+                {
+                    "@type": "item",
+                    "name": "src/main/java/com/hugnew/sps/controllers/front/pc/pay/PayRequestController.java"
+                }
+            ]
+        },
+        {
+            "@type": "group",
+            "name": "14",
+            "nested": [
+                {
+                    "@type": "item",
+                    "name": "src/main/java/com/hugnew/sps/realm/token/StatelessAuthToken.java"
+                },
+                {
+                    "@type": "item",
+                    "name": "src/main/java/com/hugnew/sps/realm/token/HmacSHA256Utils.java"
+                },
+                {
+                    "@type": "item",
+                    "name": "src/main/java/com/hugnew/sps/realm/filter/StatelessAuthcFilter.java"
+                },
+                {
+                    "@type": "item",
+                    "name": "src/main/java/com/hugnew/sps/realm/StatelessAuthRealm.java"
+                }
+            ]
+        },
+        {
+            "@type": "group",
+            "name": "15",
+            "nested": [
+                {
+                    "@type": "item",
+                    "name": "src/main/java/com/hugnew/sps/services/IUnionPayNotifyService.java"
+                },
+                {
+                    "@type": "item",
+                    "name": "src/main/java/com/hugnew/sps/services/IAlipayNotifyService.java"
+                },
+                {
+                    "@type": "item",
+                    "name": "src/main/java/com/hugnew/sps/services/IWechatNotifyService.java"
+                }
+            ]
+        },
+        {
+            "@type": "group",
+            "name": "16",
+            "nested": [
+                {
+                    "@type": "item",
+                    "name": "src/main/java/com/hugnew/sps/services/pay/util/web/ceb/PayUtils.java"
+                },
+                {
+                    "@type": "item",
+                    "name": "src/main/java/com/hugnew/sps/services/pay/util/web/ceb/SpsSecureProtocolSocketFactory.java"
+                },
+                {
+                    "@type": "item",
+                    "name": "src/main/java/com/hugnew/sps/services/pay/util/web/ceb/SpsX509TrustManager.java"
+                }
+            ]
+        },
+        {
+            "@type": "group",
+            "name": "17",
+            "nested": [
+                {
+                    "@type": "item",
+                    "name": "src/main/java/com/hugnew/sps/enums/PayType.java"
+                },
+                {
+                    "@type": "item",
+                    "name": "src/main/java/com/hugnew/sps/enums/PayPlatform.java"
+                }
+            ]
+        },
+        {
+            "@type": "group",
+            "name": "18",
+            "nested": [
+                {
+                    "@type": "item",
+                    "name": "src/main/java/com/hugnew/sps/services/impls/CheckSellerService.java"
+                },
+                {
+                    "@type": "item",
+                    "name": "src/main/java/com/hugnew/sps/services/impls/SysConfigService.java"
+                }
+            ]
+        },
+        {
+            "@type": "group",
+            "name": "19",
+            "nested": [
+                {
+                    "@type": "item",
+                    "name": "src/main/java/com/hugnew/sps/services/pay/util/app/wechat/util/AesUtils.java"
+                },
+                {
+                    "@type": "item",
+                    "name": "src/main/java/com/hugnew/sps/services/pay/util/app/wechat/util/HttpUtils.java"
+                }
+            ]
+        },
+        {
+            "@type": "group",
+            "name": "20",
+            "nested": [
+                {
+                    "@type": "item",
+                    "name": "src/main/java/com/hugnew/core/util/IdGenerator.java"
+                }
+            ]
+        },
+        {
+            "@type": "group",
+            "name": "21",
+            "nested": [
+                {
+                    "@type": "item",
+                    "name": "src/main/java/com/hugnew/core/util/StringUtil.java"
+                }
+            ]
+        },
+        {
+            "@type": "group",
+            "name": "22",
+            "nested": [
+                {
+                    "@type": "item",
+                    "name": "src/main/java/com/hugnew/core/web/system/listener/InitListener.java"
+                }
+            ]
+        },
+        {
+            "@type": "group",
+            "name": "23",
+            "nested": [
+                {
+                    "@type": "item",
+                    "name": "src/main/java/com/hugnew/sps/controllers/base/RestErrorHandler.java"
+                }
+            ]
+        },
+        {
+            "@type": "group",
+            "name": "24",
+            "nested": [
+                {
+                    "@type": "item",
+                    "name": "src/main/java/com/hugnew/sps/dto/DDDetails.java"
+                }
+            ]
+        },
+        {
+            "@type": "group",
+            "name": "25",
+            "nested": [
+                {
+                    "@type": "item",
+                    "name": "src/main/java/com/hugnew/sps/dto/MobileInfo.java"
+                }
+            ]
+        },
+        {
+            "@type": "group",
+            "name": "26",
+            "nested": [
+                {
+                    "@type": "item",
+                    "name": "src/main/java/com/hugnew/sps/dto/PayRequestParam.java"
+                }
+            ]
+        },
+        {
+            "@type": "group",
+            "name": "27",
+            "nested": [
+                {
+                    "@type": "item",
+                    "name": "src/main/java/com/hugnew/sps/enums/PlatformType.java"
+                }
+            ]
+        },
+        {
+            "@type": "group",
+            "name": "28",
+            "nested": [
+                {
+                    "@type": "item",
+                    "name": "src/main/java/com/hugnew/sps/enums/RequestFrom.java"
+                }
+            ]
+        },
+        {
+            "@type": "group",
+            "name": "29",
+            "nested": [
+                {
+                    "@type": "item",
+                    "name": "src/main/java/com/hugnew/sps/mq/PayRequestQueueListener.java"
+                }
+            ]
+        },
+        {
+            "@type": "group",
+            "name": "30",
+            "nested": [
+                {
+                    "@type": "item",
+                    "name": "src/main/java/com/hugnew/sps/services/ICacheService.java"
+                }
+            ]
+        },
+        {
+            "@type": "group",
+            "name": "31",
+            "nested": [
+                {
+                    "@type": "item",
+                    "name": "src/main/java/com/hugnew/sps/services/IPayRouteService.java"
+                }
+            ]
+        },
+        {
+            "@type": "group",
+            "name": "32",
+            "nested": [
+                {
+                    "@type": "item",
+                    "name": "src/main/java/com/hugnew/sps/services/ISysConfigService.java"
+                }
+            ]
+        },
+        {
+            "@type": "group",
+            "name": "33",
+            "nested": [
+                {
+                    "@type": "item",
+                    "name": "src/main/java/com/hugnew/sps/services/impls/AlipayNotifyService.java"
+                }
+            ]
+        },
+        {
+            "@type": "group",
+            "name": "34",
+            "nested": [
+                {
+                    "@type": "item",
+                    "name": "src/main/java/com/hugnew/sps/services/impls/CacheService.java"
+                }
+            ]
+        },
+        {
+            "@type": "group",
+            "name": "35",
+            "nested": [
+                {
+                    "@type": "item",
+                    "name": "src/main/java/com/hugnew/sps/services/pay/util/app/ali/global/util/UtilDate.java"
+                }
+            ]
+        },
+        {
+            "@type": "group",
+            "name": "36",
+            "nested": [
+                {
+                    "@type": "item",
+                    "name": "src/main/java/com/hugnew/sps/services/pay/util/app/ali/main/util/UtilDate.java"
+                }
+            ]
+        },
+        {
+            "@type": "group",
+            "name": "37",
+            "nested": [
+                {
+                    "@type": "item",
+                    "name": "src/main/java/com/hugnew/sps/services/pay/util/app/wechat/util/MD5.java"
+                }
+            ]
+        },
+        {
+            "@type": "group",
+            "name": "38",
+            "nested": [
+                {
+                    "@type": "item",
+                    "name": "src/main/java/com/hugnew/sps/services/pay/util/app/wechat/util/MD5Util.java"
+                }
+            ]
+        },
+        {
+            "@type": "group",
+            "name": "39",
+            "nested": [
+                {
+                    "@type": "item",
+                    "name": "src/main/java/com/hugnew/sps/services/pay/util/app/wechat/util/Util.java"
+                }
+            ]
+        },
+        {
+            "@type": "group",
+            "name": "40",
+            "nested": [
+                {
+                    "@type": "item",
+                    "name": "src/main/java/com/hugnew/sps/services/pay/util/web/ali/bonded/util/UtilDate.java"
+                }
+            ]
+        },
+        {
+            "@type": "group",
+            "name": "41",
+            "nested": [
+                {
+                    "@type": "item",
+                    "name": "src/main/java/com/hugnew/sps/services/pay/util/web/ali/global/util/UtilDate.java"
+                }
+            ]
+        },
+        {
+            "@type": "group",
+            "name": "42",
+            "nested": [
+                {
+                    "@type": "item",
+                    "name": "src/main/java/com/hugnew/sps/services/pay/util/web/ali/main/util/UtilDate.java"
+                }
+            ]
+        },
+        {
+            "@type": "group",
+            "name": "43",
+            "nested": [
+                {
+                    "@type": "item",
+                    "name": "src/main/java/com/hugnew/sps/services/pay/util/web/unionpay/upop/sdk/PinUtils.java"
+                }
+            ]
+        },
+        {
+            "@type": "group",
+            "name": "44",
+            "nested": [
+                {
+                    "@type": "item",
+                    "name": "src/main/java/com/hugnew/sps/services/pay/util/web/unionpay/upop/sdk/SSLConnetionUtils.java"
+                }
+            ]
+        },
+        {
+            "@type": "group",
+            "name": "45",
+            "nested": [
+                {
+                    "@type": "item",
+                    "name": "src/test/java/com/hugnew/test/sps/common/BaseContextCase.java"
+                }
+            ]
+        }
+    ]
+}

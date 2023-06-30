@@ -1,0 +1,48 @@
+{
+    "@schemaVersion": "1.0",
+    "name": "clustering",
+    "structure": [
+        {
+            "@type": "group",
+            "name": "0",
+            "nested": [
+                {
+                    "@type": "item",
+                    "name": "include/vpn.h"
+                },
+                {
+                    "@type": "item",
+                    "name": "include/os.h"
+                },
+                {
+                    "@type": "item",
+                    "name": "src/os.c"
+                }
+            ]
+        },
+        {
+            "@type": "group",
+            "name": "1",
+            "nested": [
+                {
+                    "@type": "item",
+                    "name": "src/vpn.c"
+                }
+            ]
+        },
+        {
+            "@type": "group",
+            "name": "2",
+            "nested": [
+                {
+                    "@type": "item",
+                    "name": "include/charm.h"
+                },
+                {
+                    "@type": "item",
+                    "name": "src/charm.c"
+                }
+            ]
+        }
+    ]
+}

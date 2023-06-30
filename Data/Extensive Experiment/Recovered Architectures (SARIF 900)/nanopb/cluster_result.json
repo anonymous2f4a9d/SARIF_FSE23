@@ -1,0 +1,694 @@
+{
+    "@schemaVersion": "1.0",
+    "name": "clustering",
+    "structure": [
+        {
+            "@type": "group",
+            "name": "0",
+            "nested": [
+                {
+                    "@type": "item",
+                    "name": "tests/regression/issue_229/multiple_oneof.c"
+                },
+                {
+                    "@type": "item",
+                    "name": "examples/platformio/src/pio_esp32_idf.c"
+                },
+                {
+                    "@type": "item",
+                    "name": "tests/regression/issue_256/submsg_array.c"
+                },
+                {
+                    "@type": "item",
+                    "name": "tests/inline/inline_unittests.c"
+                },
+                {
+                    "@type": "item",
+                    "name": "tests/regression/issue_494/oneof_size.cc"
+                },
+                {
+                    "@type": "item",
+                    "name": "tests/regression/issue_259/callback_pointer.c"
+                },
+                {
+                    "@type": "item",
+                    "name": "tests/regression/issue_558/mixed.c"
+                },
+                {
+                    "@type": "item",
+                    "name": "tests/regression/issue_838/enum_to_string.cxx"
+                },
+                {
+                    "@type": "item",
+                    "name": "tests/regression/issue_376/test_fixarray.c"
+                },
+                {
+                    "@type": "item",
+                    "name": "tests/regression/issue_253/short_array.c"
+                },
+                {
+                    "@type": "item",
+                    "name": "tests/regression/issue_395/test.c"
+                },
+                {
+                    "@type": "item",
+                    "name": "examples/platformio/src/pio_with_options.c"
+                },
+                {
+                    "@type": "item",
+                    "name": "tests/cxx_descriptor/message_descriptor.cc"
+                },
+                {
+                    "@type": "item",
+                    "name": "tests/regression/issue_647/repro.c"
+                },
+                {
+                    "@type": "item",
+                    "name": "tests/oneof/decode_oneof.c"
+                },
+                {
+                    "@type": "item",
+                    "name": "tests/enum_to_string/enum_to_string.c"
+                },
+                {
+                    "@type": "item",
+                    "name": "examples/platformio/src/test.h"
+                },
+                {
+                    "@type": "item",
+                    "name": "tests/regression/issue_172/msg_size.c"
+                },
+                {
+                    "@type": "item",
+                    "name": "tests/regression/issue_453/test.c"
+                },
+                {
+                    "@type": "item",
+                    "name": "tests/cxx_callback_datatype/cxx_callback_datatype.cpp"
+                },
+                {
+                    "@type": "item",
+                    "name": "tests/regression/issue_227/unaligned_uint64.c"
+                },
+                {
+                    "@type": "item",
+                    "name": "tests/enum_minmax/enumminmax_unittests.c"
+                },
+                {
+                    "@type": "item",
+                    "name": "tests/fixed_count/fixed_count_unittests.c"
+                },
+                {
+                    "@type": "item",
+                    "name": "tests/regression/issue_363/test_oneofmsg.c"
+                },
+                {
+                    "@type": "item",
+                    "name": "tests/intsizes/intsizes_unittests.c"
+                },
+                {
+                    "@type": "item",
+                    "name": "tests/regression/issue_205/size_corruption.c"
+                },
+                {
+                    "@type": "item",
+                    "name": "tests/anonymous_oneof/decode_oneof.c"
+                },
+                {
+                    "@type": "item",
+                    "name": "tests/regression/issue_547/test.c"
+                },
+                {
+                    "@type": "item",
+                    "name": "tests/regression/issue_617/test_oneof.c"
+                },
+                {
+                    "@type": "item",
+                    "name": "tests/sort_by_tag/sort_by_tag.c"
+                },
+                {
+                    "@type": "item",
+                    "name": "examples/platformio/src/pio_without_options.c"
+                }
+            ]
+        },
+        {
+            "@type": "group",
+            "name": "1",
+            "nested": [
+                {
+                    "@type": "item",
+                    "name": "tests/map/encode_map.c"
+                },
+                {
+                    "@type": "item",
+                    "name": "tests/msgid/encode_msgid.c"
+                },
+                {
+                    "@type": "item",
+                    "name": "tests/basic_buffer/decode_buffer.c"
+                },
+                {
+                    "@type": "item",
+                    "name": "spm_headers/nanopb/pb.h"
+                },
+                {
+                    "@type": "item",
+                    "name": "tests/alltypes_proto3/decode_alltypes.c"
+                },
+                {
+                    "@type": "item",
+                    "name": "tests/field_size_16_proto3/decode_alltypes.c"
+                },
+                {
+                    "@type": "item",
+                    "name": "tests/proto3_optional/optional.c"
+                },
+                {
+                    "@type": "item",
+                    "name": "tests/alltypes/decode_alltypes.c"
+                },
+                {
+                    "@type": "item",
+                    "name": "tests/without_64bit/decode_alltypes.c"
+                },
+                {
+                    "@type": "item",
+                    "name": "tests/oneof/encode_oneof.c"
+                },
+                {
+                    "@type": "item",
+                    "name": "tests/missing_fields/missing_fields.c"
+                },
+                {
+                    "@type": "item",
+                    "name": "tests/oneof_callback/decode_oneof.c"
+                },
+                {
+                    "@type": "item",
+                    "name": "tests/message_sizes/dummy.c"
+                },
+                {
+                    "@type": "item",
+                    "name": "tests/alltypes_pointer/decode_alltypes_pointer.c"
+                },
+                {
+                    "@type": "item",
+                    "name": "tests/msgid/decode_msgid.c"
+                },
+                {
+                    "@type": "item",
+                    "name": "tests/regression/issue_322/defaults.c"
+                },
+                {
+                    "@type": "item",
+                    "name": "tests/common/test_helpers.h"
+                },
+                {
+                    "@type": "item",
+                    "name": "spm_headers/nanopb/pb_decode.h"
+                },
+                {
+                    "@type": "item",
+                    "name": "spm_headers/nanopb/pb_encode.h"
+                },
+                {
+                    "@type": "item",
+                    "name": "tests/basic_stream/decode_stream.c"
+                },
+                {
+                    "@type": "item",
+                    "name": "tests/oneof_callback/encode_oneof.c"
+                }
+            ]
+        },
+        {
+            "@type": "group",
+            "name": "2",
+            "nested": [
+                {
+                    "@type": "item",
+                    "name": "tests/alltypes_proto3/encode_alltypes.c"
+                },
+                {
+                    "@type": "item",
+                    "name": "tests/regression/issue_242/zero_value.c"
+                },
+                {
+                    "@type": "item",
+                    "name": "tests/extensions/encode_extensions.c"
+                },
+                {
+                    "@type": "item",
+                    "name": "tests/basic_stream/encode_stream.c"
+                },
+                {
+                    "@type": "item",
+                    "name": "tests/basic_buffer/encode_buffer.c"
+                },
+                {
+                    "@type": "item",
+                    "name": "tests/regression/issue_407/test_extensions.c"
+                },
+                {
+                    "@type": "item",
+                    "name": "tests/typename_mangling/test_flatten.c"
+                },
+                {
+                    "@type": "item",
+                    "name": "tests/without_64bit/encode_alltypes.c"
+                },
+                {
+                    "@type": "item",
+                    "name": "tests/extensions/decode_extensions.c"
+                },
+                {
+                    "@type": "item",
+                    "name": "tests/field_size_16_proto3/encode_alltypes.c"
+                },
+                {
+                    "@type": "item",
+                    "name": "tests/alltypes_pointer/encode_alltypes_pointer.c"
+                },
+                {
+                    "@type": "item",
+                    "name": "tests/common_unittests/common_unittests.c"
+                },
+                {
+                    "@type": "item",
+                    "name": "spm_headers/nanopb/pb_common.h"
+                },
+                {
+                    "@type": "item",
+                    "name": "tests/alltypes/encode_alltypes.c"
+                },
+                {
+                    "@type": "item",
+                    "name": "tests/regression/issue_342/test_extensions.c"
+                }
+            ]
+        },
+        {
+            "@type": "group",
+            "name": "3",
+            "nested": [
+                {
+                    "@type": "item",
+                    "name": "tests/regression/issue_504/test.c"
+                },
+                {
+                    "@type": "item",
+                    "name": "examples/using_union_messages/encode.c"
+                },
+                {
+                    "@type": "item",
+                    "name": "pb_encode.h"
+                },
+                {
+                    "@type": "item",
+                    "name": "pb_encode.c"
+                },
+                {
+                    "@type": "item",
+                    "name": "tests/alltypes_callback/encode_alltypes_callback.c"
+                },
+                {
+                    "@type": "item",
+                    "name": "tests/regression/issue_249/test.c"
+                },
+                {
+                    "@type": "item",
+                    "name": "tests/encode_unittests/encode_unittests.c"
+                },
+                {
+                    "@type": "item",
+                    "name": "tests/alltypes_proto3_callback/encode_alltypes_callback.c"
+                },
+                {
+                    "@type": "item",
+                    "name": "tests/any_type/encode_any.c"
+                },
+                {
+                    "@type": "item",
+                    "name": "tests/regression/issue_247/padding.c"
+                },
+                {
+                    "@type": "item",
+                    "name": "tests/namingstyle/test_naming_style_c.c"
+                },
+                {
+                    "@type": "item",
+                    "name": "tests/stackusage/stackusage.c"
+                }
+            ]
+        },
+        {
+            "@type": "group",
+            "name": "4",
+            "nested": [
+                {
+                    "@type": "item",
+                    "name": "tests/float_double_conversion/float_double_conversion.c"
+                },
+                {
+                    "@type": "item",
+                    "name": "tests/regression/issue_166/enum_encoded_size.c"
+                },
+                {
+                    "@type": "item",
+                    "name": "tests/enum_sizes/enumsizes_intsize_unittests.h"
+                },
+                {
+                    "@type": "item",
+                    "name": "tests/regression/issue_692/test.c"
+                },
+                {
+                    "@type": "item",
+                    "name": "tests/enum_sizes/enumsizes_unittests.c"
+                },
+                {
+                    "@type": "item",
+                    "name": "tests/infinity_nan/infinity_nan_test.c"
+                },
+                {
+                    "@type": "item",
+                    "name": "tests/enum_sizes/enumsizes_intsize_unittests.cc"
+                },
+                {
+                    "@type": "item",
+                    "name": "extra/pb_syshdr.h"
+                },
+                {
+                    "@type": "item",
+                    "name": "tests/regression/issue_637/test.c"
+                },
+                {
+                    "@type": "item",
+                    "name": "tests/without_64bit/no_64bit_syshdr.h"
+                }
+            ]
+        },
+        {
+            "@type": "group",
+            "name": "5",
+            "nested": [
+                {
+                    "@type": "item",
+                    "name": "tests/mem_release/mem_release.c"
+                },
+                {
+                    "@type": "item",
+                    "name": "tests/io_errors/io_errors.c"
+                },
+                {
+                    "@type": "item",
+                    "name": "tests/regression/GHSA-gcx3-7m76-287p/test.c"
+                },
+                {
+                    "@type": "item",
+                    "name": "tests/alltypes_callback/decode_alltypes_callback.c"
+                },
+                {
+                    "@type": "item",
+                    "name": "tests/alltypes_proto3_callback/decode_alltypes_callback.c"
+                },
+                {
+                    "@type": "item",
+                    "name": "tests/decode_unittests/decode_unittests.c"
+                },
+                {
+                    "@type": "item",
+                    "name": "tests/regression/issue_544/submsg_callback.c"
+                },
+                {
+                    "@type": "item",
+                    "name": "pb_decode.h"
+                },
+                {
+                    "@type": "item",
+                    "name": "pb_decode.c"
+                },
+                {
+                    "@type": "item",
+                    "name": "tests/raw_decode/raw_decode.c"
+                }
+            ]
+        },
+        {
+            "@type": "group",
+            "name": "6",
+            "nested": [
+                {
+                    "@type": "item",
+                    "name": "spm_headers/pb_decode.h"
+                },
+                {
+                    "@type": "item",
+                    "name": "spm_headers/pb_common.h"
+                },
+                {
+                    "@type": "item",
+                    "name": "tests/map/decode_map.c"
+                },
+                {
+                    "@type": "item",
+                    "name": "spm-test/objc/c-header.c"
+                },
+                {
+                    "@type": "item",
+                    "name": "spm_headers/pb_encode.h"
+                },
+                {
+                    "@type": "item",
+                    "name": "tests/cyclic_messages/encode_cyclic_callback.c"
+                },
+                {
+                    "@type": "item",
+                    "name": "spm_headers/pb.h"
+                }
+            ]
+        },
+        {
+            "@type": "group",
+            "name": "7",
+            "nested": [
+                {
+                    "@type": "item",
+                    "name": "tests/any_type/decode_any.c"
+                },
+                {
+                    "@type": "item",
+                    "name": "examples/network_server/server.c"
+                },
+                {
+                    "@type": "item",
+                    "name": "examples/using_union_messages/decode.c"
+                },
+                {
+                    "@type": "item",
+                    "name": "tests/multiple_files/test_multiple_files.c"
+                },
+                {
+                    "@type": "item",
+                    "name": "examples/network_server/client.c"
+                },
+                {
+                    "@type": "item",
+                    "name": "examples/network_server/common.h"
+                },
+                {
+                    "@type": "item",
+                    "name": "examples/network_server/common.c"
+                }
+            ]
+        },
+        {
+            "@type": "group",
+            "name": "8",
+            "nested": [
+                {
+                    "@type": "item",
+                    "name": "tests/backwards_compatibility/decode_legacy.c"
+                },
+                {
+                    "@type": "item",
+                    "name": "tests/backwards_compatibility/encode_legacy.c"
+                },
+                {
+                    "@type": "item",
+                    "name": "tests/backwards_compatibility/alltypes_legacy.h"
+                },
+                {
+                    "@type": "item",
+                    "name": "tests/options/options.c"
+                },
+                {
+                    "@type": "item",
+                    "name": "tests/backwards_compatibility/alltypes_legacy.c"
+                }
+            ]
+        },
+        {
+            "@type": "group",
+            "name": "9",
+            "nested": [
+                {
+                    "@type": "item",
+                    "name": "tests/fuzztest/flakystream.h"
+                },
+                {
+                    "@type": "item",
+                    "name": "tests/fuzztest/flakystream.c"
+                },
+                {
+                    "@type": "item",
+                    "name": "tests/fuzztest/fuzztest.c"
+                },
+                {
+                    "@type": "item",
+                    "name": "tests/fuzztest/validation.h"
+                },
+                {
+                    "@type": "item",
+                    "name": "tests/fuzztest/validation.c"
+                },
+                {
+                    "@type": "item",
+                    "name": "tests/fuzztest/generate_message.c"
+                },
+                {
+                    "@type": "item",
+                    "name": "tests/fuzztest/random_data.h"
+                },
+                {
+                    "@type": "item",
+                    "name": "tests/fuzztest/random_data.c"
+                }
+            ]
+        },
+        {
+            "@type": "group",
+            "name": "10",
+            "nested": [
+                {
+                    "@type": "item",
+                    "name": "examples/cmake_simple/simple.c"
+                },
+                {
+                    "@type": "item",
+                    "name": "examples/simple/simple.c"
+                },
+                {
+                    "@type": "item",
+                    "name": "examples/cmake_relpath/simple.c"
+                },
+                {
+                    "@type": "item",
+                    "name": "examples/conan_dependency/src/simple.c"
+                }
+            ]
+        },
+        {
+            "@type": "group",
+            "name": "11",
+            "nested": [
+                {
+                    "@type": "item",
+                    "name": "tests/common/unittests.h"
+                },
+                {
+                    "@type": "item",
+                    "name": "tests/common/malloc_wrappers.h"
+                },
+                {
+                    "@type": "item",
+                    "name": "tests/common/malloc_wrappers.c"
+                },
+                {
+                    "@type": "item",
+                    "name": "tests/common/malloc_wrappers_syshdr.h"
+                }
+            ]
+        },
+        {
+            "@type": "group",
+            "name": "12",
+            "nested": [
+                {
+                    "@type": "item",
+                    "name": "tests/callbacks/decode_callbacks.c"
+                },
+                {
+                    "@type": "item",
+                    "name": "tests/callbacks/encode_callbacks.c"
+                }
+            ]
+        },
+        {
+            "@type": "group",
+            "name": "13",
+            "nested": [
+                {
+                    "@type": "item",
+                    "name": "tests/site_scons/platforms/avr/avr_io.c"
+                },
+                {
+                    "@type": "item",
+                    "name": "tests/site_scons/platforms/avr/run_test.c"
+                }
+            ]
+        },
+        {
+            "@type": "group",
+            "name": "14",
+            "nested": [
+                {
+                    "@type": "item",
+                    "name": "tests/typename_mangling/test_strip_package.c"
+                },
+                {
+                    "@type": "item",
+                    "name": "tests/typename_mangling/test_package_initials.c"
+                }
+            ]
+        },
+        {
+            "@type": "group",
+            "name": "15",
+            "nested": [
+                {
+                    "@type": "item",
+                    "name": "tests/regression/issue_631/test.c"
+                }
+            ]
+        },
+        {
+            "@type": "group",
+            "name": "16",
+            "nested": [
+                {
+                    "@type": "item",
+                    "name": "tests/site_scons/platforms/stm32/vectors.c"
+                }
+            ]
+        },
+        {
+            "@type": "group",
+            "name": "17",
+            "nested": [
+                {
+                    "@type": "item",
+                    "name": "pb.h"
+                },
+                {
+                    "@type": "item",
+                    "name": "pb_common.h"
+                },
+                {
+                    "@type": "item",
+                    "name": "pb_common.c"
+                }
+            ]
+        }
+    ]
+}

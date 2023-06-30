@@ -1,0 +1,990 @@
+{
+    "@schemaVersion": "1.0",
+    "name": "clustering",
+    "structure": [
+        {
+            "@type": "group",
+            "name": "0",
+            "nested": [
+                {
+                    "@type": "item",
+                    "name": "include/tag.hpp"
+                },
+                {
+                    "@type": "item",
+                    "name": "src/tag.cpp"
+                },
+                {
+                    "@type": "item",
+                    "name": "include/settings.hpp"
+                },
+                {
+                    "@type": "item",
+                    "name": "src/settings.cpp"
+                },
+                {
+                    "@type": "item",
+                    "name": "include/logger.hpp"
+                },
+                {
+                    "@type": "item",
+                    "name": "src/logger.cpp"
+                },
+                {
+                    "@type": "item",
+                    "name": "include/network.hpp"
+                },
+                {
+                    "@type": "item",
+                    "name": "src/network.cpp"
+                },
+                {
+                    "@type": "item",
+                    "name": "include/weakptr.hpp"
+                },
+                {
+                    "@type": "item",
+                    "name": "include/asset.hpp"
+                },
+                {
+                    "@type": "item",
+                    "name": "src/asset.cpp"
+                },
+                {
+                    "@type": "item",
+                    "name": "include/common.hpp"
+                },
+                {
+                    "@type": "item",
+                    "name": "src/common.cpp"
+                },
+                {
+                    "@type": "item",
+                    "name": "include/color.hpp"
+                },
+                {
+                    "@type": "item",
+                    "name": "src/color.cpp"
+                },
+                {
+                    "@type": "item",
+                    "name": "include/patch.hpp"
+                },
+                {
+                    "@type": "item",
+                    "name": "src/patch.cpp"
+                },
+                {
+                    "@type": "item",
+                    "name": "include/rack.hpp"
+                },
+                {
+                    "@type": "item",
+                    "name": "include/library.hpp"
+                },
+                {
+                    "@type": "item",
+                    "name": "src/library.cpp"
+                },
+                {
+                    "@type": "item",
+                    "name": "include/Quantity.hpp"
+                },
+                {
+                    "@type": "item",
+                    "name": "src/Quantity.cpp"
+                },
+                {
+                    "@type": "item",
+                    "name": "include/random.hpp"
+                },
+                {
+                    "@type": "item",
+                    "name": "src/random.cpp"
+                },
+                {
+                    "@type": "item",
+                    "name": "include/system.hpp"
+                },
+                {
+                    "@type": "item",
+                    "name": "src/system.cpp"
+                },
+                {
+                    "@type": "item",
+                    "name": "include/componentlibrary.hpp"
+                },
+                {
+                    "@type": "item",
+                    "name": "adapters/standalone.cpp"
+                },
+                {
+                    "@type": "item",
+                    "name": "include/mutex.hpp"
+                },
+                {
+                    "@type": "item",
+                    "name": "include/rack0.hpp"
+                },
+                {
+                    "@type": "item",
+                    "name": "include/string.hpp"
+                },
+                {
+                    "@type": "item",
+                    "name": "src/string.cpp"
+                },
+                {
+                    "@type": "item",
+                    "name": "src/plugin.cpp"
+                },
+                {
+                    "@type": "item",
+                    "name": "include/helpers.hpp"
+                },
+                {
+                    "@type": "item",
+                    "name": "include/history.hpp"
+                },
+                {
+                    "@type": "item",
+                    "name": "src/history.cpp"
+                },
+                {
+                    "@type": "item",
+                    "name": "include/math.hpp"
+                },
+                {
+                    "@type": "item",
+                    "name": "include/simd/functions.hpp"
+                }
+            ]
+        },
+        {
+            "@type": "group",
+            "name": "1",
+            "nested": [
+                {
+                    "@type": "item",
+                    "name": "include/app/MenuBar.hpp"
+                },
+                {
+                    "@type": "item",
+                    "name": "src/app/MenuBar.cpp"
+                },
+                {
+                    "@type": "item",
+                    "name": "include/app/Scene.hpp"
+                },
+                {
+                    "@type": "item",
+                    "name": "src/app/Scene.cpp"
+                },
+                {
+                    "@type": "item",
+                    "name": "include/app/CableWidget.hpp"
+                },
+                {
+                    "@type": "item",
+                    "name": "src/app/CableWidget.cpp"
+                },
+                {
+                    "@type": "item",
+                    "name": "include/app/ModuleLightWidget.hpp"
+                },
+                {
+                    "@type": "item",
+                    "name": "src/app/ModuleLightWidget.cpp"
+                },
+                {
+                    "@type": "item",
+                    "name": "include/app/ParamWidget.hpp"
+                },
+                {
+                    "@type": "item",
+                    "name": "src/app/ParamWidget.cpp"
+                },
+                {
+                    "@type": "item",
+                    "name": "include/app/common.hpp"
+                },
+                {
+                    "@type": "item",
+                    "name": "include/app/ModuleWidget.hpp"
+                },
+                {
+                    "@type": "item",
+                    "name": "src/app/ModuleWidget.cpp"
+                },
+                {
+                    "@type": "item",
+                    "name": "include/app/PortWidget.hpp"
+                },
+                {
+                    "@type": "item",
+                    "name": "src/app/PortWidget.cpp"
+                },
+                {
+                    "@type": "item",
+                    "name": "include/app/RackWidget.hpp"
+                },
+                {
+                    "@type": "item",
+                    "name": "src/app/RackWidget.cpp"
+                },
+                {
+                    "@type": "item",
+                    "name": "include/app/RackScrollWidget.hpp"
+                },
+                {
+                    "@type": "item",
+                    "name": "src/app/RackScrollWidget.cpp"
+                },
+                {
+                    "@type": "item",
+                    "name": "include/app/Browser.hpp"
+                },
+                {
+                    "@type": "item",
+                    "name": "src/app/Browser.cpp"
+                },
+                {
+                    "@type": "item",
+                    "name": "include/app/RailWidget.hpp"
+                },
+                {
+                    "@type": "item",
+                    "name": "src/app/RailWidget.cpp"
+                },
+                {
+                    "@type": "item",
+                    "name": "include/app/Knob.hpp"
+                },
+                {
+                    "@type": "item",
+                    "name": "src/app/Knob.cpp"
+                },
+                {
+                    "@type": "item",
+                    "name": "include/app/MultiLightWidget.hpp"
+                },
+                {
+                    "@type": "item",
+                    "name": "src/app/MultiLightWidget.cpp"
+                },
+                {
+                    "@type": "item",
+                    "name": "include/app/TipWindow.hpp"
+                },
+                {
+                    "@type": "item",
+                    "name": "src/app/TipWindow.cpp"
+                },
+                {
+                    "@type": "item",
+                    "name": "include/app/SliderKnob.hpp"
+                },
+                {
+                    "@type": "item",
+                    "name": "src/app/SliderKnob.cpp"
+                }
+            ]
+        },
+        {
+            "@type": "group",
+            "name": "2",
+            "nested": [
+                {
+                    "@type": "item",
+                    "name": "include/ui/common.hpp"
+                },
+                {
+                    "@type": "item",
+                    "name": "src/ui/common.cpp"
+                },
+                {
+                    "@type": "item",
+                    "name": "include/ui/OptionButton.hpp"
+                },
+                {
+                    "@type": "item",
+                    "name": "src/ui/OptionButton.cpp"
+                },
+                {
+                    "@type": "item",
+                    "name": "include/ui/Menu.hpp"
+                },
+                {
+                    "@type": "item",
+                    "name": "src/ui/Menu.cpp"
+                },
+                {
+                    "@type": "item",
+                    "name": "include/ui/List.hpp"
+                },
+                {
+                    "@type": "item",
+                    "name": "src/ui/List.cpp"
+                },
+                {
+                    "@type": "item",
+                    "name": "include/ui/Label.hpp"
+                },
+                {
+                    "@type": "item",
+                    "name": "src/ui/Label.cpp"
+                },
+                {
+                    "@type": "item",
+                    "name": "include/ui/MenuLabel.hpp"
+                },
+                {
+                    "@type": "item",
+                    "name": "src/ui/MenuLabel.cpp"
+                },
+                {
+                    "@type": "item",
+                    "name": "include/ui/TooltipOverlay.hpp"
+                },
+                {
+                    "@type": "item",
+                    "name": "include/ui/MenuItem.hpp"
+                },
+                {
+                    "@type": "item",
+                    "name": "src/ui/MenuItem.cpp"
+                },
+                {
+                    "@type": "item",
+                    "name": "include/ui/Tooltip.hpp"
+                },
+                {
+                    "@type": "item",
+                    "name": "src/ui/Tooltip.cpp"
+                },
+                {
+                    "@type": "item",
+                    "name": "include/ui/TextField.hpp"
+                },
+                {
+                    "@type": "item",
+                    "name": "src/ui/TextField.cpp"
+                },
+                {
+                    "@type": "item",
+                    "name": "include/ui/MenuOverlay.hpp"
+                },
+                {
+                    "@type": "item",
+                    "name": "src/ui/MenuOverlay.cpp"
+                },
+                {
+                    "@type": "item",
+                    "name": "include/ui/MenuSeparator.hpp"
+                },
+                {
+                    "@type": "item",
+                    "name": "src/ui/MenuSeparator.cpp"
+                },
+                {
+                    "@type": "item",
+                    "name": "include/ui/MenuEntry.hpp"
+                },
+                {
+                    "@type": "item",
+                    "name": "src/ui/MenuEntry.cpp"
+                },
+                {
+                    "@type": "item",
+                    "name": "include/ui/ProgressBar.hpp"
+                },
+                {
+                    "@type": "item",
+                    "name": "src/ui/ProgressBar.cpp"
+                },
+                {
+                    "@type": "item",
+                    "name": "include/ui/ChoiceButton.hpp"
+                },
+                {
+                    "@type": "item",
+                    "name": "src/ui/ChoiceButton.cpp"
+                },
+                {
+                    "@type": "item",
+                    "name": "include/ui/SequentialLayout.hpp"
+                },
+                {
+                    "@type": "item",
+                    "name": "src/ui/SequentialLayout.cpp"
+                }
+            ]
+        },
+        {
+            "@type": "group",
+            "name": "3",
+            "nested": [
+                {
+                    "@type": "item",
+                    "name": "include/dsp/approx.hpp"
+                },
+                {
+                    "@type": "item",
+                    "name": "include/dsp/fir.hpp"
+                },
+                {
+                    "@type": "item",
+                    "name": "include/dsp/common.hpp"
+                },
+                {
+                    "@type": "item",
+                    "name": "include/dsp/minblep.hpp"
+                },
+                {
+                    "@type": "item",
+                    "name": "src/dsp/minblep.cpp"
+                },
+                {
+                    "@type": "item",
+                    "name": "include/dsp/window.hpp"
+                },
+                {
+                    "@type": "item",
+                    "name": "include/dsp/resampler.hpp"
+                },
+                {
+                    "@type": "item",
+                    "name": "include/dsp/filter.hpp"
+                },
+                {
+                    "@type": "item",
+                    "name": "include/dsp/ode.hpp"
+                },
+                {
+                    "@type": "item",
+                    "name": "include/dsp/convert.hpp"
+                },
+                {
+                    "@type": "item",
+                    "name": "include/dsp/midi.hpp"
+                },
+                {
+                    "@type": "item",
+                    "name": "include/dsp/fft.hpp"
+                },
+                {
+                    "@type": "item",
+                    "name": "include/dsp/ringbuffer.hpp"
+                },
+                {
+                    "@type": "item",
+                    "name": "include/dsp/digital.hpp"
+                },
+                {
+                    "@type": "item",
+                    "name": "include/dsp/vumeter.hpp"
+                }
+            ]
+        },
+        {
+            "@type": "group",
+            "name": "4",
+            "nested": [
+                {
+                    "@type": "item",
+                    "name": "src/core/CV_MIDI.cpp"
+                },
+                {
+                    "@type": "item",
+                    "name": "src/core/Audio.cpp"
+                },
+                {
+                    "@type": "item",
+                    "name": "src/core/Notes.cpp"
+                },
+                {
+                    "@type": "item",
+                    "name": "src/core/plugin.hpp"
+                },
+                {
+                    "@type": "item",
+                    "name": "src/core/plugin.cpp"
+                },
+                {
+                    "@type": "item",
+                    "name": "src/core/MIDI_CV.cpp"
+                },
+                {
+                    "@type": "item",
+                    "name": "src/core/CV_MIDICC.cpp"
+                },
+                {
+                    "@type": "item",
+                    "name": "src/core/MIDICC_CV.cpp"
+                },
+                {
+                    "@type": "item",
+                    "name": "src/core/MIDIMap.cpp"
+                },
+                {
+                    "@type": "item",
+                    "name": "src/core/MIDI_Gate.cpp"
+                },
+                {
+                    "@type": "item",
+                    "name": "src/core/Blank.cpp"
+                },
+                {
+                    "@type": "item",
+                    "name": "src/core/Gate_MIDI.cpp"
+                }
+            ]
+        },
+        {
+            "@type": "group",
+            "name": "5",
+            "nested": [
+                {
+                    "@type": "item",
+                    "name": "include/rtmidi.hpp"
+                },
+                {
+                    "@type": "item",
+                    "name": "src/rtmidi.cpp"
+                },
+                {
+                    "@type": "item",
+                    "name": "include/keyboard.hpp"
+                },
+                {
+                    "@type": "item",
+                    "name": "src/keyboard.cpp"
+                },
+                {
+                    "@type": "item",
+                    "name": "src/midi.cpp"
+                },
+                {
+                    "@type": "item",
+                    "name": "include/gamepad.hpp"
+                },
+                {
+                    "@type": "item",
+                    "name": "src/gamepad.cpp"
+                },
+                {
+                    "@type": "item",
+                    "name": "include/context.hpp"
+                },
+                {
+                    "@type": "item",
+                    "name": "src/context.cpp"
+                },
+                {
+                    "@type": "item",
+                    "name": "include/midi.hpp"
+                },
+                {
+                    "@type": "item",
+                    "name": "include/midiloopback.hpp"
+                },
+                {
+                    "@type": "item",
+                    "name": "src/midiloopback.cpp"
+                },
+                {
+                    "@type": "item",
+                    "name": "include/audio.hpp"
+                },
+                {
+                    "@type": "item",
+                    "name": "src/audio.cpp"
+                },
+                {
+                    "@type": "item",
+                    "name": "include/rtaudio.hpp"
+                },
+                {
+                    "@type": "item",
+                    "name": "src/rtaudio.cpp"
+                },
+                {
+                    "@type": "item",
+                    "name": "src/dep.cpp"
+                }
+            ]
+        },
+        {
+            "@type": "group",
+            "name": "6",
+            "nested": [
+                {
+                    "@type": "item",
+                    "name": "include/engine/Cable.hpp"
+                },
+                {
+                    "@type": "item",
+                    "name": "src/engine/Cable.cpp"
+                },
+                {
+                    "@type": "item",
+                    "name": "include/engine/ParamHandle.hpp"
+                },
+                {
+                    "@type": "item",
+                    "name": "include/engine/PortInfo.hpp"
+                },
+                {
+                    "@type": "item",
+                    "name": "src/engine/PortInfo.cpp"
+                },
+                {
+                    "@type": "item",
+                    "name": "include/engine/Light.hpp"
+                },
+                {
+                    "@type": "item",
+                    "name": "include/engine/Port.hpp"
+                },
+                {
+                    "@type": "item",
+                    "name": "include/engine/LightInfo.hpp"
+                },
+                {
+                    "@type": "item",
+                    "name": "src/engine/LightInfo.cpp"
+                },
+                {
+                    "@type": "item",
+                    "name": "include/engine/ParamQuantity.hpp"
+                },
+                {
+                    "@type": "item",
+                    "name": "src/engine/ParamQuantity.cpp"
+                },
+                {
+                    "@type": "item",
+                    "name": "include/engine/Module.hpp"
+                },
+                {
+                    "@type": "item",
+                    "name": "src/engine/Module.cpp"
+                },
+                {
+                    "@type": "item",
+                    "name": "include/engine/Engine.hpp"
+                },
+                {
+                    "@type": "item",
+                    "name": "src/engine/Engine.cpp"
+                },
+                {
+                    "@type": "item",
+                    "name": "include/engine/Param.hpp"
+                }
+            ]
+        },
+        {
+            "@type": "group",
+            "name": "7",
+            "nested": [
+                {
+                    "@type": "item",
+                    "name": "include/app/SvgSlider.hpp"
+                },
+                {
+                    "@type": "item",
+                    "name": "src/app/SvgSlider.cpp"
+                },
+                {
+                    "@type": "item",
+                    "name": "include/app/SvgPort.hpp"
+                },
+                {
+                    "@type": "item",
+                    "name": "src/app/SvgPort.cpp"
+                },
+                {
+                    "@type": "item",
+                    "name": "include/app/SvgPanel.hpp"
+                },
+                {
+                    "@type": "item",
+                    "name": "src/app/SvgPanel.cpp"
+                },
+                {
+                    "@type": "item",
+                    "name": "include/app/SvgKnob.hpp"
+                },
+                {
+                    "@type": "item",
+                    "name": "src/app/SvgKnob.cpp"
+                },
+                {
+                    "@type": "item",
+                    "name": "include/app/SvgButton.hpp"
+                },
+                {
+                    "@type": "item",
+                    "name": "src/app/SvgButton.cpp"
+                },
+                {
+                    "@type": "item",
+                    "name": "include/app/CircularShadow.hpp"
+                },
+                {
+                    "@type": "item",
+                    "name": "src/app/CircularShadow.cpp"
+                },
+                {
+                    "@type": "item",
+                    "name": "include/app/Switch.hpp"
+                },
+                {
+                    "@type": "item",
+                    "name": "src/app/Switch.cpp"
+                },
+                {
+                    "@type": "item",
+                    "name": "include/app/SvgSwitch.hpp"
+                },
+                {
+                    "@type": "item",
+                    "name": "src/app/SvgSwitch.cpp"
+                },
+                {
+                    "@type": "item",
+                    "name": "include/app/SvgScrew.hpp"
+                },
+                {
+                    "@type": "item",
+                    "name": "src/app/SvgScrew.cpp"
+                }
+            ]
+        },
+        {
+            "@type": "group",
+            "name": "8",
+            "nested": [
+                {
+                    "@type": "item",
+                    "name": "include/widget/SvgWidget.hpp"
+                },
+                {
+                    "@type": "item",
+                    "name": "src/widget/SvgWidget.cpp"
+                },
+                {
+                    "@type": "item",
+                    "name": "include/widget/event.hpp"
+                },
+                {
+                    "@type": "item",
+                    "name": "src/widget/event.cpp"
+                },
+                {
+                    "@type": "item",
+                    "name": "include/widget/OpenGlWidget.hpp"
+                },
+                {
+                    "@type": "item",
+                    "name": "src/widget/OpenGlWidget.cpp"
+                },
+                {
+                    "@type": "item",
+                    "name": "include/widget/TransformWidget.hpp"
+                },
+                {
+                    "@type": "item",
+                    "name": "include/widget/OpaqueWidget.hpp"
+                },
+                {
+                    "@type": "item",
+                    "name": "include/widget/FramebufferWidget.hpp"
+                },
+                {
+                    "@type": "item",
+                    "name": "src/widget/FramebufferWidget.cpp"
+                },
+                {
+                    "@type": "item",
+                    "name": "include/widget/ZoomWidget.hpp"
+                },
+                {
+                    "@type": "item",
+                    "name": "src/widget/ZoomWidget.cpp"
+                },
+                {
+                    "@type": "item",
+                    "name": "include/widget/TransparentWidget.hpp"
+                },
+                {
+                    "@type": "item",
+                    "name": "include/widget/Widget.hpp"
+                },
+                {
+                    "@type": "item",
+                    "name": "src/widget/Widget.cpp"
+                }
+            ]
+        },
+        {
+            "@type": "group",
+            "name": "9",
+            "nested": [
+                {
+                    "@type": "item",
+                    "name": "include/ui/Slider.hpp"
+                },
+                {
+                    "@type": "item",
+                    "name": "src/ui/Slider.cpp"
+                },
+                {
+                    "@type": "item",
+                    "name": "include/ui/ScrollWidget.hpp"
+                },
+                {
+                    "@type": "item",
+                    "name": "src/ui/ScrollWidget.cpp"
+                },
+                {
+                    "@type": "item",
+                    "name": "include/ui/Scrollbar.hpp"
+                },
+                {
+                    "@type": "item",
+                    "name": "src/ui/Scrollbar.cpp"
+                },
+                {
+                    "@type": "item",
+                    "name": "include/ui/Button.hpp"
+                },
+                {
+                    "@type": "item",
+                    "name": "src/ui/Button.cpp"
+                },
+                {
+                    "@type": "item",
+                    "name": "include/ui/RadioButton.hpp"
+                },
+                {
+                    "@type": "item",
+                    "name": "src/ui/RadioButton.cpp"
+                }
+            ]
+        },
+        {
+            "@type": "group",
+            "name": "10",
+            "nested": [
+                {
+                    "@type": "item",
+                    "name": "include/simd/sse_mathfun_extension.h"
+                },
+                {
+                    "@type": "item",
+                    "name": "include/simd/sse_mathfun.h"
+                },
+                {
+                    "@type": "item",
+                    "name": "include/simd/Vector.hpp"
+                },
+                {
+                    "@type": "item",
+                    "name": "include/simd/common.hpp"
+                }
+            ]
+        },
+        {
+            "@type": "group",
+            "name": "11",
+            "nested": [
+                {
+                    "@type": "item",
+                    "name": "include/app/AudioDisplay.hpp"
+                },
+                {
+                    "@type": "item",
+                    "name": "src/app/AudioDisplay.cpp"
+                },
+                {
+                    "@type": "item",
+                    "name": "include/app/LightWidget.hpp"
+                },
+                {
+                    "@type": "item",
+                    "name": "src/app/LightWidget.cpp"
+                },
+                {
+                    "@type": "item",
+                    "name": "include/app/MidiDisplay.hpp"
+                },
+                {
+                    "@type": "item",
+                    "name": "src/app/MidiDisplay.cpp"
+                },
+                {
+                    "@type": "item",
+                    "name": "include/app/LedDisplay.hpp"
+                },
+                {
+                    "@type": "item",
+                    "name": "src/app/LedDisplay.cpp"
+                }
+            ]
+        },
+        {
+            "@type": "group",
+            "name": "12",
+            "nested": [
+                {
+                    "@type": "item",
+                    "name": "include/plugin/Plugin.hpp"
+                },
+                {
+                    "@type": "item",
+                    "name": "src/plugin/Plugin.cpp"
+                },
+                {
+                    "@type": "item",
+                    "name": "include/plugin/Model.hpp"
+                },
+                {
+                    "@type": "item",
+                    "name": "src/plugin/Model.cpp"
+                },
+                {
+                    "@type": "item",
+                    "name": "include/plugin/callbacks.hpp"
+                },
+                {
+                    "@type": "item",
+                    "name": "include/plugin.hpp"
+                }
+            ]
+        },
+        {
+            "@type": "group",
+            "name": "13",
+            "nested": [
+                {
+                    "@type": "item",
+                    "name": "include/window/Window.hpp"
+                },
+                {
+                    "@type": "item",
+                    "name": "src/window/Window.cpp"
+                },
+                {
+                    "@type": "item",
+                    "name": "include/window/Svg.hpp"
+                },
+                {
+                    "@type": "item",
+                    "name": "src/window/Svg.cpp"
+                }
+            ]
+        }
+    ]
+}

@@ -1,0 +1,1316 @@
+{
+    "@schemaVersion": "1.0",
+    "name": "clustering",
+    "structure": [
+        {
+            "@type": "group",
+            "name": "0",
+            "nested": [
+                {
+                    "@type": "item",
+                    "name": "plugins/xattr/xattr.c"
+                },
+                {
+                    "@type": "item",
+                    "name": "plugins/transformation_chunked/chunked.c"
+                },
+                {
+                    "@type": "item",
+                    "name": "plugins/transformation_toupper/toupper.c"
+                },
+                {
+                    "@type": "item",
+                    "name": "plugins/router_expires/expires.c"
+                },
+                {
+                    "@type": "item",
+                    "name": "plugins/rpc/rpc_plugin.c"
+                },
+                {
+                    "@type": "item",
+                    "name": "plugins/router_memcached/router_memcached.c"
+                },
+                {
+                    "@type": "item",
+                    "name": "plugins/libffi/libffi.c"
+                },
+                {
+                    "@type": "item",
+                    "name": "plugins/router_redis/router_redis.c"
+                },
+                {
+                    "@type": "item",
+                    "name": "plugins/router_uwsgi/router_uwsgi.c"
+                },
+                {
+                    "@type": "item",
+                    "name": "plugins/router_redirect/router_redirect.c"
+                },
+                {
+                    "@type": "item",
+                    "name": "plugins/transformation_gzip/gzip.c"
+                },
+                {
+                    "@type": "item",
+                    "name": "plugins/router_metrics/plugin.c"
+                },
+                {
+                    "@type": "item",
+                    "name": "plugins/router_static/router_static.c"
+                },
+                {
+                    "@type": "item",
+                    "name": "plugins/router_rewrite/router_rewrite.c"
+                },
+                {
+                    "@type": "item",
+                    "name": "plugins/router_http/router_http.c"
+                },
+                {
+                    "@type": "item",
+                    "name": "plugins/http/spdy3.h"
+                },
+                {
+                    "@type": "item",
+                    "name": "plugins/router_hash/router_hash.c"
+                },
+                {
+                    "@type": "item",
+                    "name": "plugins/http/https.c"
+                },
+                {
+                    "@type": "item",
+                    "name": "plugins/transformation_template/tt.c"
+                },
+                {
+                    "@type": "item",
+                    "name": "plugins/php/session.c"
+                },
+                {
+                    "@type": "item",
+                    "name": "plugins/router_cache/router_cache.c"
+                }
+            ]
+        },
+        {
+            "@type": "group",
+            "name": "1",
+            "nested": [
+                {
+                    "@type": "item",
+                    "name": "plugins/gevent/gevent.c"
+                },
+                {
+                    "@type": "item",
+                    "name": "plugins/rbthreads/rbthreads.c"
+                },
+                {
+                    "@type": "item",
+                    "name": "plugins/libtcc/libtcc.c"
+                },
+                {
+                    "@type": "item",
+                    "name": "plugins/gccgo/gccgo_plugin.c"
+                },
+                {
+                    "@type": "item",
+                    "name": "plugins/python/uwsgi_python.h"
+                },
+                {
+                    "@type": "item",
+                    "name": "plugins/python/profiler.c"
+                },
+                {
+                    "@type": "item",
+                    "name": "plugins/python/pyutils.c"
+                },
+                {
+                    "@type": "item",
+                    "name": "plugins/python/web3_subhandler.c"
+                },
+                {
+                    "@type": "item",
+                    "name": "plugins/python/wsgi_headers.c"
+                },
+                {
+                    "@type": "item",
+                    "name": "plugins/python/gil.c"
+                },
+                {
+                    "@type": "item",
+                    "name": "plugins/python/wsgi_subhandler.c"
+                },
+                {
+                    "@type": "item",
+                    "name": "plugins/python/raw.c"
+                },
+                {
+                    "@type": "item",
+                    "name": "plugins/python/pump_subhandler.c"
+                },
+                {
+                    "@type": "item",
+                    "name": "plugins/python/wsgi_handlers.c"
+                },
+                {
+                    "@type": "item",
+                    "name": "plugins/python/python_plugin.c"
+                },
+                {
+                    "@type": "item",
+                    "name": "plugins/python/pyloader.c"
+                },
+                {
+                    "@type": "item",
+                    "name": "plugins/python/tracebacker.c"
+                },
+                {
+                    "@type": "item",
+                    "name": "plugins/python/uwsgi_pymodule.c"
+                },
+                {
+                    "@type": "item",
+                    "name": "plugins/asyncio/asyncio.c"
+                },
+                {
+                    "@type": "item",
+                    "name": "plugins/alarm_xmpp/alarm_xmpp_plugin.c"
+                },
+                {
+                    "@type": "item",
+                    "name": "plugins/symcall/symcall_plugin.c"
+                },
+                {
+                    "@type": "item",
+                    "name": "plugins/tornado/tornado.c"
+                },
+                {
+                    "@type": "item",
+                    "name": "plugins/curl_cron/curl_cron.c"
+                },
+                {
+                    "@type": "item",
+                    "name": "plugins/exception_log/exception_log.c"
+                },
+                {
+                    "@type": "item",
+                    "name": "plugins/msgpack/msgpack.c"
+                },
+                {
+                    "@type": "item",
+                    "name": "plugins/python/symimporter.c"
+                },
+                {
+                    "@type": "item",
+                    "name": "plugins/gevent/gevent.h"
+                },
+                {
+                    "@type": "item",
+                    "name": "plugins/gevent/hooks.c"
+                },
+                {
+                    "@type": "item",
+                    "name": "plugins/alarm_curl/alarm_curl_plugin.c"
+                }
+            ]
+        },
+        {
+            "@type": "group",
+            "name": "2",
+            "nested": [
+                {
+                    "@type": "item",
+                    "name": "plugins/stats_pusher_mongodb/plugin.c"
+                },
+                {
+                    "@type": "item",
+                    "name": "plugins/stats_pusher_file/plugin.c"
+                },
+                {
+                    "@type": "item",
+                    "name": "plugins/stats_pusher_mongodb/stats_pusher_mongodb.cc"
+                },
+                {
+                    "@type": "item",
+                    "name": "plugins/echo/echo_plugin.c"
+                },
+                {
+                    "@type": "item",
+                    "name": "plugins/mongodblog/mongodblog_plugin.c"
+                },
+                {
+                    "@type": "item",
+                    "name": "plugins/dummy/dummy.c"
+                },
+                {
+                    "@type": "item",
+                    "name": "plugins/example/example_plugin.c"
+                },
+                {
+                    "@type": "item",
+                    "name": "plugins/cplusplus/plugin.c"
+                },
+                {
+                    "@type": "item",
+                    "name": "plugins/mongodb/plugin.c"
+                },
+                {
+                    "@type": "item",
+                    "name": "plugins/signal/signal_plugin.c"
+                },
+                {
+                    "@type": "item",
+                    "name": "plugins/cplusplus/base.cc"
+                },
+                {
+                    "@type": "item",
+                    "name": "plugins/spooler/spooler_plugin.c"
+                }
+            ]
+        },
+        {
+            "@type": "group",
+            "name": "3",
+            "nested": [
+                {
+                    "@type": "item",
+                    "name": "plugins/ldap/ldap.c"
+                },
+                {
+                    "@type": "item",
+                    "name": "plugins/router_access/router_access.c"
+                },
+                {
+                    "@type": "item",
+                    "name": "plugins/glusterfs/glusterfs.c"
+                },
+                {
+                    "@type": "item",
+                    "name": "plugins/logzmq/plugin.c"
+                },
+                {
+                    "@type": "item",
+                    "name": "plugins/systemd_logger/systemd_logger.c"
+                },
+                {
+                    "@type": "item",
+                    "name": "plugins/logpipe/logpipe.c"
+                },
+                {
+                    "@type": "item",
+                    "name": "plugins/cgi/cgi_plugin.c"
+                },
+                {
+                    "@type": "item",
+                    "name": "plugins/logfile/logfile.c"
+                },
+                {
+                    "@type": "item",
+                    "name": "plugins/logsocket/logsocket_plugin.c"
+                },
+                {
+                    "@type": "item",
+                    "name": "plugins/notfound/notfound.c"
+                }
+            ]
+        },
+        {
+            "@type": "group",
+            "name": "4",
+            "nested": [
+                {
+                    "@type": "item",
+                    "name": "uwsgi.h"
+                },
+                {
+                    "@type": "item",
+                    "name": "core/emperor.c"
+                },
+                {
+                    "@type": "item",
+                    "name": "core/zlib.c"
+                },
+                {
+                    "@type": "item",
+                    "name": "core/master_utils.c"
+                },
+                {
+                    "@type": "item",
+                    "name": "core/logging.c"
+                },
+                {
+                    "@type": "item",
+                    "name": "core/ssl.c"
+                },
+                {
+                    "@type": "item",
+                    "name": "core/clock.c"
+                },
+                {
+                    "@type": "item",
+                    "name": "core/notify.c"
+                },
+                {
+                    "@type": "item",
+                    "name": "core/protocol.c"
+                },
+                {
+                    "@type": "item",
+                    "name": "core/rpc.c"
+                },
+                {
+                    "@type": "item",
+                    "name": "core/queue.c"
+                },
+                {
+                    "@type": "item",
+                    "name": "core/event.c"
+                },
+                {
+                    "@type": "item",
+                    "name": "core/uwsgi.c"
+                },
+                {
+                    "@type": "item",
+                    "name": "core/plugins_builder.c"
+                },
+                {
+                    "@type": "item",
+                    "name": "core/setup_utils.c"
+                },
+                {
+                    "@type": "item",
+                    "name": "core/transformations.c"
+                },
+                {
+                    "@type": "item",
+                    "name": "core/mount.c"
+                },
+                {
+                    "@type": "item",
+                    "name": "core/fifo.c"
+                },
+                {
+                    "@type": "item",
+                    "name": "core/hooks.c"
+                },
+                {
+                    "@type": "item",
+                    "name": "core/writer.c"
+                },
+                {
+                    "@type": "item",
+                    "name": "core/gateway.c"
+                },
+                {
+                    "@type": "item",
+                    "name": "core/sharedarea.c"
+                },
+                {
+                    "@type": "item",
+                    "name": "core/metrics.c"
+                },
+                {
+                    "@type": "item",
+                    "name": "core/zeus.c"
+                },
+                {
+                    "@type": "item",
+                    "name": "core/plugins.c"
+                },
+                {
+                    "@type": "item",
+                    "name": "core/chunked.c"
+                },
+                {
+                    "@type": "item",
+                    "name": "core/cache.c"
+                },
+                {
+                    "@type": "item",
+                    "name": "core/querystring.c"
+                },
+                {
+                    "@type": "item",
+                    "name": "core/reader.c"
+                },
+                {
+                    "@type": "item",
+                    "name": "core/daemons.c"
+                },
+                {
+                    "@type": "item",
+                    "name": "core/config.c"
+                },
+                {
+                    "@type": "item",
+                    "name": "core/cookie.c"
+                },
+                {
+                    "@type": "item",
+                    "name": "core/cron.c"
+                },
+                {
+                    "@type": "item",
+                    "name": "core/errors.c"
+                },
+                {
+                    "@type": "item",
+                    "name": "core/utils.c"
+                },
+                {
+                    "@type": "item",
+                    "name": "core/exceptions.c"
+                },
+                {
+                    "@type": "item",
+                    "name": "core/mule.c"
+                },
+                {
+                    "@type": "item",
+                    "name": "core/spooler.c"
+                },
+                {
+                    "@type": "item",
+                    "name": "core/sendfile.c"
+                },
+                {
+                    "@type": "item",
+                    "name": "core/rb_timers.c"
+                },
+                {
+                    "@type": "item",
+                    "name": "core/progress.c"
+                },
+                {
+                    "@type": "item",
+                    "name": "core/offload.c"
+                },
+                {
+                    "@type": "item",
+                    "name": "core/signal.c"
+                },
+                {
+                    "@type": "item",
+                    "name": "core/ini.c"
+                },
+                {
+                    "@type": "item",
+                    "name": "core/websockets.c"
+                },
+                {
+                    "@type": "item",
+                    "name": "core/fork_server.c"
+                },
+                {
+                    "@type": "item",
+                    "name": "core/init.c"
+                },
+                {
+                    "@type": "item",
+                    "name": "core/webdav.c"
+                },
+                {
+                    "@type": "item",
+                    "name": "core/fsmon.c"
+                },
+                {
+                    "@type": "item",
+                    "name": "core/hash.c"
+                },
+                {
+                    "@type": "item",
+                    "name": "core/legion.c"
+                },
+                {
+                    "@type": "item",
+                    "name": "core/async.c"
+                },
+                {
+                    "@type": "item",
+                    "name": "core/stats.c"
+                },
+                {
+                    "@type": "item",
+                    "name": "core/timebomb.c"
+                },
+                {
+                    "@type": "item",
+                    "name": "core/master_checks.c"
+                },
+                {
+                    "@type": "item",
+                    "name": "core/alarm.c"
+                },
+                {
+                    "@type": "item",
+                    "name": "core/socket.c"
+                },
+                {
+                    "@type": "item",
+                    "name": "core/snmp.c"
+                },
+                {
+                    "@type": "item",
+                    "name": "core/master_events.c"
+                },
+                {
+                    "@type": "item",
+                    "name": "core/lock.c"
+                },
+                {
+                    "@type": "item",
+                    "name": "core/buffer.c"
+                },
+                {
+                    "@type": "item",
+                    "name": "core/master.c"
+                },
+                {
+                    "@type": "item",
+                    "name": "core/static.c"
+                },
+                {
+                    "@type": "item",
+                    "name": "core/strings.c"
+                },
+                {
+                    "@type": "item",
+                    "name": "core/loop.c"
+                },
+                {
+                    "@type": "item",
+                    "name": "core/subscription.c"
+                },
+                {
+                    "@type": "item",
+                    "name": "core/io.c"
+                },
+                {
+                    "@type": "item",
+                    "name": "core/storage.c"
+                },
+                {
+                    "@type": "item",
+                    "name": "core/xmlconf.c"
+                },
+                {
+                    "@type": "item",
+                    "name": "core/routing.c"
+                },
+                {
+                    "@type": "item",
+                    "name": "core/clang_fake.c"
+                },
+                {
+                    "@type": "item",
+                    "name": "core/json.c"
+                },
+                {
+                    "@type": "item",
+                    "name": "core/skel.c"
+                },
+                {
+                    "@type": "item",
+                    "name": "core/regexp.c"
+                },
+                {
+                    "@type": "item",
+                    "name": "core/yaml.c"
+                }
+            ]
+        },
+        {
+            "@type": "group",
+            "name": "5",
+            "nested": [
+                {
+                    "@type": "item",
+                    "name": "plugins/tuntap/common.h"
+                },
+                {
+                    "@type": "item",
+                    "name": "plugins/tuntap/tuntap.c"
+                },
+                {
+                    "@type": "item",
+                    "name": "plugins/tuntap/common.c"
+                },
+                {
+                    "@type": "item",
+                    "name": "plugins/tuntap/firewall.c"
+                },
+                {
+                    "@type": "item",
+                    "name": "plugins/emperor_amqp/emperor_amqp.c"
+                },
+                {
+                    "@type": "item",
+                    "name": "plugins/emperor_mongodb/plugin.c"
+                },
+                {
+                    "@type": "item",
+                    "name": "plugins/emperor_zeromq/emperor_zeromq.c"
+                },
+                {
+                    "@type": "item",
+                    "name": "plugins/emperor_mongodb/emperor_mongodb.cc"
+                },
+                {
+                    "@type": "item",
+                    "name": "plugins/emperor_pg/emperor_pg.c"
+                },
+                {
+                    "@type": "item",
+                    "name": "plugins/emperor_amqp/amqp.c"
+                },
+                {
+                    "@type": "item",
+                    "name": "plugins/mongrel2/mongrel2.c"
+                },
+                {
+                    "@type": "item",
+                    "name": "plugins/airbrake/airbrake_plugin.c"
+                }
+            ]
+        },
+        {
+            "@type": "group",
+            "name": "6",
+            "nested": [
+                {
+                    "@type": "item",
+                    "name": "plugins/gridfs/gridfs.cc"
+                },
+                {
+                    "@type": "item",
+                    "name": "plugins/rack/uwsgi_rack.h"
+                },
+                {
+                    "@type": "item",
+                    "name": "plugins/rack/rack_api.c"
+                },
+                {
+                    "@type": "item",
+                    "name": "plugins/router_xmldir/router_xmldir.c"
+                },
+                {
+                    "@type": "item",
+                    "name": "plugins/rack/rack_plugin.c"
+                },
+                {
+                    "@type": "item",
+                    "name": "plugins/gridfs/plugin.c"
+                },
+                {
+                    "@type": "item",
+                    "name": "plugins/fiber/fiber.c"
+                },
+                {
+                    "@type": "item",
+                    "name": "plugins/router_spnego/router_spnego.c"
+                }
+            ]
+        },
+        {
+            "@type": "group",
+            "name": "7",
+            "nested": [
+                {
+                    "@type": "item",
+                    "name": "plugins/v8/v8_uwsgi.cc"
+                },
+                {
+                    "@type": "item",
+                    "name": "plugins/cheaper_busyness/cheaper_busyness.c"
+                },
+                {
+                    "@type": "item",
+                    "name": "plugins/matheval/math.c"
+                },
+                {
+                    "@type": "item",
+                    "name": "plugins/v8/v8_commonjs.cc"
+                },
+                {
+                    "@type": "item",
+                    "name": "plugins/v8/v8_uwsgi.h"
+                },
+                {
+                    "@type": "item",
+                    "name": "plugins/v8/v8_jsgi.cc"
+                },
+                {
+                    "@type": "item",
+                    "name": "plugins/v8/plugin.c"
+                },
+                {
+                    "@type": "item",
+                    "name": "plugins/carbon/carbon.c"
+                }
+            ]
+        },
+        {
+            "@type": "group",
+            "name": "8",
+            "nested": [
+                {
+                    "@type": "item",
+                    "name": "plugins/jwsgi/jwsgi_plugin.c"
+                },
+                {
+                    "@type": "item",
+                    "name": "plugins/ring/ring_plugin.c"
+                },
+                {
+                    "@type": "item",
+                    "name": "plugins/servlet/servlet_plugin.c"
+                },
+                {
+                    "@type": "item",
+                    "name": "plugins/jvm/jvm.h"
+                },
+                {
+                    "@type": "item",
+                    "name": "plugins/jvm/jvm_plugin.c"
+                },
+                {
+                    "@type": "item",
+                    "name": "plugins/servlet/uwsgi_servlet.java"
+                },
+                {
+                    "@type": "item",
+                    "name": "plugins/transformation_offload/offload.c"
+                }
+            ]
+        },
+        {
+            "@type": "group",
+            "name": "9",
+            "nested": [
+                {
+                    "@type": "item",
+                    "name": "plugins/stats_pusher_statsd/plugin.c"
+                },
+                {
+                    "@type": "item",
+                    "name": "plugins/graylog2/graylog2_plugin.c"
+                },
+                {
+                    "@type": "item",
+                    "name": "plugins/sqlite3/plugin.c"
+                },
+                {
+                    "@type": "item",
+                    "name": "plugins/zabbix/plugin.c"
+                },
+                {
+                    "@type": "item",
+                    "name": "plugins/stats_pusher_socket/plugin.c"
+                },
+                {
+                    "@type": "item",
+                    "name": "plugins/cheaper_backlog2/cheaper_backlog2.c"
+                }
+            ]
+        },
+        {
+            "@type": "group",
+            "name": "10",
+            "nested": [
+                {
+                    "@type": "item",
+                    "name": "plugins/corerouter/cr.h"
+                },
+                {
+                    "@type": "item",
+                    "name": "plugins/corerouter/cr_common.c"
+                },
+                {
+                    "@type": "item",
+                    "name": "plugins/corerouter/cr_map.c"
+                },
+                {
+                    "@type": "item",
+                    "name": "plugins/corerouter/corerouter.c"
+                },
+                {
+                    "@type": "item",
+                    "name": "plugins/forkptyrouter/forkptyrouter.c"
+                },
+                {
+                    "@type": "item",
+                    "name": "plugins/fastrouter/fastrouter.c"
+                },
+                {
+                    "@type": "item",
+                    "name": "plugins/sslrouter/sslrouter.c"
+                },
+                {
+                    "@type": "item",
+                    "name": "plugins/rawrouter/rawrouter.c"
+                }
+            ]
+        },
+        {
+            "@type": "group",
+            "name": "11",
+            "nested": [
+                {
+                    "@type": "item",
+                    "name": "plugins/php/common.h"
+                },
+                {
+                    "@type": "item",
+                    "name": "plugins/stackless/stackless.c"
+                },
+                {
+                    "@type": "item",
+                    "name": "plugins/pypy/pypy_plugin.c"
+                },
+                {
+                    "@type": "item",
+                    "name": "plugins/greenlet/greenlet.c"
+                },
+                {
+                    "@type": "item",
+                    "name": "plugins/php/php_plugin.c"
+                }
+            ]
+        },
+        {
+            "@type": "group",
+            "name": "12",
+            "nested": [
+                {
+                    "@type": "item",
+                    "name": "plugins/clock_monotonic/clock_monotonic.c"
+                },
+                {
+                    "@type": "item",
+                    "name": "plugins/rados/rados.c"
+                },
+                {
+                    "@type": "item",
+                    "name": "plugins/pty/pty.c"
+                },
+                {
+                    "@type": "item",
+                    "name": "plugins/clock_realtime/clock_realtime.c"
+                },
+                {
+                    "@type": "item",
+                    "name": "plugins/zergpool/zergpool.c"
+                }
+            ]
+        },
+        {
+            "@type": "group",
+            "name": "13",
+            "nested": [
+                {
+                    "@type": "item",
+                    "name": "apache2/mod_Ruwsgi.c"
+                },
+                {
+                    "@type": "item",
+                    "name": "apache2/mod_uwsgi.c"
+                },
+                {
+                    "@type": "item",
+                    "name": "apache2/mod_proxy_uwsgi.c"
+                }
+            ]
+        },
+        {
+            "@type": "group",
+            "name": "14",
+            "nested": [
+                {
+                    "@type": "item",
+                    "name": "contrib/uwsgi_dynamic_client.c"
+                },
+                {
+                    "@type": "item",
+                    "name": "contrib/uwsgi_client.c"
+                }
+            ]
+        },
+        {
+            "@type": "group",
+            "name": "15",
+            "nested": [
+                {
+                    "@type": "item",
+                    "name": "plugins/http/spdy3.c"
+                },
+                {
+                    "@type": "item",
+                    "name": "plugins/http/common.h"
+                },
+                {
+                    "@type": "item",
+                    "name": "plugins/http/keepalive.c"
+                },
+                {
+                    "@type": "item",
+                    "name": "plugins/http/http.c"
+                }
+            ]
+        },
+        {
+            "@type": "group",
+            "name": "16",
+            "nested": [
+                {
+                    "@type": "item",
+                    "name": "plugins/ping/ping_plugin.c"
+                },
+                {
+                    "@type": "item",
+                    "name": "plugins/mono/mono_plugin.c"
+                }
+            ]
+        },
+        {
+            "@type": "group",
+            "name": "17",
+            "nested": [
+                {
+                    "@type": "item",
+                    "name": "plugins/transformation_tofile/tofile.c"
+                },
+                {
+                    "@type": "item",
+                    "name": "plugins/redislog/redislog_plugin.c"
+                }
+            ]
+        },
+        {
+            "@type": "group",
+            "name": "18",
+            "nested": [
+                {
+                    "@type": "item",
+                    "name": "plugins/pyuwsgi/pyuwsgi.c"
+                },
+                {
+                    "@type": "item",
+                    "name": "plugins/ugreen/ugreen.c"
+                }
+            ]
+        },
+        {
+            "@type": "group",
+            "name": "19",
+            "nested": [
+                {
+                    "@type": "item",
+                    "name": "plugins/xslt/xslt.c"
+                },
+                {
+                    "@type": "item",
+                    "name": "plugins/geoip/geoip.c"
+                }
+            ]
+        },
+        {
+            "@type": "group",
+            "name": "20",
+            "nested": [
+                {
+                    "@type": "item",
+                    "name": "plugins/cache/cache.c"
+                },
+                {
+                    "@type": "item",
+                    "name": "plugins/jvm/uwsgi.java"
+                }
+            ]
+        },
+        {
+            "@type": "group",
+            "name": "21",
+            "nested": [
+                {
+                    "@type": "item",
+                    "name": "plugins/coroae/coroae.c"
+                },
+                {
+                    "@type": "item",
+                    "name": "plugins/psgi/psgi.h"
+                },
+                {
+                    "@type": "item",
+                    "name": "plugins/psgi/psgi_plugin.c"
+                },
+                {
+                    "@type": "item",
+                    "name": "plugins/psgi/uwsgi_plmodule.c"
+                },
+                {
+                    "@type": "item",
+                    "name": "plugins/psgi/psgi_loader.c"
+                },
+                {
+                    "@type": "item",
+                    "name": "plugins/psgi/psgi_response.c"
+                }
+            ]
+        },
+        {
+            "@type": "group",
+            "name": "22",
+            "nested": [
+                {
+                    "@type": "item",
+                    "name": "check/check_core.c"
+                }
+            ]
+        },
+        {
+            "@type": "group",
+            "name": "23",
+            "nested": [
+                {
+                    "@type": "item",
+                    "name": "contrib/cgi_python.c"
+                }
+            ]
+        },
+        {
+            "@type": "group",
+            "name": "24",
+            "nested": [
+                {
+                    "@type": "item",
+                    "name": "lib/netlink.c"
+                }
+            ]
+        },
+        {
+            "@type": "group",
+            "name": "25",
+            "nested": [
+                {
+                    "@type": "item",
+                    "name": "plugins/alarm_xmpp/gloox.cc"
+                }
+            ]
+        },
+        {
+            "@type": "group",
+            "name": "26",
+            "nested": [
+                {
+                    "@type": "item",
+                    "name": "plugins/dumbloop/dumb.c"
+                }
+            ]
+        },
+        {
+            "@type": "group",
+            "name": "27",
+            "nested": [
+                {
+                    "@type": "item",
+                    "name": "plugins/legion_cache_fetch/legion_cache_fetch.c"
+                }
+            ]
+        },
+        {
+            "@type": "group",
+            "name": "28",
+            "nested": [
+                {
+                    "@type": "item",
+                    "name": "plugins/logcrypto/logcrypto.c"
+                }
+            ]
+        },
+        {
+            "@type": "group",
+            "name": "29",
+            "nested": [
+                {
+                    "@type": "item",
+                    "name": "plugins/lua/lua_plugin.c"
+                }
+            ]
+        },
+        {
+            "@type": "group",
+            "name": "30",
+            "nested": [
+                {
+                    "@type": "item",
+                    "name": "plugins/nagios/nagios.c"
+                }
+            ]
+        },
+        {
+            "@type": "group",
+            "name": "31",
+            "nested": [
+                {
+                    "@type": "item",
+                    "name": "plugins/pam/pam.c"
+                }
+            ]
+        },
+        {
+            "@type": "group",
+            "name": "32",
+            "nested": [
+                {
+                    "@type": "item",
+                    "name": "plugins/router_basicauth/router_basicauth.c"
+                }
+            ]
+        },
+        {
+            "@type": "group",
+            "name": "33",
+            "nested": [
+                {
+                    "@type": "item",
+                    "name": "plugins/router_fcgi/router_fcgi.c"
+                }
+            ]
+        },
+        {
+            "@type": "group",
+            "name": "34",
+            "nested": [
+                {
+                    "@type": "item",
+                    "name": "plugins/router_radius/radius.c"
+                }
+            ]
+        },
+        {
+            "@type": "group",
+            "name": "35",
+            "nested": [
+                {
+                    "@type": "item",
+                    "name": "plugins/rrdtool/rrdtool.c"
+                }
+            ]
+        },
+        {
+            "@type": "group",
+            "name": "36",
+            "nested": [
+                {
+                    "@type": "item",
+                    "name": "plugins/rsyslog/rsyslog_plugin.c"
+                }
+            ]
+        },
+        {
+            "@type": "group",
+            "name": "37",
+            "nested": [
+                {
+                    "@type": "item",
+                    "name": "plugins/ssi/ssi.c"
+                }
+            ]
+        },
+        {
+            "@type": "group",
+            "name": "38",
+            "nested": [
+                {
+                    "@type": "item",
+                    "name": "plugins/syslog/syslog_plugin.c"
+                }
+            ]
+        },
+        {
+            "@type": "group",
+            "name": "39",
+            "nested": [
+                {
+                    "@type": "item",
+                    "name": "plugins/webdav/webdav.c"
+                }
+            ]
+        },
+        {
+            "@type": "group",
+            "name": "40",
+            "nested": [
+                {
+                    "@type": "item",
+                    "name": "uwsgi_main.c"
+                }
+            ]
+        },
+        {
+            "@type": "group",
+            "name": "41",
+            "nested": [
+                {
+                    "@type": "item",
+                    "name": "t/java/rpc.java"
+                }
+            ]
+        },
+        {
+            "@type": "group",
+            "name": "42",
+            "nested": [
+                {
+                    "@type": "item",
+                    "name": "contrib/uwsgi.java"
+                }
+            ]
+        },
+        {
+            "@type": "group",
+            "name": "43",
+            "nested": [
+                {
+                    "@type": "item",
+                    "name": "proto/puwsgi.c"
+                },
+                {
+                    "@type": "item",
+                    "name": "proto/fastcgi.c"
+                },
+                {
+                    "@type": "item",
+                    "name": "proto/base.c"
+                },
+                {
+                    "@type": "item",
+                    "name": "proto/scgi.c"
+                },
+                {
+                    "@type": "item",
+                    "name": "proto/http.c"
+                },
+                {
+                    "@type": "item",
+                    "name": "proto/uwsgi.c"
+                }
+            ]
+        },
+        {
+            "@type": "group",
+            "name": "44",
+            "nested": [
+                {
+                    "@type": "item",
+                    "name": "lib/sun_fixes.c"
+                },
+                {
+                    "@type": "item",
+                    "name": "lib/linux_ns.c"
+                }
+            ]
+        }
+    ]
+}

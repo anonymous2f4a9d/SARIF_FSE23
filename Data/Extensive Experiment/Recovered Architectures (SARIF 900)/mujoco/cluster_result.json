@@ -1,0 +1,962 @@
+{
+    "@schemaVersion": "1.0",
+    "name": "clustering",
+    "structure": [
+        {
+            "@type": "group",
+            "name": "0",
+            "nested": [
+                {
+                    "@type": "item",
+                    "name": "test/xml/xml_native_reader_test.cc"
+                },
+                {
+                    "@type": "item",
+                    "name": "test/engine/engine_support_test.cc"
+                },
+                {
+                    "@type": "item",
+                    "name": "test/engine/engine_collision_driver_test.cc"
+                },
+                {
+                    "@type": "item",
+                    "name": "test/engine/engine_print_test.cc"
+                },
+                {
+                    "@type": "item",
+                    "name": "test/engine/engine_vis_state_test.cc"
+                },
+                {
+                    "@type": "item",
+                    "name": "test/pipeline_test.cc"
+                },
+                {
+                    "@type": "item",
+                    "name": "test/user/user_model_test.cc"
+                },
+                {
+                    "@type": "item",
+                    "name": "test/user/user_mesh_test.cc"
+                },
+                {
+                    "@type": "item",
+                    "name": "test/fixture_test.cc"
+                },
+                {
+                    "@type": "item",
+                    "name": "test/user/user_objects_test.cc"
+                },
+                {
+                    "@type": "item",
+                    "name": "test/engine/engine_derivative_test.cc"
+                },
+                {
+                    "@type": "item",
+                    "name": "test/engine/engine_resource_test.cc"
+                },
+                {
+                    "@type": "item",
+                    "name": "test/engine/engine_vfs_test.cc"
+                },
+                {
+                    "@type": "item",
+                    "name": "test/engine/engine_util_solve_test.cc"
+                },
+                {
+                    "@type": "item",
+                    "name": "test/engine/engine_util_blas_test.cc"
+                },
+                {
+                    "@type": "item",
+                    "name": "test/fixture.h"
+                },
+                {
+                    "@type": "item",
+                    "name": "test/engine/engine_sensor_test.cc"
+                },
+                {
+                    "@type": "item",
+                    "name": "test/engine/engine_plugin_test.cc"
+                },
+                {
+                    "@type": "item",
+                    "name": "test/engine/engine_collision_convex_test.cc"
+                },
+                {
+                    "@type": "item",
+                    "name": "test/engine/engine_ray_test.cc"
+                },
+                {
+                    "@type": "item",
+                    "name": "test/engine/engine_util_spatial_test.cc"
+                },
+                {
+                    "@type": "item",
+                    "name": "test/xml/xml_urdf_test.cc"
+                },
+                {
+                    "@type": "item",
+                    "name": "test/engine/engine_util_errmem_test.cc"
+                },
+                {
+                    "@type": "item",
+                    "name": "test/engine/engine_util_sparse_test.cc"
+                },
+                {
+                    "@type": "item",
+                    "name": "test/engine/engine_util_misc_test.cc"
+                },
+                {
+                    "@type": "item",
+                    "name": "test/user/user_composite_test.cc"
+                },
+                {
+                    "@type": "item",
+                    "name": "test/plugin/elasticity/elasticity_test.cc"
+                },
+                {
+                    "@type": "item",
+                    "name": "test/xml/xml_api_test.cc"
+                },
+                {
+                    "@type": "item",
+                    "name": "test/engine/engine_core_smooth_test.cc"
+                },
+                {
+                    "@type": "item",
+                    "name": "test/fixture.cc"
+                },
+                {
+                    "@type": "item",
+                    "name": "test/engine/engine_forward_test.cc"
+                },
+                {
+                    "@type": "item",
+                    "name": "test/plugin/sensor/sensor_test.cc"
+                },
+                {
+                    "@type": "item",
+                    "name": "test/xml/xml_native_writer_test.cc"
+                },
+                {
+                    "@type": "item",
+                    "name": "test/engine/engine_passive_test.cc"
+                },
+                {
+                    "@type": "item",
+                    "name": "test/header_test.cc"
+                },
+                {
+                    "@type": "item",
+                    "name": "test/engine/engine_io_test.cc"
+                },
+                {
+                    "@type": "item",
+                    "name": "test/engine/engine_core_constraint_test.cc"
+                }
+            ]
+        },
+        {
+            "@type": "group",
+            "name": "1",
+            "nested": [
+                {
+                    "@type": "item",
+                    "name": "src/engine/engine_util_solve.h"
+                },
+                {
+                    "@type": "item",
+                    "name": "src/engine/engine_util_solve.c"
+                },
+                {
+                    "@type": "item",
+                    "name": "src/engine/engine_vfs.h"
+                },
+                {
+                    "@type": "item",
+                    "name": "src/engine/engine_vfs.c"
+                },
+                {
+                    "@type": "item",
+                    "name": "src/engine/engine_setconst.h"
+                },
+                {
+                    "@type": "item",
+                    "name": "src/engine/engine_setconst.c"
+                },
+                {
+                    "@type": "item",
+                    "name": "src/engine/engine_collision_driver.h"
+                },
+                {
+                    "@type": "item",
+                    "name": "src/engine/engine_collision_driver.c"
+                },
+                {
+                    "@type": "item",
+                    "name": "src/engine/engine_inverse.h"
+                },
+                {
+                    "@type": "item",
+                    "name": "src/engine/engine_inverse.c"
+                },
+                {
+                    "@type": "item",
+                    "name": "src/engine/engine_vis_state.h"
+                },
+                {
+                    "@type": "item",
+                    "name": "src/engine/engine_vis_state.c"
+                },
+                {
+                    "@type": "item",
+                    "name": "src/engine/engine_util_sparse_avx.h"
+                },
+                {
+                    "@type": "item",
+                    "name": "src/engine/engine_util_misc.h"
+                },
+                {
+                    "@type": "item",
+                    "name": "src/engine/engine_util_misc.c"
+                },
+                {
+                    "@type": "item",
+                    "name": "src/engine/engine_core_smooth.h"
+                },
+                {
+                    "@type": "item",
+                    "name": "src/engine/engine_core_smooth.c"
+                },
+                {
+                    "@type": "item",
+                    "name": "src/engine/engine_io.h"
+                },
+                {
+                    "@type": "item",
+                    "name": "src/engine/engine_io.c"
+                },
+                {
+                    "@type": "item",
+                    "name": "src/engine/engine_util_blas.h"
+                },
+                {
+                    "@type": "item",
+                    "name": "src/engine/engine_util_blas.c"
+                },
+                {
+                    "@type": "item",
+                    "name": "src/engine/engine_array_safety.h"
+                },
+                {
+                    "@type": "item",
+                    "name": "src/engine/engine_util_sparse.h"
+                },
+                {
+                    "@type": "item",
+                    "name": "src/engine/engine_util_sparse.c"
+                },
+                {
+                    "@type": "item",
+                    "name": "src/engine/engine_util_spatial.h"
+                },
+                {
+                    "@type": "item",
+                    "name": "src/engine/engine_util_spatial.c"
+                },
+                {
+                    "@type": "item",
+                    "name": "src/engine/engine_callback.h"
+                },
+                {
+                    "@type": "item",
+                    "name": "src/engine/engine_callback.c"
+                },
+                {
+                    "@type": "item",
+                    "name": "src/engine/engine_collision_primitive.h"
+                },
+                {
+                    "@type": "item",
+                    "name": "src/engine/engine_collision_primitive.c"
+                },
+                {
+                    "@type": "item",
+                    "name": "src/engine/engine_collision_box.c"
+                },
+                {
+                    "@type": "item",
+                    "name": "src/engine/engine_macro.h"
+                },
+                {
+                    "@type": "item",
+                    "name": "src/engine/engine_crossplatform.c"
+                },
+                {
+                    "@type": "item",
+                    "name": "src/engine/engine_forward.h"
+                },
+                {
+                    "@type": "item",
+                    "name": "src/engine/engine_forward.c"
+                },
+                {
+                    "@type": "item",
+                    "name": "src/engine/engine_core_constraint.h"
+                },
+                {
+                    "@type": "item",
+                    "name": "src/engine/engine_core_constraint.c"
+                },
+                {
+                    "@type": "item",
+                    "name": "src/engine/engine_passive.h"
+                },
+                {
+                    "@type": "item",
+                    "name": "src/engine/engine_passive.c"
+                },
+                {
+                    "@type": "item",
+                    "name": "src/engine/engine_vis_interact.h"
+                },
+                {
+                    "@type": "item",
+                    "name": "src/engine/engine_vis_interact.c"
+                },
+                {
+                    "@type": "item",
+                    "name": "src/engine/engine_print.h"
+                },
+                {
+                    "@type": "item",
+                    "name": "src/engine/engine_print.c"
+                },
+                {
+                    "@type": "item",
+                    "name": "src/engine/engine_plugin.h"
+                },
+                {
+                    "@type": "item",
+                    "name": "src/engine/engine_util_errmem.h"
+                },
+                {
+                    "@type": "item",
+                    "name": "src/engine/engine_util_errmem.c"
+                },
+                {
+                    "@type": "item",
+                    "name": "src/engine/engine_vis_visualize.h"
+                },
+                {
+                    "@type": "item",
+                    "name": "src/engine/engine_vis_visualize.c"
+                },
+                {
+                    "@type": "item",
+                    "name": "src/engine/engine_solver.h"
+                },
+                {
+                    "@type": "item",
+                    "name": "src/engine/engine_solver.c"
+                },
+                {
+                    "@type": "item",
+                    "name": "src/engine/engine_vis_init.h"
+                },
+                {
+                    "@type": "item",
+                    "name": "src/engine/engine_vis_init.c"
+                },
+                {
+                    "@type": "item",
+                    "name": "src/engine/engine_crossplatform.h"
+                },
+                {
+                    "@type": "item",
+                    "name": "src/engine/engine_plugin.cc"
+                },
+                {
+                    "@type": "item",
+                    "name": "src/engine/engine_derivative_fd.h"
+                },
+                {
+                    "@type": "item",
+                    "name": "src/engine/engine_derivative_fd.c"
+                },
+                {
+                    "@type": "item",
+                    "name": "src/engine/engine_support.h"
+                },
+                {
+                    "@type": "item",
+                    "name": "src/engine/engine_support.c"
+                },
+                {
+                    "@type": "item",
+                    "name": "src/engine/engine_sensor.h"
+                },
+                {
+                    "@type": "item",
+                    "name": "src/engine/engine_sensor.c"
+                },
+                {
+                    "@type": "item",
+                    "name": "src/engine/engine_derivative.h"
+                },
+                {
+                    "@type": "item",
+                    "name": "src/engine/engine_derivative.c"
+                },
+                {
+                    "@type": "item",
+                    "name": "src/engine/engine_collision_convex.h"
+                },
+                {
+                    "@type": "item",
+                    "name": "src/engine/engine_collision_convex.c"
+                },
+                {
+                    "@type": "item",
+                    "name": "src/engine/engine_ray.h"
+                },
+                {
+                    "@type": "item",
+                    "name": "src/engine/engine_ray.c"
+                },
+                {
+                    "@type": "item",
+                    "name": "src/engine/engine_resource.h"
+                },
+                {
+                    "@type": "item",
+                    "name": "src/engine/engine_resource.c"
+                }
+            ]
+        },
+        {
+            "@type": "group",
+            "name": "2",
+            "nested": [
+                {
+                    "@type": "item",
+                    "name": "python/mujoco/util/func_wrap.h"
+                },
+                {
+                    "@type": "item",
+                    "name": "python/mujoco/functions.h"
+                },
+                {
+                    "@type": "item",
+                    "name": "python/mujoco/structs.h"
+                },
+                {
+                    "@type": "item",
+                    "name": "python/mujoco/util/func_traits_test.cc"
+                },
+                {
+                    "@type": "item",
+                    "name": "python/mujoco/errors.cc"
+                },
+                {
+                    "@type": "item",
+                    "name": "python/mujoco/enums.cc"
+                },
+                {
+                    "@type": "item",
+                    "name": "python/mujoco/util/func_wrap_test.cc"
+                },
+                {
+                    "@type": "item",
+                    "name": "python/mujoco/mjdata_meta.h"
+                },
+                {
+                    "@type": "item",
+                    "name": "python/mujoco/raw.h"
+                },
+                {
+                    "@type": "item",
+                    "name": "python/mujoco/render.cc"
+                },
+                {
+                    "@type": "item",
+                    "name": "python/mujoco/callbacks.cc"
+                },
+                {
+                    "@type": "item",
+                    "name": "python/mujoco/util/crossplatform.h"
+                },
+                {
+                    "@type": "item",
+                    "name": "python/mujoco/util/array_traits_test.cc"
+                },
+                {
+                    "@type": "item",
+                    "name": "python/mujoco/private.h"
+                },
+                {
+                    "@type": "item",
+                    "name": "python/mujoco/util/array_traits.h"
+                },
+                {
+                    "@type": "item",
+                    "name": "python/mujoco/simulate.cc"
+                },
+                {
+                    "@type": "item",
+                    "name": "python/mujoco/util/func_traits.h"
+                },
+                {
+                    "@type": "item",
+                    "name": "python/mujoco/structs.cc"
+                },
+                {
+                    "@type": "item",
+                    "name": "python/mujoco/constants.cc"
+                },
+                {
+                    "@type": "item",
+                    "name": "python/mujoco/errors.h"
+                },
+                {
+                    "@type": "item",
+                    "name": "python/mujoco/util/tuple_tools_test.cc"
+                },
+                {
+                    "@type": "item",
+                    "name": "python/mujoco/rollout.cc"
+                },
+                {
+                    "@type": "item",
+                    "name": "python/mujoco/serialization.h"
+                },
+                {
+                    "@type": "item",
+                    "name": "python/mujoco/functions.cc"
+                },
+                {
+                    "@type": "item",
+                    "name": "python/mujoco/util/tuple_tools.h"
+                }
+            ]
+        },
+        {
+            "@type": "group",
+            "name": "3",
+            "nested": [
+                {
+                    "@type": "item",
+                    "name": "src/render/render_context.h"
+                },
+                {
+                    "@type": "item",
+                    "name": "include/mujoco/mjmodel.h"
+                },
+                {
+                    "@type": "item",
+                    "name": "include/mujoco/mujoco.h"
+                },
+                {
+                    "@type": "item",
+                    "name": "src/render/render_context.c"
+                },
+                {
+                    "@type": "item",
+                    "name": "src/render/render_gl3.c"
+                },
+                {
+                    "@type": "item",
+                    "name": "include/mujoco/mjplugin.h"
+                },
+                {
+                    "@type": "item",
+                    "name": "include/mujoco/mjdata.h"
+                },
+                {
+                    "@type": "item",
+                    "name": "include/mujoco/mjui.h"
+                },
+                {
+                    "@type": "item",
+                    "name": "include/mujoco/mjtnum.h"
+                },
+                {
+                    "@type": "item",
+                    "name": "src/render/render_util.h"
+                },
+                {
+                    "@type": "item",
+                    "name": "src/render/render_util.c"
+                },
+                {
+                    "@type": "item",
+                    "name": "src/render/render_gl2.h"
+                },
+                {
+                    "@type": "item",
+                    "name": "src/render/render_gl2.c"
+                },
+                {
+                    "@type": "item",
+                    "name": "include/mujoco/mjvisualize.h"
+                },
+                {
+                    "@type": "item",
+                    "name": "src/render/glad/glad.h"
+                },
+                {
+                    "@type": "item",
+                    "name": "src/render/glad/loader.cc"
+                },
+                {
+                    "@type": "item",
+                    "name": "src/render/glad/glad.c"
+                },
+                {
+                    "@type": "item",
+                    "name": "include/mujoco/mjrender.h"
+                },
+                {
+                    "@type": "item",
+                    "name": "include/mujoco/mjmacro.h"
+                },
+                {
+                    "@type": "item",
+                    "name": "include/mujoco/mjexport.h"
+                },
+                {
+                    "@type": "item",
+                    "name": "src/render/render_gl3.h"
+                }
+            ]
+        },
+        {
+            "@type": "group",
+            "name": "4",
+            "nested": [
+                {
+                    "@type": "item",
+                    "name": "src/xml/xml_base.cc"
+                },
+                {
+                    "@type": "item",
+                    "name": "src/xml/xml_native_writer.cc"
+                },
+                {
+                    "@type": "item",
+                    "name": "src/xml/xml_util.h"
+                },
+                {
+                    "@type": "item",
+                    "name": "src/xml/xml_util.cc"
+                },
+                {
+                    "@type": "item",
+                    "name": "src/xml/xml_native_reader.h"
+                },
+                {
+                    "@type": "item",
+                    "name": "src/xml/xml_api.h"
+                },
+                {
+                    "@type": "item",
+                    "name": "src/xml/xml_api.cc"
+                },
+                {
+                    "@type": "item",
+                    "name": "src/xml/xml_native_reader.cc"
+                },
+                {
+                    "@type": "item",
+                    "name": "src/xml/xml_native_writer.h"
+                },
+                {
+                    "@type": "item",
+                    "name": "src/xml/xml_numeric_format.h"
+                },
+                {
+                    "@type": "item",
+                    "name": "src/xml/xml_numeric_format.cc"
+                },
+                {
+                    "@type": "item",
+                    "name": "src/xml/xml_base.h"
+                },
+                {
+                    "@type": "item",
+                    "name": "src/xml/xml_urdf.h"
+                },
+                {
+                    "@type": "item",
+                    "name": "src/xml/xml_urdf.cc"
+                },
+                {
+                    "@type": "item",
+                    "name": "src/xml/xml.h"
+                },
+                {
+                    "@type": "item",
+                    "name": "src/xml/xml.cc"
+                }
+            ]
+        },
+        {
+            "@type": "group",
+            "name": "5",
+            "nested": [
+                {
+                    "@type": "item",
+                    "name": "plugin/sensor/touch_grid.h"
+                },
+                {
+                    "@type": "item",
+                    "name": "plugin/sensor/sensor.cc"
+                },
+                {
+                    "@type": "item",
+                    "name": "plugin/sensor/touch_grid.cc"
+                },
+                {
+                    "@type": "item",
+                    "name": "plugin/elasticity/cable.h"
+                },
+                {
+                    "@type": "item",
+                    "name": "plugin/elasticity/solid.cc"
+                },
+                {
+                    "@type": "item",
+                    "name": "plugin/elasticity/cable.cc"
+                },
+                {
+                    "@type": "item",
+                    "name": "plugin/elasticity/elasticity.cc"
+                },
+                {
+                    "@type": "item",
+                    "name": "plugin/elasticity/solid.h"
+                }
+            ]
+        },
+        {
+            "@type": "group",
+            "name": "6",
+            "nested": [
+                {
+                    "@type": "item",
+                    "name": "simulate/platform_ui_adapter.h"
+                },
+                {
+                    "@type": "item",
+                    "name": "simulate/platform_ui_adapter.cc"
+                },
+                {
+                    "@type": "item",
+                    "name": "simulate/simulate.h"
+                },
+                {
+                    "@type": "item",
+                    "name": "simulate/simulate.cc"
+                },
+                {
+                    "@type": "item",
+                    "name": "simulate/glfw_adapter.cc"
+                },
+                {
+                    "@type": "item",
+                    "name": "simulate/glfw_adapter.h"
+                },
+                {
+                    "@type": "item",
+                    "name": "simulate/glfw_corevideo.h"
+                },
+                {
+                    "@type": "item",
+                    "name": "simulate/main.cc"
+                },
+                {
+                    "@type": "item",
+                    "name": "simulate/glfw_dispatch.h"
+                },
+                {
+                    "@type": "item",
+                    "name": "simulate/glfw_dispatch.cc"
+                },
+                {
+                    "@type": "item",
+                    "name": "simulate/array_safety.h"
+                }
+            ]
+        },
+        {
+            "@type": "group",
+            "name": "7",
+            "nested": [
+                {
+                    "@type": "item",
+                    "name": "src/user/user_composite.h"
+                },
+                {
+                    "@type": "item",
+                    "name": "src/user/user_util.h"
+                },
+                {
+                    "@type": "item",
+                    "name": "src/user/user_util.cc"
+                },
+                {
+                    "@type": "item",
+                    "name": "src/user/user_objects.cc"
+                },
+                {
+                    "@type": "item",
+                    "name": "src/user/user_model.h"
+                },
+                {
+                    "@type": "item",
+                    "name": "src/user/user_composite.cc"
+                },
+                {
+                    "@type": "item",
+                    "name": "src/user/user_model.cc"
+                },
+                {
+                    "@type": "item",
+                    "name": "src/user/user_objects.h"
+                },
+                {
+                    "@type": "item",
+                    "name": "src/user/user_mesh.cc"
+                }
+            ]
+        },
+        {
+            "@type": "group",
+            "name": "8",
+            "nested": [
+                {
+                    "@type": "item",
+                    "name": "sample/testxml.cc"
+                },
+                {
+                    "@type": "item",
+                    "name": "sample/array_safety.h"
+                },
+                {
+                    "@type": "item",
+                    "name": "sample/record.cc"
+                },
+                {
+                    "@type": "item",
+                    "name": "sample/derivative.cc"
+                },
+                {
+                    "@type": "item",
+                    "name": "sample/basic.cc"
+                },
+                {
+                    "@type": "item",
+                    "name": "sample/testspeed.cc"
+                }
+            ]
+        },
+        {
+            "@type": "group",
+            "name": "9",
+            "nested": [
+                {
+                    "@type": "item",
+                    "name": "test/benchmark/engine_util_spatial_benchmark_test.cc"
+                },
+                {
+                    "@type": "item",
+                    "name": "test/benchmark/engine_core_smooth_benchmark_test.cc"
+                },
+                {
+                    "@type": "item",
+                    "name": "test/benchmark/step_benchmark_test.cc"
+                },
+                {
+                    "@type": "item",
+                    "name": "test/benchmark/engine_util_sparse_benchmark_test.cc"
+                },
+                {
+                    "@type": "item",
+                    "name": "test/benchmark/parse_benchmark_test.cc"
+                }
+            ]
+        },
+        {
+            "@type": "group",
+            "name": "10",
+            "nested": [
+                {
+                    "@type": "item",
+                    "name": "python/mujoco/indexers.cc"
+                },
+                {
+                    "@type": "item",
+                    "name": "python/mujoco/indexer_xmacro.h"
+                },
+                {
+                    "@type": "item",
+                    "name": "python/mujoco/indexers.h"
+                }
+            ]
+        },
+        {
+            "@type": "group",
+            "name": "11",
+            "nested": [
+                {
+                    "@type": "item",
+                    "name": "include/mujoco/mjxmacro.h"
+                }
+            ]
+        },
+        {
+            "@type": "group",
+            "name": "12",
+            "nested": [
+                {
+                    "@type": "item",
+                    "name": "sample/compile.cc"
+                }
+            ]
+        },
+        {
+            "@type": "group",
+            "name": "13",
+            "nested": [
+                {
+                    "@type": "item",
+                    "name": "src/cc/array_safety.h"
+                }
+            ]
+        },
+        {
+            "@type": "group",
+            "name": "14",
+            "nested": [
+                {
+                    "@type": "item",
+                    "name": "doc/includes/references.h"
+                }
+            ]
+        },
+        {
+            "@type": "group",
+            "name": "15",
+            "nested": [
+                {
+                    "@type": "item",
+                    "name": "src/ui/ui_main.h"
+                },
+                {
+                    "@type": "item",
+                    "name": "src/ui/ui_main.c"
+                }
+            ]
+        }
+    ]
+}

@@ -1,0 +1,126 @@
+{
+    "@schemaVersion": "1.0",
+    "name": "clustering",
+    "structure": [
+        {
+            "@type": "group",
+            "name": "0",
+            "nested": [
+                {
+                    "@type": "item",
+                    "name": "include/json/forwards.h"
+                },
+                {
+                    "@type": "item",
+                    "name": "include/json/assertions.h"
+                },
+                {
+                    "@type": "item",
+                    "name": "include/json/json.h"
+                },
+                {
+                    "@type": "item",
+                    "name": "include/json/config.h"
+                },
+                {
+                    "@type": "item",
+                    "name": "include/json/allocator.h"
+                },
+                {
+                    "@type": "item",
+                    "name": "include/json/version.h"
+                }
+            ]
+        },
+        {
+            "@type": "group",
+            "name": "1",
+            "nested": [
+                {
+                    "@type": "item",
+                    "name": "src/jsontestrunner/main.cpp"
+                },
+                {
+                    "@type": "item",
+                    "name": "example/stringWrite/stringWrite.cpp"
+                },
+                {
+                    "@type": "item",
+                    "name": "example/streamWrite/streamWrite.cpp"
+                },
+                {
+                    "@type": "item",
+                    "name": "example/readFromString/readFromString.cpp"
+                },
+                {
+                    "@type": "item",
+                    "name": "example/readFromStream/readFromStream.cpp"
+                }
+            ]
+        },
+        {
+            "@type": "group",
+            "name": "2",
+            "nested": [
+                {
+                    "@type": "item",
+                    "name": "include/json/writer.h"
+                },
+                {
+                    "@type": "item",
+                    "name": "src/lib_json/json_writer.cpp"
+                },
+                {
+                    "@type": "item",
+                    "name": "src/lib_json/json_tool.h"
+                },
+                {
+                    "@type": "item",
+                    "name": "include/json/reader.h"
+                },
+                {
+                    "@type": "item",
+                    "name": "include/json/json_features.h"
+                },
+                {
+                    "@type": "item",
+                    "name": "src/lib_json/json_reader.cpp"
+                },
+                {
+                    "@type": "item",
+                    "name": "include/json/value.h"
+                },
+                {
+                    "@type": "item",
+                    "name": "src/lib_json/json_value.cpp"
+                }
+            ]
+        },
+        {
+            "@type": "group",
+            "name": "3",
+            "nested": [
+                {
+                    "@type": "item",
+                    "name": "src/test_lib_json/fuzz.h"
+                },
+                {
+                    "@type": "item",
+                    "name": "src/test_lib_json/fuzz.cpp"
+                },
+                {
+                    "@type": "item",
+                    "name": "src/test_lib_json/main.cpp"
+                },
+                {
+                    "@type": "item",
+                    "name": "src/test_lib_json/jsontest.h"
+                },
+                {
+                    "@type": "item",
+                    "name": "src/test_lib_json/jsontest.cpp"
+                }
+            ]
+        }
+    ]
+}

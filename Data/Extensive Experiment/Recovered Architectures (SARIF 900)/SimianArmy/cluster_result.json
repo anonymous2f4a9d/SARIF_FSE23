@@ -1,0 +1,990 @@
+{
+    "@schemaVersion": "1.0",
+    "name": "clustering",
+    "structure": [
+        {
+            "@type": "group",
+            "name": "0",
+            "nested": [
+                {
+                    "@type": "item",
+                    "name": "src/test/java/com/netflix/simianarmy/aws/janitor/TestRDSJanitorResourceTracker.java"
+                },
+                {
+                    "@type": "item",
+                    "name": "src/test/java/com/netflix/simianarmy/TestMonkeyRunner.java"
+                },
+                {
+                    "@type": "item",
+                    "name": "src/test/java/com/netflix/simianarmy/aws/janitor/rule/asg/TestSuspendedASGRule.java"
+                },
+                {
+                    "@type": "item",
+                    "name": "src/test/java/com/netflix/simianarmy/aws/TestSimpleDBRecorder.java"
+                },
+                {
+                    "@type": "item",
+                    "name": "src/test/java/com/netflix/simianarmy/aws/TestRDSRecorder.java"
+                },
+                {
+                    "@type": "item",
+                    "name": "src/test/java/com/netflix/simianarmy/client/vsphere/TestVSpehereClient.java"
+                },
+                {
+                    "@type": "item",
+                    "name": "src/test/java/com/netflix/simianarmy/aws/janitor/rule/instance/TestOrphanedInstanceRule.java"
+                },
+                {
+                    "@type": "item",
+                    "name": "src/test/java/com/netflix/simianarmy/basic/TestBasicConfiguration.java"
+                },
+                {
+                    "@type": "item",
+                    "name": "src/test/java/com/netflix/simianarmy/basic/TestBasicCalendar.java"
+                },
+                {
+                    "@type": "item",
+                    "name": "src/test/java/com/netflix/simianarmy/aws/janitor/rule/TestMonkeyCalendar.java"
+                },
+                {
+                    "@type": "item",
+                    "name": "src/test/java/com/netflix/simianarmy/TestMonkeyContext.java"
+                },
+                {
+                    "@type": "item",
+                    "name": "src/test/java/com/netflix/simianarmy/client/vsphere/TestVSphereContext.java"
+                },
+                {
+                    "@type": "item",
+                    "name": "src/test/java/com/netflix/simianarmy/aws/janitor/rule/volume/TestOldDetachedVolumeRule.java"
+                },
+                {
+                    "@type": "item",
+                    "name": "src/test/java/com/netflix/simianarmy/basic/TestBasicContext.java"
+                },
+                {
+                    "@type": "item",
+                    "name": "src/test/java/com/netflix/simianarmy/aws/janitor/rule/snapshot/TestNoGeneratedAMIRule.java"
+                },
+                {
+                    "@type": "item",
+                    "name": "src/test/java/com/netflix/simianarmy/basic/TestBasicScheduler.java"
+                },
+                {
+                    "@type": "item",
+                    "name": "src/test/java/com/netflix/simianarmy/aws/conformity/rule/TestInstanceInVPC.java"
+                },
+                {
+                    "@type": "item",
+                    "name": "src/test/java/com/netflix/simianarmy/basic/TestBasicMonkeyServer.java"
+                },
+                {
+                    "@type": "item",
+                    "name": "src/test/java/com/netflix/simianarmy/aws/janitor/rule/elb/TestOrphanedELBRule.java"
+                },
+                {
+                    "@type": "item",
+                    "name": "src/test/java/com/netflix/simianarmy/aws/janitor/rule/asg/TestOldEmptyASGRule.java"
+                },
+                {
+                    "@type": "item",
+                    "name": "src/test/java/com/netflix/simianarmy/TestMonkey.java"
+                },
+                {
+                    "@type": "item",
+                    "name": "src/test/java/com/netflix/simianarmy/aws/janitor/TestSimpleDBJanitorResourceTracker.java"
+                },
+                {
+                    "@type": "item",
+                    "name": "src/test/java/com/netflix/simianarmy/basic/janitor/TestBasicJanitorRuleEngine.java"
+                },
+                {
+                    "@type": "item",
+                    "name": "src/test/java/com/netflix/simianarmy/janitor/TestBasicJanitorMonkeyContext.java"
+                },
+                {
+                    "@type": "item",
+                    "name": "src/test/java/com/netflix/simianarmy/aws/janitor/rule/generic/TestUntaggedRule.java"
+                },
+                {
+                    "@type": "item",
+                    "name": "src/test/java/com/netflix/simianarmy/client/vsphere/TestPropertyBasedTerminationStrategy.java"
+                },
+                {
+                    "@type": "item",
+                    "name": "src/test/java/com/netflix/simianarmy/aws/janitor/crawler/TestELBJanitorCrawler.java"
+                },
+                {
+                    "@type": "item",
+                    "name": "src/test/java/com/netflix/simianarmy/aws/janitor/rule/generic/TestTagValueExclusionRule.java"
+                },
+                {
+                    "@type": "item",
+                    "name": "src/test/java/com/netflix/simianarmy/TestUtils.java"
+                },
+                {
+                    "@type": "item",
+                    "name": "src/test/java/com/netflix/simianarmy/aws/janitor/rule/launchconfig/TestOldUnusedLaunchConfigRule.java"
+                },
+                {
+                    "@type": "item",
+                    "name": "src/test/java/com/netflix/simianarmy/basic/TestBasicRecorderEvent.java"
+                },
+                {
+                    "@type": "item",
+                    "name": "src/test/java/com/netflix/simianarmy/janitor/TestAbstractJanitor.java"
+                },
+                {
+                    "@type": "item",
+                    "name": "src/test/java/com/netflix/simianarmy/client/aws/TestAWSClient.java"
+                }
+            ]
+        },
+        {
+            "@type": "group",
+            "name": "1",
+            "nested": [
+                {
+                    "@type": "item",
+                    "name": "src/main/java/com/netflix/simianarmy/basic/conformity/BasicConformityMonkeyContext.java"
+                },
+                {
+                    "@type": "item",
+                    "name": "src/main/java/com/netflix/simianarmy/conformity/AutoScalingGroup.java"
+                },
+                {
+                    "@type": "item",
+                    "name": "src/main/java/com/netflix/simianarmy/aws/conformity/RDSConformityClusterTracker.java"
+                },
+                {
+                    "@type": "item",
+                    "name": "src/main/java/com/netflix/simianarmy/basic/conformity/BasicConformityMonkey.java"
+                },
+                {
+                    "@type": "item",
+                    "name": "src/main/java/com/netflix/simianarmy/aws/conformity/rule/InstanceHasHealthCheckUrl.java"
+                },
+                {
+                    "@type": "item",
+                    "name": "src/main/java/com/netflix/simianarmy/conformity/ConformityMonkey.java"
+                },
+                {
+                    "@type": "item",
+                    "name": "src/main/java/com/netflix/simianarmy/aws/conformity/rule/InstanceInSecurityGroup.java"
+                },
+                {
+                    "@type": "item",
+                    "name": "src/main/java/com/netflix/simianarmy/conformity/ConformityEmailNotifier.java"
+                },
+                {
+                    "@type": "item",
+                    "name": "src/main/java/com/netflix/simianarmy/conformity/ConformityClusterTracker.java"
+                },
+                {
+                    "@type": "item",
+                    "name": "src/main/java/com/netflix/simianarmy/aws/conformity/rule/InstanceInVPC.java"
+                },
+                {
+                    "@type": "item",
+                    "name": "src/main/java/com/netflix/simianarmy/aws/conformity/rule/CrossZoneLoadBalancing.java"
+                },
+                {
+                    "@type": "item",
+                    "name": "src/main/java/com/netflix/simianarmy/aws/conformity/rule/SameZonesInElbAndAsg.java"
+                },
+                {
+                    "@type": "item",
+                    "name": "src/main/java/com/netflix/simianarmy/basic/conformity/BasicConformityEmailBuilder.java"
+                },
+                {
+                    "@type": "item",
+                    "name": "src/main/java/com/netflix/simianarmy/conformity/Conformity.java"
+                },
+                {
+                    "@type": "item",
+                    "name": "src/main/java/com/netflix/simianarmy/aws/conformity/rule/InstanceHasStatusUrl.java"
+                },
+                {
+                    "@type": "item",
+                    "name": "src/main/java/com/netflix/simianarmy/conformity/ConformityRule.java"
+                },
+                {
+                    "@type": "item",
+                    "name": "src/main/java/com/netflix/simianarmy/aws/conformity/rule/ConformityEurekaClient.java"
+                },
+                {
+                    "@type": "item",
+                    "name": "src/main/java/com/netflix/simianarmy/aws/conformity/rule/BasicConformityEurekaClient.java"
+                },
+                {
+                    "@type": "item",
+                    "name": "src/main/java/com/netflix/simianarmy/aws/conformity/rule/InstanceIsHealthyInEureka.java"
+                },
+                {
+                    "@type": "item",
+                    "name": "src/main/java/com/netflix/simianarmy/aws/conformity/rule/InstanceTooOld.java"
+                },
+                {
+                    "@type": "item",
+                    "name": "src/main/java/com/netflix/simianarmy/conformity/Cluster.java"
+                },
+                {
+                    "@type": "item",
+                    "name": "src/main/java/com/netflix/simianarmy/conformity/ConformityEmailBuilder.java"
+                },
+                {
+                    "@type": "item",
+                    "name": "src/main/java/com/netflix/simianarmy/conformity/ConformityRuleEngine.java"
+                },
+                {
+                    "@type": "item",
+                    "name": "src/main/java/com/netflix/simianarmy/aws/conformity/crawler/AWSClusterCrawler.java"
+                },
+                {
+                    "@type": "item",
+                    "name": "src/main/java/com/netflix/simianarmy/aws/conformity/SimpleDBConformityClusterTracker.java"
+                },
+                {
+                    "@type": "item",
+                    "name": "src/main/java/com/netflix/simianarmy/conformity/ClusterCrawler.java"
+                }
+            ]
+        },
+        {
+            "@type": "group",
+            "name": "2",
+            "nested": [
+                {
+                    "@type": "item",
+                    "name": "src/main/java/com/netflix/simianarmy/aws/janitor/crawler/LaunchConfigJanitorCrawler.java"
+                },
+                {
+                    "@type": "item",
+                    "name": "src/main/java/com/netflix/simianarmy/aws/janitor/crawler/ELBJanitorCrawler.java"
+                },
+                {
+                    "@type": "item",
+                    "name": "src/main/java/com/netflix/simianarmy/client/edda/EddaClient.java"
+                },
+                {
+                    "@type": "item",
+                    "name": "src/main/java/com/netflix/simianarmy/aws/janitor/crawler/EBSSnapshotJanitorCrawler.java"
+                },
+                {
+                    "@type": "item",
+                    "name": "src/main/java/com/netflix/simianarmy/aws/janitor/crawler/InstanceJanitorCrawler.java"
+                },
+                {
+                    "@type": "item",
+                    "name": "src/main/java/com/netflix/simianarmy/ResourceType.java"
+                },
+                {
+                    "@type": "item",
+                    "name": "src/main/java/com/netflix/simianarmy/aws/janitor/crawler/ASGJanitorCrawler.java"
+                },
+                {
+                    "@type": "item",
+                    "name": "src/main/java/com/netflix/simianarmy/aws/janitor/crawler/edda/EddaEBSVolumeJanitorCrawler.java"
+                },
+                {
+                    "@type": "item",
+                    "name": "src/main/java/com/netflix/simianarmy/Resource.java"
+                },
+                {
+                    "@type": "item",
+                    "name": "src/main/java/com/netflix/simianarmy/aws/janitor/crawler/edda/EddaInstanceJanitorCrawler.java"
+                },
+                {
+                    "@type": "item",
+                    "name": "src/main/java/com/netflix/simianarmy/janitor/AbstractJanitor.java"
+                },
+                {
+                    "@type": "item",
+                    "name": "src/main/java/com/netflix/simianarmy/aws/janitor/crawler/EBSVolumeJanitorCrawler.java"
+                },
+                {
+                    "@type": "item",
+                    "name": "src/main/java/com/netflix/simianarmy/janitor/Janitor.java"
+                },
+                {
+                    "@type": "item",
+                    "name": "src/main/java/com/netflix/simianarmy/basic/janitor/BasicJanitorEmailBuilder.java"
+                },
+                {
+                    "@type": "item",
+                    "name": "src/main/java/com/netflix/simianarmy/aws/janitor/crawler/edda/EddaLaunchConfigJanitorCrawler.java"
+                },
+                {
+                    "@type": "item",
+                    "name": "src/main/java/com/netflix/simianarmy/aws/AWSResourceType.java"
+                },
+                {
+                    "@type": "item",
+                    "name": "src/main/java/com/netflix/simianarmy/aws/janitor/crawler/edda/EddaELBJanitorCrawler.java"
+                },
+                {
+                    "@type": "item",
+                    "name": "src/main/java/com/netflix/simianarmy/aws/janitor/crawler/edda/EddaEBSSnapshotJanitorCrawler.java"
+                },
+                {
+                    "@type": "item",
+                    "name": "src/main/java/com/netflix/simianarmy/aws/janitor/RDSJanitorResourceTracker.java"
+                },
+                {
+                    "@type": "item",
+                    "name": "src/main/java/com/netflix/simianarmy/aws/janitor/SimpleDBJanitorResourceTracker.java"
+                },
+                {
+                    "@type": "item",
+                    "name": "src/main/java/com/netflix/simianarmy/aws/janitor/crawler/edda/EddaImageJanitorCrawler.java"
+                },
+                {
+                    "@type": "item",
+                    "name": "src/main/java/com/netflix/simianarmy/aws/AWSResource.java"
+                },
+                {
+                    "@type": "item",
+                    "name": "src/main/java/com/netflix/simianarmy/client/MonkeyRestClient.java"
+                },
+                {
+                    "@type": "item",
+                    "name": "src/main/java/com/netflix/simianarmy/janitor/JanitorResourceTracker.java"
+                },
+                {
+                    "@type": "item",
+                    "name": "src/main/java/com/netflix/simianarmy/aws/janitor/crawler/edda/EddaUtils.java"
+                },
+                {
+                    "@type": "item",
+                    "name": "src/main/java/com/netflix/simianarmy/aws/janitor/crawler/edda/EddaASGJanitorCrawler.java"
+                }
+            ]
+        },
+        {
+            "@type": "group",
+            "name": "3",
+            "nested": [
+                {
+                    "@type": "item",
+                    "name": "src/main/java/com/netflix/simianarmy/chaos/NetworkCorruptionChaosType.java"
+                },
+                {
+                    "@type": "item",
+                    "name": "src/main/java/com/netflix/simianarmy/chaos/ScriptChaosType.java"
+                },
+                {
+                    "@type": "item",
+                    "name": "src/main/java/com/netflix/simianarmy/chaos/KillProcessesChaosType.java"
+                },
+                {
+                    "@type": "item",
+                    "name": "src/main/java/com/netflix/simianarmy/chaos/FailS3ChaosType.java"
+                },
+                {
+                    "@type": "item",
+                    "name": "src/main/java/com/netflix/simianarmy/chaos/FailEc2ChaosType.java"
+                },
+                {
+                    "@type": "item",
+                    "name": "src/main/java/com/netflix/simianarmy/basic/BasicCalendar.java"
+                },
+                {
+                    "@type": "item",
+                    "name": "src/main/java/com/netflix/simianarmy/chaos/BurnCpuChaosType.java"
+                },
+                {
+                    "@type": "item",
+                    "name": "src/main/java/com/netflix/simianarmy/chaos/BlockAllNetworkTrafficChaosType.java"
+                },
+                {
+                    "@type": "item",
+                    "name": "src/main/java/com/netflix/simianarmy/chaos/FailDnsChaosType.java"
+                },
+                {
+                    "@type": "item",
+                    "name": "src/main/java/com/netflix/simianarmy/chaos/FillDiskChaosType.java"
+                },
+                {
+                    "@type": "item",
+                    "name": "src/main/java/com/netflix/simianarmy/chaos/ShutdownInstanceChaosType.java"
+                },
+                {
+                    "@type": "item",
+                    "name": "src/main/java/com/netflix/simianarmy/chaos/NetworkLossChaosType.java"
+                },
+                {
+                    "@type": "item",
+                    "name": "src/main/java/com/netflix/simianarmy/chaos/FailDynamoDbChaosType.java"
+                },
+                {
+                    "@type": "item",
+                    "name": "src/main/java/com/netflix/simianarmy/CloudClient.java"
+                },
+                {
+                    "@type": "item",
+                    "name": "src/main/java/com/netflix/simianarmy/chaos/ChaosInstance.java"
+                },
+                {
+                    "@type": "item",
+                    "name": "src/main/java/com/netflix/simianarmy/chaos/BurnIoChaosType.java"
+                },
+                {
+                    "@type": "item",
+                    "name": "src/main/java/com/netflix/simianarmy/MonkeyConfiguration.java"
+                },
+                {
+                    "@type": "item",
+                    "name": "src/main/java/com/netflix/simianarmy/chaos/SshConfig.java"
+                },
+                {
+                    "@type": "item",
+                    "name": "src/main/java/com/netflix/simianarmy/chaos/DetachVolumesChaosType.java"
+                },
+                {
+                    "@type": "item",
+                    "name": "src/main/java/com/netflix/simianarmy/chaos/NullRouteChaosType.java"
+                },
+                {
+                    "@type": "item",
+                    "name": "src/main/java/com/netflix/simianarmy/basic/BasicConfiguration.java"
+                },
+                {
+                    "@type": "item",
+                    "name": "src/main/java/com/netflix/simianarmy/basic/calendars/BavarianCalendar.java"
+                },
+                {
+                    "@type": "item",
+                    "name": "src/main/java/com/netflix/simianarmy/chaos/NetworkLatencyChaosType.java"
+                }
+            ]
+        },
+        {
+            "@type": "group",
+            "name": "4",
+            "nested": [
+                {
+                    "@type": "item",
+                    "name": "src/main/java/com/netflix/simianarmy/basic/chaos/BasicChaosMonkey.java"
+                },
+                {
+                    "@type": "item",
+                    "name": "src/main/java/com/netflix/simianarmy/resources/chaos/ChaosMonkeyResource.java"
+                },
+                {
+                    "@type": "item",
+                    "name": "src/main/java/com/netflix/simianarmy/basic/chaos/BasicChaosEmailNotifier.java"
+                },
+                {
+                    "@type": "item",
+                    "name": "src/main/java/com/netflix/simianarmy/basic/chaos/BasicChaosInstanceSelector.java"
+                },
+                {
+                    "@type": "item",
+                    "name": "src/main/java/com/netflix/simianarmy/chaos/ChaosEmailNotifier.java"
+                },
+                {
+                    "@type": "item",
+                    "name": "src/main/java/com/netflix/simianarmy/client/aws/chaos/FilteringChaosCrawler.java"
+                },
+                {
+                    "@type": "item",
+                    "name": "src/main/java/com/netflix/simianarmy/basic/chaos/BasicInstanceGroup.java"
+                },
+                {
+                    "@type": "item",
+                    "name": "src/main/java/com/netflix/simianarmy/client/vsphere/VSphereGroups.java"
+                },
+                {
+                    "@type": "item",
+                    "name": "src/main/java/com/netflix/simianarmy/chaos/ChaosType.java"
+                },
+                {
+                    "@type": "item",
+                    "name": "src/main/java/com/netflix/simianarmy/FeatureNotEnabledException.java"
+                },
+                {
+                    "@type": "item",
+                    "name": "src/main/java/com/netflix/simianarmy/tunable/TunableInstanceGroup.java"
+                },
+                {
+                    "@type": "item",
+                    "name": "src/main/java/com/netflix/simianarmy/client/aws/chaos/TagPredicate.java"
+                },
+                {
+                    "@type": "item",
+                    "name": "src/main/java/com/netflix/simianarmy/basic/chaos/CloudFormationChaosMonkey.java"
+                },
+                {
+                    "@type": "item",
+                    "name": "src/main/java/com/netflix/simianarmy/chaos/ChaosMonkey.java"
+                },
+                {
+                    "@type": "item",
+                    "name": "src/main/java/com/netflix/simianarmy/GroupType.java"
+                },
+                {
+                    "@type": "item",
+                    "name": "src/main/java/com/netflix/simianarmy/chaos/ChaosCrawler.java"
+                },
+                {
+                    "@type": "item",
+                    "name": "src/main/java/com/netflix/simianarmy/tunable/TunablyAggressiveChaosMonkey.java"
+                },
+                {
+                    "@type": "item",
+                    "name": "src/main/java/com/netflix/simianarmy/chaos/ChaosInstanceSelector.java"
+                },
+                {
+                    "@type": "item",
+                    "name": "src/main/java/com/netflix/simianarmy/basic/BasicChaosMonkeyContext.java"
+                },
+                {
+                    "@type": "item",
+                    "name": "src/main/java/com/netflix/simianarmy/NotFoundException.java"
+                },
+                {
+                    "@type": "item",
+                    "name": "src/main/java/com/netflix/simianarmy/InstanceGroupNotFoundException.java"
+                },
+                {
+                    "@type": "item",
+                    "name": "src/main/java/com/netflix/simianarmy/client/aws/chaos/ASGChaosCrawler.java"
+                }
+            ]
+        },
+        {
+            "@type": "group",
+            "name": "5",
+            "nested": [
+                {
+                    "@type": "item",
+                    "name": "src/main/java/com/netflix/simianarmy/aws/janitor/rule/instance/OrphanedInstanceRule.java"
+                },
+                {
+                    "@type": "item",
+                    "name": "src/main/java/com/netflix/simianarmy/aws/janitor/rule/asg/DiscoveryASGInstanceValidator.java"
+                },
+                {
+                    "@type": "item",
+                    "name": "src/main/java/com/netflix/simianarmy/aws/janitor/rule/asg/OldEmptyASGRule.java"
+                },
+                {
+                    "@type": "item",
+                    "name": "src/main/java/com/netflix/simianarmy/basic/janitor/BasicJanitorRuleEngine.java"
+                },
+                {
+                    "@type": "item",
+                    "name": "src/main/java/com/netflix/simianarmy/aws/janitor/rule/volume/OldDetachedVolumeRule.java"
+                },
+                {
+                    "@type": "item",
+                    "name": "src/main/java/com/netflix/simianarmy/basic/janitor/BasicJanitorMonkeyContext.java"
+                },
+                {
+                    "@type": "item",
+                    "name": "src/main/java/com/netflix/simianarmy/aws/janitor/rule/generic/TagValueExclusionRule.java"
+                },
+                {
+                    "@type": "item",
+                    "name": "src/main/java/com/netflix/simianarmy/aws/janitor/rule/asg/ASGInstanceValidator.java"
+                },
+                {
+                    "@type": "item",
+                    "name": "src/main/java/com/netflix/simianarmy/janitor/JanitorRuleEngine.java"
+                },
+                {
+                    "@type": "item",
+                    "name": "src/main/java/com/netflix/simianarmy/aws/janitor/rule/volume/DeleteOnTerminationRule.java"
+                },
+                {
+                    "@type": "item",
+                    "name": "src/main/java/com/netflix/simianarmy/janitor/Rule.java"
+                },
+                {
+                    "@type": "item",
+                    "name": "src/main/java/com/netflix/simianarmy/janitor/JanitorCrawler.java"
+                },
+                {
+                    "@type": "item",
+                    "name": "src/main/java/com/netflix/simianarmy/MonkeyCalendar.java"
+                },
+                {
+                    "@type": "item",
+                    "name": "src/main/java/com/netflix/simianarmy/aws/janitor/rule/asg/DummyASGInstanceValidator.java"
+                },
+                {
+                    "@type": "item",
+                    "name": "src/main/java/com/netflix/simianarmy/aws/janitor/rule/generic/UntaggedRule.java"
+                },
+                {
+                    "@type": "item",
+                    "name": "src/main/java/com/netflix/simianarmy/aws/janitor/rule/elb/OrphanedELBRule.java"
+                },
+                {
+                    "@type": "item",
+                    "name": "src/main/java/com/netflix/simianarmy/aws/janitor/rule/snapshot/NoGeneratedAMIRule.java"
+                },
+                {
+                    "@type": "item",
+                    "name": "src/main/java/com/netflix/simianarmy/aws/janitor/rule/asg/SuspendedASGRule.java"
+                },
+                {
+                    "@type": "item",
+                    "name": "src/main/java/com/netflix/simianarmy/aws/janitor/rule/launchconfig/OldUnusedLaunchConfigRule.java"
+                },
+                {
+                    "@type": "item",
+                    "name": "src/main/java/com/netflix/simianarmy/aws/janitor/rule/ami/UnusedImageRule.java"
+                }
+            ]
+        },
+        {
+            "@type": "group",
+            "name": "6",
+            "nested": [
+                {
+                    "@type": "item",
+                    "name": "src/main/java/com/netflix/simianarmy/EventType.java"
+                },
+                {
+                    "@type": "item",
+                    "name": "src/main/java/com/netflix/simianarmy/aws/STSAssumeRoleSessionCredentialsProvider.java"
+                },
+                {
+                    "@type": "item",
+                    "name": "src/main/java/com/netflix/simianarmy/basic/BasicScheduler.java"
+                },
+                {
+                    "@type": "item",
+                    "name": "src/main/java/com/netflix/simianarmy/MonkeyScheduler.java"
+                },
+                {
+                    "@type": "item",
+                    "name": "src/main/java/com/netflix/simianarmy/resources/janitor/JanitorMonkeyResource.java"
+                },
+                {
+                    "@type": "item",
+                    "name": "src/main/java/com/netflix/simianarmy/basic/janitor/BasicJanitorMonkey.java"
+                },
+                {
+                    "@type": "item",
+                    "name": "src/main/java/com/netflix/simianarmy/janitor/JanitorMonkey.java"
+                },
+                {
+                    "@type": "item",
+                    "name": "src/main/java/com/netflix/simianarmy/MonkeyType.java"
+                },
+                {
+                    "@type": "item",
+                    "name": "src/main/java/com/netflix/simianarmy/NamedType.java"
+                },
+                {
+                    "@type": "item",
+                    "name": "src/main/java/com/netflix/simianarmy/Monkey.java"
+                },
+                {
+                    "@type": "item",
+                    "name": "src/main/java/com/netflix/simianarmy/MonkeyRecorder.java"
+                },
+                {
+                    "@type": "item",
+                    "name": "src/main/java/com/netflix/simianarmy/basic/BasicSimianArmyContext.java"
+                },
+                {
+                    "@type": "item",
+                    "name": "src/main/java/com/netflix/simianarmy/janitor/DryRunnableJanitorException.java"
+                },
+                {
+                    "@type": "item",
+                    "name": "src/main/java/com/netflix/simianarmy/basic/BasicRecorderEvent.java"
+                },
+                {
+                    "@type": "item",
+                    "name": "src/main/java/com/netflix/simianarmy/janitor/DryRunnableJanitor.java"
+                },
+                {
+                    "@type": "item",
+                    "name": "src/main/java/com/netflix/simianarmy/aws/RDSRecorder.java"
+                },
+                {
+                    "@type": "item",
+                    "name": "src/main/java/com/netflix/simianarmy/basic/BasicMonkeyServer.java"
+                },
+                {
+                    "@type": "item",
+                    "name": "src/main/java/com/netflix/simianarmy/MonkeyRunner.java"
+                },
+                {
+                    "@type": "item",
+                    "name": "src/main/java/com/netflix/simianarmy/basic/LocalDbRecorder.java"
+                },
+                {
+                    "@type": "item",
+                    "name": "src/main/java/com/netflix/simianarmy/aws/SimpleDBRecorder.java"
+                }
+            ]
+        },
+        {
+            "@type": "group",
+            "name": "7",
+            "nested": [
+                {
+                    "@type": "item",
+                    "name": "src/main/java/com/netflix/simianarmy/aws/janitor/ImageJanitor.java"
+                },
+                {
+                    "@type": "item",
+                    "name": "src/main/java/com/netflix/simianarmy/aws/janitor/ELBJanitor.java"
+                },
+                {
+                    "@type": "item",
+                    "name": "src/main/java/com/netflix/simianarmy/aws/janitor/ASGJanitor.java"
+                },
+                {
+                    "@type": "item",
+                    "name": "src/main/java/com/netflix/simianarmy/basic/janitor/BasicVolumeTaggingMonkeyContext.java"
+                },
+                {
+                    "@type": "item",
+                    "name": "src/main/java/com/netflix/simianarmy/aws/janitor/VolumeTaggingMonkey.java"
+                },
+                {
+                    "@type": "item",
+                    "name": "src/main/java/com/netflix/simianarmy/aws/janitor/InstanceJanitor.java"
+                },
+                {
+                    "@type": "item",
+                    "name": "src/main/java/com/netflix/simianarmy/aws/janitor/LaunchConfigJanitor.java"
+                },
+                {
+                    "@type": "item",
+                    "name": "src/main/java/com/netflix/simianarmy/client/aws/AWSClient.java"
+                },
+                {
+                    "@type": "item",
+                    "name": "src/main/java/com/netflix/simianarmy/aws/janitor/EBSSnapshotJanitor.java"
+                },
+                {
+                    "@type": "item",
+                    "name": "src/main/java/com/netflix/simianarmy/aws/janitor/crawler/AbstractAWSJanitorCrawler.java"
+                },
+                {
+                    "@type": "item",
+                    "name": "src/main/java/com/netflix/simianarmy/aws/janitor/EBSVolumeJanitor.java"
+                }
+            ]
+        },
+        {
+            "@type": "group",
+            "name": "8",
+            "nested": [
+                {
+                    "@type": "item",
+                    "name": "src/test/java/com/netflix/simianarmy/aws/janitor/crawler/TestLaunchConfigJanitorCrawler.java"
+                },
+                {
+                    "@type": "item",
+                    "name": "src/test/java/com/netflix/simianarmy/aws/janitor/TestAWSResource.java"
+                },
+                {
+                    "@type": "item",
+                    "name": "src/test/java/com/netflix/simianarmy/aws/janitor/crawler/TestEBSVolumeJanitorCrawler.java"
+                },
+                {
+                    "@type": "item",
+                    "name": "src/test/java/com/netflix/simianarmy/aws/janitor/crawler/TestASGJanitorCrawler.java"
+                },
+                {
+                    "@type": "item",
+                    "name": "src/test/java/com/netflix/simianarmy/aws/janitor/crawler/TestEBSSnapshotJanitorCrawler.java"
+                },
+                {
+                    "@type": "item",
+                    "name": "src/test/java/com/netflix/simianarmy/aws/janitor/crawler/TestInstanceJanitorCrawler.java"
+                },
+                {
+                    "@type": "item",
+                    "name": "src/test/java/com/netflix/simianarmy/aws/conformity/TestASGOwnerEmailTag.java"
+                }
+            ]
+        },
+        {
+            "@type": "group",
+            "name": "9",
+            "nested": [
+                {
+                    "@type": "item",
+                    "name": "src/test/java/com/netflix/simianarmy/basic/chaos/TestCloudFormationChaosMonkey.java"
+                },
+                {
+                    "@type": "item",
+                    "name": "src/test/java/com/netflix/simianarmy/basic/chaos/TestBasicChaosMonkey.java"
+                },
+                {
+                    "@type": "item",
+                    "name": "src/test/java/com/netflix/simianarmy/chaos/TestChaosMonkeyContext.java"
+                },
+                {
+                    "@type": "item",
+                    "name": "src/test/java/com/netflix/simianarmy/chaos/TestChaosMonkeyArmy.java"
+                },
+                {
+                    "@type": "item",
+                    "name": "src/test/java/com/netflix/simianarmy/basic/chaos/TestBasicChaosEmailNotifier.java"
+                },
+                {
+                    "@type": "item",
+                    "name": "src/test/java/com/netflix/simianarmy/resources/chaos/TestChaosMonkeyResource.java"
+                },
+                {
+                    "@type": "item",
+                    "name": "src/test/java/com/netflix/simianarmy/tunable/TestTunablyAggressiveChaosMonkey.java"
+                }
+            ]
+        },
+        {
+            "@type": "group",
+            "name": "10",
+            "nested": [
+                {
+                    "@type": "item",
+                    "name": "src/main/java/com/netflix/simianarmy/janitor/JanitorEmailBuilder.java"
+                },
+                {
+                    "@type": "item",
+                    "name": "src/main/java/com/netflix/simianarmy/janitor/JanitorEmailNotifier.java"
+                },
+                {
+                    "@type": "item",
+                    "name": "src/main/java/com/netflix/simianarmy/EmailBuilder.java"
+                },
+                {
+                    "@type": "item",
+                    "name": "src/main/java/com/netflix/simianarmy/AbstractEmailBuilder.java"
+                },
+                {
+                    "@type": "item",
+                    "name": "src/main/java/com/netflix/simianarmy/MonkeyEmailNotifier.java"
+                },
+                {
+                    "@type": "item",
+                    "name": "src/main/java/com/netflix/simianarmy/aws/AWSEmailNotifier.java"
+                }
+            ]
+        },
+        {
+            "@type": "group",
+            "name": "11",
+            "nested": [
+                {
+                    "@type": "item",
+                    "name": "src/main/java/com/netflix/simianarmy/client/vsphere/PropertyBasedTerminationStrategy.java"
+                },
+                {
+                    "@type": "item",
+                    "name": "src/main/java/com/netflix/simianarmy/client/vsphere/TerminationStrategy.java"
+                },
+                {
+                    "@type": "item",
+                    "name": "src/main/java/com/netflix/simianarmy/client/vsphere/VSphereContext.java"
+                },
+                {
+                    "@type": "item",
+                    "name": "src/main/java/com/netflix/simianarmy/client/vsphere/VSphereClient.java"
+                },
+                {
+                    "@type": "item",
+                    "name": "src/main/java/com/netflix/simianarmy/client/vsphere/VSphereServiceConnection.java"
+                }
+            ]
+        },
+        {
+            "@type": "group",
+            "name": "12",
+            "nested": [
+                {
+                    "@type": "item",
+                    "name": "src/test/java/com/netflix/simianarmy/client/vsphere/TestVSphereGroups.java"
+                },
+                {
+                    "@type": "item",
+                    "name": "src/test/java/com/netflix/simianarmy/client/aws/chaos/TestFilterASGChaosCrawler.java"
+                }
+            ]
+        },
+        {
+            "@type": "group",
+            "name": "13",
+            "nested": [
+                {
+                    "@type": "item",
+                    "name": "src/test/java/com/netflix/simianarmy/conformity/TestSameZonesInElbAndAsg.java"
+                },
+                {
+                    "@type": "item",
+                    "name": "src/test/java/com/netflix/simianarmy/conformity/TestCrossZoneLoadBalancing.java"
+                }
+            ]
+        },
+        {
+            "@type": "group",
+            "name": "14",
+            "nested": [
+                {
+                    "@type": "item",
+                    "name": "src/test/java/com/netflix/simianarmy/aws/TestAWSEmailNotifier.java"
+                }
+            ]
+        },
+        {
+            "@type": "group",
+            "name": "15",
+            "nested": [
+                {
+                    "@type": "item",
+                    "name": "src/test/java/com/netflix/simianarmy/aws/conformity/TestRDSConformityClusterTracker.java"
+                }
+            ]
+        },
+        {
+            "@type": "group",
+            "name": "16",
+            "nested": [
+                {
+                    "@type": "item",
+                    "name": "src/test/java/com/netflix/simianarmy/basic/calendar/TestBavarianCalendar.java"
+                }
+            ]
+        },
+        {
+            "@type": "group",
+            "name": "17",
+            "nested": [
+                {
+                    "@type": "item",
+                    "name": "src/test/java/com/netflix/simianarmy/basic/chaos/TestBasicChaosInstanceSelector.java"
+                }
+            ]
+        },
+        {
+            "@type": "group",
+            "name": "18",
+            "nested": [
+                {
+                    "@type": "item",
+                    "name": "src/test/java/com/netflix/simianarmy/client/aws/chaos/TestASGChaosCrawler.java"
+                }
+            ]
+        },
+        {
+            "@type": "group",
+            "name": "19",
+            "nested": [
+                {
+                    "@type": "item",
+                    "name": "src/test/java/com/netflix/simianarmy/client/vsphere/TestVSphereServiceConnection.java"
+                }
+            ]
+        }
+    ]
+}

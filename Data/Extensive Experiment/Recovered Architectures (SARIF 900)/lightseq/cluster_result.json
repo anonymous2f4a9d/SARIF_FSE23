@@ -1,0 +1,1250 @@
+{
+    "@schemaVersion": "1.0",
+    "name": "clustering",
+    "structure": [
+        {
+            "@type": "group",
+            "name": "0",
+            "nested": [
+                {
+                    "@type": "item",
+                    "name": "lightseq/inference/model/moe_encoder.h"
+                },
+                {
+                    "@type": "item",
+                    "name": "lightseq/inference/proto/gpt_weight.h"
+                },
+                {
+                    "@type": "item",
+                    "name": "lightseq/inference/proto/transformer_weight.h"
+                },
+                {
+                    "@type": "item",
+                    "name": "lightseq/inference/model/t5_encoder.h"
+                },
+                {
+                    "@type": "item",
+                    "name": "lightseq/inference/proto/vit_weight.h"
+                },
+                {
+                    "@type": "item",
+                    "name": "lightseq/inference/proto/quant_transformer_weight.h"
+                },
+                {
+                    "@type": "item",
+                    "name": "lightseq/inference/model/vit_encoder.h"
+                },
+                {
+                    "@type": "item",
+                    "name": "lightseq/inference/proto/quant_gpt_weight.h"
+                },
+                {
+                    "@type": "item",
+                    "name": "lightseq/inference/model/moe_decoder.h"
+                },
+                {
+                    "@type": "item",
+                    "name": "lightseq/inference/model/decoder.h"
+                },
+                {
+                    "@type": "item",
+                    "name": "lightseq/inference/model/quant_vit_encoder.h"
+                },
+                {
+                    "@type": "item",
+                    "name": "lightseq/inference/model/gpt_encoder.h"
+                },
+                {
+                    "@type": "item",
+                    "name": "lightseq/inference/model/bert_encoder.h"
+                },
+                {
+                    "@type": "item",
+                    "name": "lightseq/inference/proto/moe_weight.h"
+                },
+                {
+                    "@type": "item",
+                    "name": "lightseq/inference/proto/mt5_weight.h"
+                },
+                {
+                    "@type": "item",
+                    "name": "lightseq/inference/model/quant_encoder.h"
+                },
+                {
+                    "@type": "item",
+                    "name": "lightseq/inference/model/quant_gpt_encoder.h"
+                },
+                {
+                    "@type": "item",
+                    "name": "lightseq/inference/proto/bert_weight.h"
+                },
+                {
+                    "@type": "item",
+                    "name": "lightseq/inference/proto/quant_vit_weight.h"
+                },
+                {
+                    "@type": "item",
+                    "name": "lightseq/inference/model/mt5_encoder.h"
+                },
+                {
+                    "@type": "item",
+                    "name": "lightseq/inference/proto/t5_weight.h"
+                },
+                {
+                    "@type": "item",
+                    "name": "lightseq/inference/model/encoder.h"
+                },
+                {
+                    "@type": "item",
+                    "name": "lightseq/inference/model/quant_decoder.h"
+                },
+                {
+                    "@type": "item",
+                    "name": "lightseq/inference/model/quant_bert_encoder.h"
+                },
+                {
+                    "@type": "item",
+                    "name": "lightseq/inference/model/mt5_decoder.h"
+                },
+                {
+                    "@type": "item",
+                    "name": "lightseq/inference/proto/quant_bert_weight.h"
+                },
+                {
+                    "@type": "item",
+                    "name": "lightseq/inference/model/t5_decoder.h"
+                }
+            ]
+        },
+        {
+            "@type": "group",
+            "name": "1",
+            "nested": [
+                {
+                    "@type": "item",
+                    "name": "lightseq/csrc/layers_new/includes/gpt_layer.h"
+                },
+                {
+                    "@type": "item",
+                    "name": "lightseq/csrc/layers_new/includes/llama_mlp_layer.h"
+                },
+                {
+                    "@type": "item",
+                    "name": "lightseq/csrc/layers_new/gpt_attention_layer.cpp"
+                },
+                {
+                    "@type": "item",
+                    "name": "lightseq/csrc/layers_new/multihead_attention_layer.cpp"
+                },
+                {
+                    "@type": "item",
+                    "name": "lightseq/csrc/layers_new/crf_layer.cpp"
+                },
+                {
+                    "@type": "item",
+                    "name": "lightseq/csrc/layers_new/includes/generator_layer.h"
+                },
+                {
+                    "@type": "item",
+                    "name": "lightseq/csrc/layers_new/llama_layer.cpp"
+                },
+                {
+                    "@type": "item",
+                    "name": "lightseq/csrc/layers_new/transformer_encoder_layer.cpp"
+                },
+                {
+                    "@type": "item",
+                    "name": "lightseq/csrc/layers_new/includes/transformer_encoder_layer.h"
+                },
+                {
+                    "@type": "item",
+                    "name": "lightseq/csrc/layers_new/encdec_kv_layer.cpp"
+                },
+                {
+                    "@type": "item",
+                    "name": "lightseq/csrc/layers_new/llama_attention_layer.cpp"
+                },
+                {
+                    "@type": "item",
+                    "name": "lightseq/csrc/layers_new/generator_layer.cpp"
+                },
+                {
+                    "@type": "item",
+                    "name": "lightseq/csrc/layers_new/gpt_layer.cpp"
+                },
+                {
+                    "@type": "item",
+                    "name": "lightseq/csrc/layers_new/dec_enc_attention_layer.cpp"
+                },
+                {
+                    "@type": "item",
+                    "name": "lightseq/csrc/layers_new/includes/transformer_decoder_layer.h"
+                },
+                {
+                    "@type": "item",
+                    "name": "lightseq/csrc/layers_new/llama_mlp_layer.cpp"
+                },
+                {
+                    "@type": "item",
+                    "name": "lightseq/csrc/layers_new/sample_layer.cpp"
+                },
+                {
+                    "@type": "item",
+                    "name": "lightseq/csrc/layers_new/transformer_decoder_layer.cpp"
+                },
+                {
+                    "@type": "item",
+                    "name": "lightseq/csrc/layers_new/includes/feed_forward_layer.h"
+                },
+                {
+                    "@type": "item",
+                    "name": "lightseq/csrc/layers_new/includes/llama_layer.h"
+                },
+                {
+                    "@type": "item",
+                    "name": "lightseq/csrc/layers_new/includes/encdec_kv_layer.h"
+                },
+                {
+                    "@type": "item",
+                    "name": "lightseq/csrc/layers_new/feed_forward_layer.cpp"
+                },
+                {
+                    "@type": "item",
+                    "name": "lightseq/csrc/layers_new/linear_layer.cpp"
+                },
+                {
+                    "@type": "item",
+                    "name": "lightseq/csrc/layers_new/dec_self_attention_layer.cpp"
+                },
+                {
+                    "@type": "item",
+                    "name": "lightseq/csrc/layers_new/includes/sample_layer.h"
+                }
+            ]
+        },
+        {
+            "@type": "group",
+            "name": "2",
+            "nested": [
+                {
+                    "@type": "item",
+                    "name": "lightseq/csrc/layers_new/includes/crf_layer.h"
+                },
+                {
+                    "@type": "item",
+                    "name": "lightseq/csrc/ops_new/includes/crf.h"
+                },
+                {
+                    "@type": "item",
+                    "name": "lightseq/csrc/lsflow/includes/tensor.h"
+                },
+                {
+                    "@type": "item",
+                    "name": "lightseq/csrc/lsflow/tensor.cpp"
+                },
+                {
+                    "@type": "item",
+                    "name": "lightseq/csrc/lsflow/includes/allocator.h"
+                },
+                {
+                    "@type": "item",
+                    "name": "lightseq/csrc/lsflow/allocator.cpp"
+                },
+                {
+                    "@type": "item",
+                    "name": "lightseq/csrc/layers_new/includes/lyr_normalize_layer.h"
+                },
+                {
+                    "@type": "item",
+                    "name": "lightseq/csrc/lsflow/includes/node.h"
+                },
+                {
+                    "@type": "item",
+                    "name": "lightseq/csrc/lsflow/operator.cpp"
+                },
+                {
+                    "@type": "item",
+                    "name": "lightseq/csrc/lsflow/variable.cpp"
+                },
+                {
+                    "@type": "item",
+                    "name": "lightseq/csrc/lsflow/node.cpp"
+                },
+                {
+                    "@type": "item",
+                    "name": "lightseq/csrc/ops_new/includes/beam_search_topk.h"
+                },
+                {
+                    "@type": "item",
+                    "name": "lightseq/csrc/pybind/pybind_layer_new.cpp"
+                },
+                {
+                    "@type": "item",
+                    "name": "lightseq/csrc/ops/includes/context.h"
+                },
+                {
+                    "@type": "item",
+                    "name": "lightseq/csrc/pybind/pybind_adam.cpp"
+                },
+                {
+                    "@type": "item",
+                    "name": "lightseq/csrc/lsflow/includes/context.h"
+                },
+                {
+                    "@type": "item",
+                    "name": "lightseq/csrc/layers_new/includes/linear_layer.h"
+                },
+                {
+                    "@type": "item",
+                    "name": "lightseq/csrc/lsflow/includes/manager.h"
+                },
+                {
+                    "@type": "item",
+                    "name": "lightseq/csrc/lsflow/manager.cpp"
+                },
+                {
+                    "@type": "item",
+                    "name": "lightseq/csrc/lsflow/includes/shape.h"
+                },
+                {
+                    "@type": "item",
+                    "name": "lightseq/csrc/lsflow/shape.cpp"
+                },
+                {
+                    "@type": "item",
+                    "name": "lightseq/csrc/ops_new/crf.cpp"
+                },
+                {
+                    "@type": "item",
+                    "name": "lightseq/csrc/lsflow/context.cpp"
+                },
+                {
+                    "@type": "item",
+                    "name": "lightseq/csrc/pybind/pybind_layer.cpp"
+                },
+                {
+                    "@type": "item",
+                    "name": "lightseq/csrc/lsflow/includes/declaration.h"
+                },
+                {
+                    "@type": "item",
+                    "name": "lightseq/csrc/layers_new/includes/rms_norm_layer.h"
+                },
+                {
+                    "@type": "item",
+                    "name": "lightseq/csrc/kernels/cuda/includes/fused_adam_kernel.h"
+                },
+                {
+                    "@type": "item",
+                    "name": "lightseq/csrc/lsflow/includes/lsflow_util.h"
+                },
+                {
+                    "@type": "item",
+                    "name": "lightseq/csrc/lsflow/lsflow_util.cpp"
+                },
+                {
+                    "@type": "item",
+                    "name": "lightseq/csrc/lsflow/includes/layer.h"
+                },
+                {
+                    "@type": "item",
+                    "name": "lightseq/csrc/lsflow/layer.cpp"
+                },
+                {
+                    "@type": "item",
+                    "name": "lightseq/csrc/pybind/pybind_op.cpp"
+                },
+                {
+                    "@type": "item",
+                    "name": "lightseq/csrc/ops_new/includes/sampling.h"
+                }
+            ]
+        },
+        {
+            "@type": "group",
+            "name": "3",
+            "nested": [
+                {
+                    "@type": "item",
+                    "name": "lightseq/csrc/layers_new/includes/dec_enc_attention_layer.h"
+                },
+                {
+                    "@type": "item",
+                    "name": "lightseq/csrc/ops_new/includes/act_elewise_product.h"
+                },
+                {
+                    "@type": "item",
+                    "name": "lightseq/csrc/ops_new/includes/rms_layer_norm.h"
+                },
+                {
+                    "@type": "item",
+                    "name": "lightseq/csrc/ops_new/includes/softmax.h"
+                },
+                {
+                    "@type": "item",
+                    "name": "lightseq/csrc/ops_new/act_elewise_product.cpp"
+                },
+                {
+                    "@type": "item",
+                    "name": "lightseq/csrc/ops/includes/strided_batch_gemm.h"
+                },
+                {
+                    "@type": "item",
+                    "name": "lightseq/csrc/layers_new/includes/dec_self_attention_layer.h"
+                },
+                {
+                    "@type": "item",
+                    "name": "lightseq/csrc/ops_new/includes/strided_batch_gemm.h"
+                },
+                {
+                    "@type": "item",
+                    "name": "lightseq/csrc/ops_new/strided_batch_gemm.cpp"
+                },
+                {
+                    "@type": "item",
+                    "name": "lightseq/training/csrc/ops/includes/strided_batch_gemm.h"
+                },
+                {
+                    "@type": "item",
+                    "name": "lightseq/csrc/ops_new/includes/linear.h"
+                },
+                {
+                    "@type": "item",
+                    "name": "lightseq/csrc/ops/includes/normalize_layer.h"
+                },
+                {
+                    "@type": "item",
+                    "name": "lightseq/csrc/ops_new/includes/layer_normalize.h"
+                },
+                {
+                    "@type": "item",
+                    "name": "lightseq/csrc/layers_new/includes/llama_attention_layer.h"
+                },
+                {
+                    "@type": "item",
+                    "name": "lightseq/csrc/layers_new/includes/gpt_attention_layer.h"
+                },
+                {
+                    "@type": "item",
+                    "name": "lightseq/csrc/ops_new/includes/fuse_add2_op.h"
+                },
+                {
+                    "@type": "item",
+                    "name": "lightseq/csrc/ops_new/fuse_add2_op.cpp"
+                },
+                {
+                    "@type": "item",
+                    "name": "lightseq/csrc/ops_new/includes/bias_add_transform_20314.h"
+                },
+                {
+                    "@type": "item",
+                    "name": "lightseq/csrc/layers_new/includes/multihead_attention_layer.h"
+                },
+                {
+                    "@type": "item",
+                    "name": "lightseq/csrc/layers_new/includes/sdpa_layer.h"
+                },
+                {
+                    "@type": "item",
+                    "name": "lightseq/csrc/ops_new/bias_add_transform_20314.cpp"
+                },
+                {
+                    "@type": "item",
+                    "name": "lightseq/csrc/layers_new/sdpa_layer.cpp"
+                },
+                {
+                    "@type": "item",
+                    "name": "lightseq/csrc/ops/includes/softmax.h"
+                }
+            ]
+        },
+        {
+            "@type": "group",
+            "name": "4",
+            "nested": [
+                {
+                    "@type": "item",
+                    "name": "lightseq/inference/kernels/moeKernels.h"
+                },
+                {
+                    "@type": "item",
+                    "name": "lightseq/csrc/kernels/cuda/includes/llama_kernels.h"
+                },
+                {
+                    "@type": "item",
+                    "name": "lightseq/inference/model/cublas_algo_map.h"
+                },
+                {
+                    "@type": "item",
+                    "name": "lightseq/inference/model/cublas_algo_map.cc"
+                },
+                {
+                    "@type": "item",
+                    "name": "lightseq/csrc/kernels/cuda/includes/transformerKernels.h"
+                },
+                {
+                    "@type": "item",
+                    "name": "lightseq/inference/kernels/gptKernels.h"
+                },
+                {
+                    "@type": "item",
+                    "name": "lightseq/csrc/layers/transformer_embedding_layer.cpp"
+                },
+                {
+                    "@type": "item",
+                    "name": "lightseq/csrc/layers/transformer_encoder_layer.cpp"
+                },
+                {
+                    "@type": "item",
+                    "name": "lightseq/csrc/kernels/cuda/includes/kernels.h"
+                },
+                {
+                    "@type": "item",
+                    "name": "lightseq/inference/kernels/multilgKernels.h"
+                },
+                {
+                    "@type": "item",
+                    "name": "lightseq/csrc/kernels/cuda/includes/gptKernels.h"
+                },
+                {
+                    "@type": "item",
+                    "name": "lightseq/csrc/layers/includes/quant_linear_layer.h"
+                },
+                {
+                    "@type": "item",
+                    "name": "lightseq/inference/kernels/gptKernels_int8.h"
+                },
+                {
+                    "@type": "item",
+                    "name": "lightseq/csrc/kernels/cuda/includes/cuda_util.h"
+                },
+                {
+                    "@type": "item",
+                    "name": "lightseq/csrc/layers/transformer_decoder_layer.cpp"
+                },
+                {
+                    "@type": "item",
+                    "name": "lightseq/csrc/layers/includes/transformer_embedding_layer.h"
+                },
+                {
+                    "@type": "item",
+                    "name": "lightseq/csrc/pybind/pybind_kernel_cuda.cpp"
+                },
+                {
+                    "@type": "item",
+                    "name": "lightseq/csrc/kernels/cuda/includes/cublas_algo_map.h"
+                },
+                {
+                    "@type": "item",
+                    "name": "lightseq/csrc/kernels/cuda/cublas_algo_map.cpp"
+                },
+                {
+                    "@type": "item",
+                    "name": "lightseq/csrc/ops/includes/feed_forward.h"
+                },
+                {
+                    "@type": "item",
+                    "name": "lightseq/inference/model/cublas_helper.h"
+                },
+                {
+                    "@type": "item",
+                    "name": "lightseq/inference/model/cublas_helper.cc"
+                },
+                {
+                    "@type": "item",
+                    "name": "lightseq/csrc/layers/quant_linear_layer.cpp"
+                },
+                {
+                    "@type": "item",
+                    "name": "lightseq/inference/kernels/transformerKernels.h"
+                },
+                {
+                    "@type": "item",
+                    "name": "lightseq/inference/kernels/transformerKernels_int8.h"
+                },
+                {
+                    "@type": "item",
+                    "name": "lightseq/csrc/kernels/cuda/includes/cublas_wrappers.h"
+                },
+                {
+                    "@type": "item",
+                    "name": "lightseq/csrc/kernels/cuda/cublas_wrappers.cpp"
+                }
+            ]
+        },
+        {
+            "@type": "group",
+            "name": "5",
+            "nested": [
+                {
+                    "@type": "item",
+                    "name": "lightseq/csrc/ops/includes/dropout.h"
+                },
+                {
+                    "@type": "item",
+                    "name": "lightseq/csrc/ops_new/launch_dec_emb_op.cpp"
+                },
+                {
+                    "@type": "item",
+                    "name": "lightseq/csrc/ops_new/layer_normalize.cpp"
+                },
+                {
+                    "@type": "item",
+                    "name": "lightseq/csrc/ops_new/launch_enc_emb.cpp"
+                },
+                {
+                    "@type": "item",
+                    "name": "lightseq/csrc/ops_new/linear.cpp"
+                },
+                {
+                    "@type": "item",
+                    "name": "lightseq/csrc/ops_new/includes/transform_0213.h"
+                },
+                {
+                    "@type": "item",
+                    "name": "lightseq/csrc/ops_new/includes/concat3_dim1.h"
+                },
+                {
+                    "@type": "item",
+                    "name": "lightseq/csrc/ops_new/launch_llama_emb.cpp"
+                },
+                {
+                    "@type": "item",
+                    "name": "lightseq/csrc/ops_new/bias_dropout_residual.cpp"
+                },
+                {
+                    "@type": "item",
+                    "name": "lightseq/csrc/ops_new/includes/split_head_op.h"
+                },
+                {
+                    "@type": "item",
+                    "name": "lightseq/csrc/ops_new/transform_0213.cpp"
+                },
+                {
+                    "@type": "item",
+                    "name": "lightseq/csrc/ops_new/split_head_op.cpp"
+                },
+                {
+                    "@type": "item",
+                    "name": "lightseq/csrc/ops_new/softmax.cpp"
+                },
+                {
+                    "@type": "item",
+                    "name": "lightseq/csrc/ops_new/bias_act_dropout.cpp"
+                },
+                {
+                    "@type": "item",
+                    "name": "lightseq/csrc/ops_new/launch_gpt_emb.cpp"
+                },
+                {
+                    "@type": "item",
+                    "name": "lightseq/csrc/ops_new/includes/bias_dropout_residual.h"
+                },
+                {
+                    "@type": "item",
+                    "name": "lightseq/csrc/ops_new/includes/dropout.h"
+                },
+                {
+                    "@type": "item",
+                    "name": "lightseq/csrc/ops_new/rms_layer_norm.cpp"
+                },
+                {
+                    "@type": "item",
+                    "name": "lightseq/csrc/ops_new/dropout.cpp"
+                },
+                {
+                    "@type": "item",
+                    "name": "lightseq/csrc/ops_new/includes/bias_act_dropout.h"
+                },
+                {
+                    "@type": "item",
+                    "name": "lightseq/csrc/ops_new/concat3_dim1.cpp"
+                }
+            ]
+        },
+        {
+            "@type": "group",
+            "name": "6",
+            "nested": [
+                {
+                    "@type": "item",
+                    "name": "examples/inference/cpp/bert_example.cc"
+                },
+                {
+                    "@type": "item",
+                    "name": "lightseq/csrc/models/test_layer.cc"
+                },
+                {
+                    "@type": "item",
+                    "name": "lightseq/csrc/example/transformer_example.cc"
+                },
+                {
+                    "@type": "item",
+                    "name": "examples/inference/cpp/transformer_example.cc"
+                },
+                {
+                    "@type": "item",
+                    "name": "examples/inference/cpp/vit_example.cc"
+                },
+                {
+                    "@type": "item",
+                    "name": "lightseq/csrc/example/gpt_example.cc"
+                },
+                {
+                    "@type": "item",
+                    "name": "lightseq/csrc/layers/includes/transformer_encoder_layer.h"
+                },
+                {
+                    "@type": "item",
+                    "name": "lightseq/csrc/layers/includes/transformer_decoder_layer.h"
+                },
+                {
+                    "@type": "item",
+                    "name": "examples/inference/cpp/quant_bert_example.cc"
+                },
+                {
+                    "@type": "item",
+                    "name": "examples/inference/cpp/quant_transformer_example.cc"
+                },
+                {
+                    "@type": "item",
+                    "name": "examples/inference/cpp/quant_vit_example.cc"
+                },
+                {
+                    "@type": "item",
+                    "name": "examples/inference/cpp/quant_gpt_example.cc"
+                },
+                {
+                    "@type": "item",
+                    "name": "lightseq/csrc/example/llama_example.cc"
+                },
+                {
+                    "@type": "item",
+                    "name": "examples/inference/cpp/gpt_example.cc"
+                },
+                {
+                    "@type": "item",
+                    "name": "lightseq/csrc/example/bert_example.cc"
+                }
+            ]
+        },
+        {
+            "@type": "group",
+            "name": "7",
+            "nested": [
+                {
+                    "@type": "item",
+                    "name": "lightseq/csrc/proto/includes/gpt_weight.h"
+                },
+                {
+                    "@type": "item",
+                    "name": "lightseq/csrc/proto/gpt_weight.cc"
+                },
+                {
+                    "@type": "item",
+                    "name": "lightseq/csrc/proto/includes/proto_util.h"
+                },
+                {
+                    "@type": "item",
+                    "name": "lightseq/csrc/proto/proto_util.cc"
+                },
+                {
+                    "@type": "item",
+                    "name": "lightseq/csrc/proto/includes/bert_weight.h"
+                },
+                {
+                    "@type": "item",
+                    "name": "lightseq/csrc/proto/bert_weight.cc"
+                },
+                {
+                    "@type": "item",
+                    "name": "lightseq/csrc/proto/includes/transformer_weight.h"
+                },
+                {
+                    "@type": "item",
+                    "name": "lightseq/csrc/proto/includes/test_model_weight.h"
+                },
+                {
+                    "@type": "item",
+                    "name": "lightseq/csrc/proto/includes/bert_crf_weight.h"
+                },
+                {
+                    "@type": "item",
+                    "name": "lightseq/csrc/proto/bert_crf_weight.cc"
+                },
+                {
+                    "@type": "item",
+                    "name": "lightseq/csrc/proto/llama_weight.cc"
+                },
+                {
+                    "@type": "item",
+                    "name": "lightseq/csrc/proto/includes/proto_headers.h"
+                },
+                {
+                    "@type": "item",
+                    "name": "lightseq/csrc/proto/transformer_weight.cc"
+                },
+                {
+                    "@type": "item",
+                    "name": "lightseq/csrc/proto/includes/hdf5_util.h"
+                },
+                {
+                    "@type": "item",
+                    "name": "lightseq/csrc/proto/includes/llama_weight.h"
+                }
+            ]
+        },
+        {
+            "@type": "group",
+            "name": "8",
+            "nested": [
+                {
+                    "@type": "item",
+                    "name": "lightseq/csrc/ops_new/includes/launch_enc_emb.h"
+                },
+                {
+                    "@type": "item",
+                    "name": "lightseq/inference/kernels/embKernels_int8.h"
+                },
+                {
+                    "@type": "item",
+                    "name": "lightseq/csrc/kernels/cuda/includes/embKernels.h"
+                },
+                {
+                    "@type": "item",
+                    "name": "lightseq/csrc/layers_new/includes/launch_dec_emb_layer.h"
+                },
+                {
+                    "@type": "item",
+                    "name": "lightseq/csrc/layers_new/includes/launch_llama_emb_layer.h"
+                },
+                {
+                    "@type": "item",
+                    "name": "lightseq/csrc/ops_new/includes/launch_dec_emb_op.h"
+                },
+                {
+                    "@type": "item",
+                    "name": "lightseq/csrc/ops_new/includes/launch_gpt_emb.h"
+                },
+                {
+                    "@type": "item",
+                    "name": "lightseq/inference/kernels/t5EmbKernels.h"
+                },
+                {
+                    "@type": "item",
+                    "name": "lightseq/csrc/ops_new/includes/launch_llama_emb.h"
+                },
+                {
+                    "@type": "item",
+                    "name": "lightseq/inference/kernels/embKernels.h"
+                },
+                {
+                    "@type": "item",
+                    "name": "lightseq/csrc/layers_new/includes/launch_enc_emb_layer.h"
+                },
+                {
+                    "@type": "item",
+                    "name": "lightseq/csrc/layers_new/includes/launch_gpt_emb_layer.h"
+                },
+                {
+                    "@type": "item",
+                    "name": "lightseq/csrc/ops_new/includes/fuse_rotary_position_qkv.h"
+                },
+                {
+                    "@type": "item",
+                    "name": "lightseq/csrc/ops_new/fuse_rotary_position_qkv.cpp"
+                }
+            ]
+        },
+        {
+            "@type": "group",
+            "name": "9",
+            "nested": [
+                {
+                    "@type": "item",
+                    "name": "lightseq/csrc/kernels/arm/includes/utils.h"
+                },
+                {
+                    "@type": "item",
+                    "name": "lightseq/csrc/kernels/arm/utils.cc"
+                },
+                {
+                    "@type": "item",
+                    "name": "lightseq/csrc/kernels/x86/includes/kernel_headers.h"
+                },
+                {
+                    "@type": "item",
+                    "name": "lightseq/csrc/kernels/cuda/includes/util.h"
+                },
+                {
+                    "@type": "item",
+                    "name": "lightseq/csrc/kernels/cuda/gemm_test.cpp"
+                },
+                {
+                    "@type": "item",
+                    "name": "lightseq/csrc/pybind/pybind_kernel_x86.cpp"
+                },
+                {
+                    "@type": "item",
+                    "name": "lightseq/csrc/kernels/arm/includes/kernel_headers.h"
+                },
+                {
+                    "@type": "item",
+                    "name": "lightseq/csrc/layers/cross_entropy_layer.cpp"
+                },
+                {
+                    "@type": "item",
+                    "name": "lightseq/csrc/kernels/x86/includes/util.h"
+                },
+                {
+                    "@type": "item",
+                    "name": "lightseq/csrc/kernels/x86/util.cc"
+                },
+                {
+                    "@type": "item",
+                    "name": "lightseq/csrc/kernels/x86/includes/kernels.h"
+                },
+                {
+                    "@type": "item",
+                    "name": "lightseq/csrc/kernels/x86/gemm.cpp"
+                },
+                {
+                    "@type": "item",
+                    "name": "lightseq/csrc/kernels/arm/gemm.cc"
+                },
+                {
+                    "@type": "item",
+                    "name": "lightseq/csrc/layers/includes/cross_entropy_layer.h"
+                },
+                {
+                    "@type": "item",
+                    "name": "lightseq/csrc/kernels/cuda/includes/kernel_headers.h"
+                },
+                {
+                    "@type": "item",
+                    "name": "lightseq/csrc/layers_new/launch_gpt_emb_layer.cpp"
+                }
+            ]
+        },
+        {
+            "@type": "group",
+            "name": "10",
+            "nested": [
+                {
+                    "@type": "item",
+                    "name": "lightseq/inference/pywrapper/wrapper.cc"
+                },
+                {
+                    "@type": "item",
+                    "name": "lightseq/inference/pywrapper/bert.h"
+                },
+                {
+                    "@type": "item",
+                    "name": "lightseq/inference/pywrapper/bert.cc"
+                },
+                {
+                    "@type": "item",
+                    "name": "lightseq/inference/pywrapper/quant_vit.h"
+                },
+                {
+                    "@type": "item",
+                    "name": "lightseq/inference/pywrapper/quant_vit.cc"
+                },
+                {
+                    "@type": "item",
+                    "name": "lightseq/inference/pywrapper/model_base.h"
+                },
+                {
+                    "@type": "item",
+                    "name": "lightseq/inference/pywrapper/quant_transformer.h"
+                },
+                {
+                    "@type": "item",
+                    "name": "lightseq/inference/pywrapper/quant_transformer.cc"
+                },
+                {
+                    "@type": "item",
+                    "name": "lightseq/inference/pywrapper/mt5.h"
+                },
+                {
+                    "@type": "item",
+                    "name": "lightseq/inference/pywrapper/mt5.cc"
+                },
+                {
+                    "@type": "item",
+                    "name": "lightseq/inference/pywrapper/gpt.h"
+                },
+                {
+                    "@type": "item",
+                    "name": "lightseq/inference/pywrapper/gpt.cc"
+                },
+                {
+                    "@type": "item",
+                    "name": "lightseq/inference/pywrapper/moe.h"
+                },
+                {
+                    "@type": "item",
+                    "name": "lightseq/inference/pywrapper/moe.cc"
+                },
+                {
+                    "@type": "item",
+                    "name": "lightseq/inference/pywrapper/vit.h"
+                },
+                {
+                    "@type": "item",
+                    "name": "lightseq/inference/pywrapper/vit.cc"
+                },
+                {
+                    "@type": "item",
+                    "name": "lightseq/inference/pywrapper/transformer.h"
+                },
+                {
+                    "@type": "item",
+                    "name": "lightseq/inference/pywrapper/transformer.cc"
+                },
+                {
+                    "@type": "item",
+                    "name": "lightseq/inference/pywrapper/t5.h"
+                },
+                {
+                    "@type": "item",
+                    "name": "lightseq/inference/pywrapper/t5.cc"
+                },
+                {
+                    "@type": "item",
+                    "name": "lightseq/inference/pywrapper/quant_gpt.h"
+                },
+                {
+                    "@type": "item",
+                    "name": "lightseq/inference/pywrapper/quant_gpt.cc"
+                },
+                {
+                    "@type": "item",
+                    "name": "lightseq/inference/pywrapper/quant_bert.h"
+                },
+                {
+                    "@type": "item",
+                    "name": "lightseq/inference/pywrapper/quant_bert.cc"
+                }
+            ]
+        },
+        {
+            "@type": "group",
+            "name": "11",
+            "nested": [
+                {
+                    "@type": "item",
+                    "name": "lightseq/inference/proto/moe_weight.cc"
+                },
+                {
+                    "@type": "item",
+                    "name": "lightseq/inference/proto/mt5_weight.cc"
+                },
+                {
+                    "@type": "item",
+                    "name": "lightseq/inference/proto/t5_weight.cc"
+                },
+                {
+                    "@type": "item",
+                    "name": "lightseq/inference/proto/transformer_weight.cc"
+                },
+                {
+                    "@type": "item",
+                    "name": "lightseq/inference/proto/gpt_weight.cc"
+                },
+                {
+                    "@type": "item",
+                    "name": "lightseq/inference/proto/bert_weight.cc"
+                },
+                {
+                    "@type": "item",
+                    "name": "lightseq/inference/tools/util.h"
+                },
+                {
+                    "@type": "item",
+                    "name": "lightseq/inference/proto/quant_vit_weight.cc"
+                },
+                {
+                    "@type": "item",
+                    "name": "lightseq/inference/proto/vit_weight.cc"
+                },
+                {
+                    "@type": "item",
+                    "name": "lightseq/inference/proto/quant_gpt_weight.cc"
+                },
+                {
+                    "@type": "item",
+                    "name": "lightseq/inference/proto/quant_transformer_weight.cc"
+                },
+                {
+                    "@type": "item",
+                    "name": "lightseq/inference/proto/quant_bert_weight.cc"
+                }
+            ]
+        },
+        {
+            "@type": "group",
+            "name": "12",
+            "nested": [
+                {
+                    "@type": "item",
+                    "name": "lightseq/csrc/models/includes/model_util.h"
+                },
+                {
+                    "@type": "item",
+                    "name": "lightseq/csrc/models/model_util.cc"
+                },
+                {
+                    "@type": "item",
+                    "name": "lightseq/csrc/models/includes/bert.h"
+                },
+                {
+                    "@type": "item",
+                    "name": "lightseq/csrc/models/bert.cc"
+                },
+                {
+                    "@type": "item",
+                    "name": "lightseq/csrc/pybind/pybind_model.cpp"
+                },
+                {
+                    "@type": "item",
+                    "name": "lightseq/csrc/models/includes/gpt.h"
+                },
+                {
+                    "@type": "item",
+                    "name": "lightseq/csrc/models/gpt.cc"
+                },
+                {
+                    "@type": "item",
+                    "name": "lightseq/csrc/models/includes/model_base.h"
+                },
+                {
+                    "@type": "item",
+                    "name": "lightseq/csrc/models/includes/transformer.h"
+                },
+                {
+                    "@type": "item",
+                    "name": "lightseq/csrc/models/includes/bert_crf.h"
+                },
+                {
+                    "@type": "item",
+                    "name": "lightseq/csrc/models/bert_crf.cc"
+                },
+                {
+                    "@type": "item",
+                    "name": "lightseq/csrc/models/includes/llama.h"
+                },
+                {
+                    "@type": "item",
+                    "name": "lightseq/csrc/models/llama.cc"
+                }
+            ]
+        },
+        {
+            "@type": "group",
+            "name": "13",
+            "nested": [
+                {
+                    "@type": "item",
+                    "name": "lightseq/csrc/triton_backend/src/lightseq_backend.cc"
+                },
+                {
+                    "@type": "item",
+                    "name": "lightseq/csrc/triton_backend/src/triton_utils.h"
+                },
+                {
+                    "@type": "item",
+                    "name": "lightseq/inference/triton_backend/src/lightseq_backend.cc"
+                },
+                {
+                    "@type": "item",
+                    "name": "lightseq/csrc/triton_backend/src/triton_model.h"
+                },
+                {
+                    "@type": "item",
+                    "name": "lightseq/inference/triton_backend/src/triton_utils.h"
+                },
+                {
+                    "@type": "item",
+                    "name": "lightseq/inference/triton_backend/src/triton_model.h"
+                }
+            ]
+        },
+        {
+            "@type": "group",
+            "name": "14",
+            "nested": [
+                {
+                    "@type": "item",
+                    "name": "tests/cublas/test.cpp"
+                },
+                {
+                    "@type": "item",
+                    "name": "tests/cublas/gemm.h"
+                },
+                {
+                    "@type": "item",
+                    "name": "tests/cublas/util.h"
+                }
+            ]
+        },
+        {
+            "@type": "group",
+            "name": "15",
+            "nested": [
+                {
+                    "@type": "item",
+                    "name": "lightseq/csrc/kernels/cuda/includes/common.h"
+                },
+                {
+                    "@type": "item",
+                    "name": "lightseq/inference/kernels/common.h"
+                }
+            ]
+        },
+        {
+            "@type": "group",
+            "name": "16",
+            "nested": [
+                {
+                    "@type": "item",
+                    "name": "lightseq/inference/server/model_config_cuda.h"
+                },
+                {
+                    "@type": "item",
+                    "name": "lightseq/inference/server/model_config.h"
+                }
+            ]
+        },
+        {
+            "@type": "group",
+            "name": "17",
+            "nested": [
+                {
+                    "@type": "item",
+                    "name": "lightseq/csrc/kernels/cuda/includes/block_reduce.h"
+                }
+            ]
+        },
+        {
+            "@type": "group",
+            "name": "18",
+            "nested": [
+                {
+                    "@type": "item",
+                    "name": "lightseq/inference/kernels/t5Kernels.h"
+                }
+            ]
+        },
+        {
+            "@type": "group",
+            "name": "19",
+            "nested": [
+                {
+                    "@type": "item",
+                    "name": "lightseq/inference/server/custom.h"
+                }
+            ]
+        }
+    ]
+}

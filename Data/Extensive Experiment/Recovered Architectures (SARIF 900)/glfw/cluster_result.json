@@ -1,0 +1,546 @@
+{
+    "@schemaVersion": "1.0",
+    "name": "clustering",
+    "structure": [
+        {
+            "@type": "group",
+            "name": "0",
+            "nested": [
+                {
+                    "@type": "item",
+                    "name": "tests/msaa.c"
+                },
+                {
+                    "@type": "item",
+                    "name": "tests/tearing.c"
+                },
+                {
+                    "@type": "item",
+                    "name": "tests/iconify.c"
+                },
+                {
+                    "@type": "item",
+                    "name": "tests/empty.c"
+                },
+                {
+                    "@type": "item",
+                    "name": "tests/timeout.c"
+                },
+                {
+                    "@type": "item",
+                    "name": "tests/title.c"
+                },
+                {
+                    "@type": "item",
+                    "name": "tests/window.c"
+                },
+                {
+                    "@type": "item",
+                    "name": "tests/threads.c"
+                },
+                {
+                    "@type": "item",
+                    "name": "tests/events.c"
+                },
+                {
+                    "@type": "item",
+                    "name": "tests/icon.c"
+                },
+                {
+                    "@type": "item",
+                    "name": "tests/joysticks.c"
+                },
+                {
+                    "@type": "item",
+                    "name": "tests/allocator.c"
+                },
+                {
+                    "@type": "item",
+                    "name": "tests/cursor.c"
+                },
+                {
+                    "@type": "item",
+                    "name": "tests/inputlag.c"
+                },
+                {
+                    "@type": "item",
+                    "name": "tests/clipboard.c"
+                },
+                {
+                    "@type": "item",
+                    "name": "tests/monitors.c"
+                },
+                {
+                    "@type": "item",
+                    "name": "tests/reopen.c"
+                },
+                {
+                    "@type": "item",
+                    "name": "tests/gamma.c"
+                }
+            ]
+        },
+        {
+            "@type": "group",
+            "name": "1",
+            "nested": [
+                {
+                    "@type": "item",
+                    "name": "src/wl_window.c"
+                },
+                {
+                    "@type": "item",
+                    "name": "src/posix_poll.h"
+                },
+                {
+                    "@type": "item",
+                    "name": "src/posix_poll.c"
+                },
+                {
+                    "@type": "item",
+                    "name": "src/platform.h"
+                },
+                {
+                    "@type": "item",
+                    "name": "src/posix_time.h"
+                },
+                {
+                    "@type": "item",
+                    "name": "src/xkb_unicode.h"
+                },
+                {
+                    "@type": "item",
+                    "name": "src/wl_platform.h"
+                },
+                {
+                    "@type": "item",
+                    "name": "src/cocoa_time.h"
+                },
+                {
+                    "@type": "item",
+                    "name": "src/wl_init.c"
+                },
+                {
+                    "@type": "item",
+                    "name": "src/win32_time.h"
+                },
+                {
+                    "@type": "item",
+                    "name": "src/wl_monitor.c"
+                },
+                {
+                    "@type": "item",
+                    "name": "src/x11_platform.h"
+                }
+            ]
+        },
+        {
+            "@type": "group",
+            "name": "2",
+            "nested": [
+                {
+                    "@type": "item",
+                    "name": "src/win32_joystick.h"
+                },
+                {
+                    "@type": "item",
+                    "name": "src/cocoa_joystick.h"
+                },
+                {
+                    "@type": "item",
+                    "name": "src/win32_joystick.c"
+                },
+                {
+                    "@type": "item",
+                    "name": "src/mappings.h"
+                },
+                {
+                    "@type": "item",
+                    "name": "src/linux_joystick.h"
+                },
+                {
+                    "@type": "item",
+                    "name": "src/linux_joystick.c"
+                },
+                {
+                    "@type": "item",
+                    "name": "src/win32_thread.h"
+                },
+                {
+                    "@type": "item",
+                    "name": "src/null_joystick.h"
+                },
+                {
+                    "@type": "item",
+                    "name": "src/null_joystick.c"
+                },
+                {
+                    "@type": "item",
+                    "name": "src/posix_thread.h"
+                },
+                {
+                    "@type": "item",
+                    "name": "src/cocoa_platform.h"
+                }
+            ]
+        },
+        {
+            "@type": "group",
+            "name": "3",
+            "nested": [
+                {
+                    "@type": "item",
+                    "name": "src/null_platform.h"
+                },
+                {
+                    "@type": "item",
+                    "name": "src/null_monitor.c"
+                },
+                {
+                    "@type": "item",
+                    "name": "src/null_init.c"
+                },
+                {
+                    "@type": "item",
+                    "name": "src/null_window.c"
+                },
+                {
+                    "@type": "item",
+                    "name": "include/GLFW/glfw3native.h"
+                },
+                {
+                    "@type": "item",
+                    "name": "src/glx_context.c"
+                },
+                {
+                    "@type": "item",
+                    "name": "include/GLFW/glfw3.h"
+                },
+                {
+                    "@type": "item",
+                    "name": "src/context.c"
+                },
+                {
+                    "@type": "item",
+                    "name": "src/init.c"
+                },
+                {
+                    "@type": "item",
+                    "name": "src/platform.c"
+                },
+                {
+                    "@type": "item",
+                    "name": "src/vulkan.c"
+                },
+                {
+                    "@type": "item",
+                    "name": "src/monitor.c"
+                },
+                {
+                    "@type": "item",
+                    "name": "src/window.c"
+                },
+                {
+                    "@type": "item",
+                    "name": "src/input.c"
+                },
+                {
+                    "@type": "item",
+                    "name": "src/x11_init.c"
+                },
+                {
+                    "@type": "item",
+                    "name": "src/xkb_unicode.c"
+                },
+                {
+                    "@type": "item",
+                    "name": "src/internal.h"
+                },
+                {
+                    "@type": "item",
+                    "name": "src/cocoa_time.c"
+                },
+                {
+                    "@type": "item",
+                    "name": "src/posix_module.c"
+                },
+                {
+                    "@type": "item",
+                    "name": "src/win32_thread.c"
+                },
+                {
+                    "@type": "item",
+                    "name": "src/win32_time.c"
+                },
+                {
+                    "@type": "item",
+                    "name": "src/egl_context.c"
+                },
+                {
+                    "@type": "item",
+                    "name": "src/posix_thread.c"
+                },
+                {
+                    "@type": "item",
+                    "name": "src/posix_time.c"
+                },
+                {
+                    "@type": "item",
+                    "name": "src/win32_module.c"
+                },
+                {
+                    "@type": "item",
+                    "name": "src/osmesa_context.c"
+                },
+                {
+                    "@type": "item",
+                    "name": "src/wgl_context.c"
+                }
+            ]
+        },
+        {
+            "@type": "group",
+            "name": "4",
+            "nested": [
+                {
+                    "@type": "item",
+                    "name": "src/win32_init.c"
+                },
+                {
+                    "@type": "item",
+                    "name": "src/x11_window.c"
+                },
+                {
+                    "@type": "item",
+                    "name": "src/win32_monitor.c"
+                },
+                {
+                    "@type": "item",
+                    "name": "src/x11_monitor.c"
+                },
+                {
+                    "@type": "item",
+                    "name": "src/win32_window.c"
+                },
+                {
+                    "@type": "item",
+                    "name": "src/win32_platform.h"
+                }
+            ]
+        },
+        {
+            "@type": "group",
+            "name": "5",
+            "nested": [
+                {
+                    "@type": "item",
+                    "name": "deps/glad/vulkan.h"
+                },
+                {
+                    "@type": "item",
+                    "name": "deps/glad/gles2.h"
+                },
+                {
+                    "@type": "item",
+                    "name": "deps/nuklear.h"
+                },
+                {
+                    "@type": "item",
+                    "name": "deps/glad/gl.h"
+                },
+                {
+                    "@type": "item",
+                    "name": "deps/vs2008/stdint.h"
+                }
+            ]
+        },
+        {
+            "@type": "group",
+            "name": "6",
+            "nested": [
+                {
+                    "@type": "item",
+                    "name": "examples/offscreen.c"
+                },
+                {
+                    "@type": "item",
+                    "name": "examples/triangle-opengles.c"
+                },
+                {
+                    "@type": "item",
+                    "name": "examples/sharing.c"
+                },
+                {
+                    "@type": "item",
+                    "name": "examples/windows.c"
+                },
+                {
+                    "@type": "item",
+                    "name": "examples/triangle-opengl.c"
+                }
+            ]
+        },
+        {
+            "@type": "group",
+            "name": "7",
+            "nested": [
+                {
+                    "@type": "item",
+                    "name": "deps/mingw/_mingw_dxhelper.h"
+                },
+                {
+                    "@type": "item",
+                    "name": "deps/mingw/dinput.h"
+                }
+            ]
+        },
+        {
+            "@type": "group",
+            "name": "8",
+            "nested": [
+                {
+                    "@type": "item",
+                    "name": "deps/linmath.h"
+                }
+            ]
+        },
+        {
+            "@type": "group",
+            "name": "9",
+            "nested": [
+                {
+                    "@type": "item",
+                    "name": "deps/mingw/xinput.h"
+                }
+            ]
+        },
+        {
+            "@type": "group",
+            "name": "10",
+            "nested": [
+                {
+                    "@type": "item",
+                    "name": "deps/nuklear_glfw_gl2.h"
+                }
+            ]
+        },
+        {
+            "@type": "group",
+            "name": "11",
+            "nested": [
+                {
+                    "@type": "item",
+                    "name": "deps/stb_image_write.h"
+                }
+            ]
+        },
+        {
+            "@type": "group",
+            "name": "12",
+            "nested": [
+                {
+                    "@type": "item",
+                    "name": "examples/boing.c"
+                }
+            ]
+        },
+        {
+            "@type": "group",
+            "name": "13",
+            "nested": [
+                {
+                    "@type": "item",
+                    "name": "examples/gears.c"
+                }
+            ]
+        },
+        {
+            "@type": "group",
+            "name": "14",
+            "nested": [
+                {
+                    "@type": "item",
+                    "name": "examples/heightmap.c"
+                }
+            ]
+        },
+        {
+            "@type": "group",
+            "name": "15",
+            "nested": [
+                {
+                    "@type": "item",
+                    "name": "examples/particles.c"
+                }
+            ]
+        },
+        {
+            "@type": "group",
+            "name": "16",
+            "nested": [
+                {
+                    "@type": "item",
+                    "name": "examples/splitview.c"
+                }
+            ]
+        },
+        {
+            "@type": "group",
+            "name": "17",
+            "nested": [
+                {
+                    "@type": "item",
+                    "name": "examples/wave.c"
+                }
+            ]
+        },
+        {
+            "@type": "group",
+            "name": "18",
+            "nested": [
+                {
+                    "@type": "item",
+                    "name": "tests/glfwinfo.c"
+                }
+            ]
+        },
+        {
+            "@type": "group",
+            "name": "19",
+            "nested": [
+                {
+                    "@type": "item",
+                    "name": "tests/triangle-vulkan.c"
+                }
+            ]
+        },
+        {
+            "@type": "group",
+            "name": "20",
+            "nested": [
+                {
+                    "@type": "item",
+                    "name": "deps/tinycthread.h"
+                },
+                {
+                    "@type": "item",
+                    "name": "deps/tinycthread.c"
+                }
+            ]
+        },
+        {
+            "@type": "group",
+            "name": "21",
+            "nested": [
+                {
+                    "@type": "item",
+                    "name": "deps/getopt.h"
+                },
+                {
+                    "@type": "item",
+                    "name": "deps/getopt.c"
+                }
+            ]
+        }
+    ]
+}

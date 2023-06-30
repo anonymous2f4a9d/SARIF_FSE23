@@ -1,0 +1,436 @@
+{
+    "@schemaVersion": "1.0",
+    "name": "clustering",
+    "structure": [
+        {
+            "@type": "group",
+            "name": "0",
+            "nested": [
+                {
+                    "@type": "item",
+                    "name": "include/bloom.h"
+                },
+                {
+                    "@type": "item",
+                    "name": "src/bloom.c"
+                },
+                {
+                    "@type": "item",
+                    "name": "include/topkfuncs.h"
+                },
+                {
+                    "@type": "item",
+                    "name": "src/bloomfuncs.c"
+                },
+                {
+                    "@type": "item",
+                    "name": "include/cmsketch.h"
+                },
+                {
+                    "@type": "item",
+                    "name": "src/cmsketch.c"
+                },
+                {
+                    "@type": "item",
+                    "name": "include/distfuncs.h"
+                },
+                {
+                    "@type": "item",
+                    "name": "include/freqfuncs.h"
+                },
+                {
+                    "@type": "item",
+                    "name": "src/freqfuncs.c"
+                },
+                {
+                    "@type": "item",
+                    "name": "include/firstvalues.h"
+                },
+                {
+                    "@type": "item",
+                    "name": "src/distfuncs.c"
+                },
+                {
+                    "@type": "item",
+                    "name": "include/bloomfuncs.h"
+                },
+                {
+                    "@type": "item",
+                    "name": "include/tdigest.h"
+                },
+                {
+                    "@type": "item",
+                    "name": "src/tdigest.c"
+                },
+                {
+                    "@type": "item",
+                    "name": "include/stats.h"
+                },
+                {
+                    "@type": "item",
+                    "name": "src/stats.c"
+                }
+            ]
+        },
+        {
+            "@type": "group",
+            "name": "1",
+            "nested": [
+                {
+                    "@type": "item",
+                    "name": "include/microbatch.h"
+                },
+                {
+                    "@type": "item",
+                    "name": "src/microbatch.c"
+                },
+                {
+                    "@type": "item",
+                    "name": "include/miscutils.h"
+                },
+                {
+                    "@type": "item",
+                    "name": "src/miscutils.c"
+                },
+                {
+                    "@type": "item",
+                    "name": "include/pzmq.h"
+                },
+                {
+                    "@type": "item",
+                    "name": "src/pzmq.c"
+                },
+                {
+                    "@type": "item",
+                    "name": "include/combiner_receiver.h"
+                },
+                {
+                    "@type": "item",
+                    "name": "src/combiner_receiver.c"
+                },
+                {
+                    "@type": "item",
+                    "name": "src/hllfuncs.c"
+                },
+                {
+                    "@type": "item",
+                    "name": "include/hashfuncs.h"
+                },
+                {
+                    "@type": "item",
+                    "name": "src/hashfuncs.c"
+                },
+                {
+                    "@type": "item",
+                    "name": "src/firstvalues.c"
+                },
+                {
+                    "@type": "item",
+                    "name": "include/hll.h"
+                },
+                {
+                    "@type": "item",
+                    "name": "src/hll.c"
+                },
+                {
+                    "@type": "item",
+                    "name": "include/hllfuncs.h"
+                }
+            ]
+        },
+        {
+            "@type": "group",
+            "name": "2",
+            "nested": [
+                {
+                    "@type": "item",
+                    "name": "include/catalog.h"
+                },
+                {
+                    "@type": "item",
+                    "name": "src/catalog.c"
+                },
+                {
+                    "@type": "item",
+                    "name": "src/pipelinefuncs.c"
+                },
+                {
+                    "@type": "item",
+                    "name": "include/commands.h"
+                },
+                {
+                    "@type": "item",
+                    "name": "src/commands.c"
+                },
+                {
+                    "@type": "item",
+                    "name": "include/ruleutils.h"
+                },
+                {
+                    "@type": "item",
+                    "name": "src/ruleutils.c"
+                },
+                {
+                    "@type": "item",
+                    "name": "include/pipeline_query.h"
+                },
+                {
+                    "@type": "item",
+                    "name": "include/analyzer.h"
+                },
+                {
+                    "@type": "item",
+                    "name": "src/pipeline_query.c"
+                },
+                {
+                    "@type": "item",
+                    "name": "src/analyzer.c"
+                },
+                {
+                    "@type": "item",
+                    "name": "include/pipeline_stream.h"
+                },
+                {
+                    "@type": "item",
+                    "name": "src/pipeline_stream.c"
+                },
+                {
+                    "@type": "item",
+                    "name": "src/pipeline_combine.c"
+                },
+                {
+                    "@type": "item",
+                    "name": "include/mutator.h"
+                },
+                {
+                    "@type": "item",
+                    "name": "src/mutator.c"
+                },
+                {
+                    "@type": "item",
+                    "name": "include/pipeline_combine.h"
+                }
+            ]
+        },
+        {
+            "@type": "group",
+            "name": "3",
+            "nested": [
+                {
+                    "@type": "item",
+                    "name": "include/physical_group_lookup.h"
+                },
+                {
+                    "@type": "item",
+                    "name": "src/physical_group_lookup.c"
+                },
+                {
+                    "@type": "item",
+                    "name": "include/executor.h"
+                },
+                {
+                    "@type": "item",
+                    "name": "src/executor.c"
+                },
+                {
+                    "@type": "item",
+                    "name": "include/update.h"
+                },
+                {
+                    "@type": "item",
+                    "name": "src/update.c"
+                },
+                {
+                    "@type": "item",
+                    "name": "include/tuplestore_scan.h"
+                },
+                {
+                    "@type": "item",
+                    "name": "src/tuplestore_scan.c"
+                },
+                {
+                    "@type": "item",
+                    "name": "include/compat.h"
+                },
+                {
+                    "@type": "item",
+                    "name": "src/compat.c"
+                },
+                {
+                    "@type": "item",
+                    "name": "src/test/py/extended.c"
+                },
+                {
+                    "@type": "item",
+                    "name": "include/scheduler.h"
+                },
+                {
+                    "@type": "item",
+                    "name": "include/planner.h"
+                },
+                {
+                    "@type": "item",
+                    "name": "include/reaper.h"
+                },
+                {
+                    "@type": "item",
+                    "name": "include/config.h"
+                },
+                {
+                    "@type": "item",
+                    "name": "src/worker.c"
+                },
+                {
+                    "@type": "item",
+                    "name": "src/planner.c"
+                },
+                {
+                    "@type": "item",
+                    "name": "src/reaper.c"
+                },
+                {
+                    "@type": "item",
+                    "name": "src/scheduler.c"
+                },
+                {
+                    "@type": "item",
+                    "name": "src/queue.c"
+                },
+                {
+                    "@type": "item",
+                    "name": "src/combiner.c"
+                },
+                {
+                    "@type": "item",
+                    "name": "src/config.c"
+                }
+            ]
+        },
+        {
+            "@type": "group",
+            "name": "4",
+            "nested": [
+                {
+                    "@type": "item",
+                    "name": "src/aggfuncs.c"
+                },
+                {
+                    "@type": "item",
+                    "name": "include/kv.h"
+                },
+                {
+                    "@type": "item",
+                    "name": "src/kv.c"
+                },
+                {
+                    "@type": "item",
+                    "name": "include/aggfuncs.h"
+                }
+            ]
+        },
+        {
+            "@type": "group",
+            "name": "5",
+            "nested": [
+                {
+                    "@type": "item",
+                    "name": "include/stream_fdw.h"
+                },
+                {
+                    "@type": "item",
+                    "name": "src/stream_fdw.c"
+                },
+                {
+                    "@type": "item",
+                    "name": "include/transform_receiver.h"
+                },
+                {
+                    "@type": "item",
+                    "name": "src/transform_receiver.c"
+                },
+                {
+                    "@type": "item",
+                    "name": "include/copy.h"
+                },
+                {
+                    "@type": "item",
+                    "name": "src/copy.c"
+                }
+            ]
+        },
+        {
+            "@type": "group",
+            "name": "6",
+            "nested": [
+                {
+                    "@type": "item",
+                    "name": "include/json.h"
+                },
+                {
+                    "@type": "item",
+                    "name": "src/json.c"
+                }
+            ]
+        },
+        {
+            "@type": "group",
+            "name": "7",
+            "nested": [
+                {
+                    "@type": "item",
+                    "name": "src/topkfuncs.c"
+                },
+                {
+                    "@type": "item",
+                    "name": "include/fss.h"
+                },
+                {
+                    "@type": "item",
+                    "name": "src/fss.c"
+                }
+            ]
+        },
+        {
+            "@type": "group",
+            "name": "8",
+            "nested": [
+                {
+                    "@type": "item",
+                    "name": "include/matrel.h"
+                },
+                {
+                    "@type": "item",
+                    "name": "src/matrel.c"
+                },
+                {
+                    "@type": "item",
+                    "name": "include/reader.h"
+                },
+                {
+                    "@type": "item",
+                    "name": "src/reader.c"
+                }
+            ]
+        },
+        {
+            "@type": "group",
+            "name": "9",
+            "nested": [
+                {
+                    "@type": "item",
+                    "name": "src/jsonb.c"
+                }
+            ]
+        },
+        {
+            "@type": "group",
+            "name": "10",
+            "nested": [
+                {
+                    "@type": "item",
+                    "name": "include/jsonb.h"
+                }
+            ]
+        }
+    ]
+}

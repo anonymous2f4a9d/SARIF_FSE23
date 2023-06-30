@@ -1,0 +1,3308 @@
+{
+    "@schemaVersion": "1.0",
+    "name": "clustering",
+    "structure": [
+        {
+            "@type": "group",
+            "name": "0",
+            "nested": [
+                {
+                    "@type": "item",
+                    "name": "src/base/net/stratum/benchmark/BenchClient.h"
+                },
+                {
+                    "@type": "item",
+                    "name": "src/base/net/stratum/benchmark/BenchClient.cpp"
+                },
+                {
+                    "@type": "item",
+                    "name": "src/base/net/stratum/NetworkState.h"
+                },
+                {
+                    "@type": "item",
+                    "name": "src/base/net/stratum/NetworkState.cpp"
+                },
+                {
+                    "@type": "item",
+                    "name": "src/base/io/log/backends/FileLog.h"
+                },
+                {
+                    "@type": "item",
+                    "name": "src/base/io/log/backends/FileLog.cpp"
+                },
+                {
+                    "@type": "item",
+                    "name": "src/base/net/stratum/Job.h"
+                },
+                {
+                    "@type": "item",
+                    "name": "src/base/net/stratum/Job.cpp"
+                },
+                {
+                    "@type": "item",
+                    "name": "src/base/io/log/Log.h"
+                },
+                {
+                    "@type": "item",
+                    "name": "src/base/io/log/Log.cpp"
+                },
+                {
+                    "@type": "item",
+                    "name": "src/base/io/Watcher.h"
+                },
+                {
+                    "@type": "item",
+                    "name": "src/base/io/Watcher.cpp"
+                },
+                {
+                    "@type": "item",
+                    "name": "src/3rdparty/epee/span.h"
+                },
+                {
+                    "@type": "item",
+                    "name": "src/base/net/stratum/Client.h"
+                },
+                {
+                    "@type": "item",
+                    "name": "src/base/net/stratum/Client.cpp"
+                },
+                {
+                    "@type": "item",
+                    "name": "src/base/crypto/Algorithm.h"
+                },
+                {
+                    "@type": "item",
+                    "name": "src/base/crypto/Algorithm.cpp"
+                },
+                {
+                    "@type": "item",
+                    "name": "src/base/net/tls/TlsConfig.h"
+                },
+                {
+                    "@type": "item",
+                    "name": "src/base/net/tls/TlsConfig.cpp"
+                },
+                {
+                    "@type": "item",
+                    "name": "src/base/net/stratum/SelfSelectClient.h"
+                },
+                {
+                    "@type": "item",
+                    "name": "src/base/net/stratum/SelfSelectClient.cpp"
+                },
+                {
+                    "@type": "item",
+                    "name": "src/base/tools/cryptonote/WalletAddress.h"
+                },
+                {
+                    "@type": "item",
+                    "name": "src/base/tools/cryptonote/WalletAddress.cpp"
+                },
+                {
+                    "@type": "item",
+                    "name": "src/base/net/stratum/Url.h"
+                },
+                {
+                    "@type": "item",
+                    "name": "src/base/net/stratum/Url.cpp"
+                },
+                {
+                    "@type": "item",
+                    "name": "src/base/net/stratum/SubmitResult.h"
+                },
+                {
+                    "@type": "item",
+                    "name": "src/base/kernel/config/Title.h"
+                },
+                {
+                    "@type": "item",
+                    "name": "src/base/kernel/config/Title.cpp"
+                },
+                {
+                    "@type": "item",
+                    "name": "src/base/kernel/Platform.h"
+                },
+                {
+                    "@type": "item",
+                    "name": "src/base/kernel/Platform.cpp"
+                },
+                {
+                    "@type": "item",
+                    "name": "src/base/kernel/Platform_mac.cpp"
+                },
+                {
+                    "@type": "item",
+                    "name": "src/base/kernel/Platform_unix.cpp"
+                },
+                {
+                    "@type": "item",
+                    "name": "src/base/kernel/Platform_win.cpp"
+                },
+                {
+                    "@type": "item",
+                    "name": "src/base/kernel/Platform_hwloc.cpp"
+                },
+                {
+                    "@type": "item",
+                    "name": "src/base/net/stratum/BaseClient.h"
+                },
+                {
+                    "@type": "item",
+                    "name": "src/base/net/stratum/BaseClient.cpp"
+                },
+                {
+                    "@type": "item",
+                    "name": "src/base/net/stratum/EthStratumClient.h"
+                },
+                {
+                    "@type": "item",
+                    "name": "src/base/net/stratum/EthStratumClient.cpp"
+                },
+                {
+                    "@type": "item",
+                    "name": "src/base/net/stratum/ProxyUrl.h"
+                },
+                {
+                    "@type": "item",
+                    "name": "src/base/net/stratum/ProxyUrl.cpp"
+                },
+                {
+                    "@type": "item",
+                    "name": "src/base/net/stratum/DaemonClient.h"
+                },
+                {
+                    "@type": "item",
+                    "name": "src/base/net/stratum/DaemonClient.cpp"
+                },
+                {
+                    "@type": "item",
+                    "name": "src/base/net/stratum/strategies/SinglePoolStrategy.h"
+                },
+                {
+                    "@type": "item",
+                    "name": "src/base/net/stratum/strategies/SinglePoolStrategy.cpp"
+                },
+                {
+                    "@type": "item",
+                    "name": "src/base/io/log/Tags.h"
+                },
+                {
+                    "@type": "item",
+                    "name": "src/base/io/log/Tags.cpp"
+                },
+                {
+                    "@type": "item",
+                    "name": "src/base/io/json/JsonRequest.h"
+                },
+                {
+                    "@type": "item",
+                    "name": "src/base/io/json/JsonRequest.cpp"
+                },
+                {
+                    "@type": "item",
+                    "name": "src/base/api/interfaces/IApiRequest.h"
+                },
+                {
+                    "@type": "item",
+                    "name": "src/base/kernel/interfaces/IStrategyListener.h"
+                },
+                {
+                    "@type": "item",
+                    "name": "src/base/kernel/interfaces/IStrategy.h"
+                },
+                {
+                    "@type": "item",
+                    "name": "src/base/net/tls/TlsContext.h"
+                },
+                {
+                    "@type": "item",
+                    "name": "src/base/net/tls/TlsContext.cpp"
+                },
+                {
+                    "@type": "item",
+                    "name": "src/base/kernel/interfaces/IJsonReader.h"
+                },
+                {
+                    "@type": "item",
+                    "name": "src/base/net/stratum/Pool.h"
+                },
+                {
+                    "@type": "item",
+                    "name": "src/base/net/stratum/Pool.cpp"
+                },
+                {
+                    "@type": "item",
+                    "name": "src/base/net/tls/TlsGen.h"
+                },
+                {
+                    "@type": "item",
+                    "name": "src/base/net/tls/TlsGen.cpp"
+                },
+                {
+                    "@type": "item",
+                    "name": "src/base/io/log/backends/ConsoleLog.h"
+                },
+                {
+                    "@type": "item",
+                    "name": "src/base/io/log/backends/ConsoleLog.cpp"
+                },
+                {
+                    "@type": "item",
+                    "name": "src/base/net/stratum/benchmark/BenchConfig.h"
+                },
+                {
+                    "@type": "item",
+                    "name": "src/base/net/stratum/benchmark/BenchConfig.cpp"
+                },
+                {
+                    "@type": "item",
+                    "name": "src/base/api/requests/ApiRequest.h"
+                },
+                {
+                    "@type": "item",
+                    "name": "src/base/api/requests/ApiRequest.cpp"
+                },
+                {
+                    "@type": "item",
+                    "name": "src/backend/cpu/platform/lscpu_arm.cpp"
+                },
+                {
+                    "@type": "item",
+                    "name": "src/base/tools/String.h"
+                },
+                {
+                    "@type": "item",
+                    "name": "src/base/tools/String.cpp"
+                },
+                {
+                    "@type": "item",
+                    "name": "src/crypto/cn/soft_aes.h"
+                },
+                {
+                    "@type": "item",
+                    "name": "src/base/tools/cryptonote/BlockTemplate.h"
+                },
+                {
+                    "@type": "item",
+                    "name": "src/base/tools/cryptonote/BlockTemplate.cpp"
+                },
+                {
+                    "@type": "item",
+                    "name": "src/base/net/http/Http.h"
+                },
+                {
+                    "@type": "item",
+                    "name": "src/base/net/http/Http.cpp"
+                },
+                {
+                    "@type": "item",
+                    "name": "src/base/net/stratum/Pools.h"
+                },
+                {
+                    "@type": "item",
+                    "name": "src/base/net/stratum/Pools.cpp"
+                },
+                {
+                    "@type": "item",
+                    "name": "src/base/kernel/interfaces/IClientListener.h"
+                },
+                {
+                    "@type": "item",
+                    "name": "src/base/kernel/interfaces/IConfigTransform.h"
+                },
+                {
+                    "@type": "item",
+                    "name": "src/base/kernel/interfaces/IConfig.h"
+                },
+                {
+                    "@type": "item",
+                    "name": "src/base/kernel/interfaces/IClient.h"
+                },
+                {
+                    "@type": "item",
+                    "name": "src/base/io/json/Json.h"
+                },
+                {
+                    "@type": "item",
+                    "name": "src/base/io/json/Json.cpp"
+                },
+                {
+                    "@type": "item",
+                    "name": "src/base/io/json/Json_unix.cpp"
+                },
+                {
+                    "@type": "item",
+                    "name": "src/base/io/json/Json_win.cpp"
+                },
+                {
+                    "@type": "item",
+                    "name": "src/base/io/log/FileLogWriter.h"
+                },
+                {
+                    "@type": "item",
+                    "name": "src/base/io/log/FileLogWriter.cpp"
+                },
+                {
+                    "@type": "item",
+                    "name": "src/base/crypto/Coin.h"
+                },
+                {
+                    "@type": "item",
+                    "name": "src/base/crypto/Coin.cpp"
+                },
+                {
+                    "@type": "item",
+                    "name": "src/base/tools/cryptonote/umul128.h"
+                },
+                {
+                    "@type": "item",
+                    "name": "src/base/kernel/config/BaseTransform.h"
+                },
+                {
+                    "@type": "item",
+                    "name": "src/base/kernel/config/BaseTransform.cpp"
+                },
+                {
+                    "@type": "item",
+                    "name": "src/base/api/requests/HttpApiRequest.h"
+                },
+                {
+                    "@type": "item",
+                    "name": "src/base/api/requests/HttpApiRequest.cpp"
+                },
+                {
+                    "@type": "item",
+                    "name": "src/base/kernel/config/BaseConfig.h"
+                },
+                {
+                    "@type": "item",
+                    "name": "src/base/kernel/config/BaseConfig.cpp"
+                },
+                {
+                    "@type": "item",
+                    "name": "src/base/api/interfaces/IApiListener.h"
+                },
+                {
+                    "@type": "item",
+                    "name": "src/base/tools/Cvt.h"
+                },
+                {
+                    "@type": "item",
+                    "name": "src/base/tools/Cvt.cpp"
+                },
+                {
+                    "@type": "item",
+                    "name": "src/base/net/tools/LineReader.h"
+                },
+                {
+                    "@type": "item",
+                    "name": "src/base/net/tools/LineReader.cpp"
+                },
+                {
+                    "@type": "item",
+                    "name": "src/base/api/Api.h"
+                },
+                {
+                    "@type": "item",
+                    "name": "src/base/api/Api.cpp"
+                },
+                {
+                    "@type": "item",
+                    "name": "src/base/kernel/interfaces/IHttpListener.h"
+                },
+                {
+                    "@type": "item",
+                    "name": "src/base/io/json/JsonChain.h"
+                },
+                {
+                    "@type": "item",
+                    "name": "src/base/io/json/JsonChain.cpp"
+                },
+                {
+                    "@type": "item",
+                    "name": "src/base/net/stratum/strategies/FailoverStrategy.h"
+                },
+                {
+                    "@type": "item",
+                    "name": "src/base/net/stratum/strategies/FailoverStrategy.cpp"
+                },
+                {
+                    "@type": "item",
+                    "name": "src/base/net/stratum/strategies/StrategyProxy.h"
+                },
+                {
+                    "@type": "item",
+                    "name": "src/base/net/http/Fetch.h"
+                },
+                {
+                    "@type": "item",
+                    "name": "src/base/net/http/Fetch.cpp"
+                },
+                {
+                    "@type": "item",
+                    "name": "src/base/kernel/Base.h"
+                },
+                {
+                    "@type": "item",
+                    "name": "src/base/kernel/Base.cpp"
+                },
+                {
+                    "@type": "item",
+                    "name": "src/base/tools/Buffer.h"
+                }
+            ]
+        },
+        {
+            "@type": "group",
+            "name": "1",
+            "nested": [
+                {
+                    "@type": "item",
+                    "name": "src/backend/opencl/wrappers/OclVendor.h"
+                },
+                {
+                    "@type": "item",
+                    "name": "src/backend/opencl/generators/ocl_generic_kawpow_generator.cpp"
+                },
+                {
+                    "@type": "item",
+                    "name": "src/backend/opencl/OclConfig.h"
+                },
+                {
+                    "@type": "item",
+                    "name": "src/backend/opencl/OclConfig.cpp"
+                },
+                {
+                    "@type": "item",
+                    "name": "src/backend/opencl/generators/ocl_generic_cn_generator.cpp"
+                },
+                {
+                    "@type": "item",
+                    "name": "src/backend/opencl/kernels/Cn1Kernel.h"
+                },
+                {
+                    "@type": "item",
+                    "name": "src/backend/opencl/kernels/Cn1Kernel.cpp"
+                },
+                {
+                    "@type": "item",
+                    "name": "src/backend/opencl/runners/tools/OclSharedState.h"
+                },
+                {
+                    "@type": "item",
+                    "name": "src/backend/opencl/runners/tools/OclSharedState.cpp"
+                },
+                {
+                    "@type": "item",
+                    "name": "src/backend/opencl/runners/OclCnRunner.h"
+                },
+                {
+                    "@type": "item",
+                    "name": "src/backend/opencl/runners/OclCnRunner.cpp"
+                },
+                {
+                    "@type": "item",
+                    "name": "src/backend/opencl/cl/kawpow/defs.h"
+                },
+                {
+                    "@type": "item",
+                    "name": "src/3rdparty/CL/opencl.h"
+                },
+                {
+                    "@type": "item",
+                    "name": "src/backend/opencl/generators/ocl_vega_cn_generator.cpp"
+                },
+                {
+                    "@type": "item",
+                    "name": "src/backend/opencl/runners/OclBaseRunner.h"
+                },
+                {
+                    "@type": "item",
+                    "name": "src/backend/opencl/runners/OclBaseRunner.cpp"
+                },
+                {
+                    "@type": "item",
+                    "name": "src/backend/opencl/cl/cn/cryptonight_cl.h"
+                },
+                {
+                    "@type": "item",
+                    "name": "src/backend/opencl/runners/OclRxBaseRunner.h"
+                },
+                {
+                    "@type": "item",
+                    "name": "src/backend/opencl/runners/OclRxBaseRunner.cpp"
+                },
+                {
+                    "@type": "item",
+                    "name": "src/backend/opencl/cl/kawpow/kawpow_cl.h"
+                },
+                {
+                    "@type": "item",
+                    "name": "src/backend/opencl/kernels/CnBranchKernel.h"
+                },
+                {
+                    "@type": "item",
+                    "name": "src/backend/opencl/kernels/CnBranchKernel.cpp"
+                },
+                {
+                    "@type": "item",
+                    "name": "src/backend/opencl/runners/tools/OclSharedData.h"
+                },
+                {
+                    "@type": "item",
+                    "name": "src/backend/opencl/runners/tools/OclSharedData.cpp"
+                },
+                {
+                    "@type": "item",
+                    "name": "src/backend/opencl/kernels/Cn0Kernel.h"
+                },
+                {
+                    "@type": "item",
+                    "name": "src/backend/opencl/kernels/Cn0Kernel.cpp"
+                },
+                {
+                    "@type": "item",
+                    "name": "src/backend/opencl/kernels/rx/Blake2bHashRegistersKernel.h"
+                },
+                {
+                    "@type": "item",
+                    "name": "src/backend/opencl/kernels/rx/Blake2bHashRegistersKernel.cpp"
+                },
+                {
+                    "@type": "item",
+                    "name": "src/backend/opencl/runners/tools/OclCnR.h"
+                },
+                {
+                    "@type": "item",
+                    "name": "src/backend/opencl/runners/tools/OclCnR.cpp"
+                },
+                {
+                    "@type": "item",
+                    "name": "src/backend/opencl/OclConfig_gen.h"
+                },
+                {
+                    "@type": "item",
+                    "name": "src/backend/opencl/wrappers/OclPlatform.h"
+                },
+                {
+                    "@type": "item",
+                    "name": "src/backend/opencl/wrappers/OclPlatform.cpp"
+                },
+                {
+                    "@type": "item",
+                    "name": "src/backend/opencl/kernels/rx/RxJitKernel.h"
+                },
+                {
+                    "@type": "item",
+                    "name": "src/backend/opencl/kernels/rx/RxJitKernel.cpp"
+                },
+                {
+                    "@type": "item",
+                    "name": "src/backend/opencl/wrappers/OclLib.h"
+                },
+                {
+                    "@type": "item",
+                    "name": "src/backend/opencl/wrappers/OclLib.cpp"
+                },
+                {
+                    "@type": "item",
+                    "name": "src/backend/opencl/runners/OclKawPowRunner.h"
+                },
+                {
+                    "@type": "item",
+                    "name": "src/backend/opencl/runners/OclKawPowRunner.cpp"
+                },
+                {
+                    "@type": "item",
+                    "name": "src/backend/opencl/cl/cn/cryptonight_r_cl.h"
+                },
+                {
+                    "@type": "item",
+                    "name": "src/backend/opencl/runners/tools/OclKawPow.h"
+                },
+                {
+                    "@type": "item",
+                    "name": "src/backend/opencl/runners/tools/OclKawPow.cpp"
+                },
+                {
+                    "@type": "item",
+                    "name": "src/backend/opencl/OclBackend.h"
+                },
+                {
+                    "@type": "item",
+                    "name": "src/backend/opencl/OclBackend.cpp"
+                },
+                {
+                    "@type": "item",
+                    "name": "src/backend/opencl/OclWorker.h"
+                },
+                {
+                    "@type": "item",
+                    "name": "src/backend/opencl/OclWorker.cpp"
+                },
+                {
+                    "@type": "item",
+                    "name": "src/backend/opencl/kernels/rx/FillAesKernel.h"
+                },
+                {
+                    "@type": "item",
+                    "name": "src/backend/opencl/kernels/rx/FillAesKernel.cpp"
+                },
+                {
+                    "@type": "item",
+                    "name": "src/backend/opencl/kernels/rx/HashAesKernel.h"
+                },
+                {
+                    "@type": "item",
+                    "name": "src/backend/opencl/kernels/rx/HashAesKernel.cpp"
+                },
+                {
+                    "@type": "item",
+                    "name": "src/backend/opencl/wrappers/OclError.h"
+                },
+                {
+                    "@type": "item",
+                    "name": "src/backend/opencl/wrappers/OclError.cpp"
+                },
+                {
+                    "@type": "item",
+                    "name": "src/backend/opencl/kernels/rx/ExecuteVmKernel.h"
+                },
+                {
+                    "@type": "item",
+                    "name": "src/backend/opencl/kernels/rx/ExecuteVmKernel.cpp"
+                },
+                {
+                    "@type": "item",
+                    "name": "src/backend/opencl/OclThreads.h"
+                },
+                {
+                    "@type": "item",
+                    "name": "src/backend/opencl/OclThreads.cpp"
+                },
+                {
+                    "@type": "item",
+                    "name": "src/backend/opencl/OclLaunchData.h"
+                },
+                {
+                    "@type": "item",
+                    "name": "src/backend/opencl/OclLaunchData.cpp"
+                },
+                {
+                    "@type": "item",
+                    "name": "src/backend/opencl/wrappers/OclDevice.h"
+                },
+                {
+                    "@type": "item",
+                    "name": "src/backend/opencl/wrappers/OclDevice.cpp"
+                },
+                {
+                    "@type": "item",
+                    "name": "src/backend/opencl/cl/kawpow/kawpow_dag_cl.h"
+                },
+                {
+                    "@type": "item",
+                    "name": "src/backend/opencl/kernels/rx/RxRunKernel.h"
+                },
+                {
+                    "@type": "item",
+                    "name": "src/backend/opencl/kernels/rx/RxRunKernel.cpp"
+                },
+                {
+                    "@type": "item",
+                    "name": "src/backend/opencl/wrappers/OclKernel.h"
+                },
+                {
+                    "@type": "item",
+                    "name": "src/backend/opencl/wrappers/OclKernel.cpp"
+                },
+                {
+                    "@type": "item",
+                    "name": "src/backend/opencl/kernels/kawpow/KawPow_CalculateDAGKernel.h"
+                },
+                {
+                    "@type": "item",
+                    "name": "src/backend/opencl/kernels/kawpow/KawPow_CalculateDAGKernel.cpp"
+                },
+                {
+                    "@type": "item",
+                    "name": "src/backend/opencl/OclGenerator.h"
+                },
+                {
+                    "@type": "item",
+                    "name": "src/backend/opencl/OclThread.h"
+                },
+                {
+                    "@type": "item",
+                    "name": "src/backend/opencl/OclThread.cpp"
+                },
+                {
+                    "@type": "item",
+                    "name": "src/backend/opencl/kernels/Cn2Kernel.h"
+                },
+                {
+                    "@type": "item",
+                    "name": "src/backend/opencl/kernels/Cn2Kernel.cpp"
+                },
+                {
+                    "@type": "item",
+                    "name": "src/backend/opencl/cl/rx/randomx_cl.h"
+                },
+                {
+                    "@type": "item",
+                    "name": "src/backend/opencl/generators/ocl_generic_rx_generator.cpp"
+                },
+                {
+                    "@type": "item",
+                    "name": "src/backend/opencl/runners/OclRxVmRunner.h"
+                },
+                {
+                    "@type": "item",
+                    "name": "src/backend/opencl/runners/OclRxVmRunner.cpp"
+                },
+                {
+                    "@type": "item",
+                    "name": "src/backend/opencl/runners/OclRxJitRunner.h"
+                },
+                {
+                    "@type": "item",
+                    "name": "src/backend/opencl/runners/OclRxJitRunner.cpp"
+                },
+                {
+                    "@type": "item",
+                    "name": "src/backend/opencl/kernels/rx/FindSharesKernel.h"
+                },
+                {
+                    "@type": "item",
+                    "name": "src/backend/opencl/kernels/rx/FindSharesKernel.cpp"
+                },
+                {
+                    "@type": "item",
+                    "name": "src/backend/opencl/kernels/rx/InitVmKernel.h"
+                },
+                {
+                    "@type": "item",
+                    "name": "src/backend/opencl/kernels/rx/InitVmKernel.cpp"
+                },
+                {
+                    "@type": "item",
+                    "name": "src/backend/opencl/kernels/rx/Blake2bInitialHashKernel.h"
+                },
+                {
+                    "@type": "item",
+                    "name": "src/backend/opencl/kernels/rx/Blake2bInitialHashKernel.cpp"
+                },
+                {
+                    "@type": "item",
+                    "name": "src/backend/opencl/interfaces/IOclRunner.h"
+                },
+                {
+                    "@type": "item",
+                    "name": "src/backend/opencl/cl/OclSource.h"
+                },
+                {
+                    "@type": "item",
+                    "name": "src/backend/opencl/cl/OclSource.cpp"
+                },
+                {
+                    "@type": "item",
+                    "name": "src/backend/opencl/wrappers/OclContext.h"
+                },
+                {
+                    "@type": "item",
+                    "name": "src/backend/opencl/wrappers/OclContext.cpp"
+                },
+                {
+                    "@type": "item",
+                    "name": "src/backend/opencl/OclCache.h"
+                },
+                {
+                    "@type": "item",
+                    "name": "src/backend/opencl/OclCache_unix.cpp"
+                },
+                {
+                    "@type": "item",
+                    "name": "src/backend/opencl/OclCache.cpp"
+                },
+                {
+                    "@type": "item",
+                    "name": "src/backend/opencl/OclCache_win.cpp"
+                }
+            ]
+        },
+        {
+            "@type": "group",
+            "name": "2",
+            "nested": [
+                {
+                    "@type": "item",
+                    "name": "src/backend/common/Worker.h"
+                },
+                {
+                    "@type": "item",
+                    "name": "src/backend/common/Worker.cpp"
+                },
+                {
+                    "@type": "item",
+                    "name": "src/crypto/common/Nonce.h"
+                },
+                {
+                    "@type": "item",
+                    "name": "src/crypto/common/Nonce.cpp"
+                },
+                {
+                    "@type": "item",
+                    "name": "src/core/config/Config.h"
+                },
+                {
+                    "@type": "item",
+                    "name": "src/core/config/Config.cpp"
+                },
+                {
+                    "@type": "item",
+                    "name": "src/backend/common/Threads.cpp"
+                },
+                {
+                    "@type": "item",
+                    "name": "src/backend/common/benchmark/Benchmark.h"
+                },
+                {
+                    "@type": "item",
+                    "name": "src/backend/common/benchmark/Benchmark.cpp"
+                },
+                {
+                    "@type": "item",
+                    "name": "src/core/config/ConfigTransform.h"
+                },
+                {
+                    "@type": "item",
+                    "name": "src/core/config/ConfigTransform.cpp"
+                },
+                {
+                    "@type": "item",
+                    "name": "src/backend/common/interfaces/IBenchListener.h"
+                },
+                {
+                    "@type": "item",
+                    "name": "src/backend/cpu/CpuThread.h"
+                },
+                {
+                    "@type": "item",
+                    "name": "src/backend/cpu/CpuThread.cpp"
+                },
+                {
+                    "@type": "item",
+                    "name": "src/backend/cpu/CpuConfig_gen.h"
+                },
+                {
+                    "@type": "item",
+                    "name": "src/backend/common/benchmark/BenchState_test.h"
+                },
+                {
+                    "@type": "item",
+                    "name": "src/core/Taskbar.h"
+                },
+                {
+                    "@type": "item",
+                    "name": "src/core/Taskbar.cpp"
+                },
+                {
+                    "@type": "item",
+                    "name": "src/backend/common/benchmark/BenchState.h"
+                },
+                {
+                    "@type": "item",
+                    "name": "src/backend/common/benchmark/BenchState.cpp"
+                },
+                {
+                    "@type": "item",
+                    "name": "src/backend/common/GpuWorker.h"
+                },
+                {
+                    "@type": "item",
+                    "name": "src/backend/common/GpuWorker.cpp"
+                },
+                {
+                    "@type": "item",
+                    "name": "src/backend/common/WorkerJob.h"
+                },
+                {
+                    "@type": "item",
+                    "name": "src/backend/cpu/interfaces/ICpuInfo.h"
+                },
+                {
+                    "@type": "item",
+                    "name": "src/backend/common/Hashrate.h"
+                },
+                {
+                    "@type": "item",
+                    "name": "src/backend/common/Hashrate.cpp"
+                },
+                {
+                    "@type": "item",
+                    "name": "src/backend/cpu/CpuThreads.h"
+                },
+                {
+                    "@type": "item",
+                    "name": "src/backend/cpu/CpuThreads.cpp"
+                },
+                {
+                    "@type": "item",
+                    "name": "src/backend/common/interfaces/IRxListener.h"
+                },
+                {
+                    "@type": "item",
+                    "name": "src/backend/common/interfaces/IBackend.h"
+                },
+                {
+                    "@type": "item",
+                    "name": "src/core/Miner.h"
+                },
+                {
+                    "@type": "item",
+                    "name": "src/core/Miner.cpp"
+                },
+                {
+                    "@type": "item",
+                    "name": "src/backend/cpu/CpuLaunchData.h"
+                },
+                {
+                    "@type": "item",
+                    "name": "src/backend/cpu/CpuLaunchData.cpp"
+                },
+                {
+                    "@type": "item",
+                    "name": "src/backend/cpu/platform/BasicCpuInfo.h"
+                },
+                {
+                    "@type": "item",
+                    "name": "src/backend/cpu/platform/BasicCpuInfo_arm.cpp"
+                },
+                {
+                    "@type": "item",
+                    "name": "src/backend/cpu/platform/BasicCpuInfo.cpp"
+                },
+                {
+                    "@type": "item",
+                    "name": "src/backend/common/Workers.h"
+                },
+                {
+                    "@type": "item",
+                    "name": "src/backend/cpu/platform/HwlocCpuInfo.h"
+                },
+                {
+                    "@type": "item",
+                    "name": "src/backend/cpu/platform/HwlocCpuInfo.cpp"
+                },
+                {
+                    "@type": "item",
+                    "name": "src/backend/cpu/CpuConfig.h"
+                },
+                {
+                    "@type": "item",
+                    "name": "src/backend/cpu/CpuConfig.cpp"
+                },
+                {
+                    "@type": "item",
+                    "name": "src/backend/cpu/CpuWorker.cpp"
+                },
+                {
+                    "@type": "item",
+                    "name": "src/crypto/rx/Profiler.h"
+                },
+                {
+                    "@type": "item",
+                    "name": "src/backend/common/HashrateInterpolator.h"
+                },
+                {
+                    "@type": "item",
+                    "name": "src/backend/common/HashrateInterpolator.cpp"
+                },
+                {
+                    "@type": "item",
+                    "name": "src/backend/common/interfaces/IWorker.h"
+                },
+                {
+                    "@type": "item",
+                    "name": "src/crypto/rx/Profiler.cpp"
+                },
+                {
+                    "@type": "item",
+                    "name": "src/backend/common/Threads.h"
+                },
+                {
+                    "@type": "item",
+                    "name": "src/backend/common/Workers.cpp"
+                },
+                {
+                    "@type": "item",
+                    "name": "src/crypto/cn/CryptoNight_test.h"
+                },
+                {
+                    "@type": "item",
+                    "name": "src/backend/cpu/CpuWorker.h"
+                },
+                {
+                    "@type": "item",
+                    "name": "src/crypto/common/Assembly.h"
+                },
+                {
+                    "@type": "item",
+                    "name": "src/crypto/common/Assembly.cpp"
+                },
+                {
+                    "@type": "item",
+                    "name": "src/backend/common/Thread.h"
+                },
+                {
+                    "@type": "item",
+                    "name": "src/backend/cpu/Cpu.h"
+                },
+                {
+                    "@type": "item",
+                    "name": "src/backend/cpu/Cpu.cpp"
+                },
+                {
+                    "@type": "item",
+                    "name": "src/donate.h"
+                },
+                {
+                    "@type": "item",
+                    "name": "src/backend/common/Tags.h"
+                },
+                {
+                    "@type": "item",
+                    "name": "src/backend/cpu/CpuBackend.h"
+                },
+                {
+                    "@type": "item",
+                    "name": "src/backend/cpu/CpuBackend.cpp"
+                },
+                {
+                    "@type": "item",
+                    "name": "src/core/Controller.h"
+                },
+                {
+                    "@type": "item",
+                    "name": "src/core/Controller.cpp"
+                }
+            ]
+        },
+        {
+            "@type": "group",
+            "name": "3",
+            "nested": [
+                {
+                    "@type": "item",
+                    "name": "src/base/tools/Alignment.h"
+                },
+                {
+                    "@type": "item",
+                    "name": "src/base/kernel/interfaces/ILineListener.h"
+                },
+                {
+                    "@type": "item",
+                    "name": "src/base/net/dns/Dns.h"
+                },
+                {
+                    "@type": "item",
+                    "name": "src/base/net/dns/Dns.cpp"
+                },
+                {
+                    "@type": "item",
+                    "name": "src/base/net/dns/DnsRecords.h"
+                },
+                {
+                    "@type": "item",
+                    "name": "src/base/net/dns/DnsRecords.cpp"
+                },
+                {
+                    "@type": "item",
+                    "name": "src/base/kernel/interfaces/IConsoleListener.h"
+                },
+                {
+                    "@type": "item",
+                    "name": "src/base/net/dns/DnsRequest.h"
+                },
+                {
+                    "@type": "item",
+                    "name": "src/base/kernel/Entry.h"
+                },
+                {
+                    "@type": "item",
+                    "name": "src/base/kernel/Entry.cpp"
+                },
+                {
+                    "@type": "item",
+                    "name": "src/base/kernel/interfaces/IDnsListener.h"
+                },
+                {
+                    "@type": "item",
+                    "name": "src/base/kernel/interfaces/IAsyncListener.h"
+                },
+                {
+                    "@type": "item",
+                    "name": "src/base/net/tools/NetBuffer.h"
+                },
+                {
+                    "@type": "item",
+                    "name": "src/base/net/tools/NetBuffer.cpp"
+                },
+                {
+                    "@type": "item",
+                    "name": "src/3rdparty/cl.h"
+                },
+                {
+                    "@type": "item",
+                    "name": "src/base/kernel/Process.h"
+                },
+                {
+                    "@type": "item",
+                    "name": "src/base/kernel/Process_win.cpp"
+                },
+                {
+                    "@type": "item",
+                    "name": "src/base/kernel/Process.cpp"
+                },
+                {
+                    "@type": "item",
+                    "name": "src/base/kernel/Process_unix.cpp"
+                },
+                {
+                    "@type": "item",
+                    "name": "src/base/io/Env.h"
+                },
+                {
+                    "@type": "item",
+                    "name": "src/base/io/Env.cpp"
+                },
+                {
+                    "@type": "item",
+                    "name": "src/base/kernel/interfaces/IConfigListener.h"
+                },
+                {
+                    "@type": "item",
+                    "name": "src/base/kernel/constants.h"
+                },
+                {
+                    "@type": "item",
+                    "name": "src/base/kernel/interfaces/IDnsBackend.h"
+                },
+                {
+                    "@type": "item",
+                    "name": "src/base/net/tools/MemPool.h"
+                },
+                {
+                    "@type": "item",
+                    "name": "src/base/kernel/interfaces/ITimerListener.h"
+                },
+                {
+                    "@type": "item",
+                    "name": "src/base/net/dns/DnsRecord.h"
+                },
+                {
+                    "@type": "item",
+                    "name": "src/base/net/dns/DnsRecord.cpp"
+                },
+                {
+                    "@type": "item",
+                    "name": "src/core/config/Config_default.h"
+                },
+                {
+                    "@type": "item",
+                    "name": "src/3rdparty/getopt/getopt.h"
+                },
+                {
+                    "@type": "item",
+                    "name": "src/base/tools/Span.h"
+                },
+                {
+                    "@type": "item",
+                    "name": "src/base/tools/Chrono.h"
+                },
+                {
+                    "@type": "item",
+                    "name": "src/base/tools/Chrono.cpp"
+                },
+                {
+                    "@type": "item",
+                    "name": "src/hw/api/HwApi.h"
+                },
+                {
+                    "@type": "item",
+                    "name": "src/hw/api/HwApi.cpp"
+                },
+                {
+                    "@type": "item",
+                    "name": "src/base/tools/Timer.h"
+                },
+                {
+                    "@type": "item",
+                    "name": "src/base/tools/Timer.cpp"
+                },
+                {
+                    "@type": "item",
+                    "name": "src/base/tools/Arguments.h"
+                },
+                {
+                    "@type": "item",
+                    "name": "src/base/tools/Arguments.cpp"
+                },
+                {
+                    "@type": "item",
+                    "name": "src/base/tools/Baton.h"
+                },
+                {
+                    "@type": "item",
+                    "name": "src/3rdparty/argon2.h"
+                },
+                {
+                    "@type": "item",
+                    "name": "src/base/tools/bswap_64.h"
+                },
+                {
+                    "@type": "item",
+                    "name": "src/base/net/dns/DnsUvBackend.h"
+                },
+                {
+                    "@type": "item",
+                    "name": "src/base/net/dns/DnsUvBackend.cpp"
+                },
+                {
+                    "@type": "item",
+                    "name": "src/base/net/dns/DnsConfig.h"
+                },
+                {
+                    "@type": "item",
+                    "name": "src/base/net/dns/DnsConfig.cpp"
+                },
+                {
+                    "@type": "item",
+                    "name": "src/base/io/log/backends/SysLog.h"
+                },
+                {
+                    "@type": "item",
+                    "name": "src/base/io/log/backends/SysLog.cpp"
+                },
+                {
+                    "@type": "item",
+                    "name": "src/base/kernel/interfaces/ISignalListener.h"
+                },
+                {
+                    "@type": "item",
+                    "name": "src/core/config/usage.h"
+                },
+                {
+                    "@type": "item",
+                    "name": "src/base/kernel/interfaces/IBaseListener.h"
+                },
+                {
+                    "@type": "item",
+                    "name": "src/base/net/tools/Storage.h"
+                },
+                {
+                    "@type": "item",
+                    "name": "src/core/config/Config_platform.h"
+                },
+                {
+                    "@type": "item",
+                    "name": "src/base/kernel/interfaces/IWatcherListener.h"
+                }
+            ]
+        },
+        {
+            "@type": "group",
+            "name": "4",
+            "nested": [
+                {
+                    "@type": "item",
+                    "name": "src/3rdparty/hwloc/include/hwloc/memattrs.h"
+                },
+                {
+                    "@type": "item",
+                    "name": "src/3rdparty/hwloc/include/hwloc/rename.h"
+                },
+                {
+                    "@type": "item",
+                    "name": "src/3rdparty/hwloc/include/hwloc/linux.h"
+                },
+                {
+                    "@type": "item",
+                    "name": "src/3rdparty/hwloc/include/hwloc/cudart.h"
+                },
+                {
+                    "@type": "item",
+                    "name": "src/3rdparty/hwloc/include/private/internal-components.h"
+                },
+                {
+                    "@type": "item",
+                    "name": "src/3rdparty/hwloc/include/hwloc/autogen/config.h"
+                },
+                {
+                    "@type": "item",
+                    "name": "src/3rdparty/hwloc/src/topology-x86.c"
+                },
+                {
+                    "@type": "item",
+                    "name": "src/3rdparty/hwloc/src/diff.c"
+                },
+                {
+                    "@type": "item",
+                    "name": "src/3rdparty/hwloc/include/hwloc/export.h"
+                },
+                {
+                    "@type": "item",
+                    "name": "src/3rdparty/hwloc/include/private/xml.h"
+                },
+                {
+                    "@type": "item",
+                    "name": "src/3rdparty/hwloc/src/topology-xml.c"
+                },
+                {
+                    "@type": "item",
+                    "name": "src/3rdparty/hwloc/include/hwloc/gl.h"
+                },
+                {
+                    "@type": "item",
+                    "name": "src/3rdparty/hwloc/include/hwloc/nvml.h"
+                },
+                {
+                    "@type": "item",
+                    "name": "src/3rdparty/hwloc/include/hwloc/helper.h"
+                },
+                {
+                    "@type": "item",
+                    "name": "src/3rdparty/hwloc/include/hwloc/linux-libnuma.h"
+                },
+                {
+                    "@type": "item",
+                    "name": "src/3rdparty/hwloc/include/hwloc/deprecated.h"
+                },
+                {
+                    "@type": "item",
+                    "name": "src/3rdparty/hwloc/src/static-components.h"
+                },
+                {
+                    "@type": "item",
+                    "name": "src/3rdparty/hwloc/include/private/debug.h"
+                },
+                {
+                    "@type": "item",
+                    "name": "src/3rdparty/hwloc/include/hwloc/opencl.h"
+                },
+                {
+                    "@type": "item",
+                    "name": "src/3rdparty/hwloc/src/topology-xml-nolibxml.c"
+                },
+                {
+                    "@type": "item",
+                    "name": "src/3rdparty/hwloc/include/private/private.h"
+                },
+                {
+                    "@type": "item",
+                    "name": "src/3rdparty/hwloc/include/hwloc/plugins.h"
+                },
+                {
+                    "@type": "item",
+                    "name": "src/3rdparty/hwloc/include/hwloc/shmem.h"
+                },
+                {
+                    "@type": "item",
+                    "name": "src/3rdparty/hwloc/include/private/misc.h"
+                },
+                {
+                    "@type": "item",
+                    "name": "src/3rdparty/hwloc/include/hwloc/windows.h"
+                },
+                {
+                    "@type": "item",
+                    "name": "src/3rdparty/hwloc/include/hwloc.h"
+                },
+                {
+                    "@type": "item",
+                    "name": "src/3rdparty/hwloc/include/private/components.h"
+                },
+                {
+                    "@type": "item",
+                    "name": "src/3rdparty/hwloc/src/distances.c"
+                },
+                {
+                    "@type": "item",
+                    "name": "src/3rdparty/hwloc/src/shmem.c"
+                },
+                {
+                    "@type": "item",
+                    "name": "src/3rdparty/hwloc/src/bitmap.c"
+                },
+                {
+                    "@type": "item",
+                    "name": "src/3rdparty/hwloc/src/memattrs.c"
+                },
+                {
+                    "@type": "item",
+                    "name": "src/3rdparty/hwloc/src/misc.c"
+                },
+                {
+                    "@type": "item",
+                    "name": "src/3rdparty/hwloc/src/topology-windows.c"
+                },
+                {
+                    "@type": "item",
+                    "name": "src/3rdparty/hwloc/src/pci-common.c"
+                },
+                {
+                    "@type": "item",
+                    "name": "src/3rdparty/hwloc/src/traversal.c"
+                },
+                {
+                    "@type": "item",
+                    "name": "src/3rdparty/hwloc/src/base64.c"
+                },
+                {
+                    "@type": "item",
+                    "name": "src/3rdparty/hwloc/src/topology.c"
+                },
+                {
+                    "@type": "item",
+                    "name": "src/3rdparty/hwloc/src/bind.c"
+                },
+                {
+                    "@type": "item",
+                    "name": "src/3rdparty/hwloc/src/cpukinds.c"
+                },
+                {
+                    "@type": "item",
+                    "name": "src/3rdparty/hwloc/src/components.c"
+                },
+                {
+                    "@type": "item",
+                    "name": "src/3rdparty/hwloc/include/hwloc/cuda.h"
+                },
+                {
+                    "@type": "item",
+                    "name": "src/3rdparty/hwloc/src/topology-noos.c"
+                },
+                {
+                    "@type": "item",
+                    "name": "src/3rdparty/hwloc/include/hwloc/bitmap.h"
+                },
+                {
+                    "@type": "item",
+                    "name": "src/3rdparty/fmt/posix.h"
+                },
+                {
+                    "@type": "item",
+                    "name": "src/3rdparty/hwloc/include/private/windows.h"
+                },
+                {
+                    "@type": "item",
+                    "name": "src/3rdparty/hwloc/include/hwloc/levelzero.h"
+                },
+                {
+                    "@type": "item",
+                    "name": "src/3rdparty/hwloc/include/private/autogen/config.h"
+                },
+                {
+                    "@type": "item",
+                    "name": "src/3rdparty/hwloc/include/hwloc/openfabrics-verbs.h"
+                },
+                {
+                    "@type": "item",
+                    "name": "src/3rdparty/hwloc/src/topology-synthetic.c"
+                },
+                {
+                    "@type": "item",
+                    "name": "src/3rdparty/hwloc/include/hwloc/inlines.h"
+                },
+                {
+                    "@type": "item",
+                    "name": "src/3rdparty/hwloc/include/hwloc/rsmi.h"
+                },
+                {
+                    "@type": "item",
+                    "name": "src/3rdparty/hwloc/include/hwloc/diff.h"
+                },
+                {
+                    "@type": "item",
+                    "name": "src/3rdparty/hwloc/include/hwloc/distances.h"
+                },
+                {
+                    "@type": "item",
+                    "name": "src/3rdparty/hwloc/include/hwloc/glibc-sched.h"
+                },
+                {
+                    "@type": "item",
+                    "name": "src/3rdparty/hwloc/include/private/cpuid-x86.h"
+                },
+                {
+                    "@type": "item",
+                    "name": "src/3rdparty/hwloc/include/hwloc/cpukinds.h"
+                },
+                {
+                    "@type": "item",
+                    "name": "src/backend/common/misc/PciTopology.h"
+                }
+            ]
+        },
+        {
+            "@type": "group",
+            "name": "5",
+            "nested": [
+                {
+                    "@type": "item",
+                    "name": "src/crypto/randomx/dataset.hpp"
+                },
+                {
+                    "@type": "item",
+                    "name": "src/crypto/randomx/dataset.cpp"
+                },
+                {
+                    "@type": "item",
+                    "name": "src/crypto/randomx/vm_interpreted_light.cpp"
+                },
+                {
+                    "@type": "item",
+                    "name": "src/crypto/randomx/vm_interpreted.cpp"
+                },
+                {
+                    "@type": "item",
+                    "name": "src/crypto/randomx/virtual_machine.hpp"
+                },
+                {
+                    "@type": "item",
+                    "name": "src/crypto/randomx/virtual_machine.cpp"
+                },
+                {
+                    "@type": "item",
+                    "name": "src/crypto/randomx/aes_hash.hpp"
+                },
+                {
+                    "@type": "item",
+                    "name": "src/crypto/randomx/aes_hash.cpp"
+                },
+                {
+                    "@type": "item",
+                    "name": "src/crypto/randomx/blake2/blake2-impl.h"
+                },
+                {
+                    "@type": "item",
+                    "name": "src/crypto/randomx/vm_compiled_light.cpp"
+                },
+                {
+                    "@type": "item",
+                    "name": "src/crypto/randomx/blake2_generator.hpp"
+                },
+                {
+                    "@type": "item",
+                    "name": "src/crypto/randomx/blake2_generator.cpp"
+                },
+                {
+                    "@type": "item",
+                    "name": "src/crypto/randomx/virtual_memory.hpp"
+                },
+                {
+                    "@type": "item",
+                    "name": "src/crypto/randomx/virtual_memory.cpp"
+                },
+                {
+                    "@type": "item",
+                    "name": "src/crypto/randomx/common.hpp"
+                },
+                {
+                    "@type": "item",
+                    "name": "src/crypto/randomx/program.hpp"
+                },
+                {
+                    "@type": "item",
+                    "name": "src/crypto/randomx/instruction.hpp"
+                },
+                {
+                    "@type": "item",
+                    "name": "src/crypto/randomx/vm_compiled_light.hpp"
+                },
+                {
+                    "@type": "item",
+                    "name": "src/crypto/randomx/superscalar_program.hpp"
+                },
+                {
+                    "@type": "item",
+                    "name": "src/crypto/randomx/intrin_portable.h"
+                },
+                {
+                    "@type": "item",
+                    "name": "src/crypto/randomx/instructions_portable.cpp"
+                },
+                {
+                    "@type": "item",
+                    "name": "src/crypto/randomx/soft_aes.h"
+                },
+                {
+                    "@type": "item",
+                    "name": "src/crypto/randomx/vm_compiled.hpp"
+                },
+                {
+                    "@type": "item",
+                    "name": "src/crypto/randomx/bytecode_machine.hpp"
+                },
+                {
+                    "@type": "item",
+                    "name": "src/crypto/randomx/bytecode_machine.cpp"
+                },
+                {
+                    "@type": "item",
+                    "name": "src/crypto/randomx/blake2/blamka-round-ref.h"
+                },
+                {
+                    "@type": "item",
+                    "name": "src/crypto/randomx/soft_aes.cpp"
+                },
+                {
+                    "@type": "item",
+                    "name": "src/crypto/randomx/vm_compiled.cpp"
+                },
+                {
+                    "@type": "item",
+                    "name": "src/crypto/randomx/superscalar.hpp"
+                },
+                {
+                    "@type": "item",
+                    "name": "src/crypto/randomx/superscalar.cpp"
+                },
+                {
+                    "@type": "item",
+                    "name": "src/crypto/randomx/reciprocal.h"
+                },
+                {
+                    "@type": "item",
+                    "name": "src/crypto/randomx/reciprocal.c"
+                },
+                {
+                    "@type": "item",
+                    "name": "src/crypto/randomx/blake2/endian.h"
+                },
+                {
+                    "@type": "item",
+                    "name": "src/crypto/randomx/jit_compiler_fallback.cpp"
+                },
+                {
+                    "@type": "item",
+                    "name": "src/crypto/randomx/jit_compiler.hpp"
+                },
+                {
+                    "@type": "item",
+                    "name": "src/crypto/randomx/jit_compiler_x86_static.hpp"
+                },
+                {
+                    "@type": "item",
+                    "name": "src/crypto/randomx/configuration.h"
+                },
+                {
+                    "@type": "item",
+                    "name": "src/crypto/randomx/jit_compiler_fallback.hpp"
+                },
+                {
+                    "@type": "item",
+                    "name": "src/crypto/randomx/vm_interpreted_light.hpp"
+                },
+                {
+                    "@type": "item",
+                    "name": "src/crypto/randomx/vm_interpreted.hpp"
+                },
+                {
+                    "@type": "item",
+                    "name": "src/crypto/randomx/blake2/blake2b-round.h"
+                },
+                {
+                    "@type": "item",
+                    "name": "src/crypto/randomx/allocator.hpp"
+                },
+                {
+                    "@type": "item",
+                    "name": "src/crypto/randomx/allocator.cpp"
+                },
+                {
+                    "@type": "item",
+                    "name": "src/crypto/randomx/jit_compiler_x86.hpp"
+                },
+                {
+                    "@type": "item",
+                    "name": "src/crypto/randomx/randomx.h"
+                },
+                {
+                    "@type": "item",
+                    "name": "src/crypto/randomx/jit_compiler_a64.hpp"
+                },
+                {
+                    "@type": "item",
+                    "name": "src/crypto/randomx/jit_compiler_x86.cpp"
+                },
+                {
+                    "@type": "item",
+                    "name": "src/crypto/randomx/jit_compiler_a64.cpp"
+                },
+                {
+                    "@type": "item",
+                    "name": "src/crypto/randomx/randomx.cpp"
+                },
+                {
+                    "@type": "item",
+                    "name": "src/crypto/randomx/jit_compiler_a64_static.hpp"
+                },
+                {
+                    "@type": "item",
+                    "name": "src/crypto/rx/RxFix.h"
+                },
+                {
+                    "@type": "item",
+                    "name": "src/crypto/rx/RxFix_win.cpp"
+                },
+                {
+                    "@type": "item",
+                    "name": "src/crypto/rx/RxFix_linux.cpp"
+                }
+            ]
+        },
+        {
+            "@type": "group",
+            "name": "6",
+            "nested": [
+                {
+                    "@type": "item",
+                    "name": "src/3rdparty/rapidjson/cursorstreamwrapper.h"
+                },
+                {
+                    "@type": "item",
+                    "name": "src/3rdparty/rapidjson/internal/meta.h"
+                },
+                {
+                    "@type": "item",
+                    "name": "src/3rdparty/rapidjson/allocators.h"
+                },
+                {
+                    "@type": "item",
+                    "name": "src/3rdparty/rapidjson/internal/diyfp.h"
+                },
+                {
+                    "@type": "item",
+                    "name": "src/3rdparty/rapidjson/reader.h"
+                },
+                {
+                    "@type": "item",
+                    "name": "src/3rdparty/rapidjson/fwd.h"
+                },
+                {
+                    "@type": "item",
+                    "name": "src/3rdparty/rapidjson/internal/swap.h"
+                },
+                {
+                    "@type": "item",
+                    "name": "src/3rdparty/rapidjson/internal/dtoa.h"
+                },
+                {
+                    "@type": "item",
+                    "name": "src/3rdparty/rapidjson/internal/strfunc.h"
+                },
+                {
+                    "@type": "item",
+                    "name": "src/3rdparty/rapidjson/filereadstream.h"
+                },
+                {
+                    "@type": "item",
+                    "name": "src/3rdparty/rapidjson/error/en.h"
+                },
+                {
+                    "@type": "item",
+                    "name": "src/3rdparty/rapidjson/document.h"
+                },
+                {
+                    "@type": "item",
+                    "name": "src/3rdparty/rapidjson/memorybuffer.h"
+                },
+                {
+                    "@type": "item",
+                    "name": "src/3rdparty/rapidjson/encodings.h"
+                },
+                {
+                    "@type": "item",
+                    "name": "src/3rdparty/rapidjson/stream.h"
+                },
+                {
+                    "@type": "item",
+                    "name": "src/3rdparty/rapidjson/stringbuffer.h"
+                },
+                {
+                    "@type": "item",
+                    "name": "src/3rdparty/rapidjson/filewritestream.h"
+                },
+                {
+                    "@type": "item",
+                    "name": "src/3rdparty/rapidjson/internal/biginteger.h"
+                },
+                {
+                    "@type": "item",
+                    "name": "src/3rdparty/rapidjson/internal/ieee754.h"
+                },
+                {
+                    "@type": "item",
+                    "name": "src/3rdparty/rapidjson/internal/pow10.h"
+                },
+                {
+                    "@type": "item",
+                    "name": "src/3rdparty/rapidjson/ostreamwrapper.h"
+                },
+                {
+                    "@type": "item",
+                    "name": "src/3rdparty/rapidjson/istreamwrapper.h"
+                },
+                {
+                    "@type": "item",
+                    "name": "src/3rdparty/rapidjson/internal/itoa.h"
+                },
+                {
+                    "@type": "item",
+                    "name": "src/3rdparty/rapidjson/prettywriter.h"
+                },
+                {
+                    "@type": "item",
+                    "name": "src/3rdparty/rapidjson/memorystream.h"
+                },
+                {
+                    "@type": "item",
+                    "name": "src/3rdparty/rapidjson/internal/clzll.h"
+                },
+                {
+                    "@type": "item",
+                    "name": "src/3rdparty/rapidjson/rapidjson.h"
+                },
+                {
+                    "@type": "item",
+                    "name": "src/3rdparty/rapidjson/encodedstream.h"
+                },
+                {
+                    "@type": "item",
+                    "name": "src/3rdparty/rapidjson/internal/strtod.h"
+                },
+                {
+                    "@type": "item",
+                    "name": "src/3rdparty/rapidjson/error/error.h"
+                },
+                {
+                    "@type": "item",
+                    "name": "src/3rdparty/rapidjson/internal/stack.h"
+                },
+                {
+                    "@type": "item",
+                    "name": "src/3rdparty/rapidjson/internal/regex.h"
+                },
+                {
+                    "@type": "item",
+                    "name": "src/3rdparty/hwloc/include/private/solaris-chiptype.h"
+                },
+                {
+                    "@type": "item",
+                    "name": "src/3rdparty/rapidjson/schema.h"
+                },
+                {
+                    "@type": "item",
+                    "name": "src/3rdparty/base32/base32.h"
+                },
+                {
+                    "@type": "item",
+                    "name": "src/3rdparty/rapidjson/writer.h"
+                }
+            ]
+        },
+        {
+            "@type": "group",
+            "name": "7",
+            "nested": [
+                {
+                    "@type": "item",
+                    "name": "src/base/kernel/interfaces/ITcpServerListener.h"
+                },
+                {
+                    "@type": "item",
+                    "name": "src/base/net/https/HttpsContext.h"
+                },
+                {
+                    "@type": "item",
+                    "name": "src/base/net/https/HttpsContext.cpp"
+                },
+                {
+                    "@type": "item",
+                    "name": "src/base/net/http/HttpClient.h"
+                },
+                {
+                    "@type": "item",
+                    "name": "src/base/net/http/HttpClient.cpp"
+                },
+                {
+                    "@type": "item",
+                    "name": "src/base/io/Async.h"
+                },
+                {
+                    "@type": "item",
+                    "name": "src/base/io/Async.cpp"
+                },
+                {
+                    "@type": "item",
+                    "name": "src/base/net/stratum/Socks5.cpp"
+                },
+                {
+                    "@type": "item",
+                    "name": "src/base/net/stratum/AutoClient.h"
+                },
+                {
+                    "@type": "item",
+                    "name": "src/base/net/stratum/AutoClient.cpp"
+                },
+                {
+                    "@type": "item",
+                    "name": "src/base/tools/Handle.h"
+                },
+                {
+                    "@type": "item",
+                    "name": "src/base/tools/cryptonote/BlobReader.h"
+                },
+                {
+                    "@type": "item",
+                    "name": "src/base/net/http/HttpListener.h"
+                },
+                {
+                    "@type": "item",
+                    "name": "src/base/net/http/HttpListener.cpp"
+                },
+                {
+                    "@type": "item",
+                    "name": "src/base/net/http/HttpData.h"
+                },
+                {
+                    "@type": "item",
+                    "name": "src/base/net/http/HttpData.cpp"
+                },
+                {
+                    "@type": "item",
+                    "name": "src/base/tools/Object.h"
+                },
+                {
+                    "@type": "item",
+                    "name": "src/base/net/tools/TcpServer.h"
+                },
+                {
+                    "@type": "item",
+                    "name": "src/base/net/tools/TcpServer.cpp"
+                },
+                {
+                    "@type": "item",
+                    "name": "src/base/io/Console.h"
+                },
+                {
+                    "@type": "item",
+                    "name": "src/base/io/Console.cpp"
+                },
+                {
+                    "@type": "item",
+                    "name": "src/base/net/http/HttpResponse.h"
+                },
+                {
+                    "@type": "item",
+                    "name": "src/base/net/http/HttpResponse.cpp"
+                },
+                {
+                    "@type": "item",
+                    "name": "src/base/kernel/interfaces/ILogBackend.h"
+                },
+                {
+                    "@type": "item",
+                    "name": "src/3rdparty/llhttp/api.h"
+                },
+                {
+                    "@type": "item",
+                    "name": "src/base/net/https/HttpsClient.h"
+                },
+                {
+                    "@type": "item",
+                    "name": "src/base/net/https/HttpsClient.cpp"
+                },
+                {
+                    "@type": "item",
+                    "name": "src/base/net/tls/ServerTls.h"
+                },
+                {
+                    "@type": "item",
+                    "name": "src/base/net/tls/ServerTls.cpp"
+                },
+                {
+                    "@type": "item",
+                    "name": "src/base/net/https/HttpsServer.h"
+                },
+                {
+                    "@type": "item",
+                    "name": "src/base/net/https/HttpsServer.cpp"
+                },
+                {
+                    "@type": "item",
+                    "name": "src/base/net/http/HttpServer.h"
+                },
+                {
+                    "@type": "item",
+                    "name": "src/base/net/http/HttpServer.cpp"
+                },
+                {
+                    "@type": "item",
+                    "name": "src/base/net/http/HttpApiResponse.h"
+                },
+                {
+                    "@type": "item",
+                    "name": "src/base/net/http/HttpApiResponse.cpp"
+                },
+                {
+                    "@type": "item",
+                    "name": "src/base/net/stratum/Tls.cpp"
+                },
+                {
+                    "@type": "item",
+                    "name": "src/base/net/stratum/Socks5.h"
+                },
+                {
+                    "@type": "item",
+                    "name": "src/base/io/Signals.h"
+                },
+                {
+                    "@type": "item",
+                    "name": "src/base/io/Signals.cpp"
+                },
+                {
+                    "@type": "item",
+                    "name": "src/base/net/stratum/Tls.h"
+                },
+                {
+                    "@type": "item",
+                    "name": "src/3rdparty/llhttp/llhttp.h"
+                },
+                {
+                    "@type": "item",
+                    "name": "src/3rdparty/llhttp/api.c"
+                },
+                {
+                    "@type": "item",
+                    "name": "src/3rdparty/llhttp/llhttp.c"
+                },
+                {
+                    "@type": "item",
+                    "name": "src/base/api/Httpd.h"
+                },
+                {
+                    "@type": "item",
+                    "name": "src/base/api/Httpd.cpp"
+                },
+                {
+                    "@type": "item",
+                    "name": "src/base/net/http/HttpContext.h"
+                },
+                {
+                    "@type": "item",
+                    "name": "src/base/net/http/HttpContext.cpp"
+                },
+                {
+                    "@type": "item",
+                    "name": "src/3rdparty/llhttp/http.c"
+                }
+            ]
+        },
+        {
+            "@type": "group",
+            "name": "8",
+            "nested": [
+                {
+                    "@type": "item",
+                    "name": "src/hw/dmi/DmiReader.h"
+                },
+                {
+                    "@type": "item",
+                    "name": "src/hw/dmi/DmiReader.cpp"
+                },
+                {
+                    "@type": "item",
+                    "name": "src/hw/dmi/DmiReader_mac.cpp"
+                },
+                {
+                    "@type": "item",
+                    "name": "src/hw/dmi/DmiReader_win.cpp"
+                },
+                {
+                    "@type": "item",
+                    "name": "src/hw/dmi/DmiReader_unix.cpp"
+                },
+                {
+                    "@type": "item",
+                    "name": "src/hw/dmi/DmiTools.h"
+                },
+                {
+                    "@type": "item",
+                    "name": "src/hw/dmi/DmiTools.cpp"
+                },
+                {
+                    "@type": "item",
+                    "name": "src/hw/msr/MsrItem.h"
+                },
+                {
+                    "@type": "item",
+                    "name": "src/hw/msr/MsrItem.cpp"
+                },
+                {
+                    "@type": "item",
+                    "name": "src/3rdparty/rapidjson/msinttypes/inttypes.h"
+                },
+                {
+                    "@type": "item",
+                    "name": "src/crypto/cn/asm/CryptonightR_template.h"
+                },
+                {
+                    "@type": "item",
+                    "name": "src/3rdparty/libethash/endian.h"
+                },
+                {
+                    "@type": "item",
+                    "name": "src/3rdparty/rapidjson/pointer.h"
+                },
+                {
+                    "@type": "item",
+                    "name": "src/crypto/cn/r/variant4_random_math.h"
+                },
+                {
+                    "@type": "item",
+                    "name": "src/hw/msr/Msr.h"
+                },
+                {
+                    "@type": "item",
+                    "name": "src/hw/msr/Msr_linux.cpp"
+                },
+                {
+                    "@type": "item",
+                    "name": "src/hw/msr/Msr_win.cpp"
+                },
+                {
+                    "@type": "item",
+                    "name": "src/hw/msr/Msr.cpp"
+                },
+                {
+                    "@type": "item",
+                    "name": "src/crypto/cn/CnHash.h"
+                },
+                {
+                    "@type": "item",
+                    "name": "src/crypto/cn/CnHash.cpp"
+                },
+                {
+                    "@type": "item",
+                    "name": "src/3rdparty/libethash/data_sizes.h"
+                },
+                {
+                    "@type": "item",
+                    "name": "src/crypto/cn/CnAlgo.h"
+                },
+                {
+                    "@type": "item",
+                    "name": "src/hw/dmi/DmiMemory.h"
+                },
+                {
+                    "@type": "item",
+                    "name": "src/hw/dmi/DmiMemory.cpp"
+                },
+                {
+                    "@type": "item",
+                    "name": "src/crypto/cn/c_blake256.h"
+                },
+                {
+                    "@type": "item",
+                    "name": "src/crypto/cn/c_blake256.c"
+                },
+                {
+                    "@type": "item",
+                    "name": "src/crypto/cn/CryptoNight_arm.h"
+                },
+                {
+                    "@type": "item",
+                    "name": "src/crypto/cn/r/CryptonightR_gen.cpp"
+                },
+                {
+                    "@type": "item",
+                    "name": "src/crypto/cn/CryptoNight.h"
+                },
+                {
+                    "@type": "item",
+                    "name": "src/crypto/cn/CryptoNight_x86_vaes.h"
+                },
+                {
+                    "@type": "item",
+                    "name": "src/crypto/cn/CryptoNight_x86_vaes.cpp"
+                },
+                {
+                    "@type": "item",
+                    "name": "src/crypto/kawpow/KPCache.h"
+                },
+                {
+                    "@type": "item",
+                    "name": "src/crypto/kawpow/KPCache.cpp"
+                },
+                {
+                    "@type": "item",
+                    "name": "src/crypto/cn/groestl_tables.h"
+                },
+                {
+                    "@type": "item",
+                    "name": "src/crypto/kawpow/KPHash.h"
+                },
+                {
+                    "@type": "item",
+                    "name": "src/crypto/kawpow/KPHash.cpp"
+                },
+                {
+                    "@type": "item",
+                    "name": "src/3rdparty/libethash/fnv.h"
+                },
+                {
+                    "@type": "item",
+                    "name": "src/crypto/cn/CnCtx.h"
+                },
+                {
+                    "@type": "item",
+                    "name": "src/crypto/cn/CnCtx.cpp"
+                },
+                {
+                    "@type": "item",
+                    "name": "src/hw/dmi/DmiBoard.h"
+                },
+                {
+                    "@type": "item",
+                    "name": "src/hw/dmi/DmiBoard.cpp"
+                },
+                {
+                    "@type": "item",
+                    "name": "src/3rdparty/libethash/keccakf800.c"
+                },
+                {
+                    "@type": "item",
+                    "name": "src/3rdparty/rapidjson/msinttypes/stdint.h"
+                },
+                {
+                    "@type": "item",
+                    "name": "src/crypto/cn/CryptoNight_x86.h"
+                },
+                {
+                    "@type": "item",
+                    "name": "src/crypto/cn/CryptoNight_monero.h"
+                },
+                {
+                    "@type": "item",
+                    "name": "src/3rdparty/libethash/ethash.h"
+                },
+                {
+                    "@type": "item",
+                    "name": "src/3rdparty/libethash/ethash_internal.h"
+                },
+                {
+                    "@type": "item",
+                    "name": "src/3rdparty/libethash/ethash_internal.c"
+                }
+            ]
+        },
+        {
+            "@type": "group",
+            "name": "9",
+            "nested": [
+                {
+                    "@type": "item",
+                    "name": "src/3rdparty/argon2/arch/x86_64/src/test-feature-xop.c"
+                },
+                {
+                    "@type": "item",
+                    "name": "src/3rdparty/argon2/arch/generic/lib/argon2-arch.c"
+                },
+                {
+                    "@type": "item",
+                    "name": "src/3rdparty/argon2/arch/x86_64/lib/argon2-avx512f.h"
+                },
+                {
+                    "@type": "item",
+                    "name": "src/3rdparty/argon2/arch/x86_64/lib/argon2-avx512f.c"
+                },
+                {
+                    "@type": "item",
+                    "name": "src/3rdparty/argon2/arch/x86_64/lib/argon2-ssse3.h"
+                },
+                {
+                    "@type": "item",
+                    "name": "src/3rdparty/argon2/arch/x86_64/lib/argon2-ssse3.c"
+                },
+                {
+                    "@type": "item",
+                    "name": "src/crypto/argon2/Impl.cpp"
+                },
+                {
+                    "@type": "item",
+                    "name": "src/3rdparty/argon2/lib/core.h"
+                },
+                {
+                    "@type": "item",
+                    "name": "src/3rdparty/argon2/include/argon2.h"
+                },
+                {
+                    "@type": "item",
+                    "name": "src/3rdparty/argon2/lib/core.c"
+                },
+                {
+                    "@type": "item",
+                    "name": "src/3rdparty/argon2/lib/argon2.c"
+                },
+                {
+                    "@type": "item",
+                    "name": "src/3rdparty/argon2/lib/impl-select.c"
+                },
+                {
+                    "@type": "item",
+                    "name": "src/3rdparty/argon2/lib/encoding.h"
+                },
+                {
+                    "@type": "item",
+                    "name": "src/3rdparty/argon2/lib/encoding.c"
+                },
+                {
+                    "@type": "item",
+                    "name": "src/3rdparty/argon2/arch/x86_64/src/test-feature-avx512f.c"
+                },
+                {
+                    "@type": "item",
+                    "name": "src/3rdparty/argon2/arch/x86_64/lib/argon2-avx2.h"
+                },
+                {
+                    "@type": "item",
+                    "name": "src/3rdparty/argon2/arch/x86_64/lib/argon2-avx2.c"
+                },
+                {
+                    "@type": "item",
+                    "name": "src/3rdparty/argon2/lib/blake2/blake2.h"
+                },
+                {
+                    "@type": "item",
+                    "name": "src/3rdparty/argon2/lib/blake2/blake2.c"
+                },
+                {
+                    "@type": "item",
+                    "name": "src/crypto/argon2/Impl.h"
+                },
+                {
+                    "@type": "item",
+                    "name": "src/3rdparty/argon2/arch/x86_64/src/test-feature-sse2.c"
+                },
+                {
+                    "@type": "item",
+                    "name": "src/3rdparty/argon2/arch/x86_64/src/test-feature-ssse3.c"
+                },
+                {
+                    "@type": "item",
+                    "name": "src/3rdparty/argon2/lib/genkat.h"
+                },
+                {
+                    "@type": "item",
+                    "name": "src/3rdparty/argon2/lib/genkat.c"
+                },
+                {
+                    "@type": "item",
+                    "name": "src/3rdparty/argon2/arch/x86_64/src/test-feature-avx2.c"
+                },
+                {
+                    "@type": "item",
+                    "name": "src/3rdparty/argon2/lib/impl-select.h"
+                },
+                {
+                    "@type": "item",
+                    "name": "src/3rdparty/argon2/arch/x86_64/lib/argon2-arch.c"
+                },
+                {
+                    "@type": "item",
+                    "name": "src/3rdparty/argon2/arch/x86_64/lib/argon2-template-128.h"
+                },
+                {
+                    "@type": "item",
+                    "name": "src/3rdparty/argon2/arch/x86_64/lib/argon2-sse2.h"
+                },
+                {
+                    "@type": "item",
+                    "name": "src/3rdparty/argon2/arch/x86_64/lib/argon2-sse2.c"
+                },
+                {
+                    "@type": "item",
+                    "name": "src/3rdparty/argon2/lib/argon2-template-64.h"
+                },
+                {
+                    "@type": "item",
+                    "name": "src/3rdparty/argon2/arch/x86_64/lib/argon2-xop.h"
+                },
+                {
+                    "@type": "item",
+                    "name": "src/3rdparty/argon2/arch/x86_64/lib/argon2-xop.c"
+                },
+                {
+                    "@type": "item",
+                    "name": "src/3rdparty/argon2/lib/blake2/blake2-impl.h"
+                },
+                {
+                    "@type": "item",
+                    "name": "src/crypto/argon2/Hash.h"
+                }
+            ]
+        },
+        {
+            "@type": "group",
+            "name": "10",
+            "nested": [
+                {
+                    "@type": "item",
+                    "name": "src/crypto/ghostrider/sph_types.h"
+                },
+                {
+                    "@type": "item",
+                    "name": "src/crypto/ghostrider/sph_simd.h"
+                },
+                {
+                    "@type": "item",
+                    "name": "src/crypto/ghostrider/sph_simd.c"
+                },
+                {
+                    "@type": "item",
+                    "name": "src/crypto/ghostrider/sph_fugue.h"
+                },
+                {
+                    "@type": "item",
+                    "name": "src/crypto/ghostrider/sph_fugue.c"
+                },
+                {
+                    "@type": "item",
+                    "name": "src/crypto/ghostrider/md_helper.c"
+                },
+                {
+                    "@type": "item",
+                    "name": "src/crypto/ghostrider/ghostrider.h"
+                },
+                {
+                    "@type": "item",
+                    "name": "src/crypto/ghostrider/ghostrider.cpp"
+                },
+                {
+                    "@type": "item",
+                    "name": "src/crypto/ghostrider/sph_groestl.h"
+                },
+                {
+                    "@type": "item",
+                    "name": "src/crypto/ghostrider/sph_groestl.c"
+                },
+                {
+                    "@type": "item",
+                    "name": "src/3rdparty/rapidjson/uri.h"
+                },
+                {
+                    "@type": "item",
+                    "name": "src/crypto/ghostrider/sph_sha2.h"
+                },
+                {
+                    "@type": "item",
+                    "name": "src/crypto/ghostrider/sph_sha2.c"
+                },
+                {
+                    "@type": "item",
+                    "name": "src/crypto/ghostrider/sph_keccak.h"
+                },
+                {
+                    "@type": "item",
+                    "name": "src/crypto/ghostrider/sph_keccak.c"
+                },
+                {
+                    "@type": "item",
+                    "name": "src/crypto/ghostrider/aes_helper.c"
+                },
+                {
+                    "@type": "item",
+                    "name": "src/crypto/ghostrider/sph_whirlpool.h"
+                },
+                {
+                    "@type": "item",
+                    "name": "src/crypto/ghostrider/sph_whirlpool.c"
+                },
+                {
+                    "@type": "item",
+                    "name": "src/crypto/ghostrider/sph_jh.h"
+                },
+                {
+                    "@type": "item",
+                    "name": "src/crypto/ghostrider/sph_jh.c"
+                },
+                {
+                    "@type": "item",
+                    "name": "src/crypto/ghostrider/sph_skein.h"
+                },
+                {
+                    "@type": "item",
+                    "name": "src/crypto/ghostrider/sph_skein.c"
+                },
+                {
+                    "@type": "item",
+                    "name": "src/crypto/ghostrider/sph_luffa.h"
+                },
+                {
+                    "@type": "item",
+                    "name": "src/crypto/ghostrider/sph_luffa.c"
+                },
+                {
+                    "@type": "item",
+                    "name": "src/crypto/ghostrider/sph_cubehash.h"
+                },
+                {
+                    "@type": "item",
+                    "name": "src/crypto/ghostrider/sph_cubehash.c"
+                },
+                {
+                    "@type": "item",
+                    "name": "src/3rdparty/fmt/color.h"
+                },
+                {
+                    "@type": "item",
+                    "name": "src/crypto/ghostrider/sph_blake.h"
+                },
+                {
+                    "@type": "item",
+                    "name": "src/crypto/ghostrider/sph_blake.c"
+                },
+                {
+                    "@type": "item",
+                    "name": "src/crypto/ghostrider/sph_shavite.h"
+                },
+                {
+                    "@type": "item",
+                    "name": "src/crypto/ghostrider/sph_shavite.c"
+                },
+                {
+                    "@type": "item",
+                    "name": "src/3rdparty/CL/cl_ext_intel.h"
+                },
+                {
+                    "@type": "item",
+                    "name": "src/crypto/ghostrider/sph_echo.h"
+                },
+                {
+                    "@type": "item",
+                    "name": "src/crypto/ghostrider/sph_echo.c"
+                },
+                {
+                    "@type": "item",
+                    "name": "src/crypto/ghostrider/sph_shabal.h"
+                },
+                {
+                    "@type": "item",
+                    "name": "src/crypto/ghostrider/sph_shabal.c"
+                },
+                {
+                    "@type": "item",
+                    "name": "src/crypto/ghostrider/sph_bmw.h"
+                },
+                {
+                    "@type": "item",
+                    "name": "src/crypto/ghostrider/sph_bmw.c"
+                }
+            ]
+        },
+        {
+            "@type": "group",
+            "name": "11",
+            "nested": [
+                {
+                    "@type": "item",
+                    "name": "src/backend/cuda/CudaThread.h"
+                },
+                {
+                    "@type": "item",
+                    "name": "src/backend/cuda/CudaThread.cpp"
+                },
+                {
+                    "@type": "item",
+                    "name": "src/backend/cuda/wrappers/NvmlHealth.h"
+                },
+                {
+                    "@type": "item",
+                    "name": "src/backend/cuda/CudaWorker.h"
+                },
+                {
+                    "@type": "item",
+                    "name": "src/backend/cuda/CudaWorker.cpp"
+                },
+                {
+                    "@type": "item",
+                    "name": "src/backend/cuda/wrappers/CudaDevice.h"
+                },
+                {
+                    "@type": "item",
+                    "name": "src/backend/cuda/wrappers/CudaDevice.cpp"
+                },
+                {
+                    "@type": "item",
+                    "name": "src/backend/cuda/wrappers/NvmlLib.h"
+                },
+                {
+                    "@type": "item",
+                    "name": "src/backend/cuda/wrappers/NvmlLib.cpp"
+                },
+                {
+                    "@type": "item",
+                    "name": "src/backend/cuda/CudaLaunchData.h"
+                },
+                {
+                    "@type": "item",
+                    "name": "src/backend/cuda/CudaLaunchData.cpp"
+                },
+                {
+                    "@type": "item",
+                    "name": "src/backend/cuda/runners/CudaBaseRunner.h"
+                },
+                {
+                    "@type": "item",
+                    "name": "src/backend/cuda/runners/CudaBaseRunner.cpp"
+                },
+                {
+                    "@type": "item",
+                    "name": "src/backend/cuda/CudaConfig_gen.h"
+                },
+                {
+                    "@type": "item",
+                    "name": "src/backend/cuda/interfaces/ICudaRunner.h"
+                },
+                {
+                    "@type": "item",
+                    "name": "src/backend/cuda/runners/CudaCnRunner.h"
+                },
+                {
+                    "@type": "item",
+                    "name": "src/backend/cuda/runners/CudaCnRunner.cpp"
+                },
+                {
+                    "@type": "item",
+                    "name": "src/backend/cuda/CudaThreads.h"
+                },
+                {
+                    "@type": "item",
+                    "name": "src/backend/cuda/CudaThreads.cpp"
+                },
+                {
+                    "@type": "item",
+                    "name": "src/backend/cuda/wrappers/CudaLib.h"
+                },
+                {
+                    "@type": "item",
+                    "name": "src/backend/cuda/wrappers/CudaLib.cpp"
+                },
+                {
+                    "@type": "item",
+                    "name": "src/backend/cuda/CudaConfig.h"
+                },
+                {
+                    "@type": "item",
+                    "name": "src/backend/cuda/CudaConfig.cpp"
+                },
+                {
+                    "@type": "item",
+                    "name": "src/backend/cuda/runners/CudaKawPowRunner.h"
+                },
+                {
+                    "@type": "item",
+                    "name": "src/backend/cuda/runners/CudaKawPowRunner.cpp"
+                },
+                {
+                    "@type": "item",
+                    "name": "src/backend/cuda/runners/CudaRxRunner.h"
+                },
+                {
+                    "@type": "item",
+                    "name": "src/backend/cuda/runners/CudaRxRunner.cpp"
+                },
+                {
+                    "@type": "item",
+                    "name": "src/backend/cuda/wrappers/nvml_lite.h"
+                },
+                {
+                    "@type": "item",
+                    "name": "src/backend/cuda/CudaBackend.h"
+                },
+                {
+                    "@type": "item",
+                    "name": "src/backend/cuda/CudaBackend.cpp"
+                }
+            ]
+        },
+        {
+            "@type": "group",
+            "name": "12",
+            "nested": [
+                {
+                    "@type": "item",
+                    "name": "src/crypto/rx/RxMsr.h"
+                },
+                {
+                    "@type": "item",
+                    "name": "src/crypto/rx/RxMsr.cpp"
+                },
+                {
+                    "@type": "item",
+                    "name": "src/crypto/rx/RxSeed.h"
+                },
+                {
+                    "@type": "item",
+                    "name": "src/crypto/rx/RxNUMAStorage.h"
+                },
+                {
+                    "@type": "item",
+                    "name": "src/crypto/rx/RxNUMAStorage.cpp"
+                },
+                {
+                    "@type": "item",
+                    "name": "src/crypto/rx/RxVm.h"
+                },
+                {
+                    "@type": "item",
+                    "name": "src/crypto/rx/RxVm.cpp"
+                },
+                {
+                    "@type": "item",
+                    "name": "src/crypto/rx/RxBasicStorage.h"
+                },
+                {
+                    "@type": "item",
+                    "name": "src/crypto/rx/RxBasicStorage.cpp"
+                },
+                {
+                    "@type": "item",
+                    "name": "src/crypto/rx/RxConfig.h"
+                },
+                {
+                    "@type": "item",
+                    "name": "src/crypto/rx/RxConfig.cpp"
+                },
+                {
+                    "@type": "item",
+                    "name": "src/crypto/rx/RxQueue.h"
+                },
+                {
+                    "@type": "item",
+                    "name": "src/crypto/rx/RxQueue.cpp"
+                },
+                {
+                    "@type": "item",
+                    "name": "src/backend/common/interfaces/IRxStorage.h"
+                },
+                {
+                    "@type": "item",
+                    "name": "src/crypto/rx/RxAlgo.h"
+                },
+                {
+                    "@type": "item",
+                    "name": "src/crypto/rx/RxAlgo.cpp"
+                },
+                {
+                    "@type": "item",
+                    "name": "src/crypto/rx/RxCache.h"
+                },
+                {
+                    "@type": "item",
+                    "name": "src/crypto/rx/RxCache.cpp"
+                },
+                {
+                    "@type": "item",
+                    "name": "src/crypto/rx/RxDataset.h"
+                },
+                {
+                    "@type": "item",
+                    "name": "src/crypto/rx/RxDataset.cpp"
+                },
+                {
+                    "@type": "item",
+                    "name": "src/crypto/rx/Rx.h"
+                },
+                {
+                    "@type": "item",
+                    "name": "src/crypto/rx/Rx.cpp"
+                }
+            ]
+        },
+        {
+            "@type": "group",
+            "name": "13",
+            "nested": [
+                {
+                    "@type": "item",
+                    "name": "src/crypto/randomx/blake2/avx2/blake2b-common.h"
+                },
+                {
+                    "@type": "item",
+                    "name": "src/crypto/randomx/blake2/blake2.h"
+                },
+                {
+                    "@type": "item",
+                    "name": "src/crypto/randomx/blake2/blake2b.c"
+                },
+                {
+                    "@type": "item",
+                    "name": "src/crypto/randomx/blake2/avx2/blake2.h"
+                },
+                {
+                    "@type": "item",
+                    "name": "src/crypto/randomx/blake2/avx2/blake2b-load-avx2.h"
+                },
+                {
+                    "@type": "item",
+                    "name": "src/crypto/cn/skein_port.h"
+                },
+                {
+                    "@type": "item",
+                    "name": "src/crypto/cn/c_skein.h"
+                },
+                {
+                    "@type": "item",
+                    "name": "src/crypto/cn/c_skein.c"
+                },
+                {
+                    "@type": "item",
+                    "name": "src/crypto/randomx/blake2/avx2/blake2b.h"
+                },
+                {
+                    "@type": "item",
+                    "name": "src/crypto/randomx/blake2/avx2/blake2b_avx2.c"
+                },
+                {
+                    "@type": "item",
+                    "name": "src/crypto/randomx/blake2/blake2b_sse41.c"
+                },
+                {
+                    "@type": "item",
+                    "name": "src/crypto/cn/c_groestl.h"
+                },
+                {
+                    "@type": "item",
+                    "name": "src/crypto/cn/c_groestl.c"
+                },
+                {
+                    "@type": "item",
+                    "name": "src/3rdparty/fmt/chrono.h"
+                },
+                {
+                    "@type": "item",
+                    "name": "src/crypto/cn/hash.h"
+                },
+                {
+                    "@type": "item",
+                    "name": "src/crypto/cn/c_jh.h"
+                },
+                {
+                    "@type": "item",
+                    "name": "src/crypto/cn/c_jh.c"
+                }
+            ]
+        },
+        {
+            "@type": "group",
+            "name": "14",
+            "nested": [
+                {
+                    "@type": "item",
+                    "name": "src/3rdparty/CL/cl_gl.h"
+                },
+                {
+                    "@type": "item",
+                    "name": "src/3rdparty/CL/cl_egl.h"
+                },
+                {
+                    "@type": "item",
+                    "name": "src/3rdparty/CL/cl_ext.h"
+                },
+                {
+                    "@type": "item",
+                    "name": "src/3rdparty/CL/cl_gl_ext.h"
+                },
+                {
+                    "@type": "item",
+                    "name": "src/3rdparty/CL/cl_d3d11.h"
+                },
+                {
+                    "@type": "item",
+                    "name": "src/3rdparty/CL/cl_d3d10.h"
+                },
+                {
+                    "@type": "item",
+                    "name": "src/3rdparty/CL/cl_dx9_media_sharing_intel.h"
+                },
+                {
+                    "@type": "item",
+                    "name": "src/3rdparty/CL/cl_va_api_media_sharing_intel.h"
+                },
+                {
+                    "@type": "item",
+                    "name": "src/3rdparty/CL/cl.h"
+                },
+                {
+                    "@type": "item",
+                    "name": "src/3rdparty/CL/cl_dx9_media_sharing.h"
+                }
+            ]
+        },
+        {
+            "@type": "group",
+            "name": "15",
+            "nested": [
+                {
+                    "@type": "item",
+                    "name": "src/xmrig.cpp"
+                },
+                {
+                    "@type": "item",
+                    "name": "src/backend/opencl/wrappers/AdlLib.h"
+                },
+                {
+                    "@type": "item",
+                    "name": "src/backend/opencl/wrappers/AdlLib.cpp"
+                },
+                {
+                    "@type": "item",
+                    "name": "src/backend/opencl/wrappers/AdlLib_linux.cpp"
+                },
+                {
+                    "@type": "item",
+                    "name": "src/version.h"
+                },
+                {
+                    "@type": "item",
+                    "name": "src/App.h"
+                },
+                {
+                    "@type": "item",
+                    "name": "src/App_unix.cpp"
+                },
+                {
+                    "@type": "item",
+                    "name": "src/App_win.cpp"
+                },
+                {
+                    "@type": "item",
+                    "name": "src/App.cpp"
+                },
+                {
+                    "@type": "item",
+                    "name": "src/3rdparty/adl/adl_defines.h"
+                },
+                {
+                    "@type": "item",
+                    "name": "src/Summary.h"
+                },
+                {
+                    "@type": "item",
+                    "name": "src/Summary.cpp"
+                },
+                {
+                    "@type": "item",
+                    "name": "src/3rdparty/adl/adl_sdk.h"
+                },
+                {
+                    "@type": "item",
+                    "name": "src/backend/opencl/wrappers/AdlHealth.h"
+                },
+                {
+                    "@type": "item",
+                    "name": "src/3rdparty/adl/adl_structures.h"
+                }
+            ]
+        },
+        {
+            "@type": "group",
+            "name": "16",
+            "nested": [
+                {
+                    "@type": "item",
+                    "name": "src/crypto/common/VirtualMemory.h"
+                },
+                {
+                    "@type": "item",
+                    "name": "src/crypto/common/VirtualMemory_win.cpp"
+                },
+                {
+                    "@type": "item",
+                    "name": "src/crypto/common/VirtualMemory_hwloc.cpp"
+                },
+                {
+                    "@type": "item",
+                    "name": "src/crypto/common/VirtualMemory_unix.cpp"
+                },
+                {
+                    "@type": "item",
+                    "name": "src/crypto/common/VirtualMemory.cpp"
+                },
+                {
+                    "@type": "item",
+                    "name": "src/backend/common/interfaces/IMemoryPool.h"
+                },
+                {
+                    "@type": "item",
+                    "name": "src/crypto/cn/sse2neon.h"
+                },
+                {
+                    "@type": "item",
+                    "name": "src/crypto/common/LinuxMemory.h"
+                },
+                {
+                    "@type": "item",
+                    "name": "src/crypto/common/LinuxMemory.cpp"
+                },
+                {
+                    "@type": "item",
+                    "name": "src/crypto/common/NUMAMemoryPool.h"
+                },
+                {
+                    "@type": "item",
+                    "name": "src/crypto/common/NUMAMemoryPool.cpp"
+                },
+                {
+                    "@type": "item",
+                    "name": "src/crypto/common/MemoryPool.h"
+                },
+                {
+                    "@type": "item",
+                    "name": "src/crypto/common/MemoryPool.cpp"
+                },
+                {
+                    "@type": "item",
+                    "name": "src/crypto/common/HugePagesInfo.h"
+                },
+                {
+                    "@type": "item",
+                    "name": "src/crypto/common/HugePagesInfo.cpp"
+                },
+                {
+                    "@type": "item",
+                    "name": "src/crypto/common/portable/mm_malloc.h"
+                }
+            ]
+        },
+        {
+            "@type": "group",
+            "name": "17",
+            "nested": [
+                {
+                    "@type": "item",
+                    "name": "src/3rdparty/fmt/printf.h"
+                },
+                {
+                    "@type": "item",
+                    "name": "src/3rdparty/fmt/ostream.h"
+                },
+                {
+                    "@type": "item",
+                    "name": "src/3rdparty/fmt/compile.h"
+                },
+                {
+                    "@type": "item",
+                    "name": "src/3rdparty/fmt/os.cc"
+                },
+                {
+                    "@type": "item",
+                    "name": "src/3rdparty/fmt/ranges.h"
+                },
+                {
+                    "@type": "item",
+                    "name": "src/3rdparty/fmt/os.h"
+                },
+                {
+                    "@type": "item",
+                    "name": "src/3rdparty/fmt/format.h"
+                },
+                {
+                    "@type": "item",
+                    "name": "src/3rdparty/fmt/core.h"
+                },
+                {
+                    "@type": "item",
+                    "name": "src/3rdparty/fmt/locale.h"
+                },
+                {
+                    "@type": "item",
+                    "name": "src/3rdparty/fmt/format-inl.h"
+                },
+                {
+                    "@type": "item",
+                    "name": "src/3rdparty/fmt/format.cc"
+                }
+            ]
+        },
+        {
+            "@type": "group",
+            "name": "18",
+            "nested": [
+                {
+                    "@type": "item",
+                    "name": "src/base/crypto/keccak.h"
+                },
+                {
+                    "@type": "item",
+                    "name": "src/base/crypto/keccak.cpp"
+                },
+                {
+                    "@type": "item",
+                    "name": "src/base/tools/cryptonote/Signatures.h"
+                },
+                {
+                    "@type": "item",
+                    "name": "src/base/tools/cryptonote/Signatures.cpp"
+                },
+                {
+                    "@type": "item",
+                    "name": "src/base/tools/cryptonote/crypto-ops-data.c"
+                },
+                {
+                    "@type": "item",
+                    "name": "src/base/crypto/sha3.h"
+                },
+                {
+                    "@type": "item",
+                    "name": "src/base/crypto/sha3.cpp"
+                },
+                {
+                    "@type": "item",
+                    "name": "src/base/tools/cryptonote/crypto-ops.h"
+                },
+                {
+                    "@type": "item",
+                    "name": "src/base/tools/cryptonote/crypto-ops.c"
+                }
+            ]
+        },
+        {
+            "@type": "group",
+            "name": "19",
+            "nested": [
+                {
+                    "@type": "item",
+                    "name": "src/backend/opencl/cl/rx/randomx_constants_graft.h"
+                },
+                {
+                    "@type": "item",
+                    "name": "src/backend/opencl/cl/rx/randomx_constants_monero.h"
+                },
+                {
+                    "@type": "item",
+                    "name": "src/backend/opencl/cl/rx/randomx_constants_arqma.h"
+                },
+                {
+                    "@type": "item",
+                    "name": "src/backend/opencl/cl/rx/randomx_constants_wow.h"
+                },
+                {
+                    "@type": "item",
+                    "name": "src/backend/opencl/cl/rx/randomx_constants_keva.h"
+                }
+            ]
+        },
+        {
+            "@type": "group",
+            "name": "20",
+            "nested": [
+                {
+                    "@type": "item",
+                    "name": "src/net/Network.h"
+                },
+                {
+                    "@type": "item",
+                    "name": "src/net/Network.cpp"
+                },
+                {
+                    "@type": "item",
+                    "name": "src/net/interfaces/IJobResultListener.h"
+                },
+                {
+                    "@type": "item",
+                    "name": "src/net/JobResult.h"
+                },
+                {
+                    "@type": "item",
+                    "name": "src/net/JobResults.h"
+                },
+                {
+                    "@type": "item",
+                    "name": "src/net/JobResults.cpp"
+                },
+                {
+                    "@type": "item",
+                    "name": "src/net/strategies/DonateStrategy.h"
+                },
+                {
+                    "@type": "item",
+                    "name": "src/net/strategies/DonateStrategy.cpp"
+                }
+            ]
+        },
+        {
+            "@type": "group",
+            "name": "21",
+            "nested": [
+                {
+                    "@type": "item",
+                    "name": "src/backend/opencl/cl/rx/randomx_run_gfx900.h"
+                },
+                {
+                    "@type": "item",
+                    "name": "src/backend/opencl/cl/rx/randomx_run_gfx803.h"
+                },
+                {
+                    "@type": "item",
+                    "name": "src/backend/opencl/cl/rx/randomx_run_gfx1010.h"
+                }
+            ]
+        },
+        {
+            "@type": "group",
+            "name": "22",
+            "nested": [
+                {
+                    "@type": "item",
+                    "name": "src/crypto/ghostrider/sph_hamsi.h"
+                },
+                {
+                    "@type": "item",
+                    "name": "src/crypto/ghostrider/sph_hamsi.c"
+                },
+                {
+                    "@type": "item",
+                    "name": "src/crypto/ghostrider/sph_hamsi_helper.c"
+                }
+            ]
+        },
+        {
+            "@type": "group",
+            "name": "23",
+            "nested": [
+                {
+                    "@type": "item",
+                    "name": "src/3rdparty/CL/cl_version.h"
+                },
+                {
+                    "@type": "item",
+                    "name": "src/3rdparty/CL/cl_platform.h"
+                }
+            ]
+        },
+        {
+            "@type": "group",
+            "name": "24",
+            "nested": [
+                {
+                    "@type": "item",
+                    "name": "src/3rdparty/hwloc/include/private/netloc.h"
+                }
+            ]
+        }
+    ]
+}

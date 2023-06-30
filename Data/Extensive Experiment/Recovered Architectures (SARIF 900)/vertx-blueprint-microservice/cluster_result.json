@@ -1,0 +1,504 @@
+{
+    "@schemaVersion": "1.0",
+    "name": "clustering",
+    "structure": [
+        {
+            "@type": "group",
+            "name": "0",
+            "nested": [
+                {
+                    "@type": "item",
+                    "name": "order-microservice/src/main/java/io/vertx/blueprint/microservice/order/impl/OrderServiceImpl.java"
+                },
+                {
+                    "@type": "item",
+                    "name": "order-microservice/src/main/generated/io/vertx/blueprint/microservice/order/CheckoutResultConverter.java"
+                },
+                {
+                    "@type": "item",
+                    "name": "order-microservice/src/main/java/io/vertx/blueprint/microservice/order/CheckoutResult.java"
+                },
+                {
+                    "@type": "item",
+                    "name": "order-microservice/src/main/java/io/vertx/blueprint/microservice/order/OrderEventType.java"
+                },
+                {
+                    "@type": "item",
+                    "name": "order-microservice/src/main/generated/io/vertx/blueprint/microservice/order/OrderConverter.java"
+                },
+                {
+                    "@type": "item",
+                    "name": "order-microservice/src/main/java/io/vertx/blueprint/microservice/order/api/RestOrderAPIVerticle.java"
+                },
+                {
+                    "@type": "item",
+                    "name": "order-microservice/src/main/java/io/vertx/blueprint/microservice/order/OrderVerticle.java"
+                },
+                {
+                    "@type": "item",
+                    "name": "order-microservice/src/main/generated/io/vertx/blueprint/microservice/order/OrderServiceVertxProxyHandler.java"
+                },
+                {
+                    "@type": "item",
+                    "name": "order-microservice/src/main/java/io/vertx/blueprint/microservice/order/RawOrderDispatcher.java"
+                },
+                {
+                    "@type": "item",
+                    "name": "order-microservice/src/main/generated/io/vertx/blueprint/microservice/order/rxjava/OrderService.java"
+                },
+                {
+                    "@type": "item",
+                    "name": "order-microservice/src/main/generated/io/vertx/blueprint/microservice/order/OrderServiceVertxEBProxy.java"
+                },
+                {
+                    "@type": "item",
+                    "name": "order-microservice/src/main/java/io/vertx/blueprint/microservice/order/OrderService.java"
+                },
+                {
+                    "@type": "item",
+                    "name": "order-microservice/src/main/java/io/vertx/blueprint/microservice/order/package-info.java"
+                },
+                {
+                    "@type": "item",
+                    "name": "order-microservice/src/main/java/io/vertx/blueprint/microservice/order/Order.java"
+                }
+            ]
+        },
+        {
+            "@type": "group",
+            "name": "1",
+            "nested": [
+                {
+                    "@type": "item",
+                    "name": "shopping-cart-microservice/src/main/java/io/vertx/blueprint/microservice/cart/CartVerticle.java"
+                },
+                {
+                    "@type": "item",
+                    "name": "shopping-cart-microservice/src/main/java/io/vertx/blueprint/microservice/cart/repository/impl/CartEventDataSourceImpl.java"
+                },
+                {
+                    "@type": "item",
+                    "name": "shopping-cart-microservice/src/main/java/io/vertx/blueprint/microservice/cart/impl/CheckoutServiceImpl.java"
+                },
+                {
+                    "@type": "item",
+                    "name": "shopping-cart-microservice/src/main/generated/io/vertx/blueprint/microservice/cart/rxjava/ShoppingCartService.java"
+                },
+                {
+                    "@type": "item",
+                    "name": "shopping-cart-microservice/src/main/generated/io/vertx/blueprint/microservice/cart/ShoppingCartServiceVertxEBProxy.java"
+                },
+                {
+                    "@type": "item",
+                    "name": "shopping-cart-microservice/src/main/java/io/vertx/blueprint/microservice/cart/impl/ShoppingCartServiceImpl.java"
+                },
+                {
+                    "@type": "item",
+                    "name": "shopping-cart-microservice/src/main/generated/io/vertx/blueprint/microservice/cart/ShoppingCartServiceVertxProxyHandler.java"
+                },
+                {
+                    "@type": "item",
+                    "name": "shopping-cart-microservice/src/main/java/io/vertx/blueprint/microservice/cart/ShoppingCartService.java"
+                },
+                {
+                    "@type": "item",
+                    "name": "shopping-cart-microservice/src/main/java/io/vertx/blueprint/microservice/cart/repository/CartEventDataSource.java"
+                },
+                {
+                    "@type": "item",
+                    "name": "shopping-cart-microservice/src/main/java/io/vertx/blueprint/microservice/cart/ShoppingCart.java"
+                },
+                {
+                    "@type": "item",
+                    "name": "shopping-cart-microservice/src/main/java/io/vertx/blueprint/microservice/cart/CartEventType.java"
+                },
+                {
+                    "@type": "item",
+                    "name": "shopping-cart-microservice/src/main/java/io/vertx/blueprint/microservice/cart/CartEvent.java"
+                },
+                {
+                    "@type": "item",
+                    "name": "shopping-cart-microservice/src/main/java/io/vertx/blueprint/microservice/cart/api/RestShoppingAPIVerticle.java"
+                }
+            ]
+        },
+        {
+            "@type": "group",
+            "name": "2",
+            "nested": [
+                {
+                    "@type": "item",
+                    "name": "product-microservice/src/main/java/io/vertx/blueprint/microservice/product/api/RestProductAPIVerticle.java"
+                },
+                {
+                    "@type": "item",
+                    "name": "product-microservice/src/main/java/io/vertx/blueprint/microservice/product/impl/ProductServiceImpl.java"
+                },
+                {
+                    "@type": "item",
+                    "name": "product-microservice/src/main/generated/io/vertx/blueprint/microservice/product/rxjava/ProductService.java"
+                },
+                {
+                    "@type": "item",
+                    "name": "product-microservice/src/main/java/io/vertx/blueprint/microservice/product/Product.java"
+                },
+                {
+                    "@type": "item",
+                    "name": "product-microservice/src/main/java/io/vertx/blueprint/microservice/product/ProductTuple.java"
+                },
+                {
+                    "@type": "item",
+                    "name": "product-microservice/src/main/java/io/vertx/blueprint/microservice/product/ProductService.java"
+                },
+                {
+                    "@type": "item",
+                    "name": "product-microservice/src/main/generated/io/vertx/blueprint/microservice/product/ProductServiceVertxEBProxy.java"
+                },
+                {
+                    "@type": "item",
+                    "name": "product-microservice/src/main/generated/io/vertx/blueprint/microservice/product/ProductTupleConverter.java"
+                },
+                {
+                    "@type": "item",
+                    "name": "product-microservice/src/main/generated/io/vertx/blueprint/microservice/product/ProductServiceVertxProxyHandler.java"
+                },
+                {
+                    "@type": "item",
+                    "name": "product-microservice/src/main/generated/io/vertx/blueprint/microservice/product/ProductConverter.java"
+                },
+                {
+                    "@type": "item",
+                    "name": "product-microservice/src/main/java/io/vertx/blueprint/microservice/product/package-info.java"
+                },
+                {
+                    "@type": "item",
+                    "name": "product-microservice/src/main/java/io/vertx/blueprint/microservice/product/ProductVerticle.java"
+                }
+            ]
+        },
+        {
+            "@type": "group",
+            "name": "3",
+            "nested": [
+                {
+                    "@type": "item",
+                    "name": "account-microservice/src/main/java/io/vertx/blueprint/microservice/account/AccountService.java"
+                },
+                {
+                    "@type": "item",
+                    "name": "account-microservice/src/main/java/io/vertx/blueprint/microservice/account/UserAccountVerticle.java"
+                },
+                {
+                    "@type": "item",
+                    "name": "account-microservice/src/main/generated/io/vertx/blueprint/microservice/account/AccountServiceVertxEBProxy.java"
+                },
+                {
+                    "@type": "item",
+                    "name": "account-microservice/src/main/java/io/vertx/blueprint/microservice/account/Account.java"
+                },
+                {
+                    "@type": "item",
+                    "name": "account-microservice/src/main/generated/io/vertx/blueprint/microservice/account/AccountServiceVertxProxyHandler.java"
+                },
+                {
+                    "@type": "item",
+                    "name": "account-microservice/src/main/generated/io/vertx/blueprint/microservice/account/AccountConverter.java"
+                },
+                {
+                    "@type": "item",
+                    "name": "account-microservice/src/main/java/io/vertx/blueprint/microservice/account/impl/JdbcAccountServiceImpl.java"
+                },
+                {
+                    "@type": "item",
+                    "name": "account-microservice/src/main/java/io/vertx/blueprint/microservice/account/package-info.java"
+                },
+                {
+                    "@type": "item",
+                    "name": "account-microservice/src/main/java/io/vertx/blueprint/microservice/account/api/RestUserAccountAPIVerticle.java"
+                },
+                {
+                    "@type": "item",
+                    "name": "account-microservice/src/main/generated/io/vertx/blueprint/microservice/account/rxjava/AccountService.java"
+                }
+            ]
+        },
+        {
+            "@type": "group",
+            "name": "4",
+            "nested": [
+                {
+                    "@type": "item",
+                    "name": "shopping-cart-microservice/src/main/java/io/vertx/blueprint/microservice/cart/CheckoutResult.java"
+                },
+                {
+                    "@type": "item",
+                    "name": "shopping-cart-microservice/src/main/java/io/vertx/blueprint/microservice/cart/CheckoutService.java"
+                },
+                {
+                    "@type": "item",
+                    "name": "shopping-cart-microservice/src/main/java/io/vertx/blueprint/microservice/cart/repository/SimpleCrudDataSource.java"
+                },
+                {
+                    "@type": "item",
+                    "name": "shopping-cart-microservice/src/main/generated/io/vertx/blueprint/microservice/cart/CheckoutServiceVertxEBProxy.java"
+                },
+                {
+                    "@type": "item",
+                    "name": "shopping-cart-microservice/src/main/generated/io/vertx/blueprint/microservice/cart/CheckoutServiceVertxProxyHandler.java"
+                },
+                {
+                    "@type": "item",
+                    "name": "shopping-cart-microservice/src/main/generated/io/vertx/blueprint/microservice/cart/CartEventConverter.java"
+                },
+                {
+                    "@type": "item",
+                    "name": "shopping-cart-microservice/src/main/generated/io/vertx/blueprint/microservice/cart/rxjava/CheckoutService.java"
+                },
+                {
+                    "@type": "item",
+                    "name": "shopping-cart-microservice/src/main/generated/io/vertx/blueprint/microservice/cart/CheckoutResultConverter.java"
+                },
+                {
+                    "@type": "item",
+                    "name": "shopping-cart-microservice/src/main/java/io/vertx/blueprint/microservice/cart/package-info.java"
+                },
+                {
+                    "@type": "item",
+                    "name": "shopping-cart-microservice/src/main/generated/io/vertx/blueprint/microservice/cart/ShoppingCartConverter.java"
+                }
+            ]
+        },
+        {
+            "@type": "group",
+            "name": "5",
+            "nested": [
+                {
+                    "@type": "item",
+                    "name": "store-microservice/src/main/generated/io/vertx/blueprint/microservice/store/rxjava/StoreCRUDService.java"
+                },
+                {
+                    "@type": "item",
+                    "name": "store-microservice/src/main/java/io/vertx/blueprint/microservice/store/StoreVerticle.java"
+                },
+                {
+                    "@type": "item",
+                    "name": "store-microservice/src/main/java/io/vertx/blueprint/microservice/store/Store.java"
+                },
+                {
+                    "@type": "item",
+                    "name": "store-microservice/src/main/java/io/vertx/blueprint/microservice/store/StoreCRUDService.java"
+                },
+                {
+                    "@type": "item",
+                    "name": "store-microservice/src/main/java/io/vertx/blueprint/microservice/store/api/RestStoreAPIVerticle.java"
+                },
+                {
+                    "@type": "item",
+                    "name": "store-microservice/src/main/generated/io/vertx/blueprint/microservice/store/StoreCRUDServiceVertxEBProxy.java"
+                },
+                {
+                    "@type": "item",
+                    "name": "store-microservice/src/main/generated/io/vertx/blueprint/microservice/store/StoreConverter.java"
+                },
+                {
+                    "@type": "item",
+                    "name": "store-microservice/src/main/java/io/vertx/blueprint/microservice/store/package-info.java"
+                },
+                {
+                    "@type": "item",
+                    "name": "store-microservice/src/main/java/io/vertx/blueprint/microservice/store/impl/StoreCRUDServiceImpl.java"
+                },
+                {
+                    "@type": "item",
+                    "name": "store-microservice/src/main/generated/io/vertx/blueprint/microservice/store/StoreCRUDServiceVertxProxyHandler.java"
+                }
+            ]
+        },
+        {
+            "@type": "group",
+            "name": "6",
+            "nested": [
+                {
+                    "@type": "item",
+                    "name": "payment-microservice/src/main/generated/io/vertx/blueprint/microservice/payment/PaymentConverter.java"
+                },
+                {
+                    "@type": "item",
+                    "name": "payment-microservice/src/main/java/io/vertx/blueprint/microservice/payment/Payment.java"
+                },
+                {
+                    "@type": "item",
+                    "name": "payment-microservice/src/main/java/io/vertx/blueprint/microservice/payment/PaymentQueryService.java"
+                },
+                {
+                    "@type": "item",
+                    "name": "payment-microservice/src/main/generated/io/vertx/blueprint/microservice/payment/PaymentQueryServiceVertxEBProxy.java"
+                },
+                {
+                    "@type": "item",
+                    "name": "payment-microservice/src/main/java/io/vertx/blueprint/microservice/payment/impl/PaymentQueryServiceImpl.java"
+                },
+                {
+                    "@type": "item",
+                    "name": "payment-microservice/src/main/generated/io/vertx/blueprint/microservice/payment/PaymentQueryServiceVertxProxyHandler.java"
+                },
+                {
+                    "@type": "item",
+                    "name": "payment-microservice/src/main/java/io/vertx/blueprint/microservice/payment/package-info.java"
+                },
+                {
+                    "@type": "item",
+                    "name": "payment-microservice/src/main/generated/io/vertx/blueprint/microservice/payment/rxjava/PaymentQueryService.java"
+                }
+            ]
+        },
+        {
+            "@type": "group",
+            "name": "7",
+            "nested": [
+                {
+                    "@type": "item",
+                    "name": "cache-infrastructure/src/main/generated/io/vertx/blueprint/microservice/cache/CounterServiceVertxEBProxy.java"
+                },
+                {
+                    "@type": "item",
+                    "name": "cache-infrastructure/src/main/java/io/vertx/blueprint/microservice/cache/CacheComponentVerticle.java"
+                },
+                {
+                    "@type": "item",
+                    "name": "cache-infrastructure/src/main/java/io/vertx/blueprint/microservice/cache/impl/DefaultCounterServiceImpl.java"
+                },
+                {
+                    "@type": "item",
+                    "name": "cache-infrastructure/src/main/generated/io/vertx/blueprint/microservice/cache/CounterServiceVertxProxyHandler.java"
+                },
+                {
+                    "@type": "item",
+                    "name": "cache-infrastructure/src/main/generated/io/vertx/blueprint/microservice/cache/rxjava/CounterService.java"
+                },
+                {
+                    "@type": "item",
+                    "name": "cache-infrastructure/src/main/java/io/vertx/blueprint/microservice/cache/package-info.java"
+                },
+                {
+                    "@type": "item",
+                    "name": "cache-infrastructure/src/main/java/io/vertx/blueprint/microservice/cache/CounterService.java"
+                }
+            ]
+        },
+        {
+            "@type": "group",
+            "name": "8",
+            "nested": [
+                {
+                    "@type": "item",
+                    "name": "microservice-blueprint-common/src/main/java/io/vertx/blueprint/microservice/common/service/ExampleHelper.java"
+                },
+                {
+                    "@type": "item",
+                    "name": "microservice-blueprint-common/src/main/java/io/vertx/blueprint/microservice/common/functional/Functional.java"
+                },
+                {
+                    "@type": "item",
+                    "name": "microservice-blueprint-common/src/main/java/io/vertx/blueprint/microservice/common/config/ConfigRetrieverHelper.java"
+                },
+                {
+                    "@type": "item",
+                    "name": "microservice-blueprint-common/src/main/java/io/vertx/blueprint/microservice/common/config/Log4jConfigurationServiceHandler.java"
+                },
+                {
+                    "@type": "item",
+                    "name": "microservice-blueprint-common/src/main/java/io/vertx/blueprint/microservice/common/package-info.java"
+                },
+                {
+                    "@type": "item",
+                    "name": "microservice-blueprint-common/src/test/java/io/vertx/blueprint/microservice/common/functional/FunctionalTest.java"
+                }
+            ]
+        },
+        {
+            "@type": "group",
+            "name": "9",
+            "nested": [
+                {
+                    "@type": "item",
+                    "name": "inventory-microservice/src/main/java/io/vertx/blueprint/microservice/inventory/InventoryRestAPIVerticle.java"
+                },
+                {
+                    "@type": "item",
+                    "name": "inventory-microservice/src/test/java/io/vertx/blueprint/microservice/inventory/InventoryApiTest.java"
+                },
+                {
+                    "@type": "item",
+                    "name": "inventory-microservice/src/main/java/io/vertx/blueprint/microservice/inventory/InventoryService.java"
+                },
+                {
+                    "@type": "item",
+                    "name": "inventory-microservice/src/main/java/io/vertx/blueprint/microservice/inventory/impl/InventoryServiceImpl.java"
+                }
+            ]
+        },
+        {
+            "@type": "group",
+            "name": "10",
+            "nested": [
+                {
+                    "@type": "item",
+                    "name": "microservice-blueprint-common/src/main/java/io/vertx/blueprint/microservice/common/rx/RestAPIRxVerticle.java"
+                },
+                {
+                    "@type": "item",
+                    "name": "microservice-blueprint-common/src/main/java/io/vertx/blueprint/microservice/common/BaseMicroserviceVerticle.java"
+                },
+                {
+                    "@type": "item",
+                    "name": "microservice-blueprint-common/src/main/java/io/vertx/blueprint/microservice/common/RestAPIVerticle.java"
+                },
+                {
+                    "@type": "item",
+                    "name": "microservice-blueprint-common/src/main/java/io/vertx/blueprint/microservice/common/rx/BaseMicroserviceRxVerticle.java"
+                }
+            ]
+        },
+        {
+            "@type": "group",
+            "name": "11",
+            "nested": [
+                {
+                    "@type": "item",
+                    "name": "api-gateway/src/main/java/io/vertx/blueprint/microservice/gateway/APIGatewayVerticle.java"
+                }
+            ]
+        },
+        {
+            "@type": "group",
+            "name": "12",
+            "nested": [
+                {
+                    "@type": "item",
+                    "name": "microservice-blueprint-common/src/main/java/io/vertx/blueprint/microservice/common/service/JdbcRepositoryWrapper.java"
+                }
+            ]
+        },
+        {
+            "@type": "group",
+            "name": "13",
+            "nested": [
+                {
+                    "@type": "item",
+                    "name": "monitor-dashboard/src/main/java/io/vertx/blueprint/microservice/monitor/MonitorDashboardVerticle.java"
+                }
+            ]
+        },
+        {
+            "@type": "group",
+            "name": "14",
+            "nested": [
+                {
+                    "@type": "item",
+                    "name": "shopping-ui/src/main/java/io/vertx/blueprint/microservice/shopping/ui/ShoppingUIVerticle.java"
+                }
+            ]
+        }
+    ]
+}

@@ -1,0 +1,258 @@
+{
+    "@schemaVersion": "1.0",
+    "name": "clustering",
+    "structure": [
+        {
+            "@type": "group",
+            "name": "0",
+            "nested": [
+                {
+                    "@type": "item",
+                    "name": "src/hashkit/nc_md5.c"
+                },
+                {
+                    "@type": "item",
+                    "name": "src/hashkit/nc_crc32.c"
+                },
+                {
+                    "@type": "item",
+                    "name": "src/hashkit/nc_hsieh.c"
+                },
+                {
+                    "@type": "item",
+                    "name": "src/hashkit/nc_crc16.c"
+                },
+                {
+                    "@type": "item",
+                    "name": "src/hashkit/nc_hashkit.h"
+                },
+                {
+                    "@type": "item",
+                    "name": "src/hashkit/nc_ketama.c"
+                },
+                {
+                    "@type": "item",
+                    "name": "src/hashkit/nc_modula.c"
+                },
+                {
+                    "@type": "item",
+                    "name": "src/hashkit/nc_random.c"
+                },
+                {
+                    "@type": "item",
+                    "name": "src/hashkit/nc_fnv.c"
+                },
+                {
+                    "@type": "item",
+                    "name": "src/hashkit/nc_jenkins.c"
+                },
+                {
+                    "@type": "item",
+                    "name": "src/hashkit/nc_murmur.c"
+                },
+                {
+                    "@type": "item",
+                    "name": "src/hashkit/nc_one_at_a_time.c"
+                }
+            ]
+        },
+        {
+            "@type": "group",
+            "name": "1",
+            "nested": [
+                {
+                    "@type": "item",
+                    "name": "src/nc.c"
+                },
+                {
+                    "@type": "item",
+                    "name": "src/nc_core.h"
+                },
+                {
+                    "@type": "item",
+                    "name": "src/nc_core.c"
+                },
+                {
+                    "@type": "item",
+                    "name": "src/nc_queue.h"
+                },
+                {
+                    "@type": "item",
+                    "name": "src/nc_util.h"
+                },
+                {
+                    "@type": "item",
+                    "name": "src/nc_util.c"
+                },
+                {
+                    "@type": "item",
+                    "name": "src/nc_log.h"
+                },
+                {
+                    "@type": "item",
+                    "name": "src/nc_log.c"
+                },
+                {
+                    "@type": "item",
+                    "name": "src/nc_signal.h"
+                },
+                {
+                    "@type": "item",
+                    "name": "src/nc_signal.c"
+                }
+            ]
+        },
+        {
+            "@type": "group",
+            "name": "2",
+            "nested": [
+                {
+                    "@type": "item",
+                    "name": "src/proto/nc_proto.h"
+                },
+                {
+                    "@type": "item",
+                    "name": "src/proto/nc_redis.c"
+                },
+                {
+                    "@type": "item",
+                    "name": "src/proto/nc_memcache.c"
+                },
+                {
+                    "@type": "item",
+                    "name": "src/nc_rbtree.h"
+                },
+                {
+                    "@type": "item",
+                    "name": "src/nc_rbtree.c"
+                },
+                {
+                    "@type": "item",
+                    "name": "src/nc_mbuf.h"
+                },
+                {
+                    "@type": "item",
+                    "name": "src/nc_mbuf.c"
+                },
+                {
+                    "@type": "item",
+                    "name": "src/nc_message.h"
+                },
+                {
+                    "@type": "item",
+                    "name": "src/nc_request.c"
+                },
+                {
+                    "@type": "item",
+                    "name": "src/nc_message.c"
+                },
+                {
+                    "@type": "item",
+                    "name": "src/nc_response.c"
+                },
+                {
+                    "@type": "item",
+                    "name": "src/test_all.c"
+                }
+            ]
+        },
+        {
+            "@type": "group",
+            "name": "3",
+            "nested": [
+                {
+                    "@type": "item",
+                    "name": "src/event/nc_event.h"
+                },
+                {
+                    "@type": "item",
+                    "name": "src/event/nc_epoll.c"
+                },
+                {
+                    "@type": "item",
+                    "name": "src/event/nc_evport.c"
+                },
+                {
+                    "@type": "item",
+                    "name": "src/event/nc_kqueue.c"
+                },
+                {
+                    "@type": "item",
+                    "name": "src/nc_proxy.h"
+                },
+                {
+                    "@type": "item",
+                    "name": "src/nc_proxy.c"
+                },
+                {
+                    "@type": "item",
+                    "name": "src/nc_connection.h"
+                },
+                {
+                    "@type": "item",
+                    "name": "src/nc_connection.c"
+                },
+                {
+                    "@type": "item",
+                    "name": "src/nc_client.h"
+                },
+                {
+                    "@type": "item",
+                    "name": "src/nc_client.c"
+                },
+                {
+                    "@type": "item",
+                    "name": "src/nc_server.h"
+                },
+                {
+                    "@type": "item",
+                    "name": "src/nc_server.c"
+                }
+            ]
+        },
+        {
+            "@type": "group",
+            "name": "4",
+            "nested": [
+                {
+                    "@type": "item",
+                    "name": "src/nc_stats.h"
+                },
+                {
+                    "@type": "item",
+                    "name": "src/nc_stats.c"
+                },
+                {
+                    "@type": "item",
+                    "name": "src/nc_array.h"
+                },
+                {
+                    "@type": "item",
+                    "name": "src/nc_array.c"
+                }
+            ]
+        },
+        {
+            "@type": "group",
+            "name": "5",
+            "nested": [
+                {
+                    "@type": "item",
+                    "name": "src/nc_conf.h"
+                },
+                {
+                    "@type": "item",
+                    "name": "src/nc_conf.c"
+                },
+                {
+                    "@type": "item",
+                    "name": "src/nc_string.h"
+                },
+                {
+                    "@type": "item",
+                    "name": "src/nc_string.c"
+                }
+            ]
+        }
+    ]
+}

@@ -1,0 +1,1138 @@
+{
+    "@schemaVersion": "1.0",
+    "name": "clustering",
+    "structure": [
+        {
+            "@type": "group",
+            "name": "0",
+            "nested": [
+                {
+                    "@type": "item",
+                    "name": "examples/cpp/imagenet/alexnet.cc"
+                },
+                {
+                    "@type": "item",
+                    "name": "examples/cpp/cifar10/cnn.cc"
+                },
+                {
+                    "@type": "item",
+                    "name": "include/singa/utils/logging.h"
+                },
+                {
+                    "@type": "item",
+                    "name": "src/utils/logging.cc"
+                },
+                {
+                    "@type": "item",
+                    "name": "src/io/lmdb_writer.cc"
+                },
+                {
+                    "@type": "item",
+                    "name": "include/singa/model/feed_forward_net.h"
+                },
+                {
+                    "@type": "item",
+                    "name": "src/model/feed_forward_net.cc"
+                },
+                {
+                    "@type": "item",
+                    "name": "src/core/device/cuda_gpu.cc"
+                },
+                {
+                    "@type": "item",
+                    "name": "src/io/jpg_decoder.cc"
+                },
+                {
+                    "@type": "item",
+                    "name": "src/core/tensor/tensor_math_cuda.h"
+                },
+                {
+                    "@type": "item",
+                    "name": "include/singa/model/layer.h"
+                },
+                {
+                    "@type": "item",
+                    "name": "include/singa/io/communicator.h"
+                },
+                {
+                    "@type": "item",
+                    "name": "src/model/optimizer/local_all_reduce.cc"
+                },
+                {
+                    "@type": "item",
+                    "name": "include/singa/io/writer.h"
+                },
+                {
+                    "@type": "item",
+                    "name": "src/io/binfile_writer.cc"
+                },
+                {
+                    "@type": "item",
+                    "name": "src/io/textfile_writer.cc"
+                },
+                {
+                    "@type": "item",
+                    "name": "include/singa/model/updater.h"
+                },
+                {
+                    "@type": "item",
+                    "name": "src/model/updater/local_updater.cc"
+                },
+                {
+                    "@type": "item",
+                    "name": "src/model/updater/updater.cc"
+                },
+                {
+                    "@type": "item",
+                    "name": "include/singa/utils/singleton.h"
+                },
+                {
+                    "@type": "item",
+                    "name": "include/singa/io/decoder.h"
+                },
+                {
+                    "@type": "item",
+                    "name": "src/io/csv_decoder.cc"
+                },
+                {
+                    "@type": "item",
+                    "name": "src/core/device/opencl_device.cc"
+                },
+                {
+                    "@type": "item",
+                    "name": "include/singa/model/loss.h"
+                },
+                {
+                    "@type": "item",
+                    "name": "src/model/loss/softmax_cross_entropy.cc"
+                },
+                {
+                    "@type": "item",
+                    "name": "src/model/loss/mse.cc"
+                },
+                {
+                    "@type": "item",
+                    "name": "include/singa/core/device.h"
+                },
+                {
+                    "@type": "item",
+                    "name": "src/core/device/cpp_cpu.cc"
+                },
+                {
+                    "@type": "item",
+                    "name": "src/core/device/platform.cc"
+                },
+                {
+                    "@type": "item",
+                    "name": "src/core/device/device.cc"
+                },
+                {
+                    "@type": "item",
+                    "name": "src/io/jpg_encoder.cc"
+                },
+                {
+                    "@type": "item",
+                    "name": "src/core/device/opencl_func.h"
+                },
+                {
+                    "@type": "item",
+                    "name": "src/model/operation/rnn.h"
+                },
+                {
+                    "@type": "item",
+                    "name": "src/model/operation/rnn.cc"
+                },
+                {
+                    "@type": "item",
+                    "name": "include/singa/utils/tinydir.h"
+                },
+                {
+                    "@type": "item",
+                    "name": "include/singa/utils/channel.h"
+                },
+                {
+                    "@type": "item",
+                    "name": "src/utils/channel.cc"
+                },
+                {
+                    "@type": "item",
+                    "name": "include/singa/io/encoder.h"
+                },
+                {
+                    "@type": "item",
+                    "name": "src/io/csv_encoder.cc"
+                },
+                {
+                    "@type": "item",
+                    "name": "include/singa/core/common.h"
+                },
+                {
+                    "@type": "item",
+                    "name": "src/core/common/common.cc"
+                },
+                {
+                    "@type": "item",
+                    "name": "examples/cpp/cifar10/vgg-parallel.cc"
+                },
+                {
+                    "@type": "item",
+                    "name": "include/singa/utils/dnnl_utils.h"
+                },
+                {
+                    "@type": "item",
+                    "name": "include/singa/model/metric.h"
+                },
+                {
+                    "@type": "item",
+                    "name": "src/model/metric/accuracy.cc"
+                },
+                {
+                    "@type": "item",
+                    "name": "src/core/tensor/sparse_tensor.cc"
+                },
+                {
+                    "@type": "item",
+                    "name": "include/singa/core/memory.h"
+                },
+                {
+                    "@type": "item",
+                    "name": "src/model/operation/batchnorm.h"
+                },
+                {
+                    "@type": "item",
+                    "name": "src/model/operation/batchnorm.cc"
+                },
+                {
+                    "@type": "item",
+                    "name": "examples/cpp/imagenet/ilsvrc12.cc"
+                },
+                {
+                    "@type": "item",
+                    "name": "src/model/operation/convolution.h"
+                },
+                {
+                    "@type": "item",
+                    "name": "src/model/operation/convolution.cc"
+                },
+                {
+                    "@type": "item",
+                    "name": "src/model/operation/pooling.h"
+                },
+                {
+                    "@type": "item",
+                    "name": "src/model/operation/pooling.cc"
+                },
+                {
+                    "@type": "item",
+                    "name": "include/singa/io/snapshot.h"
+                },
+                {
+                    "@type": "item",
+                    "name": "src/io/snapshot.cc"
+                },
+                {
+                    "@type": "item",
+                    "name": "include/singa/utils/opencl_utils.h"
+                },
+                {
+                    "@type": "item",
+                    "name": "include/singa/utils/timer.h"
+                },
+                {
+                    "@type": "item",
+                    "name": "examples/cpp/imagenet/ilsvrc12.h"
+                },
+                {
+                    "@type": "item",
+                    "name": "src/core/tensor/math_kernel.h"
+                },
+                {
+                    "@type": "item",
+                    "name": "include/singa/model/optimizer.h"
+                },
+                {
+                    "@type": "item",
+                    "name": "src/model/optimizer/optimizer.cc"
+                },
+                {
+                    "@type": "item",
+                    "name": "src/model/optimizer/nesterov.cc"
+                },
+                {
+                    "@type": "item",
+                    "name": "src/model/optimizer/sgd.cc"
+                },
+                {
+                    "@type": "item",
+                    "name": "src/model/optimizer/adagrad.cc"
+                },
+                {
+                    "@type": "item",
+                    "name": "src/model/optimizer/rmsprop.cc"
+                },
+                {
+                    "@type": "item",
+                    "name": "include/singa/utils/string.h"
+                },
+                {
+                    "@type": "item",
+                    "name": "include/singa/utils/factory.h"
+                },
+                {
+                    "@type": "item",
+                    "name": "include/singa/core/tensor.h"
+                },
+                {
+                    "@type": "item",
+                    "name": "src/core/tensor/tensor.cc"
+                },
+                {
+                    "@type": "item",
+                    "name": "src/core/tensor/tensor_math.h"
+                },
+                {
+                    "@type": "item",
+                    "name": "include/half.hpp"
+                },
+                {
+                    "@type": "item",
+                    "name": "include/singa/utils/cuda_utils.h"
+                },
+                {
+                    "@type": "item",
+                    "name": "src/core/memory/memory.cc"
+                },
+                {
+                    "@type": "item",
+                    "name": "src/core/tensor/tensor_math_cpp.h"
+                },
+                {
+                    "@type": "item",
+                    "name": "examples/cpp/cifar10/cifar10.h"
+                },
+                {
+                    "@type": "item",
+                    "name": "include/singa/io/transformer.h"
+                },
+                {
+                    "@type": "item",
+                    "name": "src/io/image_transformer.cc"
+                },
+                {
+                    "@type": "item",
+                    "name": "src/io/communicator.cc"
+                },
+                {
+                    "@type": "item",
+                    "name": "src/core/tensor/tensor_math_opencl.h"
+                },
+                {
+                    "@type": "item",
+                    "name": "include/singa/core/scheduler.h"
+                },
+                {
+                    "@type": "item",
+                    "name": "src/core/scheduler/scheduler.cc"
+                },
+                {
+                    "@type": "item",
+                    "name": "examples/cpp/cifar10/cnn-parallel.cc"
+                },
+                {
+                    "@type": "item",
+                    "name": "include/singa/model/initializer.h"
+                },
+                {
+                    "@type": "item",
+                    "name": "include/singa/utils/safe_queue.h"
+                }
+            ]
+        },
+        {
+            "@type": "group",
+            "name": "1",
+            "nested": [
+                {
+                    "@type": "item",
+                    "name": "src/model/layer/cudnn_convolution.cc"
+                },
+                {
+                    "@type": "item",
+                    "name": "src/model/layer/cudnn_rnn.cc"
+                },
+                {
+                    "@type": "item",
+                    "name": "src/model/layer/cudnn_pooling.cc"
+                },
+                {
+                    "@type": "item",
+                    "name": "src/model/layer/split.h"
+                },
+                {
+                    "@type": "item",
+                    "name": "src/model/layer/split.cc"
+                },
+                {
+                    "@type": "item",
+                    "name": "src/model/layer/lrn.h"
+                },
+                {
+                    "@type": "item",
+                    "name": "src/model/layer/lrn.cc"
+                },
+                {
+                    "@type": "item",
+                    "name": "src/model/layer/slice.h"
+                },
+                {
+                    "@type": "item",
+                    "name": "src/model/layer/slice.cc"
+                },
+                {
+                    "@type": "item",
+                    "name": "src/model/layer/opencl_pooling.cc"
+                },
+                {
+                    "@type": "item",
+                    "name": "src/model/layer/rnn.h"
+                },
+                {
+                    "@type": "item",
+                    "name": "src/model/layer/rnn.cc"
+                },
+                {
+                    "@type": "item",
+                    "name": "src/model/layer/cudnn_softmax.h"
+                },
+                {
+                    "@type": "item",
+                    "name": "src/model/layer/cudnn_softmax.cc"
+                },
+                {
+                    "@type": "item",
+                    "name": "src/model/layer/cudnn_utils.h"
+                },
+                {
+                    "@type": "item",
+                    "name": "src/model/layer/dropout.h"
+                },
+                {
+                    "@type": "item",
+                    "name": "src/model/layer/dropout.cc"
+                },
+                {
+                    "@type": "item",
+                    "name": "src/model/layer/opencl_pooling.h"
+                },
+                {
+                    "@type": "item",
+                    "name": "src/model/layer/cudnn_batchnorm.h"
+                },
+                {
+                    "@type": "item",
+                    "name": "src/model/layer/convolution.h"
+                },
+                {
+                    "@type": "item",
+                    "name": "src/model/layer/convolution.cc"
+                },
+                {
+                    "@type": "item",
+                    "name": "src/model/layer/softmax.h"
+                },
+                {
+                    "@type": "item",
+                    "name": "src/model/layer/softmax.cc"
+                },
+                {
+                    "@type": "item",
+                    "name": "src/model/layer/cudnn_dropout.cc"
+                },
+                {
+                    "@type": "item",
+                    "name": "src/model/layer/concat.h"
+                },
+                {
+                    "@type": "item",
+                    "name": "src/model/layer/concat.cc"
+                },
+                {
+                    "@type": "item",
+                    "name": "src/model/layer/activation.h"
+                },
+                {
+                    "@type": "item",
+                    "name": "src/model/layer/activation.cc"
+                },
+                {
+                    "@type": "item",
+                    "name": "src/model/layer/opencl_convolution.cc"
+                },
+                {
+                    "@type": "item",
+                    "name": "src/model/layer/cudnn_batchnorm.cc"
+                },
+                {
+                    "@type": "item",
+                    "name": "src/model/layer/prelu.h"
+                },
+                {
+                    "@type": "item",
+                    "name": "src/model/layer/prelu.cc"
+                },
+                {
+                    "@type": "item",
+                    "name": "src/model/layer/opencl_convolution.h"
+                },
+                {
+                    "@type": "item",
+                    "name": "src/model/layer/cudnn_lrn.cc"
+                },
+                {
+                    "@type": "item",
+                    "name": "src/model/layer/cudnn_dropout.h"
+                },
+                {
+                    "@type": "item",
+                    "name": "src/model/layer/flatten.h"
+                },
+                {
+                    "@type": "item",
+                    "name": "src/model/layer/flatten.cc"
+                },
+                {
+                    "@type": "item",
+                    "name": "src/model/layer/batchnorm.h"
+                },
+                {
+                    "@type": "item",
+                    "name": "src/model/layer/batchnorm.cc"
+                },
+                {
+                    "@type": "item",
+                    "name": "src/model/layer/dense.h"
+                },
+                {
+                    "@type": "item",
+                    "name": "src/model/layer/dense.cc"
+                },
+                {
+                    "@type": "item",
+                    "name": "src/model/layer/merge.h"
+                },
+                {
+                    "@type": "item",
+                    "name": "src/model/layer/merge.cc"
+                },
+                {
+                    "@type": "item",
+                    "name": "src/model/layer/cudnn_lrn.h"
+                },
+                {
+                    "@type": "item",
+                    "name": "src/model/layer/cudnn_pooling.h"
+                },
+                {
+                    "@type": "item",
+                    "name": "src/model/layer/cudnn_rnn.h"
+                },
+                {
+                    "@type": "item",
+                    "name": "src/model/layer/pooling.h"
+                },
+                {
+                    "@type": "item",
+                    "name": "src/model/layer/pooling.cc"
+                },
+                {
+                    "@type": "item",
+                    "name": "src/model/layer/cudnn_convolution.h"
+                },
+                {
+                    "@type": "item",
+                    "name": "src/model/layer/cudnn_activation.h"
+                },
+                {
+                    "@type": "item",
+                    "name": "src/model/layer/cudnn_activation.cc"
+                }
+            ]
+        },
+        {
+            "@type": "group",
+            "name": "2",
+            "nested": [
+                {
+                    "@type": "item",
+                    "name": "src/io/network/endpoint.cc"
+                },
+                {
+                    "@type": "item",
+                    "name": "test/java/Test.java"
+                },
+                {
+                    "@type": "item",
+                    "name": "test/gtest/gtest_main.cc"
+                },
+                {
+                    "@type": "item",
+                    "name": "include/singa/io/network.h"
+                },
+                {
+                    "@type": "item",
+                    "name": "src/io/network/message.cc"
+                },
+                {
+                    "@type": "item",
+                    "name": "test/singa/test_ep.cc"
+                },
+                {
+                    "@type": "item",
+                    "name": "include/singa/io/integer.h"
+                },
+                {
+                    "@type": "item",
+                    "name": "include/singa/utils/integer.h"
+                }
+            ]
+        },
+        {
+            "@type": "group",
+            "name": "3",
+            "nested": [
+                {
+                    "@type": "item",
+                    "name": "test/singa/test_tensor.cc"
+                },
+                {
+                    "@type": "item",
+                    "name": "test/gtest/gtest.h"
+                },
+                {
+                    "@type": "item",
+                    "name": "test/singa/test_tensor_math.cc"
+                },
+                {
+                    "@type": "item",
+                    "name": "test/singa/test_snapshot.cc"
+                },
+                {
+                    "@type": "item",
+                    "name": "test/singa/test_scheduler.cc"
+                },
+                {
+                    "@type": "item",
+                    "name": "test/gtest/gtest-all.cc"
+                }
+            ]
+        },
+        {
+            "@type": "group",
+            "name": "4",
+            "nested": [
+                {
+                    "@type": "item",
+                    "name": "include/singa/io/reader.h"
+                },
+                {
+                    "@type": "item",
+                    "name": "src/io/binfile_reader.cc"
+                },
+                {
+                    "@type": "item",
+                    "name": "src/io/textfile_reader.cc"
+                },
+                {
+                    "@type": "item",
+                    "name": "test/singa/test_binfile_rw.cc"
+                },
+                {
+                    "@type": "item",
+                    "name": "src/io/lmdb_reader.cc"
+                }
+            ]
+        },
+        {
+            "@type": "group",
+            "name": "5",
+            "nested": [
+                {
+                    "@type": "item",
+                    "name": "test/singa/test_slice.cc"
+                },
+                {
+                    "@type": "item",
+                    "name": "java/src/test/java/org/apache/singa/TestTensor.java"
+                },
+                {
+                    "@type": "item",
+                    "name": "test/singa/test_concat.cc"
+                }
+            ]
+        },
+        {
+            "@type": "group",
+            "name": "6",
+            "nested": [
+                {
+                    "@type": "item",
+                    "name": "test/singa/test_mse.cc"
+                },
+                {
+                    "@type": "item",
+                    "name": "test/singa/test_cross_entropy.cc"
+                }
+            ]
+        },
+        {
+            "@type": "group",
+            "name": "7",
+            "nested": [
+                {
+                    "@type": "item",
+                    "name": "test/singa/test_accuracy.cc"
+                }
+            ]
+        },
+        {
+            "@type": "group",
+            "name": "8",
+            "nested": [
+                {
+                    "@type": "item",
+                    "name": "test/singa/test_activation.cc"
+                }
+            ]
+        },
+        {
+            "@type": "group",
+            "name": "9",
+            "nested": [
+                {
+                    "@type": "item",
+                    "name": "test/singa/test_adagrad.cc"
+                }
+            ]
+        },
+        {
+            "@type": "group",
+            "name": "10",
+            "nested": [
+                {
+                    "@type": "item",
+                    "name": "test/singa/test_batchnorm.cc"
+                }
+            ]
+        },
+        {
+            "@type": "group",
+            "name": "11",
+            "nested": [
+                {
+                    "@type": "item",
+                    "name": "test/singa/test_channel.cc"
+                }
+            ]
+        },
+        {
+            "@type": "group",
+            "name": "12",
+            "nested": [
+                {
+                    "@type": "item",
+                    "name": "test/singa/test_convolution.cc"
+                }
+            ]
+        },
+        {
+            "@type": "group",
+            "name": "13",
+            "nested": [
+                {
+                    "@type": "item",
+                    "name": "test/singa/test_cpp_cpu.cc"
+                }
+            ]
+        },
+        {
+            "@type": "group",
+            "name": "14",
+            "nested": [
+                {
+                    "@type": "item",
+                    "name": "test/singa/test_csv.cc"
+                }
+            ]
+        },
+        {
+            "@type": "group",
+            "name": "15",
+            "nested": [
+                {
+                    "@type": "item",
+                    "name": "test/singa/test_cudnn_activation.cc"
+                }
+            ]
+        },
+        {
+            "@type": "group",
+            "name": "16",
+            "nested": [
+                {
+                    "@type": "item",
+                    "name": "test/singa/test_cudnn_batchnorm.cc"
+                }
+            ]
+        },
+        {
+            "@type": "group",
+            "name": "17",
+            "nested": [
+                {
+                    "@type": "item",
+                    "name": "test/singa/test_cudnn_convolution.cc"
+                }
+            ]
+        },
+        {
+            "@type": "group",
+            "name": "18",
+            "nested": [
+                {
+                    "@type": "item",
+                    "name": "test/singa/test_cudnn_dropout.cc"
+                }
+            ]
+        },
+        {
+            "@type": "group",
+            "name": "19",
+            "nested": [
+                {
+                    "@type": "item",
+                    "name": "test/singa/test_cudnn_lrn.cc"
+                }
+            ]
+        },
+        {
+            "@type": "group",
+            "name": "20",
+            "nested": [
+                {
+                    "@type": "item",
+                    "name": "test/singa/test_cudnn_pooling.cc"
+                }
+            ]
+        },
+        {
+            "@type": "group",
+            "name": "21",
+            "nested": [
+                {
+                    "@type": "item",
+                    "name": "test/singa/test_cudnn_rnn.cc"
+                }
+            ]
+        },
+        {
+            "@type": "group",
+            "name": "22",
+            "nested": [
+                {
+                    "@type": "item",
+                    "name": "test/singa/test_cudnn_softmax.cc"
+                }
+            ]
+        },
+        {
+            "@type": "group",
+            "name": "23",
+            "nested": [
+                {
+                    "@type": "item",
+                    "name": "test/singa/test_dense.cc"
+                }
+            ]
+        },
+        {
+            "@type": "group",
+            "name": "24",
+            "nested": [
+                {
+                    "@type": "item",
+                    "name": "test/singa/test_dropout.cc"
+                }
+            ]
+        },
+        {
+            "@type": "group",
+            "name": "25",
+            "nested": [
+                {
+                    "@type": "item",
+                    "name": "test/singa/test_flatten.cc"
+                }
+            ]
+        },
+        {
+            "@type": "group",
+            "name": "26",
+            "nested": [
+                {
+                    "@type": "item",
+                    "name": "test/singa/test_image_transformer.cc"
+                }
+            ]
+        },
+        {
+            "@type": "group",
+            "name": "27",
+            "nested": [
+                {
+                    "@type": "item",
+                    "name": "test/singa/test_initializer.cc"
+                }
+            ]
+        },
+        {
+            "@type": "group",
+            "name": "28",
+            "nested": [
+                {
+                    "@type": "item",
+                    "name": "test/singa/test_jpg.cc"
+                }
+            ]
+        },
+        {
+            "@type": "group",
+            "name": "29",
+            "nested": [
+                {
+                    "@type": "item",
+                    "name": "test/singa/test_layer.cc"
+                }
+            ]
+        },
+        {
+            "@type": "group",
+            "name": "30",
+            "nested": [
+                {
+                    "@type": "item",
+                    "name": "test/singa/test_lmdb_rw.cc"
+                }
+            ]
+        },
+        {
+            "@type": "group",
+            "name": "31",
+            "nested": [
+                {
+                    "@type": "item",
+                    "name": "test/singa/test_logging.cc"
+                }
+            ]
+        },
+        {
+            "@type": "group",
+            "name": "32",
+            "nested": [
+                {
+                    "@type": "item",
+                    "name": "test/singa/test_lrn.cc"
+                }
+            ]
+        },
+        {
+            "@type": "group",
+            "name": "33",
+            "nested": [
+                {
+                    "@type": "item",
+                    "name": "test/singa/test_memory.cc"
+                }
+            ]
+        },
+        {
+            "@type": "group",
+            "name": "34",
+            "nested": [
+                {
+                    "@type": "item",
+                    "name": "test/singa/test_nesterov.cc"
+                }
+            ]
+        },
+        {
+            "@type": "group",
+            "name": "35",
+            "nested": [
+                {
+                    "@type": "item",
+                    "name": "test/singa/test_opencl.cc"
+                }
+            ]
+        },
+        {
+            "@type": "group",
+            "name": "36",
+            "nested": [
+                {
+                    "@type": "item",
+                    "name": "test/singa/test_opencl_convolution.cc"
+                }
+            ]
+        },
+        {
+            "@type": "group",
+            "name": "37",
+            "nested": [
+                {
+                    "@type": "item",
+                    "name": "test/singa/test_opencl_device.cc"
+                }
+            ]
+        },
+        {
+            "@type": "group",
+            "name": "38",
+            "nested": [
+                {
+                    "@type": "item",
+                    "name": "test/singa/test_opencl_pooling.cc"
+                }
+            ]
+        },
+        {
+            "@type": "group",
+            "name": "39",
+            "nested": [
+                {
+                    "@type": "item",
+                    "name": "test/singa/test_operation_batchnorm.cc"
+                }
+            ]
+        },
+        {
+            "@type": "group",
+            "name": "40",
+            "nested": [
+                {
+                    "@type": "item",
+                    "name": "test/singa/test_operation_benchmark.cc"
+                }
+            ]
+        },
+        {
+            "@type": "group",
+            "name": "41",
+            "nested": [
+                {
+                    "@type": "item",
+                    "name": "test/singa/test_operation_convolution.cc"
+                }
+            ]
+        },
+        {
+            "@type": "group",
+            "name": "42",
+            "nested": [
+                {
+                    "@type": "item",
+                    "name": "test/singa/test_operation_pooling.cc"
+                }
+            ]
+        },
+        {
+            "@type": "group",
+            "name": "43",
+            "nested": [
+                {
+                    "@type": "item",
+                    "name": "test/singa/test_operation_rnn.cc"
+                }
+            ]
+        },
+        {
+            "@type": "group",
+            "name": "44",
+            "nested": [
+                {
+                    "@type": "item",
+                    "name": "test/singa/test_platform.cc"
+                }
+            ]
+        },
+        {
+            "@type": "group",
+            "name": "45",
+            "nested": [
+                {
+                    "@type": "item",
+                    "name": "test/singa/test_pooling.cc"
+                }
+            ]
+        },
+        {
+            "@type": "group",
+            "name": "46",
+            "nested": [
+                {
+                    "@type": "item",
+                    "name": "test/singa/test_prelu.cc"
+                }
+            ]
+        },
+        {
+            "@type": "group",
+            "name": "47",
+            "nested": [
+                {
+                    "@type": "item",
+                    "name": "test/singa/test_rmsprop.cc"
+                }
+            ]
+        },
+        {
+            "@type": "group",
+            "name": "48",
+            "nested": [
+                {
+                    "@type": "item",
+                    "name": "test/singa/test_sgd.cc"
+                }
+            ]
+        },
+        {
+            "@type": "group",
+            "name": "49",
+            "nested": [
+                {
+                    "@type": "item",
+                    "name": "test/singa/test_softmax.cc"
+                }
+            ]
+        },
+        {
+            "@type": "group",
+            "name": "50",
+            "nested": [
+                {
+                    "@type": "item",
+                    "name": "test/singa/test_textfile_rw.cc"
+                }
+            ]
+        },
+        {
+            "@type": "group",
+            "name": "51",
+            "nested": [
+                {
+                    "@type": "item",
+                    "name": "test/singa/test_timer.cc"
+                }
+            ]
+        }
+    ]
+}

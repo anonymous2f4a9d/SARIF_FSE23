@@ -1,0 +1,578 @@
+{
+    "@schemaVersion": "1.0",
+    "name": "clustering",
+    "structure": [
+        {
+            "@type": "group",
+            "name": "0",
+            "nested": [
+                {
+                    "@type": "item",
+                    "name": "vins_estimator/src/utility/utility.h"
+                },
+                {
+                    "@type": "item",
+                    "name": "vins_estimator/src/utility/utility.cpp"
+                },
+                {
+                    "@type": "item",
+                    "name": "vins_estimator/src/rosNodeTest.cpp"
+                },
+                {
+                    "@type": "item",
+                    "name": "vins_estimator/src/initial/initial_sfm.h"
+                },
+                {
+                    "@type": "item",
+                    "name": "vins_estimator/src/initial/initial_sfm.cpp"
+                },
+                {
+                    "@type": "item",
+                    "name": "vins_estimator/src/utility/CameraPoseVisualization.h"
+                },
+                {
+                    "@type": "item",
+                    "name": "vins_estimator/src/utility/CameraPoseVisualization.cpp"
+                },
+                {
+                    "@type": "item",
+                    "name": "vins_estimator/src/factor/pose_local_parameterization.h"
+                },
+                {
+                    "@type": "item",
+                    "name": "vins_estimator/src/factor/pose_local_parameterization.cpp"
+                },
+                {
+                    "@type": "item",
+                    "name": "vins_estimator/src/featureTracker/feature_tracker.h"
+                },
+                {
+                    "@type": "item",
+                    "name": "vins_estimator/src/featureTracker/feature_tracker.cpp"
+                },
+                {
+                    "@type": "item",
+                    "name": "vins_estimator/src/estimator/estimator.h"
+                },
+                {
+                    "@type": "item",
+                    "name": "vins_estimator/src/estimator/estimator.cpp"
+                },
+                {
+                    "@type": "item",
+                    "name": "vins_estimator/src/estimator/feature_manager.h"
+                },
+                {
+                    "@type": "item",
+                    "name": "vins_estimator/src/estimator/feature_manager.cpp"
+                },
+                {
+                    "@type": "item",
+                    "name": "vins_estimator/src/KITTIGPSTest.cpp"
+                },
+                {
+                    "@type": "item",
+                    "name": "vins_estimator/src/factor/integration_base.h"
+                },
+                {
+                    "@type": "item",
+                    "name": "vins_estimator/src/factor/marginalization_factor.h"
+                },
+                {
+                    "@type": "item",
+                    "name": "vins_estimator/src/factor/marginalization_factor.cpp"
+                },
+                {
+                    "@type": "item",
+                    "name": "vins_estimator/src/factor/imu_factor.h"
+                },
+                {
+                    "@type": "item",
+                    "name": "vins_estimator/src/initial/initial_alignment.h"
+                },
+                {
+                    "@type": "item",
+                    "name": "vins_estimator/src/initial/initial_aligment.cpp"
+                },
+                {
+                    "@type": "item",
+                    "name": "vins_estimator/src/utility/tic_toc.h"
+                },
+                {
+                    "@type": "item",
+                    "name": "vins_estimator/src/utility/visualization.h"
+                },
+                {
+                    "@type": "item",
+                    "name": "vins_estimator/src/utility/visualization.cpp"
+                },
+                {
+                    "@type": "item",
+                    "name": "vins_estimator/src/KITTIOdomTest.cpp"
+                },
+                {
+                    "@type": "item",
+                    "name": "vins_estimator/src/estimator/parameters.h"
+                },
+                {
+                    "@type": "item",
+                    "name": "vins_estimator/src/estimator/parameters.cpp"
+                }
+            ]
+        },
+        {
+            "@type": "group",
+            "name": "1",
+            "nested": [
+                {
+                    "@type": "item",
+                    "name": "camera_models/include/camodocal/camera_models/Camera.h"
+                },
+                {
+                    "@type": "item",
+                    "name": "camera_models/src/camera_models/Camera.cc"
+                },
+                {
+                    "@type": "item",
+                    "name": "camera_models/include/camodocal/camera_models/CameraFactory.h"
+                },
+                {
+                    "@type": "item",
+                    "name": "camera_models/src/camera_models/CameraFactory.cc"
+                },
+                {
+                    "@type": "item",
+                    "name": "camera_models/include/camodocal/gpl/EigenQuaternionParameterization.h"
+                },
+                {
+                    "@type": "item",
+                    "name": "camera_models/src/gpl/EigenQuaternionParameterization.cc"
+                },
+                {
+                    "@type": "item",
+                    "name": "camera_models/include/camodocal/camera_models/ScaramuzzaCamera.h"
+                },
+                {
+                    "@type": "item",
+                    "name": "camera_models/src/camera_models/ScaramuzzaCamera.cc"
+                },
+                {
+                    "@type": "item",
+                    "name": "camera_models/src/intrinsic_calib.cc"
+                },
+                {
+                    "@type": "item",
+                    "name": "camera_models/include/camodocal/camera_models/EquidistantCamera.h"
+                },
+                {
+                    "@type": "item",
+                    "name": "camera_models/src/camera_models/EquidistantCamera.cc"
+                },
+                {
+                    "@type": "item",
+                    "name": "camera_models/include/camodocal/calib/CameraCalibration.h"
+                },
+                {
+                    "@type": "item",
+                    "name": "camera_models/src/calib/CameraCalibration.cc"
+                },
+                {
+                    "@type": "item",
+                    "name": "camera_models/include/camodocal/gpl/EigenUtils.h"
+                },
+                {
+                    "@type": "item",
+                    "name": "camera_models/include/camodocal/camera_models/PinholeCamera.h"
+                },
+                {
+                    "@type": "item",
+                    "name": "camera_models/src/camera_models/PinholeCamera.cc"
+                },
+                {
+                    "@type": "item",
+                    "name": "camera_models/include/camodocal/camera_models/CostFunctionFactory.h"
+                },
+                {
+                    "@type": "item",
+                    "name": "camera_models/src/camera_models/CostFunctionFactory.cc"
+                },
+                {
+                    "@type": "item",
+                    "name": "camera_models/include/camodocal/camera_models/CataCamera.h"
+                },
+                {
+                    "@type": "item",
+                    "name": "camera_models/src/camera_models/CataCamera.cc"
+                },
+                {
+                    "@type": "item",
+                    "name": "camera_models/include/camodocal/sparse_graph/Transform.h"
+                },
+                {
+                    "@type": "item",
+                    "name": "camera_models/src/sparse_graph/Transform.cc"
+                },
+                {
+                    "@type": "item",
+                    "name": "camera_models/include/camodocal/camera_models/PinholeFullCamera.h"
+                },
+                {
+                    "@type": "item",
+                    "name": "camera_models/src/camera_models/PinholeFullCamera.cc"
+                },
+                {
+                    "@type": "item",
+                    "name": "camera_models/include/camodocal/gpl/gpl.h"
+                },
+                {
+                    "@type": "item",
+                    "name": "camera_models/src/gpl/gpl.cc"
+                }
+            ]
+        },
+        {
+            "@type": "group",
+            "name": "2",
+            "nested": [
+                {
+                    "@type": "item",
+                    "name": "global_fusion/ThirdParty/GeographicLib/include/Geocentric.hpp"
+                },
+                {
+                    "@type": "item",
+                    "name": "global_fusion/ThirdParty/GeographicLib/src/Geocentric.cpp"
+                },
+                {
+                    "@type": "item",
+                    "name": "global_fusion/src/globalOptNode.cpp"
+                },
+                {
+                    "@type": "item",
+                    "name": "global_fusion/src/Factors.h"
+                },
+                {
+                    "@type": "item",
+                    "name": "global_fusion/ThirdParty/GeographicLib/include/Math.hpp"
+                },
+                {
+                    "@type": "item",
+                    "name": "global_fusion/ThirdParty/GeographicLib/include/Config.h"
+                },
+                {
+                    "@type": "item",
+                    "name": "global_fusion/ThirdParty/GeographicLib/src/Math.cpp"
+                },
+                {
+                    "@type": "item",
+                    "name": "global_fusion/src/globalOpt.h"
+                },
+                {
+                    "@type": "item",
+                    "name": "global_fusion/src/globalOpt.cpp"
+                },
+                {
+                    "@type": "item",
+                    "name": "global_fusion/ThirdParty/GeographicLib/include/LocalCartesian.hpp"
+                },
+                {
+                    "@type": "item",
+                    "name": "global_fusion/ThirdParty/GeographicLib/src/LocalCartesian.cpp"
+                },
+                {
+                    "@type": "item",
+                    "name": "global_fusion/src/tic_toc.h"
+                },
+                {
+                    "@type": "item",
+                    "name": "global_fusion/ThirdParty/GeographicLib/include/Constants.hpp"
+                }
+            ]
+        },
+        {
+            "@type": "group",
+            "name": "3",
+            "nested": [
+                {
+                    "@type": "item",
+                    "name": "loop_fusion/src/ThirdParty/DBoW/ScoringObject.h"
+                },
+                {
+                    "@type": "item",
+                    "name": "loop_fusion/src/ThirdParty/DBoW/ScoringObject.cpp"
+                },
+                {
+                    "@type": "item",
+                    "name": "loop_fusion/src/ThirdParty/DBoW/DBoW2.h"
+                },
+                {
+                    "@type": "item",
+                    "name": "loop_fusion/src/ThirdParty/DBoW/FeatureVector.h"
+                },
+                {
+                    "@type": "item",
+                    "name": "loop_fusion/src/ThirdParty/DBoW/FeatureVector.cpp"
+                },
+                {
+                    "@type": "item",
+                    "name": "loop_fusion/src/ThirdParty/DBoW/BowVector.h"
+                },
+                {
+                    "@type": "item",
+                    "name": "loop_fusion/src/ThirdParty/DBoW/BowVector.cpp"
+                },
+                {
+                    "@type": "item",
+                    "name": "loop_fusion/src/ThirdParty/DBoW/FClass.h"
+                },
+                {
+                    "@type": "item",
+                    "name": "loop_fusion/src/ThirdParty/DBoW/FBrief.h"
+                },
+                {
+                    "@type": "item",
+                    "name": "loop_fusion/src/ThirdParty/DBoW/FBrief.cpp"
+                },
+                {
+                    "@type": "item",
+                    "name": "loop_fusion/src/ThirdParty/DBoW/TemplatedVocabulary.h"
+                },
+                {
+                    "@type": "item",
+                    "name": "loop_fusion/src/ThirdParty/DBoW/TemplatedDatabase.h"
+                },
+                {
+                    "@type": "item",
+                    "name": "loop_fusion/src/ThirdParty/DBoW/QueryResults.h"
+                },
+                {
+                    "@type": "item",
+                    "name": "loop_fusion/src/ThirdParty/DBoW/QueryResults.cpp"
+                }
+            ]
+        },
+        {
+            "@type": "group",
+            "name": "4",
+            "nested": [
+                {
+                    "@type": "item",
+                    "name": "vins_estimator/src/factor/projectionTwoFrameTwoCamFactor.h"
+                },
+                {
+                    "@type": "item",
+                    "name": "vins_estimator/src/factor/projectionTwoFrameTwoCamFactor.cpp"
+                },
+                {
+                    "@type": "item",
+                    "name": "vins_estimator/src/factor/initial_bias_factor.h"
+                },
+                {
+                    "@type": "item",
+                    "name": "vins_estimator/src/factor/projection_factor.h"
+                },
+                {
+                    "@type": "item",
+                    "name": "vins_estimator/src/factor/projection_factor.cpp"
+                },
+                {
+                    "@type": "item",
+                    "name": "vins_estimator/src/factor/projectionTwoFrameOneCamFactor.h"
+                },
+                {
+                    "@type": "item",
+                    "name": "vins_estimator/src/factor/projectionTwoFrameOneCamFactor.cpp"
+                },
+                {
+                    "@type": "item",
+                    "name": "vins_estimator/src/factor/initial_pose_factor.h"
+                },
+                {
+                    "@type": "item",
+                    "name": "vins_estimator/src/factor/projectionOneFrameTwoCamFactor.h"
+                },
+                {
+                    "@type": "item",
+                    "name": "vins_estimator/src/factor/projectionOneFrameTwoCamFactor.cpp"
+                }
+            ]
+        },
+        {
+            "@type": "group",
+            "name": "5",
+            "nested": [
+                {
+                    "@type": "item",
+                    "name": "loop_fusion/src/keyframe.h"
+                },
+                {
+                    "@type": "item",
+                    "name": "loop_fusion/src/keyframe.cpp"
+                },
+                {
+                    "@type": "item",
+                    "name": "loop_fusion/src/parameters.h"
+                },
+                {
+                    "@type": "item",
+                    "name": "loop_fusion/src/pose_graph.h"
+                },
+                {
+                    "@type": "item",
+                    "name": "loop_fusion/src/pose_graph.cpp"
+                },
+                {
+                    "@type": "item",
+                    "name": "loop_fusion/src/pose_graph_node.cpp"
+                }
+            ]
+        },
+        {
+            "@type": "group",
+            "name": "6",
+            "nested": [
+                {
+                    "@type": "item",
+                    "name": "loop_fusion/src/ThirdParty/DUtils/DUtils.h"
+                },
+                {
+                    "@type": "item",
+                    "name": "loop_fusion/src/ThirdParty/DUtils/Timestamp.h"
+                },
+                {
+                    "@type": "item",
+                    "name": "loop_fusion/src/ThirdParty/DUtils/Timestamp.cpp"
+                },
+                {
+                    "@type": "item",
+                    "name": "loop_fusion/src/ThirdParty/DUtils/Random.h"
+                },
+                {
+                    "@type": "item",
+                    "name": "loop_fusion/src/ThirdParty/DUtils/Random.cpp"
+                },
+                {
+                    "@type": "item",
+                    "name": "loop_fusion/src/ThirdParty/DUtils/DException.h"
+                }
+            ]
+        },
+        {
+            "@type": "group",
+            "name": "7",
+            "nested": [
+                {
+                    "@type": "item",
+                    "name": "camera_models/include/camodocal/chessboard/Chessboard.h"
+                },
+                {
+                    "@type": "item",
+                    "name": "camera_models/src/chessboard/Chessboard.cc"
+                },
+                {
+                    "@type": "item",
+                    "name": "camera_models/include/camodocal/chessboard/ChessboardCorner.h"
+                },
+                {
+                    "@type": "item",
+                    "name": "camera_models/include/camodocal/chessboard/ChessboardQuad.h"
+                },
+                {
+                    "@type": "item",
+                    "name": "camera_models/include/camodocal/chessboard/Spline.h"
+                }
+            ]
+        },
+        {
+            "@type": "group",
+            "name": "8",
+            "nested": [
+                {
+                    "@type": "item",
+                    "name": "loop_fusion/src/ThirdParty/DVision/BRIEF.h"
+                },
+                {
+                    "@type": "item",
+                    "name": "loop_fusion/src/ThirdParty/DVision/BRIEF.cpp"
+                },
+                {
+                    "@type": "item",
+                    "name": "loop_fusion/src/ThirdParty/DVision/DVision.h"
+                }
+            ]
+        },
+        {
+            "@type": "group",
+            "name": "9",
+            "nested": [
+                {
+                    "@type": "item",
+                    "name": "vins_estimator/src/initial/solve_5pts.h"
+                },
+                {
+                    "@type": "item",
+                    "name": "vins_estimator/src/initial/solve_5pts.cpp"
+                },
+                {
+                    "@type": "item",
+                    "name": "vins_estimator/src/initial/initial_ex_rotation.h"
+                },
+                {
+                    "@type": "item",
+                    "name": "vins_estimator/src/initial/initial_ex_rotation.cpp"
+                }
+            ]
+        },
+        {
+            "@type": "group",
+            "name": "10",
+            "nested": [
+                {
+                    "@type": "item",
+                    "name": "loop_fusion/src/utility/tic_toc.h"
+                }
+            ]
+        },
+        {
+            "@type": "group",
+            "name": "11",
+            "nested": [
+                {
+                    "@type": "item",
+                    "name": "loop_fusion/src/utility/utility.h"
+                },
+                {
+                    "@type": "item",
+                    "name": "loop_fusion/src/utility/utility.cpp"
+                }
+            ]
+        },
+        {
+            "@type": "group",
+            "name": "12",
+            "nested": [
+                {
+                    "@type": "item",
+                    "name": "loop_fusion/src/ThirdParty/VocabularyBinary.hpp"
+                },
+                {
+                    "@type": "item",
+                    "name": "loop_fusion/src/ThirdParty/VocabularyBinary.cpp"
+                }
+            ]
+        },
+        {
+            "@type": "group",
+            "name": "13",
+            "nested": [
+                {
+                    "@type": "item",
+                    "name": "loop_fusion/src/utility/CameraPoseVisualization.h"
+                },
+                {
+                    "@type": "item",
+                    "name": "loop_fusion/src/utility/CameraPoseVisualization.cpp"
+                }
+            ]
+        }
+    ]
+}

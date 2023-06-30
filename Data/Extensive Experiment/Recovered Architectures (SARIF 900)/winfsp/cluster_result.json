@@ -1,0 +1,926 @@
+{
+    "@schemaVersion": "1.0",
+    "name": "clustering",
+    "structure": [
+        {
+            "@type": "group",
+            "name": "0",
+            "nested": [
+                {
+                    "@type": "item",
+                    "name": "tst/winfsp-tests/mount-test.c"
+                },
+                {
+                    "@type": "item",
+                    "name": "tst/winfsp-tests/uuid5-test.c"
+                },
+                {
+                    "@type": "item",
+                    "name": "tst/winfsp-tests/launch-test.c"
+                },
+                {
+                    "@type": "item",
+                    "name": "tst/winfsp-tests/timeout-test.c"
+                },
+                {
+                    "@type": "item",
+                    "name": "tst/winfsp-tests/fuse-test.c"
+                },
+                {
+                    "@type": "item",
+                    "name": "tst/winfsp-tests/loadun-test.c"
+                },
+                {
+                    "@type": "item",
+                    "name": "tst/winfsp-tests/posix-test.c"
+                },
+                {
+                    "@type": "item",
+                    "name": "tst/winfsp-tests/lock-test.c"
+                },
+                {
+                    "@type": "item",
+                    "name": "tst/winfsp-tests/version-test.c"
+                },
+                {
+                    "@type": "item",
+                    "name": "tst/winfsp-tests/security-test.c"
+                },
+                {
+                    "@type": "item",
+                    "name": "tst/winfsp-tests/path-test.c"
+                },
+                {
+                    "@type": "item",
+                    "name": "tst/winfsp-tests/launcher-ptrans-test.c"
+                },
+                {
+                    "@type": "item",
+                    "name": "tst/winfsp-tests/eventlog-test.c"
+                },
+                {
+                    "@type": "item",
+                    "name": "tst/winfsp-tests/devctl-test.c"
+                },
+                {
+                    "@type": "item",
+                    "name": "tst/winfsp-tests/volpath-test.c"
+                },
+                {
+                    "@type": "item",
+                    "name": "tst/winfsp-tests/fuse-opt-test.c"
+                },
+                {
+                    "@type": "item",
+                    "name": "tst/winfsp-tests/flush-test.c"
+                }
+            ]
+        },
+        {
+            "@type": "group",
+            "name": "1",
+            "nested": [
+                {
+                    "@type": "item",
+                    "name": "tst/winfsp-tests/dirbuf-test.c"
+                },
+                {
+                    "@type": "item",
+                    "name": "tst/winfsp-tests/info-test.c"
+                },
+                {
+                    "@type": "item",
+                    "name": "tst/winfsp-tests/rdwr-test.c"
+                },
+                {
+                    "@type": "item",
+                    "name": "tst/winfsp-tests/exec-test.c"
+                },
+                {
+                    "@type": "item",
+                    "name": "tst/winfsp-tests/ea-test.c"
+                },
+                {
+                    "@type": "item",
+                    "name": "tst/winfsp-tests/reparse-test.c"
+                },
+                {
+                    "@type": "item",
+                    "name": "tst/winfsp-tests/notify-test.c"
+                },
+                {
+                    "@type": "item",
+                    "name": "tst/winfsp-tests/winfsp-tests.h"
+                },
+                {
+                    "@type": "item",
+                    "name": "tst/winfsp-tests/winfsp-tests.c"
+                },
+                {
+                    "@type": "item",
+                    "name": "tst/winfsp-tests/memfs-test.c"
+                },
+                {
+                    "@type": "item",
+                    "name": "tst/winfsp-tests/dirctl-test.c"
+                },
+                {
+                    "@type": "item",
+                    "name": "tst/winfsp-tests/create-test.c"
+                },
+                {
+                    "@type": "item",
+                    "name": "tst/winfsp-tests/wsl-test.c"
+                },
+                {
+                    "@type": "item",
+                    "name": "tst/winfsp-tests/oplock-test.c"
+                },
+                {
+                    "@type": "item",
+                    "name": "tst/winfsp-tests/stream-tests.c"
+                }
+            ]
+        },
+        {
+            "@type": "group",
+            "name": "2",
+            "nested": [
+                {
+                    "@type": "item",
+                    "name": "src/dll/fuse/fuse_loop.c"
+                },
+                {
+                    "@type": "item",
+                    "name": "inc/fuse/fuse_common.h"
+                },
+                {
+                    "@type": "item",
+                    "name": "src/dll/fuse/fuse_compat.c"
+                },
+                {
+                    "@type": "item",
+                    "name": "inc/fuse/fuse.h"
+                },
+                {
+                    "@type": "item",
+                    "name": "inc/fuse/winfsp_fuse.h"
+                },
+                {
+                    "@type": "item",
+                    "name": "src/dll/fuse/fuse_main.c"
+                },
+                {
+                    "@type": "item",
+                    "name": "src/dll/fuse/fuse_opt.c"
+                },
+                {
+                    "@type": "item",
+                    "name": "inc/fuse/fuse_opt.h"
+                },
+                {
+                    "@type": "item",
+                    "name": "src/dll/fuse/library.h"
+                },
+                {
+                    "@type": "item",
+                    "name": "src/dll/fuse/fuse.c"
+                },
+                {
+                    "@type": "item",
+                    "name": "src/dll/fuse/fuse_intf.c"
+                }
+            ]
+        },
+        {
+            "@type": "group",
+            "name": "3",
+            "nested": [
+                {
+                    "@type": "item",
+                    "name": "inc/winfsp/launch.h"
+                },
+                {
+                    "@type": "item",
+                    "name": "src/dll/launch.c"
+                },
+                {
+                    "@type": "item",
+                    "name": "inc/winfsp/winfsp.hpp"
+                },
+                {
+                    "@type": "item",
+                    "name": "inc/winfsp/winfsp.h"
+                },
+                {
+                    "@type": "item",
+                    "name": "src/dll/library.h"
+                },
+                {
+                    "@type": "item",
+                    "name": "src/dll/eventlog.c"
+                },
+                {
+                    "@type": "item",
+                    "name": "src/dll/np.c"
+                },
+                {
+                    "@type": "item",
+                    "name": "src/dll/sxs.c"
+                },
+                {
+                    "@type": "item",
+                    "name": "src/dll/ldap.c"
+                },
+                {
+                    "@type": "item",
+                    "name": "src/dll/fs.c"
+                },
+                {
+                    "@type": "item",
+                    "name": "src/dll/wksid.c"
+                },
+                {
+                    "@type": "item",
+                    "name": "src/dll/security.c"
+                },
+                {
+                    "@type": "item",
+                    "name": "src/dll/service.c"
+                },
+                {
+                    "@type": "item",
+                    "name": "src/dll/debug.c"
+                },
+                {
+                    "@type": "item",
+                    "name": "src/dll/path.c"
+                },
+                {
+                    "@type": "item",
+                    "name": "src/dll/fsop.c"
+                },
+                {
+                    "@type": "item",
+                    "name": "src/dll/ntstatus.c"
+                },
+                {
+                    "@type": "item",
+                    "name": "src/dll/debuglog.c"
+                },
+                {
+                    "@type": "item",
+                    "name": "src/dll/util.c"
+                },
+                {
+                    "@type": "item",
+                    "name": "src/dll/dirbuf.c"
+                },
+                {
+                    "@type": "item",
+                    "name": "src/dll/library.c"
+                },
+                {
+                    "@type": "item",
+                    "name": "inc/winfsp/fsctl.h"
+                },
+                {
+                    "@type": "item",
+                    "name": "src/dll/fsctl.c"
+                },
+                {
+                    "@type": "item",
+                    "name": "src/dll/mount.c"
+                }
+            ]
+        },
+        {
+            "@type": "group",
+            "name": "4",
+            "nested": [
+                {
+                    "@type": "item",
+                    "name": "ext/tlib/injection.h"
+                },
+                {
+                    "@type": "item",
+                    "name": "ext/tlib/injection.c"
+                },
+                {
+                    "@type": "item",
+                    "name": "ext/tlib/callstack.h"
+                },
+                {
+                    "@type": "item",
+                    "name": "ext/tlib/callstack.c"
+                },
+                {
+                    "@type": "item",
+                    "name": "ext/tlib/injected/curlfunc.h"
+                },
+                {
+                    "@type": "item",
+                    "name": "ext/tlib/injected/curlfunc.c"
+                },
+                {
+                    "@type": "item",
+                    "name": "ext/tlib/injected/allfunc.h"
+                },
+                {
+                    "@type": "item",
+                    "name": "ext/tlib/injected/stdfunc.h"
+                },
+                {
+                    "@type": "item",
+                    "name": "ext/tlib/injected/stdfunc.c"
+                }
+            ]
+        },
+        {
+            "@type": "group",
+            "name": "5",
+            "nested": [
+                {
+                    "@type": "item",
+                    "name": "inc/fuse3/fuse.h"
+                },
+                {
+                    "@type": "item",
+                    "name": "inc/fuse3/winfsp_fuse.h"
+                },
+                {
+                    "@type": "item",
+                    "name": "inc/fuse3/fuse_opt.h"
+                },
+                {
+                    "@type": "item",
+                    "name": "inc/fuse3/fuse_common.h"
+                }
+            ]
+        },
+        {
+            "@type": "group",
+            "name": "6",
+            "nested": [
+                {
+                    "@type": "item",
+                    "name": "src/dll/fuse3/library.h"
+                },
+                {
+                    "@type": "item",
+                    "name": "src/dll/fuse3/fuse3.c"
+                },
+                {
+                    "@type": "item",
+                    "name": "src/dll/fuse3/fuse2to3.c"
+                },
+                {
+                    "@type": "item",
+                    "name": "src/dll/fuse3/fuse3_compat.c"
+                }
+            ]
+        },
+        {
+            "@type": "group",
+            "name": "7",
+            "nested": [
+                {
+                    "@type": "item",
+                    "name": "src/shared/ku/uuid5.c"
+                },
+                {
+                    "@type": "item",
+                    "name": "src/shared/um/minimal.h"
+                },
+                {
+                    "@type": "item",
+                    "name": "src/shared/ku/library.h"
+                },
+                {
+                    "@type": "item",
+                    "name": "src/shared/ku/mountmgr.c"
+                },
+                {
+                    "@type": "item",
+                    "name": "src/shared/ku/posix.c"
+                }
+            ]
+        },
+        {
+            "@type": "group",
+            "name": "8",
+            "nested": [
+                {
+                    "@type": "item",
+                    "name": "src/sys/shutdown.c"
+                },
+                {
+                    "@type": "item",
+                    "name": "src/sys/trace.c"
+                },
+                {
+                    "@type": "item",
+                    "name": "src/sys/debug.c"
+                },
+                {
+                    "@type": "item",
+                    "name": "src/sys/driver.h"
+                },
+                {
+                    "@type": "item",
+                    "name": "src/sys/statistics.c"
+                },
+                {
+                    "@type": "item",
+                    "name": "src/sys/dirctl.c"
+                },
+                {
+                    "@type": "item",
+                    "name": "src/sys/ioq.c"
+                },
+                {
+                    "@type": "item",
+                    "name": "src/sys/devctl.c"
+                },
+                {
+                    "@type": "item",
+                    "name": "src/sys/util.c"
+                },
+                {
+                    "@type": "item",
+                    "name": "src/sys/fsext.c"
+                },
+                {
+                    "@type": "item",
+                    "name": "src/sys/create.c"
+                },
+                {
+                    "@type": "item",
+                    "name": "src/sys/fileinfo.c"
+                },
+                {
+                    "@type": "item",
+                    "name": "src/sys/read.c"
+                },
+                {
+                    "@type": "item",
+                    "name": "src/sys/silo.c"
+                },
+                {
+                    "@type": "item",
+                    "name": "src/sys/name.c"
+                },
+                {
+                    "@type": "item",
+                    "name": "src/sys/driver.c"
+                },
+                {
+                    "@type": "item",
+                    "name": "src/sys/psbuffer.c"
+                },
+                {
+                    "@type": "item",
+                    "name": "src/sys/file.c"
+                },
+                {
+                    "@type": "item",
+                    "name": "src/sys/wq.c"
+                },
+                {
+                    "@type": "item",
+                    "name": "src/sys/flush.c"
+                },
+                {
+                    "@type": "item",
+                    "name": "src/sys/close.c"
+                },
+                {
+                    "@type": "item",
+                    "name": "src/sys/mountdev.c"
+                },
+                {
+                    "@type": "item",
+                    "name": "src/sys/volume.c"
+                },
+                {
+                    "@type": "item",
+                    "name": "src/sys/devtimer.c"
+                },
+                {
+                    "@type": "item",
+                    "name": "src/sys/volinfo.c"
+                },
+                {
+                    "@type": "item",
+                    "name": "src/sys/iop.c"
+                },
+                {
+                    "@type": "item",
+                    "name": "src/sys/callbacks.c"
+                },
+                {
+                    "@type": "item",
+                    "name": "src/sys/fsctl.c"
+                },
+                {
+                    "@type": "item",
+                    "name": "src/sys/mup.c"
+                },
+                {
+                    "@type": "item",
+                    "name": "src/sys/security.c"
+                },
+                {
+                    "@type": "item",
+                    "name": "src/sys/write.c"
+                },
+                {
+                    "@type": "item",
+                    "name": "src/sys/sxs.c"
+                },
+                {
+                    "@type": "item",
+                    "name": "src/sys/meta.c"
+                },
+                {
+                    "@type": "item",
+                    "name": "src/sys/device.c"
+                },
+                {
+                    "@type": "item",
+                    "name": "src/sys/lockctl.c"
+                },
+                {
+                    "@type": "item",
+                    "name": "src/sys/cleanup.c"
+                },
+                {
+                    "@type": "item",
+                    "name": "src/sys/ea.c"
+                }
+            ]
+        },
+        {
+            "@type": "group",
+            "name": "9",
+            "nested": [
+                {
+                    "@type": "item",
+                    "name": "tst/memfs/memfs.h"
+                },
+                {
+                    "@type": "item",
+                    "name": "tst/memfs/memfs.cpp"
+                },
+                {
+                    "@type": "item",
+                    "name": "tst/memfs/memfs-main-old.c"
+                },
+                {
+                    "@type": "item",
+                    "name": "tst/memfs/memfs-main.c"
+                }
+            ]
+        },
+        {
+            "@type": "group",
+            "name": "10",
+            "nested": [
+                {
+                    "@type": "item",
+                    "name": "tst/fscrash/fscrash.h"
+                },
+                {
+                    "@type": "item",
+                    "name": "tst/fscrash/fscrash.c"
+                },
+                {
+                    "@type": "item",
+                    "name": "tst/fscrash/fscrash-main.c"
+                }
+            ]
+        },
+        {
+            "@type": "group",
+            "name": "11",
+            "nested": [
+                {
+                    "@type": "item",
+                    "name": "tst/memfs-fuse/compat.h"
+                },
+                {
+                    "@type": "item",
+                    "name": "tst/memfs-fuse/memfs-fuse.cpp"
+                }
+            ]
+        },
+        {
+            "@type": "group",
+            "name": "12",
+            "nested": [
+                {
+                    "@type": "item",
+                    "name": "tst/memfs-fuse3/memfs-fuse3.cpp"
+                },
+                {
+                    "@type": "item",
+                    "name": "tst/memfs-fuse3/compat.h"
+                }
+            ]
+        },
+        {
+            "@type": "group",
+            "name": "13",
+            "nested": [
+                {
+                    "@type": "item",
+                    "name": "tst/ntptfs/ptfs.h"
+                },
+                {
+                    "@type": "item",
+                    "name": "tst/ntptfs/lfs.c"
+                },
+                {
+                    "@type": "item",
+                    "name": "tst/ntptfs/ptfs.c"
+                },
+                {
+                    "@type": "item",
+                    "name": "tst/ntptfs/ptfs-main.c"
+                }
+            ]
+        },
+        {
+            "@type": "group",
+            "name": "14",
+            "nested": [
+                {
+                    "@type": "item",
+                    "name": "tst/winfsp-tests/resilient.c"
+                },
+                {
+                    "@type": "item",
+                    "name": "tst/winfsp-tests/hooks.c"
+                }
+            ]
+        },
+        {
+            "@type": "group",
+            "name": "15",
+            "nested": [
+                {
+                    "@type": "item",
+                    "name": "tst/passthrough-fuse3/winposix.h"
+                },
+                {
+                    "@type": "item",
+                    "name": "tst/passthrough-fuse3/winposix.c"
+                },
+                {
+                    "@type": "item",
+                    "name": "tst/passthrough-fuse3/passthrough-fuse3.c"
+                }
+            ]
+        },
+        {
+            "@type": "group",
+            "name": "16",
+            "nested": [
+                {
+                    "@type": "item",
+                    "name": "tst/passthrough-fuse/winposix.h"
+                },
+                {
+                    "@type": "item",
+                    "name": "tst/passthrough-fuse/winposix.c"
+                },
+                {
+                    "@type": "item",
+                    "name": "tst/passthrough-fuse/passthrough-fuse.c"
+                }
+            ]
+        },
+        {
+            "@type": "group",
+            "name": "17",
+            "nested": [
+                {
+                    "@type": "item",
+                    "name": "tst/airfs/airfs.cpp"
+                },
+                {
+                    "@type": "item",
+                    "name": "tst/airfs/common.h"
+                },
+                {
+                    "@type": "item",
+                    "name": "tst/airfs/persistence.cpp"
+                }
+            ]
+        },
+        {
+            "@type": "group",
+            "name": "18",
+            "nested": [
+                {
+                    "@type": "item",
+                    "name": "build/VStudio/installer/CustomActions/CustomActions.cpp"
+                }
+            ]
+        },
+        {
+            "@type": "group",
+            "name": "19",
+            "nested": [
+                {
+                    "@type": "item",
+                    "name": "opt/cygfuse/fuse/cygfuse-test.c"
+                }
+            ]
+        },
+        {
+            "@type": "group",
+            "name": "20",
+            "nested": [
+                {
+                    "@type": "item",
+                    "name": "opt/cygfuse/fuse/cygfuse.c"
+                }
+            ]
+        },
+        {
+            "@type": "group",
+            "name": "21",
+            "nested": [
+                {
+                    "@type": "item",
+                    "name": "opt/cygfuse/fuse3/cygfuse-test.c"
+                }
+            ]
+        },
+        {
+            "@type": "group",
+            "name": "22",
+            "nested": [
+                {
+                    "@type": "item",
+                    "name": "opt/cygfuse/fuse3/cygfuse.c"
+                }
+            ]
+        },
+        {
+            "@type": "group",
+            "name": "23",
+            "nested": [
+                {
+                    "@type": "item",
+                    "name": "opt/fsext/inc/winfsp/fsext.h"
+                }
+            ]
+        },
+        {
+            "@type": "group",
+            "name": "24",
+            "nested": [
+                {
+                    "@type": "item",
+                    "name": "src/dll/eventlog/eventlog.h"
+                }
+            ]
+        },
+        {
+            "@type": "group",
+            "name": "25",
+            "nested": [
+                {
+                    "@type": "item",
+                    "name": "src/fsptool/fsptool.c"
+                }
+            ]
+        },
+        {
+            "@type": "group",
+            "name": "26",
+            "nested": [
+                {
+                    "@type": "item",
+                    "name": "src/launcher/launchctl.c"
+                }
+            ]
+        },
+        {
+            "@type": "group",
+            "name": "27",
+            "nested": [
+                {
+                    "@type": "item",
+                    "name": "src/launcher/launcher.c"
+                }
+            ]
+        },
+        {
+            "@type": "group",
+            "name": "28",
+            "nested": [
+                {
+                    "@type": "item",
+                    "name": "src/launcher/ptrans.c"
+                }
+            ]
+        },
+        {
+            "@type": "group",
+            "name": "29",
+            "nested": [
+                {
+                    "@type": "item",
+                    "name": "src/shared/ku/config.h"
+                }
+            ]
+        },
+        {
+            "@type": "group",
+            "name": "30",
+            "nested": [
+                {
+                    "@type": "item",
+                    "name": "tst/fsbench/fsbench.c"
+                }
+            ]
+        },
+        {
+            "@type": "group",
+            "name": "31",
+            "nested": [
+                {
+                    "@type": "item",
+                    "name": "tst/launcher-tests/echo.c"
+                }
+            ]
+        },
+        {
+            "@type": "group",
+            "name": "32",
+            "nested": [
+                {
+                    "@type": "item",
+                    "name": "tst/launcher-tests/secret.c"
+                }
+            ]
+        },
+        {
+            "@type": "group",
+            "name": "33",
+            "nested": [
+                {
+                    "@type": "item",
+                    "name": "tst/notifyfs/notifyfs.c"
+                }
+            ]
+        },
+        {
+            "@type": "group",
+            "name": "34",
+            "nested": [
+                {
+                    "@type": "item",
+                    "name": "tst/passthrough-cpp/passthrough-cpp.cpp"
+                }
+            ]
+        },
+        {
+            "@type": "group",
+            "name": "35",
+            "nested": [
+                {
+                    "@type": "item",
+                    "name": "tst/passthrough/passthrough.c"
+                }
+            ]
+        },
+        {
+            "@type": "group",
+            "name": "36",
+            "nested": [
+                {
+                    "@type": "item",
+                    "name": "tst/winfsp-tests/helper/winfsp-tests-helper.c"
+                }
+            ]
+        },
+        {
+            "@type": "group",
+            "name": "37",
+            "nested": [
+                {
+                    "@type": "item",
+                    "name": "ext/tlib/testsuite.h"
+                },
+                {
+                    "@type": "item",
+                    "name": "ext/tlib/testsuite.c"
+                }
+            ]
+        }
+    ]
+}

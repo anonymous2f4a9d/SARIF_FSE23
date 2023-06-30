@@ -1,0 +1,662 @@
+{
+    "@schemaVersion": "1.0",
+    "name": "clustering",
+    "structure": [
+        {
+            "@type": "group",
+            "name": "0",
+            "nested": [
+                {
+                    "@type": "item",
+                    "name": "deps/glfw/tests/reopen.c"
+                },
+                {
+                    "@type": "item",
+                    "name": "deps/glfw/tests/gamma.c"
+                },
+                {
+                    "@type": "item",
+                    "name": "deps/glfw/tests/iconify.c"
+                },
+                {
+                    "@type": "item",
+                    "name": "deps/glfw/tests/sharing.c"
+                },
+                {
+                    "@type": "item",
+                    "name": "deps/glfw/tests/empty.c"
+                },
+                {
+                    "@type": "item",
+                    "name": "deps/glfw/tests/monitors.c"
+                },
+                {
+                    "@type": "item",
+                    "name": "deps/glfw/tests/windows.c"
+                },
+                {
+                    "@type": "item",
+                    "name": "deps/glfw/tests/cursor.c"
+                },
+                {
+                    "@type": "item",
+                    "name": "deps/glfw/tests/clipboard.c"
+                },
+                {
+                    "@type": "item",
+                    "name": "deps/glfw/tests/tearing.c"
+                },
+                {
+                    "@type": "item",
+                    "name": "deps/glfw/tests/msaa.c"
+                },
+                {
+                    "@type": "item",
+                    "name": "deps/glfw/tests/title.c"
+                },
+                {
+                    "@type": "item",
+                    "name": "deps/glfw/tests/threads.c"
+                },
+                {
+                    "@type": "item",
+                    "name": "deps/glfw/tests/joysticks.c"
+                },
+                {
+                    "@type": "item",
+                    "name": "deps/glfw/tests/events.c"
+                }
+            ]
+        },
+        {
+            "@type": "group",
+            "name": "1",
+            "nested": [
+                {
+                    "@type": "item",
+                    "name": "src/ring.h"
+                },
+                {
+                    "@type": "item",
+                    "name": "src/ring.c"
+                },
+                {
+                    "@type": "item",
+                    "name": "src/world.h"
+                },
+                {
+                    "@type": "item",
+                    "name": "src/world.c"
+                },
+                {
+                    "@type": "item",
+                    "name": "src/main.c"
+                },
+                {
+                    "@type": "item",
+                    "name": "src/util.h"
+                },
+                {
+                    "@type": "item",
+                    "name": "src/util.c"
+                },
+                {
+                    "@type": "item",
+                    "name": "src/matrix.h"
+                },
+                {
+                    "@type": "item",
+                    "name": "src/matrix.c"
+                },
+                {
+                    "@type": "item",
+                    "name": "src/item.h"
+                },
+                {
+                    "@type": "item",
+                    "name": "src/item.c"
+                },
+                {
+                    "@type": "item",
+                    "name": "src/client.h"
+                },
+                {
+                    "@type": "item",
+                    "name": "src/client.c"
+                },
+                {
+                    "@type": "item",
+                    "name": "src/cube.h"
+                },
+                {
+                    "@type": "item",
+                    "name": "src/cube.c"
+                },
+                {
+                    "@type": "item",
+                    "name": "src/auth.h"
+                },
+                {
+                    "@type": "item",
+                    "name": "src/auth.c"
+                },
+                {
+                    "@type": "item",
+                    "name": "src/map.h"
+                },
+                {
+                    "@type": "item",
+                    "name": "src/map.c"
+                },
+                {
+                    "@type": "item",
+                    "name": "src/sign.h"
+                },
+                {
+                    "@type": "item",
+                    "name": "src/sign.c"
+                },
+                {
+                    "@type": "item",
+                    "name": "src/db.h"
+                },
+                {
+                    "@type": "item",
+                    "name": "src/db.c"
+                },
+                {
+                    "@type": "item",
+                    "name": "src/config.h"
+                }
+            ]
+        },
+        {
+            "@type": "group",
+            "name": "2",
+            "nested": [
+                {
+                    "@type": "item",
+                    "name": "deps/glfw/src/posix_time.h"
+                },
+                {
+                    "@type": "item",
+                    "name": "deps/glfw/src/posix_time.c"
+                },
+                {
+                    "@type": "item",
+                    "name": "deps/glfw/src/win32_time.c"
+                },
+                {
+                    "@type": "item",
+                    "name": "deps/glfw/src/mach_time.c"
+                },
+                {
+                    "@type": "item",
+                    "name": "deps/glfw/src/linux_joystick.h"
+                },
+                {
+                    "@type": "item",
+                    "name": "deps/glfw/src/xkb_unicode.h"
+                },
+                {
+                    "@type": "item",
+                    "name": "deps/glfw/src/xkb_unicode.c"
+                },
+                {
+                    "@type": "item",
+                    "name": "deps/glfw/src/cocoa_platform.h"
+                },
+                {
+                    "@type": "item",
+                    "name": "deps/glfw/src/wl_platform.h"
+                },
+                {
+                    "@type": "item",
+                    "name": "deps/glfw/src/wl_monitor.c"
+                },
+                {
+                    "@type": "item",
+                    "name": "deps/glfw/src/iokit_joystick.h"
+                },
+                {
+                    "@type": "item",
+                    "name": "deps/glfw/src/winmm_joystick.c"
+                },
+                {
+                    "@type": "item",
+                    "name": "deps/glfw/src/linux_joystick.c"
+                },
+                {
+                    "@type": "item",
+                    "name": "deps/glfw/src/winmm_joystick.h"
+                }
+            ]
+        },
+        {
+            "@type": "group",
+            "name": "3",
+            "nested": [
+                {
+                    "@type": "item",
+                    "name": "deps/glfw/src/nsgl_context.h"
+                },
+                {
+                    "@type": "item",
+                    "name": "deps/glfw/src/egl_context.h"
+                },
+                {
+                    "@type": "item",
+                    "name": "deps/glfw/src/egl_context.c"
+                },
+                {
+                    "@type": "item",
+                    "name": "deps/glfw/src/wgl_context.c"
+                },
+                {
+                    "@type": "item",
+                    "name": "deps/glfw/src/glx_context.c"
+                },
+                {
+                    "@type": "item",
+                    "name": "deps/glfw/src/win32_tls.h"
+                },
+                {
+                    "@type": "item",
+                    "name": "deps/glfw/src/win32_tls.c"
+                },
+                {
+                    "@type": "item",
+                    "name": "deps/glfw/src/posix_tls.c"
+                },
+                {
+                    "@type": "item",
+                    "name": "deps/glfw/src/wgl_context.h"
+                },
+                {
+                    "@type": "item",
+                    "name": "deps/glfw/src/glx_context.h"
+                },
+                {
+                    "@type": "item",
+                    "name": "deps/glfw/src/posix_tls.h"
+                }
+            ]
+        },
+        {
+            "@type": "group",
+            "name": "4",
+            "nested": [
+                {
+                    "@type": "item",
+                    "name": "deps/glew/include/GL/glew.h"
+                },
+                {
+                    "@type": "item",
+                    "name": "deps/glew/src/glew.c"
+                },
+                {
+                    "@type": "item",
+                    "name": "deps/glew/src/glewinfo.c"
+                },
+                {
+                    "@type": "item",
+                    "name": "deps/glew/src/visualinfo.c"
+                },
+                {
+                    "@type": "item",
+                    "name": "deps/glew/include/GL/glxew.h"
+                },
+                {
+                    "@type": "item",
+                    "name": "deps/glew/include/GL/wglew.h"
+                }
+            ]
+        },
+        {
+            "@type": "group",
+            "name": "5",
+            "nested": [
+                {
+                    "@type": "item",
+                    "name": "deps/sqlite/sqlite3.c"
+                },
+                {
+                    "@type": "item",
+                    "name": "deps/sqlite/sqlite3.h"
+                },
+                {
+                    "@type": "item",
+                    "name": "deps/sqlite/shell.c"
+                },
+                {
+                    "@type": "item",
+                    "name": "deps/sqlite/sqlite3ext.h"
+                }
+            ]
+        },
+        {
+            "@type": "group",
+            "name": "6",
+            "nested": [
+                {
+                    "@type": "item",
+                    "name": "deps/glfw/src/x11_platform.h"
+                },
+                {
+                    "@type": "item",
+                    "name": "deps/glfw/src/x11_init.c"
+                },
+                {
+                    "@type": "item",
+                    "name": "deps/glfw/src/win32_monitor.c"
+                },
+                {
+                    "@type": "item",
+                    "name": "deps/glfw/src/x11_monitor.c"
+                },
+                {
+                    "@type": "item",
+                    "name": "deps/glfw/src/x11_window.c"
+                },
+                {
+                    "@type": "item",
+                    "name": "deps/glfw/src/internal.h"
+                },
+                {
+                    "@type": "item",
+                    "name": "deps/glfw/include/GLFW/glfw3.h"
+                },
+                {
+                    "@type": "item",
+                    "name": "deps/glfw/src/init.c"
+                },
+                {
+                    "@type": "item",
+                    "name": "deps/glfw/src/monitor.c"
+                },
+                {
+                    "@type": "item",
+                    "name": "deps/glfw/src/mir_monitor.c"
+                },
+                {
+                    "@type": "item",
+                    "name": "deps/glfw/src/context.c"
+                },
+                {
+                    "@type": "item",
+                    "name": "deps/glfw/src/wl_init.c"
+                },
+                {
+                    "@type": "item",
+                    "name": "deps/glfw/src/window.c"
+                },
+                {
+                    "@type": "item",
+                    "name": "deps/glfw/src/wl_window.c"
+                },
+                {
+                    "@type": "item",
+                    "name": "deps/glfw/src/input.c"
+                },
+                {
+                    "@type": "item",
+                    "name": "deps/glfw/src/mir_init.c"
+                },
+                {
+                    "@type": "item",
+                    "name": "deps/glfw/include/GLFW/glfw3native.h"
+                },
+                {
+                    "@type": "item",
+                    "name": "deps/glfw/src/win32_platform.h"
+                },
+                {
+                    "@type": "item",
+                    "name": "deps/glfw/src/win32_init.c"
+                },
+                {
+                    "@type": "item",
+                    "name": "deps/glfw/src/win32_window.c"
+                }
+            ]
+        },
+        {
+            "@type": "group",
+            "name": "7",
+            "nested": [
+                {
+                    "@type": "item",
+                    "name": "deps/glfw/examples/heightmap.c"
+                },
+                {
+                    "@type": "item",
+                    "name": "deps/glfw/examples/wave.c"
+                }
+            ]
+        },
+        {
+            "@type": "group",
+            "name": "8",
+            "nested": [
+                {
+                    "@type": "item",
+                    "name": "deps/glfw/deps/EGL/eglext.h"
+                }
+            ]
+        },
+        {
+            "@type": "group",
+            "name": "9",
+            "nested": [
+                {
+                    "@type": "item",
+                    "name": "deps/glfw/deps/GL/glext.h"
+                }
+            ]
+        },
+        {
+            "@type": "group",
+            "name": "10",
+            "nested": [
+                {
+                    "@type": "item",
+                    "name": "deps/glfw/deps/GL/glxext.h"
+                }
+            ]
+        },
+        {
+            "@type": "group",
+            "name": "11",
+            "nested": [
+                {
+                    "@type": "item",
+                    "name": "deps/glfw/deps/GL/wglext.h"
+                }
+            ]
+        },
+        {
+            "@type": "group",
+            "name": "12",
+            "nested": [
+                {
+                    "@type": "item",
+                    "name": "deps/glfw/deps/KHR/khrplatform.h"
+                }
+            ]
+        },
+        {
+            "@type": "group",
+            "name": "13",
+            "nested": [
+                {
+                    "@type": "item",
+                    "name": "deps/glfw/deps/linmath.h"
+                }
+            ]
+        },
+        {
+            "@type": "group",
+            "name": "14",
+            "nested": [
+                {
+                    "@type": "item",
+                    "name": "deps/glfw/examples/boing.c"
+                }
+            ]
+        },
+        {
+            "@type": "group",
+            "name": "15",
+            "nested": [
+                {
+                    "@type": "item",
+                    "name": "deps/glfw/examples/gears.c"
+                }
+            ]
+        },
+        {
+            "@type": "group",
+            "name": "16",
+            "nested": [
+                {
+                    "@type": "item",
+                    "name": "deps/glfw/examples/particles.c"
+                }
+            ]
+        },
+        {
+            "@type": "group",
+            "name": "17",
+            "nested": [
+                {
+                    "@type": "item",
+                    "name": "deps/glfw/examples/simple.c"
+                }
+            ]
+        },
+        {
+            "@type": "group",
+            "name": "18",
+            "nested": [
+                {
+                    "@type": "item",
+                    "name": "deps/glfw/examples/splitview.c"
+                }
+            ]
+        },
+        {
+            "@type": "group",
+            "name": "19",
+            "nested": [
+                {
+                    "@type": "item",
+                    "name": "deps/glfw/tests/glfwinfo.c"
+                }
+            ]
+        },
+        {
+            "@type": "group",
+            "name": "20",
+            "nested": [
+                {
+                    "@type": "item",
+                    "name": "deps/noise/noise.c"
+                }
+            ]
+        },
+        {
+            "@type": "group",
+            "name": "21",
+            "nested": [
+                {
+                    "@type": "item",
+                    "name": "deps/noise/noise.h"
+                }
+            ]
+        },
+        {
+            "@type": "group",
+            "name": "22",
+            "nested": [
+                {
+                    "@type": "item",
+                    "name": "deps/lodepng/lodepng.h"
+                },
+                {
+                    "@type": "item",
+                    "name": "deps/lodepng/lodepng.c"
+                }
+            ]
+        },
+        {
+            "@type": "group",
+            "name": "23",
+            "nested": [
+                {
+                    "@type": "item",
+                    "name": "deps/glfw/deps/tinycthread.h"
+                },
+                {
+                    "@type": "item",
+                    "name": "deps/glfw/deps/tinycthread.c"
+                }
+            ]
+        },
+        {
+            "@type": "group",
+            "name": "24",
+            "nested": [
+                {
+                    "@type": "item",
+                    "name": "deps/glfw/deps/getopt.h"
+                },
+                {
+                    "@type": "item",
+                    "name": "deps/glfw/deps/getopt.c"
+                }
+            ]
+        },
+        {
+            "@type": "group",
+            "name": "25",
+            "nested": [
+                {
+                    "@type": "item",
+                    "name": "deps/tinycthread/tinycthread.h"
+                },
+                {
+                    "@type": "item",
+                    "name": "deps/tinycthread/tinycthread.c"
+                }
+            ]
+        },
+        {
+            "@type": "group",
+            "name": "26",
+            "nested": [
+                {
+                    "@type": "item",
+                    "name": "deps/glfw/deps/glad/glad.h"
+                },
+                {
+                    "@type": "item",
+                    "name": "deps/glfw/deps/glad.c"
+                }
+            ]
+        },
+        {
+            "@type": "group",
+            "name": "27",
+            "nested": [
+                {
+                    "@type": "item",
+                    "name": "deps/glfw/src/mir_platform.h"
+                },
+                {
+                    "@type": "item",
+                    "name": "deps/glfw/src/mir_window.c"
+                }
+            ]
+        }
+    ]
+}

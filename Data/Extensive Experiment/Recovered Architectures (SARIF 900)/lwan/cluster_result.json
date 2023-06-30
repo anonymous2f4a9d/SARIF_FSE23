@@ -1,0 +1,692 @@
+{
+    "@schemaVersion": "1.0",
+    "name": "clustering",
+    "structure": [
+        {
+            "@type": "group",
+            "name": "0",
+            "nested": [
+                {
+                    "@type": "item",
+                    "name": "src/lib/sd-daemon.h"
+                },
+                {
+                    "@type": "item",
+                    "name": "src/lib/sd-daemon.c"
+                },
+                {
+                    "@type": "item",
+                    "name": "src/lib/realpathat.c"
+                },
+                {
+                    "@type": "item",
+                    "name": "src/lib/missing/libproc.h"
+                },
+                {
+                    "@type": "item",
+                    "name": "src/lib/lwan-h2-huffman.c"
+                },
+                {
+                    "@type": "item",
+                    "name": "src/lib/sha1.h"
+                },
+                {
+                    "@type": "item",
+                    "name": "src/lib/sha1.c"
+                },
+                {
+                    "@type": "item",
+                    "name": "src/lib/missing/limits.h"
+                },
+                {
+                    "@type": "item",
+                    "name": "src/lib/murmur3.h"
+                },
+                {
+                    "@type": "item",
+                    "name": "src/lib/murmur3.c"
+                },
+                {
+                    "@type": "item",
+                    "name": "src/lib/missing/sys/syscall.h"
+                },
+                {
+                    "@type": "item",
+                    "name": "src/lib/missing/sys/ioctl.h"
+                },
+                {
+                    "@type": "item",
+                    "name": "src/lib/missing/sys/epoll.h"
+                },
+                {
+                    "@type": "item",
+                    "name": "src/lib/missing/stdio.h"
+                },
+                {
+                    "@type": "item",
+                    "name": "src/lib/missing/stdlib.h"
+                },
+                {
+                    "@type": "item",
+                    "name": "src/lib/missing/string.h"
+                },
+                {
+                    "@type": "item",
+                    "name": "src/lib/missing/fcntl.h"
+                },
+                {
+                    "@type": "item",
+                    "name": "src/lib/missing/linux/capability.h"
+                },
+                {
+                    "@type": "item",
+                    "name": "src/lib/missing/sys/types.h"
+                },
+                {
+                    "@type": "item",
+                    "name": "src/lib/missing/sys/vfs.h"
+                },
+                {
+                    "@type": "item",
+                    "name": "src/lib/missing/unistd.h"
+                },
+                {
+                    "@type": "item",
+                    "name": "src/lib/missing/sys/socket.h"
+                },
+                {
+                    "@type": "item",
+                    "name": "src/lib/missing.c"
+                },
+                {
+                    "@type": "item",
+                    "name": "src/lib/hash.h"
+                },
+                {
+                    "@type": "item",
+                    "name": "src/lib/hash.c"
+                },
+                {
+                    "@type": "item",
+                    "name": "src/lib/patterns.h"
+                },
+                {
+                    "@type": "item",
+                    "name": "src/lib/patterns.c"
+                }
+            ]
+        },
+        {
+            "@type": "group",
+            "name": "1",
+            "nested": [
+                {
+                    "@type": "item",
+                    "name": "src/lib/lwan-http-authorize.h"
+                },
+                {
+                    "@type": "item",
+                    "name": "src/lib/lwan-http-authorize.c"
+                },
+                {
+                    "@type": "item",
+                    "name": "src/lib/missing/pwd.h"
+                },
+                {
+                    "@type": "item",
+                    "name": "src/lib/base64.h"
+                },
+                {
+                    "@type": "item",
+                    "name": "src/lib/base64.c"
+                },
+                {
+                    "@type": "item",
+                    "name": "src/lib/missing/endian.h"
+                },
+                {
+                    "@type": "item",
+                    "name": "src/lib/missing/time.h"
+                },
+                {
+                    "@type": "item",
+                    "name": "src/lib/lwan-mod-lua.h"
+                },
+                {
+                    "@type": "item",
+                    "name": "src/lib/lwan-mod-fastcgi.h"
+                },
+                {
+                    "@type": "item",
+                    "name": "src/lib/lwan-cache.h"
+                },
+                {
+                    "@type": "item",
+                    "name": "src/lib/lwan-cache.c"
+                },
+                {
+                    "@type": "item",
+                    "name": "src/lib/lwan-mod-serve-files.h"
+                },
+                {
+                    "@type": "item",
+                    "name": "src/lib/lwan-mod-lua.c"
+                }
+            ]
+        },
+        {
+            "@type": "group",
+            "name": "2",
+            "nested": [
+                {
+                    "@type": "item",
+                    "name": "src/lib/lwan-mod-serve-files.c"
+                },
+                {
+                    "@type": "item",
+                    "name": "src/lib/realpathat.h"
+                },
+                {
+                    "@type": "item",
+                    "name": "src/lib/lwan-tq.h"
+                },
+                {
+                    "@type": "item",
+                    "name": "src/lib/lwan-tq.c"
+                },
+                {
+                    "@type": "item",
+                    "name": "src/lib/lwan-mod-fastcgi.c"
+                },
+                {
+                    "@type": "item",
+                    "name": "src/lib/lwan-trie.h"
+                },
+                {
+                    "@type": "item",
+                    "name": "src/lib/lwan-trie.c"
+                },
+                {
+                    "@type": "item",
+                    "name": "src/lib/lwan-lua.h"
+                },
+                {
+                    "@type": "item",
+                    "name": "src/lib/lwan-lua.c"
+                },
+                {
+                    "@type": "item",
+                    "name": "src/lib/lwan-private.h"
+                },
+                {
+                    "@type": "item",
+                    "name": "src/lib/lwan-status.h"
+                },
+                {
+                    "@type": "item",
+                    "name": "src/lib/lwan.h"
+                },
+                {
+                    "@type": "item",
+                    "name": "src/lib/lwan-strbuf.h"
+                },
+                {
+                    "@type": "item",
+                    "name": "src/lib/lwan-socket.c"
+                },
+                {
+                    "@type": "item",
+                    "name": "src/lib/lwan-status.c"
+                },
+                {
+                    "@type": "item",
+                    "name": "src/lib/lwan-websocket.c"
+                },
+                {
+                    "@type": "item",
+                    "name": "src/lib/lwan.c"
+                },
+                {
+                    "@type": "item",
+                    "name": "src/lib/lwan-job.c"
+                },
+                {
+                    "@type": "item",
+                    "name": "src/lib/lwan-response.c"
+                },
+                {
+                    "@type": "item",
+                    "name": "src/lib/lwan-straitjacket.c"
+                },
+                {
+                    "@type": "item",
+                    "name": "src/lib/lwan-request.c"
+                },
+                {
+                    "@type": "item",
+                    "name": "src/lib/lwan-tables.c"
+                },
+                {
+                    "@type": "item",
+                    "name": "src/lib/lwan-readahead.c"
+                },
+                {
+                    "@type": "item",
+                    "name": "src/lib/lwan-strbuf.c"
+                },
+                {
+                    "@type": "item",
+                    "name": "src/lib/lwan-thread.c"
+                }
+            ]
+        },
+        {
+            "@type": "group",
+            "name": "3",
+            "nested": [
+                {
+                    "@type": "item",
+                    "name": "src/samples/clock/blocks.h"
+                },
+                {
+                    "@type": "item",
+                    "name": "src/samples/clock/blocks.c"
+                },
+                {
+                    "@type": "item",
+                    "name": "src/samples/clock/xdaliclock.h"
+                },
+                {
+                    "@type": "item",
+                    "name": "src/samples/clock/pong.h"
+                },
+                {
+                    "@type": "item",
+                    "name": "src/samples/clock/pong.c"
+                },
+                {
+                    "@type": "item",
+                    "name": "src/samples/clock/numbers.h"
+                },
+                {
+                    "@type": "item",
+                    "name": "src/samples/clock/numbers.c"
+                },
+                {
+                    "@type": "item",
+                    "name": "src/samples/clock/gifenc.h"
+                },
+                {
+                    "@type": "item",
+                    "name": "src/samples/clock/gifenc.c"
+                },
+                {
+                    "@type": "item",
+                    "name": "src/samples/clock/xdaliclock.c"
+                },
+                {
+                    "@type": "item",
+                    "name": "src/samples/clock/main.c"
+                }
+            ]
+        },
+        {
+            "@type": "group",
+            "name": "4",
+            "nested": [
+                {
+                    "@type": "item",
+                    "name": "src/lib/missing/pthread.h"
+                },
+                {
+                    "@type": "item",
+                    "name": "src/lib/missing-pthread.c"
+                },
+                {
+                    "@type": "item",
+                    "name": "src/lib/lwan-pubsub.h"
+                },
+                {
+                    "@type": "item",
+                    "name": "src/lib/ringbuffer.h"
+                },
+                {
+                    "@type": "item",
+                    "name": "src/lib/timeout.h"
+                },
+                {
+                    "@type": "item",
+                    "name": "src/lib/timeout.c"
+                },
+                {
+                    "@type": "item",
+                    "name": "src/lib/missing/assert.h"
+                },
+                {
+                    "@type": "item",
+                    "name": "src/lib/lwan-pubsub.c"
+                },
+                {
+                    "@type": "item",
+                    "name": "src/lib/list.h"
+                },
+                {
+                    "@type": "item",
+                    "name": "src/lib/list.c"
+                }
+            ]
+        },
+        {
+            "@type": "group",
+            "name": "5",
+            "nested": [
+                {
+                    "@type": "item",
+                    "name": "src/lib/missing/sys/mman.h"
+                },
+                {
+                    "@type": "item",
+                    "name": "src/lib/lwan-coro.h"
+                },
+                {
+                    "@type": "item",
+                    "name": "src/lib/lwan-coro.c"
+                },
+                {
+                    "@type": "item",
+                    "name": "src/lib/missing/sys/sendfile.h"
+                },
+                {
+                    "@type": "item",
+                    "name": "src/lib/lwan-io-wrappers.h"
+                },
+                {
+                    "@type": "item",
+                    "name": "src/lib/lwan-io-wrappers.c"
+                },
+                {
+                    "@type": "item",
+                    "name": "src/lib/lwan-template.h"
+                },
+                {
+                    "@type": "item",
+                    "name": "src/lib/lwan-template.c"
+                },
+                {
+                    "@type": "item",
+                    "name": "src/lib/lwan-array.h"
+                },
+                {
+                    "@type": "item",
+                    "name": "src/lib/lwan-array.c"
+                }
+            ]
+        },
+        {
+            "@type": "group",
+            "name": "6",
+            "nested": [
+                {
+                    "@type": "item",
+                    "name": "src/lib/lwan-mod-response.h"
+                },
+                {
+                    "@type": "item",
+                    "name": "src/lib/lwan-time.c"
+                },
+                {
+                    "@type": "item",
+                    "name": "src/lib/int-to-str.h"
+                },
+                {
+                    "@type": "item",
+                    "name": "src/lib/int-to-str.c"
+                },
+                {
+                    "@type": "item",
+                    "name": "src/lib/lwan-mod-response.c"
+                }
+            ]
+        },
+        {
+            "@type": "group",
+            "name": "7",
+            "nested": [
+                {
+                    "@type": "item",
+                    "name": "src/bin/fuzz/config_fuzzer.cc"
+                },
+                {
+                    "@type": "item",
+                    "name": "src/bin/fuzz/request_fuzzer.cc"
+                },
+                {
+                    "@type": "item",
+                    "name": "src/bin/fuzz/pattern_fuzzer.cc"
+                }
+            ]
+        },
+        {
+            "@type": "group",
+            "name": "8",
+            "nested": [
+                {
+                    "@type": "item",
+                    "name": "src/lib/lwan-mod-redirect.c"
+                },
+                {
+                    "@type": "item",
+                    "name": "src/lib/lwan-mod-redirect.h"
+                },
+                {
+                    "@type": "item",
+                    "name": "src/lib/missing/ioprio.h"
+                }
+            ]
+        },
+        {
+            "@type": "group",
+            "name": "9",
+            "nested": [
+                {
+                    "@type": "item",
+                    "name": "src/samples/techempower/json.h"
+                },
+                {
+                    "@type": "item",
+                    "name": "src/samples/techempower/json.c"
+                },
+                {
+                    "@type": "item",
+                    "name": "src/samples/techempower/database.h"
+                },
+                {
+                    "@type": "item",
+                    "name": "src/samples/techempower/database.c"
+                },
+                {
+                    "@type": "item",
+                    "name": "src/samples/techempower/techempower.c"
+                }
+            ]
+        },
+        {
+            "@type": "group",
+            "name": "10",
+            "nested": [
+                {
+                    "@type": "item",
+                    "name": "src/lib/lwan-mod-rewrite.c"
+                },
+                {
+                    "@type": "item",
+                    "name": "src/lib/lwan-config.h"
+                },
+                {
+                    "@type": "item",
+                    "name": "src/lib/lwan-config.c"
+                }
+            ]
+        },
+        {
+            "@type": "group",
+            "name": "11",
+            "nested": [
+                {
+                    "@type": "item",
+                    "name": "src/bin/fuzz/h2_huffman_fuzzer.cc"
+                }
+            ]
+        },
+        {
+            "@type": "group",
+            "name": "12",
+            "nested": [
+                {
+                    "@type": "item",
+                    "name": "src/bin/fuzz/template_fuzzer.cc"
+                }
+            ]
+        },
+        {
+            "@type": "group",
+            "name": "13",
+            "nested": [
+                {
+                    "@type": "item",
+                    "name": "src/bin/lwan/main.c"
+                }
+            ]
+        },
+        {
+            "@type": "group",
+            "name": "14",
+            "nested": [
+                {
+                    "@type": "item",
+                    "name": "src/bin/testrunner/main.c"
+                }
+            ]
+        },
+        {
+            "@type": "group",
+            "name": "15",
+            "nested": [
+                {
+                    "@type": "item",
+                    "name": "src/bin/tools/bin2hex.c"
+                }
+            ]
+        },
+        {
+            "@type": "group",
+            "name": "16",
+            "nested": [
+                {
+                    "@type": "item",
+                    "name": "src/bin/tools/configdump.c"
+                }
+            ]
+        },
+        {
+            "@type": "group",
+            "name": "17",
+            "nested": [
+                {
+                    "@type": "item",
+                    "name": "src/bin/tools/mimegen.c"
+                }
+            ]
+        },
+        {
+            "@type": "group",
+            "name": "18",
+            "nested": [
+                {
+                    "@type": "item",
+                    "name": "src/bin/tools/weighttp.c"
+                }
+            ]
+        },
+        {
+            "@type": "group",
+            "name": "19",
+            "nested": [
+                {
+                    "@type": "item",
+                    "name": "src/lib/lwan-mod-rewrite.h"
+                }
+            ]
+        },
+        {
+            "@type": "group",
+            "name": "20",
+            "nested": [
+                {
+                    "@type": "item",
+                    "name": "src/samples/asyncawait/main.c"
+                }
+            ]
+        },
+        {
+            "@type": "group",
+            "name": "21",
+            "nested": [
+                {
+                    "@type": "item",
+                    "name": "src/samples/chatr/main.c"
+                }
+            ]
+        },
+        {
+            "@type": "group",
+            "name": "22",
+            "nested": [
+                {
+                    "@type": "item",
+                    "name": "src/samples/freegeoip/freegeoip.c"
+                }
+            ]
+        },
+        {
+            "@type": "group",
+            "name": "23",
+            "nested": [
+                {
+                    "@type": "item",
+                    "name": "src/samples/hello-no-meta/main.c"
+                }
+            ]
+        },
+        {
+            "@type": "group",
+            "name": "24",
+            "nested": [
+                {
+                    "@type": "item",
+                    "name": "src/samples/hello/main.c"
+                }
+            ]
+        },
+        {
+            "@type": "group",
+            "name": "25",
+            "nested": [
+                {
+                    "@type": "item",
+                    "name": "src/samples/pastebin/main.c"
+                }
+            ]
+        },
+        {
+            "@type": "group",
+            "name": "26",
+            "nested": [
+                {
+                    "@type": "item",
+                    "name": "src/samples/websocket/main.c"
+                }
+            ]
+        }
+    ]
+}

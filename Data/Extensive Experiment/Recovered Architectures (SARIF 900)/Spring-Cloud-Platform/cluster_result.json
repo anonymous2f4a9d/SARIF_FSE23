@@ -1,0 +1,796 @@
+{
+    "@schemaVersion": "1.0",
+    "name": "clustering",
+    "structure": [
+        {
+            "@type": "group",
+            "name": "0",
+            "nested": [
+                {
+                    "@type": "item",
+                    "name": "ace-dev-base/ace-common/src/main/java/com/github/wxiaoqi/security/common/util/jwt/IJWTInfo.java"
+                },
+                {
+                    "@type": "item",
+                    "name": "ace-dev-base/ace-common/src/main/java/com/github/wxiaoqi/security/common/util/AddressUtils.java"
+                },
+                {
+                    "@type": "item",
+                    "name": "ace-dev-base/ace-common/src/main/java/com/github/wxiaoqi/security/common/util/jwt/JWTInfo.java"
+                },
+                {
+                    "@type": "item",
+                    "name": "ace-dev-base/ace-common/src/main/java/com/github/wxiaoqi/security/common/msg/ObjectRestResponse.java"
+                },
+                {
+                    "@type": "item",
+                    "name": "ace-dev-base/ace-common/src/main/java/com/github/wxiaoqi/security/common/util/http/HttpUtils.java"
+                },
+                {
+                    "@type": "item",
+                    "name": "ace-dev-base/ace-common/src/main/java/com/github/wxiaoqi/security/common/util/http/HttpHelper.java"
+                },
+                {
+                    "@type": "item",
+                    "name": "ace-dev-base/ace-common/src/main/java/com/github/wxiaoqi/security/common/util/TreeUtil.java"
+                },
+                {
+                    "@type": "item",
+                    "name": "ace-dev-base/ace-common/src/main/java/com/github/wxiaoqi/security/common/util/UUIDUtils.java"
+                },
+                {
+                    "@type": "item",
+                    "name": "ace-dev-base/ace-common/src/main/java/com/github/wxiaoqi/security/common/service/impl/BaseServiceImpl.java"
+                },
+                {
+                    "@type": "item",
+                    "name": "ace-dev-base/ace-common/src/main/java/com/github/wxiaoqi/security/common/context/BaseContextHandler.java"
+                },
+                {
+                    "@type": "item",
+                    "name": "ace-dev-base/ace-common/src/main/java/com/github/wxiaoqi/security/common/util/Query.java"
+                },
+                {
+                    "@type": "item",
+                    "name": "ace-dev-base/ace-common/src/main/java/com/github/wxiaoqi/security/common/util/StringHelper.java"
+                },
+                {
+                    "@type": "item",
+                    "name": "ace-dev-base/ace-common/src/main/java/com/github/wxiaoqi/security/common/util/IpUtils.java"
+                },
+                {
+                    "@type": "item",
+                    "name": "ace-dev-base/ace-common/src/main/java/com/github/wxiaoqi/security/common/util/jwt/RsaKeyHelper.java"
+                },
+                {
+                    "@type": "item",
+                    "name": "ace-dev-base/ace-common/src/main/java/com/github/wxiaoqi/security/common/util/ClientUtil.java"
+                },
+                {
+                    "@type": "item",
+                    "name": "ace-dev-base/ace-common/src/main/java/com/github/wxiaoqi/security/common/vo/TreeNode.java"
+                },
+                {
+                    "@type": "item",
+                    "name": "ace-dev-base/ace-common/src/main/java/com/github/wxiaoqi/security/common/util/jwt/JWTHelper.java"
+                },
+                {
+                    "@type": "item",
+                    "name": "ace-dev-base/ace-common/src/main/java/com/github/wxiaoqi/security/common/rest/BaseController.java"
+                },
+                {
+                    "@type": "item",
+                    "name": "ace-dev-base/ace-common/src/main/java/com/github/wxiaoqi/security/common/service/BaseService.java"
+                },
+                {
+                    "@type": "item",
+                    "name": "ace-dev-base/ace-common/src/main/java/com/github/wxiaoqi/security/common/biz/BaseBiz.java"
+                },
+                {
+                    "@type": "item",
+                    "name": "ace-dev-base/ace-common/src/main/java/com/github/wxiaoqi/security/common/util/EntityUtils.java"
+                },
+                {
+                    "@type": "item",
+                    "name": "ace-dev-base/ace-common/src/main/java/com/github/wxiaoqi/security/common/util/ReflectionUtils.java"
+                },
+                {
+                    "@type": "item",
+                    "name": "ace-dev-base/ace-common/src/main/java/com/github/wxiaoqi/security/common/msg/TableResultResponse.java"
+                }
+            ]
+        },
+        {
+            "@type": "group",
+            "name": "1",
+            "nested": [
+                {
+                    "@type": "item",
+                    "name": "ace-modules/ace-admin/src/main/java/com/github/wxiaoqi/security/modules/admin/biz/GroupTypeBiz.java"
+                },
+                {
+                    "@type": "item",
+                    "name": "ace-modules/ace-admin/src/main/java/com/github/wxiaoqi/security/modules/admin/mapper/GroupMapper.java"
+                },
+                {
+                    "@type": "item",
+                    "name": "ace-modules/ace-admin/src/main/java/com/github/wxiaoqi/security/modules/admin/mapper/MenuMapper.java"
+                },
+                {
+                    "@type": "item",
+                    "name": "ace-modules/ace-admin/src/main/java/com/github/wxiaoqi/security/modules/admin/vo/GroupTree.java"
+                },
+                {
+                    "@type": "item",
+                    "name": "ace-modules/ace-admin/src/main/java/com/github/wxiaoqi/security/modules/admin/mapper/UserMapper.java"
+                },
+                {
+                    "@type": "item",
+                    "name": "ace-modules/ace-admin/src/main/java/com/github/wxiaoqi/security/modules/admin/biz/GroupBiz.java"
+                },
+                {
+                    "@type": "item",
+                    "name": "ace-modules/ace-admin/src/main/java/com/github/wxiaoqi/security/modules/admin/mapper/ResourceAuthorityMapper.java"
+                },
+                {
+                    "@type": "item",
+                    "name": "ace-modules/ace-admin/src/main/java/com/github/wxiaoqi/security/modules/admin/rest/GroupController.java"
+                },
+                {
+                    "@type": "item",
+                    "name": "ace-modules/ace-admin/src/main/java/com/github/wxiaoqi/security/modules/admin/entity/Group.java"
+                },
+                {
+                    "@type": "item",
+                    "name": "ace-modules/ace-admin/src/main/java/com/github/wxiaoqi/security/modules/admin/constant/AdminCommonConstant.java"
+                },
+                {
+                    "@type": "item",
+                    "name": "ace-modules/ace-admin/src/main/java/com/github/wxiaoqi/security/modules/admin/rest/GroupTypeController.java"
+                },
+                {
+                    "@type": "item",
+                    "name": "ace-modules/ace-admin/src/main/java/com/github/wxiaoqi/security/modules/admin/vo/GroupUsers.java"
+                },
+                {
+                    "@type": "item",
+                    "name": "ace-modules/ace-admin/src/main/java/com/github/wxiaoqi/security/modules/admin/mapper/ElementMapper.java"
+                },
+                {
+                    "@type": "item",
+                    "name": "ace-modules/ace-admin/src/main/java/com/github/wxiaoqi/security/modules/admin/rest/ElementController.java"
+                },
+                {
+                    "@type": "item",
+                    "name": "ace-modules/ace-admin/src/main/java/com/github/wxiaoqi/security/modules/admin/entity/Element.java"
+                },
+                {
+                    "@type": "item",
+                    "name": "ace-modules/ace-admin/src/main/java/com/github/wxiaoqi/security/modules/admin/mapper/GroupTypeMapper.java"
+                },
+                {
+                    "@type": "item",
+                    "name": "ace-modules/ace-admin/src/main/java/com/github/wxiaoqi/security/modules/admin/biz/ElementBiz.java"
+                },
+                {
+                    "@type": "item",
+                    "name": "ace-modules/ace-admin/src/main/java/com/github/wxiaoqi/security/modules/admin/entity/ResourceAuthority.java"
+                },
+                {
+                    "@type": "item",
+                    "name": "ace-modules/ace-admin/src/main/java/com/github/wxiaoqi/security/modules/admin/biz/ResourceAuthorityBiz.java"
+                },
+                {
+                    "@type": "item",
+                    "name": "ace-modules/ace-admin/src/main/java/com/github/wxiaoqi/security/modules/admin/entity/GroupType.java"
+                }
+            ]
+        },
+        {
+            "@type": "group",
+            "name": "2",
+            "nested": [
+                {
+                    "@type": "item",
+                    "name": "ace-api/src/main/java/com/github/wxiaoqi/security/api/vo/authority/PermissionInfo.java"
+                },
+                {
+                    "@type": "item",
+                    "name": "ace-modules/ace-admin/src/main/java/com/github/wxiaoqi/security/modules/admin/vo/AccessInterface.java"
+                },
+                {
+                    "@type": "item",
+                    "name": "ace-api/src/main/java/com/github/wxiaoqi/security/api/vo/user/UserInfo.java"
+                },
+                {
+                    "@type": "item",
+                    "name": "ace-modules/ace-admin/src/main/java/com/github/wxiaoqi/security/modules/admin/rpc/UserRest.java"
+                },
+                {
+                    "@type": "item",
+                    "name": "ace-modules/ace-admin/src/main/java/com/github/wxiaoqi/security/modules/admin/vo/FrontUser.java"
+                },
+                {
+                    "@type": "item",
+                    "name": "ace-modules/ace-admin/src/main/java/com/github/wxiaoqi/security/modules/admin/entity/Menu.java"
+                },
+                {
+                    "@type": "item",
+                    "name": "ace-modules/ace-admin/src/main/java/com/github/wxiaoqi/security/modules/admin/rest/UserController.java"
+                },
+                {
+                    "@type": "item",
+                    "name": "ace-modules/ace-admin/src/main/java/com/github/wxiaoqi/security/modules/admin/biz/MenuBiz.java"
+                },
+                {
+                    "@type": "item",
+                    "name": "ace-modules/ace-admin/src/main/java/com/github/wxiaoqi/security/modules/admin/vo/AccessRouteTree.java"
+                },
+                {
+                    "@type": "item",
+                    "name": "ace-modules/ace-admin/src/main/java/com/github/wxiaoqi/security/modules/admin/rpc/service/PermissionService.java"
+                },
+                {
+                    "@type": "item",
+                    "name": "ace-modules/ace-admin/src/main/java/com/github/wxiaoqi/security/modules/admin/vo/MenuTree.java"
+                },
+                {
+                    "@type": "item",
+                    "name": "ace-api/src/main/java/com/github/wxiaoqi/security/api/vo/authority/CheckPermissionInfo.java"
+                },
+                {
+                    "@type": "item",
+                    "name": "ace-modules/ace-admin/src/main/java/com/github/wxiaoqi/security/modules/admin/util/Sha256PasswordEncoder.java"
+                },
+                {
+                    "@type": "item",
+                    "name": "ace-modules/ace-admin/src/main/java/com/github/wxiaoqi/security/modules/admin/entity/User.java"
+                },
+                {
+                    "@type": "item",
+                    "name": "ace-modules/ace-admin/src/main/java/com/github/wxiaoqi/security/modules/auth/vo/FrontUser.java"
+                },
+                {
+                    "@type": "item",
+                    "name": "ace-modules/ace-admin/src/main/java/com/github/wxiaoqi/security/modules/admin/rest/MenuController.java"
+                },
+                {
+                    "@type": "item",
+                    "name": "ace-modules/ace-admin/src/main/java/com/github/wxiaoqi/security/modules/admin/biz/UserBiz.java"
+                },
+                {
+                    "@type": "item",
+                    "name": "ace-modules/ace-admin/src/main/java/com/github/wxiaoqi/security/modules/admin/vo/AuthorityMenuTree.java"
+                },
+                {
+                    "@type": "item",
+                    "name": "ace-modules/ace-admin/src/main/java/com/github/wxiaoqi/security/modules/admin/vo/FrontUserV2.java"
+                },
+                {
+                    "@type": "item",
+                    "name": "ace-modules/ace-admin/src/main/java/com/github/wxiaoqi/security/modules/admin/vo/AccessMenuTree.java"
+                }
+            ]
+        },
+        {
+            "@type": "group",
+            "name": "3",
+            "nested": [
+                {
+                    "@type": "item",
+                    "name": "ace-dev-base/ace-auth-sdk/src/main/java/com/github/wxiaoqi/security/auth/client/runner/AuthClientRunner.java"
+                },
+                {
+                    "@type": "item",
+                    "name": "ace-dev-base/ace-auth-sdk/src/main/java/com/github/wxiaoqi/security/auth/client/feign/ServiceAuthFeign.java"
+                },
+                {
+                    "@type": "item",
+                    "name": "ace-dev-base/ace-auth-sdk/src/main/java/com/github/wxiaoqi/security/auth/client/config/ServiceAuthConfig.java"
+                },
+                {
+                    "@type": "item",
+                    "name": "ace-dev-base/ace-auth-sdk/src/main/java/com/github/wxiaoqi/security/auth/client/annotation/IgnoreUserToken.java"
+                },
+                {
+                    "@type": "item",
+                    "name": "ace-dev-base/ace-auth-sdk/src/main/java/com/github/wxiaoqi/security/auth/client/exception/JwtIllegalArgumentException.java"
+                },
+                {
+                    "@type": "item",
+                    "name": "ace-dev-base/ace-auth-sdk/src/main/java/com/github/wxiaoqi/security/auth/client/exception/JwtSignatureException.java"
+                },
+                {
+                    "@type": "item",
+                    "name": "ace-dev-base/ace-auth-sdk/src/main/java/com/github/wxiaoqi/security/auth/client/exception/JwtTokenExpiredException.java"
+                },
+                {
+                    "@type": "item",
+                    "name": "ace-dev-base/ace-auth-sdk/src/main/java/com/github/wxiaoqi/security/auth/client/jwt/UserAuthUtil.java"
+                },
+                {
+                    "@type": "item",
+                    "name": "ace-dev-base/ace-auth-sdk/src/main/java/com/github/wxiaoqi/security/auth/client/configuration/AutoConfiguration.java"
+                },
+                {
+                    "@type": "item",
+                    "name": "ace-dev-base/ace-auth-sdk/src/main/java/com/github/wxiaoqi/security/auth/client/config/UserAuthConfig.java"
+                },
+                {
+                    "@type": "item",
+                    "name": "ace-dev-base/ace-auth-sdk/src/main/java/com/github/wxiaoqi/security/auth/client/EnableAceAuthClient.java"
+                },
+                {
+                    "@type": "item",
+                    "name": "ace-dev-base/ace-auth-sdk/src/main/java/com/github/wxiaoqi/security/auth/client/interceptor/UserAuthRestInterceptor.java"
+                },
+                {
+                    "@type": "item",
+                    "name": "ace-dev-base/ace-auth-sdk/src/main/java/com/github/wxiaoqi/security/auth/client/interceptor/OkHttpTokenInterceptor.java"
+                },
+                {
+                    "@type": "item",
+                    "name": "ace-dev-base/ace-auth-sdk/src/main/java/com/github/wxiaoqi/security/auth/client/config/FeignOkHttpConfig.java"
+                }
+            ]
+        },
+        {
+            "@type": "group",
+            "name": "4",
+            "nested": [
+                {
+                    "@type": "item",
+                    "name": "ace-dev-base/ace-common/src/main/java/com/github/wxiaoqi/security/common/msg/auth/TokenForbiddenResponse.java"
+                },
+                {
+                    "@type": "item",
+                    "name": "ace-dev-base/ace-common/src/main/java/com/github/wxiaoqi/security/common/constant/RestCodeConstants.java"
+                },
+                {
+                    "@type": "item",
+                    "name": "ace-modules/ace-sample/src/main/java/com/github/wxiaoqi/security/sample/config/WebConfiguration.java"
+                },
+                {
+                    "@type": "item",
+                    "name": "ace-dev-base/ace-common/src/main/java/com/github/wxiaoqi/security/common/exception/auth/ClientInvalidException.java"
+                },
+                {
+                    "@type": "item",
+                    "name": "ace-dev-base/ace-common/src/main/java/com/github/wxiaoqi/security/common/exception/BaseException.java"
+                },
+                {
+                    "@type": "item",
+                    "name": "ace-dev-base/ace-common/src/main/java/com/github/wxiaoqi/security/common/msg/auth/TokenErrorResponse.java"
+                },
+                {
+                    "@type": "item",
+                    "name": "ace-dev-base/ace-common/src/main/java/com/github/wxiaoqi/security/common/exception/auth/UserInvalidException.java"
+                },
+                {
+                    "@type": "item",
+                    "name": "ace-dev-base/ace-common/src/main/java/com/github/wxiaoqi/security/common/handler/GlobalExceptionHandler.java"
+                },
+                {
+                    "@type": "item",
+                    "name": "ace-dev-base/ace-common/src/main/java/com/github/wxiaoqi/security/common/exception/auth/ClientForbiddenException.java"
+                },
+                {
+                    "@type": "item",
+                    "name": "ace-dev-base/ace-common/src/main/java/com/github/wxiaoqi/security/common/exception/auth/ClientTokenException.java"
+                },
+                {
+                    "@type": "item",
+                    "name": "ace-dev-base/ace-common/src/main/java/com/github/wxiaoqi/security/common/constant/CommonConstants.java"
+                },
+                {
+                    "@type": "item",
+                    "name": "ace-dev-base/ace-common/src/main/java/com/github/wxiaoqi/security/common/exception/auth/UserTokenException.java"
+                },
+                {
+                    "@type": "item",
+                    "name": "ace-dev-base/ace-common/src/main/java/com/github/wxiaoqi/security/common/msg/BaseResponse.java"
+                }
+            ]
+        },
+        {
+            "@type": "group",
+            "name": "5",
+            "nested": [
+                {
+                    "@type": "item",
+                    "name": "ace-modules/ace-admin/src/main/java/com/github/wxiaoqi/security/modules/auth/bean/ClientInfo.java"
+                },
+                {
+                    "@type": "item",
+                    "name": "ace-modules/ace-admin/src/main/java/com/github/wxiaoqi/security/modules/auth/biz/ClientServiceBiz.java"
+                },
+                {
+                    "@type": "item",
+                    "name": "ace-modules/ace-admin/src/main/java/com/github/wxiaoqi/security/modules/auth/service/impl/DBAuthClientService.java"
+                },
+                {
+                    "@type": "item",
+                    "name": "ace-modules/ace-admin/src/main/java/com/github/wxiaoqi/security/modules/auth/mapper/ClientMapper.java"
+                },
+                {
+                    "@type": "item",
+                    "name": "ace-modules/ace-admin/src/main/java/com/github/wxiaoqi/security/modules/auth/entity/Client.java"
+                },
+                {
+                    "@type": "item",
+                    "name": "ace-modules/ace-admin/src/main/java/com/github/wxiaoqi/security/modules/auth/biz/ClientBiz.java"
+                },
+                {
+                    "@type": "item",
+                    "name": "ace-modules/ace-admin/src/main/java/com/github/wxiaoqi/security/modules/auth/service/AuthClientService.java"
+                },
+                {
+                    "@type": "item",
+                    "name": "ace-modules/ace-admin/src/main/java/com/github/wxiaoqi/security/modules/auth/mapper/ClientServiceMapper.java"
+                },
+                {
+                    "@type": "item",
+                    "name": "ace-modules/ace-admin/src/main/java/com/github/wxiaoqi/security/modules/auth/controller/ClientController.java"
+                },
+                {
+                    "@type": "item",
+                    "name": "ace-modules/ace-admin/src/main/java/com/github/wxiaoqi/security/modules/auth/entity/ClientService.java"
+                }
+            ]
+        },
+        {
+            "@type": "group",
+            "name": "6",
+            "nested": [
+                {
+                    "@type": "item",
+                    "name": "ace-modules/ace-admin/src/main/java/com/github/wxiaoqi/security/modules/auth/controller/CaptchaController.java"
+                },
+                {
+                    "@type": "item",
+                    "name": "ace-modules/ace-admin/src/main/java/com/github/wxiaoqi/security/modules/auth/util/user/JwtAuthenticationRequest.java"
+                },
+                {
+                    "@type": "item",
+                    "name": "ace-dev-base/ace-common/src/main/java/com/github/wxiaoqi/security/common/constant/RedisKeyConstant.java"
+                },
+                {
+                    "@type": "item",
+                    "name": "ace-modules/ace-admin/src/main/java/com/github/wxiaoqi/security/modules/auth/controller/AuthController.java"
+                },
+                {
+                    "@type": "item",
+                    "name": "ace-modules/ace-admin/src/main/java/com/github/wxiaoqi/security/modules/admin/entity/OnlineLog.java"
+                },
+                {
+                    "@type": "item",
+                    "name": "ace-modules/ace-admin/src/main/java/com/github/wxiaoqi/security/modules/auth/controller/ServiceController.java"
+                },
+                {
+                    "@type": "item",
+                    "name": "ace-modules/ace-admin/src/main/java/com/github/wxiaoqi/security/modules/auth/controller/OnlineController.java"
+                },
+                {
+                    "@type": "item",
+                    "name": "ace-modules/ace-admin/src/main/java/com/github/wxiaoqi/security/modules/auth/service/AuthService.java"
+                },
+                {
+                    "@type": "item",
+                    "name": "ace-modules/ace-admin/src/main/java/com/github/wxiaoqi/security/modules/auth/service/impl/AuthServiceImpl.java"
+                },
+                {
+                    "@type": "item",
+                    "name": "ace-modules/ace-admin/src/main/java/com/github/wxiaoqi/security/modules/auth/util/user/JwtAuthenticationResponse.java"
+                }
+            ]
+        },
+        {
+            "@type": "group",
+            "name": "7",
+            "nested": [
+                {
+                    "@type": "item",
+                    "name": "ace-modules/ace-tool/src/main/java/com/github/wxiaoqi/config/LuceneConfiguration.java"
+                },
+                {
+                    "@type": "item",
+                    "name": "ace-modules/ace-tool/src/main/java/com/github/wxiaoqi/search/service/impl/LuceneServiceImpl.java"
+                },
+                {
+                    "@type": "item",
+                    "name": "ace-modules/ace-tool/src/main/java/com/github/wxiaoqi/search/service/LuceneService.java"
+                },
+                {
+                    "@type": "item",
+                    "name": "ace-modules/ace-tool/src/main/java/com/github/wxiaoqi/search/controller/SearchController.java"
+                },
+                {
+                    "@type": "item",
+                    "name": "ace-api/src/main/java/com/github/wxiaoqi/security/api/vo/search/IndexObject.java"
+                },
+                {
+                    "@type": "item",
+                    "name": "ace-modules/ace-tool/src/main/java/com/github/wxiaoqi/search/lucene/util/IKTokenizer5x.java"
+                },
+                {
+                    "@type": "item",
+                    "name": "ace-modules/ace-tool/src/main/java/com/github/wxiaoqi/search/lucene/util/IKAnalyzer5x.java"
+                },
+                {
+                    "@type": "item",
+                    "name": "ace-modules/ace-tool/src/main/java/com/github/wxiaoqi/search/lucene/util/QueryUtil.java"
+                },
+                {
+                    "@type": "item",
+                    "name": "ace-modules/ace-tool/src/main/java/com/github/wxiaoqi/search/lucene/util/DocumentUtil.java"
+                },
+                {
+                    "@type": "item",
+                    "name": "ace-modules/ace-tool/src/main/java/com/github/wxiaoqi/search/lucene/LuceneDao.java"
+                }
+            ]
+        },
+        {
+            "@type": "group",
+            "name": "8",
+            "nested": [
+                {
+                    "@type": "item",
+                    "name": "ace-modules/ace-generator/src/main/java/com/github/wxiaoqi/security/generator/config/DataSourceConfigurer.java"
+                },
+                {
+                    "@type": "item",
+                    "name": "ace-modules/ace-generator/src/main/java/com/github/wxiaoqi/security/generator/service/GeneratorService.java"
+                },
+                {
+                    "@type": "item",
+                    "name": "ace-modules/ace-generator/src/main/java/com/github/wxiaoqi/security/generator/config/SwitchDB.java"
+                },
+                {
+                    "@type": "item",
+                    "name": "ace-modules/ace-generator/src/main/java/com/github/wxiaoqi/security/generator/rest/GeneratorRest.java"
+                },
+                {
+                    "@type": "item",
+                    "name": "ace-modules/ace-generator/src/main/java/com/github/wxiaoqi/security/generator/utils/DateUtils.java"
+                },
+                {
+                    "@type": "item",
+                    "name": "ace-modules/ace-generator/src/main/java/com/github/wxiaoqi/security/generator/config/DynamicDatasourceConfig.java"
+                },
+                {
+                    "@type": "item",
+                    "name": "ace-modules/ace-generator/src/main/java/com/github/wxiaoqi/security/generator/config/DynamicDataSourceContextHolder.java"
+                },
+                {
+                    "@type": "item",
+                    "name": "ace-modules/ace-generator/src/main/java/com/github/wxiaoqi/security/generator/config/DynamicDataSource.java"
+                },
+                {
+                    "@type": "item",
+                    "name": "ace-modules/ace-generator/src/main/java/com/github/wxiaoqi/security/generator/mapper/GeneratorMapper.java"
+                }
+            ]
+        },
+        {
+            "@type": "group",
+            "name": "9",
+            "nested": [
+                {
+                    "@type": "item",
+                    "name": "ace-gate/src/main/java/com/github/wxiaoqi/security/gate/service/LogService.java"
+                },
+                {
+                    "@type": "item",
+                    "name": "ace-gate/src/main/java/com/github/wxiaoqi/security/gate/handler/RequestBodyRoutePredicateFactory.java"
+                },
+                {
+                    "@type": "item",
+                    "name": "ace-gate/src/main/java/com/github/wxiaoqi/security/gate/config/GatewayConfig.java"
+                },
+                {
+                    "@type": "item",
+                    "name": "ace-api/src/main/java/com/github/wxiaoqi/security/api/vo/log/LogInfo.java"
+                },
+                {
+                    "@type": "item",
+                    "name": "ace-gate/src/main/java/com/github/wxiaoqi/security/gate/utils/DBLog.java"
+                },
+                {
+                    "@type": "item",
+                    "name": "ace-gate/src/main/java/com/github/wxiaoqi/security/gate/GatewayServerBootstrap.java"
+                },
+                {
+                    "@type": "item",
+                    "name": "ace-gate/src/main/java/com/github/wxiaoqi/security/gate/service/LogServiceImpl.java"
+                },
+                {
+                    "@type": "item",
+                    "name": "ace-gate/src/main/java/com/github/wxiaoqi/security/gate/filter/AccessGatewayFilter.java"
+                }
+            ]
+        },
+        {
+            "@type": "group",
+            "name": "10",
+            "nested": [
+                {
+                    "@type": "item",
+                    "name": "ace-modules/ace-tool/src/main/java/com/github/wxiaoqi/oss/constants/OSSConstant.java"
+                },
+                {
+                    "@type": "item",
+                    "name": "ace-modules/ace-tool/src/main/java/com/github/wxiaoqi/oss/cloud/QiniuCloudStorageService.java"
+                },
+                {
+                    "@type": "item",
+                    "name": "ace-modules/ace-tool/src/main/java/com/github/wxiaoqi/oss/cloud/OSSFactory.java"
+                },
+                {
+                    "@type": "item",
+                    "name": "ace-modules/ace-tool/src/main/java/com/github/wxiaoqi/oss/cloud/QcloudCloudStorageService.java"
+                },
+                {
+                    "@type": "item",
+                    "name": "ace-modules/ace-tool/src/main/java/com/github/wxiaoqi/config/CloudStorageConfig.java"
+                },
+                {
+                    "@type": "item",
+                    "name": "ace-modules/ace-tool/src/main/java/com/github/wxiaoqi/oss/cloud/CloudStorageService.java"
+                },
+                {
+                    "@type": "item",
+                    "name": "ace-modules/ace-tool/src/main/java/com/github/wxiaoqi/oss/cloud/AliyunCloudStorageService.java"
+                },
+                {
+                    "@type": "item",
+                    "name": "ace-modules/ace-tool/src/main/java/com/github/wxiaoqi/oss/controller/OssController.java"
+                }
+            ]
+        },
+        {
+            "@type": "group",
+            "name": "11",
+            "nested": [
+                {
+                    "@type": "item",
+                    "name": "ace-modules/ace-admin/src/main/java/com/github/wxiaoqi/security/configuration/WebConfiguration.java"
+                },
+                {
+                    "@type": "item",
+                    "name": "ace-modules/ace-admin/src/main/java/com/github/wxiaoqi/security/configuration/RedisConfiguration.java"
+                },
+                {
+                    "@type": "item",
+                    "name": "ace-modules/ace-admin/src/main/java/com/github/wxiaoqi/security/configuration/UserConfiguration.java"
+                },
+                {
+                    "@type": "item",
+                    "name": "ace-modules/ace-admin/src/main/java/com/github/wxiaoqi/security/modules/auth/util/user/JwtTokenUtil.java"
+                },
+                {
+                    "@type": "item",
+                    "name": "ace-modules/ace-admin/src/main/java/com/github/wxiaoqi/security/modules/auth/interceptor/UserAuthRestInterceptor.java"
+                },
+                {
+                    "@type": "item",
+                    "name": "ace-modules/ace-admin/src/main/java/com/github/wxiaoqi/security/configuration/KeyConfiguration.java"
+                },
+                {
+                    "@type": "item",
+                    "name": "ace-modules/ace-admin/src/main/java/com/github/wxiaoqi/security/modules/auth/runner/AuthServerRunner.java"
+                }
+            ]
+        },
+        {
+            "@type": "group",
+            "name": "12",
+            "nested": [
+                {
+                    "@type": "item",
+                    "name": "ace-modules/ace-generator/src/main/java/com/github/wxiaoqi/security/generator/utils/GeneratorUtils.java"
+                },
+                {
+                    "@type": "item",
+                    "name": "ace-modules/ace-generator/src/main/java/com/github/wxiaoqi/security/generator/entity/TableEntity.java"
+                },
+                {
+                    "@type": "item",
+                    "name": "ace-modules/ace-admin/src/main/java/com/github/wxiaoqi/security/AdminBootstrap.java"
+                },
+                {
+                    "@type": "item",
+                    "name": "ace-modules/ace-tool/src/main/java/com/github/wxiaoqi/ToolBootstrap.java"
+                },
+                {
+                    "@type": "item",
+                    "name": "ace-modules/ace-generator/src/main/java/com/github/wxiaoqi/security/generator/entity/ColumnEntity.java"
+                },
+                {
+                    "@type": "item",
+                    "name": "ace-modules/ace-generator/src/main/java/com/github/wxiaoqi/security/generator/GeneratorServerBootstrap.java"
+                },
+                {
+                    "@type": "item",
+                    "name": "ace-infrastructure/ace-monitor/src/main/java/com/github/wxiaoqi/security/monitor/MonitorBootstrap.java"
+                }
+            ]
+        },
+        {
+            "@type": "group",
+            "name": "13",
+            "nested": [
+                {
+                    "@type": "item",
+                    "name": "ace-modules/ace-admin/src/main/java/com/github/wxiaoqi/security/modules/admin/rest/GateLogController.java"
+                },
+                {
+                    "@type": "item",
+                    "name": "ace-modules/ace-admin/src/main/java/com/github/wxiaoqi/security/modules/admin/mapper/GateLogMapper.java"
+                },
+                {
+                    "@type": "item",
+                    "name": "ace-modules/ace-admin/src/main/java/com/github/wxiaoqi/security/modules/admin/biz/GateLogBiz.java"
+                },
+                {
+                    "@type": "item",
+                    "name": "ace-modules/ace-admin/src/main/java/com/github/wxiaoqi/security/modules/admin/rpc/LogRest.java"
+                },
+                {
+                    "@type": "item",
+                    "name": "ace-modules/ace-admin/src/main/java/com/github/wxiaoqi/security/modules/admin/entity/GateLog.java"
+                }
+            ]
+        },
+        {
+            "@type": "group",
+            "name": "14",
+            "nested": [
+                {
+                    "@type": "item",
+                    "name": "ace-modules/ace-sample/src/main/java/com/github/wxiaoqi/security/sample/mapper/SampleDataTestMapper.java"
+                },
+                {
+                    "@type": "item",
+                    "name": "ace-modules/ace-sample/src/main/java/com/github/wxiaoqi/security/sample/entity/SampleDataTest.java"
+                },
+                {
+                    "@type": "item",
+                    "name": "ace-modules/ace-sample/src/main/java/com/github/wxiaoqi/security/sample/SampleBootstrap.java"
+                },
+                {
+                    "@type": "item",
+                    "name": "ace-modules/ace-sample/src/main/java/com/github/wxiaoqi/security/sample/biz/SampleDataTestBiz.java"
+                },
+                {
+                    "@type": "item",
+                    "name": "ace-modules/ace-sample/src/main/java/com/github/wxiaoqi/security/sample/rest/SampleDataTestController.java"
+                }
+            ]
+        },
+        {
+            "@type": "group",
+            "name": "15",
+            "nested": [
+                {
+                    "@type": "item",
+                    "name": "ace-dev-base/ace-common/src/main/java/com/github/wxiaoqi/security/common/web/ParameterRequestWrapper.java"
+                },
+                {
+                    "@type": "item",
+                    "name": "ace-dev-base/ace-common/src/main/java/com/github/wxiaoqi/security/common/util/WebUtils.java"
+                }
+            ]
+        },
+        {
+            "@type": "group",
+            "name": "16",
+            "nested": [
+                {
+                    "@type": "item",
+                    "name": "ace-dev-base/ace-common/src/main/java/com/github/wxiaoqi/security/common/constant/UserConstant.java"
+                }
+            ]
+        }
+    ]
+}

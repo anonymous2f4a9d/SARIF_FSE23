@@ -1,0 +1,434 @@
+{
+    "@schemaVersion": "1.0",
+    "name": "clustering",
+    "structure": [
+        {
+            "@type": "group",
+            "name": "0",
+            "nested": [
+                {
+                    "@type": "item",
+                    "name": "src/network/network.h"
+                },
+                {
+                    "@type": "item",
+                    "name": "src/network/network.cc"
+                },
+                {
+                    "@type": "item",
+                    "name": "src/network/transportsender.h"
+                },
+                {
+                    "@type": "item",
+                    "name": "src/network/transportsender-impl.h"
+                },
+                {
+                    "@type": "item",
+                    "name": "src/network/networktransport.h"
+                },
+                {
+                    "@type": "item",
+                    "name": "src/network/compressor.h"
+                },
+                {
+                    "@type": "item",
+                    "name": "src/network/compressor.cc"
+                },
+                {
+                    "@type": "item",
+                    "name": "src/network/networktransport-impl.h"
+                },
+                {
+                    "@type": "item",
+                    "name": "src/network/transportfragment.h"
+                },
+                {
+                    "@type": "item",
+                    "name": "src/network/transportfragment.cc"
+                },
+                {
+                    "@type": "item",
+                    "name": "src/network/transportstate.h"
+                }
+            ]
+        },
+        {
+            "@type": "group",
+            "name": "1",
+            "nested": [
+                {
+                    "@type": "item",
+                    "name": "src/tests/base64_vector.h"
+                },
+                {
+                    "@type": "item",
+                    "name": "src/tests/encrypt-decrypt.cc"
+                },
+                {
+                    "@type": "item",
+                    "name": "src/tests/ocb-aes.cc"
+                },
+                {
+                    "@type": "item",
+                    "name": "src/tests/is-utf8-locale.cc"
+                },
+                {
+                    "@type": "item",
+                    "name": "src/tests/nonce-incr.cc"
+                },
+                {
+                    "@type": "item",
+                    "name": "src/tests/base64.cc"
+                },
+                {
+                    "@type": "item",
+                    "name": "src/tests/inpty.cc"
+                },
+                {
+                    "@type": "item",
+                    "name": "src/tests/test_utils.h"
+                },
+                {
+                    "@type": "item",
+                    "name": "src/tests/test_utils.cc"
+                }
+            ]
+        },
+        {
+            "@type": "group",
+            "name": "2",
+            "nested": [
+                {
+                    "@type": "item",
+                    "name": "src/crypto/ae.h"
+                },
+                {
+                    "@type": "item",
+                    "name": "src/crypto/ocb_openssl.cc"
+                },
+                {
+                    "@type": "item",
+                    "name": "src/crypto/ocb_internal.cc"
+                },
+                {
+                    "@type": "item",
+                    "name": "src/crypto/prng.h"
+                },
+                {
+                    "@type": "item",
+                    "name": "src/crypto/base64.h"
+                },
+                {
+                    "@type": "item",
+                    "name": "src/crypto/base64.cc"
+                },
+                {
+                    "@type": "item",
+                    "name": "src/crypto/byteorder.h"
+                },
+                {
+                    "@type": "item",
+                    "name": "src/crypto/crypto.h"
+                },
+                {
+                    "@type": "item",
+                    "name": "src/crypto/crypto.cc"
+                }
+            ]
+        },
+        {
+            "@type": "group",
+            "name": "3",
+            "nested": [
+                {
+                    "@type": "item",
+                    "name": "src/util/select.h"
+                },
+                {
+                    "@type": "item",
+                    "name": "src/util/select.cc"
+                },
+                {
+                    "@type": "item",
+                    "name": "src/util/dos_assert.h"
+                },
+                {
+                    "@type": "item",
+                    "name": "src/util/fatal_assert.h"
+                },
+                {
+                    "@type": "item",
+                    "name": "src/util/timestamp.h"
+                },
+                {
+                    "@type": "item",
+                    "name": "src/util/timestamp.cc"
+                }
+            ]
+        },
+        {
+            "@type": "group",
+            "name": "4",
+            "nested": [
+                {
+                    "@type": "item",
+                    "name": "src/frontend/mosh-client.cc"
+                },
+                {
+                    "@type": "item",
+                    "name": "src/frontend/stmclient.h"
+                },
+                {
+                    "@type": "item",
+                    "name": "src/frontend/stmclient.cc"
+                },
+                {
+                    "@type": "item",
+                    "name": "src/frontend/terminaloverlay.h"
+                },
+                {
+                    "@type": "item",
+                    "name": "src/frontend/terminaloverlay.cc"
+                },
+                {
+                    "@type": "item",
+                    "name": "src/frontend/mosh-server.cc"
+                }
+            ]
+        },
+        {
+            "@type": "group",
+            "name": "5",
+            "nested": [
+                {
+                    "@type": "item",
+                    "name": "src/terminal/terminaluserinput.h"
+                },
+                {
+                    "@type": "item",
+                    "name": "src/terminal/terminaluserinput.cc"
+                },
+                {
+                    "@type": "item",
+                    "name": "src/terminal/parserstatefamily.h"
+                },
+                {
+                    "@type": "item",
+                    "name": "src/terminal/parsertransition.h"
+                },
+                {
+                    "@type": "item",
+                    "name": "src/terminal/parserstate.h"
+                },
+                {
+                    "@type": "item",
+                    "name": "src/terminal/parserstate.cc"
+                }
+            ]
+        },
+        {
+            "@type": "group",
+            "name": "6",
+            "nested": [
+                {
+                    "@type": "item",
+                    "name": "src/examples/encrypt.cc"
+                },
+                {
+                    "@type": "item",
+                    "name": "src/examples/decrypt.cc"
+                },
+                {
+                    "@type": "item",
+                    "name": "src/examples/ntester.cc"
+                }
+            ]
+        },
+        {
+            "@type": "group",
+            "name": "7",
+            "nested": [
+                {
+                    "@type": "item",
+                    "name": "src/terminal/terminaldispatcher.h"
+                },
+                {
+                    "@type": "item",
+                    "name": "src/terminal/terminalfunctions.cc"
+                },
+                {
+                    "@type": "item",
+                    "name": "src/terminal/terminaldispatcher.cc"
+                },
+                {
+                    "@type": "item",
+                    "name": "src/terminal/terminaldisplay.h"
+                },
+                {
+                    "@type": "item",
+                    "name": "src/terminal/terminaldisplay.cc"
+                },
+                {
+                    "@type": "item",
+                    "name": "src/terminal/terminaldisplayinit.cc"
+                },
+                {
+                    "@type": "item",
+                    "name": "src/terminal/terminalframebuffer.h"
+                },
+                {
+                    "@type": "item",
+                    "name": "src/terminal/terminalframebuffer.cc"
+                }
+            ]
+        },
+        {
+            "@type": "group",
+            "name": "8",
+            "nested": [
+                {
+                    "@type": "item",
+                    "name": "src/terminal/parser.h"
+                },
+                {
+                    "@type": "item",
+                    "name": "src/terminal/parser.cc"
+                },
+                {
+                    "@type": "item",
+                    "name": "src/terminal/terminal.h"
+                },
+                {
+                    "@type": "item",
+                    "name": "src/terminal/terminal.cc"
+                },
+                {
+                    "@type": "item",
+                    "name": "src/terminal/parseraction.h"
+                },
+                {
+                    "@type": "item",
+                    "name": "src/terminal/parseraction.cc"
+                }
+            ]
+        },
+        {
+            "@type": "group",
+            "name": "9",
+            "nested": [
+                {
+                    "@type": "item",
+                    "name": "src/examples/termemu.cc"
+                },
+                {
+                    "@type": "item",
+                    "name": "src/examples/parse.cc"
+                }
+            ]
+        },
+        {
+            "@type": "group",
+            "name": "10",
+            "nested": [
+                {
+                    "@type": "item",
+                    "name": "src/fuzz/terminal_fuzzer.cc"
+                },
+                {
+                    "@type": "item",
+                    "name": "src/fuzz/terminal_parser_fuzzer.cc"
+                }
+            ]
+        },
+        {
+            "@type": "group",
+            "name": "11",
+            "nested": [
+                {
+                    "@type": "item",
+                    "name": "src/examples/benchmark.cc"
+                }
+            ]
+        },
+        {
+            "@type": "group",
+            "name": "12",
+            "nested": [
+                {
+                    "@type": "item",
+                    "name": "src/util/shared.h"
+                }
+            ]
+        },
+        {
+            "@type": "group",
+            "name": "13",
+            "nested": [
+                {
+                    "@type": "item",
+                    "name": "src/util/swrite.h"
+                },
+                {
+                    "@type": "item",
+                    "name": "src/util/swrite.cc"
+                }
+            ]
+        },
+        {
+            "@type": "group",
+            "name": "14",
+            "nested": [
+                {
+                    "@type": "item",
+                    "name": "src/statesync/user.h"
+                },
+                {
+                    "@type": "item",
+                    "name": "src/statesync/user.cc"
+                }
+            ]
+        },
+        {
+            "@type": "group",
+            "name": "15",
+            "nested": [
+                {
+                    "@type": "item",
+                    "name": "src/statesync/completeterminal.h"
+                },
+                {
+                    "@type": "item",
+                    "name": "src/statesync/completeterminal.cc"
+                }
+            ]
+        },
+        {
+            "@type": "group",
+            "name": "16",
+            "nested": [
+                {
+                    "@type": "item",
+                    "name": "src/util/pty_compat.h"
+                },
+                {
+                    "@type": "item",
+                    "name": "src/util/pty_compat.cc"
+                }
+            ]
+        },
+        {
+            "@type": "group",
+            "name": "17",
+            "nested": [
+                {
+                    "@type": "item",
+                    "name": "src/util/locale_utils.h"
+                },
+                {
+                    "@type": "item",
+                    "name": "src/util/locale_utils.cc"
+                }
+            ]
+        }
+    ]
+}

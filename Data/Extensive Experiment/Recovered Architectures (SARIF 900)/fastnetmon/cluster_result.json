@@ -1,0 +1,466 @@
+{
+    "@schemaVersion": "1.0",
+    "name": "clustering",
+    "structure": [
+        {
+            "@type": "group",
+            "name": "0",
+            "nested": [
+                {
+                    "@type": "item",
+                    "name": "src/fmt/format-inl.h"
+                },
+                {
+                    "@type": "item",
+                    "name": "src/netmap_plugin/netmap_collector.hpp"
+                },
+                {
+                    "@type": "item",
+                    "name": "src/netmap_plugin/netmap_collector.cpp"
+                },
+                {
+                    "@type": "item",
+                    "name": "src/sflow_plugin/sflow_collector.hpp"
+                },
+                {
+                    "@type": "item",
+                    "name": "src/sflow_plugin/sflow_collector.cpp"
+                },
+                {
+                    "@type": "item",
+                    "name": "src/fmt/core.h"
+                },
+                {
+                    "@type": "item",
+                    "name": "src/fmt/format.h"
+                },
+                {
+                    "@type": "item",
+                    "name": "src/fmt/compile.h"
+                },
+                {
+                    "@type": "item",
+                    "name": "src/example_plugin/example_collector.hpp"
+                },
+                {
+                    "@type": "item",
+                    "name": "src/example_plugin/example_collector.cpp"
+                },
+                {
+                    "@type": "item",
+                    "name": "src/pcap_plugin/pcap_collector.hpp"
+                },
+                {
+                    "@type": "item",
+                    "name": "src/pcap_plugin/pcap_collector.cpp"
+                },
+                {
+                    "@type": "item",
+                    "name": "src/packaging/FreeBSD/files/patch-src_fast__library.cpp"
+                },
+                {
+                    "@type": "item",
+                    "name": "src/afpacket_plugin/afpacket_collector.hpp"
+                },
+                {
+                    "@type": "item",
+                    "name": "src/afpacket_plugin/afpacket_collector.cpp"
+                },
+                {
+                    "@type": "item",
+                    "name": "src/tests/traffic_structures_performance_tests.cpp"
+                },
+                {
+                    "@type": "item",
+                    "name": "src/tests/traffic_structures_performance_tests_real_traffic.cpp"
+                },
+                {
+                    "@type": "item",
+                    "name": "src/xdp_plugin/xdp_collector.hpp"
+                },
+                {
+                    "@type": "item",
+                    "name": "src/xdp_plugin/xdp_collector.cpp"
+                },
+                {
+                    "@type": "item",
+                    "name": "src/nlohmann/json.hpp"
+                },
+                {
+                    "@type": "item",
+                    "name": "src/traffic_output_formats/protobuf/protobuf_traffic_format.hpp"
+                },
+                {
+                    "@type": "item",
+                    "name": "src/tests/patricia_performance_tests.cpp"
+                },
+                {
+                    "@type": "item",
+                    "name": "src/tests/speed_counters_performance_test.cpp"
+                }
+            ]
+        },
+        {
+            "@type": "group",
+            "name": "1",
+            "nested": [
+                {
+                    "@type": "item",
+                    "name": "src/ipfix_fields/ipfix_rfc.hpp"
+                },
+                {
+                    "@type": "item",
+                    "name": "src/ipfix_fields/ipfix_rfc.cpp"
+                },
+                {
+                    "@type": "item",
+                    "name": "src/netflow_plugin/netflow_template.hpp"
+                },
+                {
+                    "@type": "item",
+                    "name": "src/netflow_plugin/netflow_template.cpp"
+                },
+                {
+                    "@type": "item",
+                    "name": "src/xdp_plugin/xdp_kernel.c"
+                },
+                {
+                    "@type": "item",
+                    "name": "src/netflow_plugin/netflow.cpp"
+                },
+                {
+                    "@type": "item",
+                    "name": "src/netflow_plugin/netflow_collector.hpp"
+                },
+                {
+                    "@type": "item",
+                    "name": "src/netflow_plugin/netflow_collector.cpp"
+                },
+                {
+                    "@type": "item",
+                    "name": "src/netflow_plugin/netflow_v9.hpp"
+                },
+                {
+                    "@type": "item",
+                    "name": "src/tests/parser_performance_tests.cpp"
+                },
+                {
+                    "@type": "item",
+                    "name": "src/netflow_plugin/netflow.hpp"
+                },
+                {
+                    "@type": "item",
+                    "name": "src/traffic_output_formats/protobuf/protobuf_traffic_format.cpp"
+                },
+                {
+                    "@type": "item",
+                    "name": "src/netflow_plugin/netflow_v5.hpp"
+                },
+                {
+                    "@type": "item",
+                    "name": "src/netflow_plugin/ipfix.hpp"
+                }
+            ]
+        },
+        {
+            "@type": "group",
+            "name": "2",
+            "nested": [
+                {
+                    "@type": "item",
+                    "name": "src/fastnetmon.cpp"
+                },
+                {
+                    "@type": "item",
+                    "name": "src/fast_library.hpp"
+                },
+                {
+                    "@type": "item",
+                    "name": "src/fast_library.cpp"
+                },
+                {
+                    "@type": "item",
+                    "name": "src/fastnetmon_networks.hpp"
+                },
+                {
+                    "@type": "item",
+                    "name": "src/tests/ip_lookup.cpp"
+                },
+                {
+                    "@type": "item",
+                    "name": "src/plugin_runner.cpp"
+                },
+                {
+                    "@type": "item",
+                    "name": "src/bgp_protocol.hpp"
+                },
+                {
+                    "@type": "item",
+                    "name": "src/bgp_protocol.cpp"
+                },
+                {
+                    "@type": "item",
+                    "name": "src/libpatricia/patricia.hpp"
+                },
+                {
+                    "@type": "item",
+                    "name": "src/libpatricia/patricia.cpp"
+                },
+                {
+                    "@type": "item",
+                    "name": "src/fastnetmon_simple_packet.hpp"
+                },
+                {
+                    "@type": "item",
+                    "name": "src/tests/lpm_performance_tests.cpp"
+                }
+            ]
+        },
+        {
+            "@type": "group",
+            "name": "3",
+            "nested": [
+                {
+                    "@type": "item",
+                    "name": "src/fastnetmon_actions.hpp"
+                },
+                {
+                    "@type": "item",
+                    "name": "src/fastnetmon_pcap_format.hpp"
+                },
+                {
+                    "@type": "item",
+                    "name": "src/fastnetmon_pcap_format.cpp"
+                },
+                {
+                    "@type": "item",
+                    "name": "src/pcap_reader.cpp"
+                },
+                {
+                    "@type": "item",
+                    "name": "src/fixed_size_packet_storage.hpp"
+                },
+                {
+                    "@type": "item",
+                    "name": "src/fastnetmon_tests.cpp"
+                },
+                {
+                    "@type": "item",
+                    "name": "src/ban_list.hpp"
+                },
+                {
+                    "@type": "item",
+                    "name": "src/packet_storage.hpp"
+                }
+            ]
+        },
+        {
+            "@type": "group",
+            "name": "4",
+            "nested": [
+                {
+                    "@type": "item",
+                    "name": "src/api.hpp"
+                },
+                {
+                    "@type": "item",
+                    "name": "src/fastnetmon_plugin.hpp"
+                },
+                {
+                    "@type": "item",
+                    "name": "src/subnet_counter.hpp"
+                },
+                {
+                    "@type": "item",
+                    "name": "src/abstract_subnet_counters.hpp"
+                },
+                {
+                    "@type": "item",
+                    "name": "src/fastnetmon_client.cpp"
+                },
+                {
+                    "@type": "item",
+                    "name": "src/packaging/FreeBSD/files/patch-src_fastnetmon.cpp"
+                },
+                {
+                    "@type": "item",
+                    "name": "src/speed_counters.hpp"
+                },
+                {
+                    "@type": "item",
+                    "name": "src/speed_counters.cpp"
+                }
+            ]
+        },
+        {
+            "@type": "group",
+            "name": "5",
+            "nested": [
+                {
+                    "@type": "item",
+                    "name": "src/iana_ip_protocols.hpp"
+                },
+                {
+                    "@type": "item",
+                    "name": "src/libsflow/libsflow.hpp"
+                },
+                {
+                    "@type": "item",
+                    "name": "src/libsflow/libsflow.cpp"
+                },
+                {
+                    "@type": "item",
+                    "name": "src/simple_packet_parser_ng.hpp"
+                },
+                {
+                    "@type": "item",
+                    "name": "src/simple_packet_parser_ng.cpp"
+                },
+                {
+                    "@type": "item",
+                    "name": "src/packaging/FreeBSD/files/patch-src_fast__endianless.hpp"
+                },
+                {
+                    "@type": "item",
+                    "name": "src/iana_ethertypes.hpp"
+                },
+                {
+                    "@type": "item",
+                    "name": "src/fast_endianless.hpp"
+                },
+                {
+                    "@type": "item",
+                    "name": "src/network_data_structures.hpp"
+                },
+                {
+                    "@type": "item",
+                    "name": "src/network_data_structures.cpp"
+                }
+            ]
+        },
+        {
+            "@type": "group",
+            "name": "6",
+            "nested": [
+                {
+                    "@type": "item",
+                    "name": "src/fastnetmon_logic.hpp"
+                },
+                {
+                    "@type": "item",
+                    "name": "src/fastnetmon_logic.cpp"
+                },
+                {
+                    "@type": "item",
+                    "name": "src/fastnetmon_types.hpp"
+                },
+                {
+                    "@type": "item",
+                    "name": "src/fastnetmon_api_client.cpp"
+                },
+                {
+                    "@type": "item",
+                    "name": "src/packet_bucket.hpp"
+                }
+            ]
+        },
+        {
+            "@type": "group",
+            "name": "7",
+            "nested": [
+                {
+                    "@type": "item",
+                    "name": "src/fast_priority_queue.cpp"
+                },
+                {
+                    "@type": "item",
+                    "name": "src/all_logcpp_libraries.hpp"
+                },
+                {
+                    "@type": "item",
+                    "name": "src/fast_priority_queue.hpp"
+                },
+                {
+                    "@type": "item",
+                    "name": "src/tests/sort_struct.cpp"
+                }
+            ]
+        },
+        {
+            "@type": "group",
+            "name": "8",
+            "nested": [
+                {
+                    "@type": "item",
+                    "name": "src/tests/test_cidr.cpp"
+                },
+                {
+                    "@type": "item",
+                    "name": "src/tests/conntrack_prototype.cpp"
+                },
+                {
+                    "@type": "item",
+                    "name": "src/tests/spsc_prototype.cpp"
+                }
+            ]
+        },
+        {
+            "@type": "group",
+            "name": "9",
+            "nested": [
+                {
+                    "@type": "item",
+                    "name": "src/tests/pcap_writer.cpp"
+                },
+                {
+                    "@type": "item",
+                    "name": "src/tests/tsc_timers.cpp"
+                }
+            ]
+        },
+        {
+            "@type": "group",
+            "name": "10",
+            "nested": [
+                {
+                    "@type": "item",
+                    "name": "src/metrics/graphite.hpp"
+                },
+                {
+                    "@type": "item",
+                    "name": "src/metrics/graphite.cpp"
+                },
+                {
+                    "@type": "item",
+                    "name": "src/metrics/influxdb.hpp"
+                },
+                {
+                    "@type": "item",
+                    "name": "src/metrics/influxdb.cpp"
+                }
+            ]
+        },
+        {
+            "@type": "group",
+            "name": "11",
+            "nested": [
+                {
+                    "@type": "item",
+                    "name": "src/actions/exabgp_action.hpp"
+                },
+                {
+                    "@type": "item",
+                    "name": "src/actions/exabgp_action.cpp"
+                },
+                {
+                    "@type": "item",
+                    "name": "src/actions/gobgp_action.hpp"
+                },
+                {
+                    "@type": "item",
+                    "name": "src/actions/gobgp_action.cpp"
+                }
+            ]
+        }
+    ]
+}

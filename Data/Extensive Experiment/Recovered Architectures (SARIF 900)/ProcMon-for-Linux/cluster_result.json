@@ -1,0 +1,272 @@
+{
+    "@schemaVersion": "1.0",
+    "name": "clustering",
+    "structure": [
+        {
+            "@type": "group",
+            "name": "0",
+            "nested": [
+                {
+                    "@type": "item",
+                    "name": "src/common/printable.cpp"
+                },
+                {
+                    "@type": "item",
+                    "name": "src/common/stack_trace.h"
+                },
+                {
+                    "@type": "item",
+                    "name": "src/common/telemetry.h"
+                },
+                {
+                    "@type": "item",
+                    "name": "src/common/cli_utils.h"
+                },
+                {
+                    "@type": "item",
+                    "name": "src/common/cli_utils.cpp"
+                },
+                {
+                    "@type": "item",
+                    "name": "src/common/event.h"
+                },
+                {
+                    "@type": "item",
+                    "name": "src/common/printable.h"
+                }
+            ]
+        },
+        {
+            "@type": "group",
+            "name": "1",
+            "nested": [
+                {
+                    "@type": "item",
+                    "name": "src/storage/mock_storage_engine.h"
+                },
+                {
+                    "@type": "item",
+                    "name": "src/storage/mock_storage_engine.cpp"
+                },
+                {
+                    "@type": "item",
+                    "name": "src/storage/storage_engine.h"
+                },
+                {
+                    "@type": "item",
+                    "name": "src/storage/sqlite3_storage_engine.h"
+                },
+                {
+                    "@type": "item",
+                    "name": "src/storage/sqlite3_storage_engine.cpp"
+                },
+                {
+                    "@type": "item",
+                    "name": "src/storage/test_sqlite3_storage_engine.cpp"
+                },
+                {
+                    "@type": "item",
+                    "name": "src/storage/storage_proxy.h"
+                },
+                {
+                    "@type": "item",
+                    "name": "src/storage/storage_proxy.cpp"
+                }
+            ]
+        },
+        {
+            "@type": "group",
+            "name": "2",
+            "nested": [
+                {
+                    "@type": "item",
+                    "name": "src/tracer/ebpf/syscall_schema.h"
+                },
+                {
+                    "@type": "item",
+                    "name": "src/tracer/ebpf/ebpf_tracer_engine.h"
+                },
+                {
+                    "@type": "item",
+                    "name": "src/tracer/ebpf/ebpf_tracer_engine.cpp"
+                },
+                {
+                    "@type": "item",
+                    "name": "src/tracer/ebpf/raw_ebpf_event.h"
+                },
+                {
+                    "@type": "item",
+                    "name": "src/tracer/ebpf/raw_ebpf_event.cpp"
+                },
+                {
+                    "@type": "item",
+                    "name": "src/tracer/ebpf/syscall_schema.cpp"
+                },
+                {
+                    "@type": "item",
+                    "name": "src/tracer/ebpf/bpf_prog.h"
+                }
+            ]
+        },
+        {
+            "@type": "group",
+            "name": "3",
+            "nested": [
+                {
+                    "@type": "item",
+                    "name": "src/display/kill_event_formatter.h"
+                },
+                {
+                    "@type": "item",
+                    "name": "src/display/kill_event_formatter.cpp"
+                },
+                {
+                    "@type": "item",
+                    "name": "src/display/screen_configuration.h"
+                },
+                {
+                    "@type": "item",
+                    "name": "src/display/screen.h"
+                },
+                {
+                    "@type": "item",
+                    "name": "src/display/screen.cpp"
+                },
+                {
+                    "@type": "item",
+                    "name": "src/display/column.h"
+                },
+                {
+                    "@type": "item",
+                    "name": "src/display/column.cpp"
+                },
+                {
+                    "@type": "item",
+                    "name": "src/display/event_formatter.h"
+                },
+                {
+                    "@type": "item",
+                    "name": "src/display/event_formatter.cpp"
+                }
+            ]
+        },
+        {
+            "@type": "group",
+            "name": "4",
+            "nested": [
+                {
+                    "@type": "item",
+                    "name": "src/display/headless.h"
+                },
+                {
+                    "@type": "item",
+                    "name": "src/display/headless.cpp"
+                }
+            ]
+        },
+        {
+            "@type": "group",
+            "name": "5",
+            "nested": [
+                {
+                    "@type": "item",
+                    "name": "src/tracer/tracer_engine.h"
+                },
+                {
+                    "@type": "item",
+                    "name": "src/tracer/mock_tracer_engine.h"
+                },
+                {
+                    "@type": "item",
+                    "name": "src/tracer/mock_tracer_engine.cpp"
+                }
+            ]
+        },
+        {
+            "@type": "group",
+            "name": "6",
+            "nested": [
+                {
+                    "@type": "item",
+                    "name": "vendor/sqlite3/sqlite3.h"
+                },
+                {
+                    "@type": "item",
+                    "name": "vendor/sqlite3/shell.c"
+                },
+                {
+                    "@type": "item",
+                    "name": "vendor/sqlite3/sqlite3ext.h"
+                }
+            ]
+        },
+        {
+            "@type": "group",
+            "name": "7",
+            "nested": [
+                {
+                    "@type": "item",
+                    "name": "src/common/cancellable_message_queue.h"
+                }
+            ]
+        },
+        {
+            "@type": "group",
+            "name": "8",
+            "nested": [
+                {
+                    "@type": "item",
+                    "name": "src/display/screen_configuration.cpp"
+                }
+            ]
+        },
+        {
+            "@type": "group",
+            "name": "9",
+            "nested": [
+                {
+                    "@type": "item",
+                    "name": "src/procmon.cpp"
+                }
+            ]
+        },
+        {
+            "@type": "group",
+            "name": "10",
+            "nested": [
+                {
+                    "@type": "item",
+                    "name": "vendor/sqlite3/sqlite3.c"
+                }
+            ]
+        },
+        {
+            "@type": "group",
+            "name": "11",
+            "nested": [
+                {
+                    "@type": "item",
+                    "name": "src/configuration/procmon_configuration.h"
+                },
+                {
+                    "@type": "item",
+                    "name": "src/configuration/procmon_configuration.cpp"
+                }
+            ]
+        },
+        {
+            "@type": "group",
+            "name": "12",
+            "nested": [
+                {
+                    "@type": "item",
+                    "name": "src/logging/easylogging++.h"
+                },
+                {
+                    "@type": "item",
+                    "name": "src/logging/easylogging++.cc"
+                }
+            ]
+        }
+    ]
+}

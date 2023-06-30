@@ -1,0 +1,326 @@
+{
+    "@schemaVersion": "1.0",
+    "name": "clustering",
+    "structure": [
+        {
+            "@type": "group",
+            "name": "0",
+            "nested": [
+                {
+                    "@type": "item",
+                    "name": "programs/platform.h"
+                },
+                {
+                    "@type": "item",
+                    "name": "programs/util.h"
+                },
+                {
+                    "@type": "item",
+                    "name": "programs/datagen.c"
+                },
+                {
+                    "@type": "item",
+                    "name": "programs/lz4io.h"
+                },
+                {
+                    "@type": "item",
+                    "name": "programs/lz4io.c"
+                },
+                {
+                    "@type": "item",
+                    "name": "programs/datagen.h"
+                },
+                {
+                    "@type": "item",
+                    "name": "programs/bench.h"
+                },
+                {
+                    "@type": "item",
+                    "name": "programs/bench.c"
+                },
+                {
+                    "@type": "item",
+                    "name": "programs/lz4cli.c"
+                }
+            ]
+        },
+        {
+            "@type": "group",
+            "name": "1",
+            "nested": [
+                {
+                    "@type": "item",
+                    "name": "examples/printVersion.c"
+                },
+                {
+                    "@type": "item",
+                    "name": "examples/HCStreaming_ringBuffer.c"
+                },
+                {
+                    "@type": "item",
+                    "name": "examples/blockStreaming_lineByLine.c"
+                },
+                {
+                    "@type": "item",
+                    "name": "examples/dictionaryRandomAccess.c"
+                },
+                {
+                    "@type": "item",
+                    "name": "examples/blockStreaming_ringBuffer.c"
+                },
+                {
+                    "@type": "item",
+                    "name": "examples/blockStreaming_doubleBuffer.c"
+                }
+            ]
+        },
+        {
+            "@type": "group",
+            "name": "2",
+            "nested": [
+                {
+                    "@type": "item",
+                    "name": "tests/abiTest.c"
+                },
+                {
+                    "@type": "item",
+                    "name": "tests/checkFrame.c"
+                },
+                {
+                    "@type": "item",
+                    "name": "tests/frametest.c"
+                },
+                {
+                    "@type": "item",
+                    "name": "tests/checkTag.c"
+                },
+                {
+                    "@type": "item",
+                    "name": "tests/roundTripTest.c"
+                },
+                {
+                    "@type": "item",
+                    "name": "tests/fuzzer.c"
+                }
+            ]
+        },
+        {
+            "@type": "group",
+            "name": "3",
+            "nested": [
+                {
+                    "@type": "item",
+                    "name": "ossfuzz/fuzz.h"
+                },
+                {
+                    "@type": "item",
+                    "name": "ossfuzz/compress_hc_fuzzer.c"
+                },
+                {
+                    "@type": "item",
+                    "name": "ossfuzz/decompress_frame_fuzzer.c"
+                },
+                {
+                    "@type": "item",
+                    "name": "ossfuzz/round_trip_stream_fuzzer.c"
+                },
+                {
+                    "@type": "item",
+                    "name": "ossfuzz/round_trip_frame_uncompressed_fuzzer.c"
+                },
+                {
+                    "@type": "item",
+                    "name": "ossfuzz/round_trip_fuzzer.c"
+                },
+                {
+                    "@type": "item",
+                    "name": "ossfuzz/decompress_fuzzer.c"
+                },
+                {
+                    "@type": "item",
+                    "name": "ossfuzz/compress_fuzzer.c"
+                },
+                {
+                    "@type": "item",
+                    "name": "ossfuzz/round_trip_frame_fuzzer.c"
+                },
+                {
+                    "@type": "item",
+                    "name": "ossfuzz/round_trip_hc_fuzzer.c"
+                },
+                {
+                    "@type": "item",
+                    "name": "ossfuzz/compress_frame_fuzzer.c"
+                },
+                {
+                    "@type": "item",
+                    "name": "ossfuzz/fuzz_data_producer.h"
+                },
+                {
+                    "@type": "item",
+                    "name": "ossfuzz/fuzz_data_producer.c"
+                },
+                {
+                    "@type": "item",
+                    "name": "ossfuzz/standaloneengine.c"
+                },
+                {
+                    "@type": "item",
+                    "name": "ossfuzz/lz4_helpers.h"
+                },
+                {
+                    "@type": "item",
+                    "name": "ossfuzz/lz4_helpers.c"
+                },
+                {
+                    "@type": "item",
+                    "name": "ossfuzz/fuzz_helpers.h"
+                }
+            ]
+        },
+        {
+            "@type": "group",
+            "name": "4",
+            "nested": [
+                {
+                    "@type": "item",
+                    "name": "lib/lz4frame_static.h"
+                },
+                {
+                    "@type": "item",
+                    "name": "lib/lz4frame.h"
+                },
+                {
+                    "@type": "item",
+                    "name": "lib/lz4frame.c"
+                },
+                {
+                    "@type": "item",
+                    "name": "lib/lz4file.h"
+                },
+                {
+                    "@type": "item",
+                    "name": "lib/lz4file.c"
+                }
+            ]
+        },
+        {
+            "@type": "group",
+            "name": "5",
+            "nested": [
+                {
+                    "@type": "item",
+                    "name": "examples/fileCompress.c"
+                },
+                {
+                    "@type": "item",
+                    "name": "examples/frameCompress.c"
+                }
+            ]
+        },
+        {
+            "@type": "group",
+            "name": "6",
+            "nested": [
+                {
+                    "@type": "item",
+                    "name": "examples/compress_functions.c"
+                },
+                {
+                    "@type": "item",
+                    "name": "examples/simple_buffer.c"
+                }
+            ]
+        },
+        {
+            "@type": "group",
+            "name": "7",
+            "nested": [
+                {
+                    "@type": "item",
+                    "name": "lib/xxhash.c"
+                },
+                {
+                    "@type": "item",
+                    "name": "lib/xxhash.h"
+                }
+            ]
+        },
+        {
+            "@type": "group",
+            "name": "8",
+            "nested": [
+                {
+                    "@type": "item",
+                    "name": "tests/decompress-partial.c"
+                },
+                {
+                    "@type": "item",
+                    "name": "tests/decompress-partial-usingDict.c"
+                }
+            ]
+        },
+        {
+            "@type": "group",
+            "name": "9",
+            "nested": [
+                {
+                    "@type": "item",
+                    "name": "lib/lz4hc.h"
+                },
+                {
+                    "@type": "item",
+                    "name": "lib/lz4hc.c"
+                },
+                {
+                    "@type": "item",
+                    "name": "lib/lz4.h"
+                },
+                {
+                    "@type": "item",
+                    "name": "lib/lz4.c"
+                }
+            ]
+        },
+        {
+            "@type": "group",
+            "name": "10",
+            "nested": [
+                {
+                    "@type": "item",
+                    "name": "contrib/gen_manual/gen_manual.cpp"
+                }
+            ]
+        },
+        {
+            "@type": "group",
+            "name": "11",
+            "nested": [
+                {
+                    "@type": "item",
+                    "name": "tests/datagencli.c"
+                }
+            ]
+        },
+        {
+            "@type": "group",
+            "name": "12",
+            "nested": [
+                {
+                    "@type": "item",
+                    "name": "tests/freestanding.c"
+                }
+            ]
+        },
+        {
+            "@type": "group",
+            "name": "13",
+            "nested": [
+                {
+                    "@type": "item",
+                    "name": "tests/fullbench.c"
+                }
+            ]
+        }
+    ]
+}

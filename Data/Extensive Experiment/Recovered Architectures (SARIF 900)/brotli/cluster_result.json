@@ -1,0 +1,902 @@
+{
+    "@schemaVersion": "1.0",
+    "name": "clustering",
+    "structure": [
+        {
+            "@type": "group",
+            "name": "0",
+            "nested": [
+                {
+                    "@type": "item",
+                    "name": "c/enc/entropy_encode_static.h"
+                },
+                {
+                    "@type": "item",
+                    "name": "c/enc/fast_log.c"
+                },
+                {
+                    "@type": "item",
+                    "name": "c/enc/compress_fragment.h"
+                },
+                {
+                    "@type": "item",
+                    "name": "c/enc/compress_fragment.c"
+                },
+                {
+                    "@type": "item",
+                    "name": "c/enc/brotli_bit_stream.h"
+                },
+                {
+                    "@type": "item",
+                    "name": "c/enc/brotli_bit_stream.c"
+                },
+                {
+                    "@type": "item",
+                    "name": "c/enc/fast_log.h"
+                },
+                {
+                    "@type": "item",
+                    "name": "c/enc/bit_cost_inc.h"
+                },
+                {
+                    "@type": "item",
+                    "name": "c/enc/write_bits.h"
+                },
+                {
+                    "@type": "item",
+                    "name": "c/enc/bit_cost.h"
+                },
+                {
+                    "@type": "item",
+                    "name": "c/enc/compress_fragment_two_pass.h"
+                },
+                {
+                    "@type": "item",
+                    "name": "c/enc/compress_fragment_two_pass.c"
+                },
+                {
+                    "@type": "item",
+                    "name": "c/enc/literal_cost.h"
+                },
+                {
+                    "@type": "item",
+                    "name": "c/enc/literal_cost.c"
+                },
+                {
+                    "@type": "item",
+                    "name": "c/enc/utf8_util.h"
+                },
+                {
+                    "@type": "item",
+                    "name": "c/enc/utf8_util.c"
+                },
+                {
+                    "@type": "item",
+                    "name": "c/enc/entropy_encode.h"
+                },
+                {
+                    "@type": "item",
+                    "name": "c/enc/entropy_encode.c"
+                }
+            ]
+        },
+        {
+            "@type": "group",
+            "name": "1",
+            "nested": [
+                {
+                    "@type": "item",
+                    "name": "c/include/brotli/port.h"
+                },
+                {
+                    "@type": "item",
+                    "name": "c/include/brotli/shared_dictionary.h"
+                },
+                {
+                    "@type": "item",
+                    "name": "c/common/shared_dictionary.c"
+                },
+                {
+                    "@type": "item",
+                    "name": "c/common/version.h"
+                },
+                {
+                    "@type": "item",
+                    "name": "c/common/shared_dictionary_internal.h"
+                },
+                {
+                    "@type": "item",
+                    "name": "c/common/constants.h"
+                },
+                {
+                    "@type": "item",
+                    "name": "c/common/transform.h"
+                },
+                {
+                    "@type": "item",
+                    "name": "c/common/transform.c"
+                },
+                {
+                    "@type": "item",
+                    "name": "c/include/brotli/types.h"
+                },
+                {
+                    "@type": "item",
+                    "name": "c/common/dictionary.h"
+                },
+                {
+                    "@type": "item",
+                    "name": "c/common/dictionary.c"
+                },
+                {
+                    "@type": "item",
+                    "name": "c/common/platform.h"
+                },
+                {
+                    "@type": "item",
+                    "name": "c/common/platform.c"
+                },
+                {
+                    "@type": "item",
+                    "name": "c/common/constants.c"
+                }
+            ]
+        },
+        {
+            "@type": "group",
+            "name": "2",
+            "nested": [
+                {
+                    "@type": "item",
+                    "name": "java/org/brotli/dec/BitReader.java"
+                },
+                {
+                    "@type": "item",
+                    "name": "java/org/brotli/dec/CompoundDictionaryTest.java"
+                },
+                {
+                    "@type": "item",
+                    "name": "java/org/brotli/dec/TransformTest.java"
+                },
+                {
+                    "@type": "item",
+                    "name": "java/org/brotli/dec/SetDictionaryTest.java"
+                },
+                {
+                    "@type": "item",
+                    "name": "java/org/brotli/dec/Dictionary.java"
+                },
+                {
+                    "@type": "item",
+                    "name": "java/org/brotli/dec/BitReaderTest.java"
+                },
+                {
+                    "@type": "item",
+                    "name": "java/org/brotli/dec/DictionaryTest.java"
+                },
+                {
+                    "@type": "item",
+                    "name": "java/org/brotli/dec/DecodeTest.java"
+                },
+                {
+                    "@type": "item",
+                    "name": "java/org/brotli/dec/DictionaryData.java"
+                }
+            ]
+        },
+        {
+            "@type": "group",
+            "name": "3",
+            "nested": [
+                {
+                    "@type": "item",
+                    "name": "c/enc/hash_composite_inc.h"
+                },
+                {
+                    "@type": "item",
+                    "name": "c/enc/hash_forgetful_chain_inc.h"
+                },
+                {
+                    "@type": "item",
+                    "name": "c/enc/hash_longest_match_inc.h"
+                },
+                {
+                    "@type": "item",
+                    "name": "c/enc/hash_longest_match_quickly_inc.h"
+                },
+                {
+                    "@type": "item",
+                    "name": "c/enc/backward_references_inc.h"
+                },
+                {
+                    "@type": "item",
+                    "name": "c/enc/histogram_inc.h"
+                },
+                {
+                    "@type": "item",
+                    "name": "c/enc/hash_longest_match64_inc.h"
+                },
+                {
+                    "@type": "item",
+                    "name": "c/enc/hash_rolling_inc.h"
+                }
+            ]
+        },
+        {
+            "@type": "group",
+            "name": "4",
+            "nested": [
+                {
+                    "@type": "item",
+                    "name": "c/enc/static_dict_lut.h"
+                },
+                {
+                    "@type": "item",
+                    "name": "c/enc/compound_dictionary.h"
+                },
+                {
+                    "@type": "item",
+                    "name": "c/enc/compound_dictionary.c"
+                },
+                {
+                    "@type": "item",
+                    "name": "c/enc/dictionary_hash.c"
+                },
+                {
+                    "@type": "item",
+                    "name": "c/enc/memory.h"
+                },
+                {
+                    "@type": "item",
+                    "name": "c/enc/memory.c"
+                },
+                {
+                    "@type": "item",
+                    "name": "c/enc/static_dict.h"
+                },
+                {
+                    "@type": "item",
+                    "name": "c/enc/static_dict.c"
+                },
+                {
+                    "@type": "item",
+                    "name": "c/enc/encoder_dict.h"
+                },
+                {
+                    "@type": "item",
+                    "name": "c/enc/encoder_dict.c"
+                },
+                {
+                    "@type": "item",
+                    "name": "c/enc/hash_to_binary_tree_inc.h"
+                },
+                {
+                    "@type": "item",
+                    "name": "c/enc/dictionary_hash.h"
+                }
+            ]
+        },
+        {
+            "@type": "group",
+            "name": "5",
+            "nested": [
+                {
+                    "@type": "item",
+                    "name": "java/org/brotli/wrapper/dec/EagerStreamTest.java"
+                },
+                {
+                    "@type": "item",
+                    "name": "java/org/brotli/wrapper/dec/CornerCasesTest.java"
+                },
+                {
+                    "@type": "item",
+                    "name": "java/org/brotli/wrapper/dec/BrotliInputStreamTest.java"
+                },
+                {
+                    "@type": "item",
+                    "name": "java/org/brotli/wrapper/dec/DecoderTest.java"
+                },
+                {
+                    "@type": "item",
+                    "name": "java/org/brotli/wrapper/dec/Decoder.java"
+                },
+                {
+                    "@type": "item",
+                    "name": "java/org/brotli/wrapper/dec/BrotliDecoderChannelTest.java"
+                },
+                {
+                    "@type": "item",
+                    "name": "java/org/brotli/wrapper/dec/BrotliInputStream.java"
+                },
+                {
+                    "@type": "item",
+                    "name": "java/org/brotli/wrapper/dec/BrotliDecoderChannel.java"
+                }
+            ]
+        },
+        {
+            "@type": "group",
+            "name": "6",
+            "nested": [
+                {
+                    "@type": "item",
+                    "name": "c/enc/metablock_inc.h"
+                },
+                {
+                    "@type": "item",
+                    "name": "c/enc/prefix.h"
+                },
+                {
+                    "@type": "item",
+                    "name": "c/enc/block_splitter.h"
+                },
+                {
+                    "@type": "item",
+                    "name": "c/enc/block_splitter.c"
+                },
+                {
+                    "@type": "item",
+                    "name": "c/enc/command.c"
+                },
+                {
+                    "@type": "item",
+                    "name": "c/enc/command.h"
+                },
+                {
+                    "@type": "item",
+                    "name": "c/enc/histogram.h"
+                },
+                {
+                    "@type": "item",
+                    "name": "c/enc/histogram.c"
+                },
+                {
+                    "@type": "item",
+                    "name": "c/enc/metablock.h"
+                },
+                {
+                    "@type": "item",
+                    "name": "c/enc/metablock.c"
+                }
+            ]
+        },
+        {
+            "@type": "group",
+            "name": "7",
+            "nested": [
+                {
+                    "@type": "item",
+                    "name": "c/enc/block_encoder_inc.h"
+                },
+                {
+                    "@type": "item",
+                    "name": "c/enc/block_splitter_inc.h"
+                },
+                {
+                    "@type": "item",
+                    "name": "c/enc/cluster.h"
+                },
+                {
+                    "@type": "item",
+                    "name": "c/enc/bit_cost.c"
+                },
+                {
+                    "@type": "item",
+                    "name": "c/enc/cluster.c"
+                },
+                {
+                    "@type": "item",
+                    "name": "c/enc/cluster_inc.h"
+                }
+            ]
+        },
+        {
+            "@type": "group",
+            "name": "8",
+            "nested": [
+                {
+                    "@type": "item",
+                    "name": "c/enc/backward_references_hq.h"
+                },
+                {
+                    "@type": "item",
+                    "name": "c/enc/backward_references_hq.c"
+                },
+                {
+                    "@type": "item",
+                    "name": "c/enc/hash.h"
+                },
+                {
+                    "@type": "item",
+                    "name": "c/enc/backward_references.h"
+                },
+                {
+                    "@type": "item",
+                    "name": "c/enc/backward_references.c"
+                },
+                {
+                    "@type": "item",
+                    "name": "c/enc/find_match_length.h"
+                },
+                {
+                    "@type": "item",
+                    "name": "c/enc/params.h"
+                },
+                {
+                    "@type": "item",
+                    "name": "c/enc/quality.h"
+                }
+            ]
+        },
+        {
+            "@type": "group",
+            "name": "9",
+            "nested": [
+                {
+                    "@type": "item",
+                    "name": "java/org/brotli/wrapper/common/common_jni.cc"
+                },
+                {
+                    "@type": "item",
+                    "name": "java/org/brotli/wrapper/common/SetZeroDictionaryTest.java"
+                },
+                {
+                    "@type": "item",
+                    "name": "java/org/brotli/wrapper/common/CommonJNI.java"
+                },
+                {
+                    "@type": "item",
+                    "name": "java/org/brotli/wrapper/common/BrotliCommon.java"
+                },
+                {
+                    "@type": "item",
+                    "name": "java/org/brotli/wrapper/common/SetRfcDictionaryTest.java"
+                }
+            ]
+        },
+        {
+            "@type": "group",
+            "name": "10",
+            "nested": [
+                {
+                    "@type": "item",
+                    "name": "java/org/brotli/wrapper/enc/EncoderTest.java"
+                },
+                {
+                    "@type": "item",
+                    "name": "java/org/brotli/wrapper/enc/EmptyInputTest.java"
+                },
+                {
+                    "@type": "item",
+                    "name": "java/org/brotli/wrapper/enc/UseCompoundDictionaryTest.java"
+                },
+                {
+                    "@type": "item",
+                    "name": "java/org/brotli/wrapper/enc/BrotliEncoderChannelTest.java"
+                },
+                {
+                    "@type": "item",
+                    "name": "java/org/brotli/wrapper/enc/BrotliOutputStreamTest.java"
+                }
+            ]
+        },
+        {
+            "@type": "group",
+            "name": "11",
+            "nested": [
+                {
+                    "@type": "item",
+                    "name": "c/dec/huffman.h"
+                },
+                {
+                    "@type": "item",
+                    "name": "c/dec/huffman.c"
+                },
+                {
+                    "@type": "item",
+                    "name": "c/dec/bit_reader.h"
+                },
+                {
+                    "@type": "item",
+                    "name": "c/dec/bit_reader.c"
+                },
+                {
+                    "@type": "item",
+                    "name": "c/dec/prefix.h"
+                },
+                {
+                    "@type": "item",
+                    "name": "c/dec/state.h"
+                },
+                {
+                    "@type": "item",
+                    "name": "c/dec/state.c"
+                },
+                {
+                    "@type": "item",
+                    "name": "c/include/brotli/decode.h"
+                },
+                {
+                    "@type": "item",
+                    "name": "c/dec/decode.c"
+                }
+            ]
+        },
+        {
+            "@type": "group",
+            "name": "12",
+            "nested": [
+                {
+                    "@type": "item",
+                    "name": "java/org/brotli/wrapper/dec/DecoderJNI.java"
+                },
+                {
+                    "@type": "item",
+                    "name": "java/org/brotli/wrapper/dec/decoder_jni.cc"
+                },
+                {
+                    "@type": "item",
+                    "name": "java/org/brotli/wrapper/dec/decoder_jni_onload.cc"
+                },
+                {
+                    "@type": "item",
+                    "name": "java/org/brotli/wrapper/dec/decoder_jni.h"
+                }
+            ]
+        },
+        {
+            "@type": "group",
+            "name": "13",
+            "nested": [
+                {
+                    "@type": "item",
+                    "name": "research/sieve.h"
+                },
+                {
+                    "@type": "item",
+                    "name": "research/sieve.cc"
+                },
+                {
+                    "@type": "item",
+                    "name": "research/deorummolae.h"
+                },
+                {
+                    "@type": "item",
+                    "name": "research/deorummolae.cc"
+                },
+                {
+                    "@type": "item",
+                    "name": "research/durchschlag.h"
+                },
+                {
+                    "@type": "item",
+                    "name": "research/durchschlag.cc"
+                },
+                {
+                    "@type": "item",
+                    "name": "research/dictionary_generator.cc"
+                }
+            ]
+        },
+        {
+            "@type": "group",
+            "name": "14",
+            "nested": [
+                {
+                    "@type": "item",
+                    "name": "c/enc/state.h"
+                },
+                {
+                    "@type": "item",
+                    "name": "c/include/brotli/encode.h"
+                },
+                {
+                    "@type": "item",
+                    "name": "c/enc/encode.c"
+                },
+                {
+                    "@type": "item",
+                    "name": "c/enc/ringbuffer.h"
+                }
+            ]
+        },
+        {
+            "@type": "group",
+            "name": "15",
+            "nested": [
+                {
+                    "@type": "item",
+                    "name": "java/org/brotli/dec/Decoder.java"
+                },
+                {
+                    "@type": "item",
+                    "name": "java/org/brotli/dec/BrotliRuntimeException.java"
+                },
+                {
+                    "@type": "item",
+                    "name": "java/org/brotli/dec/EagerStreamTest.java"
+                }
+            ]
+        },
+        {
+            "@type": "group",
+            "name": "16",
+            "nested": [
+                {
+                    "@type": "item",
+                    "name": "java/org/brotli/wrapper/android/UseJniTest.java"
+                },
+                {
+                    "@type": "item",
+                    "name": "java/org/brotli/wrapper/android/UseJni.java"
+                },
+                {
+                    "@type": "item",
+                    "name": "java/org/brotli/wrapper/android/JniHelper.java"
+                }
+            ]
+        },
+        {
+            "@type": "group",
+            "name": "17",
+            "nested": [
+                {
+                    "@type": "item",
+                    "name": "java/org/brotli/wrapper/enc/BrotliEncoderChannel.java"
+                },
+                {
+                    "@type": "item",
+                    "name": "java/org/brotli/wrapper/enc/BrotliOutputStream.java"
+                },
+                {
+                    "@type": "item",
+                    "name": "java/org/brotli/wrapper/enc/Encoder.java"
+                }
+            ]
+        },
+        {
+            "@type": "group",
+            "name": "18",
+            "nested": [
+                {
+                    "@type": "item",
+                    "name": "c/common/context.c"
+                },
+                {
+                    "@type": "item",
+                    "name": "c/common/context.h"
+                }
+            ]
+        },
+        {
+            "@type": "group",
+            "name": "19",
+            "nested": [
+                {
+                    "@type": "item",
+                    "name": "c/fuzz/decode_fuzzer.c"
+                },
+                {
+                    "@type": "item",
+                    "name": "c/fuzz/run_decode_fuzzer.c"
+                }
+            ]
+        },
+        {
+            "@type": "group",
+            "name": "20",
+            "nested": [
+                {
+                    "@type": "item",
+                    "name": "java/org/brotli/wrapper/enc/encoder_jni.cc"
+                },
+                {
+                    "@type": "item",
+                    "name": "java/org/brotli/wrapper/enc/EncoderJNI.java"
+                }
+            ]
+        },
+        {
+            "@type": "group",
+            "name": "21",
+            "nested": [
+                {
+                    "@type": "item",
+                    "name": "research/read_dist.h"
+                },
+                {
+                    "@type": "item",
+                    "name": "research/draw_histogram.cc"
+                }
+            ]
+        },
+        {
+            "@type": "group",
+            "name": "22",
+            "nested": [
+                {
+                    "@type": "item",
+                    "name": "java/org/brotli/integration/BundleChecker.java"
+                },
+                {
+                    "@type": "item",
+                    "name": "java/org/brotli/integration/BundleHelper.java"
+                }
+            ]
+        },
+        {
+            "@type": "group",
+            "name": "23",
+            "nested": [
+                {
+                    "@type": "item",
+                    "name": "java/org/brotli/enc/PreparedDictionary.java"
+                },
+                {
+                    "@type": "item",
+                    "name": "java/org/brotli/enc/PreparedDictionaryGenerator.java"
+                }
+            ]
+        },
+        {
+            "@type": "group",
+            "name": "24",
+            "nested": [
+                {
+                    "@type": "item",
+                    "name": "c/tools/brotli.c"
+                }
+            ]
+        },
+        {
+            "@type": "group",
+            "name": "25",
+            "nested": [
+                {
+                    "@type": "item",
+                    "name": "python/_brotli.c"
+                }
+            ]
+        },
+        {
+            "@type": "group",
+            "name": "26",
+            "nested": [
+                {
+                    "@type": "item",
+                    "name": "research/brotli_decoder.c"
+                }
+            ]
+        },
+        {
+            "@type": "group",
+            "name": "27",
+            "nested": [
+                {
+                    "@type": "item",
+                    "name": "research/draw_diff.cc"
+                }
+            ]
+        },
+        {
+            "@type": "group",
+            "name": "28",
+            "nested": [
+                {
+                    "@type": "item",
+                    "name": "research/find_opt_references.cc"
+                }
+            ]
+        },
+        {
+            "@type": "group",
+            "name": "29",
+            "nested": [
+                {
+                    "@type": "item",
+                    "name": "java/org/brotli/integration/BrotliJniTestBase.java"
+                }
+            ]
+        },
+        {
+            "@type": "group",
+            "name": "30",
+            "nested": [
+                {
+                    "@type": "item",
+                    "name": "java/org/brotli/integration/Benchmark.java"
+                }
+            ]
+        },
+        {
+            "@type": "group",
+            "name": "31",
+            "nested": [
+                {
+                    "@type": "item",
+                    "name": "java/org/brotli/dec/BrotliInputStream.java"
+                }
+            ]
+        },
+        {
+            "@type": "group",
+            "name": "32",
+            "nested": [
+                {
+                    "@type": "item",
+                    "name": "java/org/brotli/dec/State.java"
+                }
+            ]
+        },
+        {
+            "@type": "group",
+            "name": "33",
+            "nested": [
+                {
+                    "@type": "item",
+                    "name": "java/org/brotli/dec/Utils.java"
+                }
+            ]
+        },
+        {
+            "@type": "group",
+            "name": "34",
+            "nested": [
+                {
+                    "@type": "item",
+                    "name": "java/org/brotli/dec/Transform.java"
+                }
+            ]
+        },
+        {
+            "@type": "group",
+            "name": "35",
+            "nested": [
+                {
+                    "@type": "item",
+                    "name": "java/org/brotli/dec/SynthTest.java"
+                }
+            ]
+        },
+        {
+            "@type": "group",
+            "name": "36",
+            "nested": [
+                {
+                    "@type": "item",
+                    "name": "java/org/brotli/dec/Huffman.java"
+                }
+            ]
+        },
+        {
+            "@type": "group",
+            "name": "37",
+            "nested": [
+                {
+                    "@type": "item",
+                    "name": "java/org/brotli/dec/Context.java"
+                }
+            ]
+        },
+        {
+            "@type": "group",
+            "name": "38",
+            "nested": [
+                {
+                    "@type": "item",
+                    "name": "java/org/brotli/dec/Decode.java"
+                }
+            ]
+        },
+        {
+            "@type": "group",
+            "name": "39",
+            "nested": [
+                {
+                    "@type": "item",
+                    "name": "java/org/brotli/common/SharedDictionaryType.java"
+                }
+            ]
+        }
+    ]
+}

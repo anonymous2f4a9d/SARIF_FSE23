@@ -1,0 +1,858 @@
+{
+    "@schemaVersion": "1.0",
+    "name": "clustering",
+    "structure": [
+        {
+            "@type": "group",
+            "name": "0",
+            "nested": [
+                {
+                    "@type": "item",
+                    "name": "keepalived/include/vrrp_if_config.h"
+                },
+                {
+                    "@type": "item",
+                    "name": "keepalived/vrrp/vrrp_if_config.c"
+                },
+                {
+                    "@type": "item",
+                    "name": "keepalived/include/vrrp_parser.h"
+                },
+                {
+                    "@type": "item",
+                    "name": "keepalived/vrrp/vrrp_parser.c"
+                },
+                {
+                    "@type": "item",
+                    "name": "keepalived/include/vrrp_static_track.h"
+                },
+                {
+                    "@type": "item",
+                    "name": "keepalived/vrrp/vrrp_static_track.c"
+                },
+                {
+                    "@type": "item",
+                    "name": "keepalived/include/vrrp_notify.h"
+                },
+                {
+                    "@type": "item",
+                    "name": "keepalived/vrrp/vrrp_notify.c"
+                },
+                {
+                    "@type": "item",
+                    "name": "keepalived/include/vrrp_track.h"
+                },
+                {
+                    "@type": "item",
+                    "name": "keepalived/vrrp/vrrp_track.c"
+                },
+                {
+                    "@type": "item",
+                    "name": "keepalived/include/vrrp_scheduler.h"
+                },
+                {
+                    "@type": "item",
+                    "name": "keepalived/vrrp/vrrp_scheduler.c"
+                },
+                {
+                    "@type": "item",
+                    "name": "keepalived/include/vrrp_if.h"
+                },
+                {
+                    "@type": "item",
+                    "name": "keepalived/vrrp/vrrp_if.c"
+                },
+                {
+                    "@type": "item",
+                    "name": "keepalived/include/vrrp_sock.h"
+                },
+                {
+                    "@type": "item",
+                    "name": "keepalived/include/vrrp_arp.h"
+                },
+                {
+                    "@type": "item",
+                    "name": "keepalived/vrrp/vrrp_arp.c"
+                },
+                {
+                    "@type": "item",
+                    "name": "keepalived/include/vrrp_dbus.h"
+                },
+                {
+                    "@type": "item",
+                    "name": "keepalived/vrrp/vrrp_dbus.c"
+                },
+                {
+                    "@type": "item",
+                    "name": "keepalived/include/keepalived_netlink.h"
+                },
+                {
+                    "@type": "item",
+                    "name": "keepalived/core/keepalived_netlink.c"
+                },
+                {
+                    "@type": "item",
+                    "name": "keepalived/include/vrrp_ipaddress.h"
+                },
+                {
+                    "@type": "item",
+                    "name": "keepalived/vrrp/vrrp_ipaddress.c"
+                },
+                {
+                    "@type": "item",
+                    "name": "keepalived/include/vrrp_data.h"
+                },
+                {
+                    "@type": "item",
+                    "name": "keepalived/vrrp/vrrp_data.c"
+                },
+                {
+                    "@type": "item",
+                    "name": "keepalived/include/vrrp_ipsecah.h"
+                },
+                {
+                    "@type": "item",
+                    "name": "keepalived/vrrp/vrrp_ipsecah.c"
+                },
+                {
+                    "@type": "item",
+                    "name": "keepalived/include/vrrp_vmac.h"
+                },
+                {
+                    "@type": "item",
+                    "name": "keepalived/vrrp/vrrp_vmac.c"
+                },
+                {
+                    "@type": "item",
+                    "name": "keepalived/include/vrrp_iproute.h"
+                },
+                {
+                    "@type": "item",
+                    "name": "keepalived/vrrp/vrrp_iproute.c"
+                },
+                {
+                    "@type": "item",
+                    "name": "keepalived/include/vrrp_ip_rule_route_parser.h"
+                },
+                {
+                    "@type": "item",
+                    "name": "keepalived/vrrp/vrrp_ip_rule_route_parser.c"
+                },
+                {
+                    "@type": "item",
+                    "name": "keepalived/include/vrrp_daemon.h"
+                },
+                {
+                    "@type": "item",
+                    "name": "keepalived/vrrp/vrrp_daemon.c"
+                },
+                {
+                    "@type": "item",
+                    "name": "keepalived/include/vrrp_ndisc.h"
+                },
+                {
+                    "@type": "item",
+                    "name": "keepalived/vrrp/vrrp_ndisc.c"
+                },
+                {
+                    "@type": "item",
+                    "name": "keepalived/include/vrrp_iprule.h"
+                },
+                {
+                    "@type": "item",
+                    "name": "keepalived/vrrp/vrrp_iprule.c"
+                },
+                {
+                    "@type": "item",
+                    "name": "keepalived/include/vrrp_sync.h"
+                },
+                {
+                    "@type": "item",
+                    "name": "keepalived/vrrp/vrrp_sync.c"
+                },
+                {
+                    "@type": "item",
+                    "name": "keepalived/include/vrrp.h"
+                },
+                {
+                    "@type": "item",
+                    "name": "keepalived/vrrp/vrrp.c"
+                }
+            ]
+        },
+        {
+            "@type": "group",
+            "name": "1",
+            "nested": [
+                {
+                    "@type": "item",
+                    "name": "keepalived/include/check_ssl.h"
+                },
+                {
+                    "@type": "item",
+                    "name": "keepalived/include/check_http.h"
+                },
+                {
+                    "@type": "item",
+                    "name": "keepalived/check/check_http.c"
+                },
+                {
+                    "@type": "item",
+                    "name": "keepalived/check/check_ssl.c"
+                },
+                {
+                    "@type": "item",
+                    "name": "keepalived/include/check_genhash.h"
+                },
+                {
+                    "@type": "item",
+                    "name": "keepalived/check/check_genhash.c"
+                },
+                {
+                    "@type": "item",
+                    "name": "keepalived/include/check_udp.h"
+                },
+                {
+                    "@type": "item",
+                    "name": "keepalived/check/check_udp.c"
+                },
+                {
+                    "@type": "item",
+                    "name": "keepalived/include/check_dns.h"
+                },
+                {
+                    "@type": "item",
+                    "name": "keepalived/check/check_dns.c"
+                },
+                {
+                    "@type": "item",
+                    "name": "keepalived/include/check_parser.h"
+                },
+                {
+                    "@type": "item",
+                    "name": "keepalived/check/check_parser.c"
+                },
+                {
+                    "@type": "item",
+                    "name": "keepalived/include/check_data.h"
+                },
+                {
+                    "@type": "item",
+                    "name": "keepalived/check/check_data.c"
+                },
+                {
+                    "@type": "item",
+                    "name": "keepalived/include/ip_vs.h"
+                },
+                {
+                    "@type": "item",
+                    "name": "keepalived/include/vrrp_vmac_nm.h"
+                },
+                {
+                    "@type": "item",
+                    "name": "keepalived/vrrp/vrrp_vmac_nm.c"
+                },
+                {
+                    "@type": "item",
+                    "name": "keepalived/include/check_smtp.h"
+                },
+                {
+                    "@type": "item",
+                    "name": "keepalived/check/check_smtp.c"
+                },
+                {
+                    "@type": "item",
+                    "name": "keepalived/include/check_tcp.h"
+                },
+                {
+                    "@type": "item",
+                    "name": "keepalived/check/check_tcp.c"
+                },
+                {
+                    "@type": "item",
+                    "name": "keepalived/include/check_misc.h"
+                },
+                {
+                    "@type": "item",
+                    "name": "keepalived/check/check_misc.c"
+                },
+                {
+                    "@type": "item",
+                    "name": "keepalived/include/check_print.h"
+                },
+                {
+                    "@type": "item",
+                    "name": "keepalived/check/check_print.c"
+                },
+                {
+                    "@type": "item",
+                    "name": "keepalived/include/ipwrapper.h"
+                },
+                {
+                    "@type": "item",
+                    "name": "keepalived/check/ipwrapper.c"
+                },
+                {
+                    "@type": "item",
+                    "name": "keepalived/include/check_api.h"
+                },
+                {
+                    "@type": "item",
+                    "name": "keepalived/check/check_api.c"
+                },
+                {
+                    "@type": "item",
+                    "name": "keepalived/include/ipvswrapper.h"
+                },
+                {
+                    "@type": "item",
+                    "name": "keepalived/check/ipvswrapper.c"
+                },
+                {
+                    "@type": "item",
+                    "name": "keepalived/include/check_snmp.h"
+                },
+                {
+                    "@type": "item",
+                    "name": "keepalived/check/check_snmp.c"
+                },
+                {
+                    "@type": "item",
+                    "name": "keepalived/include/check_bfd.h"
+                },
+                {
+                    "@type": "item",
+                    "name": "keepalived/check/check_bfd.c"
+                },
+                {
+                    "@type": "item",
+                    "name": "keepalived/include/check_daemon.h"
+                },
+                {
+                    "@type": "item",
+                    "name": "keepalived/check/check_daemon.c"
+                },
+                {
+                    "@type": "item",
+                    "name": "keepalived/include/libipvs.h"
+                },
+                {
+                    "@type": "item",
+                    "name": "keepalived/check/libipvs.c"
+                },
+                {
+                    "@type": "item",
+                    "name": "keepalived/include/layer4.h"
+                },
+                {
+                    "@type": "item",
+                    "name": "keepalived/core/layer4.c"
+                },
+                {
+                    "@type": "item",
+                    "name": "keepalived/include/check_ping.h"
+                },
+                {
+                    "@type": "item",
+                    "name": "keepalived/check/check_ping.c"
+                }
+            ]
+        },
+        {
+            "@type": "group",
+            "name": "2",
+            "nested": [
+                {
+                    "@type": "item",
+                    "name": "lib/container.h"
+                },
+                {
+                    "@type": "item",
+                    "name": "lib/signals.h"
+                },
+                {
+                    "@type": "item",
+                    "name": "lib/signals.c"
+                },
+                {
+                    "@type": "item",
+                    "name": "lib/sockaddr.h"
+                },
+                {
+                    "@type": "item",
+                    "name": "lib/notify.h"
+                },
+                {
+                    "@type": "item",
+                    "name": "lib/notify.c"
+                },
+                {
+                    "@type": "item",
+                    "name": "lib/align.h"
+                },
+                {
+                    "@type": "item",
+                    "name": "lib/scheduler.h"
+                },
+                {
+                    "@type": "item",
+                    "name": "lib/scheduler.c"
+                },
+                {
+                    "@type": "item",
+                    "name": "lib/warnings.h"
+                },
+                {
+                    "@type": "item",
+                    "name": "lib/keepalived_magic.h"
+                },
+                {
+                    "@type": "item",
+                    "name": "lib/process.h"
+                },
+                {
+                    "@type": "item",
+                    "name": "lib/process.c"
+                },
+                {
+                    "@type": "item",
+                    "name": "lib/systemd.h"
+                },
+                {
+                    "@type": "item",
+                    "name": "lib/systemd.c"
+                },
+                {
+                    "@type": "item",
+                    "name": "lib/logger.h"
+                },
+                {
+                    "@type": "item",
+                    "name": "lib/logger.c"
+                },
+                {
+                    "@type": "item",
+                    "name": "lib/assert_debug.h"
+                },
+                {
+                    "@type": "item",
+                    "name": "lib/bitops.h"
+                },
+                {
+                    "@type": "item",
+                    "name": "lib/assert.c"
+                },
+                {
+                    "@type": "item",
+                    "name": "lib/rbtree_ka.h"
+                },
+                {
+                    "@type": "item",
+                    "name": "lib/utils.h"
+                },
+                {
+                    "@type": "item",
+                    "name": "lib/utils.c"
+                },
+                {
+                    "@type": "item",
+                    "name": "lib/timer.h"
+                },
+                {
+                    "@type": "item",
+                    "name": "lib/timer.c"
+                }
+            ]
+        },
+        {
+            "@type": "group",
+            "name": "3",
+            "nested": [
+                {
+                    "@type": "item",
+                    "name": "keepalived/include/pidfile.h"
+                },
+                {
+                    "@type": "item",
+                    "name": "keepalived/core/pidfile.c"
+                },
+                {
+                    "@type": "item",
+                    "name": "keepalived/include/main.h"
+                },
+                {
+                    "@type": "item",
+                    "name": "keepalived/core/main.c"
+                },
+                {
+                    "@type": "item",
+                    "name": "keepalived/include/global_data.h"
+                },
+                {
+                    "@type": "item",
+                    "name": "keepalived/core/global_data.c"
+                },
+                {
+                    "@type": "item",
+                    "name": "keepalived/include/reload_monitor.h"
+                },
+                {
+                    "@type": "item",
+                    "name": "keepalived/core/reload_monitor.c"
+                },
+                {
+                    "@type": "item",
+                    "name": "keepalived/include/daemon.h"
+                },
+                {
+                    "@type": "item",
+                    "name": "keepalived/core/daemon.c"
+                },
+                {
+                    "@type": "item",
+                    "name": "keepalived/include/track_process.h"
+                },
+                {
+                    "@type": "item",
+                    "name": "keepalived/core/track_process.c"
+                },
+                {
+                    "@type": "item",
+                    "name": "keepalived/include/smtp.h"
+                },
+                {
+                    "@type": "item",
+                    "name": "keepalived/core/smtp.c"
+                },
+                {
+                    "@type": "item",
+                    "name": "keepalived/include/global_parser.h"
+                },
+                {
+                    "@type": "item",
+                    "name": "keepalived/core/global_parser.c"
+                },
+                {
+                    "@type": "item",
+                    "name": "keepalived/include/config_notify.h"
+                },
+                {
+                    "@type": "item",
+                    "name": "keepalived/core/config_notify.c"
+                },
+                {
+                    "@type": "item",
+                    "name": "keepalived/include/snmp.h"
+                },
+                {
+                    "@type": "item",
+                    "name": "keepalived/core/snmp.c"
+                }
+            ]
+        },
+        {
+            "@type": "group",
+            "name": "4",
+            "nested": [
+                {
+                    "@type": "item",
+                    "name": "keepalived/include/vrrp_iptables.h"
+                },
+                {
+                    "@type": "item",
+                    "name": "keepalived/vrrp/vrrp_iptables.c"
+                },
+                {
+                    "@type": "item",
+                    "name": "keepalived/include/check_nftables.h"
+                },
+                {
+                    "@type": "item",
+                    "name": "keepalived/check/check_nftables.c"
+                },
+                {
+                    "@type": "item",
+                    "name": "keepalived/include/nftables.h"
+                },
+                {
+                    "@type": "item",
+                    "name": "keepalived/core/nftables.c"
+                },
+                {
+                    "@type": "item",
+                    "name": "keepalived/core/libnl_link.c"
+                },
+                {
+                    "@type": "item",
+                    "name": "keepalived/include/vrrp_ipset.h"
+                },
+                {
+                    "@type": "item",
+                    "name": "keepalived/vrrp/vrrp_ipset.c"
+                },
+                {
+                    "@type": "item",
+                    "name": "keepalived/include/namespaces.h"
+                },
+                {
+                    "@type": "item",
+                    "name": "keepalived/core/namespaces.c"
+                },
+                {
+                    "@type": "item",
+                    "name": "keepalived/include/libnl_link.h"
+                },
+                {
+                    "@type": "item",
+                    "name": "keepalived/include/vrrp_nftables.h"
+                },
+                {
+                    "@type": "item",
+                    "name": "keepalived/vrrp/vrrp_nftables.c"
+                },
+                {
+                    "@type": "item",
+                    "name": "keepalived/include/vrrp_firewall.h"
+                },
+                {
+                    "@type": "item",
+                    "name": "keepalived/vrrp/vrrp_firewall.c"
+                },
+                {
+                    "@type": "item",
+                    "name": "keepalived/include/vrrp_iptables_calls.h"
+                },
+                {
+                    "@type": "item",
+                    "name": "keepalived/vrrp/vrrp_iptables_calls.c"
+                }
+            ]
+        },
+        {
+            "@type": "group",
+            "name": "5",
+            "nested": [
+                {
+                    "@type": "item",
+                    "name": "lib/json_writer.h"
+                },
+                {
+                    "@type": "item",
+                    "name": "lib/json_writer.c"
+                },
+                {
+                    "@type": "item",
+                    "name": "lib/list_head.c"
+                },
+                {
+                    "@type": "item",
+                    "name": "lib/list_head.h"
+                },
+                {
+                    "@type": "item",
+                    "name": "lib/rttables.h"
+                },
+                {
+                    "@type": "item",
+                    "name": "lib/rttables.c"
+                },
+                {
+                    "@type": "item",
+                    "name": "lib/memory.h"
+                },
+                {
+                    "@type": "item",
+                    "name": "lib/memory.c"
+                },
+                {
+                    "@type": "item",
+                    "name": "lib/parser.h"
+                },
+                {
+                    "@type": "item",
+                    "name": "lib/parser.c"
+                },
+                {
+                    "@type": "item",
+                    "name": "lib/html.h"
+                },
+                {
+                    "@type": "item",
+                    "name": "lib/html.c"
+                },
+                {
+                    "@type": "item",
+                    "name": "lib/vector.h"
+                },
+                {
+                    "@type": "item",
+                    "name": "lib/vector.c"
+                }
+            ]
+        },
+        {
+            "@type": "group",
+            "name": "6",
+            "nested": [
+                {
+                    "@type": "item",
+                    "name": "keepalived/include/bfd_data.h"
+                },
+                {
+                    "@type": "item",
+                    "name": "keepalived/bfd/bfd_data.c"
+                },
+                {
+                    "@type": "item",
+                    "name": "keepalived/include/bfd.h"
+                },
+                {
+                    "@type": "item",
+                    "name": "keepalived/bfd/bfd.c"
+                },
+                {
+                    "@type": "item",
+                    "name": "keepalived/include/bfd_parser.h"
+                },
+                {
+                    "@type": "item",
+                    "name": "keepalived/bfd/bfd_parser.c"
+                },
+                {
+                    "@type": "item",
+                    "name": "keepalived/include/bfd_scheduler.h"
+                },
+                {
+                    "@type": "item",
+                    "name": "keepalived/bfd/bfd_scheduler.c"
+                },
+                {
+                    "@type": "item",
+                    "name": "keepalived/include/bfd_daemon.h"
+                },
+                {
+                    "@type": "item",
+                    "name": "keepalived/bfd/bfd_daemon.c"
+                },
+                {
+                    "@type": "item",
+                    "name": "keepalived/include/bfd_event.h"
+                },
+                {
+                    "@type": "item",
+                    "name": "keepalived/bfd/bfd_event.c"
+                }
+            ]
+        },
+        {
+            "@type": "group",
+            "name": "7",
+            "nested": [
+                {
+                    "@type": "item",
+                    "name": "keepalived/include/vrrp_json.h"
+                },
+                {
+                    "@type": "item",
+                    "name": "keepalived/vrrp/vrrp_json.c"
+                },
+                {
+                    "@type": "item",
+                    "name": "keepalived/include/vrrp_print.h"
+                },
+                {
+                    "@type": "item",
+                    "name": "keepalived/vrrp/vrrp_print.c"
+                },
+                {
+                    "@type": "item",
+                    "name": "keepalived/include/global_json.h"
+                },
+                {
+                    "@type": "item",
+                    "name": "keepalived/include/vrrp_snmp.h"
+                },
+                {
+                    "@type": "item",
+                    "name": "keepalived/vrrp/vrrp_snmp.c"
+                }
+            ]
+        },
+        {
+            "@type": "group",
+            "name": "8",
+            "nested": [
+                {
+                    "@type": "item",
+                    "name": "lib/rbtree_types.h"
+                },
+                {
+                    "@type": "item",
+                    "name": "lib/rbtree_augmented.h"
+                },
+                {
+                    "@type": "item",
+                    "name": "lib/rbtree.h"
+                },
+                {
+                    "@type": "item",
+                    "name": "lib/rbtree.c"
+                }
+            ]
+        },
+        {
+            "@type": "group",
+            "name": "9",
+            "nested": [
+                {
+                    "@type": "item",
+                    "name": "test/tcp_server_html.h"
+                },
+                {
+                    "@type": "item",
+                    "name": "test/tcp_server.c"
+                },
+                {
+                    "@type": "item",
+                    "name": "test/tcp_client.c"
+                }
+            ]
+        },
+        {
+            "@type": "group",
+            "name": "10",
+            "nested": [
+                {
+                    "@type": "item",
+                    "name": "keepalived/include/tracker.h"
+                },
+                {
+                    "@type": "item",
+                    "name": "keepalived/include/check_file.h"
+                },
+                {
+                    "@type": "item",
+                    "name": "keepalived/check/check_file.c"
+                },
+                {
+                    "@type": "item",
+                    "name": "keepalived/include/track_file.h"
+                },
+                {
+                    "@type": "item",
+                    "name": "keepalived/trackers/track_file.c"
+                }
+            ]
+        },
+        {
+            "@type": "group",
+            "name": "11",
+            "nested": [
+                {
+                    "@type": "item",
+                    "name": "keepalived/main.c"
+                }
+            ]
+        }
+    ]
+}

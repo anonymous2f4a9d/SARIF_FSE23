@@ -1,0 +1,866 @@
+{
+    "@schemaVersion": "1.0",
+    "name": "clustering",
+    "structure": [
+        {
+            "@type": "group",
+            "name": "0",
+            "nested": [
+                {
+                    "@type": "item",
+                    "name": "cmd-confirm-before.c"
+                },
+                {
+                    "@type": "item",
+                    "name": "cmd-list-sessions.c"
+                },
+                {
+                    "@type": "item",
+                    "name": "cmd-display-panes.c"
+                },
+                {
+                    "@type": "item",
+                    "name": "cmd-new-window.c"
+                },
+                {
+                    "@type": "item",
+                    "name": "cmd-kill-window.c"
+                },
+                {
+                    "@type": "item",
+                    "name": "cmd-move-window.c"
+                },
+                {
+                    "@type": "item",
+                    "name": "cmd-resize-window.c"
+                },
+                {
+                    "@type": "item",
+                    "name": "cmd-rotate-window.c"
+                },
+                {
+                    "@type": "item",
+                    "name": "cmd-detach-client.c"
+                },
+                {
+                    "@type": "item",
+                    "name": "cmd-choose-tree.c"
+                },
+                {
+                    "@type": "item",
+                    "name": "cmd-set-environment.c"
+                },
+                {
+                    "@type": "item",
+                    "name": "cmd-kill-session.c"
+                },
+                {
+                    "@type": "item",
+                    "name": "cmd-set-option.c"
+                },
+                {
+                    "@type": "item",
+                    "name": "cmd-kill-pane.c"
+                },
+                {
+                    "@type": "item",
+                    "name": "cmd-list-buffers.c"
+                },
+                {
+                    "@type": "item",
+                    "name": "cmd-lock-server.c"
+                },
+                {
+                    "@type": "item",
+                    "name": "cmd-join-pane.c"
+                },
+                {
+                    "@type": "item",
+                    "name": "cmd-set-buffer.c"
+                },
+                {
+                    "@type": "item",
+                    "name": "cmd-find-window.c"
+                },
+                {
+                    "@type": "item",
+                    "name": "cmd-copy-mode.c"
+                },
+                {
+                    "@type": "item",
+                    "name": "cmd-bind-key.c"
+                },
+                {
+                    "@type": "item",
+                    "name": "cmd-paste-buffer.c"
+                },
+                {
+                    "@type": "item",
+                    "name": "cmd-rename-session.c"
+                },
+                {
+                    "@type": "item",
+                    "name": "cmd-capture-pane.c"
+                },
+                {
+                    "@type": "item",
+                    "name": "cmd-kill-server.c"
+                },
+                {
+                    "@type": "item",
+                    "name": "cmd-resize-pane.c"
+                },
+                {
+                    "@type": "item",
+                    "name": "cmd-list-windows.c"
+                },
+                {
+                    "@type": "item",
+                    "name": "cmd-rename-window.c"
+                },
+                {
+                    "@type": "item",
+                    "name": "cmd-list-panes.c"
+                },
+                {
+                    "@type": "item",
+                    "name": "cmd-list-clients.c"
+                },
+                {
+                    "@type": "item",
+                    "name": "cmd-load-buffer.c"
+                }
+            ]
+        },
+        {
+            "@type": "group",
+            "name": "1",
+            "nested": [
+                {
+                    "@type": "item",
+                    "name": "cmd-select-layout.c"
+                },
+                {
+                    "@type": "item",
+                    "name": "cmd-swap-window.c"
+                },
+                {
+                    "@type": "item",
+                    "name": "cmd-unbind-key.c"
+                },
+                {
+                    "@type": "item",
+                    "name": "cmd-switch-client.c"
+                },
+                {
+                    "@type": "item",
+                    "name": "cmd-swap-pane.c"
+                },
+                {
+                    "@type": "item",
+                    "name": "cmd-break-pane.c"
+                },
+                {
+                    "@type": "item",
+                    "name": "cmd-list-keys.c"
+                },
+                {
+                    "@type": "item",
+                    "name": "cmd-send-keys.c"
+                },
+                {
+                    "@type": "item",
+                    "name": "cmd-save-buffer.c"
+                },
+                {
+                    "@type": "item",
+                    "name": "cmd-select-pane.c"
+                },
+                {
+                    "@type": "item",
+                    "name": "cmd-select-window.c"
+                },
+                {
+                    "@type": "item",
+                    "name": "cmd-respawn-window.c"
+                },
+                {
+                    "@type": "item",
+                    "name": "cmd-respawn-pane.c"
+                }
+            ]
+        },
+        {
+            "@type": "group",
+            "name": "2",
+            "nested": [
+                {
+                    "@type": "item",
+                    "name": "xmalloc.h"
+                },
+                {
+                    "@type": "item",
+                    "name": "xmalloc.c"
+                },
+                {
+                    "@type": "item",
+                    "name": "osdep-dragonfly.c"
+                },
+                {
+                    "@type": "item",
+                    "name": "options-table.c"
+                },
+                {
+                    "@type": "item",
+                    "name": "tmux-protocol.h"
+                },
+                {
+                    "@type": "item",
+                    "name": "osdep-darwin.c"
+                },
+                {
+                    "@type": "item",
+                    "name": "tmux.c"
+                },
+                {
+                    "@type": "item",
+                    "name": "tmux.h"
+                },
+                {
+                    "@type": "item",
+                    "name": "osdep-linux.c"
+                },
+                {
+                    "@type": "item",
+                    "name": "grid-reader.c"
+                },
+                {
+                    "@type": "item",
+                    "name": "input.c"
+                },
+                {
+                    "@type": "item",
+                    "name": "screen-write.c"
+                },
+                {
+                    "@type": "item",
+                    "name": "osdep-unknown.c"
+                },
+                {
+                    "@type": "item",
+                    "name": "log.c"
+                },
+                {
+                    "@type": "item",
+                    "name": "mode-tree.c"
+                },
+                {
+                    "@type": "item",
+                    "name": "control-notify.c"
+                },
+                {
+                    "@type": "item",
+                    "name": "attributes.c"
+                },
+                {
+                    "@type": "item",
+                    "name": "client.c"
+                },
+                {
+                    "@type": "item",
+                    "name": "server-acl.c"
+                },
+                {
+                    "@type": "item",
+                    "name": "key-bindings.c"
+                },
+                {
+                    "@type": "item",
+                    "name": "layout-custom.c"
+                },
+                {
+                    "@type": "item",
+                    "name": "file.c"
+                },
+                {
+                    "@type": "item",
+                    "name": "cmd-wait-for.c"
+                },
+                {
+                    "@type": "item",
+                    "name": "cmd-find.c"
+                },
+                {
+                    "@type": "item",
+                    "name": "status.c"
+                },
+                {
+                    "@type": "item",
+                    "name": "server.c"
+                },
+                {
+                    "@type": "item",
+                    "name": "spawn.c"
+                },
+                {
+                    "@type": "item",
+                    "name": "server-client.c"
+                },
+                {
+                    "@type": "item",
+                    "name": "control.c"
+                },
+                {
+                    "@type": "item",
+                    "name": "grid.c"
+                },
+                {
+                    "@type": "item",
+                    "name": "cmd-attach-session.c"
+                },
+                {
+                    "@type": "item",
+                    "name": "popup.c"
+                },
+                {
+                    "@type": "item",
+                    "name": "alerts.c"
+                },
+                {
+                    "@type": "item",
+                    "name": "paste.c"
+                },
+                {
+                    "@type": "item",
+                    "name": "arguments.c"
+                },
+                {
+                    "@type": "item",
+                    "name": "osdep-netbsd.c"
+                },
+                {
+                    "@type": "item",
+                    "name": "job.c"
+                },
+                {
+                    "@type": "item",
+                    "name": "proc.c"
+                },
+                {
+                    "@type": "item",
+                    "name": "grid-view.c"
+                },
+                {
+                    "@type": "item",
+                    "name": "input-keys.c"
+                },
+                {
+                    "@type": "item",
+                    "name": "hyperlinks.c"
+                },
+                {
+                    "@type": "item",
+                    "name": "screen-redraw.c"
+                },
+                {
+                    "@type": "item",
+                    "name": "format.c"
+                },
+                {
+                    "@type": "item",
+                    "name": "resize.c"
+                },
+                {
+                    "@type": "item",
+                    "name": "format-draw.c"
+                },
+                {
+                    "@type": "item",
+                    "name": "key-string.c"
+                },
+                {
+                    "@type": "item",
+                    "name": "menu.c"
+                },
+                {
+                    "@type": "item",
+                    "name": "regsub.c"
+                },
+                {
+                    "@type": "item",
+                    "name": "cfg.c"
+                },
+                {
+                    "@type": "item",
+                    "name": "osdep-sunos.c"
+                },
+                {
+                    "@type": "item",
+                    "name": "window-copy.c"
+                },
+                {
+                    "@type": "item",
+                    "name": "utf8.c"
+                },
+                {
+                    "@type": "item",
+                    "name": "cmd-queue.c"
+                },
+                {
+                    "@type": "item",
+                    "name": "osdep-cygwin.c"
+                },
+                {
+                    "@type": "item",
+                    "name": "style.c"
+                },
+                {
+                    "@type": "item",
+                    "name": "server-fn.c"
+                },
+                {
+                    "@type": "item",
+                    "name": "osdep-hpux.c"
+                },
+                {
+                    "@type": "item",
+                    "name": "window.c"
+                },
+                {
+                    "@type": "item",
+                    "name": "screen.c"
+                },
+                {
+                    "@type": "item",
+                    "name": "environ.c"
+                },
+                {
+                    "@type": "item",
+                    "name": "cmd.c"
+                },
+                {
+                    "@type": "item",
+                    "name": "colour.c"
+                },
+                {
+                    "@type": "item",
+                    "name": "session.c"
+                },
+                {
+                    "@type": "item",
+                    "name": "tty-term.c"
+                },
+                {
+                    "@type": "item",
+                    "name": "layout-set.c"
+                },
+                {
+                    "@type": "item",
+                    "name": "options.c"
+                },
+                {
+                    "@type": "item",
+                    "name": "notify.c"
+                },
+                {
+                    "@type": "item",
+                    "name": "osdep-haiku.c"
+                },
+                {
+                    "@type": "item",
+                    "name": "layout.c"
+                },
+                {
+                    "@type": "item",
+                    "name": "osdep-aix.c"
+                },
+                {
+                    "@type": "item",
+                    "name": "names.c"
+                },
+                {
+                    "@type": "item",
+                    "name": "tty.c"
+                },
+                {
+                    "@type": "item",
+                    "name": "tty-features.c"
+                },
+                {
+                    "@type": "item",
+                    "name": "tty-keys.c"
+                },
+                {
+                    "@type": "item",
+                    "name": "tty-acs.c"
+                },
+                {
+                    "@type": "item",
+                    "name": "osdep-freebsd.c"
+                },
+                {
+                    "@type": "item",
+                    "name": "osdep-openbsd.c"
+                }
+            ]
+        },
+        {
+            "@type": "group",
+            "name": "3",
+            "nested": [
+                {
+                    "@type": "item",
+                    "name": "compat/daemon-darwin.c"
+                },
+                {
+                    "@type": "item",
+                    "name": "compat/systemd.c"
+                },
+                {
+                    "@type": "item",
+                    "name": "compat/imsg.h"
+                },
+                {
+                    "@type": "item",
+                    "name": "compat/imsg.c"
+                },
+                {
+                    "@type": "item",
+                    "name": "compat/imsg-buffer.c"
+                },
+                {
+                    "@type": "item",
+                    "name": "compat/vis.h"
+                },
+                {
+                    "@type": "item",
+                    "name": "compat/unvis.c"
+                },
+                {
+                    "@type": "item",
+                    "name": "compat/vis.c"
+                },
+                {
+                    "@type": "item",
+                    "name": "compat/utf8proc.c"
+                },
+                {
+                    "@type": "item",
+                    "name": "compat/base64.c"
+                },
+                {
+                    "@type": "item",
+                    "name": "compat.h"
+                },
+                {
+                    "@type": "item",
+                    "name": "compat/strtonum.c"
+                },
+                {
+                    "@type": "item",
+                    "name": "compat/reallocarray.c"
+                },
+                {
+                    "@type": "item",
+                    "name": "compat/closefrom.c"
+                },
+                {
+                    "@type": "item",
+                    "name": "compat/getprogname.c"
+                },
+                {
+                    "@type": "item",
+                    "name": "compat/freezero.c"
+                },
+                {
+                    "@type": "item",
+                    "name": "compat/strsep.c"
+                },
+                {
+                    "@type": "item",
+                    "name": "compat/getdtablecount.c"
+                },
+                {
+                    "@type": "item",
+                    "name": "compat/clock_gettime.c"
+                },
+                {
+                    "@type": "item",
+                    "name": "compat/getline.c"
+                },
+                {
+                    "@type": "item",
+                    "name": "compat/cfmakeraw.c"
+                },
+                {
+                    "@type": "item",
+                    "name": "compat/memmem.c"
+                },
+                {
+                    "@type": "item",
+                    "name": "compat/daemon.c"
+                },
+                {
+                    "@type": "item",
+                    "name": "compat/forkpty-sunos.c"
+                },
+                {
+                    "@type": "item",
+                    "name": "compat/strndup.c"
+                },
+                {
+                    "@type": "item",
+                    "name": "compat/strlcat.c"
+                },
+                {
+                    "@type": "item",
+                    "name": "compat/fdforkpty.c"
+                },
+                {
+                    "@type": "item",
+                    "name": "compat/forkpty-aix.c"
+                },
+                {
+                    "@type": "item",
+                    "name": "compat/setproctitle.c"
+                },
+                {
+                    "@type": "item",
+                    "name": "compat/strcasestr.c"
+                },
+                {
+                    "@type": "item",
+                    "name": "compat/strnlen.c"
+                },
+                {
+                    "@type": "item",
+                    "name": "compat/asprintf.c"
+                },
+                {
+                    "@type": "item",
+                    "name": "compat/recallocarray.c"
+                },
+                {
+                    "@type": "item",
+                    "name": "compat/forkpty-haiku.c"
+                },
+                {
+                    "@type": "item",
+                    "name": "compat/explicit_bzero.c"
+                },
+                {
+                    "@type": "item",
+                    "name": "compat/fgetln.c"
+                },
+                {
+                    "@type": "item",
+                    "name": "compat/getpeereid.c"
+                },
+                {
+                    "@type": "item",
+                    "name": "compat/err.c"
+                },
+                {
+                    "@type": "item",
+                    "name": "compat/forkpty-hpux.c"
+                },
+                {
+                    "@type": "item",
+                    "name": "compat/setenv.c"
+                },
+                {
+                    "@type": "item",
+                    "name": "compat/strlcpy.c"
+                },
+                {
+                    "@type": "item",
+                    "name": "compat/getopt.c"
+                }
+            ]
+        },
+        {
+            "@type": "group",
+            "name": "4",
+            "nested": [
+                {
+                    "@type": "item",
+                    "name": "cmd-show-prompt-history.c"
+                },
+                {
+                    "@type": "item",
+                    "name": "cmd-show-options.c"
+                },
+                {
+                    "@type": "item",
+                    "name": "cmd-command-prompt.c"
+                },
+                {
+                    "@type": "item",
+                    "name": "cmd-show-messages.c"
+                },
+                {
+                    "@type": "item",
+                    "name": "cmd-display-message.c"
+                },
+                {
+                    "@type": "item",
+                    "name": "cmd-show-environment.c"
+                }
+            ]
+        },
+        {
+            "@type": "group",
+            "name": "5",
+            "nested": [
+                {
+                    "@type": "item",
+                    "name": "window-customize.c"
+                },
+                {
+                    "@type": "item",
+                    "name": "window-client.c"
+                },
+                {
+                    "@type": "item",
+                    "name": "window-buffer.c"
+                },
+                {
+                    "@type": "item",
+                    "name": "window-clock.c"
+                },
+                {
+                    "@type": "item",
+                    "name": "window-tree.c"
+                }
+            ]
+        },
+        {
+            "@type": "group",
+            "name": "6",
+            "nested": [
+                {
+                    "@type": "item",
+                    "name": "cmd-refresh-client.c"
+                },
+                {
+                    "@type": "item",
+                    "name": "cmd-run-shell.c"
+                },
+                {
+                    "@type": "item",
+                    "name": "cmd-if-shell.c"
+                }
+            ]
+        },
+        {
+            "@type": "group",
+            "name": "7",
+            "nested": [
+                {
+                    "@type": "item",
+                    "name": "cmd-display-menu.c"
+                }
+            ]
+        },
+        {
+            "@type": "group",
+            "name": "8",
+            "nested": [
+                {
+                    "@type": "item",
+                    "name": "cmd-new-session.c"
+                }
+            ]
+        },
+        {
+            "@type": "group",
+            "name": "9",
+            "nested": [
+                {
+                    "@type": "item",
+                    "name": "cmd-pipe-pane.c"
+                }
+            ]
+        },
+        {
+            "@type": "group",
+            "name": "10",
+            "nested": [
+                {
+                    "@type": "item",
+                    "name": "cmd-server-access.c"
+                }
+            ]
+        },
+        {
+            "@type": "group",
+            "name": "11",
+            "nested": [
+                {
+                    "@type": "item",
+                    "name": "cmd-source-file.c"
+                }
+            ]
+        },
+        {
+            "@type": "group",
+            "name": "12",
+            "nested": [
+                {
+                    "@type": "item",
+                    "name": "cmd-split-window.c"
+                }
+            ]
+        },
+        {
+            "@type": "group",
+            "name": "13",
+            "nested": [
+                {
+                    "@type": "item",
+                    "name": "compat/bitstring.h"
+                }
+            ]
+        },
+        {
+            "@type": "group",
+            "name": "14",
+            "nested": [
+                {
+                    "@type": "item",
+                    "name": "compat/getdtablesize.c"
+                }
+            ]
+        },
+        {
+            "@type": "group",
+            "name": "15",
+            "nested": [
+                {
+                    "@type": "item",
+                    "name": "compat/queue.h"
+                }
+            ]
+        },
+        {
+            "@type": "group",
+            "name": "16",
+            "nested": [
+                {
+                    "@type": "item",
+                    "name": "compat/tree.h"
+                }
+            ]
+        },
+        {
+            "@type": "group",
+            "name": "17",
+            "nested": [
+                {
+                    "@type": "item",
+                    "name": "fuzz/input-fuzzer.c"
+                }
+            ]
+        }
+    ]
+}

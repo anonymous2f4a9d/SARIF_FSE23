@@ -1,0 +1,82 @@
+{
+    "@schemaVersion": "1.0",
+    "name": "clustering",
+    "structure": [
+        {
+            "@type": "group",
+            "name": "0",
+            "nested": [
+                {
+                    "@type": "item",
+                    "name": "src/hde/pstdint.h"
+                },
+                {
+                    "@type": "item",
+                    "name": "src/hde/hde64.h"
+                },
+                {
+                    "@type": "item",
+                    "name": "src/hde/hde32.h"
+                }
+            ]
+        },
+        {
+            "@type": "group",
+            "name": "1",
+            "nested": [
+                {
+                    "@type": "item",
+                    "name": "src/trampoline.h"
+                },
+                {
+                    "@type": "item",
+                    "name": "src/trampoline.c"
+                },
+                {
+                    "@type": "item",
+                    "name": "src/buffer.h"
+                },
+                {
+                    "@type": "item",
+                    "name": "src/buffer.c"
+                },
+                {
+                    "@type": "item",
+                    "name": "include/MinHook.h"
+                },
+                {
+                    "@type": "item",
+                    "name": "src/hook.c"
+                }
+            ]
+        },
+        {
+            "@type": "group",
+            "name": "2",
+            "nested": [
+                {
+                    "@type": "item",
+                    "name": "src/hde/hde32.c"
+                },
+                {
+                    "@type": "item",
+                    "name": "src/hde/hde64.c"
+                }
+            ]
+        },
+        {
+            "@type": "group",
+            "name": "3",
+            "nested": [
+                {
+                    "@type": "item",
+                    "name": "src/hde/table64.h"
+                },
+                {
+                    "@type": "item",
+                    "name": "src/hde/table32.h"
+                }
+            ]
+        }
+    ]
+}

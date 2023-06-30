@@ -1,0 +1,300 @@
+{
+    "@schemaVersion": "1.0",
+    "name": "clustering",
+    "structure": [
+        {
+            "@type": "group",
+            "name": "0",
+            "nested": [
+                {
+                    "@type": "item",
+                    "name": "src/main/java/io/xream/rey/internal/ClientBackendProxy.java"
+                },
+                {
+                    "@type": "item",
+                    "name": "src/main/java/io/xream/rey/internal/ClientBackendInvocationHandler.java"
+                },
+                {
+                    "@type": "item",
+                    "name": "src/main/java/io/xream/rey/api/custom/RestTemplateCustomizer.java"
+                },
+                {
+                    "@type": "item",
+                    "name": "src/main/java/io/xream/rey/internal/BackendDecoration.java"
+                },
+                {
+                    "@type": "item",
+                    "name": "src/main/java/io/xream/rey/internal/ReyClient.java"
+                },
+                {
+                    "@type": "item",
+                    "name": "src/main/java/io/xream/rey/internal/ClientBackendLogger.java"
+                },
+                {
+                    "@type": "item",
+                    "name": "src/main/java/io/xream/rey/config/ReyConfigurable.java"
+                },
+                {
+                    "@type": "item",
+                    "name": "src/main/java/io/xream/rey/internal/ClientBackendImpl.java"
+                },
+                {
+                    "@type": "item",
+                    "name": "src/main/java/io/xream/rey/spring/beanconfiguration/ReyClientConfig.java"
+                },
+                {
+                    "@type": "item",
+                    "name": "src/main/java/io/xream/rey/internal/ClientBackend.java"
+                }
+            ]
+        },
+        {
+            "@type": "group",
+            "name": "1",
+            "nested": [
+                {
+                    "@type": "item",
+                    "name": "src/main/java/io/xream/rey/fallback/aop/FallbackInterceptor.java"
+                },
+                {
+                    "@type": "item",
+                    "name": "src/main/java/io/xream/rey/spring/beanconfiguration/RestTemplateConfig.java"
+                },
+                {
+                    "@type": "item",
+                    "name": "src/main/java/io/xream/rey/internal/HttpProperties.java"
+                },
+                {
+                    "@type": "item",
+                    "name": "src/main/java/io/xream/rey/fallback/monitor/FallbackCounter.java"
+                },
+                {
+                    "@type": "item",
+                    "name": "src/main/java/io/xream/rey/fallback/Fallback.java"
+                },
+                {
+                    "@type": "item",
+                    "name": "src/main/java/io/xream/rey/fallback/FallbacKey.java"
+                },
+                {
+                    "@type": "item",
+                    "name": "src/main/java/io/xream/rey/fallback/FallbackParser.java"
+                },
+                {
+                    "@type": "item",
+                    "name": "src/main/java/io/xream/rey/fallback/FallbackParsed.java"
+                }
+            ]
+        },
+        {
+            "@type": "group",
+            "name": "2",
+            "nested": [
+                {
+                    "@type": "item",
+                    "name": "src/main/java/io/xream/rey/proto/RemoteExceptionProto.java"
+                },
+                {
+                    "@type": "item",
+                    "name": "src/main/java/io/xream/rey/api/TaggedException.java"
+                },
+                {
+                    "@type": "item",
+                    "name": "src/main/java/io/xream/rey/internal/DefaultRespondedExceptionConverter.java"
+                },
+                {
+                    "@type": "item",
+                    "name": "src/main/java/io/xream/rey/proto/RemoteExceptionUnknown.java"
+                },
+                {
+                    "@type": "item",
+                    "name": "src/main/java/io/xream/rey/exception/ReyInternalException.java"
+                },
+                {
+                    "@type": "item",
+                    "name": "src/main/java/io/xream/rey/api/ReyHttpStatus.java"
+                },
+                {
+                    "@type": "item",
+                    "name": "src/main/java/io/xream/rey/exception/ReyRuntimeException.java"
+                }
+            ]
+        },
+        {
+            "@type": "group",
+            "name": "3",
+            "nested": [
+                {
+                    "@type": "item",
+                    "name": "src/main/java/io/xream/rey/internal/DefaultClientExceptionProcessSupportable.java"
+                },
+                {
+                    "@type": "item",
+                    "name": "src/main/java/io/xream/rey/api/exceptionhandler/FallbackDeterminate.java"
+                },
+                {
+                    "@type": "item",
+                    "name": "src/main/java/io/xream/rey/internal/DefaultFallbackDeterminate.java"
+                },
+                {
+                    "@type": "item",
+                    "name": "src/main/java/io/xream/rey/resilience4j/R4JCallNotPermittedExceptionConverter.java"
+                },
+                {
+                    "@type": "item",
+                    "name": "src/main/java/io/xream/rey/api/exceptionhandler/ClientExceptionProcessSupportable.java"
+                },
+                {
+                    "@type": "item",
+                    "name": "src/main/java/io/xream/rey/api/exceptionhandler/CallNotPermittedExceptionConverter.java"
+                },
+                {
+                    "@type": "item",
+                    "name": "src/main/java/io/xream/rey/api/exceptionhandler/RespondedExceptionConverter.java"
+                }
+            ]
+        },
+        {
+            "@type": "group",
+            "name": "4",
+            "nested": [
+                {
+                    "@type": "item",
+                    "name": "src/main/java/io/xream/rey/exception/MismatchedReturnTypeException.java"
+                },
+                {
+                    "@type": "item",
+                    "name": "src/main/java/io/xream/rey/internal/R.java"
+                },
+                {
+                    "@type": "item",
+                    "name": "src/main/java/io/xream/rey/api/GroupRouter.java"
+                },
+                {
+                    "@type": "item",
+                    "name": "src/main/java/io/xream/rey/internal/ReyParsed.java"
+                },
+                {
+                    "@type": "item",
+                    "name": "src/main/java/io/xream/rey/internal/MethodParsed.java"
+                },
+                {
+                    "@type": "item",
+                    "name": "src/main/java/io/xream/rey/internal/ReyParser.java"
+                }
+            ]
+        },
+        {
+            "@type": "group",
+            "name": "5",
+            "nested": [
+                {
+                    "@type": "item",
+                    "name": "src/main/java/io/xream/rey/spring/exceptionhandler/ReyInternalExceptionHandler.java"
+                },
+                {
+                    "@type": "item",
+                    "name": "src/main/java/io/xream/rey/spring/exceptionhandler/CallNotPermittedExceptionHandler.java"
+                },
+                {
+                    "@type": "item",
+                    "name": "src/main/java/io/xream/rey/spring/exceptionhandler/ReyRuntimeExceptionHandler.java"
+                },
+                {
+                    "@type": "item",
+                    "name": "src/main/java/io/xream/rey/spring/exceptionhandler/IgnoreFallbackExceptionHandler.java"
+                },
+                {
+                    "@type": "item",
+                    "name": "src/main/java/io/xream/rey/spring/exceptionhandler/Spring400ExceptionHandler.java"
+                }
+            ]
+        },
+        {
+            "@type": "group",
+            "name": "6",
+            "nested": [
+                {
+                    "@type": "item",
+                    "name": "src/main/java/io/xream/rey/api/ClientHeaderInterceptor.java"
+                },
+                {
+                    "@type": "item",
+                    "name": "src/main/java/io/xream/rey/proto/ReyResponse.java"
+                },
+                {
+                    "@type": "item",
+                    "name": "src/main/java/io/xream/rey/internal/DefaultClientRestTemplate.java"
+                },
+                {
+                    "@type": "item",
+                    "name": "src/main/java/io/xream/rey/api/ClientRestTemplate.java"
+                }
+            ]
+        },
+        {
+            "@type": "group",
+            "name": "7",
+            "nested": [
+                {
+                    "@type": "item",
+                    "name": "src/main/java/io/xream/rey/resilience4j/R4JTemplate.java"
+                },
+                {
+                    "@type": "item",
+                    "name": "src/main/java/io/xream/rey/api/ReyTemplate.java"
+                },
+                {
+                    "@type": "item",
+                    "name": "src/main/java/io/xream/rey/api/BackendService.java"
+                }
+            ]
+        },
+        {
+            "@type": "group",
+            "name": "8",
+            "nested": [
+                {
+                    "@type": "item",
+                    "name": "src/main/java/io/xream/rey/spring/beanconfiguration/FallbackConfig.java"
+                },
+                {
+                    "@type": "item",
+                    "name": "src/main/java/io/xream/rey/spring/beanconfiguration/ClientHeaderInterceptorPostProcessor.java"
+                },
+                {
+                    "@type": "item",
+                    "name": "src/main/java/io/xream/rey/spring/beanconfiguration/FallbackPostProcessor.java"
+                }
+            ]
+        },
+        {
+            "@type": "group",
+            "name": "9",
+            "nested": [
+                {
+                    "@type": "item",
+                    "name": "src/main/java/io/xream/rey/annotation/ReyClient.java"
+                },
+                {
+                    "@type": "item",
+                    "name": "src/main/java/io/xream/rey/annotation/Fallback.java"
+                }
+            ]
+        },
+        {
+            "@type": "group",
+            "name": "10",
+            "nested": [
+                {
+                    "@type": "item",
+                    "name": "src/main/java/io/xream/rey/api/UrlParamed.java"
+                },
+                {
+                    "@type": "item",
+                    "name": "src/main/java/io/xream/rey/api/Assert4C.java"
+                }
+            ]
+        }
+    ]
+}

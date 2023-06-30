@@ -1,0 +1,622 @@
+{
+    "@schemaVersion": "1.0",
+    "name": "clustering",
+    "structure": [
+        {
+            "@type": "group",
+            "name": "0",
+            "nested": [
+                {
+                    "@type": "item",
+                    "name": "userspace/falco/app/actions/create_requested_paths.cpp"
+                },
+                {
+                    "@type": "item",
+                    "name": "userspace/falco/app/actions/print_help.cpp"
+                },
+                {
+                    "@type": "item",
+                    "name": "userspace/falco/app/actions/validate_rules_files.cpp"
+                },
+                {
+                    "@type": "item",
+                    "name": "userspace/falco/app/actions/init_inspectors.cpp"
+                },
+                {
+                    "@type": "item",
+                    "name": "userspace/falco/app/actions/print_plugin_info.cpp"
+                },
+                {
+                    "@type": "item",
+                    "name": "userspace/falco/app/actions/init_falco_engine.cpp"
+                },
+                {
+                    "@type": "item",
+                    "name": "userspace/falco/app/state.h"
+                },
+                {
+                    "@type": "item",
+                    "name": "userspace/falco/app/actions/init_clients.cpp"
+                },
+                {
+                    "@type": "item",
+                    "name": "userspace/falco/app/actions/list_plugins.cpp"
+                },
+                {
+                    "@type": "item",
+                    "name": "userspace/falco/app/restart_handler.h"
+                },
+                {
+                    "@type": "item",
+                    "name": "userspace/falco/app/actions/select_event_sources.cpp"
+                },
+                {
+                    "@type": "item",
+                    "name": "userspace/falco/app/actions/print_page_size.cpp"
+                },
+                {
+                    "@type": "item",
+                    "name": "userspace/falco/app/actions/actions.h"
+                },
+                {
+                    "@type": "item",
+                    "name": "userspace/falco/app/actions/daemonize.cpp"
+                },
+                {
+                    "@type": "item",
+                    "name": "userspace/falco/app/actions/configure_syscall_buffer_num.cpp"
+                },
+                {
+                    "@type": "item",
+                    "name": "userspace/falco/app/actions/print_syscall_events.cpp"
+                },
+                {
+                    "@type": "item",
+                    "name": "userspace/falco/app/actions/configure_syscall_buffer_size.cpp"
+                },
+                {
+                    "@type": "item",
+                    "name": "userspace/falco/app/actions/print_generated_gvisor_config.cpp"
+                },
+                {
+                    "@type": "item",
+                    "name": "userspace/falco/app/actions/print_ignored_events.cpp"
+                },
+                {
+                    "@type": "item",
+                    "name": "userspace/falco/app/actions/helpers.h"
+                },
+                {
+                    "@type": "item",
+                    "name": "userspace/falco/app/actions/list_fields.cpp"
+                },
+                {
+                    "@type": "item",
+                    "name": "userspace/falco/app/actions/helpers_generic.cpp"
+                },
+                {
+                    "@type": "item",
+                    "name": "userspace/falco/app/actions/load_plugins.cpp"
+                }
+            ]
+        },
+        {
+            "@type": "group",
+            "name": "1",
+            "nested": [
+                {
+                    "@type": "item",
+                    "name": "userspace/falco/app/options.h"
+                },
+                {
+                    "@type": "item",
+                    "name": "userspace/falco/app/options.cpp"
+                },
+                {
+                    "@type": "item",
+                    "name": "userspace/falco/configuration.h"
+                },
+                {
+                    "@type": "item",
+                    "name": "userspace/falco/yaml_helper.h"
+                },
+                {
+                    "@type": "item",
+                    "name": "userspace/falco/configuration.cpp"
+                },
+                {
+                    "@type": "item",
+                    "name": "userspace/falco/app/actions/configure_interesting_sets.cpp"
+                },
+                {
+                    "@type": "item",
+                    "name": "userspace/falco/event_drops.h"
+                },
+                {
+                    "@type": "item",
+                    "name": "userspace/falco/event_drops.cpp"
+                },
+                {
+                    "@type": "item",
+                    "name": "userspace/falco/logger.h"
+                },
+                {
+                    "@type": "item",
+                    "name": "userspace/falco/logger.cpp"
+                },
+                {
+                    "@type": "item",
+                    "name": "userspace/falco/app/restart_handler.cpp"
+                },
+                {
+                    "@type": "item",
+                    "name": "userspace/falco/grpc_queue.h"
+                },
+                {
+                    "@type": "item",
+                    "name": "userspace/falco/app/actions/load_config.cpp"
+                },
+                {
+                    "@type": "item",
+                    "name": "userspace/falco/semaphore.h"
+                },
+                {
+                    "@type": "item",
+                    "name": "userspace/falco/falco_outputs.h"
+                },
+                {
+                    "@type": "item",
+                    "name": "userspace/falco/falco_outputs.cpp"
+                },
+                {
+                    "@type": "item",
+                    "name": "userspace/falco/watchdog.h"
+                },
+                {
+                    "@type": "item",
+                    "name": "userspace/falco/stats_writer.h"
+                },
+                {
+                    "@type": "item",
+                    "name": "userspace/falco/stats_writer.cpp"
+                },
+                {
+                    "@type": "item",
+                    "name": "userspace/falco/app/actions/helpers_inspector.cpp"
+                },
+                {
+                    "@type": "item",
+                    "name": "userspace/falco/app/actions/process_events.cpp"
+                },
+                {
+                    "@type": "item",
+                    "name": "userspace/falco/app/actions/load_rules_files.cpp"
+                }
+            ]
+        },
+        {
+            "@type": "group",
+            "name": "2",
+            "nested": [
+                {
+                    "@type": "item",
+                    "name": "userspace/falco/app/actions/init_outputs.cpp"
+                },
+                {
+                    "@type": "item",
+                    "name": "userspace/falco/outputs_grpc.cpp"
+                },
+                {
+                    "@type": "item",
+                    "name": "userspace/falco/outputs_http.cpp"
+                },
+                {
+                    "@type": "item",
+                    "name": "userspace/falco/outputs_http.h"
+                },
+                {
+                    "@type": "item",
+                    "name": "userspace/falco/outputs.h"
+                },
+                {
+                    "@type": "item",
+                    "name": "userspace/falco/outputs_stdout.h"
+                },
+                {
+                    "@type": "item",
+                    "name": "userspace/falco/outputs_syslog.h"
+                },
+                {
+                    "@type": "item",
+                    "name": "userspace/falco/outputs_stdout.cpp"
+                },
+                {
+                    "@type": "item",
+                    "name": "userspace/falco/outputs_program.cpp"
+                },
+                {
+                    "@type": "item",
+                    "name": "userspace/falco/outputs_file.h"
+                },
+                {
+                    "@type": "item",
+                    "name": "userspace/falco/outputs_syslog.cpp"
+                },
+                {
+                    "@type": "item",
+                    "name": "userspace/falco/outputs_file.cpp"
+                },
+                {
+                    "@type": "item",
+                    "name": "userspace/falco/outputs_program.h"
+                },
+                {
+                    "@type": "item",
+                    "name": "userspace/falco/outputs_grpc.h"
+                }
+            ]
+        },
+        {
+            "@type": "group",
+            "name": "3",
+            "nested": [
+                {
+                    "@type": "item",
+                    "name": "userspace/engine/falco_utils.h"
+                },
+                {
+                    "@type": "item",
+                    "name": "userspace/engine/falco_utils.cpp"
+                },
+                {
+                    "@type": "item",
+                    "name": "userspace/engine/falco_common.h"
+                },
+                {
+                    "@type": "item",
+                    "name": "userspace/engine/falco_common.cpp"
+                },
+                {
+                    "@type": "item",
+                    "name": "userspace/engine/filter_details_resolver.h"
+                },
+                {
+                    "@type": "item",
+                    "name": "userspace/engine/filter_details_resolver.cpp"
+                },
+                {
+                    "@type": "item",
+                    "name": "userspace/engine/formats.h"
+                },
+                {
+                    "@type": "item",
+                    "name": "userspace/engine/formats.cpp"
+                },
+                {
+                    "@type": "item",
+                    "name": "userspace/engine/falco_engine.h"
+                },
+                {
+                    "@type": "item",
+                    "name": "userspace/engine/falco_engine.cpp"
+                },
+                {
+                    "@type": "item",
+                    "name": "userspace/engine/stats_manager.h"
+                },
+                {
+                    "@type": "item",
+                    "name": "userspace/engine/stats_manager.cpp"
+                },
+                {
+                    "@type": "item",
+                    "name": "userspace/engine/json_evt.h"
+                },
+                {
+                    "@type": "item",
+                    "name": "userspace/engine/json_evt.cpp"
+                },
+                {
+                    "@type": "item",
+                    "name": "userspace/engine/falco_engine_version.h"
+                },
+                {
+                    "@type": "item",
+                    "name": "userspace/engine/banned.h"
+                },
+                {
+                    "@type": "item",
+                    "name": "userspace/engine/falco_rule.h"
+                },
+                {
+                    "@type": "item",
+                    "name": "userspace/engine/falco_source.h"
+                },
+                {
+                    "@type": "item",
+                    "name": "userspace/engine/filter_ruleset.h"
+                },
+                {
+                    "@type": "item",
+                    "name": "userspace/engine/evttype_index_ruleset.h"
+                },
+                {
+                    "@type": "item",
+                    "name": "userspace/engine/evttype_index_ruleset.cpp"
+                }
+            ]
+        },
+        {
+            "@type": "group",
+            "name": "4",
+            "nested": [
+                {
+                    "@type": "item",
+                    "name": "userspace/falco/grpc_request_context.h"
+                },
+                {
+                    "@type": "item",
+                    "name": "userspace/falco/grpc_request_context.cpp"
+                },
+                {
+                    "@type": "item",
+                    "name": "userspace/falco/grpc_server.cpp"
+                },
+                {
+                    "@type": "item",
+                    "name": "userspace/falco/app/actions/start_grpc_server.cpp"
+                },
+                {
+                    "@type": "item",
+                    "name": "userspace/falco/grpc_server_impl.cpp"
+                },
+                {
+                    "@type": "item",
+                    "name": "userspace/falco/grpc_context.h"
+                },
+                {
+                    "@type": "item",
+                    "name": "userspace/falco/grpc_context.cpp"
+                },
+                {
+                    "@type": "item",
+                    "name": "userspace/falco/grpc_server.h"
+                },
+                {
+                    "@type": "item",
+                    "name": "userspace/falco/grpc_server_impl.h"
+                }
+            ]
+        },
+        {
+            "@type": "group",
+            "name": "5",
+            "nested": [
+                {
+                    "@type": "item",
+                    "name": "userspace/engine/rule_loader_collector.h"
+                },
+                {
+                    "@type": "item",
+                    "name": "userspace/engine/rule_loader_collector.cpp"
+                },
+                {
+                    "@type": "item",
+                    "name": "userspace/engine/rule_loader_compiler.h"
+                },
+                {
+                    "@type": "item",
+                    "name": "userspace/engine/rule_loader_compiler.cpp"
+                },
+                {
+                    "@type": "item",
+                    "name": "userspace/engine/filter_macro_resolver.h"
+                },
+                {
+                    "@type": "item",
+                    "name": "userspace/engine/filter_macro_resolver.cpp"
+                },
+                {
+                    "@type": "item",
+                    "name": "userspace/engine/indexed_vector.h"
+                },
+                {
+                    "@type": "item",
+                    "name": "userspace/engine/falco_load_result.h"
+                },
+                {
+                    "@type": "item",
+                    "name": "userspace/engine/falco_load_result.cpp"
+                },
+                {
+                    "@type": "item",
+                    "name": "userspace/engine/rule_loader.h"
+                },
+                {
+                    "@type": "item",
+                    "name": "userspace/engine/rule_loader.cpp"
+                },
+                {
+                    "@type": "item",
+                    "name": "userspace/engine/rule_loader_reader.h"
+                },
+                {
+                    "@type": "item",
+                    "name": "userspace/engine/rule_loader_reader.cpp"
+                },
+                {
+                    "@type": "item",
+                    "name": "userspace/engine/filter_warning_resolver.h"
+                },
+                {
+                    "@type": "item",
+                    "name": "userspace/engine/filter_warning_resolver.cpp"
+                }
+            ]
+        },
+        {
+            "@type": "group",
+            "name": "6",
+            "nested": [
+                {
+                    "@type": "item",
+                    "name": "userspace/falco/falco.cpp"
+                },
+                {
+                    "@type": "item",
+                    "name": "userspace/falco/app/signals.h"
+                },
+                {
+                    "@type": "item",
+                    "name": "userspace/falco/app/actions/create_signal_handlers.cpp"
+                },
+                {
+                    "@type": "item",
+                    "name": "userspace/falco/atomic_signal_handler.h"
+                },
+                {
+                    "@type": "item",
+                    "name": "userspace/falco/app/app.cpp"
+                },
+                {
+                    "@type": "item",
+                    "name": "userspace/falco/app/app.h"
+                },
+                {
+                    "@type": "item",
+                    "name": "userspace/falco/app/run_result.h"
+                }
+            ]
+        },
+        {
+            "@type": "group",
+            "name": "7",
+            "nested": [
+                {
+                    "@type": "item",
+                    "name": "userspace/falco/webserver.h"
+                },
+                {
+                    "@type": "item",
+                    "name": "userspace/falco/webserver.cpp"
+                },
+                {
+                    "@type": "item",
+                    "name": "userspace/falco/app/actions/print_support.cpp"
+                },
+                {
+                    "@type": "item",
+                    "name": "userspace/falco/app/actions/start_webserver.cpp"
+                },
+                {
+                    "@type": "item",
+                    "name": "userspace/falco/app/actions/print_version.cpp"
+                },
+                {
+                    "@type": "item",
+                    "name": "userspace/falco/versions_info.h"
+                },
+                {
+                    "@type": "item",
+                    "name": "userspace/falco/versions_info.cpp"
+                }
+            ]
+        },
+        {
+            "@type": "group",
+            "name": "8",
+            "nested": [
+                {
+                    "@type": "item",
+                    "name": "unit_tests/engine/test_filter_warning_resolver.cpp"
+                },
+                {
+                    "@type": "item",
+                    "name": "unit_tests/engine/test_filter_details_resolver.cpp"
+                },
+                {
+                    "@type": "item",
+                    "name": "unit_tests/engine/test_falco_utils.cpp"
+                },
+                {
+                    "@type": "item",
+                    "name": "unit_tests/engine/test_filter_macro_resolver.cpp"
+                }
+            ]
+        },
+        {
+            "@type": "group",
+            "name": "9",
+            "nested": [
+                {
+                    "@type": "item",
+                    "name": "unit_tests/falco/app/actions/test_select_event_sources.cpp"
+                },
+                {
+                    "@type": "item",
+                    "name": "unit_tests/falco/app/actions/test_configure_interesting_sets.cpp"
+                },
+                {
+                    "@type": "item",
+                    "name": "unit_tests/falco/app/actions/app_action_helpers.h"
+                },
+                {
+                    "@type": "item",
+                    "name": "unit_tests/falco/app/actions/test_configure_syscall_buffer_num.cpp"
+                }
+            ]
+        },
+        {
+            "@type": "group",
+            "name": "10",
+            "nested": [
+                {
+                    "@type": "item",
+                    "name": "test/plugins/test_extract.cpp"
+                },
+                {
+                    "@type": "item",
+                    "name": "test/plugins/test_source.cpp"
+                },
+                {
+                    "@type": "item",
+                    "name": "test/plugins/incompat_api.cpp"
+                }
+            ]
+        },
+        {
+            "@type": "group",
+            "name": "11",
+            "nested": [
+                {
+                    "@type": "item",
+                    "name": "unit_tests/falco/test_configuration.cpp"
+                },
+                {
+                    "@type": "item",
+                    "name": "unit_tests/falco/test_atomic_signal_handler.cpp"
+                }
+            ]
+        },
+        {
+            "@type": "group",
+            "name": "12",
+            "nested": [
+                {
+                    "@type": "item",
+                    "name": "unit_tests/engine/test_plugin_requirements.cpp"
+                }
+            ]
+        },
+        {
+            "@type": "group",
+            "name": "13",
+            "nested": [
+                {
+                    "@type": "item",
+                    "name": "unit_tests/engine/test_rulesets.cpp"
+                }
+            ]
+        }
+    ]
+}

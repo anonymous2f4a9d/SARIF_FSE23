@@ -1,0 +1,854 @@
+{
+    "@schemaVersion": "1.0",
+    "name": "clustering",
+    "structure": [
+        {
+            "@type": "group",
+            "name": "0",
+            "nested": [
+                {
+                    "@type": "item",
+                    "name": "samples/STL/crash.cpp"
+                },
+                {
+                    "@type": "item",
+                    "name": "samples/STL/flags.cpp"
+                },
+                {
+                    "@type": "item",
+                    "name": "samples/STL/check-macros.cpp"
+                },
+                {
+                    "@type": "item",
+                    "name": "samples/STL/logger-log-functions.cpp"
+                },
+                {
+                    "@type": "item",
+                    "name": "samples/STL/very-basic.cpp"
+                },
+                {
+                    "@type": "item",
+                    "name": "samples/STL/conditional.cpp"
+                },
+                {
+                    "@type": "item",
+                    "name": "samples/STL/occasional.cpp"
+                },
+                {
+                    "@type": "item",
+                    "name": "samples/STL/plog.cpp"
+                },
+                {
+                    "@type": "item",
+                    "name": "samples/STL/default-configurations.cpp"
+                },
+                {
+                    "@type": "item",
+                    "name": "samples/STL/no-default-log-file.cpp"
+                },
+                {
+                    "@type": "item",
+                    "name": "samples/STL/timed-scope.cpp"
+                },
+                {
+                    "@type": "item",
+                    "name": "samples/STL/log-dispatch-callback.cpp"
+                },
+                {
+                    "@type": "item",
+                    "name": "samples/STL/del-logger.cpp"
+                },
+                {
+                    "@type": "item",
+                    "name": "samples/STL/autospace.cpp"
+                },
+                {
+                    "@type": "item",
+                    "name": "samples/STL/configurator.cpp"
+                },
+                {
+                    "@type": "item",
+                    "name": "samples/STL/global-configuration.cpp"
+                },
+                {
+                    "@type": "item",
+                    "name": "samples/STL/default-log-file-from-arg.cpp"
+                },
+                {
+                    "@type": "item",
+                    "name": "samples/STL/smart-pointer-null-check.cpp"
+                },
+                {
+                    "@type": "item",
+                    "name": "samples/STL/custom-crash-handler.cpp"
+                },
+                {
+                    "@type": "item",
+                    "name": "samples/STL/all-logs.cpp"
+                },
+                {
+                    "@type": "item",
+                    "name": "samples/STL/timed-block.cpp"
+                },
+                {
+                    "@type": "item",
+                    "name": "samples/STL/locale.cpp"
+                },
+                {
+                    "@type": "item",
+                    "name": "samples/STL/new-logger-registration-callback.cpp"
+                },
+                {
+                    "@type": "item",
+                    "name": "samples/STL/multi-loggers-to-same-file.cpp"
+                },
+                {
+                    "@type": "item",
+                    "name": "samples/STL/manipulators.cpp"
+                },
+                {
+                    "@type": "item",
+                    "name": "samples/STL/post-performance-tracking-handler.cpp"
+                },
+                {
+                    "@type": "item",
+                    "name": "samples/STL/roll-out.cpp"
+                },
+                {
+                    "@type": "item",
+                    "name": "samples/STL/verbose.cpp"
+                }
+            ]
+        },
+        {
+            "@type": "group",
+            "name": "1",
+            "nested": [
+                {
+                    "@type": "item",
+                    "name": "test/registry-test.h"
+                },
+                {
+                    "@type": "item",
+                    "name": "test/enum-helper-test.h"
+                },
+                {
+                    "@type": "item",
+                    "name": "test/post-log-dispatch-handler-test.h"
+                },
+                {
+                    "@type": "item",
+                    "name": "test/syslog-test.h"
+                },
+                {
+                    "@type": "item",
+                    "name": "test/log-format-resolution-test.h"
+                },
+                {
+                    "@type": "item",
+                    "name": "test/typed-configurations-test.h"
+                },
+                {
+                    "@type": "item",
+                    "name": "test/command-line-args-test.h"
+                },
+                {
+                    "@type": "item",
+                    "name": "test/utilities-test.h"
+                },
+                {
+                    "@type": "item",
+                    "name": "test/loggable-test.h"
+                },
+                {
+                    "@type": "item",
+                    "name": "test/main.cc"
+                },
+                {
+                    "@type": "item",
+                    "name": "test/verbose-app-arguments-test.h"
+                },
+                {
+                    "@type": "item",
+                    "name": "test/format-specifier-test.h"
+                },
+                {
+                    "@type": "item",
+                    "name": "test/plog-test.h"
+                },
+                {
+                    "@type": "item",
+                    "name": "test/strict-file-size-check-test.h"
+                },
+                {
+                    "@type": "item",
+                    "name": "test/date-utils-test.h"
+                },
+                {
+                    "@type": "item",
+                    "name": "test/logger-test.h"
+                },
+                {
+                    "@type": "item",
+                    "name": "test/global-configurations-test.h"
+                },
+                {
+                    "@type": "item",
+                    "name": "test/file-utils-test.h"
+                },
+                {
+                    "@type": "item",
+                    "name": "test/custom-format-specifier-test.h"
+                },
+                {
+                    "@type": "item",
+                    "name": "test/test.h"
+                },
+                {
+                    "@type": "item",
+                    "name": "test/configurations-test.h"
+                },
+                {
+                    "@type": "item",
+                    "name": "test/string-utils-test.h"
+                },
+                {
+                    "@type": "item",
+                    "name": "test/hit-counter-test.h"
+                },
+                {
+                    "@type": "item",
+                    "name": "test/helpers-test.h"
+                },
+                {
+                    "@type": "item",
+                    "name": "test/write-all-test.h"
+                },
+                {
+                    "@type": "item",
+                    "name": "test/macros-test.h"
+                },
+                {
+                    "@type": "item",
+                    "name": "test/os-utils-test.h"
+                }
+            ]
+        },
+        {
+            "@type": "group",
+            "name": "2",
+            "nested": [
+                {
+                    "@type": "item",
+                    "name": "samples/STL/multiple-loggers.cpp"
+                },
+                {
+                    "@type": "item",
+                    "name": "samples/STL/custom-format-spec.cpp"
+                },
+                {
+                    "@type": "item",
+                    "name": "samples/STL/logrotate.cpp"
+                },
+                {
+                    "@type": "item",
+                    "name": "samples/STL/thread-names.cpp"
+                },
+                {
+                    "@type": "item",
+                    "name": "samples/STL/loggable.cpp"
+                },
+                {
+                    "@type": "item",
+                    "name": "samples/STL/easylogging++.h"
+                },
+                {
+                    "@type": "item",
+                    "name": "samples/STL/custom-class.cpp"
+                },
+                {
+                    "@type": "item",
+                    "name": "samples/STL/custom-performance-output.cpp"
+                },
+                {
+                    "@type": "item",
+                    "name": "samples/STL/different-output.cpp"
+                },
+                {
+                    "@type": "item",
+                    "name": "samples/STL/logrotate-pthread.cpp"
+                },
+                {
+                    "@type": "item",
+                    "name": "samples/STL/multi-loggers-with-async.cpp"
+                },
+                {
+                    "@type": "item",
+                    "name": "samples/STL/helpers.cpp"
+                },
+                {
+                    "@type": "item",
+                    "name": "samples/STL/pthread.cpp"
+                },
+                {
+                    "@type": "item",
+                    "name": "samples/STL/containers.cpp"
+                },
+                {
+                    "@type": "item",
+                    "name": "samples/STL/make-loggable.cpp"
+                }
+            ]
+        },
+        {
+            "@type": "group",
+            "name": "3",
+            "nested": [
+                {
+                    "@type": "item",
+                    "name": "samples/Qt/file-splitter-joiner/joinercore.h"
+                },
+                {
+                    "@type": "item",
+                    "name": "samples/Qt/file-splitter-joiner/joinercore.cpp"
+                },
+                {
+                    "@type": "item",
+                    "name": "samples/Qt/file-splitter-joiner/main.cpp"
+                },
+                {
+                    "@type": "item",
+                    "name": "samples/Qt/file-splitter-joiner/mainwindow.h"
+                },
+                {
+                    "@type": "item",
+                    "name": "samples/Qt/file-splitter-joiner/mainwindow.cpp"
+                },
+                {
+                    "@type": "item",
+                    "name": "samples/Qt/file-splitter-joiner/joinerwidget.h"
+                },
+                {
+                    "@type": "item",
+                    "name": "samples/Qt/file-splitter-joiner/joinerwidget.cpp"
+                },
+                {
+                    "@type": "item",
+                    "name": "samples/Qt/file-splitter-joiner/splittercore.h"
+                },
+                {
+                    "@type": "item",
+                    "name": "samples/Qt/file-splitter-joiner/splittercore.cpp"
+                },
+                {
+                    "@type": "item",
+                    "name": "samples/Qt/file-splitter-joiner/partprocessor.h"
+                },
+                {
+                    "@type": "item",
+                    "name": "samples/Qt/file-splitter-joiner/partprocessor.cpp"
+                },
+                {
+                    "@type": "item",
+                    "name": "samples/Qt/file-splitter-joiner/about.h"
+                },
+                {
+                    "@type": "item",
+                    "name": "samples/Qt/file-splitter-joiner/about.cpp"
+                },
+                {
+                    "@type": "item",
+                    "name": "samples/Qt/file-splitter-joiner/splitablefiledelegate.h"
+                },
+                {
+                    "@type": "item",
+                    "name": "samples/Qt/file-splitter-joiner/splitablefiledelegate.cpp"
+                },
+                {
+                    "@type": "item",
+                    "name": "samples/Qt/file-splitter-joiner/easylogging++.h"
+                },
+                {
+                    "@type": "item",
+                    "name": "samples/Qt/file-splitter-joiner/addsplittedfiledialog.h"
+                },
+                {
+                    "@type": "item",
+                    "name": "samples/Qt/file-splitter-joiner/addsplittedfiledialog.cpp"
+                },
+                {
+                    "@type": "item",
+                    "name": "samples/Qt/file-splitter-joiner/splitterwidget.h"
+                },
+                {
+                    "@type": "item",
+                    "name": "samples/Qt/file-splitter-joiner/splitterwidget.cpp"
+                }
+            ]
+        },
+        {
+            "@type": "group",
+            "name": "4",
+            "nested": [
+                {
+                    "@type": "item",
+                    "name": "samples/boost/list.cpp"
+                },
+                {
+                    "@type": "item",
+                    "name": "samples/boost/map.cpp"
+                },
+                {
+                    "@type": "item",
+                    "name": "samples/boost/vector.cpp"
+                },
+                {
+                    "@type": "item",
+                    "name": "samples/boost/deque.cpp"
+                },
+                {
+                    "@type": "item",
+                    "name": "samples/boost/set.cpp"
+                },
+                {
+                    "@type": "item",
+                    "name": "samples/boost/string.cpp"
+                },
+                {
+                    "@type": "item",
+                    "name": "samples/boost/easylogging++.h"
+                }
+            ]
+        },
+        {
+            "@type": "group",
+            "name": "5",
+            "nested": [
+                {
+                    "@type": "item",
+                    "name": "samples/wxWidgets/wxhashmap.cpp"
+                },
+                {
+                    "@type": "item",
+                    "name": "samples/wxWidgets/wxlonglong.cpp"
+                },
+                {
+                    "@type": "item",
+                    "name": "samples/wxWidgets/wxstring.cpp"
+                },
+                {
+                    "@type": "item",
+                    "name": "samples/wxWidgets/wxhashset.cpp"
+                },
+                {
+                    "@type": "item",
+                    "name": "samples/wxWidgets/easylogging++.h"
+                },
+                {
+                    "@type": "item",
+                    "name": "samples/wxWidgets/wxlist.cpp"
+                },
+                {
+                    "@type": "item",
+                    "name": "samples/wxWidgets/wxvector.cpp"
+                }
+            ]
+        },
+        {
+            "@type": "group",
+            "name": "6",
+            "nested": [
+                {
+                    "@type": "item",
+                    "name": "samples/OpenGL/easylogging++.h"
+                },
+                {
+                    "@type": "item",
+                    "name": "samples/OpenGL/Cube/imageloader.cpp"
+                },
+                {
+                    "@type": "item",
+                    "name": "samples/OpenGL/basic.cpp"
+                },
+                {
+                    "@type": "item",
+                    "name": "samples/OpenGL/Cube/main.cpp"
+                },
+                {
+                    "@type": "item",
+                    "name": "samples/OpenGL/Cube/imageloader.h"
+                }
+            ]
+        },
+        {
+            "@type": "group",
+            "name": "7",
+            "nested": [
+                {
+                    "@type": "item",
+                    "name": "samples/Qt/shared-lib/myapp/main.cc"
+                },
+                {
+                    "@type": "item",
+                    "name": "samples/Qt/shared-lib/mylib/mylib.cc"
+                },
+                {
+                    "@type": "item",
+                    "name": "samples/Qt/shared-lib/myapp/easylogging++.h"
+                },
+                {
+                    "@type": "item",
+                    "name": "samples/Qt/shared-lib/mylib/easylogging++.h"
+                }
+            ]
+        },
+        {
+            "@type": "group",
+            "name": "8",
+            "nested": [
+                {
+                    "@type": "item",
+                    "name": "samples/STL/shared-static-libs/easylogging++.h"
+                },
+                {
+                    "@type": "item",
+                    "name": "samples/STL/shared-static-libs/myapp.cpp"
+                },
+                {
+                    "@type": "item",
+                    "name": "samples/STL/shared-static-libs/lib/include/mylib.hpp"
+                },
+                {
+                    "@type": "item",
+                    "name": "samples/STL/shared-static-libs/lib/mylib.cpp"
+                },
+                {
+                    "@type": "item",
+                    "name": "samples/STL/shared-static-libs/lib/include/easylogging++.h"
+                }
+            ]
+        },
+        {
+            "@type": "group",
+            "name": "9",
+            "nested": [
+                {
+                    "@type": "item",
+                    "name": "samples/async/easylogging++.h"
+                },
+                {
+                    "@type": "item",
+                    "name": "samples/async/mymath.h"
+                },
+                {
+                    "@type": "item",
+                    "name": "samples/async/prog.cpp"
+                },
+                {
+                    "@type": "item",
+                    "name": "samples/async/easylogging++.cc"
+                }
+            ]
+        },
+        {
+            "@type": "group",
+            "name": "10",
+            "nested": [
+                {
+                    "@type": "item",
+                    "name": "samples/MinGW/easylogging++.cc"
+                },
+                {
+                    "@type": "item",
+                    "name": "samples/MinGW/prog.cpp"
+                },
+                {
+                    "@type": "item",
+                    "name": "samples/MinGW/easylogging++.h"
+                }
+            ]
+        },
+        {
+            "@type": "group",
+            "name": "11",
+            "nested": [
+                {
+                    "@type": "item",
+                    "name": "samples/Qt/basic/main.cpp"
+                },
+                {
+                    "@type": "item",
+                    "name": "samples/Qt/basic/easylogging++.h"
+                },
+                {
+                    "@type": "item",
+                    "name": "samples/Qt/basic/mythread.h"
+                }
+            ]
+        },
+        {
+            "@type": "group",
+            "name": "12",
+            "nested": [
+                {
+                    "@type": "item",
+                    "name": "samples/STL/syslog.cpp"
+                },
+                {
+                    "@type": "item",
+                    "name": "samples/STL/std-array.cpp"
+                },
+                {
+                    "@type": "item",
+                    "name": "samples/STL/easylogging++.cc"
+                }
+            ]
+        },
+        {
+            "@type": "group",
+            "name": "13",
+            "nested": [
+                {
+                    "@type": "item",
+                    "name": "samples/VC++/VCPP2015_Win32/VCPP2015_Win32/easylogging++.h"
+                },
+                {
+                    "@type": "item",
+                    "name": "samples/VC++/VCPP2015_Win32/VCPP2015_Win32/main.cpp"
+                },
+                {
+                    "@type": "item",
+                    "name": "samples/VC++/VCPP2015_Win32/VCPP2015_Win32/easylogging++.cpp"
+                }
+            ]
+        },
+        {
+            "@type": "group",
+            "name": "14",
+            "nested": [
+                {
+                    "@type": "item",
+                    "name": "samples/gtkmm/sigc++.cpp"
+                },
+                {
+                    "@type": "item",
+                    "name": "samples/gtkmm/ustring.cpp"
+                },
+                {
+                    "@type": "item",
+                    "name": "samples/gtkmm/easylogging++.h"
+                }
+            ]
+        },
+        {
+            "@type": "group",
+            "name": "15",
+            "nested": [
+                {
+                    "@type": "item",
+                    "name": "samples/gtkmm/hello_gtkmm/easylogging++.h"
+                },
+                {
+                    "@type": "item",
+                    "name": "samples/gtkmm/hello_gtkmm/window.h"
+                },
+                {
+                    "@type": "item",
+                    "name": "samples/gtkmm/hello_gtkmm/window.cc"
+                },
+                {
+                    "@type": "item",
+                    "name": "samples/gtkmm/hello_gtkmm/main.cc"
+                }
+            ]
+        },
+        {
+            "@type": "group",
+            "name": "16",
+            "nested": [
+                {
+                    "@type": "item",
+                    "name": "samples/API/logbuilder.cpp"
+                },
+                {
+                    "@type": "item",
+                    "name": "samples/API/easylogging++.h"
+                }
+            ]
+        },
+        {
+            "@type": "group",
+            "name": "17",
+            "nested": [
+                {
+                    "@type": "item",
+                    "name": "samples/Qt/fast-dictionary/moc_listwithsearch.cpp"
+                },
+                {
+                    "@type": "item",
+                    "name": "samples/Qt/fast-dictionary/moc_mainwindow.cpp"
+                }
+            ]
+        },
+        {
+            "@type": "group",
+            "name": "18",
+            "nested": [
+                {
+                    "@type": "item",
+                    "name": "samples/Qt/fast-dictionary/mainwindow.cc"
+                },
+                {
+                    "@type": "item",
+                    "name": "samples/Qt/fast-dictionary/ui_mainwindow.h"
+                }
+            ]
+        },
+        {
+            "@type": "group",
+            "name": "19",
+            "nested": [
+                {
+                    "@type": "item",
+                    "name": "samples/VC++/VCPP2015_Win32_Multithreaded/VCPP2015_Win32/easylogging++.h"
+                },
+                {
+                    "@type": "item",
+                    "name": "samples/VC++/VCPP2015_Win32_Multithreaded/VCPP2015_Win32/main.cpp"
+                }
+            ]
+        },
+        {
+            "@type": "group",
+            "name": "20",
+            "nested": [
+                {
+                    "@type": "item",
+                    "name": "samples/send-to-network/easylogging++.h"
+                },
+                {
+                    "@type": "item",
+                    "name": "samples/send-to-network/network-logger.cpp"
+                }
+            ]
+        },
+        {
+            "@type": "group",
+            "name": "21",
+            "nested": [
+                {
+                    "@type": "item",
+                    "name": "test/easylogging++.h"
+                },
+                {
+                    "@type": "item",
+                    "name": "test/easylogging++.cc"
+                }
+            ]
+        },
+        {
+            "@type": "group",
+            "name": "22",
+            "nested": [
+                {
+                    "@type": "item",
+                    "name": "samples/API/easylogging++.cc"
+                }
+            ]
+        },
+        {
+            "@type": "group",
+            "name": "23",
+            "nested": [
+                {
+                    "@type": "item",
+                    "name": "samples/OpenGL/easylogging++.cc"
+                }
+            ]
+        },
+        {
+            "@type": "group",
+            "name": "24",
+            "nested": [
+                {
+                    "@type": "item",
+                    "name": "samples/Qt/fast-dictionary/listwithsearch.cc"
+                }
+            ]
+        },
+        {
+            "@type": "group",
+            "name": "25",
+            "nested": [
+                {
+                    "@type": "item",
+                    "name": "samples/Qt/fast-dictionary/main.cc"
+                }
+            ]
+        },
+        {
+            "@type": "group",
+            "name": "26",
+            "nested": [
+                {
+                    "@type": "item",
+                    "name": "samples/VC++/VCPP2015_Win32_Multithreaded/VCPP2015_Win32/easylogging++.cc"
+                }
+            ]
+        },
+        {
+            "@type": "group",
+            "name": "27",
+            "nested": [
+                {
+                    "@type": "item",
+                    "name": "samples/boost/easylogging++.cc"
+                }
+            ]
+        },
+        {
+            "@type": "group",
+            "name": "28",
+            "nested": [
+                {
+                    "@type": "item",
+                    "name": "samples/gtkmm/easylogging++.cc"
+                }
+            ]
+        },
+        {
+            "@type": "group",
+            "name": "29",
+            "nested": [
+                {
+                    "@type": "item",
+                    "name": "samples/send-to-network/easylogging++.cc"
+                }
+            ]
+        },
+        {
+            "@type": "group",
+            "name": "30",
+            "nested": [
+                {
+                    "@type": "item",
+                    "name": "samples/wxWidgets/easylogging++.cc"
+                }
+            ]
+        },
+        {
+            "@type": "group",
+            "name": "31",
+            "nested": [
+                {
+                    "@type": "item",
+                    "name": "src/easylogging++.h"
+                },
+                {
+                    "@type": "item",
+                    "name": "src/easylogging++.cc"
+                }
+            ]
+        }
+    ]
+}

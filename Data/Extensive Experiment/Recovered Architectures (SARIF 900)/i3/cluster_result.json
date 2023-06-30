@@ -1,0 +1,722 @@
+{
+    "@schemaVersion": "1.0",
+    "name": "clustering",
+    "structure": [
+        {
+            "@type": "group",
+            "name": "0",
+            "nested": [
+                {
+                    "@type": "item",
+                    "name": "include/manage.h"
+                },
+                {
+                    "@type": "item",
+                    "name": "src/manage.c"
+                },
+                {
+                    "@type": "item",
+                    "name": "include/drag.h"
+                },
+                {
+                    "@type": "item",
+                    "name": "src/drag.c"
+                },
+                {
+                    "@type": "item",
+                    "name": "include/xcb.h"
+                },
+                {
+                    "@type": "item",
+                    "name": "src/xcb.c"
+                },
+                {
+                    "@type": "item",
+                    "name": "include/x.h"
+                },
+                {
+                    "@type": "item",
+                    "name": "src/x.c"
+                },
+                {
+                    "@type": "item",
+                    "name": "include/startup.h"
+                },
+                {
+                    "@type": "item",
+                    "name": "src/startup.c"
+                },
+                {
+                    "@type": "item",
+                    "name": "include/i3-atoms_NET_SUPPORTED.xmacro.h"
+                },
+                {
+                    "@type": "item",
+                    "name": "include/window.h"
+                },
+                {
+                    "@type": "item",
+                    "name": "src/window.c"
+                },
+                {
+                    "@type": "item",
+                    "name": "include/main.h"
+                },
+                {
+                    "@type": "item",
+                    "name": "src/main.c"
+                },
+                {
+                    "@type": "item",
+                    "name": "include/handlers.h"
+                },
+                {
+                    "@type": "item",
+                    "name": "src/handlers.c"
+                },
+                {
+                    "@type": "item",
+                    "name": "include/sd-daemon.h"
+                },
+                {
+                    "@type": "item",
+                    "name": "src/sd-daemon.c"
+                },
+                {
+                    "@type": "item",
+                    "name": "include/sighandler.h"
+                },
+                {
+                    "@type": "item",
+                    "name": "src/sighandler.c"
+                },
+                {
+                    "@type": "item",
+                    "name": "include/i3-atoms_rest.xmacro.h"
+                },
+                {
+                    "@type": "item",
+                    "name": "include/ewmh.h"
+                },
+                {
+                    "@type": "item",
+                    "name": "src/ewmh.c"
+                },
+                {
+                    "@type": "item",
+                    "name": "include/bindings.h"
+                },
+                {
+                    "@type": "item",
+                    "name": "src/bindings.c"
+                }
+            ]
+        },
+        {
+            "@type": "group",
+            "name": "1",
+            "nested": [
+                {
+                    "@type": "item",
+                    "name": "i3bar/include/configuration.h"
+                },
+                {
+                    "@type": "item",
+                    "name": "i3bar/src/config.c"
+                },
+                {
+                    "@type": "item",
+                    "name": "i3bar/src/main.c"
+                },
+                {
+                    "@type": "item",
+                    "name": "i3bar/include/child.h"
+                },
+                {
+                    "@type": "item",
+                    "name": "i3bar/src/child.c"
+                },
+                {
+                    "@type": "item",
+                    "name": "i3bar/include/trayclients.h"
+                },
+                {
+                    "@type": "item",
+                    "name": "i3bar/include/parse_json_header.h"
+                },
+                {
+                    "@type": "item",
+                    "name": "i3bar/src/parse_json_header.c"
+                },
+                {
+                    "@type": "item",
+                    "name": "i3bar/include/mode.h"
+                },
+                {
+                    "@type": "item",
+                    "name": "i3bar/src/mode.c"
+                },
+                {
+                    "@type": "item",
+                    "name": "i3bar/include/xcb.h"
+                },
+                {
+                    "@type": "item",
+                    "name": "i3bar/src/xcb.c"
+                },
+                {
+                    "@type": "item",
+                    "name": "i3bar/include/workspaces.h"
+                },
+                {
+                    "@type": "item",
+                    "name": "i3bar/src/workspaces.c"
+                },
+                {
+                    "@type": "item",
+                    "name": "i3bar/include/ipc.h"
+                },
+                {
+                    "@type": "item",
+                    "name": "i3bar/src/ipc.c"
+                },
+                {
+                    "@type": "item",
+                    "name": "i3bar/include/outputs.h"
+                },
+                {
+                    "@type": "item",
+                    "name": "i3bar/src/outputs.c"
+                },
+                {
+                    "@type": "item",
+                    "name": "i3bar/include/common.h"
+                },
+                {
+                    "@type": "item",
+                    "name": "i3bar/include/util.h"
+                }
+            ]
+        },
+        {
+            "@type": "group",
+            "name": "2",
+            "nested": [
+                {
+                    "@type": "item",
+                    "name": "include/key_press.h"
+                },
+                {
+                    "@type": "item",
+                    "name": "src/key_press.c"
+                },
+                {
+                    "@type": "item",
+                    "name": "include/load_layout.h"
+                },
+                {
+                    "@type": "item",
+                    "name": "src/load_layout.c"
+                },
+                {
+                    "@type": "item",
+                    "name": "include/libi3.h"
+                },
+                {
+                    "@type": "item",
+                    "name": "libi3/ipc_recv_message.c"
+                },
+                {
+                    "@type": "item",
+                    "name": "libi3/safewrappers.c"
+                },
+                {
+                    "@type": "item",
+                    "name": "libi3/screenshot_wallpaper.c"
+                },
+                {
+                    "@type": "item",
+                    "name": "libi3/draw_util.c"
+                },
+                {
+                    "@type": "item",
+                    "name": "libi3/format_placeholders.c"
+                },
+                {
+                    "@type": "item",
+                    "name": "libi3/get_exe_path.c"
+                },
+                {
+                    "@type": "item",
+                    "name": "libi3/dpi.c"
+                },
+                {
+                    "@type": "item",
+                    "name": "libi3/font.c"
+                },
+                {
+                    "@type": "item",
+                    "name": "libi3/resolve_tilde.c"
+                },
+                {
+                    "@type": "item",
+                    "name": "libi3/ipc_connect.c"
+                },
+                {
+                    "@type": "item",
+                    "name": "libi3/string.c"
+                },
+                {
+                    "@type": "item",
+                    "name": "libi3/strndup.c"
+                },
+                {
+                    "@type": "item",
+                    "name": "libi3/get_visualtype.c"
+                },
+                {
+                    "@type": "item",
+                    "name": "libi3/create_socket.c"
+                },
+                {
+                    "@type": "item",
+                    "name": "libi3/get_config_path.c"
+                },
+                {
+                    "@type": "item",
+                    "name": "libi3/is_background_set.c"
+                },
+                {
+                    "@type": "item",
+                    "name": "libi3/root_atom_contents.c"
+                },
+                {
+                    "@type": "item",
+                    "name": "libi3/g_utf8_make_valid.c"
+                },
+                {
+                    "@type": "item",
+                    "name": "libi3/ipc_send_message.c"
+                },
+                {
+                    "@type": "item",
+                    "name": "libi3/is_debug_build.c"
+                },
+                {
+                    "@type": "item",
+                    "name": "libi3/path_exists.c"
+                },
+                {
+                    "@type": "item",
+                    "name": "libi3/mkdirp.c"
+                },
+                {
+                    "@type": "item",
+                    "name": "libi3/ucs2_conversion.c"
+                },
+                {
+                    "@type": "item",
+                    "name": "libi3/fake_configure_notify.c"
+                },
+                {
+                    "@type": "item",
+                    "name": "libi3/get_mod_mask.c"
+                },
+                {
+                    "@type": "item",
+                    "name": "libi3/boolstr.c"
+                },
+                {
+                    "@type": "item",
+                    "name": "libi3/nonblock.c"
+                },
+                {
+                    "@type": "item",
+                    "name": "libi3/get_colorpixel.c"
+                },
+                {
+                    "@type": "item",
+                    "name": "libi3/get_process_filename.c"
+                },
+                {
+                    "@type": "item",
+                    "name": "include/regex.h"
+                },
+                {
+                    "@type": "item",
+                    "name": "src/regex.c"
+                },
+                {
+                    "@type": "item",
+                    "name": "include/display_version.h"
+                },
+                {
+                    "@type": "item",
+                    "name": "src/display_version.c"
+                },
+                {
+                    "@type": "item",
+                    "name": "include/sync.h"
+                },
+                {
+                    "@type": "item",
+                    "name": "src/sync.c"
+                },
+                {
+                    "@type": "item",
+                    "name": "include/yajl_utils.h"
+                },
+                {
+                    "@type": "item",
+                    "name": "include/xcursor.h"
+                },
+                {
+                    "@type": "item",
+                    "name": "src/xcursor.c"
+                },
+                {
+                    "@type": "item",
+                    "name": "include/assignments.h"
+                },
+                {
+                    "@type": "item",
+                    "name": "src/assignments.c"
+                },
+                {
+                    "@type": "item",
+                    "name": "src/version.c"
+                },
+                {
+                    "@type": "item",
+                    "name": "include/match.h"
+                },
+                {
+                    "@type": "item",
+                    "name": "src/match.c"
+                },
+                {
+                    "@type": "item",
+                    "name": "include/all.h"
+                }
+            ]
+        },
+        {
+            "@type": "group",
+            "name": "3",
+            "nested": [
+                {
+                    "@type": "item",
+                    "name": "include/output.h"
+                },
+                {
+                    "@type": "item",
+                    "name": "src/output.c"
+                },
+                {
+                    "@type": "item",
+                    "name": "include/workspace.h"
+                },
+                {
+                    "@type": "item",
+                    "name": "src/workspace.c"
+                },
+                {
+                    "@type": "item",
+                    "name": "include/i3.h"
+                },
+                {
+                    "@type": "item",
+                    "name": "include/util.h"
+                },
+                {
+                    "@type": "item",
+                    "name": "src/util.c"
+                },
+                {
+                    "@type": "item",
+                    "name": "include/xinerama.h"
+                },
+                {
+                    "@type": "item",
+                    "name": "src/xinerama.c"
+                },
+                {
+                    "@type": "item",
+                    "name": "include/fake_outputs.h"
+                },
+                {
+                    "@type": "item",
+                    "name": "src/fake_outputs.c"
+                },
+                {
+                    "@type": "item",
+                    "name": "include/randr.h"
+                },
+                {
+                    "@type": "item",
+                    "name": "src/randr.c"
+                },
+                {
+                    "@type": "item",
+                    "name": "include/queue.h"
+                },
+                {
+                    "@type": "item",
+                    "name": "include/data.h"
+                }
+            ]
+        },
+        {
+            "@type": "group",
+            "name": "4",
+            "nested": [
+                {
+                    "@type": "item",
+                    "name": "include/tiling_drag.h"
+                },
+                {
+                    "@type": "item",
+                    "name": "src/tiling_drag.c"
+                },
+                {
+                    "@type": "item",
+                    "name": "include/render.h"
+                },
+                {
+                    "@type": "item",
+                    "name": "src/render.c"
+                },
+                {
+                    "@type": "item",
+                    "name": "include/floating.h"
+                },
+                {
+                    "@type": "item",
+                    "name": "src/floating.c"
+                },
+                {
+                    "@type": "item",
+                    "name": "include/tree.h"
+                },
+                {
+                    "@type": "item",
+                    "name": "src/tree.c"
+                },
+                {
+                    "@type": "item",
+                    "name": "include/scratchpad.h"
+                },
+                {
+                    "@type": "item",
+                    "name": "src/scratchpad.c"
+                },
+                {
+                    "@type": "item",
+                    "name": "include/con.h"
+                },
+                {
+                    "@type": "item",
+                    "name": "src/con.c"
+                },
+                {
+                    "@type": "item",
+                    "name": "include/move.h"
+                },
+                {
+                    "@type": "item",
+                    "name": "src/move.c"
+                },
+                {
+                    "@type": "item",
+                    "name": "include/click.h"
+                },
+                {
+                    "@type": "item",
+                    "name": "src/click.c"
+                }
+            ]
+        },
+        {
+            "@type": "group",
+            "name": "5",
+            "nested": [
+                {
+                    "@type": "item",
+                    "name": "include/log.h"
+                },
+                {
+                    "@type": "item",
+                    "name": "src/log.c"
+                },
+                {
+                    "@type": "item",
+                    "name": "include/shmlog.h"
+                },
+                {
+                    "@type": "item",
+                    "name": "include/commands_parser.h"
+                },
+                {
+                    "@type": "item",
+                    "name": "src/commands_parser.c"
+                },
+                {
+                    "@type": "item",
+                    "name": "include/resize.h"
+                },
+                {
+                    "@type": "item",
+                    "name": "src/resize.c"
+                },
+                {
+                    "@type": "item",
+                    "name": "include/commands.h"
+                },
+                {
+                    "@type": "item",
+                    "name": "src/commands.c"
+                }
+            ]
+        },
+        {
+            "@type": "group",
+            "name": "6",
+            "nested": [
+                {
+                    "@type": "item",
+                    "name": "include/config_parser.h"
+                },
+                {
+                    "@type": "item",
+                    "name": "src/config_parser.c"
+                },
+                {
+                    "@type": "item",
+                    "name": "include/config_directives.h"
+                },
+                {
+                    "@type": "item",
+                    "name": "src/config_directives.c"
+                },
+                {
+                    "@type": "item",
+                    "name": "include/restore_layout.h"
+                },
+                {
+                    "@type": "item",
+                    "name": "src/restore_layout.c"
+                },
+                {
+                    "@type": "item",
+                    "name": "include/configuration.h"
+                },
+                {
+                    "@type": "item",
+                    "name": "src/config.c"
+                }
+            ]
+        },
+        {
+            "@type": "group",
+            "name": "7",
+            "nested": [
+                {
+                    "@type": "item",
+                    "name": "i3-config-wizard/main.c"
+                },
+                {
+                    "@type": "item",
+                    "name": "i3-config-wizard/i3-config-wizard-atoms.xmacro.h"
+                },
+                {
+                    "@type": "item",
+                    "name": "i3-config-wizard/xcb.h"
+                }
+            ]
+        },
+        {
+            "@type": "group",
+            "name": "8",
+            "nested": [
+                {
+                    "@type": "item",
+                    "name": "i3-input/main.c"
+                },
+                {
+                    "@type": "item",
+                    "name": "i3-input/keysym2ucs.h"
+                },
+                {
+                    "@type": "item",
+                    "name": "i3-input/keysym2ucs.c"
+                },
+                {
+                    "@type": "item",
+                    "name": "i3-input/i3-input.h"
+                }
+            ]
+        },
+        {
+            "@type": "group",
+            "name": "9",
+            "nested": [
+                {
+                    "@type": "item",
+                    "name": "i3-nagbar/i3-nagbar-atoms.xmacro.h"
+                },
+                {
+                    "@type": "item",
+                    "name": "i3-nagbar/main.c"
+                }
+            ]
+        },
+        {
+            "@type": "group",
+            "name": "10",
+            "nested": [
+                {
+                    "@type": "item",
+                    "name": "include/ipc.h"
+                },
+                {
+                    "@type": "item",
+                    "name": "src/ipc.c"
+                },
+                {
+                    "@type": "item",
+                    "name": "include/i3/ipc.h"
+                }
+            ]
+        },
+        {
+            "@type": "group",
+            "name": "11",
+            "nested": [
+                {
+                    "@type": "item",
+                    "name": "testcases/inject_randr1.5.c"
+                }
+            ]
+        },
+        {
+            "@type": "group",
+            "name": "12",
+            "nested": [
+                {
+                    "@type": "item",
+                    "name": "i3-dump-log/main.c"
+                }
+            ]
+        },
+        {
+            "@type": "group",
+            "name": "13",
+            "nested": [
+                {
+                    "@type": "item",
+                    "name": "i3-msg/main.c"
+                }
+            ]
+        }
+    ]
+}

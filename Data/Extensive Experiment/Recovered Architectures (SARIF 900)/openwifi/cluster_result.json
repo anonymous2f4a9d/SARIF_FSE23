@@ -1,0 +1,164 @@
+{
+    "@schemaVersion": "1.0",
+    "name": "clustering",
+    "structure": [
+        {
+            "@type": "group",
+            "name": "0",
+            "nested": [
+                {
+                    "@type": "item",
+                    "name": "driver/side_ch/side_ch.c"
+                },
+                {
+                    "@type": "item",
+                    "name": "driver/xpu/xpu.c"
+                },
+                {
+                    "@type": "item",
+                    "name": "driver/openofdm_tx/openofdm_tx.c"
+                },
+                {
+                    "@type": "item",
+                    "name": "driver/hw_def.h"
+                },
+                {
+                    "@type": "item",
+                    "name": "driver/openofdm_rx/openofdm_rx.c"
+                },
+                {
+                    "@type": "item",
+                    "name": "driver/rx_intf/rx_intf.c"
+                },
+                {
+                    "@type": "item",
+                    "name": "driver/side_ch/side_ch.h"
+                },
+                {
+                    "@type": "item",
+                    "name": "driver/tx_intf/tx_intf.c"
+                }
+            ]
+        },
+        {
+            "@type": "group",
+            "name": "1",
+            "nested": [
+                {
+                    "@type": "item",
+                    "name": "user_space/inject_80211/inject_80211.h"
+                },
+                {
+                    "@type": "item",
+                    "name": "user_space/inject_80211/radiotap.h"
+                },
+                {
+                    "@type": "item",
+                    "name": "user_space/inject_80211/radiotap.c"
+                },
+                {
+                    "@type": "item",
+                    "name": "user_space/inject_80211/unaligned.h"
+                },
+                {
+                    "@type": "item",
+                    "name": "user_space/inject_80211/inject_80211.c"
+                },
+                {
+                    "@type": "item",
+                    "name": "user_space/inject_80211/ieee80211_radiotap.h"
+                },
+                {
+                    "@type": "item",
+                    "name": "user_space/inject_80211/analyze_80211.c"
+                },
+                {
+                    "@type": "item",
+                    "name": "user_space/inject_80211/uthash.h"
+                }
+            ]
+        },
+        {
+            "@type": "group",
+            "name": "2",
+            "nested": [
+                {
+                    "@type": "item",
+                    "name": "user_space/sdrctl_src/nl80211_testmode_def.h"
+                },
+                {
+                    "@type": "item",
+                    "name": "user_space/sdrctl_src/sdrctl.h"
+                },
+                {
+                    "@type": "item",
+                    "name": "user_space/sdrctl_src/sdrctl.c"
+                },
+                {
+                    "@type": "item",
+                    "name": "user_space/sdrctl_src/cmd.c"
+                },
+                {
+                    "@type": "item",
+                    "name": "user_space/sdrctl_src/sections.c"
+                },
+                {
+                    "@type": "item",
+                    "name": "user_space/sdrctl_src/nl80211.h"
+                }
+            ]
+        },
+        {
+            "@type": "group",
+            "name": "3",
+            "nested": [
+                {
+                    "@type": "item",
+                    "name": "driver/sdr.c"
+                },
+                {
+                    "@type": "item",
+                    "name": "driver/sysfs_intf.c"
+                },
+                {
+                    "@type": "item",
+                    "name": "driver/sdrctl_intf.c"
+                },
+                {
+                    "@type": "item",
+                    "name": "driver/sdr.h"
+                }
+            ]
+        },
+        {
+            "@type": "group",
+            "name": "4",
+            "nested": [
+                {
+                    "@type": "item",
+                    "name": "driver/xilinx_dma/xilinx_dma.c"
+                }
+            ]
+        },
+        {
+            "@type": "group",
+            "name": "5",
+            "nested": [
+                {
+                    "@type": "item",
+                    "name": "user_space/fast_reg_log/fast_reg_log.c"
+                }
+            ]
+        },
+        {
+            "@type": "group",
+            "name": "6",
+            "nested": [
+                {
+                    "@type": "item",
+                    "name": "user_space/side_ch_ctl_src/side_ch_ctl.c"
+                }
+            ]
+        }
+    ]
+}

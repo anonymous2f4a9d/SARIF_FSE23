@@ -1,0 +1,966 @@
+{
+    "@schemaVersion": "1.0",
+    "name": "clustering",
+    "structure": [
+        {
+            "@type": "group",
+            "name": "0",
+            "nested": [
+                {
+                    "@type": "item",
+                    "name": "dust3d/base/uuid.h"
+                },
+                {
+                    "@type": "item",
+                    "name": "dust3d/mesh/centripetal_catmull_rom_spline.h"
+                },
+                {
+                    "@type": "item",
+                    "name": "dust3d/mesh/centripetal_catmull_rom_spline.cc"
+                },
+                {
+                    "@type": "item",
+                    "name": "dust3d/base/snapshot_xml.h"
+                },
+                {
+                    "@type": "item",
+                    "name": "dust3d/base/snapshot_xml.cc"
+                },
+                {
+                    "@type": "item",
+                    "name": "dust3d/base/position_key.h"
+                },
+                {
+                    "@type": "item",
+                    "name": "dust3d/base/position_key.cc"
+                },
+                {
+                    "@type": "item",
+                    "name": "dust3d/mesh/rope_mesh.h"
+                },
+                {
+                    "@type": "item",
+                    "name": "dust3d/mesh/rope_mesh.cc"
+                },
+                {
+                    "@type": "item",
+                    "name": "application/sources/document_saver.h"
+                },
+                {
+                    "@type": "item",
+                    "name": "application/sources/document_saver.cc"
+                },
+                {
+                    "@type": "item",
+                    "name": "dust3d/base/combine_mode.h"
+                },
+                {
+                    "@type": "item",
+                    "name": "dust3d/base/combine_mode.cc"
+                },
+                {
+                    "@type": "item",
+                    "name": "dust3d/base/uuid.cc"
+                },
+                {
+                    "@type": "item",
+                    "name": "dust3d/mesh/tube_mesh_builder.h"
+                },
+                {
+                    "@type": "item",
+                    "name": "dust3d/mesh/tube_mesh_builder.cc"
+                },
+                {
+                    "@type": "item",
+                    "name": "dust3d/mesh/mesh_recombiner.h"
+                },
+                {
+                    "@type": "item",
+                    "name": "dust3d/mesh/mesh_recombiner.cc"
+                },
+                {
+                    "@type": "item",
+                    "name": "dust3d/base/snapshot.h"
+                },
+                {
+                    "@type": "item",
+                    "name": "dust3d/base/axis_aligned_bounding_box.h"
+                },
+                {
+                    "@type": "item",
+                    "name": "dust3d/mesh/weld_vertices.h"
+                },
+                {
+                    "@type": "item",
+                    "name": "dust3d/mesh/weld_vertices.cc"
+                },
+                {
+                    "@type": "item",
+                    "name": "dust3d/mesh/mesh_state.h"
+                },
+                {
+                    "@type": "item",
+                    "name": "dust3d/mesh/mesh_state.cc"
+                },
+                {
+                    "@type": "item",
+                    "name": "dust3d/mesh/trim_vertices.h"
+                },
+                {
+                    "@type": "item",
+                    "name": "dust3d/mesh/trim_vertices.cc"
+                },
+                {
+                    "@type": "item",
+                    "name": "dust3d/base/color.h"
+                },
+                {
+                    "@type": "item",
+                    "name": "dust3d/mesh/mesh_combiner.h"
+                },
+                {
+                    "@type": "item",
+                    "name": "dust3d/mesh/mesh_combiner.cc"
+                },
+                {
+                    "@type": "item",
+                    "name": "dust3d/base/vector2.h"
+                },
+                {
+                    "@type": "item",
+                    "name": "dust3d/base/vector3.h"
+                },
+                {
+                    "@type": "item",
+                    "name": "dust3d/base/vector3.cc"
+                },
+                {
+                    "@type": "item",
+                    "name": "dust3d/base/math.h"
+                },
+                {
+                    "@type": "item",
+                    "name": "dust3d/mesh/solid_mesh_boolean_operation.h"
+                },
+                {
+                    "@type": "item",
+                    "name": "dust3d/mesh/solid_mesh_boolean_operation.cc"
+                },
+                {
+                    "@type": "item",
+                    "name": "dust3d/mesh/hole_wrapper.h"
+                },
+                {
+                    "@type": "item",
+                    "name": "dust3d/mesh/hole_wrapper.cc"
+                },
+                {
+                    "@type": "item",
+                    "name": "dust3d/base/quaternion.h"
+                },
+                {
+                    "@type": "item",
+                    "name": "dust3d/mesh/stitch_mesh_builder.h"
+                },
+                {
+                    "@type": "item",
+                    "name": "dust3d/mesh/stitch_mesh_builder.cc"
+                },
+                {
+                    "@type": "item",
+                    "name": "dust3d/mesh/mesh_node.h"
+                },
+                {
+                    "@type": "item",
+                    "name": "dust3d/base/debug.h"
+                },
+                {
+                    "@type": "item",
+                    "name": "dust3d/mesh/triangulate.h"
+                },
+                {
+                    "@type": "item",
+                    "name": "dust3d/mesh/triangulate.cc"
+                },
+                {
+                    "@type": "item",
+                    "name": "dust3d/base/texture_type.h"
+                },
+                {
+                    "@type": "item",
+                    "name": "dust3d/base/texture_type.cc"
+                },
+                {
+                    "@type": "item",
+                    "name": "dust3d/mesh/smooth_normal.h"
+                },
+                {
+                    "@type": "item",
+                    "name": "dust3d/mesh/smooth_normal.cc"
+                },
+                {
+                    "@type": "item",
+                    "name": "dust3d/mesh/re_triangulator.h"
+                },
+                {
+                    "@type": "item",
+                    "name": "dust3d/mesh/re_triangulator.cc"
+                },
+                {
+                    "@type": "item",
+                    "name": "application/sources/mesh_generator.h"
+                },
+                {
+                    "@type": "item",
+                    "name": "dust3d/mesh/mesh_generator.h"
+                },
+                {
+                    "@type": "item",
+                    "name": "application/sources/mesh_generator.cc"
+                },
+                {
+                    "@type": "item",
+                    "name": "dust3d/mesh/section_remesher.h"
+                },
+                {
+                    "@type": "item",
+                    "name": "dust3d/mesh/section_remesher.cc"
+                },
+                {
+                    "@type": "item",
+                    "name": "dust3d/mesh/base_normal.h"
+                },
+                {
+                    "@type": "item",
+                    "name": "dust3d/mesh/base_normal.cc"
+                },
+                {
+                    "@type": "item",
+                    "name": "dust3d/base/cut_face.h"
+                },
+                {
+                    "@type": "item",
+                    "name": "dust3d/base/cut_face.cc"
+                },
+                {
+                    "@type": "item",
+                    "name": "dust3d/mesh/resolve_triangle_tangent.h"
+                },
+                {
+                    "@type": "item",
+                    "name": "dust3d/mesh/resolve_triangle_tangent.cc"
+                },
+                {
+                    "@type": "item",
+                    "name": "dust3d/base/object.h"
+                },
+                {
+                    "@type": "item",
+                    "name": "dust3d/mesh/solid_mesh.h"
+                },
+                {
+                    "@type": "item",
+                    "name": "dust3d/mesh/solid_mesh.cc"
+                },
+                {
+                    "@type": "item",
+                    "name": "dust3d/base/string.h"
+                },
+                {
+                    "@type": "item",
+                    "name": "dust3d/base/string.cc"
+                },
+                {
+                    "@type": "item",
+                    "name": "dust3d/mesh/hole_stitcher.h"
+                },
+                {
+                    "@type": "item",
+                    "name": "dust3d/mesh/hole_stitcher.cc"
+                },
+                {
+                    "@type": "item",
+                    "name": "dust3d/base/axis_aligned_bounding_box_tree.h"
+                },
+                {
+                    "@type": "item",
+                    "name": "dust3d/base/axis_aligned_bounding_box_tree.cc"
+                },
+                {
+                    "@type": "item",
+                    "name": "dust3d/base/part_target.h"
+                },
+                {
+                    "@type": "item",
+                    "name": "dust3d/base/part_target.cc"
+                },
+                {
+                    "@type": "item",
+                    "name": "dust3d/base/ds3_file.h"
+                },
+                {
+                    "@type": "item",
+                    "name": "dust3d/base/ds3_file.cc"
+                },
+                {
+                    "@type": "item",
+                    "name": "dust3d/mesh/mesh_generator.cc"
+                }
+            ]
+        },
+        {
+            "@type": "group",
+            "name": "1",
+            "nested": [
+                {
+                    "@type": "item",
+                    "name": "application/sources/model_mesh.h"
+                },
+                {
+                    "@type": "item",
+                    "name": "application/sources/model_mesh.cc"
+                },
+                {
+                    "@type": "item",
+                    "name": "application/sources/part_manage_widget.h"
+                },
+                {
+                    "@type": "item",
+                    "name": "application/sources/part_manage_widget.cc"
+                },
+                {
+                    "@type": "item",
+                    "name": "application/sources/preferences.h"
+                },
+                {
+                    "@type": "item",
+                    "name": "application/sources/preferences.cc"
+                },
+                {
+                    "@type": "item",
+                    "name": "application/sources/monochrome_opengl_vertex.h"
+                },
+                {
+                    "@type": "item",
+                    "name": "application/sources/skeleton_graphics_origin_item.h"
+                },
+                {
+                    "@type": "item",
+                    "name": "application/sources/skeleton_graphics_origin_item.cc"
+                },
+                {
+                    "@type": "item",
+                    "name": "application/sources/theme.h"
+                },
+                {
+                    "@type": "item",
+                    "name": "application/sources/theme.cc"
+                },
+                {
+                    "@type": "item",
+                    "name": "application/sources/skeleton_graphics_widget.h"
+                },
+                {
+                    "@type": "item",
+                    "name": "application/sources/skeleton_graphics_widget.cc"
+                },
+                {
+                    "@type": "item",
+                    "name": "application/third_party/QtAwesome/QtAwesome/QtAwesome.h"
+                },
+                {
+                    "@type": "item",
+                    "name": "application/third_party/QtAwesome/QtAwesome/QtAwesome.cpp"
+                },
+                {
+                    "@type": "item",
+                    "name": "application/sources/skeleton_graphics_selection_item.h"
+                },
+                {
+                    "@type": "item",
+                    "name": "application/sources/skeleton_graphics_selection_item.cc"
+                },
+                {
+                    "@type": "item",
+                    "name": "application/sources/component_list_model.h"
+                },
+                {
+                    "@type": "item",
+                    "name": "application/sources/component_list_model.cc"
+                },
+                {
+                    "@type": "item",
+                    "name": "application/sources/debug.h"
+                },
+                {
+                    "@type": "item",
+                    "name": "application/sources/debug.cc"
+                },
+                {
+                    "@type": "item",
+                    "name": "application/sources/document.h"
+                },
+                {
+                    "@type": "item",
+                    "name": "application/sources/document_component.cc"
+                },
+                {
+                    "@type": "item",
+                    "name": "application/sources/document_edge.cc"
+                },
+                {
+                    "@type": "item",
+                    "name": "application/sources/document.cc"
+                },
+                {
+                    "@type": "item",
+                    "name": "application/sources/document_node.cc"
+                },
+                {
+                    "@type": "item",
+                    "name": "application/sources/document_part.cc"
+                },
+                {
+                    "@type": "item",
+                    "name": "application/sources/uv_map_generator.h"
+                },
+                {
+                    "@type": "item",
+                    "name": "application/sources/uv_map_generator.cc"
+                },
+                {
+                    "@type": "item",
+                    "name": "application/sources/model_opengl_vertex.h"
+                },
+                {
+                    "@type": "item",
+                    "name": "application/sources/document_window.h"
+                },
+                {
+                    "@type": "item",
+                    "name": "application/sources/document_window.cc"
+                },
+                {
+                    "@type": "item",
+                    "name": "application/sources/component_preview_grid_widget.h"
+                },
+                {
+                    "@type": "item",
+                    "name": "application/sources/component_preview_grid_widget.cc"
+                },
+                {
+                    "@type": "item",
+                    "name": "application/sources/component_property_widget.h"
+                },
+                {
+                    "@type": "item",
+                    "name": "application/sources/component_property_widget.cc"
+                },
+                {
+                    "@type": "item",
+                    "name": "application/sources/skeleton_graphics_node_item.h"
+                },
+                {
+                    "@type": "item",
+                    "name": "application/sources/skeleton_graphics_node_item.cc"
+                },
+                {
+                    "@type": "item",
+                    "name": "application/sources/skeleton_graphics_edge_item.h"
+                },
+                {
+                    "@type": "item",
+                    "name": "application/sources/skeleton_graphics_edge_item.cc"
+                }
+            ]
+        },
+        {
+            "@type": "group",
+            "name": "2",
+            "nested": [
+                {
+                    "@type": "item",
+                    "name": "application/third_party/QtAwesome/QtAwesomeSample/main.cpp"
+                },
+                {
+                    "@type": "item",
+                    "name": "application/third_party/miniz/examples/example6.c"
+                },
+                {
+                    "@type": "item",
+                    "name": "application/third_party/miniz/examples/example2.c"
+                },
+                {
+                    "@type": "item",
+                    "name": "application/third_party/miniz/examples/example3.c"
+                },
+                {
+                    "@type": "item",
+                    "name": "application/third_party/json/json.hpp"
+                },
+                {
+                    "@type": "item",
+                    "name": "application/third_party/miniz/miniz.h"
+                },
+                {
+                    "@type": "item",
+                    "name": "application/third_party/miniz/miniz.c"
+                },
+                {
+                    "@type": "item",
+                    "name": "application/third_party/miniz/examples/example5.c"
+                },
+                {
+                    "@type": "item",
+                    "name": "application/third_party/fbx/src/main.cpp"
+                },
+                {
+                    "@type": "item",
+                    "name": "application/third_party/miniz/examples/example4.c"
+                },
+                {
+                    "@type": "item",
+                    "name": "application/third_party/fbx/src/fbxproperty.h"
+                },
+                {
+                    "@type": "item",
+                    "name": "application/sources/main.cc"
+                },
+                {
+                    "@type": "item",
+                    "name": "application/third_party/fbx/src/fbxutil.h"
+                },
+                {
+                    "@type": "item",
+                    "name": "application/third_party/fbx/src/fbxutil.cpp"
+                },
+                {
+                    "@type": "item",
+                    "name": "application/third_party/fbx/src/fbxdump.cpp"
+                },
+                {
+                    "@type": "item",
+                    "name": "application/third_party/fbx/src/fbxdocument.h"
+                },
+                {
+                    "@type": "item",
+                    "name": "application/third_party/fbx/src/fbxdocument.cpp"
+                },
+                {
+                    "@type": "item",
+                    "name": "application/third_party/fbx/src/fbxproperty.cpp"
+                },
+                {
+                    "@type": "item",
+                    "name": "application/sources/glb_file.h"
+                },
+                {
+                    "@type": "item",
+                    "name": "application/sources/glb_file.cc"
+                },
+                {
+                    "@type": "item",
+                    "name": "application/third_party/miniz/examples/example1.c"
+                }
+            ]
+        },
+        {
+            "@type": "group",
+            "name": "3",
+            "nested": [
+                {
+                    "@type": "item",
+                    "name": "application/sources/spinnable_toolbar_icon.h"
+                },
+                {
+                    "@type": "item",
+                    "name": "application/sources/spinnable_toolbar_icon.cc"
+                },
+                {
+                    "@type": "item",
+                    "name": "application/sources/toolbar_button.h"
+                },
+                {
+                    "@type": "item",
+                    "name": "application/sources/toolbar_button.cc"
+                },
+                {
+                    "@type": "item",
+                    "name": "application/sources/int_number_widget.h"
+                },
+                {
+                    "@type": "item",
+                    "name": "application/sources/int_number_widget.cc"
+                },
+                {
+                    "@type": "item",
+                    "name": "application/third_party/QtAwesome/QtAwesome/QtAwesomeAnim.h"
+                },
+                {
+                    "@type": "item",
+                    "name": "application/third_party/QtAwesome/QtAwesome/QtAwesomeAnim.cpp"
+                },
+                {
+                    "@type": "item",
+                    "name": "application/sources/float_number_widget.h"
+                },
+                {
+                    "@type": "item",
+                    "name": "application/sources/float_number_widget.cc"
+                },
+                {
+                    "@type": "item",
+                    "name": "application/sources/flow_layout.h"
+                },
+                {
+                    "@type": "item",
+                    "name": "application/sources/flow_layout.cc"
+                },
+                {
+                    "@type": "item",
+                    "name": "application/third_party/QtWaitingSpinner/waitingspinnerwidget.h"
+                },
+                {
+                    "@type": "item",
+                    "name": "application/third_party/QtWaitingSpinner/waitingspinnerwidget.cpp"
+                },
+                {
+                    "@type": "item",
+                    "name": "application/sources/info_label.h"
+                },
+                {
+                    "@type": "item",
+                    "name": "application/sources/info_label.cc"
+                },
+                {
+                    "@type": "item",
+                    "name": "application/sources/horizontal_line_widget.h"
+                },
+                {
+                    "@type": "item",
+                    "name": "application/sources/horizontal_line_widget.cc"
+                }
+            ]
+        },
+        {
+            "@type": "group",
+            "name": "4",
+            "nested": [
+                {
+                    "@type": "item",
+                    "name": "application/sources/turnaround_loader.h"
+                },
+                {
+                    "@type": "item",
+                    "name": "application/sources/turnaround_loader.cc"
+                },
+                {
+                    "@type": "item",
+                    "name": "application/sources/about_widget.h"
+                },
+                {
+                    "@type": "item",
+                    "name": "application/sources/about_widget.cc"
+                },
+                {
+                    "@type": "item",
+                    "name": "application/sources/component_preview_images_decorator.h"
+                },
+                {
+                    "@type": "item",
+                    "name": "application/sources/component_preview_images_decorator.cc"
+                },
+                {
+                    "@type": "item",
+                    "name": "application/sources/image_preview_widget.h"
+                },
+                {
+                    "@type": "item",
+                    "name": "application/sources/image_preview_widget.cc"
+                },
+                {
+                    "@type": "item",
+                    "name": "application/sources/cut_face_preview.h"
+                },
+                {
+                    "@type": "item",
+                    "name": "application/sources/cut_face_preview.cc"
+                },
+                {
+                    "@type": "item",
+                    "name": "application/sources/mesh_preview_images_generator.h"
+                },
+                {
+                    "@type": "item",
+                    "name": "application/sources/mesh_preview_images_generator.cc"
+                },
+                {
+                    "@type": "item",
+                    "name": "application/sources/preview_grid_view.h"
+                },
+                {
+                    "@type": "item",
+                    "name": "application/sources/preview_grid_view.cc"
+                },
+                {
+                    "@type": "item",
+                    "name": "application/sources/graphics_container_widget.h"
+                },
+                {
+                    "@type": "item",
+                    "name": "application/sources/graphics_container_widget.cc"
+                }
+            ]
+        },
+        {
+            "@type": "group",
+            "name": "5",
+            "nested": [
+                {
+                    "@type": "item",
+                    "name": "application/sources/ccd_ik_resolver.h"
+                },
+                {
+                    "@type": "item",
+                    "name": "application/sources/ccd_ik_resolver.cc"
+                },
+                {
+                    "@type": "item",
+                    "name": "application/sources/monochrome_opengl_object.h"
+                },
+                {
+                    "@type": "item",
+                    "name": "application/sources/monochrome_opengl_object.cc"
+                },
+                {
+                    "@type": "item",
+                    "name": "application/sources/monochrome_mesh.h"
+                },
+                {
+                    "@type": "item",
+                    "name": "application/sources/monochrome_mesh.cc"
+                },
+                {
+                    "@type": "item",
+                    "name": "application/sources/model_opengl_object.h"
+                },
+                {
+                    "@type": "item",
+                    "name": "application/sources/model_opengl_object.cc"
+                },
+                {
+                    "@type": "item",
+                    "name": "application/sources/model_widget.h"
+                },
+                {
+                    "@type": "item",
+                    "name": "application/sources/model_widget.cc"
+                },
+                {
+                    "@type": "item",
+                    "name": "application/sources/image_forever.h"
+                },
+                {
+                    "@type": "item",
+                    "name": "application/sources/image_forever.cc"
+                },
+                {
+                    "@type": "item",
+                    "name": "application/sources/skeleton_ik_mover.h"
+                },
+                {
+                    "@type": "item",
+                    "name": "application/sources/skeleton_ik_mover.cc"
+                },
+                {
+                    "@type": "item",
+                    "name": "application/sources/model_offscreen_render.h"
+                },
+                {
+                    "@type": "item",
+                    "name": "application/sources/model_offscreen_render.cc"
+                }
+            ]
+        },
+        {
+            "@type": "group",
+            "name": "6",
+            "nested": [
+                {
+                    "@type": "item",
+                    "name": "application/sources/model_opengl_program.h"
+                },
+                {
+                    "@type": "item",
+                    "name": "application/sources/model_opengl_program.cc"
+                },
+                {
+                    "@type": "item",
+                    "name": "application/sources/dds_file.h"
+                },
+                {
+                    "@type": "item",
+                    "name": "application/sources/dds_file.cc"
+                },
+                {
+                    "@type": "item",
+                    "name": "application/sources/log_browser_dialog.h"
+                },
+                {
+                    "@type": "item",
+                    "name": "application/sources/log_browser_dialog.cc"
+                },
+                {
+                    "@type": "item",
+                    "name": "application/sources/version.h"
+                },
+                {
+                    "@type": "item",
+                    "name": "application/sources/log_browser.h"
+                },
+                {
+                    "@type": "item",
+                    "name": "application/sources/log_browser.cc"
+                },
+                {
+                    "@type": "item",
+                    "name": "application/sources/monochrome_opengl_program.h"
+                },
+                {
+                    "@type": "item",
+                    "name": "application/sources/monochrome_opengl_program.cc"
+                }
+            ]
+        },
+        {
+            "@type": "group",
+            "name": "7",
+            "nested": [
+                {
+                    "@type": "item",
+                    "name": "dust3d/uv/uv_map_packer.h"
+                },
+                {
+                    "@type": "item",
+                    "name": "dust3d/uv/uv_map_packer.cc"
+                },
+                {
+                    "@type": "item",
+                    "name": "dust3d/uv/max_rectangles.h"
+                },
+                {
+                    "@type": "item",
+                    "name": "dust3d/uv/max_rectangles.cc"
+                },
+                {
+                    "@type": "item",
+                    "name": "dust3d/uv/chart_packer.h"
+                },
+                {
+                    "@type": "item",
+                    "name": "dust3d/uv/chart_packer.cc"
+                },
+                {
+                    "@type": "item",
+                    "name": "dust3d/base/rectangle.h"
+                }
+            ]
+        },
+        {
+            "@type": "group",
+            "name": "8",
+            "nested": [
+                {
+                    "@type": "item",
+                    "name": "third_party/GuigueDevillers03/tri_tri_intersect.h"
+                },
+                {
+                    "@type": "item",
+                    "name": "third_party/GuigueDevillers03/tri_tri_intersect.c"
+                }
+            ]
+        },
+        {
+            "@type": "group",
+            "name": "9",
+            "nested": [
+                {
+                    "@type": "item",
+                    "name": "third_party/rapidxml-1.13/rapidxml_iterators.hpp"
+                },
+                {
+                    "@type": "item",
+                    "name": "third_party/rapidxml-1.13/rapidxml_print.hpp"
+                }
+            ]
+        },
+        {
+            "@type": "group",
+            "name": "10",
+            "nested": [
+                {
+                    "@type": "item",
+                    "name": "third_party/earcut.hpp/include/mapbox/earcut.hpp"
+                }
+            ]
+        },
+        {
+            "@type": "group",
+            "name": "11",
+            "nested": [
+                {
+                    "@type": "item",
+                    "name": "third_party/rapidxml-1.13/rapidxml.hpp"
+                }
+            ]
+        },
+        {
+            "@type": "group",
+            "name": "12",
+            "nested": [
+                {
+                    "@type": "item",
+                    "name": "third_party/rapidxml-1.13/rapidxml_utils.hpp"
+                }
+            ]
+        },
+        {
+            "@type": "group",
+            "name": "13",
+            "nested": [
+                {
+                    "@type": "item",
+                    "name": "dust3d/base/matrix4x4.h"
+                }
+            ]
+        },
+        {
+            "@type": "group",
+            "name": "14",
+            "nested": [
+                {
+                    "@type": "item",
+                    "name": "application/third_party/fbx/src/fbxnode.h"
+                },
+                {
+                    "@type": "item",
+                    "name": "application/third_party/fbx/src/fbxnode.cpp"
+                }
+            ]
+        },
+        {
+            "@type": "group",
+            "name": "15",
+            "nested": [
+                {
+                    "@type": "item",
+                    "name": "application/sources/fbx_file.h"
+                },
+                {
+                    "@type": "item",
+                    "name": "application/sources/fbx_file.cc"
+                }
+            ]
+        }
+    ]
+}

@@ -1,0 +1,658 @@
+{
+    "@schemaVersion": "1.0",
+    "name": "clustering",
+    "structure": [
+        {
+            "@type": "group",
+            "name": "0",
+            "nested": [
+                {
+                    "@type": "item",
+                    "name": "Goldleaf/include/nfp/nfp_Amiibo.hpp"
+                },
+                {
+                    "@type": "item",
+                    "name": "Goldleaf/source/nfp/nfp_Amiibo.cpp"
+                },
+                {
+                    "@type": "item",
+                    "name": "Goldleaf/source/ui/ui_InstallLayout.cpp"
+                },
+                {
+                    "@type": "item",
+                    "name": "Goldleaf/include/ui/ui_MemoryLayout.hpp"
+                },
+                {
+                    "@type": "item",
+                    "name": "Goldleaf/include/ui/ui_AmiiboDumpLayout.hpp"
+                },
+                {
+                    "@type": "item",
+                    "name": "Goldleaf/source/ui/ui_AmiiboDumpLayout.cpp"
+                },
+                {
+                    "@type": "item",
+                    "name": "Goldleaf/source/nsp/nsp_Installer.cpp"
+                },
+                {
+                    "@type": "item",
+                    "name": "Goldleaf/include/ui/ui_Includes.hpp"
+                },
+                {
+                    "@type": "item",
+                    "name": "Goldleaf/include/ui/ui_FileContentLayout.hpp"
+                },
+                {
+                    "@type": "item",
+                    "name": "Goldleaf/include/ui/ui_MainApplication.hpp"
+                },
+                {
+                    "@type": "item",
+                    "name": "Goldleaf/include/ui/ui_InstallLayout.hpp"
+                },
+                {
+                    "@type": "item",
+                    "name": "Goldleaf/include/ui/ui_CopyLayout.hpp"
+                },
+                {
+                    "@type": "item",
+                    "name": "Goldleaf/source/ui/ui_CopyLayout.cpp"
+                },
+                {
+                    "@type": "item",
+                    "name": "Goldleaf/include/hos/hos_Common.hpp"
+                },
+                {
+                    "@type": "item",
+                    "name": "Goldleaf/source/hos/hos_Common.cpp"
+                },
+                {
+                    "@type": "item",
+                    "name": "Goldleaf/include/ui/ui_StorageContentsLayout.hpp"
+                },
+                {
+                    "@type": "item",
+                    "name": "Goldleaf/include/ui/ui_AboutLayout.hpp"
+                },
+                {
+                    "@type": "item",
+                    "name": "Goldleaf/source/ui/ui_AboutLayout.cpp"
+                },
+                {
+                    "@type": "item",
+                    "name": "Goldleaf/include/ui/ui_ClickableImage.hpp"
+                },
+                {
+                    "@type": "item",
+                    "name": "Goldleaf/source/ui/ui_ClickableImage.cpp"
+                },
+                {
+                    "@type": "item",
+                    "name": "Goldleaf/source/ui/ui_FileContentLayout.cpp"
+                },
+                {
+                    "@type": "item",
+                    "name": "Goldleaf/include/ui/ui_PartitionBrowserLayout.hpp"
+                },
+                {
+                    "@type": "item",
+                    "name": "Goldleaf/include/ui/ui_UpdateInstallLayout.hpp"
+                },
+                {
+                    "@type": "item",
+                    "name": "Goldleaf/include/ui/ui_UpdateLayout.hpp"
+                },
+                {
+                    "@type": "item",
+                    "name": "Goldleaf/source/ui/ui_UpdateLayout.cpp"
+                },
+                {
+                    "@type": "item",
+                    "name": "Goldleaf/include/ui/ui_TicketsLayout.hpp"
+                },
+                {
+                    "@type": "item",
+                    "name": "Goldleaf/include/ui/ui_Utils.hpp"
+                }
+            ]
+        },
+        {
+            "@type": "group",
+            "name": "1",
+            "nested": [
+                {
+                    "@type": "item",
+                    "name": "Goldleaf/source/ui/ui_ContentInformationLayout.cpp"
+                },
+                {
+                    "@type": "item",
+                    "name": "Goldleaf/source/ui/ui_OwnSettingsLayout.cpp"
+                },
+                {
+                    "@type": "item",
+                    "name": "Goldleaf/include/ui/ui_PCExploreLayout.hpp"
+                },
+                {
+                    "@type": "item",
+                    "name": "Goldleaf/source/ui/ui_PCExploreLayout.cpp"
+                },
+                {
+                    "@type": "item",
+                    "name": "Goldleaf/include/drive/drive_Drives.hpp"
+                },
+                {
+                    "@type": "item",
+                    "name": "Goldleaf/source/drive/drive_Drives.cpp"
+                },
+                {
+                    "@type": "item",
+                    "name": "Goldleaf/include/ui/ui_ContentManagerLayout.hpp"
+                },
+                {
+                    "@type": "item",
+                    "name": "Goldleaf/source/ui/ui_ContentManagerLayout.cpp"
+                },
+                {
+                    "@type": "item",
+                    "name": "Goldleaf/include/ui/ui_SettingsLayout.hpp"
+                },
+                {
+                    "@type": "item",
+                    "name": "Goldleaf/source/ui/ui_SettingsLayout.cpp"
+                },
+                {
+                    "@type": "item",
+                    "name": "Goldleaf/include/ui/ui_ContentInformationLayout.hpp"
+                },
+                {
+                    "@type": "item",
+                    "name": "Goldleaf/include/ui/ui_WebBrowserLayout.hpp"
+                },
+                {
+                    "@type": "item",
+                    "name": "Goldleaf/source/ui/ui_TicketsLayout.cpp"
+                },
+                {
+                    "@type": "item",
+                    "name": "Goldleaf/include/ui/ui_MainMenuLayout.hpp"
+                },
+                {
+                    "@type": "item",
+                    "name": "Goldleaf/source/ui/ui_MainMenuLayout.cpp"
+                },
+                {
+                    "@type": "item",
+                    "name": "Goldleaf/include/ui/ui_OwnSettingsLayout.hpp"
+                },
+                {
+                    "@type": "item",
+                    "name": "Goldleaf/include/ui/ui_ExploreMenuLayout.hpp"
+                },
+                {
+                    "@type": "item",
+                    "name": "Goldleaf/source/ui/ui_ExploreMenuLayout.cpp"
+                }
+            ]
+        },
+        {
+            "@type": "group",
+            "name": "2",
+            "nested": [
+                {
+                    "@type": "item",
+                    "name": "Goldleaf/source/fs/fs_Common.cpp"
+                },
+                {
+                    "@type": "item",
+                    "name": "Goldleaf/source/es/es_Service.cpp"
+                },
+                {
+                    "@type": "item",
+                    "name": "Goldleaf/source/ui/ui_MemoryLayout.cpp"
+                },
+                {
+                    "@type": "item",
+                    "name": "Goldleaf/source/hos/hos_Titles.cpp"
+                },
+                {
+                    "@type": "item",
+                    "name": "Goldleaf/include/hos/hos_Titles.hpp"
+                },
+                {
+                    "@type": "item",
+                    "name": "Goldleaf/source/ns/ns_Service.cpp"
+                },
+                {
+                    "@type": "item",
+                    "name": "Goldleaf/source/ui/ui_PartitionBrowserLayout.cpp"
+                },
+                {
+                    "@type": "item",
+                    "name": "Goldleaf/source/fs/fs_FspExplorers.cpp"
+                },
+                {
+                    "@type": "item",
+                    "name": "Goldleaf/source/fs/fs_Explorer.cpp"
+                },
+                {
+                    "@type": "item",
+                    "name": "Goldleaf/source/fs/fs_FileSystem.cpp"
+                }
+            ]
+        },
+        {
+            "@type": "group",
+            "name": "3",
+            "nested": [
+                {
+                    "@type": "item",
+                    "name": "Goldleaf/include/fatfs/diskio.h"
+                },
+                {
+                    "@type": "item",
+                    "name": "Goldleaf/source/fatfs/diskio.c"
+                },
+                {
+                    "@type": "item",
+                    "name": "Quark/src/main/java/xortroll/goldleaf/quark/Version.java"
+                },
+                {
+                    "@type": "item",
+                    "name": "Goldleaf/include/expt/expt_Export.hpp"
+                },
+                {
+                    "@type": "item",
+                    "name": "Goldleaf/source/expt/expt_Export.cpp"
+                },
+                {
+                    "@type": "item",
+                    "name": "Goldleaf/include/hos/hos_Content.hpp"
+                },
+                {
+                    "@type": "item",
+                    "name": "Goldleaf/source/hos/hos_Content.cpp"
+                },
+                {
+                    "@type": "item",
+                    "name": "Goldleaf/include/fatfs/fatfs.hpp"
+                },
+                {
+                    "@type": "item",
+                    "name": "Goldleaf/include/fatfs/ff.h"
+                },
+                {
+                    "@type": "item",
+                    "name": "Goldleaf/source/fatfs/ff.c"
+                },
+                {
+                    "@type": "item",
+                    "name": "Goldleaf/include/fatfs/ffconf.h"
+                },
+                {
+                    "@type": "item",
+                    "name": "Goldleaf/source/ui/ui_StorageContentsLayout.cpp"
+                },
+                {
+                    "@type": "item",
+                    "name": "Goldleaf/include/ui/ui_ContentExportLayout.hpp"
+                },
+                {
+                    "@type": "item",
+                    "name": "Goldleaf/source/ui/ui_ContentExportLayout.cpp"
+                }
+            ]
+        },
+        {
+            "@type": "group",
+            "name": "4",
+            "nested": [
+                {
+                    "@type": "item",
+                    "name": "Quark/src/main/java/xortroll/goldleaf/quark/usb/cf/CommandHandler.java"
+                },
+                {
+                    "@type": "item",
+                    "name": "Quark/src/main/java/xortroll/goldleaf/quark/Logging.java"
+                },
+                {
+                    "@type": "item",
+                    "name": "Quark/src/main/java/xortroll/goldleaf/quark/Config.java"
+                },
+                {
+                    "@type": "item",
+                    "name": "Quark/src/main/java/xortroll/goldleaf/quark/usb/cf/Command.java"
+                },
+                {
+                    "@type": "item",
+                    "name": "Quark/src/main/java/xortroll/goldleaf/quark/Main.java"
+                },
+                {
+                    "@type": "item",
+                    "name": "Quark/src/main/java/xortroll/goldleaf/quark/ui/MainApplication.java"
+                },
+                {
+                    "@type": "item",
+                    "name": "Quark/src/main/java/xortroll/goldleaf/quark/usb/cf/CommandFramework.java"
+                },
+                {
+                    "@type": "item",
+                    "name": "Quark/src/main/java/xortroll/goldleaf/quark/fs/FileSystem.java"
+                },
+                {
+                    "@type": "item",
+                    "name": "Quark/src/main/java/xortroll/goldleaf/quark/ui/MainController.java"
+                }
+            ]
+        },
+        {
+            "@type": "group",
+            "name": "5",
+            "nested": [
+                {
+                    "@type": "item",
+                    "name": "Goldleaf/source/net/net_Network.cpp"
+                },
+                {
+                    "@type": "item",
+                    "name": "Quark/src/main/java/xortroll/goldleaf/quark/usb/cmd/CommandBlock.java"
+                },
+                {
+                    "@type": "item",
+                    "name": "Goldleaf/include/usb/cf/cf_CommandFramework.hpp"
+                },
+                {
+                    "@type": "item",
+                    "name": "Goldleaf/include/usb/cmd/cmd_Base.hpp"
+                },
+                {
+                    "@type": "item",
+                    "name": "Goldleaf/source/usb/cmd/cmd_Base.cpp"
+                },
+                {
+                    "@type": "item",
+                    "name": "Quark/src/main/java/xortroll/goldleaf/quark/Buffer.java"
+                },
+                {
+                    "@type": "item",
+                    "name": "Goldleaf/include/usb/usb_Base.hpp"
+                },
+                {
+                    "@type": "item",
+                    "name": "Goldleaf/source/usb/usb_Base.cpp"
+                },
+                {
+                    "@type": "item",
+                    "name": "Goldleaf/include/net/net_Network.hpp"
+                },
+                {
+                    "@type": "item",
+                    "name": "Quark/src/main/java/xortroll/goldleaf/quark/usb/USBInterface.java"
+                }
+            ]
+        },
+        {
+            "@type": "group",
+            "name": "6",
+            "nested": [
+                {
+                    "@type": "item",
+                    "name": "Goldleaf/include/fs/fs_Common.hpp"
+                },
+                {
+                    "@type": "item",
+                    "name": "Goldleaf/include/fs/fs_RemotePCExplorer.hpp"
+                },
+                {
+                    "@type": "item",
+                    "name": "Goldleaf/source/fs/fs_RemotePCExplorer.cpp"
+                },
+                {
+                    "@type": "item",
+                    "name": "Goldleaf/include/fs/fs_DriveExplorer.hpp"
+                },
+                {
+                    "@type": "item",
+                    "name": "Goldleaf/source/fs/fs_DriveExplorer.cpp"
+                },
+                {
+                    "@type": "item",
+                    "name": "Goldleaf/include/fs/fs_StdExplorer.hpp"
+                },
+                {
+                    "@type": "item",
+                    "name": "Goldleaf/source/fs/fs_StdExplorer.cpp"
+                },
+                {
+                    "@type": "item",
+                    "name": "Goldleaf/include/fs/fs_FspExplorers.hpp"
+                },
+                {
+                    "@type": "item",
+                    "name": "Goldleaf/include/fs/fs_Explorer.hpp"
+                },
+                {
+                    "@type": "item",
+                    "name": "Goldleaf/include/fs/fs_FileSystem.hpp"
+                }
+            ]
+        },
+        {
+            "@type": "group",
+            "name": "7",
+            "nested": [
+                {
+                    "@type": "item",
+                    "name": "Goldleaf/source/base_Abort.cpp"
+                },
+                {
+                    "@type": "item",
+                    "name": "Goldleaf/include/sm/sm_Service.hpp"
+                },
+                {
+                    "@type": "item",
+                    "name": "Goldleaf/source/sm/sm_Service.cpp"
+                },
+                {
+                    "@type": "item",
+                    "name": "Goldleaf/include/cfg/cfg_Settings.hpp"
+                },
+                {
+                    "@type": "item",
+                    "name": "Goldleaf/include/cfg/cfg_Strings.hpp"
+                },
+                {
+                    "@type": "item",
+                    "name": "Goldleaf/source/cfg/cfg_Strings.cpp"
+                },
+                {
+                    "@type": "item",
+                    "name": "Goldleaf/include/base_Common.hpp"
+                },
+                {
+                    "@type": "item",
+                    "name": "Goldleaf/source/base_Common.cpp"
+                },
+                {
+                    "@type": "item",
+                    "name": "Goldleaf/include/json.hpp"
+                }
+            ]
+        },
+        {
+            "@type": "group",
+            "name": "8",
+            "nested": [
+                {
+                    "@type": "item",
+                    "name": "Goldleaf/include/ui/ui_AccountLayout.hpp"
+                },
+                {
+                    "@type": "item",
+                    "name": "Goldleaf/source/ui/ui_AccountLayout.cpp"
+                },
+                {
+                    "@type": "item",
+                    "name": "Goldleaf/source/acc/acc_UserSelection.cpp"
+                },
+                {
+                    "@type": "item",
+                    "name": "Goldleaf/source/fatfs/ffunicode.c"
+                },
+                {
+                    "@type": "item",
+                    "name": "Goldleaf/include/acc/acc_UserSelection.hpp"
+                },
+                {
+                    "@type": "item",
+                    "name": "Goldleaf/include/acc/acc_Service.hpp"
+                },
+                {
+                    "@type": "item",
+                    "name": "Goldleaf/source/acc/acc_Service.cpp"
+                },
+                {
+                    "@type": "item",
+                    "name": "Goldleaf/source/Main.cpp"
+                }
+            ]
+        },
+        {
+            "@type": "group",
+            "name": "9",
+            "nested": [
+                {
+                    "@type": "item",
+                    "name": "Goldleaf/source/ui/ui_WebBrowserLayout.cpp"
+                },
+                {
+                    "@type": "item",
+                    "name": "Goldleaf/source/ui/ui_Utils.cpp"
+                },
+                {
+                    "@type": "item",
+                    "name": "Goldleaf/source/cfg/cfg_Settings.cpp"
+                },
+                {
+                    "@type": "item",
+                    "name": "Goldleaf/source/ui/ui_MainApplication.cpp"
+                }
+            ]
+        },
+        {
+            "@type": "group",
+            "name": "10",
+            "nested": [
+                {
+                    "@type": "item",
+                    "name": "Goldleaf/include/nsp/nsp_Types.hpp"
+                },
+                {
+                    "@type": "item",
+                    "name": "Goldleaf/include/nsp/nsp_PFS0.hpp"
+                },
+                {
+                    "@type": "item",
+                    "name": "Goldleaf/source/nsp/nsp_PFS0.cpp"
+                },
+                {
+                    "@type": "item",
+                    "name": "Goldleaf/include/nsp/nsp_Installer.hpp"
+                },
+                {
+                    "@type": "item",
+                    "name": "Goldleaf/include/nsp/nsp_Builder.hpp"
+                },
+                {
+                    "@type": "item",
+                    "name": "Goldleaf/source/nsp/nsp_Builder.cpp"
+                }
+            ]
+        },
+        {
+            "@type": "group",
+            "name": "11",
+            "nested": [
+                {
+                    "@type": "item",
+                    "name": "Goldleaf/source/ui/ui_UpdateInstallLayout.cpp"
+                },
+                {
+                    "@type": "item",
+                    "name": "Goldleaf/include/amssu/amssu_Service.hpp"
+                },
+                {
+                    "@type": "item",
+                    "name": "Goldleaf/source/amssu/amssu_Service.cpp"
+                }
+            ]
+        },
+        {
+            "@type": "group",
+            "name": "12",
+            "nested": [
+                {
+                    "@type": "item",
+                    "name": "Goldleaf/include/hos/hos_Payload.hpp"
+                },
+                {
+                    "@type": "item",
+                    "name": "Goldleaf/source/hos/hos_Payload.cpp"
+                },
+                {
+                    "@type": "item",
+                    "name": "Goldleaf/include/bpcams/bpcams_Service.hpp"
+                },
+                {
+                    "@type": "item",
+                    "name": "Goldleaf/source/bpcams/bpcams_Service.cpp"
+                }
+            ]
+        },
+        {
+            "@type": "group",
+            "name": "13",
+            "nested": [
+                {
+                    "@type": "item",
+                    "name": "Goldleaf/include/es/es_Service.hpp"
+                },
+                {
+                    "@type": "item",
+                    "name": "Goldleaf/include/es/es_Types.hpp"
+                }
+            ]
+        },
+        {
+            "@type": "group",
+            "name": "14",
+            "nested": [
+                {
+                    "@type": "item",
+                    "name": "Goldleaf/include/ns/ns_Service.hpp"
+                },
+                {
+                    "@type": "item",
+                    "name": "Goldleaf/include/ns/ns_Types.hpp"
+                }
+            ]
+        },
+        {
+            "@type": "group",
+            "name": "15",
+            "nested": [
+                {
+                    "@type": "item",
+                    "name": "Goldleaf/include/ncm/ncm_PackagedContentMeta.hpp"
+                },
+                {
+                    "@type": "item",
+                    "name": "Goldleaf/source/ncm/ncm_PackagedContentMeta.cpp"
+                },
+                {
+                    "@type": "item",
+                    "name": "Goldleaf/include/ncm/ncm_Types.hpp"
+                }
+            ]
+        }
+    ]
+}

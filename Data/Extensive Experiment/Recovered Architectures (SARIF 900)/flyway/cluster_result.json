@@ -1,0 +1,2548 @@
+{
+    "@schemaVersion": "1.0",
+    "name": "clustering",
+    "structure": [
+        {
+            "@type": "group",
+            "name": "0",
+            "nested": [
+                {
+                    "@type": "item",
+                    "name": "flyway-core/src/main/java/org/flywaydb/core/api/output/OperationResultBase.java"
+                },
+                {
+                    "@type": "item",
+                    "name": "flyway-core/src/main/java/org/flywaydb/core/api/MigrationInfoService.java"
+                },
+                {
+                    "@type": "item",
+                    "name": "flyway-core/src/main/java/org/flywaydb/core/api/output/CleanResult.java"
+                },
+                {
+                    "@type": "item",
+                    "name": "flyway-core/src/main/java/org/flywaydb/core/api/ErrorCode.java"
+                },
+                {
+                    "@type": "item",
+                    "name": "flyway-core/src/main/java/org/flywaydb/core/api/output/InfoHtmlRenderer.java"
+                },
+                {
+                    "@type": "item",
+                    "name": "flyway-core/src/main/java/org/flywaydb/core/api/output/MigrateResult.java"
+                },
+                {
+                    "@type": "item",
+                    "name": "flyway-core/src/main/java/org/flywaydb/core/api/output/InfoResult.java"
+                },
+                {
+                    "@type": "item",
+                    "name": "flyway-core/src/main/java/org/flywaydb/core/internal/info/MigrationInfoDumper.java"
+                },
+                {
+                    "@type": "item",
+                    "name": "flyway-core/src/main/java/org/flywaydb/core/api/output/MigrateOutput.java"
+                },
+                {
+                    "@type": "item",
+                    "name": "flyway-core/src/main/java/org/flywaydb/core/api/MigrationInfo.java"
+                },
+                {
+                    "@type": "item",
+                    "name": "flyway-core/src/main/java/org/flywaydb/core/api/resolver/ChecksumMatcher.java"
+                },
+                {
+                    "@type": "item",
+                    "name": "flyway-core/src/main/java/org/flywaydb/core/api/output/ErrorOutput.java"
+                },
+                {
+                    "@type": "item",
+                    "name": "flyway-core/src/main/java/org/flywaydb/core/api/output/OperationResultJsonBase.java"
+                },
+                {
+                    "@type": "item",
+                    "name": "flyway-core/src/main/java/org/flywaydb/core/api/output/CompositeResult.java"
+                },
+                {
+                    "@type": "item",
+                    "name": "flyway-core/src/main/java/org/flywaydb/core/api/resolver/ResolvedMigration.java"
+                },
+                {
+                    "@type": "item",
+                    "name": "flyway-core/src/main/java/org/flywaydb/core/api/output/RepairOutput.java"
+                },
+                {
+                    "@type": "item",
+                    "name": "flyway-core/src/main/java/org/flywaydb/core/api/output/ValidateResult.java"
+                },
+                {
+                    "@type": "item",
+                    "name": "flyway-core/src/main/java/org/flywaydb/core/api/output/UndoOutput.java"
+                },
+                {
+                    "@type": "item",
+                    "name": "flyway-core/src/main/java/org/flywaydb/core/api/output/DashboardResult.java"
+                },
+                {
+                    "@type": "item",
+                    "name": "flyway-core/src/main/java/org/flywaydb/core/api/output/HoldingRenderer.java"
+                },
+                {
+                    "@type": "item",
+                    "name": "flyway-core/src/main/java/org/flywaydb/core/api/output/ValidateOutput.java"
+                },
+                {
+                    "@type": "item",
+                    "name": "flyway-core/src/main/java/org/flywaydb/core/api/output/HtmlResult.java"
+                },
+                {
+                    "@type": "item",
+                    "name": "flyway-core/src/main/java/org/flywaydb/core/api/output/DashboardRenderer.java"
+                },
+                {
+                    "@type": "item",
+                    "name": "flyway-core/src/main/java/org/flywaydb/core/api/output/RepairResult.java"
+                },
+                {
+                    "@type": "item",
+                    "name": "flyway-core/src/main/java/org/flywaydb/core/api/output/MigrateErrorResult.java"
+                },
+                {
+                    "@type": "item",
+                    "name": "flyway-core/src/main/java/org/flywaydb/core/api/ErrorDetails.java"
+                },
+                {
+                    "@type": "item",
+                    "name": "flyway-core/src/main/java/org/flywaydb/core/internal/command/DbRepair.java"
+                },
+                {
+                    "@type": "item",
+                    "name": "flyway-core/src/main/java/org/flywaydb/core/api/InfoOutputProvider.java"
+                },
+                {
+                    "@type": "item",
+                    "name": "flyway-core/src/main/java/org/flywaydb/core/api/executor/MigrationExecutor.java"
+                },
+                {
+                    "@type": "item",
+                    "name": "flyway-core/src/main/java/org/flywaydb/core/api/output/OperationResult.java"
+                },
+                {
+                    "@type": "item",
+                    "name": "flyway-core/src/main/java/org/flywaydb/core/api/output/UndoResult.java"
+                },
+                {
+                    "@type": "item",
+                    "name": "flyway-core/src/main/java/org/flywaydb/core/internal/command/DbMigrate.java"
+                },
+                {
+                    "@type": "item",
+                    "name": "flyway-core/src/main/java/org/flywaydb/core/extensibility/HtmlReportSummary.java"
+                },
+                {
+                    "@type": "item",
+                    "name": "flyway-core/src/main/java/org/flywaydb/core/api/output/HtmlTableRenderer.java"
+                },
+                {
+                    "@type": "item",
+                    "name": "flyway-core/src/main/java/org/flywaydb/core/api/MigrationState.java"
+                },
+                {
+                    "@type": "item",
+                    "name": "flyway-core/src/main/java/org/flywaydb/core/api/output/BaselineResult.java"
+                },
+                {
+                    "@type": "item",
+                    "name": "flyway-core/src/main/java/org/flywaydb/core/api/output/InfoOutput.java"
+                },
+                {
+                    "@type": "item",
+                    "name": "flyway-core/src/main/java/org/flywaydb/core/api/output/CommandResultFactory.java"
+                },
+                {
+                    "@type": "item",
+                    "name": "flyway-core/src/main/java/org/flywaydb/core/api/output/MigrateHtmlRenderer.java"
+                },
+                {
+                    "@type": "item",
+                    "name": "flyway-core/src/main/java/org/flywaydb/core/api/output/HoldingResult.java"
+                }
+            ]
+        },
+        {
+            "@type": "group",
+            "name": "1",
+            "nested": [
+                {
+                    "@type": "item",
+                    "name": "flyway-core/src/main/java/org/flywaydb/core/api/callback/package-info.java"
+                },
+                {
+                    "@type": "item",
+                    "name": "flyway-core/src/main/java/org/flywaydb/core/api/resource/Resource.java"
+                },
+                {
+                    "@type": "item",
+                    "name": "flyway-core/src/main/java/org/flywaydb/core/api/callback/Error.java"
+                },
+                {
+                    "@type": "item",
+                    "name": "flyway-core/src/main/java/org/flywaydb/core/api/output/package-info.java"
+                },
+                {
+                    "@type": "item",
+                    "name": "flyway-core/src/main/java/org/flywaydb/core/api/resolver/MigrationResolver.java"
+                },
+                {
+                    "@type": "item",
+                    "name": "flyway-core/src/main/java/org/flywaydb/core/api/MigrationPattern.java"
+                },
+                {
+                    "@type": "item",
+                    "name": "flyway-core/src/main/java/org/flywaydb/core/api/callback/Event.java"
+                },
+                {
+                    "@type": "item",
+                    "name": "flyway-core/src/main/java/org/flywaydb/core/api/configuration/S3ClientFactory.java"
+                },
+                {
+                    "@type": "item",
+                    "name": "flyway-core/src/main/java/org/flywaydb/core/internal/resource/s3/AwsS3Resource.java"
+                },
+                {
+                    "@type": "item",
+                    "name": "flyway-core/src/main/java/org/flywaydb/core/internal/util/BooleanEvaluator.java"
+                },
+                {
+                    "@type": "item",
+                    "name": "flyway-core/src/main/java/org/flywaydb/core/api/FlywayException.java"
+                },
+                {
+                    "@type": "item",
+                    "name": "flyway-core/src/main/java/org/flywaydb/core/internal/resource/classpath/ClassPathResource.java"
+                },
+                {
+                    "@type": "item",
+                    "name": "flyway-core/src/main/java/org/flywaydb/core/api/migration/JavaMigration.java"
+                },
+                {
+                    "@type": "item",
+                    "name": "flyway-core/src/main/java/org/flywaydb/core/api/callback/BaseCallback.java"
+                },
+                {
+                    "@type": "item",
+                    "name": "flyway-core/src/main/java/org/flywaydb/core/api/CoreMigrationType.java"
+                },
+                {
+                    "@type": "item",
+                    "name": "flyway-core/src/main/java/org/flywaydb/core/api/migration/Context.java"
+                },
+                {
+                    "@type": "item",
+                    "name": "flyway-core/src/main/java/org/flywaydb/core/api/executor/Context.java"
+                },
+                {
+                    "@type": "item",
+                    "name": "flyway-core/src/main/java/org/flywaydb/core/api/resource/package-info.java"
+                },
+                {
+                    "@type": "item",
+                    "name": "flyway-core/src/main/java/org/flywaydb/core/api/migration/package-info.java"
+                },
+                {
+                    "@type": "item",
+                    "name": "flyway-core/src/main/java/org/flywaydb/core/internal/resource/StringResource.java"
+                },
+                {
+                    "@type": "item",
+                    "name": "flyway-core/src/main/java/org/flywaydb/core/api/configuration/Configuration.java"
+                },
+                {
+                    "@type": "item",
+                    "name": "flyway-core/src/main/java/org/flywaydb/core/api/configuration/ClassicConfiguration.java"
+                },
+                {
+                    "@type": "item",
+                    "name": "flyway-core/src/main/java/org/flywaydb/core/api/callback/Callback.java"
+                },
+                {
+                    "@type": "item",
+                    "name": "flyway-core/src/main/java/org/flywaydb/core/api/pattern/ValidatePattern.java"
+                },
+                {
+                    "@type": "item",
+                    "name": "flyway-core/src/main/java/org/flywaydb/core/api/Location.java"
+                },
+                {
+                    "@type": "item",
+                    "name": "flyway-core/src/main/java/org/flywaydb/core/api/resolver/package-info.java"
+                },
+                {
+                    "@type": "item",
+                    "name": "flyway-core/src/main/java/org/flywaydb/core/api/ClassProvider.java"
+                },
+                {
+                    "@type": "item",
+                    "name": "flyway-core/src/main/java/org/flywaydb/core/api/MigrationVersion.java"
+                },
+                {
+                    "@type": "item",
+                    "name": "flyway-core/src/main/java/org/flywaydb/core/api/callback/Context.java"
+                },
+                {
+                    "@type": "item",
+                    "name": "flyway-core/src/main/java/org/flywaydb/core/api/resource/LoadableResource.java"
+                },
+                {
+                    "@type": "item",
+                    "name": "flyway-core/src/main/java/org/flywaydb/core/api/configuration/FluentConfiguration.java"
+                },
+                {
+                    "@type": "item",
+                    "name": "flyway-core/src/main/java/org/flywaydb/core/api/exception/FlywayValidateException.java"
+                },
+                {
+                    "@type": "item",
+                    "name": "flyway-core/src/main/java/org/flywaydb/core/api/executor/package-info.java"
+                },
+                {
+                    "@type": "item",
+                    "name": "flyway-core/src/main/java/org/flywaydb/core/internal/clazz/NoopClassProvider.java"
+                },
+                {
+                    "@type": "item",
+                    "name": "flyway-core/src/main/java/org/flywaydb/core/api/ResourceProvider.java"
+                },
+                {
+                    "@type": "item",
+                    "name": "flyway-core/src/main/java/org/flywaydb/core/api/migration/BaseJavaMigration.java"
+                },
+                {
+                    "@type": "item",
+                    "name": "flyway-core/src/main/java/org/flywaydb/core/api/package-info.java"
+                },
+                {
+                    "@type": "item",
+                    "name": "flyway-core/src/main/java/org/flywaydb/core/api/callback/Statement.java"
+                },
+                {
+                    "@type": "item",
+                    "name": "flyway-core/src/main/java/org/flywaydb/core/api/callback/Warning.java"
+                },
+                {
+                    "@type": "item",
+                    "name": "flyway-core/src/main/java/org/flywaydb/core/api/configuration/package-info.java"
+                }
+            ]
+        },
+        {
+            "@type": "group",
+            "name": "2",
+            "nested": [
+                {
+                    "@type": "item",
+                    "name": "flyway-core/src/main/java/org/flywaydb/core/extensibility/RootTelemetryModel.java"
+                },
+                {
+                    "@type": "item",
+                    "name": "flyway-core/src/main/java/org/flywaydb/core/extensibility/InfoTelemetryModel.java"
+                },
+                {
+                    "@type": "item",
+                    "name": "flyway-core/src/main/java/org/flywaydb/core/internal/plugin/PluginRegister.java"
+                },
+                {
+                    "@type": "item",
+                    "name": "flyway-core/src/main/java/org/flywaydb/core/extensibility/LicenseRgDomainChecker.java"
+                },
+                {
+                    "@type": "item",
+                    "name": "flyway-sqlserver/src/main/java/org/flywaydb/database/SQLServerDatabaseExtension.java"
+                },
+                {
+                    "@type": "item",
+                    "name": "flyway-firebird/src/main/java/org/flywaydb/database/FirebirdDatabaseExtension.java"
+                },
+                {
+                    "@type": "item",
+                    "name": "flyway-core/src/main/java/org/flywaydb/core/extensibility/ResourceTypeProvider.java"
+                },
+                {
+                    "@type": "item",
+                    "name": "flyway-core/src/main/java/org/flywaydb/core/FlywayExecutor.java"
+                },
+                {
+                    "@type": "item",
+                    "name": "flyway-core/src/main/java/org/flywaydb/core/extensibility/ResourceType.java"
+                },
+                {
+                    "@type": "item",
+                    "name": "flyway-core/src/main/java/org/flywaydb/core/extensibility/CommandExtension.java"
+                },
+                {
+                    "@type": "item",
+                    "name": "flyway-core/src/main/java/org/flywaydb/core/extensibility/AppliedMigration.java"
+                },
+                {
+                    "@type": "item",
+                    "name": "flyway-core/src/main/java/org/flywaydb/core/internal/schemahistory/JdbcTableSchemaHistory.java"
+                },
+                {
+                    "@type": "item",
+                    "name": "flyway-core/src/main/java/org/flywaydb/core/extensibility/MigrationType.java"
+                },
+                {
+                    "@type": "item",
+                    "name": "flyway-core/src/main/java/org/flywaydb/core/internal/proprietaryStubs/FlywayProprietaryRequiredException.java"
+                },
+                {
+                    "@type": "item",
+                    "name": "flyway-database-oracle/src/main/java/org/flywaydb/database/OracleDatabaseExtension.java"
+                },
+                {
+                    "@type": "item",
+                    "name": "flyway-core/src/main/java/org/flywaydb/core/extensibility/Plugin.java"
+                },
+                {
+                    "@type": "item",
+                    "name": "flyway-core/src/main/java/org/flywaydb/core/extensibility/CleanModePlugin.java"
+                },
+                {
+                    "@type": "item",
+                    "name": "flyway-core/src/main/java/org/flywaydb/core/extensibility/ConfigurationProvider.java"
+                },
+                {
+                    "@type": "item",
+                    "name": "flyway-core/src/main/java/org/flywaydb/core/extensibility/EventTelemetryModel.java"
+                },
+                {
+                    "@type": "item",
+                    "name": "flyway-gcp-spanner/src/main/java/org/flywaydb/database/SpannerDatabaseExtension.java"
+                },
+                {
+                    "@type": "item",
+                    "name": "flyway-mysql/src/main/java/org/flywaydb/database/MySQLDatabaseExtension.java"
+                },
+                {
+                    "@type": "item",
+                    "name": "flyway-core/src/main/java/org/flywaydb/core/internal/proprietaryStubs/CommandExtensionStub.java"
+                },
+                {
+                    "@type": "item",
+                    "name": "flyway-core/src/main/java/org/flywaydb/core/FlywayTelemetryManager.java"
+                },
+                {
+                    "@type": "item",
+                    "name": "flyway-core/src/main/java/org/flywaydb/core/extensibility/PluginMetadata.java"
+                },
+                {
+                    "@type": "item",
+                    "name": "flyway-core/src/main/java/org/flywaydb/core/extensibility/RgDomainChecker.java"
+                },
+                {
+                    "@type": "item",
+                    "name": "flyway-core/src/main/java/org/flywaydb/core/internal/schemahistory/SchemaHistoryFactory.java"
+                },
+                {
+                    "@type": "item",
+                    "name": "flyway-gcp-bigquery/src/main/java/org/flywaydb/database/BigQueryDatabaseExtension.java"
+                },
+                {
+                    "@type": "item",
+                    "name": "flyway-core/src/main/java/org/flywaydb/core/internal/schemahistory/SchemaHistory.java"
+                },
+                {
+                    "@type": "item",
+                    "name": "flyway-core/src/main/java/org/flywaydb/core/extensibility/ConfigurationParameter.java"
+                },
+                {
+                    "@type": "item",
+                    "name": "flyway-community-db-support/src/main/java/org/flywaydb/community/database/CommunityDatabaseExtension.java"
+                },
+                {
+                    "@type": "item",
+                    "name": "flyway-core/src/main/java/org/flywaydb/core/Flyway.java"
+                },
+                {
+                    "@type": "item",
+                    "name": "flyway-core/src/main/java/org/flywaydb/core/extensibility/TelemetryPlugin.java"
+                },
+                {
+                    "@type": "item",
+                    "name": "flyway-database-oracle/src/main/java/org/flywaydb/database/oracle/OracleConfigurationExtension.java"
+                },
+                {
+                    "@type": "item",
+                    "name": "flyway-core/src/main/java/org/flywaydb/core/extensibility/HtmlRenderer.java"
+                },
+                {
+                    "@type": "item",
+                    "name": "flyway-core/src/main/java/org/flywaydb/core/internal/schemahistory/BaseAppliedMigration.java"
+                },
+                {
+                    "@type": "item",
+                    "name": "flyway-core/src/main/java/org/flywaydb/core/extensibility/ConfigurationExtension.java"
+                },
+                {
+                    "@type": "item",
+                    "name": "flyway-database-oracle/src/main/java/org/flywaydb/database/oracle/OracleResults.java"
+                }
+            ]
+        },
+        {
+            "@type": "group",
+            "name": "3",
+            "nested": [
+                {
+                    "@type": "item",
+                    "name": "flyway-core/src/main/java/org/flywaydb/core/internal/database/db2/DB2Type.java"
+                },
+                {
+                    "@type": "item",
+                    "name": "flyway-core/src/main/java/org/flywaydb/core/internal/database/saphana/SAPHANATable.java"
+                },
+                {
+                    "@type": "item",
+                    "name": "flyway-core/src/main/java/org/flywaydb/core/internal/database/redshift/RedshiftType.java"
+                },
+                {
+                    "@type": "item",
+                    "name": "flyway-core/src/main/java/org/flywaydb/core/internal/database/informix/InformixTable.java"
+                },
+                {
+                    "@type": "item",
+                    "name": "flyway-core/src/main/java/org/flywaydb/core/internal/database/cockroachdb/CockroachDBTable.java"
+                },
+                {
+                    "@type": "item",
+                    "name": "flyway-core/src/main/java/org/flywaydb/core/internal/database/hsqldb/HSQLDBTable.java"
+                },
+                {
+                    "@type": "item",
+                    "name": "flyway-core/src/main/java/org/flywaydb/core/internal/database/base/Function.java"
+                },
+                {
+                    "@type": "item",
+                    "name": "flyway-core/src/main/java/org/flywaydb/core/internal/database/postgresql/PostgreSQLTable.java"
+                },
+                {
+                    "@type": "item",
+                    "name": "flyway-core/src/main/java/org/flywaydb/core/internal/database/base/Schema.java"
+                },
+                {
+                    "@type": "item",
+                    "name": "flyway-core/src/main/java/org/flywaydb/core/internal/database/postgresql/PostgreSQLType.java"
+                },
+                {
+                    "@type": "item",
+                    "name": "flyway-core/src/main/java/org/flywaydb/core/internal/database/sqlite/SQLiteTable.java"
+                },
+                {
+                    "@type": "item",
+                    "name": "flyway-core/src/main/java/org/flywaydb/core/internal/database/postgresql/PostgreSQLSchema.java"
+                },
+                {
+                    "@type": "item",
+                    "name": "flyway-core/src/main/java/org/flywaydb/core/internal/database/base/SchemaObject.java"
+                },
+                {
+                    "@type": "item",
+                    "name": "flyway-core/src/main/java/org/flywaydb/core/internal/database/db2/DB2Schema.java"
+                },
+                {
+                    "@type": "item",
+                    "name": "flyway-core/src/main/java/org/flywaydb/core/internal/database/hsqldb/HSQLDBSchema.java"
+                },
+                {
+                    "@type": "item",
+                    "name": "flyway-core/src/main/java/org/flywaydb/core/internal/database/InsertRowLock.java"
+                },
+                {
+                    "@type": "item",
+                    "name": "flyway-core/src/main/java/org/flywaydb/core/internal/database/derby/DerbySchema.java"
+                },
+                {
+                    "@type": "item",
+                    "name": "flyway-core/src/main/java/org/flywaydb/core/internal/database/sybasease/SybaseASESchema.java"
+                },
+                {
+                    "@type": "item",
+                    "name": "flyway-core/src/main/java/org/flywaydb/core/internal/database/informix/InformixSchema.java"
+                },
+                {
+                    "@type": "item",
+                    "name": "flyway-core/src/main/java/org/flywaydb/core/internal/database/base/Table.java"
+                },
+                {
+                    "@type": "item",
+                    "name": "flyway-core/src/main/java/org/flywaydb/core/internal/database/snowflake/SnowflakeTable.java"
+                },
+                {
+                    "@type": "item",
+                    "name": "flyway-core/src/main/java/org/flywaydb/core/internal/database/h2/H2Table.java"
+                },
+                {
+                    "@type": "item",
+                    "name": "flyway-core/src/main/java/org/flywaydb/core/internal/database/db2/DB2Table.java"
+                },
+                {
+                    "@type": "item",
+                    "name": "flyway-core/src/main/java/org/flywaydb/core/internal/database/sybasease/SybaseASETable.java"
+                },
+                {
+                    "@type": "item",
+                    "name": "flyway-core/src/main/java/org/flywaydb/core/internal/database/h2/H2Schema.java"
+                },
+                {
+                    "@type": "item",
+                    "name": "flyway-core/src/main/java/org/flywaydb/core/internal/database/derby/DerbyTable.java"
+                },
+                {
+                    "@type": "item",
+                    "name": "flyway-core/src/main/java/org/flywaydb/core/internal/database/sybasease/SybaseASEParser.java"
+                },
+                {
+                    "@type": "item",
+                    "name": "flyway-core/src/main/java/org/flywaydb/core/internal/database/sqlite/SQLiteSchema.java"
+                },
+                {
+                    "@type": "item",
+                    "name": "flyway-core/src/main/java/org/flywaydb/core/internal/database/redshift/RedshiftSchema.java"
+                },
+                {
+                    "@type": "item",
+                    "name": "flyway-core/src/main/java/org/flywaydb/core/internal/database/base/Type.java"
+                },
+                {
+                    "@type": "item",
+                    "name": "flyway-core/src/main/java/org/flywaydb/core/internal/database/redshift/RedshiftTable.java"
+                },
+                {
+                    "@type": "item",
+                    "name": "flyway-core/src/main/java/org/flywaydb/core/internal/database/cockroachdb/CockroachDBSchema.java"
+                },
+                {
+                    "@type": "item",
+                    "name": "flyway-core/src/main/java/org/flywaydb/core/internal/database/snowflake/SnowflakeSchema.java"
+                },
+                {
+                    "@type": "item",
+                    "name": "flyway-core/src/main/java/org/flywaydb/core/internal/database/saphana/SAPHANASchema.java"
+                },
+                {
+                    "@type": "item",
+                    "name": "flyway-core/src/main/java/org/flywaydb/core/internal/database/db2/DB2Function.java"
+                }
+            ]
+        },
+        {
+            "@type": "group",
+            "name": "4",
+            "nested": [
+                {
+                    "@type": "item",
+                    "name": "flyway-core/src/main/java/org/flywaydb/core/internal/command/package-info.java"
+                },
+                {
+                    "@type": "item",
+                    "name": "flyway-core/src/main/java/org/flywaydb/core/internal/database/sqlite/package-info.java"
+                },
+                {
+                    "@type": "item",
+                    "name": "flyway-core/src/main/java/org/flywaydb/core/internal/database/derby/package-info.java"
+                },
+                {
+                    "@type": "item",
+                    "name": "flyway-core/src/main/java/org/flywaydb/core/internal/database/package-info.java"
+                },
+                {
+                    "@type": "item",
+                    "name": "flyway-core/src/main/java/org/flywaydb/core/internal/license/package-info.java"
+                },
+                {
+                    "@type": "item",
+                    "name": "flyway-core/src/main/java/org/flywaydb/core/internal/resource/filesystem/package-info.java"
+                },
+                {
+                    "@type": "item",
+                    "name": "flyway-core/src/main/java/org/flywaydb/core/internal/resource/package-info.java"
+                },
+                {
+                    "@type": "item",
+                    "name": "flyway-core/src/main/java/org/flywaydb/core/internal/database/informix/package-info.java"
+                },
+                {
+                    "@type": "item",
+                    "name": "flyway-core/src/main/java/org/flywaydb/core/internal/database/sybasease/package-info.java"
+                },
+                {
+                    "@type": "item",
+                    "name": "flyway-core/src/main/java/org/flywaydb/core/internal/package-info.java"
+                },
+                {
+                    "@type": "item",
+                    "name": "flyway-core/src/main/java/org/flywaydb/core/internal/clazz/package-info.java"
+                },
+                {
+                    "@type": "item",
+                    "name": "flyway-core/src/main/java/org/flywaydb/core/internal/database/base/package-info.java"
+                },
+                {
+                    "@type": "item",
+                    "name": "flyway-core/src/main/java/org/flywaydb/core/internal/configuration/package-info.java"
+                },
+                {
+                    "@type": "item",
+                    "name": "flyway-core/src/main/java/org/flywaydb/core/internal/database/saphana/package-info.java"
+                },
+                {
+                    "@type": "item",
+                    "name": "flyway-core/src/main/java/org/flywaydb/core/internal/schemahistory/package-info.java"
+                },
+                {
+                    "@type": "item",
+                    "name": "flyway-core/src/main/java/org/flywaydb/core/internal/jdbc/package-info.java"
+                },
+                {
+                    "@type": "item",
+                    "name": "flyway-gcp-spanner/src/main/java/org/flywaydb/database/spanner/package-info.java"
+                },
+                {
+                    "@type": "item",
+                    "name": "flyway-core/src/main/java/org/flywaydb/core/internal/info/package-info.java"
+                },
+                {
+                    "@type": "item",
+                    "name": "flyway-firebird/src/main/java/org/flywaydb/database/firebird/package-info.java"
+                },
+                {
+                    "@type": "item",
+                    "name": "flyway-sqlserver/src/main/java/org/flywaydb/database/sqlserver/package-info.java"
+                },
+                {
+                    "@type": "item",
+                    "name": "flyway-core/src/main/java/org/flywaydb/core/internal/resource/filesystem/FileSystemResource.java"
+                },
+                {
+                    "@type": "item",
+                    "name": "flyway-core/src/main/java/org/flywaydb/core/internal/parser/package-info.java"
+                },
+                {
+                    "@type": "item",
+                    "name": "flyway-core/src/main/java/org/flywaydb/core/internal/database/snowflake/package-info.java"
+                },
+                {
+                    "@type": "item",
+                    "name": "flyway-core/src/main/java/org/flywaydb/core/internal/database/informix/InformixParser.java"
+                },
+                {
+                    "@type": "item",
+                    "name": "flyway-core/src/main/java/org/flywaydb/core/internal/resource/s3/package-info.java"
+                },
+                {
+                    "@type": "item",
+                    "name": "flyway-core/src/main/java/org/flywaydb/core/internal/database/postgresql/package-info.java"
+                },
+                {
+                    "@type": "item",
+                    "name": "flyway-core/src/main/java/org/flywaydb/core/internal/database/db2/package-info.java"
+                },
+                {
+                    "@type": "item",
+                    "name": "flyway-core/src/main/java/org/flywaydb/core/internal/database/cockroachdb/package-info.java"
+                },
+                {
+                    "@type": "item",
+                    "name": "flyway-core/src/main/java/org/flywaydb/core/internal/database/h2/package-info.java"
+                },
+                {
+                    "@type": "item",
+                    "name": "flyway-core/src/main/java/org/flywaydb/core/internal/sqlscript/package-info.java"
+                },
+                {
+                    "@type": "item",
+                    "name": "flyway-core/src/main/java/org/flywaydb/core/internal/database/hsqldb/package-info.java"
+                },
+                {
+                    "@type": "item",
+                    "name": "flyway-database-oracle/src/main/java/org/flywaydb/database/oracle/package-info.java"
+                },
+                {
+                    "@type": "item",
+                    "name": "flyway-core/src/main/java/org/flywaydb/core/internal/exception/package-info.java"
+                },
+                {
+                    "@type": "item",
+                    "name": "flyway-core/src/main/java/org/flywaydb/core/internal/database/redshift/package-info.java"
+                },
+                {
+                    "@type": "item",
+                    "name": "flyway-core/src/main/java/org/flywaydb/core/internal/resource/classpath/package-info.java"
+                }
+            ]
+        },
+        {
+            "@type": "group",
+            "name": "5",
+            "nested": [
+                {
+                    "@type": "item",
+                    "name": "flyway-core/src/main/java/org/flywaydb/core/internal/database/postgresql/PostgreSQLConfigurationExtension.java"
+                },
+                {
+                    "@type": "item",
+                    "name": "flyway-core/src/main/java/org/flywaydb/core/internal/database/cockroachdb/CockroachRetryingTransactionalExecutionTemplate.java"
+                },
+                {
+                    "@type": "item",
+                    "name": "flyway-core/src/main/java/org/flywaydb/core/internal/database/postgresql/PostgreSQLDatabaseType.java"
+                },
+                {
+                    "@type": "item",
+                    "name": "flyway-core/src/main/java/org/flywaydb/core/internal/database/db2/DB2Parser.java"
+                },
+                {
+                    "@type": "item",
+                    "name": "flyway-core/src/main/java/org/flywaydb/core/internal/database/sybasease/SybaseASEJConnectDatabaseType.java"
+                },
+                {
+                    "@type": "item",
+                    "name": "flyway-core/src/main/java/org/flywaydb/core/internal/database/postgresql/PostgreSQLAdvisoryLockTemplate.java"
+                },
+                {
+                    "@type": "item",
+                    "name": "flyway-core/src/main/java/org/flywaydb/core/internal/database/postgresql/PostgreSQLCopyParsedStatement.java"
+                },
+                {
+                    "@type": "item",
+                    "name": "flyway-core/src/main/java/org/flywaydb/core/internal/database/postgresql/TransactionalModel.java"
+                },
+                {
+                    "@type": "item",
+                    "name": "flyway-core/src/main/java/org/flywaydb/core/internal/database/redshift/RedshiftParser.java"
+                },
+                {
+                    "@type": "item",
+                    "name": "flyway-core/src/main/java/org/flywaydb/core/internal/database/h2/H2DatabaseType.java"
+                },
+                {
+                    "@type": "item",
+                    "name": "flyway-core/src/main/java/org/flywaydb/core/internal/database/hsqldb/HSQLDBParser.java"
+                },
+                {
+                    "@type": "item",
+                    "name": "flyway-core/src/main/java/org/flywaydb/core/internal/database/cockroachdb/CockroachDBDatabaseType.java"
+                },
+                {
+                    "@type": "item",
+                    "name": "flyway-core/src/main/java/org/flywaydb/core/internal/util/SqlCallable.java"
+                },
+                {
+                    "@type": "item",
+                    "name": "flyway-core/src/main/java/org/flywaydb/core/internal/database/base/BaseDatabaseType.java"
+                },
+                {
+                    "@type": "item",
+                    "name": "flyway-core/src/main/java/org/flywaydb/core/internal/strategy/RetryStrategy.java"
+                },
+                {
+                    "@type": "item",
+                    "name": "flyway-core/src/main/java/org/flywaydb/core/internal/database/snowflake/SnowflakeDatabaseType.java"
+                },
+                {
+                    "@type": "item",
+                    "name": "flyway-core/src/main/java/org/flywaydb/core/internal/database/base/TestContainersDatabaseType.java"
+                },
+                {
+                    "@type": "item",
+                    "name": "flyway-core/src/main/java/org/flywaydb/core/internal/database/DefaultExecutionStrategy.java"
+                },
+                {
+                    "@type": "item",
+                    "name": "flyway-core/src/main/java/org/flywaydb/core/internal/database/base/Database.java"
+                },
+                {
+                    "@type": "item",
+                    "name": "flyway-core/src/main/java/org/flywaydb/core/internal/database/cockroachdb/CockroachDBRetryingStrategy.java"
+                },
+                {
+                    "@type": "item",
+                    "name": "flyway-core/src/main/java/org/flywaydb/core/internal/database/derby/DerbyDatabaseType.java"
+                },
+                {
+                    "@type": "item",
+                    "name": "flyway-core/src/main/java/org/flywaydb/core/internal/database/sybasease/SybaseASEJTDSDatabaseType.java"
+                },
+                {
+                    "@type": "item",
+                    "name": "flyway-core/src/main/java/org/flywaydb/core/internal/database/postgresql/PostgreSQLParser.java"
+                },
+                {
+                    "@type": "item",
+                    "name": "flyway-core/src/main/java/org/flywaydb/core/internal/database/DatabaseType.java"
+                },
+                {
+                    "@type": "item",
+                    "name": "flyway-core/src/main/java/org/flywaydb/core/internal/database/hsqldb/HSQLDBDatabaseType.java"
+                },
+                {
+                    "@type": "item",
+                    "name": "flyway-core/src/main/java/org/flywaydb/core/internal/database/sqlite/SQLiteDatabaseType.java"
+                },
+                {
+                    "@type": "item",
+                    "name": "flyway-core/src/main/java/org/flywaydb/core/internal/database/db2/DB2DatabaseType.java"
+                },
+                {
+                    "@type": "item",
+                    "name": "flyway-core/src/main/java/org/flywaydb/core/internal/database/informix/InformixDatabaseType.java"
+                },
+                {
+                    "@type": "item",
+                    "name": "flyway-core/src/main/java/org/flywaydb/core/internal/database/saphana/SAPHANADatabaseType.java"
+                },
+                {
+                    "@type": "item",
+                    "name": "flyway-core/src/main/java/org/flywaydb/core/internal/database/DatabaseExecutionStrategy.java"
+                },
+                {
+                    "@type": "item",
+                    "name": "flyway-core/src/main/java/org/flywaydb/core/internal/database/redshift/RedshiftDatabaseType.java"
+                },
+                {
+                    "@type": "item",
+                    "name": "flyway-core/src/main/java/org/flywaydb/core/internal/database/saphana/SAPHANAParser.java"
+                },
+                {
+                    "@type": "item",
+                    "name": "flyway-core/src/main/java/org/flywaydb/core/internal/database/DatabaseTypeRegister.java"
+                },
+                {
+                    "@type": "item",
+                    "name": "flyway-community-db-support/src/main/java/org/flywaydb/community/database/yugabytedb/package-info.java"
+                }
+            ]
+        },
+        {
+            "@type": "group",
+            "name": "6",
+            "nested": [
+                {
+                    "@type": "item",
+                    "name": "flyway-core/src/main/java/org/flywaydb/core/internal/util/IOUtils.java"
+                },
+                {
+                    "@type": "item",
+                    "name": "flyway-core/src/main/java/org/flywaydb/core/internal/util/MergeUtils.java"
+                },
+                {
+                    "@type": "item",
+                    "name": "flyway-core/src/main/java/org/flywaydb/core/internal/util/ObjectMapperFactory.java"
+                },
+                {
+                    "@type": "item",
+                    "name": "flyway-core/src/main/java/org/flywaydb/core/internal/util/JsonUtils.java"
+                },
+                {
+                    "@type": "item",
+                    "name": "flyway-core/src/main/java/org/flywaydb/core/internal/util/TimeFormat.java"
+                },
+                {
+                    "@type": "item",
+                    "name": "flyway-core/src/main/java/org/flywaydb/core/internal/util/BomStrippingReader.java"
+                },
+                {
+                    "@type": "item",
+                    "name": "flyway-core/src/main/java/org/flywaydb/core/internal/util/CollectionsUtils.java"
+                },
+                {
+                    "@type": "item",
+                    "name": "flyway-core/src/main/java/org/flywaydb/core/internal/util/LocalDateTimeSerializer.java"
+                },
+                {
+                    "@type": "item",
+                    "name": "flyway-core/src/main/java/org/flywaydb/core/internal/util/BomFilter.java"
+                },
+                {
+                    "@type": "item",
+                    "name": "flyway-core/src/main/java/org/flywaydb/core/internal/util/DateUtils.java"
+                },
+                {
+                    "@type": "item",
+                    "name": "flyway-core/src/main/java/org/flywaydb/core/internal/util/CloseableIterator.java"
+                },
+                {
+                    "@type": "item",
+                    "name": "flyway-core/src/main/java/org/flywaydb/core/internal/util/ClassUtils.java"
+                },
+                {
+                    "@type": "item",
+                    "name": "flyway-core/src/main/java/org/flywaydb/core/internal/util/HtmlUtils.java"
+                },
+                {
+                    "@type": "item",
+                    "name": "flyway-core/src/main/java/org/flywaydb/core/internal/util/FingerprintUtils.java"
+                },
+                {
+                    "@type": "item",
+                    "name": "flyway-core/src/main/java/org/flywaydb/core/internal/util/FeatureDetector.java"
+                },
+                {
+                    "@type": "item",
+                    "name": "flyway-core/src/main/java/org/flywaydb/core/internal/util/package-info.java"
+                },
+                {
+                    "@type": "item",
+                    "name": "flyway-core/src/main/java/org/flywaydb/core/internal/util/ExceptionUtils.java"
+                },
+                {
+                    "@type": "item",
+                    "name": "flyway-core/src/main/java/org/flywaydb/core/internal/util/StringUtils.java"
+                },
+                {
+                    "@type": "item",
+                    "name": "flyway-core/src/main/java/org/flywaydb/core/internal/util/Locations.java"
+                },
+                {
+                    "@type": "item",
+                    "name": "flyway-core/src/main/java/org/flywaydb/core/internal/util/FileUtils.java"
+                },
+                {
+                    "@type": "item",
+                    "name": "flyway-core/src/main/java/org/flywaydb/core/internal/util/CommandExtensionUtils.java"
+                },
+                {
+                    "@type": "item",
+                    "name": "flyway-core/src/main/java/org/flywaydb/core/internal/util/ValidatePatternUtils.java"
+                },
+                {
+                    "@type": "item",
+                    "name": "flyway-core/src/main/java/org/flywaydb/core/internal/util/StopWatch.java"
+                },
+                {
+                    "@type": "item",
+                    "name": "flyway-core/src/main/java/org/flywaydb/core/internal/util/AsciiTable.java"
+                },
+                {
+                    "@type": "item",
+                    "name": "flyway-core/src/main/java/org/flywaydb/core/internal/util/Pair.java"
+                },
+                {
+                    "@type": "item",
+                    "name": "flyway-core/src/main/java/org/flywaydb/core/internal/util/UrlUtils.java"
+                }
+            ]
+        },
+        {
+            "@type": "group",
+            "name": "7",
+            "nested": [
+                {
+                    "@type": "item",
+                    "name": "flyway-core/src/main/java/org/flywaydb/core/internal/logging/javautil/JavaUtilLog.java"
+                },
+                {
+                    "@type": "item",
+                    "name": "flyway-core/src/main/java/org/flywaydb/core/internal/logging/multi/MultiLogCreator.java"
+                },
+                {
+                    "@type": "item",
+                    "name": "flyway-core/src/main/java/org/flywaydb/core/internal/logging/log4j2/Log4j2Log.java"
+                },
+                {
+                    "@type": "item",
+                    "name": "flyway-core/src/main/java/org/flywaydb/core/api/logging/Log.java"
+                },
+                {
+                    "@type": "item",
+                    "name": "flyway-core/src/main/java/org/flywaydb/core/internal/logging/multi/MultiLogger.java"
+                },
+                {
+                    "@type": "item",
+                    "name": "flyway-core/src/main/java/org/flywaydb/core/internal/logging/apachecommons/ApacheCommonsLog.java"
+                },
+                {
+                    "@type": "item",
+                    "name": "flyway-core/src/main/java/org/flywaydb/core/api/logging/package-info.java"
+                },
+                {
+                    "@type": "item",
+                    "name": "flyway-core/src/main/java/org/flywaydb/core/internal/logging/javautil/package-info.java"
+                },
+                {
+                    "@type": "item",
+                    "name": "flyway-core/src/main/java/org/flywaydb/core/internal/logging/buffered/BufferedLogCreator.java"
+                },
+                {
+                    "@type": "item",
+                    "name": "flyway-core/src/main/java/org/flywaydb/core/internal/logging/javautil/JavaUtilLogCreator.java"
+                },
+                {
+                    "@type": "item",
+                    "name": "flyway-core/src/main/java/org/flywaydb/core/internal/logging/EvolvingLog.java"
+                },
+                {
+                    "@type": "item",
+                    "name": "flyway-core/src/main/java/org/flywaydb/core/internal/logging/package-info.java"
+                },
+                {
+                    "@type": "item",
+                    "name": "flyway-core/src/main/java/org/flywaydb/core/internal/logging/slf4j/package-info.java"
+                },
+                {
+                    "@type": "item",
+                    "name": "flyway-core/src/main/java/org/flywaydb/core/internal/logging/log4j2/Log4j2LogCreator.java"
+                },
+                {
+                    "@type": "item",
+                    "name": "flyway-core/src/main/java/org/flywaydb/core/api/logging/LogCreator.java"
+                },
+                {
+                    "@type": "item",
+                    "name": "flyway-core/src/main/java/org/flywaydb/core/api/logging/LogFactory.java"
+                },
+                {
+                    "@type": "item",
+                    "name": "flyway-core/src/main/java/org/flywaydb/core/internal/logging/buffered/BufferedLog.java"
+                },
+                {
+                    "@type": "item",
+                    "name": "flyway-core/src/main/java/org/flywaydb/core/internal/logging/slf4j/Slf4jLog.java"
+                },
+                {
+                    "@type": "item",
+                    "name": "flyway-core/src/main/java/org/flywaydb/core/internal/logging/slf4j/Slf4jLogCreator.java"
+                },
+                {
+                    "@type": "item",
+                    "name": "flyway-core/src/main/java/org/flywaydb/core/internal/logging/apachecommons/package-info.java"
+                },
+                {
+                    "@type": "item",
+                    "name": "flyway-core/src/main/java/org/flywaydb/core/internal/logging/apachecommons/ApacheCommonsLogCreator.java"
+                }
+            ]
+        },
+        {
+            "@type": "group",
+            "name": "8",
+            "nested": [
+                {
+                    "@type": "item",
+                    "name": "flyway-core/src/main/java/org/flywaydb/core/internal/scanner/classpath/DefaultUrlResolver.java"
+                },
+                {
+                    "@type": "item",
+                    "name": "flyway-core/src/main/java/org/flywaydb/core/internal/scanner/classpath/jboss/JBossVFSv2UrlResolver.java"
+                },
+                {
+                    "@type": "item",
+                    "name": "flyway-core/src/main/java/org/flywaydb/core/internal/scanner/classpath/JarFileClassPathLocationScanner.java"
+                },
+                {
+                    "@type": "item",
+                    "name": "flyway-core/src/main/java/org/flywaydb/core/internal/scanner/Scanner.java"
+                },
+                {
+                    "@type": "item",
+                    "name": "flyway-core/src/main/java/org/flywaydb/core/internal/scanner/classpath/ResourceAndClassScanner.java"
+                },
+                {
+                    "@type": "item",
+                    "name": "flyway-core/src/main/java/org/flywaydb/core/internal/scanner/classpath/ClassPathScanner.java"
+                },
+                {
+                    "@type": "item",
+                    "name": "flyway-core/src/main/java/org/flywaydb/core/internal/scanner/classpath/FileSystemClassPathLocationScanner.java"
+                },
+                {
+                    "@type": "item",
+                    "name": "flyway-core/src/main/java/org/flywaydb/core/internal/scanner/cloud/s3/AwsS3Scanner.java"
+                },
+                {
+                    "@type": "item",
+                    "name": "flyway-core/src/main/java/org/flywaydb/core/internal/scanner/LocationScannerCache.java"
+                },
+                {
+                    "@type": "item",
+                    "name": "flyway-core/src/main/java/org/flywaydb/core/internal/scanner/classpath/OsgiClassPathLocationScanner.java"
+                },
+                {
+                    "@type": "item",
+                    "name": "flyway-core/src/main/java/org/flywaydb/core/internal/scanner/filesystem/FileSystemScanner.java"
+                },
+                {
+                    "@type": "item",
+                    "name": "flyway-core/src/main/java/org/flywaydb/core/internal/scanner/classpath/jboss/JBossVFSv3ClassPathLocationScanner.java"
+                },
+                {
+                    "@type": "item",
+                    "name": "flyway-core/src/main/java/org/flywaydb/core/internal/scanner/classpath/jboss/package-info.java"
+                },
+                {
+                    "@type": "item",
+                    "name": "flyway-core/src/main/java/org/flywaydb/core/internal/scanner/package-info.java"
+                },
+                {
+                    "@type": "item",
+                    "name": "flyway-core/src/main/java/org/flywaydb/core/internal/scanner/ClasspathClassScanner.java"
+                },
+                {
+                    "@type": "item",
+                    "name": "flyway-core/src/main/java/org/flywaydb/core/internal/scanner/classpath/UrlResolver.java"
+                },
+                {
+                    "@type": "item",
+                    "name": "flyway-core/src/main/java/org/flywaydb/core/internal/scanner/classpath/ClassPathLocationScanner.java"
+                },
+                {
+                    "@type": "item",
+                    "name": "flyway-core/src/main/java/org/flywaydb/core/internal/scanner/ResourceNameCache.java"
+                },
+                {
+                    "@type": "item",
+                    "name": "flyway-core/src/main/java/org/flywaydb/core/internal/scanner/cloud/CloudScanner.java"
+                },
+                {
+                    "@type": "item",
+                    "name": "flyway-core/src/main/java/org/flywaydb/core/internal/scanner/classpath/package-info.java"
+                }
+            ]
+        },
+        {
+            "@type": "group",
+            "name": "9",
+            "nested": [
+                {
+                    "@type": "item",
+                    "name": "flyway-commandline/src/main/java/org/flywaydb/commandline/logging/LoggingUtils.java"
+                },
+                {
+                    "@type": "item",
+                    "name": "flyway-core/src/main/java/org/flywaydb/core/internal/reports/ReportDetails.java"
+                },
+                {
+                    "@type": "item",
+                    "name": "flyway-commandline/src/main/java/org/flywaydb/commandline/logging/file/FileLogCreator.java"
+                },
+                {
+                    "@type": "item",
+                    "name": "flyway-commandline/src/main/java/org/flywaydb/commandline/Main.java"
+                },
+                {
+                    "@type": "item",
+                    "name": "flyway-commandline/src/main/java/org/flywaydb/commandline/configuration/CommandLineConfigurationUtils.java"
+                },
+                {
+                    "@type": "item",
+                    "name": "flyway-commandline/src/main/java/org/flywaydb/commandline/configuration/ConfigurationManager.java"
+                },
+                {
+                    "@type": "item",
+                    "name": "flyway-commandline/src/main/java/org/flywaydb/commandline/MavenVersionChecker.java"
+                },
+                {
+                    "@type": "item",
+                    "name": "flyway-commandline/src/main/java/org/flywaydb/commandline/logging/console/ColorizedConsoleLog.java"
+                },
+                {
+                    "@type": "item",
+                    "name": "flyway-commandline/src/main/java/org/flywaydb/commandline/configuration/ModernConfigurationManager.java"
+                },
+                {
+                    "@type": "item",
+                    "name": "flyway-commandline/src/main/java/org/flywaydb/commandline/utils/TelemetryUtils.java"
+                },
+                {
+                    "@type": "item",
+                    "name": "flyway-commandline/src/main/java/org/flywaydb/commandline/configuration/ConfigurationManagerImpl.java"
+                },
+                {
+                    "@type": "item",
+                    "name": "flyway-commandline/src/main/java/org/flywaydb/commandline/logging/file/FileLog.java"
+                },
+                {
+                    "@type": "item",
+                    "name": "flyway-commandline/src/main/java/org/flywaydb/commandline/logging/console/ConsoleLog.java"
+                },
+                {
+                    "@type": "item",
+                    "name": "flyway-commandline/src/main/java/org/flywaydb/commandline/configuration/CommandLineArguments.java"
+                },
+                {
+                    "@type": "item",
+                    "name": "flyway-commandline/src/main/java/org/flywaydb/commandline/configuration/LegacyConfigurationManager.java"
+                },
+                {
+                    "@type": "item",
+                    "name": "flyway-commandline/src/main/java/org/flywaydb/commandline/logging/console/ConsoleLogCreator.java"
+                },
+                {
+                    "@type": "item",
+                    "name": "flyway-commandline/src/main/java/org/flywaydb/commandline/utils/OperationsReportUtils.java"
+                }
+            ]
+        },
+        {
+            "@type": "group",
+            "name": "10",
+            "nested": [
+                {
+                    "@type": "item",
+                    "name": "flyway-sqlserver/src/main/java/org/flywaydb/database/sqlserver/synapse/SynapseDatabaseType.java"
+                },
+                {
+                    "@type": "item",
+                    "name": "flyway-sqlserver/src/main/java/org/flywaydb/database/sqlserver/SQLServerApplicationLockTemplate.java"
+                },
+                {
+                    "@type": "item",
+                    "name": "flyway-sqlserver/src/main/java/org/flywaydb/database/sqlserver/synapse/SynapseTable.java"
+                },
+                {
+                    "@type": "item",
+                    "name": "flyway-sqlserver/src/main/java/org/flywaydb/database/sqlserver/SQLServerParser.java"
+                },
+                {
+                    "@type": "item",
+                    "name": "flyway-sqlserver/src/main/java/org/flywaydb/database/sqlserver/KerberosModel.java"
+                },
+                {
+                    "@type": "item",
+                    "name": "flyway-sqlserver/src/main/java/org/flywaydb/database/sqlserver/synapse/SynapseConnection.java"
+                },
+                {
+                    "@type": "item",
+                    "name": "flyway-sqlserver/src/main/java/org/flywaydb/database/sqlserver/SQLServerEngineEdition.java"
+                },
+                {
+                    "@type": "item",
+                    "name": "flyway-sqlserver/src/main/java/org/flywaydb/database/sqlserver/LoginModel.java"
+                },
+                {
+                    "@type": "item",
+                    "name": "flyway-sqlserver/src/main/java/org/flywaydb/database/sqlserver/SQLServerDatabaseType.java"
+                },
+                {
+                    "@type": "item",
+                    "name": "flyway-sqlserver/src/main/java/org/flywaydb/database/sqlserver/SQLServerTable.java"
+                },
+                {
+                    "@type": "item",
+                    "name": "flyway-sqlserver/src/main/java/org/flywaydb/database/sqlserver/synapse/SynapseSchema.java"
+                },
+                {
+                    "@type": "item",
+                    "name": "flyway-sqlserver/src/main/java/org/flywaydb/database/sqlserver/SQLServerConfigurationExtension.java"
+                },
+                {
+                    "@type": "item",
+                    "name": "flyway-sqlserver/src/main/java/org/flywaydb/database/sqlserver/synapse/SynapseDatabase.java"
+                },
+                {
+                    "@type": "item",
+                    "name": "flyway-sqlserver/src/main/java/org/flywaydb/database/sqlserver/SQLServerDatabase.java"
+                },
+                {
+                    "@type": "item",
+                    "name": "flyway-sqlserver/src/main/java/org/flywaydb/database/sqlserver/SQLServerSchema.java"
+                },
+                {
+                    "@type": "item",
+                    "name": "flyway-sqlserver/src/main/java/org/flywaydb/database/sqlserver/SQLServerConnection.java"
+                }
+            ]
+        },
+        {
+            "@type": "group",
+            "name": "11",
+            "nested": [
+                {
+                    "@type": "item",
+                    "name": "flyway-core/src/main/java/org/flywaydb/core/internal/resolver/sql/SqlMigrationExecutor.java"
+                },
+                {
+                    "@type": "item",
+                    "name": "flyway-core/src/main/java/org/flywaydb/core/internal/resolver/sql/SqlMigrationExecutorFactory.java"
+                },
+                {
+                    "@type": "item",
+                    "name": "flyway-core/src/main/java/org/flywaydb/core/internal/resolver/java/package-info.java"
+                },
+                {
+                    "@type": "item",
+                    "name": "flyway-core/src/main/java/org/flywaydb/core/internal/resolver/ResolvedMigrationComparator.java"
+                },
+                {
+                    "@type": "item",
+                    "name": "flyway-core/src/main/java/org/flywaydb/core/internal/resolver/ChecksumCalculator.java"
+                },
+                {
+                    "@type": "item",
+                    "name": "flyway-core/src/main/java/org/flywaydb/core/internal/resolver/package-info.java"
+                },
+                {
+                    "@type": "item",
+                    "name": "flyway-core/src/main/java/org/flywaydb/core/internal/resolver/java/FixedJavaMigrationResolver.java"
+                },
+                {
+                    "@type": "item",
+                    "name": "flyway-core/src/main/java/org/flywaydb/core/internal/resolver/CompositeMigrationResolver.java"
+                },
+                {
+                    "@type": "item",
+                    "name": "flyway-core/src/main/java/org/flywaydb/core/internal/resolver/sql/package-info.java"
+                },
+                {
+                    "@type": "item",
+                    "name": "flyway-core/src/main/java/org/flywaydb/core/internal/resolver/sql/SqlMigrationResolver.java"
+                },
+                {
+                    "@type": "item",
+                    "name": "flyway-core/src/main/java/org/flywaydb/core/internal/resolver/java/ScanningJavaMigrationResolver.java"
+                },
+                {
+                    "@type": "item",
+                    "name": "flyway-core/src/main/java/org/flywaydb/core/internal/resolver/MigrationInfoHelper.java"
+                },
+                {
+                    "@type": "item",
+                    "name": "flyway-core/src/main/java/org/flywaydb/core/internal/resolver/sql/DefaultSqlMigrationExecutorFactory.java"
+                },
+                {
+                    "@type": "item",
+                    "name": "flyway-core/src/main/java/org/flywaydb/core/internal/resolver/ResolvedMigrationImpl.java"
+                },
+                {
+                    "@type": "item",
+                    "name": "flyway-core/src/main/java/org/flywaydb/core/internal/resolver/java/JavaMigrationExecutor.java"
+                }
+            ]
+        },
+        {
+            "@type": "group",
+            "name": "12",
+            "nested": [
+                {
+                    "@type": "item",
+                    "name": "flyway-core/src/main/java/org/flywaydb/core/extensibility/FlywayExpiredLicenseKeyException.java"
+                },
+                {
+                    "@type": "item",
+                    "name": "flyway-core/src/main/java/org/flywaydb/core/internal/license/FlywayTeamsUpgradeMessage.java"
+                },
+                {
+                    "@type": "item",
+                    "name": "flyway-core/src/main/java/org/flywaydb/core/internal/license/Edition.java"
+                },
+                {
+                    "@type": "item",
+                    "name": "flyway-core/src/main/java/org/flywaydb/core/internal/license/FlywayTeamsUpgradeRequiredException.java"
+                },
+                {
+                    "@type": "item",
+                    "name": "flyway-core/src/main/java/org/flywaydb/core/internal/license/VersionPrinter.java"
+                },
+                {
+                    "@type": "item",
+                    "name": "flyway-core/src/main/java/org/flywaydb/core/internal/license/FlywayEditionUpgradeRequiredException.java"
+                },
+                {
+                    "@type": "item",
+                    "name": "flyway-core/src/main/java/org/flywaydb/core/extensibility/LicenseGuard.java"
+                },
+                {
+                    "@type": "item",
+                    "name": "flyway-core/src/main/java/org/flywaydb/core/extensibility/FlywayMissingLicenseKeyException.java"
+                },
+                {
+                    "@type": "item",
+                    "name": "flyway-core/src/main/java/org/flywaydb/core/internal/util/FlywayDbWebsiteLinks.java"
+                },
+                {
+                    "@type": "item",
+                    "name": "flyway-core/src/main/java/org/flywaydb/core/internal/license/FlywayTrialExpiredException.java"
+                },
+                {
+                    "@type": "item",
+                    "name": "flyway-core/src/main/java/org/flywaydb/core/extensibility/LicenseType.java"
+                },
+                {
+                    "@type": "item",
+                    "name": "flyway-core/src/main/java/org/flywaydb/core/extensibility/FlywayTrialExpiredException.java"
+                },
+                {
+                    "@type": "item",
+                    "name": "flyway-core/src/main/java/org/flywaydb/core/extensibility/LicenseInfo.java"
+                },
+                {
+                    "@type": "item",
+                    "name": "flyway-core/src/main/java/org/flywaydb/core/extensibility/FlywayInvalidLicenseKeyException.java"
+                },
+                {
+                    "@type": "item",
+                    "name": "flyway-core/src/main/java/org/flywaydb/core/extensibility/FlywayRedgateLicenseKeyException.java"
+                }
+            ]
+        },
+        {
+            "@type": "group",
+            "name": "13",
+            "nested": [
+                {
+                    "@type": "item",
+                    "name": "flyway-core/src/main/java/org/flywaydb/core/internal/parser/StatementType.java"
+                },
+                {
+                    "@type": "item",
+                    "name": "flyway-database-oracle/src/main/java/org/flywaydb/database/oracle/OracleParser.java"
+                },
+                {
+                    "@type": "item",
+                    "name": "flyway-core/src/main/java/org/flywaydb/core/internal/parser/PeekingReader.java"
+                },
+                {
+                    "@type": "item",
+                    "name": "flyway-core/src/main/java/org/flywaydb/core/internal/parser/TokenType.java"
+                },
+                {
+                    "@type": "item",
+                    "name": "flyway-core/src/main/java/org/flywaydb/core/internal/parser/ParsingContext.java"
+                },
+                {
+                    "@type": "item",
+                    "name": "flyway-core/src/main/java/org/flywaydb/core/internal/parser/ParserContext.java"
+                },
+                {
+                    "@type": "item",
+                    "name": "flyway-core/src/main/java/org/flywaydb/core/internal/parser/RecordingReader.java"
+                },
+                {
+                    "@type": "item",
+                    "name": "flyway-core/src/main/java/org/flywaydb/core/internal/parser/UnboundedReadAheadReader.java"
+                },
+                {
+                    "@type": "item",
+                    "name": "flyway-core/src/main/java/org/flywaydb/core/internal/parser/Recorder.java"
+                },
+                {
+                    "@type": "item",
+                    "name": "flyway-core/src/main/java/org/flywaydb/core/internal/parser/Statement.java"
+                },
+                {
+                    "@type": "item",
+                    "name": "flyway-core/src/main/java/org/flywaydb/core/internal/parser/Parser.java"
+                },
+                {
+                    "@type": "item",
+                    "name": "flyway-core/src/main/java/org/flywaydb/core/internal/parser/Token.java"
+                },
+                {
+                    "@type": "item",
+                    "name": "flyway-core/src/main/java/org/flywaydb/core/internal/parser/PositionTrackingReader.java"
+                },
+                {
+                    "@type": "item",
+                    "name": "flyway-core/src/main/java/org/flywaydb/core/internal/parser/PlaceholderReplacingReader.java"
+                },
+                {
+                    "@type": "item",
+                    "name": "flyway-core/src/main/java/org/flywaydb/core/internal/parser/PositionTracker.java"
+                }
+            ]
+        },
+        {
+            "@type": "group",
+            "name": "14",
+            "nested": [
+                {
+                    "@type": "item",
+                    "name": "flyway-mysql/src/main/java/org/flywaydb/database/mysql/MySQLTable.java"
+                },
+                {
+                    "@type": "item",
+                    "name": "flyway-mysql/src/main/java/org/flywaydb/database/mysql/MySQLDatabaseType.java"
+                },
+                {
+                    "@type": "item",
+                    "name": "flyway-mysql/src/main/java/org/flywaydb/database/mysql/mariadb/MariaDBParser.java"
+                },
+                {
+                    "@type": "item",
+                    "name": "flyway-community-db-support/src/main/java/org/flywaydb/community/database/mysql/tidb/TiDBDatabase.java"
+                },
+                {
+                    "@type": "item",
+                    "name": "flyway-mysql/src/main/java/org/flywaydb/database/mysql/MySQLParser.java"
+                },
+                {
+                    "@type": "item",
+                    "name": "flyway-community-db-support/src/main/java/org/flywaydb/community/database/mysql/tidb/TiDBDatabaseType.java"
+                },
+                {
+                    "@type": "item",
+                    "name": "flyway-mysql/src/main/java/org/flywaydb/database/mysql/MySQLDatabase.java"
+                },
+                {
+                    "@type": "item",
+                    "name": "flyway-community-db-support/src/main/java/org/flywaydb/community/database/mysql/tidb/TiDBConnection.java"
+                },
+                {
+                    "@type": "item",
+                    "name": "flyway-mysql/src/main/java/org/flywaydb/database/mysql/MySQLConnection.java"
+                },
+                {
+                    "@type": "item",
+                    "name": "flyway-mysql/src/main/java/org/flywaydb/database/mysql/MySQLSchema.java"
+                },
+                {
+                    "@type": "item",
+                    "name": "flyway-mysql/src/main/java/org/flywaydb/database/mysql/MySQLNamedLockTemplate.java"
+                },
+                {
+                    "@type": "item",
+                    "name": "flyway-mysql/src/main/java/org/flywaydb/database/mysql/package-info.java"
+                },
+                {
+                    "@type": "item",
+                    "name": "flyway-mysql/src/main/java/org/flywaydb/database/mysql/mariadb/MariaDBDatabase.java"
+                },
+                {
+                    "@type": "item",
+                    "name": "flyway-mysql/src/main/java/org/flywaydb/database/mysql/mariadb/MariaDBDatabaseType.java"
+                },
+                {
+                    "@type": "item",
+                    "name": "flyway-mysql/src/main/java/org/flywaydb/authentication/mysql/MySQLOptionFileReader.java"
+                }
+            ]
+        },
+        {
+            "@type": "group",
+            "name": "15",
+            "nested": [
+                {
+                    "@type": "item",
+                    "name": "flyway-core/src/main/java/org/flywaydb/core/internal/configuration/ListDeserializer.java"
+                },
+                {
+                    "@type": "item",
+                    "name": "flyway-core/src/main/java/org/flywaydb/core/internal/configuration/models/ResolvedEnvironment.java"
+                },
+                {
+                    "@type": "item",
+                    "name": "flyway-core/src/main/java/org/flywaydb/core/internal/configuration/ConfigurationValidator.java"
+                },
+                {
+                    "@type": "item",
+                    "name": "flyway-core/src/main/java/org/flywaydb/core/internal/configuration/models/FlywayModel.java"
+                },
+                {
+                    "@type": "item",
+                    "name": "flyway-core/src/main/java/org/flywaydb/core/internal/configuration/models/EnvironmentModel.java"
+                },
+                {
+                    "@type": "item",
+                    "name": "flyway-core/src/main/java/org/flywaydb/core/internal/configuration/TomlUtils.java"
+                },
+                {
+                    "@type": "item",
+                    "name": "flyway-core/src/main/java/org/flywaydb/core/internal/configuration/models/PropertyResolver.java"
+                },
+                {
+                    "@type": "item",
+                    "name": "flyway-core/src/main/java/org/flywaydb/core/internal/configuration/resolvers/PropertyResolver.java"
+                },
+                {
+                    "@type": "item",
+                    "name": "flyway-core/src/main/java/org/flywaydb/core/internal/configuration/resolvers/EnvironmentVariableResolver.java"
+                },
+                {
+                    "@type": "item",
+                    "name": "flyway-core/src/main/java/org/flywaydb/core/internal/configuration/resolvers/EnvironmentResolver.java"
+                },
+                {
+                    "@type": "item",
+                    "name": "flyway-core/src/main/java/org/flywaydb/core/internal/configuration/resolvers/PropertyResolverContextImpl.java"
+                },
+                {
+                    "@type": "item",
+                    "name": "flyway-core/src/main/java/org/flywaydb/core/internal/configuration/models/ConfigurationModel.java"
+                },
+                {
+                    "@type": "item",
+                    "name": "flyway-core/src/main/java/org/flywaydb/core/internal/configuration/resolvers/PropertyResolverContext.java"
+                },
+                {
+                    "@type": "item",
+                    "name": "flyway-core/src/main/java/org/flywaydb/core/internal/configuration/ConfigUtils.java"
+                }
+            ]
+        },
+        {
+            "@type": "group",
+            "name": "16",
+            "nested": [
+                {
+                    "@type": "item",
+                    "name": "flyway-core/src/main/java/org/flywaydb/core/internal/database/h2/H2Connection.java"
+                },
+                {
+                    "@type": "item",
+                    "name": "flyway-core/src/main/java/org/flywaydb/core/internal/database/snowflake/SnowflakeConnection.java"
+                },
+                {
+                    "@type": "item",
+                    "name": "flyway-core/src/main/java/org/flywaydb/core/internal/database/saphana/SAPHANAConnection.java"
+                },
+                {
+                    "@type": "item",
+                    "name": "flyway-core/src/main/java/org/flywaydb/core/internal/database/sybasease/SybaseASEConnection.java"
+                },
+                {
+                    "@type": "item",
+                    "name": "flyway-core/src/main/java/org/flywaydb/core/internal/database/sqlite/SQLiteConnection.java"
+                },
+                {
+                    "@type": "item",
+                    "name": "flyway-core/src/main/java/org/flywaydb/core/internal/database/db2/DB2Connection.java"
+                },
+                {
+                    "@type": "item",
+                    "name": "flyway-core/src/main/java/org/flywaydb/core/internal/database/base/Connection.java"
+                },
+                {
+                    "@type": "item",
+                    "name": "flyway-core/src/main/java/org/flywaydb/core/internal/database/hsqldb/HSQLDBConnection.java"
+                },
+                {
+                    "@type": "item",
+                    "name": "flyway-core/src/main/java/org/flywaydb/core/internal/database/redshift/RedshiftConnection.java"
+                },
+                {
+                    "@type": "item",
+                    "name": "flyway-core/src/main/java/org/flywaydb/core/internal/database/derby/DerbyConnection.java"
+                },
+                {
+                    "@type": "item",
+                    "name": "flyway-core/src/main/java/org/flywaydb/core/internal/database/cockroachdb/CockroachDBConnection.java"
+                },
+                {
+                    "@type": "item",
+                    "name": "flyway-core/src/main/java/org/flywaydb/core/internal/database/postgresql/PostgreSQLConnection.java"
+                },
+                {
+                    "@type": "item",
+                    "name": "flyway-core/src/main/java/org/flywaydb/core/internal/database/informix/InformixConnection.java"
+                }
+            ]
+        },
+        {
+            "@type": "group",
+            "name": "17",
+            "nested": [
+                {
+                    "@type": "item",
+                    "name": "flyway-core/src/main/java/org/flywaydb/core/internal/command/DbSchemas.java"
+                },
+                {
+                    "@type": "item",
+                    "name": "flyway-core/src/main/java/org/flywaydb/core/internal/command/DbInfo.java"
+                },
+                {
+                    "@type": "item",
+                    "name": "flyway-core/src/main/java/org/flywaydb/core/internal/command/clean/SchemaModel.java"
+                },
+                {
+                    "@type": "item",
+                    "name": "flyway-core/src/main/java/org/flywaydb/core/internal/reports/json/HtmlResultDeserializer.java"
+                },
+                {
+                    "@type": "item",
+                    "name": "flyway-core/src/main/java/org/flywaydb/core/internal/reports/json/MigrateResultDeserializer.java"
+                },
+                {
+                    "@type": "item",
+                    "name": "flyway-core/src/main/java/org/flywaydb/core/internal/command/clean/CleanExecutor.java"
+                },
+                {
+                    "@type": "item",
+                    "name": "flyway-core/src/main/java/org/flywaydb/core/internal/command/clean/CleanModel.java"
+                },
+                {
+                    "@type": "item",
+                    "name": "flyway-core/src/main/java/org/flywaydb/core/internal/reports/json/CompositeResultDeserializer.java"
+                },
+                {
+                    "@type": "item",
+                    "name": "flyway-core/src/main/java/org/flywaydb/core/internal/command/clean/CleanModeConfigurationExtension.java"
+                },
+                {
+                    "@type": "item",
+                    "name": "flyway-core/src/main/java/org/flywaydb/core/internal/command/DbValidate.java"
+                },
+                {
+                    "@type": "item",
+                    "name": "flyway-core/src/main/java/org/flywaydb/core/internal/command/clean/DbClean.java"
+                },
+                {
+                    "@type": "item",
+                    "name": "flyway-core/src/main/java/org/flywaydb/core/internal/reports/json/InfoResultDeserializer.java"
+                },
+                {
+                    "@type": "item",
+                    "name": "flyway-core/src/main/java/org/flywaydb/core/internal/command/DbBaseline.java"
+                }
+            ]
+        },
+        {
+            "@type": "group",
+            "name": "18",
+            "nested": [
+                {
+                    "@type": "item",
+                    "name": "flyway-core/src/main/java/org/flywaydb/core/internal/database/redshift/RedshiftDatabase.java"
+                },
+                {
+                    "@type": "item",
+                    "name": "flyway-core/src/main/java/org/flywaydb/core/internal/database/cockroachdb/CockroachDBDatabase.java"
+                },
+                {
+                    "@type": "item",
+                    "name": "flyway-core/src/main/java/org/flywaydb/core/internal/database/informix/InformixDatabase.java"
+                },
+                {
+                    "@type": "item",
+                    "name": "flyway-core/src/main/java/org/flywaydb/core/internal/database/derby/DerbyDatabase.java"
+                },
+                {
+                    "@type": "item",
+                    "name": "flyway-core/src/main/java/org/flywaydb/core/internal/database/sqlite/SQLiteDatabase.java"
+                },
+                {
+                    "@type": "item",
+                    "name": "flyway-core/src/main/java/org/flywaydb/core/internal/database/sybasease/SybaseASEDatabase.java"
+                },
+                {
+                    "@type": "item",
+                    "name": "flyway-core/src/main/java/org/flywaydb/core/internal/database/postgresql/PostgreSQLDatabase.java"
+                },
+                {
+                    "@type": "item",
+                    "name": "flyway-core/src/main/java/org/flywaydb/core/internal/database/saphana/SAPHANADatabase.java"
+                },
+                {
+                    "@type": "item",
+                    "name": "flyway-core/src/main/java/org/flywaydb/core/internal/database/h2/H2Database.java"
+                },
+                {
+                    "@type": "item",
+                    "name": "flyway-core/src/main/java/org/flywaydb/core/internal/database/db2/DB2Database.java"
+                },
+                {
+                    "@type": "item",
+                    "name": "flyway-core/src/main/java/org/flywaydb/core/internal/database/snowflake/SnowflakeDatabase.java"
+                },
+                {
+                    "@type": "item",
+                    "name": "flyway-core/src/main/java/org/flywaydb/core/internal/database/hsqldb/HSQLDBDatabase.java"
+                }
+            ]
+        },
+        {
+            "@type": "group",
+            "name": "19",
+            "nested": [
+                {
+                    "@type": "item",
+                    "name": "flyway-core/src/main/java/org/flywaydb/core/internal/sqlscript/DefaultSqlScriptExecutor.java"
+                },
+                {
+                    "@type": "item",
+                    "name": "flyway-core/src/main/java/org/flywaydb/core/internal/sqlscript/SqlScriptFactory.java"
+                },
+                {
+                    "@type": "item",
+                    "name": "flyway-core/src/main/java/org/flywaydb/core/internal/sqlscript/ParserSqlScript.java"
+                },
+                {
+                    "@type": "item",
+                    "name": "flyway-core/src/main/java/org/flywaydb/core/internal/sqlscript/FlywaySqlScriptException.java"
+                },
+                {
+                    "@type": "item",
+                    "name": "flyway-core/src/main/java/org/flywaydb/core/internal/sqlscript/SqlStatement.java"
+                },
+                {
+                    "@type": "item",
+                    "name": "flyway-core/src/main/java/org/flywaydb/core/internal/sqlscript/SqlScriptExecutorFactory.java"
+                },
+                {
+                    "@type": "item",
+                    "name": "flyway-core/src/main/java/org/flywaydb/core/internal/sqlscript/SqlScriptMetadata.java"
+                },
+                {
+                    "@type": "item",
+                    "name": "flyway-core/src/main/java/org/flywaydb/core/internal/sqlscript/SqlStatementIterator.java"
+                },
+                {
+                    "@type": "item",
+                    "name": "flyway-core/src/main/java/org/flywaydb/core/internal/sqlscript/Delimiter.java"
+                },
+                {
+                    "@type": "item",
+                    "name": "flyway-core/src/main/java/org/flywaydb/core/internal/sqlscript/SqlScript.java"
+                },
+                {
+                    "@type": "item",
+                    "name": "flyway-core/src/main/java/org/flywaydb/core/internal/sqlscript/SqlScriptExecutor.java"
+                },
+                {
+                    "@type": "item",
+                    "name": "flyway-core/src/main/java/org/flywaydb/core/internal/sqlscript/ParsedSqlStatement.java"
+                }
+            ]
+        },
+        {
+            "@type": "group",
+            "name": "20",
+            "nested": [
+                {
+                    "@type": "item",
+                    "name": "flyway-gradle-plugin/src/main/java/org/flywaydb/gradle/FlywayPlugin.java"
+                },
+                {
+                    "@type": "item",
+                    "name": "flyway-gradle-plugin/src/main/java/org/flywaydb/gradle/task/FlywayRepairTask.java"
+                },
+                {
+                    "@type": "item",
+                    "name": "flyway-gradle-plugin/src/main/java/org/flywaydb/gradle/task/FlywayBaselineTask.java"
+                },
+                {
+                    "@type": "item",
+                    "name": "flyway-gradle-plugin/src/main/java/org/flywaydb/gradle/task/FlywayUndoTask.java"
+                },
+                {
+                    "@type": "item",
+                    "name": "flyway-gradle-plugin/src/main/java/org/flywaydb/gradle/FlywayExtension.java"
+                },
+                {
+                    "@type": "item",
+                    "name": "flyway-gradle-plugin/src/main/java/org/flywaydb/gradle/task/FlywayMigrateTask.java"
+                },
+                {
+                    "@type": "item",
+                    "name": "flyway-core/src/main/java/org/flywaydb/core/internal/exception/FlywaySqlException.java"
+                },
+                {
+                    "@type": "item",
+                    "name": "flyway-gradle-plugin/src/main/java/org/flywaydb/gradle/task/FlywayValidateTask.java"
+                },
+                {
+                    "@type": "item",
+                    "name": "flyway-core/src/main/java/org/flywaydb/core/internal/exception/FlywayDbUpgradeRequiredException.java"
+                },
+                {
+                    "@type": "item",
+                    "name": "flyway-gradle-plugin/src/main/java/org/flywaydb/gradle/task/AbstractFlywayTask.java"
+                },
+                {
+                    "@type": "item",
+                    "name": "flyway-gradle-plugin/src/main/java/org/flywaydb/gradle/task/FlywayInfoTask.java"
+                },
+                {
+                    "@type": "item",
+                    "name": "flyway-gradle-plugin/src/main/java/org/flywaydb/gradle/task/FlywayCleanTask.java"
+                }
+            ]
+        },
+        {
+            "@type": "group",
+            "name": "21",
+            "nested": [
+                {
+                    "@type": "item",
+                    "name": "flyway-core/src/main/java/org/flywaydb/core/internal/jdbc/DriverDataSource.java"
+                },
+                {
+                    "@type": "item",
+                    "name": "flyway-core/src/main/java/org/flywaydb/core/internal/jdbc/JdbcUtils.java"
+                },
+                {
+                    "@type": "item",
+                    "name": "flyway-core/src/main/java/org/flywaydb/core/internal/jdbc/Results.java"
+                },
+                {
+                    "@type": "item",
+                    "name": "flyway-core/src/main/java/org/flywaydb/core/internal/jdbc/JdbcNullTypes.java"
+                },
+                {
+                    "@type": "item",
+                    "name": "flyway-core/src/main/java/org/flywaydb/core/internal/jdbc/JdbcConnectionFactory.java"
+                },
+                {
+                    "@type": "item",
+                    "name": "flyway-core/src/main/java/org/flywaydb/core/internal/jdbc/RowMapper.java"
+                },
+                {
+                    "@type": "item",
+                    "name": "flyway-core/src/main/java/org/flywaydb/core/internal/jdbc/JdbcTemplate.java"
+                },
+                {
+                    "@type": "item",
+                    "name": "flyway-core/src/main/java/org/flywaydb/core/internal/jdbc/ErrorImpl.java"
+                },
+                {
+                    "@type": "item",
+                    "name": "flyway-core/src/main/java/org/flywaydb/core/internal/jdbc/Result.java"
+                },
+                {
+                    "@type": "item",
+                    "name": "flyway-core/src/main/java/org/flywaydb/core/internal/jdbc/StatementInterceptor.java"
+                },
+                {
+                    "@type": "item",
+                    "name": "flyway-core/src/main/java/org/flywaydb/core/internal/jdbc/WarningImpl.java"
+                }
+            ]
+        },
+        {
+            "@type": "group",
+            "name": "22",
+            "nested": [
+                {
+                    "@type": "item",
+                    "name": "flyway-maven-plugin/src/main/java/org/flywaydb/maven/ValidateMojo.java"
+                },
+                {
+                    "@type": "item",
+                    "name": "flyway-maven-plugin/src/main/java/org/flywaydb/maven/RepairMojo.java"
+                },
+                {
+                    "@type": "item",
+                    "name": "flyway-maven-plugin/src/main/java/org/flywaydb/maven/UndoMojo.java"
+                },
+                {
+                    "@type": "item",
+                    "name": "flyway-maven-plugin/src/main/java/org/flywaydb/maven/AbstractFlywayMojo.java"
+                },
+                {
+                    "@type": "item",
+                    "name": "flyway-maven-plugin/src/main/java/org/flywaydb/maven/MavenLogCreator.java"
+                },
+                {
+                    "@type": "item",
+                    "name": "flyway-maven-plugin/src/main/java/org/flywaydb/maven/BaselineMojo.java"
+                },
+                {
+                    "@type": "item",
+                    "name": "flyway-maven-plugin/src/main/java/org/flywaydb/maven/MigrateMojo.java"
+                },
+                {
+                    "@type": "item",
+                    "name": "flyway-maven-plugin/src/main/java/org/flywaydb/maven/MavenLog.java"
+                },
+                {
+                    "@type": "item",
+                    "name": "flyway-maven-plugin/src/main/java/org/flywaydb/maven/InfoMojo.java"
+                },
+                {
+                    "@type": "item",
+                    "name": "flyway-maven-plugin/src/main/java/org/flywaydb/maven/CleanMojo.java"
+                }
+            ]
+        },
+        {
+            "@type": "group",
+            "name": "23",
+            "nested": [
+                {
+                    "@type": "item",
+                    "name": "flyway-database-db2zOS/src/main/java/org/flywaydb/database/db2zos/DB2zOSDatabaseType.java"
+                },
+                {
+                    "@type": "item",
+                    "name": "flyway-database-db2zOS/src/main/java/org/flywaydb/database/db2zos/DB2zOSParser.java"
+                },
+                {
+                    "@type": "item",
+                    "name": "flyway-database-db2zOS/src/main/java/org/flywaydb/database/db2zos/DB2zOSSchema.java"
+                },
+                {
+                    "@type": "item",
+                    "name": "flyway-database-db2zOS/src/main/java/org/flywaydb/database/db2zos/DB2zOSType.java"
+                },
+                {
+                    "@type": "item",
+                    "name": "flyway-database-db2zOS/src/main/java/org/flywaydb/database/db2zos/DB2zOSParserSqlScript.java"
+                },
+                {
+                    "@type": "item",
+                    "name": "flyway-database-db2zOS/src/main/java/org/flywaydb/database/db2zos/DB2zOSFunction.java"
+                },
+                {
+                    "@type": "item",
+                    "name": "flyway-database-db2zOS/src/main/java/org/flywaydb/database/db2zos/DB2zOSConnection.java"
+                },
+                {
+                    "@type": "item",
+                    "name": "flyway-database-db2zOS/src/main/java/org/flywaydb/database/db2zos/DB2zOSTable.java"
+                },
+                {
+                    "@type": "item",
+                    "name": "flyway-database-db2zOS/src/main/java/org/flywaydb/database/db2zos/DB2zOSDatabase.java"
+                }
+            ]
+        },
+        {
+            "@type": "group",
+            "name": "24",
+            "nested": [
+                {
+                    "@type": "item",
+                    "name": "flyway-gcp-bigquery/src/main/java/org/flywaydb/database/bigquery/package-info.java"
+                },
+                {
+                    "@type": "item",
+                    "name": "flyway-gcp-bigquery/src/main/java/org/flywaydb/database/bigquery/BigQueryConnection.java"
+                },
+                {
+                    "@type": "item",
+                    "name": "flyway-gcp-bigquery/src/main/java/org/flywaydb/database/bigquery/BigQueryDatabase.java"
+                },
+                {
+                    "@type": "item",
+                    "name": "flyway-gcp-bigquery/src/main/java/org/flywaydb/database/bigquery/BigQueryParser.java"
+                },
+                {
+                    "@type": "item",
+                    "name": "flyway-gcp-bigquery/src/main/java/org/flywaydb/database/bigquery/BigQueryJdbcTemplate.java"
+                },
+                {
+                    "@type": "item",
+                    "name": "flyway-gcp-bigquery/src/main/java/org/flywaydb/database/bigquery/BigQueryTable.java"
+                },
+                {
+                    "@type": "item",
+                    "name": "flyway-gcp-bigquery/src/main/java/org/flywaydb/database/bigquery/BigQuerySchema.java"
+                },
+                {
+                    "@type": "item",
+                    "name": "flyway-gcp-bigquery/src/main/java/org/flywaydb/database/bigquery/BigQueryDatabaseType.java"
+                },
+                {
+                    "@type": "item",
+                    "name": "flyway-core/src/main/java/org/flywaydb/core/internal/util/DataUnits.java"
+                }
+            ]
+        },
+        {
+            "@type": "group",
+            "name": "25",
+            "nested": [
+                {
+                    "@type": "item",
+                    "name": "flyway-core/src/main/java/org/flywaydb/core/internal/callback/SqlScriptCallbackFactory.java"
+                },
+                {
+                    "@type": "item",
+                    "name": "flyway-core/src/main/java/org/flywaydb/core/internal/callback/CallbackExecutor.java"
+                },
+                {
+                    "@type": "item",
+                    "name": "flyway-core/src/main/java/org/flywaydb/core/internal/callback/DefaultCallbackExecutor.java"
+                },
+                {
+                    "@type": "item",
+                    "name": "flyway-core/src/main/java/org/flywaydb/core/internal/callback/NoopCallbackExecutor.java"
+                },
+                {
+                    "@type": "item",
+                    "name": "flyway-core/src/main/java/org/flywaydb/core/internal/callback/NoopCallback.java"
+                },
+                {
+                    "@type": "item",
+                    "name": "flyway-core/src/main/java/org/flywaydb/core/internal/callback/SimpleContext.java"
+                },
+                {
+                    "@type": "item",
+                    "name": "flyway-core/src/main/java/org/flywaydb/core/internal/strategy/BackoffStrategy.java"
+                },
+                {
+                    "@type": "item",
+                    "name": "flyway-core/src/main/java/org/flywaydb/core/internal/callback/package-info.java"
+                }
+            ]
+        },
+        {
+            "@type": "group",
+            "name": "26",
+            "nested": [
+                {
+                    "@type": "item",
+                    "name": "flyway-community-db-support/src/main/java/org/flywaydb/community/database/ignite/thin/IgniteThinTable.java"
+                },
+                {
+                    "@type": "item",
+                    "name": "flyway-community-db-support/src/main/java/org/flywaydb/community/database/ignite/thin/package-info.java"
+                },
+                {
+                    "@type": "item",
+                    "name": "flyway-community-db-support/src/main/java/org/flywaydb/community/database/ignite/thin/IgniteThinDatabase.java"
+                },
+                {
+                    "@type": "item",
+                    "name": "flyway-community-db-support/src/main/java/org/flywaydb/community/database/ignite/thin/IgniteThinSchema.java"
+                },
+                {
+                    "@type": "item",
+                    "name": "flyway-community-db-support/src/main/java/org/flywaydb/community/database/ignite/thin/IgniteThinConnection.java"
+                },
+                {
+                    "@type": "item",
+                    "name": "flyway-community-db-support/src/main/java/org/flywaydb/community/database/ignite/thin/IgniteThinParser.java"
+                },
+                {
+                    "@type": "item",
+                    "name": "flyway-community-db-support/src/main/java/org/flywaydb/community/database/ignite/thin/IgniteThinDatabaseType.java"
+                }
+            ]
+        },
+        {
+            "@type": "group",
+            "name": "27",
+            "nested": [
+                {
+                    "@type": "item",
+                    "name": "flyway-gcp-spanner/src/main/java/org/flywaydb/database/spanner/SpannerConnection.java"
+                },
+                {
+                    "@type": "item",
+                    "name": "flyway-gcp-spanner/src/main/java/org/flywaydb/database/spanner/SpannerSchema.java"
+                },
+                {
+                    "@type": "item",
+                    "name": "flyway-gcp-spanner/src/main/java/org/flywaydb/database/spanner/SpannerParser.java"
+                },
+                {
+                    "@type": "item",
+                    "name": "flyway-gcp-spanner/src/main/java/org/flywaydb/database/spanner/SpannerJdbcTemplate.java"
+                },
+                {
+                    "@type": "item",
+                    "name": "flyway-gcp-spanner/src/main/java/org/flywaydb/database/spanner/SpannerDatabaseType.java"
+                },
+                {
+                    "@type": "item",
+                    "name": "flyway-gcp-spanner/src/main/java/org/flywaydb/database/spanner/SpannerTable.java"
+                },
+                {
+                    "@type": "item",
+                    "name": "flyway-gcp-spanner/src/main/java/org/flywaydb/database/spanner/SpannerDatabase.java"
+                }
+            ]
+        },
+        {
+            "@type": "group",
+            "name": "28",
+            "nested": [
+                {
+                    "@type": "item",
+                    "name": "flyway-singlestore/src/main/java/org/flywaydb/database/singlestore/SingleStoreTable.java"
+                },
+                {
+                    "@type": "item",
+                    "name": "flyway-singlestore/src/main/java/org/flywaydb/database/singlestore/SingleStoreParser.java"
+                },
+                {
+                    "@type": "item",
+                    "name": "flyway-singlestore/src/main/java/org/flywaydb/database/singlestore/SingleStoreDatabase.java"
+                },
+                {
+                    "@type": "item",
+                    "name": "flyway-singlestore/src/main/java/org/flywaydb/database/singlestore/SingleStoreDatabaseType.java"
+                },
+                {
+                    "@type": "item",
+                    "name": "flyway-singlestore/src/main/java/org/flywaydb/database/singlestore/SingleStoreConnection.java"
+                },
+                {
+                    "@type": "item",
+                    "name": "flyway-singlestore/src/main/java/org/flywaydb/database/singlestore/package-info.java"
+                },
+                {
+                    "@type": "item",
+                    "name": "flyway-singlestore/src/main/java/org/flywaydb/database/singlestore/SingleStoreSchema.java"
+                }
+            ]
+        },
+        {
+            "@type": "group",
+            "name": "29",
+            "nested": [
+                {
+                    "@type": "item",
+                    "name": "flyway-community-db-support/src/main/java/org/flywaydb/community/database/yugabytedb/YugabyteDBDatabase.java"
+                },
+                {
+                    "@type": "item",
+                    "name": "flyway-community-db-support/src/main/java/org/flywaydb/community/database/yugabytedb/YugabyteDBTable.java"
+                },
+                {
+                    "@type": "item",
+                    "name": "flyway-community-db-support/src/main/java/org/flywaydb/community/database/yugabytedb/YugabyteDBParser.java"
+                },
+                {
+                    "@type": "item",
+                    "name": "flyway-community-db-support/src/main/java/org/flywaydb/community/database/yugabytedb/YugabyteDBDatabaseType.java"
+                },
+                {
+                    "@type": "item",
+                    "name": "flyway-community-db-support/src/main/java/org/flywaydb/community/database/yugabytedb/YugabyteDBSchema.java"
+                },
+                {
+                    "@type": "item",
+                    "name": "flyway-community-db-support/src/main/java/org/flywaydb/community/database/yugabytedb/YugabyteDBConnection.java"
+                }
+            ]
+        },
+        {
+            "@type": "group",
+            "name": "30",
+            "nested": [
+                {
+                    "@type": "item",
+                    "name": "flyway-core/src/main/java/org/flywaydb/core/internal/database/sqlite/SQLiteParser.java"
+                },
+                {
+                    "@type": "item",
+                    "name": "flyway-core/src/main/java/org/flywaydb/core/internal/database/snowflake/SnowflakeParser.java"
+                },
+                {
+                    "@type": "item",
+                    "name": "flyway-core/src/main/java/org/flywaydb/core/internal/database/h2/H2Parser.java"
+                },
+                {
+                    "@type": "item",
+                    "name": "flyway-core/src/main/java/org/flywaydb/core/internal/database/derby/DerbyParser.java"
+                },
+                {
+                    "@type": "item",
+                    "name": "flyway-core/src/main/java/org/flywaydb/core/internal/util/AbbreviationUtils.java"
+                },
+                {
+                    "@type": "item",
+                    "name": "flyway-core/src/main/java/org/flywaydb/core/internal/database/cockroachdb/CockroachDBParser.java"
+                }
+            ]
+        },
+        {
+            "@type": "group",
+            "name": "31",
+            "nested": [
+                {
+                    "@type": "item",
+                    "name": "flyway-database-oracle/src/main/java/org/flywaydb/database/oracle/OracleDatabase.java"
+                },
+                {
+                    "@type": "item",
+                    "name": "flyway-database-oracle/src/main/java/org/flywaydb/database/oracle/OracleSqlScriptExecutor.java"
+                },
+                {
+                    "@type": "item",
+                    "name": "flyway-database-oracle/src/main/java/org/flywaydb/database/oracle/OracleSchema.java"
+                },
+                {
+                    "@type": "item",
+                    "name": "flyway-database-oracle/src/main/java/org/flywaydb/database/oracle/OracleDatabaseType.java"
+                },
+                {
+                    "@type": "item",
+                    "name": "flyway-database-oracle/src/main/java/org/flywaydb/database/oracle/OracleTable.java"
+                },
+                {
+                    "@type": "item",
+                    "name": "flyway-database-oracle/src/main/java/org/flywaydb/database/oracle/OracleConnection.java"
+                }
+            ]
+        },
+        {
+            "@type": "group",
+            "name": "32",
+            "nested": [
+                {
+                    "@type": "item",
+                    "name": "flyway-firebird/src/main/java/org/flywaydb/database/firebird/FirebirdTable.java"
+                },
+                {
+                    "@type": "item",
+                    "name": "flyway-firebird/src/main/java/org/flywaydb/database/firebird/FirebirdConnection.java"
+                },
+                {
+                    "@type": "item",
+                    "name": "flyway-firebird/src/main/java/org/flywaydb/database/firebird/FirebirdDatabaseType.java"
+                },
+                {
+                    "@type": "item",
+                    "name": "flyway-firebird/src/main/java/org/flywaydb/database/firebird/FirebirdDatabase.java"
+                },
+                {
+                    "@type": "item",
+                    "name": "flyway-firebird/src/main/java/org/flywaydb/database/firebird/FirebirdSchema.java"
+                },
+                {
+                    "@type": "item",
+                    "name": "flyway-firebird/src/main/java/org/flywaydb/database/firebird/FirebirdParser.java"
+                }
+            ]
+        },
+        {
+            "@type": "group",
+            "name": "33",
+            "nested": [
+                {
+                    "@type": "item",
+                    "name": "flyway-core/src/main/java/org/flywaydb/core/internal/jdbc/ExecutionTemplateFactory.java"
+                },
+                {
+                    "@type": "item",
+                    "name": "flyway-core/src/main/java/org/flywaydb/core/internal/jdbc/ExecutionTemplate.java"
+                },
+                {
+                    "@type": "item",
+                    "name": "flyway-core/src/main/java/org/flywaydb/core/internal/jdbc/TableLockingExecutionTemplate.java"
+                },
+                {
+                    "@type": "item",
+                    "name": "flyway-core/src/main/java/org/flywaydb/core/internal/jdbc/TransactionalExecutionTemplate.java"
+                },
+                {
+                    "@type": "item",
+                    "name": "flyway-core/src/main/java/org/flywaydb/core/internal/jdbc/PlainExecutionTemplate.java"
+                }
+            ]
+        },
+        {
+            "@type": "group",
+            "name": "34",
+            "nested": [
+                {
+                    "@type": "item",
+                    "name": "flyway-core/src/main/java/org/flywaydb/core/internal/resource/ResourceNameParser.java"
+                },
+                {
+                    "@type": "item",
+                    "name": "flyway-core/src/main/java/org/flywaydb/core/internal/resource/CoreResourceTypeProvider.java"
+                },
+                {
+                    "@type": "item",
+                    "name": "flyway-core/src/main/java/org/flywaydb/core/internal/resource/ResourceNameValidator.java"
+                },
+                {
+                    "@type": "item",
+                    "name": "flyway-core/src/main/java/org/flywaydb/core/internal/resource/ResourceName.java"
+                },
+                {
+                    "@type": "item",
+                    "name": "flyway-core/src/main/java/org/flywaydb/core/internal/resource/NoopResourceProvider.java"
+                }
+            ]
+        },
+        {
+            "@type": "group",
+            "name": "35",
+            "nested": [
+                {
+                    "@type": "item",
+                    "name": "flyway-core/src/main/java/org/flywaydb/core/internal/info/AppliedMigrationAttributes.java"
+                },
+                {
+                    "@type": "item",
+                    "name": "flyway-core/src/main/java/org/flywaydb/core/internal/info/MigrationInfoContext.java"
+                },
+                {
+                    "@type": "item",
+                    "name": "flyway-core/src/main/java/org/flywaydb/core/internal/info/MigrationInfoServiceImpl.java"
+                },
+                {
+                    "@type": "item",
+                    "name": "flyway-core/src/main/java/org/flywaydb/core/internal/info/MigrationInfoImpl.java"
+                }
+            ]
+        },
+        {
+            "@type": "group",
+            "name": "36",
+            "nested": [
+                {
+                    "@type": "item",
+                    "name": "flyway-commandline/src/main/java/org/flywaydb/commandline/command/version/VersionResult.java"
+                },
+                {
+                    "@type": "item",
+                    "name": "flyway-commandline/src/main/java/org/flywaydb/commandline/command/version/PluginVersionResult.java"
+                },
+                {
+                    "@type": "item",
+                    "name": "flyway-commandline/src/main/java/org/flywaydb/commandline/command/version/VersionCommandExtension.java"
+                }
+            ]
+        },
+        {
+            "@type": "group",
+            "name": "37",
+            "nested": [
+                {
+                    "@type": "item",
+                    "name": "flyway-core/src/main/java/org/flywaydb/core/internal/authentication/ExternalAuthFileReader.java"
+                },
+                {
+                    "@type": "item",
+                    "name": "flyway-core/src/main/java/org/flywaydb/core/internal/authentication/ExternalAuthPropertiesProvider.java"
+                },
+                {
+                    "@type": "item",
+                    "name": "flyway-core/src/main/java/org/flywaydb/core/internal/authentication/postgres/PgpassFileReader.java"
+                }
+            ]
+        },
+        {
+            "@type": "group",
+            "name": "38",
+            "nested": [
+                {
+                    "@type": "item",
+                    "name": "flyway-commandline/src/main/java/org/flywaydb/commandline/JavaVersionPrinter.java"
+                },
+                {
+                    "@type": "item",
+                    "name": "flyway-commandline/src/main/java17/org/flywaydb/commandline/JavaVersionPrinter.java"
+                }
+            ]
+        },
+        {
+            "@type": "group",
+            "name": "39",
+            "nested": [
+                {
+                    "@type": "item",
+                    "name": "flyway-core/src/main/java/org/flywaydb/core/internal/reports/html/HtmlReportGenerator.java"
+                },
+                {
+                    "@type": "item",
+                    "name": "flyway-core/src/main/java/org/flywaydb/core/internal/reports/html/HoldingTabMetadata.java"
+                }
+            ]
+        },
+        {
+            "@type": "group",
+            "name": "40",
+            "nested": [
+                {
+                    "@type": "item",
+                    "name": "flyway-core/src/main/java/org/flywaydb/core/package-info.java"
+                }
+            ]
+        }
+    ]
+}

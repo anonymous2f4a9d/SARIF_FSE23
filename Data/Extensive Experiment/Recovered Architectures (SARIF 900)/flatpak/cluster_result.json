@@ -1,0 +1,850 @@
+{
+    "@schemaVersion": "1.0",
+    "name": "clustering",
+    "structure": [
+        {
+            "@type": "group",
+            "name": "0",
+            "nested": [
+                {
+                    "@type": "item",
+                    "name": "common/flatpak-ref.h"
+                },
+                {
+                    "@type": "item",
+                    "name": "common/flatpak-ref.c"
+                },
+                {
+                    "@type": "item",
+                    "name": "common/flatpak-related-ref.h"
+                },
+                {
+                    "@type": "item",
+                    "name": "common/flatpak-related-ref.c"
+                },
+                {
+                    "@type": "item",
+                    "name": "common/test-lib.c"
+                },
+                {
+                    "@type": "item",
+                    "name": "common/flatpak-instance.h"
+                },
+                {
+                    "@type": "item",
+                    "name": "common/flatpak-instance-private.h"
+                },
+                {
+                    "@type": "item",
+                    "name": "common/flatpak-instance.c"
+                },
+                {
+                    "@type": "item",
+                    "name": "common/flatpak-related-ref-private.h"
+                },
+                {
+                    "@type": "item",
+                    "name": "common/flatpak-installation.h"
+                },
+                {
+                    "@type": "item",
+                    "name": "common/flatpak-installation-private.h"
+                },
+                {
+                    "@type": "item",
+                    "name": "common/flatpak-installation.c"
+                },
+                {
+                    "@type": "item",
+                    "name": "common/flatpak-parental-controls-private.h"
+                },
+                {
+                    "@type": "item",
+                    "name": "common/flatpak-parental-controls.c"
+                },
+                {
+                    "@type": "item",
+                    "name": "common/flatpak-appdata-private.h"
+                },
+                {
+                    "@type": "item",
+                    "name": "common/flatpak-appdata.c"
+                },
+                {
+                    "@type": "item",
+                    "name": "common/flatpak.h"
+                },
+                {
+                    "@type": "item",
+                    "name": "common/flatpak-remote.h"
+                },
+                {
+                    "@type": "item",
+                    "name": "common/flatpak-remote-private.h"
+                },
+                {
+                    "@type": "item",
+                    "name": "common/flatpak-remote.c"
+                },
+                {
+                    "@type": "item",
+                    "name": "common/flatpak-remote-ref.h"
+                },
+                {
+                    "@type": "item",
+                    "name": "common/flatpak-remote-ref-private.h"
+                },
+                {
+                    "@type": "item",
+                    "name": "common/flatpak-remote-ref.c"
+                },
+                {
+                    "@type": "item",
+                    "name": "common/flatpak-installed-ref.h"
+                },
+                {
+                    "@type": "item",
+                    "name": "common/flatpak-installed-ref-private.h"
+                },
+                {
+                    "@type": "item",
+                    "name": "common/flatpak-installed-ref.c"
+                },
+                {
+                    "@type": "item",
+                    "name": "common/flatpak-bundle-ref.h"
+                },
+                {
+                    "@type": "item",
+                    "name": "common/flatpak-bundle-ref.c"
+                }
+            ]
+        },
+        {
+            "@type": "group",
+            "name": "1",
+            "nested": [
+                {
+                    "@type": "item",
+                    "name": "tests/test-authenticator.c"
+                },
+                {
+                    "@type": "item",
+                    "name": "tests/test-instance.c"
+                },
+                {
+                    "@type": "item",
+                    "name": "tests/test-portal.c"
+                },
+                {
+                    "@type": "item",
+                    "name": "tests/can-use-fuse.h"
+                },
+                {
+                    "@type": "item",
+                    "name": "tests/can-use-fuse.c"
+                },
+                {
+                    "@type": "item",
+                    "name": "tests/httpcache.c"
+                },
+                {
+                    "@type": "item",
+                    "name": "tests/test-context.c"
+                },
+                {
+                    "@type": "item",
+                    "name": "tests/testcommon.c"
+                },
+                {
+                    "@type": "item",
+                    "name": "tests/mock-flatpak.c"
+                },
+                {
+                    "@type": "item",
+                    "name": "tests/test-exports.c"
+                },
+                {
+                    "@type": "item",
+                    "name": "tests/testlib.h"
+                },
+                {
+                    "@type": "item",
+                    "name": "tests/testlib.c"
+                },
+                {
+                    "@type": "item",
+                    "name": "tests/testlibrary.c"
+                }
+            ]
+        },
+        {
+            "@type": "group",
+            "name": "2",
+            "nested": [
+                {
+                    "@type": "item",
+                    "name": "app/flatpak-complete.h"
+                },
+                {
+                    "@type": "item",
+                    "name": "app/flatpak-complete.c"
+                },
+                {
+                    "@type": "item",
+                    "name": "app/flatpak-polkit-agent-text-listener.h"
+                },
+                {
+                    "@type": "item",
+                    "name": "app/flatpak-polkit-agent-text-listener.c"
+                },
+                {
+                    "@type": "item",
+                    "name": "app/flatpak-quiet-transaction.h"
+                },
+                {
+                    "@type": "item",
+                    "name": "app/flatpak-quiet-transaction.c"
+                },
+                {
+                    "@type": "item",
+                    "name": "app/flatpak-builtins-utils.h"
+                },
+                {
+                    "@type": "item",
+                    "name": "app/flatpak-builtins-permission-reset.c"
+                },
+                {
+                    "@type": "item",
+                    "name": "app/flatpak-builtins-utils.c"
+                },
+                {
+                    "@type": "item",
+                    "name": "app/flatpak-cli-transaction.h"
+                },
+                {
+                    "@type": "item",
+                    "name": "app/flatpak-builtins.h"
+                },
+                {
+                    "@type": "item",
+                    "name": "app/flatpak-builtins-override.c"
+                },
+                {
+                    "@type": "item",
+                    "name": "app/flatpak-builtins-history.c"
+                },
+                {
+                    "@type": "item",
+                    "name": "app/flatpak-builtins-make-current.c"
+                },
+                {
+                    "@type": "item",
+                    "name": "app/flatpak-builtins-pin.c"
+                },
+                {
+                    "@type": "item",
+                    "name": "app/flatpak-builtins-remote-info.c"
+                },
+                {
+                    "@type": "item",
+                    "name": "app/flatpak-builtins-build-sign.c"
+                },
+                {
+                    "@type": "item",
+                    "name": "app/flatpak-builtins-build-commit-from.c"
+                },
+                {
+                    "@type": "item",
+                    "name": "app/flatpak-builtins-remote-list.c"
+                },
+                {
+                    "@type": "item",
+                    "name": "app/flatpak-builtins-remote-delete.c"
+                },
+                {
+                    "@type": "item",
+                    "name": "app/flatpak-builtins-search.c"
+                },
+                {
+                    "@type": "item",
+                    "name": "app/flatpak-builtins-permission-remove.c"
+                },
+                {
+                    "@type": "item",
+                    "name": "app/flatpak-main.c"
+                },
+                {
+                    "@type": "item",
+                    "name": "app/flatpak-builtins-create-usb.c"
+                },
+                {
+                    "@type": "item",
+                    "name": "app/flatpak-builtins-run.c"
+                },
+                {
+                    "@type": "item",
+                    "name": "app/flatpak-builtins-build-bundle.c"
+                },
+                {
+                    "@type": "item",
+                    "name": "app/flatpak-builtins-permission-set.c"
+                },
+                {
+                    "@type": "item",
+                    "name": "app/flatpak-builtins-kill.c"
+                },
+                {
+                    "@type": "item",
+                    "name": "app/flatpak-builtins-info.c"
+                },
+                {
+                    "@type": "item",
+                    "name": "app/flatpak-builtins-permission-list.c"
+                },
+                {
+                    "@type": "item",
+                    "name": "app/flatpak-builtins-build-update-repo.c"
+                },
+                {
+                    "@type": "item",
+                    "name": "app/flatpak-builtins-permission-show.c"
+                },
+                {
+                    "@type": "item",
+                    "name": "app/flatpak-builtins-build-import-bundle.c"
+                },
+                {
+                    "@type": "item",
+                    "name": "app/flatpak-builtins-enter.c"
+                },
+                {
+                    "@type": "item",
+                    "name": "app/flatpak-builtins-repair.c"
+                },
+                {
+                    "@type": "item",
+                    "name": "app/flatpak-builtins-list.c"
+                },
+                {
+                    "@type": "item",
+                    "name": "app/flatpak-builtins-uninstall.c"
+                },
+                {
+                    "@type": "item",
+                    "name": "app/flatpak-builtins-remote-add.c"
+                },
+                {
+                    "@type": "item",
+                    "name": "app/flatpak-builtins-build-export.c"
+                },
+                {
+                    "@type": "item",
+                    "name": "app/flatpak-builtins-build-finish.c"
+                },
+                {
+                    "@type": "item",
+                    "name": "app/flatpak-builtins-document-list.c"
+                },
+                {
+                    "@type": "item",
+                    "name": "app/flatpak-builtins-install.c"
+                },
+                {
+                    "@type": "item",
+                    "name": "app/flatpak-builtins-build.c"
+                },
+                {
+                    "@type": "item",
+                    "name": "app/flatpak-builtins-mask.c"
+                },
+                {
+                    "@type": "item",
+                    "name": "app/flatpak-builtins-config.c"
+                },
+                {
+                    "@type": "item",
+                    "name": "app/flatpak-builtins-remote-ls.c"
+                },
+                {
+                    "@type": "item",
+                    "name": "app/flatpak-builtins-document-info.c"
+                },
+                {
+                    "@type": "item",
+                    "name": "app/flatpak-builtins-document-unexport.c"
+                },
+                {
+                    "@type": "item",
+                    "name": "app/flatpak-builtins-ps.c"
+                },
+                {
+                    "@type": "item",
+                    "name": "app/flatpak-builtins-repo.c"
+                },
+                {
+                    "@type": "item",
+                    "name": "app/flatpak-builtins-document-export.c"
+                },
+                {
+                    "@type": "item",
+                    "name": "app/flatpak-builtins-update.c"
+                },
+                {
+                    "@type": "item",
+                    "name": "app/flatpak-builtins-build-init.c"
+                },
+                {
+                    "@type": "item",
+                    "name": "app/flatpak-builtins-remote-modify.c"
+                },
+                {
+                    "@type": "item",
+                    "name": "app/flatpak-table-printer.h"
+                },
+                {
+                    "@type": "item",
+                    "name": "app/flatpak-table-printer.c"
+                },
+                {
+                    "@type": "item",
+                    "name": "app/flatpak-cli-transaction.c"
+                },
+                {
+                    "@type": "item",
+                    "name": "app/parse-datetime.h"
+                }
+            ]
+        },
+        {
+            "@type": "group",
+            "name": "3",
+            "nested": [
+                {
+                    "@type": "item",
+                    "name": "common/flatpak-json-private.h"
+                },
+                {
+                    "@type": "item",
+                    "name": "common/flatpak-dir-private.h"
+                },
+                {
+                    "@type": "item",
+                    "name": "common/flatpak-json.c"
+                },
+                {
+                    "@type": "item",
+                    "name": "common/flatpak-dir.c"
+                },
+                {
+                    "@type": "item",
+                    "name": "common/valgrind-private.h"
+                },
+                {
+                    "@type": "item",
+                    "name": "common/flatpak-prune-private.h"
+                },
+                {
+                    "@type": "item",
+                    "name": "common/flatpak-prune.c"
+                },
+                {
+                    "@type": "item",
+                    "name": "common/flatpak-zstd-decompressor-private.h"
+                },
+                {
+                    "@type": "item",
+                    "name": "common/flatpak-zstd-decompressor.c"
+                },
+                {
+                    "@type": "item",
+                    "name": "common/flatpak-glib-backports-private.h"
+                },
+                {
+                    "@type": "item",
+                    "name": "common/flatpak-glib-backports.c"
+                },
+                {
+                    "@type": "item",
+                    "name": "common/flatpak-progress-private.h"
+                },
+                {
+                    "@type": "item",
+                    "name": "common/flatpak-progress.c"
+                },
+                {
+                    "@type": "item",
+                    "name": "common/flatpak-chain-input-stream-private.h"
+                },
+                {
+                    "@type": "item",
+                    "name": "common/flatpak-chain-input-stream.c"
+                },
+                {
+                    "@type": "item",
+                    "name": "common/flatpak-error.h"
+                },
+                {
+                    "@type": "item",
+                    "name": "common/flatpak-ref-utils-private.h"
+                },
+                {
+                    "@type": "item",
+                    "name": "common/flatpak-utils-private.h"
+                },
+                {
+                    "@type": "item",
+                    "name": "common/flatpak-utils.c"
+                },
+                {
+                    "@type": "item",
+                    "name": "common/flatpak-ref-utils.c"
+                },
+                {
+                    "@type": "item",
+                    "name": "common/flatpak-auth-private.h"
+                },
+                {
+                    "@type": "item",
+                    "name": "common/flatpak-auth.c"
+                },
+                {
+                    "@type": "item",
+                    "name": "common/flatpak-transaction-private.h"
+                },
+                {
+                    "@type": "item",
+                    "name": "common/flatpak-transaction.h"
+                },
+                {
+                    "@type": "item",
+                    "name": "common/flatpak-transaction.c"
+                }
+            ]
+        },
+        {
+            "@type": "group",
+            "name": "4",
+            "nested": [
+                {
+                    "@type": "item",
+                    "name": "common/flatpak-run-pulseaudio-private.h"
+                },
+                {
+                    "@type": "item",
+                    "name": "common/flatpak-run-pulseaudio.c"
+                },
+                {
+                    "@type": "item",
+                    "name": "common/flatpak-exports-private.h"
+                },
+                {
+                    "@type": "item",
+                    "name": "common/flatpak-exports.c"
+                },
+                {
+                    "@type": "item",
+                    "name": "common/flatpak-run-sockets-private.h"
+                },
+                {
+                    "@type": "item",
+                    "name": "common/flatpak-run-sockets.c"
+                },
+                {
+                    "@type": "item",
+                    "name": "common/flatpak-utils-base-private.h"
+                },
+                {
+                    "@type": "item",
+                    "name": "common/flatpak-utils-base.c"
+                },
+                {
+                    "@type": "item",
+                    "name": "common/flatpak-run-dbus-private.h"
+                },
+                {
+                    "@type": "item",
+                    "name": "common/flatpak-run-dbus.c"
+                },
+                {
+                    "@type": "item",
+                    "name": "common/flatpak-context-private.h"
+                },
+                {
+                    "@type": "item",
+                    "name": "common/flatpak-run-private.h"
+                },
+                {
+                    "@type": "item",
+                    "name": "common/flatpak-context.c"
+                },
+                {
+                    "@type": "item",
+                    "name": "common/flatpak-run.c"
+                },
+                {
+                    "@type": "item",
+                    "name": "common/flatpak-run-x11-private.h"
+                },
+                {
+                    "@type": "item",
+                    "name": "common/flatpak-run-x11.c"
+                },
+                {
+                    "@type": "item",
+                    "name": "common/flatpak-syscalls-private.h"
+                },
+                {
+                    "@type": "item",
+                    "name": "common/flatpak-bwrap-private.h"
+                },
+                {
+                    "@type": "item",
+                    "name": "common/flatpak-bwrap.c"
+                },
+                {
+                    "@type": "item",
+                    "name": "common/flatpak-run-cups-private.h"
+                },
+                {
+                    "@type": "item",
+                    "name": "common/flatpak-run-cups.c"
+                }
+            ]
+        },
+        {
+            "@type": "group",
+            "name": "5",
+            "nested": [
+                {
+                    "@type": "item",
+                    "name": "common/flatpak-uri-private.h"
+                },
+                {
+                    "@type": "item",
+                    "name": "common/flatpak-uri.c"
+                },
+                {
+                    "@type": "item",
+                    "name": "common/flatpak-common-types-private.h"
+                },
+                {
+                    "@type": "item",
+                    "name": "common/flatpak-utils-http-private.h"
+                },
+                {
+                    "@type": "item",
+                    "name": "common/flatpak-utils-http.c"
+                },
+                {
+                    "@type": "item",
+                    "name": "common/flatpak-oci-registry-private.h"
+                },
+                {
+                    "@type": "item",
+                    "name": "common/flatpak-oci-registry.c"
+                },
+                {
+                    "@type": "item",
+                    "name": "common/flatpak-json-oci-private.h"
+                },
+                {
+                    "@type": "item",
+                    "name": "common/flatpak-json-oci.c"
+                }
+            ]
+        },
+        {
+            "@type": "group",
+            "name": "6",
+            "nested": [
+                {
+                    "@type": "item",
+                    "name": "portal/flatpak-portal-app-info.h"
+                },
+                {
+                    "@type": "item",
+                    "name": "portal/flatpak-portal-app-info.c"
+                },
+                {
+                    "@type": "item",
+                    "name": "portal/flatpak-portal.h"
+                },
+                {
+                    "@type": "item",
+                    "name": "portal/flatpak-portal.c"
+                },
+                {
+                    "@type": "item",
+                    "name": "portal/portal-impl.h"
+                },
+                {
+                    "@type": "item",
+                    "name": "portal/portal-impl.c"
+                }
+            ]
+        },
+        {
+            "@type": "group",
+            "name": "7",
+            "nested": [
+                {
+                    "@type": "item",
+                    "name": "common/flatpak.c"
+                },
+                {
+                    "@type": "item",
+                    "name": "common/flatpak-json-backports-private.h"
+                }
+            ]
+        },
+        {
+            "@type": "group",
+            "name": "8",
+            "nested": [
+                {
+                    "@type": "item",
+                    "name": "session-helper/flatpak-session-helper.c"
+                },
+                {
+                    "@type": "item",
+                    "name": "session-helper/flatpak-session-helper.h"
+                }
+            ]
+        },
+        {
+            "@type": "group",
+            "name": "9",
+            "nested": [
+                {
+                    "@type": "item",
+                    "name": "system-helper/flatpak-system-helper.h"
+                },
+                {
+                    "@type": "item",
+                    "name": "system-helper/flatpak-system-helper.c"
+                }
+            ]
+        },
+        {
+            "@type": "group",
+            "name": "10",
+            "nested": [
+                {
+                    "@type": "item",
+                    "name": "tests/hold-lock.c"
+                },
+                {
+                    "@type": "item",
+                    "name": "tests/list-unused.c"
+                }
+            ]
+        },
+        {
+            "@type": "group",
+            "name": "11",
+            "nested": [
+                {
+                    "@type": "item",
+                    "name": "common/flatpak-error.c"
+                },
+                {
+                    "@type": "item",
+                    "name": "common/flatpak-portal-error.h"
+                },
+                {
+                    "@type": "item",
+                    "name": "common/flatpak-portal-error.c"
+                }
+            ]
+        },
+        {
+            "@type": "group",
+            "name": "12",
+            "nested": [
+                {
+                    "@type": "item",
+                    "name": "revokefs/writer.h"
+                },
+                {
+                    "@type": "item",
+                    "name": "revokefs/writer.c"
+                },
+                {
+                    "@type": "item",
+                    "name": "revokefs/main.c"
+                }
+            ]
+        },
+        {
+            "@type": "group",
+            "name": "13",
+            "nested": [
+                {
+                    "@type": "item",
+                    "name": "icon-validator/validate-icon.c"
+                }
+            ]
+        },
+        {
+            "@type": "group",
+            "name": "14",
+            "nested": [
+                {
+                    "@type": "item",
+                    "name": "oci-authenticator/flatpak-oci-authenticator.c"
+                }
+            ]
+        },
+        {
+            "@type": "group",
+            "name": "15",
+            "nested": [
+                {
+                    "@type": "item",
+                    "name": "revokefs/demo.c"
+                }
+            ]
+        },
+        {
+            "@type": "group",
+            "name": "16",
+            "nested": [
+                {
+                    "@type": "item",
+                    "name": "tests/libpreload.c"
+                }
+            ]
+        },
+        {
+            "@type": "group",
+            "name": "17",
+            "nested": [
+                {
+                    "@type": "item",
+                    "name": "tests/test-portal-impl.c"
+                }
+            ]
+        },
+        {
+            "@type": "group",
+            "name": "18",
+            "nested": [
+                {
+                    "@type": "item",
+                    "name": "tests/test-update-portal.c"
+                }
+            ]
+        },
+        {
+            "@type": "group",
+            "name": "19",
+            "nested": [
+                {
+                    "@type": "item",
+                    "name": "tests/try-syscall.c"
+                }
+            ]
+        }
+    ]
+}

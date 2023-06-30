@@ -1,0 +1,322 @@
+{
+    "@schemaVersion": "1.0",
+    "name": "clustering",
+    "structure": [
+        {
+            "@type": "group",
+            "name": "0",
+            "nested": [
+                {
+                    "@type": "item",
+                    "name": "include/tiny-cuda-nn/optimizers/lookahead.h"
+                },
+                {
+                    "@type": "item",
+                    "name": "include/tiny-cuda-nn/optimizers/ema.h"
+                },
+                {
+                    "@type": "item",
+                    "name": "include/tiny-cuda-nn/optimizers/sgd.h"
+                },
+                {
+                    "@type": "item",
+                    "name": "include/tiny-cuda-nn/optimizers/adam.h"
+                },
+                {
+                    "@type": "item",
+                    "name": "include/tiny-cuda-nn/optimizers/novograd.h"
+                },
+                {
+                    "@type": "item",
+                    "name": "include/tiny-cuda-nn/optimizer.h"
+                },
+                {
+                    "@type": "item",
+                    "name": "include/tiny-cuda-nn/optimizers/average.h"
+                },
+                {
+                    "@type": "item",
+                    "name": "include/tiny-cuda-nn/optimizers/composite.h"
+                },
+                {
+                    "@type": "item",
+                    "name": "include/tiny-cuda-nn/optimizers/batched.h"
+                },
+                {
+                    "@type": "item",
+                    "name": "include/tiny-cuda-nn/optimizers/exponential_decay.h"
+                },
+                {
+                    "@type": "item",
+                    "name": "benchmarks/image/tinyexr.cpp"
+                },
+                {
+                    "@type": "item",
+                    "name": "include/tiny-cuda-nn/optimizers/shampoo.h"
+                }
+            ]
+        },
+        {
+            "@type": "group",
+            "name": "1",
+            "nested": [
+                {
+                    "@type": "item",
+                    "name": "include/tiny-cuda-nn/encodings/triangle_wave.h"
+                },
+                {
+                    "@type": "item",
+                    "name": "include/tiny-cuda-nn/encodings/oneblob.h"
+                },
+                {
+                    "@type": "item",
+                    "name": "include/tiny-cuda-nn/encodings/grid.h"
+                },
+                {
+                    "@type": "item",
+                    "name": "include/tiny-cuda-nn/encodings/empty.h"
+                },
+                {
+                    "@type": "item",
+                    "name": "include/tiny-cuda-nn/object.h"
+                },
+                {
+                    "@type": "item",
+                    "name": "include/tiny-cuda-nn/encodings/frequency.h"
+                },
+                {
+                    "@type": "item",
+                    "name": "include/tiny-cuda-nn/encodings/identity.h"
+                },
+                {
+                    "@type": "item",
+                    "name": "include/tiny-cuda-nn/encodings/composite.h"
+                },
+                {
+                    "@type": "item",
+                    "name": "include/tiny-cuda-nn/networks/fully_fused_mlp.h"
+                },
+                {
+                    "@type": "item",
+                    "name": "include/tiny-cuda-nn/networks/cutlass_mlp.h"
+                }
+            ]
+        },
+        {
+            "@type": "group",
+            "name": "2",
+            "nested": [
+                {
+                    "@type": "item",
+                    "name": "include/tiny-cuda-nn/losses/l1.h"
+                },
+                {
+                    "@type": "item",
+                    "name": "include/tiny-cuda-nn/losses/relative_l2_luminance.h"
+                },
+                {
+                    "@type": "item",
+                    "name": "include/tiny-cuda-nn/losses/relative_l2.h"
+                },
+                {
+                    "@type": "item",
+                    "name": "include/tiny-cuda-nn/loss.h"
+                },
+                {
+                    "@type": "item",
+                    "name": "include/tiny-cuda-nn/losses/relative_l1.h"
+                },
+                {
+                    "@type": "item",
+                    "name": "include/tiny-cuda-nn/losses/smape.h"
+                },
+                {
+                    "@type": "item",
+                    "name": "include/tiny-cuda-nn/losses/variance_is.h"
+                },
+                {
+                    "@type": "item",
+                    "name": "include/tiny-cuda-nn/losses/cross_entropy.h"
+                },
+                {
+                    "@type": "item",
+                    "name": "include/tiny-cuda-nn/losses/l2.h"
+                },
+                {
+                    "@type": "item",
+                    "name": "include/tiny-cuda-nn/losses/mape.h"
+                }
+            ]
+        },
+        {
+            "@type": "group",
+            "name": "3",
+            "nested": [
+                {
+                    "@type": "item",
+                    "name": "include/tiny-cuda-nn/common_device.h"
+                },
+                {
+                    "@type": "item",
+                    "name": "include/tiny-cuda-nn/network.h"
+                },
+                {
+                    "@type": "item",
+                    "name": "include/tiny-cuda-nn/cpp_api.h"
+                },
+                {
+                    "@type": "item",
+                    "name": "bindings/torch/tinycudann/bindings.cpp"
+                },
+                {
+                    "@type": "item",
+                    "name": "include/tiny-cuda-nn/encoding.h"
+                },
+                {
+                    "@type": "item",
+                    "name": "dependencies/json/json.hpp"
+                },
+                {
+                    "@type": "item",
+                    "name": "include/tiny-cuda-nn/config.h"
+                },
+                {
+                    "@type": "item",
+                    "name": "include/tiny-cuda-nn/trainer.h"
+                },
+                {
+                    "@type": "item",
+                    "name": "dependencies/pybind11_json/pybind11_json.hpp"
+                },
+                {
+                    "@type": "item",
+                    "name": "include/tiny-cuda-nn/network_with_input_encoding.h"
+                }
+            ]
+        },
+        {
+            "@type": "group",
+            "name": "4",
+            "nested": [
+                {
+                    "@type": "item",
+                    "name": "dependencies/stbi/stbi_wrapper.h"
+                },
+                {
+                    "@type": "item",
+                    "name": "dependencies/stbi/stbi_wrapper.cpp"
+                },
+                {
+                    "@type": "item",
+                    "name": "dependencies/stbi/stb_image_write.h"
+                },
+                {
+                    "@type": "item",
+                    "name": "dependencies/stbi/stb_image.h"
+                }
+            ]
+        },
+        {
+            "@type": "group",
+            "name": "5",
+            "nested": [
+                {
+                    "@type": "item",
+                    "name": "include/tiny-cuda-nn/gpu_memory.h"
+                },
+                {
+                    "@type": "item",
+                    "name": "include/tiny-cuda-nn/gpu_memory_json.h"
+                }
+            ]
+        },
+        {
+            "@type": "group",
+            "name": "6",
+            "nested": [
+                {
+                    "@type": "item",
+                    "name": "include/tiny-cuda-nn/cutlass_matmul.h"
+                },
+                {
+                    "@type": "item",
+                    "name": "dependencies/pcg32/pcg32.h"
+                }
+            ]
+        },
+        {
+            "@type": "group",
+            "name": "7",
+            "nested": [
+                {
+                    "@type": "item",
+                    "name": "include/tiny-cuda-nn/matrix_layout.h"
+                },
+                {
+                    "@type": "item",
+                    "name": "include/tiny-cuda-nn/gpu_matrix.h"
+                }
+            ]
+        },
+        {
+            "@type": "group",
+            "name": "8",
+            "nested": [
+                {
+                    "@type": "item",
+                    "name": "include/tiny-cuda-nn/multi_stream.h"
+                }
+            ]
+        },
+        {
+            "@type": "group",
+            "name": "9",
+            "nested": [
+                {
+                    "@type": "item",
+                    "name": "include/tiny-cuda-nn/common.h"
+                }
+            ]
+        },
+        {
+            "@type": "group",
+            "name": "10",
+            "nested": [
+                {
+                    "@type": "item",
+                    "name": "include/tiny-cuda-nn/random.h"
+                }
+            ]
+        },
+        {
+            "@type": "group",
+            "name": "11",
+            "nested": [
+                {
+                    "@type": "item",
+                    "name": "include/tiny-cuda-nn/reduce_sum.h"
+                }
+            ]
+        },
+        {
+            "@type": "group",
+            "name": "12",
+            "nested": [
+                {
+                    "@type": "item",
+                    "name": "include/tiny-cuda-nn/cuda_graph.h"
+                }
+            ]
+        },
+        {
+            "@type": "group",
+            "name": "13",
+            "nested": [
+                {
+                    "@type": "item",
+                    "name": "include/tiny-cuda-nn/encodings/spherical_harmonics.h"
+                }
+            ]
+        }
+    ]
+}

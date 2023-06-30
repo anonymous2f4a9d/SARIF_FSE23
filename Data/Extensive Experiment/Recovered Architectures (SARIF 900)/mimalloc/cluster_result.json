@@ -1,0 +1,214 @@
+{
+    "@schemaVersion": "1.0",
+    "name": "clustering",
+    "structure": [
+        {
+            "@type": "group",
+            "name": "0",
+            "nested": [
+                {
+                    "@type": "item",
+                    "name": "include/mimalloc-override.h"
+                },
+                {
+                    "@type": "item",
+                    "name": "include/mimalloc.h"
+                },
+                {
+                    "@type": "item",
+                    "name": "src/alloc-aligned.c"
+                },
+                {
+                    "@type": "item",
+                    "name": "src/arena.c"
+                },
+                {
+                    "@type": "item",
+                    "name": "src/segment-map.c"
+                },
+                {
+                    "@type": "item",
+                    "name": "src/init.c"
+                },
+                {
+                    "@type": "item",
+                    "name": "src/page.c"
+                },
+                {
+                    "@type": "item",
+                    "name": "src/options.c"
+                },
+                {
+                    "@type": "item",
+                    "name": "src/heap.c"
+                },
+                {
+                    "@type": "item",
+                    "name": "src/alloc.c"
+                },
+                {
+                    "@type": "item",
+                    "name": "src/alloc-posix.c"
+                },
+                {
+                    "@type": "item",
+                    "name": "test/test-wrong.c"
+                },
+                {
+                    "@type": "item",
+                    "name": "test/test-api.c"
+                },
+                {
+                    "@type": "item",
+                    "name": "include/mimalloc-new-delete.h"
+                },
+                {
+                    "@type": "item",
+                    "name": "src/page-queue.c"
+                },
+                {
+                    "@type": "item",
+                    "name": "src/bitmap.h"
+                },
+                {
+                    "@type": "item",
+                    "name": "src/bitmap.c"
+                },
+                {
+                    "@type": "item",
+                    "name": "test/main-override.cpp"
+                },
+                {
+                    "@type": "item",
+                    "name": "test/testhelper.h"
+                },
+                {
+                    "@type": "item",
+                    "name": "test/main-override.c"
+                },
+                {
+                    "@type": "item",
+                    "name": "test/main-override-static.c"
+                },
+                {
+                    "@type": "item",
+                    "name": "test/main.c"
+                },
+                {
+                    "@type": "item",
+                    "name": "doc/mimalloc-doc.h"
+                },
+                {
+                    "@type": "item",
+                    "name": "test/test-api-fill.c"
+                }
+            ]
+        },
+        {
+            "@type": "group",
+            "name": "1",
+            "nested": [
+                {
+                    "@type": "item",
+                    "name": "include/mimalloc/prim.h"
+                },
+                {
+                    "@type": "item",
+                    "name": "src/prim/windows/prim.c"
+                },
+                {
+                    "@type": "item",
+                    "name": "src/prim/unix/prim.c"
+                },
+                {
+                    "@type": "item",
+                    "name": "src/prim/prim.c"
+                },
+                {
+                    "@type": "item",
+                    "name": "src/prim/osx/prim.c"
+                },
+                {
+                    "@type": "item",
+                    "name": "src/prim/wasi/prim.c"
+                },
+                {
+                    "@type": "item",
+                    "name": "include/mimalloc/atomic.h"
+                }
+            ]
+        },
+        {
+            "@type": "group",
+            "name": "2",
+            "nested": [
+                {
+                    "@type": "item",
+                    "name": "src/prim/osx/alloc-override-zone.c"
+                },
+                {
+                    "@type": "item",
+                    "name": "src/static.c"
+                },
+                {
+                    "@type": "item",
+                    "name": "src/alloc-override.c"
+                }
+            ]
+        },
+        {
+            "@type": "group",
+            "name": "3",
+            "nested": [
+                {
+                    "@type": "item",
+                    "name": "src/prim/windows/etw.h"
+                },
+                {
+                    "@type": "item",
+                    "name": "include/mimalloc/track.h"
+                }
+            ]
+        },
+        {
+            "@type": "group",
+            "name": "4",
+            "nested": [
+                {
+                    "@type": "item",
+                    "name": "include/mimalloc/internal.h"
+                },
+                {
+                    "@type": "item",
+                    "name": "src/random.c"
+                },
+                {
+                    "@type": "item",
+                    "name": "src/os.c"
+                },
+                {
+                    "@type": "item",
+                    "name": "src/segment.c"
+                },
+                {
+                    "@type": "item",
+                    "name": "include/mimalloc/types.h"
+                },
+                {
+                    "@type": "item",
+                    "name": "src/stats.c"
+                }
+            ]
+        },
+        {
+            "@type": "group",
+            "name": "5",
+            "nested": [
+                {
+                    "@type": "item",
+                    "name": "test/test-stress.c"
+                }
+            ]
+        }
+    ]
+}

@@ -1,0 +1,1894 @@
+{
+    "@schemaVersion": "1.0",
+    "name": "clustering",
+    "structure": [
+        {
+            "@type": "group",
+            "name": "0",
+            "nested": [
+                {
+                    "@type": "item",
+                    "name": "include/tbl/vhd_fsm_funcs.h"
+                },
+                {
+                    "@type": "item",
+                    "name": "include/tbl/acct_fields_bereq.h"
+                },
+                {
+                    "@type": "item",
+                    "name": "include/tbl/vsig_list.h"
+                },
+                {
+                    "@type": "item",
+                    "name": "include/tbl/backend_poll.h"
+                },
+                {
+                    "@type": "item",
+                    "name": "include/tbl/ban_vars.h"
+                },
+                {
+                    "@type": "item",
+                    "name": "include/tbl/bereq_flags.h"
+                },
+                {
+                    "@type": "item",
+                    "name": "include/tbl/req_flags.h"
+                },
+                {
+                    "@type": "item",
+                    "name": "include/tbl/symbol_kind.h"
+                },
+                {
+                    "@type": "item",
+                    "name": "include/tbl/vcl_states.h"
+                },
+                {
+                    "@type": "item",
+                    "name": "include/tbl/req_bereq_flags.h"
+                },
+                {
+                    "@type": "item",
+                    "name": "include/tbl/http_headers.h"
+                },
+                {
+                    "@type": "item",
+                    "name": "include/tbl/vhd_return.h"
+                },
+                {
+                    "@type": "item",
+                    "name": "include/tbl/sess_close.h"
+                },
+                {
+                    "@type": "item",
+                    "name": "include/tbl/h2_stream.h"
+                },
+                {
+                    "@type": "item",
+                    "name": "include/tbl/oc_exp_flags.h"
+                },
+                {
+                    "@type": "item",
+                    "name": "include/tbl/boc_state.h"
+                },
+                {
+                    "@type": "item",
+                    "name": "include/tbl/cli_cmds.h"
+                },
+                {
+                    "@type": "item",
+                    "name": "include/tbl/locks.h"
+                },
+                {
+                    "@type": "item",
+                    "name": "include/tbl/htc.h"
+                },
+                {
+                    "@type": "item",
+                    "name": "include/tbl/debug_bits.h"
+                },
+                {
+                    "@type": "item",
+                    "name": "include/tbl/beresp_flags.h"
+                },
+                {
+                    "@type": "item",
+                    "name": "include/tbl/experimental_bits.h"
+                },
+                {
+                    "@type": "item",
+                    "name": "include/tbl/oc_flags.h"
+                },
+                {
+                    "@type": "item",
+                    "name": "include/tbl/vhp_static.h"
+                },
+                {
+                    "@type": "item",
+                    "name": "include/tbl/http_response.h"
+                },
+                {
+                    "@type": "item",
+                    "name": "include/tbl/acct_fields_req.h"
+                },
+                {
+                    "@type": "item",
+                    "name": "include/tbl/vcc_feature_bits.h"
+                },
+                {
+                    "@type": "item",
+                    "name": "include/tbl/waiters.h"
+                },
+                {
+                    "@type": "item",
+                    "name": "include/tbl/vhp_huffman.h"
+                },
+                {
+                    "@type": "item",
+                    "name": "include/tbl/ban_oper.h"
+                },
+                {
+                    "@type": "item",
+                    "name": "include/tbl/vsc_levels.h"
+                },
+                {
+                    "@type": "item",
+                    "name": "include/tbl/feature_bits.h"
+                },
+                {
+                    "@type": "item",
+                    "name": "include/tbl/vsl_tags_http.h"
+                },
+                {
+                    "@type": "item",
+                    "name": "include/tbl/obj_attr.h"
+                },
+                {
+                    "@type": "item",
+                    "name": "include/tbl/body_status.h"
+                },
+                {
+                    "@type": "item",
+                    "name": "include/tbl/sess_attr.h"
+                }
+            ]
+        },
+        {
+            "@type": "group",
+            "name": "1",
+            "nested": [
+                {
+                    "@type": "item",
+                    "name": "include/vas.h"
+                },
+                {
+                    "@type": "item",
+                    "name": "lib/libvarnish/vas.c"
+                },
+                {
+                    "@type": "item",
+                    "name": "include/vsb.h"
+                },
+                {
+                    "@type": "item",
+                    "name": "lib/libvarnish/vsb.c"
+                },
+                {
+                    "@type": "item",
+                    "name": "include/vre_pcre2.h"
+                },
+                {
+                    "@type": "item",
+                    "name": "include/vre.h"
+                },
+                {
+                    "@type": "item",
+                    "name": "lib/libvarnish/vre.c"
+                },
+                {
+                    "@type": "item",
+                    "name": "include/vut_options.h"
+                },
+                {
+                    "@type": "item",
+                    "name": "include/vapi/vsig.h"
+                },
+                {
+                    "@type": "item",
+                    "name": "include/vus.h"
+                },
+                {
+                    "@type": "item",
+                    "name": "lib/libvarnish/vus.c"
+                },
+                {
+                    "@type": "item",
+                    "name": "include/tbl/ban_arg_oper.h"
+                },
+                {
+                    "@type": "item",
+                    "name": "include/vsm_priv.h"
+                },
+                {
+                    "@type": "item",
+                    "name": "include/vcli_serve.h"
+                },
+                {
+                    "@type": "item",
+                    "name": "lib/libvarnish/vte.c"
+                },
+                {
+                    "@type": "item",
+                    "name": "lib/libvarnish/vcli_serve.c"
+                },
+                {
+                    "@type": "item",
+                    "name": "include/vsub.h"
+                },
+                {
+                    "@type": "item",
+                    "name": "lib/libvarnish/vsub.c"
+                },
+                {
+                    "@type": "item",
+                    "name": "include/vsha256.h"
+                },
+                {
+                    "@type": "item",
+                    "name": "lib/libvarnish/vsha256.c"
+                },
+                {
+                    "@type": "item",
+                    "name": "include/vct.h"
+                },
+                {
+                    "@type": "item",
+                    "name": "lib/libvarnish/vct.c"
+                },
+                {
+                    "@type": "item",
+                    "name": "include/vcli.h"
+                },
+                {
+                    "@type": "item",
+                    "name": "lib/libvarnish/vcli_proto.c"
+                },
+                {
+                    "@type": "item",
+                    "name": "include/vfil.h"
+                },
+                {
+                    "@type": "item",
+                    "name": "lib/libvarnish/vfil.c"
+                },
+                {
+                    "@type": "item",
+                    "name": "include/vbh.h"
+                },
+                {
+                    "@type": "item",
+                    "name": "lib/libvarnish/vbh.c"
+                },
+                {
+                    "@type": "item",
+                    "name": "include/vmb.h"
+                },
+                {
+                    "@type": "item",
+                    "name": "lib/libvarnish/vmb.c"
+                },
+                {
+                    "@type": "item",
+                    "name": "include/vsa.h"
+                },
+                {
+                    "@type": "item",
+                    "name": "lib/libvarnish/vsa.c"
+                },
+                {
+                    "@type": "item",
+                    "name": "include/vss.h"
+                },
+                {
+                    "@type": "item",
+                    "name": "lib/libvarnish/vss.c"
+                },
+                {
+                    "@type": "item",
+                    "name": "include/vrnd.h"
+                },
+                {
+                    "@type": "item",
+                    "name": "lib/libvarnish/vrnd.c"
+                },
+                {
+                    "@type": "item",
+                    "name": "include/vav.h"
+                },
+                {
+                    "@type": "item",
+                    "name": "lib/libvarnish/vav.c"
+                },
+                {
+                    "@type": "item",
+                    "name": "include/vin.h"
+                },
+                {
+                    "@type": "item",
+                    "name": "lib/libvarnish/vin.c"
+                },
+                {
+                    "@type": "item",
+                    "name": "include/vev.h"
+                },
+                {
+                    "@type": "item",
+                    "name": "lib/libvarnish/vev.c"
+                },
+                {
+                    "@type": "item",
+                    "name": "include/vcs.h"
+                },
+                {
+                    "@type": "item",
+                    "name": "lib/libvarnish/version.c"
+                },
+                {
+                    "@type": "item",
+                    "name": "include/vjsn.h"
+                },
+                {
+                    "@type": "item",
+                    "name": "lib/libvarnish/vjsn.c"
+                },
+                {
+                    "@type": "item",
+                    "name": "include/vtcp.h"
+                },
+                {
+                    "@type": "item",
+                    "name": "lib/libvarnish/vtcp.c"
+                },
+                {
+                    "@type": "item",
+                    "name": "include/vapi/vsm.h"
+                },
+                {
+                    "@type": "item",
+                    "name": "lib/libvarnish/vsb_test.c"
+                },
+                {
+                    "@type": "item",
+                    "name": "include/vtree.h"
+                },
+                {
+                    "@type": "item",
+                    "name": "include/vtim.h"
+                },
+                {
+                    "@type": "item",
+                    "name": "lib/libvarnish/vtim.c"
+                },
+                {
+                    "@type": "item",
+                    "name": "include/vbm.h"
+                },
+                {
+                    "@type": "item",
+                    "name": "include/vbm_test.c"
+                },
+                {
+                    "@type": "item",
+                    "name": "include/venc.h"
+                },
+                {
+                    "@type": "item",
+                    "name": "lib/libvarnish/venc.c"
+                },
+                {
+                    "@type": "item",
+                    "name": "include/compat/daemon.h"
+                },
+                {
+                    "@type": "item",
+                    "name": "include/vnum.h"
+                },
+                {
+                    "@type": "item",
+                    "name": "lib/libvarnish/vnum.c"
+                }
+            ]
+        },
+        {
+            "@type": "group",
+            "name": "2",
+            "nested": [
+                {
+                    "@type": "item",
+                    "name": "bin/varnishtest/teken.h"
+                },
+                {
+                    "@type": "item",
+                    "name": "bin/varnishtest/teken.c"
+                },
+                {
+                    "@type": "item",
+                    "name": "bin/varnishtest/vtc_process.c"
+                },
+                {
+                    "@type": "item",
+                    "name": "bin/varnishtest/teken_wcwidth.h"
+                },
+                {
+                    "@type": "item",
+                    "name": "bin/varnishtest/vtc_h2_enctbl.h"
+                },
+                {
+                    "@type": "item",
+                    "name": "bin/varnishtest/vtc_barrier.c"
+                },
+                {
+                    "@type": "item",
+                    "name": "bin/varnishtest/vtc_http2.c"
+                },
+                {
+                    "@type": "item",
+                    "name": "bin/varnishtest/teken_subr.h"
+                },
+                {
+                    "@type": "item",
+                    "name": "bin/varnishtest/vtc_main.c"
+                },
+                {
+                    "@type": "item",
+                    "name": "bin/varnishtest/vtc_haproxy.c"
+                },
+                {
+                    "@type": "item",
+                    "name": "bin/varnishtest/vtc_h2_stattbl.h"
+                },
+                {
+                    "@type": "item",
+                    "name": "bin/varnishtest/vtc_logexp.c"
+                },
+                {
+                    "@type": "item",
+                    "name": "bin/varnishtest/cmds.h"
+                },
+                {
+                    "@type": "item",
+                    "name": "bin/varnishtest/vtc_client.c"
+                },
+                {
+                    "@type": "item",
+                    "name": "bin/varnishtest/vtc_varnish.c"
+                },
+                {
+                    "@type": "item",
+                    "name": "bin/varnishtest/teken_subr_compat.h"
+                },
+                {
+                    "@type": "item",
+                    "name": "bin/varnishtest/vtc_misc.c"
+                },
+                {
+                    "@type": "item",
+                    "name": "bin/varnishtest/vtc_http.h"
+                },
+                {
+                    "@type": "item",
+                    "name": "bin/varnishtest/vtc.h"
+                },
+                {
+                    "@type": "item",
+                    "name": "bin/varnishtest/vtc_http.c"
+                },
+                {
+                    "@type": "item",
+                    "name": "bin/varnishtest/vtc.c"
+                },
+                {
+                    "@type": "item",
+                    "name": "bin/varnishtest/vtc_proxy.c"
+                },
+                {
+                    "@type": "item",
+                    "name": "bin/varnishtest/vtc_syslog.c"
+                },
+                {
+                    "@type": "item",
+                    "name": "bin/varnishtest/vtc_sess.c"
+                },
+                {
+                    "@type": "item",
+                    "name": "bin/varnishtest/vtc_tunnel.c"
+                },
+                {
+                    "@type": "item",
+                    "name": "bin/varnishtest/vtc_gzip.c"
+                },
+                {
+                    "@type": "item",
+                    "name": "bin/varnishtest/vtc_subr.c"
+                },
+                {
+                    "@type": "item",
+                    "name": "bin/varnishtest/vtc_log.c"
+                },
+                {
+                    "@type": "item",
+                    "name": "bin/varnishtest/vtc_server.c"
+                },
+                {
+                    "@type": "item",
+                    "name": "bin/varnishtest/hpack.h"
+                },
+                {
+                    "@type": "item",
+                    "name": "bin/varnishtest/vtc_h2_priv.h"
+                },
+                {
+                    "@type": "item",
+                    "name": "bin/varnishtest/vtc_h2_hpack.c"
+                },
+                {
+                    "@type": "item",
+                    "name": "bin/varnishtest/vtc_h2_tbl.c"
+                },
+                {
+                    "@type": "item",
+                    "name": "bin/varnishtest/vtc_log.h"
+                },
+                {
+                    "@type": "item",
+                    "name": "bin/varnishtest/teken_scs.h"
+                }
+            ]
+        },
+        {
+            "@type": "group",
+            "name": "3",
+            "nested": [
+                {
+                    "@type": "item",
+                    "name": "bin/varnishd/cache/cache_esi_fetch.c"
+                },
+                {
+                    "@type": "item",
+                    "name": "bin/varnishd/cache/cache_esi_deliver.c"
+                },
+                {
+                    "@type": "item",
+                    "name": "bin/varnishd/common/common_vext.c"
+                },
+                {
+                    "@type": "item",
+                    "name": "bin/varnishd/common/vsmw.h"
+                },
+                {
+                    "@type": "item",
+                    "name": "bin/varnishd/common/common_vsmw.c"
+                },
+                {
+                    "@type": "item",
+                    "name": "bin/varnishd/cache/cache_esi.h"
+                },
+                {
+                    "@type": "item",
+                    "name": "bin/varnishd/cache/cache_esi_parse.c"
+                },
+                {
+                    "@type": "item",
+                    "name": "bin/varnishd/cache/cache_obj.h"
+                },
+                {
+                    "@type": "item",
+                    "name": "bin/varnishd/cache/cache_ban.h"
+                },
+                {
+                    "@type": "item",
+                    "name": "bin/varnishd/cache/cache_ban_lurker.c"
+                },
+                {
+                    "@type": "item",
+                    "name": "bin/varnishd/cache/cache_ban.c"
+                },
+                {
+                    "@type": "item",
+                    "name": "bin/varnishd/common/common_vsc.c"
+                },
+                {
+                    "@type": "item",
+                    "name": "bin/varnishd/cache/cache_director.h"
+                },
+                {
+                    "@type": "item",
+                    "name": "bin/varnishd/cache/cache_pool.h"
+                },
+                {
+                    "@type": "item",
+                    "name": "bin/varnishd/common/heritage.h"
+                },
+                {
+                    "@type": "item",
+                    "name": "bin/varnishd/cache/cache_vcl.h"
+                },
+                {
+                    "@type": "item",
+                    "name": "bin/varnishd/cache/cache_transport.h"
+                },
+                {
+                    "@type": "item",
+                    "name": "bin/varnishd/cache/cache_pool.c"
+                },
+                {
+                    "@type": "item",
+                    "name": "bin/varnishd/cache/cache_vcl.c"
+                },
+                {
+                    "@type": "item",
+                    "name": "bin/varnishd/cache/cache_main.c"
+                },
+                {
+                    "@type": "item",
+                    "name": "bin/varnishd/cache/cache_acceptor.c"
+                },
+                {
+                    "@type": "item",
+                    "name": "bin/varnishd/cache/cache_session.c"
+                },
+                {
+                    "@type": "item",
+                    "name": "bin/varnishd/cache/cache_vrt_var.c"
+                },
+                {
+                    "@type": "item",
+                    "name": "bin/varnishd/cache/cache_vgz.h"
+                },
+                {
+                    "@type": "item",
+                    "name": "bin/varnishd/cache/cache_gzip.c"
+                },
+                {
+                    "@type": "item",
+                    "name": "include/vrt.h"
+                },
+                {
+                    "@type": "item",
+                    "name": "include/vcc_interface.h"
+                },
+                {
+                    "@type": "item",
+                    "name": "bin/varnishd/cache/cache_vrt_re.c"
+                },
+                {
+                    "@type": "item",
+                    "name": "bin/varnishd/cache/cache_director.c"
+                },
+                {
+                    "@type": "item",
+                    "name": "bin/varnishd/cache/cache_vrt_priv.c"
+                },
+                {
+                    "@type": "item",
+                    "name": "bin/varnishd/cache/cache_vrt_vmod.c"
+                },
+                {
+                    "@type": "item",
+                    "name": "bin/varnishd/cache/cache_vrt.c"
+                },
+                {
+                    "@type": "item",
+                    "name": "bin/varnishd/cache/cache_vpi.c"
+                },
+                {
+                    "@type": "item",
+                    "name": "bin/varnishd/cache/cache_mempool.c"
+                },
+                {
+                    "@type": "item",
+                    "name": "bin/varnishd/cache/cache_objhead.h"
+                },
+                {
+                    "@type": "item",
+                    "name": "bin/varnishd/cache/cache_hash.c"
+                },
+                {
+                    "@type": "item",
+                    "name": "bin/varnishd/cache/cache.h"
+                },
+                {
+                    "@type": "item",
+                    "name": "bin/varnishd/cache/cache_varnishd.h"
+                },
+                {
+                    "@type": "item",
+                    "name": "bin/varnishd/cache/cache_filter.h"
+                },
+                {
+                    "@type": "item",
+                    "name": "bin/varnishd/cache/cache_backend.h"
+                },
+                {
+                    "@type": "item",
+                    "name": "bin/varnishd/cache/cache_ws_common.c"
+                },
+                {
+                    "@type": "item",
+                    "name": "bin/varnishd/cache/cache_wrk.c"
+                },
+                {
+                    "@type": "item",
+                    "name": "bin/varnishd/cache/cache_fetch.c"
+                },
+                {
+                    "@type": "item",
+                    "name": "bin/varnishd/cache/cache_req_fsm.c"
+                },
+                {
+                    "@type": "item",
+                    "name": "bin/varnishd/cache/cache_vary.c"
+                },
+                {
+                    "@type": "item",
+                    "name": "bin/varnishd/cache/cache_vrt_filter.c"
+                },
+                {
+                    "@type": "item",
+                    "name": "bin/varnishd/cache/cache_obj.c"
+                },
+                {
+                    "@type": "item",
+                    "name": "bin/varnishd/cache/cache_busyobj.c"
+                },
+                {
+                    "@type": "item",
+                    "name": "bin/varnishd/cache/cache_http.c"
+                },
+                {
+                    "@type": "item",
+                    "name": "bin/varnishd/cache/cache_rfc2616.c"
+                },
+                {
+                    "@type": "item",
+                    "name": "bin/varnishd/cache/cache_req_body.c"
+                },
+                {
+                    "@type": "item",
+                    "name": "bin/varnishd/cache/cache_req.c"
+                },
+                {
+                    "@type": "item",
+                    "name": "bin/varnishd/cache/cache_expire.c"
+                },
+                {
+                    "@type": "item",
+                    "name": "bin/varnishd/cache/cache_range.c"
+                },
+                {
+                    "@type": "item",
+                    "name": "bin/varnishd/cache/cache_ws.c"
+                },
+                {
+                    "@type": "item",
+                    "name": "bin/varnishd/cache/cache_backend_probe.c"
+                },
+                {
+                    "@type": "item",
+                    "name": "bin/varnishd/cache/cache_fetch_proc.c"
+                },
+                {
+                    "@type": "item",
+                    "name": "bin/varnishd/cache/cache_deliver_proc.c"
+                },
+                {
+                    "@type": "item",
+                    "name": "bin/varnishd/cache/cache_cli.c"
+                },
+                {
+                    "@type": "item",
+                    "name": "bin/varnishd/cache/cache_panic.c"
+                },
+                {
+                    "@type": "item",
+                    "name": "bin/varnishd/cache/cache_lck.c"
+                },
+                {
+                    "@type": "item",
+                    "name": "bin/varnishd/cache/cache_vrt_vcl.c"
+                },
+                {
+                    "@type": "item",
+                    "name": "bin/varnishd/cache/cache_ban_build.c"
+                },
+                {
+                    "@type": "item",
+                    "name": "bin/varnishd/cache/cache_backend.c"
+                },
+                {
+                    "@type": "item",
+                    "name": "bin/varnishd/cache/cache_shmlog.c"
+                },
+                {
+                    "@type": "item",
+                    "name": "bin/varnishd/cache/cache_ws_emu.c"
+                },
+                {
+                    "@type": "item",
+                    "name": "bin/varnishd/cache/cache_conn_pool.h"
+                },
+                {
+                    "@type": "item",
+                    "name": "bin/varnishd/cache/cache_conn_pool.c"
+                }
+            ]
+        },
+        {
+            "@type": "group",
+            "name": "4",
+            "nested": [
+                {
+                    "@type": "item",
+                    "name": "lib/libvarnishapi/vxp.h"
+                },
+                {
+                    "@type": "item",
+                    "name": "lib/libvarnishapi/vxp_lexer.c"
+                },
+                {
+                    "@type": "item",
+                    "name": "lib/libvarnishapi/vxp_parse.c"
+                },
+                {
+                    "@type": "item",
+                    "name": "lib/libvarnishapi/vxp.c"
+                },
+                {
+                    "@type": "item",
+                    "name": "include/tbl/vsl_tags.h"
+                },
+                {
+                    "@type": "item",
+                    "name": "lib/libvarnishapi/vxp_test.c"
+                },
+                {
+                    "@type": "item",
+                    "name": "lib/libvarnishapi/vsm.c"
+                },
+                {
+                    "@type": "item",
+                    "name": "include/vapi/vsl.h"
+                },
+                {
+                    "@type": "item",
+                    "name": "lib/libvarnishapi/vsl_api.h"
+                },
+                {
+                    "@type": "item",
+                    "name": "lib/libvarnishapi/vsl.c"
+                },
+                {
+                    "@type": "item",
+                    "name": "lib/libvarnishapi/vsl_query.c"
+                },
+                {
+                    "@type": "item",
+                    "name": "lib/libvarnishapi/vsl_cursor.c"
+                },
+                {
+                    "@type": "item",
+                    "name": "lib/libvarnishapi/vsl_arg.c"
+                },
+                {
+                    "@type": "item",
+                    "name": "lib/libvarnishapi/vsig.c"
+                },
+                {
+                    "@type": "item",
+                    "name": "lib/libvarnishapi/vsl_dispatch.c"
+                },
+                {
+                    "@type": "item",
+                    "name": "lib/libvarnishapi/vsl2rst.c"
+                },
+                {
+                    "@type": "item",
+                    "name": "include/vapi/vapi_options.h"
+                },
+                {
+                    "@type": "item",
+                    "name": "include/vut.h"
+                },
+                {
+                    "@type": "item",
+                    "name": "lib/libvarnishapi/vut.c"
+                },
+                {
+                    "@type": "item",
+                    "name": "include/vsc_priv.h"
+                },
+                {
+                    "@type": "item",
+                    "name": "include/vapi/vsl_int.h"
+                },
+                {
+                    "@type": "item",
+                    "name": "include/tbl/h2_settings.h"
+                },
+                {
+                    "@type": "item",
+                    "name": "lib/libvarnishapi/vsl_glob_test.c"
+                },
+                {
+                    "@type": "item",
+                    "name": "include/vsl_priv.h"
+                },
+                {
+                    "@type": "item",
+                    "name": "include/tbl/h2_frames.h"
+                },
+                {
+                    "@type": "item",
+                    "name": "include/vapi/vsc.h"
+                },
+                {
+                    "@type": "item",
+                    "name": "lib/libvarnishapi/vsc.c"
+                }
+            ]
+        },
+        {
+            "@type": "group",
+            "name": "5",
+            "nested": [
+                {
+                    "@type": "item",
+                    "name": "vmod/vmod_blob_tbl_encodings.h"
+                },
+                {
+                    "@type": "item",
+                    "name": "vmod/vmod_proxy.c"
+                },
+                {
+                    "@type": "item",
+                    "name": "vmod/vmod_directors_hash.c"
+                },
+                {
+                    "@type": "item",
+                    "name": "vmod/vmod_unix.c"
+                },
+                {
+                    "@type": "item",
+                    "name": "vmod/vmod_blob.h"
+                },
+                {
+                    "@type": "item",
+                    "name": "vmod/vmod_blob_base64.c"
+                },
+                {
+                    "@type": "item",
+                    "name": "vmod/vmod_blob_url.c"
+                },
+                {
+                    "@type": "item",
+                    "name": "vmod/vmod_blob_hex.c"
+                },
+                {
+                    "@type": "item",
+                    "name": "vmod/vmod_blob_id.c"
+                },
+                {
+                    "@type": "item",
+                    "name": "vmod/vmod_directors_round_robin.c"
+                },
+                {
+                    "@type": "item",
+                    "name": "vmod/vmod_std_conversions.c"
+                },
+                {
+                    "@type": "item",
+                    "name": "vmod/vmod_unix_cred_compat.h"
+                },
+                {
+                    "@type": "item",
+                    "name": "vmod/vmod_std.c"
+                },
+                {
+                    "@type": "item",
+                    "name": "vmod/vmod_blob_tbl_case.h"
+                },
+                {
+                    "@type": "item",
+                    "name": "vmod/vmod_blob.c"
+                },
+                {
+                    "@type": "item",
+                    "name": "vmod/vmod_directors_fall_back.c"
+                },
+                {
+                    "@type": "item",
+                    "name": "vmod/vmod_std_fileread.c"
+                },
+                {
+                    "@type": "item",
+                    "name": "vmod/vmod_directors_random.c"
+                },
+                {
+                    "@type": "item",
+                    "name": "vmod/vmod_vtc.c"
+                },
+                {
+                    "@type": "item",
+                    "name": "vmod/vmod_purge.c"
+                },
+                {
+                    "@type": "item",
+                    "name": "include/vdef.h"
+                },
+                {
+                    "@type": "item",
+                    "name": "vmod/vmod_directors.h"
+                },
+                {
+                    "@type": "item",
+                    "name": "vmod/vmod_directors.c"
+                }
+            ]
+        },
+        {
+            "@type": "group",
+            "name": "6",
+            "nested": [
+                {
+                    "@type": "item",
+                    "name": "lib/libvgz/crc32.h"
+                },
+                {
+                    "@type": "item",
+                    "name": "lib/libvgz/deflate.h"
+                },
+                {
+                    "@type": "item",
+                    "name": "lib/libvgz/trees.c"
+                },
+                {
+                    "@type": "item",
+                    "name": "lib/libvgz/trees.h"
+                },
+                {
+                    "@type": "item",
+                    "name": "lib/libvgz/inffast.h"
+                },
+                {
+                    "@type": "item",
+                    "name": "lib/libvgz/inftrees.c"
+                },
+                {
+                    "@type": "item",
+                    "name": "lib/libvgz/zutil.h"
+                },
+                {
+                    "@type": "item",
+                    "name": "lib/libvgz/zutil.c"
+                },
+                {
+                    "@type": "item",
+                    "name": "lib/libvgz/inffast.c"
+                },
+                {
+                    "@type": "item",
+                    "name": "lib/libvgz/gzguts.h"
+                },
+                {
+                    "@type": "item",
+                    "name": "lib/libvgz/zconf.h"
+                },
+                {
+                    "@type": "item",
+                    "name": "lib/libvgz/inftrees.h"
+                },
+                {
+                    "@type": "item",
+                    "name": "lib/libvgz/vgz.h"
+                },
+                {
+                    "@type": "item",
+                    "name": "lib/libvgz/adler32.c"
+                },
+                {
+                    "@type": "item",
+                    "name": "lib/libvgz/inflate.c"
+                },
+                {
+                    "@type": "item",
+                    "name": "lib/libvgz/crc32.c"
+                },
+                {
+                    "@type": "item",
+                    "name": "lib/libvgz/deflate.c"
+                },
+                {
+                    "@type": "item",
+                    "name": "lib/libvgz/inffixed.h"
+                },
+                {
+                    "@type": "item",
+                    "name": "lib/libvgz/inflate.h"
+                }
+            ]
+        },
+        {
+            "@type": "group",
+            "name": "7",
+            "nested": [
+                {
+                    "@type": "item",
+                    "name": "bin/varnishd/storage/storage_debug.c"
+                },
+                {
+                    "@type": "item",
+                    "name": "bin/varnishd/storage/storage_simple.h"
+                },
+                {
+                    "@type": "item",
+                    "name": "bin/varnishd/storage/storage_simple.c"
+                },
+                {
+                    "@type": "item",
+                    "name": "bin/varnishd/storage/storage.h"
+                },
+                {
+                    "@type": "item",
+                    "name": "bin/varnishd/storage/mgt_stevedore.c"
+                },
+                {
+                    "@type": "item",
+                    "name": "bin/varnishd/storage/storage_lru.c"
+                },
+                {
+                    "@type": "item",
+                    "name": "bin/varnishd/storage/stevedore_utils.c"
+                },
+                {
+                    "@type": "item",
+                    "name": "bin/varnishd/storage/storage_malloc.c"
+                },
+                {
+                    "@type": "item",
+                    "name": "bin/varnishd/storage/storage_persistent.c"
+                },
+                {
+                    "@type": "item",
+                    "name": "bin/varnishd/storage/storage_file.c"
+                },
+                {
+                    "@type": "item",
+                    "name": "bin/varnishd/storage/storage_umem.c"
+                },
+                {
+                    "@type": "item",
+                    "name": "bin/varnishd/storage/storage_persistent.h"
+                },
+                {
+                    "@type": "item",
+                    "name": "bin/varnishd/storage/mgt_storage_persistent.c"
+                },
+                {
+                    "@type": "item",
+                    "name": "bin/varnishd/storage/storage_persistent_silo.c"
+                },
+                {
+                    "@type": "item",
+                    "name": "bin/varnishd/storage/storage_persistent_subr.c"
+                },
+                {
+                    "@type": "item",
+                    "name": "bin/varnishd/storage/stevedore.c"
+                }
+            ]
+        },
+        {
+            "@type": "group",
+            "name": "8",
+            "nested": [
+                {
+                    "@type": "item",
+                    "name": "bin/varnishd/mgt/mgt_jail_unix.c"
+                },
+                {
+                    "@type": "item",
+                    "name": "bin/varnishd/mgt/mgt_main.c"
+                },
+                {
+                    "@type": "item",
+                    "name": "bin/varnishd/mgt/mgt_vcl.h"
+                },
+                {
+                    "@type": "item",
+                    "name": "bin/varnishd/mgt/mgt_vcl.c"
+                },
+                {
+                    "@type": "item",
+                    "name": "bin/varnishd/mgt/mgt_symtab.c"
+                },
+                {
+                    "@type": "item",
+                    "name": "bin/varnishd/mgt/mgt_child.c"
+                },
+                {
+                    "@type": "item",
+                    "name": "bin/varnishd/mgt/mgt_jail_solaris.c"
+                },
+                {
+                    "@type": "item",
+                    "name": "bin/varnishd/mgt/mgt.h"
+                },
+                {
+                    "@type": "item",
+                    "name": "bin/varnishd/mgt/mgt_cli.c"
+                },
+                {
+                    "@type": "item",
+                    "name": "bin/varnishd/mgt/mgt_vcc.c"
+                },
+                {
+                    "@type": "item",
+                    "name": "bin/varnishd/mgt/mgt_param.c"
+                },
+                {
+                    "@type": "item",
+                    "name": "bin/varnishd/mgt/mgt_util.c"
+                },
+                {
+                    "@type": "item",
+                    "name": "bin/varnishd/mgt/mgt_jail.c"
+                },
+                {
+                    "@type": "item",
+                    "name": "bin/varnishd/mgt/mgt_param_tcp.c"
+                },
+                {
+                    "@type": "item",
+                    "name": "bin/varnishd/mgt/mgt_acceptor.c"
+                },
+                {
+                    "@type": "item",
+                    "name": "bin/varnishd/mgt/mgt_shmem.c"
+                },
+                {
+                    "@type": "item",
+                    "name": "bin/varnishd/mgt/mgt_jail_solaris_tbl.h"
+                },
+                {
+                    "@type": "item",
+                    "name": "bin/varnishd/mgt/mgt_param.h"
+                },
+                {
+                    "@type": "item",
+                    "name": "bin/varnishd/mgt/mgt_param_tweak.c"
+                }
+            ]
+        },
+        {
+            "@type": "group",
+            "name": "9",
+            "nested": [
+                {
+                    "@type": "item",
+                    "name": "bin/varnishd/waiter/mgt_waiter.h"
+                },
+                {
+                    "@type": "item",
+                    "name": "bin/varnishd/waiter/mgt_waiter.c"
+                },
+                {
+                    "@type": "item",
+                    "name": "bin/varnishd/waiter/cache_waiter_poll.c"
+                },
+                {
+                    "@type": "item",
+                    "name": "bin/varnishd/waiter/cache_waiter_ports.c"
+                },
+                {
+                    "@type": "item",
+                    "name": "bin/varnishd/waiter/cache_waiter_kqueue.c"
+                },
+                {
+                    "@type": "item",
+                    "name": "bin/varnishd/waiter/cache_waiter_epoll.c"
+                },
+                {
+                    "@type": "item",
+                    "name": "bin/varnishd/waiter/waiter.h"
+                },
+                {
+                    "@type": "item",
+                    "name": "bin/varnishd/waiter/waiter_priv.h"
+                },
+                {
+                    "@type": "item",
+                    "name": "bin/varnishd/waiter/cache_waiter.c"
+                }
+            ]
+        },
+        {
+            "@type": "group",
+            "name": "10",
+            "nested": [
+                {
+                    "@type": "item",
+                    "name": "bin/varnishd/http2/cache_http2_deliver.c"
+                },
+                {
+                    "@type": "item",
+                    "name": "bin/varnishd/http2/cache_http2_session.c"
+                },
+                {
+                    "@type": "item",
+                    "name": "bin/varnishd/http2/cache_http2_panic.c"
+                },
+                {
+                    "@type": "item",
+                    "name": "bin/varnishd/http2/cache_http2.h"
+                },
+                {
+                    "@type": "item",
+                    "name": "bin/varnishd/http2/cache_http2_send.c"
+                },
+                {
+                    "@type": "item",
+                    "name": "bin/varnishd/http2/cache_http2_proto.c"
+                },
+                {
+                    "@type": "item",
+                    "name": "bin/varnishd/http2/cache_http2_hpack.c"
+                }
+            ]
+        },
+        {
+            "@type": "group",
+            "name": "11",
+            "nested": [
+                {
+                    "@type": "item",
+                    "name": "bin/varnishd/hash/hash_classic.c"
+                },
+                {
+                    "@type": "item",
+                    "name": "bin/varnishd/hash/hash_critbit.c"
+                },
+                {
+                    "@type": "item",
+                    "name": "bin/varnishd/hash/hash_slinger.h"
+                },
+                {
+                    "@type": "item",
+                    "name": "bin/varnishd/hash/mgt_hash.c"
+                },
+                {
+                    "@type": "item",
+                    "name": "bin/varnishd/hash/hash_simple_list.c"
+                }
+            ]
+        },
+        {
+            "@type": "group",
+            "name": "12",
+            "nested": [
+                {
+                    "@type": "item",
+                    "name": "bin/varnishstat/varnishstat.c"
+                },
+                {
+                    "@type": "item",
+                    "name": "bin/varnishstat/varnishstat_bindings.h"
+                },
+                {
+                    "@type": "item",
+                    "name": "bin/varnishstat/varnishstat.h"
+                },
+                {
+                    "@type": "item",
+                    "name": "bin/varnishstat/varnishstat_curses.c"
+                },
+                {
+                    "@type": "item",
+                    "name": "bin/varnishstat/varnishstat_help_gen.c"
+                }
+            ]
+        },
+        {
+            "@type": "group",
+            "name": "13",
+            "nested": [
+                {
+                    "@type": "item",
+                    "name": "bin/varnishhist/varnishhist.c"
+                },
+                {
+                    "@type": "item",
+                    "name": "bin/varnishhist/varnishhist_profiles.h"
+                },
+                {
+                    "@type": "item",
+                    "name": "bin/varnishhist/varnishhist_options.h"
+                }
+            ]
+        },
+        {
+            "@type": "group",
+            "name": "14",
+            "nested": [
+                {
+                    "@type": "item",
+                    "name": "vmod/vmod_debug_dyn.c"
+                },
+                {
+                    "@type": "item",
+                    "name": "vmod/vmod_debug_obj.c"
+                },
+                {
+                    "@type": "item",
+                    "name": "vmod/vmod_debug.c"
+                }
+            ]
+        },
+        {
+            "@type": "group",
+            "name": "15",
+            "nested": [
+                {
+                    "@type": "item",
+                    "name": "bin/varnishd/http1/cache_http1_proto.c"
+                },
+                {
+                    "@type": "item",
+                    "name": "bin/varnishd/http1/cache_http1_fsm.c"
+                },
+                {
+                    "@type": "item",
+                    "name": "bin/varnishd/http1/cache_http1.h"
+                },
+                {
+                    "@type": "item",
+                    "name": "bin/varnishd/http1/cache_http1_pipe.c"
+                },
+                {
+                    "@type": "item",
+                    "name": "bin/varnishd/http1/cache_http1_vfp.c"
+                },
+                {
+                    "@type": "item",
+                    "name": "bin/varnishd/http1/cache_http1_line.c"
+                },
+                {
+                    "@type": "item",
+                    "name": "bin/varnishd/http1/cache_http1_deliver.c"
+                },
+                {
+                    "@type": "item",
+                    "name": "bin/varnishd/http1/cache_http1_fetch.c"
+                }
+            ]
+        },
+        {
+            "@type": "group",
+            "name": "16",
+            "nested": [
+                {
+                    "@type": "item",
+                    "name": "include/vfl.h"
+                },
+                {
+                    "@type": "item",
+                    "name": "lib/libvarnish/vfl.c"
+                },
+                {
+                    "@type": "item",
+                    "name": "include/miniobj.h"
+                },
+                {
+                    "@type": "item",
+                    "name": "include/vpf.h"
+                },
+                {
+                    "@type": "item",
+                    "name": "lib/libvarnish/vpf.c"
+                }
+            ]
+        },
+        {
+            "@type": "group",
+            "name": "17",
+            "nested": [
+                {
+                    "@type": "item",
+                    "name": "bin/varnishncsa/varnishncsa.c"
+                },
+                {
+                    "@type": "item",
+                    "name": "bin/varnishncsa/b64.h"
+                },
+                {
+                    "@type": "item",
+                    "name": "bin/varnishncsa/b64.c"
+                }
+            ]
+        },
+        {
+            "@type": "group",
+            "name": "18",
+            "nested": [
+                {
+                    "@type": "item",
+                    "name": "include/tbl/h2_error.h"
+                },
+                {
+                    "@type": "item",
+                    "name": "include/tbl/params.h"
+                }
+            ]
+        },
+        {
+            "@type": "group",
+            "name": "19",
+            "nested": [
+                {
+                    "@type": "item",
+                    "name": "lib/libvcc/vcc_namespace.h"
+                },
+                {
+                    "@type": "item",
+                    "name": "lib/libvcc/vcc_compile.h"
+                },
+                {
+                    "@type": "item",
+                    "name": "lib/libvcc/vcc_vmod.h"
+                },
+                {
+                    "@type": "item",
+                    "name": "include/libvcc.h"
+                },
+                {
+                    "@type": "item",
+                    "name": "lib/libvcc/vcc_token.c"
+                },
+                {
+                    "@type": "item",
+                    "name": "lib/libvcc/vcc_expr.c"
+                },
+                {
+                    "@type": "item",
+                    "name": "lib/libvcc/vcc_xref.c"
+                },
+                {
+                    "@type": "item",
+                    "name": "lib/libvcc/vcc_source.c"
+                },
+                {
+                    "@type": "item",
+                    "name": "lib/libvcc/vcc_vmod.c"
+                },
+                {
+                    "@type": "item",
+                    "name": "lib/libvcc/vcc_symb.c"
+                },
+                {
+                    "@type": "item",
+                    "name": "lib/libvcc/vcc_backend_util.c"
+                },
+                {
+                    "@type": "item",
+                    "name": "lib/libvcc/vcc_types.c"
+                },
+                {
+                    "@type": "item",
+                    "name": "lib/libvcc/vcc_action.c"
+                },
+                {
+                    "@type": "item",
+                    "name": "lib/libvcc/vcc_storage.c"
+                },
+                {
+                    "@type": "item",
+                    "name": "lib/libvcc/vcc_vmod_sym.c"
+                },
+                {
+                    "@type": "item",
+                    "name": "lib/libvcc/vcc_utils.c"
+                },
+                {
+                    "@type": "item",
+                    "name": "lib/libvcc/vcc_backend.c"
+                },
+                {
+                    "@type": "item",
+                    "name": "lib/libvcc/vcc_acl.c"
+                },
+                {
+                    "@type": "item",
+                    "name": "lib/libvcc/vcc_parse.c"
+                },
+                {
+                    "@type": "item",
+                    "name": "lib/libvcc/vcc_compile.c"
+                },
+                {
+                    "@type": "item",
+                    "name": "lib/libvcc/vcc_var.c"
+                }
+            ]
+        },
+        {
+            "@type": "group",
+            "name": "20",
+            "nested": [
+                {
+                    "@type": "item",
+                    "name": "vmod/vmod_directors_shard_dir.h"
+                },
+                {
+                    "@type": "item",
+                    "name": "vmod/vmod_directors_shard_cfg.h"
+                },
+                {
+                    "@type": "item",
+                    "name": "vmod/vmod_directors_shard_dir.c"
+                },
+                {
+                    "@type": "item",
+                    "name": "vmod/vmod_directors_shard_cfg.c"
+                },
+                {
+                    "@type": "item",
+                    "name": "vmod/vmod_directors_shard.c"
+                }
+            ]
+        },
+        {
+            "@type": "group",
+            "name": "21",
+            "nested": [
+                {
+                    "@type": "item",
+                    "name": "bin/varnishadm/varnishadm.c"
+                }
+            ]
+        },
+        {
+            "@type": "group",
+            "name": "22",
+            "nested": [
+                {
+                    "@type": "item",
+                    "name": "bin/varnishd/common/common_param.h"
+                }
+            ]
+        },
+        {
+            "@type": "group",
+            "name": "23",
+            "nested": [
+                {
+                    "@type": "item",
+                    "name": "bin/varnishd/hpack/vhp_gen_hufdec.c"
+                }
+            ]
+        },
+        {
+            "@type": "group",
+            "name": "24",
+            "nested": [
+                {
+                    "@type": "item",
+                    "name": "bin/varnishlog/varnishlog.c"
+                }
+            ]
+        },
+        {
+            "@type": "group",
+            "name": "25",
+            "nested": [
+                {
+                    "@type": "item",
+                    "name": "bin/varnishtop/varnishtop.c"
+                }
+            ]
+        },
+        {
+            "@type": "group",
+            "name": "26",
+            "nested": [
+                {
+                    "@type": "item",
+                    "name": "include/tbl/vhd_fsm.h"
+                }
+            ]
+        },
+        {
+            "@type": "group",
+            "name": "27",
+            "nested": [
+                {
+                    "@type": "item",
+                    "name": "include/vapi/voptget.h"
+                }
+            ]
+        },
+        {
+            "@type": "group",
+            "name": "28",
+            "nested": [
+                {
+                    "@type": "item",
+                    "name": "include/vcurses.h"
+                }
+            ]
+        },
+        {
+            "@type": "group",
+            "name": "29",
+            "nested": [
+                {
+                    "@type": "item",
+                    "name": "include/vend.h"
+                }
+            ]
+        },
+        {
+            "@type": "group",
+            "name": "30",
+            "nested": [
+                {
+                    "@type": "item",
+                    "name": "include/vqueue.h"
+                }
+            ]
+        },
+        {
+            "@type": "group",
+            "name": "31",
+            "nested": [
+                {
+                    "@type": "item",
+                    "name": "lib/libvarnishapi/daemon.c"
+                }
+            ]
+        },
+        {
+            "@type": "group",
+            "name": "32",
+            "nested": [
+                {
+                    "@type": "item",
+                    "name": "vmod/vmod_cookie.c"
+                }
+            ]
+        },
+        {
+            "@type": "group",
+            "name": "33",
+            "nested": [
+                {
+                    "@type": "item",
+                    "name": "vmod/vmod_debug_acl.c"
+                }
+            ]
+        },
+        {
+            "@type": "group",
+            "name": "34",
+            "nested": [
+                {
+                    "@type": "item",
+                    "name": "vmod/vmod_std_querysort.c"
+                }
+            ]
+        },
+        {
+            "@type": "group",
+            "name": "35",
+            "nested": [
+                {
+                    "@type": "item",
+                    "name": "bin/varnishncsa/varnishncsa_options.h"
+                }
+            ]
+        },
+        {
+            "@type": "group",
+            "name": "36",
+            "nested": [
+                {
+                    "@type": "item",
+                    "name": "bin/varnishlog/varnishlog_options.h"
+                }
+            ]
+        },
+        {
+            "@type": "group",
+            "name": "37",
+            "nested": [
+                {
+                    "@type": "item",
+                    "name": "bin/varnishstat/varnishstat_options.h"
+                }
+            ]
+        },
+        {
+            "@type": "group",
+            "name": "38",
+            "nested": [
+                {
+                    "@type": "item",
+                    "name": "bin/varnishtop/varnishtop_options.h"
+                }
+            ]
+        },
+        {
+            "@type": "group",
+            "name": "39",
+            "nested": [
+                {
+                    "@type": "item",
+                    "name": "tools/coccinelle/vdef.h"
+                }
+            ]
+        },
+        {
+            "@type": "group",
+            "name": "40",
+            "nested": [
+                {
+                    "@type": "item",
+                    "name": "bin/varnishd/fuzzers/esi_parse_fuzzer.c"
+                }
+            ]
+        },
+        {
+            "@type": "group",
+            "name": "41",
+            "nested": [
+                {
+                    "@type": "item",
+                    "name": "bin/varnishd/proxy/cache_proxy.h"
+                },
+                {
+                    "@type": "item",
+                    "name": "bin/varnishd/proxy/cache_proxy_proto.c"
+                }
+            ]
+        },
+        {
+            "@type": "group",
+            "name": "42",
+            "nested": [
+                {
+                    "@type": "item",
+                    "name": "bin/varnishd/hpack/vhp.h"
+                },
+                {
+                    "@type": "item",
+                    "name": "bin/varnishd/hpack/vhp_decode.c"
+                },
+                {
+                    "@type": "item",
+                    "name": "bin/varnishd/hpack/vhp_table.c"
+                }
+            ]
+        },
+        {
+            "@type": "group",
+            "name": "43",
+            "nested": [
+                {
+                    "@type": "item",
+                    "name": "include/vlu.h"
+                },
+                {
+                    "@type": "item",
+                    "name": "lib/libvarnish/vlu.c"
+                }
+            ]
+        }
+    ]
+}

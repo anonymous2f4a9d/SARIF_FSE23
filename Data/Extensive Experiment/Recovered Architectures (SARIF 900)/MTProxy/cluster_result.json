@@ -1,0 +1,450 @@
+{
+    "@schemaVersion": "1.0",
+    "name": "clustering",
+    "structure": [
+        {
+            "@type": "group",
+            "name": "0",
+            "nested": [
+                {
+                    "@type": "item",
+                    "name": "common/mp-queue.h"
+                },
+                {
+                    "@type": "item",
+                    "name": "common/mp-queue.c"
+                },
+                {
+                    "@type": "item",
+                    "name": "common/kprintf.h"
+                },
+                {
+                    "@type": "item",
+                    "name": "common/kprintf.c"
+                },
+                {
+                    "@type": "item",
+                    "name": "common/resolver.h"
+                },
+                {
+                    "@type": "item",
+                    "name": "common/resolver.c"
+                },
+                {
+                    "@type": "item",
+                    "name": "common/crc32.h"
+                },
+                {
+                    "@type": "item",
+                    "name": "common/crc32.c"
+                },
+                {
+                    "@type": "item",
+                    "name": "common/server-functions.h"
+                },
+                {
+                    "@type": "item",
+                    "name": "common/server-functions.c"
+                },
+                {
+                    "@type": "item",
+                    "name": "common/rpc-const.h"
+                },
+                {
+                    "@type": "item",
+                    "name": "common/md5.h"
+                },
+                {
+                    "@type": "item",
+                    "name": "common/md5.c"
+                },
+                {
+                    "@type": "item",
+                    "name": "common/precise-time.h"
+                },
+                {
+                    "@type": "item",
+                    "name": "common/precise-time.c"
+                },
+                {
+                    "@type": "item",
+                    "name": "common/tl-parse.h"
+                },
+                {
+                    "@type": "item",
+                    "name": "common/tl-parse.c"
+                },
+                {
+                    "@type": "item",
+                    "name": "common/parse-config.h"
+                },
+                {
+                    "@type": "item",
+                    "name": "common/parse-config.c"
+                },
+                {
+                    "@type": "item",
+                    "name": "common/pid.h"
+                },
+                {
+                    "@type": "item",
+                    "name": "common/pid.c"
+                },
+                {
+                    "@type": "item",
+                    "name": "common/common-stats.h"
+                },
+                {
+                    "@type": "item",
+                    "name": "common/common-stats.c"
+                },
+                {
+                    "@type": "item",
+                    "name": "common/cpuid.h"
+                },
+                {
+                    "@type": "item",
+                    "name": "common/cpuid.c"
+                },
+                {
+                    "@type": "item",
+                    "name": "common/crc32c.h"
+                },
+                {
+                    "@type": "item",
+                    "name": "common/crc32c.c"
+                }
+            ]
+        },
+        {
+            "@type": "group",
+            "name": "1",
+            "nested": [
+                {
+                    "@type": "item",
+                    "name": "net/net-tcp-rpc-client.h"
+                },
+                {
+                    "@type": "item",
+                    "name": "net/net-tcp-rpc-client.c"
+                },
+                {
+                    "@type": "item",
+                    "name": "net/net-tcp-rpc-server.h"
+                },
+                {
+                    "@type": "item",
+                    "name": "net/net-tcp-rpc-server.c"
+                },
+                {
+                    "@type": "item",
+                    "name": "net/net-tcp-rpc-common.h"
+                },
+                {
+                    "@type": "item",
+                    "name": "net/net-tcp-rpc-common.c"
+                },
+                {
+                    "@type": "item",
+                    "name": "net/net-crypto-dh.h"
+                },
+                {
+                    "@type": "item",
+                    "name": "net/net-crypto-dh.c"
+                }
+            ]
+        },
+        {
+            "@type": "group",
+            "name": "2",
+            "nested": [
+                {
+                    "@type": "item",
+                    "name": "engine/engine-rpc-common.h"
+                },
+                {
+                    "@type": "item",
+                    "name": "engine/engine-rpc-common.c"
+                },
+                {
+                    "@type": "item",
+                    "name": "engine/engine.h"
+                },
+                {
+                    "@type": "item",
+                    "name": "engine/engine-rpc.h"
+                },
+                {
+                    "@type": "item",
+                    "name": "engine/engine-signals.h"
+                },
+                {
+                    "@type": "item",
+                    "name": "engine/engine.c"
+                },
+                {
+                    "@type": "item",
+                    "name": "engine/engine-rpc.c"
+                },
+                {
+                    "@type": "item",
+                    "name": "engine/engine-signals.c"
+                },
+                {
+                    "@type": "item",
+                    "name": "engine/engine-net.h"
+                },
+                {
+                    "@type": "item",
+                    "name": "engine/engine-net.c"
+                }
+            ]
+        },
+        {
+            "@type": "group",
+            "name": "3",
+            "nested": [
+                {
+                    "@type": "item",
+                    "name": "mtproto/mtproto-common.h"
+                },
+                {
+                    "@type": "item",
+                    "name": "mtproto/mtproto-proxy.c"
+                },
+                {
+                    "@type": "item",
+                    "name": "mtproto/mtproto-config.h"
+                },
+                {
+                    "@type": "item",
+                    "name": "mtproto/mtproto-config.c"
+                }
+            ]
+        },
+        {
+            "@type": "group",
+            "name": "4",
+            "nested": [
+                {
+                    "@type": "item",
+                    "name": "net/net-tcp-connections.h"
+                },
+                {
+                    "@type": "item",
+                    "name": "net/net-tcp-rpc-ext-server.h"
+                },
+                {
+                    "@type": "item",
+                    "name": "net/net-tcp-rpc-ext-server.c"
+                },
+                {
+                    "@type": "item",
+                    "name": "net/net-tcp-connections.c"
+                }
+            ]
+        },
+        {
+            "@type": "group",
+            "name": "5",
+            "nested": [
+                {
+                    "@type": "item",
+                    "name": "net/net-http-server.h"
+                },
+                {
+                    "@type": "item",
+                    "name": "net/net-http-server.c"
+                },
+                {
+                    "@type": "item",
+                    "name": "net/net-msg-buffers.h"
+                },
+                {
+                    "@type": "item",
+                    "name": "net/net-msg-buffers.c"
+                },
+                {
+                    "@type": "item",
+                    "name": "net/net-msg.h"
+                },
+                {
+                    "@type": "item",
+                    "name": "net/net-msg.c"
+                }
+            ]
+        },
+        {
+            "@type": "group",
+            "name": "6",
+            "nested": [
+                {
+                    "@type": "item",
+                    "name": "net/net-connections.h"
+                },
+                {
+                    "@type": "item",
+                    "name": "net/net-connections.c"
+                },
+                {
+                    "@type": "item",
+                    "name": "net/net-stats.c"
+                },
+                {
+                    "@type": "item",
+                    "name": "net/net-events.h"
+                },
+                {
+                    "@type": "item",
+                    "name": "net/net-events.c"
+                },
+                {
+                    "@type": "item",
+                    "name": "net/net-rpc-targets.h"
+                },
+                {
+                    "@type": "item",
+                    "name": "net/net-rpc-targets.c"
+                }
+            ]
+        },
+        {
+            "@type": "group",
+            "name": "7",
+            "nested": [
+                {
+                    "@type": "item",
+                    "name": "net/net-thread.h"
+                },
+                {
+                    "@type": "item",
+                    "name": "net/net-thread.c"
+                },
+                {
+                    "@type": "item",
+                    "name": "net/net-timers.h"
+                },
+                {
+                    "@type": "item",
+                    "name": "net/net-timers.c"
+                }
+            ]
+        },
+        {
+            "@type": "group",
+            "name": "8",
+            "nested": [
+                {
+                    "@type": "item",
+                    "name": "common/sha1.h"
+                },
+                {
+                    "@type": "item",
+                    "name": "common/sha1.c"
+                },
+                {
+                    "@type": "item",
+                    "name": "common/sha256.h"
+                },
+                {
+                    "@type": "item",
+                    "name": "common/sha256.c"
+                }
+            ]
+        },
+        {
+            "@type": "group",
+            "name": "9",
+            "nested": [
+                {
+                    "@type": "item",
+                    "name": "net/net-crypto-aes.h"
+                },
+                {
+                    "@type": "item",
+                    "name": "net/net-crypto-aes.c"
+                },
+                {
+                    "@type": "item",
+                    "name": "net/net-config.h"
+                },
+                {
+                    "@type": "item",
+                    "name": "net/net-config.c"
+                }
+            ]
+        },
+        {
+            "@type": "group",
+            "name": "10",
+            "nested": [
+                {
+                    "@type": "item",
+                    "name": "vv/vv-io.h"
+                }
+            ]
+        },
+        {
+            "@type": "group",
+            "name": "11",
+            "nested": [
+                {
+                    "@type": "item",
+                    "name": "vv/vv-tree.c"
+                }
+            ]
+        },
+        {
+            "@type": "group",
+            "name": "12",
+            "nested": [
+                {
+                    "@type": "item",
+                    "name": "vv/vv-tree.h"
+                }
+            ]
+        },
+        {
+            "@type": "group",
+            "name": "13",
+            "nested": [
+                {
+                    "@type": "item",
+                    "name": "crypto/aesni256.h"
+                },
+                {
+                    "@type": "item",
+                    "name": "crypto/aesni256.c"
+                }
+            ]
+        },
+        {
+            "@type": "group",
+            "name": "14",
+            "nested": [
+                {
+                    "@type": "item",
+                    "name": "jobs/jobs.h"
+                },
+                {
+                    "@type": "item",
+                    "name": "jobs/jobs.c"
+                }
+            ]
+        },
+        {
+            "@type": "group",
+            "name": "15",
+            "nested": [
+                {
+                    "@type": "item",
+                    "name": "common/proc-stat.h"
+                },
+                {
+                    "@type": "item",
+                    "name": "common/proc-stat.c"
+                }
+            ]
+        }
+    ]
+}

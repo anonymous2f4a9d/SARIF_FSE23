@@ -1,0 +1,478 @@
+{
+    "@schemaVersion": "1.0",
+    "name": "clustering",
+    "structure": [
+        {
+            "@type": "group",
+            "name": "0",
+            "nested": [
+                {
+                    "@type": "item",
+                    "name": "src/main/java/io/pillopl/library/lending/patron/model/PatronType.java"
+                },
+                {
+                    "@type": "item",
+                    "name": "src/main/java/io/pillopl/library/lending/patron/infrastructure/OverdueCheckoutDatabaseEntity.java"
+                },
+                {
+                    "@type": "item",
+                    "name": "src/main/java/io/pillopl/library/lending/patron/model/PatronInformation.java"
+                },
+                {
+                    "@type": "item",
+                    "name": "src/main/java/io/pillopl/library/lending/patron/model/PatronFactory.java"
+                },
+                {
+                    "@type": "item",
+                    "name": "src/main/java/io/pillopl/library/lending/patron/infrastructure/HoldDatabaseEntity.java"
+                },
+                {
+                    "@type": "item",
+                    "name": "src/main/java/io/pillopl/library/lending/patron/model/PatronHolds.java"
+                },
+                {
+                    "@type": "item",
+                    "name": "src/main/java/io/pillopl/library/lending/patron/model/Hold.java"
+                },
+                {
+                    "@type": "item",
+                    "name": "src/main/java/io/pillopl/library/lending/patron/infrastructure/PatronsDatabaseRepository.java"
+                },
+                {
+                    "@type": "item",
+                    "name": "src/main/java/io/pillopl/library/lending/patron/model/Patron.java"
+                },
+                {
+                    "@type": "item",
+                    "name": "src/main/java/io/pillopl/library/lending/patron/application/hold/CancelHoldCommand.java"
+                },
+                {
+                    "@type": "item",
+                    "name": "src/main/java/io/pillopl/library/lending/patron/infrastructure/PatronDatabaseEntity.java"
+                },
+                {
+                    "@type": "item",
+                    "name": "src/main/java/io/pillopl/library/lending/patron/model/PatronId.java"
+                },
+                {
+                    "@type": "item",
+                    "name": "src/main/java/io/pillopl/library/lending/patron/model/PlacingOnHoldPolicy.java"
+                },
+                {
+                    "@type": "item",
+                    "name": "src/main/java/io/pillopl/library/lending/patron/model/PatronEvent.java"
+                }
+            ]
+        },
+        {
+            "@type": "group",
+            "name": "1",
+            "nested": [
+                {
+                    "@type": "item",
+                    "name": "src/main/java/io/pillopl/library/lending/book/application/PatronEventsHandler.java"
+                },
+                {
+                    "@type": "item",
+                    "name": "src/main/java/io/pillopl/library/lending/book/model/AvailableBook.java"
+                },
+                {
+                    "@type": "item",
+                    "name": "src/main/java/io/pillopl/library/lending/book/model/CheckedOutBook.java"
+                },
+                {
+                    "@type": "item",
+                    "name": "src/main/java/io/pillopl/library/lending/book/model/BookInformation.java"
+                },
+                {
+                    "@type": "item",
+                    "name": "src/main/java/io/pillopl/library/lending/book/model/Book.java"
+                },
+                {
+                    "@type": "item",
+                    "name": "src/main/java/io/pillopl/library/lending/book/model/BookDuplicateHoldFound.java"
+                },
+                {
+                    "@type": "item",
+                    "name": "src/main/java/io/pillopl/library/lending/book/infrastructure/BookDatabaseEntity.java"
+                },
+                {
+                    "@type": "item",
+                    "name": "src/test/groovy/io/pillopl/library/lending/book/application/InMemoryBookRepo.java"
+                },
+                {
+                    "@type": "item",
+                    "name": "src/main/java/io/pillopl/library/lending/book/model/BookOnHold.java"
+                },
+                {
+                    "@type": "item",
+                    "name": "src/main/java/io/pillopl/library/lending/book/infrastructure/BookConfiguration.java"
+                },
+                {
+                    "@type": "item",
+                    "name": "src/main/java/io/pillopl/library/commons/aggregates/Version.java"
+                },
+                {
+                    "@type": "item",
+                    "name": "src/main/java/io/pillopl/library/lending/book/model/BookRepository.java"
+                },
+                {
+                    "@type": "item",
+                    "name": "src/main/java/io/pillopl/library/lending/book/application/CreateAvailableBookOnInstanceAddedEventHandler.java"
+                },
+                {
+                    "@type": "item",
+                    "name": "src/main/java/io/pillopl/library/lending/book/infrastructure/BookDatabaseRepository.java"
+                }
+            ]
+        },
+        {
+            "@type": "group",
+            "name": "2",
+            "nested": [
+                {
+                    "@type": "item",
+                    "name": "src/main/java/io/pillopl/library/lending/patron/application/hold/ExpiringHolds.java"
+                },
+                {
+                    "@type": "item",
+                    "name": "src/main/java/io/pillopl/library/lending/patron/model/OverdueCheckouts.java"
+                },
+                {
+                    "@type": "item",
+                    "name": "src/main/java/io/pillopl/library/lending/patron/application/hold/CancelingHold.java"
+                },
+                {
+                    "@type": "item",
+                    "name": "src/main/java/io/pillopl/library/lending/patron/application/hold/HandleDuplicateHold.java"
+                },
+                {
+                    "@type": "item",
+                    "name": "src/main/java/io/pillopl/library/lending/patron/application/hold/FindAvailableBook.java"
+                },
+                {
+                    "@type": "item",
+                    "name": "src/main/java/io/pillopl/library/lending/patron/application/hold/FindBookOnHold.java"
+                },
+                {
+                    "@type": "item",
+                    "name": "src/main/java/io/pillopl/library/lending/patron/application/checkout/RegisteringOverdueCheckout.java"
+                },
+                {
+                    "@type": "item",
+                    "name": "src/main/java/io/pillopl/library/lending/patron/application/checkout/CheckingOutBookOnHold.java"
+                },
+                {
+                    "@type": "item",
+                    "name": "src/main/java/io/pillopl/library/lending/patron/application/hold/PlacingOnHold.java"
+                },
+                {
+                    "@type": "item",
+                    "name": "src/main/java/io/pillopl/library/lending/patron/model/Patrons.java"
+                },
+                {
+                    "@type": "item",
+                    "name": "src/main/java/io/pillopl/library/lending/patron/infrastructure/PatronConfiguration.java"
+                }
+            ]
+        },
+        {
+            "@type": "group",
+            "name": "3",
+            "nested": [
+                {
+                    "@type": "item",
+                    "name": "src/main/java/io/pillopl/library/catalogue/BookId.java"
+                },
+                {
+                    "@type": "item",
+                    "name": "src/main/java/io/pillopl/library/catalogue/CatalogueDatabaseConfig.java"
+                },
+                {
+                    "@type": "item",
+                    "name": "src/main/java/io/pillopl/library/catalogue/CatalogueConfiguration.java"
+                },
+                {
+                    "@type": "item",
+                    "name": "src/main/java/io/pillopl/library/catalogue/BookInstanceAddedToCatalogue.java"
+                },
+                {
+                    "@type": "item",
+                    "name": "src/test/groovy/io/pillopl/library/catalogue/BookFixture.java"
+                },
+                {
+                    "@type": "item",
+                    "name": "src/main/java/io/pillopl/library/catalogue/Book.java"
+                },
+                {
+                    "@type": "item",
+                    "name": "src/main/java/io/pillopl/library/catalogue/BookType.java"
+                },
+                {
+                    "@type": "item",
+                    "name": "src/main/java/io/pillopl/library/catalogue/CatalogueDatabase.java"
+                },
+                {
+                    "@type": "item",
+                    "name": "src/main/java/io/pillopl/library/catalogue/ISBN.java"
+                },
+                {
+                    "@type": "item",
+                    "name": "src/main/java/io/pillopl/library/catalogue/Catalogue.java"
+                },
+                {
+                    "@type": "item",
+                    "name": "src/main/java/io/pillopl/library/catalogue/BookInstance.java"
+                }
+            ]
+        },
+        {
+            "@type": "group",
+            "name": "4",
+            "nested": [
+                {
+                    "@type": "item",
+                    "name": "src/main/java/io/pillopl/library/lending/patronprofile/model/CheckoutsView.java"
+                },
+                {
+                    "@type": "item",
+                    "name": "src/main/java/io/pillopl/library/lending/patronprofile/model/HoldsView.java"
+                },
+                {
+                    "@type": "item",
+                    "name": "src/main/java/io/pillopl/library/lending/patronprofile/model/Checkout.java"
+                },
+                {
+                    "@type": "item",
+                    "name": "src/main/java/io/pillopl/library/lending/patronprofile/infrastructure/PatronProfileReadModel.java"
+                },
+                {
+                    "@type": "item",
+                    "name": "src/main/java/io/pillopl/library/lending/patronprofile/web/PatronProfileController.java"
+                },
+                {
+                    "@type": "item",
+                    "name": "src/main/java/io/pillopl/library/lending/patronprofile/infrastructure/PatronProfileConfiguration.java"
+                },
+                {
+                    "@type": "item",
+                    "name": "src/main/java/io/pillopl/library/lending/patronprofile/model/PatronProfile.java"
+                },
+                {
+                    "@type": "item",
+                    "name": "src/main/java/io/pillopl/library/lending/patronprofile/model/Hold.java"
+                },
+                {
+                    "@type": "item",
+                    "name": "src/main/java/io/pillopl/library/lending/patronprofile/model/PatronProfiles.java"
+                }
+            ]
+        },
+        {
+            "@type": "group",
+            "name": "5",
+            "nested": [
+                {
+                    "@type": "item",
+                    "name": "src/main/java/io/pillopl/library/commons/events/publisher/MeteredDomainEventPublisher.java"
+                },
+                {
+                    "@type": "item",
+                    "name": "src/main/java/io/pillopl/library/commons/events/publisher/DomainEventsConfig.java"
+                },
+                {
+                    "@type": "item",
+                    "name": "src/main/java/io/pillopl/library/commons/events/publisher/StoreAndForwardDomainEventPublisher.java"
+                },
+                {
+                    "@type": "item",
+                    "name": "src/main/java/io/pillopl/library/commons/events/DomainEvents.java"
+                },
+                {
+                    "@type": "item",
+                    "name": "src/main/java/io/pillopl/library/commons/events/publisher/JustForwardDomainEventPublisher.java"
+                },
+                {
+                    "@type": "item",
+                    "name": "src/main/java/io/pillopl/library/commons/events/DomainEvent.java"
+                },
+                {
+                    "@type": "item",
+                    "name": "src/main/java/io/pillopl/library/commons/events/publisher/EventsStorage.java"
+                }
+            ]
+        },
+        {
+            "@type": "group",
+            "name": "6",
+            "nested": [
+                {
+                    "@type": "item",
+                    "name": "src/main/java/io/pillopl/library/lending/dailysheet/model/ExpiredHold.java"
+                },
+                {
+                    "@type": "item",
+                    "name": "src/main/java/io/pillopl/library/lending/dailysheet/model/DailySheet.java"
+                },
+                {
+                    "@type": "item",
+                    "name": "src/main/java/io/pillopl/library/lending/dailysheet/infrastructure/SheetsReadModel.java"
+                },
+                {
+                    "@type": "item",
+                    "name": "src/main/java/io/pillopl/library/lending/dailysheet/infrastructure/DailySheetConfiguration.java"
+                },
+                {
+                    "@type": "item",
+                    "name": "src/main/java/io/pillopl/library/lending/dailysheet/model/CheckoutsToOverdueSheet.java"
+                },
+                {
+                    "@type": "item",
+                    "name": "src/main/java/io/pillopl/library/lending/dailysheet/model/HoldsToExpireSheet.java"
+                },
+                {
+                    "@type": "item",
+                    "name": "src/main/java/io/pillopl/library/lending/dailysheet/model/OverdueCheckout.java"
+                }
+            ]
+        },
+        {
+            "@type": "group",
+            "name": "7",
+            "nested": [
+                {
+                    "@type": "item",
+                    "name": "src/main/java/io/pillopl/library/lending/patron/application/checkout/CheckOutBookCommand.java"
+                },
+                {
+                    "@type": "item",
+                    "name": "src/main/java/io/pillopl/library/lending/patron/model/NumberOfDays.java"
+                },
+                {
+                    "@type": "item",
+                    "name": "src/main/java/io/pillopl/library/lending/patron/model/CheckoutDuration.java"
+                },
+                {
+                    "@type": "item",
+                    "name": "src/main/java/io/pillopl/library/commons/aggregates/AggregateRootIsStale.java"
+                },
+                {
+                    "@type": "item",
+                    "name": "src/main/java/io/pillopl/library/lending/patron/model/HoldDuration.java"
+                },
+                {
+                    "@type": "item",
+                    "name": "src/main/java/io/pillopl/library/lending/patron/application/hold/PlaceOnHoldCommand.java"
+                }
+            ]
+        },
+        {
+            "@type": "group",
+            "name": "8",
+            "nested": [
+                {
+                    "@type": "item",
+                    "name": "src/main/java/io/pillopl/library/commons/commands/Result.java"
+                },
+                {
+                    "@type": "item",
+                    "name": "src/test/groovy/io/pillopl/library/ModularArchitectureTest.java"
+                },
+                {
+                    "@type": "item",
+                    "name": "src/main/java/io/pillopl/library/commons/commands/BatchResult.java"
+                },
+                {
+                    "@type": "item",
+                    "name": "src/test/groovy/io/pillopl/library/lending/architecture/LendingHexagonalArchitectureTest.java"
+                },
+                {
+                    "@type": "item",
+                    "name": "src/main/java/io/pillopl/library/commons/events/EitherResult.java"
+                }
+            ]
+        },
+        {
+            "@type": "group",
+            "name": "9",
+            "nested": [
+                {
+                    "@type": "item",
+                    "name": "src/main/java/io/pillopl/library/lending/LendingDatabaseConfig.java"
+                },
+                {
+                    "@type": "item",
+                    "name": "src/main/java/io/pillopl/library/lending/LendingConfig.java"
+                },
+                {
+                    "@type": "item",
+                    "name": "src/main/java/io/pillopl/library/LibraryApplication.java"
+                },
+                {
+                    "@type": "item",
+                    "name": "src/main/java/io/pillopl/library/lending/patronprofile/web/WebConfiguration.java"
+                }
+            ]
+        },
+        {
+            "@type": "group",
+            "name": "10",
+            "nested": [
+                {
+                    "@type": "item",
+                    "name": "src/test/groovy/io/pillopl/library/lending/book/model/BookFixture.java"
+                },
+                {
+                    "@type": "item",
+                    "name": "src/test/groovy/io/pillopl/library/lending/patron/model/PatronFixture.java"
+                },
+                {
+                    "@type": "item",
+                    "name": "src/test/groovy/io/pillopl/library/lending/librarybranch/model/LibraryBranchFixture.java"
+                },
+                {
+                    "@type": "item",
+                    "name": "src/main/java/io/pillopl/library/lending/librarybranch/model/LibraryBranchId.java"
+                }
+            ]
+        },
+        {
+            "@type": "group",
+            "name": "11",
+            "nested": [
+                {
+                    "@type": "item",
+                    "name": "src/integration-test/groovy/io/pillopl/library/common/events/publisher/InMemoryEventsStorage.java"
+                },
+                {
+                    "@type": "item",
+                    "name": "src/integration-test/groovy/io/pillopl/library/common/events/publisher/DomainEventsTestConfig.java"
+                }
+            ]
+        },
+        {
+            "@type": "group",
+            "name": "12",
+            "nested": [
+                {
+                    "@type": "item",
+                    "name": "src/integration-test/groovy/io/pillopl/library/lending/patronprofile/web/PatronProfileControllerIT.java"
+                },
+                {
+                    "@type": "item",
+                    "name": "src/integration-test/groovy/io/pillopl/library/lending/LendingTestContext.java"
+                }
+            ]
+        },
+        {
+            "@type": "group",
+            "name": "13",
+            "nested": [
+                {
+                    "@type": "item",
+                    "name": "src/test/groovy/io/pillopl/library/lending/architecture/NoSpringInDomainLogicTest.java"
+                }
+            ]
+        }
+    ]
+}

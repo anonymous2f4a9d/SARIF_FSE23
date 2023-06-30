@@ -1,0 +1,2384 @@
+{
+    "@schemaVersion": "1.0",
+    "name": "clustering",
+    "structure": [
+        {
+            "@type": "group",
+            "name": "0",
+            "nested": [
+                {
+                    "@type": "item",
+                    "name": "logstash-core/src/main/java/org/logstash/plugins/codecs/Dots.java"
+                },
+                {
+                    "@type": "item",
+                    "name": "logstash-core/src/main/java/co/elastic/logstash/api/PluginHelper.java"
+                },
+                {
+                    "@type": "item",
+                    "name": "logstash-core/src/main/java/co/elastic/logstash/api/Codec.java"
+                },
+                {
+                    "@type": "item",
+                    "name": "logstash-core/src/main/java/org/logstash/plugins/UniversalPluginExt.java"
+                },
+                {
+                    "@type": "item",
+                    "name": "logstash-core/src/main/java/org/logstash/plugins/factory/FilterPluginCreator.java"
+                },
+                {
+                    "@type": "item",
+                    "name": "logstash-core/src/test/java/org/logstash/plugins/PluginUtilValidateConfigTest.java"
+                },
+                {
+                    "@type": "item",
+                    "name": "logstash-core/src/main/java/co/elastic/logstash/api/Context.java"
+                },
+                {
+                    "@type": "item",
+                    "name": "logstash-core/src/main/java/org/logstash/instrument/metrics/FlowMetricRetentionPolicy.java"
+                },
+                {
+                    "@type": "item",
+                    "name": "logstash-core/src/main/java/co/elastic/logstash/api/LogstashPlugin.java"
+                },
+                {
+                    "@type": "item",
+                    "name": "logstash-core/src/main/java/org/logstash/plugins/codecs/Plain.java"
+                },
+                {
+                    "@type": "item",
+                    "name": "logstash-core/src/test/java/org/logstash/plugins/TestContext.java"
+                },
+                {
+                    "@type": "item",
+                    "name": "logstash-core/src/main/java/co/elastic/logstash/api/Input.java"
+                },
+                {
+                    "@type": "item",
+                    "name": "logstash-core/src/main/java/org/logstash/plugins/inputs/Stdin.java"
+                },
+                {
+                    "@type": "item",
+                    "name": "logstash-core/src/test/java/org/logstash/plugins/ConfigurationImplTest.java"
+                },
+                {
+                    "@type": "item",
+                    "name": "logstash-core/src/test/java/org/logstash/log/PipelineRoutingFilterTest.java"
+                },
+                {
+                    "@type": "item",
+                    "name": "logstash-core/src/test/java/org/logstash/plugins/PluginValidatorTest.java"
+                },
+                {
+                    "@type": "item",
+                    "name": "logstash-core/src/main/java/org/logstash/plugins/aliases/AliasPlugin.java"
+                },
+                {
+                    "@type": "item",
+                    "name": "logstash-core/src/main/java/org/logstash/plugins/factory/InputPluginCreator.java"
+                },
+                {
+                    "@type": "item",
+                    "name": "logstash-core/src/main/java/org/logstash/plugins/codecs/Line.java"
+                },
+                {
+                    "@type": "item",
+                    "name": "logstash-core/src/test/java/org/logstash/config/ir/compiler/JavaCodecDelegatorTest.java"
+                },
+                {
+                    "@type": "item",
+                    "name": "logstash-core/src/main/java/org/logstash/plugins/factory/AbstractPluginCreator.java"
+                },
+                {
+                    "@type": "item",
+                    "name": "logstash-core/src/main/java/co/elastic/logstash/api/Filter.java"
+                },
+                {
+                    "@type": "item",
+                    "name": "logstash-core/src/main/java/org/logstash/plugins/PluginValidator.java"
+                },
+                {
+                    "@type": "item",
+                    "name": "logstash-core/src/main/java/org/logstash/log/LogstashLoggerContextFactory.java"
+                },
+                {
+                    "@type": "item",
+                    "name": "logstash-core/src/main/java/org/logstash/plugins/discovery/PluginRegistry.java"
+                },
+                {
+                    "@type": "item",
+                    "name": "logstash-core/src/main/java/org/logstash/config/ir/compiler/JavaCodecDelegator.java"
+                },
+                {
+                    "@type": "item",
+                    "name": "logstash-core/src/main/java/org/logstash/plugins/factory/RubyCodecDelegator.java"
+                },
+                {
+                    "@type": "item",
+                    "name": "logstash-core/src/test/java/org/logstash/plugins/codecs/PlainTest.java"
+                },
+                {
+                    "@type": "item",
+                    "name": "logstash-core/src/main/java/org/logstash/plugins/PluginUtil.java"
+                },
+                {
+                    "@type": "item",
+                    "name": "logstash-core/src/main/java/org/logstash/plugins/ContextImpl.java"
+                },
+                {
+                    "@type": "item",
+                    "name": "logstash-core/src/main/java/org/logstash/config/ir/compiler/JavaInputDelegatorExt.java"
+                },
+                {
+                    "@type": "item",
+                    "name": "logstash-core/src/main/java/co/elastic/logstash/api/FilterMatchListener.java"
+                },
+                {
+                    "@type": "item",
+                    "name": "logstash-core/src/test/java/org/logstash/plugins/factory/PluginFactoryExtTest.java"
+                },
+                {
+                    "@type": "item",
+                    "name": "logstash-core/src/main/java/org/logstash/plugins/filters/Uuid.java"
+                },
+                {
+                    "@type": "item",
+                    "name": "logstash-core/src/main/java/org/logstash/execution/ExecutionContextExt.java"
+                },
+                {
+                    "@type": "item",
+                    "name": "logstash-core/src/test/java/org/logstash/plugins/codecs/TestEventConsumer.java"
+                },
+                {
+                    "@type": "item",
+                    "name": "logstash-core/src/main/java/org/logstash/config/ir/compiler/JavaFilterDelegatorExt.java"
+                },
+                {
+                    "@type": "item",
+                    "name": "logstash-core/src/main/java/co/elastic/logstash/api/PluginConfigSpec.java"
+                },
+                {
+                    "@type": "item",
+                    "name": "logstash-core/src/test/java/org/logstash/log/LogstashLoggerContextFactoryTest.java"
+                },
+                {
+                    "@type": "item",
+                    "name": "logstash-core/src/test/java/org/logstash/plugins/TestingPlugin.java"
+                },
+                {
+                    "@type": "item",
+                    "name": "logstash-core/src/test/java/org/logstash/log/TestingDeprecationPlugin.java"
+                },
+                {
+                    "@type": "item",
+                    "name": "logstash-core/src/main/java/org/logstash/plugins/factory/ExecutionContextFactoryExt.java"
+                },
+                {
+                    "@type": "item",
+                    "name": "logstash-core/src/main/java/org/logstash/plugins/outputs/Stdout.java"
+                },
+                {
+                    "@type": "item",
+                    "name": "logstash-core/src/main/java/org/logstash/plugins/AliasRegistry.java"
+                },
+                {
+                    "@type": "item",
+                    "name": "logstash-core/src/test/java/org/logstash/plugins/AliasRegistryTest.java"
+                },
+                {
+                    "@type": "item",
+                    "name": "logstash-core/src/test/java/org/logstash/plugins/inputs/StdinTest.java"
+                },
+                {
+                    "@type": "item",
+                    "name": "logstash-core/src/main/java/org/logstash/log/PipelineRoutingFilter.java"
+                },
+                {
+                    "@type": "item",
+                    "name": "logstash-core/src/main/java/co/elastic/logstash/api/Output.java"
+                },
+                {
+                    "@type": "item",
+                    "name": "logstash-core/src/main/java/org/logstash/plugins/outputs/Sink.java"
+                },
+                {
+                    "@type": "item",
+                    "name": "logstash-core/src/main/java/org/logstash/execution/PeriodicFlush.java"
+                },
+                {
+                    "@type": "item",
+                    "name": "logstash-core/src/test/java/org/logstash/plugins/codecs/LineTest.java"
+                },
+                {
+                    "@type": "item",
+                    "name": "logstash-core/src/main/java/org/logstash/plugins/factory/CodecPluginCreator.java"
+                },
+                {
+                    "@type": "item",
+                    "name": "logstash-core/src/main/java/org/logstash/plugins/ConfigurationImpl.java"
+                },
+                {
+                    "@type": "item",
+                    "name": "logstash-core/src/main/java/org/logstash/plugins/factory/PluginFactoryExt.java"
+                },
+                {
+                    "@type": "item",
+                    "name": "logstash-core/src/test/java/org/logstash/plugins/outputs/StdoutTest.java"
+                },
+                {
+                    "@type": "item",
+                    "name": "logstash-core/src/main/java/co/elastic/logstash/api/Configuration.java"
+                },
+                {
+                    "@type": "item",
+                    "name": "logstash-core/src/main/java/org/logstash/plugins/inputs/Generator.java"
+                },
+                {
+                    "@type": "item",
+                    "name": "logstash-core/src/main/java/co/elastic/logstash/api/Plugin.java"
+                },
+                {
+                    "@type": "item",
+                    "name": "logstash-core/src/main/java/org/logstash/plugins/factory/ContextualizerExt.java"
+                },
+                {
+                    "@type": "item",
+                    "name": "logstash-core/src/main/java/org/logstash/plugins/factory/OutputPluginCreator.java"
+                },
+                {
+                    "@type": "item",
+                    "name": "logstash-core/src/main/java/org/logstash/plugins/PluginLookup.java"
+                },
+                {
+                    "@type": "item",
+                    "name": "logstash-core/src/test/java/org/logstash/plugins/filters/UuidTest.java"
+                }
+            ]
+        },
+        {
+            "@type": "group",
+            "name": "1",
+            "nested": [
+                {
+                    "@type": "item",
+                    "name": "logstash-core/src/main/java/org/logstash/execution/MemoryReadBatch.java"
+                },
+                {
+                    "@type": "item",
+                    "name": "logstash-core/src/main/java/org/logstash/instrument/metrics/NullMetricExt.java"
+                },
+                {
+                    "@type": "item",
+                    "name": "logstash-core/src/main/java/org/logstash/config/ir/compiler/AbstractFilterDelegatorExt.java"
+                },
+                {
+                    "@type": "item",
+                    "name": "logstash-core/src/main/java/org/logstash/log/LoggableExt.java"
+                },
+                {
+                    "@type": "item",
+                    "name": "logstash-core/src/main/java/org/logstash/instrument/metrics/NullNamespacedMetricExt.java"
+                },
+                {
+                    "@type": "item",
+                    "name": "logstash-core/src/main/java/org/logstash/util/UtilExt.java"
+                },
+                {
+                    "@type": "item",
+                    "name": "logstash-core/src/main/java/org/logstash/execution/QueueBatch.java"
+                },
+                {
+                    "@type": "item",
+                    "name": "logstash-core/src/main/java/org/logstash/execution/AbstractWrappedQueueExt.java"
+                },
+                {
+                    "@type": "item",
+                    "name": "logstash-core/src/main/java/org/logstash/config/ir/compiler/AbstractOutputDelegatorExt.java"
+                },
+                {
+                    "@type": "item",
+                    "name": "logstash-core/src/main/java/org/logstash/instrument/metrics/SnapshotExt.java"
+                },
+                {
+                    "@type": "item",
+                    "name": "logstash-core/src/main/java/org/logstash/ackedqueue/ext/JRubyAckedQueueExt.java"
+                },
+                {
+                    "@type": "item",
+                    "name": "logstash-core/src/main/java/org/logstash/ext/JrubyMemoryReadClientExt.java"
+                },
+                {
+                    "@type": "item",
+                    "name": "logstash-core/src/main/java/org/logstash/execution/ShutdownWatcherExt.java"
+                },
+                {
+                    "@type": "item",
+                    "name": "logstash-core/src/main/java/org/logstash/common/BufferedTokenizerExt.java"
+                },
+                {
+                    "@type": "item",
+                    "name": "logstash-core/src/main/java/org/logstash/execution/AbstractPipelineExt.java"
+                },
+                {
+                    "@type": "item",
+                    "name": "logstash-core/src/main/java/org/logstash/config/ir/compiler/FilterDelegatorExt.java"
+                },
+                {
+                    "@type": "item",
+                    "name": "logstash-core/src/main/java/org/logstash/RubyUtil.java"
+                },
+                {
+                    "@type": "item",
+                    "name": "logstash-core/src/main/java/org/logstash/ext/JrubyWrappedSynchronousQueueExt.java"
+                },
+                {
+                    "@type": "item",
+                    "name": "logstash-core/src/main/java/org/logstash/config/ir/compiler/OutputDelegatorExt.java"
+                },
+                {
+                    "@type": "item",
+                    "name": "logstash-core/src/main/java/org/logstash/execution/PipelineReporterExt.java"
+                },
+                {
+                    "@type": "item",
+                    "name": "logstash-core/src/main/java/org/logstash/ext/JrubyAckedWriteClientExt.java"
+                },
+                {
+                    "@type": "item",
+                    "name": "logstash-core/src/main/java/org/logstash/instrument/metrics/NamespacedMetricExt.java"
+                },
+                {
+                    "@type": "item",
+                    "name": "logstash-core/src/main/java/org/logstash/ackedqueue/AckedReadBatch.java"
+                },
+                {
+                    "@type": "item",
+                    "name": "logstash-core/src/test/java/org/logstash/config/ir/compiler/OutputDelegatorTest.java"
+                },
+                {
+                    "@type": "item",
+                    "name": "logstash-core/src/main/java/org/logstash/ext/JRubyAbstractQueueWriteClientExt.java"
+                },
+                {
+                    "@type": "item",
+                    "name": "logstash-core/src/main/java/org/logstash/ext/JrubyAckedReadClientExt.java"
+                },
+                {
+                    "@type": "item",
+                    "name": "logstash-core/src/test/java/org/logstash/ext/JrubyMemoryReadClientExtTest.java"
+                },
+                {
+                    "@type": "item",
+                    "name": "logstash-core/src/main/java/org/logstash/ext/JRubyWrappedWriteClientExt.java"
+                },
+                {
+                    "@type": "item",
+                    "name": "logstash-core/src/main/java/org/logstash/common/LsQueueUtils.java"
+                },
+                {
+                    "@type": "item",
+                    "name": "logstash-core/src/main/java/org/logstash/log/DeprecationLoggerExt.java"
+                },
+                {
+                    "@type": "item",
+                    "name": "logstash-core/src/main/java/org/logstash/instrument/metrics/AbstractSimpleMetricExt.java"
+                },
+                {
+                    "@type": "item",
+                    "name": "logstash-core/src/main/java/org/logstash/config/ir/compiler/OutputStrategyExt.java"
+                },
+                {
+                    "@type": "item",
+                    "name": "logstash-core/src/main/java/org/logstash/plugins/HooksRegistryExt.java"
+                },
+                {
+                    "@type": "item",
+                    "name": "logstash-core/src/main/java/org/logstash/instrument/metrics/MetricKeys.java"
+                },
+                {
+                    "@type": "item",
+                    "name": "logstash-core/src/main/java/org/logstash/instrument/metrics/MetricExt.java"
+                },
+                {
+                    "@type": "item",
+                    "name": "logstash-core/src/main/java/org/logstash/ext/JRubyLogstashErrorsExt.java"
+                },
+                {
+                    "@type": "item",
+                    "name": "logstash-core/src/main/java/org/logstash/instrument/metrics/AbstractMetricExt.java"
+                },
+                {
+                    "@type": "item",
+                    "name": "logstash-core/src/main/java/org/logstash/execution/QueueReadClient.java"
+                },
+                {
+                    "@type": "item",
+                    "name": "logstash-core/src/main/java/org/logstash/ext/JrubyMemoryWriteClientExt.java"
+                },
+                {
+                    "@type": "item",
+                    "name": "logstash-core/src/test/java/org/logstash/config/ir/PipelineTestUtil.java"
+                },
+                {
+                    "@type": "item",
+                    "name": "logstash-core/src/main/java/org/logstash/log/SlowLoggerExt.java"
+                },
+                {
+                    "@type": "item",
+                    "name": "logstash-core/src/main/java/org/logstash/ackedqueue/ext/JRubyWrappedAckedQueueExt.java"
+                },
+                {
+                    "@type": "item",
+                    "name": "logstash-core/src/main/java/org/logstash/config/ir/compiler/JavaOutputDelegatorExt.java"
+                },
+                {
+                    "@type": "item",
+                    "name": "logstash-core/src/main/java/org/logstash/execution/ConvergeResultExt.java"
+                },
+                {
+                    "@type": "item",
+                    "name": "logstash-core/src/main/java/org/logstash/instrument/metrics/AbstractNamespacedMetricExt.java"
+                },
+                {
+                    "@type": "item",
+                    "name": "logstash-core/src/main/java/org/logstash/plugins/factory/PluginMetricsFactoryExt.java"
+                },
+                {
+                    "@type": "item",
+                    "name": "logstash-core/src/main/java/org/logstash/ackedqueue/AckedBatch.java"
+                },
+                {
+                    "@type": "item",
+                    "name": "logstash-core/src/main/java/org/logstash/execution/QueueReadClientBase.java"
+                },
+                {
+                    "@type": "item",
+                    "name": "logstash-core/src/test/java/org/logstash/config/ir/compiler/FakeOutClass.java"
+                },
+                {
+                    "@type": "item",
+                    "name": "logstash-core/src/main/java/org/logstash/KeyNode.java"
+                }
+            ]
+        },
+        {
+            "@type": "group",
+            "name": "2",
+            "nested": [
+                {
+                    "@type": "item",
+                    "name": "logstash-core/src/main/java/org/logstash/config/ir/graph/algorithms/DepthFirst.java"
+                },
+                {
+                    "@type": "item",
+                    "name": "logstash-core/src/main/java/org/logstash/config/ir/InvalidIRException.java"
+                },
+                {
+                    "@type": "item",
+                    "name": "logstash-core/src/main/java/org/logstash/config/ir/graph/Graph.java"
+                },
+                {
+                    "@type": "item",
+                    "name": "logstash-core/src/test/java/org/logstash/config/ir/PipelineIRTest.java"
+                },
+                {
+                    "@type": "item",
+                    "name": "logstash-core/src/main/java/org/logstash/config/ir/graph/algorithms/GraphDiff.java"
+                },
+                {
+                    "@type": "item",
+                    "name": "logstash-core/src/main/java/org/logstash/config/ir/BaseSourceComponent.java"
+                },
+                {
+                    "@type": "item",
+                    "name": "logstash-core/src/main/java/org/logstash/config/ir/ConfigCompiler.java"
+                },
+                {
+                    "@type": "item",
+                    "name": "logstash-core/src/main/java/org/logstash/config/ir/graph/QueueVertex.java"
+                },
+                {
+                    "@type": "item",
+                    "name": "logstash-core/src/main/java/org/logstash/config/ir/HashableWithSource.java"
+                },
+                {
+                    "@type": "item",
+                    "name": "logstash-core/src/test/java/org/logstash/config/ir/imperative/ImperativeToGraphtest.java"
+                },
+                {
+                    "@type": "item",
+                    "name": "logstash-core/src/main/java/org/logstash/config/ir/PluginDefinition.java"
+                },
+                {
+                    "@type": "item",
+                    "name": "logstash-core/src/test/java/org/logstash/config/ir/graph/EdgeTest.java"
+                },
+                {
+                    "@type": "item",
+                    "name": "logstash-core/src/test/java/org/logstash/config/ir/graph/algorithms/TopologicalSortTest.java"
+                },
+                {
+                    "@type": "item",
+                    "name": "logstash-core/src/test/java/org/logstash/config/ir/ConfigCompilerTest.java"
+                },
+                {
+                    "@type": "item",
+                    "name": "logstash-core/src/test/java/org/logstash/config/ir/IRHelpers.java"
+                },
+                {
+                    "@type": "item",
+                    "name": "logstash-core/src/main/java/org/logstash/config/ir/graph/algorithms/TopologicalSort.java"
+                },
+                {
+                    "@type": "item",
+                    "name": "logstash-core/src/test/java/org/logstash/config/ir/graph/PluginVertexTest.java"
+                },
+                {
+                    "@type": "item",
+                    "name": "logstash-core/src/main/java/org/logstash/config/ir/graph/PluginVertex.java"
+                },
+                {
+                    "@type": "item",
+                    "name": "logstash-core/src/main/java/org/logstash/config/ir/PipelineIR.java"
+                },
+                {
+                    "@type": "item",
+                    "name": "logstash-core/src/test/java/org/logstash/config/ir/graph/algorithms/GraphDiffTest.java"
+                },
+                {
+                    "@type": "item",
+                    "name": "logstash-core/src/main/java/org/logstash/config/ir/graph/Edge.java"
+                },
+                {
+                    "@type": "item",
+                    "name": "logstash-core/src/main/java/org/logstash/config/ir/Hashable.java"
+                },
+                {
+                    "@type": "item",
+                    "name": "logstash-core/src/main/java/org/logstash/config/ir/graph/SeparatorVertex.java"
+                },
+                {
+                    "@type": "item",
+                    "name": "logstash-core/src/main/java/org/logstash/config/ir/graph/algorithms/BreadthFirst.java"
+                },
+                {
+                    "@type": "item",
+                    "name": "logstash-core/src/main/java/org/logstash/config/ir/imperative/PluginStatement.java"
+                },
+                {
+                    "@type": "item",
+                    "name": "logstash-core/src/test/java/org/logstash/config/ir/graph/BooleanEdgeTest.java"
+                },
+                {
+                    "@type": "item",
+                    "name": "logstash-core/src/test/java/org/logstash/config/ir/graph/QueueVertexTest.java"
+                },
+                {
+                    "@type": "item",
+                    "name": "logstash-core/src/main/java/org/logstash/config/ir/graph/Vertex.java"
+                },
+                {
+                    "@type": "item",
+                    "name": "logstash-core/src/test/java/org/logstash/instruments/monitors/HotThreadMonitorTest.java"
+                },
+                {
+                    "@type": "item",
+                    "name": "logstash-core/src/main/java/org/logstash/config/ir/graph/BooleanEdge.java"
+                },
+                {
+                    "@type": "item",
+                    "name": "logstash-core/src/test/java/org/logstash/config/ir/graph/IfVertexTest.java"
+                },
+                {
+                    "@type": "item",
+                    "name": "logstash-core/src/main/java/org/logstash/instrument/monitors/HotThreadsMonitor.java"
+                },
+                {
+                    "@type": "item",
+                    "name": "logstash-core/src/test/java/org/logstash/config/ir/imperative/IfStatementTest.java"
+                },
+                {
+                    "@type": "item",
+                    "name": "logstash-core/src/main/java/org/logstash/config/ir/graph/PlainEdge.java"
+                },
+                {
+                    "@type": "item",
+                    "name": "logstash-core/src/main/java/org/logstash/config/ir/imperative/IfStatement.java"
+                },
+                {
+                    "@type": "item",
+                    "name": "logstash-core/src/main/java/org/logstash/config/ir/imperative/Statement.java"
+                },
+                {
+                    "@type": "item",
+                    "name": "logstash-core/src/test/java/org/logstash/config/ir/graph/PlainEdgeTest.java"
+                },
+                {
+                    "@type": "item",
+                    "name": "logstash-core/src/main/java/org/logstash/common/Util.java"
+                },
+                {
+                    "@type": "item",
+                    "name": "logstash-core/src/main/java/org/logstash/config/ir/SourceComponent.java"
+                },
+                {
+                    "@type": "item",
+                    "name": "logstash-core/src/main/java/org/logstash/config/ir/graph/IfVertex.java"
+                },
+                {
+                    "@type": "item",
+                    "name": "logstash-core/src/test/java/org/logstash/config/ir/graph/GraphTest.java"
+                },
+                {
+                    "@type": "item",
+                    "name": "logstash-core/src/test/java/org/logstash/config/ir/graph/algorithms/BreadthFirstTest.java"
+                },
+                {
+                    "@type": "item",
+                    "name": "logstash-core/src/test/java/org/logstash/config/ir/graph/VertexTest.java"
+                },
+                {
+                    "@type": "item",
+                    "name": "logstash-core/src/main/java/org/logstash/instrument/reports/ThreadsReport.java"
+                },
+                {
+                    "@type": "item",
+                    "name": "logstash-core/src/test/java/org/logstash/config/ir/graph/algorithms/DepthFirstTest.java"
+                }
+            ]
+        },
+        {
+            "@type": "group",
+            "name": "3",
+            "nested": [
+                {
+                    "@type": "item",
+                    "name": "logstash-core/src/test/java/org/logstash/instrument/metrics/timer/TestTimerMetricFactory.java"
+                },
+                {
+                    "@type": "item",
+                    "name": "logstash-core/src/test/java/org/logstash/instrument/metrics/NullableLongMetric.java"
+                },
+                {
+                    "@type": "item",
+                    "name": "logstash-core/src/main/java/org/logstash/Javafier.java"
+                },
+                {
+                    "@type": "item",
+                    "name": "logstash-core/src/test/java/org/logstash/instrument/metrics/UptimeMetricTest.java"
+                },
+                {
+                    "@type": "item",
+                    "name": "logstash-core/src/test/java/org/logstash/instrument/metrics/SimpleFlowMetricTest.java"
+                },
+                {
+                    "@type": "item",
+                    "name": "logstash-core/src/main/java/org/logstash/instrument/metrics/SimpleFlowMetric.java"
+                },
+                {
+                    "@type": "item",
+                    "name": "logstash-core/src/main/java/co/elastic/logstash/api/TimerMetric.java"
+                },
+                {
+                    "@type": "item",
+                    "name": "logstash-core/src/main/java/org/logstash/instrument/metrics/timer/Util.java"
+                },
+                {
+                    "@type": "item",
+                    "name": "logstash-core/src/test/java/org/logstash/config/ir/RubyEnvTestCase.java"
+                },
+                {
+                    "@type": "item",
+                    "name": "logstash-core/src/main/java/org/logstash/instrument/metrics/timer/ConcurrentLiveTimerMetric.java"
+                },
+                {
+                    "@type": "item",
+                    "name": "logstash-core/src/main/java/org/logstash/instrument/metrics/FlowMetric.java"
+                },
+                {
+                    "@type": "item",
+                    "name": "logstash-core/src/main/java/org/logstash/Logstash.java"
+                },
+                {
+                    "@type": "item",
+                    "name": "logstash-core/src/test/java/org/logstash/config/ir/compiler/PluginDelegatorTestCase.java"
+                },
+                {
+                    "@type": "item",
+                    "name": "logstash-core/src/test/java/org/logstash/instrument/metrics/MetricTypeTest.java"
+                },
+                {
+                    "@type": "item",
+                    "name": "logstash-core/src/test/java/org/logstash/instrument/metrics/timer/ConcurrentLiveTimerMetricTest.java"
+                },
+                {
+                    "@type": "item",
+                    "name": "logstash-core/src/main/java/org/logstash/instrument/metrics/UpScaledMetric.java"
+                },
+                {
+                    "@type": "item",
+                    "name": "logstash-core/src/main/java/org/logstash/log/LoggerExt.java"
+                },
+                {
+                    "@type": "item",
+                    "name": "logstash-core/src/test/java/org/logstash/instrument/metrics/ManualAdvanceClock.java"
+                },
+                {
+                    "@type": "item",
+                    "name": "logstash-core/src/test/java/org/logstash/instrument/metrics/UpScaledMetricTest.java"
+                },
+                {
+                    "@type": "item",
+                    "name": "logstash-core/src/main/java/org/logstash/instrument/metrics/ExtendedFlowMetric.java"
+                },
+                {
+                    "@type": "item",
+                    "name": "logstash-core/src/test/java/org/logstash/plugins/MetricTestCase.java"
+                },
+                {
+                    "@type": "item",
+                    "name": "logstash-core/src/main/java/org/logstash/instrument/metrics/timer/NullTimerMetric.java"
+                },
+                {
+                    "@type": "item",
+                    "name": "logstash-core/src/main/java/org/logstash/instrument/metrics/Metric.java"
+                },
+                {
+                    "@type": "item",
+                    "name": "logstash-core/src/test/java/org/logstash/instrument/metrics/TestUptimeMetricFactory.java"
+                },
+                {
+                    "@type": "item",
+                    "name": "logstash-core/src/main/java/org/logstash/Valuefier.java"
+                },
+                {
+                    "@type": "item",
+                    "name": "logstash-core/src/main/java/org/logstash/instrument/metrics/AbstractMetric.java"
+                },
+                {
+                    "@type": "item",
+                    "name": "logstash-core/src/main/java/org/logstash/instrument/metrics/timer/TimerMetricFactory.java"
+                },
+                {
+                    "@type": "item",
+                    "name": "logstash-core/src/main/java/org/logstash/instrument/metrics/LazyInstantiatedFlowMetric.java"
+                },
+                {
+                    "@type": "item",
+                    "name": "logstash-core/src/test/java/org/logstash/instrument/metrics/MetricExtFactory.java"
+                },
+                {
+                    "@type": "item",
+                    "name": "logstash-core/src/test/java/org/logstash/instrument/metrics/ExtendedFlowMetricTest.java"
+                },
+                {
+                    "@type": "item",
+                    "name": "logstash-core/src/main/java/org/logstash/instrument/metrics/timer/TimerMetric.java"
+                },
+                {
+                    "@type": "item",
+                    "name": "logstash-core/src/main/java/org/logstash/Rubyfier.java"
+                },
+                {
+                    "@type": "item",
+                    "name": "logstash-core/src/main/java/org/logstash/instrument/metrics/FlowCapture.java"
+                },
+                {
+                    "@type": "item",
+                    "name": "logstash-core/src/main/java/org/logstash/instrument/metrics/BaseFlowMetric.java"
+                },
+                {
+                    "@type": "item",
+                    "name": "logstash-core/src/main/java/org/logstash/secret/password/PasswordParamConverter.java"
+                },
+                {
+                    "@type": "item",
+                    "name": "logstash-core/src/main/java/org/logstash/instrument/metrics/UptimeMetric.java"
+                },
+                {
+                    "@type": "item",
+                    "name": "logstash-core/src/test/java/org/logstash/instrument/metrics/TestClock.java"
+                },
+                {
+                    "@type": "item",
+                    "name": "logstash-core/src/test/java/org/logstash/instrument/metrics/timer/TimerMetricTest.java"
+                },
+                {
+                    "@type": "item",
+                    "name": "logstash-core/src/test/java/org/logstash/config/ir/PluginConfigNameMethodDouble.java"
+                }
+            ]
+        },
+        {
+            "@type": "group",
+            "name": "4",
+            "nested": [
+                {
+                    "@type": "item",
+                    "name": "logstash-core/src/main/java/org/logstash/common/DLQWriterAdapter.java"
+                },
+                {
+                    "@type": "item",
+                    "name": "logstash-core/src/test/java/org/logstash/common/io/DeadLetterQueueReaderTest.java"
+                },
+                {
+                    "@type": "item",
+                    "name": "logstash-core/src/test/java/org/logstash/RubyTestBase.java"
+                },
+                {
+                    "@type": "item",
+                    "name": "logstash-core/src/main/java/org/logstash/common/io/DeadLetterQueueWriter.java"
+                },
+                {
+                    "@type": "item",
+                    "name": "logstash-core/src/main/java/org/logstash/common/io/RecordHeader.java"
+                },
+                {
+                    "@type": "item",
+                    "name": "logstash-core/src/main/java/org/logstash/common/io/RecordIOWriter.java"
+                },
+                {
+                    "@type": "item",
+                    "name": "logstash-core/src/test/java/org/logstash/common/io/RecordIOWriterTest.java"
+                },
+                {
+                    "@type": "item",
+                    "name": "logstash-core/src/main/java/org/logstash/FileLockFactory.java"
+                },
+                {
+                    "@type": "item",
+                    "name": "logstash-core/src/test/java/org/logstash/ValuefierTest.java"
+                },
+                {
+                    "@type": "item",
+                    "name": "logstash-core/src/main/java/org/logstash/util/TimeValue.java"
+                },
+                {
+                    "@type": "item",
+                    "name": "logstash-core/src/main/java/org/logstash/ackedqueue/QueueFactoryExt.java"
+                },
+                {
+                    "@type": "item",
+                    "name": "logstash-core/src/test/java/org/logstash/RSpecTests.java"
+                },
+                {
+                    "@type": "item",
+                    "name": "logstash-core/src/test/java/org/logstash/TimestampTest.java"
+                },
+                {
+                    "@type": "item",
+                    "name": "logstash-core/src/main/java/org/logstash/common/NullDeadLetterQueueWriter.java"
+                },
+                {
+                    "@type": "item",
+                    "name": "logstash-core/src/main/java/org/logstash/common/io/DeadLetterQueueUtils.java"
+                },
+                {
+                    "@type": "item",
+                    "name": "logstash-core/src/main/java/org/logstash/DLQEntry.java"
+                },
+                {
+                    "@type": "item",
+                    "name": "logstash-core/src/main/java/org/logstash/common/io/RecordIOReader.java"
+                },
+                {
+                    "@type": "item",
+                    "name": "logstash-core/src/test/java/org/logstash/FileLockFactoryMain.java"
+                },
+                {
+                    "@type": "item",
+                    "name": "logstash-core/src/main/java/org/logstash/LockException.java"
+                },
+                {
+                    "@type": "item",
+                    "name": "logstash-core/src/main/java/org/logstash/common/io/SegmentListener.java"
+                },
+                {
+                    "@type": "item",
+                    "name": "logstash-core/src/test/java/org/logstash/common/DeadLetterQueueFactoryTest.java"
+                },
+                {
+                    "@type": "item",
+                    "name": "logstash-core/src/test/java/org/logstash/common/AbstractDeadLetterQueueWriterExtTest.java"
+                },
+                {
+                    "@type": "item",
+                    "name": "logstash-core/src/main/java/co/elastic/logstash/api/DeadLetterQueueWriter.java"
+                },
+                {
+                    "@type": "item",
+                    "name": "logstash-core/src/main/java/org/logstash/common/io/DeadLetterQueueReader.java"
+                },
+                {
+                    "@type": "item",
+                    "name": "logstash-core/src/main/java/org/logstash/common/io/RecordType.java"
+                },
+                {
+                    "@type": "item",
+                    "name": "logstash-core/src/main/java/org/logstash/common/DeadLetterQueueFactory.java"
+                },
+                {
+                    "@type": "item",
+                    "name": "logstash-core/src/test/java/org/logstash/common/io/RecordIOReaderTest.java"
+                },
+                {
+                    "@type": "item",
+                    "name": "logstash-core/src/test/java/org/logstash/common/io/DeadLetterQueueWriterTest.java"
+                },
+                {
+                    "@type": "item",
+                    "name": "logstash-core/src/test/java/org/logstash/instrument/metrics/timer/BlockingTask.java"
+                },
+                {
+                    "@type": "item",
+                    "name": "logstash-core/src/main/java/org/logstash/common/io/QueueStorageType.java"
+                },
+                {
+                    "@type": "item",
+                    "name": "logstash-core/src/main/java/org/logstash/common/AbstractDeadLetterQueueWriterExt.java"
+                },
+                {
+                    "@type": "item",
+                    "name": "logstash-core/src/test/java/org/logstash/common/io/DeadLetterQueueTestUtils.java"
+                },
+                {
+                    "@type": "item",
+                    "name": "logstash-core/src/test/java/org/logstash/FileLockFactoryTest.java"
+                },
+                {
+                    "@type": "item",
+                    "name": "logstash-core/src/main/java/org/logstash/Timestamp.java"
+                },
+                {
+                    "@type": "item",
+                    "name": "logstash-core/src/test/java/org/logstash/common/io/DeadLetterQueueWriterAgeRetentionTest.java"
+                },
+                {
+                    "@type": "item",
+                    "name": "logstash-core/src/main/java/org/logstash/execution/queue/QueueWriter.java"
+                }
+            ]
+        },
+        {
+            "@type": "group",
+            "name": "5",
+            "nested": [
+                {
+                    "@type": "item",
+                    "name": "tools/ingest-converter/src/main/java/org/logstash/ingest/Json.java"
+                },
+                {
+                    "@type": "item",
+                    "name": "tools/ingest-converter/src/main/java/org/logstash/ingest/JsUtil.java"
+                },
+                {
+                    "@type": "item",
+                    "name": "tools/ingest-converter/src/main/java/org/logstash/ingest/Grok.java"
+                },
+                {
+                    "@type": "item",
+                    "name": "tools/ingest-converter/src/main/java/org/logstash/ingest/IngestGsub.java"
+                },
+                {
+                    "@type": "item",
+                    "name": "tools/ingest-converter/src/main/java/org/logstash/ingest/IngestConverter.java"
+                },
+                {
+                    "@type": "item",
+                    "name": "tools/ingest-converter/src/test/java/org/logstash/ingest/ConvertTest.java"
+                },
+                {
+                    "@type": "item",
+                    "name": "tools/ingest-converter/src/test/java/org/logstash/ingest/JsonTest.java"
+                },
+                {
+                    "@type": "item",
+                    "name": "tools/ingest-converter/src/main/java/org/logstash/ingest/Set.java"
+                },
+                {
+                    "@type": "item",
+                    "name": "tools/ingest-converter/src/test/java/org/logstash/ingest/RenameTest.java"
+                },
+                {
+                    "@type": "item",
+                    "name": "tools/ingest-converter/src/test/java/org/logstash/ingest/LowercaseTest.java"
+                },
+                {
+                    "@type": "item",
+                    "name": "tools/ingest-converter/src/main/java/org/logstash/ingest/Date.java"
+                },
+                {
+                    "@type": "item",
+                    "name": "tools/ingest-converter/src/main/java/org/logstash/ingest/Pipeline.java"
+                },
+                {
+                    "@type": "item",
+                    "name": "tools/ingest-converter/src/test/java/org/logstash/ingest/DateTest.java"
+                },
+                {
+                    "@type": "item",
+                    "name": "tools/ingest-converter/src/main/java/org/logstash/ingest/IngestGrok.java"
+                },
+                {
+                    "@type": "item",
+                    "name": "tools/ingest-converter/src/main/java/org/logstash/ingest/IngestGeoIp.java"
+                },
+                {
+                    "@type": "item",
+                    "name": "tools/ingest-converter/src/main/java/org/logstash/ingest/IngestAppend.java"
+                },
+                {
+                    "@type": "item",
+                    "name": "tools/ingest-converter/src/main/java/org/logstash/ingest/GeoIp.java"
+                },
+                {
+                    "@type": "item",
+                    "name": "tools/ingest-converter/src/test/java/org/logstash/ingest/GsubTest.java"
+                },
+                {
+                    "@type": "item",
+                    "name": "tools/ingest-converter/src/main/java/org/logstash/ingest/Gsub.java"
+                },
+                {
+                    "@type": "item",
+                    "name": "tools/ingest-converter/src/test/java/org/logstash/ingest/IngestTest.java"
+                },
+                {
+                    "@type": "item",
+                    "name": "tools/ingest-converter/src/test/java/org/logstash/ingest/AppendTest.java"
+                },
+                {
+                    "@type": "item",
+                    "name": "tools/ingest-converter/src/main/java/org/logstash/ingest/Rename.java"
+                },
+                {
+                    "@type": "item",
+                    "name": "tools/ingest-converter/src/main/java/org/logstash/ingest/Append.java"
+                },
+                {
+                    "@type": "item",
+                    "name": "tools/ingest-converter/src/main/java/org/logstash/ingest/Lowercase.java"
+                },
+                {
+                    "@type": "item",
+                    "name": "tools/ingest-converter/src/main/java/org/logstash/ingest/IngestSet.java"
+                },
+                {
+                    "@type": "item",
+                    "name": "tools/ingest-converter/src/main/java/org/logstash/ingest/IngestConvert.java"
+                },
+                {
+                    "@type": "item",
+                    "name": "tools/ingest-converter/src/test/java/org/logstash/ingest/SetTest.java"
+                },
+                {
+                    "@type": "item",
+                    "name": "tools/ingest-converter/src/test/java/org/logstash/ingest/GrokTest.java"
+                },
+                {
+                    "@type": "item",
+                    "name": "tools/ingest-converter/src/test/java/org/logstash/ingest/PipelineTest.java"
+                },
+                {
+                    "@type": "item",
+                    "name": "tools/ingest-converter/src/main/java/org/logstash/ingest/IngestJson.java"
+                },
+                {
+                    "@type": "item",
+                    "name": "tools/ingest-converter/src/main/java/org/logstash/ingest/IngestLowercase.java"
+                },
+                {
+                    "@type": "item",
+                    "name": "tools/ingest-converter/src/main/java/org/logstash/ingest/Convert.java"
+                },
+                {
+                    "@type": "item",
+                    "name": "tools/ingest-converter/src/test/java/org/logstash/ingest/GeoIpTest.java"
+                },
+                {
+                    "@type": "item",
+                    "name": "tools/ingest-converter/src/main/java/org/logstash/ingest/IngestRename.java"
+                },
+                {
+                    "@type": "item",
+                    "name": "tools/ingest-converter/src/main/java/org/logstash/ingest/IngestPipeline.java"
+                },
+                {
+                    "@type": "item",
+                    "name": "tools/ingest-converter/src/main/java/org/logstash/ingest/IngestDate.java"
+                }
+            ]
+        },
+        {
+            "@type": "group",
+            "name": "6",
+            "nested": [
+                {
+                    "@type": "item",
+                    "name": "logstash-core/src/test/java/org/logstash/KeyNodeTest.java"
+                },
+                {
+                    "@type": "item",
+                    "name": "logstash-core/src/main/java/org/logstash/ackedqueue/io/PageIO.java"
+                },
+                {
+                    "@type": "item",
+                    "name": "logstash-core/src/main/java/org/logstash/ackedqueue/io/CheckpointIO.java"
+                },
+                {
+                    "@type": "item",
+                    "name": "logstash-core/src/test/java/org/logstash/ackedqueue/HeadPageTest.java"
+                },
+                {
+                    "@type": "item",
+                    "name": "logstash-core/src/main/java/org/logstash/ackedqueue/PqCheck.java"
+                },
+                {
+                    "@type": "item",
+                    "name": "logstash-core/src/main/java/org/logstash/ackedqueue/Queue.java"
+                },
+                {
+                    "@type": "item",
+                    "name": "logstash-core/src/main/java/org/logstash/ackedqueue/io/MmapPageIOV2.java"
+                },
+                {
+                    "@type": "item",
+                    "name": "logstash-core/src/test/java/org/logstash/ackedqueue/QueueTest.java"
+                },
+                {
+                    "@type": "item",
+                    "name": "logstash-core/src/main/java/org/logstash/ackedqueue/PqRepair.java"
+                },
+                {
+                    "@type": "item",
+                    "name": "logstash-core/benchmarks/src/main/java/org/logstash/benchmark/QueueRWBenchmark.java"
+                },
+                {
+                    "@type": "item",
+                    "name": "logstash-core/src/test/java/org/logstash/ackedqueue/StringElement.java"
+                },
+                {
+                    "@type": "item",
+                    "name": "logstash-core/src/test/java/org/logstash/ackedqueue/TestSettings.java"
+                },
+                {
+                    "@type": "item",
+                    "name": "logstash-core/src/main/java/org/logstash/ackedqueue/PageFactory.java"
+                },
+                {
+                    "@type": "item",
+                    "name": "logstash-core/src/main/java/org/logstash/ackedqueue/Batch.java"
+                },
+                {
+                    "@type": "item",
+                    "name": "logstash-core/src/test/java/org/logstash/ackedqueue/QueueTestHelpers.java"
+                },
+                {
+                    "@type": "item",
+                    "name": "logstash-core/src/main/java/org/logstash/ackedqueue/io/ByteBufferCleanerImpl.java"
+                },
+                {
+                    "@type": "item",
+                    "name": "logstash-core/src/main/java/org/logstash/ackedqueue/SettingsImpl.java"
+                },
+                {
+                    "@type": "item",
+                    "name": "logstash-core/benchmarks/src/main/java/org/logstash/benchmark/QueueWriteBenchmark.java"
+                },
+                {
+                    "@type": "item",
+                    "name": "logstash-core/src/test/java/org/logstash/ackedqueue/io/FileMmapIOTest.java"
+                },
+                {
+                    "@type": "item",
+                    "name": "logstash-core/src/main/java/org/logstash/ackedqueue/Page.java"
+                },
+                {
+                    "@type": "item",
+                    "name": "logstash-core/src/main/java/org/logstash/common/SettingKeyDefinitions.java"
+                },
+                {
+                    "@type": "item",
+                    "name": "logstash-core/src/main/java/org/logstash/ackedqueue/Checkpoint.java"
+                },
+                {
+                    "@type": "item",
+                    "name": "logstash-core/src/main/java/org/logstash/ackedqueue/io/FileCheckpointIO.java"
+                },
+                {
+                    "@type": "item",
+                    "name": "logstash-core/src/main/java/org/logstash/ackedqueue/SequencedList.java"
+                },
+                {
+                    "@type": "item",
+                    "name": "logstash-core/src/test/java/org/logstash/ackedqueue/CheckpointTest.java"
+                },
+                {
+                    "@type": "item",
+                    "name": "logstash-core/src/test/java/org/logstash/ackedqueue/SettingsImplTest.java"
+                },
+                {
+                    "@type": "item",
+                    "name": "logstash-core/src/test/java/org/logstash/ackedqueue/io/MmapPageIOTest.java"
+                },
+                {
+                    "@type": "item",
+                    "name": "logstash-core/src/main/java/org/logstash/ackedqueue/io/ByteBufferCleaner.java"
+                },
+                {
+                    "@type": "item",
+                    "name": "logstash-core/src/main/java/org/logstash/StringInterpolation.java"
+                },
+                {
+                    "@type": "item",
+                    "name": "logstash-core/src/test/java/org/logstash/ackedqueue/PqRepairTest.java"
+                },
+                {
+                    "@type": "item",
+                    "name": "logstash-core/src/main/java/org/logstash/ackedqueue/Settings.java"
+                },
+                {
+                    "@type": "item",
+                    "name": "logstash-core/src/main/java/org/logstash/ackedqueue/Queueable.java"
+                },
+                {
+                    "@type": "item",
+                    "name": "logstash-core/src/main/java/org/logstash/ackedqueue/io/MmapPageIOV1.java"
+                },
+                {
+                    "@type": "item",
+                    "name": "logstash-core/src/main/java/org/logstash/ackedqueue/QueueUpgrade.java"
+                },
+                {
+                    "@type": "item",
+                    "name": "logstash-core/src/test/java/org/logstash/ackedqueue/io/FileCheckpointIOTest.java"
+                }
+            ]
+        },
+        {
+            "@type": "group",
+            "name": "7",
+            "nested": [
+                {
+                    "@type": "item",
+                    "name": "logstash-core/src/main/java/org/logstash/config/ir/imperative/NoopStatement.java"
+                },
+                {
+                    "@type": "item",
+                    "name": "logstash-core/src/main/java/org/logstash/config/ir/expression/binary/RegexEq.java"
+                },
+                {
+                    "@type": "item",
+                    "name": "logstash-core/src/main/java/org/logstash/config/ir/imperative/ComposedStatement.java"
+                },
+                {
+                    "@type": "item",
+                    "name": "logstash-core/src/main/java/org/logstash/config/ir/expression/unary/Truthy.java"
+                },
+                {
+                    "@type": "item",
+                    "name": "logstash-core/src/main/java/org/logstash/config/ir/expression/unary/Not.java"
+                },
+                {
+                    "@type": "item",
+                    "name": "logstash-core/src/main/java/org/logstash/config/ir/expression/binary/And.java"
+                },
+                {
+                    "@type": "item",
+                    "name": "logstash-core/src/main/java/org/logstash/config/ir/PipelineConfig.java"
+                },
+                {
+                    "@type": "item",
+                    "name": "logstash-core/src/main/java/org/logstash/config/ir/expression/EventValueExpression.java"
+                },
+                {
+                    "@type": "item",
+                    "name": "logstash-core/src/main/java/org/logstash/config/ir/expression/Expression.java"
+                },
+                {
+                    "@type": "item",
+                    "name": "logstash-core/src/main/java/org/logstash/config/ir/DSL.java"
+                },
+                {
+                    "@type": "item",
+                    "name": "logstash-core/src/main/java/org/logstash/config/ir/expression/BinaryBooleanExpression.java"
+                },
+                {
+                    "@type": "item",
+                    "name": "logstash-core/src/main/java/org/logstash/config/ir/expression/BooleanExpression.java"
+                },
+                {
+                    "@type": "item",
+                    "name": "logstash-core/src/main/java/org/logstash/config/ir/expression/ValueExpression.java"
+                },
+                {
+                    "@type": "item",
+                    "name": "logstash-core/src/main/java/org/logstash/common/SourceWithMetadata.java"
+                },
+                {
+                    "@type": "item",
+                    "name": "logstash-core/src/main/java/org/logstash/config/ir/expression/binary/Gte.java"
+                },
+                {
+                    "@type": "item",
+                    "name": "logstash-core/src/main/java/org/logstash/config/ir/expression/UnaryBooleanExpression.java"
+                },
+                {
+                    "@type": "item",
+                    "name": "logstash-core/src/main/java/org/logstash/config/ir/expression/binary/Eq.java"
+                },
+                {
+                    "@type": "item",
+                    "name": "logstash-core/src/main/java/org/logstash/config/ir/expression/binary/Neq.java"
+                },
+                {
+                    "@type": "item",
+                    "name": "logstash-core/src/main/java/org/logstash/config/ir/expression/binary/Lte.java"
+                },
+                {
+                    "@type": "item",
+                    "name": "logstash-core/src/test/java/org/logstash/config/ir/PipelineConfigTest.java"
+                },
+                {
+                    "@type": "item",
+                    "name": "logstash-core/src/main/java/org/logstash/config/ir/imperative/ComposedSequenceStatement.java"
+                },
+                {
+                    "@type": "item",
+                    "name": "logstash-core/src/main/java/org/logstash/common/IncompleteSourceWithMetadataException.java"
+                },
+                {
+                    "@type": "item",
+                    "name": "logstash-core/src/main/java/org/logstash/config/ir/expression/RegexValueExpression.java"
+                },
+                {
+                    "@type": "item",
+                    "name": "logstash-core/src/main/java/org/logstash/config/ir/expression/binary/In.java"
+                },
+                {
+                    "@type": "item",
+                    "name": "logstash-core/src/main/java/org/logstash/config/ir/expression/binary/Gt.java"
+                },
+                {
+                    "@type": "item",
+                    "name": "logstash-core/src/main/java/org/logstash/config/ir/expression/binary/Or.java"
+                },
+                {
+                    "@type": "item",
+                    "name": "logstash-core/src/test/java/org/logstash/config/ir/expression/ExpressionSubstitutionTest.java"
+                },
+                {
+                    "@type": "item",
+                    "name": "logstash-core/src/test/java/org/logstash/config/ir/imperative/DSLTest.java"
+                },
+                {
+                    "@type": "item",
+                    "name": "logstash-core/src/main/java/org/logstash/config/ir/imperative/ComposedParallelStatement.java"
+                },
+                {
+                    "@type": "item",
+                    "name": "logstash-core/src/main/java/org/logstash/config/ir/expression/ExpressionSubstitution.java"
+                },
+                {
+                    "@type": "item",
+                    "name": "logstash-core/src/main/java/org/logstash/config/ir/expression/binary/Lt.java"
+                }
+            ]
+        },
+        {
+            "@type": "group",
+            "name": "8",
+            "nested": [
+                {
+                    "@type": "item",
+                    "name": "logstash-core/src/main/java/org/logstash/log/LogstashLogEventFactory.java"
+                },
+                {
+                    "@type": "item",
+                    "name": "logstash-core/src/main/java/org/logstash/plugins/BasicEventFactory.java"
+                },
+                {
+                    "@type": "item",
+                    "name": "logstash-core/src/test/java/org/logstash/log/CustomLogEventTests.java"
+                },
+                {
+                    "@type": "item",
+                    "name": "logstash-core/src/main/java/org/logstash/config/ir/compiler/ClassFields.java"
+                },
+                {
+                    "@type": "item",
+                    "name": "logstash-core/src/main/java/org/logstash/config/ir/compiler/CommonActions.java"
+                },
+                {
+                    "@type": "item",
+                    "name": "logstash-core/src/test/java/org/logstash/AccessorsTest.java"
+                },
+                {
+                    "@type": "item",
+                    "name": "logstash-core/src/test/java/org/logstash/config/ir/EventConditionTest.java"
+                },
+                {
+                    "@type": "item",
+                    "name": "logstash-core/src/test/java/org/logstash/StringInterpolationTest.java"
+                },
+                {
+                    "@type": "item",
+                    "name": "logstash-core/src/main/java/org/logstash/Accessors.java"
+                },
+                {
+                    "@type": "item",
+                    "name": "logstash-core/src/test/java/org/logstash/config/ir/compiler/CommonActionsTest.java"
+                },
+                {
+                    "@type": "item",
+                    "name": "logstash-core/src/main/java/org/logstash/Event.java"
+                },
+                {
+                    "@type": "item",
+                    "name": "logstash-core/src/test/java/org/logstash/ConvertedMapTest.java"
+                },
+                {
+                    "@type": "item",
+                    "name": "logstash-core/src/test/java/org/logstash/config/ir/CompiledPipelineTest.java"
+                },
+                {
+                    "@type": "item",
+                    "name": "logstash-core/src/test/java/org/logstash/DLQEntryTest.java"
+                },
+                {
+                    "@type": "item",
+                    "name": "logstash-core/src/test/java/org/logstash/EventTest.java"
+                },
+                {
+                    "@type": "item",
+                    "name": "logstash-core/src/test/java/org/logstash/FieldReferenceTest.java"
+                },
+                {
+                    "@type": "item",
+                    "name": "logstash-core/src/main/java/org/logstash/util/EscapeHandler.java"
+                },
+                {
+                    "@type": "item",
+                    "name": "logstash-core/benchmarks/src/main/java/org/logstash/benchmark/EventSprintfBenchmark.java"
+                },
+                {
+                    "@type": "item",
+                    "name": "logstash-core/src/main/java/org/logstash/FieldReference.java"
+                },
+                {
+                    "@type": "item",
+                    "name": "logstash-core/src/main/java/org/logstash/ConvertedList.java"
+                },
+                {
+                    "@type": "item",
+                    "name": "logstash-core/src/main/java/org/logstash/ConvertedMap.java"
+                },
+                {
+                    "@type": "item",
+                    "name": "logstash-core/src/main/java/co/elastic/logstash/api/Event.java"
+                },
+                {
+                    "@type": "item",
+                    "name": "logstash-core/src/main/java/org/logstash/Util.java"
+                },
+                {
+                    "@type": "item",
+                    "name": "logstash-core/src/main/java/org/logstash/config/ir/compiler/RubyIntegration.java"
+                },
+                {
+                    "@type": "item",
+                    "name": "logstash-core/src/main/java/org/logstash/ext/JrubyEventExtLibrary.java"
+                },
+                {
+                    "@type": "item",
+                    "name": "logstash-core/src/main/java/co/elastic/logstash/api/EventFactory.java"
+                },
+                {
+                    "@type": "item",
+                    "name": "logstash-core/benchmarks/src/main/java/org/logstash/benchmark/LogPerPipelineBenchmark.java"
+                },
+                {
+                    "@type": "item",
+                    "name": "logstash-core/src/main/java/org/logstash/log/CustomLogEvent.java"
+                },
+                {
+                    "@type": "item",
+                    "name": "logstash-core/src/test/java/org/logstash/plugins/TestPluginFactory.java"
+                },
+                {
+                    "@type": "item",
+                    "name": "logstash-core/src/main/java/org/logstash/config/ir/compiler/EventCondition.java"
+                },
+                {
+                    "@type": "item",
+                    "name": "logstash-core/src/test/java/org/logstash/ext/JrubyEventExtLibraryTest.java"
+                }
+            ]
+        },
+        {
+            "@type": "group",
+            "name": "9",
+            "nested": [
+                {
+                    "@type": "item",
+                    "name": "logstash-core/src/test/java/org/logstash/secret/store/SecureConfigTest.java"
+                },
+                {
+                    "@type": "item",
+                    "name": "logstash-core/src/main/java/org/logstash/secret/SecretVariable.java"
+                },
+                {
+                    "@type": "item",
+                    "name": "logstash-core/src/test/java/org/logstash/common/ConfigVariableExpanderTest.java"
+                },
+                {
+                    "@type": "item",
+                    "name": "logstash-core/src/main/java/org/logstash/secret/store/SecretStoreExt.java"
+                },
+                {
+                    "@type": "item",
+                    "name": "logstash-core/src/main/java/org/logstash/secret/SecretIdentifier.java"
+                },
+                {
+                    "@type": "item",
+                    "name": "logstash-core/src/main/java/org/logstash/secret/store/SecureConfig.java"
+                },
+                {
+                    "@type": "item",
+                    "name": "logstash-core/src/main/java/org/logstash/util/CloudSettingId.java"
+                },
+                {
+                    "@type": "item",
+                    "name": "logstash-core/src/test/java/org/logstash/secret/cli/SecretStoreCliTest.java"
+                },
+                {
+                    "@type": "item",
+                    "name": "logstash-core/src/main/java/org/logstash/util/CloudSettingAuth.java"
+                },
+                {
+                    "@type": "item",
+                    "name": "logstash-core/src/test/java/org/logstash/util/CloudSettingIdTest.java"
+                },
+                {
+                    "@type": "item",
+                    "name": "logstash-core/src/main/java/org/logstash/secret/store/SecretStore.java"
+                },
+                {
+                    "@type": "item",
+                    "name": "logstash-core/src/test/java/org/logstash/secret/store/SecretStoreFactoryTest.java"
+                },
+                {
+                    "@type": "item",
+                    "name": "logstash-core/src/main/java/org/logstash/secret/store/backend/JavaKeyStore.java"
+                },
+                {
+                    "@type": "item",
+                    "name": "logstash-core/src/test/java/org/logstash/secret/store/backend/JavaKeyStoreTest.java"
+                },
+                {
+                    "@type": "item",
+                    "name": "logstash-core/src/test/java/org/logstash/ext/TimestampTest.java"
+                },
+                {
+                    "@type": "item",
+                    "name": "logstash-core/src/test/java/org/logstash/secret/SecretIdentifierTest.java"
+                },
+                {
+                    "@type": "item",
+                    "name": "logstash-core/src/main/java/org/logstash/common/EnvironmentVariableProvider.java"
+                },
+                {
+                    "@type": "item",
+                    "name": "logstash-core/src/test/java/org/logstash/ClonerTest.java"
+                },
+                {
+                    "@type": "item",
+                    "name": "logstash-core/src/main/java/org/logstash/secret/cli/SecretStoreCli.java"
+                },
+                {
+                    "@type": "item",
+                    "name": "logstash-core/src/main/java/org/logstash/secret/cli/Terminal.java"
+                },
+                {
+                    "@type": "item",
+                    "name": "logstash-core/src/main/java/org/logstash/MissingConverterException.java"
+                },
+                {
+                    "@type": "item",
+                    "name": "logstash-core/src/main/java/org/logstash/execution/AbortedBatchException.java"
+                },
+                {
+                    "@type": "item",
+                    "name": "logstash-core/src/main/java/org/logstash/util/ModulesSettingArray.java"
+                },
+                {
+                    "@type": "item",
+                    "name": "logstash-core/src/main/java/org/logstash/ackedqueue/QueueRuntimeException.java"
+                },
+                {
+                    "@type": "item",
+                    "name": "logstash-core/src/main/java/co/elastic/logstash/api/Password.java"
+                },
+                {
+                    "@type": "item",
+                    "name": "logstash-core/src/main/java/org/logstash/secret/store/SecretStoreFactory.java"
+                },
+                {
+                    "@type": "item",
+                    "name": "logstash-core/src/test/java/org/logstash/util/CloudSettingAuthTest.java"
+                },
+                {
+                    "@type": "item",
+                    "name": "logstash-core/src/main/java/org/logstash/plugins/ConfigVariableExpander.java"
+                },
+                {
+                    "@type": "item",
+                    "name": "logstash-core/src/main/java/org/logstash/plugins/aliases/AliasDocumentReplace.java"
+                },
+                {
+                    "@type": "item",
+                    "name": "logstash-core/src/main/java/org/logstash/secret/store/SecretStoreException.java"
+                }
+            ]
+        },
+        {
+            "@type": "group",
+            "name": "10",
+            "nested": [
+                {
+                    "@type": "item",
+                    "name": "logstash-core/src/test/java/org/logstash/instrument/metrics/gauge/UnknownGaugeTest.java"
+                },
+                {
+                    "@type": "item",
+                    "name": "logstash-core/src/test/java/org/logstash/instrument/metrics/gauge/BooleanGaugeTest.java"
+                },
+                {
+                    "@type": "item",
+                    "name": "logstash-core/src/main/java/org/logstash/instrument/metrics/gauge/TextGauge.java"
+                },
+                {
+                    "@type": "item",
+                    "name": "logstash-core/src/test/java/org/logstash/ext/JrubyTimestampExtLibraryTest.java"
+                },
+                {
+                    "@type": "item",
+                    "name": "logstash-core/src/test/java/org/logstash/instrument/metrics/gauge/LazyDelegatingGaugeTest.java"
+                },
+                {
+                    "@type": "item",
+                    "name": "logstash-core/src/test/java/org/logstash/instrument/metrics/gauge/RubyHashGaugeTest.java"
+                },
+                {
+                    "@type": "item",
+                    "name": "logstash-core/src/test/java/org/logstash/JavafierTest.java"
+                },
+                {
+                    "@type": "item",
+                    "name": "logstash-core/src/main/java/org/logstash/ObjectMappers.java"
+                },
+                {
+                    "@type": "item",
+                    "name": "logstash-core/src/test/java/org/logstash/instrument/metrics/gauge/TextGaugeTest.java"
+                },
+                {
+                    "@type": "item",
+                    "name": "logstash-core/src/main/java/org/logstash/Cloner.java"
+                },
+                {
+                    "@type": "item",
+                    "name": "logstash-core/src/test/java/org/logstash/common/SourceWithMetadataTest.java"
+                },
+                {
+                    "@type": "item",
+                    "name": "logstash-core/src/main/java/org/logstash/instrument/metrics/MetricType.java"
+                },
+                {
+                    "@type": "item",
+                    "name": "logstash-core/src/main/java/org/logstash/instrument/metrics/gauge/AbstractGaugeMetric.java"
+                },
+                {
+                    "@type": "item",
+                    "name": "logstash-core/src/test/java/org/logstash/instrument/metrics/gauge/NumberGaugeTest.java"
+                },
+                {
+                    "@type": "item",
+                    "name": "logstash-core/src/test/java/org/logstash/RubyfierTest.java"
+                },
+                {
+                    "@type": "item",
+                    "name": "logstash-core/src/main/java/org/logstash/log/CustomLogEventSerializer.java"
+                },
+                {
+                    "@type": "item",
+                    "name": "logstash-core/src/main/java/org/logstash/instrument/metrics/gauge/BooleanGauge.java"
+                },
+                {
+                    "@type": "item",
+                    "name": "logstash-core/src/main/java/org/logstash/config/ir/compiler/FieldDeclarationGroup.java"
+                },
+                {
+                    "@type": "item",
+                    "name": "logstash-core/src/test/java/org/logstash/instrument/metrics/gauge/RubyTimeStampGaugeTest.java"
+                },
+                {
+                    "@type": "item",
+                    "name": "logstash-core/benchmarks/src/main/java/org/logstash/benchmark/EventSerializationBenchmark.java"
+                },
+                {
+                    "@type": "item",
+                    "name": "logstash-core/src/main/java/org/logstash/instrument/metrics/gauge/NumberGauge.java"
+                },
+                {
+                    "@type": "item",
+                    "name": "logstash-core/src/main/java/org/logstash/ext/JrubyTimestampExtLibrary.java"
+                },
+                {
+                    "@type": "item",
+                    "name": "logstash-core/src/main/java/org/logstash/instrument/metrics/gauge/LazyDelegatingGauge.java"
+                },
+                {
+                    "@type": "item",
+                    "name": "logstash-core/src/main/java/org/logstash/RubyJavaIntegration.java"
+                },
+                {
+                    "@type": "item",
+                    "name": "logstash-core/src/main/java/org/logstash/instrument/metrics/gauge/GaugeMetric.java"
+                },
+                {
+                    "@type": "item",
+                    "name": "logstash-core/src/main/java/org/logstash/instrument/metrics/gauge/RubyHashGauge.java"
+                },
+                {
+                    "@type": "item",
+                    "name": "logstash-core/src/main/java/org/logstash/instrument/metrics/gauge/UnknownGauge.java"
+                },
+                {
+                    "@type": "item",
+                    "name": "logstash-core/src/main/java/org/logstash/instrument/metrics/gauge/RubyTimeStampGauge.java"
+                }
+            ]
+        },
+        {
+            "@type": "group",
+            "name": "11",
+            "nested": [
+                {
+                    "@type": "item",
+                    "name": "tools/benchmark-cli/src/main/java/org/logstash/benchmark/cli/util/LsBenchDownloader.java"
+                },
+                {
+                    "@type": "item",
+                    "name": "tools/benchmark-cli/src/main/java/org/logstash/benchmark/cli/util/LsBenchFileUtil.java"
+                },
+                {
+                    "@type": "item",
+                    "name": "tools/benchmark-cli/src/main/java/org/logstash/benchmark/cli/ui/UserOutput.java"
+                },
+                {
+                    "@type": "item",
+                    "name": "tools/benchmark-cli/src/main/java/org/logstash/benchmark/cli/util/LsBenchLsSetup.java"
+                },
+                {
+                    "@type": "item",
+                    "name": "tools/benchmark-cli/src/test/java/org/logstash/benchmark/cli/MainTest.java"
+                },
+                {
+                    "@type": "item",
+                    "name": "tools/benchmark-cli/src/main/java/org/logstash/benchmark/cli/cases/Case.java"
+                },
+                {
+                    "@type": "item",
+                    "name": "tools/benchmark-cli/src/test/java/org/logstash/benchmark/cli/MainEsStorageTest.java"
+                },
+                {
+                    "@type": "item",
+                    "name": "tools/benchmark-cli/src/main/java/org/logstash/benchmark/cli/ui/UserInput.java"
+                },
+                {
+                    "@type": "item",
+                    "name": "tools/benchmark-cli/src/test/java/org/logstash/benchmark/cli/LsMetricsMonitorTest.java"
+                },
+                {
+                    "@type": "item",
+                    "name": "tools/benchmark-cli/src/main/java/org/logstash/benchmark/cli/DataStore.java"
+                },
+                {
+                    "@type": "item",
+                    "name": "tools/benchmark-cli/src/main/java/org/logstash/benchmark/cli/LsMetricsMonitor.java"
+                },
+                {
+                    "@type": "item",
+                    "name": "tools/benchmark-cli/src/main/java/org/logstash/benchmark/cli/ui/LsMetricStats.java"
+                },
+                {
+                    "@type": "item",
+                    "name": "tools/benchmark-cli/src/main/java/org/logstash/benchmark/cli/Main.java"
+                },
+                {
+                    "@type": "item",
+                    "name": "tools/benchmark-cli/src/main/java/org/logstash/benchmark/cli/LsBenchSettings.java"
+                },
+                {
+                    "@type": "item",
+                    "name": "tools/benchmark-cli/src/main/java/org/logstash/benchmark/cli/util/LsBenchCompressUtil.java"
+                },
+                {
+                    "@type": "item",
+                    "name": "tools/benchmark-cli/src/main/java/org/logstash/benchmark/cli/ui/LsVersionType.java"
+                },
+                {
+                    "@type": "item",
+                    "name": "tools/benchmark-cli/src/main/java/org/logstash/benchmark/cli/LogstashInstallation.java"
+                },
+                {
+                    "@type": "item",
+                    "name": "tools/benchmark-cli/src/main/java/org/logstash/benchmark/cli/JRubyInstallation.java"
+                },
+                {
+                    "@type": "item",
+                    "name": "tools/benchmark-cli/src/main/java/org/logstash/benchmark/cli/BenchmarkMeta.java"
+                },
+                {
+                    "@type": "item",
+                    "name": "tools/benchmark-cli/src/main/java/org/logstash/benchmark/cli/cases/GeneratorToStdout.java"
+                },
+                {
+                    "@type": "item",
+                    "name": "tools/benchmark-cli/src/main/java/org/logstash/benchmark/cli/cases/CustomTestCase.java"
+                },
+                {
+                    "@type": "item",
+                    "name": "tools/benchmark-cli/src/main/java/org/logstash/benchmark/cli/util/LsBenchJsonUtil.java"
+                },
+                {
+                    "@type": "item",
+                    "name": "tools/benchmark-cli/src/main/java/org/logstash/benchmark/cli/cases/ApacheLogsComplex.java"
+                }
+            ]
+        },
+        {
+            "@type": "group",
+            "name": "12",
+            "nested": [
+                {
+                    "@type": "item",
+                    "name": "logstash-core/src/main/java/org/logstash/execution/WorkerObserver.java"
+                },
+                {
+                    "@type": "item",
+                    "name": "logstash-core/src/main/java/org/logstash/config/ir/compiler/SplitDataset.java"
+                },
+                {
+                    "@type": "item",
+                    "name": "logstash-core/src/main/java/org/logstash/config/ir/compiler/Utils.java"
+                },
+                {
+                    "@type": "item",
+                    "name": "logstash-core/src/main/java/org/logstash/config/ir/compiler/DatasetCompiler.java"
+                },
+                {
+                    "@type": "item",
+                    "name": "logstash-core/src/test/java/org/logstash/execution/ObservedExecutionTest.java"
+                },
+                {
+                    "@type": "item",
+                    "name": "logstash-core/src/main/java/org/logstash/config/ir/compiler/MethodLevelSyntaxElement.java"
+                },
+                {
+                    "@type": "item",
+                    "name": "logstash-core/src/main/java/org/logstash/config/ir/compiler/SyntaxElement.java"
+                },
+                {
+                    "@type": "item",
+                    "name": "logstash-core/src/main/java/org/logstash/config/ir/compiler/Dataset.java"
+                },
+                {
+                    "@type": "item",
+                    "name": "logstash-core/src/main/java/org/logstash/config/ir/compiler/ValueSyntaxElement.java"
+                },
+                {
+                    "@type": "item",
+                    "name": "logstash-core/src/main/java/org/logstash/config/ir/compiler/Closure.java"
+                },
+                {
+                    "@type": "item",
+                    "name": "logstash-core/src/main/java/org/logstash/config/ir/compiler/BaseDataset.java"
+                },
+                {
+                    "@type": "item",
+                    "name": "logstash-core/src/test/java/org/logstash/config/ir/compiler/DatasetCompilerTest.java"
+                },
+                {
+                    "@type": "item",
+                    "name": "logstash-core/src/main/java/org/logstash/execution/ObservedExecution.java"
+                },
+                {
+                    "@type": "item",
+                    "name": "logstash-core/src/main/java/org/logstash/execution/WorkerLoop.java"
+                },
+                {
+                    "@type": "item",
+                    "name": "logstash-core/src/main/java/org/logstash/config/ir/CompiledPipeline.java"
+                },
+                {
+                    "@type": "item",
+                    "name": "logstash-core/src/main/java/org/logstash/config/ir/compiler/SyntaxFactory.java"
+                },
+                {
+                    "@type": "item",
+                    "name": "logstash-core/src/main/java/org/logstash/config/ir/compiler/VariableDefinition.java"
+                },
+                {
+                    "@type": "item",
+                    "name": "logstash-core/src/main/java/org/logstash/config/ir/compiler/FieldDefinition.java"
+                },
+                {
+                    "@type": "item",
+                    "name": "logstash-core/src/main/java/org/logstash/config/ir/compiler/ComputeStepSyntaxElement.java"
+                },
+                {
+                    "@type": "item",
+                    "name": "logstash-core/src/main/java/org/logstash/config/ir/compiler/MethodSyntaxElement.java"
+                }
+            ]
+        },
+        {
+            "@type": "group",
+            "name": "13",
+            "nested": [
+                {
+                    "@type": "item",
+                    "name": "logstash-core/src/main/java/org/logstash/secret/password/DigitValidator.java"
+                },
+                {
+                    "@type": "item",
+                    "name": "logstash-core/src/main/java/org/logstash/secret/password/PasswordValidator.java"
+                },
+                {
+                    "@type": "item",
+                    "name": "logstash-core/src/test/java/org/logstash/secret/password/LowerCaseValidatorTest.java"
+                },
+                {
+                    "@type": "item",
+                    "name": "logstash-core/src/main/java/org/logstash/secret/password/LengthValidator.java"
+                },
+                {
+                    "@type": "item",
+                    "name": "logstash-core/src/main/java/org/logstash/secret/password/UpperCaseValidator.java"
+                },
+                {
+                    "@type": "item",
+                    "name": "logstash-core/src/test/java/org/logstash/secret/password/DigitValidatorTest.java"
+                },
+                {
+                    "@type": "item",
+                    "name": "logstash-core/src/test/java/org/logstash/secret/password/UpperCaseValidatorTest.java"
+                },
+                {
+                    "@type": "item",
+                    "name": "logstash-core/src/test/java/org/logstash/secret/password/LengthValidatorTest.java"
+                },
+                {
+                    "@type": "item",
+                    "name": "logstash-core/src/main/java/org/logstash/secret/password/LowerCaseValidator.java"
+                },
+                {
+                    "@type": "item",
+                    "name": "logstash-core/src/main/java/org/logstash/secret/password/PasswordPolicyParam.java"
+                },
+                {
+                    "@type": "item",
+                    "name": "logstash-core/src/main/java/org/logstash/secret/password/EmptyStringValidator.java"
+                },
+                {
+                    "@type": "item",
+                    "name": "logstash-core/src/main/java/org/logstash/secret/password/PasswordPolicyType.java"
+                },
+                {
+                    "@type": "item",
+                    "name": "logstash-core/src/main/java/org/logstash/secret/password/Validator.java"
+                },
+                {
+                    "@type": "item",
+                    "name": "logstash-core/src/test/java/org/logstash/secret/password/SymbolValidatorTest.java"
+                },
+                {
+                    "@type": "item",
+                    "name": "logstash-core/src/test/java/org/logstash/secret/password/PasswordValidatorTest.java"
+                },
+                {
+                    "@type": "item",
+                    "name": "logstash-core/src/test/java/org/logstash/secret/password/EmptyStringValidatorTest.java"
+                },
+                {
+                    "@type": "item",
+                    "name": "logstash-core/src/main/java/org/logstash/secret/password/SymbolValidator.java"
+                },
+                {
+                    "@type": "item",
+                    "name": "logstash-core/src/test/java/org/logstash/secret/password/PasswordParamConverterTest.java"
+                }
+            ]
+        },
+        {
+            "@type": "group",
+            "name": "14",
+            "nested": [
+                {
+                    "@type": "item",
+                    "name": "logstash-core/src/main/java/org/logstash/log/DefaultDeprecationLogger.java"
+                },
+                {
+                    "@type": "item",
+                    "name": "logstash-core/src/test/java/org/logstash/log/PipelineRoutingAppenderTest.java"
+                },
+                {
+                    "@type": "item",
+                    "name": "logstash-core/src/main/java/co/elastic/logstash/api/DeprecationLogger.java"
+                },
+                {
+                    "@type": "item",
+                    "name": "logstash-core/src/test/java/org/logstash/log/DefaultDeprecationLoggerTest.java"
+                },
+                {
+                    "@type": "item",
+                    "name": "logstash-core/src/test/java/org/logstash/execution/AbstractPipelineExtTest.java"
+                },
+                {
+                    "@type": "item",
+                    "name": "logstash-core/src/test/java/org/logstash/log/PluginDeprecationLoggerTest.java"
+                },
+                {
+                    "@type": "item",
+                    "name": "logstash-core/src/test/java/org/logstash/log/LogstashConfigurationFactoryTest.java"
+                },
+                {
+                    "@type": "item",
+                    "name": "logstash-core/src/main/java/org/logstash/log/LogstashConfigurationFactory.java"
+                },
+                {
+                    "@type": "item",
+                    "name": "logstash-core/src/test/java/org/logstash/log/LogTestUtils.java"
+                },
+                {
+                    "@type": "item",
+                    "name": "logstash-core/src/main/java/org/logstash/log/PipelineRoutingAppender.java"
+                },
+                {
+                    "@type": "item",
+                    "name": "logstash-core/src/test/java/org/logstash/log/SystemPropsSnapshotHelper.java"
+                }
+            ]
+        },
+        {
+            "@type": "group",
+            "name": "15",
+            "nested": [
+                {
+                    "@type": "item",
+                    "name": "logstash-core/src/main/java/org/logstash/plugins/CounterMetricImpl.java"
+                },
+                {
+                    "@type": "item",
+                    "name": "logstash-core/src/main/java/co/elastic/logstash/api/CounterMetric.java"
+                },
+                {
+                    "@type": "item",
+                    "name": "logstash-core/src/test/java/org/logstash/plugins/CounterMetricImplTest.java"
+                },
+                {
+                    "@type": "item",
+                    "name": "logstash-core/src/main/java/co/elastic/logstash/api/NamespacedMetric.java"
+                },
+                {
+                    "@type": "item",
+                    "name": "logstash-core/src/test/java/org/logstash/plugins/NamespacedMetricImplTest.java"
+                },
+                {
+                    "@type": "item",
+                    "name": "logstash-core/src/main/java/org/logstash/plugins/RootMetricImpl.java"
+                },
+                {
+                    "@type": "item",
+                    "name": "logstash-core/src/main/java/co/elastic/logstash/api/Metric.java"
+                },
+                {
+                    "@type": "item",
+                    "name": "logstash-core/src/test/java/org/logstash/instrument/metrics/counter/LongCounterTest.java"
+                },
+                {
+                    "@type": "item",
+                    "name": "logstash-core/src/main/java/org/logstash/plugins/NamespacedMetricImpl.java"
+                },
+                {
+                    "@type": "item",
+                    "name": "logstash-core/src/main/java/org/logstash/instrument/metrics/counter/CounterMetric.java"
+                },
+                {
+                    "@type": "item",
+                    "name": "logstash-core/src/main/java/org/logstash/instrument/metrics/counter/LongCounter.java"
+                }
+            ]
+        },
+        {
+            "@type": "group",
+            "name": "16",
+            "nested": [
+                {
+                    "@type": "item",
+                    "name": "logstash-core/src/test/java/org/logstash/instruments/monitors/ProcessMonitorTest.java"
+                },
+                {
+                    "@type": "item",
+                    "name": "logstash-core/src/test/java/org/logstash/instruments/monitors/SystemMonitorTest.java"
+                },
+                {
+                    "@type": "item",
+                    "name": "logstash-core/src/main/java/org/logstash/instrument/monitors/MemoryMonitor.java"
+                },
+                {
+                    "@type": "item",
+                    "name": "logstash-core/src/main/java/org/logstash/instrument/monitors/SystemMonitor.java"
+                },
+                {
+                    "@type": "item",
+                    "name": "logstash-core/src/main/java/org/logstash/instrument/reports/ProcessReport.java"
+                },
+                {
+                    "@type": "item",
+                    "name": "logstash-core/src/test/java/org/logstash/instruments/monitors/MemoryMonitorTest.java"
+                },
+                {
+                    "@type": "item",
+                    "name": "logstash-core/src/main/java/org/logstash/instrument/monitors/ProcessMonitor.java"
+                },
+                {
+                    "@type": "item",
+                    "name": "logstash-core/src/main/java/org/logstash/instrument/reports/MemoryReport.java"
+                },
+                {
+                    "@type": "item",
+                    "name": "logstash-core/src/main/java/org/logstash/JavaVersionUtils.java"
+                },
+                {
+                    "@type": "item",
+                    "name": "logstash-core/src/main/java/org/logstash/util/JavaVersion.java"
+                }
+            ]
+        },
+        {
+            "@type": "group",
+            "name": "17",
+            "nested": [
+                {
+                    "@type": "item",
+                    "name": "logstash-core/src/main/java/org/logstash/plugins/PluginClassLoader.java"
+                },
+                {
+                    "@type": "item",
+                    "name": "logstash-core/src/main/java/org/logstash/secret/store/SecretStoreUtil.java"
+                },
+                {
+                    "@type": "item",
+                    "name": "logstash-core/src/test/java/org/logstash/ackedqueue/io/IntVectorTest.java"
+                },
+                {
+                    "@type": "item",
+                    "name": "logstash-core/src/test/java/org/logstash/ackedqueue/io/LongVectorTest.java"
+                },
+                {
+                    "@type": "item",
+                    "name": "logstash-core/src/main/java/org/logstash/ackedqueue/io/LongVector.java"
+                },
+                {
+                    "@type": "item",
+                    "name": "logstash-core/src/main/java/org/logstash/common/FsUtil.java"
+                },
+                {
+                    "@type": "item",
+                    "name": "logstash-core/src/main/java/org/logstash/ackedqueue/io/IntVector.java"
+                },
+                {
+                    "@type": "item",
+                    "name": "logstash-core/src/test/java/org/logstash/common/FsUtilTest.java"
+                },
+                {
+                    "@type": "item",
+                    "name": "logstash-core/src/test/java/org/logstash/secret/store/SecretStoreUtilTest.java"
+                }
+            ]
+        },
+        {
+            "@type": "group",
+            "name": "18",
+            "nested": [
+                {
+                    "@type": "item",
+                    "name": "logstash-core/src/test/java/org/logstash/execution/ShutdownWatcherExtTest.java"
+                },
+                {
+                    "@type": "item",
+                    "name": "logstash-core/src/main/java/org/logstash/plugins/pipeline/ReceiveResponse.java"
+                },
+                {
+                    "@type": "item",
+                    "name": "logstash-core/src/main/java/org/logstash/execution/EventDispatcherExt.java"
+                },
+                {
+                    "@type": "item",
+                    "name": "logstash-core/src/main/java/org/logstash/plugins/pipeline/AddressState.java"
+                },
+                {
+                    "@type": "item",
+                    "name": "logstash-core/src/main/java/org/logstash/plugins/pipeline/PipelineOutput.java"
+                },
+                {
+                    "@type": "item",
+                    "name": "logstash-core/src/test/java/org/logstash/plugins/pipeline/PipelineBusTest.java"
+                },
+                {
+                    "@type": "item",
+                    "name": "logstash-core/src/main/java/org/logstash/plugins/pipeline/PipelineInput.java"
+                },
+                {
+                    "@type": "item",
+                    "name": "logstash-core/src/main/java/org/logstash/plugins/pipeline/PipelineBus.java"
+                }
+            ]
+        },
+        {
+            "@type": "group",
+            "name": "19",
+            "nested": [
+                {
+                    "@type": "item",
+                    "name": "logstash-core/src/test/java/org/logstash/util/SetOnceReferenceTest.java"
+                },
+                {
+                    "@type": "item",
+                    "name": "logstash-core/src/main/java/org/logstash/util/ExponentialBackoff.java"
+                },
+                {
+                    "@type": "item",
+                    "name": "logstash-core/src/main/java/org/logstash/log/StructuredMessage.java"
+                },
+                {
+                    "@type": "item",
+                    "name": "logstash-core/src/main/java/org/logstash/util/SetOnceReference.java"
+                },
+                {
+                    "@type": "item",
+                    "name": "logstash-core/src/main/java/org/logstash/util/CheckedSupplier.java"
+                },
+                {
+                    "@type": "item",
+                    "name": "logstash-core/src/main/java/org/logstash/log/LogstashMessageFactory.java"
+                },
+                {
+                    "@type": "item",
+                    "name": "logstash-core/src/test/java/org/logstash/util/ExponentialBackoffTest.java"
+                }
+            ]
+        },
+        {
+            "@type": "group",
+            "name": "20",
+            "nested": [
+                {
+                    "@type": "item",
+                    "name": "tools/dependencies-report/src/main/java/org/logstash/dependencies/ReportGenerator.java"
+                },
+                {
+                    "@type": "item",
+                    "name": "tools/dependencies-report/src/main/java/org/logstash/dependencies/Main.java"
+                },
+                {
+                    "@type": "item",
+                    "name": "tools/dependencies-report/src/test/java/org/logstash/dependencies/ReportGeneratorTest.java"
+                },
+                {
+                    "@type": "item",
+                    "name": "tools/dependencies-report/src/main/java/org/logstash/dependencies/Dependency.java"
+                }
+            ]
+        },
+        {
+            "@type": "group",
+            "name": "21",
+            "nested": [
+                {
+                    "@type": "item",
+                    "name": "tools/jvm-options-parser/src/main/java/org/logstash/launchers/JavaVersion.java"
+                },
+                {
+                    "@type": "item",
+                    "name": "tools/jvm-options-parser/src/main/java/org/logstash/launchers/JvmOptionsParser.java"
+                },
+                {
+                    "@type": "item",
+                    "name": "tools/jvm-options-parser/src/test/java/org/logstash/launchers/JvmOptionsParserTest.java"
+                }
+            ]
+        },
+        {
+            "@type": "group",
+            "name": "22",
+            "nested": [
+                {
+                    "@type": "item",
+                    "name": "logstash-core/src/main/java/org/logstash/util/CATrustedFingerprintTrustStrategy.java"
+                },
+                {
+                    "@type": "item",
+                    "name": "logstash-core/src/test/java/org/logstash/util/CATrustedFingerprintTrustStrategyTest.java"
+                }
+            ]
+        },
+        {
+            "@type": "group",
+            "name": "23",
+            "nested": [
+                {
+                    "@type": "item",
+                    "name": "x-pack/src/test/java/org/logstash/xpack/test/RSpecTests.java"
+                },
+                {
+                    "@type": "item",
+                    "name": "x-pack/src/test/java/org/logstash/xpack/test/RSpecIntegrationTests.java"
+                }
+            ]
+        },
+        {
+            "@type": "group",
+            "name": "24",
+            "nested": [
+                {
+                    "@type": "item",
+                    "name": "logstash-core/src/main/java/org/logstash/util/JavaVersionChecker.java"
+                }
+            ]
+        },
+        {
+            "@type": "group",
+            "name": "25",
+            "nested": [
+                {
+                    "@type": "item",
+                    "name": "qa/integration/src/test/java/org/logstash/integration/RSpecTests.java"
+                }
+            ]
+        },
+        {
+            "@type": "group",
+            "name": "26",
+            "nested": [
+                {
+                    "@type": "item",
+                    "name": "qa/integration/fixtures/offline_wrapper/offline.c"
+                }
+            ]
+        }
+    ]
+}

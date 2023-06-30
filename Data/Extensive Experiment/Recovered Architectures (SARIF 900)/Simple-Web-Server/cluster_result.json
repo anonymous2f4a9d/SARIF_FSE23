@@ -1,0 +1,88 @@
+{
+    "@schemaVersion": "1.0",
+    "name": "clustering",
+    "structure": [
+        {
+            "@type": "group",
+            "name": "0",
+            "nested": [
+                {
+                    "@type": "item",
+                    "name": "client_https.hpp"
+                },
+                {
+                    "@type": "item",
+                    "name": "client_http.hpp"
+                },
+                {
+                    "@type": "item",
+                    "name": "tests/parse_test.cpp"
+                },
+                {
+                    "@type": "item",
+                    "name": "utility.hpp"
+                }
+            ]
+        },
+        {
+            "@type": "group",
+            "name": "1",
+            "nested": [
+                {
+                    "@type": "item",
+                    "name": "status_code.hpp"
+                },
+                {
+                    "@type": "item",
+                    "name": "tests/status_code_test.cpp"
+                },
+                {
+                    "@type": "item",
+                    "name": "tests/io_test.cpp"
+                }
+            ]
+        },
+        {
+            "@type": "group",
+            "name": "2",
+            "nested": [
+                {
+                    "@type": "item",
+                    "name": "https_examples.cpp"
+                },
+                {
+                    "@type": "item",
+                    "name": "http_examples.cpp"
+                }
+            ]
+        },
+        {
+            "@type": "group",
+            "name": "3",
+            "nested": [
+                {
+                    "@type": "item",
+                    "name": "server_https.hpp"
+                },
+                {
+                    "@type": "item",
+                    "name": "server_http.hpp"
+                }
+            ]
+        },
+        {
+            "@type": "group",
+            "name": "4",
+            "nested": [
+                {
+                    "@type": "item",
+                    "name": "tests/crypto_test.cpp"
+                },
+                {
+                    "@type": "item",
+                    "name": "crypto.hpp"
+                }
+            ]
+        }
+    ]
+}

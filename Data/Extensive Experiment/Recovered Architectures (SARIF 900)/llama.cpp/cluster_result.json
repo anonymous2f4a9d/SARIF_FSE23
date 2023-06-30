@@ -1,0 +1,266 @@
+{
+    "@schemaVersion": "1.0",
+    "name": "clustering",
+    "structure": [
+        {
+            "@type": "group",
+            "name": "0",
+            "nested": [
+                {
+                    "@type": "item",
+                    "name": "examples/embd-input/embd-input-test.cpp"
+                },
+                {
+                    "@type": "item",
+                    "name": "examples/main/main.cpp"
+                },
+                {
+                    "@type": "item",
+                    "name": "examples/simple/simple.cpp"
+                },
+                {
+                    "@type": "item",
+                    "name": "examples/embd-input/embd-input.h"
+                },
+                {
+                    "@type": "item",
+                    "name": "examples/embd-input/embd-input-lib.cpp"
+                },
+                {
+                    "@type": "item",
+                    "name": "examples/embedding/embedding.cpp"
+                },
+                {
+                    "@type": "item",
+                    "name": "examples/common.h"
+                },
+                {
+                    "@type": "item",
+                    "name": "examples/common.cpp"
+                },
+                {
+                    "@type": "item",
+                    "name": "examples/train-text-from-scratch/train-text-from-scratch.cpp"
+                }
+            ]
+        },
+        {
+            "@type": "group",
+            "name": "1",
+            "nested": [
+                {
+                    "@type": "item",
+                    "name": "ggml-metal.h"
+                },
+                {
+                    "@type": "item",
+                    "name": "llama-util.h"
+                },
+                {
+                    "@type": "item",
+                    "name": "llama.h"
+                },
+                {
+                    "@type": "item",
+                    "name": "llama.cpp"
+                },
+                {
+                    "@type": "item",
+                    "name": "ggml.h"
+                },
+                {
+                    "@type": "item",
+                    "name": "ggml.c"
+                },
+                {
+                    "@type": "item",
+                    "name": "k_quants.h"
+                },
+                {
+                    "@type": "item",
+                    "name": "k_quants.c"
+                }
+            ]
+        },
+        {
+            "@type": "group",
+            "name": "2",
+            "nested": [
+                {
+                    "@type": "item",
+                    "name": "examples/perplexity/perplexity.cpp"
+                },
+                {
+                    "@type": "item",
+                    "name": "examples/quantize-stats/quantize-stats.cpp"
+                },
+                {
+                    "@type": "item",
+                    "name": "examples/metal/metal.cpp"
+                },
+                {
+                    "@type": "item",
+                    "name": "examples/save-load-state/save-load-state.cpp"
+                }
+            ]
+        },
+        {
+            "@type": "group",
+            "name": "3",
+            "nested": [
+                {
+                    "@type": "item",
+                    "name": "examples/server/json.hpp"
+                },
+                {
+                    "@type": "item",
+                    "name": "examples/server/httplib.h"
+                },
+                {
+                    "@type": "item",
+                    "name": "examples/server/server.cpp"
+                }
+            ]
+        },
+        {
+            "@type": "group",
+            "name": "4",
+            "nested": [
+                {
+                    "@type": "item",
+                    "name": "pocs/vdot/q8dot.cpp"
+                },
+                {
+                    "@type": "item",
+                    "name": "pocs/vdot/vdot.cpp"
+                }
+            ]
+        },
+        {
+            "@type": "group",
+            "name": "5",
+            "nested": [
+                {
+                    "@type": "item",
+                    "name": "tests/test-opt.c"
+                },
+                {
+                    "@type": "item",
+                    "name": "tests/test-grad0.c"
+                }
+            ]
+        },
+        {
+            "@type": "group",
+            "name": "6",
+            "nested": [
+                {
+                    "@type": "item",
+                    "name": "tests/test-sampling.cpp"
+                },
+                {
+                    "@type": "item",
+                    "name": "tests/test-tokenizer-0.cpp"
+                }
+            ]
+        },
+        {
+            "@type": "group",
+            "name": "7",
+            "nested": [
+                {
+                    "@type": "item",
+                    "name": "ggml-opencl.h"
+                },
+                {
+                    "@type": "item",
+                    "name": "ggml-opencl.cpp"
+                },
+                {
+                    "@type": "item",
+                    "name": "ggml-cuda.h"
+                }
+            ]
+        },
+        {
+            "@type": "group",
+            "name": "8",
+            "nested": [
+                {
+                    "@type": "item",
+                    "name": "examples/baby-llama/baby-llama.cpp"
+                }
+            ]
+        },
+        {
+            "@type": "group",
+            "name": "9",
+            "nested": [
+                {
+                    "@type": "item",
+                    "name": "examples/benchmark/benchmark-matmult.cpp"
+                }
+            ]
+        },
+        {
+            "@type": "group",
+            "name": "10",
+            "nested": [
+                {
+                    "@type": "item",
+                    "name": "examples/quantize/quantize.cpp"
+                }
+            ]
+        },
+        {
+            "@type": "group",
+            "name": "11",
+            "nested": [
+                {
+                    "@type": "item",
+                    "name": "tests/test-double-float.c"
+                }
+            ]
+        },
+        {
+            "@type": "group",
+            "name": "12",
+            "nested": [
+                {
+                    "@type": "item",
+                    "name": "tests/test-quantize-fns.cpp"
+                }
+            ]
+        },
+        {
+            "@type": "group",
+            "name": "13",
+            "nested": [
+                {
+                    "@type": "item",
+                    "name": "tests/test-quantize-perf.cpp"
+                }
+            ]
+        },
+        {
+            "@type": "group",
+            "name": "14",
+            "nested": [
+                {
+                    "@type": "item",
+                    "name": "spm-headers/ggml.h"
+                }
+            ]
+        },
+        {
+            "@type": "group",
+            "name": "15",
+            "nested": [
+                {
+                    "@type": "item",
+                    "name": "spm-headers/llama.h"
+                }
+            ]
+        }
+    ]
+}

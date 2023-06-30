@@ -1,0 +1,826 @@
+{
+    "@schemaVersion": "1.0",
+    "name": "clustering",
+    "structure": [
+        {
+            "@type": "group",
+            "name": "0",
+            "nested": [
+                {
+                    "@type": "item",
+                    "name": "src/modules/connections-tree/model.h"
+                },
+                {
+                    "@type": "item",
+                    "name": "src/modules/connections-tree/items/databaseitem.h"
+                },
+                {
+                    "@type": "item",
+                    "name": "src/modules/connections-tree/items/databaseitem.cpp"
+                },
+                {
+                    "@type": "item",
+                    "name": "src/modules/connections-tree/keysrendering.h"
+                },
+                {
+                    "@type": "item",
+                    "name": "src/modules/connections-tree/keysrendering.cpp"
+                },
+                {
+                    "@type": "item",
+                    "name": "src/modules/connections-tree/items/loadmoreitem.h"
+                },
+                {
+                    "@type": "item",
+                    "name": "src/modules/connections-tree/items/loadmoreitem.cpp"
+                },
+                {
+                    "@type": "item",
+                    "name": "src/modules/connections-tree/items/abstractnamespaceitem.h"
+                },
+                {
+                    "@type": "item",
+                    "name": "src/modules/connections-tree/items/abstractnamespaceitem.cpp"
+                },
+                {
+                    "@type": "item",
+                    "name": "src/modules/connections-tree/items/memoryusage.h"
+                },
+                {
+                    "@type": "item",
+                    "name": "src/modules/connections-tree/operations.h"
+                },
+                {
+                    "@type": "item",
+                    "name": "src/modules/connections-tree/items/namespaceitem.h"
+                },
+                {
+                    "@type": "item",
+                    "name": "src/modules/connections-tree/items/namespaceitem.cpp"
+                },
+                {
+                    "@type": "item",
+                    "name": "src/modules/connections-tree/model.cpp"
+                },
+                {
+                    "@type": "item",
+                    "name": "src/modules/connections-tree/items/serveritem.h"
+                },
+                {
+                    "@type": "item",
+                    "name": "src/modules/connections-tree/items/serveritem.cpp"
+                },
+                {
+                    "@type": "item",
+                    "name": "src/modules/connections-tree/utils.h"
+                },
+                {
+                    "@type": "item",
+                    "name": "src/modules/connections-tree/utils.cpp"
+                },
+                {
+                    "@type": "item",
+                    "name": "src/modules/connections-tree/items/sortabletreeitem.h"
+                },
+                {
+                    "@type": "item",
+                    "name": "src/modules/connections-tree/items/treeitem.h"
+                },
+                {
+                    "@type": "item",
+                    "name": "src/modules/connections-tree/items/treeitem.cpp"
+                },
+                {
+                    "@type": "item",
+                    "name": "src/modules/connections-tree/items/keyitem.h"
+                },
+                {
+                    "@type": "item",
+                    "name": "src/modules/connections-tree/items/keyitem.cpp"
+                },
+                {
+                    "@type": "item",
+                    "name": "src/modules/connections-tree/items/servergroup.h"
+                },
+                {
+                    "@type": "item",
+                    "name": "src/modules/connections-tree/items/servergroup.cpp"
+                }
+            ]
+        },
+        {
+            "@type": "group",
+            "name": "1",
+            "nested": [
+                {
+                    "@type": "item",
+                    "name": "src/app/models/key-models/unknownkey.h"
+                },
+                {
+                    "@type": "item",
+                    "name": "src/app/models/key-models/unknownkey.cpp"
+                },
+                {
+                    "@type": "item",
+                    "name": "src/app/models/key-models/hashkey.h"
+                },
+                {
+                    "@type": "item",
+                    "name": "src/app/models/key-models/hashkey.cpp"
+                },
+                {
+                    "@type": "item",
+                    "name": "src/app/models/key-models/abstractkey.h"
+                },
+                {
+                    "@type": "item",
+                    "name": "src/app/models/key-models/bfkey.h"
+                },
+                {
+                    "@type": "item",
+                    "name": "src/app/models/key-models/bfkey.cpp"
+                },
+                {
+                    "@type": "item",
+                    "name": "src/app/models/key-models/stream.h"
+                },
+                {
+                    "@type": "item",
+                    "name": "src/app/models/key-models/stream.cpp"
+                },
+                {
+                    "@type": "item",
+                    "name": "src/app/models/key-models/sortedsetkey.h"
+                },
+                {
+                    "@type": "item",
+                    "name": "src/app/models/key-models/sortedsetkey.cpp"
+                },
+                {
+                    "@type": "item",
+                    "name": "src/app/models/key-models/rejsonkey.h"
+                },
+                {
+                    "@type": "item",
+                    "name": "src/app/models/key-models/rejsonkey.cpp"
+                },
+                {
+                    "@type": "item",
+                    "name": "src/app/models/key-models/stringkey.h"
+                },
+                {
+                    "@type": "item",
+                    "name": "src/app/models/key-models/stringkey.cpp"
+                },
+                {
+                    "@type": "item",
+                    "name": "src/app/models/key-models/listlikekey.h"
+                },
+                {
+                    "@type": "item",
+                    "name": "src/app/models/key-models/listlikekey.cpp"
+                },
+                {
+                    "@type": "item",
+                    "name": "src/app/models/key-models/rowcache.h"
+                },
+                {
+                    "@type": "item",
+                    "name": "src/app/models/key-models/setkey.h"
+                },
+                {
+                    "@type": "item",
+                    "name": "src/app/models/key-models/setkey.cpp"
+                },
+                {
+                    "@type": "item",
+                    "name": "src/app/models/key-models/listkey.h"
+                },
+                {
+                    "@type": "item",
+                    "name": "src/app/models/key-models/listkey.cpp"
+                }
+            ]
+        },
+        {
+            "@type": "group",
+            "name": "2",
+            "nested": [
+                {
+                    "@type": "item",
+                    "name": "tests/unit_tests/testcases/connections-tree/test_model.cpp"
+                },
+                {
+                    "@type": "item",
+                    "name": "tests/unit_tests/main.cpp"
+                },
+                {
+                    "@type": "item",
+                    "name": "tests/unit_tests/testcases/console/test_consolemodel.cpp"
+                },
+                {
+                    "@type": "item",
+                    "name": "tests/unit_tests/testcases/app/test_apputils.cpp"
+                },
+                {
+                    "@type": "item",
+                    "name": "tests/unit_tests/testcases/connections-tree/test_databaseitem.h"
+                },
+                {
+                    "@type": "item",
+                    "name": "tests/unit_tests/testcases/connections-tree/test_databaseitem.cpp"
+                },
+                {
+                    "@type": "item",
+                    "name": "tests/unit_tests/testcases/console/test_consolemodel.h"
+                },
+                {
+                    "@type": "item",
+                    "name": "tests/unit_tests/testcases/connections-tree/mocks.h"
+                },
+                {
+                    "@type": "item",
+                    "name": "tests/unit_tests/testcases/connections-tree/mocks.cpp"
+                },
+                {
+                    "@type": "item",
+                    "name": "tests/unit_tests/testcases/connections-tree/test_serveritem.h"
+                },
+                {
+                    "@type": "item",
+                    "name": "tests/unit_tests/testcases/connections-tree/test_serveritem.cpp"
+                },
+                {
+                    "@type": "item",
+                    "name": "tests/unit_tests/testcases/connections-tree/test_model.h"
+                },
+                {
+                    "@type": "item",
+                    "name": "tests/unit_tests/testcases/app/test_apputils.h"
+                }
+            ]
+        },
+        {
+            "@type": "group",
+            "name": "3",
+            "nested": [
+                {
+                    "@type": "item",
+                    "name": "src/app/qcompress.h"
+                },
+                {
+                    "@type": "item",
+                    "name": "src/app/qcompress.cpp"
+                },
+                {
+                    "@type": "item",
+                    "name": "src/app/jsonutils.h"
+                },
+                {
+                    "@type": "item",
+                    "name": "src/app/jsonutils.cpp"
+                },
+                {
+                    "@type": "item",
+                    "name": "src/app/qmlutils.h"
+                },
+                {
+                    "@type": "item",
+                    "name": "src/app/qmlutils.cpp"
+                },
+                {
+                    "@type": "item",
+                    "name": "src/app/app.h"
+                },
+                {
+                    "@type": "item",
+                    "name": "src/app/app.cpp"
+                },
+                {
+                    "@type": "item",
+                    "name": "src/app/darkmode.h"
+                },
+                {
+                    "@type": "item",
+                    "name": "src/app/events.h"
+                },
+                {
+                    "@type": "item",
+                    "name": "src/app/events.cpp"
+                },
+                {
+                    "@type": "item",
+                    "name": "src/app/apputils.h"
+                }
+            ]
+        },
+        {
+            "@type": "group",
+            "name": "4",
+            "nested": [
+                {
+                    "@type": "item",
+                    "name": "src/modules/bulk-operations/operations/ttloperation.h"
+                },
+                {
+                    "@type": "item",
+                    "name": "src/modules/bulk-operations/operations/ttloperation.cpp"
+                },
+                {
+                    "@type": "item",
+                    "name": "src/modules/bulk-operations/operations/deleteoperation.h"
+                },
+                {
+                    "@type": "item",
+                    "name": "src/modules/bulk-operations/operations/deleteoperation.cpp"
+                },
+                {
+                    "@type": "item",
+                    "name": "src/modules/bulk-operations/operations/copyoperation.h"
+                },
+                {
+                    "@type": "item",
+                    "name": "src/modules/bulk-operations/operations/copyoperation.cpp"
+                },
+                {
+                    "@type": "item",
+                    "name": "src/modules/bulk-operations/connections.h"
+                },
+                {
+                    "@type": "item",
+                    "name": "src/modules/bulk-operations/operations/rdbimport.h"
+                },
+                {
+                    "@type": "item",
+                    "name": "src/modules/bulk-operations/operations/rdbimport.cpp"
+                },
+                {
+                    "@type": "item",
+                    "name": "src/modules/bulk-operations/operations/abstractoperation.h"
+                },
+                {
+                    "@type": "item",
+                    "name": "src/modules/bulk-operations/operations/abstractoperation.cpp"
+                },
+                {
+                    "@type": "item",
+                    "name": "src/modules/bulk-operations/bulkoperationsmanager.h"
+                },
+                {
+                    "@type": "item",
+                    "name": "src/modules/bulk-operations/bulkoperationsmanager.cpp"
+                }
+            ]
+        },
+        {
+            "@type": "group",
+            "name": "5",
+            "nested": [
+                {
+                    "@type": "item",
+                    "name": "src/modules/extension-server/client/OAIServerConfiguration.h"
+                },
+                {
+                    "@type": "item",
+                    "name": "src/modules/extension-server/client/OAIHttpFileElement.h"
+                },
+                {
+                    "@type": "item",
+                    "name": "src/modules/extension-server/client/OAIHttpFileElement.cpp"
+                },
+                {
+                    "@type": "item",
+                    "name": "src/modules/extension-server/client/OAIServerVariable.h"
+                },
+                {
+                    "@type": "item",
+                    "name": "src/modules/extension-server/client/OAIOauth.h"
+                },
+                {
+                    "@type": "item",
+                    "name": "src/modules/extension-server/client/OAIOauth.cpp"
+                },
+                {
+                    "@type": "item",
+                    "name": "src/modules/extension-server/client/OAIHttpRequest.h"
+                },
+                {
+                    "@type": "item",
+                    "name": "src/modules/extension-server/client/OAIHttpRequest.cpp"
+                },
+                {
+                    "@type": "item",
+                    "name": "src/modules/extension-server/client/OAIDefaultApi.h"
+                },
+                {
+                    "@type": "item",
+                    "name": "src/modules/extension-server/client/OAIDefaultApi.cpp"
+                }
+            ]
+        },
+        {
+            "@type": "group",
+            "name": "6",
+            "nested": [
+                {
+                    "@type": "item",
+                    "name": "src/app/models/connectionconf.h"
+                },
+                {
+                    "@type": "item",
+                    "name": "src/app/models/connectionconf.cpp"
+                },
+                {
+                    "@type": "item",
+                    "name": "src/app/models/configmanager.h"
+                },
+                {
+                    "@type": "item",
+                    "name": "src/app/models/configmanager.cpp"
+                },
+                {
+                    "@type": "item",
+                    "name": "src/app/models/connectionsmanager.h"
+                },
+                {
+                    "@type": "item",
+                    "name": "src/app/models/connectionsmanager.cpp"
+                },
+                {
+                    "@type": "item",
+                    "name": "src/app/models/connectiongroup.h"
+                },
+                {
+                    "@type": "item",
+                    "name": "src/app/models/connectiongroup.cpp"
+                },
+                {
+                    "@type": "item",
+                    "name": "src/app/models/treeoperations.h"
+                },
+                {
+                    "@type": "item",
+                    "name": "src/app/models/treeoperations.cpp"
+                }
+            ]
+        },
+        {
+            "@type": "group",
+            "name": "7",
+            "nested": [
+                {
+                    "@type": "item",
+                    "name": "src/modules/extension-server/client/OAIDataFormatter.h"
+                },
+                {
+                    "@type": "item",
+                    "name": "src/modules/extension-server/client/OAIDataFormatter.cpp"
+                },
+                {
+                    "@type": "item",
+                    "name": "src/modules/extension-server/client/OAIHelpers.h"
+                },
+                {
+                    "@type": "item",
+                    "name": "src/modules/extension-server/client/OAIHelpers.cpp"
+                },
+                {
+                    "@type": "item",
+                    "name": "src/modules/extension-server/client/OAIDecodePayload.h"
+                },
+                {
+                    "@type": "item",
+                    "name": "src/modules/extension-server/client/OAIDecodePayload.cpp"
+                },
+                {
+                    "@type": "item",
+                    "name": "src/modules/extension-server/client/OAIEncodePayload.h"
+                },
+                {
+                    "@type": "item",
+                    "name": "src/modules/extension-server/client/OAIEncodePayload.cpp"
+                }
+            ]
+        },
+        {
+            "@type": "group",
+            "name": "8",
+            "nested": [
+                {
+                    "@type": "item",
+                    "name": "src/modules/value-editor/valueviewmodel.h"
+                },
+                {
+                    "@type": "item",
+                    "name": "src/modules/value-editor/valueviewmodel.cpp"
+                },
+                {
+                    "@type": "item",
+                    "name": "src/modules/value-editor/keymodel.h"
+                },
+                {
+                    "@type": "item",
+                    "name": "src/modules/value-editor/abstractkeyfactory.h"
+                },
+                {
+                    "@type": "item",
+                    "name": "src/modules/value-editor/tabsmodel.h"
+                },
+                {
+                    "@type": "item",
+                    "name": "src/modules/value-editor/tabsmodel.cpp"
+                }
+            ]
+        },
+        {
+            "@type": "group",
+            "name": "9",
+            "nested": [
+                {
+                    "@type": "item",
+                    "name": "src/modules/extension-server/client/OAIInline_response_400.h"
+                },
+                {
+                    "@type": "item",
+                    "name": "src/modules/extension-server/client/OAIInline_response_400.cpp"
+                },
+                {
+                    "@type": "item",
+                    "name": "src/modules/extension-server/client/OAIObject.h"
+                },
+                {
+                    "@type": "item",
+                    "name": "src/modules/extension-server/client/OAIEnum.h"
+                }
+            ]
+        },
+        {
+            "@type": "group",
+            "name": "10",
+            "nested": [
+                {
+                    "@type": "item",
+                    "name": "tests/unit_tests/respbasetestcase.h"
+                },
+                {
+                    "@type": "item",
+                    "name": "tests/unit_tests/testcases/app/test_treeoperations.h"
+                },
+                {
+                    "@type": "item",
+                    "name": "tests/unit_tests/testcases/app/test_treeoperations.cpp"
+                },
+                {
+                    "@type": "item",
+                    "name": "tests/unit_tests/testcases/app/test_keymodels.h"
+                },
+                {
+                    "@type": "item",
+                    "name": "tests/unit_tests/testcases/app/test_keymodels.cpp"
+                }
+            ]
+        },
+        {
+            "@type": "group",
+            "name": "11",
+            "nested": [
+                {
+                    "@type": "item",
+                    "name": "src/modules/common/tabmodel.h"
+                },
+                {
+                    "@type": "item",
+                    "name": "src/modules/common/tabmodel.cpp"
+                },
+                {
+                    "@type": "item",
+                    "name": "src/modules/common/baselistmodel.h"
+                },
+                {
+                    "@type": "item",
+                    "name": "src/modules/common/baselistmodel.cpp"
+                },
+                {
+                    "@type": "item",
+                    "name": "src/modules/common/tabviewmodel.h"
+                },
+                {
+                    "@type": "item",
+                    "name": "src/modules/common/tabviewmodel.cpp"
+                }
+            ]
+        },
+        {
+            "@type": "group",
+            "name": "12",
+            "nested": [
+                {
+                    "@type": "item",
+                    "name": "tests/unit_tests/testcases/app/test_configmanager.cpp"
+                },
+                {
+                    "@type": "item",
+                    "name": "tests/unit_tests/testcases/app/test_connectionsmanager.h"
+                },
+                {
+                    "@type": "item",
+                    "name": "tests/unit_tests/testcases/app/test_connectionsmanager.cpp"
+                },
+                {
+                    "@type": "item",
+                    "name": "tests/unit_tests/testcases/app/test_configmanager.h"
+                }
+            ]
+        },
+        {
+            "@type": "group",
+            "name": "13",
+            "nested": [
+                {
+                    "@type": "item",
+                    "name": "tests/qml_tests/qml_test_runner.cpp"
+                },
+                {
+                    "@type": "item",
+                    "name": "tests/qml_tests/setup.h"
+                },
+                {
+                    "@type": "item",
+                    "name": "tests/qml_tests/setup.cpp"
+                }
+            ]
+        },
+        {
+            "@type": "group",
+            "name": "14",
+            "nested": [
+                {
+                    "@type": "item",
+                    "name": "src/modules/value-editor/syntaxhighlighter.h"
+                },
+                {
+                    "@type": "item",
+                    "name": "src/modules/value-editor/syntaxhighlighter.cpp"
+                },
+                {
+                    "@type": "item",
+                    "name": "src/modules/value-editor/textcharformat.h"
+                },
+                {
+                    "@type": "item",
+                    "name": "src/modules/value-editor/textcharformat.cpp"
+                }
+            ]
+        },
+        {
+            "@type": "group",
+            "name": "15",
+            "nested": [
+                {
+                    "@type": "item",
+                    "name": "src/app/models/key-models/newkeyrequest.h"
+                },
+                {
+                    "@type": "item",
+                    "name": "src/app/models/key-models/newkeyrequest.cpp"
+                },
+                {
+                    "@type": "item",
+                    "name": "src/app/models/key-models/keyfactory.h"
+                },
+                {
+                    "@type": "item",
+                    "name": "src/app/models/key-models/keyfactory.cpp"
+                }
+            ]
+        },
+        {
+            "@type": "group",
+            "name": "16",
+            "nested": [
+                {
+                    "@type": "item",
+                    "name": "src/main.cpp"
+                }
+            ]
+        },
+        {
+            "@type": "group",
+            "name": "17",
+            "nested": [
+                {
+                    "@type": "item",
+                    "name": "src/modules/common/callbackwithowner.h"
+                }
+            ]
+        },
+        {
+            "@type": "group",
+            "name": "18",
+            "nested": [
+                {
+                    "@type": "item",
+                    "name": "src/modules/exception.h"
+                }
+            ]
+        },
+        {
+            "@type": "group",
+            "name": "19",
+            "nested": [
+                {
+                    "@type": "item",
+                    "name": "src/modules/server-actions/serverstatsmodel.h"
+                },
+                {
+                    "@type": "item",
+                    "name": "src/modules/server-actions/serverstatsmodel.cpp"
+                }
+            ]
+        },
+        {
+            "@type": "group",
+            "name": "20",
+            "nested": [
+                {
+                    "@type": "item",
+                    "name": "src/modules/value-editor/largetextmodel.h"
+                },
+                {
+                    "@type": "item",
+                    "name": "src/modules/value-editor/largetextmodel.cpp"
+                }
+            ]
+        },
+        {
+            "@type": "group",
+            "name": "21",
+            "nested": [
+                {
+                    "@type": "item",
+                    "name": "src/modules/console/autocompletemodel.h"
+                },
+                {
+                    "@type": "item",
+                    "name": "src/modules/console/autocompletemodel.cpp"
+                }
+            ]
+        },
+        {
+            "@type": "group",
+            "name": "22",
+            "nested": [
+                {
+                    "@type": "item",
+                    "name": "src/modules/value-editor/embeddedformattersmanager.h"
+                },
+                {
+                    "@type": "item",
+                    "name": "src/modules/value-editor/embeddedformattersmanager.cpp"
+                }
+            ]
+        },
+        {
+            "@type": "group",
+            "name": "23",
+            "nested": [
+                {
+                    "@type": "item",
+                    "name": "src/modules/console/consolemodel.h"
+                },
+                {
+                    "@type": "item",
+                    "name": "src/modules/console/consolemodel.cpp"
+                }
+            ]
+        },
+        {
+            "@type": "group",
+            "name": "24",
+            "nested": [
+                {
+                    "@type": "item",
+                    "name": "src/modules/extension-server/dataformattermanager.h"
+                },
+                {
+                    "@type": "item",
+                    "name": "src/modules/extension-server/dataformattermanager.cpp"
+                }
+            ]
+        },
+        {
+            "@type": "group",
+            "name": "25",
+            "nested": [
+                {
+                    "@type": "item",
+                    "name": "src/modules/common/sortfilterproxymodel.h"
+                },
+                {
+                    "@type": "item",
+                    "name": "src/modules/common/sortfilterproxymodel.cpp"
+                }
+            ]
+        }
+    ]
+}

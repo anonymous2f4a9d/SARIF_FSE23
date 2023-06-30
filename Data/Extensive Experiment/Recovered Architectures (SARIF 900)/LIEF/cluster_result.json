@@ -1,0 +1,4560 @@
+{
+    "@schemaVersion": "1.0",
+    "name": "clustering",
+    "structure": [
+        {
+            "@type": "group",
+            "name": "0",
+            "nested": [
+                {
+                    "@type": "item",
+                    "name": "src/PE/signature/pkcs7.h"
+                },
+                {
+                    "@type": "item",
+                    "name": "include/LIEF/PE/LoadConfigurations/LoadConfiguration.hpp"
+                },
+                {
+                    "@type": "item",
+                    "name": "src/PE/LoadConfigurations/LoadConfiguration.cpp"
+                },
+                {
+                    "@type": "item",
+                    "name": "include/LIEF/Object.hpp"
+                },
+                {
+                    "@type": "item",
+                    "name": "src/Object.cpp"
+                },
+                {
+                    "@type": "item",
+                    "name": "include/LIEF/PE/Section.hpp"
+                },
+                {
+                    "@type": "item",
+                    "name": "src/PE/Section.cpp"
+                },
+                {
+                    "@type": "item",
+                    "name": "include/LIEF/PE/LoadConfigurations.hpp"
+                },
+                {
+                    "@type": "item",
+                    "name": "include/LIEF/PE/LoadConfigurations/LoadConfigurationV11.hpp"
+                },
+                {
+                    "@type": "item",
+                    "name": "src/PE/LoadConfigurations/LoadConfigurationV11.cpp"
+                },
+                {
+                    "@type": "item",
+                    "name": "include/LIEF/PE/signature/attributes/SpcSpOpusInfo.hpp"
+                },
+                {
+                    "@type": "item",
+                    "name": "src/PE/signature/attributes/SpcSpOpusInfo.cpp"
+                },
+                {
+                    "@type": "item",
+                    "name": "include/LIEF/PE/ImportEntry.hpp"
+                },
+                {
+                    "@type": "item",
+                    "name": "src/PE/ImportEntry.cpp"
+                },
+                {
+                    "@type": "item",
+                    "name": "include/LIEF/PE/signature/SignerInfo.hpp"
+                },
+                {
+                    "@type": "item",
+                    "name": "src/PE/signature/SignerInfo.cpp"
+                },
+                {
+                    "@type": "item",
+                    "name": "include/LIEF/PE/resources/ResourceDialog.hpp"
+                },
+                {
+                    "@type": "item",
+                    "name": "src/PE/resources/ResourceDialog.cpp"
+                },
+                {
+                    "@type": "item",
+                    "name": "include/LIEF/PE/Relocation.hpp"
+                },
+                {
+                    "@type": "item",
+                    "name": "src/PE/Relocation.cpp"
+                },
+                {
+                    "@type": "item",
+                    "name": "include/LIEF/PE/EnumToString.hpp"
+                },
+                {
+                    "@type": "item",
+                    "name": "src/PE/EnumToString.cpp"
+                },
+                {
+                    "@type": "item",
+                    "name": "include/LIEF/PE/Symbol.hpp"
+                },
+                {
+                    "@type": "item",
+                    "name": "src/PE/Symbol.cpp"
+                },
+                {
+                    "@type": "item",
+                    "name": "include/LIEF/PE/TLS.hpp"
+                },
+                {
+                    "@type": "item",
+                    "name": "src/PE/TLS.cpp"
+                },
+                {
+                    "@type": "item",
+                    "name": "include/LIEF/PE/DelayImportEntry.hpp"
+                },
+                {
+                    "@type": "item",
+                    "name": "src/PE/DelayImportEntry.cpp"
+                },
+                {
+                    "@type": "item",
+                    "name": "include/LIEF/PE/signature/attributes.hpp"
+                },
+                {
+                    "@type": "item",
+                    "name": "include/LIEF/PE/hash.hpp"
+                },
+                {
+                    "@type": "item",
+                    "name": "src/PE/hash.cpp"
+                },
+                {
+                    "@type": "item",
+                    "name": "include/LIEF/PE/RichHeader.hpp"
+                },
+                {
+                    "@type": "item",
+                    "name": "src/PE/RichHeader.cpp"
+                },
+                {
+                    "@type": "item",
+                    "name": "include/LIEF/PE/LoadConfigurations/LoadConfigurationV9.hpp"
+                },
+                {
+                    "@type": "item",
+                    "name": "src/PE/LoadConfigurations/LoadConfigurationV9.cpp"
+                },
+                {
+                    "@type": "item",
+                    "name": "include/LIEF/PE/DelayImport.hpp"
+                },
+                {
+                    "@type": "item",
+                    "name": "src/PE/DelayImport.cpp"
+                },
+                {
+                    "@type": "item",
+                    "name": "include/LIEF/DEX/CodeInfo.hpp"
+                },
+                {
+                    "@type": "item",
+                    "name": "src/DEX/CodeInfo.cpp"
+                },
+                {
+                    "@type": "item",
+                    "name": "include/LIEF/PE/resources/ResourceAccelerator.hpp"
+                },
+                {
+                    "@type": "item",
+                    "name": "src/PE/resources/ResourceAccelerator.cpp"
+                },
+                {
+                    "@type": "item",
+                    "name": "include/LIEF/PE/DosHeader.hpp"
+                },
+                {
+                    "@type": "item",
+                    "name": "src/PE/DosHeader.cpp"
+                },
+                {
+                    "@type": "item",
+                    "name": "src/PE/json_internal.hpp"
+                },
+                {
+                    "@type": "item",
+                    "name": "src/PE/json.cpp"
+                },
+                {
+                    "@type": "item",
+                    "name": "include/LIEF/PE/signature/Signature.hpp"
+                },
+                {
+                    "@type": "item",
+                    "name": "src/PE/signature/Signature.cpp"
+                },
+                {
+                    "@type": "item",
+                    "name": "include/LIEF/PE/json.hpp"
+                },
+                {
+                    "@type": "item",
+                    "name": "src/PE/json_api.cpp"
+                },
+                {
+                    "@type": "item",
+                    "name": "include/LIEF/PE/Debug.hpp"
+                },
+                {
+                    "@type": "item",
+                    "name": "src/PE/Debug.cpp"
+                },
+                {
+                    "@type": "item",
+                    "name": "include/LIEF/PE/ResourceData.hpp"
+                },
+                {
+                    "@type": "item",
+                    "name": "src/PE/ResourceData.cpp"
+                },
+                {
+                    "@type": "item",
+                    "name": "include/LIEF/PE/signature/attributes/GenericType.hpp"
+                },
+                {
+                    "@type": "item",
+                    "name": "src/PE/signature/attributes/GenericType.cpp"
+                },
+                {
+                    "@type": "item",
+                    "name": "include/LIEF/Abstract/Binary.hpp"
+                },
+                {
+                    "@type": "item",
+                    "name": "src/Abstract/Binary.cpp"
+                },
+                {
+                    "@type": "item",
+                    "name": "include/LIEF/PE/ExportEntry.hpp"
+                },
+                {
+                    "@type": "item",
+                    "name": "src/PE/ExportEntry.cpp"
+                },
+                {
+                    "@type": "item",
+                    "name": "include/LIEF/PE/LoadConfigurations/LoadConfigurationV10.hpp"
+                },
+                {
+                    "@type": "item",
+                    "name": "src/PE/LoadConfigurations/LoadConfigurationV10.cpp"
+                },
+                {
+                    "@type": "item",
+                    "name": "include/LIEF/PE/PogoEntry.hpp"
+                },
+                {
+                    "@type": "item",
+                    "name": "src/PE/PogoEntry.cpp"
+                },
+                {
+                    "@type": "item",
+                    "name": "include/LIEF/PE/signature/attributes/MsCounterSign.hpp"
+                },
+                {
+                    "@type": "item",
+                    "name": "include/LIEF/PE/signature/SignatureParser.hpp"
+                },
+                {
+                    "@type": "item",
+                    "name": "src/PE/signature/SignatureParser.cpp"
+                },
+                {
+                    "@type": "item",
+                    "name": "include/LIEF/PE/undef.h"
+                },
+                {
+                    "@type": "item",
+                    "name": "include/LIEF/third-party/span.hpp"
+                },
+                {
+                    "@type": "item",
+                    "name": "include/LIEF/PE/Pogo.hpp"
+                },
+                {
+                    "@type": "item",
+                    "name": "src/PE/Pogo.cpp"
+                },
+                {
+                    "@type": "item",
+                    "name": "include/LIEF/PE/LoadConfigurations/LoadConfigurationV4.hpp"
+                },
+                {
+                    "@type": "item",
+                    "name": "src/PE/LoadConfigurations/LoadConfigurationV4.cpp"
+                },
+                {
+                    "@type": "item",
+                    "name": "include/LIEF/PE/Builder.hpp"
+                },
+                {
+                    "@type": "item",
+                    "name": "src/PE/Builder.cpp"
+                },
+                {
+                    "@type": "item",
+                    "name": "include/LIEF/PE/Parser.hpp"
+                },
+                {
+                    "@type": "item",
+                    "name": "src/PE/Parser.cpp"
+                },
+                {
+                    "@type": "item",
+                    "name": "include/LIEF/PE/signature/attributes/MsSpcStatementType.hpp"
+                },
+                {
+                    "@type": "item",
+                    "name": "src/PE/signature/attributes/MsSpcStatementType.cpp"
+                },
+                {
+                    "@type": "item",
+                    "name": "include/LIEF/PE/resources/ResourceStringFileInfo.hpp"
+                },
+                {
+                    "@type": "item",
+                    "name": "src/PE/resources/ResourceStringFileInfo.cpp"
+                },
+                {
+                    "@type": "item",
+                    "name": "src/PE/signature/attributes/MsCounterSign.cpp"
+                },
+                {
+                    "@type": "item",
+                    "name": "include/LIEF/PE/Header.hpp"
+                },
+                {
+                    "@type": "item",
+                    "name": "src/PE/Header.cpp"
+                },
+                {
+                    "@type": "item",
+                    "name": "include/LIEF/PE/resources/LangCodeItem.hpp"
+                },
+                {
+                    "@type": "item",
+                    "name": "src/PE/resources/LangCodeItem.cpp"
+                },
+                {
+                    "@type": "item",
+                    "name": "include/LIEF/PE/ResourcesManager.hpp"
+                },
+                {
+                    "@type": "item",
+                    "name": "src/PE/ResourcesManager.cpp"
+                },
+                {
+                    "@type": "item",
+                    "name": "include/LIEF/PE/signature/Attribute.hpp"
+                },
+                {
+                    "@type": "item",
+                    "name": "src/PE/signature/Attribute.cpp"
+                },
+                {
+                    "@type": "item",
+                    "name": "include/LIEF/PE/resources/ResourceVersion.hpp"
+                },
+                {
+                    "@type": "item",
+                    "name": "src/PE/resources/ResourceVersion.cpp"
+                },
+                {
+                    "@type": "item",
+                    "name": "include/LIEF/PE/signature/OIDToString.hpp"
+                },
+                {
+                    "@type": "item",
+                    "name": "src/PE/signature/OIDToString.cpp"
+                },
+                {
+                    "@type": "item",
+                    "name": "include/LIEF/PE/RichEntry.hpp"
+                },
+                {
+                    "@type": "item",
+                    "name": "src/PE/RichEntry.cpp"
+                },
+                {
+                    "@type": "item",
+                    "name": "include/LIEF/PE/signature/ContentInfo.hpp"
+                },
+                {
+                    "@type": "item",
+                    "name": "src/PE/signature/ContentInfo.cpp"
+                },
+                {
+                    "@type": "item",
+                    "name": "include/LIEF/visitor_macros.hpp"
+                },
+                {
+                    "@type": "item",
+                    "name": "include/LIEF/PE/DataDirectory.hpp"
+                },
+                {
+                    "@type": "item",
+                    "name": "src/PE/DataDirectory.cpp"
+                },
+                {
+                    "@type": "item",
+                    "name": "include/LIEF/PE/signature/x509.hpp"
+                },
+                {
+                    "@type": "item",
+                    "name": "include/LIEF/PE/resources/ResourceVarFileInfo.hpp"
+                },
+                {
+                    "@type": "item",
+                    "name": "src/PE/resources/ResourceVarFileInfo.cpp"
+                },
+                {
+                    "@type": "item",
+                    "name": "include/LIEF/PE/ResourceDirectory.hpp"
+                },
+                {
+                    "@type": "item",
+                    "name": "src/PE/ResourceDirectory.cpp"
+                },
+                {
+                    "@type": "item",
+                    "name": "include/LIEF/PE/resources/ResourceStringTable.hpp"
+                },
+                {
+                    "@type": "item",
+                    "name": "src/PE/resources/ResourceStringTable.cpp"
+                },
+                {
+                    "@type": "item",
+                    "name": "include/LIEF/PE/Import.hpp"
+                },
+                {
+                    "@type": "item",
+                    "name": "src/PE/Import.cpp"
+                },
+                {
+                    "@type": "item",
+                    "name": "include/LIEF/PE/resources/ResourceIcon.hpp"
+                },
+                {
+                    "@type": "item",
+                    "name": "src/PE/resources/ResourceIcon.cpp"
+                },
+                {
+                    "@type": "item",
+                    "name": "include/LIEF/PE/signature/attributes/PKCS9CounterSignature.hpp"
+                },
+                {
+                    "@type": "item",
+                    "name": "src/PE/signature/attributes/PKCS9CounterSignature.cpp"
+                },
+                {
+                    "@type": "item",
+                    "name": "include/LIEF/PE/Export.hpp"
+                },
+                {
+                    "@type": "item",
+                    "name": "src/PE/Export.cpp"
+                },
+                {
+                    "@type": "item",
+                    "name": "include/LIEF/PE/resources/ResourceFixedFileInfo.hpp"
+                },
+                {
+                    "@type": "item",
+                    "name": "src/PE/resources/ResourceFixedFileInfo.cpp"
+                },
+                {
+                    "@type": "item",
+                    "name": "include/LIEF/PE/CodeView.hpp"
+                },
+                {
+                    "@type": "item",
+                    "name": "src/PE/CodeView.cpp"
+                },
+                {
+                    "@type": "item",
+                    "name": "src/PE/ResourcesParser.hpp"
+                },
+                {
+                    "@type": "item",
+                    "name": "src/PE/ResourcesParser.cpp"
+                },
+                {
+                    "@type": "item",
+                    "name": "src/PE/Structures.hpp"
+                },
+                {
+                    "@type": "item",
+                    "name": "include/LIEF/PE/enums.hpp"
+                },
+                {
+                    "@type": "item",
+                    "name": "src/PE/signature/x509.cpp"
+                },
+                {
+                    "@type": "item",
+                    "name": "include/LIEF/PE/signature/attributes/MsSpcNestedSignature.hpp"
+                },
+                {
+                    "@type": "item",
+                    "name": "src/PE/signature/attributes/MsSpcNestedSignature.cpp"
+                },
+                {
+                    "@type": "item",
+                    "name": "include/LIEF/iterators.hpp"
+                },
+                {
+                    "@type": "item",
+                    "name": "include/LIEF/MachO/undef.h"
+                },
+                {
+                    "@type": "item",
+                    "name": "include/LIEF/PE/RelocationEntry.hpp"
+                },
+                {
+                    "@type": "item",
+                    "name": "src/PE/RelocationEntry.cpp"
+                },
+                {
+                    "@type": "item",
+                    "name": "include/LIEF/PE/resources/ResourceDialogItem.hpp"
+                },
+                {
+                    "@type": "item",
+                    "name": "src/PE/resources/ResourceDialogItem.cpp"
+                },
+                {
+                    "@type": "item",
+                    "name": "include/LIEF/PE/CodeIntegrity.hpp"
+                },
+                {
+                    "@type": "item",
+                    "name": "src/PE/CodeIntegrity.cpp"
+                },
+                {
+                    "@type": "item",
+                    "name": "include/LIEF/PE/utils.hpp"
+                },
+                {
+                    "@type": "item",
+                    "name": "src/PE/utils.cpp"
+                },
+                {
+                    "@type": "item",
+                    "name": "include/LIEF/visibility.h"
+                },
+                {
+                    "@type": "item",
+                    "name": "include/LIEF/PE.hpp"
+                },
+                {
+                    "@type": "item",
+                    "name": "include/LIEF/associative_iterators.hpp"
+                },
+                {
+                    "@type": "item",
+                    "name": "include/LIEF/PE/signature/RsaInfo.hpp"
+                },
+                {
+                    "@type": "item",
+                    "name": "src/PE/signature/RsaInfo.cpp"
+                },
+                {
+                    "@type": "item",
+                    "name": "include/LIEF/PE/signature/attributes/PKCS9MessageDigest.hpp"
+                },
+                {
+                    "@type": "item",
+                    "name": "src/PE/signature/attributes/PKCS9MessageDigest.cpp"
+                },
+                {
+                    "@type": "item",
+                    "name": "include/LIEF/PE/OptionalHeader.hpp"
+                },
+                {
+                    "@type": "item",
+                    "name": "src/PE/OptionalHeader.cpp"
+                },
+                {
+                    "@type": "item",
+                    "name": "include/LIEF/PE/CodeViewPDB.hpp"
+                },
+                {
+                    "@type": "item",
+                    "name": "src/PE/CodeViewPDB.cpp"
+                },
+                {
+                    "@type": "item",
+                    "name": "include/LIEF/PE/signature/types.hpp"
+                },
+                {
+                    "@type": "item",
+                    "name": "include/LIEF/PE/LoadConfigurations/LoadConfigurationV0.hpp"
+                },
+                {
+                    "@type": "item",
+                    "name": "src/PE/LoadConfigurations/LoadConfigurationV0.cpp"
+                },
+                {
+                    "@type": "item",
+                    "name": "include/LIEF/PE/Binary.hpp"
+                },
+                {
+                    "@type": "item",
+                    "name": "src/PE/Binary.cpp"
+                },
+                {
+                    "@type": "item",
+                    "name": "include/LIEF/PE/LoadConfigurations/LoadConfigurationV8.hpp"
+                },
+                {
+                    "@type": "item",
+                    "name": "src/PE/LoadConfigurations/LoadConfigurationV8.cpp"
+                },
+                {
+                    "@type": "item",
+                    "name": "include/LIEF/PE/LoadConfigurations/LoadConfigurationV3.hpp"
+                },
+                {
+                    "@type": "item",
+                    "name": "src/PE/LoadConfigurations/LoadConfigurationV3.cpp"
+                },
+                {
+                    "@type": "item",
+                    "name": "include/LIEF/PE/LoadConfigurations/LoadConfigurationV5.hpp"
+                },
+                {
+                    "@type": "item",
+                    "name": "src/PE/LoadConfigurations/LoadConfigurationV5.cpp"
+                },
+                {
+                    "@type": "item",
+                    "name": "include/LIEF/PE/ResourceNode.hpp"
+                },
+                {
+                    "@type": "item",
+                    "name": "src/PE/ResourceNode.cpp"
+                },
+                {
+                    "@type": "item",
+                    "name": "include/LIEF/PE/LoadConfigurations/LoadConfigurationV1.hpp"
+                },
+                {
+                    "@type": "item",
+                    "name": "src/PE/LoadConfigurations/LoadConfigurationV1.cpp"
+                },
+                {
+                    "@type": "item",
+                    "name": "include/LIEF/PE/LoadConfigurations/LoadConfigurationV7.hpp"
+                },
+                {
+                    "@type": "item",
+                    "name": "src/PE/LoadConfigurations/LoadConfigurationV7.cpp"
+                },
+                {
+                    "@type": "item",
+                    "name": "include/LIEF/PE/LoadConfigurations/LoadConfigurationV6.hpp"
+                },
+                {
+                    "@type": "item",
+                    "name": "src/PE/LoadConfigurations/LoadConfigurationV6.cpp"
+                },
+                {
+                    "@type": "item",
+                    "name": "include/LIEF/PE/LoadConfigurations/LoadConfigurationV2.hpp"
+                },
+                {
+                    "@type": "item",
+                    "name": "src/PE/LoadConfigurations/LoadConfigurationV2.cpp"
+                },
+                {
+                    "@type": "item",
+                    "name": "include/LIEF/PE/signature/attributes/ContentType.hpp"
+                },
+                {
+                    "@type": "item",
+                    "name": "src/PE/signature/attributes/ContentType.cpp"
+                }
+            ]
+        },
+        {
+            "@type": "group",
+            "name": "1",
+            "nested": [
+                {
+                    "@type": "item",
+                    "name": "include/LIEF/MachO/RPathCommand.hpp"
+                },
+                {
+                    "@type": "item",
+                    "name": "src/MachO/RPathCommand.cpp"
+                },
+                {
+                    "@type": "item",
+                    "name": "include/LIEF/json.hpp"
+                },
+                {
+                    "@type": "item",
+                    "name": "src/json_api.cpp"
+                },
+                {
+                    "@type": "item",
+                    "name": "include/LIEF/MachO/RelocationFixup.hpp"
+                },
+                {
+                    "@type": "item",
+                    "name": "src/MachO/RelocationFixup.cpp"
+                },
+                {
+                    "@type": "item",
+                    "name": "include/LIEF/ELF/json.hpp"
+                },
+                {
+                    "@type": "item",
+                    "name": "include/LIEF/MachO/Header.hpp"
+                },
+                {
+                    "@type": "item",
+                    "name": "src/MachO/Header.cpp"
+                },
+                {
+                    "@type": "item",
+                    "name": "include/LIEF/MachO/EncryptionInfo.hpp"
+                },
+                {
+                    "@type": "item",
+                    "name": "src/MachO/EncryptionInfo.cpp"
+                },
+                {
+                    "@type": "item",
+                    "name": "include/LIEF/BinaryStream/FileStream.hpp"
+                },
+                {
+                    "@type": "item",
+                    "name": "src/BinaryStream/FileStream.cpp"
+                },
+                {
+                    "@type": "item",
+                    "name": "include/LIEF/PE/signature/attributes/PKCS9SigningTime.hpp"
+                },
+                {
+                    "@type": "item",
+                    "name": "src/PE/signature/attributes/PKCS9SigningTime.cpp"
+                },
+                {
+                    "@type": "item",
+                    "name": "include/LIEF/MachO/DylibCommand.hpp"
+                },
+                {
+                    "@type": "item",
+                    "name": "src/MachO/DylibCommand.cpp"
+                },
+                {
+                    "@type": "item",
+                    "name": "src/MachO/TrieNode.hpp"
+                },
+                {
+                    "@type": "item",
+                    "name": "src/MachO/TrieNode.cpp"
+                },
+                {
+                    "@type": "item",
+                    "name": "include/LIEF/Abstract/Relocation.hpp"
+                },
+                {
+                    "@type": "item",
+                    "name": "src/Abstract/Relocation.cpp"
+                },
+                {
+                    "@type": "item",
+                    "name": "include/LIEF/MachO/DyldExportsTrie.hpp"
+                },
+                {
+                    "@type": "item",
+                    "name": "src/MachO/DyldExportsTrie.cpp"
+                },
+                {
+                    "@type": "item",
+                    "name": "include/LIEF/MachO/BuildVersion.hpp"
+                },
+                {
+                    "@type": "item",
+                    "name": "src/MachO/BuildVersion.cpp"
+                },
+                {
+                    "@type": "item",
+                    "name": "src/BinaryStream/intmem.h"
+                },
+                {
+                    "@type": "item",
+                    "name": "include/LIEF/MachO/DyldChainedFixups.hpp"
+                },
+                {
+                    "@type": "item",
+                    "name": "src/MachO/DyldChainedFixups.cpp"
+                },
+                {
+                    "@type": "item",
+                    "name": "include/LIEF/MachO/DataInCode.hpp"
+                },
+                {
+                    "@type": "item",
+                    "name": "src/MachO/DataInCode.cpp"
+                },
+                {
+                    "@type": "item",
+                    "name": "include/LIEF/MachO/TwoLevelHints.hpp"
+                },
+                {
+                    "@type": "item",
+                    "name": "src/MachO/TwoLevelHints.cpp"
+                },
+                {
+                    "@type": "item",
+                    "name": "include/LIEF/to_json.hpp"
+                },
+                {
+                    "@type": "item",
+                    "name": "include/LIEF/MachO/ParserConfig.hpp"
+                },
+                {
+                    "@type": "item",
+                    "name": "src/MachO/ParserConfig.cpp"
+                },
+                {
+                    "@type": "item",
+                    "name": "include/LIEF/BinaryStream/SpanStream.hpp"
+                },
+                {
+                    "@type": "item",
+                    "name": "src/BinaryStream/SpanStream.cpp"
+                },
+                {
+                    "@type": "item",
+                    "name": "include/LIEF/MachO/FunctionStarts.hpp"
+                },
+                {
+                    "@type": "item",
+                    "name": "src/MachO/FunctionStarts.cpp"
+                },
+                {
+                    "@type": "item",
+                    "name": "include/LIEF/MachO/UUIDCommand.hpp"
+                },
+                {
+                    "@type": "item",
+                    "name": "src/MachO/UUIDCommand.cpp"
+                },
+                {
+                    "@type": "item",
+                    "name": "include/LIEF/MachO/DylinkerCommand.hpp"
+                },
+                {
+                    "@type": "item",
+                    "name": "src/MachO/DylinkerCommand.cpp"
+                },
+                {
+                    "@type": "item",
+                    "name": "include/LIEF/PE/signature/attributes/PKCS9AtSequenceNumber.hpp"
+                },
+                {
+                    "@type": "item",
+                    "name": "src/PE/signature/attributes/PKCS9AtSequenceNumber.cpp"
+                },
+                {
+                    "@type": "item",
+                    "name": "src/BinaryStream/Convert.cpp"
+                },
+                {
+                    "@type": "item",
+                    "name": "include/LIEF/MachO/SymbolCommand.hpp"
+                },
+                {
+                    "@type": "item",
+                    "name": "src/MachO/SymbolCommand.cpp"
+                },
+                {
+                    "@type": "item",
+                    "name": "include/LIEF/MachO/ThreadCommand.hpp"
+                },
+                {
+                    "@type": "item",
+                    "name": "src/MachO/ThreadCommand.cpp"
+                },
+                {
+                    "@type": "item",
+                    "name": "include/LIEF/BinaryStream/MemoryStream.hpp"
+                },
+                {
+                    "@type": "item",
+                    "name": "src/BinaryStream/MemoryStream.cpp"
+                },
+                {
+                    "@type": "item",
+                    "name": "include/LIEF/MachO/hash.hpp"
+                },
+                {
+                    "@type": "item",
+                    "name": "src/MachO/hash.cpp"
+                },
+                {
+                    "@type": "item",
+                    "name": "include/LIEF/errors.hpp"
+                },
+                {
+                    "@type": "item",
+                    "name": "src/errors.cpp"
+                },
+                {
+                    "@type": "item",
+                    "name": "include/LIEF/MachO/RelocationObject.hpp"
+                },
+                {
+                    "@type": "item",
+                    "name": "src/MachO/RelocationObject.cpp"
+                },
+                {
+                    "@type": "item",
+                    "name": "include/LIEF/MachO/LinkEdit.hpp"
+                },
+                {
+                    "@type": "item",
+                    "name": "src/MachO/LinkEdit.cpp"
+                },
+                {
+                    "@type": "item",
+                    "name": "include/LIEF/BinaryStream/VectorStream.hpp"
+                },
+                {
+                    "@type": "item",
+                    "name": "src/BinaryStream/VectorStream.cpp"
+                },
+                {
+                    "@type": "item",
+                    "name": "include/LIEF/MachO/Parser.hpp"
+                },
+                {
+                    "@type": "item",
+                    "name": "src/MachO/Parser.cpp"
+                },
+                {
+                    "@type": "item",
+                    "name": "include/LIEF/MachO/CodeSignature.hpp"
+                },
+                {
+                    "@type": "item",
+                    "name": "src/MachO/CodeSignature.cpp"
+                },
+                {
+                    "@type": "item",
+                    "name": "include/LIEF/logging.hpp"
+                },
+                {
+                    "@type": "item",
+                    "name": "src/logging.hpp"
+                },
+                {
+                    "@type": "item",
+                    "name": "src/logging.cpp"
+                },
+                {
+                    "@type": "item",
+                    "name": "include/LIEF/span.hpp"
+                },
+                {
+                    "@type": "item",
+                    "name": "include/LIEF/MachO.hpp"
+                },
+                {
+                    "@type": "item",
+                    "name": "include/LIEF/third-party/expected.hpp"
+                },
+                {
+                    "@type": "item",
+                    "name": "include/LIEF/MachO/RelocationDyld.hpp"
+                },
+                {
+                    "@type": "item",
+                    "name": "src/MachO/RelocationDyld.cpp"
+                },
+                {
+                    "@type": "item",
+                    "name": "include/LIEF/MachO/EnumToString.hpp"
+                },
+                {
+                    "@type": "item",
+                    "name": "src/MachO/EnumToString.cpp"
+                },
+                {
+                    "@type": "item",
+                    "name": "include/LIEF/MachO/Relocation.hpp"
+                },
+                {
+                    "@type": "item",
+                    "name": "src/MachO/Relocation.cpp"
+                },
+                {
+                    "@type": "item",
+                    "name": "include/LIEF/MachO/ChainedBindingInfo.hpp"
+                },
+                {
+                    "@type": "item",
+                    "name": "src/MachO/ChainedBindingInfo.cpp"
+                },
+                {
+                    "@type": "item",
+                    "name": "include/LIEF/MachO/VersionMin.hpp"
+                },
+                {
+                    "@type": "item",
+                    "name": "src/MachO/VersionMin.cpp"
+                },
+                {
+                    "@type": "item",
+                    "name": "include/LIEF/MachO/CodeSignatureDir.hpp"
+                },
+                {
+                    "@type": "item",
+                    "name": "src/MachO/CodeSignatureDir.cpp"
+                },
+                {
+                    "@type": "item",
+                    "name": "include/LIEF/MachO/SegmentCommand.hpp"
+                },
+                {
+                    "@type": "item",
+                    "name": "src/MachO/SegmentCommand.cpp"
+                },
+                {
+                    "@type": "item",
+                    "name": "include/LIEF/types.hpp"
+                },
+                {
+                    "@type": "item",
+                    "name": "include/LIEF/BinaryStream/Convert.hpp"
+                },
+                {
+                    "@type": "item",
+                    "name": "include/LIEF/MachO/SourceVersion.hpp"
+                },
+                {
+                    "@type": "item",
+                    "name": "src/MachO/SourceVersion.cpp"
+                },
+                {
+                    "@type": "item",
+                    "name": "include/LIEF/MachO/Section.hpp"
+                },
+                {
+                    "@type": "item",
+                    "name": "src/MachO/Section.cpp"
+                },
+                {
+                    "@type": "item",
+                    "name": "src/MachO/exports_trie.hpp"
+                },
+                {
+                    "@type": "item",
+                    "name": "src/MachO/exports_trie.cpp"
+                },
+                {
+                    "@type": "item",
+                    "name": "include/LIEF/MachO/FilesetCommand.hpp"
+                },
+                {
+                    "@type": "item",
+                    "name": "src/MachO/FilesetCommand.cpp"
+                },
+                {
+                    "@type": "item",
+                    "name": "include/LIEF/MachO/enums.hpp"
+                },
+                {
+                    "@type": "item",
+                    "name": "include/LIEF/MachO/SegmentSplitInfo.hpp"
+                },
+                {
+                    "@type": "item",
+                    "name": "src/MachO/SegmentSplitInfo.cpp"
+                },
+                {
+                    "@type": "item",
+                    "name": "include/LIEF/MachO/utils.hpp"
+                },
+                {
+                    "@type": "item",
+                    "name": "src/MachO/utils.cpp"
+                },
+                {
+                    "@type": "item",
+                    "name": "include/LIEF/MachO/DyldEnvironment.hpp"
+                },
+                {
+                    "@type": "item",
+                    "name": "src/MachO/DyldEnvironment.cpp"
+                },
+                {
+                    "@type": "item",
+                    "name": "include/LIEF/MachO/Binary.hpp"
+                },
+                {
+                    "@type": "item",
+                    "name": "src/MachO/Binary.cpp"
+                },
+                {
+                    "@type": "item",
+                    "name": "include/LIEF/MachO/LinkerOptHint.hpp"
+                },
+                {
+                    "@type": "item",
+                    "name": "src/MachO/LinkerOptHint.cpp"
+                },
+                {
+                    "@type": "item",
+                    "name": "include/LIEF/Abstract/json.hpp"
+                },
+                {
+                    "@type": "item",
+                    "name": "src/Abstract/json_api.cpp"
+                },
+                {
+                    "@type": "item",
+                    "name": "include/LIEF/iostream.hpp"
+                },
+                {
+                    "@type": "item",
+                    "name": "src/iostream.cpp"
+                },
+                {
+                    "@type": "item",
+                    "name": "src/MachO/ChainedBindingInfoList.hpp"
+                },
+                {
+                    "@type": "item",
+                    "name": "src/MachO/ChainedBindingInfoList.cpp"
+                },
+                {
+                    "@type": "item",
+                    "name": "include/LIEF/MachO/MainCommand.hpp"
+                },
+                {
+                    "@type": "item",
+                    "name": "src/MachO/MainCommand.cpp"
+                },
+                {
+                    "@type": "item",
+                    "name": "src/hash_stream.hpp"
+                },
+                {
+                    "@type": "item",
+                    "name": "src/hash_stream.cpp"
+                },
+                {
+                    "@type": "item",
+                    "name": "include/LIEF/MachO/BinaryParser.hpp"
+                },
+                {
+                    "@type": "item",
+                    "name": "src/MachO/BinaryParser.cpp"
+                },
+                {
+                    "@type": "item",
+                    "name": "include/LIEF/MachO/DataCodeEntry.hpp"
+                },
+                {
+                    "@type": "item",
+                    "name": "src/MachO/DataCodeEntry.cpp"
+                },
+                {
+                    "@type": "item",
+                    "name": "src/MachO/json_internal.hpp"
+                },
+                {
+                    "@type": "item",
+                    "name": "src/MachO/json.cpp"
+                },
+                {
+                    "@type": "item",
+                    "name": "include/LIEF/BinaryStream/BinaryStream.hpp"
+                },
+                {
+                    "@type": "item",
+                    "name": "src/BinaryStream/BinaryStream.cpp"
+                },
+                {
+                    "@type": "item",
+                    "name": "include/LIEF/MachO/Symbol.hpp"
+                },
+                {
+                    "@type": "item",
+                    "name": "src/MachO/Symbol.cpp"
+                },
+                {
+                    "@type": "item",
+                    "name": "src/MachO/Structures.hpp"
+                },
+                {
+                    "@type": "item",
+                    "name": "include/LIEF/MachO/json.hpp"
+                },
+                {
+                    "@type": "item",
+                    "name": "src/MachO/json_api.cpp"
+                },
+                {
+                    "@type": "item",
+                    "name": "include/LIEF/MachO/ExportInfo.hpp"
+                },
+                {
+                    "@type": "item",
+                    "name": "src/MachO/ExportInfo.cpp"
+                },
+                {
+                    "@type": "item",
+                    "name": "include/LIEF/MachO/DyldInfo.hpp"
+                },
+                {
+                    "@type": "item",
+                    "name": "src/MachO/DyldInfo.cpp"
+                },
+                {
+                    "@type": "item",
+                    "name": "include/LIEF/MachO/type_traits.hpp"
+                },
+                {
+                    "@type": "item",
+                    "name": "include/LIEF/MachO/DynamicSymbolCommand.hpp"
+                },
+                {
+                    "@type": "item",
+                    "name": "src/MachO/DynamicSymbolCommand.cpp"
+                },
+                {
+                    "@type": "item",
+                    "name": "include/LIEF/MachO/BindingInfo.hpp"
+                },
+                {
+                    "@type": "item",
+                    "name": "src/MachO/BindingInfo.cpp"
+                },
+                {
+                    "@type": "item",
+                    "name": "include/LIEF/MachO/SubFramework.hpp"
+                },
+                {
+                    "@type": "item",
+                    "name": "src/MachO/SubFramework.cpp"
+                },
+                {
+                    "@type": "item",
+                    "name": "include/LIEF/MachO/DyldBindingInfo.hpp"
+                },
+                {
+                    "@type": "item",
+                    "name": "src/MachO/DyldBindingInfo.cpp"
+                },
+                {
+                    "@type": "item",
+                    "name": "src/internal_utils.hpp"
+                },
+                {
+                    "@type": "item",
+                    "name": "src/internal_utils.cpp"
+                },
+                {
+                    "@type": "item",
+                    "name": "src/MachO/ChainedFixup.hpp"
+                },
+                {
+                    "@type": "item",
+                    "name": "src/MachO/ChainedFixup.cpp"
+                },
+                {
+                    "@type": "item",
+                    "name": "include/LIEF/MachO/FatBinary.hpp"
+                },
+                {
+                    "@type": "item",
+                    "name": "src/MachO/FatBinary.cpp"
+                },
+                {
+                    "@type": "item",
+                    "name": "include/LIEF/MachO/LoadCommand.hpp"
+                },
+                {
+                    "@type": "item",
+                    "name": "src/MachO/LoadCommand.cpp"
+                },
+                {
+                    "@type": "item",
+                    "name": "include/LIEF/MachO/Builder.hpp"
+                },
+                {
+                    "@type": "item",
+                    "name": "src/MachO/Builder.cpp"
+                },
+                {
+                    "@type": "item",
+                    "name": "include/LIEF/Abstract/Function.hpp"
+                },
+                {
+                    "@type": "item",
+                    "name": "src/Abstract/Function.cpp"
+                }
+            ]
+        },
+        {
+            "@type": "group",
+            "name": "2",
+            "nested": [
+                {
+                    "@type": "item",
+                    "name": "include/LIEF/Abstract/enums.hpp"
+                },
+                {
+                    "@type": "item",
+                    "name": "include/LIEF/Abstract/Section.hpp"
+                },
+                {
+                    "@type": "item",
+                    "name": "src/Abstract/Section.cpp"
+                },
+                {
+                    "@type": "item",
+                    "name": "include/LIEF/DEX/File.hpp"
+                },
+                {
+                    "@type": "item",
+                    "name": "src/DEX/File.cpp"
+                },
+                {
+                    "@type": "item",
+                    "name": "include/LIEF/DEX/json.hpp"
+                },
+                {
+                    "@type": "item",
+                    "name": "src/DEX/json_api.cpp"
+                },
+                {
+                    "@type": "item",
+                    "name": "include/LIEF/DEX/Type.hpp"
+                },
+                {
+                    "@type": "item",
+                    "name": "src/DEX/Type.cpp"
+                },
+                {
+                    "@type": "item",
+                    "name": "include/LIEF/VDEX/json.hpp"
+                },
+                {
+                    "@type": "item",
+                    "name": "src/VDEX/json_api.cpp"
+                },
+                {
+                    "@type": "item",
+                    "name": "include/LIEF/DEX/Parser.hpp"
+                },
+                {
+                    "@type": "item",
+                    "name": "src/DEX/Parser.cpp"
+                },
+                {
+                    "@type": "item",
+                    "name": "include/LIEF/Abstract/Parser.hpp"
+                },
+                {
+                    "@type": "item",
+                    "name": "src/Abstract/Parser.cpp"
+                },
+                {
+                    "@type": "item",
+                    "name": "include/LIEF/DEX.hpp"
+                },
+                {
+                    "@type": "item",
+                    "name": "include/LIEF/Visitor.hpp"
+                },
+                {
+                    "@type": "item",
+                    "name": "src/Visitor.cpp"
+                },
+                {
+                    "@type": "item",
+                    "name": "include/LIEF/ART/java_structures.hpp"
+                },
+                {
+                    "@type": "item",
+                    "name": "include/LIEF/DEX/Prototype.hpp"
+                },
+                {
+                    "@type": "item",
+                    "name": "src/DEX/Prototype.cpp"
+                },
+                {
+                    "@type": "item",
+                    "name": "include/LIEF/DEX/MapItem.hpp"
+                },
+                {
+                    "@type": "item",
+                    "name": "src/DEX/MapItem.cpp"
+                },
+                {
+                    "@type": "item",
+                    "name": "include/LIEF/OAT/DexFile.hpp"
+                },
+                {
+                    "@type": "item",
+                    "name": "src/OAT/DexFile.cpp"
+                },
+                {
+                    "@type": "item",
+                    "name": "include/LIEF/OAT/hash.hpp"
+                },
+                {
+                    "@type": "item",
+                    "name": "src/OAT/hash.cpp"
+                },
+                {
+                    "@type": "item",
+                    "name": "include/LIEF/ART/hash.hpp"
+                },
+                {
+                    "@type": "item",
+                    "name": "src/ART/hash.cpp"
+                },
+                {
+                    "@type": "item",
+                    "name": "include/LIEF/platforms/android.hpp"
+                },
+                {
+                    "@type": "item",
+                    "name": "include/LIEF/OAT/utils.hpp"
+                },
+                {
+                    "@type": "item",
+                    "name": "src/OAT/utils.cpp"
+                },
+                {
+                    "@type": "item",
+                    "name": "src/VDEX/Structures.hpp"
+                },
+                {
+                    "@type": "item",
+                    "name": "include/LIEF/ART/Parser.hpp"
+                },
+                {
+                    "@type": "item",
+                    "name": "src/ART/Parser.cpp"
+                },
+                {
+                    "@type": "item",
+                    "name": "include/LIEF/ART/Header.hpp"
+                },
+                {
+                    "@type": "item",
+                    "name": "src/ART/Header.cpp"
+                },
+                {
+                    "@type": "item",
+                    "name": "include/LIEF/DEX/Method.hpp"
+                },
+                {
+                    "@type": "item",
+                    "name": "src/DEX/Method.cpp"
+                },
+                {
+                    "@type": "item",
+                    "name": "include/LIEF/VDEX/hash.hpp"
+                },
+                {
+                    "@type": "item",
+                    "name": "src/VDEX/hash.cpp"
+                },
+                {
+                    "@type": "item",
+                    "name": "include/LIEF/DEX/EnumToString.hpp"
+                },
+                {
+                    "@type": "item",
+                    "name": "src/DEX/EnumToString.cpp"
+                },
+                {
+                    "@type": "item",
+                    "name": "include/LIEF/ART/EnumToString.hpp"
+                },
+                {
+                    "@type": "item",
+                    "name": "src/ART/EnumToString.cpp"
+                },
+                {
+                    "@type": "item",
+                    "name": "src/OAT/json_internal.hpp"
+                },
+                {
+                    "@type": "item",
+                    "name": "src/OAT/json.cpp"
+                },
+                {
+                    "@type": "item",
+                    "name": "include/LIEF/DEX/utils.hpp"
+                },
+                {
+                    "@type": "item",
+                    "name": "src/DEX/utils.cpp"
+                },
+                {
+                    "@type": "item",
+                    "name": "include/LIEF/DEX/deopt.hpp"
+                },
+                {
+                    "@type": "item",
+                    "name": "include/LIEF/DEX/hash.hpp"
+                },
+                {
+                    "@type": "item",
+                    "name": "src/DEX/hash.cpp"
+                },
+                {
+                    "@type": "item",
+                    "name": "include/LIEF/DEX/Header.hpp"
+                },
+                {
+                    "@type": "item",
+                    "name": "src/DEX/Header.cpp"
+                },
+                {
+                    "@type": "item",
+                    "name": "include/LIEF/OAT/Method.hpp"
+                },
+                {
+                    "@type": "item",
+                    "name": "src/OAT/Method.cpp"
+                },
+                {
+                    "@type": "item",
+                    "name": "include/LIEF/ART/types.hpp"
+                },
+                {
+                    "@type": "item",
+                    "name": "include/LIEF/hash.hpp"
+                },
+                {
+                    "@type": "item",
+                    "name": "src/visitors/hash.cpp"
+                },
+                {
+                    "@type": "item",
+                    "name": "include/LIEF/DEX/Class.hpp"
+                },
+                {
+                    "@type": "item",
+                    "name": "src/DEX/Class.cpp"
+                },
+                {
+                    "@type": "item",
+                    "name": "src/ART/json_internal.hpp"
+                },
+                {
+                    "@type": "item",
+                    "name": "src/ART/json.cpp"
+                },
+                {
+                    "@type": "item",
+                    "name": "include/LIEF/Abstract/EnumToString.hpp"
+                },
+                {
+                    "@type": "item",
+                    "name": "src/Abstract/EnumToString.cpp"
+                },
+                {
+                    "@type": "item",
+                    "name": "include/LIEF/ART/enums.hpp"
+                },
+                {
+                    "@type": "item",
+                    "name": "include/LIEF/OAT.hpp"
+                },
+                {
+                    "@type": "item",
+                    "name": "include/LIEF/VDEX/Parser.hpp"
+                },
+                {
+                    "@type": "item",
+                    "name": "src/VDEX/Parser.cpp"
+                },
+                {
+                    "@type": "item",
+                    "name": "include/LIEF/Abstract/hash.hpp"
+                },
+                {
+                    "@type": "item",
+                    "name": "src/Abstract/hash.cpp"
+                },
+                {
+                    "@type": "item",
+                    "name": "include/LIEF/OAT/Binary.hpp"
+                },
+                {
+                    "@type": "item",
+                    "name": "src/OAT/Binary.cpp"
+                },
+                {
+                    "@type": "item",
+                    "name": "include/LIEF/OAT/EnumToString.hpp"
+                },
+                {
+                    "@type": "item",
+                    "name": "src/OAT/EnumToString.cpp"
+                },
+                {
+                    "@type": "item",
+                    "name": "src/OAT/Structures.hpp"
+                },
+                {
+                    "@type": "item",
+                    "name": "src/ART/Structures.cpp"
+                },
+                {
+                    "@type": "item",
+                    "name": "include/LIEF/VDEX/Header.hpp"
+                },
+                {
+                    "@type": "item",
+                    "name": "src/VDEX/Header.cpp"
+                },
+                {
+                    "@type": "item",
+                    "name": "include/LIEF/VDEX/type_traits.hpp"
+                },
+                {
+                    "@type": "item",
+                    "name": "include/LIEF/DEX/MapList.hpp"
+                },
+                {
+                    "@type": "item",
+                    "name": "src/DEX/MapList.cpp"
+                },
+                {
+                    "@type": "item",
+                    "name": "src/VDEX/json_internal.hpp"
+                },
+                {
+                    "@type": "item",
+                    "name": "src/VDEX/json.cpp"
+                },
+                {
+                    "@type": "item",
+                    "name": "include/LIEF/VDEX/File.hpp"
+                },
+                {
+                    "@type": "item",
+                    "name": "src/VDEX/File.cpp"
+                },
+                {
+                    "@type": "item",
+                    "name": "include/LIEF/enums.hpp"
+                },
+                {
+                    "@type": "item",
+                    "name": "include/LIEF/OAT/type_traits.hpp"
+                },
+                {
+                    "@type": "item",
+                    "name": "include/LIEF/ART/utils.hpp"
+                },
+                {
+                    "@type": "item",
+                    "name": "src/ART/utils.cpp"
+                },
+                {
+                    "@type": "item",
+                    "name": "src/Abstract/json_internal.hpp"
+                },
+                {
+                    "@type": "item",
+                    "name": "src/Abstract/json.cpp"
+                },
+                {
+                    "@type": "item",
+                    "name": "include/LIEF/ART.hpp"
+                },
+                {
+                    "@type": "item",
+                    "name": "include/LIEF/OAT/json.hpp"
+                },
+                {
+                    "@type": "item",
+                    "name": "src/OAT/json_api.cpp"
+                },
+                {
+                    "@type": "item",
+                    "name": "include/LIEF/DEX/Field.hpp"
+                },
+                {
+                    "@type": "item",
+                    "name": "src/DEX/Field.cpp"
+                },
+                {
+                    "@type": "item",
+                    "name": "include/LIEF/LIEF.hpp"
+                },
+                {
+                    "@type": "item",
+                    "name": "include/LIEF/ART/File.hpp"
+                },
+                {
+                    "@type": "item",
+                    "name": "src/ART/File.cpp"
+                },
+                {
+                    "@type": "item",
+                    "name": "include/LIEF/OAT/Parser.hpp"
+                },
+                {
+                    "@type": "item",
+                    "name": "src/OAT/Parser.cpp"
+                },
+                {
+                    "@type": "item",
+                    "name": "src/ART/Structures.hpp"
+                },
+                {
+                    "@type": "item",
+                    "name": "include/LIEF/OAT/enums.hpp"
+                },
+                {
+                    "@type": "item",
+                    "name": "src/DEX/Structures.hpp"
+                },
+                {
+                    "@type": "item",
+                    "name": "include/LIEF/VDEX/utils.hpp"
+                },
+                {
+                    "@type": "item",
+                    "name": "src/VDEX/utils.cpp"
+                },
+                {
+                    "@type": "item",
+                    "name": "include/LIEF/OAT/Header.hpp"
+                },
+                {
+                    "@type": "item",
+                    "name": "src/OAT/Header.cpp"
+                },
+                {
+                    "@type": "item",
+                    "name": "include/LIEF/Abstract.hpp"
+                },
+                {
+                    "@type": "item",
+                    "name": "include/LIEF/DEX/types.hpp"
+                },
+                {
+                    "@type": "item",
+                    "name": "include/LIEF/ART/json.hpp"
+                },
+                {
+                    "@type": "item",
+                    "name": "src/ART/json_api.cpp"
+                },
+                {
+                    "@type": "item",
+                    "name": "include/LIEF/Abstract/Header.hpp"
+                },
+                {
+                    "@type": "item",
+                    "name": "src/Abstract/Header.cpp"
+                },
+                {
+                    "@type": "item",
+                    "name": "include/LIEF/OAT/Class.hpp"
+                },
+                {
+                    "@type": "item",
+                    "name": "src/OAT/Class.cpp"
+                },
+                {
+                    "@type": "item",
+                    "name": "include/LIEF/PE/ParserConfig.hpp"
+                },
+                {
+                    "@type": "item",
+                    "name": "include/LIEF/DEX/instructions.hpp"
+                },
+                {
+                    "@type": "item",
+                    "name": "src/DEX/instructions.cpp"
+                },
+                {
+                    "@type": "item",
+                    "name": "include/LIEF/DEX/enums.hpp"
+                },
+                {
+                    "@type": "item",
+                    "name": "include/LIEF/ELF/ParserConfig.hpp"
+                },
+                {
+                    "@type": "item",
+                    "name": "include/LIEF/platforms/android/version.hpp"
+                },
+                {
+                    "@type": "item",
+                    "name": "src/platforms/android/version.cpp"
+                },
+                {
+                    "@type": "item",
+                    "name": "include/LIEF/VDEX.hpp"
+                },
+                {
+                    "@type": "item",
+                    "name": "src/DEX/json_internal.hpp"
+                },
+                {
+                    "@type": "item",
+                    "name": "src/DEX/json.cpp"
+                }
+            ]
+        },
+        {
+            "@type": "group",
+            "name": "3",
+            "nested": [
+                {
+                    "@type": "item",
+                    "name": "include/LIEF/ELF/DynamicEntryFlags.hpp"
+                },
+                {
+                    "@type": "item",
+                    "name": "src/ELF/DynamicEntryFlags.cpp"
+                },
+                {
+                    "@type": "item",
+                    "name": "src/ELF/notes_utils.hpp"
+                },
+                {
+                    "@type": "item",
+                    "name": "src/ELF/note_utils.cpp"
+                },
+                {
+                    "@type": "item",
+                    "name": "src/ELF/SizingInfo.hpp"
+                },
+                {
+                    "@type": "item",
+                    "name": "src/ELF/ObjectFileLayout.hpp"
+                },
+                {
+                    "@type": "item",
+                    "name": "include/LIEF/platforms.hpp"
+                },
+                {
+                    "@type": "item",
+                    "name": "src/ELF/Structures.hpp"
+                },
+                {
+                    "@type": "item",
+                    "name": "include/LIEF/ELF/Binary.hpp"
+                },
+                {
+                    "@type": "item",
+                    "name": "src/ELF/Binary.cpp"
+                },
+                {
+                    "@type": "item",
+                    "name": "include/LIEF/ELF/SysvHash.hpp"
+                },
+                {
+                    "@type": "item",
+                    "name": "src/ELF/SysvHash.cpp"
+                },
+                {
+                    "@type": "item",
+                    "name": "include/LIEF/ELF/Builder.hpp"
+                },
+                {
+                    "@type": "item",
+                    "name": "src/ELF/Builder.cpp"
+                },
+                {
+                    "@type": "item",
+                    "name": "include/LIEF/ELF/DynamicEntryLibrary.hpp"
+                },
+                {
+                    "@type": "item",
+                    "name": "src/ELF/DynamicEntryLibrary.cpp"
+                },
+                {
+                    "@type": "item",
+                    "name": "include/LIEF/ELF/Symbol.hpp"
+                },
+                {
+                    "@type": "item",
+                    "name": "src/ELF/Symbol.cpp"
+                },
+                {
+                    "@type": "item",
+                    "name": "include/LIEF/ELF/Note.hpp"
+                },
+                {
+                    "@type": "item",
+                    "name": "src/ELF/Note.cpp"
+                },
+                {
+                    "@type": "item",
+                    "name": "include/LIEF/ELF/SymbolVersionAuxRequirement.hpp"
+                },
+                {
+                    "@type": "item",
+                    "name": "src/ELF/SymbolVersionAuxRequirement.cpp"
+                },
+                {
+                    "@type": "item",
+                    "name": "include/LIEF/Abstract/Symbol.hpp"
+                },
+                {
+                    "@type": "item",
+                    "name": "src/Abstract/Symbol.cpp"
+                },
+                {
+                    "@type": "item",
+                    "name": "include/LIEF/ELF/NoteDetails/core/CorePrStatus.hpp"
+                },
+                {
+                    "@type": "item",
+                    "name": "src/ELF/EnumToString.cpp"
+                },
+                {
+                    "@type": "item",
+                    "name": "src/ELF/DataHandler/Handler.hpp"
+                },
+                {
+                    "@type": "item",
+                    "name": "src/ELF/DataHandler/Handler.cpp"
+                },
+                {
+                    "@type": "item",
+                    "name": "include/LIEF/ELF/DynamicEntryArray.hpp"
+                },
+                {
+                    "@type": "item",
+                    "name": "src/ELF/DynamicEntryArray.cpp"
+                },
+                {
+                    "@type": "item",
+                    "name": "include/LIEF/ELF/RelocationSizes.hpp"
+                },
+                {
+                    "@type": "item",
+                    "name": "src/ELF/RelocationSizes.cpp"
+                },
+                {
+                    "@type": "item",
+                    "name": "include/LIEF/ELF/NoteDetails/Core.hpp"
+                },
+                {
+                    "@type": "item",
+                    "name": "src/ELF/Layout.hpp"
+                },
+                {
+                    "@type": "item",
+                    "name": "src/ELF/Layout.cpp"
+                },
+                {
+                    "@type": "item",
+                    "name": "include/LIEF/ELF/SymbolVersionDefinition.hpp"
+                },
+                {
+                    "@type": "item",
+                    "name": "src/ELF/SymbolVersionDefinition.cpp"
+                },
+                {
+                    "@type": "item",
+                    "name": "include/LIEF/ELF/GnuHash.hpp"
+                },
+                {
+                    "@type": "item",
+                    "name": "src/ELF/GnuHash.cpp"
+                },
+                {
+                    "@type": "item",
+                    "name": "include/LIEF/ELF/Relocation.hpp"
+                },
+                {
+                    "@type": "item",
+                    "name": "src/ELF/Relocation.cpp"
+                },
+                {
+                    "@type": "item",
+                    "name": "src/ELF/json_internal.hpp"
+                },
+                {
+                    "@type": "item",
+                    "name": "src/ELF/json.cpp"
+                },
+                {
+                    "@type": "item",
+                    "name": "src/ELF/DataHandler/Node.hpp"
+                },
+                {
+                    "@type": "item",
+                    "name": "src/ELF/DataHandler/Node.cpp"
+                },
+                {
+                    "@type": "item",
+                    "name": "include/LIEF/ELF/SymbolVersion.hpp"
+                },
+                {
+                    "@type": "item",
+                    "name": "src/ELF/SymbolVersion.cpp"
+                },
+                {
+                    "@type": "item",
+                    "name": "include/LIEF/ELF/hash.hpp"
+                },
+                {
+                    "@type": "item",
+                    "name": "src/ELF/hash.cpp"
+                },
+                {
+                    "@type": "item",
+                    "name": "include/LIEF/ELF/Header.hpp"
+                },
+                {
+                    "@type": "item",
+                    "name": "src/ELF/Header.cpp"
+                },
+                {
+                    "@type": "item",
+                    "name": "include/LIEF/ELF/NoteDetails/NoteAbi.hpp"
+                },
+                {
+                    "@type": "item",
+                    "name": "src/ELF/NoteDetails/NoteAbi.cpp"
+                },
+                {
+                    "@type": "item",
+                    "name": "include/LIEF/ELF/SymbolVersionRequirement.hpp"
+                },
+                {
+                    "@type": "item",
+                    "name": "src/ELF/SymbolVersionRequirement.cpp"
+                },
+                {
+                    "@type": "item",
+                    "name": "include/LIEF/DWARF.hpp"
+                },
+                {
+                    "@type": "item",
+                    "name": "include/LIEF/ELF/NoteDetails/AndroidNote.hpp"
+                },
+                {
+                    "@type": "item",
+                    "name": "src/ELF/NoteDetails/AndroidNote.cpp"
+                },
+                {
+                    "@type": "item",
+                    "name": "include/LIEF/ELF/utils.hpp"
+                },
+                {
+                    "@type": "item",
+                    "name": "src/ELF/utils.cpp"
+                },
+                {
+                    "@type": "item",
+                    "name": "include/LIEF/ELF/SymbolVersionAux.hpp"
+                },
+                {
+                    "@type": "item",
+                    "name": "src/ELF/SymbolVersionAux.cpp"
+                },
+                {
+                    "@type": "item",
+                    "name": "include/LIEF/ELF/DynamicSharedObject.hpp"
+                },
+                {
+                    "@type": "item",
+                    "name": "src/ELF/DynamicSharedObject.cpp"
+                },
+                {
+                    "@type": "item",
+                    "name": "include/LIEF/ELF/enums.hpp"
+                },
+                {
+                    "@type": "item",
+                    "name": "include/LIEF/ELF/NoteDetails.hpp"
+                },
+                {
+                    "@type": "item",
+                    "name": "src/ELF/NoteDetails.cpp"
+                },
+                {
+                    "@type": "item",
+                    "name": "include/LIEF/DWARF/enums.hpp"
+                },
+                {
+                    "@type": "item",
+                    "name": "include/LIEF/ELF.hpp"
+                },
+                {
+                    "@type": "item",
+                    "name": "include/LIEF/ELF/NoteDetails/core/CoreFile.hpp"
+                },
+                {
+                    "@type": "item",
+                    "name": "src/ELF/NoteDetails/core/CoreFile.cpp"
+                },
+                {
+                    "@type": "item",
+                    "name": "include/LIEF/ELF/Parser.hpp"
+                },
+                {
+                    "@type": "item",
+                    "name": "src/ELF/Parser.cpp"
+                },
+                {
+                    "@type": "item",
+                    "name": "include/LIEF/ELF/NoteDetails/core/CoreAuxv.hpp"
+                },
+                {
+                    "@type": "item",
+                    "name": "src/ELF/NoteDetails/core/CoreAuxv.cpp"
+                },
+                {
+                    "@type": "item",
+                    "name": "include/LIEF/PE/AuxiliarySymbol.hpp"
+                },
+                {
+                    "@type": "item",
+                    "name": "include/LIEF/ELF/EnumToString.hpp"
+                },
+                {
+                    "@type": "item",
+                    "name": "include/LIEF/ELF/DynamicEntryRunPath.hpp"
+                },
+                {
+                    "@type": "item",
+                    "name": "src/ELF/DynamicEntryRunPath.cpp"
+                },
+                {
+                    "@type": "item",
+                    "name": "include/LIEF/ELF/NoteDetails/core/CoreSigInfo.hpp"
+                },
+                {
+                    "@type": "item",
+                    "name": "src/ELF/NoteDetails/core/CoreSigInfo.cpp"
+                },
+                {
+                    "@type": "item",
+                    "name": "include/LIEF/ELF/NoteDetails/core/CorePrPsInfo.hpp"
+                },
+                {
+                    "@type": "item",
+                    "name": "src/ELF/NoteDetails/core/CorePrPsInfo.cpp"
+                },
+                {
+                    "@type": "item",
+                    "name": "include/LIEF/ELF/Segment.hpp"
+                },
+                {
+                    "@type": "item",
+                    "name": "src/ELF/Segment.cpp"
+                },
+                {
+                    "@type": "item",
+                    "name": "include/LIEF/utils.hpp"
+                },
+                {
+                    "@type": "item",
+                    "name": "src/utils.cpp"
+                },
+                {
+                    "@type": "item",
+                    "name": "include/LIEF/ELF/Section.hpp"
+                },
+                {
+                    "@type": "item",
+                    "name": "src/ELF/Section.cpp"
+                },
+                {
+                    "@type": "item",
+                    "name": "src/ELF/Convert.cpp"
+                },
+                {
+                    "@type": "item",
+                    "name": "include/LIEF/ELF/DynamicEntry.hpp"
+                },
+                {
+                    "@type": "item",
+                    "name": "src/ELF/DynamicEntry.cpp"
+                },
+                {
+                    "@type": "item",
+                    "name": "src/ELF/json_api.cpp"
+                },
+                {
+                    "@type": "item",
+                    "name": "include/LIEF/ELF/undef.h"
+                },
+                {
+                    "@type": "item",
+                    "name": "src/ELF/ExeLayout.hpp"
+                },
+                {
+                    "@type": "item",
+                    "name": "include/LIEF/ELF/DynamicEntryRpath.hpp"
+                },
+                {
+                    "@type": "item",
+                    "name": "src/ELF/DynamicEntryRpath.cpp"
+                },
+                {
+                    "@type": "item",
+                    "name": "src/ELF/NoteDetails/core/CorePrStatus.cpp"
+                }
+            ]
+        },
+        {
+            "@type": "group",
+            "name": "4",
+            "nested": [
+                {
+                    "@type": "item",
+                    "name": "api/c/MachO/Segment.hpp"
+                },
+                {
+                    "@type": "item",
+                    "name": "api/c/MachO/Segment.cpp"
+                },
+                {
+                    "@type": "item",
+                    "name": "api/c/include/LIEF/ELF/enums.h"
+                },
+                {
+                    "@type": "item",
+                    "name": "api/c/include/LIEF/ELF/Symbol.h"
+                },
+                {
+                    "@type": "item",
+                    "name": "api/c/include/LIEF/ELF/Header.h"
+                },
+                {
+                    "@type": "item",
+                    "name": "api/c/include/LIEF/ELF/Segment.h"
+                },
+                {
+                    "@type": "item",
+                    "name": "api/c/MachO/LoadCommand.hpp"
+                },
+                {
+                    "@type": "item",
+                    "name": "api/c/MachO/LoadCommand.cpp"
+                },
+                {
+                    "@type": "item",
+                    "name": "api/c/include/LIEF/MachO/Header.h"
+                },
+                {
+                    "@type": "item",
+                    "name": "api/c/PE/ImportEntry.hpp"
+                },
+                {
+                    "@type": "item",
+                    "name": "api/c/PE/ImportEntry.cpp"
+                },
+                {
+                    "@type": "item",
+                    "name": "api/c/include/LIEF/PE/DosHeader.h"
+                },
+                {
+                    "@type": "item",
+                    "name": "api/c/include/LIEF/PE/Import.h"
+                },
+                {
+                    "@type": "item",
+                    "name": "api/c/include/LIEF/types.h"
+                },
+                {
+                    "@type": "item",
+                    "name": "api/c/MachO/Section.hpp"
+                },
+                {
+                    "@type": "item",
+                    "name": "api/c/MachO/Section.cpp"
+                },
+                {
+                    "@type": "item",
+                    "name": "api/c/ELF/Segment.hpp"
+                },
+                {
+                    "@type": "item",
+                    "name": "api/c/ELF/Segment.cpp"
+                },
+                {
+                    "@type": "item",
+                    "name": "api/c/ELF/Header.hpp"
+                },
+                {
+                    "@type": "item",
+                    "name": "api/c/ELF/Header.cpp"
+                },
+                {
+                    "@type": "item",
+                    "name": "api/c/PE/Import.hpp"
+                },
+                {
+                    "@type": "item",
+                    "name": "api/c/PE/Import.cpp"
+                },
+                {
+                    "@type": "item",
+                    "name": "api/c/include/LIEF/PE/Header.h"
+                },
+                {
+                    "@type": "item",
+                    "name": "api/c/include/LIEF/PE/Section.h"
+                },
+                {
+                    "@type": "item",
+                    "name": "api/c/include/LIEF/MachO/LoadCommand.h"
+                },
+                {
+                    "@type": "item",
+                    "name": "api/c/ELF/Symbol.hpp"
+                },
+                {
+                    "@type": "item",
+                    "name": "api/c/ELF/Symbol.cpp"
+                },
+                {
+                    "@type": "item",
+                    "name": "api/c/include/LIEF/MachO/Section.h"
+                },
+                {
+                    "@type": "item",
+                    "name": "api/c/include/LIEF/MachO/enums.h"
+                },
+                {
+                    "@type": "item",
+                    "name": "api/c/PE/Header.hpp"
+                },
+                {
+                    "@type": "item",
+                    "name": "api/c/PE/Header.cpp"
+                },
+                {
+                    "@type": "item",
+                    "name": "api/c/include/LIEF/MachO/EnumToString.h"
+                },
+                {
+                    "@type": "item",
+                    "name": "api/c/MachO/EnumToString.cpp"
+                },
+                {
+                    "@type": "item",
+                    "name": "api/c/include/LIEF/MachO/Symbol.h"
+                },
+                {
+                    "@type": "item",
+                    "name": "api/c/include/LIEF/ELF/Section.h"
+                },
+                {
+                    "@type": "item",
+                    "name": "api/c/include/LIEF/MachO/Segment.h"
+                },
+                {
+                    "@type": "item",
+                    "name": "api/c/include/LIEF/MachO.h"
+                },
+                {
+                    "@type": "item",
+                    "name": "api/c/ELF/DynamicEntry.hpp"
+                },
+                {
+                    "@type": "item",
+                    "name": "api/c/ELF/DynamicEntry.cpp"
+                },
+                {
+                    "@type": "item",
+                    "name": "api/c/MachO/Header.hpp"
+                },
+                {
+                    "@type": "item",
+                    "name": "api/c/MachO/Header.cpp"
+                },
+                {
+                    "@type": "item",
+                    "name": "api/c/ELF/Binary.hpp"
+                },
+                {
+                    "@type": "item",
+                    "name": "api/c/include/LIEF/ELF/Binary.h"
+                },
+                {
+                    "@type": "item",
+                    "name": "api/c/ELF/Binary.cpp"
+                },
+                {
+                    "@type": "item",
+                    "name": "api/c/MachO/Symbol.hpp"
+                },
+                {
+                    "@type": "item",
+                    "name": "api/c/MachO/Symbol.cpp"
+                },
+                {
+                    "@type": "item",
+                    "name": "api/c/include/LIEF/LIEF.h"
+                },
+                {
+                    "@type": "item",
+                    "name": "api/c/include/LIEF/PE/Binary.h"
+                },
+                {
+                    "@type": "item",
+                    "name": "api/c/PE/Binary.hpp"
+                },
+                {
+                    "@type": "item",
+                    "name": "api/c/PE/Binary.cpp"
+                },
+                {
+                    "@type": "item",
+                    "name": "api/c/include/LIEF/PE.h"
+                },
+                {
+                    "@type": "item",
+                    "name": "api/c/include/LIEF/MachO/Binary.h"
+                },
+                {
+                    "@type": "item",
+                    "name": "api/c/MachO/Binary.hpp"
+                },
+                {
+                    "@type": "item",
+                    "name": "api/c/MachO/Binary.cpp"
+                },
+                {
+                    "@type": "item",
+                    "name": "api/c/MachO/Parser.cpp"
+                },
+                {
+                    "@type": "item",
+                    "name": "api/c/ELF/Section.hpp"
+                },
+                {
+                    "@type": "item",
+                    "name": "api/c/ELF/Section.cpp"
+                },
+                {
+                    "@type": "item",
+                    "name": "api/c/include/LIEF/logging.h"
+                },
+                {
+                    "@type": "item",
+                    "name": "api/c/logging.cpp"
+                },
+                {
+                    "@type": "item",
+                    "name": "api/c/include/LIEF/PE/OptionalHeader.h"
+                },
+                {
+                    "@type": "item",
+                    "name": "api/c/include/LIEF/PE/ImportEntry.h"
+                },
+                {
+                    "@type": "item",
+                    "name": "api/c/include/LIEF/ELF/EnumToString.h"
+                },
+                {
+                    "@type": "item",
+                    "name": "api/c/ELF/EnumToString.cpp"
+                },
+                {
+                    "@type": "item",
+                    "name": "api/c/PE/DosHeader.hpp"
+                },
+                {
+                    "@type": "item",
+                    "name": "api/c/PE/DosHeader.cpp"
+                },
+                {
+                    "@type": "item",
+                    "name": "api/c/PE/OptionalHeader.hpp"
+                },
+                {
+                    "@type": "item",
+                    "name": "api/c/PE/OptionalHeader.cpp"
+                },
+                {
+                    "@type": "item",
+                    "name": "api/c/include/LIEF/PE/EnumToString.h"
+                },
+                {
+                    "@type": "item",
+                    "name": "api/c/PE/EnumToString.cpp"
+                },
+                {
+                    "@type": "item",
+                    "name": "api/c/include/LIEF/PE/enums.h"
+                },
+                {
+                    "@type": "item",
+                    "name": "api/c/PE/Section.hpp"
+                },
+                {
+                    "@type": "item",
+                    "name": "api/c/PE/Section.cpp"
+                },
+                {
+                    "@type": "item",
+                    "name": "api/c/include/LIEF/ELF.h"
+                },
+                {
+                    "@type": "item",
+                    "name": "api/c/include/LIEF/ELF/DynamicEntry.h"
+                },
+                {
+                    "@type": "item",
+                    "name": "api/c/include/LIEF/ELF/utils.h"
+                },
+                {
+                    "@type": "item",
+                    "name": "api/c/ELF/utils.cpp"
+                },
+                {
+                    "@type": "item",
+                    "name": "api/c/PE/DataDirectory.hpp"
+                },
+                {
+                    "@type": "item",
+                    "name": "api/c/PE/DataDirectory.cpp"
+                },
+                {
+                    "@type": "item",
+                    "name": "api/c/include/LIEF/PE/DataDirectory.h"
+                }
+            ]
+        },
+        {
+            "@type": "group",
+            "name": "5",
+            "nested": [
+                {
+                    "@type": "item",
+                    "name": "api/python/src/PE/objects/LoadConfigurations/pyLoadConfigurationV8.cpp"
+                },
+                {
+                    "@type": "item",
+                    "name": "api/python/src/MachO/objects/pyBuilder.cpp"
+                },
+                {
+                    "@type": "item",
+                    "name": "api/python/src/VDEX/pyVDEX.hpp"
+                },
+                {
+                    "@type": "item",
+                    "name": "api/python/src/VDEX/pyVDEX.cpp"
+                },
+                {
+                    "@type": "item",
+                    "name": "api/python/src/VDEX/pyUtils.cpp"
+                },
+                {
+                    "@type": "item",
+                    "name": "api/python/src/Abstract/objects/pyParser.cpp"
+                },
+                {
+                    "@type": "item",
+                    "name": "api/python/src/PE/objects/LoadConfigurations/pyLoadConfigurationV11.cpp"
+                },
+                {
+                    "@type": "item",
+                    "name": "api/python/src/MachO/objects/pyParserConfig.cpp"
+                },
+                {
+                    "@type": "item",
+                    "name": "api/python/src/MachO/pyMachO.hpp"
+                },
+                {
+                    "@type": "item",
+                    "name": "api/python/src/MachO/pyEnums.cpp"
+                },
+                {
+                    "@type": "item",
+                    "name": "api/python/src/MachO/pyUtils.cpp"
+                },
+                {
+                    "@type": "item",
+                    "name": "api/python/src/MachO/pyMachO.cpp"
+                },
+                {
+                    "@type": "item",
+                    "name": "api/python/src/ART/objects/pyParser.cpp"
+                },
+                {
+                    "@type": "item",
+                    "name": "api/python/src/MachO/objects/pyFatBinary.cpp"
+                },
+                {
+                    "@type": "item",
+                    "name": "api/python/src/MachO/objects/pyLinkerOptHint.cpp"
+                },
+                {
+                    "@type": "item",
+                    "name": "api/python/src/PE/objects/LoadConfigurations/pyLoadConfigurationV10.cpp"
+                },
+                {
+                    "@type": "item",
+                    "name": "api/python/src/ART/pyART.hpp"
+                },
+                {
+                    "@type": "item",
+                    "name": "api/python/src/ART/pyUtils.cpp"
+                },
+                {
+                    "@type": "item",
+                    "name": "api/python/src/ART/pyART.cpp"
+                },
+                {
+                    "@type": "item",
+                    "name": "api/python/src/ART/pyEnums.cpp"
+                },
+                {
+                    "@type": "item",
+                    "name": "api/python/src/PyIOStream.hpp"
+                },
+                {
+                    "@type": "item",
+                    "name": "api/python/src/PyIOStream.cpp"
+                },
+                {
+                    "@type": "item",
+                    "name": "api/python/src/MachO/objects/pyChainedBindingInfo.cpp"
+                },
+                {
+                    "@type": "item",
+                    "name": "api/python/src/PE/objects/pyBuilder.cpp"
+                },
+                {
+                    "@type": "item",
+                    "name": "api/python/src/VDEX/objects/pyParser.cpp"
+                },
+                {
+                    "@type": "item",
+                    "name": "api/python/src/pyLIEF.cpp"
+                },
+                {
+                    "@type": "item",
+                    "name": "api/python/src/encoding.hpp"
+                },
+                {
+                    "@type": "item",
+                    "name": "api/python/src/encoding.cpp"
+                },
+                {
+                    "@type": "item",
+                    "name": "api/python/src/Abstract/pyAbstract.hpp"
+                },
+                {
+                    "@type": "item",
+                    "name": "api/python/src/Abstract/pyEnums.cpp"
+                },
+                {
+                    "@type": "item",
+                    "name": "api/python/src/Abstract/pyAbstract.cpp"
+                },
+                {
+                    "@type": "item",
+                    "name": "api/python/src/MachO/objects/pyCodeSignatureDir.cpp"
+                },
+                {
+                    "@type": "item",
+                    "name": "api/python/src/PE/pyPE.hpp"
+                },
+                {
+                    "@type": "item",
+                    "name": "api/python/src/PE/pyUtils.cpp"
+                },
+                {
+                    "@type": "item",
+                    "name": "api/python/src/PE/pyEnums.cpp"
+                },
+                {
+                    "@type": "item",
+                    "name": "api/python/src/PE/pyPE.cpp"
+                },
+                {
+                    "@type": "item",
+                    "name": "api/python/src/PE/objects/pyParser.cpp"
+                },
+                {
+                    "@type": "item",
+                    "name": "api/python/src/PE/objects/pyParserConfig.cpp"
+                },
+                {
+                    "@type": "item",
+                    "name": "api/python/src/ELF/pyEnums.cpp"
+                },
+                {
+                    "@type": "item",
+                    "name": "api/python/src/ELF/pyELF.cpp"
+                },
+                {
+                    "@type": "item",
+                    "name": "api/python/src/MachO/objects/pyParser.cpp"
+                },
+                {
+                    "@type": "item",
+                    "name": "api/python/src/MachO/objects/pyDyldChainedFixups.cpp"
+                },
+                {
+                    "@type": "item",
+                    "name": "api/python/src/enums_wrapper.hpp"
+                },
+                {
+                    "@type": "item",
+                    "name": "api/python/src/pyErr.hpp"
+                },
+                {
+                    "@type": "item",
+                    "name": "api/python/src/pyErr.cpp"
+                },
+                {
+                    "@type": "item",
+                    "name": "api/python/src/DEX/pyDEX.hpp"
+                },
+                {
+                    "@type": "item",
+                    "name": "api/python/src/DEX/pyUtils.cpp"
+                },
+                {
+                    "@type": "item",
+                    "name": "api/python/src/DEX/pyEnums.cpp"
+                },
+                {
+                    "@type": "item",
+                    "name": "api/python/src/DEX/pyDEX.cpp"
+                },
+                {
+                    "@type": "item",
+                    "name": "api/python/src/platforms/android/pyAndroid.hpp"
+                },
+                {
+                    "@type": "item",
+                    "name": "api/python/src/platforms/android/pyAndroid.cpp"
+                },
+                {
+                    "@type": "item",
+                    "name": "api/python/src/platforms/android/pyVersion.cpp"
+                },
+                {
+                    "@type": "item",
+                    "name": "api/python/src/DEX/objects/pyParser.cpp"
+                },
+                {
+                    "@type": "item",
+                    "name": "api/python/src/MachO/objects/pyDyldExportsTrie.cpp"
+                },
+                {
+                    "@type": "item",
+                    "name": "api/python/src/pyLIEF.hpp"
+                },
+                {
+                    "@type": "item",
+                    "name": "api/python/src/pyLogger.cpp"
+                },
+                {
+                    "@type": "item",
+                    "name": "api/python/src/pyHash.cpp"
+                },
+                {
+                    "@type": "item",
+                    "name": "api/python/src/pyUtils.cpp"
+                },
+                {
+                    "@type": "item",
+                    "name": "api/python/src/pyJson.cpp"
+                },
+                {
+                    "@type": "item",
+                    "name": "api/python/src/pyObject.cpp"
+                },
+                {
+                    "@type": "item",
+                    "name": "api/python/src/PE/objects/signature/attributes/pyMsCounterSign.cpp"
+                },
+                {
+                    "@type": "item",
+                    "name": "api/python/src/OAT/pyOAT.hpp"
+                },
+                {
+                    "@type": "item",
+                    "name": "api/python/src/OAT/pyUtils.cpp"
+                },
+                {
+                    "@type": "item",
+                    "name": "api/python/src/OAT/pyEnums.cpp"
+                },
+                {
+                    "@type": "item",
+                    "name": "api/python/src/OAT/pyOAT.cpp"
+                },
+                {
+                    "@type": "item",
+                    "name": "api/python/src/PE/objects/LoadConfigurations/pyLoadConfigurationV9.cpp"
+                },
+                {
+                    "@type": "item",
+                    "name": "api/python/src/MachO/objects/pyTwoLevelHints.cpp"
+                },
+                {
+                    "@type": "item",
+                    "name": "api/python/src/platforms/pyPlatform.hpp"
+                },
+                {
+                    "@type": "item",
+                    "name": "api/python/src/platforms/pyPlatform.cpp"
+                },
+                {
+                    "@type": "item",
+                    "name": "api/python/src/OAT/objects/pyParser.cpp"
+                }
+            ]
+        },
+        {
+            "@type": "group",
+            "name": "6",
+            "nested": [
+                {
+                    "@type": "item",
+                    "name": "src/PE/utils/ordinals_lookup_tables/shell32_dll_lookup.hpp"
+                },
+                {
+                    "@type": "item",
+                    "name": "src/PE/utils/ordinals_lookup_tables/user32_dll_lookup.hpp"
+                },
+                {
+                    "@type": "item",
+                    "name": "src/PE/utils/ordinals_lookup_tables/shcore_dll_lookup.hpp"
+                },
+                {
+                    "@type": "item",
+                    "name": "src/PE/utils/ordinals_lookup_tables/ntdll_dll_lookup.hpp"
+                },
+                {
+                    "@type": "item",
+                    "name": "src/PE/utils/ordinals_lookup_tables/libraries_table.hpp"
+                },
+                {
+                    "@type": "item",
+                    "name": "src/PE/utils/ordinals_lookup_tables/msvcr100_dll_lookup.hpp"
+                },
+                {
+                    "@type": "item",
+                    "name": "src/PE/utils/ordinals_lookup_tables/msvcp110_dll_lookup.hpp"
+                },
+                {
+                    "@type": "item",
+                    "name": "src/PE/utils/ordinals_lookup_tables_std/oleauth32_dll_lookup.hpp"
+                },
+                {
+                    "@type": "item",
+                    "name": "src/PE/utils/ordinals_lookup_tables/advapi32_dll_lookup.hpp"
+                },
+                {
+                    "@type": "item",
+                    "name": "src/PE/utils/ordinals_lookup_tables/gdi32_dll_lookup.hpp"
+                },
+                {
+                    "@type": "item",
+                    "name": "src/PE/utils/ordinals_lookup_tables/mfc42u_dll_lookup.hpp"
+                },
+                {
+                    "@type": "item",
+                    "name": "src/PE/utils/ordinals_lookup_tables_std/ws2_32_dll_lookup.hpp"
+                },
+                {
+                    "@type": "item",
+                    "name": "src/PE/utils/ordinals_lookup_tables/comctl32_dll_lookup.hpp"
+                },
+                {
+                    "@type": "item",
+                    "name": "src/PE/utils/ordinals_lookup_tables/msvcr110_dll_lookup.hpp"
+                },
+                {
+                    "@type": "item",
+                    "name": "src/PE/utils/ordinals_lookup_tables_std/libraries_table.hpp"
+                },
+                {
+                    "@type": "item",
+                    "name": "src/PE/utils/ordinals_lookup_tables/oleaut32_dll_lookup.hpp"
+                },
+                {
+                    "@type": "item",
+                    "name": "src/PE/utils/ordinals_lookup_tables/ole32_dll_lookup.hpp"
+                },
+                {
+                    "@type": "item",
+                    "name": "src/PE/utils/ordinals_lookup_tables/msvcr120_dll_lookup.hpp"
+                },
+                {
+                    "@type": "item",
+                    "name": "src/PE/utils/ordinals_lookup_tables/kernel32_dll_lookup.hpp"
+                },
+                {
+                    "@type": "item",
+                    "name": "src/PE/utils/ordinals_lookup_tables/shlwapi_dll_lookup.hpp"
+                },
+                {
+                    "@type": "item",
+                    "name": "src/PE/utils/ordinals_lookup_tables/msvcrt_dll_lookup.hpp"
+                },
+                {
+                    "@type": "item",
+                    "name": "src/PE/utils/ordinals_lookup_tables/ws2_32_dll_lookup.hpp"
+                },
+                {
+                    "@type": "item",
+                    "name": "src/PE/utils/ordinals_lookup_tables/msvcp120_dll_lookup.hpp"
+                }
+            ]
+        },
+        {
+            "@type": "group",
+            "name": "7",
+            "nested": [
+                {
+                    "@type": "item",
+                    "name": "examples/cpp/logging.cpp"
+                },
+                {
+                    "@type": "item",
+                    "name": "examples/cpp/macho_reader.cpp"
+                },
+                {
+                    "@type": "item",
+                    "name": "examples/cpp/macho_builder.cpp"
+                },
+                {
+                    "@type": "item",
+                    "name": "examples/cpp/abstract_reader.cpp"
+                },
+                {
+                    "@type": "item",
+                    "name": "examples/cpp/dex_reader.cpp"
+                },
+                {
+                    "@type": "item",
+                    "name": "examples/cpp/elf_strip.cpp"
+                },
+                {
+                    "@type": "item",
+                    "name": "examples/cpp/elf_symbols.cpp"
+                },
+                {
+                    "@type": "item",
+                    "name": "examples/cpp/art_reader.cpp"
+                },
+                {
+                    "@type": "item",
+                    "name": "examples/cpp/oat_reader.cpp"
+                },
+                {
+                    "@type": "item",
+                    "name": "examples/cpp/benchmark.cpp"
+                },
+                {
+                    "@type": "item",
+                    "name": "examples/cpp/elf_builder.cpp"
+                },
+                {
+                    "@type": "item",
+                    "name": "examples/cpp/pe_authenticode_check.cpp"
+                },
+                {
+                    "@type": "item",
+                    "name": "examples/cpp/elf_add_section.cpp"
+                },
+                {
+                    "@type": "item",
+                    "name": "examples/cpp/pe_builder.cpp"
+                },
+                {
+                    "@type": "item",
+                    "name": "examples/cpp/pe_reader.cpp"
+                },
+                {
+                    "@type": "item",
+                    "name": "examples/cpp/vdex_reader.cpp"
+                }
+            ]
+        },
+        {
+            "@type": "group",
+            "name": "8",
+            "nested": [
+                {
+                    "@type": "item",
+                    "name": "api/python/src/PE/objects/resources/pyResourceStringFileInfo.cpp"
+                },
+                {
+                    "@type": "item",
+                    "name": "api/python/src/PE/objects/resources/pyResourceVersion.cpp"
+                },
+                {
+                    "@type": "item",
+                    "name": "api/python/src/PE/objects/resources/pyLangCodeItem.cpp"
+                },
+                {
+                    "@type": "item",
+                    "name": "api/python/src/PE/objects/resources/pyResourceFixedFileInfo.cpp"
+                },
+                {
+                    "@type": "item",
+                    "name": "api/python/src/PE/objects/signature/pySignature.cpp"
+                }
+            ]
+        },
+        {
+            "@type": "group",
+            "name": "9",
+            "nested": [
+                {
+                    "@type": "item",
+                    "name": "fuzzing/pkcs7_signature.cpp"
+                },
+                {
+                    "@type": "item",
+                    "name": "fuzzing/macho_fuzzer.cpp"
+                },
+                {
+                    "@type": "item",
+                    "name": "fuzzing/elf_fuzzer.cpp"
+                },
+                {
+                    "@type": "item",
+                    "name": "fuzzing/pe_fuzzer.cpp"
+                },
+                {
+                    "@type": "item",
+                    "name": "fuzzing/pme_fuzzer.cpp"
+                }
+            ]
+        },
+        {
+            "@type": "group",
+            "name": "10",
+            "nested": [
+                {
+                    "@type": "item",
+                    "name": "api/python/src/MachO/objects/pyDataInCode.cpp"
+                },
+                {
+                    "@type": "item",
+                    "name": "api/python/src/MachO/objects/pyBinary.cpp"
+                },
+                {
+                    "@type": "item",
+                    "name": "api/python/src/pyIterators.hpp"
+                }
+            ]
+        },
+        {
+            "@type": "group",
+            "name": "11",
+            "nested": [
+                {
+                    "@type": "item",
+                    "name": "examples/c/pe_reader.c"
+                },
+                {
+                    "@type": "item",
+                    "name": "examples/c/elf_reader.c"
+                },
+                {
+                    "@type": "item",
+                    "name": "examples/c/macho_reader.c"
+                }
+            ]
+        },
+        {
+            "@type": "group",
+            "name": "12",
+            "nested": [
+                {
+                    "@type": "item",
+                    "name": "profiling/elf_profiler.cpp"
+                },
+                {
+                    "@type": "item",
+                    "name": "profiling/macho_profiler.cpp"
+                },
+                {
+                    "@type": "item",
+                    "name": "profiling/pe_profilier.cpp"
+                }
+            ]
+        },
+        {
+            "@type": "group",
+            "name": "13",
+            "nested": [
+                {
+                    "@type": "item",
+                    "name": "api/python/src/ELF/objects/NoteDetails/core/pyCorePrPsInfo.cpp"
+                },
+                {
+                    "@type": "item",
+                    "name": "api/python/src/ELF/objects/NoteDetails/core/pyCoreFileEntry.cpp"
+                },
+                {
+                    "@type": "item",
+                    "name": "api/python/src/ELF/objects/NoteDetails/core/pyCoreAuxv.cpp"
+                },
+                {
+                    "@type": "item",
+                    "name": "api/python/src/ELF/objects/NoteDetails/core/pyCorePrStatus.cpp"
+                },
+                {
+                    "@type": "item",
+                    "name": "api/python/src/ELF/objects/NoteDetails/core/pyCoreSigInfo.cpp"
+                },
+                {
+                    "@type": "item",
+                    "name": "api/python/src/ELF/objects/NoteDetails/core/pyCoreFile.cpp"
+                },
+                {
+                    "@type": "item",
+                    "name": "api/python/src/ELF/objects/NoteDetails/pyNoteAbi.cpp"
+                },
+                {
+                    "@type": "item",
+                    "name": "api/python/src/ELF/objects/NoteDetails/pyAndroidNote.cpp"
+                },
+                {
+                    "@type": "item",
+                    "name": "api/python/src/ELF/pyELF.hpp"
+                },
+                {
+                    "@type": "item",
+                    "name": "api/python/src/ELF/objects/pySegment.cpp"
+                },
+                {
+                    "@type": "item",
+                    "name": "api/python/src/ELF/objects/pySection.cpp"
+                },
+                {
+                    "@type": "item",
+                    "name": "api/python/src/ELF/objects/pyDynamicEntry.cpp"
+                },
+                {
+                    "@type": "item",
+                    "name": "api/python/src/ELF/objects/pyDynamicEntryLibrary.cpp"
+                },
+                {
+                    "@type": "item",
+                    "name": "api/python/src/ELF/objects/pyNote.cpp"
+                },
+                {
+                    "@type": "item",
+                    "name": "api/python/src/ELF/objects/pyBinary.cpp"
+                },
+                {
+                    "@type": "item",
+                    "name": "api/python/src/ELF/objects/pySymbolVersion.cpp"
+                },
+                {
+                    "@type": "item",
+                    "name": "api/python/src/ELF/objects/pyBuilder.cpp"
+                },
+                {
+                    "@type": "item",
+                    "name": "api/python/src/ELF/objects/pySymbol.cpp"
+                },
+                {
+                    "@type": "item",
+                    "name": "api/python/src/ELF/objects/pySymbolVersionRequirement.cpp"
+                },
+                {
+                    "@type": "item",
+                    "name": "api/python/src/ELF/objects/pyDynamicEntryFlags.cpp"
+                },
+                {
+                    "@type": "item",
+                    "name": "api/python/src/ELF/objects/pyRelocation.cpp"
+                },
+                {
+                    "@type": "item",
+                    "name": "api/python/src/ELF/objects/pyDynamicEntryArray.cpp"
+                },
+                {
+                    "@type": "item",
+                    "name": "api/python/src/ELF/objects/pySymbolVersionDefinition.cpp"
+                },
+                {
+                    "@type": "item",
+                    "name": "api/python/src/ELF/objects/pySymbolVersionAux.cpp"
+                },
+                {
+                    "@type": "item",
+                    "name": "api/python/src/ELF/objects/pyDynamicEntryRunPath.cpp"
+                },
+                {
+                    "@type": "item",
+                    "name": "api/python/src/ELF/objects/pyHeader.cpp"
+                },
+                {
+                    "@type": "item",
+                    "name": "api/python/src/ELF/objects/pySysvHash.cpp"
+                },
+                {
+                    "@type": "item",
+                    "name": "api/python/src/ELF/objects/pyParserConfig.cpp"
+                },
+                {
+                    "@type": "item",
+                    "name": "api/python/src/ELF/objects/pyGnuHash.cpp"
+                },
+                {
+                    "@type": "item",
+                    "name": "api/python/src/ELF/objects/pyDynamicSharedObject.cpp"
+                },
+                {
+                    "@type": "item",
+                    "name": "api/python/src/ELF/objects/pyParser.cpp"
+                },
+                {
+                    "@type": "item",
+                    "name": "api/python/src/ELF/objects/pySymbolVersionAuxRequirement.cpp"
+                },
+                {
+                    "@type": "item",
+                    "name": "api/python/src/ELF/objects/pyDynamicEntryRpath.cpp"
+                },
+                {
+                    "@type": "item",
+                    "name": "api/python/src/ELF/objects/pyNoteDetails.cpp"
+                }
+            ]
+        },
+        {
+            "@type": "group",
+            "name": "14",
+            "nested": [
+                {
+                    "@type": "item",
+                    "name": "api/python/src/PE/objects/signature/attributes/pyMsSpcStatementType.cpp"
+                },
+                {
+                    "@type": "item",
+                    "name": "api/python/src/PE/objects/signature/attributes/pySpcSpOpusInfo.cpp"
+                }
+            ]
+        },
+        {
+            "@type": "group",
+            "name": "15",
+            "nested": [
+                {
+                    "@type": "item",
+                    "name": "api/python/examples/library_symbols_obfuscation/binadd.c"
+                },
+                {
+                    "@type": "item",
+                    "name": "api/python/examples/library_symbols_obfuscation/libadd.h"
+                },
+                {
+                    "@type": "item",
+                    "name": "api/python/examples/library_symbols_obfuscation/libadd.c"
+                }
+            ]
+        },
+        {
+            "@type": "group",
+            "name": "16",
+            "nested": [
+                {
+                    "@type": "item",
+                    "name": "api/python/src/ART/objects/pyFile.cpp"
+                }
+            ]
+        },
+        {
+            "@type": "group",
+            "name": "17",
+            "nested": [
+                {
+                    "@type": "item",
+                    "name": "api/python/src/ART/objects/pyHeader.cpp"
+                }
+            ]
+        },
+        {
+            "@type": "group",
+            "name": "18",
+            "nested": [
+                {
+                    "@type": "item",
+                    "name": "api/python/src/Abstract/objects/pyBinary.cpp"
+                }
+            ]
+        },
+        {
+            "@type": "group",
+            "name": "19",
+            "nested": [
+                {
+                    "@type": "item",
+                    "name": "api/python/src/Abstract/objects/pyFunction.cpp"
+                }
+            ]
+        },
+        {
+            "@type": "group",
+            "name": "20",
+            "nested": [
+                {
+                    "@type": "item",
+                    "name": "api/python/src/Abstract/objects/pyHeader.cpp"
+                }
+            ]
+        },
+        {
+            "@type": "group",
+            "name": "21",
+            "nested": [
+                {
+                    "@type": "item",
+                    "name": "api/python/src/Abstract/objects/pyRelocation.cpp"
+                }
+            ]
+        },
+        {
+            "@type": "group",
+            "name": "22",
+            "nested": [
+                {
+                    "@type": "item",
+                    "name": "api/python/src/Abstract/objects/pySection.cpp"
+                }
+            ]
+        },
+        {
+            "@type": "group",
+            "name": "23",
+            "nested": [
+                {
+                    "@type": "item",
+                    "name": "api/python/src/Abstract/objects/pySymbol.cpp"
+                }
+            ]
+        },
+        {
+            "@type": "group",
+            "name": "24",
+            "nested": [
+                {
+                    "@type": "item",
+                    "name": "api/python/src/DEX/objects/pyClass.cpp"
+                }
+            ]
+        },
+        {
+            "@type": "group",
+            "name": "25",
+            "nested": [
+                {
+                    "@type": "item",
+                    "name": "api/python/src/DEX/objects/pyCodeInfo.cpp"
+                }
+            ]
+        },
+        {
+            "@type": "group",
+            "name": "26",
+            "nested": [
+                {
+                    "@type": "item",
+                    "name": "api/python/src/DEX/objects/pyField.cpp"
+                }
+            ]
+        },
+        {
+            "@type": "group",
+            "name": "27",
+            "nested": [
+                {
+                    "@type": "item",
+                    "name": "api/python/src/DEX/objects/pyFile.cpp"
+                }
+            ]
+        },
+        {
+            "@type": "group",
+            "name": "28",
+            "nested": [
+                {
+                    "@type": "item",
+                    "name": "api/python/src/DEX/objects/pyHeader.cpp"
+                }
+            ]
+        },
+        {
+            "@type": "group",
+            "name": "29",
+            "nested": [
+                {
+                    "@type": "item",
+                    "name": "api/python/src/DEX/objects/pyMapItem.cpp"
+                }
+            ]
+        },
+        {
+            "@type": "group",
+            "name": "30",
+            "nested": [
+                {
+                    "@type": "item",
+                    "name": "api/python/src/DEX/objects/pyMapList.cpp"
+                }
+            ]
+        },
+        {
+            "@type": "group",
+            "name": "31",
+            "nested": [
+                {
+                    "@type": "item",
+                    "name": "api/python/src/DEX/objects/pyMethod.cpp"
+                }
+            ]
+        },
+        {
+            "@type": "group",
+            "name": "32",
+            "nested": [
+                {
+                    "@type": "item",
+                    "name": "api/python/src/DEX/objects/pyPrototype.cpp"
+                }
+            ]
+        },
+        {
+            "@type": "group",
+            "name": "33",
+            "nested": [
+                {
+                    "@type": "item",
+                    "name": "api/python/src/DEX/objects/pyType.cpp"
+                }
+            ]
+        },
+        {
+            "@type": "group",
+            "name": "34",
+            "nested": [
+                {
+                    "@type": "item",
+                    "name": "api/python/src/MachO/objects/pyBindingInfo.cpp"
+                }
+            ]
+        },
+        {
+            "@type": "group",
+            "name": "35",
+            "nested": [
+                {
+                    "@type": "item",
+                    "name": "api/python/src/MachO/objects/pyBuildVersion.cpp"
+                }
+            ]
+        },
+        {
+            "@type": "group",
+            "name": "36",
+            "nested": [
+                {
+                    "@type": "item",
+                    "name": "api/python/src/MachO/objects/pyCodeSignature.cpp"
+                }
+            ]
+        },
+        {
+            "@type": "group",
+            "name": "37",
+            "nested": [
+                {
+                    "@type": "item",
+                    "name": "api/python/src/MachO/objects/pyDataCodeEntry.cpp"
+                }
+            ]
+        },
+        {
+            "@type": "group",
+            "name": "38",
+            "nested": [
+                {
+                    "@type": "item",
+                    "name": "api/python/src/MachO/objects/pyDyldBindingInfo.cpp"
+                }
+            ]
+        },
+        {
+            "@type": "group",
+            "name": "39",
+            "nested": [
+                {
+                    "@type": "item",
+                    "name": "api/python/src/MachO/objects/pyDyldEnvironment.cpp"
+                }
+            ]
+        },
+        {
+            "@type": "group",
+            "name": "40",
+            "nested": [
+                {
+                    "@type": "item",
+                    "name": "api/python/src/MachO/objects/pyDyldInfo.cpp"
+                }
+            ]
+        },
+        {
+            "@type": "group",
+            "name": "41",
+            "nested": [
+                {
+                    "@type": "item",
+                    "name": "api/python/src/MachO/objects/pyDylibCommand.cpp"
+                }
+            ]
+        },
+        {
+            "@type": "group",
+            "name": "42",
+            "nested": [
+                {
+                    "@type": "item",
+                    "name": "api/python/src/MachO/objects/pyDylinker.cpp"
+                }
+            ]
+        },
+        {
+            "@type": "group",
+            "name": "43",
+            "nested": [
+                {
+                    "@type": "item",
+                    "name": "api/python/src/MachO/objects/pyDynamicSymbolCommand.cpp"
+                }
+            ]
+        },
+        {
+            "@type": "group",
+            "name": "44",
+            "nested": [
+                {
+                    "@type": "item",
+                    "name": "api/python/src/MachO/objects/pyEncryptionInfo.cpp"
+                }
+            ]
+        },
+        {
+            "@type": "group",
+            "name": "45",
+            "nested": [
+                {
+                    "@type": "item",
+                    "name": "api/python/src/MachO/objects/pyExportInfo.cpp"
+                }
+            ]
+        },
+        {
+            "@type": "group",
+            "name": "46",
+            "nested": [
+                {
+                    "@type": "item",
+                    "name": "api/python/src/MachO/objects/pyFilesetCommand.cpp"
+                }
+            ]
+        },
+        {
+            "@type": "group",
+            "name": "47",
+            "nested": [
+                {
+                    "@type": "item",
+                    "name": "api/python/src/MachO/objects/pyFunctionStarts.cpp"
+                }
+            ]
+        },
+        {
+            "@type": "group",
+            "name": "48",
+            "nested": [
+                {
+                    "@type": "item",
+                    "name": "api/python/src/MachO/objects/pyHeader.cpp"
+                }
+            ]
+        },
+        {
+            "@type": "group",
+            "name": "49",
+            "nested": [
+                {
+                    "@type": "item",
+                    "name": "api/python/src/MachO/objects/pyLoadCommand.cpp"
+                }
+            ]
+        },
+        {
+            "@type": "group",
+            "name": "50",
+            "nested": [
+                {
+                    "@type": "item",
+                    "name": "api/python/src/MachO/objects/pyMainCommand.cpp"
+                }
+            ]
+        },
+        {
+            "@type": "group",
+            "name": "51",
+            "nested": [
+                {
+                    "@type": "item",
+                    "name": "api/python/src/MachO/objects/pyRPathCommand.cpp"
+                }
+            ]
+        },
+        {
+            "@type": "group",
+            "name": "52",
+            "nested": [
+                {
+                    "@type": "item",
+                    "name": "api/python/src/MachO/objects/pyRelocation.cpp"
+                }
+            ]
+        },
+        {
+            "@type": "group",
+            "name": "53",
+            "nested": [
+                {
+                    "@type": "item",
+                    "name": "api/python/src/MachO/objects/pyRelocationDyld.cpp"
+                }
+            ]
+        },
+        {
+            "@type": "group",
+            "name": "54",
+            "nested": [
+                {
+                    "@type": "item",
+                    "name": "api/python/src/MachO/objects/pyRelocationFixup.cpp"
+                }
+            ]
+        },
+        {
+            "@type": "group",
+            "name": "55",
+            "nested": [
+                {
+                    "@type": "item",
+                    "name": "api/python/src/MachO/objects/pyRelocationObject.cpp"
+                }
+            ]
+        },
+        {
+            "@type": "group",
+            "name": "56",
+            "nested": [
+                {
+                    "@type": "item",
+                    "name": "api/python/src/MachO/objects/pySection.cpp"
+                }
+            ]
+        },
+        {
+            "@type": "group",
+            "name": "57",
+            "nested": [
+                {
+                    "@type": "item",
+                    "name": "api/python/src/MachO/objects/pySegmentCommand.cpp"
+                }
+            ]
+        },
+        {
+            "@type": "group",
+            "name": "58",
+            "nested": [
+                {
+                    "@type": "item",
+                    "name": "api/python/src/MachO/objects/pySegmentSplitInfo.cpp"
+                }
+            ]
+        },
+        {
+            "@type": "group",
+            "name": "59",
+            "nested": [
+                {
+                    "@type": "item",
+                    "name": "api/python/src/MachO/objects/pySourceVersion.cpp"
+                }
+            ]
+        },
+        {
+            "@type": "group",
+            "name": "60",
+            "nested": [
+                {
+                    "@type": "item",
+                    "name": "api/python/src/MachO/objects/pySubFramework.cpp"
+                }
+            ]
+        },
+        {
+            "@type": "group",
+            "name": "61",
+            "nested": [
+                {
+                    "@type": "item",
+                    "name": "api/python/src/MachO/objects/pySymbol.cpp"
+                }
+            ]
+        },
+        {
+            "@type": "group",
+            "name": "62",
+            "nested": [
+                {
+                    "@type": "item",
+                    "name": "api/python/src/MachO/objects/pySymbolCommand.cpp"
+                }
+            ]
+        },
+        {
+            "@type": "group",
+            "name": "63",
+            "nested": [
+                {
+                    "@type": "item",
+                    "name": "api/python/src/MachO/objects/pyThreadCommand.cpp"
+                }
+            ]
+        },
+        {
+            "@type": "group",
+            "name": "64",
+            "nested": [
+                {
+                    "@type": "item",
+                    "name": "api/python/src/MachO/objects/pyUUID.cpp"
+                }
+            ]
+        },
+        {
+            "@type": "group",
+            "name": "65",
+            "nested": [
+                {
+                    "@type": "item",
+                    "name": "api/python/src/MachO/objects/pyVersionMin.cpp"
+                }
+            ]
+        },
+        {
+            "@type": "group",
+            "name": "66",
+            "nested": [
+                {
+                    "@type": "item",
+                    "name": "api/python/src/OAT/objects/pyBinary.cpp"
+                }
+            ]
+        },
+        {
+            "@type": "group",
+            "name": "67",
+            "nested": [
+                {
+                    "@type": "item",
+                    "name": "api/python/src/OAT/objects/pyClass.cpp"
+                }
+            ]
+        },
+        {
+            "@type": "group",
+            "name": "68",
+            "nested": [
+                {
+                    "@type": "item",
+                    "name": "api/python/src/OAT/objects/pyDexFile.cpp"
+                }
+            ]
+        },
+        {
+            "@type": "group",
+            "name": "69",
+            "nested": [
+                {
+                    "@type": "item",
+                    "name": "api/python/src/OAT/objects/pyHeader.cpp"
+                }
+            ]
+        },
+        {
+            "@type": "group",
+            "name": "70",
+            "nested": [
+                {
+                    "@type": "item",
+                    "name": "api/python/src/OAT/objects/pyMethod.cpp"
+                }
+            ]
+        },
+        {
+            "@type": "group",
+            "name": "71",
+            "nested": [
+                {
+                    "@type": "item",
+                    "name": "api/python/src/PE/objects/LoadConfigurations/pyLoadConfiguration.cpp"
+                }
+            ]
+        },
+        {
+            "@type": "group",
+            "name": "72",
+            "nested": [
+                {
+                    "@type": "item",
+                    "name": "api/python/src/PE/objects/LoadConfigurations/pyLoadConfigurationV0.cpp"
+                }
+            ]
+        },
+        {
+            "@type": "group",
+            "name": "73",
+            "nested": [
+                {
+                    "@type": "item",
+                    "name": "api/python/src/PE/objects/LoadConfigurations/pyLoadConfigurationV1.cpp"
+                }
+            ]
+        },
+        {
+            "@type": "group",
+            "name": "74",
+            "nested": [
+                {
+                    "@type": "item",
+                    "name": "api/python/src/PE/objects/LoadConfigurations/pyLoadConfigurationV2.cpp"
+                }
+            ]
+        },
+        {
+            "@type": "group",
+            "name": "75",
+            "nested": [
+                {
+                    "@type": "item",
+                    "name": "api/python/src/PE/objects/LoadConfigurations/pyLoadConfigurationV3.cpp"
+                }
+            ]
+        },
+        {
+            "@type": "group",
+            "name": "76",
+            "nested": [
+                {
+                    "@type": "item",
+                    "name": "api/python/src/PE/objects/LoadConfigurations/pyLoadConfigurationV4.cpp"
+                }
+            ]
+        },
+        {
+            "@type": "group",
+            "name": "77",
+            "nested": [
+                {
+                    "@type": "item",
+                    "name": "api/python/src/PE/objects/LoadConfigurations/pyLoadConfigurationV5.cpp"
+                }
+            ]
+        },
+        {
+            "@type": "group",
+            "name": "78",
+            "nested": [
+                {
+                    "@type": "item",
+                    "name": "api/python/src/PE/objects/LoadConfigurations/pyLoadConfigurationV6.cpp"
+                }
+            ]
+        },
+        {
+            "@type": "group",
+            "name": "79",
+            "nested": [
+                {
+                    "@type": "item",
+                    "name": "api/python/src/PE/objects/LoadConfigurations/pyLoadConfigurationV7.cpp"
+                }
+            ]
+        },
+        {
+            "@type": "group",
+            "name": "80",
+            "nested": [
+                {
+                    "@type": "item",
+                    "name": "api/python/src/PE/objects/pyBinary.cpp"
+                }
+            ]
+        },
+        {
+            "@type": "group",
+            "name": "81",
+            "nested": [
+                {
+                    "@type": "item",
+                    "name": "api/python/src/PE/objects/pyCodeIntegrity.cpp"
+                }
+            ]
+        },
+        {
+            "@type": "group",
+            "name": "82",
+            "nested": [
+                {
+                    "@type": "item",
+                    "name": "api/python/src/PE/objects/pyCodeView.cpp"
+                }
+            ]
+        },
+        {
+            "@type": "group",
+            "name": "83",
+            "nested": [
+                {
+                    "@type": "item",
+                    "name": "api/python/src/PE/objects/pyCodeViewPDB.cpp"
+                }
+            ]
+        },
+        {
+            "@type": "group",
+            "name": "84",
+            "nested": [
+                {
+                    "@type": "item",
+                    "name": "api/python/src/PE/objects/pyDataDirectory.cpp"
+                }
+            ]
+        },
+        {
+            "@type": "group",
+            "name": "85",
+            "nested": [
+                {
+                    "@type": "item",
+                    "name": "api/python/src/PE/objects/pyDebug.cpp"
+                }
+            ]
+        },
+        {
+            "@type": "group",
+            "name": "86",
+            "nested": [
+                {
+                    "@type": "item",
+                    "name": "api/python/src/PE/objects/pyDelayImport.cpp"
+                }
+            ]
+        },
+        {
+            "@type": "group",
+            "name": "87",
+            "nested": [
+                {
+                    "@type": "item",
+                    "name": "api/python/src/PE/objects/pyDelayImportEntry.cpp"
+                }
+            ]
+        },
+        {
+            "@type": "group",
+            "name": "88",
+            "nested": [
+                {
+                    "@type": "item",
+                    "name": "api/python/src/PE/objects/pyDosHeader.cpp"
+                }
+            ]
+        },
+        {
+            "@type": "group",
+            "name": "89",
+            "nested": [
+                {
+                    "@type": "item",
+                    "name": "api/python/src/PE/objects/pyExport.cpp"
+                }
+            ]
+        },
+        {
+            "@type": "group",
+            "name": "90",
+            "nested": [
+                {
+                    "@type": "item",
+                    "name": "api/python/src/PE/objects/pyExportEntry.cpp"
+                }
+            ]
+        },
+        {
+            "@type": "group",
+            "name": "91",
+            "nested": [
+                {
+                    "@type": "item",
+                    "name": "api/python/src/PE/objects/pyHeader.cpp"
+                }
+            ]
+        },
+        {
+            "@type": "group",
+            "name": "92",
+            "nested": [
+                {
+                    "@type": "item",
+                    "name": "api/python/src/PE/objects/pyImport.cpp"
+                }
+            ]
+        },
+        {
+            "@type": "group",
+            "name": "93",
+            "nested": [
+                {
+                    "@type": "item",
+                    "name": "api/python/src/PE/objects/pyImportEntry.cpp"
+                }
+            ]
+        },
+        {
+            "@type": "group",
+            "name": "94",
+            "nested": [
+                {
+                    "@type": "item",
+                    "name": "api/python/src/PE/objects/pyOptionalHeader.cpp"
+                }
+            ]
+        },
+        {
+            "@type": "group",
+            "name": "95",
+            "nested": [
+                {
+                    "@type": "item",
+                    "name": "api/python/src/PE/objects/pyPogo.cpp"
+                }
+            ]
+        },
+        {
+            "@type": "group",
+            "name": "96",
+            "nested": [
+                {
+                    "@type": "item",
+                    "name": "api/python/src/PE/objects/pyPogoEntry.cpp"
+                }
+            ]
+        },
+        {
+            "@type": "group",
+            "name": "97",
+            "nested": [
+                {
+                    "@type": "item",
+                    "name": "api/python/src/PE/objects/pyRelocation.cpp"
+                }
+            ]
+        },
+        {
+            "@type": "group",
+            "name": "98",
+            "nested": [
+                {
+                    "@type": "item",
+                    "name": "api/python/src/PE/objects/pyRelocationEntry.cpp"
+                }
+            ]
+        },
+        {
+            "@type": "group",
+            "name": "99",
+            "nested": [
+                {
+                    "@type": "item",
+                    "name": "api/python/src/PE/objects/pyResourceData.cpp"
+                }
+            ]
+        },
+        {
+            "@type": "group",
+            "name": "100",
+            "nested": [
+                {
+                    "@type": "item",
+                    "name": "api/python/src/PE/objects/pyResourceDirectory.cpp"
+                }
+            ]
+        },
+        {
+            "@type": "group",
+            "name": "101",
+            "nested": [
+                {
+                    "@type": "item",
+                    "name": "api/python/src/PE/objects/pyResourceNode.cpp"
+                }
+            ]
+        },
+        {
+            "@type": "group",
+            "name": "102",
+            "nested": [
+                {
+                    "@type": "item",
+                    "name": "api/python/src/PE/objects/pyResourcesManager.cpp"
+                }
+            ]
+        },
+        {
+            "@type": "group",
+            "name": "103",
+            "nested": [
+                {
+                    "@type": "item",
+                    "name": "api/python/src/PE/objects/pyRichEntry.cpp"
+                }
+            ]
+        },
+        {
+            "@type": "group",
+            "name": "104",
+            "nested": [
+                {
+                    "@type": "item",
+                    "name": "api/python/src/PE/objects/pyRichHeader.cpp"
+                }
+            ]
+        },
+        {
+            "@type": "group",
+            "name": "105",
+            "nested": [
+                {
+                    "@type": "item",
+                    "name": "api/python/src/PE/objects/pySection.cpp"
+                }
+            ]
+        },
+        {
+            "@type": "group",
+            "name": "106",
+            "nested": [
+                {
+                    "@type": "item",
+                    "name": "api/python/src/PE/objects/pySymbol.cpp"
+                }
+            ]
+        },
+        {
+            "@type": "group",
+            "name": "107",
+            "nested": [
+                {
+                    "@type": "item",
+                    "name": "api/python/src/PE/objects/pyTLS.cpp"
+                }
+            ]
+        },
+        {
+            "@type": "group",
+            "name": "108",
+            "nested": [
+                {
+                    "@type": "item",
+                    "name": "api/python/src/PE/objects/resources/pyResourceAccelerator.cpp"
+                }
+            ]
+        },
+        {
+            "@type": "group",
+            "name": "109",
+            "nested": [
+                {
+                    "@type": "item",
+                    "name": "api/python/src/PE/objects/resources/pyResourceDialog.cpp"
+                }
+            ]
+        },
+        {
+            "@type": "group",
+            "name": "110",
+            "nested": [
+                {
+                    "@type": "item",
+                    "name": "api/python/src/PE/objects/resources/pyResourceDialogItem.cpp"
+                }
+            ]
+        },
+        {
+            "@type": "group",
+            "name": "111",
+            "nested": [
+                {
+                    "@type": "item",
+                    "name": "api/python/src/PE/objects/resources/pyResourceIcon.cpp"
+                }
+            ]
+        },
+        {
+            "@type": "group",
+            "name": "112",
+            "nested": [
+                {
+                    "@type": "item",
+                    "name": "api/python/src/PE/objects/resources/pyResourceStringTable.cpp"
+                }
+            ]
+        },
+        {
+            "@type": "group",
+            "name": "113",
+            "nested": [
+                {
+                    "@type": "item",
+                    "name": "api/python/src/PE/objects/resources/pyResourceVarFileInfo.cpp"
+                }
+            ]
+        },
+        {
+            "@type": "group",
+            "name": "114",
+            "nested": [
+                {
+                    "@type": "item",
+                    "name": "api/python/src/PE/objects/signature/attributes/pyContentType.cpp"
+                }
+            ]
+        },
+        {
+            "@type": "group",
+            "name": "115",
+            "nested": [
+                {
+                    "@type": "item",
+                    "name": "api/python/src/PE/objects/signature/attributes/pyGenericType.cpp"
+                }
+            ]
+        },
+        {
+            "@type": "group",
+            "name": "116",
+            "nested": [
+                {
+                    "@type": "item",
+                    "name": "api/python/src/PE/objects/signature/attributes/pyMsSpcNestedSignature.cpp"
+                }
+            ]
+        },
+        {
+            "@type": "group",
+            "name": "117",
+            "nested": [
+                {
+                    "@type": "item",
+                    "name": "api/python/src/PE/objects/signature/attributes/pyPKCS9AtSequenceNumber.cpp"
+                }
+            ]
+        },
+        {
+            "@type": "group",
+            "name": "118",
+            "nested": [
+                {
+                    "@type": "item",
+                    "name": "api/python/src/PE/objects/signature/attributes/pyPKCS9CounterSignature.cpp"
+                }
+            ]
+        },
+        {
+            "@type": "group",
+            "name": "119",
+            "nested": [
+                {
+                    "@type": "item",
+                    "name": "api/python/src/PE/objects/signature/attributes/pyPKCS9MessageDigest.cpp"
+                }
+            ]
+        },
+        {
+            "@type": "group",
+            "name": "120",
+            "nested": [
+                {
+                    "@type": "item",
+                    "name": "api/python/src/PE/objects/signature/attributes/pyPKCS9SigningTime.cpp"
+                }
+            ]
+        },
+        {
+            "@type": "group",
+            "name": "121",
+            "nested": [
+                {
+                    "@type": "item",
+                    "name": "api/python/src/PE/objects/signature/pyAttribute.cpp"
+                }
+            ]
+        },
+        {
+            "@type": "group",
+            "name": "122",
+            "nested": [
+                {
+                    "@type": "item",
+                    "name": "api/python/src/PE/objects/signature/pyContentInfo.cpp"
+                }
+            ]
+        },
+        {
+            "@type": "group",
+            "name": "123",
+            "nested": [
+                {
+                    "@type": "item",
+                    "name": "api/python/src/PE/objects/signature/pyRsaInfo.cpp"
+                }
+            ]
+        },
+        {
+            "@type": "group",
+            "name": "124",
+            "nested": [
+                {
+                    "@type": "item",
+                    "name": "api/python/src/PE/objects/signature/pySignerInfo.cpp"
+                }
+            ]
+        },
+        {
+            "@type": "group",
+            "name": "125",
+            "nested": [
+                {
+                    "@type": "item",
+                    "name": "api/python/src/PE/objects/signature/pyx509.cpp"
+                }
+            ]
+        },
+        {
+            "@type": "group",
+            "name": "126",
+            "nested": [
+                {
+                    "@type": "item",
+                    "name": "api/python/src/VDEX/objects/pyFile.cpp"
+                }
+            ]
+        },
+        {
+            "@type": "group",
+            "name": "127",
+            "nested": [
+                {
+                    "@type": "item",
+                    "name": "api/python/src/VDEX/objects/pyHeader.cpp"
+                }
+            ]
+        },
+        {
+            "@type": "group",
+            "name": "128",
+            "nested": [
+                {
+                    "@type": "item",
+                    "name": "doc/sphinx/_static/example.cpp"
+                }
+            ]
+        },
+        {
+            "@type": "group",
+            "name": "129",
+            "nested": [
+                {
+                    "@type": "item",
+                    "name": "examples/cmake/add_subdirectory/main.cpp"
+                }
+            ]
+        },
+        {
+            "@type": "group",
+            "name": "130",
+            "nested": [
+                {
+                    "@type": "item",
+                    "name": "examples/cmake/external_project/HelloLIEF/main.cpp"
+                }
+            ]
+        },
+        {
+            "@type": "group",
+            "name": "131",
+            "nested": [
+                {
+                    "@type": "item",
+                    "name": "examples/cmake/find_package/main.cpp"
+                }
+            ]
+        },
+        {
+            "@type": "group",
+            "name": "132",
+            "nested": [
+                {
+                    "@type": "item",
+                    "name": "examples/cpp/elf_reader.cpp"
+                }
+            ]
+        },
+        {
+            "@type": "group",
+            "name": "133",
+            "nested": [
+                {
+                    "@type": "item",
+                    "name": "examples/cpp/elf_section_rename.cpp"
+                }
+            ]
+        },
+        {
+            "@type": "group",
+            "name": "134",
+            "nested": [
+                {
+                    "@type": "item",
+                    "name": "examples/cpp/macho_from_memory.cpp"
+                }
+            ]
+        },
+        {
+            "@type": "group",
+            "name": "135",
+            "nested": [
+                {
+                    "@type": "item",
+                    "name": "profiling/oat_profiler.cpp"
+                }
+            ]
+        },
+        {
+            "@type": "group",
+            "name": "136",
+            "nested": [
+                {
+                    "@type": "item",
+                    "name": "src/MachO/Convert.cpp"
+                }
+            ]
+        },
+        {
+            "@type": "group",
+            "name": "137",
+            "nested": [
+                {
+                    "@type": "item",
+                    "name": "src/PE/Convert.cpp"
+                }
+            ]
+        },
+        {
+            "@type": "group",
+            "name": "138",
+            "nested": [
+                {
+                    "@type": "item",
+                    "name": "src/frozen.hpp"
+                }
+            ]
+        },
+        {
+            "@type": "group",
+            "name": "139",
+            "nested": [
+                {
+                    "@type": "item",
+                    "name": "src/third-party/utfcpp.hpp"
+                }
+            ]
+        },
+        {
+            "@type": "group",
+            "name": "140",
+            "nested": [
+                {
+                    "@type": "item",
+                    "name": "tests/sanitizer/sanitize_checks.cpp"
+                }
+            ]
+        },
+        {
+            "@type": "group",
+            "name": "141",
+            "nested": [
+                {
+                    "@type": "item",
+                    "name": "tests/test_iterators.cpp"
+                }
+            ]
+        },
+        {
+            "@type": "group",
+            "name": "142",
+            "nested": [
+                {
+                    "@type": "item",
+                    "name": "src/visitors/json.hpp"
+                },
+                {
+                    "@type": "item",
+                    "name": "src/visitors/json.cpp"
+                }
+            ]
+        }
+    ]
+}

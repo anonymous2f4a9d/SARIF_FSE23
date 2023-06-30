@@ -1,0 +1,1514 @@
+{
+    "@schemaVersion": "1.0",
+    "name": "clustering",
+    "structure": [
+        {
+            "@type": "group",
+            "name": "0",
+            "nested": [
+                {
+                    "@type": "item",
+                    "name": "hyperdbg/hprdbghv/pch.h"
+                },
+                {
+                    "@type": "item",
+                    "name": "hyperdbg/hprdbghv/header/vmm/ept/Invept.h"
+                },
+                {
+                    "@type": "item",
+                    "name": "hyperdbg/hprdbghv/header/vmm/vmx/Vmcall.h"
+                },
+                {
+                    "@type": "item",
+                    "name": "hyperdbg/hprdbghv/header/vmm/vmx/MsrHandlers.h"
+                },
+                {
+                    "@type": "item",
+                    "name": "hyperdbg/hprdbghv/code/features/CompatibilityChecks.c"
+                },
+                {
+                    "@type": "item",
+                    "name": "hyperdbg/hprdbghv/header/globals/GlobalVariables.h"
+                },
+                {
+                    "@type": "item",
+                    "name": "hyperdbg/hprdbghv/pch.c"
+                },
+                {
+                    "@type": "item",
+                    "name": "hyperdbg/hprdbghv/header/features/DirtyLogging.h"
+                },
+                {
+                    "@type": "item",
+                    "name": "hyperdbg/hprdbghv/header/memory/Conversion.h"
+                },
+                {
+                    "@type": "item",
+                    "name": "hyperdbg/hprdbghv/code/interface/Callback.c"
+                },
+                {
+                    "@type": "item",
+                    "name": "hyperdbg/hprdbghv/header/interface/Dispatch.h"
+                },
+                {
+                    "@type": "item",
+                    "name": "hyperdbg/hprdbghv/header/common/Trace.h"
+                },
+                {
+                    "@type": "item",
+                    "name": "hyperdbg/hprdbghv/header/platform/Environment.h"
+                },
+                {
+                    "@type": "item",
+                    "name": "hyperdbg/hprdbghv/header/common/State.h"
+                },
+                {
+                    "@type": "item",
+                    "name": "hyperdbg/hprdbghv/header/common/Common.h"
+                },
+                {
+                    "@type": "item",
+                    "name": "hyperdbg/hprdbghv/header/vmm/vmx/HypervTlfs.h"
+                },
+                {
+                    "@type": "item",
+                    "name": "hyperdbg/hprdbghv/header/memory/SwitchLayout.h"
+                },
+                {
+                    "@type": "item",
+                    "name": "hyperdbg/hprdbghv/code/vmm/vmx/Hv.c"
+                },
+                {
+                    "@type": "item",
+                    "name": "hyperdbg/hprdbghv/code/common/Bitwise.c"
+                },
+                {
+                    "@type": "item",
+                    "name": "hyperdbg/hprdbghv/code/interface/Dispatch.c"
+                },
+                {
+                    "@type": "item",
+                    "name": "hyperdbg/hprdbghv/header/assembly/InlineAsm.h"
+                },
+                {
+                    "@type": "item",
+                    "name": "hyperdbg/hprdbghv/header/vmm/ept/Vpid.h"
+                },
+                {
+                    "@type": "item",
+                    "name": "hyperdbg/hprdbghv/code/memory/MemoryManager.c"
+                },
+                {
+                    "@type": "item",
+                    "name": "hyperdbg/hprdbghv/header/vmm/vmx/Counters.h"
+                },
+                {
+                    "@type": "item",
+                    "name": "hyperdbg/hprdbghv/code/vmm/ept/Vpid.c"
+                },
+                {
+                    "@type": "item",
+                    "name": "hyperdbg/hprdbghv/code/vmm/ept/Invept.c"
+                },
+                {
+                    "@type": "item",
+                    "name": "hyperdbg/hprdbghv/code/transparency/Transparency.c"
+                },
+                {
+                    "@type": "item",
+                    "name": "hyperdbg/hprdbghv/header/memory/MemoryMapper.h"
+                },
+                {
+                    "@type": "item",
+                    "name": "hyperdbg/hprdbghv/header/transparency/Transparency.h"
+                },
+                {
+                    "@type": "item",
+                    "name": "hyperdbg/hprdbghv/code/vmm/vmx/IoHandler.c"
+                },
+                {
+                    "@type": "item",
+                    "name": "hyperdbg/hprdbghv/code/features/DirtyLogging.c"
+                },
+                {
+                    "@type": "item",
+                    "name": "hyperdbg/hprdbghv/code/vmm/vmx/ManageRegs.c"
+                },
+                {
+                    "@type": "item",
+                    "name": "hyperdbg/hprdbghv/code/vmm/vmx/Vmcall.c"
+                },
+                {
+                    "@type": "item",
+                    "name": "hyperdbg/hprdbghv/header/features/CompatibilityChecks.h"
+                },
+                {
+                    "@type": "item",
+                    "name": "hyperdbg/hprdbghv/code/memory/MemoryMapper.c"
+                },
+                {
+                    "@type": "item",
+                    "name": "hyperdbg/hprdbghv/header/vmm/vmx/IoHandler.h"
+                },
+                {
+                    "@type": "item",
+                    "name": "hyperdbg/hprdbghv/header/interface/Callback.h"
+                },
+                {
+                    "@type": "item",
+                    "name": "hyperdbg/hprdbghv/header/common/Bitwise.h"
+                },
+                {
+                    "@type": "item",
+                    "name": "hyperdbg/hprdbghv/header/vmm/vmx/Hv.h"
+                },
+                {
+                    "@type": "item",
+                    "name": "hyperdbg/hprdbghv/code/vmm/vmx/ProtectedHv.c"
+                },
+                {
+                    "@type": "item",
+                    "name": "hyperdbg/hprdbghv/header/common/Msr.h"
+                },
+                {
+                    "@type": "item",
+                    "name": "hyperdbg/hprdbghv/code/common/Common.c"
+                },
+                {
+                    "@type": "item",
+                    "name": "hyperdbg/hprdbghv/code/vmm/vmx/Counters.c"
+                },
+                {
+                    "@type": "item",
+                    "name": "hyperdbg/hprdbghv/header/vmm/ept/Ept.h"
+                },
+                {
+                    "@type": "item",
+                    "name": "hyperdbg/hprdbghv/header/vmm/vmx/ProtectedHv.h"
+                },
+                {
+                    "@type": "item",
+                    "name": "hyperdbg/hprdbghv/code/vmm/vmx/MsrHandlers.c"
+                },
+                {
+                    "@type": "item",
+                    "name": "hyperdbg/hprdbghv/code/vmm/ept/Ept.c"
+                },
+                {
+                    "@type": "item",
+                    "name": "hyperdbg/hprdbghv/header/interface/Configuration.h"
+                },
+                {
+                    "@type": "item",
+                    "name": "hyperdbg/hprdbghv/header/vmm/vmx/Vmx.h"
+                }
+            ]
+        },
+        {
+            "@type": "group",
+            "name": "1",
+            "nested": [
+                {
+                    "@type": "item",
+                    "name": "hyperdbg/hprdbgctrl/code/debugger/user-level/pe-parser.cpp"
+                },
+                {
+                    "@type": "item",
+                    "name": "hyperdbg/hprdbgctrl/code/debugger/commands/meta-commands/debug.cpp"
+                },
+                {
+                    "@type": "item",
+                    "name": "hyperdbg/hprdbgctrl/code/debugger/commands/meta-commands/restart.cpp"
+                },
+                {
+                    "@type": "item",
+                    "name": "hyperdbg/hprdbgctrl/code/debugger/commands/meta-commands/script.cpp"
+                },
+                {
+                    "@type": "item",
+                    "name": "hyperdbg/hprdbgctrl/code/debugger/commands/meta-commands/start.cpp"
+                },
+                {
+                    "@type": "item",
+                    "name": "hyperdbg/hprdbgctrl/code/debugger/commands/meta-commands/thread.cpp"
+                },
+                {
+                    "@type": "item",
+                    "name": "hyperdbg/hprdbgctrl/code/debugger/commands/debugging-commands/g.cpp"
+                },
+                {
+                    "@type": "item",
+                    "name": "hyperdbg/hprdbgctrl/code/debugger/misc/callstack.cpp"
+                },
+                {
+                    "@type": "item",
+                    "name": "hyperdbg/hprdbgctrl/code/debugger/commands/debugging-commands/p.cpp"
+                },
+                {
+                    "@type": "item",
+                    "name": "hyperdbg/hprdbgctrl/code/debugger/commands/meta-commands/logopen.cpp"
+                },
+                {
+                    "@type": "item",
+                    "name": "hyperdbg/hprdbgctrl/code/debugger/commands/debugging-commands/be.cpp"
+                },
+                {
+                    "@type": "item",
+                    "name": "hyperdbg/hprdbgctrl/code/debugger/commands/debugging-commands/bp.cpp"
+                },
+                {
+                    "@type": "item",
+                    "name": "hyperdbg/hprdbgctrl/code/debugger/commands/debugging-commands/exit.cpp"
+                },
+                {
+                    "@type": "item",
+                    "name": "hyperdbg/hprdbgctrl/code/debugger/script-engine-wrapper/script-engine-wrapper.cpp"
+                },
+                {
+                    "@type": "item",
+                    "name": "hyperdbg/hprdbgctrl/code/debugger/commands/debugging-commands/d-u.cpp"
+                },
+                {
+                    "@type": "item",
+                    "name": "hyperdbg/hprdbgctrl/code/debugger/commands/meta-commands/sym.cpp"
+                },
+                {
+                    "@type": "item",
+                    "name": "hyperdbg/hprdbgctrl/code/debugger/commands/debugging-commands/t.cpp"
+                },
+                {
+                    "@type": "item",
+                    "name": "hyperdbg/hprdbgctrl/code/debugger/commands/debugging-commands/x.cpp"
+                },
+                {
+                    "@type": "item",
+                    "name": "hyperdbg/hprdbgctrl/code/debugger/commands/meta-commands/switch.cpp"
+                },
+                {
+                    "@type": "item",
+                    "name": "hyperdbg/hprdbgctrl/code/debugger/commands/debugging-commands/eval.cpp"
+                },
+                {
+                    "@type": "item",
+                    "name": "hyperdbg/hprdbgctrl/code/debugger/commands/debugging-commands/bd.cpp"
+                },
+                {
+                    "@type": "item",
+                    "name": "hyperdbg/hprdbgctrl/code/debugger/commands/meta-commands/pe.cpp"
+                },
+                {
+                    "@type": "item",
+                    "name": "hyperdbg/hprdbgctrl/code/debugger/commands/debugging-commands/pause.cpp"
+                },
+                {
+                    "@type": "item",
+                    "name": "hyperdbg/hprdbgctrl/code/debugger/commands/meta-commands/help.cpp"
+                },
+                {
+                    "@type": "item",
+                    "name": "hyperdbg/hprdbgctrl/code/debugger/commands/debugging-commands/~.cpp"
+                },
+                {
+                    "@type": "item",
+                    "name": "hyperdbg/hprdbgctrl/code/debugger/commands/meta-commands/kill.cpp"
+                },
+                {
+                    "@type": "item",
+                    "name": "hyperdbg/hprdbgctrl/header/pe-parser.h"
+                },
+                {
+                    "@type": "item",
+                    "name": "hyperdbg/hprdbgctrl/code/debugger/commands/debugging-commands/k.cpp"
+                },
+                {
+                    "@type": "item",
+                    "name": "hyperdbg/hprdbgctrl/code/debugger/core/debugger.cpp"
+                },
+                {
+                    "@type": "item",
+                    "name": "hyperdbg/hprdbgctrl/header/script-engine.h"
+                },
+                {
+                    "@type": "item",
+                    "name": "hyperdbg/hprdbgctrl/code/debugger/commands/extension-commands/rev.cpp"
+                },
+                {
+                    "@type": "item",
+                    "name": "hyperdbg/hprdbgctrl/code/debugger/commands/debugging-commands/bc.cpp"
+                },
+                {
+                    "@type": "item",
+                    "name": "hyperdbg/hprdbgctrl/code/debugger/commands/meta-commands/formats.cpp"
+                },
+                {
+                    "@type": "item",
+                    "name": "hyperdbg/hprdbgctrl/code/debugger/commands/meta-commands/attach.cpp"
+                },
+                {
+                    "@type": "item",
+                    "name": "hyperdbg/hprdbgctrl/code/debugger/commands/debugging-commands/r.cpp"
+                },
+                {
+                    "@type": "item",
+                    "name": "hyperdbg/hprdbgctrl/code/debugger/commands/debugging-commands/i.cpp"
+                },
+                {
+                    "@type": "item",
+                    "name": "hyperdbg/hprdbgctrl/code/debugger/commands/debugging-commands/print.cpp"
+                },
+                {
+                    "@type": "item",
+                    "name": "hyperdbg/hprdbgctrl/code/debugger/commands/debugging-commands/bl.cpp"
+                }
+            ]
+        },
+        {
+            "@type": "group",
+            "name": "2",
+            "nested": [
+                {
+                    "@type": "item",
+                    "name": "hyperdbg/hprdbgctrl/code/debugger/commands/extension-commands/measure.cpp"
+                },
+                {
+                    "@type": "item",
+                    "name": "hyperdbg/hprdbgctrl/code/debugger/script-engine-wrapper/symbol.cpp"
+                },
+                {
+                    "@type": "item",
+                    "name": "hyperdbg/hprdbgctrl/code/debugger/communication/tcpserver.cpp"
+                },
+                {
+                    "@type": "item",
+                    "name": "hyperdbg/hprdbgctrl/header/tests.h"
+                },
+                {
+                    "@type": "item",
+                    "name": "hyperdbg/hprdbgctrl/header/list.h"
+                },
+                {
+                    "@type": "item",
+                    "name": "hyperdbg/hprdbgctrl/header/install.h"
+                },
+                {
+                    "@type": "item",
+                    "name": "hyperdbg/hprdbgctrl/code/debugger/transparency/transparency.cpp"
+                },
+                {
+                    "@type": "item",
+                    "name": "hyperdbg/hprdbgctrl/header/inipp.h"
+                },
+                {
+                    "@type": "item",
+                    "name": "hyperdbg/hprdbgctrl/code/debugger/communication/tcpclient.cpp"
+                },
+                {
+                    "@type": "item",
+                    "name": "hyperdbg/hprdbgctrl/code/debugger/driver-loader/install.cpp"
+                },
+                {
+                    "@type": "item",
+                    "name": "hyperdbg/hprdbgctrl/code/debugger/communication/namedpipe.cpp"
+                },
+                {
+                    "@type": "item",
+                    "name": "hyperdbg/hprdbgctrl/header/symbol.h"
+                },
+                {
+                    "@type": "item",
+                    "name": "hyperdbg/hprdbgctrl/code/debugger/commands/extension-commands/hide.cpp"
+                },
+                {
+                    "@type": "item",
+                    "name": "hyperdbg/hprdbgctrl/header/transparency.h"
+                },
+                {
+                    "@type": "item",
+                    "name": "hyperdbg/hprdbgctrl/code/debugger/transparency/gaussian-rng.cpp"
+                },
+                {
+                    "@type": "item",
+                    "name": "hyperdbg/hprdbgctrl/header/communication.h"
+                },
+                {
+                    "@type": "item",
+                    "name": "hyperdbg/hprdbgctrl/code/debugger/user-level/user-listening.cpp"
+                },
+                {
+                    "@type": "item",
+                    "name": "hyperdbg/hprdbgctrl/header/namedpipe.h"
+                },
+                {
+                    "@type": "item",
+                    "name": "hyperdbg/hprdbgctrl/pch.cpp"
+                },
+                {
+                    "@type": "item",
+                    "name": "hyperdbg/hprdbgctrl/code/debugger/tests/tests.cpp"
+                },
+                {
+                    "@type": "item",
+                    "name": "hyperdbg/hprdbgctrl/code/common/common.cpp"
+                },
+                {
+                    "@type": "item",
+                    "name": "hyperdbg/hprdbgctrl/code/debugger/core/break-control.cpp"
+                },
+                {
+                    "@type": "item",
+                    "name": "hyperdbg/hprdbgctrl/header/globals.h"
+                },
+                {
+                    "@type": "item",
+                    "name": "hyperdbg/hprdbgctrl/header/debugger.h"
+                },
+                {
+                    "@type": "item",
+                    "name": "hyperdbg/hprdbgctrl/code/debugger/core/interpreter.cpp"
+                },
+                {
+                    "@type": "item",
+                    "name": "hyperdbg/hprdbgctrl/pch.h"
+                },
+                {
+                    "@type": "item",
+                    "name": "hyperdbg/hprdbgctrl/header/rev-ctrl.h"
+                },
+                {
+                    "@type": "item",
+                    "name": "hyperdbg/hprdbgctrl/header/common.h"
+                }
+            ]
+        },
+        {
+            "@type": "group",
+            "name": "3",
+            "nested": [
+                {
+                    "@type": "item",
+                    "name": "hyperdbg/hprdbghv/header/vmm/vmx/VmxMechanisms.h"
+                },
+                {
+                    "@type": "item",
+                    "name": "hyperdbg/hprdbghv/header/vmm/vmx/Events.h"
+                },
+                {
+                    "@type": "item",
+                    "name": "hyperdbg/hprdbghv/code/memory/SwitchLayout.c"
+                },
+                {
+                    "@type": "item",
+                    "name": "hyperdbg/hprdbghv/code/vmm/vmx/Vmexit.c"
+                },
+                {
+                    "@type": "item",
+                    "name": "hyperdbg/hprdbghv/code/devices/Apic.c"
+                },
+                {
+                    "@type": "item",
+                    "name": "hyperdbg/hprdbghv/code/disassembler/Disassembler.c"
+                },
+                {
+                    "@type": "item",
+                    "name": "hyperdbg/hprdbghv/header/vmm/vmx/IdtEmulation.h"
+                },
+                {
+                    "@type": "item",
+                    "name": "hyperdbg/hprdbghv/header/vmm/vmx/Mtf.h"
+                },
+                {
+                    "@type": "item",
+                    "name": "hyperdbg/hprdbghv/code/memory/Conversion.c"
+                },
+                {
+                    "@type": "item",
+                    "name": "hyperdbg/hprdbghv/code/vmm/vmx/Events.c"
+                },
+                {
+                    "@type": "item",
+                    "name": "hyperdbg/hprdbghv/header/vmm/vmx/VmxBroadcast.h"
+                },
+                {
+                    "@type": "item",
+                    "name": "hyperdbg/hprdbghv/code/vmm/vmx/Mtf.c"
+                },
+                {
+                    "@type": "item",
+                    "name": "hyperdbg/hprdbghv/code/memory/Layout.c"
+                },
+                {
+                    "@type": "item",
+                    "name": "hyperdbg/hprdbghv/code/vmm/vmx/Vmx.c"
+                },
+                {
+                    "@type": "item",
+                    "name": "hyperdbg/hprdbghv/header/memory/AddressCheck.h"
+                },
+                {
+                    "@type": "item",
+                    "name": "hyperdbg/hprdbghv/code/vmm/vmx/VmxBroadcast.c"
+                },
+                {
+                    "@type": "item",
+                    "name": "hyperdbg/hprdbghv/code/vmm/vmx/VmxMechanisms.c"
+                },
+                {
+                    "@type": "item",
+                    "name": "hyperdbg/hprdbghv/header/memory/Layout.h"
+                },
+                {
+                    "@type": "item",
+                    "name": "hyperdbg/hprdbghv/header/devices/Apic.h"
+                },
+                {
+                    "@type": "item",
+                    "name": "hyperdbg/hprdbghv/code/memory/AddressCheck.c"
+                },
+                {
+                    "@type": "item",
+                    "name": "hyperdbg/hprdbghv/code/vmm/vmx/CrossVmexits.c"
+                },
+                {
+                    "@type": "item",
+                    "name": "hyperdbg/hprdbghv/header/disassembler/Disassembler.h"
+                },
+                {
+                    "@type": "item",
+                    "name": "hyperdbg/hprdbghv/code/vmm/vmx/IdtEmulation.c"
+                }
+            ]
+        },
+        {
+            "@type": "group",
+            "name": "4",
+            "nested": [
+                {
+                    "@type": "item",
+                    "name": "hyperdbg/hprdbgkd/header/driver/Loader.h"
+                },
+                {
+                    "@type": "item",
+                    "name": "hyperdbg/hprdbgkd/code/driver/Loader.c"
+                },
+                {
+                    "@type": "item",
+                    "name": "hyperdbg/hprdbgkd/header/debugger/broadcast/DpcRoutines.h"
+                },
+                {
+                    "@type": "item",
+                    "name": "hyperdbg/hprdbgkd/code/debugger/broadcast/DpcRoutines.c"
+                },
+                {
+                    "@type": "item",
+                    "name": "hyperdbg/hprdbgkd/header/debugger/objects/Thread.h"
+                },
+                {
+                    "@type": "item",
+                    "name": "hyperdbg/hprdbgkd/code/debugger/objects/Thread.c"
+                },
+                {
+                    "@type": "item",
+                    "name": "hyperdbg/hprdbgkd/header/globals/Global.h"
+                },
+                {
+                    "@type": "item",
+                    "name": "hyperdbg/hprdbgkd/header/debugger/commands/BreakpointCommands.h"
+                },
+                {
+                    "@type": "item",
+                    "name": "hyperdbg/hprdbgkd/header/debugger/commands/DebuggerCommands.h"
+                },
+                {
+                    "@type": "item",
+                    "name": "hyperdbg/hprdbgkd/code/debugger/commands/BreakpointCommands.c"
+                },
+                {
+                    "@type": "item",
+                    "name": "hyperdbg/hprdbgkd/code/debugger/commands/DebuggerCommands.c"
+                },
+                {
+                    "@type": "item",
+                    "name": "hyperdbg/hprdbgkd/header/debugger/commands/Callstack.h"
+                },
+                {
+                    "@type": "item",
+                    "name": "hyperdbg/hprdbgkd/code/debugger/commands/Callstack.c"
+                },
+                {
+                    "@type": "item",
+                    "name": "hyperdbg/hprdbgkd/header/debugger/kernel-level/Kd.h"
+                },
+                {
+                    "@type": "item",
+                    "name": "hyperdbg/hprdbgkd/code/debugger/kernel-level/Kd.c"
+                },
+                {
+                    "@type": "item",
+                    "name": "hyperdbg/hprdbgkd/header/debugger/objects/Process.h"
+                },
+                {
+                    "@type": "item",
+                    "name": "hyperdbg/hprdbgkd/code/debugger/objects/Process.c"
+                },
+                {
+                    "@type": "item",
+                    "name": "hyperdbg/hprdbgkd/header/debugger/tests/KernelTests.h"
+                },
+                {
+                    "@type": "item",
+                    "name": "hyperdbg/hprdbgkd/code/debugger/tests/KernelTests.c"
+                },
+                {
+                    "@type": "item",
+                    "name": "hyperdbg/hprdbgkd/header/debugger/user-level/ThreadHolder.h"
+                },
+                {
+                    "@type": "item",
+                    "name": "hyperdbg/hprdbgkd/code/debugger/user-level/ThreadHolder.c"
+                },
+                {
+                    "@type": "item",
+                    "name": "hyperdbg/hprdbgkd/header/pch.h"
+                },
+                {
+                    "@type": "item",
+                    "name": "hyperdbg/hprdbgkd/header/common/Common.h"
+                },
+                {
+                    "@type": "item",
+                    "name": "hyperdbg/hprdbgkd/code/common/Common.c"
+                },
+                {
+                    "@type": "item",
+                    "name": "hyperdbg/hprdbgkd/header/debugger/script-engine/ScriptEngine.h"
+                },
+                {
+                    "@type": "item",
+                    "name": "hyperdbg/hprdbgkd/code/debugger/script-engine/ScriptEngine.c"
+                },
+                {
+                    "@type": "item",
+                    "name": "hyperdbg/hprdbgkd/header/driver/Driver.h"
+                },
+                {
+                    "@type": "item",
+                    "name": "hyperdbg/hprdbgkd/code/driver/Ioctl.c"
+                },
+                {
+                    "@type": "item",
+                    "name": "hyperdbg/hprdbgkd/code/driver/Driver.c"
+                },
+                {
+                    "@type": "item",
+                    "name": "hyperdbg/hprdbgkd/header/assembly/Assembly.h"
+                },
+                {
+                    "@type": "item",
+                    "name": "hyperdbg/hprdbgkd/header/debugger/core/DebuggerVmcalls.h"
+                },
+                {
+                    "@type": "item",
+                    "name": "hyperdbg/hprdbgkd/code/debugger/core/DebuggerVmcalls.c"
+                },
+                {
+                    "@type": "item",
+                    "name": "hyperdbg/hprdbgkd/header/debugger/user-level/Ud.h"
+                },
+                {
+                    "@type": "item",
+                    "name": "hyperdbg/hprdbgkd/code/debugger/user-level/Ud.c"
+                },
+                {
+                    "@type": "item",
+                    "name": "hyperdbg/hprdbgkd/header/debugger/user-level/Attaching.h"
+                },
+                {
+                    "@type": "item",
+                    "name": "hyperdbg/hprdbgkd/code/debugger/user-level/Attaching.c"
+                },
+                {
+                    "@type": "item",
+                    "name": "hyperdbg/hprdbgkd/header/debugger/user-level/UserAccess.h"
+                },
+                {
+                    "@type": "item",
+                    "name": "hyperdbg/hprdbgkd/code/debugger/user-level/UserAccess.c"
+                },
+                {
+                    "@type": "item",
+                    "name": "hyperdbg/hprdbgkd/header/debugger/core/State.h"
+                },
+                {
+                    "@type": "item",
+                    "name": "hyperdbg/hprdbgkd/header/debugger/communication/SerialConnection.h"
+                },
+                {
+                    "@type": "item",
+                    "name": "hyperdbg/hprdbgkd/code/debugger/communication/SerialConnection.c"
+                },
+                {
+                    "@type": "item",
+                    "name": "hyperdbg/hprdbgkd/header/common/Dpc.h"
+                }
+            ]
+        },
+        {
+            "@type": "group",
+            "name": "5",
+            "nested": [
+                {
+                    "@type": "item",
+                    "name": "hyperdbg/hprdbgctrl/code/debugger/misc/readmem.cpp"
+                },
+                {
+                    "@type": "item",
+                    "name": "hyperdbg/hprdbgctrl/code/debugger/commands/extension-commands/unhide.cpp"
+                },
+                {
+                    "@type": "item",
+                    "name": "hyperdbg/hprdbgctrl/code/debugger/commands/meta-commands/process.cpp"
+                },
+                {
+                    "@type": "item",
+                    "name": "hyperdbg/hprdbgctrl/code/debugger/commands/debugging-commands/s.cpp"
+                },
+                {
+                    "@type": "item",
+                    "name": "hyperdbg/hprdbgctrl/code/debugger/commands/debugging-commands/rdmsr.cpp"
+                },
+                {
+                    "@type": "item",
+                    "name": "hyperdbg/hprdbgctrl/code/debugger/commands/debugging-commands/e.cpp"
+                },
+                {
+                    "@type": "item",
+                    "name": "hyperdbg/hprdbgctrl/code/debugger/commands/meta-commands/detach.cpp"
+                },
+                {
+                    "@type": "item",
+                    "name": "hyperdbg/hprdbgctrl/code/rev/rev-ctrl.cpp"
+                },
+                {
+                    "@type": "item",
+                    "name": "hyperdbg/hprdbgctrl/code/debugger/commands/debugging-commands/wrmsr.cpp"
+                },
+                {
+                    "@type": "item",
+                    "name": "hyperdbg/hprdbgctrl/code/debugger/commands/extension-commands/pte.cpp"
+                },
+                {
+                    "@type": "item",
+                    "name": "hyperdbg/hprdbgctrl/code/debugger/commands/extension-commands/va2pa.cpp"
+                },
+                {
+                    "@type": "item",
+                    "name": "hyperdbg/hprdbgctrl/code/debugger/commands/debugging-commands/flush.cpp"
+                },
+                {
+                    "@type": "item",
+                    "name": "hyperdbg/hprdbgctrl/code/debugger/commands/debugging-commands/lm.cpp"
+                },
+                {
+                    "@type": "item",
+                    "name": "hyperdbg/hprdbgctrl/code/debugger/user-level/ud.cpp"
+                },
+                {
+                    "@type": "item",
+                    "name": "hyperdbg/hprdbgctrl/header/objects.h"
+                },
+                {
+                    "@type": "item",
+                    "name": "hyperdbg/hprdbgctrl/code/debugger/commands/debugging-commands/test.cpp"
+                },
+                {
+                    "@type": "item",
+                    "name": "hyperdbg/hprdbgctrl/code/objects/objects.cpp"
+                },
+                {
+                    "@type": "item",
+                    "name": "hyperdbg/hprdbgctrl/code/debugger/commands/extension-commands/pa2va.cpp"
+                },
+                {
+                    "@type": "item",
+                    "name": "hyperdbg/hprdbgctrl/header/ud.h"
+                }
+            ]
+        },
+        {
+            "@type": "group",
+            "name": "6",
+            "nested": [
+                {
+                    "@type": "item",
+                    "name": "hyperdbg/hprdbgctrl/code/debugger/commands/extension-commands/ioout.cpp"
+                },
+                {
+                    "@type": "item",
+                    "name": "hyperdbg/hprdbgctrl/code/debugger/commands/extension-commands/interrupt.cpp"
+                },
+                {
+                    "@type": "item",
+                    "name": "hyperdbg/hprdbgctrl/code/debugger/commands/extension-commands/msrwrite.cpp"
+                },
+                {
+                    "@type": "item",
+                    "name": "hyperdbg/hprdbgctrl/code/debugger/commands/debugging-commands/prealloc.cpp"
+                },
+                {
+                    "@type": "item",
+                    "name": "hyperdbg/hprdbgctrl/code/debugger/commands/extension-commands/crwrite.cpp"
+                },
+                {
+                    "@type": "item",
+                    "name": "hyperdbg/hprdbgctrl/code/debugger/commands/extension-commands/epthook.cpp"
+                },
+                {
+                    "@type": "item",
+                    "name": "hyperdbg/hprdbgctrl/code/debugger/commands/extension-commands/monitor.cpp"
+                },
+                {
+                    "@type": "item",
+                    "name": "hyperdbg/hprdbgctrl/code/debugger/commands/extension-commands/cpuid.cpp"
+                },
+                {
+                    "@type": "item",
+                    "name": "hyperdbg/hprdbgctrl/code/debugger/commands/extension-commands/epthook2.cpp"
+                },
+                {
+                    "@type": "item",
+                    "name": "hyperdbg/hprdbgctrl/code/debugger/commands/extension-commands/tsc.cpp"
+                },
+                {
+                    "@type": "item",
+                    "name": "hyperdbg/hprdbgctrl/code/debugger/commands/extension-commands/pmc.cpp"
+                },
+                {
+                    "@type": "item",
+                    "name": "hyperdbg/hprdbgctrl/code/debugger/commands/extension-commands/exception.cpp"
+                },
+                {
+                    "@type": "item",
+                    "name": "hyperdbg/hprdbgctrl/code/debugger/commands/extension-commands/dr.cpp"
+                },
+                {
+                    "@type": "item",
+                    "name": "hyperdbg/hprdbgctrl/code/debugger/commands/extension-commands/vmcall.cpp"
+                },
+                {
+                    "@type": "item",
+                    "name": "hyperdbg/hprdbgctrl/code/debugger/commands/extension-commands/syscall-sysret.cpp"
+                },
+                {
+                    "@type": "item",
+                    "name": "hyperdbg/hprdbgctrl/code/debugger/commands/extension-commands/msrread.cpp"
+                },
+                {
+                    "@type": "item",
+                    "name": "hyperdbg/hprdbgctrl/code/debugger/commands/extension-commands/ioin.cpp"
+                }
+            ]
+        },
+        {
+            "@type": "group",
+            "name": "7",
+            "nested": [
+                {
+                    "@type": "item",
+                    "name": "hyperdbg/hprdbgctrl/code/debugger/commands/debugging-commands/load.cpp"
+                },
+                {
+                    "@type": "item",
+                    "name": "hyperdbg/hprdbgctrl/code/debugger/communication/remote-connection.cpp"
+                },
+                {
+                    "@type": "item",
+                    "name": "hyperdbg/hprdbgctrl/code/debugger/kernel-level/kernel-listening.cpp"
+                },
+                {
+                    "@type": "item",
+                    "name": "hyperdbg/hprdbgctrl/code/debugger/commands/meta-commands/listen.cpp"
+                },
+                {
+                    "@type": "item",
+                    "name": "hyperdbg/hprdbgctrl/code/debugger/commands/debugging-commands/unload.cpp"
+                },
+                {
+                    "@type": "item",
+                    "name": "hyperdbg/hprdbgctrl/code/debugger/kernel-level/kd.cpp"
+                },
+                {
+                    "@type": "item",
+                    "name": "hyperdbg/hprdbgctrl/header/exports.h"
+                },
+                {
+                    "@type": "item",
+                    "name": "hyperdbg/hprdbgctrl/code/debugger/script-engine-wrapper/script-engine.cpp"
+                },
+                {
+                    "@type": "item",
+                    "name": "hyperdbg/hprdbgctrl/header/kd.h"
+                },
+                {
+                    "@type": "item",
+                    "name": "hyperdbg/hprdbgctrl/code/app/hprdbgctrl.cpp"
+                },
+                {
+                    "@type": "item",
+                    "name": "hyperdbg/hprdbgctrl/code/debugger/commands/meta-commands/status.cpp"
+                },
+                {
+                    "@type": "item",
+                    "name": "hyperdbg/hprdbgctrl/code/debugger/commands/meta-commands/disconnect.cpp"
+                },
+                {
+                    "@type": "item",
+                    "name": "hyperdbg/hprdbgctrl/code/debugger/commands/meta-commands/connect.cpp"
+                }
+            ]
+        },
+        {
+            "@type": "group",
+            "name": "8",
+            "nested": [
+                {
+                    "@type": "item",
+                    "name": "hyperdbg/hprdbghv/header/broadcast/DpcRoutines.h"
+                },
+                {
+                    "@type": "item",
+                    "name": "hyperdbg/hprdbghv/code/hooks/ept-hook/ModeBasedExecHook.c"
+                },
+                {
+                    "@type": "item",
+                    "name": "hyperdbg/hprdbghv/code/memory/PoolManager.c"
+                },
+                {
+                    "@type": "item",
+                    "name": "hyperdbg/hprdbghv/code/hooks/ept-hook/EptHook.c"
+                },
+                {
+                    "@type": "item",
+                    "name": "hyperdbg/hprdbghv/header/hooks/ModeBasedExecHook.h"
+                },
+                {
+                    "@type": "item",
+                    "name": "hyperdbg/hprdbghv/code/hooks/syscall-hook/SsdtHook.c"
+                },
+                {
+                    "@type": "item",
+                    "name": "hyperdbg/hprdbghv/header/memory/PoolManager.h"
+                },
+                {
+                    "@type": "item",
+                    "name": "hyperdbg/hprdbghv/header/broadcast/Broadcast.h"
+                },
+                {
+                    "@type": "item",
+                    "name": "hyperdbg/hprdbghv/code/broadcast/Broadcast.c"
+                },
+                {
+                    "@type": "item",
+                    "name": "hyperdbg/hprdbghv/code/broadcast/DpcRoutines.c"
+                },
+                {
+                    "@type": "item",
+                    "name": "hyperdbg/hprdbghv/header/hooks/Hooks.h"
+                },
+                {
+                    "@type": "item",
+                    "name": "hyperdbg/hprdbghv/code/hooks/syscall-hook/EferHook.c"
+                },
+                {
+                    "@type": "item",
+                    "name": "hyperdbg/hprdbghv/code/interface/Configuration.c"
+                }
+            ]
+        },
+        {
+            "@type": "group",
+            "name": "9",
+            "nested": [
+                {
+                    "@type": "item",
+                    "name": "hyperdbg/script-engine/code/script-engine.c"
+                },
+                {
+                    "@type": "item",
+                    "name": "hyperdbg/script-engine/code/scanner.c"
+                },
+                {
+                    "@type": "item",
+                    "name": "hyperdbg/script-engine/header/common.h"
+                },
+                {
+                    "@type": "item",
+                    "name": "hyperdbg/script-engine/code/parse-table.c"
+                },
+                {
+                    "@type": "item",
+                    "name": "hyperdbg/script-engine/pch.c"
+                },
+                {
+                    "@type": "item",
+                    "name": "hyperdbg/script-engine/header/globals.h"
+                },
+                {
+                    "@type": "item",
+                    "name": "hyperdbg/script-engine/header/scanner.h"
+                },
+                {
+                    "@type": "item",
+                    "name": "hyperdbg/script-engine/header/script-engine.h"
+                },
+                {
+                    "@type": "item",
+                    "name": "hyperdbg/script-engine/header/parse-table.h"
+                },
+                {
+                    "@type": "item",
+                    "name": "hyperdbg/script-engine/pch.h"
+                },
+                {
+                    "@type": "item",
+                    "name": "hyperdbg/script-engine/code/common.c"
+                },
+                {
+                    "@type": "item",
+                    "name": "hyperdbg/script-engine/code/globals.c"
+                }
+            ]
+        },
+        {
+            "@type": "group",
+            "name": "10",
+            "nested": [
+                {
+                    "@type": "item",
+                    "name": "hyperdbg/hprdbgctrl/code/debugger/communication/forwarding.cpp"
+                },
+                {
+                    "@type": "item",
+                    "name": "hyperdbg/hprdbgctrl/code/debugger/commands/debugging-commands/output.cpp"
+                },
+                {
+                    "@type": "item",
+                    "name": "hyperdbg/hprdbgctrl/code/debugger/commands/meta-commands/cls.cpp"
+                },
+                {
+                    "@type": "item",
+                    "name": "hyperdbg/hprdbgctrl/header/commands.h"
+                },
+                {
+                    "@type": "item",
+                    "name": "hyperdbg/hprdbgctrl/code/debugger/commands/meta-commands/logclose.cpp"
+                },
+                {
+                    "@type": "item",
+                    "name": "hyperdbg/hprdbgctrl/code/debugger/commands/meta-commands/sympath.cpp"
+                },
+                {
+                    "@type": "item",
+                    "name": "hyperdbg/hprdbgctrl/header/help.h"
+                },
+                {
+                    "@type": "item",
+                    "name": "hyperdbg/hprdbgctrl/code/debugger/commands/debugging-commands/sleep.cpp"
+                },
+                {
+                    "@type": "item",
+                    "name": "hyperdbg/hprdbgctrl/header/forwarding.h"
+                }
+            ]
+        },
+        {
+            "@type": "group",
+            "name": "11",
+            "nested": [
+                {
+                    "@type": "item",
+                    "name": "hyperdbg/hprdbgkd/header/debugger/core/Debugger.h"
+                },
+                {
+                    "@type": "item",
+                    "name": "hyperdbg/hprdbgkd/code/debugger/core/Debugger.c"
+                },
+                {
+                    "@type": "item",
+                    "name": "hyperdbg/hprdbgkd/header/debugger/memory/Memory.h"
+                },
+                {
+                    "@type": "item",
+                    "name": "hyperdbg/hprdbgkd/header/debugger/core/DebuggerEvents.h"
+                },
+                {
+                    "@type": "item",
+                    "name": "hyperdbg/hprdbgkd/code/debugger/core/DebuggerEvents.c"
+                },
+                {
+                    "@type": "item",
+                    "name": "hyperdbg/hprdbgkd/header/debugger/commands/ExtensionCommands.h"
+                },
+                {
+                    "@type": "item",
+                    "name": "hyperdbg/hprdbgkd/code/debugger/commands/ExtensionCommands.c"
+                },
+                {
+                    "@type": "item",
+                    "name": "hyperdbg/hprdbgkd/header/debugger/core/Termination.h"
+                },
+                {
+                    "@type": "item",
+                    "name": "hyperdbg/hprdbgkd/code/debugger/core/Termination.c"
+                },
+                {
+                    "@type": "item",
+                    "name": "hyperdbg/hprdbgkd/header/debugger/memory/Allocations.h"
+                },
+                {
+                    "@type": "item",
+                    "name": "hyperdbg/hprdbgkd/code/debugger/memory/Allocations.c"
+                }
+            ]
+        },
+        {
+            "@type": "group",
+            "name": "12",
+            "nested": [
+                {
+                    "@type": "item",
+                    "name": "hyperdbg/script-eval/header/ScriptEngineInternalHeader.h"
+                },
+                {
+                    "@type": "item",
+                    "name": "hyperdbg/script-eval/header/ScriptEngineHeader.h"
+                },
+                {
+                    "@type": "item",
+                    "name": "hyperdbg/script-eval/code/ScriptEngineEval.c"
+                },
+                {
+                    "@type": "item",
+                    "name": "hyperdbg/script-eval/code/Regs.c"
+                },
+                {
+                    "@type": "item",
+                    "name": "hyperdbg/script-eval/code/PseudoRegisters.c"
+                },
+                {
+                    "@type": "item",
+                    "name": "hyperdbg/script-eval/header/ScriptEngineCommonDefinitions.h"
+                },
+                {
+                    "@type": "item",
+                    "name": "hyperdbg/script-eval/code/Functions.c"
+                },
+                {
+                    "@type": "item",
+                    "name": "hyperdbg/script-eval/code/Keywords.c"
+                }
+            ]
+        },
+        {
+            "@type": "group",
+            "name": "13",
+            "nested": [
+                {
+                    "@type": "item",
+                    "name": "hyperdbg/symbol-parser/code/common-utils.cpp"
+                },
+                {
+                    "@type": "item",
+                    "name": "hyperdbg/symbol-parser/pch.cpp"
+                },
+                {
+                    "@type": "item",
+                    "name": "hyperdbg/symbol-parser/code/symbol-parser.cpp"
+                },
+                {
+                    "@type": "item",
+                    "name": "hyperdbg/symbol-parser/header/symbol-parser.h"
+                },
+                {
+                    "@type": "item",
+                    "name": "hyperdbg/symbol-parser/header/common-utils.h"
+                },
+                {
+                    "@type": "item",
+                    "name": "hyperdbg/symbol-parser/pch.h"
+                }
+            ]
+        },
+        {
+            "@type": "group",
+            "name": "14",
+            "nested": [
+                {
+                    "@type": "item",
+                    "name": "hyperdbg/hprdbghv/code/globals/GlobalVariableManagement.c"
+                },
+                {
+                    "@type": "item",
+                    "name": "hyperdbg/hprdbghv/header/globals/GlobalVariableManagement.h"
+                },
+                {
+                    "@type": "item",
+                    "name": "hyperdbg/hprdbghv/code/platform/CrossApi.c"
+                },
+                {
+                    "@type": "item",
+                    "name": "hyperdbg/hprdbghv/header/platform/CrossApi.h"
+                }
+            ]
+        },
+        {
+            "@type": "group",
+            "name": "15",
+            "nested": [
+                {
+                    "@type": "item",
+                    "name": "hyperdbg/hprdbgctrl/code/common/list.cpp"
+                },
+                {
+                    "@type": "item",
+                    "name": "hyperdbg/hprdbgctrl/code/app/dllmain.cpp"
+                }
+            ]
+        },
+        {
+            "@type": "group",
+            "name": "16",
+            "nested": [
+                {
+                    "@type": "item",
+                    "name": "hyperdbg/hprdbgctrl/code/debugger/commands/debugging-commands/settings.cpp"
+                },
+                {
+                    "@type": "item",
+                    "name": "hyperdbg/hprdbgctrl/code/debugger/commands/debugging-commands/dt-struct.cpp"
+                }
+            ]
+        },
+        {
+            "@type": "group",
+            "name": "17",
+            "nested": [
+                {
+                    "@type": "item",
+                    "name": "hyperdbg/hprdbgrm/code/driver/Loader.c"
+                },
+                {
+                    "@type": "item",
+                    "name": "hyperdbg/hprdbgrm/code/driver/Driver.c"
+                },
+                {
+                    "@type": "item",
+                    "name": "hyperdbg/hprdbgrm/code/driver/Ioctl.c"
+                }
+            ]
+        },
+        {
+            "@type": "group",
+            "name": "18",
+            "nested": [
+                {
+                    "@type": "item",
+                    "name": "hyperdbg/hprdbgctrl/code/common/spinlock.cpp"
+                }
+            ]
+        },
+        {
+            "@type": "group",
+            "name": "19",
+            "nested": [
+                {
+                    "@type": "item",
+                    "name": "hyperdbg/hprdbgctrl/code/debugger/commands/debugging-commands/cpu.cpp"
+                }
+            ]
+        },
+        {
+            "@type": "group",
+            "name": "20",
+            "nested": [
+                {
+                    "@type": "item",
+                    "name": "hyperdbg/hprdbgctrl/code/debugger/commands/debugging-commands/events.cpp"
+                }
+            ]
+        },
+        {
+            "@type": "group",
+            "name": "21",
+            "nested": [
+                {
+                    "@type": "item",
+                    "name": "hyperdbg/hprdbgctrl/code/debugger/commands/extension-commands/track.cpp"
+                }
+            ]
+        },
+        {
+            "@type": "group",
+            "name": "22",
+            "nested": [
+                {
+                    "@type": "item",
+                    "name": "hyperdbg/hprdbgctrl/code/debugger/misc/disassembler.cpp"
+                }
+            ]
+        },
+        {
+            "@type": "group",
+            "name": "23",
+            "nested": [
+                {
+                    "@type": "item",
+                    "name": "hyperdbg/hprdbghv/code/components/registers/DebugRegisters.c"
+                }
+            ]
+        },
+        {
+            "@type": "group",
+            "name": "24",
+            "nested": [
+                {
+                    "@type": "item",
+                    "name": "hyperdbg/hprdbghv/code/disassembler/ZydisKernel.c"
+                }
+            ]
+        },
+        {
+            "@type": "group",
+            "name": "25",
+            "nested": [
+                {
+                    "@type": "item",
+                    "name": "hyperdbg/hprdbghv/code/interface/Export.c"
+                }
+            ]
+        },
+        {
+            "@type": "group",
+            "name": "26",
+            "nested": [
+                {
+                    "@type": "item",
+                    "name": "hyperdbg/hprdbghv/code/vmm/vmx/VmxRegions.c"
+                }
+            ]
+        },
+        {
+            "@type": "group",
+            "name": "27",
+            "nested": [
+                {
+                    "@type": "item",
+                    "name": "hyperdbg/hprdbgrm/code/core/Core.c"
+                }
+            ]
+        },
+        {
+            "@type": "group",
+            "name": "28",
+            "nested": [
+                {
+                    "@type": "item",
+                    "name": "hyperdbg/hyperdbg-cli/hyperdbg-cli.cpp"
+                }
+            ]
+        },
+        {
+            "@type": "group",
+            "name": "29",
+            "nested": [
+                {
+                    "@type": "item",
+                    "name": "hyperdbg/symbol-parser/code/casting.cpp"
+                }
+            ]
+        },
+        {
+            "@type": "group",
+            "name": "30",
+            "nested": [
+                {
+                    "@type": "item",
+                    "name": "hyperdbg/hprdbghv/header/common/Dpc.h"
+                }
+            ]
+        },
+        {
+            "@type": "group",
+            "name": "31",
+            "nested": [
+                {
+                    "@type": "item",
+                    "name": "hyperdbg/hyperlog/header/pch.h"
+                }
+            ]
+        },
+        {
+            "@type": "group",
+            "name": "32",
+            "nested": [
+                {
+                    "@type": "item",
+                    "name": "hyperdbg/hprdbgrm/header/pch.h"
+                }
+            ]
+        },
+        {
+            "@type": "group",
+            "name": "33",
+            "nested": [
+                {
+                    "@type": "item",
+                    "name": "hyperdbg/hprdbgrm/header/driver/Driver.h"
+                }
+            ]
+        },
+        {
+            "@type": "group",
+            "name": "34",
+            "nested": [
+                {
+                    "@type": "item",
+                    "name": "hyperdbg/hprdbgrm/header/driver/Loader.h"
+                }
+            ]
+        },
+        {
+            "@type": "group",
+            "name": "35",
+            "nested": [
+                {
+                    "@type": "item",
+                    "name": "hyperdbg/hprdbgrm/header/core/Core.h"
+                }
+            ]
+        },
+        {
+            "@type": "group",
+            "name": "36",
+            "nested": [
+                {
+                    "@type": "item",
+                    "name": "hyperdbg/hprdbgrm/header/misc/Global.h"
+                }
+            ]
+        },
+        {
+            "@type": "group",
+            "name": "37",
+            "nested": [
+                {
+                    "@type": "item",
+                    "name": "hyperdbg/hyperlog/header/Logging.h"
+                },
+                {
+                    "@type": "item",
+                    "name": "hyperdbg/hyperlog/code/Logging.c"
+                }
+            ]
+        }
+    ]
+}

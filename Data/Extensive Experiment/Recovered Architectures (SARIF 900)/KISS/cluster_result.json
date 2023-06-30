@@ -1,0 +1,716 @@
+{
+    "@schemaVersion": "1.0",
+    "name": "clustering",
+    "structure": [
+        {
+            "@type": "group",
+            "name": "0",
+            "nested": [
+                {
+                    "@type": "item",
+                    "name": "app/src/main/java/fr/neamar/kiss/ui/GoogleCalendarIcon.java"
+                },
+                {
+                    "@type": "item",
+                    "name": "app/src/main/java/fr/neamar/kiss/adapter/RecordAdapter.java"
+                },
+                {
+                    "@type": "item",
+                    "name": "app/src/main/java/fr/neamar/kiss/result/CallResult.java"
+                },
+                {
+                    "@type": "item",
+                    "name": "app/src/main/java/fr/neamar/kiss/result/PhoneResult.java"
+                },
+                {
+                    "@type": "item",
+                    "name": "app/src/main/java/fr/neamar/kiss/result/SearchResult.java"
+                },
+                {
+                    "@type": "item",
+                    "name": "app/src/main/java/fr/neamar/kiss/result/ShortcutsResult.java"
+                },
+                {
+                    "@type": "item",
+                    "name": "app/src/main/java/fr/neamar/kiss/utils/SpaceTokenizer.java"
+                },
+                {
+                    "@type": "item",
+                    "name": "app/src/main/java/fr/neamar/kiss/searcher/QueryInterface.java"
+                },
+                {
+                    "@type": "item",
+                    "name": "app/src/main/java/fr/neamar/kiss/result/AppResult.java"
+                },
+                {
+                    "@type": "item",
+                    "name": "app/src/main/java/fr/neamar/kiss/ui/ListPopup.java"
+                },
+                {
+                    "@type": "item",
+                    "name": "app/src/main/java/fr/neamar/kiss/utils/FuzzyScore.java"
+                },
+                {
+                    "@type": "item",
+                    "name": "app/src/main/java/fr/neamar/kiss/result/SettingsResult.java"
+                },
+                {
+                    "@type": "item",
+                    "name": "app/src/main/java/fr/neamar/kiss/result/TagDummyResult.java"
+                },
+                {
+                    "@type": "item",
+                    "name": "app/src/main/java/fr/neamar/kiss/result/Result.java"
+                },
+                {
+                    "@type": "item",
+                    "name": "app/src/main/java/fr/neamar/kiss/result/ContactsResult.java"
+                }
+            ]
+        },
+        {
+            "@type": "group",
+            "name": "1",
+            "nested": [
+                {
+                    "@type": "item",
+                    "name": "app/src/main/java/fr/neamar/kiss/utils/IconPackCache.java"
+                },
+                {
+                    "@type": "item",
+                    "name": "app/src/main/java/fr/neamar/kiss/MainActivity.java"
+                },
+                {
+                    "@type": "item",
+                    "name": "app/src/main/java/fr/neamar/kiss/ui/SearchEditText.java"
+                },
+                {
+                    "@type": "item",
+                    "name": "app/src/main/java/fr/neamar/kiss/RootHandler.java"
+                },
+                {
+                    "@type": "item",
+                    "name": "app/src/main/java/fr/neamar/kiss/utils/SystemUiVisibilityHelper.java"
+                },
+                {
+                    "@type": "item",
+                    "name": "app/src/main/java/fr/neamar/kiss/TagsHandler.java"
+                },
+                {
+                    "@type": "item",
+                    "name": "app/src/main/java/fr/neamar/kiss/DataHandler.java"
+                },
+                {
+                    "@type": "item",
+                    "name": "app/src/main/java/fr/neamar/kiss/utils/Permission.java"
+                },
+                {
+                    "@type": "item",
+                    "name": "app/src/main/java/fr/neamar/kiss/UIColors.java"
+                },
+                {
+                    "@type": "item",
+                    "name": "app/src/main/java/fr/neamar/kiss/PickAppWidgetActivity.java"
+                },
+                {
+                    "@type": "item",
+                    "name": "app/src/main/java/fr/neamar/kiss/KissApplication.java"
+                },
+                {
+                    "@type": "item",
+                    "name": "app/src/main/java/fr/neamar/kiss/IconsHandler.java"
+                },
+                {
+                    "@type": "item",
+                    "name": "app/src/main/java/fr/neamar/kiss/CustomIconDialog.java"
+                },
+                {
+                    "@type": "item",
+                    "name": "app/src/main/java/fr/neamar/kiss/SettingsActivity.java"
+                }
+            ]
+        },
+        {
+            "@type": "group",
+            "name": "2",
+            "nested": [
+                {
+                    "@type": "item",
+                    "name": "app/src/main/java/fr/neamar/kiss/preference/ResetPreference.java"
+                },
+                {
+                    "@type": "item",
+                    "name": "app/src/main/java/fr/neamar/kiss/preference/ResetExcludedAppShortcutsPreference.java"
+                },
+                {
+                    "@type": "item",
+                    "name": "app/src/main/java/fr/neamar/kiss/preference/ResetExcludedAppsPreference.java"
+                },
+                {
+                    "@type": "item",
+                    "name": "app/src/main/java/fr/neamar/kiss/preference/NotificationPreference.java"
+                },
+                {
+                    "@type": "item",
+                    "name": "app/src/main/java/fr/neamar/kiss/preference/DefaultLauncherPreference.java"
+                },
+                {
+                    "@type": "item",
+                    "name": "app/src/main/java/fr/neamar/kiss/preference/ExportSettingsPreference.java"
+                },
+                {
+                    "@type": "item",
+                    "name": "app/src/main/java/fr/neamar/kiss/preference/ResetFavoritesPreference.java"
+                },
+                {
+                    "@type": "item",
+                    "name": "app/src/main/java/fr/neamar/kiss/preference/ImportSettingsPreference.java"
+                },
+                {
+                    "@type": "item",
+                    "name": "app/src/main/java/fr/neamar/kiss/preference/ResetSearchProvidersPreference.java"
+                },
+                {
+                    "@type": "item",
+                    "name": "app/src/main/java/fr/neamar/kiss/preference/ResetShortcutsPreference.java"
+                },
+                {
+                    "@type": "item",
+                    "name": "app/src/main/java/fr/neamar/kiss/preference/PreferenceScreenHelper.java"
+                },
+                {
+                    "@type": "item",
+                    "name": "app/src/main/java/fr/neamar/kiss/preference/ResetExcludedFromHistoryAppsPreference.java"
+                },
+                {
+                    "@type": "item",
+                    "name": "app/src/main/java/fr/neamar/kiss/preference/RestartPreference.java"
+                }
+            ]
+        },
+        {
+            "@type": "group",
+            "name": "3",
+            "nested": [
+                {
+                    "@type": "item",
+                    "name": "app/src/main/java/fr/neamar/kiss/utils/LockAccessibilityService.java"
+                },
+                {
+                    "@type": "item",
+                    "name": "app/src/main/java/fr/neamar/kiss/forwarder/InterfaceTweaks.java"
+                },
+                {
+                    "@type": "item",
+                    "name": "app/src/main/java/fr/neamar/kiss/forwarder/ExperienceTweaks.java"
+                },
+                {
+                    "@type": "item",
+                    "name": "app/src/main/java/fr/neamar/kiss/forwarder/Widgets.java"
+                },
+                {
+                    "@type": "item",
+                    "name": "app/src/main/java/fr/neamar/kiss/forwarder/OreoShortcuts.java"
+                },
+                {
+                    "@type": "item",
+                    "name": "app/src/main/java/fr/neamar/kiss/forwarder/LiveWallpaper.java"
+                },
+                {
+                    "@type": "item",
+                    "name": "app/src/main/java/fr/neamar/kiss/notification/NotificationListener.java"
+                },
+                {
+                    "@type": "item",
+                    "name": "app/src/main/java/fr/neamar/kiss/forwarder/TagsMenu.java"
+                },
+                {
+                    "@type": "item",
+                    "name": "app/src/main/java/fr/neamar/kiss/forwarder/Forwarder.java"
+                },
+                {
+                    "@type": "item",
+                    "name": "app/src/main/java/fr/neamar/kiss/forwarder/ForwarderManager.java"
+                },
+                {
+                    "@type": "item",
+                    "name": "app/src/main/java/fr/neamar/kiss/forwarder/Notification.java"
+                },
+                {
+                    "@type": "item",
+                    "name": "app/src/main/java/fr/neamar/kiss/forwarder/Favorites.java"
+                }
+            ]
+        },
+        {
+            "@type": "group",
+            "name": "4",
+            "nested": [
+                {
+                    "@type": "item",
+                    "name": "app/src/main/java/fr/neamar/kiss/pojo/PojoWithTags.java"
+                },
+                {
+                    "@type": "item",
+                    "name": "app/src/main/java/fr/neamar/kiss/pojo/AppPojo.java"
+                },
+                {
+                    "@type": "item",
+                    "name": "app/src/main/java/fr/neamar/kiss/pojo/PhonePojo.java"
+                },
+                {
+                    "@type": "item",
+                    "name": "app/src/main/java/fr/neamar/kiss/pojo/SettingPojo.java"
+                },
+                {
+                    "@type": "item",
+                    "name": "app/src/main/java/fr/neamar/kiss/pojo/SearchPojo.java"
+                },
+                {
+                    "@type": "item",
+                    "name": "app/src/main/java/fr/neamar/kiss/pojo/ShortcutPojo.java"
+                },
+                {
+                    "@type": "item",
+                    "name": "app/src/main/java/fr/neamar/kiss/pojo/TagDummyPojo.java"
+                },
+                {
+                    "@type": "item",
+                    "name": "app/src/main/java/fr/neamar/kiss/pojo/Pojo.java"
+                },
+                {
+                    "@type": "item",
+                    "name": "app/src/main/java/fr/neamar/kiss/pojo/PojoComparator.java"
+                },
+                {
+                    "@type": "item",
+                    "name": "app/src/main/java/fr/neamar/kiss/pojo/ContactsPojo.java"
+                }
+            ]
+        },
+        {
+            "@type": "group",
+            "name": "5",
+            "nested": [
+                {
+                    "@type": "item",
+                    "name": "app/src/main/java/fr/neamar/kiss/searcher/ApplicationsSearcher.java"
+                },
+                {
+                    "@type": "item",
+                    "name": "app/src/main/java/fr/neamar/kiss/searcher/NullSearcher.java"
+                },
+                {
+                    "@type": "item",
+                    "name": "app/src/main/java/fr/neamar/kiss/searcher/Searcher.java"
+                },
+                {
+                    "@type": "item",
+                    "name": "app/src/main/java/fr/neamar/kiss/searcher/HistorySearcher.java"
+                },
+                {
+                    "@type": "item",
+                    "name": "app/src/main/java/fr/neamar/kiss/searcher/TagsSearcher.java"
+                },
+                {
+                    "@type": "item",
+                    "name": "app/src/main/java/fr/neamar/kiss/searcher/QuerySearcher.java"
+                },
+                {
+                    "@type": "item",
+                    "name": "app/src/main/java/fr/neamar/kiss/searcher/UntaggedSearcher.java"
+                }
+            ]
+        },
+        {
+            "@type": "group",
+            "name": "6",
+            "nested": [
+                {
+                    "@type": "item",
+                    "name": "app/src/main/java/fr/neamar/kiss/utils/ShortcutUtil.java"
+                },
+                {
+                    "@type": "item",
+                    "name": "app/src/main/java/fr/neamar/kiss/utils/Utilities.java"
+                },
+                {
+                    "@type": "item",
+                    "name": "app/src/main/java/fr/neamar/kiss/utils/PackageManagerUtils.java"
+                },
+                {
+                    "@type": "item",
+                    "name": "app/src/main/java/fr/neamar/kiss/utils/DrawableUtils.java"
+                },
+                {
+                    "@type": "item",
+                    "name": "app/src/main/java/fr/neamar/kiss/shortcut/SaveAllOreoShortcutsAsync.java"
+                },
+                {
+                    "@type": "item",
+                    "name": "app/src/main/java/fr/neamar/kiss/utils/UserHandle.java"
+                },
+                {
+                    "@type": "item",
+                    "name": "app/src/main/java/fr/neamar/kiss/shortcut/SaveSingleOreoShortcutAsync.java"
+                }
+            ]
+        },
+        {
+            "@type": "group",
+            "name": "7",
+            "nested": [
+                {
+                    "@type": "item",
+                    "name": "app/src/main/java/fr/neamar/kiss/dataprovider/simpleprovider/SettingsProvider.java"
+                },
+                {
+                    "@type": "item",
+                    "name": "app/src/main/java/fr/neamar/kiss/dataprovider/simpleprovider/TagsProvider.java"
+                },
+                {
+                    "@type": "item",
+                    "name": "app/src/main/java/fr/neamar/kiss/dataprovider/simpleprovider/PhoneProvider.java"
+                },
+                {
+                    "@type": "item",
+                    "name": "app/src/main/java/fr/neamar/kiss/dataprovider/simpleprovider/SimpleProvider.java"
+                },
+                {
+                    "@type": "item",
+                    "name": "app/src/main/java/fr/neamar/kiss/dataprovider/simpleprovider/CalculatorProvider.java"
+                },
+                {
+                    "@type": "item",
+                    "name": "app/src/test/java/fr/neamar/kiss/dataprovider/simpleprovider/CalculatorProviderTest.java"
+                },
+                {
+                    "@type": "item",
+                    "name": "app/src/main/java/fr/neamar/kiss/dataprovider/simpleprovider/SearchProvider.java"
+                }
+            ]
+        },
+        {
+            "@type": "group",
+            "name": "8",
+            "nested": [
+                {
+                    "@type": "item",
+                    "name": "app/src/main/java/fr/neamar/kiss/dataprovider/LauncherAppsCallback.java"
+                },
+                {
+                    "@type": "item",
+                    "name": "app/src/main/java/fr/neamar/kiss/dataprovider/ContactsProvider.java"
+                },
+                {
+                    "@type": "item",
+                    "name": "app/src/main/java/fr/neamar/kiss/dataprovider/ShortcutsProvider.java"
+                },
+                {
+                    "@type": "item",
+                    "name": "app/src/main/java/fr/neamar/kiss/dataprovider/IProvider.java"
+                },
+                {
+                    "@type": "item",
+                    "name": "app/src/main/java/fr/neamar/kiss/dataprovider/Provider.java"
+                },
+                {
+                    "@type": "item",
+                    "name": "app/src/main/java/fr/neamar/kiss/dataprovider/AppProvider.java"
+                }
+            ]
+        },
+        {
+            "@type": "group",
+            "name": "9",
+            "nested": [
+                {
+                    "@type": "item",
+                    "name": "app/src/main/java/fr/neamar/kiss/broadcast/PackageAddedRemovedHandler.java"
+                },
+                {
+                    "@type": "item",
+                    "name": "app/src/main/java/fr/neamar/kiss/broadcast/ProfileChangedHandler.java"
+                },
+                {
+                    "@type": "item",
+                    "name": "app/src/main/java/fr/neamar/kiss/broadcast/IncomingCallHandler.java"
+                },
+                {
+                    "@type": "item",
+                    "name": "app/src/main/java/fr/neamar/kiss/broadcast/IncomingCallScreeningService.java"
+                },
+                {
+                    "@type": "item",
+                    "name": "app/src/main/java/fr/neamar/kiss/broadcast/LocaleChangedReceiver.java"
+                }
+            ]
+        },
+        {
+            "@type": "group",
+            "name": "10",
+            "nested": [
+                {
+                    "@type": "item",
+                    "name": "app/src/main/java/fr/neamar/kiss/db/DB.java"
+                },
+                {
+                    "@type": "item",
+                    "name": "app/src/main/java/fr/neamar/kiss/db/ValuedHistoryRecord.java"
+                },
+                {
+                    "@type": "item",
+                    "name": "app/src/main/java/fr/neamar/kiss/db/DBHelper.java"
+                },
+                {
+                    "@type": "item",
+                    "name": "app/src/main/java/fr/neamar/kiss/db/AppRecord.java"
+                },
+                {
+                    "@type": "item",
+                    "name": "app/src/main/java/fr/neamar/kiss/db/ShortcutRecord.java"
+                }
+            ]
+        },
+        {
+            "@type": "group",
+            "name": "11",
+            "nested": [
+                {
+                    "@type": "item",
+                    "name": "app/src/main/java/com/android/colorpicker/ColorStateDrawable.java"
+                },
+                {
+                    "@type": "item",
+                    "name": "app/src/main/java/com/android/colorpicker/ColorPickerDialog.java"
+                },
+                {
+                    "@type": "item",
+                    "name": "app/src/main/java/com/android/colorpicker/ColorPickerSwatch.java"
+                },
+                {
+                    "@type": "item",
+                    "name": "app/src/main/java/fr/neamar/kiss/preference/ColorPreference.java"
+                },
+                {
+                    "@type": "item",
+                    "name": "app/src/main/java/com/android/colorpicker/ColorPickerPalette.java"
+                }
+            ]
+        },
+        {
+            "@type": "group",
+            "name": "12",
+            "nested": [
+                {
+                    "@type": "item",
+                    "name": "app/src/main/java/fr/neamar/kiss/preference/AddSearchProviderPreference.java"
+                },
+                {
+                    "@type": "item",
+                    "name": "app/src/main/java/fr/neamar/kiss/preference/SwitchPreference.java"
+                },
+                {
+                    "@type": "item",
+                    "name": "app/src/main/java/fr/neamar/kiss/preference/FreezeHistorySwitch.java"
+                },
+                {
+                    "@type": "item",
+                    "name": "app/src/main/java/fr/neamar/kiss/preference/RootModeSwitch.java"
+                },
+                {
+                    "@type": "item",
+                    "name": "app/src/main/java/fr/neamar/kiss/preference/ExcludePreferenceScreen.java"
+                }
+            ]
+        },
+        {
+            "@type": "group",
+            "name": "13",
+            "nested": [
+                {
+                    "@type": "item",
+                    "name": "app/src/main/java/fr/neamar/kiss/utils/calculator/Tokenizer.java"
+                },
+                {
+                    "@type": "item",
+                    "name": "app/src/main/java/fr/neamar/kiss/utils/calculator/Calculator.java"
+                },
+                {
+                    "@type": "item",
+                    "name": "app/src/test/java/fr/neamar/kiss/utils/calculator/CalculatorTest.java"
+                },
+                {
+                    "@type": "item",
+                    "name": "app/src/main/java/fr/neamar/kiss/utils/calculator/Result.java"
+                },
+                {
+                    "@type": "item",
+                    "name": "app/src/main/java/fr/neamar/kiss/utils/calculator/ShuntingYard.java"
+                }
+            ]
+        },
+        {
+            "@type": "group",
+            "name": "14",
+            "nested": [
+                {
+                    "@type": "item",
+                    "name": "app/src/main/java/fr/neamar/kiss/DummyActivity.java"
+                },
+                {
+                    "@type": "item",
+                    "name": "app/src/androidTest/java/fr/neamar/kiss/androidTest/MainActivityTest.java"
+                },
+                {
+                    "@type": "item",
+                    "name": "app/src/androidTest/java/fr/neamar/kiss/androidTest/FavoritesTest.java"
+                },
+                {
+                    "@type": "item",
+                    "name": "app/src/androidTest/java/fr/neamar/kiss/androidTest/AbstractMainActivityTest.java"
+                }
+            ]
+        },
+        {
+            "@type": "group",
+            "name": "15",
+            "nested": [
+                {
+                    "@type": "item",
+                    "name": "app/src/main/java/fr/neamar/kiss/loader/LoadShortcutsPojos.java"
+                },
+                {
+                    "@type": "item",
+                    "name": "app/src/main/java/fr/neamar/kiss/loader/LoadContactsPojos.java"
+                },
+                {
+                    "@type": "item",
+                    "name": "app/src/main/java/fr/neamar/kiss/loader/LoadAppPojos.java"
+                },
+                {
+                    "@type": "item",
+                    "name": "app/src/main/java/fr/neamar/kiss/loader/LoadPojos.java"
+                }
+            ]
+        },
+        {
+            "@type": "group",
+            "name": "16",
+            "nested": [
+                {
+                    "@type": "item",
+                    "name": "app/src/main/java/fr/neamar/kiss/ui/BottomPullEffectView.java"
+                },
+                {
+                    "@type": "item",
+                    "name": "app/src/main/java/fr/neamar/kiss/ui/KeyboardScrollHider.java"
+                },
+                {
+                    "@type": "item",
+                    "name": "app/src/main/java/fr/neamar/kiss/ui/BlockableListView.java"
+                },
+                {
+                    "@type": "item",
+                    "name": "app/src/main/java/fr/neamar/kiss/ui/AnimatedListView.java"
+                }
+            ]
+        },
+        {
+            "@type": "group",
+            "name": "17",
+            "nested": [
+                {
+                    "@type": "item",
+                    "name": "app/src/main/java/fr/neamar/kiss/normalizer/IntSequenceBuilder.java"
+                },
+                {
+                    "@type": "item",
+                    "name": "app/src/test/java/fr/neamar/kiss/utils/FuzzyScoreTest.java"
+                },
+                {
+                    "@type": "item",
+                    "name": "app/src/main/java/fr/neamar/kiss/normalizer/PhoneNormalizer.java"
+                },
+                {
+                    "@type": "item",
+                    "name": "app/src/main/java/fr/neamar/kiss/normalizer/StringNormalizer.java"
+                }
+            ]
+        },
+        {
+            "@type": "group",
+            "name": "18",
+            "nested": [
+                {
+                    "@type": "item",
+                    "name": "app/src/main/java/fr/neamar/kiss/icons/IconPack.java"
+                },
+                {
+                    "@type": "item",
+                    "name": "app/src/main/java/fr/neamar/kiss/icons/SystemIconPack.java"
+                },
+                {
+                    "@type": "item",
+                    "name": "app/src/main/java/fr/neamar/kiss/icons/IconPackXML.java"
+                }
+            ]
+        },
+        {
+            "@type": "group",
+            "name": "19",
+            "nested": [
+                {
+                    "@type": "item",
+                    "name": "app/src/main/java/fr/neamar/kiss/kustomsupport/AutoFinishTransparentActivity.java"
+                },
+                {
+                    "@type": "item",
+                    "name": "app/src/main/java/fr/neamar/kiss/kustomsupport/Kustom5SecsProvider.java"
+                }
+            ]
+        },
+        {
+            "@type": "group",
+            "name": "20",
+            "nested": [
+                {
+                    "@type": "item",
+                    "name": "app/src/main/java/fr/neamar/kiss/ui/ShapedContactBadge.java"
+                },
+                {
+                    "@type": "item",
+                    "name": "app/src/main/java/fr/neamar/kiss/ui/ImprovedQuickContactBadge.java"
+                }
+            ]
+        },
+        {
+            "@type": "group",
+            "name": "21",
+            "nested": [
+                {
+                    "@type": "item",
+                    "name": "app/src/main/java/fr/neamar/kiss/ui/WidgetHost.java"
+                },
+                {
+                    "@type": "item",
+                    "name": "app/src/main/java/fr/neamar/kiss/ui/WidgetView.java"
+                }
+            ]
+        },
+        {
+            "@type": "group",
+            "name": "22",
+            "nested": [
+                {
+                    "@type": "item",
+                    "name": "app/src/main/java/fr/neamar/kiss/utils/ViewGroupUtils.java"
+                },
+                {
+                    "@type": "item",
+                    "name": "app/src/main/java/fr/neamar/kiss/utils/ClipboardUtils.java"
+                }
+            ]
+        }
+    ]
+}

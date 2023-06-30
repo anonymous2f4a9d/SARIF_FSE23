@@ -1,0 +1,470 @@
+{
+    "@schemaVersion": "1.0",
+    "name": "clustering",
+    "structure": [
+        {
+            "@type": "group",
+            "name": "0",
+            "nested": [
+                {
+                    "@type": "item",
+                    "name": "src/terminal/TerminalMain.cpp"
+                },
+                {
+                    "@type": "item",
+                    "name": "src/terminal/TerminalServer.hpp"
+                },
+                {
+                    "@type": "item",
+                    "name": "src/terminal/TerminalServer.cpp"
+                },
+                {
+                    "@type": "item",
+                    "name": "src/terminal/UserTerminal.hpp"
+                },
+                {
+                    "@type": "item",
+                    "name": "src/terminal/UserTerminalRouter.hpp"
+                },
+                {
+                    "@type": "item",
+                    "name": "src/terminal/UserTerminalRouter.cpp"
+                },
+                {
+                    "@type": "item",
+                    "name": "src/terminal/ServerFifoPath.cpp"
+                },
+                {
+                    "@type": "item",
+                    "name": "src/terminal/TelemetryService.hpp"
+                },
+                {
+                    "@type": "item",
+                    "name": "src/terminal/TelemetryService.cpp"
+                },
+                {
+                    "@type": "item",
+                    "name": "src/terminal/ServerFifoPath.hpp"
+                },
+                {
+                    "@type": "item",
+                    "name": "src/terminal/TerminalClient.hpp"
+                },
+                {
+                    "@type": "item",
+                    "name": "src/terminal/TerminalClient.cpp"
+                },
+                {
+                    "@type": "item",
+                    "name": "src/terminal/TerminalClientMain.cpp"
+                },
+                {
+                    "@type": "item",
+                    "name": "src/terminal/SshSetupHandler.hpp"
+                },
+                {
+                    "@type": "item",
+                    "name": "src/terminal/SshSetupHandler.cpp"
+                },
+                {
+                    "@type": "item",
+                    "name": "src/terminal/ParseConfigFile.hpp"
+                },
+                {
+                    "@type": "item",
+                    "name": "src/terminal/UserJumphostHandler.hpp"
+                },
+                {
+                    "@type": "item",
+                    "name": "src/terminal/UserJumphostHandler.cpp"
+                },
+                {
+                    "@type": "item",
+                    "name": "src/terminal/UserTerminalHandler.hpp"
+                },
+                {
+                    "@type": "item",
+                    "name": "src/terminal/UserTerminalHandler.cpp"
+                },
+                {
+                    "@type": "item",
+                    "name": "src/terminal/TerminalServerMain.cpp"
+                }
+            ]
+        },
+        {
+            "@type": "group",
+            "name": "1",
+            "nested": [
+                {
+                    "@type": "item",
+                    "name": "test/TerminalTest.cpp"
+                },
+                {
+                    "@type": "item",
+                    "name": "test/Main.cpp"
+                },
+                {
+                    "@type": "item",
+                    "name": "test/TerminalServerRouterFuzzer.cpp"
+                },
+                {
+                    "@type": "item",
+                    "name": "test/JumphostTest.cpp"
+                },
+                {
+                    "@type": "item",
+                    "name": "test/FuzzableTerminalServer.hpp"
+                },
+                {
+                    "@type": "item",
+                    "name": "test/FakeConsole.hpp"
+                },
+                {
+                    "@type": "item",
+                    "name": "test/ServerFifoPathTest.cpp"
+                },
+                {
+                    "@type": "item",
+                    "name": "test/BackedTest.cpp"
+                },
+                {
+                    "@type": "item",
+                    "name": "test/CryptoHandlerTest.cpp"
+                },
+                {
+                    "@type": "item",
+                    "name": "test/TerminalServerFuzzer.cpp"
+                },
+                {
+                    "@type": "item",
+                    "name": "test/FlakySocketHandler.hpp"
+                },
+                {
+                    "@type": "item",
+                    "name": "test/ConnectionTest.cpp"
+                },
+                {
+                    "@type": "item",
+                    "name": "test/TestHeaders.hpp"
+                }
+            ]
+        },
+        {
+            "@type": "group",
+            "name": "2",
+            "nested": [
+                {
+                    "@type": "item",
+                    "name": "src/base/DaemonCreator.hpp"
+                },
+                {
+                    "@type": "item",
+                    "name": "src/base/DaemonCreator.cpp"
+                },
+                {
+                    "@type": "item",
+                    "name": "src/base/CryptoHandler.hpp"
+                },
+                {
+                    "@type": "item",
+                    "name": "src/base/CryptoHandler.cpp"
+                },
+                {
+                    "@type": "item",
+                    "name": "src/base/RawSocketUtils.hpp"
+                },
+                {
+                    "@type": "item",
+                    "name": "src/base/RawSocketUtils.cpp"
+                },
+                {
+                    "@type": "item",
+                    "name": "src/base/WinsockContext.hpp"
+                },
+                {
+                    "@type": "item",
+                    "name": "src/base/LogHandler.hpp"
+                },
+                {
+                    "@type": "item",
+                    "name": "src/base/LogHandler.cpp"
+                },
+                {
+                    "@type": "item",
+                    "name": "src/base/TunnelUtils.hpp"
+                },
+                {
+                    "@type": "item",
+                    "name": "src/base/TunnelUtils.cpp"
+                },
+                {
+                    "@type": "item",
+                    "name": "src/base/SubprocessToString.hpp"
+                },
+                {
+                    "@type": "item",
+                    "name": "src/base/SubprocessToString.cpp"
+                },
+                {
+                    "@type": "item",
+                    "name": "src/base/Packet.hpp"
+                },
+                {
+                    "@type": "item",
+                    "name": "src/base/SocketHandler.hpp"
+                },
+                {
+                    "@type": "item",
+                    "name": "src/base/SocketHandler.cpp"
+                },
+                {
+                    "@type": "item",
+                    "name": "src/base/Headers.hpp"
+                },
+                {
+                    "@type": "item",
+                    "name": "src/base/Connection.hpp"
+                },
+                {
+                    "@type": "item",
+                    "name": "src/base/Connection.cpp"
+                },
+                {
+                    "@type": "item",
+                    "name": "src/base/ClientConnection.hpp"
+                },
+                {
+                    "@type": "item",
+                    "name": "src/base/ClientConnection.cpp"
+                }
+            ]
+        },
+        {
+            "@type": "group",
+            "name": "3",
+            "nested": [
+                {
+                    "@type": "item",
+                    "name": "src/htm/HtmServer.hpp"
+                },
+                {
+                    "@type": "item",
+                    "name": "src/htm/HtmServer.cpp"
+                },
+                {
+                    "@type": "item",
+                    "name": "src/htm/MultiplexerState.hpp"
+                },
+                {
+                    "@type": "item",
+                    "name": "src/htm/MultiplexerState.cpp"
+                },
+                {
+                    "@type": "item",
+                    "name": "src/htm/HtmClient.hpp"
+                },
+                {
+                    "@type": "item",
+                    "name": "src/htm/HtmClient.cpp"
+                },
+                {
+                    "@type": "item",
+                    "name": "src/htm/HtmClientMain.cpp"
+                },
+                {
+                    "@type": "item",
+                    "name": "src/htm/HtmHeaderCodes.hpp"
+                },
+                {
+                    "@type": "item",
+                    "name": "src/htm/TerminalHandler.hpp"
+                },
+                {
+                    "@type": "item",
+                    "name": "src/htm/TerminalHandler.cpp"
+                },
+                {
+                    "@type": "item",
+                    "name": "src/htm/HtmServerMain.cpp"
+                }
+            ]
+        },
+        {
+            "@type": "group",
+            "name": "4",
+            "nested": [
+                {
+                    "@type": "item",
+                    "name": "src/base/PipeSocketHandler.hpp"
+                },
+                {
+                    "@type": "item",
+                    "name": "src/base/PipeSocketHandler.cpp"
+                },
+                {
+                    "@type": "item",
+                    "name": "src/base/UnixSocketHandler.hpp"
+                },
+                {
+                    "@type": "item",
+                    "name": "src/base/UnixSocketHandler.cpp"
+                },
+                {
+                    "@type": "item",
+                    "name": "src/base/BackedWriter.hpp"
+                },
+                {
+                    "@type": "item",
+                    "name": "src/base/BackedWriter.cpp"
+                },
+                {
+                    "@type": "item",
+                    "name": "src/base/TcpSocketHandler.hpp"
+                },
+                {
+                    "@type": "item",
+                    "name": "src/base/TcpSocketHandler.cpp"
+                }
+            ]
+        },
+        {
+            "@type": "group",
+            "name": "5",
+            "nested": [
+                {
+                    "@type": "item",
+                    "name": "src/terminal/Console.hpp"
+                },
+                {
+                    "@type": "item",
+                    "name": "src/terminal/PsuedoTerminalConsole.hpp"
+                },
+                {
+                    "@type": "item",
+                    "name": "src/terminal/PsuedoUserTerminal.hpp"
+                }
+            ]
+        },
+        {
+            "@type": "group",
+            "name": "6",
+            "nested": [
+                {
+                    "@type": "item",
+                    "name": "src/terminal/forwarding/ForwardDestinationHandler.hpp"
+                },
+                {
+                    "@type": "item",
+                    "name": "src/terminal/forwarding/ForwardDestinationHandler.cpp"
+                },
+                {
+                    "@type": "item",
+                    "name": "src/terminal/forwarding/ForwardSourceHandler.hpp"
+                },
+                {
+                    "@type": "item",
+                    "name": "src/terminal/forwarding/ForwardSourceHandler.cpp"
+                },
+                {
+                    "@type": "item",
+                    "name": "src/terminal/forwarding/PortForwardHandler.hpp"
+                },
+                {
+                    "@type": "item",
+                    "name": "src/terminal/forwarding/PortForwardHandler.cpp"
+                }
+            ]
+        },
+        {
+            "@type": "group",
+            "name": "7",
+            "nested": [
+                {
+                    "@type": "item",
+                    "name": "src/base/ServerConnection.hpp"
+                },
+                {
+                    "@type": "item",
+                    "name": "src/base/ServerConnection.cpp"
+                },
+                {
+                    "@type": "item",
+                    "name": "src/base/BackedReader.hpp"
+                },
+                {
+                    "@type": "item",
+                    "name": "src/base/BackedReader.cpp"
+                },
+                {
+                    "@type": "item",
+                    "name": "src/base/ServerClientConnection.hpp"
+                },
+                {
+                    "@type": "item",
+                    "name": "src/base/ServerClientConnection.cpp"
+                }
+            ]
+        },
+        {
+            "@type": "group",
+            "name": "8",
+            "nested": [
+                {
+                    "@type": "item",
+                    "name": "src/htm/IpcPairClient.hpp"
+                },
+                {
+                    "@type": "item",
+                    "name": "src/htm/IpcPairClient.cpp"
+                },
+                {
+                    "@type": "item",
+                    "name": "src/htm/IpcPairServer.hpp"
+                },
+                {
+                    "@type": "item",
+                    "name": "src/htm/IpcPairServer.cpp"
+                },
+                {
+                    "@type": "item",
+                    "name": "src/htm/IpcPairEndpoint.hpp"
+                },
+                {
+                    "@type": "item",
+                    "name": "src/htm/IpcPairEndpoint.cpp"
+                }
+            ]
+        },
+        {
+            "@type": "group",
+            "name": "9",
+            "nested": [
+                {
+                    "@type": "item",
+                    "name": "src/base/JsonLib.hpp"
+                }
+            ]
+        },
+        {
+            "@type": "group",
+            "name": "10",
+            "nested": [
+                {
+                    "@type": "item",
+                    "name": "src/terminal/ProcessHelper.hpp"
+                }
+            ]
+        },
+        {
+            "@type": "group",
+            "name": "11",
+            "nested": [
+                {
+                    "@type": "item",
+                    "name": "src/base/Globals.hpp"
+                }
+            ]
+        }
+    ]
+}

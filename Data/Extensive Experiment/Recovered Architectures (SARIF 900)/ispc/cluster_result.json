@@ -1,0 +1,900 @@
+{
+    "@schemaVersion": "1.0",
+    "name": "clustering",
+    "structure": [
+        {
+            "@type": "group",
+            "name": "0",
+            "nested": [
+                {
+                    "@type": "item",
+                    "name": "examples/cpu/gmres/util.h"
+                },
+                {
+                    "@type": "item",
+                    "name": "examples/cpu/gmres/matrix.h"
+                },
+                {
+                    "@type": "item",
+                    "name": "examples/cpu/gmres/matrix.cpp"
+                },
+                {
+                    "@type": "item",
+                    "name": "examples/cpu/aobench/ao.cpp"
+                },
+                {
+                    "@type": "item",
+                    "name": "examples/cpu/aobench_instrumented/ao.cpp"
+                },
+                {
+                    "@type": "item",
+                    "name": "examples/cpu/sort/sort.cpp"
+                },
+                {
+                    "@type": "item",
+                    "name": "examples/common/tasksys.cpp"
+                },
+                {
+                    "@type": "item",
+                    "name": "examples/cpu/aobench_instrumented/instrument.h"
+                },
+                {
+                    "@type": "item",
+                    "name": "examples/cpu/aobench_instrumented/instrument.cpp"
+                },
+                {
+                    "@type": "item",
+                    "name": "examples/xpu/sgemm/Matrix.h"
+                },
+                {
+                    "@type": "item",
+                    "name": "examples/xpu/sgemm/bench.cpp"
+                },
+                {
+                    "@type": "item",
+                    "name": "examples/cpu/volume_rendering/volume.cpp"
+                },
+                {
+                    "@type": "item",
+                    "name": "examples/cpu/mandelbrot/mandelbrot.cpp"
+                },
+                {
+                    "@type": "item",
+                    "name": "examples/cpu/gmres/debug.h"
+                },
+                {
+                    "@type": "item",
+                    "name": "examples/cpu/sgemm/SGEMM_main.cpp"
+                },
+                {
+                    "@type": "item",
+                    "name": "examples/cpu/noise/noise.cpp"
+                },
+                {
+                    "@type": "item",
+                    "name": "examples/cpu/volume_rendering/volume_serial.cpp"
+                },
+                {
+                    "@type": "item",
+                    "name": "examples/xpu/mandelbrot/mandelbrot.cpp"
+                },
+                {
+                    "@type": "item",
+                    "name": "examples/xpu/invoke-sycl-aobench/invoke_sycl_aobench.cpp"
+                },
+                {
+                    "@type": "item",
+                    "name": "examples/cpu/gmres/mmio.h"
+                },
+                {
+                    "@type": "item",
+                    "name": "examples/cpu/gmres/mmio.c"
+                },
+                {
+                    "@type": "item",
+                    "name": "examples/cpu/stencil/stencil.cpp"
+                },
+                {
+                    "@type": "item",
+                    "name": "examples/cpu/mandelbrot_tasks/mandelbrot_tasks.cpp"
+                },
+                {
+                    "@type": "item",
+                    "name": "examples/cpu/rt/rt.cpp"
+                },
+                {
+                    "@type": "item",
+                    "name": "examples/xpu/aobench/ao.cpp"
+                },
+                {
+                    "@type": "item",
+                    "name": "examples/common/timing.h"
+                },
+                {
+                    "@type": "item",
+                    "name": "examples/xpu/invoke-simd-vadd/invoke_simd_ispc.cpp"
+                },
+                {
+                    "@type": "item",
+                    "name": "examples/cpu/gmres/main.cpp"
+                },
+                {
+                    "@type": "item",
+                    "name": "examples/cpu/rt/rt_serial.cpp"
+                },
+                {
+                    "@type": "item",
+                    "name": "examples/xpu/noise/noise.cpp"
+                },
+                {
+                    "@type": "item",
+                    "name": "examples/cpu/gmres/algorithm.h"
+                },
+                {
+                    "@type": "item",
+                    "name": "examples/cpu/gmres/algorithm.cpp"
+                }
+            ]
+        },
+        {
+            "@type": "group",
+            "name": "1",
+            "nested": [
+                {
+                    "@type": "item",
+                    "name": "ispcrt/detail/Context.h"
+                },
+                {
+                    "@type": "item",
+                    "name": "ispcrt/detail/TaskQueue.h"
+                },
+                {
+                    "@type": "item",
+                    "name": "ispcrt/detail/Kernel.h"
+                },
+                {
+                    "@type": "item",
+                    "name": "ispcrt/detail/Exception.h"
+                },
+                {
+                    "@type": "item",
+                    "name": "ispcrt/ispcrt.hpp"
+                },
+                {
+                    "@type": "item",
+                    "name": "ispcrt/detail/IntrusivePtr.h"
+                },
+                {
+                    "@type": "item",
+                    "name": "ispcrt/detail/cpu/CPUContext.h"
+                },
+                {
+                    "@type": "item",
+                    "name": "ispcrt/detail/cpu/CPUDevice.h"
+                },
+                {
+                    "@type": "item",
+                    "name": "ispcrt/detail/cpu/CPUDevice.cpp"
+                },
+                {
+                    "@type": "item",
+                    "name": "ispcrt/detail/Fence.h"
+                },
+                {
+                    "@type": "item",
+                    "name": "ispcrt/detail/CommandList.h"
+                },
+                {
+                    "@type": "item",
+                    "name": "ispcrt/detail/gpu/GPUDevice.h"
+                },
+                {
+                    "@type": "item",
+                    "name": "ispcrt/detail/gpu/GPUContext.h"
+                },
+                {
+                    "@type": "item",
+                    "name": "ispcrt/detail/gpu/GPUDevice.cpp"
+                },
+                {
+                    "@type": "item",
+                    "name": "ispcrt/tests/level_zero_mock/ze_mock_driver.cpp"
+                },
+                {
+                    "@type": "item",
+                    "name": "ispcrt/tests/mock_tests/ispcrt_mock_main.cpp"
+                },
+                {
+                    "@type": "item",
+                    "name": "ispcrt/detail/Device.h"
+                },
+                {
+                    "@type": "item",
+                    "name": "ispcrt/tests/level_zero_mock/ze_mock.h"
+                },
+                {
+                    "@type": "item",
+                    "name": "ispcrt/tests/level_zero_mock/ze_mock.cpp"
+                },
+                {
+                    "@type": "item",
+                    "name": "ispcrt/detail/Module.h"
+                },
+                {
+                    "@type": "item",
+                    "name": "ispcrt/example_cmake/test_ispcrt.cpp"
+                },
+                {
+                    "@type": "item",
+                    "name": "ispcrt/detail/MemoryView.h"
+                },
+                {
+                    "@type": "item",
+                    "name": "ispcrt/detail/CommandQueue.h"
+                },
+                {
+                    "@type": "item",
+                    "name": "ispcrt/ispcrt.h"
+                },
+                {
+                    "@type": "item",
+                    "name": "ispcrt/ispcrt.cpp"
+                },
+                {
+                    "@type": "item",
+                    "name": "ispcrt/detail/Future.h"
+                }
+            ]
+        },
+        {
+            "@type": "group",
+            "name": "2",
+            "nested": [
+                {
+                    "@type": "item",
+                    "name": "src/opt/DebugPass.h"
+                },
+                {
+                    "@type": "item",
+                    "name": "src/opt/DebugPass.cpp"
+                },
+                {
+                    "@type": "item",
+                    "name": "src/opt/MangleOpenCLBuiltins.cpp"
+                },
+                {
+                    "@type": "item",
+                    "name": "src/opt/CheckIRForXeTarget.h"
+                },
+                {
+                    "@type": "item",
+                    "name": "src/opt/ISPCPass.h"
+                },
+                {
+                    "@type": "item",
+                    "name": "src/opt/XeGatherCoalescePass.cpp"
+                },
+                {
+                    "@type": "item",
+                    "name": "src/opt/ReplaceStdlibShiftPass.h"
+                },
+                {
+                    "@type": "item",
+                    "name": "src/opt/ReplaceStdlibShiftPass.cpp"
+                },
+                {
+                    "@type": "item",
+                    "name": "src/opt/CheckIRForXeTarget.cpp"
+                },
+                {
+                    "@type": "item",
+                    "name": "src/opt/MakeInternalFuncsStatic.h"
+                },
+                {
+                    "@type": "item",
+                    "name": "src/opt/MakeInternalFuncsStatic.cpp"
+                },
+                {
+                    "@type": "item",
+                    "name": "src/opt/ImproveMemoryOps.h"
+                },
+                {
+                    "@type": "item",
+                    "name": "src/opt/ImproveMemoryOps.cpp"
+                },
+                {
+                    "@type": "item",
+                    "name": "src/opt/IntrinsicsOptPass.h"
+                },
+                {
+                    "@type": "item",
+                    "name": "src/opt/IntrinsicsOptPass.cpp"
+                },
+                {
+                    "@type": "item",
+                    "name": "src/opt/XeGatherCoalescePass.h"
+                },
+                {
+                    "@type": "item",
+                    "name": "src/opt/XeReplaceLLVMIntrinsics.cpp"
+                },
+                {
+                    "@type": "item",
+                    "name": "src/opt/IsCompileTimeConstant.h"
+                },
+                {
+                    "@type": "item",
+                    "name": "src/opt/IsCompileTimeConstant.cpp"
+                },
+                {
+                    "@type": "item",
+                    "name": "src/opt/GatherCoalescePass.h"
+                },
+                {
+                    "@type": "item",
+                    "name": "src/opt/GatherCoalescePass.cpp"
+                },
+                {
+                    "@type": "item",
+                    "name": "src/opt/ISPCPasses.h"
+                },
+                {
+                    "@type": "item",
+                    "name": "src/opt/InstructionSimplify.h"
+                },
+                {
+                    "@type": "item",
+                    "name": "src/opt/InstructionSimplify.cpp"
+                },
+                {
+                    "@type": "item",
+                    "name": "src/opt/XeReplaceLLVMIntrinsics.h"
+                },
+                {
+                    "@type": "item",
+                    "name": "src/opt/ReplacePseudoMemoryOps.h"
+                },
+                {
+                    "@type": "item",
+                    "name": "src/opt/ReplacePseudoMemoryOps.cpp"
+                },
+                {
+                    "@type": "item",
+                    "name": "src/opt/MangleOpenCLBuiltins.h"
+                },
+                {
+                    "@type": "item",
+                    "name": "src/opt/PeepholePass.h"
+                },
+                {
+                    "@type": "item",
+                    "name": "src/opt/PeepholePass.cpp"
+                }
+            ]
+        },
+        {
+            "@type": "group",
+            "name": "3",
+            "nested": [
+                {
+                    "@type": "item",
+                    "name": "examples/xpu/usm-mem/usm-mem.cpp"
+                },
+                {
+                    "@type": "item",
+                    "name": "examples/xpu/simple-esimd/simple.cpp"
+                },
+                {
+                    "@type": "item",
+                    "name": "examples/xpu/simple-dpcpp-l0/simple-dpcpp-l0.hpp"
+                },
+                {
+                    "@type": "item",
+                    "name": "examples/xpu/simple-dpcpp-l0/simple-dpcpp-l0.cpp"
+                },
+                {
+                    "@type": "item",
+                    "name": "examples/xpu/simple/simple.cpp"
+                },
+                {
+                    "@type": "item",
+                    "name": "examples/xpu/simple-fence/simple-fence.cpp"
+                },
+                {
+                    "@type": "item",
+                    "name": "examples/xpu/sgemm/main.cpp"
+                },
+                {
+                    "@type": "item",
+                    "name": "examples/xpu/sgemm/sgemm.hpp"
+                },
+                {
+                    "@type": "item",
+                    "name": "examples/xpu/sgemm/sgemm.cpp"
+                },
+                {
+                    "@type": "item",
+                    "name": "examples/cpu/simple/simple.cpp"
+                },
+                {
+                    "@type": "item",
+                    "name": "examples/xpu/pipeline-dpcpp/pipeline-dpcpp.hpp"
+                },
+                {
+                    "@type": "item",
+                    "name": "examples/xpu/pipeline-dpcpp/pipeline-dpcpp.cpp"
+                },
+                {
+                    "@type": "item",
+                    "name": "examples/xpu/callback-esimd/main.cpp"
+                },
+                {
+                    "@type": "item",
+                    "name": "examples/xpu/simple-usm/simple-usm.cpp"
+                },
+                {
+                    "@type": "item",
+                    "name": "examples/xpu/simple-dpcpp/simple-dpcpp.hpp"
+                },
+                {
+                    "@type": "item",
+                    "name": "examples/xpu/simple-dpcpp/simple-dpcpp.cpp"
+                },
+                {
+                    "@type": "item",
+                    "name": "examples/xpu/callback-esimd/callback-esimd.cpp"
+                }
+            ]
+        },
+        {
+            "@type": "group",
+            "name": "4",
+            "nested": [
+                {
+                    "@type": "item",
+                    "name": "src/module.h"
+                },
+                {
+                    "@type": "item",
+                    "name": "src/module.cpp"
+                },
+                {
+                    "@type": "item",
+                    "name": "src/target_registry.h"
+                },
+                {
+                    "@type": "item",
+                    "name": "src/target_registry.cpp"
+                },
+                {
+                    "@type": "item",
+                    "name": "src/target_enums.h"
+                },
+                {
+                    "@type": "item",
+                    "name": "src/target_enums.cpp"
+                },
+                {
+                    "@type": "item",
+                    "name": "src/bitcode_lib.h"
+                },
+                {
+                    "@type": "item",
+                    "name": "src/bitcode_lib.cpp"
+                },
+                {
+                    "@type": "item",
+                    "name": "src/util.h"
+                },
+                {
+                    "@type": "item",
+                    "name": "src/util.cpp"
+                },
+                {
+                    "@type": "item",
+                    "name": "src/ispc.h"
+                },
+                {
+                    "@type": "item",
+                    "name": "src/ispc.cpp"
+                },
+                {
+                    "@type": "item",
+                    "name": "src/ispc_version.h"
+                },
+                {
+                    "@type": "item",
+                    "name": "src/main.cpp"
+                },
+                {
+                    "@type": "item",
+                    "name": "src/sym.h"
+                },
+                {
+                    "@type": "item",
+                    "name": "src/sym.cpp"
+                },
+                {
+                    "@type": "item",
+                    "name": "src/builtins.h"
+                },
+                {
+                    "@type": "item",
+                    "name": "src/builtins.cpp"
+                },
+                {
+                    "@type": "item",
+                    "name": "src/opt.h"
+                },
+                {
+                    "@type": "item",
+                    "name": "src/opt.cpp"
+                }
+            ]
+        },
+        {
+            "@type": "group",
+            "name": "5",
+            "nested": [
+                {
+                    "@type": "item",
+                    "name": "benchmarks/01_trivial/06_math.cpp"
+                },
+                {
+                    "@type": "item",
+                    "name": "benchmarks/01_trivial/02_soaaos.cpp"
+                },
+                {
+                    "@type": "item",
+                    "name": "benchmarks/01_trivial/01_aossoa.cpp"
+                },
+                {
+                    "@type": "item",
+                    "name": "benchmarks/02_medium/test01.cpp"
+                },
+                {
+                    "@type": "item",
+                    "name": "benchmarks/01_trivial/03_popcnt.cpp"
+                },
+                {
+                    "@type": "item",
+                    "name": "benchmarks/01_trivial/08_masked_load_store.cpp"
+                },
+                {
+                    "@type": "item",
+                    "name": "benchmarks/01_trivial/07_loop_unroll_varying.cpp"
+                },
+                {
+                    "@type": "item",
+                    "name": "benchmarks/01_trivial/04_fastdiv.cpp"
+                },
+                {
+                    "@type": "item",
+                    "name": "benchmarks/common.h"
+                },
+                {
+                    "@type": "item",
+                    "name": "benchmarks/01_trivial/05_packed_load_store.cpp"
+                }
+            ]
+        },
+        {
+            "@type": "group",
+            "name": "6",
+            "nested": [
+                {
+                    "@type": "item",
+                    "name": "examples/xpu/common/share.h"
+                },
+                {
+                    "@type": "item",
+                    "name": "examples/cpu/mandelbrot/mandelbrot_serial.cpp"
+                },
+                {
+                    "@type": "item",
+                    "name": "examples/cpu/deferred/deferred.h"
+                },
+                {
+                    "@type": "item",
+                    "name": "examples/cpu/deferred/dynamic_c.cpp"
+                },
+                {
+                    "@type": "item",
+                    "name": "examples/cpu/deferred/common.cpp"
+                },
+                {
+                    "@type": "item",
+                    "name": "examples/xpu/mandelbrot/mandelbrot_serial.cpp"
+                },
+                {
+                    "@type": "item",
+                    "name": "examples/xpu/common/common_helpers.h"
+                },
+                {
+                    "@type": "item",
+                    "name": "examples/xpu/common/L0_helpers.h"
+                },
+                {
+                    "@type": "item",
+                    "name": "examples/cpu/deferred/main.cpp"
+                },
+                {
+                    "@type": "item",
+                    "name": "examples/cpu/mandelbrot_tasks/mandelbrot_tasks_serial.cpp"
+                }
+            ]
+        },
+        {
+            "@type": "group",
+            "name": "7",
+            "nested": [
+                {
+                    "@type": "item",
+                    "name": "src/ast.h"
+                },
+                {
+                    "@type": "item",
+                    "name": "src/ast.cpp"
+                },
+                {
+                    "@type": "item",
+                    "name": "src/llvmutil.h"
+                },
+                {
+                    "@type": "item",
+                    "name": "src/llvmutil.cpp"
+                },
+                {
+                    "@type": "item",
+                    "name": "src/func.h"
+                },
+                {
+                    "@type": "item",
+                    "name": "src/func.cpp"
+                },
+                {
+                    "@type": "item",
+                    "name": "src/stmt.h"
+                },
+                {
+                    "@type": "item",
+                    "name": "src/stmt.cpp"
+                },
+                {
+                    "@type": "item",
+                    "name": "src/builtins-info.h"
+                },
+                {
+                    "@type": "item",
+                    "name": "src/ctx.h"
+                },
+                {
+                    "@type": "item",
+                    "name": "src/ctx.cpp"
+                }
+            ]
+        },
+        {
+            "@type": "group",
+            "name": "8",
+            "nested": [
+                {
+                    "@type": "item",
+                    "name": "builtins/builtins-c-common.hpp"
+                },
+                {
+                    "@type": "item",
+                    "name": "builtins/builtins-c-cpu.cpp"
+                },
+                {
+                    "@type": "item",
+                    "name": "builtins/array.hpp"
+                }
+            ]
+        },
+        {
+            "@type": "group",
+            "name": "9",
+            "nested": [
+                {
+                    "@type": "item",
+                    "name": "examples/cpu/options/options.cpp"
+                },
+                {
+                    "@type": "item",
+                    "name": "examples/cpu/options/options_serial.cpp"
+                },
+                {
+                    "@type": "item",
+                    "name": "examples/cpu/options/options_defs.h"
+                }
+            ]
+        },
+        {
+            "@type": "group",
+            "name": "10",
+            "nested": [
+                {
+                    "@type": "item",
+                    "name": "src/expr.h"
+                },
+                {
+                    "@type": "item",
+                    "name": "src/expr.cpp"
+                },
+                {
+                    "@type": "item",
+                    "name": "src/type.h"
+                },
+                {
+                    "@type": "item",
+                    "name": "src/type.cpp"
+                },
+                {
+                    "@type": "item",
+                    "name": "src/decl.h"
+                },
+                {
+                    "@type": "item",
+                    "name": "src/decl.cpp"
+                }
+            ]
+        },
+        {
+            "@type": "group",
+            "name": "11",
+            "nested": [
+                {
+                    "@type": "item",
+                    "name": "examples/cpu/perfbench/perfbench_serial.cpp"
+                },
+                {
+                    "@type": "item",
+                    "name": "examples/cpu/perfbench/perfbench.cpp"
+                }
+            ]
+        },
+        {
+            "@type": "group",
+            "name": "12",
+            "nested": [
+                {
+                    "@type": "item",
+                    "name": "examples/xpu/aobench/ao_serial.cpp"
+                },
+                {
+                    "@type": "item",
+                    "name": "examples/cpu/aobench/ao_serial.cpp"
+                }
+            ]
+        },
+        {
+            "@type": "group",
+            "name": "13",
+            "nested": [
+                {
+                    "@type": "item",
+                    "name": "examples/cpu/noise/noise_serial.cpp"
+                },
+                {
+                    "@type": "item",
+                    "name": "examples/xpu/noise/noise_serial.cpp"
+                }
+            ]
+        },
+        {
+            "@type": "group",
+            "name": "14",
+            "nested": [
+                {
+                    "@type": "item",
+                    "name": "examples/xpu/vadd-esimd/vadd_usm.cpp"
+                },
+                {
+                    "@type": "item",
+                    "name": "examples/xpu/simple-esimd/simple-esimd.cpp"
+                }
+            ]
+        },
+        {
+            "@type": "group",
+            "name": "15",
+            "nested": [
+                {
+                    "@type": "item",
+                    "name": "builtins/dispatch.c"
+                }
+            ]
+        },
+        {
+            "@type": "group",
+            "name": "16",
+            "nested": [
+                {
+                    "@type": "item",
+                    "name": "check_isa.cpp"
+                }
+            ]
+        },
+        {
+            "@type": "group",
+            "name": "17",
+            "nested": [
+                {
+                    "@type": "item",
+                    "name": "common/version.h"
+                }
+            ]
+        },
+        {
+            "@type": "group",
+            "name": "18",
+            "nested": [
+                {
+                    "@type": "item",
+                    "name": "examples/cpu/sort/sort_serial.cpp"
+                }
+            ]
+        },
+        {
+            "@type": "group",
+            "name": "19",
+            "nested": [
+                {
+                    "@type": "item",
+                    "name": "examples/cpu/stencil/stencil_serial.cpp"
+                }
+            ]
+        },
+        {
+            "@type": "group",
+            "name": "20",
+            "nested": [
+                {
+                    "@type": "item",
+                    "name": "examples/xpu/invoke-sycl-aobench/ao_sycl_lib.cpp"
+                }
+            ]
+        },
+        {
+            "@type": "group",
+            "name": "21",
+            "nested": [
+                {
+                    "@type": "item",
+                    "name": "ispcrt/detail/cpu/ispc_tasking.cpp"
+                }
+            ]
+        },
+        {
+            "@type": "group",
+            "name": "22",
+            "nested": [
+                {
+                    "@type": "item",
+                    "name": "test_static.cpp"
+                }
+            ]
+        },
+        {
+            "@type": "group",
+            "name": "23",
+            "nested": [
+                {
+                    "@type": "item",
+                    "name": "test_static_l0.cpp"
+                }
+            ]
+        },
+        {
+            "@type": "group",
+            "name": "24",
+            "nested": [
+                {
+                    "@type": "item",
+                    "name": "tests/lit-tests/check_dispatch.c"
+                }
+            ]
+        }
+    ]
+}

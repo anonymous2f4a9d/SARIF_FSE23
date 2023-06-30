@@ -1,0 +1,738 @@
+{
+    "@schemaVersion": "1.0",
+    "name": "clustering",
+    "structure": [
+        {
+            "@type": "group",
+            "name": "0",
+            "nested": [
+                {
+                    "@type": "item",
+                    "name": "include/xhyve/pci_emul.h"
+                },
+                {
+                    "@type": "item",
+                    "name": "src/pci_emul.c"
+                },
+                {
+                    "@type": "item",
+                    "name": "include/xhyve/block_if.h"
+                },
+                {
+                    "@type": "item",
+                    "name": "src/block_if.c"
+                },
+                {
+                    "@type": "item",
+                    "name": "include/xhyve/mptbl.h"
+                },
+                {
+                    "@type": "item",
+                    "name": "src/mptbl.c"
+                },
+                {
+                    "@type": "item",
+                    "name": "include/xhyve/xhyve.h"
+                },
+                {
+                    "@type": "item",
+                    "name": "src/xhyve.c"
+                },
+                {
+                    "@type": "item",
+                    "name": "src/pci_e82545.c"
+                },
+                {
+                    "@type": "item",
+                    "name": "src/pci_virtio_net_tap.c"
+                },
+                {
+                    "@type": "item",
+                    "name": "src/pci_virtio_rnd.c"
+                },
+                {
+                    "@type": "item",
+                    "name": "include/xhyve/virtio.h"
+                },
+                {
+                    "@type": "item",
+                    "name": "src/virtio.c"
+                },
+                {
+                    "@type": "item",
+                    "name": "src/task_switch.c"
+                },
+                {
+                    "@type": "item",
+                    "name": "src/pci_ahci.c"
+                },
+                {
+                    "@type": "item",
+                    "name": "src/pci_virtio_net_vmnet.c"
+                },
+                {
+                    "@type": "item",
+                    "name": "include/xhyve/mem.h"
+                },
+                {
+                    "@type": "item",
+                    "name": "src/mem.c"
+                },
+                {
+                    "@type": "item",
+                    "name": "include/xhyve/dbgport.h"
+                },
+                {
+                    "@type": "item",
+                    "name": "src/dbgport.c"
+                },
+                {
+                    "@type": "item",
+                    "name": "include/xhyve/inout.h"
+                },
+                {
+                    "@type": "item",
+                    "name": "src/consport.c"
+                },
+                {
+                    "@type": "item",
+                    "name": "src/inout.c"
+                },
+                {
+                    "@type": "item",
+                    "name": "src/pci_virtio_block.c"
+                },
+                {
+                    "@type": "item",
+                    "name": "include/xhyve/smbiostbl.h"
+                },
+                {
+                    "@type": "item",
+                    "name": "src/smbiostbl.c"
+                },
+                {
+                    "@type": "item",
+                    "name": "include/xhyve/xmsr.h"
+                },
+                {
+                    "@type": "item",
+                    "name": "src/xmsr.c"
+                }
+            ]
+        },
+        {
+            "@type": "group",
+            "name": "1",
+            "nested": [
+                {
+                    "@type": "item",
+                    "name": "include/xhyve/vmm/io/vatpic.h"
+                },
+                {
+                    "@type": "item",
+                    "name": "src/vmm/io/vatpic.c"
+                },
+                {
+                    "@type": "item",
+                    "name": "include/xhyve/vmm/vmm_lapic.h"
+                },
+                {
+                    "@type": "item",
+                    "name": "src/vmm/vmm_lapic.c"
+                },
+                {
+                    "@type": "item",
+                    "name": "include/xhyve/vmm/io/vhpet.h"
+                },
+                {
+                    "@type": "item",
+                    "name": "src/vmm/io/vhpet.c"
+                },
+                {
+                    "@type": "item",
+                    "name": "include/xhyve/vmm/io/vpmtmr.h"
+                },
+                {
+                    "@type": "item",
+                    "name": "src/vmm/io/vpmtmr.c"
+                },
+                {
+                    "@type": "item",
+                    "name": "include/xhyve/vmm/io/vatpit.h"
+                },
+                {
+                    "@type": "item",
+                    "name": "src/vmm/io/vatpit.c"
+                },
+                {
+                    "@type": "item",
+                    "name": "include/xhyve/vmm/io/vrtc.h"
+                },
+                {
+                    "@type": "item",
+                    "name": "src/vmm/io/vrtc.c"
+                },
+                {
+                    "@type": "item",
+                    "name": "include/xhyve/vmm/io/vlapic.h"
+                },
+                {
+                    "@type": "item",
+                    "name": "include/xhyve/vmm/io/vlapic_priv.h"
+                },
+                {
+                    "@type": "item",
+                    "name": "src/vmm/io/vlapic.c"
+                },
+                {
+                    "@type": "item",
+                    "name": "include/xhyve/vmm/io/vioapic.h"
+                },
+                {
+                    "@type": "item",
+                    "name": "src/vmm/io/vioapic.c"
+                },
+                {
+                    "@type": "item",
+                    "name": "include/xhyve/vmm/vmm_ioport.h"
+                },
+                {
+                    "@type": "item",
+                    "name": "src/vmm/vmm_ioport.c"
+                },
+                {
+                    "@type": "item",
+                    "name": "include/xhyve/vmm/vmm_api.h"
+                },
+                {
+                    "@type": "item",
+                    "name": "src/vmm/vmm_api.c"
+                },
+                {
+                    "@type": "item",
+                    "name": "include/xhyve/vmm/vmm.h"
+                },
+                {
+                    "@type": "item",
+                    "name": "src/vmm/vmm.c"
+                },
+                {
+                    "@type": "item",
+                    "name": "include/xhyve/vmm/vmm_callout.h"
+                },
+                {
+                    "@type": "item",
+                    "name": "src/vmm/vmm_callout.c"
+                },
+                {
+                    "@type": "item",
+                    "name": "include/xhyve/vmm/vmm_common.h"
+                },
+                {
+                    "@type": "item",
+                    "name": "include/xhyve/vmm/vmm_instruction_emul.h"
+                },
+                {
+                    "@type": "item",
+                    "name": "src/vmm/vmm_instruction_emul.c"
+                }
+            ]
+        },
+        {
+            "@type": "group",
+            "name": "2",
+            "nested": [
+                {
+                    "@type": "item",
+                    "name": "include/xhyve/ioapic.h"
+                },
+                {
+                    "@type": "item",
+                    "name": "src/ioapic.c"
+                },
+                {
+                    "@type": "item",
+                    "name": "include/xhyve/rtc.h"
+                },
+                {
+                    "@type": "item",
+                    "name": "src/rtc.c"
+                },
+                {
+                    "@type": "item",
+                    "name": "include/xhyve/ps2mouse.h"
+                },
+                {
+                    "@type": "item",
+                    "name": "src/ps2mouse.c"
+                },
+                {
+                    "@type": "item",
+                    "name": "include/xhyve/pci_irq.h"
+                },
+                {
+                    "@type": "item",
+                    "name": "src/pci_irq.c"
+                },
+                {
+                    "@type": "item",
+                    "name": "include/xhyve/acpi.h"
+                },
+                {
+                    "@type": "item",
+                    "name": "src/acpi.c"
+                },
+                {
+                    "@type": "item",
+                    "name": "src/acpitbl.c"
+                },
+                {
+                    "@type": "item",
+                    "name": "src/pm.c"
+                },
+                {
+                    "@type": "item",
+                    "name": "include/xhyve/atkbdc.h"
+                },
+                {
+                    "@type": "item",
+                    "name": "src/atkbdc.c"
+                },
+                {
+                    "@type": "item",
+                    "name": "include/xhyve/pci_lpc.h"
+                },
+                {
+                    "@type": "item",
+                    "name": "src/pci_lpc.c"
+                },
+                {
+                    "@type": "item",
+                    "name": "include/xhyve/ps2kbd.h"
+                },
+                {
+                    "@type": "item",
+                    "name": "src/ps2kbd.c"
+                }
+            ]
+        },
+        {
+            "@type": "group",
+            "name": "3",
+            "nested": [
+                {
+                    "@type": "item",
+                    "name": "include/xhyve/bhyvegc.h"
+                },
+                {
+                    "@type": "item",
+                    "name": "src/bhyvegc.c"
+                },
+                {
+                    "@type": "item",
+                    "name": "include/xhyve/sockstream.h"
+                },
+                {
+                    "@type": "item",
+                    "name": "src/sockstream.c"
+                },
+                {
+                    "@type": "item",
+                    "name": "src/pci_fbuf.c"
+                },
+                {
+                    "@type": "item",
+                    "name": "include/xhyve/bootrom.h"
+                },
+                {
+                    "@type": "item",
+                    "name": "src/bootrom.c"
+                },
+                {
+                    "@type": "item",
+                    "name": "include/xhyve/console.h"
+                },
+                {
+                    "@type": "item",
+                    "name": "src/console.c"
+                },
+                {
+                    "@type": "item",
+                    "name": "include/xhyve/rfb.h"
+                },
+                {
+                    "@type": "item",
+                    "name": "src/rfb.c"
+                },
+                {
+                    "@type": "item",
+                    "name": "include/xhyve/vga.h"
+                },
+                {
+                    "@type": "item",
+                    "name": "src/vga.c"
+                }
+            ]
+        },
+        {
+            "@type": "group",
+            "name": "4",
+            "nested": [
+                {
+                    "@type": "item",
+                    "name": "include/xhyve/vmm/intel/vmx.h"
+                },
+                {
+                    "@type": "item",
+                    "name": "src/vmm/intel/vmx.c"
+                },
+                {
+                    "@type": "item",
+                    "name": "include/xhyve/vmm/vmm_stat.h"
+                },
+                {
+                    "@type": "item",
+                    "name": "src/vmm/vmm_stat.c"
+                },
+                {
+                    "@type": "item",
+                    "name": "include/xhyve/vmm/x86.h"
+                },
+                {
+                    "@type": "item",
+                    "name": "src/vmm/x86.c"
+                },
+                {
+                    "@type": "item",
+                    "name": "include/xhyve/vmm/intel/vmx_msr.h"
+                },
+                {
+                    "@type": "item",
+                    "name": "src/vmm/intel/vmx_msr.c"
+                },
+                {
+                    "@type": "item",
+                    "name": "include/xhyve/vmm/vmm_host.h"
+                },
+                {
+                    "@type": "item",
+                    "name": "src/vmm/vmm_host.c"
+                },
+                {
+                    "@type": "item",
+                    "name": "include/xhyve/vmm/intel/vmcs.h"
+                },
+                {
+                    "@type": "item",
+                    "name": "src/vmm/intel/vmcs.c"
+                },
+                {
+                    "@type": "item",
+                    "name": "include/xhyve/vmm/vmm_mem.h"
+                },
+                {
+                    "@type": "item",
+                    "name": "src/vmm/vmm_mem.c"
+                }
+            ]
+        },
+        {
+            "@type": "group",
+            "name": "5",
+            "nested": [
+                {
+                    "@type": "item",
+                    "name": "include/xhyve/support/segments.h"
+                },
+                {
+                    "@type": "item",
+                    "name": "include/xhyve/support/mptable.h"
+                },
+                {
+                    "@type": "item",
+                    "name": "include/xhyve/support/atomic.h"
+                },
+                {
+                    "@type": "item",
+                    "name": "include/xhyve/support/misc.h"
+                },
+                {
+                    "@type": "item",
+                    "name": "include/xhyve/support/ata.h"
+                }
+            ]
+        },
+        {
+            "@type": "group",
+            "name": "6",
+            "nested": [
+                {
+                    "@type": "item",
+                    "name": "src/pci_hostbridge.c"
+                },
+                {
+                    "@type": "item",
+                    "name": "src/pci_uart.c"
+                },
+                {
+                    "@type": "item",
+                    "name": "include/xhyve/mevent.h"
+                },
+                {
+                    "@type": "item",
+                    "name": "src/mevent.c"
+                },
+                {
+                    "@type": "item",
+                    "name": "src/mevent_test.c"
+                },
+                {
+                    "@type": "item",
+                    "name": "include/xhyve/uart_emul.h"
+                },
+                {
+                    "@type": "item",
+                    "name": "src/uart_emul.c"
+                }
+            ]
+        },
+        {
+            "@type": "group",
+            "name": "7",
+            "nested": [
+                {
+                    "@type": "item",
+                    "name": "include/xhyve/support/cpuset.h"
+                },
+                {
+                    "@type": "item",
+                    "name": "include/xhyve/support/bitset.h"
+                },
+                {
+                    "@type": "item",
+                    "name": "include/xhyve/support/i8259.h"
+                }
+            ]
+        },
+        {
+            "@type": "group",
+            "name": "8",
+            "nested": [
+                {
+                    "@type": "item",
+                    "name": "include/xhyve/support/timerreg.h"
+                },
+                {
+                    "@type": "item",
+                    "name": "include/xhyve/support/i8253reg.h"
+                },
+                {
+                    "@type": "item",
+                    "name": "include/xhyve/support/acpi_hpet.h"
+                }
+            ]
+        },
+        {
+            "@type": "group",
+            "name": "9",
+            "nested": [
+                {
+                    "@type": "item",
+                    "name": "include/xhyve/ahci.h"
+                }
+            ]
+        },
+        {
+            "@type": "group",
+            "name": "10",
+            "nested": [
+                {
+                    "@type": "item",
+                    "name": "include/xhyve/lock.h"
+                }
+            ]
+        },
+        {
+            "@type": "group",
+            "name": "11",
+            "nested": [
+                {
+                    "@type": "item",
+                    "name": "include/xhyve/support/apicreg.h"
+                }
+            ]
+        },
+        {
+            "@type": "group",
+            "name": "12",
+            "nested": [
+                {
+                    "@type": "item",
+                    "name": "include/xhyve/support/e1000_defines.h"
+                }
+            ]
+        },
+        {
+            "@type": "group",
+            "name": "13",
+            "nested": [
+                {
+                    "@type": "item",
+                    "name": "include/xhyve/support/e1000_regs.h"
+                }
+            ]
+        },
+        {
+            "@type": "group",
+            "name": "14",
+            "nested": [
+                {
+                    "@type": "item",
+                    "name": "include/xhyve/support/linker_set.h"
+                }
+            ]
+        },
+        {
+            "@type": "group",
+            "name": "15",
+            "nested": [
+                {
+                    "@type": "item",
+                    "name": "include/xhyve/support/ns16550.h"
+                }
+            ]
+        },
+        {
+            "@type": "group",
+            "name": "16",
+            "nested": [
+                {
+                    "@type": "item",
+                    "name": "include/xhyve/support/pcireg.h"
+                }
+            ]
+        },
+        {
+            "@type": "group",
+            "name": "17",
+            "nested": [
+                {
+                    "@type": "item",
+                    "name": "include/xhyve/support/psl.h"
+                }
+            ]
+        },
+        {
+            "@type": "group",
+            "name": "18",
+            "nested": [
+                {
+                    "@type": "item",
+                    "name": "include/xhyve/support/rtc.h"
+                }
+            ]
+        },
+        {
+            "@type": "group",
+            "name": "19",
+            "nested": [
+                {
+                    "@type": "item",
+                    "name": "include/xhyve/support/specialreg.h"
+                }
+            ]
+        },
+        {
+            "@type": "group",
+            "name": "20",
+            "nested": [
+                {
+                    "@type": "item",
+                    "name": "include/xhyve/support/tree.h"
+                }
+            ]
+        },
+        {
+            "@type": "group",
+            "name": "21",
+            "nested": [
+                {
+                    "@type": "item",
+                    "name": "include/xhyve/support/uuid.h"
+                }
+            ]
+        },
+        {
+            "@type": "group",
+            "name": "22",
+            "nested": [
+                {
+                    "@type": "item",
+                    "name": "include/xhyve/vmm/intel/vmx_controls.h"
+                }
+            ]
+        },
+        {
+            "@type": "group",
+            "name": "23",
+            "nested": [
+                {
+                    "@type": "item",
+                    "name": "include/xhyve/vmm/vmm_ktr.h"
+                }
+            ]
+        },
+        {
+            "@type": "group",
+            "name": "24",
+            "nested": [
+                {
+                    "@type": "item",
+                    "name": "src/post.c"
+                }
+            ]
+        },
+        {
+            "@type": "group",
+            "name": "25",
+            "nested": [
+                {
+                    "@type": "item",
+                    "name": "include/xhyve/vmm/vmm_util.h"
+                },
+                {
+                    "@type": "item",
+                    "name": "src/vmm/vmm_util.c"
+                }
+            ]
+        },
+        {
+            "@type": "group",
+            "name": "26",
+            "nested": [
+                {
+                    "@type": "item",
+                    "name": "include/xhyve/firmware/kexec.h"
+                },
+                {
+                    "@type": "item",
+                    "name": "src/firmware/kexec.c"
+                }
+            ]
+        },
+        {
+            "@type": "group",
+            "name": "27",
+            "nested": [
+                {
+                    "@type": "item",
+                    "name": "include/xhyve/firmware/fbsd.h"
+                },
+                {
+                    "@type": "item",
+                    "name": "src/firmware/fbsd.c"
+                }
+            ]
+        }
+    ]
+}

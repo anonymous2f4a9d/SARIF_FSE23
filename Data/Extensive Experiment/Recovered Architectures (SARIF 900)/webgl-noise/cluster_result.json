@@ -1,0 +1,48 @@
+{
+    "@schemaVersion": "1.0",
+    "name": "clustering",
+    "structure": [
+        {
+            "@type": "group",
+            "name": "0",
+            "nested": [
+                {
+                    "@type": "item",
+                    "name": "benchmark/common/noisebench.c"
+                },
+                {
+                    "@type": "item",
+                    "name": "demo/common/noisedemo.c"
+                }
+            ]
+        },
+        {
+            "@type": "group",
+            "name": "1",
+            "nested": [
+                {
+                    "@type": "item",
+                    "name": "benchmark/Win32/GL/glext.h"
+                },
+                {
+                    "@type": "item",
+                    "name": "demo/Win32/GL/glext.h"
+                }
+            ]
+        },
+        {
+            "@type": "group",
+            "name": "2",
+            "nested": [
+                {
+                    "@type": "item",
+                    "name": "demo/Win32/GL/glfw.h"
+                },
+                {
+                    "@type": "item",
+                    "name": "benchmark/Win32/GL/glfw.h"
+                }
+            ]
+        }
+    ]
+}

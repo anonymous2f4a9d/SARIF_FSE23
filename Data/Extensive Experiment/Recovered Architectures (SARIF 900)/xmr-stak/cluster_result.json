@@ -1,0 +1,706 @@
+{
+    "@schemaVersion": "1.0",
+    "name": "clustering",
+    "structure": [
+        {
+            "@type": "group",
+            "name": "0",
+            "nested": [
+                {
+                    "@type": "item",
+                    "name": "xmrstak/rapidjson/internal/biginteger.h"
+                },
+                {
+                    "@type": "item",
+                    "name": "xmrstak/rapidjson/schema.h"
+                },
+                {
+                    "@type": "item",
+                    "name": "xmrstak/rapidjson/internal/pow10.h"
+                },
+                {
+                    "@type": "item",
+                    "name": "xmrstak/rapidjson/internal/dtoa.h"
+                },
+                {
+                    "@type": "item",
+                    "name": "xmrstak/rapidjson/fwd.h"
+                },
+                {
+                    "@type": "item",
+                    "name": "xmrstak/rapidjson/internal/itoa.h"
+                },
+                {
+                    "@type": "item",
+                    "name": "xmrstak/rapidjson/error/en.h"
+                },
+                {
+                    "@type": "item",
+                    "name": "xmrstak/rapidjson/internal/strfunc.h"
+                },
+                {
+                    "@type": "item",
+                    "name": "xmrstak/rapidjson/internal/diyfp.h"
+                },
+                {
+                    "@type": "item",
+                    "name": "xmrstak/rapidjson/internal/ieee754.h"
+                },
+                {
+                    "@type": "item",
+                    "name": "xmrstak/rapidjson/internal/strtod.h"
+                },
+                {
+                    "@type": "item",
+                    "name": "xmrstak/rapidjson/internal/stack.h"
+                },
+                {
+                    "@type": "item",
+                    "name": "xmrstak/rapidjson/internal/swap.h"
+                }
+            ]
+        },
+        {
+            "@type": "group",
+            "name": "1",
+            "nested": [
+                {
+                    "@type": "item",
+                    "name": "xmrstak/backend/cpu/crypto/cryptonight_aesni.h"
+                },
+                {
+                    "@type": "item",
+                    "name": "xmrstak/backend/cryptonight.hpp"
+                },
+                {
+                    "@type": "item",
+                    "name": "xmrstak/backend/cpu/crypto/cn_gpu.hpp"
+                },
+                {
+                    "@type": "item",
+                    "name": "xmrstak/backend/cpu/crypto/cn_gpu_ssse3.cpp"
+                },
+                {
+                    "@type": "item",
+                    "name": "xmrstak/backend/cpu/crypto/cn_gpu_avx.cpp"
+                },
+                {
+                    "@type": "item",
+                    "name": "xmrstak/backend/nvidia/nvcc_code/cuda_cryptonight_gpu.hpp"
+                },
+                {
+                    "@type": "item",
+                    "name": "xmrstak/backend/cpu/crypto/c_blake256.h"
+                },
+                {
+                    "@type": "item",
+                    "name": "xmrstak/backend/cpu/crypto/c_blake256.c"
+                },
+                {
+                    "@type": "item",
+                    "name": "xmrstak/backend/cpu/crypto/asm/cnR/CryptonightR_template.h"
+                },
+                {
+                    "@type": "item",
+                    "name": "xmrstak/backend/nvidia/nvcc_code/cuda_blake.hpp"
+                },
+                {
+                    "@type": "item",
+                    "name": "xmrstak/backend/cpu/crypto/variant4_random_math.h"
+                },
+                {
+                    "@type": "item",
+                    "name": "xmrstak/misc/coinDescription.hpp"
+                },
+                {
+                    "@type": "item",
+                    "name": "xmrstak/backend/cpu/crypto/cryptonight.h"
+                },
+                {
+                    "@type": "item",
+                    "name": "xmrstak/backend/cpu/crypto/CryptonightR_gen.cpp"
+                },
+                {
+                    "@type": "item",
+                    "name": "xmrstak/backend/cpu/crypto/cryptonight_common.cpp"
+                },
+                {
+                    "@type": "item",
+                    "name": "xmrstak/backend/cpu/crypto/soft_aes.hpp"
+                }
+            ]
+        },
+        {
+            "@type": "group",
+            "name": "2",
+            "nested": [
+                {
+                    "@type": "item",
+                    "name": "xmrstak/misc/console.hpp"
+                },
+                {
+                    "@type": "item",
+                    "name": "xmrstak/misc/console.cpp"
+                },
+                {
+                    "@type": "item",
+                    "name": "xmrstak/misc/uac.cpp"
+                },
+                {
+                    "@type": "item",
+                    "name": "xmrstak/misc/thdq.hpp"
+                },
+                {
+                    "@type": "item",
+                    "name": "xmrstak/misc/configEditor.hpp"
+                },
+                {
+                    "@type": "item",
+                    "name": "xmrstak/backend/nvidia/nvcc_code/cuda_device.hpp"
+                },
+                {
+                    "@type": "item",
+                    "name": "xmrstak/misc/executor.hpp"
+                },
+                {
+                    "@type": "item",
+                    "name": "xmrstak/misc/executor.cpp"
+                },
+                {
+                    "@type": "item",
+                    "name": "xmrstak/misc/home_dir.hpp"
+                },
+                {
+                    "@type": "item",
+                    "name": "xmrstak/misc/telemetry.hpp"
+                },
+                {
+                    "@type": "item",
+                    "name": "xmrstak/misc/telemetry.cpp"
+                },
+                {
+                    "@type": "item",
+                    "name": "xmrstak/misc/uac.hpp"
+                },
+                {
+                    "@type": "item",
+                    "name": "xmrstak/misc/environment.hpp"
+                },
+                {
+                    "@type": "item",
+                    "name": "xmrstak/misc/environment.cpp"
+                },
+                {
+                    "@type": "item",
+                    "name": "xmrstak/cli/cli-miner.cpp"
+                }
+            ]
+        },
+        {
+            "@type": "group",
+            "name": "3",
+            "nested": [
+                {
+                    "@type": "item",
+                    "name": "xmrstak/rapidjson/filewritestream.h"
+                },
+                {
+                    "@type": "item",
+                    "name": "xmrstak/rapidjson/filereadstream.h"
+                },
+                {
+                    "@type": "item",
+                    "name": "xmrstak/rapidjson/ostreamwrapper.h"
+                },
+                {
+                    "@type": "item",
+                    "name": "xmrstak/rapidjson/encodings.h"
+                },
+                {
+                    "@type": "item",
+                    "name": "xmrstak/rapidjson/stream.h"
+                },
+                {
+                    "@type": "item",
+                    "name": "xmrstak/rapidjson/istreamwrapper.h"
+                },
+                {
+                    "@type": "item",
+                    "name": "xmrstak/rapidjson/memorystream.h"
+                },
+                {
+                    "@type": "item",
+                    "name": "xmrstak/rapidjson/memorybuffer.h"
+                },
+                {
+                    "@type": "item",
+                    "name": "xmrstak/rapidjson/error/error.h"
+                },
+                {
+                    "@type": "item",
+                    "name": "xmrstak/rapidjson/stringbuffer.h"
+                },
+                {
+                    "@type": "item",
+                    "name": "xmrstak/rapidjson/encodedstream.h"
+                },
+                {
+                    "@type": "item",
+                    "name": "xmrstak/rapidjson/reader.h"
+                }
+            ]
+        },
+        {
+            "@type": "group",
+            "name": "4",
+            "nested": [
+                {
+                    "@type": "item",
+                    "name": "xmrstak/misc/jext.hpp"
+                },
+                {
+                    "@type": "item",
+                    "name": "xmrstak/rapidjson/msinttypes/inttypes.h"
+                },
+                {
+                    "@type": "item",
+                    "name": "xmrstak/rapidjson/msinttypes/stdint.h"
+                },
+                {
+                    "@type": "item",
+                    "name": "xmrstak/rapidjson/document.h"
+                },
+                {
+                    "@type": "item",
+                    "name": "xmrstak/rapidjson/internal/meta.h"
+                },
+                {
+                    "@type": "item",
+                    "name": "xmrstak/rapidjson/allocators.h"
+                },
+                {
+                    "@type": "item",
+                    "name": "xmrstak/rapidjson/rapidjson.h"
+                }
+            ]
+        },
+        {
+            "@type": "group",
+            "name": "5",
+            "nested": [
+                {
+                    "@type": "item",
+                    "name": "xmrstak/backend/globalStates.hpp"
+                },
+                {
+                    "@type": "item",
+                    "name": "xmrstak/backend/globalStates.cpp"
+                },
+                {
+                    "@type": "item",
+                    "name": "xmrstak/backend/iBackend.hpp"
+                },
+                {
+                    "@type": "item",
+                    "name": "xmrstak/backend/pool_data.hpp"
+                },
+                {
+                    "@type": "item",
+                    "name": "xmrstak/backend/miner_work.hpp"
+                },
+                {
+                    "@type": "item",
+                    "name": "xmrstak/backend/plugin.hpp"
+                },
+                {
+                    "@type": "item",
+                    "name": "xmrstak/backend/backendConnector.hpp"
+                },
+                {
+                    "@type": "item",
+                    "name": "xmrstak/backend/backendConnector.cpp"
+                }
+            ]
+        },
+        {
+            "@type": "group",
+            "name": "6",
+            "nested": [
+                {
+                    "@type": "item",
+                    "name": "xmrstak/backend/nvidia/autoAdjust.hpp"
+                },
+                {
+                    "@type": "item",
+                    "name": "xmrstak/backend/nvidia/CudaCryptonightR_gen.hpp"
+                },
+                {
+                    "@type": "item",
+                    "name": "xmrstak/backend/nvidia/CudaCryptonightR_gen.cpp"
+                },
+                {
+                    "@type": "item",
+                    "name": "xmrstak/backend/nvidia/nvcc_code/cryptonight.hpp"
+                },
+                {
+                    "@type": "item",
+                    "name": "xmrstak/cpputil/read_write_lock.h"
+                },
+                {
+                    "@type": "item",
+                    "name": "xmrstak/backend/nvidia/jconf.hpp"
+                },
+                {
+                    "@type": "item",
+                    "name": "xmrstak/backend/nvidia/jconf.cpp"
+                },
+                {
+                    "@type": "item",
+                    "name": "xmrstak/backend/nvidia/minethd.hpp"
+                },
+                {
+                    "@type": "item",
+                    "name": "xmrstak/backend/nvidia/minethd.cpp"
+                }
+            ]
+        },
+        {
+            "@type": "group",
+            "name": "7",
+            "nested": [
+                {
+                    "@type": "item",
+                    "name": "xmrstak/backend/amd/minethd.hpp"
+                },
+                {
+                    "@type": "item",
+                    "name": "xmrstak/backend/amd/minethd.cpp"
+                },
+                {
+                    "@type": "item",
+                    "name": "xmrstak/backend/amd/amd_gpu/gpu.hpp"
+                },
+                {
+                    "@type": "item",
+                    "name": "xmrstak/backend/amd/amd_gpu/gpu.cpp"
+                },
+                {
+                    "@type": "item",
+                    "name": "xmrstak/backend/amd/autoAdjust.hpp"
+                },
+                {
+                    "@type": "item",
+                    "name": "xmrstak/backend/amd/jconf.hpp"
+                },
+                {
+                    "@type": "item",
+                    "name": "xmrstak/backend/amd/jconf.cpp"
+                },
+                {
+                    "@type": "item",
+                    "name": "xmrstak/picosha2/picosha2.hpp"
+                },
+                {
+                    "@type": "item",
+                    "name": "xmrstak/backend/amd/OclCryptonightR_gen.hpp"
+                },
+                {
+                    "@type": "item",
+                    "name": "xmrstak/backend/amd/OclCryptonightR_gen.cpp"
+                }
+            ]
+        },
+        {
+            "@type": "group",
+            "name": "8",
+            "nested": [
+                {
+                    "@type": "item",
+                    "name": "xmrstak/backend/nvidia/nvcc_code/cuda_groestl.hpp"
+                },
+                {
+                    "@type": "item",
+                    "name": "xmrstak/backend/cpu/crypto/groestl_tables.h"
+                },
+                {
+                    "@type": "item",
+                    "name": "xmrstak/backend/cpu/crypto/c_groestl.h"
+                },
+                {
+                    "@type": "item",
+                    "name": "xmrstak/backend/cpu/crypto/c_groestl.c"
+                },
+                {
+                    "@type": "item",
+                    "name": "xmrstak/backend/cpu/crypto/c_jh.h"
+                },
+                {
+                    "@type": "item",
+                    "name": "xmrstak/backend/cpu/crypto/c_jh.c"
+                },
+                {
+                    "@type": "item",
+                    "name": "xmrstak/backend/nvidia/nvcc_code/cuda_jh.hpp"
+                },
+                {
+                    "@type": "item",
+                    "name": "xmrstak/backend/cpu/crypto/hash.h"
+                }
+            ]
+        },
+        {
+            "@type": "group",
+            "name": "9",
+            "nested": [
+                {
+                    "@type": "item",
+                    "name": "xmrstak/backend/cpu/autoAdjustHwloc.hpp"
+                },
+                {
+                    "@type": "item",
+                    "name": "xmrstak/backend/cpu/cpuType.hpp"
+                },
+                {
+                    "@type": "item",
+                    "name": "xmrstak/backend/cpu/cpuType.cpp"
+                },
+                {
+                    "@type": "item",
+                    "name": "xmrstak/backend/cpu/jconf.hpp"
+                },
+                {
+                    "@type": "item",
+                    "name": "xmrstak/backend/cpu/jconf.cpp"
+                },
+                {
+                    "@type": "item",
+                    "name": "xmrstak/backend/cpu/hwlocMemory.hpp"
+                },
+                {
+                    "@type": "item",
+                    "name": "xmrstak/backend/cpu/hwlocMemory.cpp"
+                },
+                {
+                    "@type": "item",
+                    "name": "xmrstak/backend/cpu/autoAdjust.hpp"
+                },
+                {
+                    "@type": "item",
+                    "name": "xmrstak/backend/cpu/minethd.hpp"
+                },
+                {
+                    "@type": "item",
+                    "name": "xmrstak/backend/cpu/minethd.cpp"
+                }
+            ]
+        },
+        {
+            "@type": "group",
+            "name": "10",
+            "nested": [
+                {
+                    "@type": "item",
+                    "name": "xmrstak/net/msgstruct.hpp"
+                },
+                {
+                    "@type": "item",
+                    "name": "xmrstak/net/socks.hpp"
+                },
+                {
+                    "@type": "item",
+                    "name": "xmrstak/net/socket.hpp"
+                },
+                {
+                    "@type": "item",
+                    "name": "xmrstak/net/socket.cpp"
+                },
+                {
+                    "@type": "item",
+                    "name": "xmrstak/net/jpsock.hpp"
+                },
+                {
+                    "@type": "item",
+                    "name": "xmrstak/net/jpsock.cpp"
+                },
+                {
+                    "@type": "item",
+                    "name": "xmrstak/rapidjson/internal/regex.h"
+                }
+            ]
+        },
+        {
+            "@type": "group",
+            "name": "11",
+            "nested": [
+                {
+                    "@type": "item",
+                    "name": "xmrstak/backend/nvidia/nvcc_code/cuda_keccak.hpp"
+                },
+                {
+                    "@type": "item",
+                    "name": "xmrstak/backend/nvidia/nvcc_code/cuda_fast_int_math_v2.hpp"
+                },
+                {
+                    "@type": "item",
+                    "name": "xmrstak/backend/nvidia/nvcc_code/cuda_aes.hpp"
+                },
+                {
+                    "@type": "item",
+                    "name": "xmrstak/backend/nvidia/nvcc_code/cuda_fast_div_heavy.hpp"
+                }
+            ]
+        },
+        {
+            "@type": "group",
+            "name": "12",
+            "nested": [
+                {
+                    "@type": "item",
+                    "name": "xmrstak/http/webdesign.hpp"
+                },
+                {
+                    "@type": "item",
+                    "name": "xmrstak/http/webdesign.cpp"
+                },
+                {
+                    "@type": "item",
+                    "name": "xmrstak/http/httpd.hpp"
+                },
+                {
+                    "@type": "item",
+                    "name": "xmrstak/http/httpd.cpp"
+                }
+            ]
+        },
+        {
+            "@type": "group",
+            "name": "13",
+            "nested": [
+                {
+                    "@type": "item",
+                    "name": "xmrstak/donate-level.hpp"
+                },
+                {
+                    "@type": "item",
+                    "name": "xmrstak/version.hpp"
+                },
+                {
+                    "@type": "item",
+                    "name": "xmrstak/version.cpp"
+                }
+            ]
+        },
+        {
+            "@type": "group",
+            "name": "14",
+            "nested": [
+                {
+                    "@type": "item",
+                    "name": "xmrstak/backend/cpu/crypto/int-util.h"
+                },
+                {
+                    "@type": "item",
+                    "name": "xmrstak/rapidjson/prettywriter.h"
+                },
+                {
+                    "@type": "item",
+                    "name": "xmrstak/rapidjson/writer.h"
+                }
+            ]
+        },
+        {
+            "@type": "group",
+            "name": "15",
+            "nested": [
+                {
+                    "@type": "item",
+                    "name": "xmrstak/backend/cpu/crypto/c_skein.h"
+                },
+                {
+                    "@type": "item",
+                    "name": "xmrstak/backend/cpu/crypto/c_skein.c"
+                },
+                {
+                    "@type": "item",
+                    "name": "xmrstak/backend/cpu/crypto/skein_port.h"
+                }
+            ]
+        },
+        {
+            "@type": "group",
+            "name": "16",
+            "nested": [
+                {
+                    "@type": "item",
+                    "name": "xmrstak/misc/utility.hpp"
+                },
+                {
+                    "@type": "item",
+                    "name": "xmrstak/misc/utility.cpp"
+                }
+            ]
+        },
+        {
+            "@type": "group",
+            "name": "17",
+            "nested": [
+                {
+                    "@type": "item",
+                    "name": "xmrstak/jconf.hpp"
+                },
+                {
+                    "@type": "item",
+                    "name": "xmrstak/jconf.cpp"
+                },
+                {
+                    "@type": "item",
+                    "name": "xmrstak/params.hpp"
+                }
+            ]
+        },
+        {
+            "@type": "group",
+            "name": "18",
+            "nested": [
+                {
+                    "@type": "item",
+                    "name": "xmrstak/backend/cpu/crypto/c_keccak.h"
+                },
+                {
+                    "@type": "item",
+                    "name": "xmrstak/backend/cpu/crypto/c_keccak.c"
+                }
+            ]
+        },
+        {
+            "@type": "group",
+            "name": "19",
+            "nested": [
+                {
+                    "@type": "item",
+                    "name": "xmrstak/backend/nvidia/nvcc_code/cuda_extra.hpp"
+                }
+            ]
+        },
+        {
+            "@type": "group",
+            "name": "20",
+            "nested": [
+                {
+                    "@type": "item",
+                    "name": "xmrstak/backend/nvidia/nvcc_code/cuda_skein.hpp"
+                }
+            ]
+        },
+        {
+            "@type": "group",
+            "name": "21",
+            "nested": [
+                {
+                    "@type": "item",
+                    "name": "xmrstak/rapidjson/pointer.h"
+                }
+            ]
+        }
+    ]
+}

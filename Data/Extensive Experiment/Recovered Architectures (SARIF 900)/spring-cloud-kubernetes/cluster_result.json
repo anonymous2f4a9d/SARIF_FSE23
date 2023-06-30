@@ -1,0 +1,254 @@
+{
+    "@schemaVersion": "1.0",
+    "name": "clustering",
+    "structure": [
+        {
+            "@type": "group",
+            "name": "0",
+            "nested": [
+                {
+                    "@type": "item",
+                    "name": "spring-cloud-kubernetes-core/src/main/java/io/fabric8/spring/cloud/kubernetes/KubernetesClientProperties.java"
+                },
+                {
+                    "@type": "item",
+                    "name": "spring-cloud-kubernetes-core/src/main/java/io/fabric8/spring/cloud/kubernetes/KubernetesAutoConfiguration.java"
+                },
+                {
+                    "@type": "item",
+                    "name": "spring-cloud-kubernetes-core/src/main/java/io/fabric8/spring/cloud/kubernetes/KubernetesHealthIndicator.java"
+                },
+                {
+                    "@type": "item",
+                    "name": "spring-cloud-kubernetes-core/src/main/java/io/fabric8/spring/cloud/kubernetes/StandardPodUtils.java"
+                },
+                {
+                    "@type": "item",
+                    "name": "spring-cloud-kubernetes-core/src/main/java/io/fabric8/spring/cloud/kubernetes/LazilyInstantiate.java"
+                },
+                {
+                    "@type": "item",
+                    "name": "spring-cloud-kubernetes-core/src/main/java/io/fabric8/spring/cloud/kubernetes/PodUtils.java"
+                }
+            ]
+        },
+        {
+            "@type": "group",
+            "name": "1",
+            "nested": [
+                {
+                    "@type": "item",
+                    "name": "spring-cloud-kubernetes-core/src/main/java/io/fabric8/spring/cloud/kubernetes/reload/ConfigurationChangeDetector.java"
+                },
+                {
+                    "@type": "item",
+                    "name": "spring-cloud-kubernetes-core/src/main/java/io/fabric8/spring/cloud/kubernetes/reload/ConfigReloadAutoConfiguration.java"
+                },
+                {
+                    "@type": "item",
+                    "name": "spring-cloud-kubernetes-core/src/main/java/io/fabric8/spring/cloud/kubernetes/reload/ConfigurationUpdateStrategy.java"
+                },
+                {
+                    "@type": "item",
+                    "name": "spring-cloud-kubernetes-core/src/main/java/io/fabric8/spring/cloud/kubernetes/reload/PollingConfigurationChangeDetector.java"
+                },
+                {
+                    "@type": "item",
+                    "name": "spring-cloud-kubernetes-core/src/main/java/io/fabric8/spring/cloud/kubernetes/reload/ConfigReloadProperties.java"
+                },
+                {
+                    "@type": "item",
+                    "name": "spring-cloud-kubernetes-core/src/main/java/io/fabric8/spring/cloud/kubernetes/reload/EventBasedConfigurationChangeDetector.java"
+                }
+            ]
+        },
+        {
+            "@type": "group",
+            "name": "2",
+            "nested": [
+                {
+                    "@type": "item",
+                    "name": "spring-cloud-kubernetes-core/src/main/java/io/fabric8/spring/cloud/kubernetes/config/ConfigUtils.java"
+                },
+                {
+                    "@type": "item",
+                    "name": "spring-cloud-kubernetes-core/src/main/java/io/fabric8/spring/cloud/kubernetes/config/SecretsConfigProperties.java"
+                },
+                {
+                    "@type": "item",
+                    "name": "spring-cloud-kubernetes-core/src/main/java/io/fabric8/spring/cloud/kubernetes/config/AbstractConfigProperties.java"
+                },
+                {
+                    "@type": "item",
+                    "name": "spring-cloud-kubernetes-core/src/main/java/io/fabric8/spring/cloud/kubernetes/config/SecretsPropertySource.java"
+                },
+                {
+                    "@type": "item",
+                    "name": "spring-cloud-kubernetes-core/src/main/java/io/fabric8/spring/cloud/kubernetes/config/Constants.java"
+                }
+            ]
+        },
+        {
+            "@type": "group",
+            "name": "3",
+            "nested": [
+                {
+                    "@type": "item",
+                    "name": "spring-cloud-kubernetes-core/src/main/java/io/fabric8/spring/cloud/kubernetes/config/SecretsPropertySourceLocator.java"
+                },
+                {
+                    "@type": "item",
+                    "name": "spring-cloud-kubernetes-core/src/main/java/io/fabric8/spring/cloud/kubernetes/config/ConfigMapPropertySourceLocator.java"
+                },
+                {
+                    "@type": "item",
+                    "name": "spring-cloud-kubernetes-core/src/main/java/io/fabric8/spring/cloud/kubernetes/config/ConfigMapPropertySource.java"
+                },
+                {
+                    "@type": "item",
+                    "name": "spring-cloud-kubernetes-core/src/main/java/io/fabric8/spring/cloud/kubernetes/config/BootstrapConfiguration.java"
+                },
+                {
+                    "@type": "item",
+                    "name": "spring-cloud-kubernetes-core/src/main/java/io/fabric8/spring/cloud/kubernetes/config/ConfigMapConfigProperties.java"
+                }
+            ]
+        },
+        {
+            "@type": "group",
+            "name": "4",
+            "nested": [
+                {
+                    "@type": "item",
+                    "name": "spring-cloud-kubernetes-discovery/src/main/java/io/fabric8/spring/cloud/discovery/KubernetesDiscoveryClient.java"
+                },
+                {
+                    "@type": "item",
+                    "name": "spring-cloud-kubernetes-discovery/src/main/java/io/fabric8/spring/cloud/discovery/KubernetesServiceInstance.java"
+                },
+                {
+                    "@type": "item",
+                    "name": "spring-cloud-kubernetes-discovery/src/main/java/io/fabric8/spring/cloud/discovery/KubernetesDiscoveryProperties.java"
+                },
+                {
+                    "@type": "item",
+                    "name": "spring-cloud-kubernetes-discovery/src/main/java/io/fabric8/spring/cloud/discovery/KubernetesDiscoveryLifecycle.java"
+                },
+                {
+                    "@type": "item",
+                    "name": "spring-cloud-kubernetes-discovery/src/main/java/io/fabric8/spring/cloud/discovery/KubernetesDiscoveryClientConfiguration.java"
+                }
+            ]
+        },
+        {
+            "@type": "group",
+            "name": "5",
+            "nested": [
+                {
+                    "@type": "item",
+                    "name": "spring-cloud-kubernetes-ribbon/src/main/java/io/fabric8/spring/cloud/kubernetes/ribbon/KubernetesRibbonClientConfiguration.java"
+                },
+                {
+                    "@type": "item",
+                    "name": "spring-cloud-kubernetes-ribbon/src/main/java/io/fabric8/spring/cloud/kubernetes/ribbon/RibbonKubernetesAutoConfiguration.java"
+                },
+                {
+                    "@type": "item",
+                    "name": "spring-cloud-kubernetes-ribbon/src/main/java/io/fabric8/spring/cloud/kubernetes/ribbon/KubernetesConfigKey.java"
+                },
+                {
+                    "@type": "item",
+                    "name": "spring-cloud-kubernetes-ribbon/src/main/java/io/fabric8/spring/cloud/kubernetes/ribbon/KubernetesServerList.java"
+                }
+            ]
+        },
+        {
+            "@type": "group",
+            "name": "6",
+            "nested": [
+                {
+                    "@type": "item",
+                    "name": "spring-cloud-kubernetes-archaius/src/main/java/io/fabric8/spring/cloud/kubernetes/archaius/ArchaiusConfigMapSourceConfiguration.java"
+                },
+                {
+                    "@type": "item",
+                    "name": "spring-cloud-kubernetes-archaius/src/main/java/io/fabric8/spring/cloud/kubernetes/archaius/ArchaiusConfigMapSourceRegistar.java"
+                },
+                {
+                    "@type": "item",
+                    "name": "spring-cloud-kubernetes-archaius/src/main/java/io/fabric8/spring/cloud/kubernetes/archaius/ArchaiusConfigMapSource.java"
+                }
+            ]
+        },
+        {
+            "@type": "group",
+            "name": "7",
+            "nested": [
+                {
+                    "@type": "item",
+                    "name": "spring-cloud-kubernetes-examples/kubernetes-reload-example/src/main/java/io/fabric8/spring/cloud/kubernetes/examples/MyBean.java"
+                },
+                {
+                    "@type": "item",
+                    "name": "spring-cloud-kubernetes-examples/kubernetes-reload-example/src/main/java/io/fabric8/spring/cloud/kubernetes/examples/MyConfig.java"
+                },
+                {
+                    "@type": "item",
+                    "name": "spring-cloud-kubernetes-examples/kubernetes-reload-example/src/main/java/io/fabric8/spring/cloud/kubernetes/examples/App.java"
+                }
+            ]
+        },
+        {
+            "@type": "group",
+            "name": "8",
+            "nested": [
+                {
+                    "@type": "item",
+                    "name": "spring-cloud-kubernetes-core/src/main/java/io/fabric8/spring/cloud/kubernetes/profile/KubernetesProfileApplicationListener.java"
+                },
+                {
+                    "@type": "item",
+                    "name": "spring-cloud-kubernetes-core/src/main/java/io/fabric8/spring/cloud/kubernetes/profile/KubernetesApplicationContextInitializer.java"
+                }
+            ]
+        },
+        {
+            "@type": "group",
+            "name": "9",
+            "nested": [
+                {
+                    "@type": "item",
+                    "name": "spring-cloud-kubernetes-hystrix/src/main/java/io/fabric8/spring/cloud/kubernetes/hystrix/HystrixFilterAutoConfiguration.java"
+                },
+                {
+                    "@type": "item",
+                    "name": "spring-cloud-kubernetes-hystrix/src/main/java/io/fabric8/spring/cloud/kubernetes/hystrix/HystrixRequestContextServletFilter.java"
+                }
+            ]
+        },
+        {
+            "@type": "group",
+            "name": "10",
+            "nested": [
+                {
+                    "@type": "item",
+                    "name": "spring-cloud-kubernetes-zipkin/src/main/java/io/fabric8/spring/cloud/kubernetes/zipkin/KubernetesZipkinDiscoveryProperties.java"
+                },
+                {
+                    "@type": "item",
+                    "name": "spring-cloud-kubernetes-zipkin/src/main/java/io/fabric8/spring/cloud/kubernetes/zipkin/ZipkinKubernetesAutoConfiguration.java"
+                }
+            ]
+        },
+        {
+            "@type": "group",
+            "name": "11",
+            "nested": [
+                {
+                    "@type": "item",
+                    "name": "spring-cloud-kubernetes-compat/src/main/java/org/springframework/cloud/commons/util/InetUtils.java"
+                }
+            ]
+        }
+    ]
+}

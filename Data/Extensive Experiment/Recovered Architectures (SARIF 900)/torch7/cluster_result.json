@@ -1,0 +1,512 @@
+{
+    "@schemaVersion": "1.0",
+    "name": "clustering",
+    "structure": [
+        {
+            "@type": "group",
+            "name": "0",
+            "nested": [
+                {
+                    "@type": "item",
+                    "name": "lib/TH/vector/VSX.c"
+                },
+                {
+                    "@type": "item",
+                    "name": "lib/TH/THVector.c"
+                },
+                {
+                    "@type": "item",
+                    "name": "lib/TH/THBlas.c"
+                },
+                {
+                    "@type": "item",
+                    "name": "lib/TH/THTensor.c"
+                },
+                {
+                    "@type": "item",
+                    "name": "lib/TH/generic/THTensorConv.c"
+                },
+                {
+                    "@type": "item",
+                    "name": "lib/TH/THLapack.c"
+                },
+                {
+                    "@type": "item",
+                    "name": "lib/TH/vector/SSE.c"
+                },
+                {
+                    "@type": "item",
+                    "name": "lib/TH/generic/THBlas.c"
+                },
+                {
+                    "@type": "item",
+                    "name": "lib/TH/generic/simd/simd.h"
+                },
+                {
+                    "@type": "item",
+                    "name": "lib/TH/generic/THTensorLapack.c"
+                },
+                {
+                    "@type": "item",
+                    "name": "lib/TH/TH.h"
+                },
+                {
+                    "@type": "item",
+                    "name": "lib/TH/THMath.h"
+                },
+                {
+                    "@type": "item",
+                    "name": "lib/TH/generic/THTensorRandom.c"
+                },
+                {
+                    "@type": "item",
+                    "name": "lib/TH/THTensorMacros.h"
+                },
+                {
+                    "@type": "item",
+                    "name": "lib/TH/THRandom.h"
+                },
+                {
+                    "@type": "item",
+                    "name": "lib/TH/THRandom.c"
+                }
+            ]
+        },
+        {
+            "@type": "group",
+            "name": "1",
+            "nested": [
+                {
+                    "@type": "item",
+                    "name": "init.c"
+                },
+                {
+                    "@type": "item",
+                    "name": "lib/luaT/luaT.h"
+                },
+                {
+                    "@type": "item",
+                    "name": "lib/luaT/luaT.c"
+                },
+                {
+                    "@type": "item",
+                    "name": "MemoryFile.c"
+                },
+                {
+                    "@type": "item",
+                    "name": "Timer.c"
+                },
+                {
+                    "@type": "item",
+                    "name": "Tensor.c"
+                },
+                {
+                    "@type": "item",
+                    "name": "general.h"
+                },
+                {
+                    "@type": "item",
+                    "name": "utils.h"
+                },
+                {
+                    "@type": "item",
+                    "name": "utils.c"
+                },
+                {
+                    "@type": "item",
+                    "name": "PipeFile.c"
+                },
+                {
+                    "@type": "item",
+                    "name": "DiskFile.c"
+                },
+                {
+                    "@type": "item",
+                    "name": "Storage.c"
+                },
+                {
+                    "@type": "item",
+                    "name": "Generator.c"
+                },
+                {
+                    "@type": "item",
+                    "name": "File.c"
+                },
+                {
+                    "@type": "item",
+                    "name": "TensorOperator.c"
+                }
+            ]
+        },
+        {
+            "@type": "group",
+            "name": "2",
+            "nested": [
+                {
+                    "@type": "item",
+                    "name": "lib/TH/THGenerateByteType.h"
+                },
+                {
+                    "@type": "item",
+                    "name": "lib/TH/THGenerateLongType.h"
+                },
+                {
+                    "@type": "item",
+                    "name": "lib/TH/THGenerateFloatType.h"
+                },
+                {
+                    "@type": "item",
+                    "name": "lib/TH/THGenerateIntType.h"
+                },
+                {
+                    "@type": "item",
+                    "name": "lib/TH/THGenerateCharType.h"
+                },
+                {
+                    "@type": "item",
+                    "name": "lib/TH/THGenerateShortType.h"
+                },
+                {
+                    "@type": "item",
+                    "name": "lib/TH/THGenerateHalfType.h"
+                },
+                {
+                    "@type": "item",
+                    "name": "lib/TH/THGenerateDoubleType.h"
+                }
+            ]
+        },
+        {
+            "@type": "group",
+            "name": "3",
+            "nested": [
+                {
+                    "@type": "item",
+                    "name": "lib/TH/generic/THTensorRandom.h"
+                },
+                {
+                    "@type": "item",
+                    "name": "lib/TH/generic/THTensorConv.h"
+                },
+                {
+                    "@type": "item",
+                    "name": "lib/TH/generic/THTensor.c"
+                },
+                {
+                    "@type": "item",
+                    "name": "lib/TH/generic/THTensor.h"
+                },
+                {
+                    "@type": "item",
+                    "name": "lib/TH/generic/THTensorLapack.h"
+                },
+                {
+                    "@type": "item",
+                    "name": "lib/TH/generic/THTensorCopy.h"
+                },
+                {
+                    "@type": "item",
+                    "name": "lib/TH/generic/THTensorMath.h"
+                },
+                {
+                    "@type": "item",
+                    "name": "lib/TH/THTensor.h"
+                }
+            ]
+        },
+        {
+            "@type": "group",
+            "name": "4",
+            "nested": [
+                {
+                    "@type": "item",
+                    "name": "lib/TH/THSize.h"
+                },
+                {
+                    "@type": "item",
+                    "name": "lib/TH/THSize.c"
+                },
+                {
+                    "@type": "item",
+                    "name": "lib/TH/generic/THStorage.h"
+                },
+                {
+                    "@type": "item",
+                    "name": "lib/TH/THStorage.h"
+                },
+                {
+                    "@type": "item",
+                    "name": "lib/TH/THStorage.c"
+                },
+                {
+                    "@type": "item",
+                    "name": "lib/TH/generic/THStorage.c"
+                },
+                {
+                    "@type": "item",
+                    "name": "lib/TH/THAllocator.h"
+                },
+                {
+                    "@type": "item",
+                    "name": "lib/TH/THAllocator.c"
+                },
+                {
+                    "@type": "item",
+                    "name": "lib/TH/generic/THStorageCopy.h"
+                }
+            ]
+        },
+        {
+            "@type": "group",
+            "name": "5",
+            "nested": [
+                {
+                    "@type": "item",
+                    "name": "lib/TH/THDiskFile.h"
+                },
+                {
+                    "@type": "item",
+                    "name": "lib/TH/THDiskFile.c"
+                },
+                {
+                    "@type": "item",
+                    "name": "lib/TH/THAtomic.h"
+                },
+                {
+                    "@type": "item",
+                    "name": "lib/TH/THAtomic.c"
+                },
+                {
+                    "@type": "item",
+                    "name": "lib/TH/THMemoryFile.h"
+                },
+                {
+                    "@type": "item",
+                    "name": "lib/TH/THMemoryFile.c"
+                },
+                {
+                    "@type": "item",
+                    "name": "lib/TH/THFile.h"
+                },
+                {
+                    "@type": "item",
+                    "name": "lib/TH/THFile.c"
+                },
+                {
+                    "@type": "item",
+                    "name": "lib/TH/THFilePrivate.h"
+                }
+            ]
+        },
+        {
+            "@type": "group",
+            "name": "6",
+            "nested": [
+                {
+                    "@type": "item",
+                    "name": "generic/TensorOperator.c"
+                },
+                {
+                    "@type": "item",
+                    "name": "generic/Tensor.c"
+                },
+                {
+                    "@type": "item",
+                    "name": "generic/Storage.c"
+                },
+                {
+                    "@type": "item",
+                    "name": "generic/luaG.h"
+                }
+            ]
+        },
+        {
+            "@type": "group",
+            "name": "7",
+            "nested": [
+                {
+                    "@type": "item",
+                    "name": "lib/TH/generic/THTensorCopy.c"
+                },
+                {
+                    "@type": "item",
+                    "name": "lib/TH/THGeneral.c"
+                },
+                {
+                    "@type": "item",
+                    "name": "lib/TH/THHalf.h"
+                },
+                {
+                    "@type": "item",
+                    "name": "lib/TH/THHalf.c"
+                },
+                {
+                    "@type": "item",
+                    "name": "lib/TH/generic/THStorageCopy.c"
+                }
+            ]
+        },
+        {
+            "@type": "group",
+            "name": "8",
+            "nested": [
+                {
+                    "@type": "item",
+                    "name": "lib/TH/generic/THVectorDispatch.c"
+                },
+                {
+                    "@type": "item",
+                    "name": "lib/TH/generic/THVectorDefault.c"
+                },
+                {
+                    "@type": "item",
+                    "name": "lib/TH/generic/THVector.h"
+                },
+                {
+                    "@type": "item",
+                    "name": "lib/TH/THVector.h"
+                }
+            ]
+        },
+        {
+            "@type": "group",
+            "name": "9",
+            "nested": [
+                {
+                    "@type": "item",
+                    "name": "lib/TH/generic/simd/convolve.h"
+                },
+                {
+                    "@type": "item",
+                    "name": "lib/TH/generic/simd/common_simd.h"
+                },
+                {
+                    "@type": "item",
+                    "name": "lib/TH/generic/simd/convolve5x5_avx.c"
+                },
+                {
+                    "@type": "item",
+                    "name": "lib/TH/generic/simd/convolve5x5_sse.c"
+                }
+            ]
+        },
+        {
+            "@type": "group",
+            "name": "10",
+            "nested": [
+                {
+                    "@type": "item",
+                    "name": "lib/TH/THGenerateFloatTypes.h"
+                },
+                {
+                    "@type": "item",
+                    "name": "lib/TH/THGenerateIntTypes.h"
+                },
+                {
+                    "@type": "item",
+                    "name": "lib/TH/THGenerateAllTypes.h"
+                }
+            ]
+        },
+        {
+            "@type": "group",
+            "name": "11",
+            "nested": [
+                {
+                    "@type": "item",
+                    "name": "lib/TH/generic/THBlas.h"
+                },
+                {
+                    "@type": "item",
+                    "name": "lib/TH/THBlas.h"
+                },
+                {
+                    "@type": "item",
+                    "name": "lib/TH/THLogAdd.h"
+                },
+                {
+                    "@type": "item",
+                    "name": "lib/TH/THLogAdd.c"
+                }
+            ]
+        },
+        {
+            "@type": "group",
+            "name": "12",
+            "nested": [
+                {
+                    "@type": "item",
+                    "name": "lib/TH/generic/THLapack.c"
+                },
+                {
+                    "@type": "item",
+                    "name": "lib/TH/generic/THLapack.h"
+                },
+                {
+                    "@type": "item",
+                    "name": "lib/TH/THLapack.h"
+                }
+            ]
+        },
+        {
+            "@type": "group",
+            "name": "13",
+            "nested": [
+                {
+                    "@type": "item",
+                    "name": "lib/TH/THTensorApply.h"
+                },
+                {
+                    "@type": "item",
+                    "name": "lib/TH/THTensorDimApply.h"
+                },
+                {
+                    "@type": "item",
+                    "name": "lib/TH/generic/THTensorMath.c"
+                }
+            ]
+        },
+        {
+            "@type": "group",
+            "name": "14",
+            "nested": [
+                {
+                    "@type": "item",
+                    "name": "lib/TH/vector/NEON.c"
+                },
+                {
+                    "@type": "item",
+                    "name": "lib/TH/vector/AVX.h"
+                },
+                {
+                    "@type": "item",
+                    "name": "lib/TH/vector/AVX.c"
+                }
+            ]
+        },
+        {
+            "@type": "group",
+            "name": "15",
+            "nested": [
+                {
+                    "@type": "item",
+                    "name": "lib/TH/vector/AVX2.h"
+                },
+                {
+                    "@type": "item",
+                    "name": "lib/TH/vector/AVX2.c"
+                }
+            ]
+        },
+        {
+            "@type": "group",
+            "name": "16",
+            "nested": [
+                {
+                    "@type": "item",
+                    "name": "lib/TH/generic/simd/convolve.c"
+                }
+            ]
+        }
+    ]
+}

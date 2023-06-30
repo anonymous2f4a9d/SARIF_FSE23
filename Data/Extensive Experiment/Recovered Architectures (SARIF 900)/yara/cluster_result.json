@@ -1,0 +1,876 @@
+{
+    "@schemaVersion": "1.0",
+    "name": "clustering",
+    "structure": [
+        {
+            "@type": "group",
+            "name": "0",
+            "nested": [
+                {
+                    "@type": "item",
+                    "name": "tests/test-magic.c"
+                },
+                {
+                    "@type": "item",
+                    "name": "tests/test-math.c"
+                },
+                {
+                    "@type": "item",
+                    "name": "tests/test-version.c"
+                },
+                {
+                    "@type": "item",
+                    "name": "tests/test-dex.c"
+                },
+                {
+                    "@type": "item",
+                    "name": "tests/mapper.c"
+                },
+                {
+                    "@type": "item",
+                    "name": "tests/test-arena.c"
+                },
+                {
+                    "@type": "item",
+                    "name": "tests/test-exception.c"
+                },
+                {
+                    "@type": "item",
+                    "name": "tests/test-alignment.c"
+                },
+                {
+                    "@type": "item",
+                    "name": "tests/test-dotnet.c"
+                },
+                {
+                    "@type": "item",
+                    "name": "tests/test-re-split.c"
+                },
+                {
+                    "@type": "item",
+                    "name": "tests/test-macho.c"
+                },
+                {
+                    "@type": "item",
+                    "name": "tests/test-bitmask.c"
+                },
+                {
+                    "@type": "item",
+                    "name": "tests/blob.h"
+                },
+                {
+                    "@type": "item",
+                    "name": "tests/util.h"
+                },
+                {
+                    "@type": "item",
+                    "name": "tests/util.c"
+                },
+                {
+                    "@type": "item",
+                    "name": "tests/test-api.c"
+                },
+                {
+                    "@type": "item",
+                    "name": "tests/test-elf.c"
+                },
+                {
+                    "@type": "item",
+                    "name": "tests/test-async.c"
+                },
+                {
+                    "@type": "item",
+                    "name": "tests/test-rules.c"
+                },
+                {
+                    "@type": "item",
+                    "name": "tests/test-pb.c"
+                },
+                {
+                    "@type": "item",
+                    "name": "tests/test-pe.c"
+                },
+                {
+                    "@type": "item",
+                    "name": "tests/test-stack.c"
+                },
+                {
+                    "@type": "item",
+                    "name": "tests/test-atoms.c"
+                },
+                {
+                    "@type": "item",
+                    "name": "tests/test-string.c"
+                }
+            ]
+        },
+        {
+            "@type": "group",
+            "name": "1",
+            "nested": [
+                {
+                    "@type": "item",
+                    "name": "libyara/include/yara/scanner.h"
+                },
+                {
+                    "@type": "item",
+                    "name": "libyara/scanner.c"
+                },
+                {
+                    "@type": "item",
+                    "name": "libyara/include/yara/notebook.h"
+                },
+                {
+                    "@type": "item",
+                    "name": "libyara/notebook.c"
+                },
+                {
+                    "@type": "item",
+                    "name": "libyara/include/yara/simple_str.h"
+                },
+                {
+                    "@type": "item",
+                    "name": "libyara/simple_str.c"
+                },
+                {
+                    "@type": "item",
+                    "name": "libyara/include/yara/stopwatch.h"
+                },
+                {
+                    "@type": "item",
+                    "name": "libyara/stopwatch.c"
+                },
+                {
+                    "@type": "item",
+                    "name": "libyara/include/yara/types.h"
+                },
+                {
+                    "@type": "item",
+                    "name": "libyara/include/yara/proc.h"
+                },
+                {
+                    "@type": "item",
+                    "name": "libyara/proc.c"
+                },
+                {
+                    "@type": "item",
+                    "name": "libyara/include/yara/error.h"
+                },
+                {
+                    "@type": "item",
+                    "name": "libyara/include/yara/base64.h"
+                },
+                {
+                    "@type": "item",
+                    "name": "libyara/base64.c"
+                },
+                {
+                    "@type": "item",
+                    "name": "libyara/include/yara/scan.h"
+                },
+                {
+                    "@type": "item",
+                    "name": "libyara/scan.c"
+                },
+                {
+                    "@type": "item",
+                    "name": "libyara/include/yara/exec.h"
+                },
+                {
+                    "@type": "item",
+                    "name": "libyara/exec.c"
+                },
+                {
+                    "@type": "item",
+                    "name": "libyara/include/yara/modules.h"
+                },
+                {
+                    "@type": "item",
+                    "name": "libyara/modules.c"
+                },
+                {
+                    "@type": "item",
+                    "name": "libyara/include/yara/object.h"
+                },
+                {
+                    "@type": "item",
+                    "name": "libyara/object.c"
+                },
+                {
+                    "@type": "item",
+                    "name": "libyara/include/yara/filemap.h"
+                },
+                {
+                    "@type": "item",
+                    "name": "libyara/filemap.c"
+                },
+                {
+                    "@type": "item",
+                    "name": "libyara/include/yara/sizedstr.h"
+                },
+                {
+                    "@type": "item",
+                    "name": "libyara/sizedstr.c"
+                },
+                {
+                    "@type": "item",
+                    "name": "libyara/include/yara/bitmask.h"
+                },
+                {
+                    "@type": "item",
+                    "name": "libyara/bitmask.c"
+                },
+                {
+                    "@type": "item",
+                    "name": "libyara/include/yara/rules.h"
+                },
+                {
+                    "@type": "item",
+                    "name": "libyara/rules.c"
+                },
+                {
+                    "@type": "item",
+                    "name": "libyara/include/yara/dex.h"
+                }
+            ]
+        },
+        {
+            "@type": "group",
+            "name": "2",
+            "nested": [
+                {
+                    "@type": "item",
+                    "name": "libyara/include/yara/utils.h"
+                },
+                {
+                    "@type": "item",
+                    "name": "libyara/include/yara/endian.h"
+                },
+                {
+                    "@type": "item",
+                    "name": "libyara/endian.c"
+                },
+                {
+                    "@type": "item",
+                    "name": "libyara/include/yara/atoms.h"
+                },
+                {
+                    "@type": "item",
+                    "name": "libyara/atoms.c"
+                },
+                {
+                    "@type": "item",
+                    "name": "libyara/include/yara/macho.h"
+                },
+                {
+                    "@type": "item",
+                    "name": "libyara/include/yara/stack.h"
+                },
+                {
+                    "@type": "item",
+                    "name": "libyara/stack.c"
+                },
+                {
+                    "@type": "item",
+                    "name": "libyara/include/yara/unaligned.h"
+                },
+                {
+                    "@type": "item",
+                    "name": "libyara/include/yara/arena.h"
+                },
+                {
+                    "@type": "item",
+                    "name": "libyara/arena.c"
+                },
+                {
+                    "@type": "item",
+                    "name": "libyara/include/yara/ahocorasick.h"
+                },
+                {
+                    "@type": "item",
+                    "name": "libyara/ahocorasick.c"
+                },
+                {
+                    "@type": "item",
+                    "name": "libyara/include/yara/stream.h"
+                },
+                {
+                    "@type": "item",
+                    "name": "libyara/stream.c"
+                },
+                {
+                    "@type": "item",
+                    "name": "libyara/crypto.h"
+                },
+                {
+                    "@type": "item",
+                    "name": "libyara/include/yara/mem.h"
+                },
+                {
+                    "@type": "item",
+                    "name": "libyara/mem.c"
+                },
+                {
+                    "@type": "item",
+                    "name": "libyara/include/yara/limits.h"
+                },
+                {
+                    "@type": "item",
+                    "name": "libyara/include/yara/integers.h"
+                }
+            ]
+        },
+        {
+            "@type": "group",
+            "name": "3",
+            "nested": [
+                {
+                    "@type": "item",
+                    "name": "libyara/grammar.h"
+                },
+                {
+                    "@type": "item",
+                    "name": "libyara/include/yara/lexer.h"
+                },
+                {
+                    "@type": "item",
+                    "name": "libyara/grammar.c"
+                },
+                {
+                    "@type": "item",
+                    "name": "libyara/lexer.c"
+                },
+                {
+                    "@type": "item",
+                    "name": "libyara/include/yara/libyara.h"
+                },
+                {
+                    "@type": "item",
+                    "name": "libyara/libyara.c"
+                },
+                {
+                    "@type": "item",
+                    "name": "libyara/include/yara/compiler.h"
+                },
+                {
+                    "@type": "item",
+                    "name": "libyara/compiler.c"
+                },
+                {
+                    "@type": "item",
+                    "name": "libyara/include/yara/strutils.h"
+                },
+                {
+                    "@type": "item",
+                    "name": "libyara/strutils.c"
+                },
+                {
+                    "@type": "item",
+                    "name": "libyara/include/yara/parser.h"
+                },
+                {
+                    "@type": "item",
+                    "name": "libyara/parser.c"
+                },
+                {
+                    "@type": "item",
+                    "name": "libyara/include/yara/hash.h"
+                },
+                {
+                    "@type": "item",
+                    "name": "libyara/hash.c"
+                },
+                {
+                    "@type": "item",
+                    "name": "libyara/exefiles.c"
+                },
+                {
+                    "@type": "item",
+                    "name": "libyara/include/yara/hex_lexer.h"
+                },
+                {
+                    "@type": "item",
+                    "name": "libyara/hex_lexer.c"
+                },
+                {
+                    "@type": "item",
+                    "name": "libyara/include/yara/exefiles.h"
+                }
+            ]
+        },
+        {
+            "@type": "group",
+            "name": "4",
+            "nested": [
+                {
+                    "@type": "item",
+                    "name": "cli/unicode.h"
+                },
+                {
+                    "@type": "item",
+                    "name": "cli/args.h"
+                },
+                {
+                    "@type": "item",
+                    "name": "cli/args.c"
+                },
+                {
+                    "@type": "item",
+                    "name": "cli/yarac.c"
+                },
+                {
+                    "@type": "item",
+                    "name": "cli/yara.c"
+                },
+                {
+                    "@type": "item",
+                    "name": "cli/common.h"
+                },
+                {
+                    "@type": "item",
+                    "name": "cli/common.c"
+                },
+                {
+                    "@type": "item",
+                    "name": "cli/threading.h"
+                },
+                {
+                    "@type": "item",
+                    "name": "cli/threading.c"
+                }
+            ]
+        },
+        {
+            "@type": "group",
+            "name": "5",
+            "nested": [
+                {
+                    "@type": "item",
+                    "name": "libyara/modules/pe/authenticode-parser/certificate.h"
+                },
+                {
+                    "@type": "item",
+                    "name": "libyara/modules/pe/authenticode-parser/certificate.c"
+                },
+                {
+                    "@type": "item",
+                    "name": "libyara/modules/pe/authenticode-parser/countersignature.h"
+                },
+                {
+                    "@type": "item",
+                    "name": "libyara/modules/pe/authenticode-parser/countersignature.c"
+                },
+                {
+                    "@type": "item",
+                    "name": "libyara/modules/pe/authenticode-parser/structs.c"
+                },
+                {
+                    "@type": "item",
+                    "name": "libyara/include/authenticode-parser/authenticode.h"
+                },
+                {
+                    "@type": "item",
+                    "name": "libyara/modules/pe/authenticode-parser/authenticode.c"
+                },
+                {
+                    "@type": "item",
+                    "name": "libyara/modules/pe/authenticode-parser/helper.h"
+                },
+                {
+                    "@type": "item",
+                    "name": "libyara/modules/pe/authenticode-parser/helper.c"
+                },
+                {
+                    "@type": "item",
+                    "name": "libyara/modules/pe/authenticode-parser/structs.h"
+                }
+            ]
+        },
+        {
+            "@type": "group",
+            "name": "6",
+            "nested": [
+                {
+                    "@type": "item",
+                    "name": "libyara/proc/none.c"
+                },
+                {
+                    "@type": "item",
+                    "name": "libyara/proc/linux.c"
+                },
+                {
+                    "@type": "item",
+                    "name": "libyara/proc/mach.c"
+                },
+                {
+                    "@type": "item",
+                    "name": "libyara/proc/openbsd.c"
+                },
+                {
+                    "@type": "item",
+                    "name": "libyara/proc/windows.c"
+                },
+                {
+                    "@type": "item",
+                    "name": "libyara/proc/freebsd.c"
+                }
+            ]
+        },
+        {
+            "@type": "group",
+            "name": "7",
+            "nested": [
+                {
+                    "@type": "item",
+                    "name": "tests/oss-fuzz/macho_fuzzer.cc"
+                },
+                {
+                    "@type": "item",
+                    "name": "tests/oss-fuzz/dotnet_fuzzer.cc"
+                },
+                {
+                    "@type": "item",
+                    "name": "tests/oss-fuzz/pe_fuzzer.cc"
+                },
+                {
+                    "@type": "item",
+                    "name": "tests/oss-fuzz/dex_fuzzer.cc"
+                },
+                {
+                    "@type": "item",
+                    "name": "tests/oss-fuzz/elf_fuzzer.cc"
+                },
+                {
+                    "@type": "item",
+                    "name": "tests/oss-fuzz/rules_fuzzer.cc"
+                }
+            ]
+        },
+        {
+            "@type": "group",
+            "name": "8",
+            "nested": [
+                {
+                    "@type": "item",
+                    "name": "sandbox/sandboxed_yara.cc"
+                },
+                {
+                    "@type": "item",
+                    "name": "sandbox/yara_entry_points.cc"
+                },
+                {
+                    "@type": "item",
+                    "name": "sandbox/yara_transaction_test.cc"
+                },
+                {
+                    "@type": "item",
+                    "name": "sandbox/yara_transaction.h"
+                },
+                {
+                    "@type": "item",
+                    "name": "sandbox/yara_transaction.cc"
+                },
+                {
+                    "@type": "item",
+                    "name": "sandbox/collect_matches.h"
+                },
+                {
+                    "@type": "item",
+                    "name": "sandbox/collect_matches.cc"
+                }
+            ]
+        },
+        {
+            "@type": "group",
+            "name": "9",
+            "nested": [
+                {
+                    "@type": "item",
+                    "name": "libyara/tlshc/tlsh_util.c"
+                },
+                {
+                    "@type": "item",
+                    "name": "libyara/tlshc/tlsh_util.h"
+                },
+                {
+                    "@type": "item",
+                    "name": "libyara/tlshc/tlsh_impl.h"
+                },
+                {
+                    "@type": "item",
+                    "name": "libyara/tlshc/tlsh_impl.c"
+                },
+                {
+                    "@type": "item",
+                    "name": "libyara/include/tlshc/tlsh.h"
+                },
+                {
+                    "@type": "item",
+                    "name": "libyara/tlshc/tlsh.c"
+                }
+            ]
+        },
+        {
+            "@type": "group",
+            "name": "10",
+            "nested": [
+                {
+                    "@type": "item",
+                    "name": "libyara/include/yara/re.h"
+                },
+                {
+                    "@type": "item",
+                    "name": "libyara/re.c"
+                },
+                {
+                    "@type": "item",
+                    "name": "libyara/re_grammar.h"
+                },
+                {
+                    "@type": "item",
+                    "name": "libyara/hex_grammar.h"
+                },
+                {
+                    "@type": "item",
+                    "name": "libyara/hex_grammar.c"
+                },
+                {
+                    "@type": "item",
+                    "name": "libyara/include/yara/re_lexer.h"
+                },
+                {
+                    "@type": "item",
+                    "name": "libyara/re_lexer.c"
+                },
+                {
+                    "@type": "item",
+                    "name": "libyara/re_grammar.c"
+                }
+            ]
+        },
+        {
+            "@type": "group",
+            "name": "11",
+            "nested": [
+                {
+                    "@type": "item",
+                    "name": "libyara/include/yara/dotnet.h"
+                },
+                {
+                    "@type": "item",
+                    "name": "libyara/include/yara/pe.h"
+                },
+                {
+                    "@type": "item",
+                    "name": "libyara/modules/pe/pe.c"
+                },
+                {
+                    "@type": "item",
+                    "name": "libyara/include/yara/pe_utils.h"
+                },
+                {
+                    "@type": "item",
+                    "name": "libyara/modules/pe/pe_utils.c"
+                }
+            ]
+        },
+        {
+            "@type": "group",
+            "name": "12",
+            "nested": [
+                {
+                    "@type": "item",
+                    "name": "libyara/modules/pb_tests/pb_tests.pb-c.h"
+                },
+                {
+                    "@type": "item",
+                    "name": "libyara/modules/pb_tests/pb_tests.pb-c.c"
+                },
+                {
+                    "@type": "item",
+                    "name": "libyara/modules/pb_tests/yara.pb-c.h"
+                },
+                {
+                    "@type": "item",
+                    "name": "libyara/modules/pb_tests/pb_tests.c"
+                }
+            ]
+        },
+        {
+            "@type": "group",
+            "name": "13",
+            "nested": [
+                {
+                    "@type": "item",
+                    "name": "libyara/include/yara/threading.h"
+                },
+                {
+                    "@type": "item",
+                    "name": "libyara/threading.c"
+                },
+                {
+                    "@type": "item",
+                    "name": "libyara/include/yara/globals.h"
+                },
+                {
+                    "@type": "item",
+                    "name": "libyara/exception.h"
+                }
+            ]
+        },
+        {
+            "@type": "group",
+            "name": "14",
+            "nested": [
+                {
+                    "@type": "item",
+                    "name": "libyara/include/yara/elf.h"
+                },
+                {
+                    "@type": "item",
+                    "name": "libyara/include/yara/elf_utils.h"
+                }
+            ]
+        },
+        {
+            "@type": "group",
+            "name": "15",
+            "nested": [
+                {
+                    "@type": "item",
+                    "name": "libyara/include/yara.h"
+                }
+            ]
+        },
+        {
+            "@type": "group",
+            "name": "16",
+            "nested": [
+                {
+                    "@type": "item",
+                    "name": "libyara/modules/console/console.c"
+                }
+            ]
+        },
+        {
+            "@type": "group",
+            "name": "17",
+            "nested": [
+                {
+                    "@type": "item",
+                    "name": "libyara/modules/cuckoo/cuckoo.c"
+                }
+            ]
+        },
+        {
+            "@type": "group",
+            "name": "18",
+            "nested": [
+                {
+                    "@type": "item",
+                    "name": "libyara/modules/demo/demo.c"
+                }
+            ]
+        },
+        {
+            "@type": "group",
+            "name": "19",
+            "nested": [
+                {
+                    "@type": "item",
+                    "name": "libyara/modules/dex/dex.c"
+                }
+            ]
+        },
+        {
+            "@type": "group",
+            "name": "20",
+            "nested": [
+                {
+                    "@type": "item",
+                    "name": "libyara/modules/dotnet/dotnet.c"
+                }
+            ]
+        },
+        {
+            "@type": "group",
+            "name": "21",
+            "nested": [
+                {
+                    "@type": "item",
+                    "name": "libyara/modules/elf/elf.c"
+                }
+            ]
+        },
+        {
+            "@type": "group",
+            "name": "22",
+            "nested": [
+                {
+                    "@type": "item",
+                    "name": "libyara/modules/hash/hash.c"
+                }
+            ]
+        },
+        {
+            "@type": "group",
+            "name": "23",
+            "nested": [
+                {
+                    "@type": "item",
+                    "name": "libyara/modules/macho/macho.c"
+                }
+            ]
+        },
+        {
+            "@type": "group",
+            "name": "24",
+            "nested": [
+                {
+                    "@type": "item",
+                    "name": "libyara/modules/magic/magic.c"
+                }
+            ]
+        },
+        {
+            "@type": "group",
+            "name": "25",
+            "nested": [
+                {
+                    "@type": "item",
+                    "name": "libyara/modules/math/math.c"
+                }
+            ]
+        },
+        {
+            "@type": "group",
+            "name": "26",
+            "nested": [
+                {
+                    "@type": "item",
+                    "name": "libyara/modules/string/string.c"
+                }
+            ]
+        },
+        {
+            "@type": "group",
+            "name": "27",
+            "nested": [
+                {
+                    "@type": "item",
+                    "name": "libyara/modules/tests/tests.c"
+                }
+            ]
+        },
+        {
+            "@type": "group",
+            "name": "28",
+            "nested": [
+                {
+                    "@type": "item",
+                    "name": "libyara/modules/time/time.c"
+                }
+            ]
+        }
+    ]
+}

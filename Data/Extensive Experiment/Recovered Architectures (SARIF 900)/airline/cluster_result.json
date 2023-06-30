@@ -1,0 +1,386 @@
+{
+    "@schemaVersion": "1.0",
+    "name": "clustering",
+    "structure": [
+        {
+            "@type": "group",
+            "name": "0",
+            "nested": [
+                {
+                    "@type": "item",
+                    "name": "src/test/java/io/airlift/airline/TestCommand.java"
+                },
+                {
+                    "@type": "item",
+                    "name": "src/test/java/io/airlift/airline/args/ArgsSingleChar.java"
+                },
+                {
+                    "@type": "item",
+                    "name": "src/test/java/io/airlift/airline/args/ArgsDefault.java"
+                },
+                {
+                    "@type": "item",
+                    "name": "src/test/java/io/airlift/airline/args/Args2.java"
+                },
+                {
+                    "@type": "item",
+                    "name": "src/test/java/io/airlift/airline/args/ArgsBooleanArity.java"
+                },
+                {
+                    "@type": "item",
+                    "name": "src/test/java/io/airlift/airline/args/ArgsBooleanArity0.java"
+                },
+                {
+                    "@type": "item",
+                    "name": "src/test/java/io/airlift/airline/args/ArgsOutOfMemory.java"
+                },
+                {
+                    "@type": "item",
+                    "name": "src/test/java/io/airlift/airline/args/ArgsInherited.java"
+                },
+                {
+                    "@type": "item",
+                    "name": "src/test/java/io/airlift/airline/TestParametersDelegate.java"
+                },
+                {
+                    "@type": "item",
+                    "name": "src/test/java/io/airlift/airline/TestingUtil.java"
+                },
+                {
+                    "@type": "item",
+                    "name": "src/test/java/io/airlift/airline/args/ArgsEnum.java"
+                },
+                {
+                    "@type": "item",
+                    "name": "src/test/java/io/airlift/airline/args/ArgsArityString.java"
+                },
+                {
+                    "@type": "item",
+                    "name": "src/test/java/io/airlift/airline/args/Args3.java"
+                },
+                {
+                    "@type": "item",
+                    "name": "src/test/java/io/airlift/airline/ArgsRequiredWrongMain.java"
+                },
+                {
+                    "@type": "item",
+                    "name": "src/test/java/io/airlift/airline/args/ArgsPrivate.java"
+                },
+                {
+                    "@type": "item",
+                    "name": "src/test/java/io/airlift/airline/args/ArgsRequired.java"
+                },
+                {
+                    "@type": "item",
+                    "name": "src/test/java/io/airlift/airline/TestSingleCommand.java"
+                },
+                {
+                    "@type": "item",
+                    "name": "src/test/java/io/airlift/airline/args/CommandHidden.java"
+                },
+                {
+                    "@type": "item",
+                    "name": "src/test/java/io/airlift/airline/args/OptionsRequired.java"
+                },
+                {
+                    "@type": "item",
+                    "name": "src/test/java/io/airlift/airline/TestHelp.java"
+                },
+                {
+                    "@type": "item",
+                    "name": "src/test/java/io/airlift/airline/args/Arity1.java"
+                },
+                {
+                    "@type": "item",
+                    "name": "src/test/java/io/airlift/airline/TestArgumentConversion.java"
+                },
+                {
+                    "@type": "item",
+                    "name": "src/test/java/io/airlift/airline/args/Args1.java"
+                },
+                {
+                    "@type": "item",
+                    "name": "src/test/java/io/airlift/airline/args/OptionsHidden.java"
+                },
+                {
+                    "@type": "item",
+                    "name": "src/test/java/io/airlift/airline/args/ArgsMultipleUnparsed.java"
+                }
+            ]
+        },
+        {
+            "@type": "group",
+            "name": "1",
+            "nested": [
+                {
+                    "@type": "item",
+                    "name": "src/main/java/io/airlift/airline/Help.java"
+                },
+                {
+                    "@type": "item",
+                    "name": "src/main/java/io/airlift/airline/model/GlobalMetadata.java"
+                },
+                {
+                    "@type": "item",
+                    "name": "src/test/java/io/airlift/airline/TestCli.java"
+                },
+                {
+                    "@type": "item",
+                    "name": "src/main/java/io/airlift/airline/GlobalUsageSummary.java"
+                },
+                {
+                    "@type": "item",
+                    "name": "src/main/java/io/airlift/airline/Cli.java"
+                },
+                {
+                    "@type": "item",
+                    "name": "src/main/java/io/airlift/airline/UsagePrinter.java"
+                },
+                {
+                    "@type": "item",
+                    "name": "src/main/java/io/airlift/airline/GlobalUsage.java"
+                },
+                {
+                    "@type": "item",
+                    "name": "src/main/java/io/airlift/airline/CommandGroupUsage.java"
+                },
+                {
+                    "@type": "item",
+                    "name": "src/main/java/io/airlift/airline/UsageHelper.java"
+                },
+                {
+                    "@type": "item",
+                    "name": "src/main/java/io/airlift/airline/model/CommandGroupMetadata.java"
+                },
+                {
+                    "@type": "item",
+                    "name": "src/main/java/io/airlift/airline/CommandUsage.java"
+                }
+            ]
+        },
+        {
+            "@type": "group",
+            "name": "2",
+            "nested": [
+                {
+                    "@type": "item",
+                    "name": "src/main/java/io/airlift/airline/model/OptionMetadata.java"
+                },
+                {
+                    "@type": "item",
+                    "name": "src/main/java/io/airlift/airline/model/CommandMetadata.java"
+                },
+                {
+                    "@type": "item",
+                    "name": "src/main/java/io/airlift/airline/Command.java"
+                },
+                {
+                    "@type": "item",
+                    "name": "src/main/java/io/airlift/airline/SingleCommand.java"
+                },
+                {
+                    "@type": "item",
+                    "name": "src/main/java/io/airlift/airline/Arguments.java"
+                },
+                {
+                    "@type": "item",
+                    "name": "src/main/java/io/airlift/airline/Option.java"
+                },
+                {
+                    "@type": "item",
+                    "name": "src/main/java/io/airlift/airline/model/ArgumentsMetadata.java"
+                },
+                {
+                    "@type": "item",
+                    "name": "src/main/java/io/airlift/airline/Accessor.java"
+                },
+                {
+                    "@type": "item",
+                    "name": "src/main/java/io/airlift/airline/HelpOption.java"
+                }
+            ]
+        },
+        {
+            "@type": "group",
+            "name": "3",
+            "nested": [
+                {
+                    "@type": "item",
+                    "name": "src/main/java/io/airlift/airline/OptionType.java"
+                },
+                {
+                    "@type": "item",
+                    "name": "src/main/java/io/airlift/airline/GlobalSuggester.java"
+                },
+                {
+                    "@type": "item",
+                    "name": "src/main/java/io/airlift/airline/Suggester.java"
+                },
+                {
+                    "@type": "item",
+                    "name": "src/main/java/io/airlift/airline/model/SuggesterMetadata.java"
+                },
+                {
+                    "@type": "item",
+                    "name": "src/main/java/io/airlift/airline/GroupSuggester.java"
+                },
+                {
+                    "@type": "item",
+                    "name": "src/main/java/io/airlift/airline/SuggestCommand.java"
+                },
+                {
+                    "@type": "item",
+                    "name": "src/main/java/io/airlift/airline/model/MetadataLoader.java"
+                },
+                {
+                    "@type": "item",
+                    "name": "src/main/java/io/airlift/airline/CommandSuggester.java"
+                }
+            ]
+        },
+        {
+            "@type": "group",
+            "name": "4",
+            "nested": [
+                {
+                    "@type": "item",
+                    "name": "src/test/java/io/airlift/airline/TestTypeConverter.java"
+                },
+                {
+                    "@type": "item",
+                    "name": "src/main/java/io/airlift/airline/TypeConverter.java"
+                },
+                {
+                    "@type": "item",
+                    "name": "src/main/java/io/airlift/airline/ParseOptionConversionException.java"
+                },
+                {
+                    "@type": "item",
+                    "name": "src/main/java/io/airlift/airline/ParseOptionMissingException.java"
+                },
+                {
+                    "@type": "item",
+                    "name": "src/main/java/io/airlift/airline/ParseException.java"
+                },
+                {
+                    "@type": "item",
+                    "name": "src/main/java/io/airlift/airline/ParseArgumentsMissingException.java"
+                },
+                {
+                    "@type": "item",
+                    "name": "src/main/java/io/airlift/airline/ParseCommandMissingException.java"
+                },
+                {
+                    "@type": "item",
+                    "name": "src/main/java/io/airlift/airline/ParseOptionMissingValueException.java"
+                }
+            ]
+        },
+        {
+            "@type": "group",
+            "name": "5",
+            "nested": [
+                {
+                    "@type": "item",
+                    "name": "src/test/java/io/airlift/airline/command/CommandMain.java"
+                },
+                {
+                    "@type": "item",
+                    "name": "src/test/java/io/airlift/airline/TestPing.java"
+                },
+                {
+                    "@type": "item",
+                    "name": "src/test/java/io/airlift/airline/TestGit.java"
+                },
+                {
+                    "@type": "item",
+                    "name": "src/test/java/io/airlift/airline/Git.java"
+                },
+                {
+                    "@type": "item",
+                    "name": "src/test/java/io/airlift/airline/command/CommandAdd.java"
+                },
+                {
+                    "@type": "item",
+                    "name": "src/test/java/io/airlift/airline/command/CommandTest.java"
+                },
+                {
+                    "@type": "item",
+                    "name": "src/test/java/io/airlift/airline/command/CommandCommit.java"
+                }
+            ]
+        },
+        {
+            "@type": "group",
+            "name": "6",
+            "nested": [
+                {
+                    "@type": "item",
+                    "name": "src/main/java/io/airlift/airline/ParseCommandUnrecognizedException.java"
+                },
+                {
+                    "@type": "item",
+                    "name": "src/main/java/io/airlift/airline/ParseState.java"
+                },
+                {
+                    "@type": "item",
+                    "name": "src/main/java/io/airlift/airline/ParseArgumentsUnexpectedException.java"
+                },
+                {
+                    "@type": "item",
+                    "name": "src/main/java/io/airlift/airline/Parser.java"
+                },
+                {
+                    "@type": "item",
+                    "name": "src/main/java/io/airlift/airline/Context.java"
+                }
+            ]
+        },
+        {
+            "@type": "group",
+            "name": "7",
+            "nested": [
+                {
+                    "@type": "item",
+                    "name": "src/main/java/io/airlift/airline/CommandFactory.java"
+                },
+                {
+                    "@type": "item",
+                    "name": "src/main/java/io/airlift/airline/ParserUtil.java"
+                },
+                {
+                    "@type": "item",
+                    "name": "src/main/java/io/airlift/airline/DefaultCommandFactory.java"
+                }
+            ]
+        },
+        {
+            "@type": "group",
+            "name": "8",
+            "nested": [
+                {
+                    "@type": "item",
+                    "name": "src/test/java/io/airlift/airline/ArgumentConversion.java"
+                },
+                {
+                    "@type": "item",
+                    "name": "src/test/java/io/airlift/airline/TestGalaxyCommandLineParser.java"
+                }
+            ]
+        },
+        {
+            "@type": "group",
+            "name": "9",
+            "nested": [
+                {
+                    "@type": "item",
+                    "name": "src/test/java/io/airlift/airline/args/CommandLineArgs.java"
+                },
+                {
+                    "@type": "item",
+                    "name": "src/test/java/io/airlift/airline/Ping.java"
+                }
+            ]
+        }
+    ]
+}

@@ -1,0 +1,790 @@
+{
+    "@schemaVersion": "1.0",
+    "name": "clustering",
+    "structure": [
+        {
+            "@type": "group",
+            "name": "0",
+            "nested": [
+                {
+                    "@type": "item",
+                    "name": "src/flightRecorder.h"
+                },
+                {
+                    "@type": "item",
+                    "name": "src/flightRecorder.cpp"
+                },
+                {
+                    "@type": "item",
+                    "name": "src/tsc.h"
+                },
+                {
+                    "@type": "item",
+                    "name": "src/tsc.cpp"
+                },
+                {
+                    "@type": "item",
+                    "name": "src/threadFilter.h"
+                },
+                {
+                    "@type": "item",
+                    "name": "src/threadFilter.cpp"
+                },
+                {
+                    "@type": "item",
+                    "name": "src/arch.h"
+                },
+                {
+                    "@type": "item",
+                    "name": "src/linearAllocator.h"
+                },
+                {
+                    "@type": "item",
+                    "name": "src/linearAllocator.cpp"
+                },
+                {
+                    "@type": "item",
+                    "name": "src/instrument.h"
+                },
+                {
+                    "@type": "item",
+                    "name": "src/instrument.cpp"
+                },
+                {
+                    "@type": "item",
+                    "name": "src/callTraceStorage.h"
+                },
+                {
+                    "@type": "item",
+                    "name": "src/callTraceStorage.cpp"
+                },
+                {
+                    "@type": "item",
+                    "name": "src/dictionary.h"
+                },
+                {
+                    "@type": "item",
+                    "name": "src/dictionary.cpp"
+                }
+            ]
+        },
+        {
+            "@type": "group",
+            "name": "1",
+            "nested": [
+                {
+                    "@type": "item",
+                    "name": "src/stackFrame_ppc64.cpp"
+                },
+                {
+                    "@type": "item",
+                    "name": "src/stackFrame_i386.cpp"
+                },
+                {
+                    "@type": "item",
+                    "name": "src/stackFrame_arm.cpp"
+                },
+                {
+                    "@type": "item",
+                    "name": "src/stackFrame_aarch64.cpp"
+                },
+                {
+                    "@type": "item",
+                    "name": "src/stackFrame_x64.cpp"
+                },
+                {
+                    "@type": "item",
+                    "name": "src/stackFrame.h"
+                },
+                {
+                    "@type": "item",
+                    "name": "src/safeAccess.h"
+                }
+            ]
+        },
+        {
+            "@type": "group",
+            "name": "2",
+            "nested": [
+                {
+                    "@type": "item",
+                    "name": "src/fdtransferClient.h"
+                },
+                {
+                    "@type": "item",
+                    "name": "src/symbols.h"
+                },
+                {
+                    "@type": "item",
+                    "name": "src/perfEvents_linux.cpp"
+                },
+                {
+                    "@type": "item",
+                    "name": "src/fdtransferClient_linux.cpp"
+                },
+                {
+                    "@type": "item",
+                    "name": "src/symbols_linux.cpp"
+                },
+                {
+                    "@type": "item",
+                    "name": "src/fdtransfer.h"
+                },
+                {
+                    "@type": "item",
+                    "name": "src/symbols_macos.cpp"
+                }
+            ]
+        },
+        {
+            "@type": "group",
+            "name": "3",
+            "nested": [
+                {
+                    "@type": "item",
+                    "name": "src/event.h"
+                },
+                {
+                    "@type": "item",
+                    "name": "src/allocTracer.h"
+                },
+                {
+                    "@type": "item",
+                    "name": "src/allocTracer.cpp"
+                },
+                {
+                    "@type": "item",
+                    "name": "src/objectSampler.h"
+                },
+                {
+                    "@type": "item",
+                    "name": "src/objectSampler.cpp"
+                },
+                {
+                    "@type": "item",
+                    "name": "src/trap.h"
+                },
+                {
+                    "@type": "item",
+                    "name": "src/trap.cpp"
+                },
+                {
+                    "@type": "item",
+                    "name": "src/jfrMetadata.h"
+                },
+                {
+                    "@type": "item",
+                    "name": "src/jfrMetadata.cpp"
+                },
+                {
+                    "@type": "item",
+                    "name": "src/codeCache.h"
+                },
+                {
+                    "@type": "item",
+                    "name": "src/codeCache.cpp"
+                },
+                {
+                    "@type": "item",
+                    "name": "src/lockTracer.h"
+                },
+                {
+                    "@type": "item",
+                    "name": "src/lockTracer.cpp"
+                }
+            ]
+        },
+        {
+            "@type": "group",
+            "name": "4",
+            "nested": [
+                {
+                    "@type": "item",
+                    "name": "src/converter/one/jfr/event/ContendedLock.java"
+                },
+                {
+                    "@type": "item",
+                    "name": "src/converter/one/jfr/event/LiveObject.java"
+                },
+                {
+                    "@type": "item",
+                    "name": "src/converter/one/jfr/event/AllocationSample.java"
+                },
+                {
+                    "@type": "item",
+                    "name": "src/converter/one/jfr/event/Event.java"
+                },
+                {
+                    "@type": "item",
+                    "name": "src/converter/one/jfr/event/ObjectCount.java"
+                },
+                {
+                    "@type": "item",
+                    "name": "src/converter/one/jfr/event/EventAggregator.java"
+                }
+            ]
+        },
+        {
+            "@type": "group",
+            "name": "5",
+            "nested": [
+                {
+                    "@type": "item",
+                    "name": "src/perfEvents_macos.cpp"
+                },
+                {
+                    "@type": "item",
+                    "name": "src/engine.h"
+                },
+                {
+                    "@type": "item",
+                    "name": "src/engine.cpp"
+                },
+                {
+                    "@type": "item",
+                    "name": "src/itimer.h"
+                },
+                {
+                    "@type": "item",
+                    "name": "src/itimer.cpp"
+                },
+                {
+                    "@type": "item",
+                    "name": "src/log.h"
+                },
+                {
+                    "@type": "item",
+                    "name": "src/log.cpp"
+                },
+                {
+                    "@type": "item",
+                    "name": "src/perfEvents.h"
+                }
+            ]
+        },
+        {
+            "@type": "group",
+            "name": "6",
+            "nested": [
+                {
+                    "@type": "item",
+                    "name": "src/frameName.h"
+                },
+                {
+                    "@type": "item",
+                    "name": "src/frameName.cpp"
+                },
+                {
+                    "@type": "item",
+                    "name": "src/vmEntry.h"
+                },
+                {
+                    "@type": "item",
+                    "name": "src/vmEntry.cpp"
+                },
+                {
+                    "@type": "item",
+                    "name": "src/vmStructs.h"
+                },
+                {
+                    "@type": "item",
+                    "name": "src/vmStructs.cpp"
+                },
+                {
+                    "@type": "item",
+                    "name": "src/javaApi.h"
+                },
+                {
+                    "@type": "item",
+                    "name": "src/javaApi.cpp"
+                },
+                {
+                    "@type": "item",
+                    "name": "src/profiler.h"
+                },
+                {
+                    "@type": "item",
+                    "name": "src/profiler.cpp"
+                }
+            ]
+        },
+        {
+            "@type": "group",
+            "name": "7",
+            "nested": [
+                {
+                    "@type": "item",
+                    "name": "src/demangle.h"
+                },
+                {
+                    "@type": "item",
+                    "name": "src/demangle.cpp"
+                },
+                {
+                    "@type": "item",
+                    "name": "src/j9ObjectSampler.h"
+                },
+                {
+                    "@type": "item",
+                    "name": "src/j9ObjectSampler.cpp"
+                },
+                {
+                    "@type": "item",
+                    "name": "src/flameGraph.h"
+                },
+                {
+                    "@type": "item",
+                    "name": "src/flameGraph.cpp"
+                },
+                {
+                    "@type": "item",
+                    "name": "src/arguments.h"
+                },
+                {
+                    "@type": "item",
+                    "name": "src/arguments.cpp"
+                },
+                {
+                    "@type": "item",
+                    "name": "src/incbin.h"
+                }
+            ]
+        },
+        {
+            "@type": "group",
+            "name": "8",
+            "nested": [
+                {
+                    "@type": "item",
+                    "name": "src/os_linux.cpp"
+                },
+                {
+                    "@type": "item",
+                    "name": "src/j9Ext.h"
+                },
+                {
+                    "@type": "item",
+                    "name": "src/j9Ext.cpp"
+                },
+                {
+                    "@type": "item",
+                    "name": "src/os.h"
+                },
+                {
+                    "@type": "item",
+                    "name": "src/os_macos.cpp"
+                }
+            ]
+        },
+        {
+            "@type": "group",
+            "name": "9",
+            "nested": [
+                {
+                    "@type": "item",
+                    "name": "src/hooks.h"
+                },
+                {
+                    "@type": "item",
+                    "name": "src/hooks.cpp"
+                },
+                {
+                    "@type": "item",
+                    "name": "src/asprof.h"
+                },
+                {
+                    "@type": "item",
+                    "name": "src/asprof.cpp"
+                },
+                {
+                    "@type": "item",
+                    "name": "src/mutex.h"
+                },
+                {
+                    "@type": "item",
+                    "name": "src/mutex.cpp"
+                },
+                {
+                    "@type": "item",
+                    "name": "src/spinLock.h"
+                }
+            ]
+        },
+        {
+            "@type": "group",
+            "name": "10",
+            "nested": [
+                {
+                    "@type": "item",
+                    "name": "src/jattach/psutil.h"
+                },
+                {
+                    "@type": "item",
+                    "name": "src/jattach/psutil.c"
+                },
+                {
+                    "@type": "item",
+                    "name": "src/jattach/jattach_hotspot.c"
+                },
+                {
+                    "@type": "item",
+                    "name": "src/jattach/jattach.c"
+                },
+                {
+                    "@type": "item",
+                    "name": "src/jattach/jattach_openj9.c"
+                }
+            ]
+        },
+        {
+            "@type": "group",
+            "name": "11",
+            "nested": [
+                {
+                    "@type": "item",
+                    "name": "src/launcher/fdtransferServer_linux.cpp"
+                },
+                {
+                    "@type": "item",
+                    "name": "src/launcher/fdtransferServer.h"
+                },
+                {
+                    "@type": "item",
+                    "name": "src/launcher/main.cpp"
+                }
+            ]
+        },
+        {
+            "@type": "group",
+            "name": "12",
+            "nested": [
+                {
+                    "@type": "item",
+                    "name": "src/converter/one/jfr/JfrField.java"
+                },
+                {
+                    "@type": "item",
+                    "name": "src/converter/one/jfr/Element.java"
+                },
+                {
+                    "@type": "item",
+                    "name": "src/converter/one/jfr/JfrClass.java"
+                }
+            ]
+        },
+        {
+            "@type": "group",
+            "name": "13",
+            "nested": [
+                {
+                    "@type": "item",
+                    "name": "src/wallClock.h"
+                },
+                {
+                    "@type": "item",
+                    "name": "src/wallClock.cpp"
+                },
+                {
+                    "@type": "item",
+                    "name": "src/j9WallClock.h"
+                },
+                {
+                    "@type": "item",
+                    "name": "src/j9WallClock.cpp"
+                },
+                {
+                    "@type": "item",
+                    "name": "src/j9StackTraces.h"
+                },
+                {
+                    "@type": "item",
+                    "name": "src/j9StackTraces.cpp"
+                }
+            ]
+        },
+        {
+            "@type": "group",
+            "name": "14",
+            "nested": [
+                {
+                    "@type": "item",
+                    "name": "src/converter/one/jfr/MethodRef.java"
+                },
+                {
+                    "@type": "item",
+                    "name": "src/converter/one/jfr/ClassRef.java"
+                }
+            ]
+        },
+        {
+            "@type": "group",
+            "name": "15",
+            "nested": [
+                {
+                    "@type": "item",
+                    "name": "src/api/one/profiler/AsyncProfiler.java"
+                },
+                {
+                    "@type": "item",
+                    "name": "src/api/one/profiler/AsyncProfilerMXBean.java"
+                }
+            ]
+        },
+        {
+            "@type": "group",
+            "name": "16",
+            "nested": [
+                {
+                    "@type": "item",
+                    "name": "test/AllocatingTarget.java"
+                },
+                {
+                    "@type": "item",
+                    "name": "test/Target.java"
+                }
+            ]
+        },
+        {
+            "@type": "group",
+            "name": "17",
+            "nested": [
+                {
+                    "@type": "item",
+                    "name": "src/stackWalker.h"
+                },
+                {
+                    "@type": "item",
+                    "name": "src/stackWalker.cpp"
+                },
+                {
+                    "@type": "item",
+                    "name": "src/dwarf.h"
+                },
+                {
+                    "@type": "item",
+                    "name": "src/dwarf.cpp"
+                }
+            ]
+        },
+        {
+            "@type": "group",
+            "name": "18",
+            "nested": [
+                {
+                    "@type": "item",
+                    "name": "src/converter/Classifier.java"
+                }
+            ]
+        },
+        {
+            "@type": "group",
+            "name": "19",
+            "nested": [
+                {
+                    "@type": "item",
+                    "name": "src/converter/Arguments.java"
+                }
+            ]
+        },
+        {
+            "@type": "group",
+            "name": "20",
+            "nested": [
+                {
+                    "@type": "item",
+                    "name": "src/converter/Main.java"
+                }
+            ]
+        },
+        {
+            "@type": "group",
+            "name": "21",
+            "nested": [
+                {
+                    "@type": "item",
+                    "name": "src/converter/CollapsedStacks.java"
+                }
+            ]
+        },
+        {
+            "@type": "group",
+            "name": "22",
+            "nested": [
+                {
+                    "@type": "item",
+                    "name": "src/converter/jfr2nflx.java"
+                }
+            ]
+        },
+        {
+            "@type": "group",
+            "name": "23",
+            "nested": [
+                {
+                    "@type": "item",
+                    "name": "src/converter/jfr2flame.java"
+                }
+            ]
+        },
+        {
+            "@type": "group",
+            "name": "24",
+            "nested": [
+                {
+                    "@type": "item",
+                    "name": "src/converter/FlameGraph.java"
+                }
+            ]
+        },
+        {
+            "@type": "group",
+            "name": "25",
+            "nested": [
+                {
+                    "@type": "item",
+                    "name": "src/converter/jfr2pprof.java"
+                }
+            ]
+        },
+        {
+            "@type": "group",
+            "name": "26",
+            "nested": [
+                {
+                    "@type": "item",
+                    "name": "src/converter/one/jfr/JfrReader.java"
+                }
+            ]
+        },
+        {
+            "@type": "group",
+            "name": "27",
+            "nested": [
+                {
+                    "@type": "item",
+                    "name": "src/converter/one/jfr/Dictionary.java"
+                }
+            ]
+        },
+        {
+            "@type": "group",
+            "name": "28",
+            "nested": [
+                {
+                    "@type": "item",
+                    "name": "src/converter/one/jfr/StackTrace.java"
+                }
+            ]
+        },
+        {
+            "@type": "group",
+            "name": "29",
+            "nested": [
+                {
+                    "@type": "item",
+                    "name": "src/converter/one/jfr/event/CPULoad.java"
+                }
+            ]
+        },
+        {
+            "@type": "group",
+            "name": "30",
+            "nested": [
+                {
+                    "@type": "item",
+                    "name": "src/converter/one/jfr/event/GCHeapSummary.java"
+                }
+            ]
+        },
+        {
+            "@type": "group",
+            "name": "31",
+            "nested": [
+                {
+                    "@type": "item",
+                    "name": "src/converter/one/jfr/event/ExecutionSample.java"
+                }
+            ]
+        },
+        {
+            "@type": "group",
+            "name": "32",
+            "nested": [
+                {
+                    "@type": "item",
+                    "name": "src/converter/one/proto/Proto.java"
+                }
+            ]
+        },
+        {
+            "@type": "group",
+            "name": "33",
+            "nested": [
+                {
+                    "@type": "item",
+                    "name": "src/api/one/profiler/Counter.java"
+                }
+            ]
+        },
+        {
+            "@type": "group",
+            "name": "34",
+            "nested": [
+                {
+                    "@type": "item",
+                    "name": "src/api/one/profiler/Events.java"
+                }
+            ]
+        },
+        {
+            "@type": "group",
+            "name": "35",
+            "nested": [
+                {
+                    "@type": "item",
+                    "name": "src/helper/one/profiler/Instrument.java"
+                }
+            ]
+        },
+        {
+            "@type": "group",
+            "name": "36",
+            "nested": [
+                {
+                    "@type": "item",
+                    "name": "src/helper/one/profiler/Server.java"
+                }
+            ]
+        },
+        {
+            "@type": "group",
+            "name": "37",
+            "nested": [
+                {
+                    "@type": "item",
+                    "name": "src/helper/one/profiler/JfrSync.java"
+                }
+            ]
+        },
+        {
+            "@type": "group",
+            "name": "38",
+            "nested": [
+                {
+                    "@type": "item",
+                    "name": "test/ThreadsTarget.java"
+                }
+            ]
+        },
+        {
+            "@type": "group",
+            "name": "39",
+            "nested": [
+                {
+                    "@type": "item",
+                    "name": "test/LoadLibraryTest.java"
+                }
+            ]
+        }
+    ]
+}

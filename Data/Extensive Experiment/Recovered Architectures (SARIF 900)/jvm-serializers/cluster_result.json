@@ -1,0 +1,662 @@
+{
+    "@schemaVersion": "1.0",
+    "name": "clustering",
+    "structure": [
+        {
+            "@type": "group",
+            "name": "0",
+            "nested": [
+                {
+                    "@type": "item",
+                    "name": "tpc/src/serializers/jackson/JacksonSmileManual.java"
+                },
+                {
+                    "@type": "item",
+                    "name": "tpc/src/serializers/kryo/Kryo.java"
+                },
+                {
+                    "@type": "item",
+                    "name": "tpc/src/serializers/SerFeatures.java"
+                },
+                {
+                    "@type": "item",
+                    "name": "tpc/src/serializers/SerFormat.java"
+                },
+                {
+                    "@type": "item",
+                    "name": "tpc/src/serializers/jackson/BaseJacksonDriver.java"
+                },
+                {
+                    "@type": "item",
+                    "name": "tpc/src/serializers/jackson/JacksonXmlDatabind.java"
+                },
+                {
+                    "@type": "item",
+                    "name": "tpc/src/serializers/jackson/JacksonProtobufDatabind.java"
+                },
+                {
+                    "@type": "item",
+                    "name": "tpc/src/serializers/jackson/JacksonAvroDatabind.java"
+                },
+                {
+                    "@type": "item",
+                    "name": "tpc/src/serializers/WriteResultsToJavascript.java"
+                },
+                {
+                    "@type": "item",
+                    "name": "tpc/src/serializers/jackson/AsArrayIntrospector.java"
+                },
+                {
+                    "@type": "item",
+                    "name": "tpc/src/serializers/TestGroups.java"
+                },
+                {
+                    "@type": "item",
+                    "name": "tpc/src/serializers/SerGraph.java"
+                },
+                {
+                    "@type": "item",
+                    "name": "tpc/src/serializers/jackson/JacksonWithColumnsDatabind.java"
+                },
+                {
+                    "@type": "item",
+                    "name": "tpc/src/serializers/jackson/JacksonCBORDatabind.java"
+                },
+                {
+                    "@type": "item",
+                    "name": "tpc/src/serializers/SerClass.java"
+                },
+                {
+                    "@type": "item",
+                    "name": "tpc/src/serializers/jackson/JacksonJrDatabind.java"
+                },
+                {
+                    "@type": "item",
+                    "name": "tpc/src/serializers/jackson/StdJacksonDataBind.java"
+                },
+                {
+                    "@type": "item",
+                    "name": "tpc/src/serializers/StatsCruncher.java"
+                },
+                {
+                    "@type": "item",
+                    "name": "tpc/src/serializers/jackson/JacksonJsonDatabind.java"
+                },
+                {
+                    "@type": "item",
+                    "name": "tpc/src/serializers/jackson/JacksonWithAfterburner.java"
+                },
+                {
+                    "@type": "item",
+                    "name": "tpc/src/serializers/jackson/JacksonSmileDatabind.java"
+                },
+                {
+                    "@type": "item",
+                    "name": "tpc/src/serializers/json/JsonLibJsonDatabind.java"
+                },
+                {
+                    "@type": "item",
+                    "name": "tpc/src/serializers/jackson/BaseJacksonDataBind.java"
+                },
+                {
+                    "@type": "item",
+                    "name": "tpc/src/serializers/BenchmarkExporter.java"
+                }
+            ]
+        },
+        {
+            "@type": "group",
+            "name": "1",
+            "nested": [
+                {
+                    "@type": "item",
+                    "name": "tpc/src/serializers/json/JsonijJpath.java"
+                },
+                {
+                    "@type": "item",
+                    "name": "tpc/src/serializers/msgpack/ImageSizeTemplate.java"
+                },
+                {
+                    "@type": "item",
+                    "name": "tpc/src/serializers/json/JsonDotOrgManualTree.java"
+                },
+                {
+                    "@type": "item",
+                    "name": "tpc/pregen/media.capnp/serializers/capnproto/media/Mediacontent.java"
+                },
+                {
+                    "@type": "item",
+                    "name": "tpc/src/serializers/json/JsonGsonManual.java"
+                },
+                {
+                    "@type": "item",
+                    "name": "tpc/src/serializers/json/JsonijManualTree.java"
+                },
+                {
+                    "@type": "item",
+                    "name": "tpc/src/data/media/Media.java"
+                },
+                {
+                    "@type": "item",
+                    "name": "tpc/src/serializers/JBossMarshalling.java"
+                },
+                {
+                    "@type": "item",
+                    "name": "tpc/src/serializers/datakernel/DataKernelSerializer.java"
+                },
+                {
+                    "@type": "item",
+                    "name": "tpc/src/serializers/json/JsonArgoTree.java"
+                },
+                {
+                    "@type": "item",
+                    "name": "tpc/src/serializers/capnproto/CapNProto.java"
+                },
+                {
+                    "@type": "item",
+                    "name": "tpc/src/serializers/json/JsonGsonTree.java"
+                },
+                {
+                    "@type": "item",
+                    "name": "tpc/src/serializers/msgpack/MediaPlayerTemplate.java"
+                },
+                {
+                    "@type": "item",
+                    "name": "tpc/src/serializers/msgpack/MediaTemplate.java"
+                },
+                {
+                    "@type": "item",
+                    "name": "tpc/src/data/media/Image.java"
+                },
+                {
+                    "@type": "item",
+                    "name": "tpc/src/serializers/JavaManual.java"
+                },
+                {
+                    "@type": "item",
+                    "name": "tpc/src/serializers/flatbuffers/FlatBuffers.java"
+                },
+                {
+                    "@type": "item",
+                    "name": "tpc/src/serializers/json/JsonSimpleManualTree.java"
+                },
+                {
+                    "@type": "item",
+                    "name": "tpc/src/serializers/msgpack/ImageTemplate.java"
+                },
+                {
+                    "@type": "item",
+                    "name": "tpc/src/serializers/json/JsonPathDeserializerOnly.java"
+                },
+                {
+                    "@type": "item",
+                    "name": "tpc/src/serializers/json/JsonSmartManualTree.java"
+                }
+            ]
+        },
+        {
+            "@type": "group",
+            "name": "2",
+            "nested": [
+                {
+                    "@type": "item",
+                    "name": "tpc/src/serializers/json/JsonSvensonDatabind.java"
+                },
+                {
+                    "@type": "item",
+                    "name": "tpc/src/serializers/javaxjson/JavaxJsonStreamGlassfish.java"
+                },
+                {
+                    "@type": "item",
+                    "name": "tpc/src/serializers/avro/Avro.java"
+                },
+                {
+                    "@type": "item",
+                    "name": "tpc/src/serializers/javaxjson/JavaxJsonTree.java"
+                },
+                {
+                    "@type": "item",
+                    "name": "tpc/src/serializers/json/JsonGsonDatabind.java"
+                },
+                {
+                    "@type": "item",
+                    "name": "tpc/src/serializers/MiscFeatures.java"
+                },
+                {
+                    "@type": "item",
+                    "name": "tpc/src/serializers/json/FastJSONDatabind.java"
+                },
+                {
+                    "@type": "item",
+                    "name": "tpc/src/serializers/avro/AvroSpecific.java"
+                },
+                {
+                    "@type": "item",
+                    "name": "tpc/src/serializers/avro/AvroGeneric.java"
+                },
+                {
+                    "@type": "item",
+                    "name": "tpc/src/serializers/javaxjson/JavaxJsonTreeGlassfish.java"
+                },
+                {
+                    "@type": "item",
+                    "name": "tpc/src/serializers/json/JsonTwoLattes.java"
+                },
+                {
+                    "@type": "item",
+                    "name": "tpc/src/serializers/json/FlexjsonDatabind.java"
+                },
+                {
+                    "@type": "item",
+                    "name": "tpc/src/serializers/dsljson/DSLJson.java"
+                },
+                {
+                    "@type": "item",
+                    "name": "tpc/src/serializers/json/FastJSONArrayDatabind.java"
+                }
+            ]
+        },
+        {
+            "@type": "group",
+            "name": "3",
+            "nested": [
+                {
+                    "@type": "item",
+                    "name": "tpc/src/serializers/protostuff/ProtostuffXml.java"
+                },
+                {
+                    "@type": "item",
+                    "name": "tpc/src/serializers/protostuff/ProtostuffJson.java"
+                },
+                {
+                    "@type": "item",
+                    "name": "tpc/src/data/media/MediaContent.java"
+                },
+                {
+                    "@type": "item",
+                    "name": "tpc/src/serializers/xml/BaseStaxMediaSerializer.java"
+                },
+                {
+                    "@type": "item",
+                    "name": "tpc/src/serializers/protostuff/Protostuff.java"
+                },
+                {
+                    "@type": "item",
+                    "name": "tpc/src/serializers/jackson/JacksonJsonTree.java"
+                },
+                {
+                    "@type": "item",
+                    "name": "tpc/src/serializers/JavaBuiltIn.java"
+                },
+                {
+                    "@type": "item",
+                    "name": "tpc/src/serializers/json/JsonSimpleWithContentHandler.java"
+                },
+                {
+                    "@type": "item",
+                    "name": "tpc/src/serializers/protostuff/ProtostuffSmile.java"
+                },
+                {
+                    "@type": "item",
+                    "name": "tpc/src/serializers/msgpack/MediaContentTemplate.java"
+                }
+            ]
+        },
+        {
+            "@type": "group",
+            "name": "4",
+            "nested": [
+                {
+                    "@type": "item",
+                    "name": "tpc/src/serializers/Obser.java"
+                },
+                {
+                    "@type": "item",
+                    "name": "tpc/src/serializers/MongoDB.java"
+                },
+                {
+                    "@type": "item",
+                    "name": "tpc/src/data/media/MediaContentCustom.java"
+                },
+                {
+                    "@type": "item",
+                    "name": "tpc/src/serializers/Hessian.java"
+                },
+                {
+                    "@type": "item",
+                    "name": "tpc/pregen/media.proto/serializers/protobuf/media/MediaContentHolder.java"
+                },
+                {
+                    "@type": "item",
+                    "name": "tpc/src/serializers/protobuf/ProtobufJson.java"
+                },
+                {
+                    "@type": "item",
+                    "name": "tpc/src/serializers/FastSerialization.java"
+                },
+                {
+                    "@type": "item",
+                    "name": "tpc/src/com/google/protobuf/JsonFormat.java"
+                },
+                {
+                    "@type": "item",
+                    "name": "tpc/src/serializers/JBossSerialization.java"
+                }
+            ]
+        },
+        {
+            "@type": "group",
+            "name": "5",
+            "nested": [
+                {
+                    "@type": "item",
+                    "name": "tpc/src/serializers/wobly/compact/WImage.java"
+                },
+                {
+                    "@type": "item",
+                    "name": "tpc/src/serializers/wobly/simple/WMedia.java"
+                },
+                {
+                    "@type": "item",
+                    "name": "tpc/src/serializers/wobly/compact/WMedia.java"
+                },
+                {
+                    "@type": "item",
+                    "name": "tpc/src/serializers/wobly/simple/WoblySimpleUtils.java"
+                },
+                {
+                    "@type": "item",
+                    "name": "tpc/src/serializers/wobly/simple/WMediaContent.java"
+                },
+                {
+                    "@type": "item",
+                    "name": "tpc/src/serializers/wobly/compact/WoblyCompactUtils.java"
+                },
+                {
+                    "@type": "item",
+                    "name": "tpc/src/serializers/wobly/Wobly.java"
+                },
+                {
+                    "@type": "item",
+                    "name": "tpc/src/serializers/wobly/compact/WMediaContent.java"
+                },
+                {
+                    "@type": "item",
+                    "name": "tpc/src/serializers/wobly/simple/WImage.java"
+                }
+            ]
+        },
+        {
+            "@type": "group",
+            "name": "6",
+            "nested": [
+                {
+                    "@type": "item",
+                    "name": "tpc/src/serializers/msgpack/TypeHandler.java"
+                },
+                {
+                    "@type": "item",
+                    "name": "tpc/src/serializers/xml/XmlStax.java"
+                },
+                {
+                    "@type": "item",
+                    "name": "tpc/src/serializers/msgpack/MsgPack.java"
+                },
+                {
+                    "@type": "item",
+                    "name": "tpc/src/serializers/BenchmarkRunner.java"
+                },
+                {
+                    "@type": "item",
+                    "name": "tpc/src/serializers/xml/XmlJavolution.java"
+                },
+                {
+                    "@type": "item",
+                    "name": "tpc/src/serializers/msgpack/MsgPackSerializer.java"
+                },
+                {
+                    "@type": "item",
+                    "name": "tpc/src/serializers/msgpack/MediaContentTypeHandler.java"
+                },
+                {
+                    "@type": "item",
+                    "name": "tpc/src/data/ReprUtil.java"
+                },
+                {
+                    "@type": "item",
+                    "name": "tpc/src/serializers/xml/XmlXStream.java"
+                }
+            ]
+        },
+        {
+            "@type": "group",
+            "name": "7",
+            "nested": [
+                {
+                    "@type": "item",
+                    "name": "tpc/src/serializers/MediaStreamBenchmark.java"
+                },
+                {
+                    "@type": "item",
+                    "name": "tpc/src/serializers/Transformer.java"
+                },
+                {
+                    "@type": "item",
+                    "name": "tpc/src/serializers/TestCase.java"
+                },
+                {
+                    "@type": "item",
+                    "name": "tpc/src/serializers/TestCaseRunner.java"
+                },
+                {
+                    "@type": "item",
+                    "name": "tpc/src/serializers/Serializer.java"
+                },
+                {
+                    "@type": "item",
+                    "name": "tpc/src/serializers/TestGroup.java"
+                },
+                {
+                    "@type": "item",
+                    "name": "tpc/src/serializers/MediaItemBenchmark.java"
+                },
+                {
+                    "@type": "item",
+                    "name": "tpc/src/serializers/BenchmarkBase.java"
+                }
+            ]
+        },
+        {
+            "@type": "group",
+            "name": "8",
+            "nested": [
+                {
+                    "@type": "item",
+                    "name": "tpc/src/serializers/protobuf/ActiveMQProtobuf.java"
+                },
+                {
+                    "@type": "item",
+                    "name": "tpc/src/serializers/javaxjson/JavaxJsonTransformer.java"
+                },
+                {
+                    "@type": "item",
+                    "name": "tpc/src/data/media/MediaTransformer.java"
+                },
+                {
+                    "@type": "item",
+                    "name": "tpc/src/serializers/protobuf/Protobuf.java"
+                },
+                {
+                    "@type": "item",
+                    "name": "tpc/src/serializers/colfer/Colfer.java"
+                },
+                {
+                    "@type": "item",
+                    "name": "tpc/src/serializers/avro/AvroTransformer.java"
+                },
+                {
+                    "@type": "item",
+                    "name": "tpc/src/serializers/Thrift.java"
+                }
+            ]
+        },
+        {
+            "@type": "group",
+            "name": "9",
+            "nested": [
+                {
+                    "@type": "item",
+                    "name": "tpc/src/serializers/java/MediaContent.java"
+                },
+                {
+                    "@type": "item",
+                    "name": "tpc/src/serializers/Stephenerialization.java"
+                },
+                {
+                    "@type": "item",
+                    "name": "tpc/src/serializers/stephenerialization/Media.java"
+                },
+                {
+                    "@type": "item",
+                    "name": "tpc/src/serializers/java/Image.java"
+                },
+                {
+                    "@type": "item",
+                    "name": "tpc/src/serializers/stephenerialization/MediaContent.java"
+                },
+                {
+                    "@type": "item",
+                    "name": "tpc/src/serializers/stephenerialization/Image.java"
+                },
+                {
+                    "@type": "item",
+                    "name": "tpc/src/serializers/java/Media.java"
+                }
+            ]
+        },
+        {
+            "@type": "group",
+            "name": "10",
+            "nested": [
+                {
+                    "@type": "item",
+                    "name": "tpc/src/serializers/jackson/JacksonJsonManual.java"
+                },
+                {
+                    "@type": "item",
+                    "name": "tpc/src/serializers/xml/StaxDeserializer.java"
+                },
+                {
+                    "@type": "item",
+                    "name": "tpc/src/serializers/javaxjson/JavaxJsonStream.java"
+                },
+                {
+                    "@type": "item",
+                    "name": "tpc/src/serializers/xml/ExiExificient.java"
+                },
+                {
+                    "@type": "item",
+                    "name": "tpc/src/serializers/xml/StaxSerializer.java"
+                },
+                {
+                    "@type": "item",
+                    "name": "tpc/src/data/media/FieldMapping.java"
+                }
+            ]
+        },
+        {
+            "@type": "group",
+            "name": "11",
+            "nested": [
+                {
+                    "@type": "item",
+                    "name": "tpc/pregen/media.fbs/serializers/flatbuffers/media/Media.java"
+                },
+                {
+                    "@type": "item",
+                    "name": "tpc/pregen/media.fbs/serializers/flatbuffers/media/Image.java"
+                },
+                {
+                    "@type": "item",
+                    "name": "tpc/pregen/media.fbs/serializers/flatbuffers/media/Size.java"
+                },
+                {
+                    "@type": "item",
+                    "name": "tpc/pregen/media.fbs/serializers/flatbuffers/media/Player.java"
+                },
+                {
+                    "@type": "item",
+                    "name": "tpc/pregen/media.fbs/serializers/flatbuffers/media/MediaContent.java"
+                }
+            ]
+        },
+        {
+            "@type": "group",
+            "name": "12",
+            "nested": [
+                {
+                    "@type": "item",
+                    "name": "tpc/pregen/media.thrift/gen-javabean/serializers/thrift/media/MediaContent.java"
+                },
+                {
+                    "@type": "item",
+                    "name": "tpc/pregen/media.thrift/gen-javabean/serializers/thrift/media/Media.java"
+                },
+                {
+                    "@type": "item",
+                    "name": "tpc/pregen/media.thrift/gen-javabean/serializers/thrift/media/Size.java"
+                },
+                {
+                    "@type": "item",
+                    "name": "tpc/pregen/media.thrift/gen-javabean/serializers/thrift/media/Image.java"
+                },
+                {
+                    "@type": "item",
+                    "name": "tpc/pregen/media.thrift/gen-javabean/serializers/thrift/media/Player.java"
+                }
+            ]
+        },
+        {
+            "@type": "group",
+            "name": "13",
+            "nested": [
+                {
+                    "@type": "item",
+                    "name": "tpc/pregen/media.colf/serializers/colfer/media/Image.java"
+                },
+                {
+                    "@type": "item",
+                    "name": "tpc/pregen/media.colf/serializers/colfer/media/MediaContent.java"
+                },
+                {
+                    "@type": "item",
+                    "name": "tpc/pregen/media.colf/serializers/colfer/media/Media.java"
+                }
+            ]
+        },
+        {
+            "@type": "group",
+            "name": "14",
+            "nested": [
+                {
+                    "@type": "item",
+                    "name": "protowar/src/org/protowar/ProtoWar.java"
+                },
+                {
+                    "@type": "item",
+                    "name": "protowar/src/org/protowar/ProtoServerHandler.java"
+                }
+            ]
+        },
+        {
+            "@type": "group",
+            "name": "15",
+            "nested": [
+                {
+                    "@type": "item",
+                    "name": "tpc/src/serializers/SimpleClassLoader.java"
+                }
+            ]
+        }
+    ]
+}

@@ -1,0 +1,110 @@
+{
+    "@schemaVersion": "1.0",
+    "name": "clustering",
+    "structure": [
+        {
+            "@type": "group",
+            "name": "0",
+            "nested": [
+                {
+                    "@type": "item",
+                    "name": "include/argon2.h"
+                },
+                {
+                    "@type": "item",
+                    "name": "src/argon2.c"
+                },
+                {
+                    "@type": "item",
+                    "name": "src/test.c"
+                },
+                {
+                    "@type": "item",
+                    "name": "src/encoding.h"
+                },
+                {
+                    "@type": "item",
+                    "name": "src/encoding.c"
+                },
+                {
+                    "@type": "item",
+                    "name": "src/genkat.c"
+                }
+            ]
+        },
+        {
+            "@type": "group",
+            "name": "1",
+            "nested": [
+                {
+                    "@type": "item",
+                    "name": "src/blake2/blake2-impl.h"
+                },
+                {
+                    "@type": "item",
+                    "name": "src/core.c"
+                },
+                {
+                    "@type": "item",
+                    "name": "src/genkat.h"
+                },
+                {
+                    "@type": "item",
+                    "name": "src/core.h"
+                },
+                {
+                    "@type": "item",
+                    "name": "src/ref.c"
+                },
+                {
+                    "@type": "item",
+                    "name": "src/opt.c"
+                },
+                {
+                    "@type": "item",
+                    "name": "src/thread.h"
+                },
+                {
+                    "@type": "item",
+                    "name": "src/thread.c"
+                }
+            ]
+        },
+        {
+            "@type": "group",
+            "name": "2",
+            "nested": [
+                {
+                    "@type": "item",
+                    "name": "src/blake2/blake2.h"
+                },
+                {
+                    "@type": "item",
+                    "name": "src/blake2/blake2b.c"
+                },
+                {
+                    "@type": "item",
+                    "name": "src/blake2/blamka-round-opt.h"
+                },
+                {
+                    "@type": "item",
+                    "name": "src/blake2/blamka-round-ref.h"
+                }
+            ]
+        },
+        {
+            "@type": "group",
+            "name": "3",
+            "nested": [
+                {
+                    "@type": "item",
+                    "name": "src/bench.c"
+                },
+                {
+                    "@type": "item",
+                    "name": "src/run.c"
+                }
+            ]
+        }
+    ]
+}

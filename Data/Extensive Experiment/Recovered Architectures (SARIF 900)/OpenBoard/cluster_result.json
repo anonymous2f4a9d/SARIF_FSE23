@@ -1,0 +1,2090 @@
+{
+    "@schemaVersion": "1.0",
+    "name": "clustering",
+    "structure": [
+        {
+            "@type": "group",
+            "name": "0",
+            "nested": [
+                {
+                    "@type": "item",
+                    "name": "src/pdf-merger/Filter.h"
+                },
+                {
+                    "@type": "item",
+                    "name": "src/pdf-merger/Filter.cpp"
+                },
+                {
+                    "@type": "item",
+                    "name": "src/pdf-merger/Merger.h"
+                },
+                {
+                    "@type": "item",
+                    "name": "src/pdf-merger/Merger.cpp"
+                },
+                {
+                    "@type": "item",
+                    "name": "src/pdf-merger/AbstractBoxElementHandler.h"
+                },
+                {
+                    "@type": "item",
+                    "name": "src/pdf-merger/PageElementHandler.h"
+                },
+                {
+                    "@type": "item",
+                    "name": "src/pdf-merger/PageElementHandler.cpp"
+                },
+                {
+                    "@type": "item",
+                    "name": "src/pdf-merger/Rectangle.h"
+                },
+                {
+                    "@type": "item",
+                    "name": "src/pdf-merger/Rectangle.cpp"
+                },
+                {
+                    "@type": "item",
+                    "name": "src/pdf-merger/MediaBoxElementHandler.h"
+                },
+                {
+                    "@type": "item",
+                    "name": "src/pdf-merger/Page.h"
+                },
+                {
+                    "@type": "item",
+                    "name": "src/pdf-merger/Page.cpp"
+                },
+                {
+                    "@type": "item",
+                    "name": "src/pdf-merger/FilterPredictor.h"
+                },
+                {
+                    "@type": "item",
+                    "name": "src/pdf-merger/FilterPredictor.cpp"
+                },
+                {
+                    "@type": "item",
+                    "name": "src/pdf-merger/TypeElementHandler.h"
+                },
+                {
+                    "@type": "item",
+                    "name": "src/pdf-merger/Parser.h"
+                },
+                {
+                    "@type": "item",
+                    "name": "src/pdf-merger/Parser.cpp"
+                },
+                {
+                    "@type": "item",
+                    "name": "src/pdf-merger/Transformation.h"
+                },
+                {
+                    "@type": "item",
+                    "name": "src/pdf-merger/MergePageDescription.h"
+                },
+                {
+                    "@type": "item",
+                    "name": "src/pdf-merger/Config.h"
+                },
+                {
+                    "@type": "item",
+                    "name": "src/pdf-merger/Object.h"
+                },
+                {
+                    "@type": "item",
+                    "name": "src/pdf-merger/Object.cpp"
+                },
+                {
+                    "@type": "item",
+                    "name": "src/pdf-merger/RotationHandler.h"
+                },
+                {
+                    "@type": "item",
+                    "name": "src/pdf-merger/PageParser.h"
+                },
+                {
+                    "@type": "item",
+                    "name": "src/pdf-merger/Utils.h"
+                },
+                {
+                    "@type": "item",
+                    "name": "src/pdf-merger/Utils.cpp"
+                },
+                {
+                    "@type": "item",
+                    "name": "src/pdf-merger/CropBoxElementHandler.h"
+                },
+                {
+                    "@type": "item",
+                    "name": "src/pdf-merger/RemoveHimSelfHandler.h"
+                },
+                {
+                    "@type": "item",
+                    "name": "src/pdf-merger/RemoveHimselfHandler.cpp"
+                },
+                {
+                    "@type": "item",
+                    "name": "src/pdf-merger/FileIsAbsentException.h"
+                },
+                {
+                    "@type": "item",
+                    "name": "src/pdf-merger/OverlayDocumentParser.h"
+                },
+                {
+                    "@type": "item",
+                    "name": "src/pdf-merger/OverlayDocumentParser.cpp"
+                },
+                {
+                    "@type": "item",
+                    "name": "src/pdf-merger/ContentHandler.h"
+                },
+                {
+                    "@type": "item",
+                    "name": "src/pdf-merger/ContentHandler.cpp"
+                },
+                {
+                    "@type": "item",
+                    "name": "src/pdf-merger/AnnotsHandler.h"
+                },
+                {
+                    "@type": "item",
+                    "name": "src/pdf-merger/AnnotsHandler.cpp"
+                },
+                {
+                    "@type": "item",
+                    "name": "src/pdf-merger/Document.h"
+                },
+                {
+                    "@type": "item",
+                    "name": "src/pdf-merger/Document.cpp"
+                },
+                {
+                    "@type": "item",
+                    "name": "src/pdf-merger/Exception.h"
+                }
+            ]
+        },
+        {
+            "@type": "group",
+            "name": "1",
+            "nested": [
+                {
+                    "@type": "item",
+                    "name": "src/domain/UBGraphicsMediaItem.h"
+                },
+                {
+                    "@type": "item",
+                    "name": "src/domain/UBGraphicsMediaItem.cpp"
+                },
+                {
+                    "@type": "item",
+                    "name": "src/domain/UBResizableGraphicsItem.h"
+                },
+                {
+                    "@type": "item",
+                    "name": "src/domain/UBResizableGraphicsItem.cpp"
+                },
+                {
+                    "@type": "item",
+                    "name": "src/domain/UBGraphicsProxyWidget.h"
+                },
+                {
+                    "@type": "item",
+                    "name": "src/domain/UBGraphicsProxyWidget.cpp"
+                },
+                {
+                    "@type": "item",
+                    "name": "src/domain/UBGraphicsGroupContainerItem.h"
+                },
+                {
+                    "@type": "item",
+                    "name": "src/domain/UBGraphicsGroupContainerItem.cpp"
+                },
+                {
+                    "@type": "item",
+                    "name": "src/domain/UBGraphicsMediaItemDelegate.h"
+                },
+                {
+                    "@type": "item",
+                    "name": "src/domain/UBGraphicsMediaItemDelegate.cpp"
+                },
+                {
+                    "@type": "item",
+                    "name": "src/domain/UBGraphicsWidgetItem.h"
+                },
+                {
+                    "@type": "item",
+                    "name": "src/domain/UBGraphicsWidgetItem.cpp"
+                },
+                {
+                    "@type": "item",
+                    "name": "src/domain/UBGraphicsItemDelegate.h"
+                },
+                {
+                    "@type": "item",
+                    "name": "src/domain/UBGraphicsItemDelegate.cpp"
+                },
+                {
+                    "@type": "item",
+                    "name": "src/domain/UBGraphicsStroke.h"
+                },
+                {
+                    "@type": "item",
+                    "name": "src/domain/UBGraphicsStroke.cpp"
+                },
+                {
+                    "@type": "item",
+                    "name": "src/domain/UBGraphicsTextItem.h"
+                },
+                {
+                    "@type": "item",
+                    "name": "src/domain/UBGraphicsTextItem.cpp"
+                },
+                {
+                    "@type": "item",
+                    "name": "src/domain/UBGraphicsPDFItem.h"
+                },
+                {
+                    "@type": "item",
+                    "name": "src/domain/UBGraphicsPDFItem.cpp"
+                },
+                {
+                    "@type": "item",
+                    "name": "src/domain/UBGraphicsWidgetItemDelegate.h"
+                },
+                {
+                    "@type": "item",
+                    "name": "src/domain/UBGraphicsWidgetItemDelegate.cpp"
+                },
+                {
+                    "@type": "item",
+                    "name": "src/domain/UBGraphicsScene.h"
+                },
+                {
+                    "@type": "item",
+                    "name": "src/domain/UBGraphicsScene.cpp"
+                },
+                {
+                    "@type": "item",
+                    "name": "src/domain/UBSelectionFrame.h"
+                },
+                {
+                    "@type": "item",
+                    "name": "src/domain/UBSelectionFrame.cpp"
+                },
+                {
+                    "@type": "item",
+                    "name": "src/domain/UBGraphicsSvgItem.h"
+                },
+                {
+                    "@type": "item",
+                    "name": "src/domain/UBGraphicsSvgItem.cpp"
+                },
+                {
+                    "@type": "item",
+                    "name": "src/domain/UBGraphicsPixmapItem.h"
+                },
+                {
+                    "@type": "item",
+                    "name": "src/domain/UBGraphicsPixmapItem.cpp"
+                },
+                {
+                    "@type": "item",
+                    "name": "src/domain/UBGraphicsTextItemDelegate.h"
+                },
+                {
+                    "@type": "item",
+                    "name": "src/domain/UBGraphicsTextItemDelegate.cpp"
+                },
+                {
+                    "@type": "item",
+                    "name": "src/domain/UBGraphicsStrokesGroup.h"
+                },
+                {
+                    "@type": "item",
+                    "name": "src/domain/UBGraphicsStrokesGroup.cpp"
+                },
+                {
+                    "@type": "item",
+                    "name": "src/domain/UBGraphicsGroupContainerItemDelegate.h"
+                },
+                {
+                    "@type": "item",
+                    "name": "src/domain/UBGraphicsGroupContainerItemDelegate.cpp"
+                },
+                {
+                    "@type": "item",
+                    "name": "src/domain/UBItem.h"
+                },
+                {
+                    "@type": "item",
+                    "name": "src/domain/UBItem.cpp"
+                },
+                {
+                    "@type": "item",
+                    "name": "src/domain/UBGraphicsDelegateFrame.h"
+                },
+                {
+                    "@type": "item",
+                    "name": "src/domain/UBGraphicsDelegateFrame.cpp"
+                },
+                {
+                    "@type": "item",
+                    "name": "src/domain/UBGraphicsPolygonItem.h"
+                },
+                {
+                    "@type": "item",
+                    "name": "src/domain/UBGraphicsPolygonItem.cpp"
+                }
+            ]
+        },
+        {
+            "@type": "group",
+            "name": "2",
+            "nested": [
+                {
+                    "@type": "item",
+                    "name": "src/gui/UBFavoriteToolPalette.h"
+                },
+                {
+                    "@type": "item",
+                    "name": "src/gui/UBFavoriteToolPalette.cpp"
+                },
+                {
+                    "@type": "item",
+                    "name": "src/gui/UBFeaturesWidget.h"
+                },
+                {
+                    "@type": "item",
+                    "name": "src/gui/UBFeaturesWidget.cpp"
+                },
+                {
+                    "@type": "item",
+                    "name": "src/gui/UBBackgroundPalette.h"
+                },
+                {
+                    "@type": "item",
+                    "name": "src/gui/UBBackgroundPalette.cpp"
+                },
+                {
+                    "@type": "item",
+                    "name": "src/gui/UBRubberBand.h"
+                },
+                {
+                    "@type": "item",
+                    "name": "src/gui/UBRubberBand.cpp"
+                },
+                {
+                    "@type": "item",
+                    "name": "src/gui/UBBlackoutWidget.h"
+                },
+                {
+                    "@type": "item",
+                    "name": "src/gui/UBBlackoutWidget.cpp"
+                },
+                {
+                    "@type": "item",
+                    "name": "src/gui/UBWebToolsPalette.h"
+                },
+                {
+                    "@type": "item",
+                    "name": "src/gui/UBWebToolsPalette.cpp"
+                },
+                {
+                    "@type": "item",
+                    "name": "src/gui/UBUpdateDlg.h"
+                },
+                {
+                    "@type": "item",
+                    "name": "src/gui/UBUpdateDlg.cpp"
+                },
+                {
+                    "@type": "item",
+                    "name": "src/gui/UBToolbarButtonGroup.h"
+                },
+                {
+                    "@type": "item",
+                    "name": "src/gui/UBToolbarButtonGroup.cpp"
+                },
+                {
+                    "@type": "item",
+                    "name": "src/gui/UBKeyboardPalette.h"
+                },
+                {
+                    "@type": "item",
+                    "name": "src/gui/UBKeyboardPalette_win.cpp"
+                },
+                {
+                    "@type": "item",
+                    "name": "src/gui/UBKeyboardPalette.cpp"
+                },
+                {
+                    "@type": "item",
+                    "name": "src/gui/UBKeyboardPalette_linux.cpp"
+                },
+                {
+                    "@type": "item",
+                    "name": "src/gui/UBIconButton.h"
+                },
+                {
+                    "@type": "item",
+                    "name": "src/gui/UBIconButton.cpp"
+                },
+                {
+                    "@type": "item",
+                    "name": "src/gui/UBStylusPalette.h"
+                },
+                {
+                    "@type": "item",
+                    "name": "src/gui/UBStylusPalette.cpp"
+                },
+                {
+                    "@type": "item",
+                    "name": "src/gui/UBActionPalette.h"
+                },
+                {
+                    "@type": "item",
+                    "name": "src/gui/UBActionPalette.cpp"
+                },
+                {
+                    "@type": "item",
+                    "name": "src/gui/UBDocumentToolsPalette.h"
+                },
+                {
+                    "@type": "item",
+                    "name": "src/gui/UBDocumentToolsPalette.cpp"
+                },
+                {
+                    "@type": "item",
+                    "name": "src/gui/UBPropertyPalette.h"
+                },
+                {
+                    "@type": "item",
+                    "name": "src/gui/UBPropertyPalette.cpp"
+                },
+                {
+                    "@type": "item",
+                    "name": "src/gui/UBZoomPalette.h"
+                },
+                {
+                    "@type": "item",
+                    "name": "src/gui/UBZoomPalette.cpp"
+                },
+                {
+                    "@type": "item",
+                    "name": "src/gui/UBFeaturesActionBar.h"
+                },
+                {
+                    "@type": "item",
+                    "name": "src/gui/UBFeaturesActionBar.cpp"
+                },
+                {
+                    "@type": "item",
+                    "name": "src/gui/UBStartupHintsPalette.h"
+                },
+                {
+                    "@type": "item",
+                    "name": "src/gui/UBStartupHintsPalette.cpp"
+                },
+                {
+                    "@type": "item",
+                    "name": "src/gui/UBResources.h"
+                },
+                {
+                    "@type": "item",
+                    "name": "src/gui/UBResources.cpp"
+                },
+                {
+                    "@type": "item",
+                    "name": "src/gui/UBMainWindow.h"
+                },
+                {
+                    "@type": "item",
+                    "name": "src/gui/UBMainWindow.cpp"
+                }
+            ]
+        },
+        {
+            "@type": "group",
+            "name": "3",
+            "nested": [
+                {
+                    "@type": "item",
+                    "name": "src/core/UBDisplayManager.h"
+                },
+                {
+                    "@type": "item",
+                    "name": "src/core/UBDisplayManager.cpp"
+                },
+                {
+                    "@type": "item",
+                    "name": "src/core/UBOpenSankoreImporter.h"
+                },
+                {
+                    "@type": "item",
+                    "name": "src/core/UBOpenSankoreImporter.cpp"
+                },
+                {
+                    "@type": "item",
+                    "name": "src/core/UBDownloadThread.h"
+                },
+                {
+                    "@type": "item",
+                    "name": "src/core/UBDownloadThread.cpp"
+                },
+                {
+                    "@type": "item",
+                    "name": "src/core/UBSceneCache.h"
+                },
+                {
+                    "@type": "item",
+                    "name": "src/core/UBSceneCache.cpp"
+                },
+                {
+                    "@type": "item",
+                    "name": "src/core/UBSettings.h"
+                },
+                {
+                    "@type": "item",
+                    "name": "src/core/UBSettings.cpp"
+                },
+                {
+                    "@type": "item",
+                    "name": "src/core/UBForeignObjectsHandler.h"
+                },
+                {
+                    "@type": "item",
+                    "name": "src/core/UBForeignObjectsHandler.cpp"
+                },
+                {
+                    "@type": "item",
+                    "name": "src/core/UB.h"
+                },
+                {
+                    "@type": "item",
+                    "name": "src/core/UBIdleTimer.h"
+                },
+                {
+                    "@type": "item",
+                    "name": "src/core/UBIdleTimer.cpp"
+                },
+                {
+                    "@type": "item",
+                    "name": "src/core/UBSetting.h"
+                },
+                {
+                    "@type": "item",
+                    "name": "src/core/UBSetting.cpp"
+                },
+                {
+                    "@type": "item",
+                    "name": "src/core/memcheck.h"
+                },
+                {
+                    "@type": "item",
+                    "name": "src/core/main.cpp"
+                },
+                {
+                    "@type": "item",
+                    "name": "src/core/UBApplication.h"
+                },
+                {
+                    "@type": "item",
+                    "name": "src/core/UBApplication.cpp"
+                },
+                {
+                    "@type": "item",
+                    "name": "src/core/UBPersistenceManager.h"
+                },
+                {
+                    "@type": "item",
+                    "name": "src/core/UBPersistenceManager.cpp"
+                },
+                {
+                    "@type": "item",
+                    "name": "src/core/UBApplicationController.h"
+                },
+                {
+                    "@type": "item",
+                    "name": "src/core/UBApplicationController.cpp"
+                },
+                {
+                    "@type": "item",
+                    "name": "src/core/UBMimeData.h"
+                },
+                {
+                    "@type": "item",
+                    "name": "src/core/UBMimeData.cpp"
+                },
+                {
+                    "@type": "item",
+                    "name": "src/core/UBDownloadManager.h"
+                },
+                {
+                    "@type": "item",
+                    "name": "src/core/UBDownloadManager.cpp"
+                },
+                {
+                    "@type": "item",
+                    "name": "src/core/UBDocumentManager.h"
+                },
+                {
+                    "@type": "item",
+                    "name": "src/core/UBDocumentManager.cpp"
+                },
+                {
+                    "@type": "item",
+                    "name": "src/core/UBPreferencesController.h"
+                },
+                {
+                    "@type": "item",
+                    "name": "src/core/UBPreferencesController.cpp"
+                }
+            ]
+        },
+        {
+            "@type": "group",
+            "name": "4",
+            "nested": [
+                {
+                    "@type": "item",
+                    "name": "src/gui/UBDockPalette.h"
+                },
+                {
+                    "@type": "item",
+                    "name": "src/gui/UBDockPalette.cpp"
+                },
+                {
+                    "@type": "item",
+                    "name": "src/gui/UBMessageWindow.h"
+                },
+                {
+                    "@type": "item",
+                    "name": "src/gui/UBMessageWindow.cpp"
+                },
+                {
+                    "@type": "item",
+                    "name": "src/gui/UBRightPalette.h"
+                },
+                {
+                    "@type": "item",
+                    "name": "src/gui/UBRightPalette.cpp"
+                },
+                {
+                    "@type": "item",
+                    "name": "src/gui/UBDockPaletteWidget.h"
+                },
+                {
+                    "@type": "item",
+                    "name": "src/gui/UBDockPaletteWidget.cpp"
+                },
+                {
+                    "@type": "item",
+                    "name": "src/gui/UBDownloadWidget.h"
+                },
+                {
+                    "@type": "item",
+                    "name": "src/gui/UBDownloadWidget.cpp"
+                },
+                {
+                    "@type": "item",
+                    "name": "src/gui/UBCircleFrame.h"
+                },
+                {
+                    "@type": "item",
+                    "name": "src/gui/UBCircleFrame.cpp"
+                },
+                {
+                    "@type": "item",
+                    "name": "src/gui/UBWidgetMirror.h"
+                },
+                {
+                    "@type": "item",
+                    "name": "src/gui/UBWidgetMirror.cpp"
+                },
+                {
+                    "@type": "item",
+                    "name": "src/gui/UBLeftPalette.h"
+                },
+                {
+                    "@type": "item",
+                    "name": "src/gui/UBLeftPalette.cpp"
+                },
+                {
+                    "@type": "item",
+                    "name": "src/gui/UBClockPalette.h"
+                },
+                {
+                    "@type": "item",
+                    "name": "src/gui/UBFloatingPalette.h"
+                },
+                {
+                    "@type": "item",
+                    "name": "src/gui/UBFloatingPalette.cpp"
+                },
+                {
+                    "@type": "item",
+                    "name": "src/gui/UBSpinningWheel.h"
+                },
+                {
+                    "@type": "item",
+                    "name": "src/gui/UBSpinningWheel.cpp"
+                },
+                {
+                    "@type": "item",
+                    "name": "src/gui/UBCachePropertiesWidget.h"
+                },
+                {
+                    "@type": "item",
+                    "name": "src/gui/UBCachePropertiesWidget.cpp"
+                },
+                {
+                    "@type": "item",
+                    "name": "src/gui/UBPageNavigationWidget.h"
+                },
+                {
+                    "@type": "item",
+                    "name": "src/gui/UBPageNavigationWidget.cpp"
+                },
+                {
+                    "@type": "item",
+                    "name": "src/gui/UBMessagesDialog.h"
+                },
+                {
+                    "@type": "item",
+                    "name": "src/gui/UBMessagesDialog.cpp"
+                },
+                {
+                    "@type": "item",
+                    "name": "src/gui/UBOpenSankoreImporterWidget.h"
+                },
+                {
+                    "@type": "item",
+                    "name": "src/gui/UBOpenSankoreImporterWidget.cpp"
+                },
+                {
+                    "@type": "item",
+                    "name": "src/gui/UBScreenMirror.h"
+                },
+                {
+                    "@type": "item",
+                    "name": "src/gui/UBScreenMirror.cpp"
+                },
+                {
+                    "@type": "item",
+                    "name": "src/gui/UBDockDownloadWidget.h"
+                },
+                {
+                    "@type": "item",
+                    "name": "src/gui/UBDockDownloadWidget.cpp"
+                },
+                {
+                    "@type": "item",
+                    "name": "src/gui/UBColorPicker.h"
+                },
+                {
+                    "@type": "item",
+                    "name": "src/gui/UBColorPicker.cpp"
+                }
+            ]
+        },
+        {
+            "@type": "group",
+            "name": "5",
+            "nested": [
+                {
+                    "@type": "item",
+                    "name": "src/podcast/windowsmedia/UBWindowsMediaFile.h"
+                },
+                {
+                    "@type": "item",
+                    "name": "src/podcast/windowsmedia/UBWindowsMediaFile.cpp"
+                },
+                {
+                    "@type": "item",
+                    "name": "src/podcast/UBPodcastRecordingPalette.h"
+                },
+                {
+                    "@type": "item",
+                    "name": "src/podcast/UBPodcastRecordingPalette.cpp"
+                },
+                {
+                    "@type": "item",
+                    "name": "src/podcast/intranet/UBIntranetPodcastPublisher.h"
+                },
+                {
+                    "@type": "item",
+                    "name": "src/podcast/intranet/UBIntranetPodcastPublisher.cpp"
+                },
+                {
+                    "@type": "item",
+                    "name": "src/podcast/UBAbstractVideoEncoder.h"
+                },
+                {
+                    "@type": "item",
+                    "name": "src/podcast/UBAbstractVideoEncoder.cpp"
+                },
+                {
+                    "@type": "item",
+                    "name": "src/podcast/windowsmedia/UBWaveRecorder.h"
+                },
+                {
+                    "@type": "item",
+                    "name": "src/podcast/windowsmedia/UBWaveRecorder.cpp"
+                },
+                {
+                    "@type": "item",
+                    "name": "src/podcast/quicktime/UBAudioQueueRecorder.h"
+                },
+                {
+                    "@type": "item",
+                    "name": "src/podcast/quicktime/UBAudioQueueRecorder.cpp"
+                },
+                {
+                    "@type": "item",
+                    "name": "src/podcast/quicktime/UBQuickTimeFile.h"
+                },
+                {
+                    "@type": "item",
+                    "name": "src/podcast/ffmpeg/UBFFmpegVideoEncoder.h"
+                },
+                {
+                    "@type": "item",
+                    "name": "src/podcast/ffmpeg/UBFFmpegVideoEncoder.cpp"
+                },
+                {
+                    "@type": "item",
+                    "name": "src/podcast/quicktime/UBQuickTimeVideoEncoder.h"
+                },
+                {
+                    "@type": "item",
+                    "name": "src/podcast/quicktime/UBQuickTimeVideoEncoder.cpp"
+                },
+                {
+                    "@type": "item",
+                    "name": "src/podcast/UBPodcastController.h"
+                },
+                {
+                    "@type": "item",
+                    "name": "src/podcast/UBPodcastController.cpp"
+                },
+                {
+                    "@type": "item",
+                    "name": "src/podcast/ffmpeg/UBMicrophoneInput.h"
+                },
+                {
+                    "@type": "item",
+                    "name": "src/podcast/ffmpeg/UBMicrophoneInput.cpp"
+                },
+                {
+                    "@type": "item",
+                    "name": "src/podcast/youtube/UBYouTubePublisher.h"
+                },
+                {
+                    "@type": "item",
+                    "name": "src/podcast/youtube/UBYouTubePublisher.cpp"
+                },
+                {
+                    "@type": "item",
+                    "name": "src/podcast/windowsmedia/UBWindowsMediaVideoEncoder.h"
+                },
+                {
+                    "@type": "item",
+                    "name": "src/podcast/windowsmedia/UBWindowsMediaVideoEncoder.cpp"
+                }
+            ]
+        },
+        {
+            "@type": "group",
+            "name": "6",
+            "nested": [
+                {
+                    "@type": "item",
+                    "name": "src/web/browser/WBModelMenu.h"
+                },
+                {
+                    "@type": "item",
+                    "name": "src/web/browser/WBModelMenu.cpp"
+                },
+                {
+                    "@type": "item",
+                    "name": "src/web/browser/WBTabWidget.h"
+                },
+                {
+                    "@type": "item",
+                    "name": "src/web/browser/WBTabWidget.cpp"
+                },
+                {
+                    "@type": "item",
+                    "name": "src/web/browser/WBWebView.h"
+                },
+                {
+                    "@type": "item",
+                    "name": "src/web/browser/WBWebView.cpp"
+                },
+                {
+                    "@type": "item",
+                    "name": "src/web/browser/WBSearchLineEdit.h"
+                },
+                {
+                    "@type": "item",
+                    "name": "src/web/browser/WBSearchLineEdit.cpp"
+                },
+                {
+                    "@type": "item",
+                    "name": "src/web/browser/WBWebTrapWebView.h"
+                },
+                {
+                    "@type": "item",
+                    "name": "src/web/browser/WBWebTrapWebView.cpp"
+                },
+                {
+                    "@type": "item",
+                    "name": "src/web/browser/WBBrowserWindow.h"
+                },
+                {
+                    "@type": "item",
+                    "name": "src/web/browser/WBBrowserWindow.cpp"
+                },
+                {
+                    "@type": "item",
+                    "name": "src/web/browser/WBHistory.h"
+                },
+                {
+                    "@type": "item",
+                    "name": "src/web/browser/WBHistory.cpp"
+                },
+                {
+                    "@type": "item",
+                    "name": "src/web/browser/WBToolBarSearch.h"
+                },
+                {
+                    "@type": "item",
+                    "name": "src/web/browser/WBToolBarSearch.cpp"
+                },
+                {
+                    "@type": "item",
+                    "name": "src/web/browser/WBEditTableView.h"
+                },
+                {
+                    "@type": "item",
+                    "name": "src/web/browser/WBEditTableView.cpp"
+                },
+                {
+                    "@type": "item",
+                    "name": "src/web/browser/WBDownloadManager.h"
+                },
+                {
+                    "@type": "item",
+                    "name": "src/web/browser/WBDownloadManager.cpp"
+                },
+                {
+                    "@type": "item",
+                    "name": "src/web/browser/WBUrlLineEdit.h"
+                },
+                {
+                    "@type": "item",
+                    "name": "src/web/browser/WBUrlLineEdit.cpp"
+                }
+            ]
+        },
+        {
+            "@type": "group",
+            "name": "7",
+            "nested": [
+                {
+                    "@type": "item",
+                    "name": "src/pdf-merger/ASCIIHexDecode.h"
+                },
+                {
+                    "@type": "item",
+                    "name": "src/pdf-merger/ASCIIHexDecode.cpp"
+                },
+                {
+                    "@type": "item",
+                    "name": "src/pdf-merger/Decoder.h"
+                },
+                {
+                    "@type": "item",
+                    "name": "src/pdf-merger/FlateDecode.h"
+                },
+                {
+                    "@type": "item",
+                    "name": "src/pdf-merger/FlateDecode.cpp"
+                },
+                {
+                    "@type": "item",
+                    "name": "src/pdf-merger/JBIG2Decode.h"
+                },
+                {
+                    "@type": "item",
+                    "name": "src/pdf-merger/JBIG2Decode.cpp"
+                },
+                {
+                    "@type": "item",
+                    "name": "src/pdf-merger/CCITTFaxDecode.h"
+                },
+                {
+                    "@type": "item",
+                    "name": "src/pdf-merger/CCITTFaxDecode.cpp"
+                },
+                {
+                    "@type": "item",
+                    "name": "src/pdf-merger/DCTDecode.h"
+                },
+                {
+                    "@type": "item",
+                    "name": "src/pdf-merger/DCTDecode.cpp"
+                },
+                {
+                    "@type": "item",
+                    "name": "src/pdf-merger/LZWDecode.h"
+                },
+                {
+                    "@type": "item",
+                    "name": "src/pdf-merger/LZWDecode.cpp"
+                },
+                {
+                    "@type": "item",
+                    "name": "src/pdf-merger/ASCII85Decode.h"
+                },
+                {
+                    "@type": "item",
+                    "name": "src/pdf-merger/ASCII85Decode.cpp"
+                },
+                {
+                    "@type": "item",
+                    "name": "src/pdf-merger/RunLengthDecode.h"
+                },
+                {
+                    "@type": "item",
+                    "name": "src/pdf-merger/RunLengthDecode.cpp"
+                }
+            ]
+        },
+        {
+            "@type": "group",
+            "name": "8",
+            "nested": [
+                {
+                    "@type": "item",
+                    "name": "src/gui/UBThumbnailWidget.h"
+                },
+                {
+                    "@type": "item",
+                    "name": "src/gui/UBThumbnailWidget.cpp"
+                },
+                {
+                    "@type": "item",
+                    "name": "src/gui/UBMousePressFilter.h"
+                },
+                {
+                    "@type": "item",
+                    "name": "src/gui/UBMousePressFilter.cpp"
+                },
+                {
+                    "@type": "item",
+                    "name": "src/gui/UBBoardThumbnailsView.h"
+                },
+                {
+                    "@type": "item",
+                    "name": "src/gui/UBBoardThumbnailsView.cpp"
+                },
+                {
+                    "@type": "item",
+                    "name": "src/gui/UBThumbnailView.h"
+                },
+                {
+                    "@type": "item",
+                    "name": "src/gui/UBThumbnailView.cpp"
+                },
+                {
+                    "@type": "item",
+                    "name": "src/gui/UBDocumentThumbnailWidget.h"
+                },
+                {
+                    "@type": "item",
+                    "name": "src/gui/UBDocumentThumbnailWidget.cpp"
+                },
+                {
+                    "@type": "item",
+                    "name": "src/gui/UBToolWidget.h"
+                },
+                {
+                    "@type": "item",
+                    "name": "src/gui/UBToolWidget.cpp"
+                },
+                {
+                    "@type": "item",
+                    "name": "src/gui/UBDocumentNavigator.h"
+                },
+                {
+                    "@type": "item",
+                    "name": "src/gui/UBDocumentNavigator.cpp"
+                }
+            ]
+        },
+        {
+            "@type": "group",
+            "name": "9",
+            "nested": [
+                {
+                    "@type": "item",
+                    "name": "src/adaptors/UBExportCFF.h"
+                },
+                {
+                    "@type": "item",
+                    "name": "src/adaptors/UBExportCFF.cpp"
+                },
+                {
+                    "@type": "item",
+                    "name": "src/adaptors/UBExportWeb.h"
+                },
+                {
+                    "@type": "item",
+                    "name": "src/adaptors/UBExportWeb.cpp"
+                },
+                {
+                    "@type": "item",
+                    "name": "src/adaptors/UBExportAdaptor.h"
+                },
+                {
+                    "@type": "item",
+                    "name": "src/adaptors/UBExportAdaptor.cpp"
+                },
+                {
+                    "@type": "item",
+                    "name": "src/adaptors/UBExportPDF.h"
+                },
+                {
+                    "@type": "item",
+                    "name": "src/adaptors/UBExportPDF.cpp"
+                },
+                {
+                    "@type": "item",
+                    "name": "src/adaptors/UBExportFullPDF.h"
+                },
+                {
+                    "@type": "item",
+                    "name": "src/adaptors/UBExportFullPDF.cpp"
+                },
+                {
+                    "@type": "item",
+                    "name": "src/adaptors/UBExportDocument.h"
+                },
+                {
+                    "@type": "item",
+                    "name": "src/adaptors/UBExportDocument.cpp"
+                },
+                {
+                    "@type": "item",
+                    "name": "src/adaptors/UBExportDocumentSetAdaptor.h"
+                },
+                {
+                    "@type": "item",
+                    "name": "src/adaptors/UBExportDocumentSetAdaptor.cpp"
+                }
+            ]
+        },
+        {
+            "@type": "group",
+            "name": "10",
+            "nested": [
+                {
+                    "@type": "item",
+                    "name": "src/domain/UBGraphicsTextItemUndoCommand.h"
+                },
+                {
+                    "@type": "item",
+                    "name": "src/domain/UBGraphicsTextItemUndoCommand.cpp"
+                },
+                {
+                    "@type": "item",
+                    "name": "src/domain/UBGraphicsItemGroupUndoCommand.h"
+                },
+                {
+                    "@type": "item",
+                    "name": "src/domain/UBGraphicsItemGroupUndoCommand.cpp"
+                },
+                {
+                    "@type": "item",
+                    "name": "src/domain/UBPageSizeUndoCommand.h"
+                },
+                {
+                    "@type": "item",
+                    "name": "src/domain/UBPageSizeUndoCommand.cpp"
+                },
+                {
+                    "@type": "item",
+                    "name": "src/domain/UBGraphicsItemUndoCommand.h"
+                },
+                {
+                    "@type": "item",
+                    "name": "src/domain/UBGraphicsItemUndoCommand.cpp"
+                },
+                {
+                    "@type": "item",
+                    "name": "src/domain/UBUndoCommand.h"
+                },
+                {
+                    "@type": "item",
+                    "name": "src/domain/UBUndoCommand.cpp"
+                },
+                {
+                    "@type": "item",
+                    "name": "src/domain/UBGraphicsItemZLevelUndoCommand.h"
+                },
+                {
+                    "@type": "item",
+                    "name": "src/domain/UBGraphicsItemZLevelUndoCommand.cpp"
+                },
+                {
+                    "@type": "item",
+                    "name": "src/domain/UBGraphicsItemTransformUndoCommand.h"
+                },
+                {
+                    "@type": "item",
+                    "name": "src/domain/UBGraphicsItemTransformUndoCommand.cpp"
+                }
+            ]
+        },
+        {
+            "@type": "group",
+            "name": "11",
+            "nested": [
+                {
+                    "@type": "item",
+                    "name": "src/desktop/UBDesktopPalette.h"
+                },
+                {
+                    "@type": "item",
+                    "name": "src/desktop/UBDesktopPalette.cpp"
+                },
+                {
+                    "@type": "item",
+                    "name": "src/desktop/UBCustomCaptureWindow.h"
+                },
+                {
+                    "@type": "item",
+                    "name": "src/desktop/UBCustomCaptureWindow.cpp"
+                },
+                {
+                    "@type": "item",
+                    "name": "src/desktop/UBWindowCapture.h"
+                },
+                {
+                    "@type": "item",
+                    "name": "src/desktop/UBWindowCapture_win.cpp"
+                },
+                {
+                    "@type": "item",
+                    "name": "src/desktop/UBWindowCapture_linux.cpp"
+                },
+                {
+                    "@type": "item",
+                    "name": "src/desktop/UBDesktopAnnotationController.h"
+                },
+                {
+                    "@type": "item",
+                    "name": "src/desktop/UBDesktopAnnotationController.cpp"
+                },
+                {
+                    "@type": "item",
+                    "name": "src/desktop/UBWindowCaptureDelegate_win.h"
+                },
+                {
+                    "@type": "item",
+                    "name": "src/desktop/UBWindowCaptureDelegate_win.cpp"
+                },
+                {
+                    "@type": "item",
+                    "name": "src/desktop/UBDesktopPropertyPalette.h"
+                },
+                {
+                    "@type": "item",
+                    "name": "src/desktop/UBDesktopPropertyPalette.cpp"
+                }
+            ]
+        },
+        {
+            "@type": "group",
+            "name": "12",
+            "nested": [
+                {
+                    "@type": "item",
+                    "name": "src/network/UBHttpGet.h"
+                },
+                {
+                    "@type": "item",
+                    "name": "src/network/UBHttpGet.cpp"
+                },
+                {
+                    "@type": "item",
+                    "name": "src/network/UBCookieJar.h"
+                },
+                {
+                    "@type": "item",
+                    "name": "src/network/UBCookieJar.cpp"
+                },
+                {
+                    "@type": "item",
+                    "name": "src/network/UBAutoSaver.h"
+                },
+                {
+                    "@type": "item",
+                    "name": "src/network/UBAutoSaver.cpp"
+                },
+                {
+                    "@type": "item",
+                    "name": "src/network/UBNetworkAccessManager.h"
+                },
+                {
+                    "@type": "item",
+                    "name": "src/network/UBNetworkAccessManager.cpp"
+                },
+                {
+                    "@type": "item",
+                    "name": "src/network/UBHttpFileDownloader.h"
+                },
+                {
+                    "@type": "item",
+                    "name": "src/network/UBHttpFileDownloader.cpp"
+                },
+                {
+                    "@type": "item",
+                    "name": "src/network/UBServerXMLHttpRequest.h"
+                },
+                {
+                    "@type": "item",
+                    "name": "src/network/UBServerXMLHttpRequest.cpp"
+                }
+            ]
+        },
+        {
+            "@type": "group",
+            "name": "13",
+            "nested": [
+                {
+                    "@type": "item",
+                    "name": "src/adaptors/UBImportImage.h"
+                },
+                {
+                    "@type": "item",
+                    "name": "src/adaptors/UBImportImage.cpp"
+                },
+                {
+                    "@type": "item",
+                    "name": "src/adaptors/UBImportCFF.h"
+                },
+                {
+                    "@type": "item",
+                    "name": "src/adaptors/UBImportCFF.cpp"
+                },
+                {
+                    "@type": "item",
+                    "name": "src/adaptors/UBImportDocumentSetAdaptor.h"
+                },
+                {
+                    "@type": "item",
+                    "name": "src/adaptors/UBImportDocumentSetAdaptor.cpp"
+                },
+                {
+                    "@type": "item",
+                    "name": "src/adaptors/UBImportDocument.h"
+                },
+                {
+                    "@type": "item",
+                    "name": "src/adaptors/UBImportDocument.cpp"
+                },
+                {
+                    "@type": "item",
+                    "name": "src/adaptors/UBImportPDF.h"
+                },
+                {
+                    "@type": "item",
+                    "name": "src/adaptors/UBImportPDF.cpp"
+                },
+                {
+                    "@type": "item",
+                    "name": "src/adaptors/UBImportAdaptor.h"
+                },
+                {
+                    "@type": "item",
+                    "name": "src/adaptors/UBImportAdaptor.cpp"
+                }
+            ]
+        },
+        {
+            "@type": "group",
+            "name": "14",
+            "nested": [
+                {
+                    "@type": "item",
+                    "name": "src/tools/UBGraphicsTriangle.h"
+                },
+                {
+                    "@type": "item",
+                    "name": "src/tools/UBGraphicsTriangle.cpp"
+                },
+                {
+                    "@type": "item",
+                    "name": "src/tools/UBGraphicsAxes.h"
+                },
+                {
+                    "@type": "item",
+                    "name": "src/tools/UBGraphicsAxes.cpp"
+                },
+                {
+                    "@type": "item",
+                    "name": "src/tools/UBGraphicsProtractor.h"
+                },
+                {
+                    "@type": "item",
+                    "name": "src/tools/UBGraphicsProtractor.cpp"
+                },
+                {
+                    "@type": "item",
+                    "name": "src/tools/UBAbstractDrawRuler.h"
+                },
+                {
+                    "@type": "item",
+                    "name": "src/tools/UBAbstractDrawRuler.cpp"
+                },
+                {
+                    "@type": "item",
+                    "name": "src/tools/UBGraphicsRuler.h"
+                },
+                {
+                    "@type": "item",
+                    "name": "src/tools/UBGraphicsRuler.cpp"
+                },
+                {
+                    "@type": "item",
+                    "name": "src/tools/UBGraphicsCompass.h"
+                },
+                {
+                    "@type": "item",
+                    "name": "src/tools/UBGraphicsCompass.cpp"
+                }
+            ]
+        },
+        {
+            "@type": "group",
+            "name": "15",
+            "nested": [
+                {
+                    "@type": "item",
+                    "name": "plugins/cffadaptor/src/UBCFFConstants.h"
+                },
+                {
+                    "@type": "item",
+                    "name": "plugins/cffadaptor/src/UBCFFAdaptor.h"
+                },
+                {
+                    "@type": "item",
+                    "name": "plugins/cffadaptor/src/UBCFFAdaptor_global.h"
+                },
+                {
+                    "@type": "item",
+                    "name": "plugins/cffadaptor/src/UBCFFAdaptor.cpp"
+                },
+                {
+                    "@type": "item",
+                    "name": "plugins/cffadaptor/src/UBGlobals.h"
+                }
+            ]
+        },
+        {
+            "@type": "group",
+            "name": "16",
+            "nested": [
+                {
+                    "@type": "item",
+                    "name": "src/board/UBBoardView.h"
+                },
+                {
+                    "@type": "item",
+                    "name": "src/board/UBBoardView.cpp"
+                },
+                {
+                    "@type": "item",
+                    "name": "src/board/UBDrawingController.h"
+                },
+                {
+                    "@type": "item",
+                    "name": "src/board/UBDrawingController.cpp"
+                },
+                {
+                    "@type": "item",
+                    "name": "src/board/UBBoardController.h"
+                },
+                {
+                    "@type": "item",
+                    "name": "src/board/UBBoardController.cpp"
+                },
+                {
+                    "@type": "item",
+                    "name": "src/board/UBBoardPaletteManager.h"
+                },
+                {
+                    "@type": "item",
+                    "name": "src/board/UBBoardPaletteManager.cpp"
+                },
+                {
+                    "@type": "item",
+                    "name": "src/board/UBFeaturesController.h"
+                },
+                {
+                    "@type": "item",
+                    "name": "src/board/UBFeaturesController.cpp"
+                }
+            ]
+        },
+        {
+            "@type": "group",
+            "name": "17",
+            "nested": [
+                {
+                    "@type": "item",
+                    "name": "src/document/UBDocumentController.h"
+                },
+                {
+                    "@type": "item",
+                    "name": "src/document/UBDocumentController.cpp"
+                },
+                {
+                    "@type": "item",
+                    "name": "src/document/UBSortFilterProxyModel.h"
+                },
+                {
+                    "@type": "item",
+                    "name": "src/document/UBSortFilterProxyModel.cpp"
+                },
+                {
+                    "@type": "item",
+                    "name": "src/document/UBDocumentProxy.h"
+                },
+                {
+                    "@type": "item",
+                    "name": "src/document/UBDocumentProxy.cpp"
+                },
+                {
+                    "@type": "item",
+                    "name": "src/document/UBDocumentContainer.h"
+                },
+                {
+                    "@type": "item",
+                    "name": "src/document/UBDocumentContainer.cpp"
+                }
+            ]
+        },
+        {
+            "@type": "group",
+            "name": "18",
+            "nested": [
+                {
+                    "@type": "item",
+                    "name": "src/web/UBWebKitUtils.h"
+                },
+                {
+                    "@type": "item",
+                    "name": "src/web/UBWebKitUtils.cpp"
+                },
+                {
+                    "@type": "item",
+                    "name": "src/web/UBOEmbedParser.h"
+                },
+                {
+                    "@type": "item",
+                    "name": "src/web/UBOEmbedParser.cpp"
+                },
+                {
+                    "@type": "item",
+                    "name": "src/web/UBWebController.h"
+                },
+                {
+                    "@type": "item",
+                    "name": "src/web/UBWebController.cpp"
+                },
+                {
+                    "@type": "item",
+                    "name": "src/web/UBTrapFlashController.h"
+                },
+                {
+                    "@type": "item",
+                    "name": "src/web/UBTrapFlashController.cpp"
+                }
+            ]
+        },
+        {
+            "@type": "group",
+            "name": "19",
+            "nested": [
+                {
+                    "@type": "item",
+                    "name": "src/pdf/UBWebPluginPDFWidget.h"
+                },
+                {
+                    "@type": "item",
+                    "name": "src/pdf/UBWebPluginPDFWidget.cpp"
+                },
+                {
+                    "@type": "item",
+                    "name": "src/pdf/GraphicsPDFItem.h"
+                },
+                {
+                    "@type": "item",
+                    "name": "src/pdf/GraphicsPDFItem.cpp"
+                },
+                {
+                    "@type": "item",
+                    "name": "src/pdf/PDFRenderer.h"
+                },
+                {
+                    "@type": "item",
+                    "name": "src/pdf/PDFRenderer.cpp"
+                },
+                {
+                    "@type": "item",
+                    "name": "src/pdf/XPDFRenderer.h"
+                },
+                {
+                    "@type": "item",
+                    "name": "src/pdf/XPDFRenderer.cpp"
+                }
+            ]
+        },
+        {
+            "@type": "group",
+            "name": "20",
+            "nested": [
+                {
+                    "@type": "item",
+                    "name": "src/adaptors/UBSvgSubsetAdaptor.h"
+                },
+                {
+                    "@type": "item",
+                    "name": "src/adaptors/UBSvgSubsetAdaptor.cpp"
+                },
+                {
+                    "@type": "item",
+                    "name": "src/adaptors/UBThumbnailAdaptor.h"
+                },
+                {
+                    "@type": "item",
+                    "name": "src/adaptors/UBThumbnailAdaptor.cpp"
+                },
+                {
+                    "@type": "item",
+                    "name": "src/adaptors/UBMetadataDcSubsetAdaptor.h"
+                },
+                {
+                    "@type": "item",
+                    "name": "src/adaptors/UBMetadataDcSubsetAdaptor.cpp"
+                },
+                {
+                    "@type": "item",
+                    "name": "src/adaptors/UBCFFSubsetAdaptor.h"
+                },
+                {
+                    "@type": "item",
+                    "name": "src/adaptors/UBCFFSubsetAdaptor.cpp"
+                }
+            ]
+        },
+        {
+            "@type": "group",
+            "name": "21",
+            "nested": [
+                {
+                    "@type": "item",
+                    "name": "src/frameworks/UBFileSystemUtils.h"
+                },
+                {
+                    "@type": "item",
+                    "name": "src/frameworks/UBFileSystemUtils.cpp"
+                },
+                {
+                    "@type": "item",
+                    "name": "src/frameworks/MacUtils.h"
+                },
+                {
+                    "@type": "item",
+                    "name": "src/frameworks/UBPlatformUtils.h"
+                },
+                {
+                    "@type": "item",
+                    "name": "src/frameworks/UBPlatformUtils.cpp"
+                },
+                {
+                    "@type": "item",
+                    "name": "src/frameworks/UBPlatformUtils_win.cpp"
+                },
+                {
+                    "@type": "item",
+                    "name": "src/frameworks/UBPlatformUtils_linux.cpp"
+                }
+            ]
+        },
+        {
+            "@type": "group",
+            "name": "22",
+            "nested": [
+                {
+                    "@type": "item",
+                    "name": "src/tools/UBGraphicsCache.h"
+                },
+                {
+                    "@type": "item",
+                    "name": "src/tools/UBGraphicsCache.cpp"
+                },
+                {
+                    "@type": "item",
+                    "name": "src/tools/UBGraphicsCurtainItem.h"
+                },
+                {
+                    "@type": "item",
+                    "name": "src/tools/UBGraphicsCurtainItem.cpp"
+                },
+                {
+                    "@type": "item",
+                    "name": "src/tools/UBGraphicsCurtainItemDelegate.h"
+                },
+                {
+                    "@type": "item",
+                    "name": "src/tools/UBGraphicsCurtainItemDelegate.cpp"
+                }
+            ]
+        },
+        {
+            "@type": "group",
+            "name": "23",
+            "nested": [
+                {
+                    "@type": "item",
+                    "name": "src/api/UBWidgetUniboardAPI.h"
+                },
+                {
+                    "@type": "item",
+                    "name": "src/api/UBWidgetUniboardAPI.cpp"
+                },
+                {
+                    "@type": "item",
+                    "name": "src/api/UBW3CWidgetAPI.h"
+                },
+                {
+                    "@type": "item",
+                    "name": "src/api/UBW3CWidgetAPI.cpp"
+                },
+                {
+                    "@type": "item",
+                    "name": "src/api/UBWidgetMessageAPI.h"
+                },
+                {
+                    "@type": "item",
+                    "name": "src/api/UBWidgetMessageAPI.cpp"
+                }
+            ]
+        },
+        {
+            "@type": "group",
+            "name": "24",
+            "nested": [
+                {
+                    "@type": "item",
+                    "name": "src/customWidgets/UBMediaWidget.h"
+                },
+                {
+                    "@type": "item",
+                    "name": "src/customWidgets/UBMediaWidget.cpp"
+                },
+                {
+                    "@type": "item",
+                    "name": "src/customWidgets/UBActionableWidget.h"
+                },
+                {
+                    "@type": "item",
+                    "name": "src/customWidgets/UBActionableWidget.cpp"
+                }
+            ]
+        },
+        {
+            "@type": "group",
+            "name": "25",
+            "nested": [
+                {
+                    "@type": "item",
+                    "name": "src/singleapplication/singleapplication.h"
+                },
+                {
+                    "@type": "item",
+                    "name": "src/singleapplication/singleapplication.cpp"
+                },
+                {
+                    "@type": "item",
+                    "name": "src/singleapplication/singleapplication_p.h"
+                },
+                {
+                    "@type": "item",
+                    "name": "src/singleapplication/singleapplication_p.cpp"
+                }
+            ]
+        },
+        {
+            "@type": "group",
+            "name": "26",
+            "nested": [
+                {
+                    "@type": "item",
+                    "name": "src/web/browser/WBSqueezeLabel.h"
+                },
+                {
+                    "@type": "item",
+                    "name": "src/web/browser/WBSqueezeLabel.cpp"
+                },
+                {
+                    "@type": "item",
+                    "name": "src/web/browser/WBChaseWidget.h"
+                },
+                {
+                    "@type": "item",
+                    "name": "src/web/browser/WBChaseWidget.cpp"
+                }
+            ]
+        },
+        {
+            "@type": "group",
+            "name": "27",
+            "nested": [
+                {
+                    "@type": "item",
+                    "name": "src/globals/UBGlobals.h"
+                }
+            ]
+        },
+        {
+            "@type": "group",
+            "name": "28",
+            "nested": [
+                {
+                    "@type": "item",
+                    "name": "src/frameworks/UBBase32.h"
+                },
+                {
+                    "@type": "item",
+                    "name": "src/frameworks/UBBase32.cpp"
+                }
+            ]
+        },
+        {
+            "@type": "group",
+            "name": "29",
+            "nested": [
+                {
+                    "@type": "item",
+                    "name": "src/frameworks/UBVersion.h"
+                },
+                {
+                    "@type": "item",
+                    "name": "src/frameworks/UBVersion.cpp"
+                }
+            ]
+        },
+        {
+            "@type": "group",
+            "name": "30",
+            "nested": [
+                {
+                    "@type": "item",
+                    "name": "src/web/UBWebPage.h"
+                },
+                {
+                    "@type": "item",
+                    "name": "src/web/UBWebPage.cpp"
+                }
+            ]
+        },
+        {
+            "@type": "group",
+            "name": "31",
+            "nested": [
+                {
+                    "@type": "item",
+                    "name": "src/frameworks/UBCryptoUtils.h"
+                },
+                {
+                    "@type": "item",
+                    "name": "src/frameworks/UBCryptoUtils.cpp"
+                }
+            ]
+        },
+        {
+            "@type": "group",
+            "name": "32",
+            "nested": [
+                {
+                    "@type": "item",
+                    "name": "src/frameworks/UBCoreGraphicsScene.h"
+                },
+                {
+                    "@type": "item",
+                    "name": "src/frameworks/UBCoreGraphicsScene.cpp"
+                }
+            ]
+        },
+        {
+            "@type": "group",
+            "name": "33",
+            "nested": [
+                {
+                    "@type": "item",
+                    "name": "src/api/UBLibraryAPI.h"
+                },
+                {
+                    "@type": "item",
+                    "name": "src/api/UBLibraryAPI.cpp"
+                }
+            ]
+        },
+        {
+            "@type": "group",
+            "name": "34",
+            "nested": [
+                {
+                    "@type": "item",
+                    "name": "src/frameworks/UBStringUtils.h"
+                },
+                {
+                    "@type": "item",
+                    "name": "src/frameworks/UBStringUtils.cpp"
+                }
+            ]
+        },
+        {
+            "@type": "group",
+            "name": "35",
+            "nested": [
+                {
+                    "@type": "item",
+                    "name": "src/gui/UBMagnifer.h"
+                },
+                {
+                    "@type": "item",
+                    "name": "src/gui/UBMagnifer.cpp"
+                }
+            ]
+        },
+        {
+            "@type": "group",
+            "name": "36",
+            "nested": [
+                {
+                    "@type": "item",
+                    "name": "src/tools/UBToolsManager.h"
+                },
+                {
+                    "@type": "item",
+                    "name": "src/tools/UBToolsManager.cpp"
+                }
+            ]
+        },
+        {
+            "@type": "group",
+            "name": "37",
+            "nested": [
+                {
+                    "@type": "item",
+                    "name": "src/domain/UBDragableThumbnail.h"
+                },
+                {
+                    "@type": "item",
+                    "name": "src/domain/UBDragableThumbnail.cpp"
+                }
+            ]
+        },
+        {
+            "@type": "group",
+            "name": "38",
+            "nested": [
+                {
+                    "@type": "item",
+                    "name": "src/frameworks/UBGeometryUtils.h"
+                },
+                {
+                    "@type": "item",
+                    "name": "src/frameworks/UBGeometryUtils.cpp"
+                }
+            ]
+        },
+        {
+            "@type": "group",
+            "name": "39",
+            "nested": [
+                {
+                    "@type": "item",
+                    "name": "src/web/UBWebPluginWidget.h"
+                },
+                {
+                    "@type": "item",
+                    "name": "src/web/UBWebPluginWidget.cpp"
+                }
+            ]
+        },
+        {
+            "@type": "group",
+            "name": "40",
+            "nested": [
+                {
+                    "@type": "item",
+                    "name": "src/customWidgets/UBGraphicsItemAction.h"
+                },
+                {
+                    "@type": "item",
+                    "name": "src/customWidgets/UBGraphicsItemAction.cpp"
+                }
+            ]
+        },
+        {
+            "@type": "group",
+            "name": "41",
+            "nested": [
+                {
+                    "@type": "item",
+                    "name": "src/core/UBPersistenceWorker.h"
+                },
+                {
+                    "@type": "item",
+                    "name": "src/core/UBPersistenceWorker.cpp"
+                }
+            ]
+        },
+        {
+            "@type": "group",
+            "name": "42",
+            "nested": [
+                {
+                    "@type": "item",
+                    "name": "src/gui/UBDocumentTreeWidget.h"
+                },
+                {
+                    "@type": "item",
+                    "name": "src/gui/UBDocumentTreeWidget.cpp"
+                }
+            ]
+        },
+        {
+            "@type": "group",
+            "name": "43",
+            "nested": [
+                {
+                    "@type": "item",
+                    "name": "src/core/UBTextTools.h"
+                },
+                {
+                    "@type": "item",
+                    "name": "src/core/UBTextTools.cpp"
+                }
+            ]
+        }
+    ]
+}

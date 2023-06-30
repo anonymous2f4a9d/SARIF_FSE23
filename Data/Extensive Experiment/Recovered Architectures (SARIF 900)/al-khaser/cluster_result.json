@@ -1,0 +1,694 @@
+{
+    "@schemaVersion": "1.0",
+    "name": "clustering",
+    "structure": [
+        {
+            "@type": "group",
+            "name": "0",
+            "nested": [
+                {
+                    "@type": "item",
+                    "name": "al-khaser/AntiVM/Xen.h"
+                },
+                {
+                    "@type": "item",
+                    "name": "al-khaser/AntiVM/Xen.cpp"
+                },
+                {
+                    "@type": "item",
+                    "name": "al-khaser/AntiVM/Qemu.h"
+                },
+                {
+                    "@type": "item",
+                    "name": "al-khaser/AntiVM/Qemu.cpp"
+                },
+                {
+                    "@type": "item",
+                    "name": "al-khaser/AntiVM/pch.h"
+                },
+                {
+                    "@type": "item",
+                    "name": "al-khaser/AntiVM/Services.h"
+                },
+                {
+                    "@type": "item",
+                    "name": "al-khaser/AntiVM/Services.cpp"
+                },
+                {
+                    "@type": "item",
+                    "name": "al-khaser/AntiVM/Parallels.h"
+                },
+                {
+                    "@type": "item",
+                    "name": "al-khaser/AntiVM/Parallels.cpp"
+                },
+                {
+                    "@type": "item",
+                    "name": "al-khaser/AntiVM/VMWare.h"
+                },
+                {
+                    "@type": "item",
+                    "name": "al-khaser/AntiVM/VMWare.cpp"
+                },
+                {
+                    "@type": "item",
+                    "name": "al-khaser/AntiVM/Wine.h"
+                },
+                {
+                    "@type": "item",
+                    "name": "al-khaser/AntiVM/Wine.cpp"
+                },
+                {
+                    "@type": "item",
+                    "name": "al-khaser/AntiVM/VirtualBox.h"
+                },
+                {
+                    "@type": "item",
+                    "name": "al-khaser/AntiVM/VirtualBox.cpp"
+                },
+                {
+                    "@type": "item",
+                    "name": "al-khaser/AntiVM/HyperV.h"
+                },
+                {
+                    "@type": "item",
+                    "name": "al-khaser/AntiVM/HyperV.cpp"
+                },
+                {
+                    "@type": "item",
+                    "name": "al-khaser/AntiVM/KVM.h"
+                },
+                {
+                    "@type": "item",
+                    "name": "al-khaser/AntiVM/KVM.cpp"
+                },
+                {
+                    "@type": "item",
+                    "name": "al-khaser/AntiVM/VirtualPC.h"
+                },
+                {
+                    "@type": "item",
+                    "name": "al-khaser/AntiVM/VirtualPC.cpp"
+                },
+                {
+                    "@type": "item",
+                    "name": "al-khaser/AntiVM/Generic.h"
+                },
+                {
+                    "@type": "item",
+                    "name": "al-khaser/AntiVM/Generic.cpp"
+                }
+            ]
+        },
+        {
+            "@type": "group",
+            "name": "1",
+            "nested": [
+                {
+                    "@type": "item",
+                    "name": "al-khaser/AntiDebug/HardwareBreakpoints.h"
+                },
+                {
+                    "@type": "item",
+                    "name": "al-khaser/AntiDebug/HardwareBreakpoints.cpp"
+                },
+                {
+                    "@type": "item",
+                    "name": "al-khaser/AntiDebug/SetHandleInformation_API.h"
+                },
+                {
+                    "@type": "item",
+                    "name": "al-khaser/AntiDebug/SetHandleInformation_API.cpp"
+                },
+                {
+                    "@type": "item",
+                    "name": "al-khaser/AntiDebug/SoftwareBreakpoints.h"
+                },
+                {
+                    "@type": "item",
+                    "name": "al-khaser/AntiDebug/SoftwareBreakpoints.cpp"
+                },
+                {
+                    "@type": "item",
+                    "name": "al-khaser/AntiDebug/pch.h"
+                },
+                {
+                    "@type": "item",
+                    "name": "al-khaser/AntiDebug/WriteWatch.h"
+                },
+                {
+                    "@type": "item",
+                    "name": "al-khaser/AntiDebug/WriteWatch.cpp"
+                },
+                {
+                    "@type": "item",
+                    "name": "al-khaser/AntiDebug/TLS_callbacks.h"
+                },
+                {
+                    "@type": "item",
+                    "name": "al-khaser/AntiDebug/TLS_callbacks.cpp"
+                },
+                {
+                    "@type": "item",
+                    "name": "al-khaser/AntiDebug/ParentProcess.h"
+                },
+                {
+                    "@type": "item",
+                    "name": "al-khaser/AntiDebug/ParentProcess.cpp"
+                },
+                {
+                    "@type": "item",
+                    "name": "al-khaser/AntiDebug/CloseHandle_InvalidHandle.h"
+                },
+                {
+                    "@type": "item",
+                    "name": "al-khaser/AntiDebug/CloseHandle_InvalidHandle.cpp"
+                },
+                {
+                    "@type": "item",
+                    "name": "al-khaser/AntiDebug/ScanForModules.h"
+                },
+                {
+                    "@type": "item",
+                    "name": "al-khaser/AntiDebug/ScanForModules.cpp"
+                },
+                {
+                    "@type": "item",
+                    "name": "al-khaser/AntiDebug/ModuleBoundsHookCheck.h"
+                },
+                {
+                    "@type": "item",
+                    "name": "al-khaser/AntiDebug/ModuleBoundsHookCheck.cpp"
+                }
+            ]
+        },
+        {
+            "@type": "group",
+            "name": "2",
+            "nested": [
+                {
+                    "@type": "item",
+                    "name": "al-khaser/AntiDebug/ProcessHeap_ForceFlags.h"
+                },
+                {
+                    "@type": "item",
+                    "name": "al-khaser/AntiDebug/ProcessHeap_ForceFlags.cpp"
+                },
+                {
+                    "@type": "item",
+                    "name": "al-khaser/AntiDebug/NtGlobalFlag.h"
+                },
+                {
+                    "@type": "item",
+                    "name": "al-khaser/AntiDebug/NtGlobalFlag.cpp"
+                },
+                {
+                    "@type": "item",
+                    "name": "al-khaser/AntiDebug/Interrupt_0x2d.h"
+                },
+                {
+                    "@type": "item",
+                    "name": "al-khaser/AntiDebug/Interrupt_0x2d.cpp"
+                },
+                {
+                    "@type": "item",
+                    "name": "al-khaser/AntiDebug/Interrupt_3.h"
+                },
+                {
+                    "@type": "item",
+                    "name": "al-khaser/AntiDebug/Interrupt_3.cpp"
+                },
+                {
+                    "@type": "item",
+                    "name": "al-khaser/AntiDebug/ProcessHeap_Flags.h"
+                },
+                {
+                    "@type": "item",
+                    "name": "al-khaser/AntiDebug/ProcessHeap_Flags.cpp"
+                },
+                {
+                    "@type": "item",
+                    "name": "al-khaser/AntiDebug/LowFragmentationHeap.h"
+                },
+                {
+                    "@type": "item",
+                    "name": "al-khaser/AntiDebug/LowFragmentationHeap.cpp"
+                },
+                {
+                    "@type": "item",
+                    "name": "al-khaser/AntiDebug/TrapFlag.h"
+                },
+                {
+                    "@type": "item",
+                    "name": "al-khaser/AntiDebug/TrapFlag.cpp"
+                },
+                {
+                    "@type": "item",
+                    "name": "al-khaser/AntiDebug/UnhandledExceptionFilter_Handler.h"
+                },
+                {
+                    "@type": "item",
+                    "name": "al-khaser/AntiDebug/UnhandledExceptionFilter_Handler.cpp"
+                }
+            ]
+        },
+        {
+            "@type": "group",
+            "name": "3",
+            "nested": [
+                {
+                    "@type": "item",
+                    "name": "al-khaser/CodeInjection/pch.h"
+                },
+                {
+                    "@type": "item",
+                    "name": "al-khaser/CodeInjection/NtCreateThreadEx.h"
+                },
+                {
+                    "@type": "item",
+                    "name": "al-khaser/CodeInjection/NtCreateThreadEx.cpp"
+                },
+                {
+                    "@type": "item",
+                    "name": "al-khaser/CodeInjection/CreateRemoteThread.h"
+                },
+                {
+                    "@type": "item",
+                    "name": "al-khaser/CodeInjection/CreateRemoteThread.cpp"
+                },
+                {
+                    "@type": "item",
+                    "name": "al-khaser/CodeInjection/RtlCreateUserThread.h"
+                },
+                {
+                    "@type": "item",
+                    "name": "al-khaser/CodeInjection/RtlCreateUserThread.cpp"
+                },
+                {
+                    "@type": "item",
+                    "name": "al-khaser/CodeInjection/SetWindowsHooksEx.h"
+                },
+                {
+                    "@type": "item",
+                    "name": "al-khaser/CodeInjection/SetWindowsHooksEx.cpp"
+                },
+                {
+                    "@type": "item",
+                    "name": "al-khaser/CodeInjection/GetSetThreadContext.h"
+                },
+                {
+                    "@type": "item",
+                    "name": "al-khaser/CodeInjection/GetSetThreadContext.cpp"
+                },
+                {
+                    "@type": "item",
+                    "name": "al-khaser/CodeInjection/QueueUserAPC.h"
+                },
+                {
+                    "@type": "item",
+                    "name": "al-khaser/CodeInjection/QueueUserAPC.cpp"
+                }
+            ]
+        },
+        {
+            "@type": "group",
+            "name": "4",
+            "nested": [
+                {
+                    "@type": "item",
+                    "name": "al-khaser/Shared/pch.h"
+                },
+                {
+                    "@type": "item",
+                    "name": "al-khaser/Shared/Utils.h"
+                },
+                {
+                    "@type": "item",
+                    "name": "al-khaser/Shared/Utils.cpp"
+                },
+                {
+                    "@type": "item",
+                    "name": "al-khaser/Shared/log.h"
+                },
+                {
+                    "@type": "item",
+                    "name": "al-khaser/Shared/log.cpp"
+                },
+                {
+                    "@type": "item",
+                    "name": "al-khaser/Shared/ApiTypeDefs.cpp"
+                },
+                {
+                    "@type": "item",
+                    "name": "al-khaser/Shared/Common.h"
+                },
+                {
+                    "@type": "item",
+                    "name": "al-khaser/Shared/Common.cpp"
+                },
+                {
+                    "@type": "item",
+                    "name": "al-khaser/Shared/WinStructs.h"
+                },
+                {
+                    "@type": "item",
+                    "name": "al-khaser/Shared/APIs.h"
+                },
+                {
+                    "@type": "item",
+                    "name": "al-khaser/Shared/APIs.cpp"
+                }
+            ]
+        },
+        {
+            "@type": "group",
+            "name": "5",
+            "nested": [
+                {
+                    "@type": "item",
+                    "name": "al-khaser/AntiDebug/SeDebugPrivilege.h"
+                },
+                {
+                    "@type": "item",
+                    "name": "al-khaser/AntiDebug/SeDebugPrivilege.cpp"
+                },
+                {
+                    "@type": "item",
+                    "name": "al-khaser/AntiDebug/NtQueryInformationProcess_ProcessDebugObject.h"
+                },
+                {
+                    "@type": "item",
+                    "name": "al-khaser/AntiDebug/NtQueryInformationProcess_ProcessDebugObject.cpp"
+                },
+                {
+                    "@type": "item",
+                    "name": "al-khaser/AntiDebug/SharedUserData_KernelDebugger.h"
+                },
+                {
+                    "@type": "item",
+                    "name": "al-khaser/AntiDebug/SharedUserData_KernelDebugger.cpp"
+                },
+                {
+                    "@type": "item",
+                    "name": "al-khaser/AntiDebug/NtQueryInformationProcess_ProcessDebugFlags.h"
+                },
+                {
+                    "@type": "item",
+                    "name": "al-khaser/AntiDebug/NtQueryInformationProcess_ProcessDebugFlags.cpp"
+                },
+                {
+                    "@type": "item",
+                    "name": "al-khaser/AntiDebug/NtQueryObject_ObjectInformation.h"
+                },
+                {
+                    "@type": "item",
+                    "name": "al-khaser/AntiDebug/NtQueryObject_ObjectTypeInformation.cpp"
+                },
+                {
+                    "@type": "item",
+                    "name": "al-khaser/AntiDebug/NtQueryObject_AllTypesInformation.cpp"
+                },
+                {
+                    "@type": "item",
+                    "name": "al-khaser/AntiDebug/NtQuerySystemInformation_SystemKernelDebuggerInformation.h"
+                },
+                {
+                    "@type": "item",
+                    "name": "al-khaser/AntiDebug/NtQuerySystemInformation_SystemKernelDebuggerInformation.cpp"
+                },
+                {
+                    "@type": "item",
+                    "name": "al-khaser/AntiDebug/NtQueryInformationProcess_ProcessDebugPort.h"
+                },
+                {
+                    "@type": "item",
+                    "name": "al-khaser/AntiDebug/NtQueryInformationProcess_ProcessDebugPort.cpp"
+                }
+            ]
+        },
+        {
+            "@type": "group",
+            "name": "6",
+            "nested": [
+                {
+                    "@type": "item",
+                    "name": "Tools/ATAIdentifyDump/IdentifyDeviceData.h"
+                },
+                {
+                    "@type": "item",
+                    "name": "Tools/ATAIdentifyDump/pch.h"
+                },
+                {
+                    "@type": "item",
+                    "name": "Tools/ATAIdentifyDump/pch.cpp"
+                },
+                {
+                    "@type": "item",
+                    "name": "Tools/ATAIdentifyDump/ATAIdentifyDump.cpp"
+                }
+            ]
+        },
+        {
+            "@type": "group",
+            "name": "7",
+            "nested": [
+                {
+                    "@type": "item",
+                    "name": "al-khaser/AntiDebug/OutputDebugStringAPI.h"
+                },
+                {
+                    "@type": "item",
+                    "name": "al-khaser/AntiDebug/OutputDebugStringAPI.cpp"
+                },
+                {
+                    "@type": "item",
+                    "name": "al-khaser/AntiDebug/PageExceptionBreakpointCheck.h"
+                },
+                {
+                    "@type": "item",
+                    "name": "al-khaser/AntiDebug/PageExceptionBreakpointCheck.cpp"
+                },
+                {
+                    "@type": "item",
+                    "name": "al-khaser/AntiDebug/ProcessJob.h"
+                },
+                {
+                    "@type": "item",
+                    "name": "al-khaser/AntiDebug/ProcessJob.cpp"
+                },
+                {
+                    "@type": "item",
+                    "name": "al-khaser/AntiDebug/MemoryBreakpoints_PageGuard.h"
+                },
+                {
+                    "@type": "item",
+                    "name": "al-khaser/AntiDebug/MemoryBreakpoints_PageGuard.cpp"
+                }
+            ]
+        },
+        {
+            "@type": "group",
+            "name": "8",
+            "nested": [
+                {
+                    "@type": "item",
+                    "name": "al-khaser/AntiDebug/IsDebuggerPresent.h"
+                },
+                {
+                    "@type": "item",
+                    "name": "al-khaser/AntiDebug/IsDebuggerPresent.cpp"
+                },
+                {
+                    "@type": "item",
+                    "name": "al-khaser/AntiDebug/BeingDebugged.h"
+                },
+                {
+                    "@type": "item",
+                    "name": "al-khaser/AntiDebug/BeingDebugged.cpp"
+                },
+                {
+                    "@type": "item",
+                    "name": "al-khaser/AntiDebug/WUDF_IsDebuggerPresent.h"
+                },
+                {
+                    "@type": "item",
+                    "name": "al-khaser/AntiDebug/WUDF_IsDebuggerPresent.cpp"
+                },
+                {
+                    "@type": "item",
+                    "name": "al-khaser/AntiDebug/CheckRemoteDebuggerPresent.h"
+                },
+                {
+                    "@type": "item",
+                    "name": "al-khaser/AntiDebug/CheckRemoteDebuggerPresent.cpp"
+                }
+            ]
+        },
+        {
+            "@type": "group",
+            "name": "9",
+            "nested": [
+                {
+                    "@type": "item",
+                    "name": "al-khaser/AntiDump/SizeOfImage.h"
+                },
+                {
+                    "@type": "item",
+                    "name": "al-khaser/AntiDump/SizeOfImage.cpp"
+                },
+                {
+                    "@type": "item",
+                    "name": "al-khaser/AntiDump/ErasePEHeaderFromMemory.h"
+                },
+                {
+                    "@type": "item",
+                    "name": "al-khaser/AntiDump/ErasePEHeaderFromMemory.cpp"
+                },
+                {
+                    "@type": "item",
+                    "name": "al-khaser/AntiDump/pch.h"
+                }
+            ]
+        },
+        {
+            "@type": "group",
+            "name": "10",
+            "nested": [
+                {
+                    "@type": "item",
+                    "name": "al-khaser/Al-khaser.cpp"
+                },
+                {
+                    "@type": "item",
+                    "name": "al-khaser/pch.cpp"
+                },
+                {
+                    "@type": "item",
+                    "name": "al-khaser/pch.h"
+                }
+            ]
+        },
+        {
+            "@type": "group",
+            "name": "11",
+            "nested": [
+                {
+                    "@type": "item",
+                    "name": "al-khaser/AntiDebug/NtYieldExecution.h"
+                },
+                {
+                    "@type": "item",
+                    "name": "al-khaser/AntiDebug/NtYieldExecution.cpp"
+                },
+                {
+                    "@type": "item",
+                    "name": "al-khaser/AntiDebug/NtSetInformationThread_ThreadHideFromDebugger.h"
+                },
+                {
+                    "@type": "item",
+                    "name": "al-khaser/AntiDebug/NtSetInformationThread_ThreadHideFromDebugger.cpp"
+                },
+                {
+                    "@type": "item",
+                    "name": "al-khaser/AntiDebug/NtSystemDebugControl.h"
+                },
+                {
+                    "@type": "item",
+                    "name": "al-khaser/AntiDebug/NtSystemDebugControl.cpp"
+                }
+            ]
+        },
+        {
+            "@type": "group",
+            "name": "12",
+            "nested": [
+                {
+                    "@type": "item",
+                    "name": "al-khaser/AntiDisassm/AntiDisassm.h"
+                },
+                {
+                    "@type": "item",
+                    "name": "al-khaser/AntiDisassm/AntiDisassm.cpp"
+                },
+                {
+                    "@type": "item",
+                    "name": "al-khaser/AntiDisassm/pch.h"
+                }
+            ]
+        },
+        {
+            "@type": "group",
+            "name": "13",
+            "nested": [
+                {
+                    "@type": "item",
+                    "name": "al-khaser/CodeInjection/InjectedDLL/InjectedDLL.h"
+                },
+                {
+                    "@type": "item",
+                    "name": "al-khaser/CodeInjection/InjectedDLL/InjectedDLL.cpp"
+                }
+            ]
+        },
+        {
+            "@type": "group",
+            "name": "14",
+            "nested": [
+                {
+                    "@type": "item",
+                    "name": "al-khaser/Shared/winapifamily.h"
+                },
+                {
+                    "@type": "item",
+                    "name": "al-khaser/Shared/VersionHelpers.h"
+                }
+            ]
+        },
+        {
+            "@type": "group",
+            "name": "15",
+            "nested": [
+                {
+                    "@type": "item",
+                    "name": "al-khaser/TimingAttacks/pch.h"
+                },
+                {
+                    "@type": "item",
+                    "name": "al-khaser/TimingAttacks/timing.h"
+                },
+                {
+                    "@type": "item",
+                    "name": "al-khaser/TimingAttacks/timing.cpp"
+                }
+            ]
+        },
+        {
+            "@type": "group",
+            "name": "16",
+            "nested": [
+                {
+                    "@type": "item",
+                    "name": "al-khaser/AntiAnalysis/pch.h"
+                },
+                {
+                    "@type": "item",
+                    "name": "al-khaser/AntiAnalysis/process.h"
+                },
+                {
+                    "@type": "item",
+                    "name": "al-khaser/AntiAnalysis/process.cpp"
+                }
+            ]
+        },
+        {
+            "@type": "group",
+            "name": "17",
+            "nested": [
+                {
+                    "@type": "item",
+                    "name": "al-khaser/Shared/ApiTypeDefs.h"
+                }
+            ]
+        }
+    ]
+}

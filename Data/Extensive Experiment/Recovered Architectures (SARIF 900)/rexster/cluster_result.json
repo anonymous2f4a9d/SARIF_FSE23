@@ -1,0 +1,1166 @@
+{
+    "@schemaVersion": "1.0",
+    "name": "clustering",
+    "structure": [
+        {
+            "@type": "group",
+            "name": "0",
+            "nested": [
+                {
+                    "@type": "item",
+                    "name": "rexster-protocol/src/main/java/com/tinkerpop/rexster/protocol/msg/MessageUtil.java"
+                },
+                {
+                    "@type": "item",
+                    "name": "rexster-protocol/src/main/java/com/tinkerpop/rexster/protocol/server/RexProRequest.java"
+                },
+                {
+                    "@type": "item",
+                    "name": "rexster-protocol/src/test/java/com/tinkerpop/rexster/protocol/msg/MessageUtilTest.java"
+                },
+                {
+                    "@type": "item",
+                    "name": "rexster-protocol/src/main/java/com/tinkerpop/rexster/protocol/msg/ScriptRequestMessage.java"
+                },
+                {
+                    "@type": "item",
+                    "name": "rexster-protocol/src/main/java/com/tinkerpop/rexster/protocol/msg/MessageTokens.java"
+                },
+                {
+                    "@type": "item",
+                    "name": "rexster-protocol/src/main/java/com/tinkerpop/rexster/protocol/msg/ErrorResponseMessage.java"
+                },
+                {
+                    "@type": "item",
+                    "name": "rexster-protocol/src/main/java/com/tinkerpop/rexster/client/TryRexProSessionless.java"
+                },
+                {
+                    "@type": "item",
+                    "name": "rexster-protocol/src/main/java/com/tinkerpop/rexster/client/RexProException.java"
+                },
+                {
+                    "@type": "item",
+                    "name": "rexster-protocol/src/main/java/com/tinkerpop/rexster/protocol/msg/MessageType.java"
+                },
+                {
+                    "@type": "item",
+                    "name": "rexster-protocol/src/main/java/com/tinkerpop/rexster/protocol/server/ScriptServer.java"
+                },
+                {
+                    "@type": "item",
+                    "name": "rexster-protocol/src/main/java/com/tinkerpop/rexster/protocol/session/RexProSessionMonitor.java"
+                },
+                {
+                    "@type": "item",
+                    "name": "rexster-protocol/src/main/java/com/tinkerpop/rexster/protocol/server/IncompleteRexProRequestException.java"
+                },
+                {
+                    "@type": "item",
+                    "name": "rexster-protocol/src/main/java/com/tinkerpop/rexster/protocol/RexsterApplicationHolder.java"
+                },
+                {
+                    "@type": "item",
+                    "name": "rexster-protocol/src/main/java/com/tinkerpop/rexster/protocol/session/RexProSessions.java"
+                },
+                {
+                    "@type": "item",
+                    "name": "rexster-protocol/src/main/java/com/tinkerpop/rexster/protocol/msg/RexProMessage.java"
+                },
+                {
+                    "@type": "item",
+                    "name": "rexster-protocol/src/main/java/com/tinkerpop/rexster/client/RexsterClientFactory.java"
+                },
+                {
+                    "@type": "item",
+                    "name": "rexster-protocol/src/main/java/com/tinkerpop/rexster/protocol/BitWorks.java"
+                },
+                {
+                    "@type": "item",
+                    "name": "rexster-protocol/src/main/java/com/tinkerpop/rexster/client/RexProClientConnection.java"
+                },
+                {
+                    "@type": "item",
+                    "name": "rexster-protocol/src/main/java/com/tinkerpop/rexster/client/RexsterClient.java"
+                },
+                {
+                    "@type": "item",
+                    "name": "rexster-protocol/src/main/java/com/tinkerpop/rexster/protocol/session/AbstractRexProSession.java"
+                },
+                {
+                    "@type": "item",
+                    "name": "rexster-protocol/src/main/java/com/tinkerpop/rexster/client/RemoteRexsterSession.java"
+                },
+                {
+                    "@type": "item",
+                    "name": "rexster-protocol/src/main/java/com/tinkerpop/rexster/client/RexsterClientHandler.java"
+                },
+                {
+                    "@type": "item",
+                    "name": "rexster-protocol/src/main/java/com/tinkerpop/rexster/protocol/msg/RexProMessageMetaField.java"
+                },
+                {
+                    "@type": "item",
+                    "name": "rexster-protocol/src/main/java/com/tinkerpop/rexster/client/RexsterClientTokens.java"
+                },
+                {
+                    "@type": "item",
+                    "name": "rexster-protocol/src/main/java/com/tinkerpop/rexster/protocol/session/RexProSession.java"
+                },
+                {
+                    "@type": "item",
+                    "name": "rexster-protocol/src/main/java/com/tinkerpop/rexster/protocol/server/SessionServer.java"
+                },
+                {
+                    "@type": "item",
+                    "name": "rexster-protocol/src/main/java/com/tinkerpop/rexster/client/RexProClientFilter.java"
+                },
+                {
+                    "@type": "item",
+                    "name": "rexster-protocol/src/main/java/com/tinkerpop/rexster/protocol/filter/RexProProcessorFilter.java"
+                },
+                {
+                    "@type": "item",
+                    "name": "rexster-protocol/src/main/java/com/tinkerpop/rexster/protocol/filter/RexProServerFilter.java"
+                },
+                {
+                    "@type": "item",
+                    "name": "rexster-protocol/src/main/java/com/tinkerpop/rexster/protocol/msg/SessionRequestMessage.java"
+                }
+            ]
+        },
+        {
+            "@type": "group",
+            "name": "1",
+            "nested": [
+                {
+                    "@type": "item",
+                    "name": "rexster-core/src/main/java/com/tinkerpop/rexster/extension/ExtensionDescriptor.java"
+                },
+                {
+                    "@type": "item",
+                    "name": "rexster-core/src/main/java/com/tinkerpop/rexster/extension/ExtensionRequestParameter.java"
+                },
+                {
+                    "@type": "item",
+                    "name": "rexster-core/src/test/java/com/tinkerpop/rexster/extension/ExtensionResponseTest.java"
+                },
+                {
+                    "@type": "item",
+                    "name": "rexster-core/src/main/java/com/tinkerpop/rexster/extension/ExtensionResponse.java"
+                },
+                {
+                    "@type": "item",
+                    "name": "rexster-core/src/main/java/com/tinkerpop/rexster/RexsterResourceContext.java"
+                },
+                {
+                    "@type": "item",
+                    "name": "rexster-server/src/main/java/com/tinkerpop/rexster/RootResource.java"
+                },
+                {
+                    "@type": "item",
+                    "name": "rexster-core/src/main/java/com/tinkerpop/rexster/extension/AbstractRexsterExtension.java"
+                },
+                {
+                    "@type": "item",
+                    "name": "rexster-kibbles/frames-kibble/src/test/java/com/tinkerpop/rexster/kibbles/frames/FramesExtensionTest.java"
+                },
+                {
+                    "@type": "item",
+                    "name": "rexster-core/src/main/java/com/tinkerpop/rexster/util/ElementHelper.java"
+                },
+                {
+                    "@type": "item",
+                    "name": "rexster-server/src/test/java/com/tinkerpop/rexster/AbstractSubResourceTest.java"
+                },
+                {
+                    "@type": "item",
+                    "name": "rexster-kibbles/frames-kibble/src/main/java/com/tinkerpop/rexster/kibbles/frames/FramesExtension.java"
+                },
+                {
+                    "@type": "item",
+                    "name": "rexster-kibbles/sparql-kibble/src/main/java/com/tinkerpop/rexster/kibbles/sparql/SparqlExtension.java"
+                },
+                {
+                    "@type": "item",
+                    "name": "rexster-server/src/main/java/com/tinkerpop/rexster/AbstractSubResource.java"
+                },
+                {
+                    "@type": "item",
+                    "name": "rexster-core/src/main/java/com/tinkerpop/rexster/extension/RexsterContext.java"
+                },
+                {
+                    "@type": "item",
+                    "name": "rexster-core/src/main/java/com/tinkerpop/rexster/extension/ExtensionDefinition.java"
+                },
+                {
+                    "@type": "item",
+                    "name": "rexster-core/src/main/java/com/tinkerpop/rexster/util/RequestObjectHelper.java"
+                },
+                {
+                    "@type": "item",
+                    "name": "rexster-server/src/main/java/com/tinkerpop/rexster/RexsterResource.java"
+                },
+                {
+                    "@type": "item",
+                    "name": "rexster-core/src/test/java/com/tinkerpop/rexster/extension/ExtensionMethodTest.java"
+                },
+                {
+                    "@type": "item",
+                    "name": "rexster-core/src/test/java/com/tinkerpop/rexster/util/RequestObjectHelperTest.java"
+                },
+                {
+                    "@type": "item",
+                    "name": "rexster-core/src/main/java/com/tinkerpop/rexster/Tokens.java"
+                },
+                {
+                    "@type": "item",
+                    "name": "rexster-core/src/main/java/com/tinkerpop/rexster/extension/ExtensionApi.java"
+                },
+                {
+                    "@type": "item",
+                    "name": "rexster-core/src/main/java/com/tinkerpop/rexster/extension/ExtensionMethod.java"
+                },
+                {
+                    "@type": "item",
+                    "name": "rexster-core/src/test/java/com/tinkerpop/rexster/util/ElementHelperTest.java"
+                },
+                {
+                    "@type": "item",
+                    "name": "rexster-core/src/main/java/com/tinkerpop/rexster/extension/ExtensionApiBehavior.java"
+                },
+                {
+                    "@type": "item",
+                    "name": "rexster-kibbles/sparql-kibble/src/test/java/com/tinkerpop/rexster/kibbles/sparql/SparqlExtensionTest.java"
+                },
+                {
+                    "@type": "item",
+                    "name": "rexster-kibbles/sample-kibbles/src/main/java/com/tinkerpop/rexster/kibbles/sample/MetricExtension.java"
+                }
+            ]
+        },
+        {
+            "@type": "group",
+            "name": "2",
+            "nested": [
+                {
+                    "@type": "item",
+                    "name": "rexster-server/src/main/java/com/tinkerpop/rexster/config/SparkseeGraphConfiguration.java"
+                },
+                {
+                    "@type": "item",
+                    "name": "rexster-server/src/test/java/com/tinkerpop/rexster/config/MockIndexableGraphConfiguration.java"
+                },
+                {
+                    "@type": "item",
+                    "name": "rexster-server/src/test/java/com/tinkerpop/rexster/config/Neo4jGraphConfigurationTest.java"
+                },
+                {
+                    "@type": "item",
+                    "name": "rexster-server/src/test/java/com/tinkerpop/rexster/config/IdGraphConfigurationTest.java"
+                },
+                {
+                    "@type": "item",
+                    "name": "rexster-core/src/main/java/com/tinkerpop/rexster/config/GraphConfigurationContext.java"
+                },
+                {
+                    "@type": "item",
+                    "name": "rexster-server/src/test/java/com/tinkerpop/rexster/RexsterResourceTest.java"
+                },
+                {
+                    "@type": "item",
+                    "name": "rexster-server/src/test/java/com/tinkerpop/rexster/config/SparkseeGraphConfigurationTest.java"
+                },
+                {
+                    "@type": "item",
+                    "name": "rexster-server/src/integration/java/com/tinkerpop/rexster/GraphResourceIntegrationTest.java"
+                },
+                {
+                    "@type": "item",
+                    "name": "rexster-server/src/main/java/com/tinkerpop/rexster/config/RexsterGraphGraphConfiguration.java"
+                },
+                {
+                    "@type": "item",
+                    "name": "rexster-server/src/test/java/com/tinkerpop/rexster/GraphResourceTest.java"
+                },
+                {
+                    "@type": "item",
+                    "name": "rexster-server/src/test/java/com/tinkerpop/rexster/config/MockGraphConfiguration.java"
+                },
+                {
+                    "@type": "item",
+                    "name": "rexster-server/src/main/java/com/tinkerpop/rexster/config/GraphConfigurationContainer.java"
+                },
+                {
+                    "@type": "item",
+                    "name": "rexster-server/src/test/java/com/tinkerpop/rexster/server/DefaultRexsterApplicationTest.java"
+                },
+                {
+                    "@type": "item",
+                    "name": "rexster-server/src/test/java/com/tinkerpop/rexster/config/AbstractSailGraphConfigurationTest.java"
+                },
+                {
+                    "@type": "item",
+                    "name": "rexster-server/src/main/java/com/tinkerpop/rexster/GraphResource.java"
+                },
+                {
+                    "@type": "item",
+                    "name": "rexster-core/src/main/java/com/tinkerpop/rexster/config/GraphConfigurationException.java"
+                },
+                {
+                    "@type": "item",
+                    "name": "rexster-server/src/test/java/com/tinkerpop/rexster/config/MockBadGraphConfiguration.java"
+                },
+                {
+                    "@type": "item",
+                    "name": "rexster-server/src/test/java/com/tinkerpop/rexster/config/GraphConfigurationContainerTest.java"
+                },
+                {
+                    "@type": "item",
+                    "name": "rexster-core/src/main/java/com/tinkerpop/rexster/config/GraphConfiguration.java"
+                },
+                {
+                    "@type": "item",
+                    "name": "rexster-server/src/main/java/com/tinkerpop/rexster/config/AbstractSailGraphConfiguration.java"
+                },
+                {
+                    "@type": "item",
+                    "name": "rexster-server/src/main/java/com/tinkerpop/rexster/util/MockTinkerTransactionalGraph.java"
+                },
+                {
+                    "@type": "item",
+                    "name": "rexster-server/src/test/java/com/tinkerpop/rexster/config/TinkerGraphGraphConfigurationTest.java"
+                },
+                {
+                    "@type": "item",
+                    "name": "rexster-server/src/main/java/com/tinkerpop/rexster/config/IdGraphConfiguration.java"
+                },
+                {
+                    "@type": "item",
+                    "name": "rexster-server/src/main/java/com/tinkerpop/rexster/config/Neo4jGraphConfiguration.java"
+                },
+                {
+                    "@type": "item",
+                    "name": "rexster-server/src/main/java/com/tinkerpop/rexster/config/TinkerGraphGraphConfiguration.java"
+                },
+                {
+                    "@type": "item",
+                    "name": "rexster-server/src/main/java/com/tinkerpop/rexster/config/LinkedDataSailGraphConfiguration.java"
+                }
+            ]
+        },
+        {
+            "@type": "group",
+            "name": "3",
+            "nested": [
+                {
+                    "@type": "item",
+                    "name": "rexster-server/src/main/java/com/tinkerpop/rexster/server/metrics/RegexMetricFilter.java"
+                },
+                {
+                    "@type": "item",
+                    "name": "rexster-server/src/main/java/com/tinkerpop/rexster/server/metrics/AbstractReporterConfig.java"
+                },
+                {
+                    "@type": "item",
+                    "name": "rexster-server/src/main/java/com/tinkerpop/rexster/filter/HeaderResponseFilter.java"
+                },
+                {
+                    "@type": "item",
+                    "name": "rexster-server/src/main/java/com/tinkerpop/rexster/util/StatisticsHelper.java"
+                },
+                {
+                    "@type": "item",
+                    "name": "rexster-server/src/main/java/com/tinkerpop/rexster/server/metrics/ConsoleReporterConfig.java"
+                },
+                {
+                    "@type": "item",
+                    "name": "rexster-server/src/main/java/com/tinkerpop/rexster/server/RexsterProperties.java"
+                },
+                {
+                    "@type": "item",
+                    "name": "rexster-server/src/main/java/com/tinkerpop/rexster/servlet/RexsterStaticHttpHandler.java"
+                },
+                {
+                    "@type": "item",
+                    "name": "rexster-server/src/main/java/com/tinkerpop/rexster/server/HttpRexsterServer.java"
+                },
+                {
+                    "@type": "item",
+                    "name": "rexster-server/src/main/java/com/tinkerpop/rexster/server/metrics/HostPort.java"
+                },
+                {
+                    "@type": "item",
+                    "name": "rexster-server/src/main/java/com/tinkerpop/rexster/filter/AbstractSecurityFilter.java"
+                },
+                {
+                    "@type": "item",
+                    "name": "rexster-server/src/main/java/com/tinkerpop/rexster/server/metrics/AbstractHostPortReporterConfig.java"
+                },
+                {
+                    "@type": "item",
+                    "name": "rexster-server/src/main/java/com/tinkerpop/rexster/util/JuliToLog4jHandler.java"
+                },
+                {
+                    "@type": "item",
+                    "name": "rexster-server/src/main/java/com/tinkerpop/rexster/server/metrics/HttpReporterConfig.java"
+                },
+                {
+                    "@type": "item",
+                    "name": "rexster-server/src/main/java/com/tinkerpop/rexster/server/metrics/GangliaReporterConfig.java"
+                },
+                {
+                    "@type": "item",
+                    "name": "rexster-server/src/main/java/com/tinkerpop/rexster/server/RexsterServer.java"
+                },
+                {
+                    "@type": "item",
+                    "name": "rexster-server/src/main/java/com/tinkerpop/rexster/filter/DefaultSecurityFilter.java"
+                },
+                {
+                    "@type": "item",
+                    "name": "rexster-server/src/main/java/com/tinkerpop/rexster/Application.java"
+                },
+                {
+                    "@type": "item",
+                    "name": "rexster-server/src/main/java/com/tinkerpop/rexster/server/RexsterSettings.java"
+                },
+                {
+                    "@type": "item",
+                    "name": "rexster-server/src/main/java/com/tinkerpop/rexster/server/metrics/ReporterConfig.java"
+                },
+                {
+                    "@type": "item",
+                    "name": "rexster-server/src/main/java/com/tinkerpop/rexster/util/LogLevel.java"
+                },
+                {
+                    "@type": "item",
+                    "name": "rexster-server/src/main/java/com/tinkerpop/rexster/server/ShutdownManager.java"
+                },
+                {
+                    "@type": "item",
+                    "name": "rexster-server/src/main/java/com/tinkerpop/rexster/servlet/DogHouseServlet.java"
+                },
+                {
+                    "@type": "item",
+                    "name": "rexster-server/src/test/java/com/tinkerpop/rexster/server/metrics/RegexMetricFilterTest.java"
+                },
+                {
+                    "@type": "item",
+                    "name": "rexster-server/src/main/java/com/tinkerpop/rexster/server/RexsterCommandLine.java"
+                },
+                {
+                    "@type": "item",
+                    "name": "rexster-server/src/main/java/com/tinkerpop/rexster/server/RexProRexsterServer.java"
+                },
+                {
+                    "@type": "item",
+                    "name": "rexster-server/src/main/java/com/tinkerpop/rexster/server/metrics/GraphiteReporterConfig.java"
+                }
+            ]
+        },
+        {
+            "@type": "group",
+            "name": "4",
+            "nested": [
+                {
+                    "@type": "item",
+                    "name": "rexster-protocol/src/main/java/com/tinkerpop/rexster/protocol/serializer/msgpack/templates/messages/SessionRequestMessageTemplate.java"
+                },
+                {
+                    "@type": "item",
+                    "name": "rexster-protocol/src/main/java/com/tinkerpop/rexster/protocol/serializer/json/templates/messages/ErrorResponseMessageTemplate.java"
+                },
+                {
+                    "@type": "item",
+                    "name": "rexster-protocol/src/main/java/com/tinkerpop/rexster/protocol/serializer/json/templates/messages/RexProMessageTemplate.java"
+                },
+                {
+                    "@type": "item",
+                    "name": "rexster-protocol/src/main/java/com/tinkerpop/rexster/protocol/msg/SessionResponseMessage.java"
+                },
+                {
+                    "@type": "item",
+                    "name": "rexster-protocol/src/main/java/com/tinkerpop/rexster/protocol/serializer/json/templates/messages/ScriptRequestMessageTemplate.java"
+                },
+                {
+                    "@type": "item",
+                    "name": "rexster-protocol/src/main/java/com/tinkerpop/rexster/protocol/serializer/msgpack/templates/messages/ScriptRequestMessageTemplate.java"
+                },
+                {
+                    "@type": "item",
+                    "name": "rexster-protocol/src/main/java/com/tinkerpop/rexster/protocol/serializer/json/templates/JsonConverter.java"
+                },
+                {
+                    "@type": "item",
+                    "name": "rexster-protocol/src/main/java/com/tinkerpop/rexster/protocol/serializer/json/templates/messages/SessionResponseMessageTemplate.java"
+                },
+                {
+                    "@type": "item",
+                    "name": "rexster-protocol/src/main/java/com/tinkerpop/rexster/protocol/msg/ScriptResponseMessage.java"
+                },
+                {
+                    "@type": "item",
+                    "name": "rexster-protocol/src/main/java/com/tinkerpop/rexster/protocol/serializer/msgpack/templates/messages/RexProMessageTemplate.java"
+                },
+                {
+                    "@type": "item",
+                    "name": "rexster-protocol/src/main/java/com/tinkerpop/rexster/protocol/serializer/msgpack/templates/messages/ErrorResponseMessageTemplate.java"
+                },
+                {
+                    "@type": "item",
+                    "name": "rexster-protocol/src/main/java/com/tinkerpop/rexster/protocol/serializer/msgpack/templates/messages/MsgPackScriptResponseMessageTemplate.java"
+                },
+                {
+                    "@type": "item",
+                    "name": "rexster-protocol/src/main/java/com/tinkerpop/rexster/client/TryRexProSessioned.java"
+                },
+                {
+                    "@type": "item",
+                    "name": "rexster-protocol/src/main/java/com/tinkerpop/rexster/protocol/serializer/json/templates/messages/ScriptResponseMessageTemplate.java"
+                },
+                {
+                    "@type": "item",
+                    "name": "rexster-protocol/src/main/java/com/tinkerpop/rexster/protocol/serializer/msgpack/templates/messages/SessionResponseMessageTemplate.java"
+                },
+                {
+                    "@type": "item",
+                    "name": "rexster-protocol/src/main/java/com/tinkerpop/rexster/protocol/serializer/json/templates/messages/SessionRequestMessageTemplate.java"
+                }
+            ]
+        },
+        {
+            "@type": "group",
+            "name": "5",
+            "nested": [
+                {
+                    "@type": "item",
+                    "name": "rexster-protocol/src/test/java/com/tinkerpop/rexster/protocol/serializer/AbstractResultSerializerTest.java"
+                },
+                {
+                    "@type": "item",
+                    "name": "rexster-protocol/src/test/java/com/tinkerpop/rexster/protocol/msg/ScriptRequestMessageTest.java"
+                },
+                {
+                    "@type": "item",
+                    "name": "rexster-protocol/src/test/java/com/tinkerpop/rexster/protocol/msg/RexProMessageMetaFieldTest.java"
+                },
+                {
+                    "@type": "item",
+                    "name": "rexster-protocol/src/main/java/com/tinkerpop/rexster/gremlin/converter/JSONResultConverter.java"
+                },
+                {
+                    "@type": "item",
+                    "name": "rexster-protocol/src/main/java/com/tinkerpop/rexster/gremlin/converter/ConsoleResultConverter.java"
+                },
+                {
+                    "@type": "item",
+                    "name": "rexster-protocol/src/test/java/com/tinkerpop/rexster/gremlin/converter/MsgPackResultConverterTest.java"
+                },
+                {
+                    "@type": "item",
+                    "name": "rexster-protocol/src/main/java/com/tinkerpop/rexster/gremlin/converter/MsgPackResultConverter.java"
+                },
+                {
+                    "@type": "item",
+                    "name": "rexster-protocol/src/test/java/com/tinkerpop/rexster/protocol/msg/ErrorResponseMessageTest.java"
+                },
+                {
+                    "@type": "item",
+                    "name": "rexster-protocol/src/test/java/com/tinkerpop/rexster/gremlin/converter/ConsoleResultConverterTest.java"
+                },
+                {
+                    "@type": "item",
+                    "name": "rexster-protocol/src/test/java/com/tinkerpop/rexster/protocol/MsgPackConverterTest.java"
+                },
+                {
+                    "@type": "item",
+                    "name": "rexster-protocol/src/test/java/com/tinkerpop/rexster/protocol/msg/SessionResponseMessageTest.java"
+                },
+                {
+                    "@type": "item",
+                    "name": "rexster-protocol/src/main/java/com/tinkerpop/rexster/gremlin/converter/SerializedResultConverter.java"
+                },
+                {
+                    "@type": "item",
+                    "name": "rexster-protocol/src/test/java/com/tinkerpop/rexster/protocol/msg/SessionRequestMessageTest.java"
+                },
+                {
+                    "@type": "item",
+                    "name": "rexster-protocol/src/test/java/com/tinkerpop/rexster/gremlin/converter/JSONResultConverterTest.java"
+                },
+                {
+                    "@type": "item",
+                    "name": "rexster-protocol/src/test/java/com/tinkerpop/rexster/protocol/msg/ScriptResponseMessageTest.java"
+                },
+                {
+                    "@type": "item",
+                    "name": "rexster-core/src/main/java/com/tinkerpop/rexster/gremlin/converter/ResultConverter.java"
+                }
+            ]
+        },
+        {
+            "@type": "group",
+            "name": "6",
+            "nested": [
+                {
+                    "@type": "item",
+                    "name": "rexster-core/src/main/java/com/tinkerpop/rexster/extension/ExtensionConfiguration.java"
+                },
+                {
+                    "@type": "item",
+                    "name": "rexster-core/src/test/java/com/tinkerpop/rexster/extension/ExtensionAllowedTest.java"
+                },
+                {
+                    "@type": "item",
+                    "name": "rexster-core/src/main/java/com/tinkerpop/rexster/util/HierarchicalConfigurationComparator.java"
+                },
+                {
+                    "@type": "item",
+                    "name": "rexster-core/src/test/java/com/tinkerpop/rexster/extension/ExtensionConfigurationTest.java"
+                },
+                {
+                    "@type": "item",
+                    "name": "rexster-core/src/main/java/com/tinkerpop/rexster/extension/ExtensionNaming.java"
+                },
+                {
+                    "@type": "item",
+                    "name": "rexster-core/src/test/java/com/tinkerpop/rexster/RexsterApplicationGraphTest.java"
+                },
+                {
+                    "@type": "item",
+                    "name": "rexster-core/src/test/java/com/tinkerpop/rexster/extension/ExtensionSegmentSetTest.java"
+                },
+                {
+                    "@type": "item",
+                    "name": "rexster-core/src/main/java/com/tinkerpop/rexster/extension/ExtensionPoint.java"
+                },
+                {
+                    "@type": "item",
+                    "name": "rexster-core/src/main/java/com/tinkerpop/rexster/extension/ExtensionSegmentSet.java"
+                },
+                {
+                    "@type": "item",
+                    "name": "rexster-core/src/main/java/com/tinkerpop/rexster/extension/RexsterExtension.java"
+                },
+                {
+                    "@type": "item",
+                    "name": "rexster-core/src/main/java/com/tinkerpop/rexster/extension/ExtensionAllowed.java"
+                },
+                {
+                    "@type": "item",
+                    "name": "rexster-core/src/main/java/com/tinkerpop/rexster/extension/HttpMethod.java"
+                },
+                {
+                    "@type": "item",
+                    "name": "rexster-core/src/main/java/com/tinkerpop/rexster/RexsterApplicationGraph.java"
+                },
+                {
+                    "@type": "item",
+                    "name": "rexster-core/src/main/java/com/tinkerpop/rexster/server/RexsterApplication.java"
+                },
+                {
+                    "@type": "item",
+                    "name": "rexster-core/src/main/java/com/tinkerpop/rexster/server/AbstractMapRexsterApplication.java"
+                }
+            ]
+        },
+        {
+            "@type": "group",
+            "name": "7",
+            "nested": [
+                {
+                    "@type": "item",
+                    "name": "rexster-server/src/main/java/com/tinkerpop/rexster/RexsterMediaType.java"
+                },
+                {
+                    "@type": "item",
+                    "name": "rexster-server/src/main/java/com/tinkerpop/rexster/BaseResource.java"
+                },
+                {
+                    "@type": "item",
+                    "name": "rexster-server/src/main/java/com/tinkerpop/rexster/VertexResource.java"
+                },
+                {
+                    "@type": "item",
+                    "name": "rexster-server/src/integration/java/com/tinkerpop/rexster/VertexResourceIntegrationTest.java"
+                },
+                {
+                    "@type": "item",
+                    "name": "rexster-server/src/test/java/com/tinkerpop/rexster/EdgeResourceTest.java"
+                },
+                {
+                    "@type": "item",
+                    "name": "rexster-server/src/test/java/com/tinkerpop/rexster/BaseResourceTest.java"
+                },
+                {
+                    "@type": "item",
+                    "name": "rexster-server/src/main/java/com/tinkerpop/rexster/EdgeResource.java"
+                },
+                {
+                    "@type": "item",
+                    "name": "rexster-server/src/integration/java/com/tinkerpop/rexster/AbstractResourceIntegrationTest.java"
+                },
+                {
+                    "@type": "item",
+                    "name": "rexster-server/src/test/java/com/tinkerpop/rexster/MockVertex.java"
+                },
+                {
+                    "@type": "item",
+                    "name": "rexster-server/src/integration/java/com/tinkerpop/rexster/AbstractGraphResourceIntegrationTest.java"
+                },
+                {
+                    "@type": "item",
+                    "name": "rexster-server/src/test/java/com/tinkerpop/rexster/VertexResourceTest.java"
+                },
+                {
+                    "@type": "item",
+                    "name": "rexster-server/src/integration/java/com/tinkerpop/rexster/rexpro/AbstractRexProIntegrationTest.java"
+                },
+                {
+                    "@type": "item",
+                    "name": "rexster-server/src/integration/java/com/tinkerpop/rexster/GraphTestHolder.java"
+                },
+                {
+                    "@type": "item",
+                    "name": "rexster-server/src/test/java/com/tinkerpop/rexster/MockEdge.java"
+                },
+                {
+                    "@type": "item",
+                    "name": "rexster-server/src/integration/java/com/tinkerpop/rexster/EdgeResourceIntegrationTest.java"
+                }
+            ]
+        },
+        {
+            "@type": "group",
+            "name": "8",
+            "nested": [
+                {
+                    "@type": "item",
+                    "name": "rexster-kibbles/sample-kibbles/src/test/java/com/tinkerpop/rexster/kibbles/sample/ParametersExtensionTest.java"
+                },
+                {
+                    "@type": "item",
+                    "name": "rexster-kibbles/sample-kibbles/src/main/java/com/tinkerpop/rexster/kibbles/sample/PingAddOnExtension.java"
+                },
+                {
+                    "@type": "item",
+                    "name": "rexster-kibbles/sample-kibbles/src/main/java/com/tinkerpop/rexster/kibbles/sample/ProducesXmlExtension.java"
+                },
+                {
+                    "@type": "item",
+                    "name": "rexster-kibbles/sample-kibbles/src/main/java/com/tinkerpop/rexster/kibbles/sample/PingExtension.java"
+                },
+                {
+                    "@type": "item",
+                    "name": "rexster-kibbles/sample-kibbles/src/test/java/com/tinkerpop/rexster/kibbles/sample/SimplePathExtensionTest.java"
+                },
+                {
+                    "@type": "item",
+                    "name": "rexster-kibbles/sample-kibbles/src/main/java/com/tinkerpop/rexster/kibbles/sample/MapConfigurationExtension.java"
+                },
+                {
+                    "@type": "item",
+                    "name": "rexster-kibbles/sample-kibbles/src/main/java/com/tinkerpop/rexster/kibbles/sample/SimpleRootExtension.java"
+                },
+                {
+                    "@type": "item",
+                    "name": "rexster-kibbles/sample-kibbles/src/test/java/com/tinkerpop/rexster/kibbles/sample/PingExtensionTest.java"
+                },
+                {
+                    "@type": "item",
+                    "name": "rexster-kibbles/sample-kibbles/src/test/java/com/tinkerpop/rexster/kibbles/sample/ProducesXmlExtensionTest.java"
+                },
+                {
+                    "@type": "item",
+                    "name": "rexster-kibbles/sample-kibbles/src/main/java/com/tinkerpop/rexster/kibbles/sample/SecureExtension.java"
+                },
+                {
+                    "@type": "item",
+                    "name": "rexster-kibbles/sample-kibbles/src/main/java/com/tinkerpop/rexster/kibbles/sample/SimplePathExtension.java"
+                },
+                {
+                    "@type": "item",
+                    "name": "rexster-kibbles/sample-kibbles/src/test/java/com/tinkerpop/rexster/kibbles/sample/SimpleRootExtensionTest.java"
+                },
+                {
+                    "@type": "item",
+                    "name": "rexster-kibbles/sample-kibbles/src/main/java/com/tinkerpop/rexster/kibbles/sample/ParametersExtension.java"
+                },
+                {
+                    "@type": "item",
+                    "name": "rexster-kibbles/sample-kibbles/src/main/java/com/tinkerpop/rexster/kibbles/sample/AbstractSampleExtension.java"
+                }
+            ]
+        },
+        {
+            "@type": "group",
+            "name": "9",
+            "nested": [
+                {
+                    "@type": "item",
+                    "name": "rexster-protocol/src/main/java/com/tinkerpop/rexster/protocol/msg/RexProScriptResult.java"
+                },
+                {
+                    "@type": "item",
+                    "name": "rexster-protocol/src/main/java/com/tinkerpop/rexster/protocol/serializer/json/templates/JsonTemplate.java"
+                },
+                {
+                    "@type": "item",
+                    "name": "rexster-protocol/src/main/java/com/tinkerpop/rexster/protocol/serializer/json/templates/MetaTemplate.java"
+                },
+                {
+                    "@type": "item",
+                    "name": "rexster-protocol/src/main/java/com/tinkerpop/rexster/protocol/serializer/msgpack/templates/MetaTemplate.java"
+                },
+                {
+                    "@type": "item",
+                    "name": "rexster-protocol/src/main/java/com/tinkerpop/rexster/protocol/msg/RexProBindings.java"
+                },
+                {
+                    "@type": "item",
+                    "name": "rexster-protocol/src/main/java/com/tinkerpop/rexster/protocol/serializer/msgpack/templates/ResultsConverter.java"
+                },
+                {
+                    "@type": "item",
+                    "name": "rexster-protocol/src/main/java/com/tinkerpop/rexster/protocol/serializer/msgpack/MsgPackSerializer.java"
+                },
+                {
+                    "@type": "item",
+                    "name": "rexster-protocol/src/main/java/com/tinkerpop/rexster/protocol/serializer/json/templates/BindingsTemplate.java"
+                },
+                {
+                    "@type": "item",
+                    "name": "rexster-protocol/src/main/java/com/tinkerpop/rexster/protocol/serializer/msgpack/templates/BindingsTemplate.java"
+                },
+                {
+                    "@type": "item",
+                    "name": "rexster-protocol/src/main/java/com/tinkerpop/rexster/protocol/msg/RexProMessageMeta.java"
+                },
+                {
+                    "@type": "item",
+                    "name": "rexster-protocol/src/main/java/com/tinkerpop/rexster/protocol/serializer/RexProSerializer.java"
+                },
+                {
+                    "@type": "item",
+                    "name": "rexster-protocol/src/main/java/com/tinkerpop/rexster/protocol/serializer/json/JSONSerializer.java"
+                },
+                {
+                    "@type": "item",
+                    "name": "rexster-protocol/src/main/java/com/tinkerpop/rexster/protocol/serializer/msgpack/templates/ResultsTemplate.java"
+                }
+            ]
+        },
+        {
+            "@type": "group",
+            "name": "10",
+            "nested": [
+                {
+                    "@type": "item",
+                    "name": "rexster-server/src/integration/java/com/tinkerpop/rexster/rexpro/json/RexsterClientIntegrationTest.java"
+                },
+                {
+                    "@type": "item",
+                    "name": "rexster-server/src/integration/java/com/tinkerpop/rexster/rexpro/AbstractScriptRequestIntegrationTest.java"
+                },
+                {
+                    "@type": "item",
+                    "name": "rexster-protocol/src/test/java/com/tinkerpop/rexster/protocol/BitWorksTest.java"
+                },
+                {
+                    "@type": "item",
+                    "name": "rexster-server/src/integration/java/com/tinkerpop/rexster/rexpro/msgpack/ScriptRequestIntegrationTest.java"
+                },
+                {
+                    "@type": "item",
+                    "name": "rexster-server/src/integration/java/com/tinkerpop/rexster/rexpro/json/SessionRequestIntegrationTest.java"
+                },
+                {
+                    "@type": "item",
+                    "name": "rexster-server/src/integration/java/com/tinkerpop/rexster/rexpro/msgpack/SessionRequestIntegrationTest.java"
+                },
+                {
+                    "@type": "item",
+                    "name": "rexster-server/src/integration/java/com/tinkerpop/rexster/rexpro/AbstractSessionRequestMessageTest.java"
+                },
+                {
+                    "@type": "item",
+                    "name": "rexster-server/src/integration/java/com/tinkerpop/rexster/rexpro/msgpack/RexsterClientIntegrationTest.java"
+                },
+                {
+                    "@type": "item",
+                    "name": "rexster-server/src/integration/java/com/tinkerpop/rexster/rexpro/AbstractRexsterClientIntegrationTest.java"
+                },
+                {
+                    "@type": "item",
+                    "name": "rexster-server/src/integration/java/com/tinkerpop/rexster/rexpro/json/ScriptRequestIntegrationTest.java"
+                }
+            ]
+        },
+        {
+            "@type": "group",
+            "name": "11",
+            "nested": [
+                {
+                    "@type": "item",
+                    "name": "rexster-server/src/test/java/com/tinkerpop/rexster/MockIndex.java"
+                },
+                {
+                    "@type": "item",
+                    "name": "rexster-server/src/main/java/com/tinkerpop/rexster/IndexResource.java"
+                },
+                {
+                    "@type": "item",
+                    "name": "rexster-server/src/test/java/com/tinkerpop/rexster/IndexResourceTest.java"
+                },
+                {
+                    "@type": "item",
+                    "name": "rexster-server/src/main/java/com/tinkerpop/rexster/KeyIndexResource.java"
+                },
+                {
+                    "@type": "item",
+                    "name": "rexster-server/src/integration/java/com/tinkerpop/rexster/IndexResourceIntegrationTest.java"
+                },
+                {
+                    "@type": "item",
+                    "name": "rexster-server/src/test/java/com/tinkerpop/rexster/ResourceHolder.java"
+                },
+                {
+                    "@type": "item",
+                    "name": "rexster-server/src/main/java/com/tinkerpop/rexster/PrefixResource.java"
+                },
+                {
+                    "@type": "item",
+                    "name": "rexster-server/src/test/java/com/tinkerpop/rexster/KeyIndexResourceTest.java"
+                },
+                {
+                    "@type": "item",
+                    "name": "rexster-server/src/test/java/com/tinkerpop/rexster/PrefixResourceTest.java"
+                },
+                {
+                    "@type": "item",
+                    "name": "rexster-server/src/test/java/com/tinkerpop/rexster/BaseTest.java"
+                }
+            ]
+        },
+        {
+            "@type": "group",
+            "name": "12",
+            "nested": [
+                {
+                    "@type": "item",
+                    "name": "rexster-server/src/main/java/com/tinkerpop/rexster/servlet/EvaluatorServlet.java"
+                },
+                {
+                    "@type": "item",
+                    "name": "rexster-server/src/main/java/com/tinkerpop/rexster/config/MemoryStoreSailGraphConfiguration.java"
+                },
+                {
+                    "@type": "item",
+                    "name": "rexster-server/src/main/java/com/tinkerpop/rexster/gremlin/GremlinFactory.java"
+                },
+                {
+                    "@type": "item",
+                    "name": "rexster-server/src/main/java/com/tinkerpop/rexster/gremlin/GremlinSession.java"
+                },
+                {
+                    "@type": "item",
+                    "name": "rexster-server/src/main/java/com/tinkerpop/rexster/gremlin/GremlinEvaluationJob.java"
+                },
+                {
+                    "@type": "item",
+                    "name": "rexster-server/src/main/java/com/tinkerpop/rexster/gremlin/GremlinGarbageCollector.java"
+                },
+                {
+                    "@type": "item",
+                    "name": "rexster-server/src/main/java/com/tinkerpop/rexster/config/SparqlRepositorySailGraphConfiguration.java"
+                },
+                {
+                    "@type": "item",
+                    "name": "rexster-server/src/test/java/com/tinkerpop/rexster/config/MockSailGraphConfiguration.java"
+                },
+                {
+                    "@type": "item",
+                    "name": "rexster-server/src/main/java/com/tinkerpop/rexster/gremlin/GremlinSessions.java"
+                },
+                {
+                    "@type": "item",
+                    "name": "rexster-server/src/main/java/com/tinkerpop/rexster/config/NativeStoreSailGraphConfiguration.java"
+                }
+            ]
+        },
+        {
+            "@type": "group",
+            "name": "13",
+            "nested": [
+                {
+                    "@type": "item",
+                    "name": "rexster-server/src/performance/java/com/tinkerpop/rexster/ScenarioReadManyVerticesTest.java"
+                },
+                {
+                    "@type": "item",
+                    "name": "rexster-server/src/main/java/com/tinkerpop/rexster/gremlin/GremlinExtension.java"
+                },
+                {
+                    "@type": "item",
+                    "name": "rexster-server/src/performance/java/com/tinkerpop/rexster/ScenarioWriteManyVerticesTest.java"
+                },
+                {
+                    "@type": "item",
+                    "name": "rexster-server/src/performance/java/com/tinkerpop/rexster/AbstractRexsterPerformanceTest.java"
+                },
+                {
+                    "@type": "item",
+                    "name": "rexster-server/src/test/java/com/tinkerpop/rexster/gremlin/GremlinExtensionTest.java"
+                },
+                {
+                    "@type": "item",
+                    "name": "rexster-server/src/performance/java/com/tinkerpop/rexster/ScenarioGremlinTraverseTest.java"
+                },
+                {
+                    "@type": "item",
+                    "name": "rexster-server/src/performance/java/com/tinkerpop/rexster/ScenarioReadManyEdgesTest.java"
+                },
+                {
+                    "@type": "item",
+                    "name": "rexster-server/src/performance/java/com/tinkerpop/rexster/ScenarioGremlinAdditionTest.java"
+                }
+            ]
+        },
+        {
+            "@type": "group",
+            "name": "14",
+            "nested": [
+                {
+                    "@type": "item",
+                    "name": "rexster-server/src/main/java/com/tinkerpop/rexster/server/DefaultRexsterApplication.java"
+                },
+                {
+                    "@type": "item",
+                    "name": "rexster-server/src/main/java/com/tinkerpop/rexster/server/GrizzlyIoStrategyFactory.java"
+                },
+                {
+                    "@type": "item",
+                    "name": "rexster-server/src/main/java/com/tinkerpop/rexster/server/RexsterApplicationProvider.java"
+                },
+                {
+                    "@type": "item",
+                    "name": "rexster-server/src/test/java/com/tinkerpop/rexster/server/RexsterXmlData.java"
+                },
+                {
+                    "@type": "item",
+                    "name": "rexster-server/src/main/java/com/tinkerpop/rexster/server/XmlRexsterApplication.java"
+                },
+                {
+                    "@type": "item",
+                    "name": "rexster-server/src/test/java/com/tinkerpop/rexster/server/XmlRexsterApplicationTest.java"
+                },
+                {
+                    "@type": "item",
+                    "name": "rexster-server/src/test/java/com/tinkerpop/rexster/server/RexsterSettingsTest.java"
+                }
+            ]
+        },
+        {
+            "@type": "group",
+            "name": "15",
+            "nested": [
+                {
+                    "@type": "item",
+                    "name": "rexster-kibbles/frames-kibble/src/test/java/com/tinkerpop/frames/domain/incidences/CreatedBy.java"
+                },
+                {
+                    "@type": "item",
+                    "name": "rexster-kibbles/frames-kibble/src/test/java/com/tinkerpop/frames/domain/incidences/Created.java"
+                },
+                {
+                    "@type": "item",
+                    "name": "rexster-kibbles/frames-kibble/src/test/java/com/tinkerpop/frames/domain/classes/Person.java"
+                },
+                {
+                    "@type": "item",
+                    "name": "rexster-kibbles/frames-kibble/src/test/java/com/tinkerpop/frames/domain/incidences/Knows.java"
+                },
+                {
+                    "@type": "item",
+                    "name": "rexster-kibbles/frames-kibble/src/test/java/com/tinkerpop/frames/domain/classes/NamedObject.java"
+                },
+                {
+                    "@type": "item",
+                    "name": "rexster-kibbles/frames-kibble/src/test/java/com/tinkerpop/frames/domain/classes/Project.java"
+                }
+            ]
+        },
+        {
+            "@type": "group",
+            "name": "16",
+            "nested": [
+                {
+                    "@type": "item",
+                    "name": "rexster-protocol/src/test/java/com/tinkerpop/rexster/protocol/EngineHolderTest.java"
+                },
+                {
+                    "@type": "item",
+                    "name": "rexster-protocol/src/main/java/com/tinkerpop/rexster/protocol/EngineConfiguration.java"
+                },
+                {
+                    "@type": "item",
+                    "name": "rexster-protocol/src/main/java/com/tinkerpop/rexster/protocol/EngineHolder.java"
+                },
+                {
+                    "@type": "item",
+                    "name": "rexster-protocol/src/main/java/com/tinkerpop/rexster/protocol/EngineController.java"
+                }
+            ]
+        },
+        {
+            "@type": "group",
+            "name": "17",
+            "nested": [
+                {
+                    "@type": "item",
+                    "name": "rexster-console/src/main/java/com/tinkerpop/rexster/console/RexsterConsole.java"
+                },
+                {
+                    "@type": "item",
+                    "name": "rexster-console/src/main/java/com/tinkerpop/rexster/console/ConsoleSettings.java"
+                },
+                {
+                    "@type": "item",
+                    "name": "rexster-console/src/main/java/com/tinkerpop/rexster/console/ResultAndBindings.java"
+                }
+            ]
+        },
+        {
+            "@type": "group",
+            "name": "18",
+            "nested": [
+                {
+                    "@type": "item",
+                    "name": "rexster-core/src/main/java/com/tinkerpop/rexster/util/QueryProperties.java"
+                },
+                {
+                    "@type": "item",
+                    "name": "rexster-server/src/main/java/com/tinkerpop/rexster/filter/CharsetHolder.java"
+                },
+                {
+                    "@type": "item",
+                    "name": "rexster-server/src/test/java/com/tinkerpop/rexster/filter/CharsetHolderTest.java"
+                }
+            ]
+        },
+        {
+            "@type": "group",
+            "name": "19",
+            "nested": [
+                {
+                    "@type": "item",
+                    "name": "rexster-kibbles/batch-kibble/src/test/java/com/tinkerpop/rexster/kibbles/batch/BatchExtensionTest.java"
+                },
+                {
+                    "@type": "item",
+                    "name": "rexster-kibbles/batch-kibble/src/main/java/com/tinkerpop/rexster/kibbles/batch/BatchExtension.java"
+                }
+            ]
+        }
+    ]
+}

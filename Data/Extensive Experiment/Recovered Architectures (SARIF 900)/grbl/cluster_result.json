@@ -1,0 +1,244 @@
+{
+    "@schemaVersion": "1.0",
+    "name": "clustering",
+    "structure": [
+        {
+            "@type": "group",
+            "name": "0",
+            "nested": [
+                {
+                    "@type": "item",
+                    "name": "grbl/defaults/defaults_sherline.h"
+                },
+                {
+                    "@type": "item",
+                    "name": "grbl/defaults/defaults_shapeoko3.h"
+                },
+                {
+                    "@type": "item",
+                    "name": "grbl/defaults/defaults_zen_toolworks_7x7.h"
+                },
+                {
+                    "@type": "item",
+                    "name": "grbl/defaults/defaults_shapeoko2.h"
+                },
+                {
+                    "@type": "item",
+                    "name": "grbl/defaults/defaults_simulator.h"
+                },
+                {
+                    "@type": "item",
+                    "name": "grbl/defaults/defaults_oxcnc.h"
+                },
+                {
+                    "@type": "item",
+                    "name": "grbl/defaults/defaults_x_carve_500mm.h"
+                },
+                {
+                    "@type": "item",
+                    "name": "grbl/defaults/defaults_x_carve_1000mm.h"
+                },
+                {
+                    "@type": "item",
+                    "name": "grbl/defaults/defaults_shapeoko.h"
+                },
+                {
+                    "@type": "item",
+                    "name": "grbl/defaults/defaults_generic.h"
+                }
+            ]
+        },
+        {
+            "@type": "group",
+            "name": "1",
+            "nested": [
+                {
+                    "@type": "item",
+                    "name": "grbl/config.h"
+                },
+                {
+                    "@type": "item",
+                    "name": "grbl/grbl.h"
+                },
+                {
+                    "@type": "item",
+                    "name": "grbl/cpu_map.h"
+                },
+                {
+                    "@type": "item",
+                    "name": "grbl/coolant_control.h"
+                },
+                {
+                    "@type": "item",
+                    "name": "grbl/coolant_control.c"
+                },
+                {
+                    "@type": "item",
+                    "name": "grbl/spindle_control.h"
+                },
+                {
+                    "@type": "item",
+                    "name": "grbl/spindle_control.c"
+                },
+                {
+                    "@type": "item",
+                    "name": "grbl/defaults.h"
+                }
+            ]
+        },
+        {
+            "@type": "group",
+            "name": "2",
+            "nested": [
+                {
+                    "@type": "item",
+                    "name": "grbl/motion_control.h"
+                },
+                {
+                    "@type": "item",
+                    "name": "grbl/motion_control.c"
+                },
+                {
+                    "@type": "item",
+                    "name": "grbl/system.h"
+                },
+                {
+                    "@type": "item",
+                    "name": "grbl/system.c"
+                },
+                {
+                    "@type": "item",
+                    "name": "grbl/limits.h"
+                },
+                {
+                    "@type": "item",
+                    "name": "grbl/limits.c"
+                },
+                {
+                    "@type": "item",
+                    "name": "grbl/gcode.h"
+                },
+                {
+                    "@type": "item",
+                    "name": "grbl/gcode.c"
+                },
+                {
+                    "@type": "item",
+                    "name": "grbl/main.c"
+                },
+                {
+                    "@type": "item",
+                    "name": "grbl/protocol.h"
+                },
+                {
+                    "@type": "item",
+                    "name": "grbl/protocol.c"
+                }
+            ]
+        },
+        {
+            "@type": "group",
+            "name": "3",
+            "nested": [
+                {
+                    "@type": "item",
+                    "name": "grbl/planner.h"
+                },
+                {
+                    "@type": "item",
+                    "name": "grbl/planner.c"
+                },
+                {
+                    "@type": "item",
+                    "name": "grbl/stepper.h"
+                },
+                {
+                    "@type": "item",
+                    "name": "grbl/stepper.c"
+                },
+                {
+                    "@type": "item",
+                    "name": "grbl/probe.h"
+                },
+                {
+                    "@type": "item",
+                    "name": "grbl/probe.c"
+                },
+                {
+                    "@type": "item",
+                    "name": "grbl/nuts_bolts.h"
+                },
+                {
+                    "@type": "item",
+                    "name": "grbl/nuts_bolts.c"
+                }
+            ]
+        },
+        {
+            "@type": "group",
+            "name": "4",
+            "nested": [
+                {
+                    "@type": "item",
+                    "name": "grbl/report.h"
+                },
+                {
+                    "@type": "item",
+                    "name": "grbl/report.c"
+                },
+                {
+                    "@type": "item",
+                    "name": "grbl/serial.h"
+                },
+                {
+                    "@type": "item",
+                    "name": "grbl/serial.c"
+                },
+                {
+                    "@type": "item",
+                    "name": "grbl/print.h"
+                },
+                {
+                    "@type": "item",
+                    "name": "grbl/print.c"
+                }
+            ]
+        },
+        {
+            "@type": "group",
+            "name": "5",
+            "nested": [
+                {
+                    "@type": "item",
+                    "name": "grbl/eeprom.c"
+                },
+                {
+                    "@type": "item",
+                    "name": "grbl/settings.h"
+                },
+                {
+                    "@type": "item",
+                    "name": "grbl/settings.c"
+                },
+                {
+                    "@type": "item",
+                    "name": "grbl/eeprom.h"
+                }
+            ]
+        },
+        {
+            "@type": "group",
+            "name": "6",
+            "nested": [
+                {
+                    "@type": "item",
+                    "name": "grbl/cpu_map/cpu_map_atmega2560.h"
+                },
+                {
+                    "@type": "item",
+                    "name": "grbl/cpu_map/cpu_map_atmega328p.h"
+                }
+            ]
+        }
+    ]
+}

@@ -1,0 +1,758 @@
+{
+    "@schemaVersion": "1.0",
+    "name": "clustering",
+    "structure": [
+        {
+            "@type": "group",
+            "name": "0",
+            "nested": [
+                {
+                    "@type": "item",
+                    "name": "src/colorutils.cpp"
+                },
+                {
+                    "@type": "item",
+                    "name": "src/wiring.cpp"
+                },
+                {
+                    "@type": "item",
+                    "name": "src/bitswap.cpp"
+                },
+                {
+                    "@type": "item",
+                    "name": "src/noise.h"
+                },
+                {
+                    "@type": "item",
+                    "name": "src/hsv2rgb.cpp"
+                },
+                {
+                    "@type": "item",
+                    "name": "src/platforms.h"
+                },
+                {
+                    "@type": "item",
+                    "name": "src/FastLED.h"
+                },
+                {
+                    "@type": "item",
+                    "name": "src/fastled_config.h"
+                },
+                {
+                    "@type": "item",
+                    "name": "src/chipsets.h"
+                },
+                {
+                    "@type": "item",
+                    "name": "src/dmx.h"
+                },
+                {
+                    "@type": "item",
+                    "name": "src/fastpin.h"
+                },
+                {
+                    "@type": "item",
+                    "name": "src/cpp_compat.h"
+                },
+                {
+                    "@type": "item",
+                    "name": "src/bitswap.h"
+                },
+                {
+                    "@type": "item",
+                    "name": "src/noise.cpp"
+                },
+                {
+                    "@type": "item",
+                    "name": "src/fastled_delay.h"
+                },
+                {
+                    "@type": "item",
+                    "name": "src/FastLED.cpp"
+                },
+                {
+                    "@type": "item",
+                    "name": "src/led_sysdefs.h"
+                }
+            ]
+        },
+        {
+            "@type": "group",
+            "name": "1",
+            "nested": [
+                {
+                    "@type": "item",
+                    "name": "src/platforms/arm/k20/fastled_arm_k20.h"
+                },
+                {
+                    "@type": "item",
+                    "name": "src/platforms/arm/k20/octows2811_controller.h"
+                },
+                {
+                    "@type": "item",
+                    "name": "src/platforms/arm/k20/clockless_block_arm_k20.h"
+                },
+                {
+                    "@type": "item",
+                    "name": "src/platforms/arm/k20/smartmatrix_t3.h"
+                },
+                {
+                    "@type": "item",
+                    "name": "src/platforms/arm/k20/fastpin_arm_k20.h"
+                },
+                {
+                    "@type": "item",
+                    "name": "src/platforms/arm/k20/ws2812serial_controller.h"
+                },
+                {
+                    "@type": "item",
+                    "name": "src/platforms/arm/k20/fastspi_arm_k20.h"
+                },
+                {
+                    "@type": "item",
+                    "name": "src/platforms/arm/k20/clockless_arm_k20.h"
+                }
+            ]
+        },
+        {
+            "@type": "group",
+            "name": "2",
+            "nested": [
+                {
+                    "@type": "item",
+                    "name": "src/platforms/esp/32/clockless_block_esp32.h"
+                },
+                {
+                    "@type": "item",
+                    "name": "src/platforms/esp/32/clockless_rmt_esp32.h"
+                },
+                {
+                    "@type": "item",
+                    "name": "src/platforms/esp/32/clockless_rmt_esp32.cpp"
+                },
+                {
+                    "@type": "item",
+                    "name": "src/platforms/esp/32/fastled_esp32.h"
+                },
+                {
+                    "@type": "item",
+                    "name": "src/platforms/esp/32/fastpin_esp32.h"
+                },
+                {
+                    "@type": "item",
+                    "name": "src/platforms/esp/32/fastspi_esp32.h"
+                },
+                {
+                    "@type": "item",
+                    "name": "src/platforms/esp/32/clockless_i2s_esp32.h"
+                },
+                {
+                    "@type": "item",
+                    "name": "src/platforms/esp/32/led_sysdefs_esp32.h"
+                }
+            ]
+        },
+        {
+            "@type": "group",
+            "name": "3",
+            "nested": [
+                {
+                    "@type": "item",
+                    "name": "src/platforms/arm/nrf52/fastled_arm_nrf52.h"
+                },
+                {
+                    "@type": "item",
+                    "name": "src/platforms/arm/nrf52/fastspi_arm_nrf52.h"
+                },
+                {
+                    "@type": "item",
+                    "name": "src/platforms/arm/nrf52/fastpin_arm_nrf52_variants.h"
+                },
+                {
+                    "@type": "item",
+                    "name": "src/platforms/arm/nrf52/arbiter_nrf52.h"
+                },
+                {
+                    "@type": "item",
+                    "name": "src/platforms/arm/nrf52/fastpin_arm_nrf52.h"
+                },
+                {
+                    "@type": "item",
+                    "name": "src/platforms/arm/nrf52/clockless_arm_nrf52.h"
+                },
+                {
+                    "@type": "item",
+                    "name": "src/platforms/arm/nrf52/led_sysdefs_arm_nrf52.h"
+                }
+            ]
+        },
+        {
+            "@type": "group",
+            "name": "4",
+            "nested": [
+                {
+                    "@type": "item",
+                    "name": "src/platforms/arm/mxrt1062/fastspi_arm_mxrt1062.h"
+                },
+                {
+                    "@type": "item",
+                    "name": "src/platforms/arm/mxrt1062/fastled_arm_mxrt1062.h"
+                },
+                {
+                    "@type": "item",
+                    "name": "src/platforms/arm/mxrt1062/clockless_arm_mxrt1062.h"
+                },
+                {
+                    "@type": "item",
+                    "name": "src/platforms/arm/mxrt1062/fastpin_arm_mxrt1062.h"
+                },
+                {
+                    "@type": "item",
+                    "name": "src/platforms/arm/mxrt1062/octows2811_controller.h"
+                },
+                {
+                    "@type": "item",
+                    "name": "src/platforms/arm/mxrt1062/block_clockless_arm_mxrt1062.h"
+                }
+            ]
+        },
+        {
+            "@type": "group",
+            "name": "5",
+            "nested": [
+                {
+                    "@type": "item",
+                    "name": "src/platforms/arm/sam/clockless_arm_sam.h"
+                },
+                {
+                    "@type": "item",
+                    "name": "src/platforms/arm/sam/led_sysdefs_arm_sam.h"
+                },
+                {
+                    "@type": "item",
+                    "name": "src/platforms/arm/sam/fastspi_arm_sam.h"
+                },
+                {
+                    "@type": "item",
+                    "name": "src/platforms/arm/sam/clockless_block_arm_sam.h"
+                },
+                {
+                    "@type": "item",
+                    "name": "src/platforms/arm/sam/fastled_arm_sam.h"
+                },
+                {
+                    "@type": "item",
+                    "name": "src/platforms/arm/sam/fastpin_arm_sam.h"
+                }
+            ]
+        },
+        {
+            "@type": "group",
+            "name": "6",
+            "nested": [
+                {
+                    "@type": "item",
+                    "name": "src/controller.h"
+                },
+                {
+                    "@type": "item",
+                    "name": "src/color.h"
+                },
+                {
+                    "@type": "item",
+                    "name": "src/lib8tion.h"
+                },
+                {
+                    "@type": "item",
+                    "name": "src/pixeltypes.h"
+                },
+                {
+                    "@type": "item",
+                    "name": "src/power_mgt.h"
+                },
+                {
+                    "@type": "item",
+                    "name": "src/power_mgt.cpp"
+                },
+                {
+                    "@type": "item",
+                    "name": "src/lib8tion.cpp"
+                },
+                {
+                    "@type": "item",
+                    "name": "src/hsv2rgb.h"
+                }
+            ]
+        },
+        {
+            "@type": "group",
+            "name": "7",
+            "nested": [
+                {
+                    "@type": "item",
+                    "name": "src/platforms/arm/k66/clockless_arm_k66.h"
+                },
+                {
+                    "@type": "item",
+                    "name": "src/platforms/arm/k66/clockless_block_arm_k66.h"
+                },
+                {
+                    "@type": "item",
+                    "name": "src/platforms/arm/k66/fastled_arm_k66.h"
+                },
+                {
+                    "@type": "item",
+                    "name": "src/platforms/arm/k66/fastpin_arm_k66.h"
+                },
+                {
+                    "@type": "item",
+                    "name": "src/platforms/arm/k66/fastspi_arm_k66.h"
+                }
+            ]
+        },
+        {
+            "@type": "group",
+            "name": "8",
+            "nested": [
+                {
+                    "@type": "item",
+                    "name": "src/platforms/arm/rp2040/pio_asm.h"
+                },
+                {
+                    "@type": "item",
+                    "name": "src/platforms/arm/rp2040/fastled_arm_rp2040.h"
+                },
+                {
+                    "@type": "item",
+                    "name": "src/platforms/arm/rp2040/pio_gen.h"
+                },
+                {
+                    "@type": "item",
+                    "name": "src/platforms/arm/rp2040/fastpin_arm_rp2040.h"
+                },
+                {
+                    "@type": "item",
+                    "name": "src/platforms/arm/rp2040/clockless_arm_rp2040.h"
+                }
+            ]
+        },
+        {
+            "@type": "group",
+            "name": "9",
+            "nested": [
+                {
+                    "@type": "item",
+                    "name": "src/platforms/avr/clockless_trinket.h"
+                },
+                {
+                    "@type": "item",
+                    "name": "src/platforms/avr/fastpin_avr.h"
+                },
+                {
+                    "@type": "item",
+                    "name": "src/platforms/avr/led_sysdefs_avr.h"
+                },
+                {
+                    "@type": "item",
+                    "name": "src/platforms/avr/fastspi_avr.h"
+                },
+                {
+                    "@type": "item",
+                    "name": "src/platforms/avr/fastled_avr.h"
+                }
+            ]
+        },
+        {
+            "@type": "group",
+            "name": "10",
+            "nested": [
+                {
+                    "@type": "item",
+                    "name": "src/platforms/esp/8266/clockless_esp8266.h"
+                },
+                {
+                    "@type": "item",
+                    "name": "src/platforms/esp/8266/clockless_block_esp8266.h"
+                },
+                {
+                    "@type": "item",
+                    "name": "src/platforms/esp/8266/fastled_esp8266.h"
+                },
+                {
+                    "@type": "item",
+                    "name": "src/platforms/esp/8266/fastpin_esp8266.h"
+                },
+                {
+                    "@type": "item",
+                    "name": "src/platforms/esp/8266/fastspi_esp8266.h"
+                }
+            ]
+        },
+        {
+            "@type": "group",
+            "name": "11",
+            "nested": [
+                {
+                    "@type": "item",
+                    "name": "src/colorutils.h"
+                },
+                {
+                    "@type": "item",
+                    "name": "src/fastled_progmem.h"
+                },
+                {
+                    "@type": "item",
+                    "name": "src/colorpalettes.h"
+                },
+                {
+                    "@type": "item",
+                    "name": "src/colorpalettes.cpp"
+                }
+            ]
+        },
+        {
+            "@type": "group",
+            "name": "12",
+            "nested": [
+                {
+                    "@type": "item",
+                    "name": "src/fastspi_types.h"
+                },
+                {
+                    "@type": "item",
+                    "name": "src/fastspi_bitbang.h"
+                },
+                {
+                    "@type": "item",
+                    "name": "src/fastspi_nop.h"
+                },
+                {
+                    "@type": "item",
+                    "name": "src/fastspi_ref.h"
+                }
+            ]
+        },
+        {
+            "@type": "group",
+            "name": "13",
+            "nested": [
+                {
+                    "@type": "item",
+                    "name": "src/platforms/apollo3/fastspi_apollo3.h"
+                },
+                {
+                    "@type": "item",
+                    "name": "src/platforms/apollo3/fastpin_apollo3.h"
+                },
+                {
+                    "@type": "item",
+                    "name": "src/platforms/apollo3/fastled_apollo3.h"
+                },
+                {
+                    "@type": "item",
+                    "name": "src/platforms/apollo3/clockless_apollo3.h"
+                }
+            ]
+        },
+        {
+            "@type": "group",
+            "name": "14",
+            "nested": [
+                {
+                    "@type": "item",
+                    "name": "src/platforms/arm/kl26/clockless_arm_kl26.h"
+                },
+                {
+                    "@type": "item",
+                    "name": "src/platforms/arm/kl26/fastpin_arm_kl26.h"
+                },
+                {
+                    "@type": "item",
+                    "name": "src/platforms/arm/kl26/fastled_arm_kl26.h"
+                },
+                {
+                    "@type": "item",
+                    "name": "src/platforms/arm/kl26/fastspi_arm_kl26.h"
+                }
+            ]
+        },
+        {
+            "@type": "group",
+            "name": "15",
+            "nested": [
+                {
+                    "@type": "item",
+                    "name": "src/platforms/arm/nrf51/fastled_arm_nrf51.h"
+                },
+                {
+                    "@type": "item",
+                    "name": "src/platforms/arm/nrf51/fastpin_arm_nrf51.h"
+                },
+                {
+                    "@type": "item",
+                    "name": "src/platforms/arm/nrf51/clockless_arm_nrf51.h"
+                },
+                {
+                    "@type": "item",
+                    "name": "src/platforms/arm/nrf51/fastspi_arm_nrf51.h"
+                }
+            ]
+        },
+        {
+            "@type": "group",
+            "name": "16",
+            "nested": [
+                {
+                    "@type": "item",
+                    "name": "src/platforms/arm/d21/clockless_arm_d21.h"
+                },
+                {
+                    "@type": "item",
+                    "name": "src/platforms/arm/d21/fastpin_arm_d21.h"
+                },
+                {
+                    "@type": "item",
+                    "name": "src/platforms/arm/d21/fastled_arm_d21.h"
+                }
+            ]
+        },
+        {
+            "@type": "group",
+            "name": "17",
+            "nested": [
+                {
+                    "@type": "item",
+                    "name": "src/platforms/arm/d51/fastled_arm_d51.h"
+                },
+                {
+                    "@type": "item",
+                    "name": "src/platforms/arm/d51/fastpin_arm_d51.h"
+                },
+                {
+                    "@type": "item",
+                    "name": "src/platforms/arm/d51/clockless_arm_d51.h"
+                }
+            ]
+        },
+        {
+            "@type": "group",
+            "name": "18",
+            "nested": [
+                {
+                    "@type": "item",
+                    "name": "src/platforms/arm/stm32/fastled_arm_stm32.h"
+                },
+                {
+                    "@type": "item",
+                    "name": "src/platforms/arm/stm32/fastpin_arm_stm32.h"
+                },
+                {
+                    "@type": "item",
+                    "name": "src/platforms/arm/stm32/clockless_arm_stm32.h"
+                }
+            ]
+        },
+        {
+            "@type": "group",
+            "name": "19",
+            "nested": [
+                {
+                    "@type": "item",
+                    "name": "src/lib8tion/math8.h"
+                },
+                {
+                    "@type": "item",
+                    "name": "src/lib8tion/scale8.h"
+                }
+            ]
+        },
+        {
+            "@type": "group",
+            "name": "20",
+            "nested": [
+                {
+                    "@type": "item",
+                    "name": "src/platforms/arm/stm32/cm3_regs.h"
+                },
+                {
+                    "@type": "item",
+                    "name": "src/platforms/arm/stm32/led_sysdefs_arm_stm32.h"
+                }
+            ]
+        },
+        {
+            "@type": "group",
+            "name": "21",
+            "nested": [
+                {
+                    "@type": "item",
+                    "name": "src/fastspi.h"
+                },
+                {
+                    "@type": "item",
+                    "name": "src/fastspi_dma.h"
+                }
+            ]
+        },
+        {
+            "@type": "group",
+            "name": "22",
+            "nested": [
+                {
+                    "@type": "item",
+                    "name": "src/lib8tion/random8.h"
+                }
+            ]
+        },
+        {
+            "@type": "group",
+            "name": "23",
+            "nested": [
+                {
+                    "@type": "item",
+                    "name": "src/lib8tion/trig8.h"
+                }
+            ]
+        },
+        {
+            "@type": "group",
+            "name": "24",
+            "nested": [
+                {
+                    "@type": "item",
+                    "name": "src/platforms.cpp"
+                }
+            ]
+        },
+        {
+            "@type": "group",
+            "name": "25",
+            "nested": [
+                {
+                    "@type": "item",
+                    "name": "src/platforms/apollo3/led_sysdefs_apollo3.h"
+                }
+            ]
+        },
+        {
+            "@type": "group",
+            "name": "26",
+            "nested": [
+                {
+                    "@type": "item",
+                    "name": "src/platforms/arm/common/m0clockless.h"
+                }
+            ]
+        },
+        {
+            "@type": "group",
+            "name": "27",
+            "nested": [
+                {
+                    "@type": "item",
+                    "name": "src/platforms/arm/d21/led_sysdefs_arm_d21.h"
+                }
+            ]
+        },
+        {
+            "@type": "group",
+            "name": "28",
+            "nested": [
+                {
+                    "@type": "item",
+                    "name": "src/platforms/arm/d51/led_sysdefs_arm_d51.h"
+                }
+            ]
+        },
+        {
+            "@type": "group",
+            "name": "29",
+            "nested": [
+                {
+                    "@type": "item",
+                    "name": "src/platforms/arm/k20/led_sysdefs_arm_k20.h"
+                }
+            ]
+        },
+        {
+            "@type": "group",
+            "name": "30",
+            "nested": [
+                {
+                    "@type": "item",
+                    "name": "src/platforms/arm/k66/led_sysdefs_arm_k66.h"
+                }
+            ]
+        },
+        {
+            "@type": "group",
+            "name": "31",
+            "nested": [
+                {
+                    "@type": "item",
+                    "name": "src/platforms/arm/kl26/led_sysdefs_arm_kl26.h"
+                }
+            ]
+        },
+        {
+            "@type": "group",
+            "name": "32",
+            "nested": [
+                {
+                    "@type": "item",
+                    "name": "src/platforms/arm/mxrt1062/led_sysdefs_arm_mxrt1062.h"
+                }
+            ]
+        },
+        {
+            "@type": "group",
+            "name": "33",
+            "nested": [
+                {
+                    "@type": "item",
+                    "name": "src/platforms/arm/nrf51/led_sysdefs_arm_nrf51.h"
+                }
+            ]
+        },
+        {
+            "@type": "group",
+            "name": "34",
+            "nested": [
+                {
+                    "@type": "item",
+                    "name": "src/platforms/arm/rp2040/led_sysdefs_arm_rp2040.h"
+                }
+            ]
+        },
+        {
+            "@type": "group",
+            "name": "35",
+            "nested": [
+                {
+                    "@type": "item",
+                    "name": "src/platforms/esp/8266/led_sysdefs_esp8266.h"
+                }
+            ]
+        },
+        {
+            "@type": "group",
+            "name": "36",
+            "nested": [
+                {
+                    "@type": "item",
+                    "name": "src/platforms/fastspi_ardunio_core.h"
+                }
+            ]
+        },
+        {
+            "@type": "group",
+            "name": "37",
+            "nested": [
+                {
+                    "@type": "item",
+                    "name": "src/pixelset.h"
+                }
+            ]
+        }
+    ]
+}

@@ -1,0 +1,834 @@
+{
+    "@schemaVersion": "1.0",
+    "name": "clustering",
+    "structure": [
+        {
+            "@type": "group",
+            "name": "0",
+            "nested": [
+                {
+                    "@type": "item",
+                    "name": "src/Game.hxx"
+                },
+                {
+                    "@type": "item",
+                    "name": "src/Game.cxx"
+                },
+                {
+                    "@type": "item",
+                    "name": "src/services/GameClock.hxx"
+                },
+                {
+                    "@type": "item",
+                    "name": "src/services/GameClock.cxx"
+                },
+                {
+                    "@type": "item",
+                    "name": "src/engine/common/platform.hxx"
+                },
+                {
+                    "@type": "item",
+                    "name": "src/util/Signal.hxx"
+                },
+                {
+                    "@type": "item",
+                    "name": "src/util/Singleton.hxx"
+                },
+                {
+                    "@type": "item",
+                    "name": "tests/main.cxx"
+                },
+                {
+                    "@type": "item",
+                    "name": "tests/services/GameClock.cxx"
+                },
+                {
+                    "@type": "item",
+                    "name": "src/services/GameClock.inl.hxx"
+                },
+                {
+                    "@type": "item",
+                    "name": "src/util/SignalMediator.hxx"
+                },
+                {
+                    "@type": "item",
+                    "name": "src/services/Randomizer.hxx"
+                },
+                {
+                    "@type": "item",
+                    "name": "src/util/OSystem.hxx"
+                },
+                {
+                    "@type": "item",
+                    "name": "src/util/OSystem.cxx"
+                },
+                {
+                    "@type": "item",
+                    "name": "src/engine/WindowManager.hxx"
+                },
+                {
+                    "@type": "item",
+                    "name": "src/engine/WindowManager.cxx"
+                },
+                {
+                    "@type": "item",
+                    "name": "external/as_add_on/debugger/debugger.h"
+                },
+                {
+                    "@type": "item",
+                    "name": "external/as_add_on/debugger/debugger.cpp"
+                },
+                {
+                    "@type": "item",
+                    "name": "src/main.cxx"
+                },
+                {
+                    "@type": "item",
+                    "name": "src/engine/common/Constants.hxx"
+                },
+                {
+                    "@type": "item",
+                    "name": "tests/engine/WindowManager.cxx"
+                },
+                {
+                    "@type": "item",
+                    "name": "external/header_only/moFileReader.hpp"
+                }
+            ]
+        },
+        {
+            "@type": "group",
+            "name": "1",
+            "nested": [
+                {
+                    "@type": "item",
+                    "name": "src/engine/basics/Camera.hxx"
+                },
+                {
+                    "@type": "item",
+                    "name": "src/engine/basics/Camera.cxx"
+                },
+                {
+                    "@type": "item",
+                    "name": "src/engine/basics/isoMath.hxx"
+                },
+                {
+                    "@type": "item",
+                    "name": "src/engine/basics/isoMath.cxx"
+                },
+                {
+                    "@type": "item",
+                    "name": "src/engine/GameObjects/MapGrid.hxx"
+                },
+                {
+                    "@type": "item",
+                    "name": "src/engine/Map.hxx"
+                },
+                {
+                    "@type": "item",
+                    "name": "src/engine/Map.cxx"
+                },
+                {
+                    "@type": "item",
+                    "name": "src/engine/basics/PointFunctions.hxx"
+                },
+                {
+                    "@type": "item",
+                    "name": "src/engine/basics/PointFunctions.cxx"
+                },
+                {
+                    "@type": "item",
+                    "name": "src/util/Meta.hxx"
+                },
+                {
+                    "@type": "item",
+                    "name": "src/engine/basics/Point.hxx"
+                },
+                {
+                    "@type": "item",
+                    "name": "src/engine/map/MapFunctions.hxx"
+                },
+                {
+                    "@type": "item",
+                    "name": "src/engine/map/MapFunctions.cxx"
+                },
+                {
+                    "@type": "item",
+                    "name": "src/scripting/ScriptEngine.cxx"
+                },
+                {
+                    "@type": "item",
+                    "name": "src/engine/GameObjects/MapGrid.inl.hxx"
+                },
+                {
+                    "@type": "item",
+                    "name": "src/engine/EventManager.hxx"
+                },
+                {
+                    "@type": "item",
+                    "name": "src/engine/EventManager.cxx"
+                },
+                {
+                    "@type": "item",
+                    "name": "src/scripting/ScriptEngine.hxx"
+                },
+                {
+                    "@type": "item",
+                    "name": "tests/scripting/ScriptEngine.cxx"
+                },
+                {
+                    "@type": "item",
+                    "name": "src/scripting/ImGuiAngelscript.cxx"
+                }
+            ]
+        },
+        {
+            "@type": "group",
+            "name": "2",
+            "nested": [
+                {
+                    "@type": "item",
+                    "name": "tests/engine/basics/Point.cxx"
+                },
+                {
+                    "@type": "item",
+                    "name": "src/engine/map/MapLayers.hxx"
+                },
+                {
+                    "@type": "item",
+                    "name": "src/engine/map/MapLayers.cxx"
+                },
+                {
+                    "@type": "item",
+                    "name": "src/engine/GameObjects/MapNode.hxx"
+                },
+                {
+                    "@type": "item",
+                    "name": "src/engine/GameObjects/MapNode.cxx"
+                },
+                {
+                    "@type": "item",
+                    "name": "src/engine/TileManager.hxx"
+                },
+                {
+                    "@type": "item",
+                    "name": "src/engine/TileManager.cxx"
+                },
+                {
+                    "@type": "item",
+                    "name": "src/engine/basics/tileData.hxx"
+                },
+                {
+                    "@type": "item",
+                    "name": "src/engine/basics/mapEdit.cxx"
+                },
+                {
+                    "@type": "item",
+                    "name": "src/engine/basics/mapEdit.hxx"
+                },
+                {
+                    "@type": "item",
+                    "name": "external/header_only/betterEnums.hxx"
+                },
+                {
+                    "@type": "item",
+                    "name": "tests/engine/EventManager.cxx"
+                },
+                {
+                    "@type": "item",
+                    "name": "src/engine/common/enums.hxx"
+                },
+                {
+                    "@type": "item",
+                    "name": "src/engine/Sprite.hxx"
+                },
+                {
+                    "@type": "item",
+                    "name": "src/engine/Sprite.cxx"
+                },
+                {
+                    "@type": "item",
+                    "name": "src/engine/basics/GameStates.hxx"
+                }
+            ]
+        },
+        {
+            "@type": "group",
+            "name": "3",
+            "nested": [
+                {
+                    "@type": "item",
+                    "name": "external/as_add_on/scriptany/scriptany.h"
+                },
+                {
+                    "@type": "item",
+                    "name": "external/as_add_on/scriptany/scriptany.cpp"
+                },
+                {
+                    "@type": "item",
+                    "name": "external/as_add_on/scriptgrid/scriptgrid.h"
+                },
+                {
+                    "@type": "item",
+                    "name": "external/as_add_on/scriptgrid/scriptgrid.cpp"
+                },
+                {
+                    "@type": "item",
+                    "name": "external/as_add_on/scripthelper/scripthelper.h"
+                },
+                {
+                    "@type": "item",
+                    "name": "external/as_add_on/scripthelper/scripthelper.cpp"
+                },
+                {
+                    "@type": "item",
+                    "name": "external/as_add_on/serializer/serializer.h"
+                },
+                {
+                    "@type": "item",
+                    "name": "external/as_add_on/serializer/serializer.cpp"
+                },
+                {
+                    "@type": "item",
+                    "name": "external/as_add_on/scripthandle/scripthandle.h"
+                },
+                {
+                    "@type": "item",
+                    "name": "external/as_add_on/scripthandle/scripthandle.cpp"
+                },
+                {
+                    "@type": "item",
+                    "name": "external/as_add_on/scriptstdstring/scriptstdstring.h"
+                },
+                {
+                    "@type": "item",
+                    "name": "external/as_add_on/scriptstdstring/scriptstdstring_utils.cpp"
+                },
+                {
+                    "@type": "item",
+                    "name": "external/as_add_on/scriptstdstring/scriptstdstring.cpp"
+                },
+                {
+                    "@type": "item",
+                    "name": "external/as_add_on/scriptarray/scriptarray.h"
+                },
+                {
+                    "@type": "item",
+                    "name": "external/as_add_on/scriptarray/scriptarray.cpp"
+                },
+                {
+                    "@type": "item",
+                    "name": "tests/util/LOG.cxx"
+                },
+                {
+                    "@type": "item",
+                    "name": "external/as_add_on/scriptdictionary/scriptdictionary.h"
+                },
+                {
+                    "@type": "item",
+                    "name": "external/as_add_on/scriptdictionary/scriptdictionary.cpp"
+                },
+                {
+                    "@type": "item",
+                    "name": "external/as_add_on/scriptfile/scriptfile.h"
+                },
+                {
+                    "@type": "item",
+                    "name": "external/as_add_on/scriptfile/scriptfile.cpp"
+                },
+                {
+                    "@type": "item",
+                    "name": "external/as_add_on/scriptfile/scriptfilesystem.h"
+                },
+                {
+                    "@type": "item",
+                    "name": "external/as_add_on/scriptfile/scriptfilesystem.cpp"
+                },
+                {
+                    "@type": "item",
+                    "name": "external/as_add_on/weakref/weakref.h"
+                },
+                {
+                    "@type": "item",
+                    "name": "external/as_add_on/weakref/weakref.cpp"
+                }
+            ]
+        },
+        {
+            "@type": "group",
+            "name": "4",
+            "nested": [
+                {
+                    "@type": "item",
+                    "name": "src/util/android/Filesystem.cxx"
+                },
+                {
+                    "@type": "item",
+                    "name": "src/services/AudioMixer.hxx"
+                },
+                {
+                    "@type": "item",
+                    "name": "src/services/AudioMixer.cxx"
+                },
+                {
+                    "@type": "item",
+                    "name": "src/util/Exception.hxx"
+                },
+                {
+                    "@type": "item",
+                    "name": "src/util/Exception.cxx"
+                },
+                {
+                    "@type": "item",
+                    "name": "src/engine/audio/AudioConfig.cxx"
+                },
+                {
+                    "@type": "item",
+                    "name": "src/util/Filesystem.hxx"
+                },
+                {
+                    "@type": "item",
+                    "name": "src/util/desktop/Filesystem.cxx"
+                },
+                {
+                    "@type": "item",
+                    "name": "src/engine/basics/compression.hxx"
+                },
+                {
+                    "@type": "item",
+                    "name": "external/header_only/json.hxx"
+                },
+                {
+                    "@type": "item",
+                    "name": "src/engine/map/TerrainGenerator.hxx"
+                },
+                {
+                    "@type": "item",
+                    "name": "src/engine/map/TerrainGenerator.cxx"
+                },
+                {
+                    "@type": "item",
+                    "name": "src/engine/basics/Settings.hxx"
+                },
+                {
+                    "@type": "item",
+                    "name": "src/engine/basics/Settings.cxx"
+                },
+                {
+                    "@type": "item",
+                    "name": "src/engine/audio/Soundtrack.hxx"
+                },
+                {
+                    "@type": "item",
+                    "name": "src/engine/audio/Soundtrack.cxx"
+                },
+                {
+                    "@type": "item",
+                    "name": "src/engine/basics/utils.hxx"
+                },
+                {
+                    "@type": "item",
+                    "name": "src/engine/basics/utils.cxx"
+                },
+                {
+                    "@type": "item",
+                    "name": "src/engine/audio/AudioConfig.hxx"
+                },
+                {
+                    "@type": "item",
+                    "name": "src/engine/common/JsonSerialization.hxx"
+                }
+            ]
+        },
+        {
+            "@type": "group",
+            "name": "5",
+            "nested": [
+                {
+                    "@type": "item",
+                    "name": "src/game/ui/PauseMenu.hxx"
+                },
+                {
+                    "@type": "item",
+                    "name": "src/game/ui/PauseMenu.cxx"
+                },
+                {
+                    "@type": "item",
+                    "name": "src/engine/Layout.hxx"
+                },
+                {
+                    "@type": "item",
+                    "name": "src/game/ui/GameTimeMenu.hxx"
+                },
+                {
+                    "@type": "item",
+                    "name": "src/game/ui/GameTimeMenu.cxx"
+                },
+                {
+                    "@type": "item",
+                    "name": "src/game/ui/SettingsMenu.hxx"
+                },
+                {
+                    "@type": "item",
+                    "name": "src/game/ui/SettingsMenu.cxx"
+                },
+                {
+                    "@type": "item",
+                    "name": "src/game/ui/BuildMenu.hxx"
+                },
+                {
+                    "@type": "item",
+                    "name": "src/game/ui/BuildMenu.cxx"
+                },
+                {
+                    "@type": "item",
+                    "name": "src/MainMenu.hxx"
+                },
+                {
+                    "@type": "item",
+                    "name": "src/MainMenu.cxx"
+                },
+                {
+                    "@type": "item",
+                    "name": "src/game/ui/LoadMenu.hxx"
+                },
+                {
+                    "@type": "item",
+                    "name": "src/game/ui/LoadMenu.cxx"
+                },
+                {
+                    "@type": "item",
+                    "name": "src/engine/UIManager.hxx"
+                },
+                {
+                    "@type": "item",
+                    "name": "src/engine/UIManager.cxx"
+                },
+                {
+                    "@type": "item",
+                    "name": "tests/engine/UIManager.cxx"
+                }
+            ]
+        },
+        {
+            "@type": "group",
+            "name": "6",
+            "nested": [
+                {
+                    "@type": "item",
+                    "name": "src/engine/ResourcesManager.hxx"
+                },
+                {
+                    "@type": "item",
+                    "name": "src/engine/ResourcesManager.cxx"
+                },
+                {
+                    "@type": "item",
+                    "name": "src/services/ResourceManager.hxx"
+                },
+                {
+                    "@type": "item",
+                    "name": "src/services/ResourceManager.cxx"
+                },
+                {
+                    "@type": "item",
+                    "name": "src/util/LOG.hxx"
+                },
+                {
+                    "@type": "item",
+                    "name": "src/util/LOG.cxx"
+                },
+                {
+                    "@type": "item",
+                    "name": "src/util/PriorityQueue.hxx"
+                },
+                {
+                    "@type": "item",
+                    "name": "tests/util/MessageQueue.cxx"
+                },
+                {
+                    "@type": "item",
+                    "name": "src/util/LOG.inl.hxx"
+                },
+                {
+                    "@type": "item",
+                    "name": "src/services/ResourceManager.inl.hxx"
+                },
+                {
+                    "@type": "item",
+                    "name": "src/windows/resource.h"
+                },
+                {
+                    "@type": "item",
+                    "name": "src/util/PriorityQueue.inl.hxx"
+                }
+            ]
+        },
+        {
+            "@type": "group",
+            "name": "7",
+            "nested": [
+                {
+                    "@type": "item",
+                    "name": "tests/util/Meta.cxx"
+                },
+                {
+                    "@type": "item",
+                    "name": "tests/Example.cxx"
+                },
+                {
+                    "@type": "item",
+                    "name": "tests/engine/ResourcesManager.cxx"
+                },
+                {
+                    "@type": "item",
+                    "name": "tests/services/AudioMixer.cxx"
+                },
+                {
+                    "@type": "item",
+                    "name": "tests/engine/basics/Settings.cxx"
+                },
+                {
+                    "@type": "item",
+                    "name": "tests/game/PowerManager.cxx"
+                },
+                {
+                    "@type": "item",
+                    "name": "external/catch2/catch.hpp"
+                },
+                {
+                    "@type": "item",
+                    "name": "tests/engine/MapFunctions.cxx"
+                }
+            ]
+        },
+        {
+            "@type": "group",
+            "name": "8",
+            "nested": [
+                {
+                    "@type": "item",
+                    "name": "src/util/Filesystem.cxx"
+                },
+                {
+                    "@type": "item",
+                    "name": "src/services/Randomizer.cxx"
+                },
+                {
+                    "@type": "item",
+                    "name": "src/engine/basics/GameStates.cxx"
+                },
+                {
+                    "@type": "item",
+                    "name": "src/phc.hxx"
+                },
+                {
+                    "@type": "item",
+                    "name": "src/util/IEquatable.inl.hxx"
+                },
+                {
+                    "@type": "item",
+                    "name": "src/util/IEquatable.hxx"
+                },
+                {
+                    "@type": "item",
+                    "name": "tests/phc.hxx"
+                },
+                {
+                    "@type": "item",
+                    "name": "external/imgui/backends/imgui_impl_sdl.h"
+                },
+                {
+                    "@type": "item",
+                    "name": "external/imgui/backends/imgui_impl_sdl.cpp"
+                }
+            ]
+        },
+        {
+            "@type": "group",
+            "name": "9",
+            "nested": [
+                {
+                    "@type": "item",
+                    "name": "external/imgui/backends/imgui_impl_sdlrenderer.h"
+                },
+                {
+                    "@type": "item",
+                    "name": "external/imgui/backends/imgui_impl_sdlrenderer.cpp"
+                },
+                {
+                    "@type": "item",
+                    "name": "external/imgui/imstb_rectpack.h"
+                },
+                {
+                    "@type": "item",
+                    "name": "external/imgui/imstb_textedit.h"
+                },
+                {
+                    "@type": "item",
+                    "name": "external/imgui/imconfig.h"
+                },
+                {
+                    "@type": "item",
+                    "name": "external/imgui/imstb_truetype.h"
+                },
+                {
+                    "@type": "item",
+                    "name": "external/imgui/imgui_internal.h"
+                },
+                {
+                    "@type": "item",
+                    "name": "external/imgui/imgui.h"
+                },
+                {
+                    "@type": "item",
+                    "name": "external/imgui/imgui_widgets.cpp"
+                },
+                {
+                    "@type": "item",
+                    "name": "external/imgui/imgui.cpp"
+                },
+                {
+                    "@type": "item",
+                    "name": "external/imgui/imgui_draw.cpp"
+                },
+                {
+                    "@type": "item",
+                    "name": "external/imgui/imgui_tables.cpp"
+                }
+            ]
+        },
+        {
+            "@type": "group",
+            "name": "10",
+            "nested": [
+                {
+                    "@type": "item",
+                    "name": "src/game/ZoneArea.hxx"
+                },
+                {
+                    "@type": "item",
+                    "name": "src/game/ZoneArea.cxx"
+                },
+                {
+                    "@type": "item",
+                    "name": "src/game/GamePlay.hxx"
+                },
+                {
+                    "@type": "item",
+                    "name": "src/game/GamePlay.cxx"
+                },
+                {
+                    "@type": "item",
+                    "name": "src/game/PowerManager.hxx"
+                },
+                {
+                    "@type": "item",
+                    "name": "src/game/PowerManager.cxx"
+                },
+                {
+                    "@type": "item",
+                    "name": "src/game/PowerGrid.hxx"
+                },
+                {
+                    "@type": "item",
+                    "name": "src/game/PowerGrid.cxx"
+                },
+                {
+                    "@type": "item",
+                    "name": "src/game/ZoneManager.hxx"
+                },
+                {
+                    "@type": "item",
+                    "name": "src/game/ZoneManager.cxx"
+                }
+            ]
+        },
+        {
+            "@type": "group",
+            "name": "11",
+            "nested": [
+                {
+                    "@type": "item",
+                    "name": "external/as_add_on/scriptmath/scriptmath.h"
+                },
+                {
+                    "@type": "item",
+                    "name": "external/as_add_on/scriptmath/scriptmath.cpp"
+                },
+                {
+                    "@type": "item",
+                    "name": "external/as_add_on/scriptbuilder/scriptbuilder.h"
+                },
+                {
+                    "@type": "item",
+                    "name": "external/as_add_on/scriptbuilder/scriptbuilder.cpp"
+                },
+                {
+                    "@type": "item",
+                    "name": "external/as_add_on/scriptmath/scriptmathcomplex.h"
+                },
+                {
+                    "@type": "item",
+                    "name": "external/as_add_on/scriptmath/scriptmathcomplex.cpp"
+                }
+            ]
+        },
+        {
+            "@type": "group",
+            "name": "12",
+            "nested": [
+                {
+                    "@type": "item",
+                    "name": "external/as_add_on/autowrapper/generator/generateheader.cpp"
+                },
+                {
+                    "@type": "item",
+                    "name": "external/as_add_on/autowrapper/aswrappedcall.h"
+                }
+            ]
+        },
+        {
+            "@type": "group",
+            "name": "13",
+            "nested": [
+                {
+                    "@type": "item",
+                    "name": "src/engine/MessageQueue.inl.hxx"
+                },
+                {
+                    "@type": "item",
+                    "name": "src/engine/MessageQueue.hxx"
+                }
+            ]
+        },
+        {
+            "@type": "group",
+            "name": "14",
+            "nested": [
+                {
+                    "@type": "item",
+                    "name": "external/as_add_on/datetime/datetime.h"
+                },
+                {
+                    "@type": "item",
+                    "name": "external/as_add_on/datetime/datetime.cpp"
+                }
+            ]
+        },
+        {
+            "@type": "group",
+            "name": "15",
+            "nested": [
+                {
+                    "@type": "item",
+                    "name": "external/as_add_on/contextmgr/contextmgr.h"
+                },
+                {
+                    "@type": "item",
+                    "name": "external/as_add_on/contextmgr/contextmgr.cpp"
+                }
+            ]
+        }
+    ]
+}

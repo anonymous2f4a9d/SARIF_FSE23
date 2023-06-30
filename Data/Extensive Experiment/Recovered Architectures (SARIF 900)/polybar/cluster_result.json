@@ -1,0 +1,1110 @@
+{
+    "@schemaVersion": "1.0",
+    "name": "clustering",
+    "structure": [
+        {
+            "@type": "group",
+            "name": "0",
+            "nested": [
+                {
+                    "@type": "item",
+                    "name": "include/modules/meta/static_module.hpp"
+                },
+                {
+                    "@type": "item",
+                    "name": "include/modules/meta/base.hpp"
+                },
+                {
+                    "@type": "item",
+                    "name": "src/modules/meta/base.cpp"
+                },
+                {
+                    "@type": "item",
+                    "name": "include/modules/meta/inotify_module.hpp"
+                },
+                {
+                    "@type": "item",
+                    "name": "include/adapters/net.hpp"
+                },
+                {
+                    "@type": "item",
+                    "name": "src/adapters/net_iw.cpp"
+                },
+                {
+                    "@type": "item",
+                    "name": "src/adapters/net.cpp"
+                },
+                {
+                    "@type": "item",
+                    "name": "src/adapters/net_nl.cpp"
+                },
+                {
+                    "@type": "item",
+                    "name": "include/modules/meta/timer_module.hpp"
+                },
+                {
+                    "@type": "item",
+                    "name": "include/modules/alsa.hpp"
+                },
+                {
+                    "@type": "item",
+                    "name": "src/modules/alsa.cpp"
+                },
+                {
+                    "@type": "item",
+                    "name": "include/modules/meta/factory.hpp"
+                },
+                {
+                    "@type": "item",
+                    "name": "src/modules/meta/factory.cpp"
+                },
+                {
+                    "@type": "item",
+                    "name": "include/modules/ipc.hpp"
+                },
+                {
+                    "@type": "item",
+                    "name": "src/modules/ipc.cpp"
+                },
+                {
+                    "@type": "item",
+                    "name": "include/modules/cpu.hpp"
+                },
+                {
+                    "@type": "item",
+                    "name": "src/modules/cpu.cpp"
+                },
+                {
+                    "@type": "item",
+                    "name": "include/modules/pulseaudio.hpp"
+                },
+                {
+                    "@type": "item",
+                    "name": "src/modules/pulseaudio.cpp"
+                },
+                {
+                    "@type": "item",
+                    "name": "include/modules/github.hpp"
+                },
+                {
+                    "@type": "item",
+                    "name": "src/modules/github.cpp"
+                },
+                {
+                    "@type": "item",
+                    "name": "include/modules/memory.hpp"
+                },
+                {
+                    "@type": "item",
+                    "name": "src/modules/memory.cpp"
+                },
+                {
+                    "@type": "item",
+                    "name": "include/modules/date.hpp"
+                },
+                {
+                    "@type": "item",
+                    "name": "src/modules/date.cpp"
+                },
+                {
+                    "@type": "item",
+                    "name": "include/modules/xbacklight.hpp"
+                },
+                {
+                    "@type": "item",
+                    "name": "src/modules/xbacklight.cpp"
+                },
+                {
+                    "@type": "item",
+                    "name": "include/modules/meta/event_module.hpp"
+                },
+                {
+                    "@type": "item",
+                    "name": "include/modules/temperature.hpp"
+                },
+                {
+                    "@type": "item",
+                    "name": "src/modules/temperature.cpp"
+                },
+                {
+                    "@type": "item",
+                    "name": "include/modules/fs.hpp"
+                },
+                {
+                    "@type": "item",
+                    "name": "src/modules/fs.cpp"
+                },
+                {
+                    "@type": "item",
+                    "name": "include/modules/tray.hpp"
+                },
+                {
+                    "@type": "item",
+                    "name": "src/modules/tray.cpp"
+                },
+                {
+                    "@type": "item",
+                    "name": "include/modules/network.hpp"
+                },
+                {
+                    "@type": "item",
+                    "name": "src/modules/network.cpp"
+                },
+                {
+                    "@type": "item",
+                    "name": "include/components/command_line.hpp"
+                },
+                {
+                    "@type": "item",
+                    "name": "src/components/command_line.cpp"
+                },
+                {
+                    "@type": "item",
+                    "name": "include/modules/mpd.hpp"
+                },
+                {
+                    "@type": "item",
+                    "name": "src/modules/mpd.cpp"
+                },
+                {
+                    "@type": "item",
+                    "name": "include/modules/backlight.hpp"
+                },
+                {
+                    "@type": "item",
+                    "name": "src/modules/backlight.cpp"
+                },
+                {
+                    "@type": "item",
+                    "name": "include/modules/meta/types.hpp"
+                },
+                {
+                    "@type": "item",
+                    "name": "include/modules/counter.hpp"
+                },
+                {
+                    "@type": "item",
+                    "name": "src/modules/counter.cpp"
+                },
+                {
+                    "@type": "item",
+                    "name": "include/modules/text.hpp"
+                },
+                {
+                    "@type": "item",
+                    "name": "src/modules/text.cpp"
+                },
+                {
+                    "@type": "item",
+                    "name": "include/modules/meta/all.hpp"
+                },
+                {
+                    "@type": "item",
+                    "name": "include/modules/script.hpp"
+                },
+                {
+                    "@type": "item",
+                    "name": "src/modules/script.cpp"
+                },
+                {
+                    "@type": "item",
+                    "name": "include/modules/menu.hpp"
+                },
+                {
+                    "@type": "item",
+                    "name": "src/modules/menu.cpp"
+                }
+            ]
+        },
+        {
+            "@type": "group",
+            "name": "1",
+            "nested": [
+                {
+                    "@type": "item",
+                    "name": "tests/unit_tests/tags/dispatch.cpp"
+                },
+                {
+                    "@type": "item",
+                    "name": "tests/unit_tests/utils/process.cpp"
+                },
+                {
+                    "@type": "item",
+                    "name": "tests/unit_tests/drawtypes/label.cpp"
+                },
+                {
+                    "@type": "item",
+                    "name": "tests/unit_tests/utils/color.cpp"
+                },
+                {
+                    "@type": "item",
+                    "name": "tests/unit_tests/utils/string.cpp"
+                },
+                {
+                    "@type": "item",
+                    "name": "tests/unit_tests/drawtypes/ramp.cpp"
+                },
+                {
+                    "@type": "item",
+                    "name": "tests/unit_tests/ipc/decoder.cpp"
+                },
+                {
+                    "@type": "item",
+                    "name": "tests/unit_tests/drawtypes/layouticonset.cpp"
+                },
+                {
+                    "@type": "item",
+                    "name": "tests/unit_tests/components/builder.cpp"
+                },
+                {
+                    "@type": "item",
+                    "name": "tests/unit_tests/tags/parser.cpp"
+                },
+                {
+                    "@type": "item",
+                    "name": "tests/unit_tests/components/command_line.cpp"
+                },
+                {
+                    "@type": "item",
+                    "name": "tests/common/test.hpp"
+                },
+                {
+                    "@type": "item",
+                    "name": "tests/unit_tests/utils/scope.cpp"
+                },
+                {
+                    "@type": "item",
+                    "name": "tests/unit_tests/drawtypes/iconset.cpp"
+                },
+                {
+                    "@type": "item",
+                    "name": "tests/unit_tests/ipc/util.cpp"
+                },
+                {
+                    "@type": "item",
+                    "name": "tests/unit_tests/ipc/encoder.cpp"
+                },
+                {
+                    "@type": "item",
+                    "name": "tests/unit_tests/utils/action_router.cpp"
+                },
+                {
+                    "@type": "item",
+                    "name": "tests/unit_tests/utils/env.cpp"
+                },
+                {
+                    "@type": "item",
+                    "name": "tests/unit_tests/utils/file.cpp"
+                },
+                {
+                    "@type": "item",
+                    "name": "tests/unit_tests/components/config_parser.cpp"
+                },
+                {
+                    "@type": "item",
+                    "name": "tests/unit_tests/utils/units.cpp"
+                },
+                {
+                    "@type": "item",
+                    "name": "tests/unit_tests/utils/math.cpp"
+                },
+                {
+                    "@type": "item",
+                    "name": "tests/unit_tests/tags/action_context.cpp"
+                },
+                {
+                    "@type": "item",
+                    "name": "tests/unit_tests/utils/command.cpp"
+                },
+                {
+                    "@type": "item",
+                    "name": "tests/unit_tests/utils/actions.cpp"
+                }
+            ]
+        },
+        {
+            "@type": "group",
+            "name": "2",
+            "nested": [
+                {
+                    "@type": "item",
+                    "name": "include/drawtypes/progressbar.hpp"
+                },
+                {
+                    "@type": "item",
+                    "name": "src/drawtypes/progressbar.cpp"
+                },
+                {
+                    "@type": "item",
+                    "name": "include/utils/scope.hpp"
+                },
+                {
+                    "@type": "item",
+                    "name": "include/drawtypes/animation.hpp"
+                },
+                {
+                    "@type": "item",
+                    "name": "src/drawtypes/animation.cpp"
+                },
+                {
+                    "@type": "item",
+                    "name": "include/utils/command.hpp"
+                },
+                {
+                    "@type": "item",
+                    "name": "include/utils/bspwm.hpp"
+                },
+                {
+                    "@type": "item",
+                    "name": "src/utils/bspwm.cpp"
+                },
+                {
+                    "@type": "item",
+                    "name": "include/modules/xkeyboard.hpp"
+                },
+                {
+                    "@type": "item",
+                    "name": "src/modules/xkeyboard.cpp"
+                },
+                {
+                    "@type": "item",
+                    "name": "include/modules/bspwm.hpp"
+                },
+                {
+                    "@type": "item",
+                    "name": "include/modules/i3.hpp"
+                },
+                {
+                    "@type": "item",
+                    "name": "src/modules/i3.cpp"
+                },
+                {
+                    "@type": "item",
+                    "name": "src/modules/bspwm.cpp"
+                },
+                {
+                    "@type": "item",
+                    "name": "include/modules/battery.hpp"
+                },
+                {
+                    "@type": "item",
+                    "name": "src/modules/battery.cpp"
+                },
+                {
+                    "@type": "item",
+                    "name": "include/utils/file.hpp"
+                },
+                {
+                    "@type": "item",
+                    "name": "src/utils/file.cpp"
+                },
+                {
+                    "@type": "item",
+                    "name": "include/components/config_parser.hpp"
+                },
+                {
+                    "@type": "item",
+                    "name": "src/components/config_parser.cpp"
+                },
+                {
+                    "@type": "item",
+                    "name": "include/x11/extensions/xkb.hpp"
+                },
+                {
+                    "@type": "item",
+                    "name": "src/x11/extensions/xkb.cpp"
+                },
+                {
+                    "@type": "item",
+                    "name": "include/utils/factory.hpp"
+                },
+                {
+                    "@type": "item",
+                    "name": "include/utils/env.hpp"
+                },
+                {
+                    "@type": "item",
+                    "name": "src/utils/env.cpp"
+                },
+                {
+                    "@type": "item",
+                    "name": "include/drawtypes/layouticonset.hpp"
+                },
+                {
+                    "@type": "item",
+                    "name": "src/drawtypes/layouticonset.cpp"
+                },
+                {
+                    "@type": "item",
+                    "name": "include/utils/i3.hpp"
+                },
+                {
+                    "@type": "item",
+                    "name": "src/utils/i3.cpp"
+                },
+                {
+                    "@type": "item",
+                    "name": "include/components/config.hpp"
+                },
+                {
+                    "@type": "item",
+                    "name": "src/components/config.cpp"
+                },
+                {
+                    "@type": "item",
+                    "name": "include/utils/restack.hpp"
+                },
+                {
+                    "@type": "item",
+                    "name": "src/utils/restack.cpp"
+                },
+                {
+                    "@type": "item",
+                    "name": "include/drawtypes/label.hpp"
+                },
+                {
+                    "@type": "item",
+                    "name": "src/drawtypes/label.cpp"
+                },
+                {
+                    "@type": "item",
+                    "name": "include/drawtypes/iconset.hpp"
+                },
+                {
+                    "@type": "item",
+                    "name": "src/drawtypes/iconset.cpp"
+                },
+                {
+                    "@type": "item",
+                    "name": "include/utils/string.hpp"
+                },
+                {
+                    "@type": "item",
+                    "name": "src/utils/string.cpp"
+                },
+                {
+                    "@type": "item",
+                    "name": "include/drawtypes/ramp.hpp"
+                },
+                {
+                    "@type": "item",
+                    "name": "src/drawtypes/ramp.cpp"
+                }
+            ]
+        },
+        {
+            "@type": "group",
+            "name": "3",
+            "nested": [
+                {
+                    "@type": "item",
+                    "name": "include/x11/cursor.hpp"
+                },
+                {
+                    "@type": "item",
+                    "name": "src/x11/cursor.cpp"
+                },
+                {
+                    "@type": "item",
+                    "name": "include/components/screen.hpp"
+                },
+                {
+                    "@type": "item",
+                    "name": "src/components/screen.cpp"
+                },
+                {
+                    "@type": "item",
+                    "name": "include/components/renderer_interface.hpp"
+                },
+                {
+                    "@type": "item",
+                    "name": "include/components/controller.hpp"
+                },
+                {
+                    "@type": "item",
+                    "name": "src/components/controller.cpp"
+                },
+                {
+                    "@type": "item",
+                    "name": "include/utils/units.hpp"
+                },
+                {
+                    "@type": "item",
+                    "name": "src/utils/units.cpp"
+                },
+                {
+                    "@type": "item",
+                    "name": "include/tags/dispatch.hpp"
+                },
+                {
+                    "@type": "item",
+                    "name": "src/tags/dispatch.cpp"
+                },
+                {
+                    "@type": "item",
+                    "name": "include/tags/parser.hpp"
+                },
+                {
+                    "@type": "item",
+                    "name": "src/tags/parser.cpp"
+                },
+                {
+                    "@type": "item",
+                    "name": "include/components/logger.hpp"
+                },
+                {
+                    "@type": "item",
+                    "name": "src/components/logger.cpp"
+                },
+                {
+                    "@type": "item",
+                    "name": "include/components/renderer.hpp"
+                },
+                {
+                    "@type": "item",
+                    "name": "src/components/renderer.cpp"
+                },
+                {
+                    "@type": "item",
+                    "name": "include/components/eventloop.hpp"
+                },
+                {
+                    "@type": "item",
+                    "name": "src/components/eventloop.cpp"
+                },
+                {
+                    "@type": "item",
+                    "name": "include/components/bar.hpp"
+                },
+                {
+                    "@type": "item",
+                    "name": "src/components/bar.cpp"
+                },
+                {
+                    "@type": "item",
+                    "name": "include/utils/actions.hpp"
+                },
+                {
+                    "@type": "item",
+                    "name": "src/utils/actions.cpp"
+                },
+                {
+                    "@type": "item",
+                    "name": "include/components/types.hpp"
+                },
+                {
+                    "@type": "item",
+                    "name": "include/utils/color.hpp"
+                },
+                {
+                    "@type": "item",
+                    "name": "src/utils/color.cpp"
+                },
+                {
+                    "@type": "item",
+                    "name": "include/tags/action_context.hpp"
+                },
+                {
+                    "@type": "item",
+                    "name": "src/tags/action_context.cpp"
+                },
+                {
+                    "@type": "item",
+                    "name": "include/x11/xresources.hpp"
+                },
+                {
+                    "@type": "item",
+                    "name": "src/x11/xresources.cpp"
+                },
+                {
+                    "@type": "item",
+                    "name": "include/components/builder.hpp"
+                },
+                {
+                    "@type": "item",
+                    "name": "src/components/builder.cpp"
+                },
+                {
+                    "@type": "item",
+                    "name": "include/tags/types.hpp"
+                },
+                {
+                    "@type": "item",
+                    "name": "include/tags/context.hpp"
+                },
+                {
+                    "@type": "item",
+                    "name": "src/tags/context.cpp"
+                },
+                {
+                    "@type": "item",
+                    "name": "include/x11/window.hpp"
+                },
+                {
+                    "@type": "item",
+                    "name": "src/x11/window.cpp"
+                }
+            ]
+        },
+        {
+            "@type": "group",
+            "name": "4",
+            "nested": [
+                {
+                    "@type": "item",
+                    "name": "include/x11/registry.hpp"
+                },
+                {
+                    "@type": "item",
+                    "name": "src/x11/registry.cpp"
+                },
+                {
+                    "@type": "item",
+                    "name": "include/modules/meta/event_handler.hpp"
+                },
+                {
+                    "@type": "item",
+                    "name": "include/x11/connection.hpp"
+                },
+                {
+                    "@type": "item",
+                    "name": "src/x11/connection.cpp"
+                },
+                {
+                    "@type": "item",
+                    "name": "include/x11/background_manager.hpp"
+                },
+                {
+                    "@type": "item",
+                    "name": "src/x11/background_manager.cpp"
+                },
+                {
+                    "@type": "item",
+                    "name": "include/x11/ewmh.hpp"
+                },
+                {
+                    "@type": "item",
+                    "name": "src/x11/ewmh.cpp"
+                },
+                {
+                    "@type": "item",
+                    "name": "include/x11/tray_client.hpp"
+                },
+                {
+                    "@type": "item",
+                    "name": "src/x11/tray_client.cpp"
+                },
+                {
+                    "@type": "item",
+                    "name": "include/x11/icccm.hpp"
+                },
+                {
+                    "@type": "item",
+                    "name": "src/x11/icccm.cpp"
+                },
+                {
+                    "@type": "item",
+                    "name": "include/x11/legacy_tray_manager.hpp"
+                },
+                {
+                    "@type": "item",
+                    "name": "src/x11/legacy_tray_manager.cpp"
+                },
+                {
+                    "@type": "item",
+                    "name": "src/main.cpp"
+                },
+                {
+                    "@type": "item",
+                    "name": "include/modules/xworkspaces.hpp"
+                },
+                {
+                    "@type": "item",
+                    "name": "src/modules/xworkspaces.cpp"
+                },
+                {
+                    "@type": "item",
+                    "name": "include/modules/xwindow.hpp"
+                },
+                {
+                    "@type": "item",
+                    "name": "src/modules/xwindow.cpp"
+                },
+                {
+                    "@type": "item",
+                    "name": "include/x11/atoms.hpp"
+                },
+                {
+                    "@type": "item",
+                    "name": "include/x11/types.hpp"
+                },
+                {
+                    "@type": "item",
+                    "name": "include/x11/xembed.hpp"
+                },
+                {
+                    "@type": "item",
+                    "name": "src/x11/xembed.cpp"
+                },
+                {
+                    "@type": "item",
+                    "name": "src/events/signal_receiver.cpp"
+                },
+                {
+                    "@type": "item",
+                    "name": "include/x11/tray_manager.hpp"
+                },
+                {
+                    "@type": "item",
+                    "name": "src/x11/tray_manager.cpp"
+                },
+                {
+                    "@type": "item",
+                    "name": "src/x11/atoms.cpp"
+                }
+            ]
+        },
+        {
+            "@type": "group",
+            "name": "5",
+            "nested": [
+                {
+                    "@type": "item",
+                    "name": "include/utils/concurrency.hpp"
+                },
+                {
+                    "@type": "item",
+                    "name": "src/utils/concurrency.cpp"
+                },
+                {
+                    "@type": "item",
+                    "name": "include/utils/mixins.hpp"
+                },
+                {
+                    "@type": "item",
+                    "name": "include/utils/inotify.hpp"
+                },
+                {
+                    "@type": "item",
+                    "name": "src/utils/inotify.cpp"
+                },
+                {
+                    "@type": "item",
+                    "name": "include/utils/http.hpp"
+                },
+                {
+                    "@type": "item",
+                    "name": "src/utils/http.cpp"
+                },
+                {
+                    "@type": "item",
+                    "name": "include/x11/extensions/fwd.hpp"
+                },
+                {
+                    "@type": "item",
+                    "name": "include/x11/extensions/all.hpp"
+                },
+                {
+                    "@type": "item",
+                    "name": "include/x11/extensions/composite.hpp"
+                },
+                {
+                    "@type": "item",
+                    "name": "src/x11/extensions/composite.cpp"
+                },
+                {
+                    "@type": "item",
+                    "name": "include/x11/extensions/randr.hpp"
+                },
+                {
+                    "@type": "item",
+                    "name": "src/x11/extensions/randr.cpp"
+                }
+            ]
+        },
+        {
+            "@type": "group",
+            "name": "6",
+            "nested": [
+                {
+                    "@type": "item",
+                    "name": "include/cairo/utils.hpp"
+                },
+                {
+                    "@type": "item",
+                    "name": "src/cairo/utils.cpp"
+                },
+                {
+                    "@type": "item",
+                    "name": "include/x11/winspec.hpp"
+                },
+                {
+                    "@type": "item",
+                    "name": "src/x11/winspec.cpp"
+                },
+                {
+                    "@type": "item",
+                    "name": "include/cairo/fwd.hpp"
+                },
+                {
+                    "@type": "item",
+                    "name": "include/cairo/types.hpp"
+                },
+                {
+                    "@type": "item",
+                    "name": "include/cairo/font.hpp"
+                },
+                {
+                    "@type": "item",
+                    "name": "include/cairo/surface.hpp"
+                },
+                {
+                    "@type": "item",
+                    "name": "include/cairo/context.hpp"
+                }
+            ]
+        },
+        {
+            "@type": "group",
+            "name": "7",
+            "nested": [
+                {
+                    "@type": "item",
+                    "name": "include/utils/process.hpp"
+                },
+                {
+                    "@type": "item",
+                    "name": "src/utils/process.cpp"
+                },
+                {
+                    "@type": "item",
+                    "name": "src/utils/command.cpp"
+                },
+                {
+                    "@type": "item",
+                    "name": "include/utils/socket.hpp"
+                },
+                {
+                    "@type": "item",
+                    "name": "src/utils/socket.cpp"
+                },
+                {
+                    "@type": "item",
+                    "name": "include/utils/io.hpp"
+                },
+                {
+                    "@type": "item",
+                    "name": "src/utils/io.cpp"
+                },
+                {
+                    "@type": "item",
+                    "name": "include/events/signal_emitter.hpp"
+                },
+                {
+                    "@type": "item",
+                    "name": "src/events/signal_emitter.cpp"
+                },
+                {
+                    "@type": "item",
+                    "name": "include/adapters/script_runner.hpp"
+                },
+                {
+                    "@type": "item",
+                    "name": "src/adapters/script_runner.cpp"
+                },
+                {
+                    "@type": "item",
+                    "name": "include/events/signal_receiver.hpp"
+                }
+            ]
+        },
+        {
+            "@type": "group",
+            "name": "8",
+            "nested": [
+                {
+                    "@type": "item",
+                    "name": "include/ipc/util.hpp"
+                },
+                {
+                    "@type": "item",
+                    "name": "src/ipc/util.cpp"
+                },
+                {
+                    "@type": "item",
+                    "name": "include/ipc/msg.hpp"
+                },
+                {
+                    "@type": "item",
+                    "name": "include/ipc/encoder.hpp"
+                },
+                {
+                    "@type": "item",
+                    "name": "src/ipc/encoder.cpp"
+                },
+                {
+                    "@type": "item",
+                    "name": "include/ipc/decoder.hpp"
+                },
+                {
+                    "@type": "item",
+                    "name": "src/polybar-msg.cpp"
+                },
+                {
+                    "@type": "item",
+                    "name": "include/ipc/ipc.hpp"
+                },
+                {
+                    "@type": "item",
+                    "name": "src/ipc/ipc.cpp"
+                },
+                {
+                    "@type": "item",
+                    "name": "src/ipc/decoder.cpp"
+                }
+            ]
+        },
+        {
+            "@type": "group",
+            "name": "9",
+            "nested": [
+                {
+                    "@type": "item",
+                    "name": "include/errors.hpp"
+                },
+                {
+                    "@type": "item",
+                    "name": "include/common.hpp"
+                }
+            ]
+        },
+        {
+            "@type": "group",
+            "name": "10",
+            "nested": [
+                {
+                    "@type": "item",
+                    "name": "include/events/signal_fwd.hpp"
+                },
+                {
+                    "@type": "item",
+                    "name": "include/events/signal.hpp"
+                }
+            ]
+        },
+        {
+            "@type": "group",
+            "name": "11",
+            "nested": [
+                {
+                    "@type": "item",
+                    "name": "include/adapters/alsa/mixer.hpp"
+                },
+                {
+                    "@type": "item",
+                    "name": "src/adapters/alsa/mixer.cpp"
+                },
+                {
+                    "@type": "item",
+                    "name": "include/adapters/pulseaudio.hpp"
+                },
+                {
+                    "@type": "item",
+                    "name": "src/adapters/pulseaudio.cpp"
+                }
+            ]
+        },
+        {
+            "@type": "group",
+            "name": "12",
+            "nested": [
+                {
+                    "@type": "item",
+                    "name": "include/adapters/alsa/generic.hpp"
+                }
+            ]
+        },
+        {
+            "@type": "group",
+            "name": "13",
+            "nested": [
+                {
+                    "@type": "item",
+                    "name": "include/utils/math.hpp"
+                }
+            ]
+        },
+        {
+            "@type": "group",
+            "name": "14",
+            "nested": [
+                {
+                    "@type": "item",
+                    "name": "include/utils/memory.hpp"
+                }
+            ]
+        },
+        {
+            "@type": "group",
+            "name": "15",
+            "nested": [
+                {
+                    "@type": "item",
+                    "name": "include/utils/time.hpp"
+                }
+            ]
+        },
+        {
+            "@type": "group",
+            "name": "16",
+            "nested": [
+                {
+                    "@type": "item",
+                    "name": "include/debug.hpp"
+                }
+            ]
+        },
+        {
+            "@type": "group",
+            "name": "17",
+            "nested": [
+                {
+                    "@type": "item",
+                    "name": "include/adapters/mpd.hpp"
+                },
+                {
+                    "@type": "item",
+                    "name": "src/adapters/mpd.cpp"
+                }
+            ]
+        },
+        {
+            "@type": "group",
+            "name": "18",
+            "nested": [
+                {
+                    "@type": "item",
+                    "name": "include/utils/action_router.hpp"
+                },
+                {
+                    "@type": "item",
+                    "name": "src/utils/action_router.cpp"
+                }
+            ]
+        },
+        {
+            "@type": "group",
+            "name": "19",
+            "nested": [
+                {
+                    "@type": "item",
+                    "name": "include/adapters/alsa/control.hpp"
+                },
+                {
+                    "@type": "item",
+                    "name": "src/adapters/alsa/control.cpp"
+                }
+            ]
+        }
+    ]
+}

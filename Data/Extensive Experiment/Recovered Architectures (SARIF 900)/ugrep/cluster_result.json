@@ -1,0 +1,392 @@
+{
+    "@schemaVersion": "1.0",
+    "name": "clustering",
+    "structure": [
+        {
+            "@type": "group",
+            "name": "0",
+            "nested": [
+                {
+                    "@type": "item",
+                    "name": "include/reflex/bits.h"
+                },
+                {
+                    "@type": "item",
+                    "name": "include/reflex/ranges.h"
+                },
+                {
+                    "@type": "item",
+                    "name": "include/reflex/absmatcher.h"
+                },
+                {
+                    "@type": "item",
+                    "name": "include/reflex/fuzzymatcher.h"
+                },
+                {
+                    "@type": "item",
+                    "name": "lib/matcher_avx512bw.cpp"
+                },
+                {
+                    "@type": "item",
+                    "name": "include/reflex/simd.h"
+                },
+                {
+                    "@type": "item",
+                    "name": "include/reflex/matcher.h"
+                },
+                {
+                    "@type": "item",
+                    "name": "lib/matcher.cpp"
+                },
+                {
+                    "@type": "item",
+                    "name": "include/reflex/setop.h"
+                },
+                {
+                    "@type": "item",
+                    "name": "include/reflex/error.h"
+                },
+                {
+                    "@type": "item",
+                    "name": "lib/error.cpp"
+                },
+                {
+                    "@type": "item",
+                    "name": "lib/matcher_avx2.cpp"
+                },
+                {
+                    "@type": "item",
+                    "name": "include/reflex/pattern.h"
+                },
+                {
+                    "@type": "item",
+                    "name": "lib/pattern.cpp"
+                }
+            ]
+        },
+        {
+            "@type": "group",
+            "name": "1",
+            "nested": [
+                {
+                    "@type": "item",
+                    "name": "src/flag.hpp"
+                },
+                {
+                    "@type": "item",
+                    "name": "src/stats.hpp"
+                },
+                {
+                    "@type": "item",
+                    "name": "src/stats.cpp"
+                },
+                {
+                    "@type": "item",
+                    "name": "src/cnf.hpp"
+                },
+                {
+                    "@type": "item",
+                    "name": "src/cnf.cpp"
+                },
+                {
+                    "@type": "item",
+                    "name": "src/mmap.hpp"
+                },
+                {
+                    "@type": "item",
+                    "name": "src/ugrep.hpp"
+                },
+                {
+                    "@type": "item",
+                    "name": "src/ugrep.cpp"
+                },
+                {
+                    "@type": "item",
+                    "name": "src/output.hpp"
+                },
+                {
+                    "@type": "item",
+                    "name": "src/output.cpp"
+                }
+            ]
+        },
+        {
+            "@type": "group",
+            "name": "2",
+            "nested": [
+                {
+                    "@type": "item",
+                    "name": "include/reflex/posix.h"
+                },
+                {
+                    "@type": "item",
+                    "name": "lib/posix.cpp"
+                },
+                {
+                    "@type": "item",
+                    "name": "lib/language_scripts.cpp"
+                },
+                {
+                    "@type": "item",
+                    "name": "lib/block_scripts.cpp"
+                },
+                {
+                    "@type": "item",
+                    "name": "lib/letter_scripts.cpp"
+                },
+                {
+                    "@type": "item",
+                    "name": "include/reflex/unicode.h"
+                },
+                {
+                    "@type": "item",
+                    "name": "lib/unicode.cpp"
+                }
+            ]
+        },
+        {
+            "@type": "group",
+            "name": "3",
+            "nested": [
+                {
+                    "@type": "item",
+                    "name": "include/reflex/debug.h"
+                },
+                {
+                    "@type": "item",
+                    "name": "include/reflex/boostmatcher.h"
+                },
+                {
+                    "@type": "item",
+                    "name": "include/reflex/pcre2matcher.h"
+                },
+                {
+                    "@type": "item",
+                    "name": "include/reflex/stdmatcher.h"
+                }
+            ]
+        },
+        {
+            "@type": "group",
+            "name": "4",
+            "nested": [
+                {
+                    "@type": "item",
+                    "name": "src/screen.hpp"
+                },
+                {
+                    "@type": "item",
+                    "name": "src/screen.cpp"
+                },
+                {
+                    "@type": "item",
+                    "name": "src/vkey.hpp"
+                },
+                {
+                    "@type": "item",
+                    "name": "src/vkey.cpp"
+                },
+                {
+                    "@type": "item",
+                    "name": "src/zopen.h"
+                },
+                {
+                    "@type": "item",
+                    "name": "src/zopen.c"
+                },
+                {
+                    "@type": "item",
+                    "name": "src/query.hpp"
+                },
+                {
+                    "@type": "item",
+                    "name": "src/query.cpp"
+                }
+            ]
+        },
+        {
+            "@type": "group",
+            "name": "5",
+            "nested": [
+                {
+                    "@type": "item",
+                    "name": "include/reflex/convert.h"
+                },
+                {
+                    "@type": "item",
+                    "name": "lib/convert.cpp"
+                },
+                {
+                    "@type": "item",
+                    "name": "include/reflex/utf8.h"
+                },
+                {
+                    "@type": "item",
+                    "name": "lib/utf8.cpp"
+                },
+                {
+                    "@type": "item",
+                    "name": "include/reflex/input.h"
+                },
+                {
+                    "@type": "item",
+                    "name": "lib/input.cpp"
+                },
+                {
+                    "@type": "item",
+                    "name": "include/reflex/abslexer.h"
+                }
+            ]
+        },
+        {
+            "@type": "group",
+            "name": "6",
+            "nested": [
+                {
+                    "@type": "item",
+                    "name": "include/reflex/traits.h"
+                },
+                {
+                    "@type": "item",
+                    "name": "include/reflex/timer.h"
+                }
+            ]
+        },
+        {
+            "@type": "group",
+            "name": "7",
+            "nested": [
+                {
+                    "@type": "item",
+                    "name": "lib/simd_avx2.cpp"
+                },
+                {
+                    "@type": "item",
+                    "name": "lib/simd_avx512bw.cpp"
+                }
+            ]
+        },
+        {
+            "@type": "group",
+            "name": "8",
+            "nested": [
+                {
+                    "@type": "item",
+                    "name": "msvc/include_pcre2/pcre2.h"
+                },
+                {
+                    "@type": "item",
+                    "name": "msvc/include_pcre2/pcre2_chartables.c"
+                }
+            ]
+        },
+        {
+            "@type": "group",
+            "name": "9",
+            "nested": [
+                {
+                    "@type": "item",
+                    "name": "msvc/include_ugrep/matcher_avx2.cpp"
+                },
+                {
+                    "@type": "item",
+                    "name": "msvc/include_ugrep/matcher_avx512bw.cpp"
+                }
+            ]
+        },
+        {
+            "@type": "group",
+            "name": "10",
+            "nested": [
+                {
+                    "@type": "item",
+                    "name": "src/glob.hpp"
+                },
+                {
+                    "@type": "item",
+                    "name": "src/glob.cpp"
+                }
+            ]
+        },
+        {
+            "@type": "group",
+            "name": "11",
+            "nested": [
+                {
+                    "@type": "item",
+                    "name": "lib/debug.cpp"
+                }
+            ]
+        },
+        {
+            "@type": "group",
+            "name": "12",
+            "nested": [
+                {
+                    "@type": "item",
+                    "name": "msvc/include_common/empty.c"
+                }
+            ]
+        },
+        {
+            "@type": "group",
+            "name": "13",
+            "nested": [
+                {
+                    "@type": "item",
+                    "name": "msvc/include_pcre2/config.h"
+                }
+            ]
+        },
+        {
+            "@type": "group",
+            "name": "14",
+            "nested": [
+                {
+                    "@type": "item",
+                    "name": "msvc/include_ugrep/config.h"
+                }
+            ]
+        },
+        {
+            "@type": "group",
+            "name": "15",
+            "nested": [
+                {
+                    "@type": "item",
+                    "name": "msvc/include_ugrep/pcre2.h"
+                }
+            ]
+        },
+        {
+            "@type": "group",
+            "name": "16",
+            "nested": [
+                {
+                    "@type": "item",
+                    "name": "src/zstream.hpp"
+                }
+            ]
+        },
+        {
+            "@type": "group",
+            "name": "17",
+            "nested": [
+                {
+                    "@type": "item",
+                    "name": "tests/Hello.java"
+                }
+            ]
+        },
+        {
+            "@type": "group",
+            "name": "18",
+            "nested": [
+                {
+                    "@type": "item",
+                    "name": "include/reflex/flexlexer.h"
+                }
+            ]
+        }
+    ]
+}

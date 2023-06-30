@@ -1,0 +1,540 @@
+{
+    "@schemaVersion": "1.0",
+    "name": "clustering",
+    "structure": [
+        {
+            "@type": "group",
+            "name": "0",
+            "nested": [
+                {
+                    "@type": "item",
+                    "name": "library/src/main/java/com/liulishuo/filedownloader/FileDownloadLine.java"
+                },
+                {
+                    "@type": "item",
+                    "name": "library/src/main/java/com/liulishuo/filedownloader/FileDownloadServiceSharedTransmit.java"
+                },
+                {
+                    "@type": "item",
+                    "name": "library/src/main/java/com/liulishuo/filedownloader/services/IFileDownloadServiceHandler.java"
+                },
+                {
+                    "@type": "item",
+                    "name": "library/src/main/java/com/liulishuo/filedownloader/services/FileDownloadService.java"
+                },
+                {
+                    "@type": "item",
+                    "name": "library/src/main/java/com/liulishuo/filedownloader/event/DownloadServiceConnectChangedEvent.java"
+                },
+                {
+                    "@type": "item",
+                    "name": "library/src/main/java/com/liulishuo/filedownloader/services/BaseFileServiceUIGuard.java"
+                },
+                {
+                    "@type": "item",
+                    "name": "library/src/main/java/com/liulishuo/filedownloader/FileDownloadLineAsync.java"
+                },
+                {
+                    "@type": "item",
+                    "name": "library/src/main/java/com/liulishuo/filedownloader/util/ExtraKeys.java"
+                },
+                {
+                    "@type": "item",
+                    "name": "library/src/main/java/com/liulishuo/filedownloader/IFileDownloadServiceProxy.java"
+                },
+                {
+                    "@type": "item",
+                    "name": "library/src/main/java/com/liulishuo/filedownloader/util/DownloadServiceNotConnectedHelper.java"
+                },
+                {
+                    "@type": "item",
+                    "name": "library/src/main/java/com/liulishuo/filedownloader/services/FDServiceSeparateHandler.java"
+                },
+                {
+                    "@type": "item",
+                    "name": "library/src/main/java/com/liulishuo/filedownloader/FileDownloader.java"
+                },
+                {
+                    "@type": "item",
+                    "name": "library/src/main/java/com/liulishuo/filedownloader/model/FileDownloadTaskAtom.java"
+                },
+                {
+                    "@type": "item",
+                    "name": "library/src/main/java/com/liulishuo/filedownloader/LostServiceConnectedHandler.java"
+                },
+                {
+                    "@type": "item",
+                    "name": "library/src/main/java/com/liulishuo/filedownloader/FileDownloadServiceUIGuard.java"
+                },
+                {
+                    "@type": "item",
+                    "name": "library/src/main/java/com/liulishuo/filedownloader/services/FDServiceSharedHandler.java"
+                },
+                {
+                    "@type": "item",
+                    "name": "library/src/main/java/com/liulishuo/filedownloader/FileDownloadConnectListener.java"
+                },
+                {
+                    "@type": "item",
+                    "name": "library/src/main/java/com/liulishuo/filedownloader/FileDownloadServiceProxy.java"
+                },
+                {
+                    "@type": "item",
+                    "name": "library/src/main/java/com/liulishuo/filedownloader/ILostServiceConnectedHandler.java"
+                }
+            ]
+        },
+        {
+            "@type": "group",
+            "name": "1",
+            "nested": [
+                {
+                    "@type": "item",
+                    "name": "library/src/main/java/com/liulishuo/filedownloader/model/FileDownloadStatus.java"
+                },
+                {
+                    "@type": "item",
+                    "name": "library/src/main/java/com/liulishuo/filedownloader/IFileDownloadMessenger.java"
+                },
+                {
+                    "@type": "item",
+                    "name": "library/src/main/java/com/liulishuo/filedownloader/message/IMessageSnapshot.java"
+                },
+                {
+                    "@type": "item",
+                    "name": "library/src/main/java/com/liulishuo/filedownloader/DownloadSpeedMonitor.java"
+                },
+                {
+                    "@type": "item",
+                    "name": "library/src/main/java/com/liulishuo/filedownloader/ITaskHunter.java"
+                },
+                {
+                    "@type": "item",
+                    "name": "library/src/main/java/com/liulishuo/filedownloader/message/LargeMessageSnapshot.java"
+                },
+                {
+                    "@type": "item",
+                    "name": "library/src/main/java/com/liulishuo/filedownloader/message/MessageSnapshot.java"
+                },
+                {
+                    "@type": "item",
+                    "name": "library/src/main/java/com/liulishuo/filedownloader/IDownloadSpeed.java"
+                },
+                {
+                    "@type": "item",
+                    "name": "library/src/main/java/com/liulishuo/filedownloader/message/SmallMessageSnapshot.java"
+                },
+                {
+                    "@type": "item",
+                    "name": "library/src/main/java/com/liulishuo/filedownloader/message/IFlowDirectly.java"
+                },
+                {
+                    "@type": "item",
+                    "name": "library/src/main/java/com/liulishuo/filedownloader/FileDownloadMessageStation.java"
+                },
+                {
+                    "@type": "item",
+                    "name": "library/src/main/java/com/liulishuo/filedownloader/message/BlockCompleteMessage.java"
+                },
+                {
+                    "@type": "item",
+                    "name": "library/src/main/java/com/liulishuo/filedownloader/FileDownloadMessenger.java"
+                },
+                {
+                    "@type": "item",
+                    "name": "library/src/main/java/com/liulishuo/filedownloader/message/MessageSnapshotTaker.java"
+                },
+                {
+                    "@type": "item",
+                    "name": "library/src/main/java/com/liulishuo/filedownloader/DownloadTaskHunter.java"
+                }
+            ]
+        },
+        {
+            "@type": "group",
+            "name": "2",
+            "nested": [
+                {
+                    "@type": "item",
+                    "name": "library/src/main/java/com/liulishuo/filedownloader/notification/FileDownloadNotificationHelper.java"
+                },
+                {
+                    "@type": "item",
+                    "name": "library/src/main/java/com/liulishuo/filedownloader/notification/BaseNotificationItem.java"
+                },
+                {
+                    "@type": "item",
+                    "name": "library/src/main/java/com/liulishuo/filedownloader/FileDownloadListener.java"
+                },
+                {
+                    "@type": "item",
+                    "name": "library/src/main/java/com/liulishuo/filedownloader/FileDownloadMonitor.java"
+                },
+                {
+                    "@type": "item",
+                    "name": "library/src/main/java/com/liulishuo/filedownloader/FileDownloadLargeFileListener.java"
+                },
+                {
+                    "@type": "item",
+                    "name": "library/src/main/java/com/liulishuo/filedownloader/util/FileDownloadSerialQueue.java"
+                },
+                {
+                    "@type": "item",
+                    "name": "library/src/main/java/com/liulishuo/filedownloader/BaseDownloadTask.java"
+                },
+                {
+                    "@type": "item",
+                    "name": "library/src/main/java/com/liulishuo/filedownloader/notification/FileDownloadNotificationListener.java"
+                },
+                {
+                    "@type": "item",
+                    "name": "library/src/main/java/com/liulishuo/filedownloader/QueuesHandler.java"
+                },
+                {
+                    "@type": "item",
+                    "name": "library/src/main/java/com/liulishuo/filedownloader/FileDownloadList.java"
+                },
+                {
+                    "@type": "item",
+                    "name": "library/src/main/java/com/liulishuo/filedownloader/DownloadTask.java"
+                },
+                {
+                    "@type": "item",
+                    "name": "library/src/main/java/com/liulishuo/filedownloader/FileDownloadSampleListener.java"
+                },
+                {
+                    "@type": "item",
+                    "name": "library/src/main/java/com/liulishuo/filedownloader/FileDownloadQueueSet.java"
+                },
+                {
+                    "@type": "item",
+                    "name": "library/src/main/java/com/liulishuo/filedownloader/IQueuesHandler.java"
+                }
+            ]
+        },
+        {
+            "@type": "group",
+            "name": "3",
+            "nested": [
+                {
+                    "@type": "item",
+                    "name": "demo/src/main/java/com/liulishuo/filedownloader/demo/MultitaskTestActivity.java"
+                },
+                {
+                    "@type": "item",
+                    "name": "demo/src/main/java/com/liulishuo/filedownloader/demo/Constant.java"
+                },
+                {
+                    "@type": "item",
+                    "name": "demo/src/main/java/com/liulishuo/filedownloader/demo/performance/IntParcel.java"
+                },
+                {
+                    "@type": "item",
+                    "name": "demo/src/main/java/com/liulishuo/filedownloader/demo/TasksManagerDemoActivity.java"
+                },
+                {
+                    "@type": "item",
+                    "name": "demo/src/main/java/com/liulishuo/filedownloader/demo/GlobalMonitor.java"
+                },
+                {
+                    "@type": "item",
+                    "name": "demo/src/main/java/com/liulishuo/filedownloader/demo/HybridTestActivity.java"
+                },
+                {
+                    "@type": "item",
+                    "name": "demo/src/main/java/com/liulishuo/filedownloader/demo/SingleTaskTestActivity.java"
+                },
+                {
+                    "@type": "item",
+                    "name": "demo/src/main/java/com/liulishuo/filedownloader/demo/DemoApplication.java"
+                },
+                {
+                    "@type": "item",
+                    "name": "demo/src/main/java/com/liulishuo/filedownloader/demo/Utils.java"
+                },
+                {
+                    "@type": "item",
+                    "name": "demo/src/main/java/com/liulishuo/filedownloader/demo/MainActivity.java"
+                },
+                {
+                    "@type": "item",
+                    "name": "demo/src/main/java/com/liulishuo/filedownloader/demo/NotificationSampleActivity.java"
+                },
+                {
+                    "@type": "item",
+                    "name": "demo/src/main/java/com/liulishuo/filedownloader/demo/performance/PerformanceTestActivity.java"
+                },
+                {
+                    "@type": "item",
+                    "name": "demo/src/main/java/com/liulishuo/filedownloader/demo/performance/LongParcel.java"
+                }
+            ]
+        },
+        {
+            "@type": "group",
+            "name": "4",
+            "nested": [
+                {
+                    "@type": "item",
+                    "name": "library/src/test/java/com/liulishuo/filedownloader/download/DownloadRunnableTest.java"
+                },
+                {
+                    "@type": "item",
+                    "name": "library/src/main/java/com/liulishuo/filedownloader/download/DownloadRunnable.java"
+                },
+                {
+                    "@type": "item",
+                    "name": "library/src/main/java/com/liulishuo/filedownloader/download/ConnectionProfile.java"
+                },
+                {
+                    "@type": "item",
+                    "name": "library/src/main/java/com/liulishuo/filedownloader/download/DownloadLaunchRunnable.java"
+                },
+                {
+                    "@type": "item",
+                    "name": "library/src/main/java/com/liulishuo/filedownloader/model/FileDownloadHeader.java"
+                },
+                {
+                    "@type": "item",
+                    "name": "library/src/main/java/com/liulishuo/filedownloader/services/FileDownloadThreadPool.java"
+                },
+                {
+                    "@type": "item",
+                    "name": "library/src/main/java/com/liulishuo/filedownloader/services/FileDownloadManager.java"
+                },
+                {
+                    "@type": "item",
+                    "name": "library/src/main/java/com/liulishuo/filedownloader/exception/FileDownloadGiveUpRetryException.java"
+                },
+                {
+                    "@type": "item",
+                    "name": "library/src/main/java/com/liulishuo/filedownloader/download/ConnectTask.java"
+                },
+                {
+                    "@type": "item",
+                    "name": "library/src/main/java/com/liulishuo/filedownloader/download/FetchDataTask.java"
+                },
+                {
+                    "@type": "item",
+                    "name": "library/src/main/java/com/liulishuo/filedownloader/download/ProcessCallback.java"
+                },
+                {
+                    "@type": "item",
+                    "name": "library/src/main/java/com/liulishuo/filedownloader/exception/FileDownloadNetworkPolicyException.java"
+                },
+                {
+                    "@type": "item",
+                    "name": "library/src/main/java/com/liulishuo/filedownloader/IThreadPoolMonitor.java"
+                }
+            ]
+        },
+        {
+            "@type": "group",
+            "name": "5",
+            "nested": [
+                {
+                    "@type": "item",
+                    "name": "library/src/main/java/com/liulishuo/filedownloader/services/ForegroundServiceConfig.java"
+                },
+                {
+                    "@type": "item",
+                    "name": "library/src/main/java/com/liulishuo/filedownloader/download/CustomComponentHolder.java"
+                },
+                {
+                    "@type": "item",
+                    "name": "library/src/main/java/com/liulishuo/filedownloader/stream/FileDownloadRandomAccessFile.java"
+                },
+                {
+                    "@type": "item",
+                    "name": "library/src/main/java/com/liulishuo/filedownloader/connection/DefaultConnectionCountAdapter.java"
+                },
+                {
+                    "@type": "item",
+                    "name": "library/src/main/java/com/liulishuo/filedownloader/util/FileDownloadHelper.java"
+                },
+                {
+                    "@type": "item",
+                    "name": "library/src/main/java/com/liulishuo/filedownloader/stream/FileDownloadOutputStream.java"
+                },
+                {
+                    "@type": "item",
+                    "name": "library/src/main/java/com/liulishuo/filedownloader/exception/PathConflictException.java"
+                },
+                {
+                    "@type": "item",
+                    "name": "library/src/main/java/com/liulishuo/filedownloader/services/DefaultIdGenerator.java"
+                },
+                {
+                    "@type": "item",
+                    "name": "library/src/main/java/com/liulishuo/filedownloader/services/DownloadMgrInitialParams.java"
+                },
+                {
+                    "@type": "item",
+                    "name": "library/src/main/java/com/liulishuo/filedownloader/connection/FileDownloadUrlConnection.java"
+                },
+                {
+                    "@type": "item",
+                    "name": "library/src/test/java/com/liulishuo/filedownloader/connection/FileDownloadUrlConnectionTest.java"
+                },
+                {
+                    "@type": "item",
+                    "name": "library/src/test/java/com/liulishuo/filedownloader/FileDownloaderTest.java"
+                }
+            ]
+        },
+        {
+            "@type": "group",
+            "name": "6",
+            "nested": [
+                {
+                    "@type": "item",
+                    "name": "library/src/main/java/com/liulishuo/filedownloader/event/DownloadEventPoolImpl.java"
+                },
+                {
+                    "@type": "item",
+                    "name": "library/src/main/java/com/liulishuo/filedownloader/event/DownloadEventSampleListener.java"
+                },
+                {
+                    "@type": "item",
+                    "name": "library/src/main/java/com/liulishuo/filedownloader/event/IDownloadEvent.java"
+                },
+                {
+                    "@type": "item",
+                    "name": "library/src/main/java/com/liulishuo/filedownloader/event/IDownloadEventPool.java"
+                },
+                {
+                    "@type": "item",
+                    "name": "library/src/main/java/com/liulishuo/filedownloader/FileDownloadEventPool.java"
+                },
+                {
+                    "@type": "item",
+                    "name": "library/src/main/java/com/liulishuo/filedownloader/util/FileDownloadLog.java"
+                },
+                {
+                    "@type": "item",
+                    "name": "library/src/main/java/com/liulishuo/filedownloader/PauseAllMarker.java"
+                },
+                {
+                    "@type": "item",
+                    "name": "library/src/main/java/com/liulishuo/filedownloader/event/IDownloadListener.java"
+                }
+            ]
+        },
+        {
+            "@type": "group",
+            "name": "7",
+            "nested": [
+                {
+                    "@type": "item",
+                    "name": "library/src/main/java/com/liulishuo/filedownloader/database/FileDownloadDatabase.java"
+                },
+                {
+                    "@type": "item",
+                    "name": "library/src/main/java/com/liulishuo/filedownloader/database/NoDatabaseImpl.java"
+                },
+                {
+                    "@type": "item",
+                    "name": "library/src/main/java/com/liulishuo/filedownloader/database/RemitDatabase.java"
+                },
+                {
+                    "@type": "item",
+                    "name": "library/src/main/java/com/liulishuo/filedownloader/model/FileDownloadModel.java"
+                },
+                {
+                    "@type": "item",
+                    "name": "library/src/main/java/com/liulishuo/filedownloader/model/ConnectionModel.java"
+                },
+                {
+                    "@type": "item",
+                    "name": "library/src/test/java/com/liulishuo/filedownloader/download/DownloadLaunchRunnableTest.java"
+                },
+                {
+                    "@type": "item",
+                    "name": "library/src/main/java/com/liulishuo/filedownloader/database/SqliteDatabaseImpl.java"
+                },
+                {
+                    "@type": "item",
+                    "name": "library/src/main/java/com/liulishuo/filedownloader/database/SqliteDatabaseOpenHelper.java"
+                }
+            ]
+        },
+        {
+            "@type": "group",
+            "name": "8",
+            "nested": [
+                {
+                    "@type": "item",
+                    "name": "library/src/main/java/com/liulishuo/filedownloader/exception/FileDownloadHttpException.java"
+                },
+                {
+                    "@type": "item",
+                    "name": "library/src/main/java/com/liulishuo/filedownloader/exception/FileDownloadSecurityException.java"
+                },
+                {
+                    "@type": "item",
+                    "name": "library/src/main/java/com/liulishuo/filedownloader/util/FileDownloadUtils.java"
+                },
+                {
+                    "@type": "item",
+                    "name": "library/src/test/java/com/liulishuo/filedownloader/util/FileDownloadUtilsTest.java"
+                },
+                {
+                    "@type": "item",
+                    "name": "library/src/main/java/com/liulishuo/filedownloader/connection/RedirectHandler.java"
+                },
+                {
+                    "@type": "item",
+                    "name": "library/src/main/java/com/liulishuo/filedownloader/connection/FileDownloadConnection.java"
+                }
+            ]
+        },
+        {
+            "@type": "group",
+            "name": "9",
+            "nested": [
+                {
+                    "@type": "item",
+                    "name": "library/src/main/java/com/liulishuo/filedownloader/message/MessageSnapshotThreadPool.java"
+                },
+                {
+                    "@type": "item",
+                    "name": "library/src/main/java/com/liulishuo/filedownloader/util/FileDownloadExecutors.java"
+                },
+                {
+                    "@type": "item",
+                    "name": "library/src/main/java/com/liulishuo/filedownloader/MessageSnapshotGate.java"
+                },
+                {
+                    "@type": "item",
+                    "name": "library/src/main/java/com/liulishuo/filedownloader/message/MessageSnapshotFlow.java"
+                },
+                {
+                    "@type": "item",
+                    "name": "library/src/main/java/com/liulishuo/filedownloader/FileDownloadTaskLauncher.java"
+                }
+            ]
+        },
+        {
+            "@type": "group",
+            "name": "10",
+            "nested": [
+                {
+                    "@type": "item",
+                    "name": "library/src/main/java/com/liulishuo/filedownloader/services/FileDownloadBroadcastHandler.java"
+                },
+                {
+                    "@type": "item",
+                    "name": "library/src/main/java/com/liulishuo/filedownloader/download/DownloadStatusCallback.java"
+                },
+                {
+                    "@type": "item",
+                    "name": "library/src/main/java/com/liulishuo/filedownloader/util/FileDownloadProperties.java"
+                },
+                {
+                    "@type": "item",
+                    "name": "library/src/main/java/com/liulishuo/filedownloader/exception/FileDownloadOutOfSpaceException.java"
+                }
+            ]
+        }
+    ]
+}

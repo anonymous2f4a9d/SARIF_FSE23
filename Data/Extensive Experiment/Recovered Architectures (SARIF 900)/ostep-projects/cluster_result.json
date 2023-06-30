@@ -1,0 +1,92 @@
+{
+    "@schemaVersion": "1.0",
+    "name": "clustering",
+    "structure": [
+        {
+            "@type": "group",
+            "name": "0",
+            "nested": [
+                {
+                    "@type": "item",
+                    "name": "concurrency-webserver/src/io_helper.h"
+                },
+                {
+                    "@type": "item",
+                    "name": "concurrency-webserver/src/io_helper.c"
+                },
+                {
+                    "@type": "item",
+                    "name": "concurrency-webserver/src/wserver.c"
+                },
+                {
+                    "@type": "item",
+                    "name": "initial-xv6/tests/test_1.c"
+                },
+                {
+                    "@type": "item",
+                    "name": "concurrency-webserver/src/request.h"
+                },
+                {
+                    "@type": "item",
+                    "name": "concurrency-webserver/src/request.c"
+                }
+            ]
+        },
+        {
+            "@type": "group",
+            "name": "1",
+            "nested": [
+                {
+                    "@type": "item",
+                    "name": "initial-xv6/tests/test_2.c"
+                },
+                {
+                    "@type": "item",
+                    "name": "concurrency-webserver/src/spin.c"
+                },
+                {
+                    "@type": "item",
+                    "name": "concurrency-webserver/src/wclient.c"
+                }
+            ]
+        },
+        {
+            "@type": "group",
+            "name": "2",
+            "nested": [
+                {
+                    "@type": "item",
+                    "name": "filesystems-distributed-ufs/ufs.h"
+                },
+                {
+                    "@type": "item",
+                    "name": "filesystems-distributed-ufs/mkfs.c"
+                }
+            ]
+        },
+        {
+            "@type": "group",
+            "name": "3",
+            "nested": [
+                {
+                    "@type": "item",
+                    "name": "filesystems-distributed/mfs.h"
+                },
+                {
+                    "@type": "item",
+                    "name": "filesystems-distributed-ufs/mfs.h"
+                }
+            ]
+        },
+        {
+            "@type": "group",
+            "name": "4",
+            "nested": [
+                {
+                    "@type": "item",
+                    "name": "concurrency-mapreduce/mapreduce.h"
+                }
+            ]
+        }
+    ]
+}

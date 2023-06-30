@@ -1,0 +1,1850 @@
+{
+    "@schemaVersion": "1.0",
+    "name": "clustering",
+    "structure": [
+        {
+            "@type": "group",
+            "name": "0",
+            "nested": [
+                {
+                    "@type": "item",
+                    "name": "include/jemalloc/internal/quantum.h"
+                },
+                {
+                    "@type": "item",
+                    "name": "include/jemalloc/internal/extent_dss.h"
+                },
+                {
+                    "@type": "item",
+                    "name": "src/extent_dss.c"
+                },
+                {
+                    "@type": "item",
+                    "name": "include/jemalloc/internal/emap.h"
+                },
+                {
+                    "@type": "item",
+                    "name": "src/emap.c"
+                },
+                {
+                    "@type": "item",
+                    "name": "include/jemalloc/internal/smoothstep.h"
+                },
+                {
+                    "@type": "item",
+                    "name": "include/jemalloc/internal/jemalloc_internal_types.h"
+                },
+                {
+                    "@type": "item",
+                    "name": "include/jemalloc/internal/jemalloc_internal_inlines_c.h"
+                },
+                {
+                    "@type": "item",
+                    "name": "include/jemalloc/internal/san_bump.h"
+                },
+                {
+                    "@type": "item",
+                    "name": "src/san_bump.c"
+                },
+                {
+                    "@type": "item",
+                    "name": "include/jemalloc/internal/assert.h"
+                },
+                {
+                    "@type": "item",
+                    "name": "include/jemalloc/internal/tsd_win.h"
+                },
+                {
+                    "@type": "item",
+                    "name": "include/jemalloc/internal/buf_writer.h"
+                },
+                {
+                    "@type": "item",
+                    "name": "src/buf_writer.c"
+                },
+                {
+                    "@type": "item",
+                    "name": "include/jemalloc/internal/bin_stats.h"
+                },
+                {
+                    "@type": "item",
+                    "name": "include/jemalloc/internal/sz.h"
+                },
+                {
+                    "@type": "item",
+                    "name": "src/sz.c"
+                },
+                {
+                    "@type": "item",
+                    "name": "include/jemalloc/internal/inspect.h"
+                },
+                {
+                    "@type": "item",
+                    "name": "include/jemalloc/internal/ehooks.h"
+                },
+                {
+                    "@type": "item",
+                    "name": "src/ehooks.c"
+                },
+                {
+                    "@type": "item",
+                    "name": "include/jemalloc/internal/arena_externs.h"
+                },
+                {
+                    "@type": "item",
+                    "name": "src/arena.c"
+                },
+                {
+                    "@type": "item",
+                    "name": "include/jemalloc/internal/tsd_generic.h"
+                },
+                {
+                    "@type": "item",
+                    "name": "include/jemalloc/internal/tsd.h"
+                },
+                {
+                    "@type": "item",
+                    "name": "src/tsd.c"
+                },
+                {
+                    "@type": "item",
+                    "name": "include/jemalloc/internal/nstime.h"
+                },
+                {
+                    "@type": "item",
+                    "name": "src/nstime.c"
+                },
+                {
+                    "@type": "item",
+                    "name": "include/jemalloc/internal/sc.h"
+                },
+                {
+                    "@type": "item",
+                    "name": "src/sc.c"
+                },
+                {
+                    "@type": "item",
+                    "name": "include/jemalloc/internal/fb.h"
+                },
+                {
+                    "@type": "item",
+                    "name": "include/jemalloc/internal/extent.h"
+                },
+                {
+                    "@type": "item",
+                    "name": "src/extent.c"
+                },
+                {
+                    "@type": "item",
+                    "name": "include/jemalloc/internal/eset.h"
+                },
+                {
+                    "@type": "item",
+                    "name": "src/eset.c"
+                },
+                {
+                    "@type": "item",
+                    "name": "include/jemalloc/internal/hpa_hooks.h"
+                },
+                {
+                    "@type": "item",
+                    "name": "include/jemalloc/internal/rtree_tsd.h"
+                },
+                {
+                    "@type": "item",
+                    "name": "include/jemalloc/internal/rtree.h"
+                },
+                {
+                    "@type": "item",
+                    "name": "src/rtree.c"
+                },
+                {
+                    "@type": "item",
+                    "name": "include/jemalloc/internal/large_externs.h"
+                },
+                {
+                    "@type": "item",
+                    "name": "src/large.c"
+                },
+                {
+                    "@type": "item",
+                    "name": "include/jemalloc/internal/prof_hook.h"
+                },
+                {
+                    "@type": "item",
+                    "name": "include/jemalloc/internal/prof_structs.h"
+                },
+                {
+                    "@type": "item",
+                    "name": "include/jemalloc/internal/ctl.h"
+                },
+                {
+                    "@type": "item",
+                    "name": "src/ctl.c"
+                },
+                {
+                    "@type": "item",
+                    "name": "include/jemalloc/internal/tsd_malloc_thread_cleanup.h"
+                },
+                {
+                    "@type": "item",
+                    "name": "include/jemalloc/internal/bit_util.h"
+                },
+                {
+                    "@type": "item",
+                    "name": "include/jemalloc/internal/jemalloc_internal_inlines_b.h"
+                },
+                {
+                    "@type": "item",
+                    "name": "include/jemalloc/internal/background_thread_externs.h"
+                },
+                {
+                    "@type": "item",
+                    "name": "src/background_thread.c"
+                },
+                {
+                    "@type": "item",
+                    "name": "include/jemalloc/internal/stats.h"
+                },
+                {
+                    "@type": "item",
+                    "name": "src/stats.c"
+                },
+                {
+                    "@type": "item",
+                    "name": "include/jemalloc/internal/thread_event.h"
+                },
+                {
+                    "@type": "item",
+                    "name": "src/thread_event.c"
+                },
+                {
+                    "@type": "item",
+                    "name": "include/jemalloc/internal/peak_event.h"
+                },
+                {
+                    "@type": "item",
+                    "name": "src/peak_event.c"
+                },
+                {
+                    "@type": "item",
+                    "name": "include/jemalloc/internal/pai.h"
+                },
+                {
+                    "@type": "item",
+                    "name": "src/pai.c"
+                },
+                {
+                    "@type": "item",
+                    "name": "include/jemalloc/internal/bin_info.h"
+                },
+                {
+                    "@type": "item",
+                    "name": "src/bin_info.c"
+                },
+                {
+                    "@type": "item",
+                    "name": "include/jemalloc/internal/base.h"
+                },
+                {
+                    "@type": "item",
+                    "name": "src/base.c"
+                },
+                {
+                    "@type": "item",
+                    "name": "include/jemalloc/internal/peak.h"
+                },
+                {
+                    "@type": "item",
+                    "name": "include/jemalloc/internal/prof_externs.h"
+                },
+                {
+                    "@type": "item",
+                    "name": "src/prof.c"
+                },
+                {
+                    "@type": "item",
+                    "name": "include/jemalloc/internal/prng.h"
+                },
+                {
+                    "@type": "item",
+                    "name": "include/jemalloc/internal/pa.h"
+                },
+                {
+                    "@type": "item",
+                    "name": "src/pa_extra.c"
+                },
+                {
+                    "@type": "item",
+                    "name": "src/pa.c"
+                },
+                {
+                    "@type": "item",
+                    "name": "include/jemalloc/internal/prof_inlines.h"
+                },
+                {
+                    "@type": "item",
+                    "name": "include/jemalloc/internal/activity_callback.h"
+                },
+                {
+                    "@type": "item",
+                    "name": "include/jemalloc/internal/prof_log.h"
+                },
+                {
+                    "@type": "item",
+                    "name": "src/prof_log.c"
+                },
+                {
+                    "@type": "item",
+                    "name": "include/jemalloc/internal/emitter.h"
+                },
+                {
+                    "@type": "item",
+                    "name": "src/zone.c"
+                },
+                {
+                    "@type": "item",
+                    "name": "include/jemalloc/internal/hpa_opts.h"
+                },
+                {
+                    "@type": "item",
+                    "name": "include/jemalloc/internal/arena_inlines_b.h"
+                },
+                {
+                    "@type": "item",
+                    "name": "include/jemalloc/internal/ckh.h"
+                },
+                {
+                    "@type": "item",
+                    "name": "src/ckh.c"
+                },
+                {
+                    "@type": "item",
+                    "name": "include/jemalloc/internal/counter.h"
+                },
+                {
+                    "@type": "item",
+                    "name": "src/counter.c"
+                },
+                {
+                    "@type": "item",
+                    "name": "include/jemalloc/internal/jemalloc_internal_inlines_a.h"
+                },
+                {
+                    "@type": "item",
+                    "name": "include/jemalloc/internal/prof_recent.h"
+                },
+                {
+                    "@type": "item",
+                    "name": "src/prof_recent.c"
+                },
+                {
+                    "@type": "item",
+                    "name": "src/hpa_hooks.c"
+                },
+                {
+                    "@type": "item",
+                    "name": "include/jemalloc/internal/bin_types.h"
+                },
+                {
+                    "@type": "item",
+                    "name": "include/jemalloc/internal/decay.h"
+                },
+                {
+                    "@type": "item",
+                    "name": "src/decay.c"
+                },
+                {
+                    "@type": "item",
+                    "name": "include/jemalloc/internal/arena_types.h"
+                },
+                {
+                    "@type": "item",
+                    "name": "include/jemalloc/internal/log.h"
+                },
+                {
+                    "@type": "item",
+                    "name": "src/log.c"
+                },
+                {
+                    "@type": "item",
+                    "name": "include/jemalloc/internal/hpa.h"
+                },
+                {
+                    "@type": "item",
+                    "name": "src/hpa.c"
+                },
+                {
+                    "@type": "item",
+                    "name": "include/jemalloc/internal/qr.h"
+                },
+                {
+                    "@type": "item",
+                    "name": "include/jemalloc/internal/background_thread_inlines.h"
+                },
+                {
+                    "@type": "item",
+                    "name": "include/jemalloc/internal/background_thread_structs.h"
+                },
+                {
+                    "@type": "item",
+                    "name": "include/jemalloc/internal/rb.h"
+                },
+                {
+                    "@type": "item",
+                    "name": "include/jemalloc/internal/tcache_inlines.h"
+                },
+                {
+                    "@type": "item",
+                    "name": "include/jemalloc/internal/prof_types.h"
+                },
+                {
+                    "@type": "item",
+                    "name": "include/jemalloc/internal/jemalloc_internal_externs.h"
+                },
+                {
+                    "@type": "item",
+                    "name": "src/jemalloc.c"
+                },
+                {
+                    "@type": "item",
+                    "name": "include/jemalloc/internal/typed_list.h"
+                },
+                {
+                    "@type": "item",
+                    "name": "src/ticker.c"
+                },
+                {
+                    "@type": "item",
+                    "name": "include/jemalloc/internal/prof_data.h"
+                },
+                {
+                    "@type": "item",
+                    "name": "src/prof_data.c"
+                },
+                {
+                    "@type": "item",
+                    "name": "include/jemalloc/internal/lockedint.h"
+                },
+                {
+                    "@type": "item",
+                    "name": "src/jemalloc_cpp.cpp"
+                },
+                {
+                    "@type": "item",
+                    "name": "include/jemalloc/internal/hpdata.h"
+                },
+                {
+                    "@type": "item",
+                    "name": "src/hpdata.c"
+                },
+                {
+                    "@type": "item",
+                    "name": "include/jemalloc/internal/san.h"
+                },
+                {
+                    "@type": "item",
+                    "name": "src/san.c"
+                },
+                {
+                    "@type": "item",
+                    "name": "include/jemalloc/internal/edata.h"
+                },
+                {
+                    "@type": "item",
+                    "name": "src/edata.c"
+                },
+                {
+                    "@type": "item",
+                    "name": "include/jemalloc/internal/util.h"
+                },
+                {
+                    "@type": "item",
+                    "name": "include/jemalloc/internal/malloc_io.h"
+                },
+                {
+                    "@type": "item",
+                    "name": "src/malloc_io.c"
+                },
+                {
+                    "@type": "item",
+                    "name": "include/jemalloc/internal/arena_structs.h"
+                },
+                {
+                    "@type": "item",
+                    "name": "include/jemalloc/internal/edata_cache.h"
+                },
+                {
+                    "@type": "item",
+                    "name": "src/edata_cache.c"
+                },
+                {
+                    "@type": "item",
+                    "name": "include/jemalloc/internal/prof_stats.h"
+                },
+                {
+                    "@type": "item",
+                    "name": "src/prof_stats.c"
+                },
+                {
+                    "@type": "item",
+                    "name": "include/jemalloc/internal/mutex.h"
+                },
+                {
+                    "@type": "item",
+                    "name": "src/mutex.c"
+                },
+                {
+                    "@type": "item",
+                    "name": "include/jemalloc/internal/mpsc_queue.h"
+                },
+                {
+                    "@type": "item",
+                    "name": "include/jemalloc/internal/tsd_types.h"
+                },
+                {
+                    "@type": "item",
+                    "name": "include/jemalloc/internal/prof_sys.h"
+                },
+                {
+                    "@type": "item",
+                    "name": "src/prof_sys.c"
+                },
+                {
+                    "@type": "item",
+                    "name": "include/jemalloc/internal/cache_bin.h"
+                },
+                {
+                    "@type": "item",
+                    "name": "src/cache_bin.c"
+                },
+                {
+                    "@type": "item",
+                    "name": "include/jemalloc/internal/ql.h"
+                },
+                {
+                    "@type": "item",
+                    "name": "include/jemalloc/internal/ph.h"
+                },
+                {
+                    "@type": "item",
+                    "name": "include/jemalloc/internal/tsd_tls.h"
+                },
+                {
+                    "@type": "item",
+                    "name": "include/jemalloc/internal/tcache_types.h"
+                },
+                {
+                    "@type": "item",
+                    "name": "include/jemalloc/internal/tcache_externs.h"
+                },
+                {
+                    "@type": "item",
+                    "name": "src/tcache.c"
+                },
+                {
+                    "@type": "item",
+                    "name": "include/jemalloc/internal/psset.h"
+                },
+                {
+                    "@type": "item",
+                    "name": "src/psset.c"
+                },
+                {
+                    "@type": "item",
+                    "name": "src/inspect.c"
+                },
+                {
+                    "@type": "item",
+                    "name": "include/jemalloc/internal/exp_grow.h"
+                },
+                {
+                    "@type": "item",
+                    "name": "src/exp_grow.c"
+                },
+                {
+                    "@type": "item",
+                    "name": "include/jemalloc/internal/sec_opts.h"
+                },
+                {
+                    "@type": "item",
+                    "name": "include/jemalloc/internal/sec.h"
+                },
+                {
+                    "@type": "item",
+                    "name": "src/sec.c"
+                },
+                {
+                    "@type": "item",
+                    "name": "include/jemalloc/internal/tcache_structs.h"
+                },
+                {
+                    "@type": "item",
+                    "name": "include/jemalloc/internal/ecache.h"
+                },
+                {
+                    "@type": "item",
+                    "name": "src/ecache.c"
+                },
+                {
+                    "@type": "item",
+                    "name": "include/jemalloc/internal/jemalloc_internal_decls.h"
+                },
+                {
+                    "@type": "item",
+                    "name": "include/jemalloc/internal/ticker.h"
+                },
+                {
+                    "@type": "item",
+                    "name": "include/jemalloc/internal/arena_stats.h"
+                },
+                {
+                    "@type": "item",
+                    "name": "include/jemalloc/internal/witness.h"
+                },
+                {
+                    "@type": "item",
+                    "name": "src/witness.c"
+                },
+                {
+                    "@type": "item",
+                    "name": "include/jemalloc/internal/pac.h"
+                },
+                {
+                    "@type": "item",
+                    "name": "src/pac.c"
+                },
+                {
+                    "@type": "item",
+                    "name": "include/jemalloc/internal/jemalloc_internal_includes.h"
+                },
+                {
+                    "@type": "item",
+                    "name": "include/jemalloc/internal/pages.h"
+                },
+                {
+                    "@type": "item",
+                    "name": "src/pages.c"
+                },
+                {
+                    "@type": "item",
+                    "name": "include/jemalloc/internal/atomic.h"
+                },
+                {
+                    "@type": "item",
+                    "name": "include/jemalloc/internal/hook.h"
+                },
+                {
+                    "@type": "item",
+                    "name": "src/hook.c"
+                },
+                {
+                    "@type": "item",
+                    "name": "include/jemalloc/internal/safety_check.h"
+                },
+                {
+                    "@type": "item",
+                    "name": "src/safety_check.c"
+                },
+                {
+                    "@type": "item",
+                    "name": "include/jemalloc/internal/bin.h"
+                },
+                {
+                    "@type": "item",
+                    "name": "src/bin.c"
+                },
+                {
+                    "@type": "item",
+                    "name": "include/jemalloc/internal/jemalloc_internal_macros.h"
+                },
+                {
+                    "@type": "item",
+                    "name": "include/jemalloc/internal/hash.h"
+                },
+                {
+                    "@type": "item",
+                    "name": "include/jemalloc/internal/mutex_prof.h"
+                },
+                {
+                    "@type": "item",
+                    "name": "include/jemalloc/internal/extent_mmap.h"
+                },
+                {
+                    "@type": "item",
+                    "name": "src/extent_mmap.c"
+                }
+            ]
+        },
+        {
+            "@type": "group",
+            "name": "1",
+            "nested": [
+                {
+                    "@type": "item",
+                    "name": "test/unit/junk_alloc.c"
+                },
+                {
+                    "@type": "item",
+                    "name": "test/src/btalloc_1.c"
+                },
+                {
+                    "@type": "item",
+                    "name": "test/unit/double_free.h"
+                },
+                {
+                    "@type": "item",
+                    "name": "test/unit/junk_free.c"
+                },
+                {
+                    "@type": "item",
+                    "name": "test/unit/prof_accum.c"
+                },
+                {
+                    "@type": "item",
+                    "name": "test/src/btalloc_0.c"
+                },
+                {
+                    "@type": "item",
+                    "name": "test/unit/prof_sys_thread_name.c"
+                },
+                {
+                    "@type": "item",
+                    "name": "test/unit/prof_reset.c"
+                },
+                {
+                    "@type": "item",
+                    "name": "test/unit/arena_reset_prof.c"
+                },
+                {
+                    "@type": "item",
+                    "name": "test/unit/prof_mdump.c"
+                },
+                {
+                    "@type": "item",
+                    "name": "test/unit/batch_alloc_prof.c"
+                },
+                {
+                    "@type": "item",
+                    "name": "test/analyze/prof_bias.c"
+                },
+                {
+                    "@type": "item",
+                    "name": "test/unit/prof_active.c"
+                },
+                {
+                    "@type": "item",
+                    "name": "test/unit/prof_idump.c"
+                },
+                {
+                    "@type": "item",
+                    "name": "test/unit/junk.c"
+                },
+                {
+                    "@type": "item",
+                    "name": "test/unit/prof_gdump.c"
+                }
+            ]
+        },
+        {
+            "@type": "group",
+            "name": "2",
+            "nested": [
+                {
+                    "@type": "item",
+                    "name": "test/include/test/SFMT-params19937.h"
+                },
+                {
+                    "@type": "item",
+                    "name": "test/include/test/SFMT-params4253.h"
+                },
+                {
+                    "@type": "item",
+                    "name": "test/unit/SFMT.c"
+                },
+                {
+                    "@type": "item",
+                    "name": "test/include/test/SFMT-params.h"
+                },
+                {
+                    "@type": "item",
+                    "name": "test/include/test/SFMT-params44497.h"
+                },
+                {
+                    "@type": "item",
+                    "name": "test/include/test/SFMT-params1279.h"
+                },
+                {
+                    "@type": "item",
+                    "name": "test/include/test/SFMT-params11213.h"
+                },
+                {
+                    "@type": "item",
+                    "name": "test/include/test/SFMT-sse2.h"
+                },
+                {
+                    "@type": "item",
+                    "name": "test/include/test/SFMT-params86243.h"
+                },
+                {
+                    "@type": "item",
+                    "name": "test/include/test/SFMT-params132049.h"
+                },
+                {
+                    "@type": "item",
+                    "name": "test/include/test/SFMT-params607.h"
+                },
+                {
+                    "@type": "item",
+                    "name": "test/include/test/SFMT-params2281.h"
+                },
+                {
+                    "@type": "item",
+                    "name": "test/include/test/SFMT-params216091.h"
+                },
+                {
+                    "@type": "item",
+                    "name": "test/include/test/SFMT-alti.h"
+                },
+                {
+                    "@type": "item",
+                    "name": "test/src/SFMT.c"
+                },
+                {
+                    "@type": "item",
+                    "name": "test/unit/emitter.c"
+                }
+            ]
+        },
+        {
+            "@type": "group",
+            "name": "3",
+            "nested": [
+                {
+                    "@type": "item",
+                    "name": "test/integration/extent.c"
+                },
+                {
+                    "@type": "item",
+                    "name": "test/stress/hookbench.c"
+                },
+                {
+                    "@type": "item",
+                    "name": "test/unit/test_hooks.c"
+                },
+                {
+                    "@type": "item",
+                    "name": "test/unit/hpa.c"
+                },
+                {
+                    "@type": "item",
+                    "name": "test/unit/retained.c"
+                },
+                {
+                    "@type": "item",
+                    "name": "test/unit/mallctl.c"
+                },
+                {
+                    "@type": "item",
+                    "name": "test/src/math.c"
+                },
+                {
+                    "@type": "item",
+                    "name": "test/unit/arena_decay.c"
+                },
+                {
+                    "@type": "item",
+                    "name": "test/unit/base.c"
+                },
+                {
+                    "@type": "item",
+                    "name": "test/unit/uaf.c"
+                },
+                {
+                    "@type": "item",
+                    "name": "test/unit/arena_reset.c"
+                },
+                {
+                    "@type": "item",
+                    "name": "test/include/test/extent_hooks.h"
+                },
+                {
+                    "@type": "item",
+                    "name": "test/unit/oversize_threshold.c"
+                },
+                {
+                    "@type": "item",
+                    "name": "test/unit/pa.c"
+                },
+                {
+                    "@type": "item",
+                    "name": "test/include/test/arena_util.h"
+                }
+            ]
+        },
+        {
+            "@type": "group",
+            "name": "4",
+            "nested": [
+                {
+                    "@type": "item",
+                    "name": "test/unit/double_free.c"
+                },
+                {
+                    "@type": "item",
+                    "name": "test/stress/large_microbench.c"
+                },
+                {
+                    "@type": "item",
+                    "name": "test/unit/prof_hook.c"
+                },
+                {
+                    "@type": "item",
+                    "name": "test/stress/cpp/microbench.cpp"
+                },
+                {
+                    "@type": "item",
+                    "name": "test/integration/cpp/infallible_new_true.cpp"
+                },
+                {
+                    "@type": "item",
+                    "name": "test/unit/size_check.c"
+                },
+                {
+                    "@type": "item",
+                    "name": "test/unit/tcache_max.c"
+                },
+                {
+                    "@type": "item",
+                    "name": "test/unit/malloc_conf_2.c"
+                },
+                {
+                    "@type": "item",
+                    "name": "test/stress/microbench.c"
+                },
+                {
+                    "@type": "item",
+                    "name": "test/unit/zero_realloc_abort.c"
+                },
+                {
+                    "@type": "item",
+                    "name": "test/unit/prof_log.c"
+                },
+                {
+                    "@type": "item",
+                    "name": "test/unit/safety_check.c"
+                },
+                {
+                    "@type": "item",
+                    "name": "test/include/test/bench.h"
+                }
+            ]
+        },
+        {
+            "@type": "group",
+            "name": "5",
+            "nested": [
+                {
+                    "@type": "item",
+                    "name": "test/unit/mtx.c"
+                },
+                {
+                    "@type": "item",
+                    "name": "test/unit/mq.c"
+                },
+                {
+                    "@type": "item",
+                    "name": "test/include/test/mq.h"
+                },
+                {
+                    "@type": "item",
+                    "name": "test/unit/tsd.c"
+                },
+                {
+                    "@type": "item",
+                    "name": "test/analyze/sizes.c"
+                },
+                {
+                    "@type": "item",
+                    "name": "test/unit/counter.c"
+                },
+                {
+                    "@type": "item",
+                    "name": "test/integration/thread_arena.c"
+                },
+                {
+                    "@type": "item",
+                    "name": "test/integration/MALLOCX_ARENA.c"
+                },
+                {
+                    "@type": "item",
+                    "name": "test/integration/thread_tcache_enabled.c"
+                },
+                {
+                    "@type": "item",
+                    "name": "test/integration/allocated.c"
+                }
+            ]
+        },
+        {
+            "@type": "group",
+            "name": "6",
+            "nested": [
+                {
+                    "@type": "item",
+                    "name": "test/unit/bitmap.c"
+                },
+                {
+                    "@type": "item",
+                    "name": "test/src/test.c"
+                },
+                {
+                    "@type": "item",
+                    "name": "test/unit/fb.c"
+                },
+                {
+                    "@type": "item",
+                    "name": "test/unit/bit_util.c"
+                },
+                {
+                    "@type": "item",
+                    "name": "test/unit/math.c"
+                },
+                {
+                    "@type": "item",
+                    "name": "test/include/test/nbits.h"
+                },
+                {
+                    "@type": "item",
+                    "name": "test/include/test/math.h"
+                },
+                {
+                    "@type": "item",
+                    "name": "test/unit/binshard.c"
+                },
+                {
+                    "@type": "item",
+                    "name": "test/unit/prof_recent.c"
+                }
+            ]
+        },
+        {
+            "@type": "group",
+            "name": "7",
+            "nested": [
+                {
+                    "@type": "item",
+                    "name": "include/jemalloc/internal/jemalloc_internal_overrides.h"
+                },
+                {
+                    "@type": "item",
+                    "name": "include/jemalloc/internal/atomic_msvc.h"
+                },
+                {
+                    "@type": "item",
+                    "name": "include/jemalloc/internal/arena_inlines_a.h"
+                },
+                {
+                    "@type": "item",
+                    "name": "include/jemalloc/internal/spin.h"
+                },
+                {
+                    "@type": "item",
+                    "name": "include/jemalloc/internal/atomic_gcc_sync.h"
+                },
+                {
+                    "@type": "item",
+                    "name": "include/jemalloc/internal/atomic_gcc_atomic.h"
+                },
+                {
+                    "@type": "item",
+                    "name": "include/jemalloc/internal/seq.h"
+                },
+                {
+                    "@type": "item",
+                    "name": "include/jemalloc/internal/atomic_c11.h"
+                }
+            ]
+        },
+        {
+            "@type": "group",
+            "name": "8",
+            "nested": [
+                {
+                    "@type": "item",
+                    "name": "test/unit/hpa_background_thread.c"
+                },
+                {
+                    "@type": "item",
+                    "name": "test/unit/background_thread.c"
+                },
+                {
+                    "@type": "item",
+                    "name": "test/src/sleep.c"
+                },
+                {
+                    "@type": "item",
+                    "name": "test/include/test/bgthd.h"
+                },
+                {
+                    "@type": "item",
+                    "name": "test/unit/prof_thread_name.c"
+                },
+                {
+                    "@type": "item",
+                    "name": "test/unit/background_thread_enable.c"
+                },
+                {
+                    "@type": "item",
+                    "name": "test/include/test/sleep.h"
+                }
+            ]
+        },
+        {
+            "@type": "group",
+            "name": "9",
+            "nested": [
+                {
+                    "@type": "item",
+                    "name": "test/integration/slab_sizes.c"
+                },
+                {
+                    "@type": "item",
+                    "name": "test/unit/pack.c"
+                },
+                {
+                    "@type": "item",
+                    "name": "test/unit/buf_writer.c"
+                },
+                {
+                    "@type": "item",
+                    "name": "test/unit/hook.c"
+                },
+                {
+                    "@type": "item",
+                    "name": "test/unit/inspect.c"
+                },
+                {
+                    "@type": "item",
+                    "name": "test/unit/zero_reallocs.c"
+                },
+                {
+                    "@type": "item",
+                    "name": "test/unit/fork.c"
+                }
+            ]
+        },
+        {
+            "@type": "group",
+            "name": "10",
+            "nested": [
+                {
+                    "@type": "item",
+                    "name": "test/integration/cpp/basic.cpp"
+                },
+                {
+                    "@type": "item",
+                    "name": "test/unit/huge.c"
+                },
+                {
+                    "@type": "item",
+                    "name": "test/unit/prof_stats.c"
+                },
+                {
+                    "@type": "item",
+                    "name": "test/unit/batch_alloc.c"
+                },
+                {
+                    "@type": "item",
+                    "name": "test/stress/batch_alloc.c"
+                },
+                {
+                    "@type": "item",
+                    "name": "test/stress/fill_flush.c"
+                }
+            ]
+        },
+        {
+            "@type": "group",
+            "name": "11",
+            "nested": [
+                {
+                    "@type": "item",
+                    "name": "include/jemalloc/internal/fxp.h"
+                },
+                {
+                    "@type": "item",
+                    "name": "src/fxp.c"
+                },
+                {
+                    "@type": "item",
+                    "name": "include/jemalloc/internal/div.h"
+                },
+                {
+                    "@type": "item",
+                    "name": "src/div.c"
+                },
+                {
+                    "@type": "item",
+                    "name": "include/jemalloc/internal/bitmap.h"
+                },
+                {
+                    "@type": "item",
+                    "name": "src/bitmap.c"
+                },
+                {
+                    "@type": "item",
+                    "name": "include/jemalloc/internal/slab_data.h"
+                }
+            ]
+        },
+        {
+            "@type": "group",
+            "name": "12",
+            "nested": [
+                {
+                    "@type": "item",
+                    "name": "msvc/test_threads/test_threads_main.cpp"
+                },
+                {
+                    "@type": "item",
+                    "name": "msvc/test_threads/test_threads.cpp"
+                },
+                {
+                    "@type": "item",
+                    "name": "msvc/test_threads/test_threads.h"
+                }
+            ]
+        },
+        {
+            "@type": "group",
+            "name": "13",
+            "nested": [
+                {
+                    "@type": "item",
+                    "name": "test/unit/psset.c"
+                },
+                {
+                    "@type": "item",
+                    "name": "test/unit/edata_cache.c"
+                },
+                {
+                    "@type": "item",
+                    "name": "test/unit/hpdata.c"
+                }
+            ]
+        },
+        {
+            "@type": "group",
+            "name": "14",
+            "nested": [
+                {
+                    "@type": "item",
+                    "name": "test/unit/cache_bin.c"
+                },
+                {
+                    "@type": "item",
+                    "name": "test/unit/smoothstep.c"
+                },
+                {
+                    "@type": "item",
+                    "name": "test/unit/ckh.c"
+                }
+            ]
+        },
+        {
+            "@type": "group",
+            "name": "15",
+            "nested": [
+                {
+                    "@type": "item",
+                    "name": "test/unit/extent_quantize.c"
+                },
+                {
+                    "@type": "item",
+                    "name": "test/integration/xallocx.c"
+                },
+                {
+                    "@type": "item",
+                    "name": "test/unit/sz.c"
+                }
+            ]
+        },
+        {
+            "@type": "group",
+            "name": "16",
+            "nested": [
+                {
+                    "@type": "item",
+                    "name": "test/unit/zero_realloc_free.c"
+                },
+                {
+                    "@type": "item",
+                    "name": "test/unit/zero_realloc_alloc.c"
+                },
+                {
+                    "@type": "item",
+                    "name": "test/unit/seq.c"
+                }
+            ]
+        },
+        {
+            "@type": "group",
+            "name": "17",
+            "nested": [
+                {
+                    "@type": "item",
+                    "name": "test/include/test/btalloc.h"
+                },
+                {
+                    "@type": "item",
+                    "name": "test/src/btalloc.c"
+                }
+            ]
+        },
+        {
+            "@type": "group",
+            "name": "18",
+            "nested": [
+                {
+                    "@type": "item",
+                    "name": "test/include/test/mtx.h"
+                },
+                {
+                    "@type": "item",
+                    "name": "test/src/mtx.c"
+                }
+            ]
+        },
+        {
+            "@type": "group",
+            "name": "19",
+            "nested": [
+                {
+                    "@type": "item",
+                    "name": "test/include/test/thd.h"
+                },
+                {
+                    "@type": "item",
+                    "name": "test/src/thd.c"
+                }
+            ]
+        },
+        {
+            "@type": "group",
+            "name": "20",
+            "nested": [
+                {
+                    "@type": "item",
+                    "name": "test/include/test/timer.h"
+                },
+                {
+                    "@type": "item",
+                    "name": "test/src/timer.c"
+                }
+            ]
+        },
+        {
+            "@type": "group",
+            "name": "21",
+            "nested": [
+                {
+                    "@type": "item",
+                    "name": "test/unit/rb.c"
+                },
+                {
+                    "@type": "item",
+                    "name": "test/unit/ph.c"
+                }
+            ]
+        },
+        {
+            "@type": "group",
+            "name": "22",
+            "nested": [
+                {
+                    "@type": "item",
+                    "name": "test/include/test/san.h"
+                },
+                {
+                    "@type": "item",
+                    "name": "test/unit/san.c"
+                }
+            ]
+        },
+        {
+            "@type": "group",
+            "name": "23",
+            "nested": [
+                {
+                    "@type": "item",
+                    "name": "include/msvc_compat/strings.h"
+                },
+                {
+                    "@type": "item",
+                    "name": "include/msvc_compat/windows_extra.h"
+                }
+            ]
+        },
+        {
+            "@type": "group",
+            "name": "24",
+            "nested": [
+                {
+                    "@type": "item",
+                    "name": "src/test_hooks.c"
+                }
+            ]
+        },
+        {
+            "@type": "group",
+            "name": "25",
+            "nested": [
+                {
+                    "@type": "item",
+                    "name": "test/analyze/rand.c"
+                }
+            ]
+        },
+        {
+            "@type": "group",
+            "name": "26",
+            "nested": [
+                {
+                    "@type": "item",
+                    "name": "test/integration/aligned_alloc.c"
+                }
+            ]
+        },
+        {
+            "@type": "group",
+            "name": "27",
+            "nested": [
+                {
+                    "@type": "item",
+                    "name": "test/integration/cpp/infallible_new_false.cpp"
+                }
+            ]
+        },
+        {
+            "@type": "group",
+            "name": "28",
+            "nested": [
+                {
+                    "@type": "item",
+                    "name": "test/integration/malloc.c"
+                }
+            ]
+        },
+        {
+            "@type": "group",
+            "name": "29",
+            "nested": [
+                {
+                    "@type": "item",
+                    "name": "test/integration/mallocx.c"
+                }
+            ]
+        },
+        {
+            "@type": "group",
+            "name": "30",
+            "nested": [
+                {
+                    "@type": "item",
+                    "name": "test/integration/overflow.c"
+                }
+            ]
+        },
+        {
+            "@type": "group",
+            "name": "31",
+            "nested": [
+                {
+                    "@type": "item",
+                    "name": "test/integration/posix_memalign.c"
+                }
+            ]
+        },
+        {
+            "@type": "group",
+            "name": "32",
+            "nested": [
+                {
+                    "@type": "item",
+                    "name": "test/integration/rallocx.c"
+                }
+            ]
+        },
+        {
+            "@type": "group",
+            "name": "33",
+            "nested": [
+                {
+                    "@type": "item",
+                    "name": "test/integration/sdallocx.c"
+                }
+            ]
+        },
+        {
+            "@type": "group",
+            "name": "34",
+            "nested": [
+                {
+                    "@type": "item",
+                    "name": "test/integration/smallocx.c"
+                }
+            ]
+        },
+        {
+            "@type": "group",
+            "name": "35",
+            "nested": [
+                {
+                    "@type": "item",
+                    "name": "test/stress/mallctl.c"
+                }
+            ]
+        },
+        {
+            "@type": "group",
+            "name": "36",
+            "nested": [
+                {
+                    "@type": "item",
+                    "name": "test/unit/a0.c"
+                }
+            ]
+        },
+        {
+            "@type": "group",
+            "name": "37",
+            "nested": [
+                {
+                    "@type": "item",
+                    "name": "test/unit/atomic.c"
+                }
+            ]
+        },
+        {
+            "@type": "group",
+            "name": "38",
+            "nested": [
+                {
+                    "@type": "item",
+                    "name": "test/unit/decay.c"
+                }
+            ]
+        },
+        {
+            "@type": "group",
+            "name": "39",
+            "nested": [
+                {
+                    "@type": "item",
+                    "name": "test/unit/div.c"
+                }
+            ]
+        },
+        {
+            "@type": "group",
+            "name": "40",
+            "nested": [
+                {
+                    "@type": "item",
+                    "name": "test/unit/fxp.c"
+                }
+            ]
+        },
+        {
+            "@type": "group",
+            "name": "41",
+            "nested": [
+                {
+                    "@type": "item",
+                    "name": "test/unit/hash.c"
+                }
+            ]
+        },
+        {
+            "@type": "group",
+            "name": "42",
+            "nested": [
+                {
+                    "@type": "item",
+                    "name": "test/unit/log.c"
+                }
+            ]
+        },
+        {
+            "@type": "group",
+            "name": "43",
+            "nested": [
+                {
+                    "@type": "item",
+                    "name": "test/unit/malloc_io.c"
+                }
+            ]
+        },
+        {
+            "@type": "group",
+            "name": "44",
+            "nested": [
+                {
+                    "@type": "item",
+                    "name": "test/unit/mpsc_queue.c"
+                }
+            ]
+        },
+        {
+            "@type": "group",
+            "name": "45",
+            "nested": [
+                {
+                    "@type": "item",
+                    "name": "test/unit/nstime.c"
+                }
+            ]
+        },
+        {
+            "@type": "group",
+            "name": "46",
+            "nested": [
+                {
+                    "@type": "item",
+                    "name": "test/unit/pages.c"
+                }
+            ]
+        },
+        {
+            "@type": "group",
+            "name": "47",
+            "nested": [
+                {
+                    "@type": "item",
+                    "name": "test/unit/peak.c"
+                }
+            ]
+        },
+        {
+            "@type": "group",
+            "name": "48",
+            "nested": [
+                {
+                    "@type": "item",
+                    "name": "test/unit/prng.c"
+                }
+            ]
+        },
+        {
+            "@type": "group",
+            "name": "49",
+            "nested": [
+                {
+                    "@type": "item",
+                    "name": "test/unit/prof_tctx.c"
+                }
+            ]
+        },
+        {
+            "@type": "group",
+            "name": "50",
+            "nested": [
+                {
+                    "@type": "item",
+                    "name": "test/unit/ql.c"
+                }
+            ]
+        },
+        {
+            "@type": "group",
+            "name": "51",
+            "nested": [
+                {
+                    "@type": "item",
+                    "name": "test/unit/qr.c"
+                }
+            ]
+        },
+        {
+            "@type": "group",
+            "name": "52",
+            "nested": [
+                {
+                    "@type": "item",
+                    "name": "test/unit/rtree.c"
+                }
+            ]
+        },
+        {
+            "@type": "group",
+            "name": "53",
+            "nested": [
+                {
+                    "@type": "item",
+                    "name": "test/unit/san_bump.c"
+                }
+            ]
+        },
+        {
+            "@type": "group",
+            "name": "54",
+            "nested": [
+                {
+                    "@type": "item",
+                    "name": "test/unit/sc.c"
+                }
+            ]
+        },
+        {
+            "@type": "group",
+            "name": "55",
+            "nested": [
+                {
+                    "@type": "item",
+                    "name": "test/unit/sec.c"
+                }
+            ]
+        },
+        {
+            "@type": "group",
+            "name": "56",
+            "nested": [
+                {
+                    "@type": "item",
+                    "name": "test/unit/size_classes.c"
+                }
+            ]
+        },
+        {
+            "@type": "group",
+            "name": "57",
+            "nested": [
+                {
+                    "@type": "item",
+                    "name": "test/unit/slab.c"
+                }
+            ]
+        },
+        {
+            "@type": "group",
+            "name": "58",
+            "nested": [
+                {
+                    "@type": "item",
+                    "name": "test/unit/spin.c"
+                }
+            ]
+        },
+        {
+            "@type": "group",
+            "name": "59",
+            "nested": [
+                {
+                    "@type": "item",
+                    "name": "test/unit/stats.c"
+                }
+            ]
+        },
+        {
+            "@type": "group",
+            "name": "60",
+            "nested": [
+                {
+                    "@type": "item",
+                    "name": "test/unit/stats_print.c"
+                }
+            ]
+        },
+        {
+            "@type": "group",
+            "name": "61",
+            "nested": [
+                {
+                    "@type": "item",
+                    "name": "test/unit/thread_event.c"
+                }
+            ]
+        },
+        {
+            "@type": "group",
+            "name": "62",
+            "nested": [
+                {
+                    "@type": "item",
+                    "name": "test/unit/ticker.c"
+                }
+            ]
+        },
+        {
+            "@type": "group",
+            "name": "63",
+            "nested": [
+                {
+                    "@type": "item",
+                    "name": "test/unit/witness.c"
+                }
+            ]
+        },
+        {
+            "@type": "group",
+            "name": "64",
+            "nested": [
+                {
+                    "@type": "item",
+                    "name": "test/unit/zero.c"
+                }
+            ]
+        },
+        {
+            "@type": "group",
+            "name": "65",
+            "nested": [
+                {
+                    "@type": "item",
+                    "name": "include/jemalloc/internal/test_hooks.h"
+                }
+            ]
+        },
+        {
+            "@type": "group",
+            "name": "66",
+            "nested": [
+                {
+                    "@type": "item",
+                    "name": "include/msvc_compat/C99/stdint.h"
+                }
+            ]
+        },
+        {
+            "@type": "group",
+            "name": "67",
+            "nested": [
+                {
+                    "@type": "item",
+                    "name": "include/msvc_compat/C99/stdbool.h"
+                }
+            ]
+        },
+        {
+            "@type": "group",
+            "name": "68",
+            "nested": [
+                {
+                    "@type": "item",
+                    "name": "test/include/test/test.h"
+                }
+            ]
+        },
+        {
+            "@type": "group",
+            "name": "69",
+            "nested": [
+                {
+                    "@type": "item",
+                    "name": "test/include/test/SFMT.h"
+                }
+            ]
+        }
+    ]
+}

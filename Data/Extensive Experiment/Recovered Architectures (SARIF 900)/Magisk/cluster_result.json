@@ -1,0 +1,716 @@
+{
+    "@schemaVersion": "1.0",
+    "name": "clustering",
+    "structure": [
+        {
+            "@type": "group",
+            "name": "0",
+            "nested": [
+                {
+                    "@type": "item",
+                    "name": "native/src/base/xwrap.hpp"
+                },
+                {
+                    "@type": "item",
+                    "name": "native/src/base/misc.hpp"
+                },
+                {
+                    "@type": "item",
+                    "name": "native/src/base/misc.cpp"
+                },
+                {
+                    "@type": "item",
+                    "name": "native/src/base/logging.hpp"
+                },
+                {
+                    "@type": "item",
+                    "name": "native/src/base/logging.cpp"
+                },
+                {
+                    "@type": "item",
+                    "name": "native/src/base/include/selinux.hpp"
+                },
+                {
+                    "@type": "item",
+                    "name": "native/src/base/selinux.cpp"
+                },
+                {
+                    "@type": "item",
+                    "name": "native/src/base/include/base.hpp"
+                },
+                {
+                    "@type": "item",
+                    "name": "native/src/base/files.hpp"
+                },
+                {
+                    "@type": "item",
+                    "name": "native/src/base/files.cpp"
+                },
+                {
+                    "@type": "item",
+                    "name": "native/src/base/include/stream.hpp"
+                },
+                {
+                    "@type": "item",
+                    "name": "native/src/base/stream.cpp"
+                },
+                {
+                    "@type": "item",
+                    "name": "native/src/base/missing.hpp"
+                },
+                {
+                    "@type": "item",
+                    "name": "native/src/base/include/embed.hpp"
+                }
+            ]
+        },
+        {
+            "@type": "group",
+            "name": "1",
+            "nested": [
+                {
+                    "@type": "item",
+                    "name": "native/src/zygisk/memory.hpp"
+                },
+                {
+                    "@type": "item",
+                    "name": "native/src/zygisk/memory.cpp"
+                },
+                {
+                    "@type": "item",
+                    "name": "native/src/zygisk/jni_hooks.hpp"
+                },
+                {
+                    "@type": "item",
+                    "name": "native/src/zygisk/main.cpp"
+                },
+                {
+                    "@type": "item",
+                    "name": "native/src/zygisk/module.hpp"
+                },
+                {
+                    "@type": "item",
+                    "name": "native/src/zygisk/api.hpp"
+                },
+                {
+                    "@type": "item",
+                    "name": "native/src/zygisk/zygisk.hpp"
+                },
+                {
+                    "@type": "item",
+                    "name": "native/src/zygisk/utils.cpp"
+                },
+                {
+                    "@type": "item",
+                    "name": "native/src/zygisk/entry.cpp"
+                },
+                {
+                    "@type": "item",
+                    "name": "native/src/zygisk/hook.cpp"
+                },
+                {
+                    "@type": "item",
+                    "name": "native/src/zygisk/ptrace.hpp"
+                },
+                {
+                    "@type": "item",
+                    "name": "native/src/zygisk/ptrace.cpp"
+                }
+            ]
+        },
+        {
+            "@type": "group",
+            "name": "2",
+            "nested": [
+                {
+                    "@type": "item",
+                    "name": "native/src/core/magisk.cpp"
+                },
+                {
+                    "@type": "item",
+                    "name": "native/src/core/restorecon.cpp"
+                },
+                {
+                    "@type": "item",
+                    "name": "native/src/core/core.hpp"
+                },
+                {
+                    "@type": "item",
+                    "name": "native/src/core/node.hpp"
+                },
+                {
+                    "@type": "item",
+                    "name": "native/src/core/module.cpp"
+                },
+                {
+                    "@type": "item",
+                    "name": "native/src/core/scripting.cpp"
+                },
+                {
+                    "@type": "item",
+                    "name": "native/src/core/bootstages.cpp"
+                },
+                {
+                    "@type": "item",
+                    "name": "native/src/include/daemon.hpp"
+                },
+                {
+                    "@type": "item",
+                    "name": "native/src/core/daemon.cpp"
+                },
+                {
+                    "@type": "item",
+                    "name": "native/src/core/package.cpp"
+                },
+                {
+                    "@type": "item",
+                    "name": "native/src/core/thread.cpp"
+                },
+                {
+                    "@type": "item",
+                    "name": "native/src/include/socket.hpp"
+                },
+                {
+                    "@type": "item",
+                    "name": "native/src/core/socket.cpp"
+                },
+                {
+                    "@type": "item",
+                    "name": "native/src/include/db.hpp"
+                },
+                {
+                    "@type": "item",
+                    "name": "native/src/core/db.cpp"
+                },
+                {
+                    "@type": "item",
+                    "name": "native/src/core/applets.cpp"
+                }
+            ]
+        },
+        {
+            "@type": "group",
+            "name": "3",
+            "nested": [
+                {
+                    "@type": "item",
+                    "name": "native/src/boot/dtb.hpp"
+                },
+                {
+                    "@type": "item",
+                    "name": "native/src/boot/main.cpp"
+                },
+                {
+                    "@type": "item",
+                    "name": "native/src/boot/magiskboot.hpp"
+                },
+                {
+                    "@type": "item",
+                    "name": "native/src/boot/compress.hpp"
+                },
+                {
+                    "@type": "item",
+                    "name": "native/src/boot/bootimg.hpp"
+                },
+                {
+                    "@type": "item",
+                    "name": "native/src/boot/bootimg.cpp"
+                },
+                {
+                    "@type": "item",
+                    "name": "native/src/boot/compress.cpp"
+                },
+                {
+                    "@type": "item",
+                    "name": "native/src/boot/dtb.cpp"
+                },
+                {
+                    "@type": "item",
+                    "name": "native/src/boot/format.hpp"
+                },
+                {
+                    "@type": "item",
+                    "name": "native/src/boot/format.cpp"
+                }
+            ]
+        },
+        {
+            "@type": "group",
+            "name": "4",
+            "nested": [
+                {
+                    "@type": "item",
+                    "name": "native/src/external/xz-embedded/xz_lzma2.h"
+                },
+                {
+                    "@type": "item",
+                    "name": "native/src/external/xz-embedded/xz_config.h"
+                },
+                {
+                    "@type": "item",
+                    "name": "native/src/external/xz-embedded/xz_private.h"
+                },
+                {
+                    "@type": "item",
+                    "name": "native/src/external/xz-embedded/xz_dec_lzma2.c"
+                },
+                {
+                    "@type": "item",
+                    "name": "native/src/external/xz-embedded/xz.h"
+                },
+                {
+                    "@type": "item",
+                    "name": "native/src/external/xz-embedded/xz_crc32.c"
+                },
+                {
+                    "@type": "item",
+                    "name": "native/src/external/xz-embedded/xz_dec_stream.c"
+                },
+                {
+                    "@type": "item",
+                    "name": "native/src/external/xz-embedded/xz_stream.h"
+                }
+            ]
+        },
+        {
+            "@type": "group",
+            "name": "5",
+            "nested": [
+                {
+                    "@type": "item",
+                    "name": "stub/src/main/java/com/topjohnwu/magisk/DelegateComponentFactory.java"
+                },
+                {
+                    "@type": "item",
+                    "name": "stub/src/main/java/com/topjohnwu/magisk/DelegateApplication.java"
+                },
+                {
+                    "@type": "item",
+                    "name": "stub/src/main/java/com/topjohnwu/magisk/DelegateRootService.java"
+                },
+                {
+                    "@type": "item",
+                    "name": "stub/src/main/java/com/topjohnwu/magisk/DynLoad.java"
+                }
+            ]
+        },
+        {
+            "@type": "group",
+            "name": "6",
+            "nested": [
+                {
+                    "@type": "item",
+                    "name": "stub/src/main/java/com/topjohnwu/magisk/dummy/DummyService.java"
+                },
+                {
+                    "@type": "item",
+                    "name": "stub/src/main/java/com/topjohnwu/magisk/dummy/DummyProvider.java"
+                },
+                {
+                    "@type": "item",
+                    "name": "stub/src/main/java/com/topjohnwu/magisk/dummy/DummyReceiver.java"
+                }
+            ]
+        },
+        {
+            "@type": "group",
+            "name": "7",
+            "nested": [
+                {
+                    "@type": "item",
+                    "name": "app/src/main/java/com/topjohnwu/magisk/signing/ByteArrayStream.java"
+                },
+                {
+                    "@type": "item",
+                    "name": "app/src/main/java/com/topjohnwu/magisk/signing/JarMap.java"
+                },
+                {
+                    "@type": "item",
+                    "name": "app/src/main/java/com/topjohnwu/magisk/signing/CryptoUtils.java"
+                }
+            ]
+        },
+        {
+            "@type": "group",
+            "name": "8",
+            "nested": [
+                {
+                    "@type": "item",
+                    "name": "native/src/include/magisk.hpp"
+                },
+                {
+                    "@type": "item",
+                    "name": "native/src/core/su/su.cpp"
+                },
+                {
+                    "@type": "item",
+                    "name": "native/src/core/su/pts.hpp"
+                },
+                {
+                    "@type": "item",
+                    "name": "native/src/core/su/pts.cpp"
+                },
+                {
+                    "@type": "item",
+                    "name": "native/src/core/su/su.hpp"
+                },
+                {
+                    "@type": "item",
+                    "name": "native/src/core/su/su_daemon.cpp"
+                },
+                {
+                    "@type": "item",
+                    "name": "native/src/core/su/connect.cpp"
+                }
+            ]
+        },
+        {
+            "@type": "group",
+            "name": "9",
+            "nested": [
+                {
+                    "@type": "item",
+                    "name": "native/src/base/compat/fortify.hpp"
+                },
+                {
+                    "@type": "item",
+                    "name": "native/src/base/compat/compat.cpp"
+                }
+            ]
+        },
+        {
+            "@type": "group",
+            "name": "10",
+            "nested": [
+                {
+                    "@type": "item",
+                    "name": "native/src/init/preload.c"
+                },
+                {
+                    "@type": "item",
+                    "name": "native/src/init/init.hpp"
+                },
+                {
+                    "@type": "item",
+                    "name": "native/src/init/init.cpp"
+                },
+                {
+                    "@type": "item",
+                    "name": "native/src/init/getinfo.cpp"
+                },
+                {
+                    "@type": "item",
+                    "name": "native/src/init/rootdir.cpp"
+                },
+                {
+                    "@type": "item",
+                    "name": "native/src/init/twostage.cpp"
+                },
+                {
+                    "@type": "item",
+                    "name": "native/src/init/selinux.cpp"
+                },
+                {
+                    "@type": "item",
+                    "name": "native/src/init/mount.cpp"
+                }
+            ]
+        },
+        {
+            "@type": "group",
+            "name": "11",
+            "nested": [
+                {
+                    "@type": "item",
+                    "name": "stub/src/main/java/com/topjohnwu/magisk/net/BadRequest.java"
+                },
+                {
+                    "@type": "item",
+                    "name": "stub/src/main/java/com/topjohnwu/magisk/net/Request.java"
+                }
+            ]
+        },
+        {
+            "@type": "group",
+            "name": "12",
+            "nested": [
+                {
+                    "@type": "item",
+                    "name": "app/src/main/java/com/topjohnwu/magisk/signing/SignApk.java"
+                },
+                {
+                    "@type": "item",
+                    "name": "app/src/main/java/com/topjohnwu/magisk/signing/ApkSignerV2.java"
+                }
+            ]
+        },
+        {
+            "@type": "group",
+            "name": "13",
+            "nested": [
+                {
+                    "@type": "item",
+                    "name": "native/src/sepolicy/include/sepolicy.hpp"
+                },
+                {
+                    "@type": "item",
+                    "name": "native/src/sepolicy/policy.hpp"
+                },
+                {
+                    "@type": "item",
+                    "name": "native/src/sepolicy/api.cpp"
+                },
+                {
+                    "@type": "item",
+                    "name": "native/src/sepolicy/rules.cpp"
+                },
+                {
+                    "@type": "item",
+                    "name": "native/src/sepolicy/statement.cpp"
+                },
+                {
+                    "@type": "item",
+                    "name": "native/src/sepolicy/policydb.cpp"
+                },
+                {
+                    "@type": "item",
+                    "name": "native/src/sepolicy/sepolicy.cpp"
+                },
+                {
+                    "@type": "item",
+                    "name": "native/src/sepolicy/main.cpp"
+                }
+            ]
+        },
+        {
+            "@type": "group",
+            "name": "14",
+            "nested": [
+                {
+                    "@type": "item",
+                    "name": "native/src/base/new.cpp"
+                }
+            ]
+        },
+        {
+            "@type": "group",
+            "name": "15",
+            "nested": [
+                {
+                    "@type": "item",
+                    "name": "native/src/core/applet_stub.cpp"
+                }
+            ]
+        },
+        {
+            "@type": "group",
+            "name": "16",
+            "nested": [
+                {
+                    "@type": "item",
+                    "name": "native/src/external/pcre2_workaround.c"
+                }
+            ]
+        },
+        {
+            "@type": "group",
+            "name": "17",
+            "nested": [
+                {
+                    "@type": "item",
+                    "name": "native/src/zygisk/loader.c"
+                }
+            ]
+        },
+        {
+            "@type": "group",
+            "name": "18",
+            "nested": [
+                {
+                    "@type": "item",
+                    "name": "native/src/external/xz_config/config.h"
+                }
+            ]
+        },
+        {
+            "@type": "group",
+            "name": "19",
+            "nested": [
+                {
+                    "@type": "item",
+                    "name": "stub/src/main/java/com/topjohnwu/magisk/DownloadActivity.java"
+                }
+            ]
+        },
+        {
+            "@type": "group",
+            "name": "20",
+            "nested": [
+                {
+                    "@type": "item",
+                    "name": "stub/src/main/java/com/topjohnwu/magisk/ClassLoaders.java"
+                }
+            ]
+        },
+        {
+            "@type": "group",
+            "name": "21",
+            "nested": [
+                {
+                    "@type": "item",
+                    "name": "stub/src/main/java/com/topjohnwu/magisk/net/Networking.java"
+                }
+            ]
+        },
+        {
+            "@type": "group",
+            "name": "22",
+            "nested": [
+                {
+                    "@type": "item",
+                    "name": "stub/src/main/java/com/topjohnwu/magisk/net/ErrorHandler.java"
+                }
+            ]
+        },
+        {
+            "@type": "group",
+            "name": "23",
+            "nested": [
+                {
+                    "@type": "item",
+                    "name": "stub/src/main/java/com/topjohnwu/magisk/net/ResponseListener.java"
+                }
+            ]
+        },
+        {
+            "@type": "group",
+            "name": "24",
+            "nested": [
+                {
+                    "@type": "item",
+                    "name": "app/src/main/java/com/topjohnwu/magisk/signing/SignBoot.java"
+                }
+            ]
+        },
+        {
+            "@type": "group",
+            "name": "25",
+            "nested": [
+                {
+                    "@type": "item",
+                    "name": "app/src/main/java/com/topjohnwu/magisk/signing/ZipUtils.java"
+                }
+            ]
+        },
+        {
+            "@type": "group",
+            "name": "26",
+            "nested": [
+                {
+                    "@type": "item",
+                    "name": "app/src/main/java/com/topjohnwu/magisk/widget/ConcealableBottomNavigationView.java"
+                }
+            ]
+        },
+        {
+            "@type": "group",
+            "name": "27",
+            "nested": [
+                {
+                    "@type": "item",
+                    "name": "app/src/main/java/androidx/lifecycle/ProcessLifecycleAccessor.java"
+                }
+            ]
+        },
+        {
+            "@type": "group",
+            "name": "28",
+            "nested": [
+                {
+                    "@type": "item",
+                    "name": "app/shared/src/main/java/com/topjohnwu/magisk/ProviderInstaller.java"
+                }
+            ]
+        },
+        {
+            "@type": "group",
+            "name": "29",
+            "nested": [
+                {
+                    "@type": "item",
+                    "name": "app/shared/src/main/java/com/topjohnwu/magisk/StubApk.java"
+                }
+            ]
+        },
+        {
+            "@type": "group",
+            "name": "30",
+            "nested": [
+                {
+                    "@type": "item",
+                    "name": "app/shared/src/main/java/com/topjohnwu/magisk/utils/CompoundEnumeration.java"
+                }
+            ]
+        },
+        {
+            "@type": "group",
+            "name": "31",
+            "nested": [
+                {
+                    "@type": "item",
+                    "name": "app/shared/src/main/java/com/topjohnwu/magisk/utils/APKInstall.java"
+                }
+            ]
+        },
+        {
+            "@type": "group",
+            "name": "32",
+            "nested": [
+                {
+                    "@type": "item",
+                    "name": "app/shared/src/main/java/com/topjohnwu/magisk/utils/DynamicClassLoader.java"
+                }
+            ]
+        },
+        {
+            "@type": "group",
+            "name": "33",
+            "nested": [
+                {
+                    "@type": "item",
+                    "name": "native/src/zygisk/deny/deny.hpp"
+                },
+                {
+                    "@type": "item",
+                    "name": "native/src/zygisk/deny/cli.cpp"
+                },
+                {
+                    "@type": "item",
+                    "name": "native/src/zygisk/deny/utils.cpp"
+                },
+                {
+                    "@type": "item",
+                    "name": "native/src/zygisk/deny/revert.cpp"
+                }
+            ]
+        },
+        {
+            "@type": "group",
+            "name": "34",
+            "nested": [
+                {
+                    "@type": "item",
+                    "name": "native/src/core/resetprop/resetprop.hpp"
+                },
+                {
+                    "@type": "item",
+                    "name": "native/src/core/resetprop/resetprop.cpp"
+                },
+                {
+                    "@type": "item",
+                    "name": "native/src/core/resetprop/persist.cpp"
+                }
+            ]
+        }
+    ]
+}

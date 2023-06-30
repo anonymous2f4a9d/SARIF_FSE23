@@ -1,0 +1,480 @@
+{
+    "@schemaVersion": "1.0",
+    "name": "clustering",
+    "structure": [
+        {
+            "@type": "group",
+            "name": "0",
+            "nested": [
+                {
+                    "@type": "item",
+                    "name": "src/braft/builtin_service_impl.h"
+                },
+                {
+                    "@type": "item",
+                    "name": "src/braft/builtin_service_impl.cpp"
+                },
+                {
+                    "@type": "item",
+                    "name": "test/test_snapshot.cpp"
+                },
+                {
+                    "@type": "item",
+                    "name": "test/memory_file_system_adaptor.h"
+                },
+                {
+                    "@type": "item",
+                    "name": "src/braft/fsync.cpp"
+                },
+                {
+                    "@type": "item",
+                    "name": "test/test_file_system_adaptor.cpp"
+                },
+                {
+                    "@type": "item",
+                    "name": "src/braft/file_reader.h"
+                },
+                {
+                    "@type": "item",
+                    "name": "src/braft/file_reader.cpp"
+                },
+                {
+                    "@type": "item",
+                    "name": "src/braft/file_service.h"
+                },
+                {
+                    "@type": "item",
+                    "name": "src/braft/macros.h"
+                },
+                {
+                    "@type": "item",
+                    "name": "test/test_ballot.cpp"
+                },
+                {
+                    "@type": "item",
+                    "name": "src/braft/protobuf_file.h"
+                },
+                {
+                    "@type": "item",
+                    "name": "src/braft/protobuf_file.cpp"
+                },
+                {
+                    "@type": "item",
+                    "name": "src/braft/raft_service.h"
+                },
+                {
+                    "@type": "item",
+                    "name": "src/braft/raft_service.cpp"
+                },
+                {
+                    "@type": "item",
+                    "name": "src/braft/node_manager.h"
+                },
+                {
+                    "@type": "item",
+                    "name": "src/braft/node_manager.cpp"
+                },
+                {
+                    "@type": "item",
+                    "name": "src/braft/file_service.cpp"
+                },
+                {
+                    "@type": "item",
+                    "name": "src/braft/fsync.h"
+                },
+                {
+                    "@type": "item",
+                    "name": "src/braft/file_system_adaptor.h"
+                },
+                {
+                    "@type": "item",
+                    "name": "src/braft/file_system_adaptor.cpp"
+                }
+            ]
+        },
+        {
+            "@type": "group",
+            "name": "1",
+            "nested": [
+                {
+                    "@type": "item",
+                    "name": "test/test_configuration.cpp"
+                },
+                {
+                    "@type": "item",
+                    "name": "test/test_log_manager.cpp"
+                },
+                {
+                    "@type": "item",
+                    "name": "test/test_util.cpp"
+                },
+                {
+                    "@type": "item",
+                    "name": "test/test_cli.cpp"
+                },
+                {
+                    "@type": "item",
+                    "name": "test/test_memory_storage.cpp"
+                },
+                {
+                    "@type": "item",
+                    "name": "test/test_checksum.cpp"
+                },
+                {
+                    "@type": "item",
+                    "name": "test/test_meta.cpp"
+                },
+                {
+                    "@type": "item",
+                    "name": "test/test_file_service.cpp"
+                },
+                {
+                    "@type": "item",
+                    "name": "test/test_storage.cpp"
+                },
+                {
+                    "@type": "item",
+                    "name": "test/test_log_entry.cpp"
+                },
+                {
+                    "@type": "item",
+                    "name": "test/test_fsync.cpp"
+                },
+                {
+                    "@type": "item",
+                    "name": "test/test_protobuf_file.cpp"
+                }
+            ]
+        },
+        {
+            "@type": "group",
+            "name": "2",
+            "nested": [
+                {
+                    "@type": "item",
+                    "name": "src/braft/snapshot_executor.h"
+                },
+                {
+                    "@type": "item",
+                    "name": "src/braft/snapshot_throttle.h"
+                },
+                {
+                    "@type": "item",
+                    "name": "src/braft/snapshot_throttle.cpp"
+                },
+                {
+                    "@type": "item",
+                    "name": "src/braft/util.h"
+                },
+                {
+                    "@type": "item",
+                    "name": "src/braft/util.cpp"
+                },
+                {
+                    "@type": "item",
+                    "name": "test/test_snapshot_executor.cpp"
+                },
+                {
+                    "@type": "item",
+                    "name": "test/test_log.cpp"
+                },
+                {
+                    "@type": "item",
+                    "name": "test/test_fsm_caller.cpp"
+                },
+                {
+                    "@type": "item",
+                    "name": "test/test_throttle.cpp"
+                },
+                {
+                    "@type": "item",
+                    "name": "src/braft/snapshot.h"
+                },
+                {
+                    "@type": "item",
+                    "name": "src/braft/snapshot.cpp"
+                },
+                {
+                    "@type": "item",
+                    "name": "src/braft/snapshot_executor.cpp"
+                },
+                {
+                    "@type": "item",
+                    "name": "src/braft/log.h"
+                },
+                {
+                    "@type": "item",
+                    "name": "src/braft/storage.h"
+                },
+                {
+                    "@type": "item",
+                    "name": "src/braft/log.cpp"
+                },
+                {
+                    "@type": "item",
+                    "name": "src/braft/storage.cpp"
+                },
+                {
+                    "@type": "item",
+                    "name": "src/braft/remote_file_copier.h"
+                },
+                {
+                    "@type": "item",
+                    "name": "src/braft/remote_file_copier.cpp"
+                }
+            ]
+        },
+        {
+            "@type": "group",
+            "name": "3",
+            "nested": [
+                {
+                    "@type": "item",
+                    "name": "src/braft/fsm_caller.h"
+                },
+                {
+                    "@type": "item",
+                    "name": "src/braft/fsm_caller.cpp"
+                },
+                {
+                    "@type": "item",
+                    "name": "example/atomic/test.cpp"
+                },
+                {
+                    "@type": "item",
+                    "name": "example/block/client.cpp"
+                },
+                {
+                    "@type": "item",
+                    "name": "example/atomic/client.cpp"
+                },
+                {
+                    "@type": "item",
+                    "name": "test/test_ballot_box.cpp"
+                },
+                {
+                    "@type": "item",
+                    "name": "src/braft/ballot.h"
+                },
+                {
+                    "@type": "item",
+                    "name": "src/braft/ballot.cpp"
+                },
+                {
+                    "@type": "item",
+                    "name": "src/braft/lease.h"
+                },
+                {
+                    "@type": "item",
+                    "name": "src/braft/lease.cpp"
+                },
+                {
+                    "@type": "item",
+                    "name": "example/counter/client.cpp"
+                },
+                {
+                    "@type": "item",
+                    "name": "src/braft/closure_queue.h"
+                },
+                {
+                    "@type": "item",
+                    "name": "src/braft/closure_queue.cpp"
+                },
+                {
+                    "@type": "item",
+                    "name": "src/braft/ballot_box.h"
+                },
+                {
+                    "@type": "item",
+                    "name": "src/braft/ballot_box.cpp"
+                }
+            ]
+        },
+        {
+            "@type": "group",
+            "name": "4",
+            "nested": [
+                {
+                    "@type": "item",
+                    "name": "example/block/server.cpp"
+                },
+                {
+                    "@type": "item",
+                    "name": "test/test_node.cpp"
+                },
+                {
+                    "@type": "item",
+                    "name": "test/test_leader_lease.cpp"
+                },
+                {
+                    "@type": "item",
+                    "name": "example/counter/server.cpp"
+                },
+                {
+                    "@type": "item",
+                    "name": "test/util.h"
+                },
+                {
+                    "@type": "item",
+                    "name": "example/atomic/server.cpp"
+                }
+            ]
+        },
+        {
+            "@type": "group",
+            "name": "5",
+            "nested": [
+                {
+                    "@type": "item",
+                    "name": "src/braft/configuration_manager.h"
+                },
+                {
+                    "@type": "item",
+                    "name": "src/braft/configuration_manager.cpp"
+                },
+                {
+                    "@type": "item",
+                    "name": "src/braft/memory_log.h"
+                },
+                {
+                    "@type": "item",
+                    "name": "src/braft/memory_log.cpp"
+                },
+                {
+                    "@type": "item",
+                    "name": "src/braft/log_manager.h"
+                },
+                {
+                    "@type": "item",
+                    "name": "src/braft/log_manager.cpp"
+                }
+            ]
+        },
+        {
+            "@type": "group",
+            "name": "6",
+            "nested": [
+                {
+                    "@type": "item",
+                    "name": "src/braft/repeated_timer_task.h"
+                },
+                {
+                    "@type": "item",
+                    "name": "src/braft/repeated_timer_task.cpp"
+                },
+                {
+                    "@type": "item",
+                    "name": "src/braft/replicator.h"
+                },
+                {
+                    "@type": "item",
+                    "name": "src/braft/replicator.cpp"
+                },
+                {
+                    "@type": "item",
+                    "name": "src/braft/node.h"
+                },
+                {
+                    "@type": "item",
+                    "name": "src/braft/node.cpp"
+                },
+                {
+                    "@type": "item",
+                    "name": "test/test_repeated_timer_task.cpp"
+                }
+            ]
+        },
+        {
+            "@type": "group",
+            "name": "7",
+            "nested": [
+                {
+                    "@type": "item",
+                    "name": "src/braft/log_entry.h"
+                },
+                {
+                    "@type": "item",
+                    "name": "src/braft/raft.h"
+                },
+                {
+                    "@type": "item",
+                    "name": "src/braft/configuration.h"
+                },
+                {
+                    "@type": "item",
+                    "name": "src/braft/log_entry.cpp"
+                },
+                {
+                    "@type": "item",
+                    "name": "src/braft/raft.cpp"
+                },
+                {
+                    "@type": "item",
+                    "name": "src/braft/configuration.cpp"
+                },
+                {
+                    "@type": "item",
+                    "name": "src/braft/raft_meta.h"
+                },
+                {
+                    "@type": "item",
+                    "name": "src/braft/raft_meta.cpp"
+                },
+                {
+                    "@type": "item",
+                    "name": "src/braft/route_table.h"
+                },
+                {
+                    "@type": "item",
+                    "name": "src/braft/route_table.cpp"
+                }
+            ]
+        },
+        {
+            "@type": "group",
+            "name": "8",
+            "nested": [
+                {
+                    "@type": "item",
+                    "name": "src/braft/cli_service.h"
+                },
+                {
+                    "@type": "item",
+                    "name": "src/braft/cli_service.cpp"
+                },
+                {
+                    "@type": "item",
+                    "name": "src/braft/closure_helper.h"
+                }
+            ]
+        },
+        {
+            "@type": "group",
+            "name": "9",
+            "nested": [
+                {
+                    "@type": "item",
+                    "name": "src/braft/cli.h"
+                },
+                {
+                    "@type": "item",
+                    "name": "tools/braft_cli.cpp"
+                },
+                {
+                    "@type": "item",
+                    "name": "src/braft/cli.cpp"
+                }
+            ]
+        },
+        {
+            "@type": "group",
+            "name": "10",
+            "nested": [
+                {
+                    "@type": "item",
+                    "name": "test/sstream_workaround.h"
+                }
+            ]
+        }
+    ]
+}

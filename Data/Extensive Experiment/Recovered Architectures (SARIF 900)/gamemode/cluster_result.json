@@ -1,0 +1,184 @@
+{
+    "@schemaVersion": "1.0",
+    "name": "clustering",
+    "structure": [
+        {
+            "@type": "group",
+            "name": "0",
+            "nested": [
+                {
+                    "@type": "item",
+                    "name": "common/common-power.h"
+                },
+                {
+                    "@type": "item",
+                    "name": "common/common-power.c"
+                },
+                {
+                    "@type": "item",
+                    "name": "common/common-governors.h"
+                },
+                {
+                    "@type": "item",
+                    "name": "common/common-governors.c"
+                },
+                {
+                    "@type": "item",
+                    "name": "common/common-gpu.h"
+                },
+                {
+                    "@type": "item",
+                    "name": "common/common-gpu.c"
+                },
+                {
+                    "@type": "item",
+                    "name": "common/common-external.h"
+                },
+                {
+                    "@type": "item",
+                    "name": "common/common-external.c"
+                },
+                {
+                    "@type": "item",
+                    "name": "common/common-logging.h"
+                },
+                {
+                    "@type": "item",
+                    "name": "common/common-logging.c"
+                }
+            ]
+        },
+        {
+            "@type": "group",
+            "name": "1",
+            "nested": [
+                {
+                    "@type": "item",
+                    "name": "common/common-helpers.h"
+                },
+                {
+                    "@type": "item",
+                    "name": "common/common-helpers.c"
+                },
+                {
+                    "@type": "item",
+                    "name": "common/common-pidfds.h"
+                },
+                {
+                    "@type": "item",
+                    "name": "common/common-pidfds.c"
+                }
+            ]
+        },
+        {
+            "@type": "group",
+            "name": "2",
+            "nested": [
+                {
+                    "@type": "item",
+                    "name": "daemon/gamemoded.c"
+                },
+                {
+                    "@type": "item",
+                    "name": "daemon/gamemode.h"
+                },
+                {
+                    "@type": "item",
+                    "name": "daemon/gamemode-tests.c"
+                },
+                {
+                    "@type": "item",
+                    "name": "daemon/gamemode-ioprio.c"
+                },
+                {
+                    "@type": "item",
+                    "name": "daemon/gamemode-context.c"
+                },
+                {
+                    "@type": "item",
+                    "name": "daemon/gamemode-wine.c"
+                },
+                {
+                    "@type": "item",
+                    "name": "daemon/gamemode-gpu.c"
+                },
+                {
+                    "@type": "item",
+                    "name": "daemon/gamemode-dbus.c"
+                },
+                {
+                    "@type": "item",
+                    "name": "daemon/gamemode-sched.c"
+                }
+            ]
+        },
+        {
+            "@type": "group",
+            "name": "3",
+            "nested": [
+                {
+                    "@type": "item",
+                    "name": "lib/client_loader.c"
+                },
+                {
+                    "@type": "item",
+                    "name": "lib/gamemode_client.h"
+                }
+            ]
+        },
+        {
+            "@type": "group",
+            "name": "4",
+            "nested": [
+                {
+                    "@type": "item",
+                    "name": "example/main.c"
+                }
+            ]
+        },
+        {
+            "@type": "group",
+            "name": "5",
+            "nested": [
+                {
+                    "@type": "item",
+                    "name": "lib/client_impl.c"
+                }
+            ]
+        },
+        {
+            "@type": "group",
+            "name": "6",
+            "nested": [
+                {
+                    "@type": "item",
+                    "name": "util/cpugovctl.c"
+                }
+            ]
+        },
+        {
+            "@type": "group",
+            "name": "7",
+            "nested": [
+                {
+                    "@type": "item",
+                    "name": "util/gpuclockctl.c"
+                }
+            ]
+        },
+        {
+            "@type": "group",
+            "name": "8",
+            "nested": [
+                {
+                    "@type": "item",
+                    "name": "daemon/gamemode-config.h"
+                },
+                {
+                    "@type": "item",
+                    "name": "daemon/gamemode-config.c"
+                }
+            ]
+        }
+    ]
+}

@@ -1,0 +1,782 @@
+{
+    "@schemaVersion": "1.0",
+    "name": "clustering",
+    "structure": [
+        {
+            "@type": "group",
+            "name": "0",
+            "nested": [
+                {
+                    "@type": "item",
+                    "name": "src/renderer/extensions/script_context.h"
+                },
+                {
+                    "@type": "item",
+                    "name": "src/renderer/extensions/script_context.cc"
+                },
+                {
+                    "@type": "item",
+                    "name": "src/renderer/extensions/context.h"
+                },
+                {
+                    "@type": "item",
+                    "name": "src/renderer/extensions/context.cc"
+                },
+                {
+                    "@type": "item",
+                    "name": "src/renderer/extensions/safe_builtins.h"
+                },
+                {
+                    "@type": "item",
+                    "name": "src/renderer/extensions/console.cc"
+                },
+                {
+                    "@type": "item",
+                    "name": "src/renderer/extensions/document_bindings.h"
+                },
+                {
+                    "@type": "item",
+                    "name": "src/renderer/extensions/document_bindings.cc"
+                },
+                {
+                    "@type": "item",
+                    "name": "src/renderer/extensions/unsafe_persistent.h"
+                },
+                {
+                    "@type": "item",
+                    "name": "src/renderer/extensions/safe_builtins.cc"
+                },
+                {
+                    "@type": "item",
+                    "name": "src/renderer/extensions/module_system.h"
+                },
+                {
+                    "@type": "item",
+                    "name": "src/renderer/extensions/console.h"
+                },
+                {
+                    "@type": "item",
+                    "name": "src/renderer/extensions/scoped_persistent.h"
+                },
+                {
+                    "@type": "item",
+                    "name": "src/renderer/extensions/module_system.cc"
+                }
+            ]
+        },
+        {
+            "@type": "group",
+            "name": "1",
+            "nested": [
+                {
+                    "@type": "item",
+                    "name": "src/renderer/extensions/remote_bindings.h"
+                },
+                {
+                    "@type": "item",
+                    "name": "src/renderer/extensions/remote_bindings.cc"
+                },
+                {
+                    "@type": "item",
+                    "name": "src/renderer/render_frame_observer.h"
+                },
+                {
+                    "@type": "item",
+                    "name": "src/renderer/render_frame_observer.cc"
+                },
+                {
+                    "@type": "item",
+                    "name": "src/renderer/render_view_observer.h"
+                },
+                {
+                    "@type": "item",
+                    "name": "src/renderer/render_view_observer.cc"
+                },
+                {
+                    "@type": "item",
+                    "name": "src/renderer/extensions/web_view_bindings.h"
+                },
+                {
+                    "@type": "item",
+                    "name": "src/renderer/extensions/web_view_bindings.cc"
+                },
+                {
+                    "@type": "item",
+                    "name": "src/renderer/extensions/static_v8_external_string_resource.h"
+                },
+                {
+                    "@type": "item",
+                    "name": "src/renderer/extensions/static_v8_external_string_resource.cc"
+                },
+                {
+                    "@type": "item",
+                    "name": "src/renderer/renderer_client.h"
+                },
+                {
+                    "@type": "item",
+                    "name": "src/renderer/renderer_client.cc"
+                },
+                {
+                    "@type": "item",
+                    "name": "src/renderer/extensions/local_source_map.h"
+                },
+                {
+                    "@type": "item",
+                    "name": "src/renderer/extensions/local_source_map.cc"
+                },
+                {
+                    "@type": "item",
+                    "name": "src/renderer/render_process_observer.cc"
+                },
+                {
+                    "@type": "item",
+                    "name": "src/renderer/render_process_observer.h"
+                },
+                {
+                    "@type": "item",
+                    "name": "src/renderer/visitedlink/visitedlink_slave.h"
+                },
+                {
+                    "@type": "item",
+                    "name": "src/renderer/visitedlink/visitedlink_slave.cc"
+                }
+            ]
+        },
+        {
+            "@type": "group",
+            "name": "2",
+            "nested": [
+                {
+                    "@type": "item",
+                    "name": "src/api/thrust_window_binding.h"
+                },
+                {
+                    "@type": "item",
+                    "name": "src/api/thrust_window_binding.cc"
+                },
+                {
+                    "@type": "item",
+                    "name": "src/api/thrust_session_binding.cc"
+                },
+                {
+                    "@type": "item",
+                    "name": "src/api/api.h"
+                },
+                {
+                    "@type": "item",
+                    "name": "src/api/api.cc"
+                },
+                {
+                    "@type": "item",
+                    "name": "src/api/api_server.h"
+                },
+                {
+                    "@type": "item",
+                    "name": "src/api/api_server.cc"
+                },
+                {
+                    "@type": "item",
+                    "name": "src/api/api_binding.h"
+                },
+                {
+                    "@type": "item",
+                    "name": "src/api/api_binding.cc"
+                },
+                {
+                    "@type": "item",
+                    "name": "src/api/thrust_session_binding.h"
+                },
+                {
+                    "@type": "item",
+                    "name": "src/api/thrust_menu_binding.h"
+                },
+                {
+                    "@type": "item",
+                    "name": "src/api/thrust_menu_binding.cc"
+                }
+            ]
+        },
+        {
+            "@type": "group",
+            "name": "3",
+            "nested": [
+                {
+                    "@type": "item",
+                    "name": "src/browser/ui/views/submenu_button.h"
+                },
+                {
+                    "@type": "item",
+                    "name": "src/browser/ui/views/submenu_button.cc"
+                },
+                {
+                    "@type": "item",
+                    "name": "src/browser/ui/views/menu_delegate.h"
+                },
+                {
+                    "@type": "item",
+                    "name": "src/browser/ui/views/menu_delegate.cc"
+                },
+                {
+                    "@type": "item",
+                    "name": "src/browser/ui/views/menu_bar.cc"
+                },
+                {
+                    "@type": "item",
+                    "name": "src/browser/ui/views/global_menu_bar_x11.h"
+                },
+                {
+                    "@type": "item",
+                    "name": "src/browser/ui/views/global_menu_bar_x11.cc"
+                },
+                {
+                    "@type": "item",
+                    "name": "src/browser/ui/views/global_menu_bar_registrar_x11.cc"
+                },
+                {
+                    "@type": "item",
+                    "name": "src/browser/ui/views/global_menu_bar_registrar_x11.h"
+                },
+                {
+                    "@type": "item",
+                    "name": "src/browser/ui/views/menu_bar.h"
+                }
+            ]
+        },
+        {
+            "@type": "group",
+            "name": "4",
+            "nested": [
+                {
+                    "@type": "item",
+                    "name": "src/browser/browser_main_parts.h"
+                },
+                {
+                    "@type": "item",
+                    "name": "src/browser/browser_main_parts.cc"
+                },
+                {
+                    "@type": "item",
+                    "name": "src/browser/thrust_window_views.cc"
+                },
+                {
+                    "@type": "item",
+                    "name": "src/browser/resource_dispatcher_host_delegate.h"
+                },
+                {
+                    "@type": "item",
+                    "name": "src/browser/resource_dispatcher_host_delegate.cc"
+                },
+                {
+                    "@type": "item",
+                    "name": "src/browser/browser_client.h"
+                },
+                {
+                    "@type": "item",
+                    "name": "src/browser/browser_client.cc"
+                },
+                {
+                    "@type": "item",
+                    "name": "src/browser/thrust_menu.h"
+                },
+                {
+                    "@type": "item",
+                    "name": "src/browser/thrust_menu.cc"
+                },
+                {
+                    "@type": "item",
+                    "name": "src/browser/thrust_menu_views.cc"
+                },
+                {
+                    "@type": "item",
+                    "name": "src/browser/thrust_window.h"
+                },
+                {
+                    "@type": "item",
+                    "name": "src/browser/thrust_window.cc"
+                }
+            ]
+        },
+        {
+            "@type": "group",
+            "name": "5",
+            "nested": [
+                {
+                    "@type": "item",
+                    "name": "src/browser/web_view/web_view_constants.h"
+                },
+                {
+                    "@type": "item",
+                    "name": "src/browser/web_view/web_view_guest.h"
+                },
+                {
+                    "@type": "item",
+                    "name": "src/browser/web_view/web_view_guest.cc"
+                },
+                {
+                    "@type": "item",
+                    "name": "src/browser/web_view/web_view_javascript_dialog_manager.cc"
+                },
+                {
+                    "@type": "item",
+                    "name": "src/browser/web_view/web_view_javascript_dialog_manager.h"
+                },
+                {
+                    "@type": "item",
+                    "name": "src/browser/web_view/web_view_constants.cc"
+                }
+            ]
+        },
+        {
+            "@type": "group",
+            "name": "6",
+            "nested": [
+                {
+                    "@type": "item",
+                    "name": "src/app/main_delegate.h"
+                },
+                {
+                    "@type": "item",
+                    "name": "src/app/main_delegate.cc"
+                },
+                {
+                    "@type": "item",
+                    "name": "src/app/content_client.h"
+                },
+                {
+                    "@type": "item",
+                    "name": "src/app/content_client.cc"
+                },
+                {
+                    "@type": "item",
+                    "name": "src/app/library_main.h"
+                },
+                {
+                    "@type": "item",
+                    "name": "src/app/library_main.cc"
+                },
+                {
+                    "@type": "item",
+                    "name": "src/app/main.cc"
+                },
+                {
+                    "@type": "item",
+                    "name": "src/app/main.h"
+                }
+            ]
+        },
+        {
+            "@type": "group",
+            "name": "7",
+            "nested": [
+                {
+                    "@type": "item",
+                    "name": "src/browser/ui/views/win_frame_view.cc"
+                },
+                {
+                    "@type": "item",
+                    "name": "src/browser/ui/views/win_frame_view.h"
+                },
+                {
+                    "@type": "item",
+                    "name": "src/browser/ui/views/menu_layout.h"
+                },
+                {
+                    "@type": "item",
+                    "name": "src/browser/ui/views/menu_layout.cc"
+                },
+                {
+                    "@type": "item",
+                    "name": "src/browser/ui/views/frameless_view.h"
+                },
+                {
+                    "@type": "item",
+                    "name": "src/browser/ui/views/frameless_view.cc"
+                }
+            ]
+        },
+        {
+            "@type": "group",
+            "name": "8",
+            "nested": [
+                {
+                    "@type": "item",
+                    "name": "src/browser/visitedlink/visitedlink_event_listener.cc"
+                },
+                {
+                    "@type": "item",
+                    "name": "src/browser/visitedlink/visitedlink_master.h"
+                },
+                {
+                    "@type": "item",
+                    "name": "src/browser/visitedlink/visitedlink_master.cc"
+                },
+                {
+                    "@type": "item",
+                    "name": "src/browser/visitedlink/visitedlink_event_listener.h"
+                },
+                {
+                    "@type": "item",
+                    "name": "src/browser/visitedlink/visitedlink_delegate.h"
+                }
+            ]
+        },
+        {
+            "@type": "group",
+            "name": "9",
+            "nested": [
+                {
+                    "@type": "item",
+                    "name": "src/browser/dialog/file_dialog_win.cc"
+                },
+                {
+                    "@type": "item",
+                    "name": "src/browser/dialog/file_dialog_gtk.cc"
+                },
+                {
+                    "@type": "item",
+                    "name": "src/browser/dialog/file_dialog.h"
+                },
+                {
+                    "@type": "item",
+                    "name": "src/browser/dialog/web_dialog_helper.h"
+                },
+                {
+                    "@type": "item",
+                    "name": "src/browser/dialog/web_dialog_helper.cc"
+                }
+            ]
+        },
+        {
+            "@type": "group",
+            "name": "10",
+            "nested": [
+                {
+                    "@type": "item",
+                    "name": "src/browser/dialog/color_chooser_dialog.h"
+                },
+                {
+                    "@type": "item",
+                    "name": "src/browser/dialog/color_chooser_dialog.cc"
+                },
+                {
+                    "@type": "item",
+                    "name": "src/browser/dialog/browser_dialogs.h"
+                },
+                {
+                    "@type": "item",
+                    "name": "src/browser/dialog/color_chooser_aura.h"
+                },
+                {
+                    "@type": "item",
+                    "name": "src/browser/dialog/color_chooser_win.cc"
+                },
+                {
+                    "@type": "item",
+                    "name": "src/browser/dialog/color_chooser_aura.cc"
+                },
+                {
+                    "@type": "item",
+                    "name": "src/browser/dialog/download_manager_delegate.h"
+                },
+                {
+                    "@type": "item",
+                    "name": "src/browser/dialog/download_manager_delegate_win.cc"
+                },
+                {
+                    "@type": "item",
+                    "name": "src/browser/dialog/download_manager_delegate.cc"
+                },
+                {
+                    "@type": "item",
+                    "name": "src/browser/dialog/download_manager_delegate_gtk.cc"
+                },
+                {
+                    "@type": "item",
+                    "name": "src/browser/dialog/javascript_dialog_manager.h"
+                },
+                {
+                    "@type": "item",
+                    "name": "src/browser/dialog/javascript_dialog_manager.cc"
+                }
+            ]
+        },
+        {
+            "@type": "group",
+            "name": "11",
+            "nested": [
+                {
+                    "@type": "item",
+                    "name": "src/browser/session/thrust_session_visitedlink_store.h"
+                },
+                {
+                    "@type": "item",
+                    "name": "src/browser/session/thrust_session_visitedlink_store.cc"
+                },
+                {
+                    "@type": "item",
+                    "name": "src/browser/session/thrust_session.h"
+                },
+                {
+                    "@type": "item",
+                    "name": "src/browser/session/thrust_session.cc"
+                },
+                {
+                    "@type": "item",
+                    "name": "src/browser/session/thrust_session_proxy_config_service.h"
+                },
+                {
+                    "@type": "item",
+                    "name": "src/browser/session/thrust_session_proxy_config_service.cc"
+                },
+                {
+                    "@type": "item",
+                    "name": "src/browser/session/thrust_session_cookie_store.h"
+                },
+                {
+                    "@type": "item",
+                    "name": "src/browser/session/thrust_session_cookie_store.cc"
+                }
+            ]
+        },
+        {
+            "@type": "group",
+            "name": "12",
+            "nested": [
+                {
+                    "@type": "item",
+                    "name": "src/common/messages.h"
+                },
+                {
+                    "@type": "item",
+                    "name": "src/common/messages.cc"
+                },
+                {
+                    "@type": "item",
+                    "name": "src/common/draggable_region.h"
+                },
+                {
+                    "@type": "item",
+                    "name": "src/common/draggable_region.cc"
+                }
+            ]
+        },
+        {
+            "@type": "group",
+            "name": "13",
+            "nested": [
+                {
+                    "@type": "item",
+                    "name": "src/common/visitedlink/visitedlink_message_generator.h"
+                },
+                {
+                    "@type": "item",
+                    "name": "src/common/visitedlink/visitedlink_message_generator.cc"
+                },
+                {
+                    "@type": "item",
+                    "name": "src/common/visitedlink/visitedlink_messages.h"
+                }
+            ]
+        },
+        {
+            "@type": "group",
+            "name": "14",
+            "nested": [
+                {
+                    "@type": "item",
+                    "name": "src/net/network_delegate.h"
+                },
+                {
+                    "@type": "item",
+                    "name": "src/net/network_delegate.cc"
+                },
+                {
+                    "@type": "item",
+                    "name": "src/net/url_request_context_getter.cc"
+                },
+                {
+                    "@type": "item",
+                    "name": "src/net/url_request_context_getter.h"
+                }
+            ]
+        },
+        {
+            "@type": "group",
+            "name": "15",
+            "nested": [
+                {
+                    "@type": "item",
+                    "name": "src/renderer/extensions/object_backed_native_handler.cc"
+                },
+                {
+                    "@type": "item",
+                    "name": "src/renderer/extensions/object_backed_native_handler.h"
+                },
+                {
+                    "@type": "item",
+                    "name": "src/renderer/extensions/native_handler.h"
+                },
+                {
+                    "@type": "item",
+                    "name": "src/renderer/extensions/native_handler.cc"
+                }
+            ]
+        },
+        {
+            "@type": "group",
+            "name": "16",
+            "nested": [
+                {
+                    "@type": "item",
+                    "name": "src/common/switches.h"
+                },
+                {
+                    "@type": "item",
+                    "name": "src/common/switches.cc"
+                }
+            ]
+        },
+        {
+            "@type": "group",
+            "name": "17",
+            "nested": [
+                {
+                    "@type": "item",
+                    "name": "src/geolocation/access_token_store.cc"
+                },
+                {
+                    "@type": "item",
+                    "name": "src/geolocation/access_token_store.h"
+                }
+            ]
+        },
+        {
+            "@type": "group",
+            "name": "18",
+            "nested": [
+                {
+                    "@type": "item",
+                    "name": "src/renderer/extensions/request_sender.h"
+                },
+                {
+                    "@type": "item",
+                    "name": "src/renderer/extensions/request_sender.cc"
+                }
+            ]
+        },
+        {
+            "@type": "group",
+            "name": "19",
+            "nested": [
+                {
+                    "@type": "item",
+                    "name": "src/browser/resources/linux/application_info_linux.cc"
+                }
+            ]
+        },
+        {
+            "@type": "group",
+            "name": "20",
+            "nested": [
+                {
+                    "@type": "item",
+                    "name": "src/browser/resources/win/resource.h"
+                }
+            ]
+        },
+        {
+            "@type": "group",
+            "name": "21",
+            "nested": [
+                {
+                    "@type": "item",
+                    "name": "src/browser/ui/cocoa/event_processing_window.h"
+                }
+            ]
+        },
+        {
+            "@type": "group",
+            "name": "22",
+            "nested": [
+                {
+                    "@type": "item",
+                    "name": "src/browser/ui/cocoa/menu_controller.h"
+                }
+            ]
+        },
+        {
+            "@type": "group",
+            "name": "23",
+            "nested": [
+                {
+                    "@type": "item",
+                    "name": "src/browser/mac/application_mac.h"
+                }
+            ]
+        },
+        {
+            "@type": "group",
+            "name": "24",
+            "nested": [
+                {
+                    "@type": "item",
+                    "name": "src/browser/ui/accelerator_util.h"
+                },
+                {
+                    "@type": "item",
+                    "name": "src/browser/ui/accelerator_util_views.cc"
+                },
+                {
+                    "@type": "item",
+                    "name": "src/browser/ui/accelerator_util.cc"
+                }
+            ]
+        },
+        {
+            "@type": "group",
+            "name": "25",
+            "nested": [
+                {
+                    "@type": "item",
+                    "name": "src/browser/util/platform_util.h"
+                },
+                {
+                    "@type": "item",
+                    "name": "src/browser/util/platform_util_linux.cc"
+                },
+                {
+                    "@type": "item",
+                    "name": "src/browser/util/platform_util_aura.cc"
+                }
+            ]
+        },
+        {
+            "@type": "group",
+            "name": "26",
+            "nested": [
+                {
+                    "@type": "item",
+                    "name": "src/common/visitedlink/visitedlink_common.h"
+                },
+                {
+                    "@type": "item",
+                    "name": "src/common/visitedlink/visitedlink_common.cc"
+                }
+            ]
+        },
+        {
+            "@type": "group",
+            "name": "27",
+            "nested": [
+                {
+                    "@type": "item",
+                    "name": "src/net/net_log.h"
+                },
+                {
+                    "@type": "item",
+                    "name": "src/net/net_log.cc"
+                }
+            ]
+        }
+    ]
+}

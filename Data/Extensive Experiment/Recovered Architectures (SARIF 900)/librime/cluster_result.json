@@ -1,0 +1,1212 @@
+{
+    "@schemaVersion": "1.0",
+    "name": "clustering",
+    "structure": [
+        {
+            "@type": "group",
+            "name": "0",
+            "nested": [
+                {
+                    "@type": "item",
+                    "name": "src/rime/commit_history.h"
+                },
+                {
+                    "@type": "item",
+                    "name": "src/rime/commit_history.cc"
+                },
+                {
+                    "@type": "item",
+                    "name": "src/rime/filter.h"
+                },
+                {
+                    "@type": "item",
+                    "name": "src/rime/ticket.h"
+                },
+                {
+                    "@type": "item",
+                    "name": "src/rime/ticket.cc"
+                },
+                {
+                    "@type": "item",
+                    "name": "src/rime/segmentor.h"
+                },
+                {
+                    "@type": "item",
+                    "name": "src/rime/engine.h"
+                },
+                {
+                    "@type": "item",
+                    "name": "src/rime/engine.cc"
+                },
+                {
+                    "@type": "item",
+                    "name": "src/rime/processor.h"
+                },
+                {
+                    "@type": "item",
+                    "name": "src/rime/translator.h"
+                },
+                {
+                    "@type": "item",
+                    "name": "src/rime/common.h"
+                },
+                {
+                    "@type": "item",
+                    "name": "src/rime/no_logging.h"
+                },
+                {
+                    "@type": "item",
+                    "name": "src/rime/context.h"
+                },
+                {
+                    "@type": "item",
+                    "name": "src/rime/context.cc"
+                },
+                {
+                    "@type": "item",
+                    "name": "src/rime/switcher.h"
+                },
+                {
+                    "@type": "item",
+                    "name": "src/rime/switcher.cc"
+                },
+                {
+                    "@type": "item",
+                    "name": "src/rime/signature.h"
+                },
+                {
+                    "@type": "item",
+                    "name": "src/rime/signature.cc"
+                },
+                {
+                    "@type": "item",
+                    "name": "src/rime/component.h"
+                },
+                {
+                    "@type": "item",
+                    "name": "src/rime/candidate.h"
+                },
+                {
+                    "@type": "item",
+                    "name": "src/rime/candidate.cc"
+                },
+                {
+                    "@type": "item",
+                    "name": "src/rime/messenger.h"
+                },
+                {
+                    "@type": "item",
+                    "name": "src/rime/formatter.h"
+                },
+                {
+                    "@type": "item",
+                    "name": "src/rime/composition.h"
+                },
+                {
+                    "@type": "item",
+                    "name": "src/rime/composition.cc"
+                },
+                {
+                    "@type": "item",
+                    "name": "src/rime/deployer.h"
+                },
+                {
+                    "@type": "item",
+                    "name": "src/rime/deployer.cc"
+                },
+                {
+                    "@type": "item",
+                    "name": "src/rime/language.h"
+                },
+                {
+                    "@type": "item",
+                    "name": "src/rime/language.cc"
+                },
+                {
+                    "@type": "item",
+                    "name": "src/rime/translation.h"
+                },
+                {
+                    "@type": "item",
+                    "name": "src/rime/translation.cc"
+                },
+                {
+                    "@type": "item",
+                    "name": "src/rime/switches.h"
+                },
+                {
+                    "@type": "item",
+                    "name": "src/rime/switches.cc"
+                },
+                {
+                    "@type": "item",
+                    "name": "src/rime/menu.h"
+                },
+                {
+                    "@type": "item",
+                    "name": "src/rime/menu.cc"
+                },
+                {
+                    "@type": "item",
+                    "name": "src/rime/segmentation.h"
+                },
+                {
+                    "@type": "item",
+                    "name": "src/rime/segmentation.cc"
+                },
+                {
+                    "@type": "item",
+                    "name": "src/rime/config.h"
+                }
+            ]
+        },
+        {
+            "@type": "group",
+            "name": "1",
+            "nested": [
+                {
+                    "@type": "item",
+                    "name": "src/rime/gear/table_translator.h"
+                },
+                {
+                    "@type": "item",
+                    "name": "src/rime/gear/table_translator.cc"
+                },
+                {
+                    "@type": "item",
+                    "name": "src/rime/gear/key_binding_processor.h"
+                },
+                {
+                    "@type": "item",
+                    "name": "src/rime/gear/memory.h"
+                },
+                {
+                    "@type": "item",
+                    "name": "src/rime/gear/memory.cc"
+                },
+                {
+                    "@type": "item",
+                    "name": "src/rime/gear/poet.h"
+                },
+                {
+                    "@type": "item",
+                    "name": "src/rime/gear/poet.cc"
+                },
+                {
+                    "@type": "item",
+                    "name": "src/rime/gear/key_binding_processor_impl.h"
+                },
+                {
+                    "@type": "item",
+                    "name": "src/rime/gear/reverse_lookup_filter.h"
+                },
+                {
+                    "@type": "item",
+                    "name": "src/rime/gear/reverse_lookup_filter.cc"
+                },
+                {
+                    "@type": "item",
+                    "name": "src/rime/gear/charset_filter.h"
+                },
+                {
+                    "@type": "item",
+                    "name": "src/rime/gear/charset_filter.cc"
+                },
+                {
+                    "@type": "item",
+                    "name": "src/rime/gear/grammar.h"
+                },
+                {
+                    "@type": "item",
+                    "name": "src/rime/gear/selector.h"
+                },
+                {
+                    "@type": "item",
+                    "name": "src/rime/gear/selector.cc"
+                },
+                {
+                    "@type": "item",
+                    "name": "src/rime/gear/filter_commons.h"
+                },
+                {
+                    "@type": "item",
+                    "name": "src/rime/gear/filter_commons.cc"
+                },
+                {
+                    "@type": "item",
+                    "name": "src/rime/gear/translator_commons.h"
+                },
+                {
+                    "@type": "item",
+                    "name": "src/rime/gear/translator_commons.cc"
+                },
+                {
+                    "@type": "item",
+                    "name": "src/rime/gear/navigator.h"
+                },
+                {
+                    "@type": "item",
+                    "name": "src/rime/gear/navigator.cc"
+                },
+                {
+                    "@type": "item",
+                    "name": "src/rime/gear/shape.h"
+                },
+                {
+                    "@type": "item",
+                    "name": "src/rime/gear/shape.cc"
+                },
+                {
+                    "@type": "item",
+                    "name": "src/rime/gear/simplifier.h"
+                },
+                {
+                    "@type": "item",
+                    "name": "src/rime/gear/simplifier.cc"
+                },
+                {
+                    "@type": "item",
+                    "name": "src/rime/gear/unity_table_encoder.h"
+                },
+                {
+                    "@type": "item",
+                    "name": "src/rime/gear/unity_table_encoder.cc"
+                },
+                {
+                    "@type": "item",
+                    "name": "src/rime/gear/editor.h"
+                },
+                {
+                    "@type": "item",
+                    "name": "src/rime/gear/editor.cc"
+                },
+                {
+                    "@type": "item",
+                    "name": "src/rime/gear/contextual_translation.h"
+                },
+                {
+                    "@type": "item",
+                    "name": "src/rime/gear/contextual_translation.cc"
+                },
+                {
+                    "@type": "item",
+                    "name": "src/rime/gear/reverse_lookup_translator.h"
+                },
+                {
+                    "@type": "item",
+                    "name": "src/rime/gear/reverse_lookup_translator.cc"
+                },
+                {
+                    "@type": "item",
+                    "name": "src/rime/gear/key_binder.h"
+                },
+                {
+                    "@type": "item",
+                    "name": "src/rime/gear/key_binder.cc"
+                },
+                {
+                    "@type": "item",
+                    "name": "src/rime/gear/recognizer.h"
+                },
+                {
+                    "@type": "item",
+                    "name": "src/rime/gear/recognizer.cc"
+                },
+                {
+                    "@type": "item",
+                    "name": "src/rime/gear/script_translator.cc"
+                }
+            ]
+        },
+        {
+            "@type": "group",
+            "name": "2",
+            "nested": [
+                {
+                    "@type": "item",
+                    "name": "src/rime/gear/history_translator.h"
+                },
+                {
+                    "@type": "item",
+                    "name": "src/rime/gear/history_translator.cc"
+                },
+                {
+                    "@type": "item",
+                    "name": "src/rime/gear/echo_translator.h"
+                },
+                {
+                    "@type": "item",
+                    "name": "src/rime/gear/echo_translator.cc"
+                },
+                {
+                    "@type": "item",
+                    "name": "src/rime/gear/gears_module.cc"
+                },
+                {
+                    "@type": "item",
+                    "name": "src/rime/gear/ascii_composer.h"
+                },
+                {
+                    "@type": "item",
+                    "name": "src/rime/gear/ascii_composer.cc"
+                },
+                {
+                    "@type": "item",
+                    "name": "src/rime/gear/affix_segmentor.h"
+                },
+                {
+                    "@type": "item",
+                    "name": "src/rime/gear/affix_segmentor.cc"
+                },
+                {
+                    "@type": "item",
+                    "name": "src/rime/gear/speller.h"
+                },
+                {
+                    "@type": "item",
+                    "name": "src/rime/gear/speller.cc"
+                },
+                {
+                    "@type": "item",
+                    "name": "src/rime/gear/uniquifier.h"
+                },
+                {
+                    "@type": "item",
+                    "name": "src/rime/gear/uniquifier.cc"
+                },
+                {
+                    "@type": "item",
+                    "name": "src/rime/gear/chord_composer.h"
+                },
+                {
+                    "@type": "item",
+                    "name": "src/rime/gear/chord_composer.cc"
+                },
+                {
+                    "@type": "item",
+                    "name": "src/rime/gear/single_char_filter.h"
+                },
+                {
+                    "@type": "item",
+                    "name": "src/rime/gear/single_char_filter.cc"
+                },
+                {
+                    "@type": "item",
+                    "name": "src/rime/gear/schema_list_translator.h"
+                },
+                {
+                    "@type": "item",
+                    "name": "src/rime/gear/schema_list_translator.cc"
+                },
+                {
+                    "@type": "item",
+                    "name": "src/rime/gear/abc_segmentor.h"
+                },
+                {
+                    "@type": "item",
+                    "name": "src/rime/gear/abc_segmentor.cc"
+                },
+                {
+                    "@type": "item",
+                    "name": "src/rime/gear/matcher.h"
+                },
+                {
+                    "@type": "item",
+                    "name": "src/rime/gear/matcher.cc"
+                },
+                {
+                    "@type": "item",
+                    "name": "src/rime/gear/script_translator.h"
+                },
+                {
+                    "@type": "item",
+                    "name": "src/rime/gear/fallback_segmentor.h"
+                },
+                {
+                    "@type": "item",
+                    "name": "src/rime/gear/fallback_segmentor.cc"
+                },
+                {
+                    "@type": "item",
+                    "name": "src/rime/gear/ascii_segmentor.h"
+                },
+                {
+                    "@type": "item",
+                    "name": "src/rime/gear/ascii_segmentor.cc"
+                },
+                {
+                    "@type": "item",
+                    "name": "src/rime/gear/switch_translator.h"
+                },
+                {
+                    "@type": "item",
+                    "name": "src/rime/gear/switch_translator.cc"
+                },
+                {
+                    "@type": "item",
+                    "name": "src/rime/gear/punctuator.h"
+                },
+                {
+                    "@type": "item",
+                    "name": "src/rime/gear/punctuator.cc"
+                }
+            ]
+        },
+        {
+            "@type": "group",
+            "name": "3",
+            "nested": [
+                {
+                    "@type": "item",
+                    "name": "test/encoder_test.cc"
+                },
+                {
+                    "@type": "item",
+                    "name": "test/user_db_test.cc"
+                },
+                {
+                    "@type": "item",
+                    "name": "test/syllabifier_test.cc"
+                },
+                {
+                    "@type": "item",
+                    "name": "test/algebra_test.cc"
+                },
+                {
+                    "@type": "item",
+                    "name": "test/config_compiler_test.cc"
+                },
+                {
+                    "@type": "item",
+                    "name": "test/dictionary_test.cc"
+                },
+                {
+                    "@type": "item",
+                    "name": "test/resource_resolver_test.cc"
+                },
+                {
+                    "@type": "item",
+                    "name": "test/corrector_test.cc"
+                },
+                {
+                    "@type": "item",
+                    "name": "test/prism_test.cc"
+                },
+                {
+                    "@type": "item",
+                    "name": "test/config_test.cc"
+                },
+                {
+                    "@type": "item",
+                    "name": "test/key_event_test.cc"
+                },
+                {
+                    "@type": "item",
+                    "name": "test/key_table_test.cc"
+                },
+                {
+                    "@type": "item",
+                    "name": "test/calculus_test.cc"
+                },
+                {
+                    "@type": "item",
+                    "name": "test/segmentor_test.cc"
+                }
+            ]
+        },
+        {
+            "@type": "group",
+            "name": "4",
+            "nested": [
+                {
+                    "@type": "item",
+                    "name": "src/rime/dict/prism.cc"
+                },
+                {
+                    "@type": "item",
+                    "name": "src/rime/dict/entry_collector.h"
+                },
+                {
+                    "@type": "item",
+                    "name": "src/rime/dict/entry_collector.cc"
+                },
+                {
+                    "@type": "item",
+                    "name": "src/rime/dict/reverse_lookup_dictionary.h"
+                },
+                {
+                    "@type": "item",
+                    "name": "src/rime/dict/reverse_lookup_dictionary.cc"
+                },
+                {
+                    "@type": "item",
+                    "name": "src/rime/dict/table.h"
+                },
+                {
+                    "@type": "item",
+                    "name": "src/rime/dict/table.cc"
+                },
+                {
+                    "@type": "item",
+                    "name": "src/rime/dict/prism.h"
+                },
+                {
+                    "@type": "item",
+                    "name": "src/rime/dict/dict_settings.h"
+                },
+                {
+                    "@type": "item",
+                    "name": "src/rime/dict/dict_settings.cc"
+                },
+                {
+                    "@type": "item",
+                    "name": "src/rime/dict/vocabulary.h"
+                },
+                {
+                    "@type": "item",
+                    "name": "src/rime/dict/vocabulary.cc"
+                },
+                {
+                    "@type": "item",
+                    "name": "src/rime/dict/dict_compiler.h"
+                },
+                {
+                    "@type": "item",
+                    "name": "src/rime/dict/dict_compiler.cc"
+                },
+                {
+                    "@type": "item",
+                    "name": "src/rime/dict/mapped_file.h"
+                },
+                {
+                    "@type": "item",
+                    "name": "src/rime/dict/mapped_file.cc"
+                },
+                {
+                    "@type": "item",
+                    "name": "src/rime/dict/preset_vocabulary.h"
+                },
+                {
+                    "@type": "item",
+                    "name": "src/rime/dict/preset_vocabulary.cc"
+                },
+                {
+                    "@type": "item",
+                    "name": "src/rime/dict/dictionary.h"
+                },
+                {
+                    "@type": "item",
+                    "name": "src/rime/dict/dictionary.cc"
+                },
+                {
+                    "@type": "item",
+                    "name": "src/rime/dict/corrector.h"
+                },
+                {
+                    "@type": "item",
+                    "name": "src/rime/dict/corrector.cc"
+                },
+                {
+                    "@type": "item",
+                    "name": "src/rime/dict/string_table.h"
+                },
+                {
+                    "@type": "item",
+                    "name": "src/rime/dict/string_table.cc"
+                },
+                {
+                    "@type": "item",
+                    "name": "src/rime/dict/user_dictionary.h"
+                },
+                {
+                    "@type": "item",
+                    "name": "src/rime/dict/user_dictionary.cc"
+                }
+            ]
+        },
+        {
+            "@type": "group",
+            "name": "5",
+            "nested": [
+                {
+                    "@type": "item",
+                    "name": "src/rime/dict/user_db.h"
+                },
+                {
+                    "@type": "item",
+                    "name": "src/rime/dict/user_db.cc"
+                },
+                {
+                    "@type": "item",
+                    "name": "src/rime/dict/db.h"
+                },
+                {
+                    "@type": "item",
+                    "name": "src/rime/dict/db.cc"
+                },
+                {
+                    "@type": "item",
+                    "name": "src/rime/dict/level_db.h"
+                },
+                {
+                    "@type": "item",
+                    "name": "src/rime/dict/level_db.cc"
+                },
+                {
+                    "@type": "item",
+                    "name": "src/rime/dict/text_db.h"
+                },
+                {
+                    "@type": "item",
+                    "name": "src/rime/dict/text_db.cc"
+                },
+                {
+                    "@type": "item",
+                    "name": "src/rime/dict/db_utils.h"
+                },
+                {
+                    "@type": "item",
+                    "name": "src/rime/dict/db_utils.cc"
+                },
+                {
+                    "@type": "item",
+                    "name": "src/rime/dict/tsv.h"
+                },
+                {
+                    "@type": "item",
+                    "name": "src/rime/dict/tsv.cc"
+                },
+                {
+                    "@type": "item",
+                    "name": "src/rime/dict/dict_module.cc"
+                },
+                {
+                    "@type": "item",
+                    "name": "src/rime/dict/user_db_recovery_task.h"
+                },
+                {
+                    "@type": "item",
+                    "name": "src/rime/dict/user_db_recovery_task.cc"
+                },
+                {
+                    "@type": "item",
+                    "name": "src/rime/dict/table_db.h"
+                },
+                {
+                    "@type": "item",
+                    "name": "src/rime/dict/table_db.cc"
+                }
+            ]
+        },
+        {
+            "@type": "group",
+            "name": "6",
+            "nested": [
+                {
+                    "@type": "item",
+                    "name": "src/rime/module.h"
+                },
+                {
+                    "@type": "item",
+                    "name": "src/rime/module.cc"
+                },
+                {
+                    "@type": "item",
+                    "name": "src/rime/schema.h"
+                },
+                {
+                    "@type": "item",
+                    "name": "src/rime/schema.cc"
+                },
+                {
+                    "@type": "item",
+                    "name": "src/rime/resource.h"
+                },
+                {
+                    "@type": "item",
+                    "name": "src/rime/resource.cc"
+                },
+                {
+                    "@type": "item",
+                    "name": "src/rime/setup.h"
+                },
+                {
+                    "@type": "item",
+                    "name": "src/rime/setup.cc"
+                },
+                {
+                    "@type": "item",
+                    "name": "src/rime/service.h"
+                },
+                {
+                    "@type": "item",
+                    "name": "src/rime/service.cc"
+                },
+                {
+                    "@type": "item",
+                    "name": "src/rime/registry.h"
+                },
+                {
+                    "@type": "item",
+                    "name": "src/rime/registry.cc"
+                },
+                {
+                    "@type": "item",
+                    "name": "src/rime/core_module.cc"
+                }
+            ]
+        },
+        {
+            "@type": "group",
+            "name": "7",
+            "nested": [
+                {
+                    "@type": "item",
+                    "name": "src/rime/config/config_compiler_impl.h"
+                },
+                {
+                    "@type": "item",
+                    "name": "src/rime/config/config_compiler.h"
+                },
+                {
+                    "@type": "item",
+                    "name": "src/rime/config/config_compiler.cc"
+                },
+                {
+                    "@type": "item",
+                    "name": "src/rime/config/config_component.h"
+                },
+                {
+                    "@type": "item",
+                    "name": "src/rime/config/config_component.cc"
+                },
+                {
+                    "@type": "item",
+                    "name": "src/rime/config/plugins.h"
+                },
+                {
+                    "@type": "item",
+                    "name": "src/rime/config/save_output_plugin.cc"
+                },
+                {
+                    "@type": "item",
+                    "name": "src/rime/config/build_info_plugin.cc"
+                },
+                {
+                    "@type": "item",
+                    "name": "src/rime/config/legacy_dictionary_config_plugin.cc"
+                },
+                {
+                    "@type": "item",
+                    "name": "src/rime/config/default_config_plugin.cc"
+                },
+                {
+                    "@type": "item",
+                    "name": "src/rime/config/legacy_preset_config_plugin.cc"
+                },
+                {
+                    "@type": "item",
+                    "name": "src/rime/config/auto_patch_config_plugin.cc"
+                },
+                {
+                    "@type": "item",
+                    "name": "src/rime/config/config_data.h"
+                },
+                {
+                    "@type": "item",
+                    "name": "src/rime/config/config_data.cc"
+                },
+                {
+                    "@type": "item",
+                    "name": "src/rime/config/config_cow_ref.h"
+                },
+                {
+                    "@type": "item",
+                    "name": "src/rime/config/config_types.h"
+                },
+                {
+                    "@type": "item",
+                    "name": "src/rime/config/config_types.cc"
+                }
+            ]
+        },
+        {
+            "@type": "group",
+            "name": "8",
+            "nested": [
+                {
+                    "@type": "item",
+                    "name": "src/rime/lever/custom_settings.h"
+                },
+                {
+                    "@type": "item",
+                    "name": "src/rime/lever/custom_settings.cc"
+                },
+                {
+                    "@type": "item",
+                    "name": "src/rime/lever/levers_module.cc"
+                },
+                {
+                    "@type": "item",
+                    "name": "src/rime/lever/switcher_settings.h"
+                },
+                {
+                    "@type": "item",
+                    "name": "src/rime/lever/switcher_settings.cc"
+                },
+                {
+                    "@type": "item",
+                    "name": "src/rime/lever/deployment_tasks.h"
+                },
+                {
+                    "@type": "item",
+                    "name": "src/rime/lever/deployment_tasks.cc"
+                },
+                {
+                    "@type": "item",
+                    "name": "src/rime/lever/customizer.h"
+                },
+                {
+                    "@type": "item",
+                    "name": "src/rime/lever/customizer.cc"
+                },
+                {
+                    "@type": "item",
+                    "name": "src/rime/lever/user_dict_manager.h"
+                },
+                {
+                    "@type": "item",
+                    "name": "src/rime/lever/user_dict_manager.cc"
+                }
+            ]
+        },
+        {
+            "@type": "group",
+            "name": "9",
+            "nested": [
+                {
+                    "@type": "item",
+                    "name": "include/utf8.h"
+                },
+                {
+                    "@type": "item",
+                    "name": "include/utf8/core.h"
+                },
+                {
+                    "@type": "item",
+                    "name": "include/utf8/checked.h"
+                },
+                {
+                    "@type": "item",
+                    "name": "include/utf8/unchecked.h"
+                }
+            ]
+        },
+        {
+            "@type": "group",
+            "name": "10",
+            "nested": [
+                {
+                    "@type": "item",
+                    "name": "src/rime/algo/spelling.h"
+                },
+                {
+                    "@type": "item",
+                    "name": "src/rime/algo/syllabifier.h"
+                },
+                {
+                    "@type": "item",
+                    "name": "src/rime/algo/syllabifier.cc"
+                },
+                {
+                    "@type": "item",
+                    "name": "src/rime/algo/calculus.h"
+                },
+                {
+                    "@type": "item",
+                    "name": "src/rime/algo/calculus.cc"
+                },
+                {
+                    "@type": "item",
+                    "name": "src/rime/algo/algebra.h"
+                },
+                {
+                    "@type": "item",
+                    "name": "src/rime/algo/algebra.cc"
+                }
+            ]
+        },
+        {
+            "@type": "group",
+            "name": "11",
+            "nested": [
+                {
+                    "@type": "item",
+                    "name": "src/rime/key_table.h"
+                },
+                {
+                    "@type": "item",
+                    "name": "src/rime/key_event.h"
+                },
+                {
+                    "@type": "item",
+                    "name": "src/rime/key_event.cc"
+                },
+                {
+                    "@type": "item",
+                    "name": "src/rime/key_table.cc"
+                }
+            ]
+        },
+        {
+            "@type": "group",
+            "name": "12",
+            "nested": [
+                {
+                    "@type": "item",
+                    "name": "include/X11/keysymdef.h"
+                },
+                {
+                    "@type": "item",
+                    "name": "include/X11/keysym.h"
+                }
+            ]
+        },
+        {
+            "@type": "group",
+            "name": "13",
+            "nested": [
+                {
+                    "@type": "item",
+                    "name": "src/rime_api.h"
+                },
+                {
+                    "@type": "item",
+                    "name": "src/rime_api.cc"
+                },
+                {
+                    "@type": "item",
+                    "name": "src/rime_levers_api.h"
+                }
+            ]
+        },
+        {
+            "@type": "group",
+            "name": "14",
+            "nested": [
+                {
+                    "@type": "item",
+                    "name": "tools/rime_patch.cc"
+                },
+                {
+                    "@type": "item",
+                    "name": "tools/rime_dict_manager.cc"
+                }
+            ]
+        },
+        {
+            "@type": "group",
+            "name": "15",
+            "nested": [
+                {
+                    "@type": "item",
+                    "name": "src/rime/algo/encoder.h"
+                },
+                {
+                    "@type": "item",
+                    "name": "src/rime/algo/encoder.cc"
+                },
+                {
+                    "@type": "item",
+                    "name": "src/rime/algo/strings.h"
+                },
+                {
+                    "@type": "item",
+                    "name": "src/rime/algo/strings.cc"
+                }
+            ]
+        },
+        {
+            "@type": "group",
+            "name": "16",
+            "nested": [
+                {
+                    "@type": "item",
+                    "name": "sample/src/sample_module.cc"
+                },
+                {
+                    "@type": "item",
+                    "name": "sample/src/trivial_translator.h"
+                },
+                {
+                    "@type": "item",
+                    "name": "sample/src/trivial_translator.cc"
+                }
+            ]
+        },
+        {
+            "@type": "group",
+            "name": "17",
+            "nested": [
+                {
+                    "@type": "item",
+                    "name": "include/darts.h"
+                }
+            ]
+        },
+        {
+            "@type": "group",
+            "name": "18",
+            "nested": [
+                {
+                    "@type": "item",
+                    "name": "include/msvc/stdint.h"
+                }
+            ]
+        },
+        {
+            "@type": "group",
+            "name": "19",
+            "nested": [
+                {
+                    "@type": "item",
+                    "name": "plugins/plugin.cc"
+                }
+            ]
+        },
+        {
+            "@type": "group",
+            "name": "20",
+            "nested": [
+                {
+                    "@type": "item",
+                    "name": "plugins/plugins_module.cc"
+                }
+            ]
+        },
+        {
+            "@type": "group",
+            "name": "21",
+            "nested": [
+                {
+                    "@type": "item",
+                    "name": "sample/test/sample_test_main.cc"
+                }
+            ]
+        },
+        {
+            "@type": "group",
+            "name": "22",
+            "nested": [
+                {
+                    "@type": "item",
+                    "name": "sample/test/trivial_translator_test.cc"
+                }
+            ]
+        },
+        {
+            "@type": "group",
+            "name": "23",
+            "nested": [
+                {
+                    "@type": "item",
+                    "name": "sample/tools/sample_console.cc"
+                }
+            ]
+        },
+        {
+            "@type": "group",
+            "name": "24",
+            "nested": [
+                {
+                    "@type": "item",
+                    "name": "src/rime/algo/dynamics.h"
+                }
+            ]
+        },
+        {
+            "@type": "group",
+            "name": "25",
+            "nested": [
+                {
+                    "@type": "item",
+                    "name": "test/component_test.cc"
+                }
+            ]
+        },
+        {
+            "@type": "group",
+            "name": "26",
+            "nested": [
+                {
+                    "@type": "item",
+                    "name": "test/menu_test.cc"
+                }
+            ]
+        },
+        {
+            "@type": "group",
+            "name": "27",
+            "nested": [
+                {
+                    "@type": "item",
+                    "name": "test/rime_test_main.cc"
+                }
+            ]
+        },
+        {
+            "@type": "group",
+            "name": "28",
+            "nested": [
+                {
+                    "@type": "item",
+                    "name": "test/table_test.cc"
+                }
+            ]
+        },
+        {
+            "@type": "group",
+            "name": "29",
+            "nested": [
+                {
+                    "@type": "item",
+                    "name": "tools/rime_api_console.cc"
+                }
+            ]
+        },
+        {
+            "@type": "group",
+            "name": "30",
+            "nested": [
+                {
+                    "@type": "item",
+                    "name": "tools/rime_console.cc"
+                }
+            ]
+        },
+        {
+            "@type": "group",
+            "name": "31",
+            "nested": [
+                {
+                    "@type": "item",
+                    "name": "tools/rime_deployer.cc"
+                }
+            ]
+        },
+        {
+            "@type": "group",
+            "name": "32",
+            "nested": [
+                {
+                    "@type": "item",
+                    "name": "src/rime/algo/utilities.h"
+                },
+                {
+                    "@type": "item",
+                    "name": "src/rime/algo/utilities.cc"
+                }
+            ]
+        }
+    ]
+}

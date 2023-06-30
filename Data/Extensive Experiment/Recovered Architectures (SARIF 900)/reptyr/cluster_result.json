@@ -1,0 +1,160 @@
+{
+    "@schemaVersion": "1.0",
+    "name": "clustering",
+    "structure": [
+        {
+            "@type": "group",
+            "name": "0",
+            "nested": [
+                {
+                    "@type": "item",
+                    "name": "ptrace.h"
+                },
+                {
+                    "@type": "item",
+                    "name": "platform/freebsd/freebsd_ptrace.c"
+                },
+                {
+                    "@type": "item",
+                    "name": "platform/freebsd/arch/x86_common.h"
+                },
+                {
+                    "@type": "item",
+                    "name": "platform/freebsd/arch/arm.h"
+                },
+                {
+                    "@type": "item",
+                    "name": "platform/freebsd/arch/i386.h"
+                },
+                {
+                    "@type": "item",
+                    "name": "platform/freebsd/arch/aarch64.h"
+                },
+                {
+                    "@type": "item",
+                    "name": "platform/freebsd/arch/amd64.h"
+                },
+                {
+                    "@type": "item",
+                    "name": "platform/freebsd/arch/default-syscalls.h"
+                }
+            ]
+        },
+        {
+            "@type": "group",
+            "name": "1",
+            "nested": [
+                {
+                    "@type": "item",
+                    "name": "platform/linux/arch/x86_common.h"
+                },
+                {
+                    "@type": "item",
+                    "name": "platform/linux/arch/aarch64.h"
+                },
+                {
+                    "@type": "item",
+                    "name": "platform/linux/arch/arm.h"
+                },
+                {
+                    "@type": "item",
+                    "name": "platform/linux/arch/powerpc.h"
+                },
+                {
+                    "@type": "item",
+                    "name": "platform/linux/arch/riscv64.h"
+                }
+            ]
+        },
+        {
+            "@type": "group",
+            "name": "2",
+            "nested": [
+                {
+                    "@type": "item",
+                    "name": "platform/linux/arch/i386.h"
+                },
+                {
+                    "@type": "item",
+                    "name": "platform/linux/arch/amd64.h"
+                },
+                {
+                    "@type": "item",
+                    "name": "platform/linux/linux_ptrace.c"
+                },
+                {
+                    "@type": "item",
+                    "name": "platform/linux/arch/default-syscalls.h"
+                }
+            ]
+        },
+        {
+            "@type": "group",
+            "name": "3",
+            "nested": [
+                {
+                    "@type": "item",
+                    "name": "reptyr.h"
+                },
+                {
+                    "@type": "item",
+                    "name": "reptyr.c"
+                },
+                {
+                    "@type": "item",
+                    "name": "reallocarray.h"
+                },
+                {
+                    "@type": "item",
+                    "name": "reallocarray.c"
+                },
+                {
+                    "@type": "item",
+                    "name": "platform/platform.h"
+                },
+                {
+                    "@type": "item",
+                    "name": "attach.c"
+                }
+            ]
+        },
+        {
+            "@type": "group",
+            "name": "4",
+            "nested": [
+                {
+                    "@type": "item",
+                    "name": "platform/freebsd/freebsd.h"
+                },
+                {
+                    "@type": "item",
+                    "name": "platform/freebsd/freebsd.c"
+                }
+            ]
+        },
+        {
+            "@type": "group",
+            "name": "5",
+            "nested": [
+                {
+                    "@type": "item",
+                    "name": "platform/linux/linux.c"
+                },
+                {
+                    "@type": "item",
+                    "name": "platform/linux/linux.h"
+                }
+            ]
+        },
+        {
+            "@type": "group",
+            "name": "6",
+            "nested": [
+                {
+                    "@type": "item",
+                    "name": "test/victim.c"
+                }
+            ]
+        }
+    ]
+}

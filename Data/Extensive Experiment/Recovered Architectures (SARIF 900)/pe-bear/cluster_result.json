@@ -1,0 +1,824 @@
+{
+    "@schemaVersion": "1.0",
+    "name": "clustering",
+    "structure": [
+        {
+            "@type": "group",
+            "name": "0",
+            "nested": [
+                {
+                    "@type": "item",
+                    "name": "pe-bear/ViewSettings.h"
+                },
+                {
+                    "@type": "item",
+                    "name": "pe-bear/ViewSettings.cpp"
+                },
+                {
+                    "@type": "item",
+                    "name": "pe-bear/HexView.cpp"
+                },
+                {
+                    "@type": "item",
+                    "name": "pe-bear/HexView.h"
+                },
+                {
+                    "@type": "item",
+                    "name": "pe-bear/HexDumpModel.h"
+                },
+                {
+                    "@type": "item",
+                    "name": "pe-bear/HexDumpModel.cpp"
+                },
+                {
+                    "@type": "item",
+                    "name": "pe-bear/PEDockedWidget.h"
+                },
+                {
+                    "@type": "item",
+                    "name": "pe-bear/PEDockedWidget.cpp"
+                },
+                {
+                    "@type": "item",
+                    "name": "pe-bear/PEFileTreeModel.h"
+                },
+                {
+                    "@type": "item",
+                    "name": "pe-bear/PEFileTreeModel.cpp"
+                },
+                {
+                    "@type": "item",
+                    "name": "pe-bear/SectionsDiagram.h"
+                },
+                {
+                    "@type": "item",
+                    "name": "pe-bear/SectionsDiagram.cpp"
+                },
+                {
+                    "@type": "item",
+                    "name": "pe-bear/TempBuffer.h"
+                },
+                {
+                    "@type": "item",
+                    "name": "pe-bear/OffsetHeader.h"
+                },
+                {
+                    "@type": "item",
+                    "name": "pe-bear/OffsetHeader.cpp"
+                },
+                {
+                    "@type": "item",
+                    "name": "pe-bear/ExeDependentAction.h"
+                },
+                {
+                    "@type": "item",
+                    "name": "pe-bear/ExeDependentAction.cpp"
+                },
+                {
+                    "@type": "item",
+                    "name": "pe-bear/DisasmView.h"
+                },
+                {
+                    "@type": "item",
+                    "name": "pe-bear/DisasmView.cpp"
+                },
+                {
+                    "@type": "item",
+                    "name": "pe-bear/REbear.h"
+                },
+                {
+                    "@type": "item",
+                    "name": "pe-bear/HexCompareView.h"
+                },
+                {
+                    "@type": "item",
+                    "name": "pe-bear/HexCompareView.cpp"
+                },
+                {
+                    "@type": "item",
+                    "name": "pe-bear/main.cpp"
+                }
+            ]
+        },
+        {
+            "@type": "group",
+            "name": "1",
+            "nested": [
+                {
+                    "@type": "item",
+                    "name": "pe-bear/gui/GeneralPanel.h"
+                },
+                {
+                    "@type": "item",
+                    "name": "pe-bear/gui/GeneralPanel.cpp"
+                },
+                {
+                    "@type": "item",
+                    "name": "pe-bear/gui/ResourceDirSplitter.h"
+                },
+                {
+                    "@type": "item",
+                    "name": "pe-bear/gui/ResourceDirSplitter.cpp"
+                },
+                {
+                    "@type": "item",
+                    "name": "pe-bear/gui/DosHdrTableModel.h"
+                },
+                {
+                    "@type": "item",
+                    "name": "pe-bear/gui/DosHdrTableModel.cpp"
+                },
+                {
+                    "@type": "item",
+                    "name": "pe-bear/gui/PackersTableModel.h"
+                },
+                {
+                    "@type": "item",
+                    "name": "pe-bear/gui/PackersTableModel.cpp"
+                },
+                {
+                    "@type": "item",
+                    "name": "pe-bear/gui/PeTreeModel.h"
+                },
+                {
+                    "@type": "item",
+                    "name": "pe-bear/gui/PeTreeModel.cpp"
+                },
+                {
+                    "@type": "item",
+                    "name": "pe-bear/gui/PeWrapperModel.h"
+                },
+                {
+                    "@type": "item",
+                    "name": "pe-bear/gui/PeWrapperModel.cpp"
+                },
+                {
+                    "@type": "item",
+                    "name": "pe-bear/gui/pe_models.h"
+                },
+                {
+                    "@type": "item",
+                    "name": "pe-bear/gui/DetailsTab.h"
+                },
+                {
+                    "@type": "item",
+                    "name": "pe-bear/gui/DetailsTab.cpp"
+                },
+                {
+                    "@type": "item",
+                    "name": "pe-bear/gui/DataDirWrapperSplitter.h"
+                },
+                {
+                    "@type": "item",
+                    "name": "pe-bear/gui/DataDirWrapperSplitter.cpp"
+                },
+                {
+                    "@type": "item",
+                    "name": "pe-bear/gui/TreeModel.h"
+                },
+                {
+                    "@type": "item",
+                    "name": "pe-bear/gui/TreeModel.cpp"
+                },
+                {
+                    "@type": "item",
+                    "name": "pe-bear/gui/WrapperSplitter.h"
+                },
+                {
+                    "@type": "item",
+                    "name": "pe-bear/gui/WrapperSplitter.cpp"
+                },
+                {
+                    "@type": "item",
+                    "name": "pe-bear/gui/WrapperTreeView.h"
+                },
+                {
+                    "@type": "item",
+                    "name": "pe-bear/gui/WrapperTreeView.cpp"
+                }
+            ]
+        },
+        {
+            "@type": "group",
+            "name": "2",
+            "nested": [
+                {
+                    "@type": "item",
+                    "name": "pe-bear/gui/pe_models/DelayImpTreeModel.h"
+                },
+                {
+                    "@type": "item",
+                    "name": "pe-bear/gui/pe_models/DelayImpTreeModel.cpp"
+                },
+                {
+                    "@type": "item",
+                    "name": "pe-bear/gui/pe_models/SecurityTreeModel.h"
+                },
+                {
+                    "@type": "item",
+                    "name": "pe-bear/gui/pe_models/SecurityTreeModel.cpp"
+                },
+                {
+                    "@type": "item",
+                    "name": "pe-bear/gui/pe_models/RelocsTreeModel.h"
+                },
+                {
+                    "@type": "item",
+                    "name": "pe-bear/gui/pe_models/RelocsTreeModel.cpp"
+                },
+                {
+                    "@type": "item",
+                    "name": "pe-bear/gui/pe_models/DebugTreeModel.h"
+                },
+                {
+                    "@type": "item",
+                    "name": "pe-bear/gui/pe_models/DebugTreeModel.cpp"
+                },
+                {
+                    "@type": "item",
+                    "name": "pe-bear/gui/pe_models/BoundImpTreeModel.h"
+                },
+                {
+                    "@type": "item",
+                    "name": "pe-bear/gui/pe_models/BoundImpTreeModel.cpp"
+                },
+                {
+                    "@type": "item",
+                    "name": "pe-bear/gui/pe_models/LdConfigTreeModel.h"
+                },
+                {
+                    "@type": "item",
+                    "name": "pe-bear/gui/pe_models/LdConfigTreeModel.cpp"
+                },
+                {
+                    "@type": "item",
+                    "name": "pe-bear/gui/pe_models/ResourcesTreeModel.h"
+                },
+                {
+                    "@type": "item",
+                    "name": "pe-bear/gui/pe_models/ResourcesTreeModel.cpp"
+                },
+                {
+                    "@type": "item",
+                    "name": "pe-bear/gui/pe_models/ExportsTreeModel.h"
+                },
+                {
+                    "@type": "item",
+                    "name": "pe-bear/gui/pe_models/ExportsTreeModel.cpp"
+                },
+                {
+                    "@type": "item",
+                    "name": "pe-bear/gui/pe_models/ExceptionTreeModel.h"
+                },
+                {
+                    "@type": "item",
+                    "name": "pe-bear/gui/pe_models/ExceptionTreeModel.cpp"
+                },
+                {
+                    "@type": "item",
+                    "name": "pe-bear/gui/pe_models/TLSTreeModel.h"
+                },
+                {
+                    "@type": "item",
+                    "name": "pe-bear/gui/pe_models/TLSTreeModel.cpp"
+                },
+                {
+                    "@type": "item",
+                    "name": "pe-bear/gui/pe_models/ImportsTreeModel.h"
+                },
+                {
+                    "@type": "item",
+                    "name": "pe-bear/gui/pe_models/ImportsTreeModel.cpp"
+                }
+            ]
+        },
+        {
+            "@type": "group",
+            "name": "3",
+            "nested": [
+                {
+                    "@type": "item",
+                    "name": "pe-bear/gui_base/PeGuiItem.h"
+                },
+                {
+                    "@type": "item",
+                    "name": "pe-bear/gui_base/PeGuiItem.cpp"
+                },
+                {
+                    "@type": "item",
+                    "name": "pe-bear/gui_base/HexInputDialog.h"
+                },
+                {
+                    "@type": "item",
+                    "name": "pe-bear/gui_base/HexInputDialog.cpp"
+                },
+                {
+                    "@type": "item",
+                    "name": "pe-bear/gui_base/WrapperTableModel.h"
+                },
+                {
+                    "@type": "item",
+                    "name": "pe-bear/gui_base/WrapperTableModel.cpp"
+                },
+                {
+                    "@type": "item",
+                    "name": "pe-bear/gui_base/AddressInputDialog.h"
+                },
+                {
+                    "@type": "item",
+                    "name": "pe-bear/gui_base/AddressInputDialog.cpp"
+                },
+                {
+                    "@type": "item",
+                    "name": "pe-bear/gui_base/PeTreeView.h"
+                },
+                {
+                    "@type": "item",
+                    "name": "pe-bear/gui_base/PeTreeView.cpp"
+                },
+                {
+                    "@type": "item",
+                    "name": "pe-bear/gui_base/FollowablePeTreeView.h"
+                },
+                {
+                    "@type": "item",
+                    "name": "pe-bear/gui_base/FollowablePeTreeView.cpp"
+                },
+                {
+                    "@type": "item",
+                    "name": "pe-bear/gui_base/PeTableModel.h"
+                },
+                {
+                    "@type": "item",
+                    "name": "pe-bear/gui_base/PeTableModel.cpp"
+                },
+                {
+                    "@type": "item",
+                    "name": "pe-bear/gui_base/WrapperInterface.h"
+                },
+                {
+                    "@type": "item",
+                    "name": "pe-bear/gui_base/WrapperInterface.cpp"
+                }
+            ]
+        },
+        {
+            "@type": "group",
+            "name": "4",
+            "nested": [
+                {
+                    "@type": "item",
+                    "name": "pe-bear/base/PeHandlersManager.h"
+                },
+                {
+                    "@type": "item",
+                    "name": "pe-bear/base/PeHandlersManager.cpp"
+                },
+                {
+                    "@type": "item",
+                    "name": "pe-bear/base/CommentHandler.h"
+                },
+                {
+                    "@type": "item",
+                    "name": "pe-bear/base/CommentHandler.cpp"
+                },
+                {
+                    "@type": "item",
+                    "name": "pe-bear/base/PeHandler.h"
+                },
+                {
+                    "@type": "item",
+                    "name": "pe-bear/base/PeHandler.cpp"
+                },
+                {
+                    "@type": "item",
+                    "name": "pe-bear/base/PeHandlerFactory.h"
+                },
+                {
+                    "@type": "item",
+                    "name": "pe-bear/base/PeHandlerFactory.cpp"
+                },
+                {
+                    "@type": "item",
+                    "name": "pe-bear/base/ImportsAutoadderSettings.h"
+                },
+                {
+                    "@type": "item",
+                    "name": "pe-bear/base/Modification.h"
+                },
+                {
+                    "@type": "item",
+                    "name": "pe-bear/base/Modification.cpp"
+                },
+                {
+                    "@type": "item",
+                    "name": "pe-bear/base/Releasable.h"
+                }
+            ]
+        },
+        {
+            "@type": "group",
+            "name": "5",
+            "nested": [
+                {
+                    "@type": "item",
+                    "name": "pe-bear/gui/windows/OffsetsBrowseWindow.h"
+                },
+                {
+                    "@type": "item",
+                    "name": "pe-bear/gui/windows/OffsetsBrowseWindow.cpp"
+                },
+                {
+                    "@type": "item",
+                    "name": "pe-bear/gui/windows/MainWindow.h"
+                },
+                {
+                    "@type": "item",
+                    "name": "pe-bear/gui/windows/MainWindow.cpp"
+                },
+                {
+                    "@type": "item",
+                    "name": "pe-bear/gui/windows/SectionAddWindow.h"
+                },
+                {
+                    "@type": "item",
+                    "name": "pe-bear/gui/windows/SectionAddWindow.cpp"
+                },
+                {
+                    "@type": "item",
+                    "name": "pe-bear/gui/windows/UserConfigWindow.h"
+                },
+                {
+                    "@type": "item",
+                    "name": "pe-bear/gui/windows/UserConfigWindow.cpp"
+                },
+                {
+                    "@type": "item",
+                    "name": "pe-bear/gui/windows/ImportsAddWindow.h"
+                },
+                {
+                    "@type": "item",
+                    "name": "pe-bear/gui/windows/ImportsAddWindow.cpp"
+                },
+                {
+                    "@type": "item",
+                    "name": "pe-bear/gui/windows/SignaturesBrowseWindow.h"
+                },
+                {
+                    "@type": "item",
+                    "name": "pe-bear/gui/windows/SignaturesBrowseWindow.cpp"
+                },
+                {
+                    "@type": "item",
+                    "name": "pe-bear/gui/windows/DiffWindow.h"
+                },
+                {
+                    "@type": "item",
+                    "name": "pe-bear/gui/windows/DiffWindow.cpp"
+                }
+            ]
+        },
+        {
+            "@type": "group",
+            "name": "6",
+            "nested": [
+                {
+                    "@type": "item",
+                    "name": "sig_finder/sig_finder/SigNode.h"
+                },
+                {
+                    "@type": "item",
+                    "name": "sig_finder/sig_finder/SigNode.cpp"
+                },
+                {
+                    "@type": "item",
+                    "name": "sig_finder/sig_finder/PckrSign.h"
+                },
+                {
+                    "@type": "item",
+                    "name": "sig_finder/sig_finder/PckrSign.cpp"
+                },
+                {
+                    "@type": "item",
+                    "name": "sig_finder/sig_finder.h"
+                },
+                {
+                    "@type": "item",
+                    "name": "sig_finder/win_types.h"
+                },
+                {
+                    "@type": "item",
+                    "name": "sig_finder/sig_finder/SigTree.h"
+                },
+                {
+                    "@type": "item",
+                    "name": "sig_finder/sig_finder/SigTree.cpp"
+                },
+                {
+                    "@type": "item",
+                    "name": "sig_finder/sig_finder/SigFinder.h"
+                },
+                {
+                    "@type": "item",
+                    "name": "sig_finder/sig_finder/SigFinder.cpp"
+                }
+            ]
+        },
+        {
+            "@type": "group",
+            "name": "7",
+            "nested": [
+                {
+                    "@type": "item",
+                    "name": "disasm/PeDisasm.h"
+                },
+                {
+                    "@type": "item",
+                    "name": "disasm/PeDisasm.cpp"
+                },
+                {
+                    "@type": "item",
+                    "name": "disasm/cdis/CDisasm.h"
+                },
+                {
+                    "@type": "item",
+                    "name": "disasm/cdis/CDisasm.cpp"
+                },
+                {
+                    "@type": "item",
+                    "name": "disasm/MnemType.h"
+                },
+                {
+                    "@type": "item",
+                    "name": "disasm/Disasm.h"
+                },
+                {
+                    "@type": "item",
+                    "name": "disasm/Disasm.cpp"
+                },
+                {
+                    "@type": "item",
+                    "name": "disasm/udis/UDisasm.h"
+                },
+                {
+                    "@type": "item",
+                    "name": "disasm/udis/UDisasm.cpp"
+                },
+                {
+                    "@type": "item",
+                    "name": "disasm/bear_disasm.h"
+                }
+            ]
+        },
+        {
+            "@type": "group",
+            "name": "8",
+            "nested": [
+                {
+                    "@type": "item",
+                    "name": "pe-bear/gui/pe_models/ClrHdrTreeModel.h"
+                },
+                {
+                    "@type": "item",
+                    "name": "pe-bear/gui/pe_models/ClrHdrTreeModel.cpp"
+                },
+                {
+                    "@type": "item",
+                    "name": "pe-bear/gui/pe_models/RichHdrTreeModel.h"
+                },
+                {
+                    "@type": "item",
+                    "name": "pe-bear/gui/pe_models/RichHdrTreeModel.cpp"
+                },
+                {
+                    "@type": "item",
+                    "name": "pe-bear/gui/pe_models/FileHdrTreeModel.h"
+                },
+                {
+                    "@type": "item",
+                    "name": "pe-bear/gui/pe_models/FileHdrTreeModel.cpp"
+                },
+                {
+                    "@type": "item",
+                    "name": "pe-bear/gui/pe_models/OptionalHdrTreeModel.h"
+                },
+                {
+                    "@type": "item",
+                    "name": "pe-bear/gui/pe_models/OptionalHdrTreeModel.cpp"
+                }
+            ]
+        },
+        {
+            "@type": "group",
+            "name": "9",
+            "nested": [
+                {
+                    "@type": "item",
+                    "name": "pe-bear/gui_base/HexSpinBox.h"
+                },
+                {
+                    "@type": "item",
+                    "name": "pe-bear/gui_base/HexSpinBox.cpp"
+                },
+                {
+                    "@type": "item",
+                    "name": "pe-bear/gui_base/ExtTableView.h"
+                },
+                {
+                    "@type": "item",
+                    "name": "pe-bear/gui_base/ExtTableView.cpp"
+                },
+                {
+                    "@type": "item",
+                    "name": "pe-bear/gui_base/HexMimeSource.h"
+                },
+                {
+                    "@type": "item",
+                    "name": "pe-bear/gui_base/HexMimeSource.cpp"
+                },
+                {
+                    "@type": "item",
+                    "name": "pe-bear/gui_base/TreeCpView.h"
+                },
+                {
+                    "@type": "item",
+                    "name": "pe-bear/gui_base/TreeCpView.cpp"
+                }
+            ]
+        },
+        {
+            "@type": "group",
+            "name": "10",
+            "nested": [
+                {
+                    "@type": "item",
+                    "name": "pe-bear/gui/HexDiffModel.cpp"
+                },
+                {
+                    "@type": "item",
+                    "name": "pe-bear/gui/HexDiffModel.h"
+                }
+            ]
+        },
+        {
+            "@type": "group",
+            "name": "11",
+            "nested": [
+                {
+                    "@type": "item",
+                    "name": "pe-bear/gui/DarkStyle.h"
+                }
+            ]
+        },
+        {
+            "@type": "group",
+            "name": "12",
+            "nested": [
+                {
+                    "@type": "item",
+                    "name": "pe-bear/resources.h"
+                }
+            ]
+        },
+        {
+            "@type": "group",
+            "name": "13",
+            "nested": [
+                {
+                    "@type": "item",
+                    "name": "pe-bear/gui_base/PEViewsManager.h"
+                },
+                {
+                    "@type": "item",
+                    "name": "pe-bear/gui_base/PEViewsManager.cpp"
+                }
+            ]
+        },
+        {
+            "@type": "group",
+            "name": "14",
+            "nested": [
+                {
+                    "@type": "item",
+                    "name": "pe-bear/gui/ContentPreview.h"
+                },
+                {
+                    "@type": "item",
+                    "name": "pe-bear/gui/ContentPreview.cpp"
+                }
+            ]
+        },
+        {
+            "@type": "group",
+            "name": "15",
+            "nested": [
+                {
+                    "@type": "item",
+                    "name": "pe-bear/base/RegKeyManager.h"
+                },
+                {
+                    "@type": "item",
+                    "name": "pe-bear/base/RegKeyManager.cpp"
+                }
+            ]
+        },
+        {
+            "@type": "group",
+            "name": "16",
+            "nested": [
+                {
+                    "@type": "item",
+                    "name": "pe-bear/gui/pe_models/SecHdrsTreeModel.h"
+                },
+                {
+                    "@type": "item",
+                    "name": "pe-bear/gui/pe_models/SecHdrsTreeModel.cpp"
+                }
+            ]
+        },
+        {
+            "@type": "group",
+            "name": "17",
+            "nested": [
+                {
+                    "@type": "item",
+                    "name": "pe-bear/gui_base/OffsetDependentAction.h"
+                },
+                {
+                    "@type": "item",
+                    "name": "pe-bear/gui_base/OffsetDependentAction.cpp"
+                }
+            ]
+        },
+        {
+            "@type": "group",
+            "name": "18",
+            "nested": [
+                {
+                    "@type": "item",
+                    "name": "pe-bear/base/BearVers.h"
+                },
+                {
+                    "@type": "item",
+                    "name": "pe-bear/base/BearVers.cpp"
+                }
+            ]
+        },
+        {
+            "@type": "group",
+            "name": "19",
+            "nested": [
+                {
+                    "@type": "item",
+                    "name": "pe-bear/gui/CommentView.h"
+                },
+                {
+                    "@type": "item",
+                    "name": "pe-bear/gui/CommentView.cpp"
+                }
+            ]
+        },
+        {
+            "@type": "group",
+            "name": "20",
+            "nested": [
+                {
+                    "@type": "item",
+                    "name": "pe-bear/DateDisplay.h"
+                },
+                {
+                    "@type": "item",
+                    "name": "pe-bear/DateDisplay.cpp"
+                }
+            ]
+        },
+        {
+            "@type": "group",
+            "name": "21",
+            "nested": [
+                {
+                    "@type": "item",
+                    "name": "pe-bear/gui_base/ClipboardUtil.h"
+                },
+                {
+                    "@type": "item",
+                    "name": "pe-bear/gui_base/ClipboardUtil.cpp"
+                }
+            ]
+        },
+        {
+            "@type": "group",
+            "name": "22",
+            "nested": [
+                {
+                    "@type": "item",
+                    "name": "pe-bear/base/MainSettings.h"
+                },
+                {
+                    "@type": "item",
+                    "name": "pe-bear/base/MainSettings.cpp"
+                }
+            ]
+        }
+    ]
+}

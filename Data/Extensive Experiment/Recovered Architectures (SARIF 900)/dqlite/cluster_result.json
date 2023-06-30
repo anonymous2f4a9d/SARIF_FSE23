@@ -1,0 +1,590 @@
+{
+    "@schemaVersion": "1.0",
+    "name": "clustering",
+    "structure": [
+        {
+            "@type": "group",
+            "name": "0",
+            "nested": [
+                {
+                    "@type": "item",
+                    "name": "src/bind.h"
+                },
+                {
+                    "@type": "item",
+                    "name": "src/bind.c"
+                },
+                {
+                    "@type": "item",
+                    "name": "src/server.h"
+                },
+                {
+                    "@type": "item",
+                    "name": "include/dqlite.h"
+                },
+                {
+                    "@type": "item",
+                    "name": "src/vfs.h"
+                },
+                {
+                    "@type": "item",
+                    "name": "src/server.c"
+                },
+                {
+                    "@type": "item",
+                    "name": "src/vfs.c"
+                },
+                {
+                    "@type": "item",
+                    "name": "src/dqlite.c"
+                },
+                {
+                    "@type": "item",
+                    "name": "src/tuple.h"
+                },
+                {
+                    "@type": "item",
+                    "name": "src/tuple.c"
+                },
+                {
+                    "@type": "item",
+                    "name": "src/format.h"
+                },
+                {
+                    "@type": "item",
+                    "name": "src/format.c"
+                },
+                {
+                    "@type": "item",
+                    "name": "src/translate.h"
+                },
+                {
+                    "@type": "item",
+                    "name": "src/translate.c"
+                },
+                {
+                    "@type": "item",
+                    "name": "src/metrics.h"
+                },
+                {
+                    "@type": "item",
+                    "name": "src/metrics.c"
+                },
+                {
+                    "@type": "item",
+                    "name": "src/lib/fs.h"
+                },
+                {
+                    "@type": "item",
+                    "name": "src/lib/fs.c"
+                },
+                {
+                    "@type": "item",
+                    "name": "src/fsm.h"
+                },
+                {
+                    "@type": "item",
+                    "name": "src/fsm.c"
+                },
+                {
+                    "@type": "item",
+                    "name": "src/lib/registry.h"
+                },
+                {
+                    "@type": "item",
+                    "name": "src/lib/byte.h"
+                },
+                {
+                    "@type": "item",
+                    "name": "src/id.h"
+                },
+                {
+                    "@type": "item",
+                    "name": "src/id.c"
+                },
+                {
+                    "@type": "item",
+                    "name": "src/tracing.h"
+                },
+                {
+                    "@type": "item",
+                    "name": "src/tracing.c"
+                },
+                {
+                    "@type": "item",
+                    "name": "src/query.h"
+                },
+                {
+                    "@type": "item",
+                    "name": "src/query.c"
+                },
+                {
+                    "@type": "item",
+                    "name": "src/db.h"
+                },
+                {
+                    "@type": "item",
+                    "name": "src/db.c"
+                },
+                {
+                    "@type": "item",
+                    "name": "src/stmt.h"
+                },
+                {
+                    "@type": "item",
+                    "name": "src/stmt.c"
+                },
+                {
+                    "@type": "item",
+                    "name": "src/command.h"
+                },
+                {
+                    "@type": "item",
+                    "name": "src/command.c"
+                },
+                {
+                    "@type": "item",
+                    "name": "src/roles.h"
+                },
+                {
+                    "@type": "item",
+                    "name": "src/roles.c"
+                },
+                {
+                    "@type": "item",
+                    "name": "src/lib/transport.h"
+                },
+                {
+                    "@type": "item",
+                    "name": "src/lib/transport.c"
+                },
+                {
+                    "@type": "item",
+                    "name": "src/response.h"
+                },
+                {
+                    "@type": "item",
+                    "name": "src/response.c"
+                },
+                {
+                    "@type": "item",
+                    "name": "src/registry.h"
+                },
+                {
+                    "@type": "item",
+                    "name": "src/registry.c"
+                },
+                {
+                    "@type": "item",
+                    "name": "src/lib/assert.h"
+                },
+                {
+                    "@type": "item",
+                    "name": "src/lib/serialize.h"
+                },
+                {
+                    "@type": "item",
+                    "name": "src/lib/buffer.h"
+                },
+                {
+                    "@type": "item",
+                    "name": "src/lib/buffer.c"
+                },
+                {
+                    "@type": "item",
+                    "name": "src/protocol.h"
+                },
+                {
+                    "@type": "item",
+                    "name": "src/conn.h"
+                },
+                {
+                    "@type": "item",
+                    "name": "src/conn.c"
+                },
+                {
+                    "@type": "item",
+                    "name": "src/transport.h"
+                },
+                {
+                    "@type": "item",
+                    "name": "src/transport.c"
+                },
+                {
+                    "@type": "item",
+                    "name": "src/config.h"
+                },
+                {
+                    "@type": "item",
+                    "name": "src/config.c"
+                },
+                {
+                    "@type": "item",
+                    "name": "src/gateway.h"
+                },
+                {
+                    "@type": "item",
+                    "name": "src/gateway.c"
+                },
+                {
+                    "@type": "item",
+                    "name": "src/logger.h"
+                },
+                {
+                    "@type": "item",
+                    "name": "src/logger.c"
+                },
+                {
+                    "@type": "item",
+                    "name": "src/lib/queue.h"
+                },
+                {
+                    "@type": "item",
+                    "name": "src/leader.h"
+                },
+                {
+                    "@type": "item",
+                    "name": "src/leader.c"
+                },
+                {
+                    "@type": "item",
+                    "name": "src/client/protocol.h"
+                },
+                {
+                    "@type": "item",
+                    "name": "src/client/protocol.c"
+                },
+                {
+                    "@type": "item",
+                    "name": "src/lib/addr.h"
+                },
+                {
+                    "@type": "item",
+                    "name": "src/lib/addr.c"
+                },
+                {
+                    "@type": "item",
+                    "name": "src/message.h"
+                },
+                {
+                    "@type": "item",
+                    "name": "src/message.c"
+                },
+                {
+                    "@type": "item",
+                    "name": "src/error.h"
+                },
+                {
+                    "@type": "item",
+                    "name": "src/error.c"
+                },
+                {
+                    "@type": "item",
+                    "name": "src/request.h"
+                },
+                {
+                    "@type": "item",
+                    "name": "src/request.c"
+                },
+                {
+                    "@type": "item",
+                    "name": "src/utils.h"
+                }
+            ]
+        },
+        {
+            "@type": "group",
+            "name": "1",
+            "nested": [
+                {
+                    "@type": "item",
+                    "name": "test/unit/test_conn.c"
+                },
+                {
+                    "@type": "item",
+                    "name": "test/lib/registry.h"
+                },
+                {
+                    "@type": "item",
+                    "name": "test/unit/lib/test_byte.c"
+                },
+                {
+                    "@type": "item",
+                    "name": "test/lib/raft.h"
+                },
+                {
+                    "@type": "item",
+                    "name": "test/unit/test_registry.c"
+                },
+                {
+                    "@type": "item",
+                    "name": "test/lib/fs.h"
+                },
+                {
+                    "@type": "item",
+                    "name": "test/lib/fs.c"
+                },
+                {
+                    "@type": "item",
+                    "name": "test/unit/test_request.c"
+                },
+                {
+                    "@type": "item",
+                    "name": "test/lib/logger.h"
+                },
+                {
+                    "@type": "item",
+                    "name": "test/lib/logger.c"
+                },
+                {
+                    "@type": "item",
+                    "name": "test/lib/sqlite.h"
+                },
+                {
+                    "@type": "item",
+                    "name": "test/lib/sqlite.c"
+                },
+                {
+                    "@type": "item",
+                    "name": "test/unit/lib/test_registry.c"
+                },
+                {
+                    "@type": "item",
+                    "name": "test/unit/lib/test_serialize.c"
+                },
+                {
+                    "@type": "item",
+                    "name": "test/lib/vfs.h"
+                },
+                {
+                    "@type": "item",
+                    "name": "test/lib/leader.h"
+                },
+                {
+                    "@type": "item",
+                    "name": "test/unit/lib/test_buffer.c"
+                },
+                {
+                    "@type": "item",
+                    "name": "test/unit/test_replication.c"
+                },
+                {
+                    "@type": "item",
+                    "name": "test/unit/test_command.c"
+                },
+                {
+                    "@type": "item",
+                    "name": "test/unit/lib/test_addr.c"
+                },
+                {
+                    "@type": "item",
+                    "name": "test/unit/test_role_management.c"
+                },
+                {
+                    "@type": "item",
+                    "name": "test/lib/config.h"
+                },
+                {
+                    "@type": "item",
+                    "name": "test/test_error.c"
+                }
+            ]
+        },
+        {
+            "@type": "group",
+            "name": "2",
+            "nested": [
+                {
+                    "@type": "item",
+                    "name": "test/integration/test_vfs.c"
+                },
+                {
+                    "@type": "item",
+                    "name": "test/lib/util.h"
+                },
+                {
+                    "@type": "item",
+                    "name": "test/integration/test_membership.c"
+                },
+                {
+                    "@type": "item",
+                    "name": "test/lib/client.h"
+                },
+                {
+                    "@type": "item",
+                    "name": "test/integration/test_cluster.c"
+                },
+                {
+                    "@type": "item",
+                    "name": "test/integration/test_role_management.c"
+                },
+                {
+                    "@type": "item",
+                    "name": "test/integration/test_fsm.c"
+                },
+                {
+                    "@type": "item",
+                    "name": "test/integration/test_client.c"
+                }
+            ]
+        },
+        {
+            "@type": "group",
+            "name": "3",
+            "nested": [
+                {
+                    "@type": "item",
+                    "name": "test/test_integration.c"
+                },
+                {
+                    "@type": "item",
+                    "name": "test/unit/main.c"
+                },
+                {
+                    "@type": "item",
+                    "name": "test/unit/test_tuple.c"
+                },
+                {
+                    "@type": "item",
+                    "name": "test/lib/runner.h"
+                },
+                {
+                    "@type": "item",
+                    "name": "test/unit/test_concurrency.c"
+                },
+                {
+                    "@type": "item",
+                    "name": "test/integration/main.c"
+                }
+            ]
+        },
+        {
+            "@type": "group",
+            "name": "4",
+            "nested": [
+                {
+                    "@type": "item",
+                    "name": "test/lib/munit.h"
+                },
+                {
+                    "@type": "item",
+                    "name": "test/lib/munit.c"
+                },
+                {
+                    "@type": "item",
+                    "name": "test/lib/cluster.h"
+                },
+                {
+                    "@type": "item",
+                    "name": "test/unit/test_gateway.c"
+                },
+                {
+                    "@type": "item",
+                    "name": "test/unit/test_vfs.c"
+                },
+                {
+                    "@type": "item",
+                    "name": "test/integration/test_node.c"
+                }
+            ]
+        },
+        {
+            "@type": "group",
+            "name": "5",
+            "nested": [
+                {
+                    "@type": "item",
+                    "name": "test/lib/endpoint.h"
+                },
+                {
+                    "@type": "item",
+                    "name": "test/lib/endpoint.c"
+                },
+                {
+                    "@type": "item",
+                    "name": "test/unit/ext/test_uv.c"
+                },
+                {
+                    "@type": "item",
+                    "name": "test/lib/uv.h"
+                },
+                {
+                    "@type": "item",
+                    "name": "test/lib/uv.c"
+                },
+                {
+                    "@type": "item",
+                    "name": "test/unit/lib/test_transport.c"
+                }
+            ]
+        },
+        {
+            "@type": "group",
+            "name": "6",
+            "nested": [
+                {
+                    "@type": "item",
+                    "name": "test/lib/fault.h"
+                },
+                {
+                    "@type": "item",
+                    "name": "test/lib/fault.c"
+                },
+                {
+                    "@type": "item",
+                    "name": "test/lib/raft_heap.h"
+                },
+                {
+                    "@type": "item",
+                    "name": "test/lib/raft_heap.c"
+                },
+                {
+                    "@type": "item",
+                    "name": "test/lib/heap.h"
+                },
+                {
+                    "@type": "item",
+                    "name": "test/lib/heap.c"
+                }
+            ]
+        },
+        {
+            "@type": "group",
+            "name": "7",
+            "nested": [
+                {
+                    "@type": "item",
+                    "name": "test/integration/test_server.c"
+                },
+                {
+                    "@type": "item",
+                    "name": "test/lib/server.h"
+                },
+                {
+                    "@type": "item",
+                    "name": "test/lib/server.c"
+                }
+            ]
+        },
+        {
+            "@type": "group",
+            "name": "8",
+            "nested": [
+                {
+                    "@type": "item",
+                    "name": "resources/stdbool.h"
+                }
+            ]
+        },
+        {
+            "@type": "group",
+            "name": "9",
+            "nested": [
+                {
+                    "@type": "item",
+                    "name": "test/lib/stmt.h"
+                }
+            ]
+        }
+    ]
+}

@@ -1,0 +1,746 @@
+{
+    "@schemaVersion": "1.0",
+    "name": "clustering",
+    "structure": [
+        {
+            "@type": "group",
+            "name": "0",
+            "nested": [
+                {
+                    "@type": "item",
+                    "name": "Core/InterProcessLock_Win32.cpp"
+                },
+                {
+                    "@type": "item",
+                    "name": "Core/InterProcessLock_Android.cpp"
+                },
+                {
+                    "@type": "item",
+                    "name": "Core/ThreadLock_Win32.cpp"
+                },
+                {
+                    "@type": "item",
+                    "name": "Core/ThreadLock.h"
+                },
+                {
+                    "@type": "item",
+                    "name": "Core/ThreadLock.cpp"
+                },
+                {
+                    "@type": "item",
+                    "name": "Core/InterProcessLock.h"
+                },
+                {
+                    "@type": "item",
+                    "name": "Core/InterProcessLock.cpp"
+                },
+                {
+                    "@type": "item",
+                    "name": "Core/ScopedLock.hpp"
+                }
+            ]
+        },
+        {
+            "@type": "group",
+            "name": "1",
+            "nested": [
+                {
+                    "@type": "item",
+                    "name": "Core/aes/openssl/openssl_aes.h"
+                },
+                {
+                    "@type": "item",
+                    "name": "Core/aes/openssl/openssl_aes_core.cpp"
+                },
+                {
+                    "@type": "item",
+                    "name": "Core/aes/openssl/openssl_aes_locl.h"
+                },
+                {
+                    "@type": "item",
+                    "name": "Core/aes/openssl/openssl_cfb128.cpp"
+                },
+                {
+                    "@type": "item",
+                    "name": "Core/aes/openssl/openssl_arm_arch.h"
+                },
+                {
+                    "@type": "item",
+                    "name": "Core/aes/AESCrypt.h"
+                },
+                {
+                    "@type": "item",
+                    "name": "Core/aes/AESCrypt.cpp"
+                }
+            ]
+        },
+        {
+            "@type": "group",
+            "name": "2",
+            "nested": [
+                {
+                    "@type": "item",
+                    "name": "Android/MMKV/mmkv/src/main/java/com/tencent/mmkv/MMKVLogLevel.java"
+                },
+                {
+                    "@type": "item",
+                    "name": "Android/MMKV/mmkv/src/main/java/com/tencent/mmkv/MMKVRecoverStrategic.java"
+                },
+                {
+                    "@type": "item",
+                    "name": "Android/MMKV/mmkv/src/main/java/com/tencent/mmkv/MMKVHandler.java"
+                },
+                {
+                    "@type": "item",
+                    "name": "Android/MMKV/mmkv/src/main/java/com/tencent/mmkv/MMKVContentChangeNotification.java"
+                },
+                {
+                    "@type": "item",
+                    "name": "Android/MMKV/mmkv/src/main/java/com/tencent/mmkv/NativeBuffer.java"
+                }
+            ]
+        },
+        {
+            "@type": "group",
+            "name": "3",
+            "nested": [
+                {
+                    "@type": "item",
+                    "name": "Core/MiniPBCoder.h"
+                },
+                {
+                    "@type": "item",
+                    "name": "Core/MiniPBCoder.cpp"
+                },
+                {
+                    "@type": "item",
+                    "name": "Core/MiniPBCoder_OSX.cpp"
+                },
+                {
+                    "@type": "item",
+                    "name": "Core/MMBuffer.h"
+                },
+                {
+                    "@type": "item",
+                    "name": "Core/MMBuffer.cpp"
+                },
+                {
+                    "@type": "item",
+                    "name": "Core/PBUtility.h"
+                },
+                {
+                    "@type": "item",
+                    "name": "Core/PBUtility.cpp"
+                },
+                {
+                    "@type": "item",
+                    "name": "Core/PBEncodeItem.hpp"
+                },
+                {
+                    "@type": "item",
+                    "name": "Core/KeyValueHolder.h"
+                },
+                {
+                    "@type": "item",
+                    "name": "Core/KeyValueHolder.cpp"
+                }
+            ]
+        },
+        {
+            "@type": "group",
+            "name": "4",
+            "nested": [
+                {
+                    "@type": "item",
+                    "name": "Core/crc32/zlib/zconf.h"
+                },
+                {
+                    "@type": "item",
+                    "name": "Core/crc32/zlib/crc32.h"
+                },
+                {
+                    "@type": "item",
+                    "name": "Core/crc32/zlib/zutil.h"
+                },
+                {
+                    "@type": "item",
+                    "name": "Core/crc32/zlib/crc32.cpp"
+                }
+            ]
+        },
+        {
+            "@type": "group",
+            "name": "5",
+            "nested": [
+                {
+                    "@type": "item",
+                    "name": "Core/MMKVPredef.h"
+                },
+                {
+                    "@type": "item",
+                    "name": "Core/MemoryFile.h"
+                },
+                {
+                    "@type": "item",
+                    "name": "Core/MemoryFile_Win32.cpp"
+                },
+                {
+                    "@type": "item",
+                    "name": "Core/MemoryFile_Android.cpp"
+                },
+                {
+                    "@type": "item",
+                    "name": "Core/MemoryFile_OSX.cpp"
+                },
+                {
+                    "@type": "item",
+                    "name": "Core/MemoryFile_Linux.cpp"
+                },
+                {
+                    "@type": "item",
+                    "name": "Core/MemoryFile.cpp"
+                },
+                {
+                    "@type": "item",
+                    "name": "Core/MMKVLog.h"
+                },
+                {
+                    "@type": "item",
+                    "name": "Core/MMKVLog_Android.cpp"
+                },
+                {
+                    "@type": "item",
+                    "name": "Core/MMKVLog.cpp"
+                }
+            ]
+        },
+        {
+            "@type": "group",
+            "name": "6",
+            "nested": [
+                {
+                    "@type": "item",
+                    "name": "Core/aes/openssl/openssl_md5.h"
+                },
+                {
+                    "@type": "item",
+                    "name": "Core/aes/openssl/openssl_md5_locl.h"
+                },
+                {
+                    "@type": "item",
+                    "name": "Core/aes/openssl/openssl_md5_one.cpp"
+                },
+                {
+                    "@type": "item",
+                    "name": "Core/aes/openssl/openssl_md5_dgst.cpp"
+                },
+                {
+                    "@type": "item",
+                    "name": "Core/aes/openssl/openssl_md32_common.h"
+                },
+                {
+                    "@type": "item",
+                    "name": "Core/aes/openssl/openssl_opensslconf.h"
+                }
+            ]
+        },
+        {
+            "@type": "group",
+            "name": "7",
+            "nested": [
+                {
+                    "@type": "item",
+                    "name": "POSIX/demo/TestInterProcessLock.cpp"
+                },
+                {
+                    "@type": "item",
+                    "name": "POSIX/demo/process.cpp"
+                },
+                {
+                    "@type": "item",
+                    "name": "POSIX/demo/demo.cpp"
+                }
+            ]
+        },
+        {
+            "@type": "group",
+            "name": "8",
+            "nested": [
+                {
+                    "@type": "item",
+                    "name": "Win32/Win32Demo/pch.cpp"
+                },
+                {
+                    "@type": "item",
+                    "name": "Win32/Win32Demo/pch.h"
+                },
+                {
+                    "@type": "item",
+                    "name": "Win32/Win32Demo/Win32Demo.cpp"
+                }
+            ]
+        },
+        {
+            "@type": "group",
+            "name": "9",
+            "nested": [
+                {
+                    "@type": "item",
+                    "name": "Win32/Win32DemoProcess/pch.cpp"
+                },
+                {
+                    "@type": "item",
+                    "name": "Win32/Win32DemoProcess/pch.h"
+                },
+                {
+                    "@type": "item",
+                    "name": "Win32/Win32DemoProcess/Win32DemoProcess.cpp"
+                }
+            ]
+        },
+        {
+            "@type": "group",
+            "name": "10",
+            "nested": [
+                {
+                    "@type": "item",
+                    "name": "Android/MMKV/mmkvdemo/src/main/java/com/tencent/mmkvdemo/FakeInfo.java"
+                },
+                {
+                    "@type": "item",
+                    "name": "Android/MMKV/mmkvdemo/src/main/java/com/tencent/mmkvdemo/TestParcelable.java"
+                },
+                {
+                    "@type": "item",
+                    "name": "Android/MMKV/mmkvdemo/src/main/java/com/tencent/mmkvdemo/Info.java"
+                }
+            ]
+        },
+        {
+            "@type": "group",
+            "name": "11",
+            "nested": [
+                {
+                    "@type": "item",
+                    "name": "Core/MMKVMetaInfo.hpp"
+                },
+                {
+                    "@type": "item",
+                    "name": "Core/MMKV_OSX.cpp"
+                },
+                {
+                    "@type": "item",
+                    "name": "Core/MMKV.h"
+                },
+                {
+                    "@type": "item",
+                    "name": "Core/MMKV_IO.h"
+                },
+                {
+                    "@type": "item",
+                    "name": "Core/MMKV.cpp"
+                },
+                {
+                    "@type": "item",
+                    "name": "Core/MMKV_IO.cpp"
+                },
+                {
+                    "@type": "item",
+                    "name": "Core/MMKV_Android.cpp"
+                }
+            ]
+        },
+        {
+            "@type": "group",
+            "name": "12",
+            "nested": [
+                {
+                    "@type": "item",
+                    "name": "Core/CodedInputData.h"
+                },
+                {
+                    "@type": "item",
+                    "name": "Core/CodedInputData.cpp"
+                },
+                {
+                    "@type": "item",
+                    "name": "Core/CodedInputData_OSX.cpp"
+                },
+                {
+                    "@type": "item",
+                    "name": "Core/CodedInputDataCrypt.h"
+                },
+                {
+                    "@type": "item",
+                    "name": "Core/CodedInputDataCrypt.cpp"
+                },
+                {
+                    "@type": "item",
+                    "name": "Core/CodedInputDataCrypt_OSX.cpp"
+                },
+                {
+                    "@type": "item",
+                    "name": "Core/CodedOutputData.h"
+                },
+                {
+                    "@type": "item",
+                    "name": "Core/CodedOutputData.cpp"
+                }
+            ]
+        },
+        {
+            "@type": "group",
+            "name": "13",
+            "nested": [
+                {
+                    "@type": "item",
+                    "name": "Core/crc32/crc32_armv8.cpp"
+                },
+                {
+                    "@type": "item",
+                    "name": "Core/crc32/Checksum.h"
+                }
+            ]
+        },
+        {
+            "@type": "group",
+            "name": "14",
+            "nested": [
+                {
+                    "@type": "item",
+                    "name": "iOS/MMKV/MMKV/MMKVHandler.h"
+                },
+                {
+                    "@type": "item",
+                    "name": "iOS/MMKV/MMKV/MMKV.h"
+                }
+            ]
+        },
+        {
+            "@type": "group",
+            "name": "15",
+            "nested": [
+                {
+                    "@type": "item",
+                    "name": "iOS/MMKVDemo/WatchApp Extension/NotificationController.h"
+                },
+                {
+                    "@type": "item",
+                    "name": "iOS/MMKVDemo/WatchApp Extension/InterfaceController.h"
+                }
+            ]
+        },
+        {
+            "@type": "group",
+            "name": "16",
+            "nested": [
+                {
+                    "@type": "item",
+                    "name": "Android/MMKV/mmkvdemo/src/main/java/com/tencent/mmkvdemo/MyService_1.java"
+                },
+                {
+                    "@type": "item",
+                    "name": "Android/MMKV/mmkvdemo/src/main/java/com/tencent/mmkvdemo/MyService.java"
+                }
+            ]
+        },
+        {
+            "@type": "group",
+            "name": "17",
+            "nested": [
+                {
+                    "@type": "item",
+                    "name": "Android/MMKV/mmkvdemo/src/main/java/com/tencent/mmkvdemo/BenchMarkBaseService.java"
+                },
+                {
+                    "@type": "item",
+                    "name": "Android/MMKV/mmkvdemo/src/main/java/com/tencent/mmkvdemo/Baseline.java"
+                }
+            ]
+        },
+        {
+            "@type": "group",
+            "name": "18",
+            "nested": [
+                {
+                    "@type": "item",
+                    "name": "POSIX/golang/golang-bridge.h"
+                },
+                {
+                    "@type": "item",
+                    "name": "POSIX/golang/golang-bridge.cpp"
+                }
+            ]
+        },
+        {
+            "@type": "group",
+            "name": "19",
+            "nested": [
+                {
+                    "@type": "item",
+                    "name": "Android/MMKV/mmkv/src/main/cpp/flutter-bridge.cpp"
+                }
+            ]
+        },
+        {
+            "@type": "group",
+            "name": "20",
+            "nested": [
+                {
+                    "@type": "item",
+                    "name": "Android/MMKV/mmkv/src/main/cpp/native-bridge.cpp"
+                }
+            ]
+        },
+        {
+            "@type": "group",
+            "name": "21",
+            "nested": [
+                {
+                    "@type": "item",
+                    "name": "POSIX/Python/libmmkv_python.cpp"
+                }
+            ]
+        },
+        {
+            "@type": "group",
+            "name": "22",
+            "nested": [
+                {
+                    "@type": "item",
+                    "name": "POSIX/demo/UnitTest.cpp"
+                }
+            ]
+        },
+        {
+            "@type": "group",
+            "name": "23",
+            "nested": [
+                {
+                    "@type": "item",
+                    "name": "POSIX/src/libmmkv.cpp"
+                }
+            ]
+        },
+        {
+            "@type": "group",
+            "name": "24",
+            "nested": [
+                {
+                    "@type": "item",
+                    "name": "flutter/ios/Classes/MMKVPlugin.h"
+                }
+            ]
+        },
+        {
+            "@type": "group",
+            "name": "25",
+            "nested": [
+                {
+                    "@type": "item",
+                    "name": "flutter/android/src/main/java/com/tencent/mmkv/MMKVPlugin.java"
+                }
+            ]
+        },
+        {
+            "@type": "group",
+            "name": "26",
+            "nested": [
+                {
+                    "@type": "item",
+                    "name": "flutter/example/ios/Runner/AppDelegate.h"
+                }
+            ]
+        },
+        {
+            "@type": "group",
+            "name": "27",
+            "nested": [
+                {
+                    "@type": "item",
+                    "name": "flutter/example/android/app/src/main/java/com/tencent/mmkv_example/MainActivity.java"
+                }
+            ]
+        },
+        {
+            "@type": "group",
+            "name": "28",
+            "nested": [
+                {
+                    "@type": "item",
+                    "name": "iOS/MMKVDemo/MMKVDemo/ViewController.h"
+                }
+            ]
+        },
+        {
+            "@type": "group",
+            "name": "29",
+            "nested": [
+                {
+                    "@type": "item",
+                    "name": "iOS/MMKVDemo/MMKVDemo/ViewController+TestCaseBad.h"
+                }
+            ]
+        },
+        {
+            "@type": "group",
+            "name": "30",
+            "nested": [
+                {
+                    "@type": "item",
+                    "name": "iOS/MMKVDemo/MMKVDemo/AppDelegate.h"
+                }
+            ]
+        },
+        {
+            "@type": "group",
+            "name": "31",
+            "nested": [
+                {
+                    "@type": "item",
+                    "name": "iOS/MMKVDemo/MMKVDemo/MMKVDemo-Bridging-Header.h"
+                }
+            ]
+        },
+        {
+            "@type": "group",
+            "name": "32",
+            "nested": [
+                {
+                    "@type": "item",
+                    "name": "iOS/MMKVDemo/WatchApp Extension/ExtensionDelegate.h"
+                }
+            ]
+        },
+        {
+            "@type": "group",
+            "name": "33",
+            "nested": [
+                {
+                    "@type": "item",
+                    "name": "iOS/MMKVDemo/MMKVTodayExtensionDemo/TodayViewController.h"
+                }
+            ]
+        },
+        {
+            "@type": "group",
+            "name": "34",
+            "nested": [
+                {
+                    "@type": "item",
+                    "name": "iOS/MMKVDemo/MMKVMacDemo/ViewController.h"
+                }
+            ]
+        },
+        {
+            "@type": "group",
+            "name": "35",
+            "nested": [
+                {
+                    "@type": "item",
+                    "name": "iOS/MMKVDemo/MMKVMacDemo/AppDelegate.h"
+                }
+            ]
+        },
+        {
+            "@type": "group",
+            "name": "36",
+            "nested": [
+                {
+                    "@type": "item",
+                    "name": "Android/MMKV/mmkv/src/main/java/com/tencent/mmkv/MMKVContentProvider.java"
+                }
+            ]
+        },
+        {
+            "@type": "group",
+            "name": "37",
+            "nested": [
+                {
+                    "@type": "item",
+                    "name": "Android/MMKV/mmkv/src/main/java/com/tencent/mmkv/ParcelableMMKV.java"
+                }
+            ]
+        },
+        {
+            "@type": "group",
+            "name": "38",
+            "nested": [
+                {
+                    "@type": "item",
+                    "name": "Android/MMKV/mmkv/src/main/java/com/tencent/mmkv/MMKV.java"
+                }
+            ]
+        },
+        {
+            "@type": "group",
+            "name": "39",
+            "nested": [
+                {
+                    "@type": "item",
+                    "name": "Android/MMKV/mmkv/src/androidTest/java/com/tencent/mmkv/MMKVTest.java"
+                }
+            ]
+        },
+        {
+            "@type": "group",
+            "name": "40",
+            "nested": [
+                {
+                    "@type": "item",
+                    "name": "Android/MMKV/mmkv/src/androidTest/java/com/tencent/mmkv/MMKVTestService.java"
+                }
+            ]
+        },
+        {
+            "@type": "group",
+            "name": "41",
+            "nested": [
+                {
+                    "@type": "item",
+                    "name": "Android/MMKV/mmkvdemo/src/main/java/com/tencent/mmkvdemo/MyApplication.java"
+                }
+            ]
+        },
+        {
+            "@type": "group",
+            "name": "42",
+            "nested": [
+                {
+                    "@type": "item",
+                    "name": "Android/MMKV/mmkvdemo/src/main/java/com/tencent/mmkvdemo/MultiProcessSharedPreferences.java"
+                }
+            ]
+        },
+        {
+            "@type": "group",
+            "name": "43",
+            "nested": [
+                {
+                    "@type": "item",
+                    "name": "Android/MMKV/mmkvdemo/src/main/java/com/tencent/mmkvdemo/MainActivity.java"
+                }
+            ]
+        },
+        {
+            "@type": "group",
+            "name": "44",
+            "nested": [
+                {
+                    "@type": "item",
+                    "name": "Android/MMKV/mmkvdemo/src/main/java/com/tencent/mmkvdemo/SQLiteKV.java"
+                }
+            ]
+        },
+        {
+            "@type": "group",
+            "name": "45",
+            "nested": [
+                {
+                    "@type": "item",
+                    "name": "Core/MMKV_OSX.h"
+                }
+            ]
+        }
+    ]
+}

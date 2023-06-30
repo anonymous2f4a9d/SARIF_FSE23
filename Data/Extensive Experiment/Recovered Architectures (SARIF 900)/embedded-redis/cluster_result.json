@@ -1,0 +1,168 @@
+{
+    "@schemaVersion": "1.0",
+    "name": "clustering",
+    "structure": [
+        {
+            "@type": "group",
+            "name": "0",
+            "nested": [
+                {
+                    "@type": "item",
+                    "name": "src/main/java/redis/embedded/ports/PredefinedPortProvider.java"
+                },
+                {
+                    "@type": "item",
+                    "name": "src/main/java/redis/embedded/ports/EphemeralPortProvider.java"
+                },
+                {
+                    "@type": "item",
+                    "name": "src/main/java/redis/embedded/ports/SequencePortProvider.java"
+                },
+                {
+                    "@type": "item",
+                    "name": "src/test/java/redis/embedded/ports/SequencePortProviderTest.java"
+                },
+                {
+                    "@type": "item",
+                    "name": "src/test/java/redis/embedded/ports/PredefinedPortProviderTest.java"
+                },
+                {
+                    "@type": "item",
+                    "name": "src/main/java/redis/embedded/PortProvider.java"
+                },
+                {
+                    "@type": "item",
+                    "name": "src/test/java/redis/embedded/ports/EphemeralPortProviderTest.java"
+                }
+            ]
+        },
+        {
+            "@type": "group",
+            "name": "1",
+            "nested": [
+                {
+                    "@type": "item",
+                    "name": "src/test/java/redis/embedded/RedisClusterTest.java"
+                },
+                {
+                    "@type": "item",
+                    "name": "src/main/java/redis/embedded/Redis.java"
+                },
+                {
+                    "@type": "item",
+                    "name": "src/main/java/redis/embedded/RedisCluster.java"
+                },
+                {
+                    "@type": "item",
+                    "name": "src/main/java/redis/embedded/util/JedisUtil.java"
+                },
+                {
+                    "@type": "item",
+                    "name": "src/main/java/redis/embedded/util/JarUtil.java"
+                }
+            ]
+        },
+        {
+            "@type": "group",
+            "name": "2",
+            "nested": [
+                {
+                    "@type": "item",
+                    "name": "src/main/java/redis/embedded/AbstractRedisInstance.java"
+                },
+                {
+                    "@type": "item",
+                    "name": "src/main/java/redis/embedded/exceptions/RedisBuildingException.java"
+                },
+                {
+                    "@type": "item",
+                    "name": "src/main/java/redis/embedded/exceptions/EmbeddedRedisException.java"
+                },
+                {
+                    "@type": "item",
+                    "name": "src/main/java/redis/embedded/exceptions/OsDetectionException.java"
+                }
+            ]
+        },
+        {
+            "@type": "group",
+            "name": "3",
+            "nested": [
+                {
+                    "@type": "item",
+                    "name": "src/main/java/redis/embedded/util/OsArchitecture.java"
+                },
+                {
+                    "@type": "item",
+                    "name": "src/main/java/redis/embedded/util/Architecture.java"
+                },
+                {
+                    "@type": "item",
+                    "name": "src/main/java/redis/embedded/util/OSDetector.java"
+                },
+                {
+                    "@type": "item",
+                    "name": "src/main/java/redis/embedded/util/OS.java"
+                }
+            ]
+        },
+        {
+            "@type": "group",
+            "name": "4",
+            "nested": [
+                {
+                    "@type": "item",
+                    "name": "src/main/java/redis/embedded/RedisSentinel.java"
+                },
+                {
+                    "@type": "item",
+                    "name": "src/main/java/redis/embedded/RedisServer.java"
+                },
+                {
+                    "@type": "item",
+                    "name": "src/test/java/redis/embedded/RedisSentinelTest.java"
+                },
+                {
+                    "@type": "item",
+                    "name": "src/test/java/redis/embedded/RedisServerTest.java"
+                }
+            ]
+        },
+        {
+            "@type": "group",
+            "name": "5",
+            "nested": [
+                {
+                    "@type": "item",
+                    "name": "src/test/java/redis/embedded/RedisServerClusterTest.java"
+                },
+                {
+                    "@type": "item",
+                    "name": "src/main/java/redis/embedded/RedisServerBuilder.java"
+                },
+                {
+                    "@type": "item",
+                    "name": "src/main/java/redis/embedded/RedisExecProvider.java"
+                },
+                {
+                    "@type": "item",
+                    "name": "src/test/java/redis/embedded/SpringDataConnectivityTest.java"
+                }
+            ]
+        },
+        {
+            "@type": "group",
+            "name": "6",
+            "nested": [
+                {
+                    "@type": "item",
+                    "name": "src/main/java/redis/embedded/RedisSentinelBuilder.java"
+                },
+                {
+                    "@type": "item",
+                    "name": "src/main/java/redis/embedded/RedisClusterBuilder.java"
+                }
+            ]
+        }
+    ]
+}

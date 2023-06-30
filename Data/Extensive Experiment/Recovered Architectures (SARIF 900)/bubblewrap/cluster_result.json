@@ -1,0 +1,76 @@
+{
+    "@schemaVersion": "1.0",
+    "name": "clustering",
+    "structure": [
+        {
+            "@type": "group",
+            "name": "0",
+            "nested": [
+                {
+                    "@type": "item",
+                    "name": "bind-mount.h"
+                },
+                {
+                    "@type": "item",
+                    "name": "bind-mount.c"
+                },
+                {
+                    "@type": "item",
+                    "name": "network.h"
+                },
+                {
+                    "@type": "item",
+                    "name": "network.c"
+                },
+                {
+                    "@type": "item",
+                    "name": "tests/use-as-subproject/config.h"
+                }
+            ]
+        },
+        {
+            "@type": "group",
+            "name": "1",
+            "nested": [
+                {
+                    "@type": "item",
+                    "name": "bubblewrap.c"
+                }
+            ]
+        },
+        {
+            "@type": "group",
+            "name": "2",
+            "nested": [
+                {
+                    "@type": "item",
+                    "name": "tests/test-utils.c"
+                }
+            ]
+        },
+        {
+            "@type": "group",
+            "name": "3",
+            "nested": [
+                {
+                    "@type": "item",
+                    "name": "tests/try-syscall.c"
+                }
+            ]
+        },
+        {
+            "@type": "group",
+            "name": "4",
+            "nested": [
+                {
+                    "@type": "item",
+                    "name": "utils.h"
+                },
+                {
+                    "@type": "item",
+                    "name": "utils.c"
+                }
+            ]
+        }
+    ]
+}

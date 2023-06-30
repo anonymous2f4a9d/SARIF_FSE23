@@ -1,0 +1,2174 @@
+{
+    "@schemaVersion": "1.0",
+    "name": "clustering",
+    "structure": [
+        {
+            "@type": "group",
+            "name": "0",
+            "nested": [
+                {
+                    "@type": "item",
+                    "name": "src/variables/outbound_data_error.h"
+                },
+                {
+                    "@type": "item",
+                    "name": "src/variables/args_get_names.h"
+                },
+                {
+                    "@type": "item",
+                    "name": "src/variables/server_name.h"
+                },
+                {
+                    "@type": "item",
+                    "name": "src/variables/msc_pcre_limits_exceeded.h"
+                },
+                {
+                    "@type": "item",
+                    "name": "src/variables/files_names.h"
+                },
+                {
+                    "@type": "item",
+                    "name": "src/variables/time_year.h"
+                },
+                {
+                    "@type": "item",
+                    "name": "src/variables/time_year.cc"
+                },
+                {
+                    "@type": "item",
+                    "name": "src/variables/time.h"
+                },
+                {
+                    "@type": "item",
+                    "name": "src/variables/time.cc"
+                },
+                {
+                    "@type": "item",
+                    "name": "src/variables/request_method.h"
+                },
+                {
+                    "@type": "item",
+                    "name": "src/variables/args_combined_size.h"
+                },
+                {
+                    "@type": "item",
+                    "name": "src/variables/time_min.h"
+                },
+                {
+                    "@type": "item",
+                    "name": "src/variables/time_min.cc"
+                },
+                {
+                    "@type": "item",
+                    "name": "src/variables/files.h"
+                },
+                {
+                    "@type": "item",
+                    "name": "src/variables/response_headers_names.h"
+                },
+                {
+                    "@type": "item",
+                    "name": "src/variables/highest_severity.h"
+                },
+                {
+                    "@type": "item",
+                    "name": "src/variables/highest_severity.cc"
+                },
+                {
+                    "@type": "item",
+                    "name": "src/variables/files_tmp_content.h"
+                },
+                {
+                    "@type": "item",
+                    "name": "src/variables/args_post.h"
+                },
+                {
+                    "@type": "item",
+                    "name": "src/variables/response_status.h"
+                },
+                {
+                    "@type": "item",
+                    "name": "src/variables/multipart_file_name.h"
+                },
+                {
+                    "@type": "item",
+                    "name": "src/variables/request_headers_names.h"
+                },
+                {
+                    "@type": "item",
+                    "name": "src/variables/auth_type.h"
+                },
+                {
+                    "@type": "item",
+                    "name": "src/variables/request_file_name.h"
+                },
+                {
+                    "@type": "item",
+                    "name": "src/variables/request_base_name.h"
+                },
+                {
+                    "@type": "item",
+                    "name": "src/variables/request_protocol.h"
+                },
+                {
+                    "@type": "item",
+                    "name": "src/variables/modsec_build.h"
+                },
+                {
+                    "@type": "item",
+                    "name": "src/variables/modsec_build.cc"
+                },
+                {
+                    "@type": "item",
+                    "name": "src/variables/multipart_name.h"
+                },
+                {
+                    "@type": "item",
+                    "name": "src/variables/multipart_data_before.h"
+                },
+                {
+                    "@type": "item",
+                    "name": "src/variables/time_sec.h"
+                },
+                {
+                    "@type": "item",
+                    "name": "src/variables/time_sec.cc"
+                },
+                {
+                    "@type": "item",
+                    "name": "src/variables/args_get.h"
+                },
+                {
+                    "@type": "item",
+                    "name": "src/variables/request_body.h"
+                },
+                {
+                    "@type": "item",
+                    "name": "src/variables/files_combined_size.h"
+                },
+                {
+                    "@type": "item",
+                    "name": "src/variables/geo.h"
+                },
+                {
+                    "@type": "item",
+                    "name": "src/variables/args.h"
+                },
+                {
+                    "@type": "item",
+                    "name": "src/variables/full_request_length.h"
+                },
+                {
+                    "@type": "item",
+                    "name": "src/variables/multipart_data_after.h"
+                },
+                {
+                    "@type": "item",
+                    "name": "src/variables/request_cookies.h"
+                },
+                {
+                    "@type": "item",
+                    "name": "src/variables/time_day.h"
+                },
+                {
+                    "@type": "item",
+                    "name": "src/variables/time_day.cc"
+                },
+                {
+                    "@type": "item",
+                    "name": "src/variables/args_names.h"
+                },
+                {
+                    "@type": "item",
+                    "name": "src/variables/time_mon.h"
+                },
+                {
+                    "@type": "item",
+                    "name": "src/variables/time_mon.cc"
+                },
+                {
+                    "@type": "item",
+                    "name": "src/variables/request_headers.h"
+                },
+                {
+                    "@type": "item",
+                    "name": "src/variables/duration.h"
+                },
+                {
+                    "@type": "item",
+                    "name": "src/variables/duration.cc"
+                },
+                {
+                    "@type": "item",
+                    "name": "src/variables/files_tmp_names.h"
+                },
+                {
+                    "@type": "item",
+                    "name": "src/variables/response_protocol.h"
+                },
+                {
+                    "@type": "item",
+                    "name": "src/variables/remote_user.h"
+                },
+                {
+                    "@type": "item",
+                    "name": "src/variables/remote_user.cc"
+                },
+                {
+                    "@type": "item",
+                    "name": "src/variables/full_request.h"
+                },
+                {
+                    "@type": "item",
+                    "name": "src/variables/matched_vars_names.h"
+                },
+                {
+                    "@type": "item",
+                    "name": "src/variables/multipart_missing_semicolon.h"
+                },
+                {
+                    "@type": "item",
+                    "name": "src/variables/tx.cc"
+                },
+                {
+                    "@type": "item",
+                    "name": "src/variables/query_string.h"
+                },
+                {
+                    "@type": "item",
+                    "name": "src/variables/server_port.h"
+                },
+                {
+                    "@type": "item",
+                    "name": "src/variables/request_uri_raw.h"
+                },
+                {
+                    "@type": "item",
+                    "name": "src/variables/reqbody_processor.h"
+                },
+                {
+                    "@type": "item",
+                    "name": "src/variables/session_id.h"
+                },
+                {
+                    "@type": "item",
+                    "name": "src/variables/path_info.h"
+                },
+                {
+                    "@type": "item",
+                    "name": "src/variables/reqbody_processor_error.h"
+                },
+                {
+                    "@type": "item",
+                    "name": "src/variables/status.h"
+                },
+                {
+                    "@type": "item",
+                    "name": "src/variables/response_body.h"
+                },
+                {
+                    "@type": "item",
+                    "name": "src/variables/request_uri.h"
+                },
+                {
+                    "@type": "item",
+                    "name": "src/variables/args_post_names.h"
+                },
+                {
+                    "@type": "item",
+                    "name": "src/variables/request_cookies_names.h"
+                },
+                {
+                    "@type": "item",
+                    "name": "src/variables/time_hour.h"
+                },
+                {
+                    "@type": "item",
+                    "name": "src/variables/time_hour.cc"
+                },
+                {
+                    "@type": "item",
+                    "name": "src/variables/remote_port.h"
+                },
+                {
+                    "@type": "item",
+                    "name": "src/variables/msc_pcre_error.h"
+                },
+                {
+                    "@type": "item",
+                    "name": "src/variables/remote_host.h"
+                },
+                {
+                    "@type": "item",
+                    "name": "src/variables/response_headers.h"
+                },
+                {
+                    "@type": "item",
+                    "name": "src/variables/multipart_strict_error.h"
+                },
+                {
+                    "@type": "item",
+                    "name": "src/variables/response_content_type.h"
+                },
+                {
+                    "@type": "item",
+                    "name": "src/variables/reqbody_error.h"
+                },
+                {
+                    "@type": "item",
+                    "name": "src/variables/reqbody_processor_error_msg.h"
+                },
+                {
+                    "@type": "item",
+                    "name": "src/variables/reqbody_error_msg.h"
+                },
+                {
+                    "@type": "item",
+                    "name": "src/variables/matched_vars.h"
+                },
+                {
+                    "@type": "item",
+                    "name": "src/variables/unique_id.h"
+                },
+                {
+                    "@type": "item",
+                    "name": "src/variables/env.h"
+                },
+                {
+                    "@type": "item",
+                    "name": "src/variables/env.cc"
+                },
+                {
+                    "@type": "item",
+                    "name": "src/variables/time_epoch.h"
+                },
+                {
+                    "@type": "item",
+                    "name": "src/variables/time_epoch.cc"
+                },
+                {
+                    "@type": "item",
+                    "name": "src/variables/remote_addr.h"
+                },
+                {
+                    "@type": "item",
+                    "name": "src/variables/request_line.h"
+                },
+                {
+                    "@type": "item",
+                    "name": "src/variables/xml.h"
+                },
+                {
+                    "@type": "item",
+                    "name": "src/variables/xml.cc"
+                },
+                {
+                    "@type": "item",
+                    "name": "src/variables/user_id.h"
+                },
+                {
+                    "@type": "item",
+                    "name": "src/variables/server_addr.h"
+                },
+                {
+                    "@type": "item",
+                    "name": "src/variables/matched_var_name.h"
+                },
+                {
+                    "@type": "item",
+                    "name": "src/variables/response_content_length.h"
+                },
+                {
+                    "@type": "item",
+                    "name": "src/variables/multipart_file_limit_exceeded.h"
+                },
+                {
+                    "@type": "item",
+                    "name": "src/variables/matched_var.h"
+                },
+                {
+                    "@type": "item",
+                    "name": "src/variables/time_wday.h"
+                },
+                {
+                    "@type": "item",
+                    "name": "src/variables/time_wday.cc"
+                },
+                {
+                    "@type": "item",
+                    "name": "src/variables/inbound_data_error.h"
+                },
+                {
+                    "@type": "item",
+                    "name": "src/variables/url_encoded_error.h"
+                },
+                {
+                    "@type": "item",
+                    "name": "src/variables/files_sizes.h"
+                },
+                {
+                    "@type": "item",
+                    "name": "src/variables/request_body_length.h"
+                }
+            ]
+        },
+        {
+            "@type": "group",
+            "name": "1",
+            "nested": [
+                {
+                    "@type": "item",
+                    "name": "src/operators/fuzzy_hash.h"
+                },
+                {
+                    "@type": "item",
+                    "name": "src/operators/fuzzy_hash.cc"
+                },
+                {
+                    "@type": "item",
+                    "name": "src/operators/str_match.h"
+                },
+                {
+                    "@type": "item",
+                    "name": "src/operators/str_match.cc"
+                },
+                {
+                    "@type": "item",
+                    "name": "src/operators/operator.h"
+                },
+                {
+                    "@type": "item",
+                    "name": "src/operators/operator.cc"
+                },
+                {
+                    "@type": "item",
+                    "name": "src/operators/rsub.h"
+                },
+                {
+                    "@type": "item",
+                    "name": "src/operators/rsub.cc"
+                },
+                {
+                    "@type": "item",
+                    "name": "src/operators/ip_match_from_file.h"
+                },
+                {
+                    "@type": "item",
+                    "name": "src/operators/ip_match_from_file.cc"
+                },
+                {
+                    "@type": "item",
+                    "name": "src/operators/ip_match_f.cc"
+                },
+                {
+                    "@type": "item",
+                    "name": "src/operators/eq.h"
+                },
+                {
+                    "@type": "item",
+                    "name": "src/operators/eq.cc"
+                },
+                {
+                    "@type": "item",
+                    "name": "src/operators/validate_byte_range.h"
+                },
+                {
+                    "@type": "item",
+                    "name": "src/operators/validate_byte_range.cc"
+                },
+                {
+                    "@type": "item",
+                    "name": "src/operators/lt.h"
+                },
+                {
+                    "@type": "item",
+                    "name": "src/operators/lt.cc"
+                },
+                {
+                    "@type": "item",
+                    "name": "src/operators/ge.h"
+                },
+                {
+                    "@type": "item",
+                    "name": "src/operators/ge.cc"
+                },
+                {
+                    "@type": "item",
+                    "name": "src/operators/unconditional_match.h"
+                },
+                {
+                    "@type": "item",
+                    "name": "src/operators/unconditional_match.cc"
+                },
+                {
+                    "@type": "item",
+                    "name": "src/operators/pm_f.cc"
+                },
+                {
+                    "@type": "item",
+                    "name": "src/operators/ends_with.h"
+                },
+                {
+                    "@type": "item",
+                    "name": "src/operators/ends_with.cc"
+                },
+                {
+                    "@type": "item",
+                    "name": "src/operators/le.h"
+                },
+                {
+                    "@type": "item",
+                    "name": "src/operators/le.cc"
+                },
+                {
+                    "@type": "item",
+                    "name": "src/operators/inspect_file.h"
+                },
+                {
+                    "@type": "item",
+                    "name": "src/operators/inspect_file.cc"
+                },
+                {
+                    "@type": "item",
+                    "name": "src/operators/validate_schema.h"
+                },
+                {
+                    "@type": "item",
+                    "name": "src/operators/validate_schema.cc"
+                },
+                {
+                    "@type": "item",
+                    "name": "src/operators/verify_ssn.h"
+                },
+                {
+                    "@type": "item",
+                    "name": "src/operators/verify_ssn.cc"
+                },
+                {
+                    "@type": "item",
+                    "name": "src/operators/contains_word.h"
+                },
+                {
+                    "@type": "item",
+                    "name": "src/operators/contains_word.cc"
+                },
+                {
+                    "@type": "item",
+                    "name": "src/operators/verify_svnr.h"
+                },
+                {
+                    "@type": "item",
+                    "name": "src/operators/verify_svnr.cc"
+                },
+                {
+                    "@type": "item",
+                    "name": "src/operators/pm_f.h"
+                },
+                {
+                    "@type": "item",
+                    "name": "src/operators/gsblookup.h"
+                },
+                {
+                    "@type": "item",
+                    "name": "src/operators/gsblookup.cc"
+                },
+                {
+                    "@type": "item",
+                    "name": "src/operators/pm.h"
+                },
+                {
+                    "@type": "item",
+                    "name": "src/operators/pm.cc"
+                },
+                {
+                    "@type": "item",
+                    "name": "src/operators/verify_cpf.h"
+                },
+                {
+                    "@type": "item",
+                    "name": "src/operators/verify_cpf.cc"
+                },
+                {
+                    "@type": "item",
+                    "name": "src/operators/validate_dtd.h"
+                },
+                {
+                    "@type": "item",
+                    "name": "src/operators/validate_dtd.cc"
+                },
+                {
+                    "@type": "item",
+                    "name": "src/operators/gt.h"
+                },
+                {
+                    "@type": "item",
+                    "name": "src/operators/gt.cc"
+                },
+                {
+                    "@type": "item",
+                    "name": "src/operators/begins_with.h"
+                },
+                {
+                    "@type": "item",
+                    "name": "src/operators/begins_with.cc"
+                },
+                {
+                    "@type": "item",
+                    "name": "src/operators/validate_utf8_encoding.h"
+                },
+                {
+                    "@type": "item",
+                    "name": "src/operators/validate_utf8_encoding.cc"
+                },
+                {
+                    "@type": "item",
+                    "name": "src/operators/within.h"
+                },
+                {
+                    "@type": "item",
+                    "name": "src/operators/within.cc"
+                },
+                {
+                    "@type": "item",
+                    "name": "src/operators/verify_cc.h"
+                },
+                {
+                    "@type": "item",
+                    "name": "src/operators/verify_cc.cc"
+                },
+                {
+                    "@type": "item",
+                    "name": "src/operators/validate_hash.h"
+                },
+                {
+                    "@type": "item",
+                    "name": "src/operators/validate_hash.cc"
+                },
+                {
+                    "@type": "item",
+                    "name": "src/operators/ip_match.h"
+                },
+                {
+                    "@type": "item",
+                    "name": "src/operators/ip_match.cc"
+                },
+                {
+                    "@type": "item",
+                    "name": "src/operators/detect_sqli.h"
+                },
+                {
+                    "@type": "item",
+                    "name": "src/operators/detect_sqli.cc"
+                },
+                {
+                    "@type": "item",
+                    "name": "src/operators/rbl.h"
+                },
+                {
+                    "@type": "item",
+                    "name": "src/operators/rbl.cc"
+                },
+                {
+                    "@type": "item",
+                    "name": "src/operators/contains.h"
+                },
+                {
+                    "@type": "item",
+                    "name": "src/operators/contains.cc"
+                },
+                {
+                    "@type": "item",
+                    "name": "src/operators/geo_lookup.h"
+                },
+                {
+                    "@type": "item",
+                    "name": "src/operators/geo_lookup.cc"
+                },
+                {
+                    "@type": "item",
+                    "name": "src/operators/rx_global.h"
+                },
+                {
+                    "@type": "item",
+                    "name": "src/operators/rx_global.cc"
+                },
+                {
+                    "@type": "item",
+                    "name": "src/operators/ip_match_f.h"
+                },
+                {
+                    "@type": "item",
+                    "name": "src/operators/detect_xss.h"
+                },
+                {
+                    "@type": "item",
+                    "name": "src/operators/detect_xss.cc"
+                },
+                {
+                    "@type": "item",
+                    "name": "src/operators/str_eq.h"
+                },
+                {
+                    "@type": "item",
+                    "name": "src/operators/str_eq.cc"
+                },
+                {
+                    "@type": "item",
+                    "name": "src/operators/validate_url_encoding.h"
+                },
+                {
+                    "@type": "item",
+                    "name": "src/operators/validate_url_encoding.cc"
+                },
+                {
+                    "@type": "item",
+                    "name": "src/operators/no_match.h"
+                },
+                {
+                    "@type": "item",
+                    "name": "src/operators/no_match.cc"
+                },
+                {
+                    "@type": "item",
+                    "name": "src/operators/pm_from_file.h"
+                },
+                {
+                    "@type": "item",
+                    "name": "src/operators/pm_from_file.cc"
+                },
+                {
+                    "@type": "item",
+                    "name": "src/operators/rx.h"
+                },
+                {
+                    "@type": "item",
+                    "name": "src/operators/rx.cc"
+                }
+            ]
+        },
+        {
+            "@type": "group",
+            "name": "2",
+            "nested": [
+                {
+                    "@type": "item",
+                    "name": "src/actions/transformations/transformation.h"
+                },
+                {
+                    "@type": "item",
+                    "name": "src/actions/transformations/transformation.cc"
+                },
+                {
+                    "@type": "item",
+                    "name": "src/actions/transformations/remove_comments.h"
+                },
+                {
+                    "@type": "item",
+                    "name": "src/actions/transformations/remove_comments.cc"
+                },
+                {
+                    "@type": "item",
+                    "name": "src/actions/transformations/compress_whitespace.h"
+                },
+                {
+                    "@type": "item",
+                    "name": "src/actions/transformations/compress_whitespace.cc"
+                },
+                {
+                    "@type": "item",
+                    "name": "src/actions/transformations/hex_decode.h"
+                },
+                {
+                    "@type": "item",
+                    "name": "src/actions/transformations/hex_decode.cc"
+                },
+                {
+                    "@type": "item",
+                    "name": "src/actions/transformations/js_decode.h"
+                },
+                {
+                    "@type": "item",
+                    "name": "src/actions/transformations/js_decode.cc"
+                },
+                {
+                    "@type": "item",
+                    "name": "src/actions/transformations/trim.h"
+                },
+                {
+                    "@type": "item",
+                    "name": "src/actions/transformations/trim.cc"
+                },
+                {
+                    "@type": "item",
+                    "name": "src/actions/transformations/base64_encode.h"
+                },
+                {
+                    "@type": "item",
+                    "name": "src/actions/transformations/base64_encode.cc"
+                },
+                {
+                    "@type": "item",
+                    "name": "src/actions/transformations/css_decode.h"
+                },
+                {
+                    "@type": "item",
+                    "name": "src/actions/transformations/css_decode.cc"
+                },
+                {
+                    "@type": "item",
+                    "name": "src/actions/transformations/html_entity_decode.h"
+                },
+                {
+                    "@type": "item",
+                    "name": "src/actions/transformations/html_entity_decode.cc"
+                },
+                {
+                    "@type": "item",
+                    "name": "src/actions/transformations/normalise_path.h"
+                },
+                {
+                    "@type": "item",
+                    "name": "src/actions/transformations/normalise_path.cc"
+                },
+                {
+                    "@type": "item",
+                    "name": "src/actions/transformations/sql_hex_decode.h"
+                },
+                {
+                    "@type": "item",
+                    "name": "src/actions/transformations/sql_hex_decode.cc"
+                },
+                {
+                    "@type": "item",
+                    "name": "src/actions/transformations/remove_nulls.h"
+                },
+                {
+                    "@type": "item",
+                    "name": "src/actions/transformations/remove_nulls.cc"
+                },
+                {
+                    "@type": "item",
+                    "name": "src/actions/transformations/remove_whitespace.h"
+                },
+                {
+                    "@type": "item",
+                    "name": "src/actions/transformations/remove_whitespace.cc"
+                },
+                {
+                    "@type": "item",
+                    "name": "src/actions/transformations/url_decode_uni.h"
+                },
+                {
+                    "@type": "item",
+                    "name": "src/actions/transformations/url_decode_uni.cc"
+                },
+                {
+                    "@type": "item",
+                    "name": "src/actions/transformations/base64_decode_ext.h"
+                },
+                {
+                    "@type": "item",
+                    "name": "src/actions/transformations/base64_decode_ext.cc"
+                },
+                {
+                    "@type": "item",
+                    "name": "src/actions/transformations/sha1.h"
+                },
+                {
+                    "@type": "item",
+                    "name": "src/actions/transformations/sha1.cc"
+                },
+                {
+                    "@type": "item",
+                    "name": "src/actions/transformations/none.h"
+                },
+                {
+                    "@type": "item",
+                    "name": "src/actions/transformations/none.cc"
+                },
+                {
+                    "@type": "item",
+                    "name": "src/actions/transformations/base64_decode.h"
+                },
+                {
+                    "@type": "item",
+                    "name": "src/actions/transformations/base64_decode.cc"
+                },
+                {
+                    "@type": "item",
+                    "name": "src/actions/transformations/length.h"
+                },
+                {
+                    "@type": "item",
+                    "name": "src/actions/transformations/length.cc"
+                },
+                {
+                    "@type": "item",
+                    "name": "src/actions/transformations/trim_right.h"
+                },
+                {
+                    "@type": "item",
+                    "name": "src/actions/transformations/trim_right.cc"
+                },
+                {
+                    "@type": "item",
+                    "name": "src/actions/transformations/md5.h"
+                },
+                {
+                    "@type": "item",
+                    "name": "src/actions/transformations/md5.cc"
+                },
+                {
+                    "@type": "item",
+                    "name": "src/actions/transformations/parity_odd_7bit.h"
+                },
+                {
+                    "@type": "item",
+                    "name": "src/actions/transformations/parity_odd_7bit.cc"
+                },
+                {
+                    "@type": "item",
+                    "name": "src/actions/transformations/lower_case.h"
+                },
+                {
+                    "@type": "item",
+                    "name": "src/actions/transformations/lower_case.cc"
+                },
+                {
+                    "@type": "item",
+                    "name": "src/actions/transformations/remove_comments_char.h"
+                },
+                {
+                    "@type": "item",
+                    "name": "src/actions/transformations/remove_comments_char.cc"
+                },
+                {
+                    "@type": "item",
+                    "name": "src/actions/transformations/url_encode.h"
+                },
+                {
+                    "@type": "item",
+                    "name": "src/actions/transformations/url_encode.cc"
+                },
+                {
+                    "@type": "item",
+                    "name": "src/actions/transformations/replace_nulls.h"
+                },
+                {
+                    "@type": "item",
+                    "name": "src/actions/transformations/replace_nulls.cc"
+                },
+                {
+                    "@type": "item",
+                    "name": "src/actions/transformations/trim_left.h"
+                },
+                {
+                    "@type": "item",
+                    "name": "src/actions/transformations/trim_left.cc"
+                },
+                {
+                    "@type": "item",
+                    "name": "src/actions/transformations/parity_zero_7bit.h"
+                },
+                {
+                    "@type": "item",
+                    "name": "src/actions/transformations/parity_zero_7bit.cc"
+                },
+                {
+                    "@type": "item",
+                    "name": "src/actions/transformations/hex_encode.h"
+                },
+                {
+                    "@type": "item",
+                    "name": "src/actions/transformations/hex_encode.cc"
+                },
+                {
+                    "@type": "item",
+                    "name": "src/actions/transformations/cmd_line.h"
+                },
+                {
+                    "@type": "item",
+                    "name": "src/actions/transformations/cmd_line.cc"
+                },
+                {
+                    "@type": "item",
+                    "name": "src/actions/transformations/utf8_to_unicode.h"
+                },
+                {
+                    "@type": "item",
+                    "name": "src/actions/transformations/utf8_to_unicode.cc"
+                },
+                {
+                    "@type": "item",
+                    "name": "src/actions/transformations/normalise_path_win.h"
+                },
+                {
+                    "@type": "item",
+                    "name": "src/actions/transformations/normalise_path_win.cc"
+                },
+                {
+                    "@type": "item",
+                    "name": "src/actions/transformations/url_decode.h"
+                },
+                {
+                    "@type": "item",
+                    "name": "src/actions/transformations/url_decode.cc"
+                },
+                {
+                    "@type": "item",
+                    "name": "src/actions/transformations/replace_comments.h"
+                },
+                {
+                    "@type": "item",
+                    "name": "src/actions/transformations/replace_comments.cc"
+                },
+                {
+                    "@type": "item",
+                    "name": "src/actions/transformations/upper_case.h"
+                },
+                {
+                    "@type": "item",
+                    "name": "src/actions/transformations/upper_case.cc"
+                },
+                {
+                    "@type": "item",
+                    "name": "src/actions/transformations/escape_seq_decode.h"
+                },
+                {
+                    "@type": "item",
+                    "name": "src/actions/transformations/escape_seq_decode.cc"
+                },
+                {
+                    "@type": "item",
+                    "name": "src/actions/transformations/parity_even_7bit.h"
+                },
+                {
+                    "@type": "item",
+                    "name": "src/actions/transformations/parity_even_7bit.cc"
+                }
+            ]
+        },
+        {
+            "@type": "group",
+            "name": "3",
+            "nested": [
+                {
+                    "@type": "item",
+                    "name": "src/collection/backend/lmdb.h"
+                },
+                {
+                    "@type": "item",
+                    "name": "src/audit_log/writer/serial.h"
+                },
+                {
+                    "@type": "item",
+                    "name": "src/audit_log/writer/serial.cc"
+                },
+                {
+                    "@type": "item",
+                    "name": "headers/modsecurity/rule_with_actions.h"
+                },
+                {
+                    "@type": "item",
+                    "name": "src/rule_with_actions.cc"
+                },
+                {
+                    "@type": "item",
+                    "name": "headers/modsecurity/collection/collections.h"
+                },
+                {
+                    "@type": "item",
+                    "name": "src/collection/collections.cc"
+                },
+                {
+                    "@type": "item",
+                    "name": "headers/modsecurity/collection/collection.h"
+                },
+                {
+                    "@type": "item",
+                    "name": "headers/modsecurity/rule_message.h"
+                },
+                {
+                    "@type": "item",
+                    "name": "src/rule_message.cc"
+                },
+                {
+                    "@type": "item",
+                    "name": "headers/modsecurity/rules_set_phases.h"
+                },
+                {
+                    "@type": "item",
+                    "name": "src/rules_set_phases.cc"
+                },
+                {
+                    "@type": "item",
+                    "name": "src/debug_log/debug_log_writer.h"
+                },
+                {
+                    "@type": "item",
+                    "name": "src/debug_log/debug_log_writer.cc"
+                },
+                {
+                    "@type": "item",
+                    "name": "headers/modsecurity/rules_set.h"
+                },
+                {
+                    "@type": "item",
+                    "name": "src/rules_set.cc"
+                },
+                {
+                    "@type": "item",
+                    "name": "headers/modsecurity/rules_exceptions.h"
+                },
+                {
+                    "@type": "item",
+                    "name": "src/rules_exceptions.cc"
+                },
+                {
+                    "@type": "item",
+                    "name": "src/rule_script.h"
+                },
+                {
+                    "@type": "item",
+                    "name": "src/rule_script.cc"
+                },
+                {
+                    "@type": "item",
+                    "name": "headers/modsecurity/debug_log.h"
+                },
+                {
+                    "@type": "item",
+                    "name": "src/debug_log/debug_log.cc"
+                },
+                {
+                    "@type": "item",
+                    "name": "headers/modsecurity/anchored_variable.h"
+                },
+                {
+                    "@type": "item",
+                    "name": "src/anchored_variable.cc"
+                },
+                {
+                    "@type": "item",
+                    "name": "headers/modsecurity/audit_log.h"
+                },
+                {
+                    "@type": "item",
+                    "name": "src/audit_log/audit_log.cc"
+                },
+                {
+                    "@type": "item",
+                    "name": "headers/modsecurity/rule_with_operator.h"
+                },
+                {
+                    "@type": "item",
+                    "name": "src/rule_with_operator.cc"
+                },
+                {
+                    "@type": "item",
+                    "name": "headers/modsecurity/rules.h"
+                },
+                {
+                    "@type": "item",
+                    "name": "headers/modsecurity/rule.h"
+                },
+                {
+                    "@type": "item",
+                    "name": "headers/modsecurity/variable_origin.h"
+                },
+                {
+                    "@type": "item",
+                    "name": "src/audit_log/writer/writer.h"
+                },
+                {
+                    "@type": "item",
+                    "name": "src/audit_log/writer/writer.cc"
+                },
+                {
+                    "@type": "item",
+                    "name": "src/unique_id.h"
+                },
+                {
+                    "@type": "item",
+                    "name": "src/unique_id.cc"
+                },
+                {
+                    "@type": "item",
+                    "name": "src/audit_log/writer/parallel.h"
+                },
+                {
+                    "@type": "item",
+                    "name": "src/audit_log/writer/parallel.cc"
+                },
+                {
+                    "@type": "item",
+                    "name": "src/collection/backend/lmdb.cc"
+                },
+                {
+                    "@type": "item",
+                    "name": "headers/modsecurity/actions/action.h"
+                },
+                {
+                    "@type": "item",
+                    "name": "src/actions/action.cc"
+                },
+                {
+                    "@type": "item",
+                    "name": "headers/modsecurity/rule_marker.h"
+                },
+                {
+                    "@type": "item",
+                    "name": "headers/modsecurity/anchored_set_variable_translation_proxy.h"
+                },
+                {
+                    "@type": "item",
+                    "name": "src/audit_log/writer/https.h"
+                },
+                {
+                    "@type": "item",
+                    "name": "src/audit_log/writer/https.cc"
+                },
+                {
+                    "@type": "item",
+                    "name": "headers/modsecurity/rule_unconditional.h"
+                },
+                {
+                    "@type": "item",
+                    "name": "src/rule_unconditional.cc"
+                },
+                {
+                    "@type": "item",
+                    "name": "headers/modsecurity/intervention.h"
+                },
+                {
+                    "@type": "item",
+                    "name": "headers/modsecurity/transaction.h"
+                },
+                {
+                    "@type": "item",
+                    "name": "src/transaction.cc"
+                },
+                {
+                    "@type": "item",
+                    "name": "headers/modsecurity/variable_value.h"
+                },
+                {
+                    "@type": "item",
+                    "name": "headers/modsecurity/modsecurity.h"
+                },
+                {
+                    "@type": "item",
+                    "name": "src/modsecurity.cc"
+                },
+                {
+                    "@type": "item",
+                    "name": "headers/modsecurity/anchored_set_variable.h"
+                },
+                {
+                    "@type": "item",
+                    "name": "src/anchored_set_variable.cc"
+                },
+                {
+                    "@type": "item",
+                    "name": "headers/modsecurity/rules_set_properties.h"
+                },
+                {
+                    "@type": "item",
+                    "name": "src/rules_set_properties.cc"
+                },
+                {
+                    "@type": "item",
+                    "name": "src/collection/backend/in_memory-per_process.h"
+                },
+                {
+                    "@type": "item",
+                    "name": "src/collection/backend/in_memory-per_process.cc"
+                }
+            ]
+        },
+        {
+            "@type": "group",
+            "name": "4",
+            "nested": [
+                {
+                    "@type": "item",
+                    "name": "src/actions/log.h"
+                },
+                {
+                    "@type": "item",
+                    "name": "src/actions/log.cc"
+                },
+                {
+                    "@type": "item",
+                    "name": "src/actions/capture.h"
+                },
+                {
+                    "@type": "item",
+                    "name": "src/actions/capture.cc"
+                },
+                {
+                    "@type": "item",
+                    "name": "src/actions/tag.h"
+                },
+                {
+                    "@type": "item",
+                    "name": "src/actions/tag.cc"
+                },
+                {
+                    "@type": "item",
+                    "name": "src/actions/init_col.h"
+                },
+                {
+                    "@type": "item",
+                    "name": "src/actions/init_col.cc"
+                },
+                {
+                    "@type": "item",
+                    "name": "src/actions/chain.h"
+                },
+                {
+                    "@type": "item",
+                    "name": "src/actions/chain.cc"
+                },
+                {
+                    "@type": "item",
+                    "name": "src/actions/ver.h"
+                },
+                {
+                    "@type": "item",
+                    "name": "src/actions/ver.cc"
+                },
+                {
+                    "@type": "item",
+                    "name": "src/actions/phase.h"
+                },
+                {
+                    "@type": "item",
+                    "name": "src/actions/phase.cc"
+                },
+                {
+                    "@type": "item",
+                    "name": "src/actions/set_var.h"
+                },
+                {
+                    "@type": "item",
+                    "name": "src/actions/set_var.cc"
+                },
+                {
+                    "@type": "item",
+                    "name": "src/actions/no_audit_log.h"
+                },
+                {
+                    "@type": "item",
+                    "name": "src/actions/no_audit_log.cc"
+                },
+                {
+                    "@type": "item",
+                    "name": "src/actions/skip.h"
+                },
+                {
+                    "@type": "item",
+                    "name": "src/actions/skip.cc"
+                },
+                {
+                    "@type": "item",
+                    "name": "src/actions/log_data.h"
+                },
+                {
+                    "@type": "item",
+                    "name": "src/actions/log_data.cc"
+                },
+                {
+                    "@type": "item",
+                    "name": "src/actions/set_sid.h"
+                },
+                {
+                    "@type": "item",
+                    "name": "src/actions/set_sid.cc"
+                },
+                {
+                    "@type": "item",
+                    "name": "src/actions/audit_log.h"
+                },
+                {
+                    "@type": "item",
+                    "name": "src/actions/audit_log.cc"
+                },
+                {
+                    "@type": "item",
+                    "name": "src/actions/set_uid.h"
+                },
+                {
+                    "@type": "item",
+                    "name": "src/actions/set_uid.cc"
+                },
+                {
+                    "@type": "item",
+                    "name": "src/actions/set_rsc.h"
+                },
+                {
+                    "@type": "item",
+                    "name": "src/actions/set_rsc.cc"
+                },
+                {
+                    "@type": "item",
+                    "name": "src/actions/skip_after.h"
+                },
+                {
+                    "@type": "item",
+                    "name": "src/actions/skip_after.cc"
+                },
+                {
+                    "@type": "item",
+                    "name": "src/actions/maturity.h"
+                },
+                {
+                    "@type": "item",
+                    "name": "src/actions/maturity.cc"
+                },
+                {
+                    "@type": "item",
+                    "name": "src/actions/rev.h"
+                },
+                {
+                    "@type": "item",
+                    "name": "src/actions/rev.cc"
+                },
+                {
+                    "@type": "item",
+                    "name": "src/actions/msg.h"
+                },
+                {
+                    "@type": "item",
+                    "name": "src/actions/msg.cc"
+                },
+                {
+                    "@type": "item",
+                    "name": "src/actions/exec.h"
+                },
+                {
+                    "@type": "item",
+                    "name": "src/actions/exec.cc"
+                },
+                {
+                    "@type": "item",
+                    "name": "src/actions/block.h"
+                },
+                {
+                    "@type": "item",
+                    "name": "src/actions/block.cc"
+                },
+                {
+                    "@type": "item",
+                    "name": "src/actions/xmlns.h"
+                },
+                {
+                    "@type": "item",
+                    "name": "src/actions/xmlns.cc"
+                },
+                {
+                    "@type": "item",
+                    "name": "src/actions/severity.h"
+                },
+                {
+                    "@type": "item",
+                    "name": "src/actions/severity.cc"
+                },
+                {
+                    "@type": "item",
+                    "name": "src/actions/rule_id.h"
+                },
+                {
+                    "@type": "item",
+                    "name": "src/actions/rule_id.cc"
+                },
+                {
+                    "@type": "item",
+                    "name": "src/actions/no_log.h"
+                },
+                {
+                    "@type": "item",
+                    "name": "src/actions/no_log.cc"
+                },
+                {
+                    "@type": "item",
+                    "name": "src/actions/set_env.h"
+                },
+                {
+                    "@type": "item",
+                    "name": "src/actions/set_env.cc"
+                },
+                {
+                    "@type": "item",
+                    "name": "src/actions/multi_match.h"
+                },
+                {
+                    "@type": "item",
+                    "name": "src/actions/multi_match.cc"
+                },
+                {
+                    "@type": "item",
+                    "name": "src/actions/accuracy.h"
+                },
+                {
+                    "@type": "item",
+                    "name": "src/actions/accuracy.cc"
+                }
+            ]
+        },
+        {
+            "@type": "group",
+            "name": "5",
+            "nested": [
+                {
+                    "@type": "item",
+                    "name": "src/utils/https_client.h"
+                },
+                {
+                    "@type": "item",
+                    "name": "src/utils/https_client.cc"
+                },
+                {
+                    "@type": "item",
+                    "name": "src/utils/base64.h"
+                },
+                {
+                    "@type": "item",
+                    "name": "src/utils/base64.cc"
+                },
+                {
+                    "@type": "item",
+                    "name": "src/utils/regex.h"
+                },
+                {
+                    "@type": "item",
+                    "name": "src/utils/regex.cc"
+                },
+                {
+                    "@type": "item",
+                    "name": "src/utils/random.h"
+                },
+                {
+                    "@type": "item",
+                    "name": "src/utils/geo_lookup.h"
+                },
+                {
+                    "@type": "item",
+                    "name": "src/utils/geo_lookup.cc"
+                },
+                {
+                    "@type": "item",
+                    "name": "src/utils/system.h"
+                },
+                {
+                    "@type": "item",
+                    "name": "src/utils/system.cc"
+                },
+                {
+                    "@type": "item",
+                    "name": "src/utils/acmp.h"
+                },
+                {
+                    "@type": "item",
+                    "name": "src/utils/acmp.cc"
+                },
+                {
+                    "@type": "item",
+                    "name": "src/utils/shared_files.h"
+                },
+                {
+                    "@type": "item",
+                    "name": "src/utils/shared_files.cc"
+                },
+                {
+                    "@type": "item",
+                    "name": "src/utils/ip_tree.h"
+                },
+                {
+                    "@type": "item",
+                    "name": "src/utils/ip_tree.cc"
+                },
+                {
+                    "@type": "item",
+                    "name": "src/utils/random.cc"
+                },
+                {
+                    "@type": "item",
+                    "name": "src/utils/sha1.h"
+                },
+                {
+                    "@type": "item",
+                    "name": "src/utils/sha1.cc"
+                },
+                {
+                    "@type": "item",
+                    "name": "src/utils/msc_tree.h"
+                },
+                {
+                    "@type": "item",
+                    "name": "src/utils/msc_tree.cc"
+                },
+                {
+                    "@type": "item",
+                    "name": "src/utils/md5.h"
+                },
+                {
+                    "@type": "item",
+                    "name": "src/utils/md5.cc"
+                },
+                {
+                    "@type": "item",
+                    "name": "src/utils/decode.h"
+                },
+                {
+                    "@type": "item",
+                    "name": "src/utils/decode.cc"
+                },
+                {
+                    "@type": "item",
+                    "name": "src/utils/phase.h"
+                },
+                {
+                    "@type": "item",
+                    "name": "src/utils/string.h"
+                },
+                {
+                    "@type": "item",
+                    "name": "src/utils/string.cc"
+                }
+            ]
+        },
+        {
+            "@type": "group",
+            "name": "6",
+            "nested": [
+                {
+                    "@type": "item",
+                    "name": "src/actions/ctl/rule_remove_by_tag.h"
+                },
+                {
+                    "@type": "item",
+                    "name": "src/actions/ctl/rule_remove_by_tag.cc"
+                },
+                {
+                    "@type": "item",
+                    "name": "src/actions/ctl/rule_remove_by_id.h"
+                },
+                {
+                    "@type": "item",
+                    "name": "src/actions/ctl/rule_remove_by_id.cc"
+                },
+                {
+                    "@type": "item",
+                    "name": "src/actions/ctl/request_body_processor_urlencoded.h"
+                },
+                {
+                    "@type": "item",
+                    "name": "src/actions/ctl/request_body_processor_urlencoded.cc"
+                },
+                {
+                    "@type": "item",
+                    "name": "src/actions/ctl/request_body_processor_xml.h"
+                },
+                {
+                    "@type": "item",
+                    "name": "src/actions/ctl/request_body_processor_xml.cc"
+                },
+                {
+                    "@type": "item",
+                    "name": "src/actions/ctl/rule_engine.h"
+                },
+                {
+                    "@type": "item",
+                    "name": "src/actions/ctl/rule_engine.cc"
+                },
+                {
+                    "@type": "item",
+                    "name": "src/actions/ctl/rule_remove_target_by_id.h"
+                },
+                {
+                    "@type": "item",
+                    "name": "src/actions/ctl/rule_remove_target_by_id.cc"
+                },
+                {
+                    "@type": "item",
+                    "name": "src/actions/ctl/rule_remove_target_by_tag.h"
+                },
+                {
+                    "@type": "item",
+                    "name": "src/actions/ctl/rule_remove_target_by_tag.cc"
+                },
+                {
+                    "@type": "item",
+                    "name": "src/actions/ctl/request_body_access.h"
+                },
+                {
+                    "@type": "item",
+                    "name": "src/actions/ctl/request_body_access.cc"
+                },
+                {
+                    "@type": "item",
+                    "name": "src/actions/ctl/audit_log_parts.h"
+                },
+                {
+                    "@type": "item",
+                    "name": "src/actions/ctl/audit_log_parts.cc"
+                },
+                {
+                    "@type": "item",
+                    "name": "src/actions/ctl/request_body_processor_json.h"
+                },
+                {
+                    "@type": "item",
+                    "name": "src/actions/ctl/request_body_processor_json.cc"
+                },
+                {
+                    "@type": "item",
+                    "name": "src/actions/ctl/audit_engine.h"
+                },
+                {
+                    "@type": "item",
+                    "name": "src/actions/ctl/audit_engine.cc"
+                }
+            ]
+        },
+        {
+            "@type": "group",
+            "name": "7",
+            "nested": [
+                {
+                    "@type": "item",
+                    "name": "src/variables/multipart_part_headers.h"
+                },
+                {
+                    "@type": "item",
+                    "name": "src/variables/multipart_header_folding.h"
+                },
+                {
+                    "@type": "item",
+                    "name": "src/variables/multipart_boundary_quoted.h"
+                },
+                {
+                    "@type": "item",
+                    "name": "src/variables/multipart_boundary_whitespace.h"
+                },
+                {
+                    "@type": "item",
+                    "name": "src/variables/multipart_lf_line.h"
+                },
+                {
+                    "@type": "item",
+                    "name": "src/variables/multipart_invalid_header_folding.h"
+                },
+                {
+                    "@type": "item",
+                    "name": "src/variables/multipart_crlf_lf_lines.h"
+                },
+                {
+                    "@type": "item",
+                    "name": "src/variables/multipart_unmatched_boundary.h"
+                },
+                {
+                    "@type": "item",
+                    "name": "src/variables/multipart_invalid_quoting.h"
+                },
+                {
+                    "@type": "item",
+                    "name": "src/variables/multipart_invalid_part.h"
+                }
+            ]
+        },
+        {
+            "@type": "group",
+            "name": "8",
+            "nested": [
+                {
+                    "@type": "item",
+                    "name": "src/variables/resource.h"
+                },
+                {
+                    "@type": "item",
+                    "name": "src/variables/user.h"
+                },
+                {
+                    "@type": "item",
+                    "name": "src/variables/web_app_id.h"
+                },
+                {
+                    "@type": "item",
+                    "name": "src/variables/variable.h"
+                },
+                {
+                    "@type": "item",
+                    "name": "src/variables/variable.cc"
+                },
+                {
+                    "@type": "item",
+                    "name": "src/variables/ip.h"
+                },
+                {
+                    "@type": "item",
+                    "name": "src/variables/session.h"
+                },
+                {
+                    "@type": "item",
+                    "name": "src/variables/tx.h"
+                },
+                {
+                    "@type": "item",
+                    "name": "src/variables/rule.cc"
+                },
+                {
+                    "@type": "item",
+                    "name": "src/variables/global.h"
+                },
+                {
+                    "@type": "item",
+                    "name": "src/variables/rule.h"
+                }
+            ]
+        },
+        {
+            "@type": "group",
+            "name": "9",
+            "nested": [
+                {
+                    "@type": "item",
+                    "name": "test/unit/unit_test.h"
+                },
+                {
+                    "@type": "item",
+                    "name": "test/unit/unit_test.cc"
+                },
+                {
+                    "@type": "item",
+                    "name": "test/common/modsecurity_test.cc"
+                },
+                {
+                    "@type": "item",
+                    "name": "test/common/colors.h"
+                },
+                {
+                    "@type": "item",
+                    "name": "test/regression/custom_debug_log.h"
+                },
+                {
+                    "@type": "item",
+                    "name": "test/regression/custom_debug_log.cc"
+                },
+                {
+                    "@type": "item",
+                    "name": "test/regression/regression.cc"
+                },
+                {
+                    "@type": "item",
+                    "name": "test/fuzzer/afl_fuzzer.cc"
+                },
+                {
+                    "@type": "item",
+                    "name": "test/optimization/optimization.cc"
+                },
+                {
+                    "@type": "item",
+                    "name": "test/regression/regression_test.h"
+                },
+                {
+                    "@type": "item",
+                    "name": "test/regression/regression_test.cc"
+                },
+                {
+                    "@type": "item",
+                    "name": "test/common/modsecurity_test_results.h"
+                },
+                {
+                    "@type": "item",
+                    "name": "test/common/modsecurity_test.h"
+                },
+                {
+                    "@type": "item",
+                    "name": "test/unit/unit.cc"
+                }
+            ]
+        },
+        {
+            "@type": "group",
+            "name": "10",
+            "nested": [
+                {
+                    "@type": "item",
+                    "name": "others/mbedtls/base64.h"
+                },
+                {
+                    "@type": "item",
+                    "name": "others/mbedtls/check_config.h"
+                },
+                {
+                    "@type": "item",
+                    "name": "others/mbedtls/base64.c"
+                },
+                {
+                    "@type": "item",
+                    "name": "others/mbedtls/md5.c"
+                },
+                {
+                    "@type": "item",
+                    "name": "others/mbedtls/platform.h"
+                },
+                {
+                    "@type": "item",
+                    "name": "others/mbedtls/md5.h"
+                },
+                {
+                    "@type": "item",
+                    "name": "others/mbedtls/sha1.h"
+                },
+                {
+                    "@type": "item",
+                    "name": "others/mbedtls/sha1.c"
+                }
+            ]
+        },
+        {
+            "@type": "group",
+            "name": "11",
+            "nested": [
+                {
+                    "@type": "item",
+                    "name": "examples/simple_example_using_c/test.c"
+                },
+                {
+                    "@type": "item",
+                    "name": "examples/reading_logs_with_offset/read.cc"
+                },
+                {
+                    "@type": "item",
+                    "name": "examples/reading_logs_via_rule_message/simple_request.cc"
+                },
+                {
+                    "@type": "item",
+                    "name": "examples/multiprocess_c/multi.c"
+                },
+                {
+                    "@type": "item",
+                    "name": "examples/reading_logs_via_rule_message/reading_logs_via_rule_message.h"
+                },
+                {
+                    "@type": "item",
+                    "name": "examples/using_bodies_in_chunks/simple_request.cc"
+                }
+            ]
+        },
+        {
+            "@type": "group",
+            "name": "12",
+            "nested": [
+                {
+                    "@type": "item",
+                    "name": "src/actions/disruptive/drop.h"
+                },
+                {
+                    "@type": "item",
+                    "name": "src/actions/disruptive/drop.cc"
+                },
+                {
+                    "@type": "item",
+                    "name": "src/actions/disruptive/pass.h"
+                },
+                {
+                    "@type": "item",
+                    "name": "src/actions/disruptive/pass.cc"
+                },
+                {
+                    "@type": "item",
+                    "name": "src/actions/disruptive/allow.h"
+                },
+                {
+                    "@type": "item",
+                    "name": "src/actions/disruptive/allow.cc"
+                },
+                {
+                    "@type": "item",
+                    "name": "src/actions/disruptive/redirect.h"
+                },
+                {
+                    "@type": "item",
+                    "name": "src/actions/disruptive/redirect.cc"
+                },
+                {
+                    "@type": "item",
+                    "name": "src/actions/disruptive/deny.h"
+                },
+                {
+                    "@type": "item",
+                    "name": "src/actions/disruptive/deny.cc"
+                }
+            ]
+        },
+        {
+            "@type": "group",
+            "name": "13",
+            "nested": [
+                {
+                    "@type": "item",
+                    "name": "src/parser/driver.h"
+                },
+                {
+                    "@type": "item",
+                    "name": "src/parser/seclang-scanner.cc"
+                },
+                {
+                    "@type": "item",
+                    "name": "src/parser/seclang-parser.cc"
+                },
+                {
+                    "@type": "item",
+                    "name": "src/parser/driver.cc"
+                }
+            ]
+        },
+        {
+            "@type": "group",
+            "name": "14",
+            "nested": [
+                {
+                    "@type": "item",
+                    "name": "src/request_body_processor/json.cc"
+                },
+                {
+                    "@type": "item",
+                    "name": "src/request_body_processor/json.h"
+                }
+            ]
+        },
+        {
+            "@type": "group",
+            "name": "15",
+            "nested": [
+                {
+                    "@type": "item",
+                    "name": "src/debug_log_writer_agent.h"
+                }
+            ]
+        },
+        {
+            "@type": "group",
+            "name": "16",
+            "nested": [
+                {
+                    "@type": "item",
+                    "name": "src/rule.cc"
+                }
+            ]
+        },
+        {
+            "@type": "group",
+            "name": "17",
+            "nested": [
+                {
+                    "@type": "item",
+                    "name": "test/benchmark/benchmark.cc"
+                }
+            ]
+        },
+        {
+            "@type": "group",
+            "name": "18",
+            "nested": [
+                {
+                    "@type": "item",
+                    "name": "tools/rules-check/rules-check.cc"
+                }
+            ]
+        },
+        {
+            "@type": "group",
+            "name": "19",
+            "nested": [
+                {
+                    "@type": "item",
+                    "name": "others/mbedtls/mbed-tls-config.h"
+                }
+            ]
+        },
+        {
+            "@type": "group",
+            "name": "20",
+            "nested": [
+                {
+                    "@type": "item",
+                    "name": "headers/modsecurity/rules_properties.h"
+                }
+            ]
+        },
+        {
+            "@type": "group",
+            "name": "21",
+            "nested": [
+                {
+                    "@type": "item",
+                    "name": "src/run_time_string.h"
+                },
+                {
+                    "@type": "item",
+                    "name": "src/run_time_string.cc"
+                }
+            ]
+        },
+        {
+            "@type": "group",
+            "name": "22",
+            "nested": [
+                {
+                    "@type": "item",
+                    "name": "src/engine/lua.h"
+                },
+                {
+                    "@type": "item",
+                    "name": "src/engine/lua.cc"
+                }
+            ]
+        },
+        {
+            "@type": "group",
+            "name": "23",
+            "nested": [
+                {
+                    "@type": "item",
+                    "name": "src/request_body_processor/xml.h"
+                },
+                {
+                    "@type": "item",
+                    "name": "src/request_body_processor/xml.cc"
+                }
+            ]
+        },
+        {
+            "@type": "group",
+            "name": "24",
+            "nested": [
+                {
+                    "@type": "item",
+                    "name": "src/request_body_processor/multipart.h"
+                },
+                {
+                    "@type": "item",
+                    "name": "src/request_body_processor/multipart.cc"
+                }
+            ]
+        },
+        {
+            "@type": "group",
+            "name": "25",
+            "nested": [
+                {
+                    "@type": "item",
+                    "name": "src/actions/data/status.h"
+                },
+                {
+                    "@type": "item",
+                    "name": "src/actions/data/status.cc"
+                }
+            ]
+        }
+    ]
+}

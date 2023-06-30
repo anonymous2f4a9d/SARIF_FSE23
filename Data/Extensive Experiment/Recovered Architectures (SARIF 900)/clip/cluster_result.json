@@ -1,0 +1,862 @@
+{
+    "@schemaVersion": "1.0",
+    "name": "clustering",
+    "structure": [
+        {
+            "@type": "group",
+            "name": "0",
+            "nested": [
+                {
+                    "@type": "item",
+                    "name": "src/utils/wallclock.h"
+                },
+                {
+                    "@type": "item",
+                    "name": "src/utils/wallclock.cc"
+                },
+                {
+                    "@type": "item",
+                    "name": "src/utils/CivilTime_impl.h"
+                },
+                {
+                    "@type": "item",
+                    "name": "src/utils/ISO8601.h"
+                },
+                {
+                    "@type": "item",
+                    "name": "src/utils/duration.h"
+                },
+                {
+                    "@type": "item",
+                    "name": "src/utils/duration.cc"
+                },
+                {
+                    "@type": "item",
+                    "name": "src/utils/option_impl.h"
+                },
+                {
+                    "@type": "item",
+                    "name": "src/utils/exception.h"
+                },
+                {
+                    "@type": "item",
+                    "name": "src/utils/exception.cc"
+                },
+                {
+                    "@type": "item",
+                    "name": "src/utils/buffer.h"
+                },
+                {
+                    "@type": "item",
+                    "name": "src/utils/buffer.cc"
+                },
+                {
+                    "@type": "item",
+                    "name": "src/utils/option.h"
+                },
+                {
+                    "@type": "item",
+                    "name": "src/utils/UnixTime_impl.h"
+                },
+                {
+                    "@type": "item",
+                    "name": "src/utils/algo_impl.h"
+                },
+                {
+                    "@type": "item",
+                    "name": "src/utils/file.h"
+                },
+                {
+                    "@type": "item",
+                    "name": "src/utils/file.cc"
+                },
+                {
+                    "@type": "item",
+                    "name": "src/utils/stringutil_impl.h"
+                },
+                {
+                    "@type": "item",
+                    "name": "src/utils/random.h"
+                },
+                {
+                    "@type": "item",
+                    "name": "src/utils/random.cc"
+                },
+                {
+                    "@type": "item",
+                    "name": "src/utils/UTF8.h"
+                },
+                {
+                    "@type": "item",
+                    "name": "src/utils/UTF8.cc"
+                },
+                {
+                    "@type": "item",
+                    "name": "src/utils/stringutil.h"
+                },
+                {
+                    "@type": "item",
+                    "name": "src/utils/stringutil.cc"
+                },
+                {
+                    "@type": "item",
+                    "name": "src/utils/CivilTime.h"
+                },
+                {
+                    "@type": "item",
+                    "name": "src/utils/CivilTime.cc"
+                },
+                {
+                    "@type": "item",
+                    "name": "src/utils/algo.h"
+                },
+                {
+                    "@type": "item",
+                    "name": "src/utils/algo.cc"
+                },
+                {
+                    "@type": "item",
+                    "name": "src/utils/ISO8601.cc"
+                },
+                {
+                    "@type": "item",
+                    "name": "src/utils/stdtypes.h"
+                },
+                {
+                    "@type": "item",
+                    "name": "src/utils/fileutil.h"
+                },
+                {
+                    "@type": "item",
+                    "name": "src/utils/fileutil.cc"
+                },
+                {
+                    "@type": "item",
+                    "name": "src/utils/bufferutil.h"
+                },
+                {
+                    "@type": "item",
+                    "name": "src/utils/bufferutil.cc"
+                },
+                {
+                    "@type": "item",
+                    "name": "src/utils/duration_impl.h"
+                },
+                {
+                    "@type": "item",
+                    "name": "src/utils/outputstream.h"
+                },
+                {
+                    "@type": "item",
+                    "name": "src/utils/outputstream.cc"
+                },
+                {
+                    "@type": "item",
+                    "name": "src/utils/time_constants.h"
+                },
+                {
+                    "@type": "item",
+                    "name": "src/utils/UnixTime.h"
+                },
+                {
+                    "@type": "item",
+                    "name": "src/utils/UnixTime.cc"
+                }
+            ]
+        },
+        {
+            "@type": "group",
+            "name": "1",
+            "nested": [
+                {
+                    "@type": "item",
+                    "name": "src/graphics/brush.cc"
+                },
+                {
+                    "@type": "item",
+                    "name": "src/graphics/measure.h"
+                },
+                {
+                    "@type": "item",
+                    "name": "src/graphics/measure.cc"
+                },
+                {
+                    "@type": "item",
+                    "name": "src/graphics/rasterize.h"
+                },
+                {
+                    "@type": "item",
+                    "name": "src/graphics/rasterize.cc"
+                },
+                {
+                    "@type": "item",
+                    "name": "src/graphics/text_layout.h"
+                },
+                {
+                    "@type": "item",
+                    "name": "src/graphics/text_layout.cc"
+                },
+                {
+                    "@type": "item",
+                    "name": "src/graphics/geometry.h"
+                },
+                {
+                    "@type": "item",
+                    "name": "src/graphics/geometry.cc"
+                },
+                {
+                    "@type": "item",
+                    "name": "src/graphics/path.h"
+                },
+                {
+                    "@type": "item",
+                    "name": "src/graphics/path.cc"
+                },
+                {
+                    "@type": "item",
+                    "name": "src/graphics/draw.cc"
+                },
+                {
+                    "@type": "item",
+                    "name": "src/graphics/text_backend_freetype.h"
+                },
+                {
+                    "@type": "item",
+                    "name": "src/graphics/text_backend.h"
+                },
+                {
+                    "@type": "item",
+                    "name": "src/graphics/text_backend.cc"
+                },
+                {
+                    "@type": "item",
+                    "name": "src/graphics/layout.h"
+                },
+                {
+                    "@type": "item",
+                    "name": "src/graphics/layout.cc"
+                },
+                {
+                    "@type": "item",
+                    "name": "src/graphics/draw_cmd.h"
+                },
+                {
+                    "@type": "item",
+                    "name": "src/graphics/export_svg.h"
+                },
+                {
+                    "@type": "item",
+                    "name": "src/graphics/export_svg.cc"
+                },
+                {
+                    "@type": "item",
+                    "name": "src/graphics/shape_hatch.h"
+                },
+                {
+                    "@type": "item",
+                    "name": "src/graphics/shape_hatch.cc"
+                },
+                {
+                    "@type": "item",
+                    "name": "src/graphics/text.h"
+                },
+                {
+                    "@type": "item",
+                    "name": "src/graphics/text.cc"
+                },
+                {
+                    "@type": "item",
+                    "name": "src/graphics/text_support.h"
+                },
+                {
+                    "@type": "item",
+                    "name": "src/graphics/text_support.cc"
+                },
+                {
+                    "@type": "item",
+                    "name": "src/graphics/text_backend_freetype.cc"
+                },
+                {
+                    "@type": "item",
+                    "name": "src/graphics/export_image.h"
+                },
+                {
+                    "@type": "item",
+                    "name": "src/graphics/export_image.cc"
+                },
+                {
+                    "@type": "item",
+                    "name": "src/graphics/draw.h"
+                },
+                {
+                    "@type": "item",
+                    "name": "src/graphics/draw_cmd.cc"
+                },
+                {
+                    "@type": "item",
+                    "name": "src/graphics/text_shaper.h"
+                },
+                {
+                    "@type": "item",
+                    "name": "src/graphics/text_shaper.cc"
+                },
+                {
+                    "@type": "item",
+                    "name": "src/graphics/font_lookup.h"
+                },
+                {
+                    "@type": "item",
+                    "name": "src/graphics/font_lookup.cc"
+                },
+                {
+                    "@type": "item",
+                    "name": "src/graphics/brush.h"
+                }
+            ]
+        },
+        {
+            "@type": "group",
+            "name": "2",
+            "nested": [
+                {
+                    "@type": "item",
+                    "name": "src/data.h"
+                },
+                {
+                    "@type": "item",
+                    "name": "src/data.cc"
+                },
+                {
+                    "@type": "item",
+                    "name": "src/sexpr.h"
+                },
+                {
+                    "@type": "item",
+                    "name": "src/sexpr.cc"
+                },
+                {
+                    "@type": "item",
+                    "name": "src/sexpr_conv.h"
+                },
+                {
+                    "@type": "item",
+                    "name": "src/sexpr_conv.cc"
+                },
+                {
+                    "@type": "item",
+                    "name": "src/format.h"
+                },
+                {
+                    "@type": "item",
+                    "name": "src/format.cc"
+                },
+                {
+                    "@type": "item",
+                    "name": "src/marker.h"
+                },
+                {
+                    "@type": "item",
+                    "name": "src/marker.cc"
+                },
+                {
+                    "@type": "item",
+                    "name": "src/sexpr_util.h"
+                },
+                {
+                    "@type": "item",
+                    "name": "src/sexpr_util.cc"
+                },
+                {
+                    "@type": "item",
+                    "name": "src/scale.h"
+                },
+                {
+                    "@type": "item",
+                    "name": "src/scale.cc"
+                },
+                {
+                    "@type": "item",
+                    "name": "src/sexpr_util_impl.h"
+                },
+                {
+                    "@type": "item",
+                    "name": "src/sexpr_parser.h"
+                },
+                {
+                    "@type": "item",
+                    "name": "src/sexpr_parser.cc"
+                },
+                {
+                    "@type": "item",
+                    "name": "src/return_code.h"
+                },
+                {
+                    "@type": "item",
+                    "name": "src/return_code.cc"
+                },
+                {
+                    "@type": "item",
+                    "name": "src/plist_parser.h"
+                },
+                {
+                    "@type": "item",
+                    "name": "src/plist_parser.cc"
+                },
+                {
+                    "@type": "item",
+                    "name": "src/data_impl.h"
+                }
+            ]
+        },
+        {
+            "@type": "group",
+            "name": "3",
+            "nested": [
+                {
+                    "@type": "item",
+                    "name": "src/plot/lines.h"
+                },
+                {
+                    "@type": "item",
+                    "name": "src/plot/lines.cc"
+                },
+                {
+                    "@type": "item",
+                    "name": "src/plot/plotgen.h"
+                },
+                {
+                    "@type": "item",
+                    "name": "src/plot/plotgen.cc"
+                },
+                {
+                    "@type": "item",
+                    "name": "src/plot/rectangles.h"
+                },
+                {
+                    "@type": "item",
+                    "name": "src/plot/rectangles.cc"
+                },
+                {
+                    "@type": "item",
+                    "name": "src/plot/grid.h"
+                },
+                {
+                    "@type": "item",
+                    "name": "src/plot/grid.cc"
+                },
+                {
+                    "@type": "item",
+                    "name": "src/plot/labels.h"
+                },
+                {
+                    "@type": "item",
+                    "name": "src/plot/labels.cc"
+                },
+                {
+                    "@type": "item",
+                    "name": "src/plot/areas.h"
+                },
+                {
+                    "@type": "item",
+                    "name": "src/plot/areas.cc"
+                },
+                {
+                    "@type": "item",
+                    "name": "src/plot/vectors.h"
+                },
+                {
+                    "@type": "item",
+                    "name": "src/plot/vectors.cc"
+                },
+                {
+                    "@type": "item",
+                    "name": "src/plot/bars.h"
+                },
+                {
+                    "@type": "item",
+                    "name": "src/plot/bars.cc"
+                },
+                {
+                    "@type": "item",
+                    "name": "src/plot/points.h"
+                },
+                {
+                    "@type": "item",
+                    "name": "src/plot/points.cc"
+                },
+                {
+                    "@type": "item",
+                    "name": "src/plot/polygons.h"
+                },
+                {
+                    "@type": "item",
+                    "name": "src/plot/polygons.cc"
+                },
+                {
+                    "@type": "item",
+                    "name": "src/plot/axis.h"
+                },
+                {
+                    "@type": "item",
+                    "name": "src/plot/axis.cc"
+                },
+                {
+                    "@type": "item",
+                    "name": "src/plot/errorbars.h"
+                },
+                {
+                    "@type": "item",
+                    "name": "src/plot/errorbars.cc"
+                }
+            ]
+        },
+        {
+            "@type": "group",
+            "name": "4",
+            "nested": [
+                {
+                    "@type": "item",
+                    "name": "test/unit/test_graphics_text_glyph_export.cc"
+                },
+                {
+                    "@type": "item",
+                    "name": "test/unit/test_csv_parser.cc"
+                },
+                {
+                    "@type": "item",
+                    "name": "test/unit/test_sexpr_parser.cc"
+                },
+                {
+                    "@type": "item",
+                    "name": "test/unit/test_graphics_pattern_hatch.cc"
+                },
+                {
+                    "@type": "item",
+                    "name": "test/unit/test_graphics_text_rotate.cc"
+                },
+                {
+                    "@type": "item",
+                    "name": "test/unit/test_graphics_text_align.cc"
+                },
+                {
+                    "@type": "item",
+                    "name": "test/unit/test_graphics_intersect.cc"
+                },
+                {
+                    "@type": "item",
+                    "name": "test/unit/test_graphics_vmath.cc"
+                },
+                {
+                    "@type": "item",
+                    "name": "test/unit/unittest.h"
+                },
+                {
+                    "@type": "item",
+                    "name": "test/unit/test_graphics_box_layout.cc"
+                }
+            ]
+        },
+        {
+            "@type": "group",
+            "name": "5",
+            "nested": [
+                {
+                    "@type": "item",
+                    "name": "src/cli.cc"
+                },
+                {
+                    "@type": "item",
+                    "name": "src/draw.h"
+                },
+                {
+                    "@type": "item",
+                    "name": "src/draw.cc"
+                },
+                {
+                    "@type": "item",
+                    "name": "src/eval.h"
+                },
+                {
+                    "@type": "item",
+                    "name": "src/eval.cc"
+                },
+                {
+                    "@type": "item",
+                    "name": "src/api.h"
+                },
+                {
+                    "@type": "item",
+                    "name": "src/api.cc"
+                },
+                {
+                    "@type": "item",
+                    "name": "src/color_reader.h"
+                },
+                {
+                    "@type": "item",
+                    "name": "src/color_reader.cc"
+                },
+                {
+                    "@type": "item",
+                    "name": "src/color_map.h"
+                },
+                {
+                    "@type": "item",
+                    "name": "src/color_map.cc"
+                },
+                {
+                    "@type": "item",
+                    "name": "src/color_palette.h"
+                },
+                {
+                    "@type": "item",
+                    "name": "src/color_palette.cc"
+                },
+                {
+                    "@type": "item",
+                    "name": "src/context.h"
+                },
+                {
+                    "@type": "item",
+                    "name": "src/context.cc"
+                }
+            ]
+        },
+        {
+            "@type": "group",
+            "name": "6",
+            "nested": [
+                {
+                    "@type": "item",
+                    "name": "src/style_util.h"
+                },
+                {
+                    "@type": "item",
+                    "name": "src/style_util.cc"
+                },
+                {
+                    "@type": "item",
+                    "name": "src/style_reader.h"
+                },
+                {
+                    "@type": "item",
+                    "name": "src/style_reader.cc"
+                },
+                {
+                    "@type": "item",
+                    "name": "src/typographic_reader.h"
+                },
+                {
+                    "@type": "item",
+                    "name": "src/typographic_reader.cc"
+                },
+                {
+                    "@type": "item",
+                    "name": "src/typographic_map.h"
+                },
+                {
+                    "@type": "item",
+                    "name": "src/typographic_map.cc"
+                },
+                {
+                    "@type": "item",
+                    "name": "src/layer.h"
+                },
+                {
+                    "@type": "item",
+                    "name": "src/layer.cc"
+                },
+                {
+                    "@type": "item",
+                    "name": "src/sexpr_conv_impl.h"
+                },
+                {
+                    "@type": "item",
+                    "name": "src/style.h"
+                },
+                {
+                    "@type": "item",
+                    "name": "src/style.cc"
+                },
+                {
+                    "@type": "item",
+                    "name": "src/units.h"
+                },
+                {
+                    "@type": "item",
+                    "name": "src/units.cc"
+                }
+            ]
+        },
+        {
+            "@type": "group",
+            "name": "7",
+            "nested": [
+                {
+                    "@type": "item",
+                    "name": "src/arrows.h"
+                },
+                {
+                    "@type": "item",
+                    "name": "src/arrows.cc"
+                },
+                {
+                    "@type": "item",
+                    "name": "src/vmath.h"
+                },
+                {
+                    "@type": "item",
+                    "name": "src/graphics/polygon.h"
+                },
+                {
+                    "@type": "item",
+                    "name": "src/vmath.cc"
+                },
+                {
+                    "@type": "item",
+                    "name": "src/graphics/intersect.h"
+                },
+                {
+                    "@type": "item",
+                    "name": "src/graphics/intersect.cc"
+                },
+                {
+                    "@type": "item",
+                    "name": "src/layout.h"
+                }
+            ]
+        },
+        {
+            "@type": "group",
+            "name": "8",
+            "nested": [
+                {
+                    "@type": "item",
+                    "name": "src/graphics/png.h"
+                },
+                {
+                    "@type": "item",
+                    "name": "src/graphics/png.cc"
+                },
+                {
+                    "@type": "item",
+                    "name": "src/graphics/image.h"
+                },
+                {
+                    "@type": "item",
+                    "name": "src/graphics/image.cc"
+                },
+                {
+                    "@type": "item",
+                    "name": "src/graphics/color.h"
+                },
+                {
+                    "@type": "item",
+                    "name": "src/graphics/color.cc"
+                }
+            ]
+        },
+        {
+            "@type": "group",
+            "name": "9",
+            "nested": [
+                {
+                    "@type": "item",
+                    "name": "src/draw/text.h"
+                },
+                {
+                    "@type": "item",
+                    "name": "src/draw/text.cc"
+                },
+                {
+                    "@type": "item",
+                    "name": "src/draw/path.h"
+                },
+                {
+                    "@type": "item",
+                    "name": "src/draw/path.cc"
+                },
+                {
+                    "@type": "item",
+                    "name": "src/draw/rectangle.h"
+                },
+                {
+                    "@type": "item",
+                    "name": "src/draw/rectangle.cc"
+                }
+            ]
+        },
+        {
+            "@type": "group",
+            "name": "10",
+            "nested": [
+                {
+                    "@type": "item",
+                    "name": "src/utils/json.h"
+                },
+                {
+                    "@type": "item",
+                    "name": "src/utils/json.cc"
+                },
+                {
+                    "@type": "item",
+                    "name": "src/utils/geojson.h"
+                },
+                {
+                    "@type": "item",
+                    "name": "src/utils/geojson.cc"
+                }
+            ]
+        },
+        {
+            "@type": "group",
+            "name": "11",
+            "nested": [
+                {
+                    "@type": "item",
+                    "name": "src/figure/legend_item.h"
+                },
+                {
+                    "@type": "item",
+                    "name": "src/figure/legend_item.cc"
+                },
+                {
+                    "@type": "item",
+                    "name": "src/figure/legend.h"
+                },
+                {
+                    "@type": "item",
+                    "name": "src/figure/legend.cc"
+                }
+            ]
+        },
+        {
+            "@type": "group",
+            "name": "12",
+            "nested": [
+                {
+                    "@type": "item",
+                    "name": "src/utils/csv.h"
+                },
+                {
+                    "@type": "item",
+                    "name": "src/utils/csv.cc"
+                }
+            ]
+        },
+        {
+            "@type": "group",
+            "name": "13",
+            "nested": [
+                {
+                    "@type": "item",
+                    "name": "src/utils/flagparser.h"
+                },
+                {
+                    "@type": "item",
+                    "name": "src/utils/flagparser.cc"
+                }
+            ]
+        }
+    ]
+}

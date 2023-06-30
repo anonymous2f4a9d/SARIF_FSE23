@@ -1,0 +1,634 @@
+{
+    "@schemaVersion": "1.0",
+    "name": "clustering",
+    "structure": [
+        {
+            "@type": "group",
+            "name": "0",
+            "nested": [
+                {
+                    "@type": "item",
+                    "name": "util/hash.h"
+                },
+                {
+                    "@type": "item",
+                    "name": "util/hash.cc"
+                },
+                {
+                    "@type": "item",
+                    "name": "util/bloom.cc"
+                },
+                {
+                    "@type": "item",
+                    "name": "util/env_test.cc"
+                },
+                {
+                    "@type": "item",
+                    "name": "util/crc32c.h"
+                },
+                {
+                    "@type": "item",
+                    "name": "util/posix_logger.h"
+                },
+                {
+                    "@type": "item",
+                    "name": "util/env_windows_test_helper.h"
+                },
+                {
+                    "@type": "item",
+                    "name": "util/env_posix_test_helper.h"
+                },
+                {
+                    "@type": "item",
+                    "name": "util/cache.cc"
+                },
+                {
+                    "@type": "item",
+                    "name": "util/crc32c_test.cc"
+                },
+                {
+                    "@type": "item",
+                    "name": "util/env_posix_test.cc"
+                },
+                {
+                    "@type": "item",
+                    "name": "util/bloom_test.cc"
+                },
+                {
+                    "@type": "item",
+                    "name": "util/mutexlock.h"
+                },
+                {
+                    "@type": "item",
+                    "name": "util/no_destructor.h"
+                },
+                {
+                    "@type": "item",
+                    "name": "util/env_windows_test.cc"
+                },
+                {
+                    "@type": "item",
+                    "name": "util/logging_test.cc"
+                },
+                {
+                    "@type": "item",
+                    "name": "util/arena.h"
+                },
+                {
+                    "@type": "item",
+                    "name": "util/arena.cc"
+                },
+                {
+                    "@type": "item",
+                    "name": "util/hash_test.cc"
+                },
+                {
+                    "@type": "item",
+                    "name": "util/crc32c.cc"
+                },
+                {
+                    "@type": "item",
+                    "name": "util/no_destructor_test.cc"
+                },
+                {
+                    "@type": "item",
+                    "name": "util/logging.h"
+                },
+                {
+                    "@type": "item",
+                    "name": "util/logging.cc"
+                },
+                {
+                    "@type": "item",
+                    "name": "util/windows_logger.h"
+                },
+                {
+                    "@type": "item",
+                    "name": "util/comparator.cc"
+                },
+                {
+                    "@type": "item",
+                    "name": "util/env_posix.cc"
+                },
+                {
+                    "@type": "item",
+                    "name": "util/coding_test.cc"
+                },
+                {
+                    "@type": "item",
+                    "name": "util/status_test.cc"
+                },
+                {
+                    "@type": "item",
+                    "name": "util/random.h"
+                },
+                {
+                    "@type": "item",
+                    "name": "util/arena_test.cc"
+                },
+                {
+                    "@type": "item",
+                    "name": "util/testutil.h"
+                },
+                {
+                    "@type": "item",
+                    "name": "util/testutil.cc"
+                },
+                {
+                    "@type": "item",
+                    "name": "include/leveldb/filter_policy.h"
+                },
+                {
+                    "@type": "item",
+                    "name": "util/filter_policy.cc"
+                },
+                {
+                    "@type": "item",
+                    "name": "util/env_windows.cc"
+                }
+            ]
+        },
+        {
+            "@type": "group",
+            "name": "1",
+            "nested": [
+                {
+                    "@type": "item",
+                    "name": "db/db_test.cc"
+                },
+                {
+                    "@type": "item",
+                    "name": "db/fault_injection_test.cc"
+                },
+                {
+                    "@type": "item",
+                    "name": "db/write_batch_test.cc"
+                },
+                {
+                    "@type": "item",
+                    "name": "db/autocompact_test.cc"
+                },
+                {
+                    "@type": "item",
+                    "name": "db/filename_test.cc"
+                },
+                {
+                    "@type": "item",
+                    "name": "db/db_impl.h"
+                },
+                {
+                    "@type": "item",
+                    "name": "db/filename.h"
+                },
+                {
+                    "@type": "item",
+                    "name": "db/filename.cc"
+                },
+                {
+                    "@type": "item",
+                    "name": "db/table_cache.h"
+                },
+                {
+                    "@type": "item",
+                    "name": "db/table_cache.cc"
+                },
+                {
+                    "@type": "item",
+                    "name": "db/builder.h"
+                },
+                {
+                    "@type": "item",
+                    "name": "db/builder.cc"
+                },
+                {
+                    "@type": "item",
+                    "name": "db/leveldbutil.cc"
+                },
+                {
+                    "@type": "item",
+                    "name": "db/recovery_test.cc"
+                },
+                {
+                    "@type": "item",
+                    "name": "db/dumpfile.cc"
+                },
+                {
+                    "@type": "item",
+                    "name": "db/repair.cc"
+                },
+                {
+                    "@type": "item",
+                    "name": "db/write_batch_internal.h"
+                },
+                {
+                    "@type": "item",
+                    "name": "db/write_batch.cc"
+                },
+                {
+                    "@type": "item",
+                    "name": "db/db_impl.cc"
+                },
+                {
+                    "@type": "item",
+                    "name": "db/corruption_test.cc"
+                }
+            ]
+        },
+        {
+            "@type": "group",
+            "name": "2",
+            "nested": [
+                {
+                    "@type": "item",
+                    "name": "include/leveldb/cache.h"
+                },
+                {
+                    "@type": "item",
+                    "name": "include/leveldb/export.h"
+                },
+                {
+                    "@type": "item",
+                    "name": "include/leveldb/options.h"
+                },
+                {
+                    "@type": "item",
+                    "name": "util/options.cc"
+                },
+                {
+                    "@type": "item",
+                    "name": "include/leveldb/comparator.h"
+                },
+                {
+                    "@type": "item",
+                    "name": "include/leveldb/status.h"
+                },
+                {
+                    "@type": "item",
+                    "name": "util/status.cc"
+                },
+                {
+                    "@type": "item",
+                    "name": "include/leveldb/db.h"
+                },
+                {
+                    "@type": "item",
+                    "name": "include/leveldb/dumpfile.h"
+                },
+                {
+                    "@type": "item",
+                    "name": "include/leveldb/env.h"
+                },
+                {
+                    "@type": "item",
+                    "name": "util/env.cc"
+                },
+                {
+                    "@type": "item",
+                    "name": "include/leveldb/slice.h"
+                },
+                {
+                    "@type": "item",
+                    "name": "include/leveldb/write_batch.h"
+                },
+                {
+                    "@type": "item",
+                    "name": "include/leveldb/iterator.h"
+                }
+            ]
+        },
+        {
+            "@type": "group",
+            "name": "3",
+            "nested": [
+                {
+                    "@type": "item",
+                    "name": "db/db_iter.cc"
+                },
+                {
+                    "@type": "item",
+                    "name": "db/version_edit_test.cc"
+                },
+                {
+                    "@type": "item",
+                    "name": "db/dbformat.h"
+                },
+                {
+                    "@type": "item",
+                    "name": "db/dbformat.cc"
+                },
+                {
+                    "@type": "item",
+                    "name": "db/snapshot.h"
+                },
+                {
+                    "@type": "item",
+                    "name": "db/version_set.h"
+                },
+                {
+                    "@type": "item",
+                    "name": "db/db_iter.h"
+                },
+                {
+                    "@type": "item",
+                    "name": "db/dbformat_test.cc"
+                },
+                {
+                    "@type": "item",
+                    "name": "db/version_set_test.cc"
+                },
+                {
+                    "@type": "item",
+                    "name": "db/version_set.cc"
+                },
+                {
+                    "@type": "item",
+                    "name": "db/version_edit.h"
+                },
+                {
+                    "@type": "item",
+                    "name": "db/version_edit.cc"
+                }
+            ]
+        },
+        {
+            "@type": "group",
+            "name": "4",
+            "nested": [
+                {
+                    "@type": "item",
+                    "name": "table/block_builder.h"
+                },
+                {
+                    "@type": "item",
+                    "name": "table/block_builder.cc"
+                },
+                {
+                    "@type": "item",
+                    "name": "table/format.h"
+                },
+                {
+                    "@type": "item",
+                    "name": "table/format.cc"
+                },
+                {
+                    "@type": "item",
+                    "name": "table/filter_block.h"
+                },
+                {
+                    "@type": "item",
+                    "name": "table/filter_block.cc"
+                },
+                {
+                    "@type": "item",
+                    "name": "table/filter_block_test.cc"
+                },
+                {
+                    "@type": "item",
+                    "name": "table/table_test.cc"
+                },
+                {
+                    "@type": "item",
+                    "name": "table/block.h"
+                },
+                {
+                    "@type": "item",
+                    "name": "table/block.cc"
+                },
+                {
+                    "@type": "item",
+                    "name": "include/leveldb/table.h"
+                },
+                {
+                    "@type": "item",
+                    "name": "table/table.cc"
+                },
+                {
+                    "@type": "item",
+                    "name": "include/leveldb/table_builder.h"
+                },
+                {
+                    "@type": "item",
+                    "name": "table/table_builder.cc"
+                }
+            ]
+        },
+        {
+            "@type": "group",
+            "name": "5",
+            "nested": [
+                {
+                    "@type": "item",
+                    "name": "table/iterator.cc"
+                },
+                {
+                    "@type": "item",
+                    "name": "table/merger.h"
+                },
+                {
+                    "@type": "item",
+                    "name": "table/two_level_iterator.cc"
+                },
+                {
+                    "@type": "item",
+                    "name": "table/merger.cc"
+                },
+                {
+                    "@type": "item",
+                    "name": "table/two_level_iterator.h"
+                },
+                {
+                    "@type": "item",
+                    "name": "table/iterator_wrapper.h"
+                }
+            ]
+        },
+        {
+            "@type": "group",
+            "name": "6",
+            "nested": [
+                {
+                    "@type": "item",
+                    "name": "util/coding.h"
+                },
+                {
+                    "@type": "item",
+                    "name": "db/memtable.h"
+                },
+                {
+                    "@type": "item",
+                    "name": "db/memtable.cc"
+                },
+                {
+                    "@type": "item",
+                    "name": "db/skiplist_test.cc"
+                },
+                {
+                    "@type": "item",
+                    "name": "util/cache_test.cc"
+                },
+                {
+                    "@type": "item",
+                    "name": "db/skiplist.h"
+                },
+                {
+                    "@type": "item",
+                    "name": "util/coding.cc"
+                }
+            ]
+        },
+        {
+            "@type": "group",
+            "name": "7",
+            "nested": [
+                {
+                    "@type": "item",
+                    "name": "benchmarks/db_bench_log.cc"
+                },
+                {
+                    "@type": "item",
+                    "name": "benchmarks/db_bench_sqlite3.cc"
+                },
+                {
+                    "@type": "item",
+                    "name": "benchmarks/db_bench.cc"
+                },
+                {
+                    "@type": "item",
+                    "name": "benchmarks/db_bench_tree_db.cc"
+                }
+            ]
+        },
+        {
+            "@type": "group",
+            "name": "8",
+            "nested": [
+                {
+                    "@type": "item",
+                    "name": "port/port_stdcxx.h"
+                },
+                {
+                    "@type": "item",
+                    "name": "port/thread_annotations.h"
+                },
+                {
+                    "@type": "item",
+                    "name": "port/port.h"
+                },
+                {
+                    "@type": "item",
+                    "name": "port/port_example.h"
+                }
+            ]
+        },
+        {
+            "@type": "group",
+            "name": "9",
+            "nested": [
+                {
+                    "@type": "item",
+                    "name": "db/log_reader.h"
+                },
+                {
+                    "@type": "item",
+                    "name": "db/log_reader.cc"
+                },
+                {
+                    "@type": "item",
+                    "name": "db/log_format.h"
+                },
+                {
+                    "@type": "item",
+                    "name": "db/log_test.cc"
+                },
+                {
+                    "@type": "item",
+                    "name": "db/log_writer.h"
+                },
+                {
+                    "@type": "item",
+                    "name": "db/log_writer.cc"
+                }
+            ]
+        },
+        {
+            "@type": "group",
+            "name": "10",
+            "nested": [
+                {
+                    "@type": "item",
+                    "name": "helpers/memenv/memenv.cc"
+                },
+                {
+                    "@type": "item",
+                    "name": "helpers/memenv/memenv_test.cc"
+                },
+                {
+                    "@type": "item",
+                    "name": "helpers/memenv/memenv.h"
+                }
+            ]
+        },
+        {
+            "@type": "group",
+            "name": "11",
+            "nested": [
+                {
+                    "@type": "item",
+                    "name": "db/c_test.c"
+                },
+                {
+                    "@type": "item",
+                    "name": "include/leveldb/c.h"
+                },
+                {
+                    "@type": "item",
+                    "name": "db/c.cc"
+                }
+            ]
+        },
+        {
+            "@type": "group",
+            "name": "12",
+            "nested": [
+                {
+                    "@type": "item",
+                    "name": "issues/issue178_test.cc"
+                }
+            ]
+        },
+        {
+            "@type": "group",
+            "name": "13",
+            "nested": [
+                {
+                    "@type": "item",
+                    "name": "issues/issue200_test.cc"
+                }
+            ]
+        },
+        {
+            "@type": "group",
+            "name": "14",
+            "nested": [
+                {
+                    "@type": "item",
+                    "name": "issues/issue320_test.cc"
+                }
+            ]
+        },
+        {
+            "@type": "group",
+            "name": "15",
+            "nested": [
+                {
+                    "@type": "item",
+                    "name": "util/histogram.h"
+                },
+                {
+                    "@type": "item",
+                    "name": "util/histogram.cc"
+                }
+            ]
+        }
+    ]
+}

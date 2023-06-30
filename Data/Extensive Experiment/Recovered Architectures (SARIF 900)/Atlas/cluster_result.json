@@ -1,0 +1,580 @@
+{
+    "@schemaVersion": "1.0",
+    "name": "clustering",
+    "structure": [
+        {
+            "@type": "group",
+            "name": "0",
+            "nested": [
+                {
+                    "@type": "item",
+                    "name": "src/chassis-path.h"
+                },
+                {
+                    "@type": "item",
+                    "name": "src/chassis-path.c"
+                },
+                {
+                    "@type": "item",
+                    "name": "src/chassis-shutdown-hooks.h"
+                },
+                {
+                    "@type": "item",
+                    "name": "src/chassis-shutdown-hooks.c"
+                },
+                {
+                    "@type": "item",
+                    "name": "src/chassis-mainloop.h"
+                },
+                {
+                    "@type": "item",
+                    "name": "src/chassis-mainloop.c"
+                },
+                {
+                    "@type": "item",
+                    "name": "src/chassis-filemode.h"
+                },
+                {
+                    "@type": "item",
+                    "name": "src/chassis-filemode.c"
+                },
+                {
+                    "@type": "item",
+                    "name": "src/chassis-exports.h"
+                },
+                {
+                    "@type": "item",
+                    "name": "src/chassis-gtimeval.h"
+                },
+                {
+                    "@type": "item",
+                    "name": "src/chassis-gtimeval.c"
+                },
+                {
+                    "@type": "item",
+                    "name": "src/chassis-options.h"
+                },
+                {
+                    "@type": "item",
+                    "name": "src/chassis-options.c"
+                },
+                {
+                    "@type": "item",
+                    "name": "src/chassis-unix-daemon.h"
+                },
+                {
+                    "@type": "item",
+                    "name": "src/chassis-unix-daemon.c"
+                },
+                {
+                    "@type": "item",
+                    "name": "src/chassis-keyfile.h"
+                },
+                {
+                    "@type": "item",
+                    "name": "src/chassis-keyfile.c"
+                },
+                {
+                    "@type": "item",
+                    "name": "src/chassis-limits.h"
+                },
+                {
+                    "@type": "item",
+                    "name": "src/chassis-limits.c"
+                },
+                {
+                    "@type": "item",
+                    "name": "src/chassis-frontend.h"
+                },
+                {
+                    "@type": "item",
+                    "name": "src/chassis-frontend.c"
+                },
+                {
+                    "@type": "item",
+                    "name": "src/mysql-proxy-cli.c"
+                }
+            ]
+        },
+        {
+            "@type": "group",
+            "name": "1",
+            "nested": [
+                {
+                    "@type": "item",
+                    "name": "src/network-socket-lua.h"
+                },
+                {
+                    "@type": "item",
+                    "name": "src/network-socket-lua.c"
+                },
+                {
+                    "@type": "item",
+                    "name": "src/network-injection.h"
+                },
+                {
+                    "@type": "item",
+                    "name": "src/network-injection.c"
+                },
+                {
+                    "@type": "item",
+                    "name": "src/lua-env.h"
+                },
+                {
+                    "@type": "item",
+                    "name": "src/lua-env.c"
+                },
+                {
+                    "@type": "item",
+                    "name": "src/network-address-lua.h"
+                },
+                {
+                    "@type": "item",
+                    "name": "src/network-address-lua.c"
+                },
+                {
+                    "@type": "item",
+                    "name": "src/glib-ext-ref.h"
+                },
+                {
+                    "@type": "item",
+                    "name": "src/glib-ext-ref.c"
+                },
+                {
+                    "@type": "item",
+                    "name": "src/network-backend-lua.h"
+                },
+                {
+                    "@type": "item",
+                    "name": "src/network-backend-lua.c"
+                },
+                {
+                    "@type": "item",
+                    "name": "src/network-exports.h"
+                },
+                {
+                    "@type": "item",
+                    "name": "src/string-len.h"
+                },
+                {
+                    "@type": "item",
+                    "name": "src/network-injection-lua.h"
+                },
+                {
+                    "@type": "item",
+                    "name": "src/network-injection-lua.c"
+                },
+                {
+                    "@type": "item",
+                    "name": "src/network-address.h"
+                },
+                {
+                    "@type": "item",
+                    "name": "src/network-address.c"
+                },
+                {
+                    "@type": "item",
+                    "name": "src/network-backend.h"
+                },
+                {
+                    "@type": "item",
+                    "name": "src/network-backend.c"
+                },
+                {
+                    "@type": "item",
+                    "name": "src/glib-ext.h"
+                },
+                {
+                    "@type": "item",
+                    "name": "src/glib-ext.c"
+                }
+            ]
+        },
+        {
+            "@type": "group",
+            "name": "2",
+            "nested": [
+                {
+                    "@type": "item",
+                    "name": "src/network-mysqld-binlog.h"
+                },
+                {
+                    "@type": "item",
+                    "name": "src/network-mysqld-binlog.c"
+                },
+                {
+                    "@type": "item",
+                    "name": "src/network_mysqld_type.h"
+                },
+                {
+                    "@type": "item",
+                    "name": "src/network_mysqld_type.c"
+                },
+                {
+                    "@type": "item",
+                    "name": "src/mysql-myisam-dump.c"
+                },
+                {
+                    "@type": "item",
+                    "name": "src/network-mysqld-masterinfo.h"
+                },
+                {
+                    "@type": "item",
+                    "name": "src/network-mysqld-masterinfo.c"
+                },
+                {
+                    "@type": "item",
+                    "name": "src/mysql-binlog-dump.c"
+                },
+                {
+                    "@type": "item",
+                    "name": "src/network-mysqld-proto.h"
+                },
+                {
+                    "@type": "item",
+                    "name": "src/network-mysqld-packet.h"
+                },
+                {
+                    "@type": "item",
+                    "name": "src/network-mysqld-proto.c"
+                },
+                {
+                    "@type": "item",
+                    "name": "src/network-mysqld-packet.c"
+                },
+                {
+                    "@type": "item",
+                    "name": "src/network_mysqld_proto_binary.h"
+                },
+                {
+                    "@type": "item",
+                    "name": "src/network_mysqld_proto_binary.c"
+                }
+            ]
+        },
+        {
+            "@type": "group",
+            "name": "3",
+            "nested": [
+                {
+                    "@type": "item",
+                    "name": "lib/crc32.h"
+                },
+                {
+                    "@type": "item",
+                    "name": "lib/posix.c"
+                },
+                {
+                    "@type": "item",
+                    "name": "lib/mysql-password.c"
+                },
+                {
+                    "@type": "item",
+                    "name": "lib/crc32.c"
+                },
+                {
+                    "@type": "item",
+                    "name": "lib/glib2.c"
+                },
+                {
+                    "@type": "item",
+                    "name": "lib/crc32-lua.c"
+                }
+            ]
+        },
+        {
+            "@type": "group",
+            "name": "4",
+            "nested": [
+                {
+                    "@type": "item",
+                    "name": "src/lua-load-factory.c"
+                },
+                {
+                    "@type": "item",
+                    "name": "src/lua-scope.h"
+                },
+                {
+                    "@type": "item",
+                    "name": "src/lua-scope.c"
+                },
+                {
+                    "@type": "item",
+                    "name": "src/chassis-plugin.h"
+                },
+                {
+                    "@type": "item",
+                    "name": "src/chassis-plugin.c"
+                },
+                {
+                    "@type": "item",
+                    "name": "src/chassis-stats.h"
+                },
+                {
+                    "@type": "item",
+                    "name": "src/chassis-stats.c"
+                },
+                {
+                    "@type": "item",
+                    "name": "src/lua-registry-keys.h"
+                },
+                {
+                    "@type": "item",
+                    "name": "src/lua-load-factory.h"
+                }
+            ]
+        },
+        {
+            "@type": "group",
+            "name": "5",
+            "nested": [
+                {
+                    "@type": "item",
+                    "name": "src/disable-dtrace.h"
+                },
+                {
+                    "@type": "item",
+                    "name": "src/network-mysqld.h"
+                },
+                {
+                    "@type": "item",
+                    "name": "src/network-mysqld.c"
+                },
+                {
+                    "@type": "item",
+                    "name": "src/network-debug.h"
+                },
+                {
+                    "@type": "item",
+                    "name": "src/network-mysqld-lua.h"
+                },
+                {
+                    "@type": "item",
+                    "name": "src/network-mysqld-lua.c"
+                },
+                {
+                    "@type": "item",
+                    "name": "src/network-socket.h"
+                },
+                {
+                    "@type": "item",
+                    "name": "src/network-socket.c"
+                },
+                {
+                    "@type": "item",
+                    "name": "src/network-queue.h"
+                },
+                {
+                    "@type": "item",
+                    "name": "src/network-queue.c"
+                }
+            ]
+        },
+        {
+            "@type": "group",
+            "name": "6",
+            "nested": [
+                {
+                    "@type": "item",
+                    "name": "lib/sql-tokenizer-lua.c"
+                },
+                {
+                    "@type": "item",
+                    "name": "lib/sql-tokenizer-gen.c"
+                },
+                {
+                    "@type": "item",
+                    "name": "lib/sql-tokenizer.h"
+                },
+                {
+                    "@type": "item",
+                    "name": "lib/sql-tokenizer-tokens.c"
+                },
+                {
+                    "@type": "item",
+                    "name": "lib/sql-tokenizer-keywords.h"
+                },
+                {
+                    "@type": "item",
+                    "name": "lib/time-ticker-lua.c"
+                }
+            ]
+        },
+        {
+            "@type": "group",
+            "name": "7",
+            "nested": [
+                {
+                    "@type": "item",
+                    "name": "src/chassis-log.h"
+                },
+                {
+                    "@type": "item",
+                    "name": "src/chassis-log.c"
+                },
+                {
+                    "@type": "item",
+                    "name": "src/chassis-timings.h"
+                },
+                {
+                    "@type": "item",
+                    "name": "src/chassis-timings.c"
+                },
+                {
+                    "@type": "item",
+                    "name": "src/my_rdtsc.h"
+                },
+                {
+                    "@type": "item",
+                    "name": "src/my_rdtsc.c"
+                },
+                {
+                    "@type": "item",
+                    "name": "src/test-latency.c"
+                },
+                {
+                    "@type": "item",
+                    "name": "src/sys-pedantic.h"
+                }
+            ]
+        },
+        {
+            "@type": "group",
+            "name": "8",
+            "nested": [
+                {
+                    "@type": "item",
+                    "name": "src/network-conn-pool-lua.h"
+                },
+                {
+                    "@type": "item",
+                    "name": "src/network-conn-pool-lua.c"
+                },
+                {
+                    "@type": "item",
+                    "name": "src/chassis-event-thread.h"
+                },
+                {
+                    "@type": "item",
+                    "name": "src/chassis-event-thread.c"
+                },
+                {
+                    "@type": "item",
+                    "name": "src/network-conn-pool.h"
+                },
+                {
+                    "@type": "item",
+                    "name": "src/network-conn-pool.c"
+                }
+            ]
+        },
+        {
+            "@type": "group",
+            "name": "9",
+            "nested": [
+                {
+                    "@type": "item",
+                    "name": "plugins/proxy/proxy-plugin.c"
+                },
+                {
+                    "@type": "item",
+                    "name": "plugins/proxy/proxy-plugin.h"
+                }
+            ]
+        },
+        {
+            "@type": "group",
+            "name": "10",
+            "nested": [
+                {
+                    "@type": "item",
+                    "name": "src/chassis-win32-service.c"
+                },
+                {
+                    "@type": "item",
+                    "name": "src/chassis-win32-service.h"
+                }
+            ]
+        },
+        {
+            "@type": "group",
+            "name": "11",
+            "nested": [
+                {
+                    "@type": "item",
+                    "name": "lib/chassis.c"
+                }
+            ]
+        },
+        {
+            "@type": "group",
+            "name": "12",
+            "nested": [
+                {
+                    "@type": "item",
+                    "name": "lib/lfs.c"
+                }
+            ]
+        },
+        {
+            "@type": "group",
+            "name": "13",
+            "nested": [
+                {
+                    "@type": "item",
+                    "name": "lib/lpeg.c"
+                }
+            ]
+        },
+        {
+            "@type": "group",
+            "name": "14",
+            "nested": [
+                {
+                    "@type": "item",
+                    "name": "lib/mysql-proto.c"
+                }
+            ]
+        },
+        {
+            "@type": "group",
+            "name": "15",
+            "nested": [
+                {
+                    "@type": "item",
+                    "name": "plugins/admin/admin-plugin.c"
+                }
+            ]
+        },
+        {
+            "@type": "group",
+            "name": "16",
+            "nested": [
+                {
+                    "@type": "item",
+                    "name": "plugins/debug/debug-plugin.c"
+                }
+            ]
+        },
+        {
+            "@type": "group",
+            "name": "17",
+            "nested": [
+                {
+                    "@type": "item",
+                    "name": "plugins/replicant/replicant-plugin.c"
+                }
+            ]
+        },
+        {
+            "@type": "group",
+            "name": "18",
+            "nested": [
+                {
+                    "@type": "item",
+                    "name": "script/encrypt.c"
+                }
+            ]
+        }
+    ]
+}

@@ -1,0 +1,2146 @@
+{
+    "@schemaVersion": "1.0",
+    "name": "clustering",
+    "structure": [
+        {
+            "@type": "group",
+            "name": "0",
+            "nested": [
+                {
+                    "@type": "item",
+                    "name": "src/backend/distributed/test/deparse_function_query.c"
+                },
+                {
+                    "@type": "item",
+                    "name": "src/backend/distributed/commands/drop_distributed_table.c"
+                },
+                {
+                    "@type": "item",
+                    "name": "src/include/distributed/shardsplit_shared_memory.h"
+                },
+                {
+                    "@type": "item",
+                    "name": "src/backend/distributed/shardsplit/shardsplit_shared_memory.c"
+                },
+                {
+                    "@type": "item",
+                    "name": "src/backend/distributed/operations/worker_split_shard_replication_setup_udf.c"
+                },
+                {
+                    "@type": "item",
+                    "name": "src/backend/distributed/operations/worker_copy_table_to_node_udf.c"
+                },
+                {
+                    "@type": "item",
+                    "name": "src/include/distributed/worker_log_messages.h"
+                },
+                {
+                    "@type": "item",
+                    "name": "src/backend/distributed/connection/worker_log_messages.c"
+                },
+                {
+                    "@type": "item",
+                    "name": "src/include/distributed/memutils.h"
+                },
+                {
+                    "@type": "item",
+                    "name": "src/include/distributed/tenant_schema_metadata.h"
+                },
+                {
+                    "@type": "item",
+                    "name": "src/backend/distributed/utils/tenant_schema_metadata.c"
+                },
+                {
+                    "@type": "item",
+                    "name": "src/backend/distributed/worker/task_tracker_protocol.c"
+                },
+                {
+                    "@type": "item",
+                    "name": "src/backend/distributed/utils/citus_version.c"
+                },
+                {
+                    "@type": "item",
+                    "name": "src/backend/distributed/test/colocation_utils.c"
+                },
+                {
+                    "@type": "item",
+                    "name": "src/backend/distributed/test/sequential_execution.c"
+                },
+                {
+                    "@type": "item",
+                    "name": "src/include/distributed/utils/citus_stat_tenants.h"
+                },
+                {
+                    "@type": "item",
+                    "name": "src/backend/distributed/utils/citus_stat_tenants.c"
+                },
+                {
+                    "@type": "item",
+                    "name": "src/backend/distributed/test/global_pid.c"
+                },
+                {
+                    "@type": "item",
+                    "name": "src/backend/distributed/test/distribution_metadata.c"
+                },
+                {
+                    "@type": "item",
+                    "name": "src/backend/distributed/commands/citus_global_signal.c"
+                },
+                {
+                    "@type": "item",
+                    "name": "src/include/distributed/backend_data.h"
+                },
+                {
+                    "@type": "item",
+                    "name": "src/include/distributed/transaction_identifier.h"
+                },
+                {
+                    "@type": "item",
+                    "name": "src/backend/distributed/transaction/backend_data.c"
+                },
+                {
+                    "@type": "item",
+                    "name": "src/backend/distributed/test/create_shards.c"
+                },
+                {
+                    "@type": "item",
+                    "name": "src/backend/distributed/operations/worker_split_shard_release_dsm_udf.c"
+                },
+                {
+                    "@type": "item",
+                    "name": "src/bin/pg_send_cancellation/pg_send_cancellation.c"
+                },
+                {
+                    "@type": "item",
+                    "name": "src/backend/distributed/test/metadata_sync.c"
+                },
+                {
+                    "@type": "item",
+                    "name": "src/include/distributed/shared_library_init.h"
+                },
+                {
+                    "@type": "item",
+                    "name": "src/backend/distributed/shared_library_init.c"
+                },
+                {
+                    "@type": "item",
+                    "name": "src/include/distributed/cancel_utils.h"
+                },
+                {
+                    "@type": "item",
+                    "name": "src/backend/distributed/utils/cancel_utils.c"
+                },
+                {
+                    "@type": "item",
+                    "name": "src/include/distributed/log_utils.h"
+                },
+                {
+                    "@type": "item",
+                    "name": "src/backend/distributed/utils/log_utils.c"
+                },
+                {
+                    "@type": "item",
+                    "name": "src/backend/distributed/test/pg_send_cancellation.c"
+                },
+                {
+                    "@type": "item",
+                    "name": "src/backend/distributed/utils/enable_ssl.c"
+                },
+                {
+                    "@type": "item",
+                    "name": "src/backend/distributed/test/hide_shards.c"
+                },
+                {
+                    "@type": "item",
+                    "name": "src/backend/distributed/shardsplit/shardsplit_decoder.c"
+                },
+                {
+                    "@type": "item",
+                    "name": "src/backend/distributed/operations/partitioning.c"
+                },
+                {
+                    "@type": "item",
+                    "name": "src/backend/distributed/worker/worker_truncate_trigger_protocol.c"
+                },
+                {
+                    "@type": "item",
+                    "name": "src/backend/distributed/test/partitioning_utils.c"
+                },
+                {
+                    "@type": "item",
+                    "name": "src/backend/distributed/test/make_external_connection.c"
+                },
+                {
+                    "@type": "item",
+                    "name": "src/include/distributed/query_stats.h"
+                },
+                {
+                    "@type": "item",
+                    "name": "src/backend/distributed/executor/query_stats.c"
+                },
+                {
+                    "@type": "item",
+                    "name": "src/include/distributed/distributed_deadlock_detection.h"
+                },
+                {
+                    "@type": "item",
+                    "name": "src/backend/distributed/transaction/distributed_deadlock_detection.c"
+                },
+                {
+                    "@type": "item",
+                    "name": "src/backend/distributed/test/deparse_shard_query.c"
+                },
+                {
+                    "@type": "item",
+                    "name": "src/include/distributed/utils/function.h"
+                },
+                {
+                    "@type": "item",
+                    "name": "src/backend/distributed/utils/function.c"
+                },
+                {
+                    "@type": "item",
+                    "name": "src/backend/distributed/test/backend_counter.c"
+                },
+                {
+                    "@type": "item",
+                    "name": "src/backend/distributed/worker/worker_partition_protocol.c"
+                },
+                {
+                    "@type": "item",
+                    "name": "src/backend/distributed/transaction/citus_dist_stat_activity.c"
+                },
+                {
+                    "@type": "item",
+                    "name": "src/backend/distributed/test/distributed_deadlock_detection.c"
+                },
+                {
+                    "@type": "item",
+                    "name": "src/include/distributed/lock_graph.h"
+                },
+                {
+                    "@type": "item",
+                    "name": "src/backend/distributed/transaction/lock_graph.c"
+                },
+                {
+                    "@type": "item",
+                    "name": "src/backend/distributed/test/citus_stat_tenants.c"
+                },
+                {
+                    "@type": "item",
+                    "name": "src/backend/distributed/test/prune_shard_list.c"
+                },
+                {
+                    "@type": "item",
+                    "name": "src/include/distributed/worker_shard_visibility.h"
+                },
+                {
+                    "@type": "item",
+                    "name": "src/backend/distributed/worker/worker_shard_visibility.c"
+                },
+                {
+                    "@type": "item",
+                    "name": "src/include/distributed/tuplestore.h"
+                },
+                {
+                    "@type": "item",
+                    "name": "src/backend/distributed/utils/tuplestore.c"
+                },
+                {
+                    "@type": "item",
+                    "name": "src/include/distributed/function_utils.h"
+                },
+                {
+                    "@type": "item",
+                    "name": "src/backend/distributed/utils/function_utils.c"
+                }
+            ]
+        },
+        {
+            "@type": "group",
+            "name": "1",
+            "nested": [
+                {
+                    "@type": "item",
+                    "name": "src/include/distributed/jsonbutils.h"
+                },
+                {
+                    "@type": "item",
+                    "name": "src/backend/distributed/utils/jsonbutils.c"
+                },
+                {
+                    "@type": "item",
+                    "name": "src/include/distributed/adaptive_executor.h"
+                },
+                {
+                    "@type": "item",
+                    "name": "src/include/distributed/multi_executor.h"
+                },
+                {
+                    "@type": "item",
+                    "name": "src/backend/distributed/executor/adaptive_executor.c"
+                },
+                {
+                    "@type": "item",
+                    "name": "src/backend/distributed/executor/citus_custom_scan.c"
+                },
+                {
+                    "@type": "item",
+                    "name": "src/backend/distributed/executor/multi_executor.c"
+                },
+                {
+                    "@type": "item",
+                    "name": "src/include/distributed/statistics_collection.h"
+                },
+                {
+                    "@type": "item",
+                    "name": "src/include/distributed/multi_physical_planner.h"
+                },
+                {
+                    "@type": "item",
+                    "name": "src/backend/distributed/planner/multi_physical_planner.c"
+                },
+                {
+                    "@type": "item",
+                    "name": "src/include/distributed/query_colocation_checker.h"
+                },
+                {
+                    "@type": "item",
+                    "name": "src/backend/distributed/planner/query_colocation_checker.c"
+                },
+                {
+                    "@type": "item",
+                    "name": "src/include/distributed/distributed_execution_locks.h"
+                },
+                {
+                    "@type": "item",
+                    "name": "src/backend/distributed/executor/distributed_execution_locks.c"
+                },
+                {
+                    "@type": "item",
+                    "name": "src/include/distributed/local_executor.h"
+                },
+                {
+                    "@type": "item",
+                    "name": "src/backend/distributed/executor/local_executor.c"
+                },
+                {
+                    "@type": "item",
+                    "name": "src/backend/distributed/utils/statistics_collection.c"
+                },
+                {
+                    "@type": "item",
+                    "name": "src/include/distributed/repartition_executor.h"
+                },
+                {
+                    "@type": "item",
+                    "name": "src/include/distributed/insert_select_executor.h"
+                },
+                {
+                    "@type": "item",
+                    "name": "src/backend/distributed/executor/repartition_executor.c"
+                },
+                {
+                    "@type": "item",
+                    "name": "src/backend/distributed/executor/insert_select_executor.c"
+                },
+                {
+                    "@type": "item",
+                    "name": "src/include/distributed/local_plan_cache.h"
+                },
+                {
+                    "@type": "item",
+                    "name": "src/backend/distributed/planner/local_plan_cache.c"
+                },
+                {
+                    "@type": "item",
+                    "name": "src/include/distributed/multi_server_executor.h"
+                },
+                {
+                    "@type": "item",
+                    "name": "src/backend/distributed/executor/multi_server_executor.c"
+                },
+                {
+                    "@type": "item",
+                    "name": "src/include/distributed/merge_executor.h"
+                },
+                {
+                    "@type": "item",
+                    "name": "src/backend/distributed/executor/merge_executor.c"
+                },
+                {
+                    "@type": "item",
+                    "name": "src/include/distributed/directed_acyclic_graph_execution.h"
+                },
+                {
+                    "@type": "item",
+                    "name": "src/backend/distributed/executor/directed_acyclic_graph_execution.c"
+                },
+                {
+                    "@type": "item",
+                    "name": "src/include/distributed/citus_nodefuncs.h"
+                },
+                {
+                    "@type": "item",
+                    "name": "src/backend/distributed/utils/citus_nodefuncs.c"
+                },
+                {
+                    "@type": "item",
+                    "name": "src/backend/distributed/utils/citus_copyfuncs.c"
+                },
+                {
+                    "@type": "item",
+                    "name": "src/backend/distributed/utils/citus_readfuncs.c"
+                },
+                {
+                    "@type": "item",
+                    "name": "src/backend/distributed/utils/citus_outfuncs.c"
+                },
+                {
+                    "@type": "item",
+                    "name": "src/include/distributed/errormessage.h"
+                },
+                {
+                    "@type": "item",
+                    "name": "src/backend/distributed/utils/errormessage.c"
+                },
+                {
+                    "@type": "item",
+                    "name": "src/include/distributed/shard_pruning.h"
+                },
+                {
+                    "@type": "item",
+                    "name": "src/include/distributed/multi_router_planner.h"
+                },
+                {
+                    "@type": "item",
+                    "name": "src/include/distributed/function_call_delegation.h"
+                },
+                {
+                    "@type": "item",
+                    "name": "src/backend/distributed/planner/shard_pruning.c"
+                },
+                {
+                    "@type": "item",
+                    "name": "src/backend/distributed/planner/multi_router_planner.c"
+                },
+                {
+                    "@type": "item",
+                    "name": "src/backend/distributed/planner/fast_path_router_planner.c"
+                },
+                {
+                    "@type": "item",
+                    "name": "src/backend/distributed/planner/function_call_delegation.c"
+                },
+                {
+                    "@type": "item",
+                    "name": "src/include/distributed/deparse_shard_query.h"
+                },
+                {
+                    "@type": "item",
+                    "name": "src/backend/distributed/planner/deparse_shard_query.c"
+                },
+                {
+                    "@type": "item",
+                    "name": "src/include/distributed/combine_query_planner.h"
+                },
+                {
+                    "@type": "item",
+                    "name": "src/backend/distributed/planner/combine_query_planner.c"
+                },
+                {
+                    "@type": "item",
+                    "name": "src/include/distributed/citus_nodes.h"
+                },
+                {
+                    "@type": "item",
+                    "name": "src/include/distributed/relation_restriction_equivalence.h"
+                },
+                {
+                    "@type": "item",
+                    "name": "src/backend/distributed/planner/relation_restriction_equivalence.c"
+                },
+                {
+                    "@type": "item",
+                    "name": "src/include/distributed/merge_planner.h"
+                },
+                {
+                    "@type": "item",
+                    "name": "src/include/distributed/insert_select_planner.h"
+                },
+                {
+                    "@type": "item",
+                    "name": "src/include/distributed/multi_explain.h"
+                },
+                {
+                    "@type": "item",
+                    "name": "src/include/distributed/citus_custom_scan.h"
+                },
+                {
+                    "@type": "item",
+                    "name": "src/backend/distributed/planner/multi_explain.c"
+                },
+                {
+                    "@type": "item",
+                    "name": "src/backend/distributed/planner/merge_planner.c"
+                },
+                {
+                    "@type": "item",
+                    "name": "src/backend/distributed/planner/insert_select_planner.c"
+                },
+                {
+                    "@type": "item",
+                    "name": "src/include/distributed/executor_util.h"
+                },
+                {
+                    "@type": "item",
+                    "name": "src/backend/distributed/executor/executor_util_tuples.c"
+                },
+                {
+                    "@type": "item",
+                    "name": "src/backend/distributed/executor/executor_util_tasks.c"
+                },
+                {
+                    "@type": "item",
+                    "name": "src/backend/distributed/executor/executor_util_params.c"
+                },
+                {
+                    "@type": "item",
+                    "name": "src/include/distributed/recursive_planning.h"
+                },
+                {
+                    "@type": "item",
+                    "name": "src/backend/distributed/planner/recursive_planning.c"
+                },
+                {
+                    "@type": "item",
+                    "name": "src/include/distributed/citus_clauses.h"
+                },
+                {
+                    "@type": "item",
+                    "name": "src/backend/distributed/utils/citus_clauses.c"
+                },
+                {
+                    "@type": "item",
+                    "name": "src/include/distributed/distributed_planner.h"
+                },
+                {
+                    "@type": "item",
+                    "name": "src/backend/distributed/planner/distributed_planner.c"
+                },
+                {
+                    "@type": "item",
+                    "name": "src/include/distributed/task_execution_utils.h"
+                },
+                {
+                    "@type": "item",
+                    "name": "src/backend/distributed/utils/task_execution_utils.c"
+                },
+                {
+                    "@type": "item",
+                    "name": "src/include/distributed/tuple_destination.h"
+                },
+                {
+                    "@type": "item",
+                    "name": "src/backend/distributed/executor/tuple_destination.c"
+                },
+                {
+                    "@type": "item",
+                    "name": "src/include/distributed/local_distributed_join_planner.h"
+                },
+                {
+                    "@type": "item",
+                    "name": "src/backend/distributed/planner/local_distributed_join_planner.c"
+                },
+                {
+                    "@type": "item",
+                    "name": "src/include/distributed/repartition_join_execution.h"
+                },
+                {
+                    "@type": "item",
+                    "name": "src/backend/distributed/executor/repartition_join_execution.c"
+                }
+            ]
+        },
+        {
+            "@type": "group",
+            "name": "2",
+            "nested": [
+                {
+                    "@type": "item",
+                    "name": "src/include/distributed/transaction_recovery.h"
+                },
+                {
+                    "@type": "item",
+                    "name": "src/backend/distributed/transaction/transaction_recovery.c"
+                },
+                {
+                    "@type": "item",
+                    "name": "src/include/distributed/run_from_same_connection.h"
+                },
+                {
+                    "@type": "item",
+                    "name": "src/backend/distributed/test/run_from_same_connection.c"
+                },
+                {
+                    "@type": "item",
+                    "name": "src/backend/distributed/operations/citus_create_restore_point.c"
+                },
+                {
+                    "@type": "item",
+                    "name": "src/include/distributed/multi_logical_replication.h"
+                },
+                {
+                    "@type": "item",
+                    "name": "src/backend/distributed/replication/multi_logical_replication.c"
+                },
+                {
+                    "@type": "item",
+                    "name": "src/include/distributed/remote_commands.h"
+                },
+                {
+                    "@type": "item",
+                    "name": "src/backend/distributed/connection/remote_commands.c"
+                },
+                {
+                    "@type": "item",
+                    "name": "src/include/distributed/string_utils.h"
+                },
+                {
+                    "@type": "item",
+                    "name": "src/backend/distributed/utils/string_utils.c"
+                },
+                {
+                    "@type": "item",
+                    "name": "src/include/distributed/shardsplit_logical_replication.h"
+                },
+                {
+                    "@type": "item",
+                    "name": "src/backend/distributed/shardsplit/shardsplit_logical_replication.c"
+                },
+                {
+                    "@type": "item",
+                    "name": "src/backend/distributed/operations/citus_tools.c"
+                },
+                {
+                    "@type": "item",
+                    "name": "src/backend/distributed/operations/health_check.c"
+                },
+                {
+                    "@type": "item",
+                    "name": "src/include/distributed/citus_safe_lib.h"
+                },
+                {
+                    "@type": "item",
+                    "name": "src/backend/distributed/utils/citus_safe_lib.c"
+                },
+                {
+                    "@type": "item",
+                    "name": "src/include/distributed/transaction_management.h"
+                },
+                {
+                    "@type": "item",
+                    "name": "src/include/distributed/remote_transaction.h"
+                },
+                {
+                    "@type": "item",
+                    "name": "src/backend/distributed/transaction/remote_transaction.c"
+                },
+                {
+                    "@type": "item",
+                    "name": "src/backend/distributed/transaction/transaction_management.c"
+                },
+                {
+                    "@type": "item",
+                    "name": "src/include/distributed/locally_reserved_shared_connections.h"
+                },
+                {
+                    "@type": "item",
+                    "name": "src/backend/distributed/connection/locally_reserved_shared_connections.c"
+                },
+                {
+                    "@type": "item",
+                    "name": "src/include/distributed/shared_connection_stats.h"
+                },
+                {
+                    "@type": "item",
+                    "name": "src/backend/distributed/connection/shared_connection_stats.c"
+                },
+                {
+                    "@type": "item",
+                    "name": "src/include/distributed/connection_management.h"
+                },
+                {
+                    "@type": "item",
+                    "name": "src/backend/distributed/connection/connection_management.c"
+                },
+                {
+                    "@type": "item",
+                    "name": "src/backend/distributed/connection/connection_configuration.c"
+                },
+                {
+                    "@type": "item",
+                    "name": "src/backend/distributed/test/xact_stats.c"
+                },
+                {
+                    "@type": "item",
+                    "name": "src/include/distributed/placement_connection.h"
+                },
+                {
+                    "@type": "item",
+                    "name": "src/backend/distributed/connection/placement_connection.c"
+                },
+                {
+                    "@type": "item",
+                    "name": "src/include/distributed/hash_helpers.h"
+                },
+                {
+                    "@type": "item",
+                    "name": "src/backend/distributed/utils/hash_helpers.c"
+                },
+                {
+                    "@type": "item",
+                    "name": "src/include/distributed/shard_cleaner.h"
+                },
+                {
+                    "@type": "item",
+                    "name": "src/backend/distributed/operations/shard_cleaner.c"
+                },
+                {
+                    "@type": "item",
+                    "name": "src/backend/distributed/test/shared_connection_counters.c"
+                },
+                {
+                    "@type": "item",
+                    "name": "src/include/distributed/param_utils.h"
+                },
+                {
+                    "@type": "item",
+                    "name": "src/backend/distributed/utils/param_utils.c"
+                },
+                {
+                    "@type": "item",
+                    "name": "src/include/distributed/worker_transaction.h"
+                },
+                {
+                    "@type": "item",
+                    "name": "src/backend/distributed/transaction/worker_transaction.c"
+                }
+            ]
+        },
+        {
+            "@type": "group",
+            "name": "3",
+            "nested": [
+                {
+                    "@type": "item",
+                    "name": "src/include/distributed/pg_dist_shard.h"
+                },
+                {
+                    "@type": "item",
+                    "name": "src/include/distributed/citus_acquire_lock.h"
+                },
+                {
+                    "@type": "item",
+                    "name": "src/backend/distributed/utils/acquire_lock.c"
+                },
+                {
+                    "@type": "item",
+                    "name": "src/backend/distributed/utils/resource_lock.c"
+                },
+                {
+                    "@type": "item",
+                    "name": "src/include/distributed/pg_dist_node_metadata.h"
+                },
+                {
+                    "@type": "item",
+                    "name": "src/include/distributed/metadata_sync.h"
+                },
+                {
+                    "@type": "item",
+                    "name": "src/backend/distributed/metadata/node_metadata.c"
+                },
+                {
+                    "@type": "item",
+                    "name": "src/backend/distributed/metadata/metadata_sync.c"
+                },
+                {
+                    "@type": "item",
+                    "name": "src/backend/distributed/cdc/cdc_decoder_utils.h"
+                },
+                {
+                    "@type": "item",
+                    "name": "src/backend/distributed/cdc/cdc_decoder_utils.c"
+                },
+                {
+                    "@type": "item",
+                    "name": "src/include/distributed/worker_manager.h"
+                },
+                {
+                    "@type": "item",
+                    "name": "src/backend/distributed/operations/worker_node_manager.c"
+                },
+                {
+                    "@type": "item",
+                    "name": "src/include/distributed/maintenanced.h"
+                },
+                {
+                    "@type": "item",
+                    "name": "src/backend/distributed/utils/maintenanced.c"
+                },
+                {
+                    "@type": "item",
+                    "name": "src/backend/distributed/worker/worker_drop_protocol.c"
+                },
+                {
+                    "@type": "item",
+                    "name": "src/include/distributed/multi_partitioning_utils.h"
+                },
+                {
+                    "@type": "item",
+                    "name": "src/backend/distributed/utils/multi_partitioning_utils.c"
+                },
+                {
+                    "@type": "item",
+                    "name": "src/include/distributed/shardinterval_utils.h"
+                },
+                {
+                    "@type": "item",
+                    "name": "src/backend/distributed/utils/shardinterval_utils.c"
+                },
+                {
+                    "@type": "item",
+                    "name": "src/include/distributed/colocation_utils.h"
+                },
+                {
+                    "@type": "item",
+                    "name": "src/backend/distributed/utils/colocation_utils.c"
+                },
+                {
+                    "@type": "item",
+                    "name": "src/include/distributed/background_jobs.h"
+                },
+                {
+                    "@type": "item",
+                    "name": "src/backend/distributed/utils/background_jobs.c"
+                },
+                {
+                    "@type": "item",
+                    "name": "src/include/distributed/distribution_column.h"
+                },
+                {
+                    "@type": "item",
+                    "name": "src/backend/distributed/utils/distribution_column.c"
+                },
+                {
+                    "@type": "item",
+                    "name": "src/include/distributed/resource_lock.h"
+                },
+                {
+                    "@type": "item",
+                    "name": "src/include/distributed/shard_transfer.h"
+                },
+                {
+                    "@type": "item",
+                    "name": "src/include/distributed/coordinator_protocol.h"
+                },
+                {
+                    "@type": "item",
+                    "name": "src/include/distributed/shard_split.h"
+                },
+                {
+                    "@type": "item",
+                    "name": "src/backend/distributed/operations/shard_transfer.c"
+                },
+                {
+                    "@type": "item",
+                    "name": "src/backend/distributed/operations/node_protocol.c"
+                },
+                {
+                    "@type": "item",
+                    "name": "src/backend/distributed/operations/delete_protocol.c"
+                },
+                {
+                    "@type": "item",
+                    "name": "src/backend/distributed/operations/modify_multiple_shards.c"
+                },
+                {
+                    "@type": "item",
+                    "name": "src/backend/distributed/operations/citus_split_shard_by_split_points.c"
+                },
+                {
+                    "@type": "item",
+                    "name": "src/backend/distributed/operations/create_shards.c"
+                },
+                {
+                    "@type": "item",
+                    "name": "src/backend/distributed/operations/stage_protocol.c"
+                },
+                {
+                    "@type": "item",
+                    "name": "src/backend/distributed/operations/shard_split.c"
+                },
+                {
+                    "@type": "item",
+                    "name": "src/backend/distributed/operations/isolate_shards.c"
+                },
+                {
+                    "@type": "item",
+                    "name": "src/include/distributed/metadata_cache.h"
+                },
+                {
+                    "@type": "item",
+                    "name": "src/backend/distributed/metadata/metadata_cache.c"
+                },
+                {
+                    "@type": "item",
+                    "name": "src/backend/distributed/metadata/metadata_utility.c"
+                },
+                {
+                    "@type": "item",
+                    "name": "src/include/distributed/shard_utils.h"
+                },
+                {
+                    "@type": "item",
+                    "name": "src/backend/distributed/utils/shard_utils.c"
+                },
+                {
+                    "@type": "item",
+                    "name": "src/include/distributed/utils/distribution_column_map.h"
+                },
+                {
+                    "@type": "item",
+                    "name": "src/backend/distributed/utils/distribution_column_map.c"
+                },
+                {
+                    "@type": "item",
+                    "name": "src/include/distributed/metadata_utility.h"
+                },
+                {
+                    "@type": "item",
+                    "name": "src/backend/distributed/commands/citus_add_local_table_to_metadata.c"
+                },
+                {
+                    "@type": "item",
+                    "name": "src/backend/distributed/commands/create_distributed_table.c"
+                },
+                {
+                    "@type": "item",
+                    "name": "src/backend/distributed/commands/alter_table.c"
+                },
+                {
+                    "@type": "item",
+                    "name": "src/include/distributed/reference_table_utils.h"
+                },
+                {
+                    "@type": "item",
+                    "name": "src/backend/distributed/utils/reference_table_utils.c"
+                }
+            ]
+        },
+        {
+            "@type": "group",
+            "name": "4",
+            "nested": [
+                {
+                    "@type": "item",
+                    "name": "src/include/distributed/worker_create_or_replace.h"
+                },
+                {
+                    "@type": "item",
+                    "name": "src/backend/distributed/worker/worker_create_or_replace.c"
+                },
+                {
+                    "@type": "item",
+                    "name": "src/include/distributed/metadata/distobject.h"
+                },
+                {
+                    "@type": "item",
+                    "name": "src/include/distributed/metadata/dependency.h"
+                },
+                {
+                    "@type": "item",
+                    "name": "src/backend/distributed/metadata/dependency.c"
+                },
+                {
+                    "@type": "item",
+                    "name": "src/backend/distributed/metadata/distobject.c"
+                },
+                {
+                    "@type": "item",
+                    "name": "src/backend/distributed/metadata/pg_get_object_address_13_14_15.c"
+                },
+                {
+                    "@type": "item",
+                    "name": "src/include/distributed/commands/utility_hook.h"
+                },
+                {
+                    "@type": "item",
+                    "name": "src/backend/distributed/commands/utility_hook.c"
+                },
+                {
+                    "@type": "item",
+                    "name": "src/backend/distributed/test/citus_depended_object.c"
+                },
+                {
+                    "@type": "item",
+                    "name": "src/include/distributed/commands.h"
+                },
+                {
+                    "@type": "item",
+                    "name": "src/include/distributed/commands/sequence.h"
+                },
+                {
+                    "@type": "item",
+                    "name": "src/backend/distributed/commands/publication.c"
+                },
+                {
+                    "@type": "item",
+                    "name": "src/backend/distributed/commands/view.c"
+                },
+                {
+                    "@type": "item",
+                    "name": "src/backend/distributed/commands/schema_based_sharding.c"
+                },
+                {
+                    "@type": "item",
+                    "name": "src/backend/distributed/commands/domain.c"
+                },
+                {
+                    "@type": "item",
+                    "name": "src/backend/distributed/commands/collation.c"
+                },
+                {
+                    "@type": "item",
+                    "name": "src/backend/distributed/commands/distribute_object_ops.c"
+                },
+                {
+                    "@type": "item",
+                    "name": "src/backend/distributed/commands/vacuum.c"
+                },
+                {
+                    "@type": "item",
+                    "name": "src/backend/distributed/commands/rename.c"
+                },
+                {
+                    "@type": "item",
+                    "name": "src/backend/distributed/commands/owned.c"
+                },
+                {
+                    "@type": "item",
+                    "name": "src/backend/distributed/commands/begin.c"
+                },
+                {
+                    "@type": "item",
+                    "name": "src/backend/distributed/commands/text_search.c"
+                },
+                {
+                    "@type": "item",
+                    "name": "src/backend/distributed/commands/truncate.c"
+                },
+                {
+                    "@type": "item",
+                    "name": "src/backend/distributed/commands/variableset.c"
+                },
+                {
+                    "@type": "item",
+                    "name": "src/backend/distributed/commands/cluster.c"
+                },
+                {
+                    "@type": "item",
+                    "name": "src/backend/distributed/commands/subscription.c"
+                },
+                {
+                    "@type": "item",
+                    "name": "src/backend/distributed/commands/statistics.c"
+                },
+                {
+                    "@type": "item",
+                    "name": "src/backend/distributed/commands/grant.c"
+                },
+                {
+                    "@type": "item",
+                    "name": "src/backend/distributed/commands/cascade_table_operation_for_connected_relations.c"
+                },
+                {
+                    "@type": "item",
+                    "name": "src/backend/distributed/commands/foreign_constraint.c"
+                },
+                {
+                    "@type": "item",
+                    "name": "src/backend/distributed/commands/schema.c"
+                },
+                {
+                    "@type": "item",
+                    "name": "src/backend/distributed/commands/foreign_data_wrapper.c"
+                },
+                {
+                    "@type": "item",
+                    "name": "src/backend/distributed/commands/foreign_server.c"
+                },
+                {
+                    "@type": "item",
+                    "name": "src/backend/distributed/commands/sequence.c"
+                },
+                {
+                    "@type": "item",
+                    "name": "src/backend/distributed/commands/database.c"
+                },
+                {
+                    "@type": "item",
+                    "name": "src/backend/distributed/commands/type.c"
+                },
+                {
+                    "@type": "item",
+                    "name": "src/backend/distributed/commands/function.c"
+                },
+                {
+                    "@type": "item",
+                    "name": "src/backend/distributed/commands/index_pg_source.c"
+                },
+                {
+                    "@type": "item",
+                    "name": "src/backend/distributed/commands/table.c"
+                },
+                {
+                    "@type": "item",
+                    "name": "src/backend/distributed/commands/call.c"
+                },
+                {
+                    "@type": "item",
+                    "name": "src/backend/distributed/commands/policy.c"
+                },
+                {
+                    "@type": "item",
+                    "name": "src/backend/distributed/commands/trigger.c"
+                },
+                {
+                    "@type": "item",
+                    "name": "src/backend/distributed/commands/extension.c"
+                },
+                {
+                    "@type": "item",
+                    "name": "src/backend/distributed/commands/common.c"
+                },
+                {
+                    "@type": "item",
+                    "name": "src/backend/distributed/commands/index.c"
+                },
+                {
+                    "@type": "item",
+                    "name": "src/include/distributed/deparser.h"
+                },
+                {
+                    "@type": "item",
+                    "name": "src/backend/distributed/deparser/qualify_role_stmt.c"
+                },
+                {
+                    "@type": "item",
+                    "name": "src/backend/distributed/deparser/qualify_aggregate_stmts.c"
+                },
+                {
+                    "@type": "item",
+                    "name": "src/backend/distributed/deparser/qualify_collation_stmt.c"
+                },
+                {
+                    "@type": "item",
+                    "name": "src/backend/distributed/deparser/objectaddress.c"
+                },
+                {
+                    "@type": "item",
+                    "name": "src/backend/distributed/deparser/deparse_extension_stmts.c"
+                },
+                {
+                    "@type": "item",
+                    "name": "src/backend/distributed/deparser/deparse_attribute_stmts.c"
+                },
+                {
+                    "@type": "item",
+                    "name": "src/backend/distributed/deparser/deparse_foreign_server_stmts.c"
+                },
+                {
+                    "@type": "item",
+                    "name": "src/backend/distributed/deparser/deparse_type_stmts.c"
+                },
+                {
+                    "@type": "item",
+                    "name": "src/backend/distributed/deparser/deparse_owned_stmts.c"
+                },
+                {
+                    "@type": "item",
+                    "name": "src/backend/distributed/deparser/qualify_publication_stmt.c"
+                },
+                {
+                    "@type": "item",
+                    "name": "src/backend/distributed/deparser/deparse_view_stmts.c"
+                },
+                {
+                    "@type": "item",
+                    "name": "src/backend/distributed/deparser/format_collate.c"
+                },
+                {
+                    "@type": "item",
+                    "name": "src/backend/distributed/deparser/qualify_domain.c"
+                },
+                {
+                    "@type": "item",
+                    "name": "src/backend/distributed/deparser/deparse_function_stmts.c"
+                },
+                {
+                    "@type": "item",
+                    "name": "src/backend/distributed/deparser/deparse_database_stmts.c"
+                },
+                {
+                    "@type": "item",
+                    "name": "src/backend/distributed/deparser/qualify_statistics_stmt.c"
+                },
+                {
+                    "@type": "item",
+                    "name": "src/backend/distributed/deparser/qualify_table_stmt.c"
+                },
+                {
+                    "@type": "item",
+                    "name": "src/backend/distributed/deparser/deparse_statistics_stmts.c"
+                },
+                {
+                    "@type": "item",
+                    "name": "src/backend/distributed/deparser/qualify_function_stmt.c"
+                },
+                {
+                    "@type": "item",
+                    "name": "src/backend/distributed/deparser/qualify_sequence_stmt.c"
+                },
+                {
+                    "@type": "item",
+                    "name": "src/backend/distributed/deparser/qualify_text_search_stmts.c"
+                },
+                {
+                    "@type": "item",
+                    "name": "src/backend/distributed/deparser/deparse_domain_stmts.c"
+                },
+                {
+                    "@type": "item",
+                    "name": "src/backend/distributed/deparser/deparse.c"
+                },
+                {
+                    "@type": "item",
+                    "name": "src/backend/distributed/deparser/deparse_role_stmts.c"
+                },
+                {
+                    "@type": "item",
+                    "name": "src/backend/distributed/deparser/deparse_publication_stmts.c"
+                },
+                {
+                    "@type": "item",
+                    "name": "src/backend/distributed/deparser/deparse_sequence_stmts.c"
+                },
+                {
+                    "@type": "item",
+                    "name": "src/backend/distributed/deparser/qualify.c"
+                },
+                {
+                    "@type": "item",
+                    "name": "src/backend/distributed/deparser/deparse_table_stmts.c"
+                },
+                {
+                    "@type": "item",
+                    "name": "src/backend/distributed/deparser/deparse_collation_stmts.c"
+                },
+                {
+                    "@type": "item",
+                    "name": "src/backend/distributed/deparser/deparse_text_search.c"
+                },
+                {
+                    "@type": "item",
+                    "name": "src/backend/distributed/deparser/qualify_view_stmt.c"
+                },
+                {
+                    "@type": "item",
+                    "name": "src/backend/distributed/deparser/qualify_type_stmt.c"
+                },
+                {
+                    "@type": "item",
+                    "name": "src/backend/distributed/deparser/deparse_foreign_data_wrapper_stmts.c"
+                },
+                {
+                    "@type": "item",
+                    "name": "src/backend/distributed/deparser/deparse_schema_stmts.c"
+                },
+                {
+                    "@type": "item",
+                    "name": "src/include/pg_version_compat.h"
+                },
+                {
+                    "@type": "item",
+                    "name": "src/include/distributed/citus_ruleutils.h"
+                },
+                {
+                    "@type": "item",
+                    "name": "src/backend/distributed/deparser/citus_ruleutils.c"
+                },
+                {
+                    "@type": "item",
+                    "name": "src/include/distributed/relation_utils.h"
+                },
+                {
+                    "@type": "item",
+                    "name": "src/backend/distributed/utils/relation_utils.c"
+                },
+                {
+                    "@type": "item",
+                    "name": "src/backend/distributed/commands/role.c"
+                },
+                {
+                    "@type": "item",
+                    "name": "src/backend/distributed/test/foreign_key_relationship_query.c"
+                },
+                {
+                    "@type": "item",
+                    "name": "src/backend/distributed/commands/dependencies.c"
+                },
+                {
+                    "@type": "item",
+                    "name": "src/include/distributed/relay_utility.h"
+                },
+                {
+                    "@type": "item",
+                    "name": "src/backend/distributed/relay/relay_event_utility.c"
+                },
+                {
+                    "@type": "item",
+                    "name": "src/include/distributed/citus_depended_object.h"
+                },
+                {
+                    "@type": "item",
+                    "name": "src/backend/distributed/utils/citus_depended_object.c"
+                },
+                {
+                    "@type": "item",
+                    "name": "src/include/distributed/foreign_key_relationship.h"
+                },
+                {
+                    "@type": "item",
+                    "name": "src/backend/distributed/utils/foreign_key_relationship.c"
+                },
+                {
+                    "@type": "item",
+                    "name": "src/backend/distributed/test/dependency.c"
+                },
+                {
+                    "@type": "item",
+                    "name": "src/include/distributed/namespace_utils.h"
+                },
+                {
+                    "@type": "item",
+                    "name": "src/backend/distributed/utils/namespace_utils.c"
+                },
+                {
+                    "@type": "item",
+                    "name": "src/include/distributed/enterprise.h"
+                }
+            ]
+        },
+        {
+            "@type": "group",
+            "name": "5",
+            "nested": [
+                {
+                    "@type": "item",
+                    "name": "src/include/distributed/pg_dist_cleanup.h"
+                },
+                {
+                    "@type": "item",
+                    "name": "src/include/distributed/pg_dist_partition.h"
+                },
+                {
+                    "@type": "item",
+                    "name": "src/backend/distributed/test/fake_fdw.c"
+                },
+                {
+                    "@type": "item",
+                    "name": "src/include/distributed/pg_dist_node.h"
+                },
+                {
+                    "@type": "item",
+                    "name": "src/include/distributed/pg_dist_schema.h"
+                },
+                {
+                    "@type": "item",
+                    "name": "src/include/distributed/pg_dist_backrgound_task_depend.h"
+                },
+                {
+                    "@type": "item",
+                    "name": "src/include/distributed/pg_dist_background_job.h"
+                },
+                {
+                    "@type": "item",
+                    "name": "src/include/distributed/pg_dist_placement.h"
+                },
+                {
+                    "@type": "item",
+                    "name": "src/include/distributed/pg_dist_background_task.h"
+                },
+                {
+                    "@type": "item",
+                    "name": "src/include/distributed/pg_dist_colocation.h"
+                },
+                {
+                    "@type": "item",
+                    "name": "src/backend/distributed/deparser/ruleutils_14.c"
+                },
+                {
+                    "@type": "item",
+                    "name": "src/backend/distributed/deparser/ruleutils_15.c"
+                },
+                {
+                    "@type": "item",
+                    "name": "src/include/distributed/metadata/pg_dist_object.h"
+                },
+                {
+                    "@type": "item",
+                    "name": "src/include/distributed/pg_dist_transaction.h"
+                },
+                {
+                    "@type": "item",
+                    "name": "src/include/distributed/pg_dist_local_group.h"
+                },
+                {
+                    "@type": "item",
+                    "name": "src/include/distributed/pg_version_constants.h"
+                },
+                {
+                    "@type": "item",
+                    "name": "src/backend/distributed/test/fake_am.c"
+                }
+            ]
+        },
+        {
+            "@type": "group",
+            "name": "6",
+            "nested": [
+                {
+                    "@type": "item",
+                    "name": "src/include/distributed/local_multi_copy.h"
+                },
+                {
+                    "@type": "item",
+                    "name": "src/backend/distributed/commands/local_multi_copy.c"
+                },
+                {
+                    "@type": "item",
+                    "name": "src/include/distributed/transmit.h"
+                },
+                {
+                    "@type": "item",
+                    "name": "src/backend/distributed/executor/transmit.c"
+                },
+                {
+                    "@type": "item",
+                    "name": "src/include/distributed/worker_protocol.h"
+                },
+                {
+                    "@type": "item",
+                    "name": "src/backend/distributed/worker/worker_data_fetch_protocol.c"
+                },
+                {
+                    "@type": "item",
+                    "name": "src/backend/distributed/worker/worker_sql_task_protocol.c"
+                },
+                {
+                    "@type": "item",
+                    "name": "src/include/distributed/worker_shard_copy.h"
+                },
+                {
+                    "@type": "item",
+                    "name": "src/backend/distributed/operations/worker_shard_copy.c"
+                },
+                {
+                    "@type": "item",
+                    "name": "src/backend/distributed/operations/worker_split_copy_udf.c"
+                },
+                {
+                    "@type": "item",
+                    "name": "src/include/distributed/utils/array_type.h"
+                },
+                {
+                    "@type": "item",
+                    "name": "src/backend/distributed/utils/array_type.c"
+                },
+                {
+                    "@type": "item",
+                    "name": "src/include/distributed/utils/directory.h"
+                },
+                {
+                    "@type": "item",
+                    "name": "src/backend/distributed/utils/directory.c"
+                },
+                {
+                    "@type": "item",
+                    "name": "src/backend/distributed/utils/aggregate_utils.c"
+                },
+                {
+                    "@type": "item",
+                    "name": "src/include/distributed/version_compat.h"
+                },
+                {
+                    "@type": "item",
+                    "name": "src/include/distributed/intermediate_results.h"
+                },
+                {
+                    "@type": "item",
+                    "name": "src/backend/distributed/executor/partitioned_intermediate_results.c"
+                },
+                {
+                    "@type": "item",
+                    "name": "src/backend/distributed/executor/distributed_intermediate_results.c"
+                },
+                {
+                    "@type": "item",
+                    "name": "src/backend/distributed/executor/intermediate_results.c"
+                },
+                {
+                    "@type": "item",
+                    "name": "src/include/distributed/tdigest_extension.h"
+                },
+                {
+                    "@type": "item",
+                    "name": "src/backend/distributed/planner/tdigest_extension.c"
+                },
+                {
+                    "@type": "item",
+                    "name": "src/backend/distributed/test/distributed_intermediate_results.c"
+                },
+                {
+                    "@type": "item",
+                    "name": "src/backend/distributed/utils/role.c"
+                },
+                {
+                    "@type": "item",
+                    "name": "src/include/distributed/commands/multi_copy.h"
+                },
+                {
+                    "@type": "item",
+                    "name": "src/backend/distributed/commands/multi_copy.c"
+                }
+            ]
+        },
+        {
+            "@type": "group",
+            "name": "7",
+            "nested": [
+                {
+                    "@type": "item",
+                    "name": "src/include/distributed/replication_origin_session_utils.h"
+                },
+                {
+                    "@type": "item",
+                    "name": "src/backend/distributed/utils/replication_origin_session_utils.c"
+                },
+                {
+                    "@type": "item",
+                    "name": "src/include/columnar/columnar_customscan.h"
+                },
+                {
+                    "@type": "item",
+                    "name": "src/backend/columnar/columnar_customscan.c"
+                },
+                {
+                    "@type": "item",
+                    "name": "src/backend/columnar/columnar_debug.c"
+                },
+                {
+                    "@type": "item",
+                    "name": "src/include/columnar/columnar.h"
+                },
+                {
+                    "@type": "item",
+                    "name": "src/include/columnar/columnar_metadata.h"
+                },
+                {
+                    "@type": "item",
+                    "name": "src/backend/columnar/write_state_management.c"
+                },
+                {
+                    "@type": "item",
+                    "name": "src/backend/columnar/columnar_writer.c"
+                },
+                {
+                    "@type": "item",
+                    "name": "src/backend/columnar/columnar_metadata.c"
+                },
+                {
+                    "@type": "item",
+                    "name": "src/backend/columnar/columnar.c"
+                },
+                {
+                    "@type": "item",
+                    "name": "src/backend/columnar/columnar_reader.c"
+                },
+                {
+                    "@type": "item",
+                    "name": "src/include/columnar/columnar_storage.h"
+                },
+                {
+                    "@type": "item",
+                    "name": "src/backend/columnar/columnar_storage.c"
+                },
+                {
+                    "@type": "item",
+                    "name": "src/include/columnar/columnar_compression.h"
+                },
+                {
+                    "@type": "item",
+                    "name": "src/backend/columnar/columnar_compression.c"
+                },
+                {
+                    "@type": "item",
+                    "name": "src/include/columnar/columnar_version_compat.h"
+                },
+                {
+                    "@type": "item",
+                    "name": "src/include/distributed/cte_inline.h"
+                },
+                {
+                    "@type": "item",
+                    "name": "src/backend/distributed/planner/cte_inline.c"
+                },
+                {
+                    "@type": "item",
+                    "name": "src/include/columnar/columnar_tableam.h"
+                },
+                {
+                    "@type": "item",
+                    "name": "src/backend/columnar/columnar_tableam.c"
+                },
+                {
+                    "@type": "item",
+                    "name": "src/backend/distributed/cdc/cdc_decoder.c"
+                }
+            ]
+        },
+        {
+            "@type": "group",
+            "name": "8",
+            "nested": [
+                {
+                    "@type": "item",
+                    "name": "vendor/safestringlib/include/safe_types.h"
+                },
+                {
+                    "@type": "item",
+                    "name": "vendor/safestringlib/safeclib/mem_primitives_lib.h"
+                },
+                {
+                    "@type": "item",
+                    "name": "vendor/safestringlib/safeclib/mem_primitives_lib.c"
+                },
+                {
+                    "@type": "item",
+                    "name": "vendor/safestringlib/include/safe_mem_lib.h"
+                },
+                {
+                    "@type": "item",
+                    "name": "vendor/safestringlib/safeclib/safe_mem_constraint.h"
+                },
+                {
+                    "@type": "item",
+                    "name": "vendor/safestringlib/safeclib/memzero32_s.c"
+                },
+                {
+                    "@type": "item",
+                    "name": "vendor/safestringlib/safeclib/memmove_s.c"
+                },
+                {
+                    "@type": "item",
+                    "name": "vendor/safestringlib/safeclib/wmemset_s.c"
+                },
+                {
+                    "@type": "item",
+                    "name": "vendor/safestringlib/safeclib/memzero16_s.c"
+                },
+                {
+                    "@type": "item",
+                    "name": "vendor/safestringlib/safeclib/memmove16_s.c"
+                },
+                {
+                    "@type": "item",
+                    "name": "vendor/safestringlib/safeclib/memcmp32_s.c"
+                },
+                {
+                    "@type": "item",
+                    "name": "vendor/safestringlib/safeclib/memcpy32_s.c"
+                },
+                {
+                    "@type": "item",
+                    "name": "vendor/safestringlib/safeclib/memset16_s.c"
+                },
+                {
+                    "@type": "item",
+                    "name": "vendor/safestringlib/safeclib/wmemcmp_s.c"
+                },
+                {
+                    "@type": "item",
+                    "name": "vendor/safestringlib/safeclib/memmove32_s.c"
+                },
+                {
+                    "@type": "item",
+                    "name": "vendor/safestringlib/safeclib/wmemcpy_s.c"
+                },
+                {
+                    "@type": "item",
+                    "name": "vendor/safestringlib/safeclib/memset32_s.c"
+                },
+                {
+                    "@type": "item",
+                    "name": "vendor/safestringlib/safeclib/wmemmove_s.c"
+                },
+                {
+                    "@type": "item",
+                    "name": "vendor/safestringlib/safeclib/memcpy_s.c"
+                },
+                {
+                    "@type": "item",
+                    "name": "vendor/safestringlib/safeclib/memcmp16_s.c"
+                },
+                {
+                    "@type": "item",
+                    "name": "vendor/safestringlib/safeclib/memcmp_s.c"
+                },
+                {
+                    "@type": "item",
+                    "name": "vendor/safestringlib/safeclib/memset_s.c"
+                },
+                {
+                    "@type": "item",
+                    "name": "vendor/safestringlib/safeclib/memcpy16_s.c"
+                },
+                {
+                    "@type": "item",
+                    "name": "vendor/safestringlib/safeclib/memzero_s.c"
+                },
+                {
+                    "@type": "item",
+                    "name": "vendor/safestringlib/safeclib/safe_mem_constraint.c"
+                },
+                {
+                    "@type": "item",
+                    "name": "vendor/safestringlib/include/safe_str_lib.h"
+                },
+                {
+                    "@type": "item",
+                    "name": "vendor/safestringlib/safeclib/safe_str_constraint.h"
+                },
+                {
+                    "@type": "item",
+                    "name": "vendor/safestringlib/safeclib/strnterminate_s.c"
+                },
+                {
+                    "@type": "item",
+                    "name": "vendor/safestringlib/safeclib/strcat_s.c"
+                },
+                {
+                    "@type": "item",
+                    "name": "vendor/safestringlib/safeclib/strcpy_s.c"
+                },
+                {
+                    "@type": "item",
+                    "name": "vendor/safestringlib/safeclib/wcsnlen_s.c"
+                },
+                {
+                    "@type": "item",
+                    "name": "vendor/safestringlib/safeclib/strisuppercase_s.c"
+                },
+                {
+                    "@type": "item",
+                    "name": "vendor/safestringlib/safeclib/strlastdiff_s.c"
+                },
+                {
+                    "@type": "item",
+                    "name": "vendor/safestringlib/safeclib/strislowercase_s.c"
+                },
+                {
+                    "@type": "item",
+                    "name": "vendor/safestringlib/safeclib/wcsncat_s.c"
+                },
+                {
+                    "@type": "item",
+                    "name": "vendor/safestringlib/safeclib/strstr_s.c"
+                },
+                {
+                    "@type": "item",
+                    "name": "vendor/safestringlib/safeclib/stpncpy_s.c"
+                },
+                {
+                    "@type": "item",
+                    "name": "vendor/safestringlib/safeclib/strpbrk_s.c"
+                },
+                {
+                    "@type": "item",
+                    "name": "vendor/safestringlib/safeclib/strremovews_s.c"
+                },
+                {
+                    "@type": "item",
+                    "name": "vendor/safestringlib/safeclib/strcasestr_s.c"
+                },
+                {
+                    "@type": "item",
+                    "name": "vendor/safestringlib/safeclib/strcspn_s.c"
+                },
+                {
+                    "@type": "item",
+                    "name": "vendor/safestringlib/safeclib/strcpyfld_s.c"
+                },
+                {
+                    "@type": "item",
+                    "name": "vendor/safestringlib/safeclib/strcmpfld_s.c"
+                },
+                {
+                    "@type": "item",
+                    "name": "vendor/safestringlib/safeclib/strspn_s.c"
+                },
+                {
+                    "@type": "item",
+                    "name": "vendor/safestringlib/safeclib/strfirstsame_s.c"
+                },
+                {
+                    "@type": "item",
+                    "name": "vendor/safestringlib/safeclib/strlastchar_s.c"
+                },
+                {
+                    "@type": "item",
+                    "name": "vendor/safestringlib/safeclib/strcpyfldout_s.c"
+                },
+                {
+                    "@type": "item",
+                    "name": "vendor/safestringlib/safeclib/strisdigit_s.c"
+                },
+                {
+                    "@type": "item",
+                    "name": "vendor/safestringlib/safeclib/strcasecmp_s.c"
+                },
+                {
+                    "@type": "item",
+                    "name": "vendor/safestringlib/safeclib/strcmp_s.c"
+                },
+                {
+                    "@type": "item",
+                    "name": "vendor/safestringlib/safeclib/strtok_s.c"
+                },
+                {
+                    "@type": "item",
+                    "name": "vendor/safestringlib/safeclib/strisalphanumeric_s.c"
+                },
+                {
+                    "@type": "item",
+                    "name": "vendor/safestringlib/safeclib/strlastsame_s.c"
+                },
+                {
+                    "@type": "item",
+                    "name": "vendor/safestringlib/safeclib/strisascii_s.c"
+                },
+                {
+                    "@type": "item",
+                    "name": "vendor/safestringlib/safeclib/strprefix_s.c"
+                },
+                {
+                    "@type": "item",
+                    "name": "vendor/safestringlib/safeclib/safe_str_constraint.c"
+                },
+                {
+                    "@type": "item",
+                    "name": "vendor/safestringlib/safeclib/stpcpy_s.c"
+                },
+                {
+                    "@type": "item",
+                    "name": "vendor/safestringlib/safeclib/wcscpy_s.c"
+                },
+                {
+                    "@type": "item",
+                    "name": "vendor/safestringlib/safeclib/wcpcpy_s.c"
+                },
+                {
+                    "@type": "item",
+                    "name": "vendor/safestringlib/safeclib/strfirstchar_s.c"
+                },
+                {
+                    "@type": "item",
+                    "name": "vendor/safestringlib/safeclib/strishex_s.c"
+                },
+                {
+                    "@type": "item",
+                    "name": "vendor/safestringlib/safeclib/strfirstdiff_s.c"
+                },
+                {
+                    "@type": "item",
+                    "name": "vendor/safestringlib/safeclib/strismixedcase_s.c"
+                },
+                {
+                    "@type": "item",
+                    "name": "vendor/safestringlib/safeclib/strtouppercase_s.c"
+                },
+                {
+                    "@type": "item",
+                    "name": "vendor/safestringlib/safeclib/wcsncpy_s.c"
+                },
+                {
+                    "@type": "item",
+                    "name": "vendor/safestringlib/safeclib/strispassword_s.c"
+                },
+                {
+                    "@type": "item",
+                    "name": "vendor/safestringlib/safeclib/strljustify_s.c"
+                },
+                {
+                    "@type": "item",
+                    "name": "vendor/safestringlib/safeclib/strzero_s.c"
+                },
+                {
+                    "@type": "item",
+                    "name": "vendor/safestringlib/safeclib/strncpy_s.c"
+                },
+                {
+                    "@type": "item",
+                    "name": "vendor/safestringlib/safeclib/strtolowercase_s.c"
+                },
+                {
+                    "@type": "item",
+                    "name": "vendor/safestringlib/safeclib/wcscat_s.c"
+                },
+                {
+                    "@type": "item",
+                    "name": "vendor/safestringlib/safeclib/strncat_s.c"
+                },
+                {
+                    "@type": "item",
+                    "name": "vendor/safestringlib/safeclib/strcpyfldin_s.c"
+                },
+                {
+                    "@type": "item",
+                    "name": "vendor/safestringlib/safeclib/strnlen_s.c"
+                },
+                {
+                    "@type": "item",
+                    "name": "vendor/safestringlib/include/snprintf_s.h"
+                },
+                {
+                    "@type": "item",
+                    "name": "vendor/safestringlib/safeclib/snprintf_support.c"
+                },
+                {
+                    "@type": "item",
+                    "name": "vendor/safestringlib/include/safe_lib_errno.h"
+                },
+                {
+                    "@type": "item",
+                    "name": "vendor/safestringlib/include/safe_lib.h"
+                },
+                {
+                    "@type": "item",
+                    "name": "vendor/safestringlib/safeclib/ignore_handler_s.c"
+                },
+                {
+                    "@type": "item",
+                    "name": "vendor/safestringlib/safeclib/abort_handler_s.c"
+                },
+                {
+                    "@type": "item",
+                    "name": "vendor/safestringlib/safeclib/safeclib_private.h"
+                }
+            ]
+        },
+        {
+            "@type": "group",
+            "name": "9",
+            "nested": [
+                {
+                    "@type": "item",
+                    "name": "src/include/distributed/argutils.h"
+                },
+                {
+                    "@type": "item",
+                    "name": "src/backend/distributed/operations/shard_rebalancer.c"
+                },
+                {
+                    "@type": "item",
+                    "name": "src/include/distributed/pg_dist_rebalance_strategy.h"
+                },
+                {
+                    "@type": "item",
+                    "name": "src/include/distributed/shard_rebalancer.h"
+                },
+                {
+                    "@type": "item",
+                    "name": "src/backend/distributed/test/shard_rebalancer.c"
+                },
+                {
+                    "@type": "item",
+                    "name": "src/include/distributed/multi_progress.h"
+                },
+                {
+                    "@type": "item",
+                    "name": "src/backend/distributed/progress/multi_progress.c"
+                },
+                {
+                    "@type": "item",
+                    "name": "src/backend/distributed/test/progress_utils.c"
+                },
+                {
+                    "@type": "item",
+                    "name": "src/include/distributed/priority.h"
+                },
+                {
+                    "@type": "item",
+                    "name": "src/backend/distributed/utils/priority.c"
+                }
+            ]
+        },
+        {
+            "@type": "group",
+            "name": "10",
+            "nested": [
+                {
+                    "@type": "item",
+                    "name": "src/include/distributed/intermediate_result_pruning.h"
+                },
+                {
+                    "@type": "item",
+                    "name": "src/backend/distributed/planner/intermediate_result_pruning.c"
+                },
+                {
+                    "@type": "item",
+                    "name": "src/include/distributed/subplan_execution.h"
+                },
+                {
+                    "@type": "item",
+                    "name": "src/backend/distributed/executor/subplan_execution.c"
+                },
+                {
+                    "@type": "item",
+                    "name": "src/include/distributed/error_codes.h"
+                },
+                {
+                    "@type": "item",
+                    "name": "src/include/distributed/time_constants.h"
+                },
+                {
+                    "@type": "item",
+                    "name": "src/include/distributed/listutils.h"
+                },
+                {
+                    "@type": "item",
+                    "name": "src/backend/distributed/utils/listutils.c"
+                },
+                {
+                    "@type": "item",
+                    "name": "src/backend/distributed/test/intermediate_results.c"
+                }
+            ]
+        },
+        {
+            "@type": "group",
+            "name": "11",
+            "nested": [
+                {
+                    "@type": "item",
+                    "name": "src/include/distributed/extended_op_node_utils.h"
+                },
+                {
+                    "@type": "item",
+                    "name": "src/backend/distributed/planner/extended_op_node_utils.c"
+                },
+                {
+                    "@type": "item",
+                    "name": "src/include/distributed/multi_logical_optimizer.h"
+                },
+                {
+                    "@type": "item",
+                    "name": "src/backend/distributed/planner/multi_logical_optimizer.c"
+                },
+                {
+                    "@type": "item",
+                    "name": "src/include/distributed/multi_logical_planner.h"
+                },
+                {
+                    "@type": "item",
+                    "name": "src/backend/distributed/planner/multi_logical_planner.c"
+                },
+                {
+                    "@type": "item",
+                    "name": "src/include/distributed/query_utils.h"
+                },
+                {
+                    "@type": "item",
+                    "name": "src/backend/distributed/utils/query_utils.c"
+                },
+                {
+                    "@type": "item",
+                    "name": "src/include/distributed/multi_join_order.h"
+                },
+                {
+                    "@type": "item",
+                    "name": "src/backend/distributed/planner/multi_join_order.c"
+                },
+                {
+                    "@type": "item",
+                    "name": "src/include/distributed/query_pushdown_planning.h"
+                },
+                {
+                    "@type": "item",
+                    "name": "src/backend/distributed/planner/query_pushdown_planning.c"
+                }
+            ]
+        },
+        {
+            "@type": "group",
+            "name": "12",
+            "nested": [
+                {
+                    "@type": "item",
+                    "name": "src/backend/columnar/mod.c"
+                },
+                {
+                    "@type": "item",
+                    "name": "src/include/distributed/causal_clock.h"
+                },
+                {
+                    "@type": "item",
+                    "name": "src/backend/distributed/clock/causal_clock.c"
+                },
+                {
+                    "@type": "item",
+                    "name": "src/include/distributed/type_utils.h"
+                },
+                {
+                    "@type": "item",
+                    "name": "src/backend/distributed/utils/type_utils.c"
+                }
+            ]
+        },
+        {
+            "@type": "group",
+            "name": "13",
+            "nested": [
+                {
+                    "@type": "item",
+                    "name": "src/backend/distributed/test/relation_access_tracking.c"
+                },
+                {
+                    "@type": "item",
+                    "name": "src/include/distributed/placement_access.h"
+                },
+                {
+                    "@type": "item",
+                    "name": "src/backend/distributed/executor/placement_access.c"
+                },
+                {
+                    "@type": "item",
+                    "name": "src/include/distributed/relation_access_tracking.h"
+                },
+                {
+                    "@type": "item",
+                    "name": "src/backend/distributed/transaction/relation_access_tracking.c"
+                }
+            ]
+        }
+    ]
+}

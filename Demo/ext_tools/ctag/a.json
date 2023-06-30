@@ -1,0 +1,34 @@
+{"_type": "tag", "name": "BPOLY", "path": ".\\aes.c", "pattern": "/^#define BPOLY /", "file": true, "kind": "macro"}
+{"_type": "tag", "name": "INV_SBOX", "path": ".\\aes.c", "pattern": "/^#define INV_SBOX(/", "file": true, "kind": "macro"}
+{"_type": "tag", "name": "SBOX", "path": ".\\aes.c", "pattern": "/^#define SBOX(/", "file": true, "kind": "macro"}
+{"_type": "tag", "name": "add_round_key", "path": ".\\aes.c", "pattern": "/^static void add_round_key(void)$/", "file": true, "typeref": "typename:void", "kind": "function"}
+{"_type": "tag", "name": "aes_decrypt_128", "path": ".\\aes.c", "pattern": "/^void aes_decrypt_128(uint8_t *m, const uint8_t *c)$/", "typeref": "typename:void", "kind": "function"}
+{"_type": "tag", "name": "aes_decrypt_128_hardware_like", "path": ".\\aes.c", "pattern": "/^void aes_decrypt_128_hardware_like(uint8_t *m, const uint8_t *c)$/", "typeref": "typename:void", "kind": "function"}
+{"_type": "tag", "name": "aes_encrypt_128", "path": ".\\aes.c", "pattern": "/^void aes_encrypt_128(uint8_t *c, const uint8_t *m)$/", "typeref": "typename:void", "kind": "function"}
+{"_type": "tag", "name": "aes_encrypt_128_hardware_like", "path": ".\\aes.c", "pattern": "/^void aes_encrypt_128_hardware_like(uint8_t *c, const uint8_t *m)$/", "typeref": "typename:void", "kind": "function"}
+{"_type": "tag", "name": "aes_init", "path": ".\\aes.c", "pattern": "/^aes_init(void)$/", "typeref": "typename:void", "kind": "function"}
+{"_type": "tag", "name": "aes_round", "path": ".\\aes.c", "pattern": "/^static void aes_round(void)$/", "file": true, "typeref": "typename:void", "kind": "function"}
+{"_type": "tag", "name": "aes_setkey_128", "path": ".\\aes.c", "pattern": "/^void aes_setkey_128(const uint8_t *key)$/", "typeref": "typename:void", "kind": "function"}
+{"_type": "tag", "name": "aesinvkey", "path": ".\\aes.c", "pattern": "/^static uint8_t aesinvkey[16];$/", "file": true, "typeref": "typename:uint8_t[16]", "kind": "variable"}
+{"_type": "tag", "name": "aeskey", "path": ".\\aes.c", "pattern": "/^static uint8_t aeskey[16];$/", "file": true, "typeref": "typename:uint8_t[16]", "kind": "variable"}
+{"_type": "tag", "name": "div2", "path": ".\\aes.c", "pattern": "/^static inline uint8_t div2(uint8_t a)$/", "file": true, "typeref": "typename:uint8_t", "kind": "function"}
+{"_type": "tag", "name": "inv_aes_round", "path": ".\\aes.c", "pattern": "/^static void inv_aes_round(void)$/", "file": true, "typeref": "typename:void", "kind": "function"}
+{"_type": "tag", "name": "inv_key_expansion", "path": ".\\aes.c", "pattern": "/^static void inv_key_expansion(void)$/", "file": true, "typeref": "typename:void", "kind": "function"}
+{"_type": "tag", "name": "inv_mix_column", "path": ".\\aes.c", "pattern": "/^static inline void inv_mix_column(uint8_t col)$/", "file": true, "typeref": "typename:void", "kind": "function"}
+{"_type": "tag", "name": "inv_mix_columns", "path": ".\\aes.c", "pattern": "/^static void inv_mix_columns(void)$/", "file": true, "typeref": "typename:void", "kind": "function"}
+{"_type": "tag", "name": "inv_sbox", "path": ".\\aes.c", "pattern": "/^const uint8_t inv_sbox[256] = {$/", "typeref": "typename:const uint8_t[256]", "kind": "variable"}
+{"_type": "tag", "name": "inv_shift_rows", "path": ".\\aes.c", "pattern": "/^static void inv_shift_rows(void)$/", "file": true, "typeref": "typename:void", "kind": "function"}
+{"_type": "tag", "name": "inv_sub_byte", "path": ".\\aes.c", "pattern": "/^inv_sub_byte(void)$/", "file": true, "typeref": "typename:void", "kind": "function"}
+{"_type": "tag", "name": "key_expansion", "path": ".\\aes.c", "pattern": "/^static void key_expansion(void)$/", "file": true, "typeref": "typename:void", "kind": "function"}
+{"_type": "tag", "name": "mix_column", "path": ".\\aes.c", "pattern": "/^static inline void mix_column(uint8_t col)$/", "file": true, "typeref": "typename:void", "kind": "function"}
+{"_type": "tag", "name": "mix_columns", "path": ".\\aes.c", "pattern": "/^static void mix_columns(void)$/", "file": true, "typeref": "typename:void", "kind": "function"}
+{"_type": "tag", "name": "mul2", "path": ".\\aes.c", "pattern": "/^static inline uint8_t  mul2(uint8_t a)$/", "file": true, "typeref": "typename:uint8_t", "kind": "function"}
+{"_type": "tag", "name": "nop10", "path": ".\\aes.c", "pattern": "/^#define nop10(/", "file": true, "kind": "macro"}
+{"_type": "tag", "name": "nop100", "path": ".\\aes.c", "pattern": "/^#define nop100(/", "file": true, "kind": "macro"}
+{"_type": "tag", "name": "nop30", "path": ".\\aes.c", "pattern": "/^#define nop30(/", "file": true, "kind": "macro"}
+{"_type": "tag", "name": "rcon", "path": ".\\aes.c", "pattern": "/^static uint8_t rcon;$/", "file": true, "typeref": "typename:uint8_t", "kind": "variable"}
+{"_type": "tag", "name": "rkey", "path": ".\\aes.c", "pattern": "/^static uint8_t rkey[16];$/", "file": true, "typeref": "typename:uint8_t[16]", "kind": "variable"}
+{"_type": "tag", "name": "s", "path": ".\\aes.c", "pattern": "/^static uint8_t *s;$/", "file": true, "typeref": "typename:uint8_t *", "kind": "variable"}
+{"_type": "tag", "name": "sbox", "path": ".\\aes.c", "pattern": "/^const uint8_t sbox[256] = {$/", "typeref": "typename:const uint8_t[256]", "kind": "variable"}
+{"_type": "tag", "name": "shift_rows", "path": ".\\aes.c", "pattern": "/^static void shift_rows(void)$/", "file": true, "typeref": "typename:void", "kind": "function"}
+{"_type": "tag", "name": "sub_byte", "path": ".\\aes.c", "pattern": "/^static void sub_byte(void)$/", "file": true, "typeref": "typename:void", "kind": "function"}

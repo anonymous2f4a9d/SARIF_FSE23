@@ -1,0 +1,58 @@
+{
+    "@schemaVersion": "1.0",
+    "name": "clustering",
+    "structure": [
+        {
+            "@type": "group",
+            "name": "0",
+            "nested": [
+                {
+                    "@type": "item",
+                    "name": "src/coroutine.h"
+                },
+                {
+                    "@type": "item",
+                    "name": "src/coroutine.cc"
+                },
+                {
+                    "@type": "item",
+                    "name": "src/v8-version.h"
+                }
+            ]
+        },
+        {
+            "@type": "group",
+            "name": "1",
+            "nested": [
+                {
+                    "@type": "item",
+                    "name": "src/fibers.cc"
+                }
+            ]
+        },
+        {
+            "@type": "group",
+            "name": "2",
+            "nested": [
+                {
+                    "@type": "item",
+                    "name": "src/libcoro/conftest.c"
+                }
+            ]
+        },
+        {
+            "@type": "group",
+            "name": "3",
+            "nested": [
+                {
+                    "@type": "item",
+                    "name": "src/libcoro/coro.h"
+                },
+                {
+                    "@type": "item",
+                    "name": "src/libcoro/coro.c"
+                }
+            ]
+        }
+    ]
+}

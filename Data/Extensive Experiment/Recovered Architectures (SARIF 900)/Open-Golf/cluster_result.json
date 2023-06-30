@@ -1,0 +1,684 @@
+{
+    "@schemaVersion": "1.0",
+    "name": "clustering",
+    "structure": [
+        {
+            "@type": "group",
+            "name": "0",
+            "nested": [
+                {
+                    "@type": "item",
+                    "name": "src/3rd_party/sokol/sokol_gfx.h"
+                },
+                {
+                    "@type": "item",
+                    "name": "src/editor/draw.h"
+                },
+                {
+                    "@type": "item",
+                    "name": "src/editor/draw.c"
+                },
+                {
+                    "@type": "item",
+                    "name": "src/common/level.h"
+                },
+                {
+                    "@type": "item",
+                    "name": "src/common/level.c"
+                },
+                {
+                    "@type": "item",
+                    "name": "src/common/thread.h"
+                },
+                {
+                    "@type": "item",
+                    "name": "src/common/thread.c"
+                },
+                {
+                    "@type": "item",
+                    "name": "src/3rd_party/parson/parson.h"
+                },
+                {
+                    "@type": "item",
+                    "name": "src/3rd_party/parson/parson.c"
+                },
+                {
+                    "@type": "item",
+                    "name": "src/3rd_party/xatlas/xatlas.h"
+                },
+                {
+                    "@type": "item",
+                    "name": "src/3rd_party/xatlas/xatlas.cpp"
+                },
+                {
+                    "@type": "item",
+                    "name": "src/common/script.h"
+                },
+                {
+                    "@type": "item",
+                    "name": "src/common/script.c"
+                },
+                {
+                    "@type": "item",
+                    "name": "src/3rd_party/xatlas/xatlas_wrapper.h"
+                },
+                {
+                    "@type": "item",
+                    "name": "src/3rd_party/glad/glad.h"
+                },
+                {
+                    "@type": "item",
+                    "name": "src/3rd_party/glad/glad.c"
+                },
+                {
+                    "@type": "item",
+                    "name": "src/common/maths.h"
+                },
+                {
+                    "@type": "item",
+                    "name": "src/common/maths.c"
+                },
+                {
+                    "@type": "item",
+                    "name": "src/3rd_party/stb/stb_image.h"
+                },
+                {
+                    "@type": "item",
+                    "name": "src/common/data.h"
+                },
+                {
+                    "@type": "item",
+                    "name": "src/common/data.c"
+                },
+                {
+                    "@type": "item",
+                    "name": "src/common/json.h"
+                },
+                {
+                    "@type": "item",
+                    "name": "src/common/json.c"
+                },
+                {
+                    "@type": "item",
+                    "name": "src/editor/gi.h"
+                },
+                {
+                    "@type": "item",
+                    "name": "src/editor/gi.c"
+                },
+                {
+                    "@type": "item",
+                    "name": "src/3rd_party/stb/stb_image_write.h"
+                },
+                {
+                    "@type": "item",
+                    "name": "src/common/vec.h"
+                },
+                {
+                    "@type": "item",
+                    "name": "src/common/vec.c"
+                },
+                {
+                    "@type": "item",
+                    "name": "src/golf/draw.h"
+                },
+                {
+                    "@type": "item",
+                    "name": "src/golf/draw.c"
+                },
+                {
+                    "@type": "item",
+                    "name": "src/3rd_party/glad/khrplatform.h"
+                },
+                {
+                    "@type": "item",
+                    "name": "src/3rd_party/mattiasgustavsson_libs/rnd.h"
+                },
+                {
+                    "@type": "item",
+                    "name": "src/common/bvh.h"
+                },
+                {
+                    "@type": "item",
+                    "name": "src/common/bvh.c"
+                },
+                {
+                    "@type": "item",
+                    "name": "src/editor/editor.h"
+                },
+                {
+                    "@type": "item",
+                    "name": "src/editor/editor.c"
+                },
+                {
+                    "@type": "item",
+                    "name": "src/golf/ui.h"
+                },
+                {
+                    "@type": "item",
+                    "name": "src/golf/ui.c"
+                }
+            ]
+        },
+        {
+            "@type": "group",
+            "name": "1",
+            "nested": [
+                {
+                    "@type": "item",
+                    "name": "src/common/inputs.h"
+                },
+                {
+                    "@type": "item",
+                    "name": "src/common/inputs.c"
+                },
+                {
+                    "@type": "item",
+                    "name": "src/3rd_party/sokol/sokol_app.h"
+                },
+                {
+                    "@type": "item",
+                    "name": "src/editor/main.c"
+                },
+                {
+                    "@type": "item",
+                    "name": "src/common/storage.h"
+                },
+                {
+                    "@type": "item",
+                    "name": "src/common/storage.c"
+                },
+                {
+                    "@type": "item",
+                    "name": "src/common/string.h"
+                },
+                {
+                    "@type": "item",
+                    "name": "src/common/string.c"
+                },
+                {
+                    "@type": "item",
+                    "name": "src/golf/golf.h"
+                },
+                {
+                    "@type": "item",
+                    "name": "src/golf/golf.c"
+                },
+                {
+                    "@type": "item",
+                    "name": "src/common/graphics.h"
+                },
+                {
+                    "@type": "item",
+                    "name": "src/common/graphics.c"
+                },
+                {
+                    "@type": "item",
+                    "name": "src/common/audio.h"
+                },
+                {
+                    "@type": "item",
+                    "name": "src/common/audio.c"
+                },
+                {
+                    "@type": "item",
+                    "name": "src/common/debug_console.h"
+                },
+                {
+                    "@type": "item",
+                    "name": "src/common/debug_console.c"
+                },
+                {
+                    "@type": "item",
+                    "name": "src/3rd_party/IconsFontAwesome5/IconsFontAwesome5.h"
+                },
+                {
+                    "@type": "item",
+                    "name": "src/golf/main.c"
+                },
+                {
+                    "@type": "item",
+                    "name": "src/common/map.h"
+                },
+                {
+                    "@type": "item",
+                    "name": "src/common/map.c"
+                },
+                {
+                    "@type": "item",
+                    "name": "src/common/log.h"
+                },
+                {
+                    "@type": "item",
+                    "name": "src/common/log.c"
+                },
+                {
+                    "@type": "item",
+                    "name": "src/common/file.h"
+                },
+                {
+                    "@type": "item",
+                    "name": "src/common/file.c"
+                },
+                {
+                    "@type": "item",
+                    "name": "src/editor/gizmo.h"
+                },
+                {
+                    "@type": "item",
+                    "name": "src/editor/gizmo.c"
+                },
+                {
+                    "@type": "item",
+                    "name": "src/3rd_party/mattiasgustavsson_libs/assetsys.h"
+                },
+                {
+                    "@type": "item",
+                    "name": "src/common/alloc.h"
+                },
+                {
+                    "@type": "item",
+                    "name": "src/common/alloc.c"
+                },
+                {
+                    "@type": "item",
+                    "name": "tools/cembed/cembed.c"
+                },
+                {
+                    "@type": "item",
+                    "name": "src/3rd_party/miniz/miniz.h"
+                },
+                {
+                    "@type": "item",
+                    "name": "src/3rd_party/miniz/miniz.c"
+                },
+                {
+                    "@type": "item",
+                    "name": "src/common/common.h"
+                }
+            ]
+        },
+        {
+            "@type": "group",
+            "name": "2",
+            "nested": [
+                {
+                    "@type": "item",
+                    "name": "src/3rd_party/glfw/src/mappings.h"
+                },
+                {
+                    "@type": "item",
+                    "name": "src/3rd_party/glfw/src/null_platform.h"
+                },
+                {
+                    "@type": "item",
+                    "name": "src/3rd_party/glfw/src/null_window.c"
+                },
+                {
+                    "@type": "item",
+                    "name": "src/3rd_party/glfw/src/null_monitor.c"
+                },
+                {
+                    "@type": "item",
+                    "name": "src/3rd_party/glfw/src/null_init.c"
+                },
+                {
+                    "@type": "item",
+                    "name": "src/3rd_party/glfw/src/null_joystick.h"
+                },
+                {
+                    "@type": "item",
+                    "name": "src/3rd_party/glfw/src/null_joystick.c"
+                },
+                {
+                    "@type": "item",
+                    "name": "src/3rd_party/glfw/include/GLFW/glfw3native.h"
+                },
+                {
+                    "@type": "item",
+                    "name": "src/3rd_party/glfw/src/internal.h"
+                },
+                {
+                    "@type": "item",
+                    "name": "src/3rd_party/glfw/include/GLFW/glfw3.h"
+                },
+                {
+                    "@type": "item",
+                    "name": "src/3rd_party/glfw/src/window.c"
+                },
+                {
+                    "@type": "item",
+                    "name": "src/3rd_party/glfw/src/vulkan.c"
+                },
+                {
+                    "@type": "item",
+                    "name": "src/3rd_party/glfw/src/win32_thread.c"
+                },
+                {
+                    "@type": "item",
+                    "name": "src/3rd_party/glfw/src/osmesa_context.c"
+                },
+                {
+                    "@type": "item",
+                    "name": "src/3rd_party/glfw/src/egl_context.c"
+                },
+                {
+                    "@type": "item",
+                    "name": "src/3rd_party/glfw/src/win32_module.c"
+                },
+                {
+                    "@type": "item",
+                    "name": "src/3rd_party/glfw/src/input.c"
+                },
+                {
+                    "@type": "item",
+                    "name": "src/3rd_party/glfw/src/platform.c"
+                },
+                {
+                    "@type": "item",
+                    "name": "src/3rd_party/glfw/src/posix_thread.c"
+                },
+                {
+                    "@type": "item",
+                    "name": "src/3rd_party/glfw/src/win32_time.c"
+                },
+                {
+                    "@type": "item",
+                    "name": "src/3rd_party/glfw/src/posix_module.c"
+                },
+                {
+                    "@type": "item",
+                    "name": "src/3rd_party/glfw/src/monitor.c"
+                },
+                {
+                    "@type": "item",
+                    "name": "src/3rd_party/glfw/src/init.c"
+                },
+                {
+                    "@type": "item",
+                    "name": "src/3rd_party/glfw/src/cocoa_time.c"
+                },
+                {
+                    "@type": "item",
+                    "name": "src/3rd_party/glfw/src/posix_time.c"
+                },
+                {
+                    "@type": "item",
+                    "name": "src/3rd_party/glfw/src/context.c"
+                },
+                {
+                    "@type": "item",
+                    "name": "src/3rd_party/glfw/src/xkb_unicode.h"
+                },
+                {
+                    "@type": "item",
+                    "name": "src/3rd_party/glfw/src/xkb_unicode.c"
+                },
+                {
+                    "@type": "item",
+                    "name": "src/3rd_party/glfw/src/win32_thread.h"
+                },
+                {
+                    "@type": "item",
+                    "name": "src/3rd_party/glfw/src/win32_joystick.h"
+                },
+                {
+                    "@type": "item",
+                    "name": "src/3rd_party/glfw/src/win32_platform.h"
+                },
+                {
+                    "@type": "item",
+                    "name": "src/3rd_party/glfw/src/win32_joystick.c"
+                },
+                {
+                    "@type": "item",
+                    "name": "src/3rd_party/glfw/src/win32_monitor.c"
+                },
+                {
+                    "@type": "item",
+                    "name": "src/3rd_party/glfw/src/win32_init.c"
+                },
+                {
+                    "@type": "item",
+                    "name": "src/3rd_party/glfw/src/win32_window.c"
+                },
+                {
+                    "@type": "item",
+                    "name": "src/3rd_party/glfw/src/wgl_context.c"
+                },
+                {
+                    "@type": "item",
+                    "name": "src/3rd_party/glfw/src/win32_time.h"
+                },
+                {
+                    "@type": "item",
+                    "name": "src/3rd_party/glfw/src/platform.h"
+                },
+                {
+                    "@type": "item",
+                    "name": "src/3rd_party/glfw/src/cocoa_joystick.h"
+                },
+                {
+                    "@type": "item",
+                    "name": "src/3rd_party/glfw/src/cocoa_time.h"
+                },
+                {
+                    "@type": "item",
+                    "name": "src/3rd_party/glfw/src/linux_joystick.h"
+                },
+                {
+                    "@type": "item",
+                    "name": "src/3rd_party/glfw/src/linux_joystick.c"
+                },
+                {
+                    "@type": "item",
+                    "name": "src/3rd_party/glfw/src/cocoa_platform.h"
+                },
+                {
+                    "@type": "item",
+                    "name": "src/3rd_party/glfw/src/wl_platform.h"
+                },
+                {
+                    "@type": "item",
+                    "name": "src/3rd_party/glfw/src/wl_window.c"
+                },
+                {
+                    "@type": "item",
+                    "name": "src/3rd_party/glfw/src/wl_init.c"
+                },
+                {
+                    "@type": "item",
+                    "name": "src/3rd_party/glfw/src/wl_monitor.c"
+                },
+                {
+                    "@type": "item",
+                    "name": "src/3rd_party/glfw/src/posix_time.h"
+                },
+                {
+                    "@type": "item",
+                    "name": "src/3rd_party/glfw/src/x11_platform.h"
+                },
+                {
+                    "@type": "item",
+                    "name": "src/3rd_party/glfw/src/x11_init.c"
+                },
+                {
+                    "@type": "item",
+                    "name": "src/3rd_party/glfw/src/x11_window.c"
+                },
+                {
+                    "@type": "item",
+                    "name": "src/3rd_party/glfw/src/glx_context.c"
+                },
+                {
+                    "@type": "item",
+                    "name": "src/3rd_party/glfw/src/x11_monitor.c"
+                }
+            ]
+        },
+        {
+            "@type": "group",
+            "name": "3",
+            "nested": [
+                {
+                    "@type": "item",
+                    "name": "src/3rd_party/cimgui/imgui/imgui_internal.h"
+                },
+                {
+                    "@type": "item",
+                    "name": "src/3rd_party/cimgui/imgui/imgui.h"
+                },
+                {
+                    "@type": "item",
+                    "name": "src/3rd_party/cimgui/imgui/imgui_tables.cpp"
+                },
+                {
+                    "@type": "item",
+                    "name": "src/3rd_party/cimgui/imgui/imgui_draw.cpp"
+                },
+                {
+                    "@type": "item",
+                    "name": "src/3rd_party/cimgui/imgui/imgui_widgets.cpp"
+                },
+                {
+                    "@type": "item",
+                    "name": "src/3rd_party/cimgui/imgui/imgui.cpp"
+                },
+                {
+                    "@type": "item",
+                    "name": "src/3rd_party/cimgui/imgui/imconfig.h"
+                },
+                {
+                    "@type": "item",
+                    "name": "src/3rd_party/stb/stb_truetype.h"
+                },
+                {
+                    "@type": "item",
+                    "name": "src/3rd_party/cimgui/imgui/imstb_truetype.h"
+                },
+                {
+                    "@type": "item",
+                    "name": "src/3rd_party/cimgui/imgui/imgui_demo.cpp"
+                },
+                {
+                    "@type": "item",
+                    "name": "src/3rd_party/cimgui/imgui/imstb_rectpack.h"
+                },
+                {
+                    "@type": "item",
+                    "name": "src/3rd_party/cimgui/cimgui.h"
+                },
+                {
+                    "@type": "item",
+                    "name": "src/3rd_party/cimgui/cimgui.cpp"
+                },
+                {
+                    "@type": "item",
+                    "name": "src/3rd_party/stb/stb_vorbis.h"
+                }
+            ]
+        },
+        {
+            "@type": "group",
+            "name": "4",
+            "nested": [
+                {
+                    "@type": "item",
+                    "name": "src/3rd_party/mattiasgustavsson_libs/impl.c"
+                },
+                {
+                    "@type": "item",
+                    "name": "src/3rd_party/lightmapper/impl.c"
+                },
+                {
+                    "@type": "item",
+                    "name": "src/3rd_party/lightmapper/lightmapper.h"
+                },
+                {
+                    "@type": "item",
+                    "name": "src/3rd_party/mattiasgustavsson_libs/strpool.h"
+                }
+            ]
+        },
+        {
+            "@type": "group",
+            "name": "5",
+            "nested": [
+                {
+                    "@type": "item",
+                    "name": "src/common/base64.h"
+                },
+                {
+                    "@type": "item",
+                    "name": "src/common/base64.c"
+                },
+                {
+                    "@type": "item",
+                    "name": "src/golf/game.h"
+                },
+                {
+                    "@type": "item",
+                    "name": "src/golf/game.c"
+                },
+                {
+                    "@type": "item",
+                    "name": "src/3rd_party/sokol/impl.c"
+                },
+                {
+                    "@type": "item",
+                    "name": "src/3rd_party/sokol/sokol_imgui.h"
+                }
+            ]
+        },
+        {
+            "@type": "group",
+            "name": "6",
+            "nested": [
+                {
+                    "@type": "item",
+                    "name": "src/3rd_party/sokol/sokol_audio.h"
+                },
+                {
+                    "@type": "item",
+                    "name": "src/3rd_party/glfw/src/posix_thread.h"
+                },
+                {
+                    "@type": "item",
+                    "name": "src/3rd_party/sokol/sokol_glue.h"
+                }
+            ]
+        },
+        {
+            "@type": "group",
+            "name": "7",
+            "nested": [
+                {
+                    "@type": "item",
+                    "name": "src/3rd_party/sokol/sokol_time.h"
+                },
+                {
+                    "@type": "item",
+                    "name": "src/3rd_party/cimgui/imgui/imstb_textedit.h"
+                },
+                {
+                    "@type": "item",
+                    "name": "src/3rd_party/stb/impl.c"
+                }
+            ]
+        },
+        {
+            "@type": "group",
+            "name": "8",
+            "nested": [
+                {
+                    "@type": "item",
+                    "name": "src/3rd_party/fast_obj/fast_obj.c"
+                },
+                {
+                    "@type": "item",
+                    "name": "src/3rd_party/fast_obj/fast_obj.h"
+                }
+            ]
+        }
+    ]
+}

@@ -1,0 +1,502 @@
+{
+    "@schemaVersion": "1.0",
+    "name": "clustering",
+    "structure": [
+        {
+            "@type": "group",
+            "name": "0",
+            "nested": [
+                {
+                    "@type": "item",
+                    "name": "src/probe_modules/module_icmp_echo_time.c"
+                },
+                {
+                    "@type": "item",
+                    "name": "src/probe_modules/module_tcp_synscan.h"
+                },
+                {
+                    "@type": "item",
+                    "name": "src/probe_modules/module_dns.h"
+                },
+                {
+                    "@type": "item",
+                    "name": "src/probe_modules/module_udp.h"
+                },
+                {
+                    "@type": "item",
+                    "name": "src/probe_modules/module_udp.c"
+                },
+                {
+                    "@type": "item",
+                    "name": "src/probe_modules/module_icmp_echo.c"
+                },
+                {
+                    "@type": "item",
+                    "name": "src/probe_modules/module_upnp.c"
+                },
+                {
+                    "@type": "item",
+                    "name": "src/probe_modules/module_tcp_synackscan.c"
+                },
+                {
+                    "@type": "item",
+                    "name": "src/probe_modules/probe_modules.h"
+                },
+                {
+                    "@type": "item",
+                    "name": "src/probe_modules/probe_modules.c"
+                },
+                {
+                    "@type": "item",
+                    "name": "src/probe_modules/packet.h"
+                },
+                {
+                    "@type": "item",
+                    "name": "src/probe_modules/packet.c"
+                },
+                {
+                    "@type": "item",
+                    "name": "src/probe_modules/module_tcp_synscan.c"
+                },
+                {
+                    "@type": "item",
+                    "name": "src/probe_modules/module_bacnet.h"
+                },
+                {
+                    "@type": "item",
+                    "name": "src/probe_modules/module_bacnet.c"
+                },
+                {
+                    "@type": "item",
+                    "name": "src/probe_modules/module_ntp.h"
+                },
+                {
+                    "@type": "item",
+                    "name": "src/probe_modules/module_ntp.c"
+                },
+                {
+                    "@type": "item",
+                    "name": "src/probe_modules/module_dns.c"
+                }
+            ]
+        },
+        {
+            "@type": "group",
+            "name": "1",
+            "nested": [
+                {
+                    "@type": "item",
+                    "name": "lib/logger.h"
+                },
+                {
+                    "@type": "item",
+                    "name": "lib/logger.c"
+                },
+                {
+                    "@type": "item",
+                    "name": "lib/random.h"
+                },
+                {
+                    "@type": "item",
+                    "name": "lib/random.c"
+                },
+                {
+                    "@type": "item",
+                    "name": "lib/pbm.h"
+                },
+                {
+                    "@type": "item",
+                    "name": "lib/pbm.c"
+                },
+                {
+                    "@type": "item",
+                    "name": "lib/types.h"
+                },
+                {
+                    "@type": "item",
+                    "name": "lib/includes.h"
+                },
+                {
+                    "@type": "item",
+                    "name": "lib/xalloc.h"
+                },
+                {
+                    "@type": "item",
+                    "name": "lib/xalloc.c"
+                },
+                {
+                    "@type": "item",
+                    "name": "lib/lockfd.h"
+                },
+                {
+                    "@type": "item",
+                    "name": "lib/lockfd.c"
+                },
+                {
+                    "@type": "item",
+                    "name": "lib/util.h"
+                },
+                {
+                    "@type": "item",
+                    "name": "lib/util.c"
+                },
+                {
+                    "@type": "item",
+                    "name": "lib/constraint.h"
+                },
+                {
+                    "@type": "item",
+                    "name": "lib/constraint.c"
+                },
+                {
+                    "@type": "item",
+                    "name": "lib/blocklist.h"
+                },
+                {
+                    "@type": "item",
+                    "name": "lib/blocklist.c"
+                },
+                {
+                    "@type": "item",
+                    "name": "lib/queue.h"
+                },
+                {
+                    "@type": "item",
+                    "name": "lib/queue.c"
+                }
+            ]
+        },
+        {
+            "@type": "group",
+            "name": "2",
+            "nested": [
+                {
+                    "@type": "item",
+                    "name": "src/iterator.h"
+                },
+                {
+                    "@type": "item",
+                    "name": "src/iterator.c"
+                },
+                {
+                    "@type": "item",
+                    "name": "src/aesrand.h"
+                },
+                {
+                    "@type": "item",
+                    "name": "src/aesrand.c"
+                },
+                {
+                    "@type": "item",
+                    "name": "src/shard.h"
+                },
+                {
+                    "@type": "item",
+                    "name": "src/shard.c"
+                },
+                {
+                    "@type": "item",
+                    "name": "src/monitor.h"
+                },
+                {
+                    "@type": "item",
+                    "name": "src/monitor.c"
+                },
+                {
+                    "@type": "item",
+                    "name": "src/ziterate.c"
+                },
+                {
+                    "@type": "item",
+                    "name": "src/cyclic.h"
+                },
+                {
+                    "@type": "item",
+                    "name": "src/cyclic.c"
+                },
+                {
+                    "@type": "item",
+                    "name": "src/ztee.c"
+                },
+                {
+                    "@type": "item",
+                    "name": "src/zblocklist.c"
+                }
+            ]
+        },
+        {
+            "@type": "group",
+            "name": "3",
+            "nested": [
+                {
+                    "@type": "item",
+                    "name": "src/send-pfring.h"
+                },
+                {
+                    "@type": "item",
+                    "name": "src/send.h"
+                },
+                {
+                    "@type": "item",
+                    "name": "src/send.c"
+                },
+                {
+                    "@type": "item",
+                    "name": "src/validate.h"
+                },
+                {
+                    "@type": "item",
+                    "name": "src/validate.c"
+                },
+                {
+                    "@type": "item",
+                    "name": "src/send-linux.h"
+                },
+                {
+                    "@type": "item",
+                    "name": "src/send-bsd.h"
+                },
+                {
+                    "@type": "item",
+                    "name": "src/socket.h"
+                },
+                {
+                    "@type": "item",
+                    "name": "src/socket-bsd.c"
+                },
+                {
+                    "@type": "item",
+                    "name": "src/socket-pfring.c"
+                },
+                {
+                    "@type": "item",
+                    "name": "src/socket.c"
+                },
+                {
+                    "@type": "item",
+                    "name": "src/socket-linux.c"
+                }
+            ]
+        },
+        {
+            "@type": "group",
+            "name": "4",
+            "nested": [
+                {
+                    "@type": "item",
+                    "name": "src/zbopt_compat.c"
+                },
+                {
+                    "@type": "item",
+                    "name": "src/ztopt_compat.c"
+                },
+                {
+                    "@type": "item",
+                    "name": "src/topt_compat.c"
+                },
+                {
+                    "@type": "item",
+                    "name": "src/zopt_compat.c"
+                },
+                {
+                    "@type": "item",
+                    "name": "src/zitopt_compat.c"
+                }
+            ]
+        },
+        {
+            "@type": "group",
+            "name": "5",
+            "nested": [
+                {
+                    "@type": "item",
+                    "name": "src/output_modules/module_json.c"
+                },
+                {
+                    "@type": "item",
+                    "name": "src/output_modules/module_json.h"
+                },
+                {
+                    "@type": "item",
+                    "name": "src/output_modules/output_modules.h"
+                },
+                {
+                    "@type": "item",
+                    "name": "src/output_modules/output_modules.c"
+                },
+                {
+                    "@type": "item",
+                    "name": "src/output_modules/module_csv.c"
+                },
+                {
+                    "@type": "item",
+                    "name": "src/output_modules/module_csv.h"
+                }
+            ]
+        },
+        {
+            "@type": "group",
+            "name": "6",
+            "nested": [
+                {
+                    "@type": "item",
+                    "name": "src/get_gateway-linux.h"
+                },
+                {
+                    "@type": "item",
+                    "name": "src/get_gateway.c"
+                },
+                {
+                    "@type": "item",
+                    "name": "src/get_gateway-bsd.h"
+                },
+                {
+                    "@type": "item",
+                    "name": "src/get_gateway.h"
+                }
+            ]
+        },
+        {
+            "@type": "group",
+            "name": "7",
+            "nested": [
+                {
+                    "@type": "item",
+                    "name": "src/expression.h"
+                },
+                {
+                    "@type": "item",
+                    "name": "src/expression.c"
+                },
+                {
+                    "@type": "item",
+                    "name": "src/recv-internal.h"
+                },
+                {
+                    "@type": "item",
+                    "name": "src/recv.h"
+                },
+                {
+                    "@type": "item",
+                    "name": "src/recv-pfring.c"
+                },
+                {
+                    "@type": "item",
+                    "name": "src/recv.c"
+                },
+                {
+                    "@type": "item",
+                    "name": "src/recv-pcap.c"
+                },
+                {
+                    "@type": "item",
+                    "name": "src/fieldset.h"
+                },
+                {
+                    "@type": "item",
+                    "name": "src/fieldset.c"
+                },
+                {
+                    "@type": "item",
+                    "name": "src/filter.h"
+                },
+                {
+                    "@type": "item",
+                    "name": "src/filter.c"
+                }
+            ]
+        },
+        {
+            "@type": "group",
+            "name": "8",
+            "nested": [
+                {
+                    "@type": "item",
+                    "name": "src/constants.h"
+                },
+                {
+                    "@type": "item",
+                    "name": "src/zmap.c"
+                },
+                {
+                    "@type": "item",
+                    "name": "src/utility.h"
+                },
+                {
+                    "@type": "item",
+                    "name": "src/utility.c"
+                }
+            ]
+        },
+        {
+            "@type": "group",
+            "name": "9",
+            "nested": [
+                {
+                    "@type": "item",
+                    "name": "src/summary.h"
+                },
+                {
+                    "@type": "item",
+                    "name": "src/summary.c"
+                },
+                {
+                    "@type": "item",
+                    "name": "src/state.h"
+                },
+                {
+                    "@type": "item",
+                    "name": "src/state.c"
+                }
+            ]
+        },
+        {
+            "@type": "group",
+            "name": "10",
+            "nested": [
+                {
+                    "@type": "item",
+                    "name": "examples/probe-modules/module_tcp_cisco_backdoor.c"
+                }
+            ]
+        },
+        {
+            "@type": "group",
+            "name": "11",
+            "nested": [
+                {
+                    "@type": "item",
+                    "name": "src/tests/test_harness.c"
+                }
+            ]
+        },
+        {
+            "@type": "group",
+            "name": "12",
+            "nested": [
+                {
+                    "@type": "item",
+                    "name": "lib/csv.h"
+                },
+                {
+                    "@type": "item",
+                    "name": "lib/csv.c"
+                }
+            ]
+        },
+        {
+            "@type": "group",
+            "name": "13",
+            "nested": [
+                {
+                    "@type": "item",
+                    "name": "lib/rijndael-alg-fst.h"
+                },
+                {
+                    "@type": "item",
+                    "name": "lib/rijndael-alg-fst.c"
+                }
+            ]
+        }
+    ]
+}

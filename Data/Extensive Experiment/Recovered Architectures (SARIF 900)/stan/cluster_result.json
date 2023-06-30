@@ -1,0 +1,1724 @@
+{
+    "@schemaVersion": "1.0",
+    "name": "clustering",
+    "structure": [
+        {
+            "@type": "group",
+            "name": "0",
+            "nested": [
+                {
+                    "@type": "item",
+                    "name": "src/stan/io/serializer.hpp"
+                },
+                {
+                    "@type": "item",
+                    "name": "src/test/integration/compile_standalone_functions_test.cpp"
+                },
+                {
+                    "@type": "item",
+                    "name": "src/test/unit/mcmc/hmc/nuts/derived_nuts_test.cpp"
+                },
+                {
+                    "@type": "item",
+                    "name": "src/test/unit/model/finite_diff_grad_test.cpp"
+                },
+                {
+                    "@type": "item",
+                    "name": "src/test/unit/analyze/mcmc/compute_effective_sample_size_test.cpp"
+                },
+                {
+                    "@type": "item",
+                    "name": "src/test/unit/io/deserializer_varmat_test.cpp"
+                },
+                {
+                    "@type": "item",
+                    "name": "src/test/unit/io/serializer_stdvector_test.cpp"
+                },
+                {
+                    "@type": "item",
+                    "name": "src/test/unit/callbacks/json_writer_test.cpp"
+                },
+                {
+                    "@type": "item",
+                    "name": "src/test/unit/expressions/simple_udf_test.cpp"
+                },
+                {
+                    "@type": "item",
+                    "name": "src/test/unit/callbacks/unique_stream_writer_test.cpp"
+                },
+                {
+                    "@type": "item",
+                    "name": "src/test/unit/mcmc/hmc/hamiltonians/diag_e_metric_test.cpp"
+                },
+                {
+                    "@type": "item",
+                    "name": "src/test/unit/io/chained_var_context_test.cpp"
+                },
+                {
+                    "@type": "item",
+                    "name": "src/test/unit/variational/families/normal_fullrank_test.cpp"
+                },
+                {
+                    "@type": "item",
+                    "name": "src/test/unit/model/indexing/deep_copy_test.cpp"
+                },
+                {
+                    "@type": "item",
+                    "name": "src/test/unit/io/serializer_test.cpp"
+                },
+                {
+                    "@type": "item",
+                    "name": "src/test/unit/io/json/json_data_handler_test.cpp"
+                },
+                {
+                    "@type": "item",
+                    "name": "src/test/unit/callbacks/stream_writer_test.cpp"
+                },
+                {
+                    "@type": "item",
+                    "name": "src/test/unit/callbacks/writer_test.cpp"
+                },
+                {
+                    "@type": "item",
+                    "name": "src/test/unit/model/test_gradients_test.cpp"
+                },
+                {
+                    "@type": "item",
+                    "name": "src/test/unit/services/util/experimental_message_test.cpp"
+                },
+                {
+                    "@type": "item",
+                    "name": "src/test/unit/model/grad_hess_log_prob_test.cpp"
+                },
+                {
+                    "@type": "item",
+                    "name": "src/test/unit/mcmc/hmc/integrators/impl_leapfrog_test.cpp"
+                },
+                {
+                    "@type": "item",
+                    "name": "src/test/unit/services/util/inv_metric_test.cpp"
+                },
+                {
+                    "@type": "item",
+                    "name": "src/test/unit/variational/print_progress_test.cpp"
+                },
+                {
+                    "@type": "item",
+                    "name": "src/test/unit/mcmc/hmc/integrators/impl_leapfrog2_test.cpp"
+                },
+                {
+                    "@type": "item",
+                    "name": "src/test/unit/io/deserializer_var_test.cpp"
+                },
+                {
+                    "@type": "item",
+                    "name": "src/test/unit/mcmc/hmc/xhmc/unit_e_xhmc_test.cpp"
+                },
+                {
+                    "@type": "item",
+                    "name": "src/stan/io/deserializer.hpp"
+                },
+                {
+                    "@type": "item",
+                    "name": "src/test/unit/mcmc/hmc/hamiltonians/base_hamiltonian_test.cpp"
+                },
+                {
+                    "@type": "item",
+                    "name": "src/test/unit/callbacks/stream_logger_test.cpp"
+                },
+                {
+                    "@type": "item",
+                    "name": "src/test/unit/mcmc/hmc/integrators/expl_leapfrog2_test.cpp"
+                },
+                {
+                    "@type": "item",
+                    "name": "src/test/unit/optimization/bfgs_linesearch_test.cpp"
+                },
+                {
+                    "@type": "item",
+                    "name": "src/test/unit/io/deserializer_test.cpp"
+                },
+                {
+                    "@type": "item",
+                    "name": "src/test/unit/io/empty_var_context_test.cpp"
+                },
+                {
+                    "@type": "item",
+                    "name": "src/test/unit/mcmc/hmc/nuts_classic/instantiation_test.cpp"
+                },
+                {
+                    "@type": "item",
+                    "name": "src/test/unit/io/dump_test.cpp"
+                },
+                {
+                    "@type": "item",
+                    "name": "src/test/unit/rethrow_located_test.cpp"
+                },
+                {
+                    "@type": "item",
+                    "name": "src/test/integration/standalone_functions_test.cpp"
+                },
+                {
+                    "@type": "item",
+                    "name": "src/test/unit/mcmc/var_adaptation_test.cpp"
+                },
+                {
+                    "@type": "item",
+                    "name": "src/test/unit/mcmc/hmc/hamiltonians/softabs_metric_test.cpp"
+                },
+                {
+                    "@type": "item",
+                    "name": "src/test/unit/mcmc/hmc/nuts_classic/derived_nuts_classic_test.cpp"
+                },
+                {
+                    "@type": "item",
+                    "name": "src/test/unit/services/pathfinder/psis_test.cpp"
+                },
+                {
+                    "@type": "item",
+                    "name": "src/test/unit/io/json/json_ill_formed_test.cpp"
+                },
+                {
+                    "@type": "item",
+                    "name": "src/test/unit/mcmc/covar_adaptation_test.cpp"
+                },
+                {
+                    "@type": "item",
+                    "name": "src/test/unit/mcmc/chains_test.cpp"
+                },
+                {
+                    "@type": "item",
+                    "name": "src/test/unit/model/indexing/rvalue_test.cpp"
+                },
+                {
+                    "@type": "item",
+                    "name": "src/test/unit/mcmc/sample_test.cpp"
+                },
+                {
+                    "@type": "item",
+                    "name": "src/test/unit/callbacks/interrupt_test.cpp"
+                },
+                {
+                    "@type": "item",
+                    "name": "src/test/unit/mcmc/stepsize_adaptation_test.cpp"
+                },
+                {
+                    "@type": "item",
+                    "name": "src/test/unit/io/serializer_varmat_test.cpp"
+                },
+                {
+                    "@type": "item",
+                    "name": "src/test/unit/variational/families/normal_meanfield_test.cpp"
+                },
+                {
+                    "@type": "item",
+                    "name": "src/test/unit/services/optimize/defaults_test.cpp"
+                },
+                {
+                    "@type": "item",
+                    "name": "src/test/unit/util.hpp"
+                },
+                {
+                    "@type": "item",
+                    "name": "src/test/unit/model/indexing/assign_test.cpp"
+                },
+                {
+                    "@type": "item",
+                    "name": "src/test/unit/model/log_prob_propto_test.cpp"
+                },
+                {
+                    "@type": "item",
+                    "name": "src/test/unit/mcmc/hmc/xhmc/softabs_xhmc_test.cpp"
+                },
+                {
+                    "@type": "item",
+                    "name": "src/test/unit/mcmc/hmc/integrators/expl_leapfrog_test.cpp"
+                },
+                {
+                    "@type": "item",
+                    "name": "src/test/unit/services/diagnose/defaults_test.cpp"
+                },
+                {
+                    "@type": "item",
+                    "name": "src/test/unit/model/test_model.hpp"
+                },
+                {
+                    "@type": "item",
+                    "name": "src/test/unit/io/deserializer_free_test.cpp"
+                },
+                {
+                    "@type": "item",
+                    "name": "src/test/unit/services/experimental/advi/defaults_test.cpp"
+                },
+                {
+                    "@type": "item",
+                    "name": "src/test/unit/util_test.cpp"
+                },
+                {
+                    "@type": "item",
+                    "name": "src/test/unit/io/json/json_parser_test.cpp"
+                },
+                {
+                    "@type": "item",
+                    "name": "src/test/unit/callbacks/logger_test.cpp"
+                },
+                {
+                    "@type": "item",
+                    "name": "src/test/unit/mcmc/hmc/nuts/instantiation_test.cpp"
+                },
+                {
+                    "@type": "item",
+                    "name": "src/test/unit/version_test.cpp"
+                },
+                {
+                    "@type": "item",
+                    "name": "src/test/unit/io/json/json_data_tuples_test.cpp"
+                },
+                {
+                    "@type": "item",
+                    "name": "src/test/unit/optimization/bfgs_minimizer_test.cpp"
+                },
+                {
+                    "@type": "item",
+                    "name": "src/test/unit/io/json/util.hpp"
+                },
+                {
+                    "@type": "item",
+                    "name": "src/test/unit/io/deserializer_stdvector_test.cpp"
+                },
+                {
+                    "@type": "item",
+                    "name": "src/test/integration/compile_models_test.cpp"
+                },
+                {
+                    "@type": "item",
+                    "name": "src/test/unit/model/indexing/rvalue_index_size_test.cpp"
+                },
+                {
+                    "@type": "item",
+                    "name": "src/test/unit/mcmc/hmc/hamiltonians/unit_e_metric_test.cpp"
+                },
+                {
+                    "@type": "item",
+                    "name": "src/test/unit/model/indexing/index_test.cpp"
+                },
+                {
+                    "@type": "item",
+                    "name": "src/test/integration/multiple_translation_units_test.cpp"
+                },
+                {
+                    "@type": "item",
+                    "name": "src/test/unit/mcmc/hmc/static_uniform/derived_static_uniform_test.cpp"
+                },
+                {
+                    "@type": "item",
+                    "name": "src/test/unit/io/array_var_context_test.cpp"
+                },
+                {
+                    "@type": "item",
+                    "name": "src/test/unit/services/util/create_rng_test.cpp"
+                },
+                {
+                    "@type": "item",
+                    "name": "src/test/unit/io/json/json_data_test.cpp"
+                },
+                {
+                    "@type": "item",
+                    "name": "src/test/unit/io/validate_zero_buf_test.cpp"
+                },
+                {
+                    "@type": "item",
+                    "name": "src/test/unit/mcmc/windowed_adaptation_test.cpp"
+                },
+                {
+                    "@type": "item",
+                    "name": "src/test/unit/services/sample/defaults_test.cpp"
+                },
+                {
+                    "@type": "item",
+                    "name": "src/test/unit/optimization/bfgs_test.cpp"
+                },
+                {
+                    "@type": "item",
+                    "name": "src/test/unit/mcmc/hmc/hamiltonians/dense_e_metric_test.cpp"
+                },
+                {
+                    "@type": "item",
+                    "name": "src/test/unit/mcmc/base_adapter_test.cpp"
+                },
+                {
+                    "@type": "item",
+                    "name": "src/test/unit/model/log_prob_grad_test.cpp"
+                }
+            ]
+        },
+        {
+            "@type": "group",
+            "name": "1",
+            "nested": [
+                {
+                    "@type": "item",
+                    "name": "src/stan/mcmc/hmc/base_hmc.hpp"
+                },
+                {
+                    "@type": "item",
+                    "name": "src/stan/mcmc/hmc/hamiltonians/ps_point.hpp"
+                },
+                {
+                    "@type": "item",
+                    "name": "src/stan/mcmc/hmc/nuts_classic/adapt_dense_e_nuts_classic.hpp"
+                },
+                {
+                    "@type": "item",
+                    "name": "src/stan/mcmc/hmc/hamiltonians/diag_e_metric.hpp"
+                },
+                {
+                    "@type": "item",
+                    "name": "src/stan/mcmc/hmc/static/unit_e_static_hmc.hpp"
+                },
+                {
+                    "@type": "item",
+                    "name": "src/stan/mcmc/hmc/hamiltonians/diag_e_point.hpp"
+                },
+                {
+                    "@type": "item",
+                    "name": "src/stan/mcmc/sample.hpp"
+                },
+                {
+                    "@type": "item",
+                    "name": "src/stan/mcmc/hmc/xhmc/adapt_unit_e_xhmc.hpp"
+                },
+                {
+                    "@type": "item",
+                    "name": "src/stan/mcmc/hmc/static_uniform/adapt_unit_e_static_uniform.hpp"
+                },
+                {
+                    "@type": "item",
+                    "name": "src/stan/mcmc/hmc/nuts/unit_e_nuts.hpp"
+                },
+                {
+                    "@type": "item",
+                    "name": "src/stan/mcmc/hmc/nuts/adapt_dense_e_nuts.hpp"
+                },
+                {
+                    "@type": "item",
+                    "name": "src/stan/mcmc/hmc/nuts_classic/dense_e_nuts_classic.hpp"
+                },
+                {
+                    "@type": "item",
+                    "name": "src/stan/mcmc/hmc/nuts_classic/adapt_diag_e_nuts_classic.hpp"
+                },
+                {
+                    "@type": "item",
+                    "name": "src/stan/mcmc/hmc/nuts_classic/diag_e_nuts_classic.hpp"
+                },
+                {
+                    "@type": "item",
+                    "name": "src/stan/mcmc/hmc/nuts_classic/base_nuts_classic.hpp"
+                },
+                {
+                    "@type": "item",
+                    "name": "src/stan/mcmc/hmc/static_uniform/adapt_dense_e_static_uniform.hpp"
+                },
+                {
+                    "@type": "item",
+                    "name": "src/stan/mcmc/hmc/static_uniform/adapt_softabs_static_uniform.hpp"
+                },
+                {
+                    "@type": "item",
+                    "name": "src/stan/mcmc/hmc/static/diag_e_static_hmc.hpp"
+                },
+                {
+                    "@type": "item",
+                    "name": "src/stan/mcmc/hmc/xhmc/diag_e_xhmc.hpp"
+                },
+                {
+                    "@type": "item",
+                    "name": "src/stan/mcmc/hmc/nuts_classic/unit_e_nuts_classic.hpp"
+                },
+                {
+                    "@type": "item",
+                    "name": "src/stan/mcmc/hmc/static/base_static_hmc.hpp"
+                },
+                {
+                    "@type": "item",
+                    "name": "src/stan/mcmc/hmc/nuts/diag_e_nuts.hpp"
+                },
+                {
+                    "@type": "item",
+                    "name": "src/stan/mcmc/hmc/hamiltonians/dense_e_point.hpp"
+                },
+                {
+                    "@type": "item",
+                    "name": "src/stan/mcmc/hmc/static_uniform/adapt_diag_e_static_uniform.hpp"
+                },
+                {
+                    "@type": "item",
+                    "name": "src/stan/mcmc/hmc/static_uniform/base_static_uniform.hpp"
+                },
+                {
+                    "@type": "item",
+                    "name": "src/stan/mcmc/hmc/nuts/dense_e_nuts.hpp"
+                },
+                {
+                    "@type": "item",
+                    "name": "src/stan/mcmc/hmc/xhmc/adapt_softabs_xhmc.hpp"
+                },
+                {
+                    "@type": "item",
+                    "name": "src/stan/mcmc/hmc/nuts/adapt_diag_e_nuts.hpp"
+                },
+                {
+                    "@type": "item",
+                    "name": "src/stan/mcmc/fixed_param_sampler.hpp"
+                },
+                {
+                    "@type": "item",
+                    "name": "src/stan/mcmc/hmc/static_uniform/softabs_static_uniform.hpp"
+                },
+                {
+                    "@type": "item",
+                    "name": "src/stan/mcmc/hmc/hamiltonians/base_hamiltonian.hpp"
+                },
+                {
+                    "@type": "item",
+                    "name": "src/stan/mcmc/hmc/hamiltonians/dense_e_metric.hpp"
+                },
+                {
+                    "@type": "item",
+                    "name": "src/test/unit/mcmc/hmc/hamiltonians/ps_point_test.cpp"
+                },
+                {
+                    "@type": "item",
+                    "name": "src/stan/mcmc/hmc/xhmc/softabs_xhmc.hpp"
+                },
+                {
+                    "@type": "item",
+                    "name": "src/stan/mcmc/hmc/nuts_classic/adapt_unit_e_nuts_classic.hpp"
+                },
+                {
+                    "@type": "item",
+                    "name": "src/stan/mcmc/hmc/static_uniform/unit_e_static_uniform.hpp"
+                },
+                {
+                    "@type": "item",
+                    "name": "src/stan/mcmc/hmc/integrators/impl_leapfrog.hpp"
+                },
+                {
+                    "@type": "item",
+                    "name": "src/stan/mcmc/hmc/static_uniform/dense_e_static_uniform.hpp"
+                },
+                {
+                    "@type": "item",
+                    "name": "src/stan/mcmc/hmc/hamiltonians/softabs_point.hpp"
+                },
+                {
+                    "@type": "item",
+                    "name": "src/stan/mcmc/hmc/static/adapt_softabs_static_hmc.hpp"
+                },
+                {
+                    "@type": "item",
+                    "name": "src/stan/mcmc/hmc/integrators/base_leapfrog.hpp"
+                },
+                {
+                    "@type": "item",
+                    "name": "src/stan/mcmc/hmc/xhmc/adapt_dense_e_xhmc.hpp"
+                },
+                {
+                    "@type": "item",
+                    "name": "src/stan/mcmc/hmc/xhmc/base_xhmc.hpp"
+                },
+                {
+                    "@type": "item",
+                    "name": "src/stan/mcmc/hmc/nuts/softabs_nuts.hpp"
+                },
+                {
+                    "@type": "item",
+                    "name": "src/test/integration/mtu/model.cpp"
+                },
+                {
+                    "@type": "item",
+                    "name": "src/stan/mcmc/base_mcmc.hpp"
+                },
+                {
+                    "@type": "item",
+                    "name": "src/stan/mcmc/hmc/nuts/adapt_softabs_nuts.hpp"
+                },
+                {
+                    "@type": "item",
+                    "name": "src/stan/mcmc/hmc/static/adapt_unit_e_static_hmc.hpp"
+                },
+                {
+                    "@type": "item",
+                    "name": "src/stan/mcmc/hmc/nuts/base_nuts.hpp"
+                },
+                {
+                    "@type": "item",
+                    "name": "src/stan/mcmc/hmc/xhmc/adapt_diag_e_xhmc.hpp"
+                },
+                {
+                    "@type": "item",
+                    "name": "src/stan/mcmc/hmc/integrators/base_integrator.hpp"
+                },
+                {
+                    "@type": "item",
+                    "name": "src/test/unit/model/model_functional_test.cpp"
+                },
+                {
+                    "@type": "item",
+                    "name": "src/stan/mcmc/hmc/xhmc/dense_e_xhmc.hpp"
+                },
+                {
+                    "@type": "item",
+                    "name": "src/stan/mcmc/hmc/hamiltonians/unit_e_point.hpp"
+                },
+                {
+                    "@type": "item",
+                    "name": "src/stan/mcmc/hmc/hamiltonians/unit_e_metric.hpp"
+                },
+                {
+                    "@type": "item",
+                    "name": "src/stan/mcmc/hmc/integrators/expl_leapfrog.hpp"
+                },
+                {
+                    "@type": "item",
+                    "name": "src/stan/mcmc/hmc/hamiltonians/softabs_metric.hpp"
+                },
+                {
+                    "@type": "item",
+                    "name": "src/test/integration/mtu/mcmc.cpp"
+                },
+                {
+                    "@type": "item",
+                    "name": "src/stan/mcmc/hmc/xhmc/unit_e_xhmc.hpp"
+                },
+                {
+                    "@type": "item",
+                    "name": "src/stan/mcmc/hmc/static/dense_e_static_hmc.hpp"
+                },
+                {
+                    "@type": "item",
+                    "name": "src/stan/mcmc/hmc/static/adapt_dense_e_static_hmc.hpp"
+                },
+                {
+                    "@type": "item",
+                    "name": "src/stan/mcmc/hmc/static/softabs_static_hmc.hpp"
+                },
+                {
+                    "@type": "item",
+                    "name": "src/stan/mcmc/hmc/static/adapt_diag_e_static_hmc.hpp"
+                },
+                {
+                    "@type": "item",
+                    "name": "src/stan/mcmc/hmc/static_uniform/diag_e_static_uniform.hpp"
+                },
+                {
+                    "@type": "item",
+                    "name": "src/stan/mcmc/hmc/nuts/adapt_unit_e_nuts.hpp"
+                }
+            ]
+        },
+        {
+            "@type": "group",
+            "name": "2",
+            "nested": [
+                {
+                    "@type": "item",
+                    "name": "src/stan/services/pathfinder/single.hpp"
+                },
+                {
+                    "@type": "item",
+                    "name": "src/stan/services/sample/hmc_static_dense_e.hpp"
+                },
+                {
+                    "@type": "item",
+                    "name": "src/stan/services/pathfinder/multi.hpp"
+                },
+                {
+                    "@type": "item",
+                    "name": "src/stan/services/util/inv_metric.hpp"
+                },
+                {
+                    "@type": "item",
+                    "name": "src/stan/services/sample/hmc_static_diag_e_adapt.hpp"
+                },
+                {
+                    "@type": "item",
+                    "name": "src/stan/services/optimize/bfgs.hpp"
+                },
+                {
+                    "@type": "item",
+                    "name": "src/stan/services/util/initialize.hpp"
+                },
+                {
+                    "@type": "item",
+                    "name": "src/stan/services/sample/hmc_static_unit_e_adapt.hpp"
+                },
+                {
+                    "@type": "item",
+                    "name": "src/stan/services/sample/hmc_nuts_diag_e_adapt.hpp"
+                },
+                {
+                    "@type": "item",
+                    "name": "src/stan/callbacks/interrupt.hpp"
+                },
+                {
+                    "@type": "item",
+                    "name": "src/stan/services/sample/fixed_param.hpp"
+                },
+                {
+                    "@type": "item",
+                    "name": "src/test/unit/callbacks/tee_writer_test.cpp"
+                },
+                {
+                    "@type": "item",
+                    "name": "src/stan/services/sample/standalone_gqs.hpp"
+                },
+                {
+                    "@type": "item",
+                    "name": "src/stan/services/util/generate_transitions.hpp"
+                },
+                {
+                    "@type": "item",
+                    "name": "src/stan/services/optimize/laplace_sample.hpp"
+                },
+                {
+                    "@type": "item",
+                    "name": "src/stan/services/optimize/newton.hpp"
+                },
+                {
+                    "@type": "item",
+                    "name": "src/stan/services/sample/hmc_nuts_diag_e.hpp"
+                },
+                {
+                    "@type": "item",
+                    "name": "src/stan/services/sample/hmc_static_unit_e.hpp"
+                },
+                {
+                    "@type": "item",
+                    "name": "src/stan/callbacks/tee_writer.hpp"
+                },
+                {
+                    "@type": "item",
+                    "name": "src/stan/services/sample/hmc_static_dense_e_adapt.hpp"
+                },
+                {
+                    "@type": "item",
+                    "name": "src/stan/services/diagnose/diagnose.hpp"
+                },
+                {
+                    "@type": "item",
+                    "name": "src/stan/services/util/duration_diff.hpp"
+                },
+                {
+                    "@type": "item",
+                    "name": "src/stan/services/util/gq_writer.hpp"
+                },
+                {
+                    "@type": "item",
+                    "name": "src/stan/services/sample/hmc_nuts_unit_e_adapt.hpp"
+                },
+                {
+                    "@type": "item",
+                    "name": "src/stan/callbacks/stream_writer.hpp"
+                },
+                {
+                    "@type": "item",
+                    "name": "src/stan/services/sample/hmc_nuts_dense_e.hpp"
+                },
+                {
+                    "@type": "item",
+                    "name": "src/stan/services/util/experimental_message.hpp"
+                },
+                {
+                    "@type": "item",
+                    "name": "src/stan/services/util/run_adaptive_sampler.hpp"
+                },
+                {
+                    "@type": "item",
+                    "name": "src/stan/services/util/run_sampler.hpp"
+                },
+                {
+                    "@type": "item",
+                    "name": "src/stan/services/pathfinder/psis.hpp"
+                },
+                {
+                    "@type": "item",
+                    "name": "src/stan/services/experimental/advi/fullrank.hpp"
+                },
+                {
+                    "@type": "item",
+                    "name": "src/stan/callbacks/unique_stream_writer.hpp"
+                },
+                {
+                    "@type": "item",
+                    "name": "src/stan/services/error_codes.hpp"
+                },
+                {
+                    "@type": "item",
+                    "name": "src/stan/services/optimize/lbfgs.hpp"
+                },
+                {
+                    "@type": "item",
+                    "name": "src/stan/services/experimental/advi/meanfield.hpp"
+                },
+                {
+                    "@type": "item",
+                    "name": "src/stan/services/util/create_rng.hpp"
+                },
+                {
+                    "@type": "item",
+                    "name": "src/stan/model/indexing/deep_copy.hpp"
+                },
+                {
+                    "@type": "item",
+                    "name": "src/stan/services/sample/hmc_nuts_dense_e_adapt.hpp"
+                },
+                {
+                    "@type": "item",
+                    "name": "src/stan/services/util/mcmc_writer.hpp"
+                },
+                {
+                    "@type": "item",
+                    "name": "src/stan/callbacks/stream_logger.hpp"
+                },
+                {
+                    "@type": "item",
+                    "name": "src/stan/services/sample/hmc_static_diag_e.hpp"
+                },
+                {
+                    "@type": "item",
+                    "name": "src/stan/callbacks/logger.hpp"
+                },
+                {
+                    "@type": "item",
+                    "name": "src/stan/callbacks/writer.hpp"
+                },
+                {
+                    "@type": "item",
+                    "name": "src/stan/services/sample/hmc_nuts_unit_e.hpp"
+                }
+            ]
+        },
+        {
+            "@type": "group",
+            "name": "3",
+            "nested": [
+                {
+                    "@type": "item",
+                    "name": "src/test/unit/services/sample/hmc_static_diag_inv_metric_test.cpp"
+                },
+                {
+                    "@type": "item",
+                    "name": "src/test/unit/services/sample/hmc_static_dense_inv_metric_test.cpp"
+                },
+                {
+                    "@type": "item",
+                    "name": "src/test/unit/services/instrumented_callbacks.hpp"
+                },
+                {
+                    "@type": "item",
+                    "name": "src/test/unit/services/optimize/lbfgs_test.cpp"
+                },
+                {
+                    "@type": "item",
+                    "name": "src/test/unit/services/util/generate_transitions_test.cpp"
+                },
+                {
+                    "@type": "item",
+                    "name": "src/test/unit/services/pathfinder/util.hpp"
+                },
+                {
+                    "@type": "item",
+                    "name": "src/test/unit/services/sample/standalone_gqs_2390_test.cpp"
+                },
+                {
+                    "@type": "item",
+                    "name": "src/test/unit/services/sample/hmc_static_dense_e_test.cpp"
+                },
+                {
+                    "@type": "item",
+                    "name": "src/test/unit/services/sample/hmc_nuts_diag_e_adapt_parallel_test.cpp"
+                },
+                {
+                    "@type": "item",
+                    "name": "src/test/unit/services/optimize/bfgs_test.cpp"
+                },
+                {
+                    "@type": "item",
+                    "name": "src/test/unit/services/sample/standalone_gqs_bad_test.cpp"
+                },
+                {
+                    "@type": "item",
+                    "name": "src/test/unit/services/pathfinder/eight_schools_test.cpp"
+                },
+                {
+                    "@type": "item",
+                    "name": "src/test/unit/services/sample/hmc_static_diag_e_test.cpp"
+                },
+                {
+                    "@type": "item",
+                    "name": "src/test/unit/services/optimize/bfgs_jacobian_test.cpp"
+                },
+                {
+                    "@type": "item",
+                    "name": "src/test/unit/services/sample/hmc_nuts_dense_e_adapt_parallel_test.cpp"
+                },
+                {
+                    "@type": "item",
+                    "name": "src/test/unit/services/optimize/newton_jacobian_test.cpp"
+                },
+                {
+                    "@type": "item",
+                    "name": "src/test/unit/services/diagnose/diagnose_test.cpp"
+                },
+                {
+                    "@type": "item",
+                    "name": "src/test/unit/services/sample/fixed_param_test.cpp"
+                },
+                {
+                    "@type": "item",
+                    "name": "src/test/unit/services/util/gq_writer_test.cpp"
+                },
+                {
+                    "@type": "item",
+                    "name": "src/test/unit/services/sample/hmc_static_diag_e_adapt_test.cpp"
+                },
+                {
+                    "@type": "item",
+                    "name": "src/test/unit/services/optimize/newton_test.cpp"
+                },
+                {
+                    "@type": "item",
+                    "name": "src/test/unit/services/sample/hmc_nuts_diag_inv_metric_test.cpp"
+                },
+                {
+                    "@type": "item",
+                    "name": "src/test/unit/services/experimental/advi/fullrank_test.cpp"
+                },
+                {
+                    "@type": "item",
+                    "name": "src/test/unit/services/optimize/laplace_sample_test.cpp"
+                },
+                {
+                    "@type": "item",
+                    "name": "src/test/unit/services/sample/hmc_static_unit_e_adapt_test.cpp"
+                },
+                {
+                    "@type": "item",
+                    "name": "src/test/unit/services/sample/hmc_nuts_diag_e_adapt_test.cpp"
+                },
+                {
+                    "@type": "item",
+                    "name": "src/test/unit/services/sample/hmc_nuts_dense_e_adapt_test.cpp"
+                },
+                {
+                    "@type": "item",
+                    "name": "src/test/unit/services/check_adaptation.hpp"
+                },
+                {
+                    "@type": "item",
+                    "name": "src/test/unit/services/sample/hmc_static_dense_e_adapt_test.cpp"
+                },
+                {
+                    "@type": "item",
+                    "name": "src/test/unit/services/sample/hmc_nuts_dense_inv_metric_test.cpp"
+                },
+                {
+                    "@type": "item",
+                    "name": "src/test/unit/services/sample/standalone_gqs_zero_sized_test.cpp"
+                },
+                {
+                    "@type": "item",
+                    "name": "src/test/unit/services/sample/hmc_nuts_unit_e_test.cpp"
+                },
+                {
+                    "@type": "item",
+                    "name": "src/test/unit/services/sample/standalone_gqs_multidim_test.cpp"
+                },
+                {
+                    "@type": "item",
+                    "name": "src/test/unit/services/sample/standalone_gqs_test.cpp"
+                },
+                {
+                    "@type": "item",
+                    "name": "src/test/unit/services/optimize/lbfgs_jacobian_test.cpp"
+                },
+                {
+                    "@type": "item",
+                    "name": "src/test/unit/services/optimize/laplace_jacobian_test.cpp"
+                },
+                {
+                    "@type": "item",
+                    "name": "src/test/unit/services/sample/hmc_nuts_unit_e_adapt_test.cpp"
+                },
+                {
+                    "@type": "item",
+                    "name": "src/test/unit/services/experimental/advi/meanfield_test.cpp"
+                },
+                {
+                    "@type": "item",
+                    "name": "src/test/unit/services/sample/hmc_nuts_dense_e_test.cpp"
+                },
+                {
+                    "@type": "item",
+                    "name": "src/test/unit/services/sample/hmc_nuts_diag_e_test.cpp"
+                },
+                {
+                    "@type": "item",
+                    "name": "src/test/unit/services/util.hpp"
+                },
+                {
+                    "@type": "item",
+                    "name": "src/test/unit/services/sample/hmc_nuts_diag_e_adapt_parallel_match_test.cpp"
+                },
+                {
+                    "@type": "item",
+                    "name": "src/test/unit/services/sample/hmc_nuts_dense_e_adapt_parallel_match_test.cpp"
+                },
+                {
+                    "@type": "item",
+                    "name": "src/test/unit/services/pathfinder/normal_glm_test.cpp"
+                }
+            ]
+        },
+        {
+            "@type": "group",
+            "name": "4",
+            "nested": [
+                {
+                    "@type": "item",
+                    "name": "lib/rapidjson_1.1.0/rapidjson/pointer.h"
+                },
+                {
+                    "@type": "item",
+                    "name": "lib/rapidjson_1.1.0/rapidjson/msinttypes/inttypes.h"
+                },
+                {
+                    "@type": "item",
+                    "name": "lib/rapidjson_1.1.0/rapidjson/internal/ieee754.h"
+                },
+                {
+                    "@type": "item",
+                    "name": "lib/rapidjson_1.1.0/rapidjson/internal/biginteger.h"
+                },
+                {
+                    "@type": "item",
+                    "name": "lib/rapidjson_1.1.0/rapidjson/internal/swap.h"
+                },
+                {
+                    "@type": "item",
+                    "name": "lib/rapidjson_1.1.0/rapidjson/encodings.h"
+                },
+                {
+                    "@type": "item",
+                    "name": "lib/rapidjson_1.1.0/rapidjson/stream.h"
+                },
+                {
+                    "@type": "item",
+                    "name": "lib/rapidjson_1.1.0/rapidjson/istreamwrapper.h"
+                },
+                {
+                    "@type": "item",
+                    "name": "lib/rapidjson_1.1.0/rapidjson/internal/stack.h"
+                },
+                {
+                    "@type": "item",
+                    "name": "lib/rapidjson_1.1.0/rapidjson/document.h"
+                },
+                {
+                    "@type": "item",
+                    "name": "lib/rapidjson_1.1.0/rapidjson/internal/pow10.h"
+                },
+                {
+                    "@type": "item",
+                    "name": "lib/rapidjson_1.1.0/rapidjson/encodedstream.h"
+                },
+                {
+                    "@type": "item",
+                    "name": "lib/rapidjson_1.1.0/rapidjson/schema.h"
+                },
+                {
+                    "@type": "item",
+                    "name": "lib/rapidjson_1.1.0/rapidjson/reader.h"
+                },
+                {
+                    "@type": "item",
+                    "name": "lib/rapidjson_1.1.0/rapidjson/internal/strfunc.h"
+                },
+                {
+                    "@type": "item",
+                    "name": "lib/rapidjson_1.1.0/rapidjson/internal/dtoa.h"
+                },
+                {
+                    "@type": "item",
+                    "name": "lib/rapidjson_1.1.0/rapidjson/error/error.h"
+                },
+                {
+                    "@type": "item",
+                    "name": "lib/rapidjson_1.1.0/rapidjson/fwd.h"
+                },
+                {
+                    "@type": "item",
+                    "name": "lib/rapidjson_1.1.0/rapidjson/error/en.h"
+                },
+                {
+                    "@type": "item",
+                    "name": "lib/rapidjson_1.1.0/rapidjson/internal/itoa.h"
+                },
+                {
+                    "@type": "item",
+                    "name": "lib/rapidjson_1.1.0/rapidjson/cursorstreamwrapper.h"
+                },
+                {
+                    "@type": "item",
+                    "name": "lib/rapidjson_1.1.0/rapidjson/msinttypes/stdint.h"
+                },
+                {
+                    "@type": "item",
+                    "name": "lib/rapidjson_1.1.0/rapidjson/allocators.h"
+                },
+                {
+                    "@type": "item",
+                    "name": "lib/rapidjson_1.1.0/rapidjson/internal/meta.h"
+                },
+                {
+                    "@type": "item",
+                    "name": "lib/rapidjson_1.1.0/rapidjson/ostreamwrapper.h"
+                },
+                {
+                    "@type": "item",
+                    "name": "lib/rapidjson_1.1.0/rapidjson/stringbuffer.h"
+                },
+                {
+                    "@type": "item",
+                    "name": "lib/rapidjson_1.1.0/rapidjson/internal/strtod.h"
+                },
+                {
+                    "@type": "item",
+                    "name": "lib/rapidjson_1.1.0/rapidjson/memorystream.h"
+                },
+                {
+                    "@type": "item",
+                    "name": "lib/rapidjson_1.1.0/rapidjson/internal/diyfp.h"
+                },
+                {
+                    "@type": "item",
+                    "name": "lib/rapidjson_1.1.0/rapidjson/filereadstream.h"
+                },
+                {
+                    "@type": "item",
+                    "name": "src/test/unit/analyze/mcmc/autocovariance_test.cpp"
+                },
+                {
+                    "@type": "item",
+                    "name": "lib/rapidjson_1.1.0/rapidjson/filewritestream.h"
+                },
+                {
+                    "@type": "item",
+                    "name": "lib/rapidjson_1.1.0/rapidjson/rapidjson.h"
+                },
+                {
+                    "@type": "item",
+                    "name": "lib/rapidjson_1.1.0/rapidjson/memorybuffer.h"
+                }
+            ]
+        },
+        {
+            "@type": "group",
+            "name": "5",
+            "nested": [
+                {
+                    "@type": "item",
+                    "name": "src/stan/model/model_base_crtp.hpp"
+                },
+                {
+                    "@type": "item",
+                    "name": "src/stan/model/grad_tr_mat_times_hessian.hpp"
+                },
+                {
+                    "@type": "item",
+                    "name": "src/stan/model/test_gradients.hpp"
+                },
+                {
+                    "@type": "item",
+                    "name": "src/stan/model/rethrow_located.hpp"
+                },
+                {
+                    "@type": "item",
+                    "name": "src/test/unit/variational/advi_univar_with_constraint_test.cpp"
+                },
+                {
+                    "@type": "item",
+                    "name": "src/stan/model/log_prob_grad.hpp"
+                },
+                {
+                    "@type": "item",
+                    "name": "src/test/unit/variational/hier_logistic_cp_test.cpp"
+                },
+                {
+                    "@type": "item",
+                    "name": "src/stan/model/hessian.hpp"
+                },
+                {
+                    "@type": "item",
+                    "name": "src/test/unit/variational/advi_multivar_with_constraint_test.cpp"
+                },
+                {
+                    "@type": "item",
+                    "name": "src/stan/lang/rethrow_located.hpp"
+                },
+                {
+                    "@type": "item",
+                    "name": "src/test/unit/variational/advi_univar_no_constraint_test.cpp"
+                },
+                {
+                    "@type": "item",
+                    "name": "src/test/unit/variational/advi_multivar_no_constraint_test.cpp"
+                },
+                {
+                    "@type": "item",
+                    "name": "src/stan/model/gradient_dot_vector.hpp"
+                },
+                {
+                    "@type": "item",
+                    "name": "src/stan/model/prob_grad.hpp"
+                },
+                {
+                    "@type": "item",
+                    "name": "src/stan/model/gradient.hpp"
+                },
+                {
+                    "@type": "item",
+                    "name": "src/stan/model/model_base.hpp"
+                },
+                {
+                    "@type": "item",
+                    "name": "src/stan/model/hessian_times_vector.hpp"
+                },
+                {
+                    "@type": "item",
+                    "name": "src/stan/model/log_prob_propto.hpp"
+                },
+                {
+                    "@type": "item",
+                    "name": "src/stan/model/grad_hess_log_prob.hpp"
+                },
+                {
+                    "@type": "item",
+                    "name": "src/stan/model/model_functional.hpp"
+                },
+                {
+                    "@type": "item",
+                    "name": "src/stan/model/finite_diff_grad.hpp"
+                },
+                {
+                    "@type": "item",
+                    "name": "src/stan/model/indexing.hpp"
+                },
+                {
+                    "@type": "item",
+                    "name": "src/stan/model/model_header.hpp"
+                }
+            ]
+        },
+        {
+            "@type": "group",
+            "name": "6",
+            "nested": [
+                {
+                    "@type": "item",
+                    "name": "src/test/unit/model/model_base_crtp_test.cpp"
+                },
+                {
+                    "@type": "item",
+                    "name": "src/test/unit/model/model_base_test.cpp"
+                },
+                {
+                    "@type": "item",
+                    "name": "src/stan/io/json/rapidjson_parser.hpp"
+                },
+                {
+                    "@type": "item",
+                    "name": "src/stan/io/dump.hpp"
+                },
+                {
+                    "@type": "item",
+                    "name": "src/test/unit/variational/stochastic_gradient_ascent_test.cpp"
+                },
+                {
+                    "@type": "item",
+                    "name": "src/test/unit/services/util/initialize_test.cpp"
+                },
+                {
+                    "@type": "item",
+                    "name": "src/test/unit/services/util/run_sampler_test.cpp"
+                },
+                {
+                    "@type": "item",
+                    "name": "src/test/unit/model/array_functions_roundtrip_test.cpp"
+                },
+                {
+                    "@type": "item",
+                    "name": "src/test/unit/services/util/run_adaptive_sampler_test.cpp"
+                },
+                {
+                    "@type": "item",
+                    "name": "src/stan/io/chained_var_context.hpp"
+                },
+                {
+                    "@type": "item",
+                    "name": "src/stan/io/json/json_data_handler.hpp"
+                },
+                {
+                    "@type": "item",
+                    "name": "src/stan/io/var_context.hpp"
+                },
+                {
+                    "@type": "item",
+                    "name": "src/stan/io/empty_var_context.hpp"
+                },
+                {
+                    "@type": "item",
+                    "name": "src/stan/io/validate_dims.hpp"
+                },
+                {
+                    "@type": "item",
+                    "name": "src/stan/io/json/json_handler.hpp"
+                },
+                {
+                    "@type": "item",
+                    "name": "src/stan/io/ends_with.hpp"
+                },
+                {
+                    "@type": "item",
+                    "name": "src/test/unit/services/util/mcmc_writer_test.cpp"
+                },
+                {
+                    "@type": "item",
+                    "name": "src/stan/io/array_var_context.hpp"
+                },
+                {
+                    "@type": "item",
+                    "name": "src/test/unit/variational/eta_adapt_mock_models_test.cpp"
+                },
+                {
+                    "@type": "item",
+                    "name": "src/stan/io/validate_zero_buf.hpp"
+                },
+                {
+                    "@type": "item",
+                    "name": "src/stan/io/random_var_context.hpp"
+                },
+                {
+                    "@type": "item",
+                    "name": "src/test/unit/io/random_var_context_test.cpp"
+                },
+                {
+                    "@type": "item",
+                    "name": "src/stan/io/json/json_error.hpp"
+                },
+                {
+                    "@type": "item",
+                    "name": "src/stan/io/json/json_data.hpp"
+                }
+            ]
+        },
+        {
+            "@type": "group",
+            "name": "7",
+            "nested": [
+                {
+                    "@type": "item",
+                    "name": "src/stan/optimization/bfgs.hpp"
+                },
+                {
+                    "@type": "item",
+                    "name": "src/stan/variational/print_progress.hpp"
+                },
+                {
+                    "@type": "item",
+                    "name": "src/test/unit/variational/eta_adapt_fail_test.cpp"
+                },
+                {
+                    "@type": "item",
+                    "name": "src/stan/variational/advi.hpp"
+                },
+                {
+                    "@type": "item",
+                    "name": "src/test/unit/variational/eta_adapt_big_test.cpp"
+                },
+                {
+                    "@type": "item",
+                    "name": "src/stan/optimization/lbfgs_update.hpp"
+                },
+                {
+                    "@type": "item",
+                    "name": "src/test/unit/optimization/bfgs_exponential_boundary_test.cpp"
+                },
+                {
+                    "@type": "item",
+                    "name": "src/stan/optimization/newton.hpp"
+                },
+                {
+                    "@type": "item",
+                    "name": "src/test/unit/variational/eta_adapt_small_test.cpp"
+                },
+                {
+                    "@type": "item",
+                    "name": "src/test/unit/variational/advi_messages_test.cpp"
+                },
+                {
+                    "@type": "item",
+                    "name": "src/stan/optimization/bfgs_update.hpp"
+                },
+                {
+                    "@type": "item",
+                    "name": "src/test/unit/variational/hier_logistic_test.cpp"
+                },
+                {
+                    "@type": "item",
+                    "name": "src/test/unit/variational/gradient_warn_test.cpp"
+                },
+                {
+                    "@type": "item",
+                    "name": "lib/rapidjson_1.1.0/rapidjson/internal/regex.h"
+                },
+                {
+                    "@type": "item",
+                    "name": "src/stan/optimization/bfgs_linesearch.hpp"
+                },
+                {
+                    "@type": "item",
+                    "name": "src/test/unit/io/stan_csv_reader_test.cpp"
+                },
+                {
+                    "@type": "item",
+                    "name": "src/stan/variational/families/normal_meanfield.hpp"
+                },
+                {
+                    "@type": "item",
+                    "name": "src/stan/variational/base_family.hpp"
+                },
+                {
+                    "@type": "item",
+                    "name": "src/stan/variational/families/normal_fullrank.hpp"
+                }
+            ]
+        },
+        {
+            "@type": "group",
+            "name": "8",
+            "nested": [
+                {
+                    "@type": "item",
+                    "name": "src/test/unit/model/indexing/rvalue_varmat_test.cpp"
+                },
+                {
+                    "@type": "item",
+                    "name": "src/stan/model/indexing/access_helpers.hpp"
+                },
+                {
+                    "@type": "item",
+                    "name": "src/stan/model/indexing/assign_cl.hpp"
+                },
+                {
+                    "@type": "item",
+                    "name": "src/stan/model/indexing/index.hpp"
+                },
+                {
+                    "@type": "item",
+                    "name": "src/test/unit/model/indexing/assign_varmat_test.cpp"
+                },
+                {
+                    "@type": "item",
+                    "name": "src/stan/model/indexing/assign.hpp"
+                },
+                {
+                    "@type": "item",
+                    "name": "src/test/unit/model/indexing/util.hpp"
+                },
+                {
+                    "@type": "item",
+                    "name": "src/stan/model/indexing/assign_varmat.hpp"
+                },
+                {
+                    "@type": "item",
+                    "name": "src/stan/model/indexing/rvalue_cl.hpp"
+                },
+                {
+                    "@type": "item",
+                    "name": "src/stan/model/indexing/rvalue_index_size.hpp"
+                },
+                {
+                    "@type": "item",
+                    "name": "src/stan/model/indexing/rvalue_at.hpp"
+                },
+                {
+                    "@type": "item",
+                    "name": "src/stan/model/indexing/rvalue.hpp"
+                },
+                {
+                    "@type": "item",
+                    "name": "src/stan/model/indexing/rvalue_varmat.hpp"
+                }
+            ]
+        },
+        {
+            "@type": "group",
+            "name": "9",
+            "nested": [
+                {
+                    "@type": "item",
+                    "name": "src/stan/analyze/mcmc/split_chains.hpp"
+                },
+                {
+                    "@type": "item",
+                    "name": "src/stan/version.hpp"
+                },
+                {
+                    "@type": "item",
+                    "name": "src/stan/analyze/mcmc/compute_potential_scale_reduction.hpp"
+                },
+                {
+                    "@type": "item",
+                    "name": "src/test/unit/analyze/mcmc/split_chains_test.cpp"
+                },
+                {
+                    "@type": "item",
+                    "name": "src/stan/analyze/mcmc/compute_effective_sample_size.hpp"
+                },
+                {
+                    "@type": "item",
+                    "name": "src/stan/mcmc/chains.hpp"
+                },
+                {
+                    "@type": "item",
+                    "name": "src/stan/analyze/mcmc/autocovariance.hpp"
+                },
+                {
+                    "@type": "item",
+                    "name": "src/test/unit/analyze/mcmc/compute_potential_scale_reduction_test.cpp"
+                },
+                {
+                    "@type": "item",
+                    "name": "src/test/unit/optimization/lbfgs_update_test.cpp"
+                },
+                {
+                    "@type": "item",
+                    "name": "src/test/unit/optimization/bfgs_update_test.cpp"
+                },
+                {
+                    "@type": "item",
+                    "name": "src/stan/io/stan_csv_reader.hpp"
+                }
+            ]
+        },
+        {
+            "@type": "group",
+            "name": "10",
+            "nested": [
+                {
+                    "@type": "item",
+                    "name": "src/stan/mcmc/stepsize_adaptation.hpp"
+                },
+                {
+                    "@type": "item",
+                    "name": "src/stan/mcmc/stepsize_adapter.hpp"
+                },
+                {
+                    "@type": "item",
+                    "name": "src/stan/mcmc/covar_adaptation.hpp"
+                },
+                {
+                    "@type": "item",
+                    "name": "src/stan/mcmc/base_adapter.hpp"
+                },
+                {
+                    "@type": "item",
+                    "name": "src/stan/mcmc/base_adaptation.hpp"
+                },
+                {
+                    "@type": "item",
+                    "name": "src/stan/mcmc/stepsize_covar_adapter.hpp"
+                },
+                {
+                    "@type": "item",
+                    "name": "src/stan/mcmc/var_adaptation.hpp"
+                },
+                {
+                    "@type": "item",
+                    "name": "src/stan/mcmc/stepsize_var_adapter.hpp"
+                },
+                {
+                    "@type": "item",
+                    "name": "src/stan/mcmc/windowed_adaptation.hpp"
+                }
+            ]
+        },
+        {
+            "@type": "group",
+            "name": "11",
+            "nested": [
+                {
+                    "@type": "item",
+                    "name": "src/test/unit/mcmc/hmc/nuts_classic/base_nuts_classic_test.cpp"
+                },
+                {
+                    "@type": "item",
+                    "name": "src/test/unit/mcmc/hmc/nuts/base_nuts_test.cpp"
+                },
+                {
+                    "@type": "item",
+                    "name": "src/test/unit/mcmc/hmc/static/base_static_hmc_test.cpp"
+                },
+                {
+                    "@type": "item",
+                    "name": "src/test/unit/mcmc/hmc/static_uniform/base_static_uniform_test.cpp"
+                },
+                {
+                    "@type": "item",
+                    "name": "src/test/unit/mcmc/hmc/nuts/softabs_nuts_test.cpp"
+                },
+                {
+                    "@type": "item",
+                    "name": "src/test/unit/mcmc/hmc/xhmc/base_xhmc_test.cpp"
+                },
+                {
+                    "@type": "item",
+                    "name": "src/test/unit/mcmc/hmc/base_hmc_test.cpp"
+                },
+                {
+                    "@type": "item",
+                    "name": "src/test/unit/mcmc/hmc/mock_hmc.hpp"
+                },
+                {
+                    "@type": "item",
+                    "name": "src/test/unit/mcmc/hmc/nuts/unit_e_nuts_test.cpp"
+                }
+            ]
+        },
+        {
+            "@type": "group",
+            "name": "12",
+            "nested": [
+                {
+                    "@type": "item",
+                    "name": "src/stan/services/util/create_unit_e_dense_inv_metric.hpp"
+                },
+                {
+                    "@type": "item",
+                    "name": "src/stan/services/util/read_diag_inv_metric.hpp"
+                },
+                {
+                    "@type": "item",
+                    "name": "src/stan/services/util/read_dense_inv_metric.hpp"
+                },
+                {
+                    "@type": "item",
+                    "name": "src/stan/services/util/validate_diag_inv_metric.hpp"
+                },
+                {
+                    "@type": "item",
+                    "name": "src/stan/services/util/validate_dense_inv_metric.hpp"
+                },
+                {
+                    "@type": "item",
+                    "name": "src/stan/services/util/create_unit_e_diag_inv_metric.hpp"
+                }
+            ]
+        },
+        {
+            "@type": "group",
+            "name": "13",
+            "nested": [
+                {
+                    "@type": "item",
+                    "name": "src/test/unit/model/hessian_times_vector_test.cpp"
+                },
+                {
+                    "@type": "item",
+                    "name": "src/test/unit/model/gradient_dot_vector_test.cpp"
+                },
+                {
+                    "@type": "item",
+                    "name": "src/test/unit/model/hessian_test.cpp"
+                },
+                {
+                    "@type": "item",
+                    "name": "src/test/unit/model/gradient_test.cpp"
+                },
+                {
+                    "@type": "item",
+                    "name": "src/test/unit/model/grad_tr_mat_times_hessian_test.cpp"
+                }
+            ]
+        },
+        {
+            "@type": "group",
+            "name": "14",
+            "nested": [
+                {
+                    "@type": "item",
+                    "name": "src/stan/callbacks/json_writer.hpp"
+                },
+                {
+                    "@type": "item",
+                    "name": "lib/rapidjson_1.1.0/rapidjson/writer.h"
+                },
+                {
+                    "@type": "item",
+                    "name": "src/stan/callbacks/structured_writer.hpp"
+                },
+                {
+                    "@type": "item",
+                    "name": "lib/rapidjson_1.1.0/rapidjson/prettywriter.h"
+                }
+            ]
+        },
+        {
+            "@type": "group",
+            "name": "15",
+            "nested": [
+                {
+                    "@type": "item",
+                    "name": "src/stan/services/sample/defaults.hpp"
+                },
+                {
+                    "@type": "item",
+                    "name": "src/stan/services/diagnose/defaults.hpp"
+                },
+                {
+                    "@type": "item",
+                    "name": "src/stan/services/experimental/advi/defaults.hpp"
+                },
+                {
+                    "@type": "item",
+                    "name": "src/stan/services/optimize/defaults.hpp"
+                }
+            ]
+        },
+        {
+            "@type": "group",
+            "name": "16",
+            "nested": [
+                {
+                    "@type": "item",
+                    "name": "src/test/unit/model/indexing/rvalue_cl_test.cpp"
+                },
+                {
+                    "@type": "item",
+                    "name": "src/test/unit/io/ends_with_test.cpp"
+                },
+                {
+                    "@type": "item",
+                    "name": "src/test/unit/model/indexing/assign_cl_test.cpp"
+                },
+                {
+                    "@type": "item",
+                    "name": "src/test/unit/model/indexing/util_cl.hpp"
+                }
+            ]
+        }
+    ]
+}

@@ -1,0 +1,376 @@
+{
+    "@schemaVersion": "1.0",
+    "name": "clustering",
+    "structure": [
+        {
+            "@type": "group",
+            "name": "0",
+            "nested": [
+                {
+                    "@type": "item",
+                    "name": "include/history.h"
+                },
+                {
+                    "@type": "item",
+                    "name": "source/history.c"
+                },
+                {
+                    "@type": "item",
+                    "name": "include/modes/dmenuscriptshared.h"
+                },
+                {
+                    "@type": "item",
+                    "name": "source/modes/run.c"
+                },
+                {
+                    "@type": "item",
+                    "name": "include/mode.h"
+                },
+                {
+                    "@type": "item",
+                    "name": "source/mode.c"
+                },
+                {
+                    "@type": "item",
+                    "name": "include/modes/script.h"
+                },
+                {
+                    "@type": "item",
+                    "name": "source/modes/script.c"
+                },
+                {
+                    "@type": "item",
+                    "name": "source/modes/help-keys.c"
+                },
+                {
+                    "@type": "item",
+                    "name": "source/modes/ssh.c"
+                },
+                {
+                    "@type": "item",
+                    "name": "source/modes/combi.c"
+                },
+                {
+                    "@type": "item",
+                    "name": "include/mode-private.h"
+                },
+                {
+                    "@type": "item",
+                    "name": "test/history-test.c"
+                }
+            ]
+        },
+        {
+            "@type": "group",
+            "name": "1",
+            "nested": [
+                {
+                    "@type": "item",
+                    "name": "include/modes/filebrowser.h"
+                },
+                {
+                    "@type": "item",
+                    "name": "source/modes/filebrowser.c"
+                },
+                {
+                    "@type": "item",
+                    "name": "include/modes/modes.h"
+                },
+                {
+                    "@type": "item",
+                    "name": "include/modes/recursivebrowser.h"
+                },
+                {
+                    "@type": "item",
+                    "name": "source/modes/recursivebrowser.c"
+                },
+                {
+                    "@type": "item",
+                    "name": "include/modes/window.h"
+                },
+                {
+                    "@type": "item",
+                    "name": "include/modes/help-keys.h"
+                },
+                {
+                    "@type": "item",
+                    "name": "include/modes/drun.h"
+                },
+                {
+                    "@type": "item",
+                    "name": "include/modes/dmenu.h"
+                },
+                {
+                    "@type": "item",
+                    "name": "source/modes/dmenu.c"
+                },
+                {
+                    "@type": "item",
+                    "name": "include/modes/run.h"
+                },
+                {
+                    "@type": "item",
+                    "name": "include/modes/combi.h"
+                },
+                {
+                    "@type": "item",
+                    "name": "include/modes/ssh.h"
+                }
+            ]
+        },
+        {
+            "@type": "group",
+            "name": "2",
+            "nested": [
+                {
+                    "@type": "item",
+                    "name": "include/widgets/icon.h"
+                },
+                {
+                    "@type": "item",
+                    "name": "source/widgets/icon.c"
+                },
+                {
+                    "@type": "item",
+                    "name": "include/widgets/box.h"
+                },
+                {
+                    "@type": "item",
+                    "name": "source/widgets/box.c"
+                },
+                {
+                    "@type": "item",
+                    "name": "include/rofi-icon-fetcher.h"
+                },
+                {
+                    "@type": "item",
+                    "name": "source/rofi-icon-fetcher.c"
+                },
+                {
+                    "@type": "item",
+                    "name": "source/widgets/textbox.c"
+                },
+                {
+                    "@type": "item",
+                    "name": "include/widgets/listview.h"
+                },
+                {
+                    "@type": "item",
+                    "name": "source/widgets/listview.c"
+                },
+                {
+                    "@type": "item",
+                    "name": "include/widgets/scrollbar.h"
+                },
+                {
+                    "@type": "item",
+                    "name": "source/widgets/scrollbar.c"
+                },
+                {
+                    "@type": "item",
+                    "name": "include/widgets/widget.h"
+                },
+                {
+                    "@type": "item",
+                    "name": "include/widgets/widget-internal.h"
+                },
+                {
+                    "@type": "item",
+                    "name": "source/widgets/widget.c"
+                },
+                {
+                    "@type": "item",
+                    "name": "include/widgets/container.h"
+                },
+                {
+                    "@type": "item",
+                    "name": "source/widgets/container.c"
+                }
+            ]
+        },
+        {
+            "@type": "group",
+            "name": "3",
+            "nested": [
+                {
+                    "@type": "item",
+                    "name": "source/css-colors.c"
+                },
+                {
+                    "@type": "item",
+                    "name": "include/widgets/textbox.h"
+                },
+                {
+                    "@type": "item",
+                    "name": "include/rofi.h"
+                },
+                {
+                    "@type": "item",
+                    "name": "include/view.h"
+                },
+                {
+                    "@type": "item",
+                    "name": "test/theme-parser-test.c"
+                },
+                {
+                    "@type": "item",
+                    "name": "test/textbox-test.c"
+                },
+                {
+                    "@type": "item",
+                    "name": "test/helper-test.c"
+                },
+                {
+                    "@type": "item",
+                    "name": "test/helper-expand.c"
+                },
+                {
+                    "@type": "item",
+                    "name": "test/helper-tokenize.c"
+                },
+                {
+                    "@type": "item",
+                    "name": "test/widget-test.c"
+                },
+                {
+                    "@type": "item",
+                    "name": "test/scrollbar-test.c"
+                },
+                {
+                    "@type": "item",
+                    "name": "test/helper-pidfile.c"
+                },
+                {
+                    "@type": "item",
+                    "name": "test/mode-test.c"
+                },
+                {
+                    "@type": "item",
+                    "name": "test/helper-config-cmdline-parser.c"
+                },
+                {
+                    "@type": "item",
+                    "name": "test/box-test.c"
+                },
+                {
+                    "@type": "item",
+                    "name": "include/keyb.h"
+                },
+                {
+                    "@type": "item",
+                    "name": "source/keyb.c"
+                },
+                {
+                    "@type": "item",
+                    "name": "include/view-internal.h"
+                },
+                {
+                    "@type": "item",
+                    "name": "include/css-colors.h"
+                }
+            ]
+        },
+        {
+            "@type": "group",
+            "name": "4",
+            "nested": [
+                {
+                    "@type": "item",
+                    "name": "include/helper.h"
+                },
+                {
+                    "@type": "item",
+                    "name": "include/helper-theme.h"
+                },
+                {
+                    "@type": "item",
+                    "name": "include/theme.h"
+                },
+                {
+                    "@type": "item",
+                    "name": "source/helper.c"
+                },
+                {
+                    "@type": "item",
+                    "name": "source/rofi.c"
+                },
+                {
+                    "@type": "item",
+                    "name": "source/theme.c"
+                },
+                {
+                    "@type": "item",
+                    "name": "include/xrmoptions.h"
+                },
+                {
+                    "@type": "item",
+                    "name": "source/xrmoptions.c"
+                },
+                {
+                    "@type": "item",
+                    "name": "include/settings.h"
+                },
+                {
+                    "@type": "item",
+                    "name": "source/rofi-types.c"
+                },
+                {
+                    "@type": "item",
+                    "name": "include/rofi-types.h"
+                },
+                {
+                    "@type": "item",
+                    "name": "config/config.c"
+                }
+            ]
+        },
+        {
+            "@type": "group",
+            "name": "5",
+            "nested": [
+                {
+                    "@type": "item",
+                    "name": "source/view.c"
+                },
+                {
+                    "@type": "item",
+                    "name": "include/display.h"
+                },
+                {
+                    "@type": "item",
+                    "name": "include/xcb.h"
+                },
+                {
+                    "@type": "item",
+                    "name": "source/xcb.c"
+                },
+                {
+                    "@type": "item",
+                    "name": "include/xcb-internal.h"
+                }
+            ]
+        },
+        {
+            "@type": "group",
+            "name": "6",
+            "nested": [
+                {
+                    "@type": "item",
+                    "name": "include/timings.h"
+                },
+                {
+                    "@type": "item",
+                    "name": "source/timings.c"
+                },
+                {
+                    "@type": "item",
+                    "name": "source/modes/window.c"
+                },
+                {
+                    "@type": "item",
+                    "name": "source/modes/drun.c"
+                }
+            ]
+        }
+    ]
+}

@@ -1,0 +1,1460 @@
+{
+    "@schemaVersion": "1.0",
+    "name": "clustering",
+    "structure": [
+        {
+            "@type": "group",
+            "name": "0",
+            "nested": [
+                {
+                    "@type": "item",
+                    "name": "include/common/cs_crc32.h"
+                },
+                {
+                    "@type": "item",
+                    "name": "src/common/cs_crc32.c"
+                },
+                {
+                    "@type": "item",
+                    "name": "platforms/esp8266/src/esp_debug.c"
+                },
+                {
+                    "@type": "item",
+                    "name": "src/mgos_hal.h"
+                },
+                {
+                    "@type": "item",
+                    "name": "platforms/esp8266/src/esp_exc.h"
+                },
+                {
+                    "@type": "item",
+                    "name": "platforms/esp8266/src/esp_exc.c"
+                },
+                {
+                    "@type": "item",
+                    "name": "platforms/esp8266/src/esp_hal.c"
+                },
+                {
+                    "@type": "item",
+                    "name": "platforms/esp8266/src/esp_main.c"
+                },
+                {
+                    "@type": "item",
+                    "name": "platforms/esp8266/src/esp_heap_trace.c"
+                },
+                {
+                    "@type": "item",
+                    "name": "platforms/esp8266/src/esp_features.h"
+                },
+                {
+                    "@type": "item",
+                    "name": "platforms/esp8266/include/esp_missing_includes.h"
+                },
+                {
+                    "@type": "item",
+                    "name": "platforms/esp8266/src/esp_exc_non_os.c"
+                },
+                {
+                    "@type": "item",
+                    "name": "platforms/esp8266/src/esp_cache.c"
+                },
+                {
+                    "@type": "item",
+                    "name": "include/mgos_iram.h"
+                },
+                {
+                    "@type": "item",
+                    "name": "platforms/esp32/include/sys/mman.h"
+                },
+                {
+                    "@type": "item",
+                    "name": "platforms/esp8266/include/esp_hw_wdt_register.h"
+                },
+                {
+                    "@type": "item",
+                    "name": "platforms/esp8266/src/esp_hw_wdt.h"
+                },
+                {
+                    "@type": "item",
+                    "name": "platforms/esp8266/src/esp_hw_wdt.c"
+                },
+                {
+                    "@type": "item",
+                    "name": "platforms/esp8266/rboot/esptool2/elf.h"
+                },
+                {
+                    "@type": "item",
+                    "name": "src/mgos_bitbang.c"
+                },
+                {
+                    "@type": "item",
+                    "name": "platforms/esp8266/include/xtensa/xtruntime-frames.h"
+                },
+                {
+                    "@type": "item",
+                    "name": "src/mgos_core_dump.h"
+                },
+                {
+                    "@type": "item",
+                    "name": "platforms/esp8266/src/esp_coredump.h"
+                },
+                {
+                    "@type": "item",
+                    "name": "platforms/esp8266/src/esp_uart.h"
+                },
+                {
+                    "@type": "item",
+                    "name": "platforms/esp8266/src/esp_coredump.c"
+                },
+                {
+                    "@type": "item",
+                    "name": "platforms/esp8266/src/esp_uart.c"
+                },
+                {
+                    "@type": "item",
+                    "name": "platforms/esp8266/include/esp_uart_register.h"
+                },
+                {
+                    "@type": "item",
+                    "name": "platforms/esp8266/src/esp_exc_rtos.c"
+                },
+                {
+                    "@type": "item",
+                    "name": "platforms/esp8266/src/esp_periph.h"
+                },
+                {
+                    "@type": "item",
+                    "name": "platforms/esp8266/src/esp_periph.c"
+                },
+                {
+                    "@type": "item",
+                    "name": "platforms/esp8266/src/esp_hw.h"
+                },
+                {
+                    "@type": "item",
+                    "name": "platforms/esp8266/include/sys/mman.h"
+                },
+                {
+                    "@type": "item",
+                    "name": "platforms/esp32c3/include/sys/mman.h"
+                },
+                {
+                    "@type": "item",
+                    "name": "platforms/esp8266/src/esp_gpio.h"
+                },
+                {
+                    "@type": "item",
+                    "name": "platforms/esp8266/src/esp_gpio.c"
+                }
+            ]
+        },
+        {
+            "@type": "group",
+            "name": "1",
+            "nested": [
+                {
+                    "@type": "item",
+                    "name": "platforms/esp32/main/esp32_pins.h"
+                },
+                {
+                    "@type": "item",
+                    "name": "platforms/posix/lnx_gpio.c"
+                },
+                {
+                    "@type": "item",
+                    "name": "include/mgos_timers.h"
+                },
+                {
+                    "@type": "item",
+                    "name": "src/mgos_timers_internal.h"
+                },
+                {
+                    "@type": "item",
+                    "name": "src/mgos_timers.c"
+                },
+                {
+                    "@type": "item",
+                    "name": "src/mgos_hw_timers.c"
+                },
+                {
+                    "@type": "item",
+                    "name": "include/mgos_debug.h"
+                },
+                {
+                    "@type": "item",
+                    "name": "src/mgos_debug_internal.h"
+                },
+                {
+                    "@type": "item",
+                    "name": "src/mgos_debug.c"
+                },
+                {
+                    "@type": "item",
+                    "name": "include/mgos_net.h"
+                },
+                {
+                    "@type": "item",
+                    "name": "src/mgos_net_hal.h"
+                },
+                {
+                    "@type": "item",
+                    "name": "src/mgos_net_internal.h"
+                },
+                {
+                    "@type": "item",
+                    "name": "src/mgos_net.c"
+                },
+                {
+                    "@type": "item",
+                    "name": "src/mgos_system.c"
+                },
+                {
+                    "@type": "item",
+                    "name": "include/common/mg_str.h"
+                },
+                {
+                    "@type": "item",
+                    "name": "include/mgos_config_util.h"
+                },
+                {
+                    "@type": "item",
+                    "name": "src/mgos_sys_config_internal.h"
+                },
+                {
+                    "@type": "item",
+                    "name": "src/mgos_config_util.c"
+                },
+                {
+                    "@type": "item",
+                    "name": "src/mgos_sys_config.c"
+                },
+                {
+                    "@type": "item",
+                    "name": "include/mgos_timers.hpp"
+                },
+                {
+                    "@type": "item",
+                    "name": "src/mgos_timers.cpp"
+                },
+                {
+                    "@type": "item",
+                    "name": "include/common/str_util.h"
+                },
+                {
+                    "@type": "item",
+                    "name": "platforms/cc32xx/src/cc32xx_gpio.c"
+                },
+                {
+                    "@type": "item",
+                    "name": "include/common/mg_mem.h"
+                },
+                {
+                    "@type": "item",
+                    "name": "include/mgos_app.h"
+                },
+                {
+                    "@type": "item",
+                    "name": "src/mgos_deps_internal.h"
+                },
+                {
+                    "@type": "item",
+                    "name": "src/mgos_init.c"
+                },
+                {
+                    "@type": "item",
+                    "name": "src/mgos_mongoose.c"
+                },
+                {
+                    "@type": "item",
+                    "name": "src/mgos_gpio_internal.h"
+                },
+                {
+                    "@type": "item",
+                    "name": "src/mgos_gpio.c"
+                },
+                {
+                    "@type": "item",
+                    "name": "src/mgos_time.c"
+                },
+                {
+                    "@type": "item",
+                    "name": "platforms/esp32/main/esp32_uart.h"
+                },
+                {
+                    "@type": "item",
+                    "name": "platforms/esp32/main/esp32_uart.c"
+                },
+                {
+                    "@type": "item",
+                    "name": "src/mgos_init_internal.h"
+                },
+                {
+                    "@type": "item",
+                    "name": "src/mgos_debug_hal.h"
+                },
+                {
+                    "@type": "item",
+                    "name": "src/mgos_hw_timers_hal.h"
+                },
+                {
+                    "@type": "item",
+                    "name": "platforms/esp32/main/esp32_hw_timers.c"
+                },
+                {
+                    "@type": "item",
+                    "name": "platforms/esp32/main/esp32_hw_timers.h"
+                },
+                {
+                    "@type": "item",
+                    "name": "include/mgos_gpio.h"
+                },
+                {
+                    "@type": "item",
+                    "name": "src/mgos_gpio_hal.h"
+                },
+                {
+                    "@type": "item",
+                    "name": "platforms/esp32/main/esp32_gpio.c"
+                }
+            ]
+        },
+        {
+            "@type": "group",
+            "name": "2",
+            "nested": [
+                {
+                    "@type": "item",
+                    "name": "include/mgos_features.h"
+                },
+                {
+                    "@type": "item",
+                    "name": "include/mgos_file_utils.h"
+                },
+                {
+                    "@type": "item",
+                    "name": "src/mgos_file_utils.c"
+                },
+                {
+                    "@type": "item",
+                    "name": "include/mgos_bitbang.h"
+                },
+                {
+                    "@type": "item",
+                    "name": "include/common/cs_rbuf.h"
+                },
+                {
+                    "@type": "item",
+                    "name": "src/common/cs_rbuf.c"
+                },
+                {
+                    "@type": "item",
+                    "name": "include/common/logging.h"
+                },
+                {
+                    "@type": "item",
+                    "name": "include/mgos_sys_config.h"
+                },
+                {
+                    "@type": "item",
+                    "name": "platforms/posix/main.c"
+                },
+                {
+                    "@type": "item",
+                    "name": "platforms/posix/posix_hal.c"
+                },
+                {
+                    "@type": "item",
+                    "name": "include/common/cs_dbg.h"
+                },
+                {
+                    "@type": "item",
+                    "name": "include/common/json_utils.h"
+                },
+                {
+                    "@type": "item",
+                    "name": "src/common/json_utils.c"
+                },
+                {
+                    "@type": "item",
+                    "name": "src/frozen/frozen.h"
+                },
+                {
+                    "@type": "item",
+                    "name": "src/frozen/frozen.c"
+                },
+                {
+                    "@type": "item",
+                    "name": "fw/examples/c_mqtt/src/main.c"
+                },
+                {
+                    "@type": "item",
+                    "name": "include/mgos.h"
+                },
+                {
+                    "@type": "item",
+                    "name": "include/mgos_dlsym.h"
+                },
+                {
+                    "@type": "item",
+                    "name": "src/mgos_dlsym.c"
+                },
+                {
+                    "@type": "item",
+                    "name": "include/mgos_init.h"
+                },
+                {
+                    "@type": "item",
+                    "name": "include/common/mbuf.h"
+                },
+                {
+                    "@type": "item",
+                    "name": "include/common/cs_endian.h"
+                },
+                {
+                    "@type": "item",
+                    "name": "include/mgos_json_utils.hpp"
+                },
+                {
+                    "@type": "item",
+                    "name": "src/mgos_json_utils.cpp"
+                },
+                {
+                    "@type": "item",
+                    "name": "platforms/posix/fw.h"
+                },
+                {
+                    "@type": "item",
+                    "name": "include/common/cs_file.h"
+                },
+                {
+                    "@type": "item",
+                    "name": "src/common/cs_file.c"
+                }
+            ]
+        },
+        {
+            "@type": "group",
+            "name": "3",
+            "nested": [
+                {
+                    "@type": "item",
+                    "name": "platforms/stm32/src/stm32_hal.c"
+                },
+                {
+                    "@type": "item",
+                    "name": "platforms/stm32/src/stm32f412.c"
+                },
+                {
+                    "@type": "item",
+                    "name": "platforms/stm32/src/stm32_i2c.c"
+                },
+                {
+                    "@type": "item",
+                    "name": "platforms/esp8266/src/esp_config.c"
+                },
+                {
+                    "@type": "item",
+                    "name": "platforms/stm32/src/stm32f205.c"
+                },
+                {
+                    "@type": "item",
+                    "name": "platforms/stm32/include/stm32_uart_internal.h"
+                },
+                {
+                    "@type": "item",
+                    "name": "platforms/stm32/src/stm32_uart.c"
+                },
+                {
+                    "@type": "item",
+                    "name": "platforms/stm32/src/stm32_entry.c"
+                },
+                {
+                    "@type": "item",
+                    "name": "platforms/cc32xx/src/umm_malloc_cfg.h"
+                },
+                {
+                    "@type": "item",
+                    "name": "platforms/stm32/src/stm32_libc.c"
+                },
+                {
+                    "@type": "item",
+                    "name": "platforms/stm32/src/stm32f74x.c"
+                },
+                {
+                    "@type": "item",
+                    "name": "platforms/stm32/src/stm32_main.c"
+                },
+                {
+                    "@type": "item",
+                    "name": "platforms/stm32/include/stm32_uart.h"
+                },
+                {
+                    "@type": "item",
+                    "name": "platforms/stm32/include/stm32_gpio.h"
+                },
+                {
+                    "@type": "item",
+                    "name": "platforms/stm32/src/stm32_gpio.c"
+                },
+                {
+                    "@type": "item",
+                    "name": "platforms/stm32/src/stm32l475.c"
+                },
+                {
+                    "@type": "item",
+                    "name": "platforms/stm32/include/stm32_sdk_hal.h"
+                },
+                {
+                    "@type": "item",
+                    "name": "platforms/stm32/include/stm32_system.h"
+                },
+                {
+                    "@type": "item",
+                    "name": "platforms/stm32/src/stm32f2_system.c"
+                },
+                {
+                    "@type": "item",
+                    "name": "platforms/stm32/src/stm32f7_system.c"
+                },
+                {
+                    "@type": "item",
+                    "name": "platforms/stm32/src/stm32_ints.c"
+                },
+                {
+                    "@type": "item",
+                    "name": "platforms/stm32/src/stm32l4_system.c"
+                },
+                {
+                    "@type": "item",
+                    "name": "platforms/stm32/src/stm32f4_system.c"
+                }
+            ]
+        },
+        {
+            "@type": "group",
+            "name": "4",
+            "nested": [
+                {
+                    "@type": "item",
+                    "name": "platforms/cc3200/boot/lib/boot_meta.h"
+                },
+                {
+                    "@type": "item",
+                    "name": "platforms/cc3200/boot/tools/mkcfg.c"
+                },
+                {
+                    "@type": "item",
+                    "name": "platforms/cc3200/src/cc3200_vfs_dev_slfs_container_meta.h"
+                },
+                {
+                    "@type": "item",
+                    "name": "platforms/cc3200/boot/lib/boot.h"
+                },
+                {
+                    "@type": "item",
+                    "name": "platforms/cc3200/boot/lib/boot.c"
+                },
+                {
+                    "@type": "item",
+                    "name": "platforms/cc3200/src/cc3200_main_task.h"
+                },
+                {
+                    "@type": "item",
+                    "name": "platforms/cc3200/src/cc3200_main.c"
+                },
+                {
+                    "@type": "item",
+                    "name": "platforms/cc3200/boot/lib/boot_cfg.h"
+                },
+                {
+                    "@type": "item",
+                    "name": "platforms/cc3200/src/cc3200_libc.c"
+                },
+                {
+                    "@type": "item",
+                    "name": "platforms/cc3200/tools/mkfsmeta.c"
+                },
+                {
+                    "@type": "item",
+                    "name": "platforms/cc3220/src/cc3220_hal.c"
+                },
+                {
+                    "@type": "item",
+                    "name": "platforms/cc3200/src/cc3200_hal.c"
+                },
+                {
+                    "@type": "item",
+                    "name": "platforms/cc3200/boot/src/main.c"
+                }
+            ]
+        },
+        {
+            "@type": "group",
+            "name": "5",
+            "nested": [
+                {
+                    "@type": "item",
+                    "name": "platforms/cc3220/src/mg_locals.h"
+                },
+                {
+                    "@type": "item",
+                    "name": "include/common/platforms/platform_cc3200.h"
+                },
+                {
+                    "@type": "item",
+                    "name": "platforms/rs14100/src/rs14100_libc.c"
+                },
+                {
+                    "@type": "item",
+                    "name": "platforms/cc3200/src/mg_locals.h"
+                },
+                {
+                    "@type": "item",
+                    "name": "include/common/platforms/platform_rs14100.h"
+                },
+                {
+                    "@type": "item",
+                    "name": "include/common/platforms/platform_esp8266.h"
+                },
+                {
+                    "@type": "item",
+                    "name": "include/common/platform.h"
+                },
+                {
+                    "@type": "item",
+                    "name": "include/common/platforms/simplelink/sl_fs_slfs.h"
+                },
+                {
+                    "@type": "item",
+                    "name": "include/common/platforms/platform_stm32.h"
+                },
+                {
+                    "@type": "item",
+                    "name": "include/common/platforms/platform_cc3220.h"
+                },
+                {
+                    "@type": "item",
+                    "name": "include/common/platforms/platform_esp32.h"
+                },
+                {
+                    "@type": "item",
+                    "name": "include/common/platforms/platform_unix.h"
+                },
+                {
+                    "@type": "item",
+                    "name": "include/common/platforms/simplelink/cs_simplelink.h"
+                }
+            ]
+        },
+        {
+            "@type": "group",
+            "name": "6",
+            "nested": [
+                {
+                    "@type": "item",
+                    "name": "src/logging.cpp"
+                },
+                {
+                    "@type": "item",
+                    "name": "platforms/rs14100/include/rs14100_uart.h"
+                },
+                {
+                    "@type": "item",
+                    "name": "platforms/rs14100/src/rs14100_uart.c"
+                },
+                {
+                    "@type": "item",
+                    "name": "platforms/cc32xx/src/cc32xx_hal.c"
+                },
+                {
+                    "@type": "item",
+                    "name": "platforms/rs14100/include/rs14100_gpio.h"
+                },
+                {
+                    "@type": "item",
+                    "name": "src/arm_nsleep100.c"
+                },
+                {
+                    "@type": "item",
+                    "name": "include/mgos_utils.hpp"
+                },
+                {
+                    "@type": "item",
+                    "name": "include/mgos_system.h"
+                },
+                {
+                    "@type": "item",
+                    "name": "platforms/rs14100/include/rs14100_sdk.h"
+                },
+                {
+                    "@type": "item",
+                    "name": "platforms/rs14100/src/rs14100_wdt.c"
+                },
+                {
+                    "@type": "item",
+                    "name": "platforms/rs14100/src/rs14100_hal.c"
+                },
+                {
+                    "@type": "item",
+                    "name": "platforms/rs14100/src/rs14100_main.c"
+                },
+                {
+                    "@type": "item",
+                    "name": "platforms/ubuntu/src/ubuntu_ota_backend.c"
+                },
+                {
+                    "@type": "item",
+                    "name": "platforms/rs14100/src/rs14100_gpio.c"
+                },
+                {
+                    "@type": "item",
+                    "name": "include/mgos_utils.h"
+                },
+                {
+                    "@type": "item",
+                    "name": "src/mgos_utils.c"
+                },
+                {
+                    "@type": "item",
+                    "name": "include/mgos_system.hpp"
+                },
+                {
+                    "@type": "item",
+                    "name": "src/mgos_system.cpp"
+                },
+                {
+                    "@type": "item",
+                    "name": "platforms/esp32xx/esp32xx_hal.c"
+                }
+            ]
+        },
+        {
+            "@type": "group",
+            "name": "7",
+            "nested": [
+                {
+                    "@type": "item",
+                    "name": "platforms/ubuntu/src/ubuntu.h"
+                },
+                {
+                    "@type": "item",
+                    "name": "platforms/ubuntu/src/ubuntu_cap.c"
+                },
+                {
+                    "@type": "item",
+                    "name": "platforms/ubuntu/src/ubuntu_ipc.c"
+                },
+                {
+                    "@type": "item",
+                    "name": "platforms/ubuntu/src/ubuntu_hal_system.c"
+                },
+                {
+                    "@type": "item",
+                    "name": "platforms/ubuntu/src/ubuntu_log.c"
+                },
+                {
+                    "@type": "item",
+                    "name": "platforms/ubuntu/src/ubuntu_flags.c"
+                },
+                {
+                    "@type": "item",
+                    "name": "platforms/ubuntu/src/ubuntu_ipc.h"
+                },
+                {
+                    "@type": "item",
+                    "name": "platforms/ubuntu/src/ubuntu_main.c"
+                },
+                {
+                    "@type": "item",
+                    "name": "platforms/ubuntu/src/ubuntu_ipc_client.c"
+                },
+                {
+                    "@type": "item",
+                    "name": "platforms/ubuntu/src/ubuntu_hal_timers.c"
+                },
+                {
+                    "@type": "item",
+                    "name": "platforms/ubuntu/src/ubuntu_fs.c"
+                },
+                {
+                    "@type": "item",
+                    "name": "platforms/ubuntu/src/ubuntu_hal.c"
+                },
+                {
+                    "@type": "item",
+                    "name": "platforms/ubuntu/src/rpa_queue.h"
+                },
+                {
+                    "@type": "item",
+                    "name": "platforms/ubuntu/src/rpa_queue.c"
+                },
+                {
+                    "@type": "item",
+                    "name": "platforms/ubuntu/src/ubuntu_hal_net.c"
+                },
+                {
+                    "@type": "item",
+                    "name": "platforms/ubuntu/src/ubuntu_gpio.cpp"
+                }
+            ]
+        },
+        {
+            "@type": "group",
+            "name": "8",
+            "nested": [
+                {
+                    "@type": "item",
+                    "name": "platforms/cc32xx/src/cc32xx_main.h"
+                },
+                {
+                    "@type": "item",
+                    "name": "platforms/cc3220/src/cc3220_main.c"
+                },
+                {
+                    "@type": "item",
+                    "name": "platforms/cc32xx/src/cc32xx_libc.c"
+                },
+                {
+                    "@type": "item",
+                    "name": "platforms/cc32xx/src/cc32xx_main.c"
+                },
+                {
+                    "@type": "item",
+                    "name": "platforms/cc32xx/src/cc32xx_task_config.h"
+                },
+                {
+                    "@type": "item",
+                    "name": "platforms/cc32xx/src/cc32xx_sl_spawn.h"
+                },
+                {
+                    "@type": "item",
+                    "name": "platforms/cc32xx/src/cc32xx_sl_spawn.c"
+                },
+                {
+                    "@type": "item",
+                    "name": "include/common/queue.h"
+                },
+                {
+                    "@type": "item",
+                    "name": "platforms/cc3200/src/network_common.c"
+                },
+                {
+                    "@type": "item",
+                    "name": "platforms/cc32xx/src/cc32xx_uart.h"
+                },
+                {
+                    "@type": "item",
+                    "name": "platforms/cc32xx/src/cc32xx_exc.h"
+                },
+                {
+                    "@type": "item",
+                    "name": "platforms/cc32xx/src/cc32xx_uart.c"
+                },
+                {
+                    "@type": "item",
+                    "name": "platforms/cc32xx/src/cc32xx_exc.c"
+                }
+            ]
+        },
+        {
+            "@type": "group",
+            "name": "9",
+            "nested": [
+                {
+                    "@type": "item",
+                    "name": "platforms/rs14100/include/rsi_user.h"
+                },
+                {
+                    "@type": "item",
+                    "name": "platforms/rs14100/include/dirent.h"
+                },
+                {
+                    "@type": "item",
+                    "name": "platforms/cc32xx/src/dirent.h"
+                },
+                {
+                    "@type": "item",
+                    "name": "tools/docker/cc3220/user.h"
+                },
+                {
+                    "@type": "item",
+                    "name": "platforms/esp8266/include/dirent.h"
+                },
+                {
+                    "@type": "item",
+                    "name": "platforms/stm32/include/dirent.h"
+                },
+                {
+                    "@type": "item",
+                    "name": "tools/docker/cc3200/user.h"
+                }
+            ]
+        },
+        {
+            "@type": "group",
+            "name": "10",
+            "nested": [
+                {
+                    "@type": "item",
+                    "name": "platforms/esp8266/rboot/rboot/rboot.c"
+                },
+                {
+                    "@type": "item",
+                    "name": "platforms/esp8266/include/esp_flash_writer.h"
+                },
+                {
+                    "@type": "item",
+                    "name": "platforms/esp8266/src/esp_flash_writer.c"
+                },
+                {
+                    "@type": "item",
+                    "name": "platforms/esp8266/rboot/rboot/rboot-stage2a.c"
+                },
+                {
+                    "@type": "item",
+                    "name": "platforms/esp8266/rboot/rboot/appcode/rboot-api.h"
+                },
+                {
+                    "@type": "item",
+                    "name": "platforms/esp8266/rboot/rboot/appcode/rboot-api.c"
+                },
+                {
+                    "@type": "item",
+                    "name": "platforms/esp8266/rboot/rboot/appcode/rboot-bigflash.c"
+                },
+                {
+                    "@type": "item",
+                    "name": "platforms/esp8266/rboot/rboot/rboot.h"
+                },
+                {
+                    "@type": "item",
+                    "name": "platforms/esp8266/rboot/rboot/rboot-private.h"
+                }
+            ]
+        },
+        {
+            "@type": "group",
+            "name": "11",
+            "nested": [
+                {
+                    "@type": "item",
+                    "name": "include/common/cs_base64.h"
+                },
+                {
+                    "@type": "item",
+                    "name": "src/common/unit_test.c"
+                },
+                {
+                    "@type": "item",
+                    "name": "include/common/cs_hex.h"
+                },
+                {
+                    "@type": "item",
+                    "name": "src/common/cs_hex.c"
+                },
+                {
+                    "@type": "item",
+                    "name": "include/common/cs_frbuf.h"
+                },
+                {
+                    "@type": "item",
+                    "name": "src/common/cs_frbuf.c"
+                },
+                {
+                    "@type": "item",
+                    "name": "src/common/cs_frbuf_test.c"
+                },
+                {
+                    "@type": "item",
+                    "name": "include/common/cs_varint.h"
+                },
+                {
+                    "@type": "item",
+                    "name": "src/common/cs_varint.c"
+                }
+            ]
+        },
+        {
+            "@type": "group",
+            "name": "12",
+            "nested": [
+                {
+                    "@type": "item",
+                    "name": "platforms/cc3200/src/ti/startup_ccs.c"
+                },
+                {
+                    "@type": "item",
+                    "name": "platforms/rs14100/src/rs14100_entry.c"
+                },
+                {
+                    "@type": "item",
+                    "name": "platforms/cc3200/boot/src/startup_gcc.c"
+                },
+                {
+                    "@type": "item",
+                    "name": "platforms/cc3200/boot/src/relocator.c"
+                },
+                {
+                    "@type": "item",
+                    "name": "platforms/cc3200/tools/startup_gcc.c"
+                }
+            ]
+        },
+        {
+            "@type": "group",
+            "name": "13",
+            "nested": [
+                {
+                    "@type": "item",
+                    "name": "src/mgos_utils.cpp"
+                },
+                {
+                    "@type": "item",
+                    "name": "include/mgos_uart.h"
+                },
+                {
+                    "@type": "item",
+                    "name": "src/mgos_uart_internal.h"
+                },
+                {
+                    "@type": "item",
+                    "name": "src/mgos_core_dump.c"
+                },
+                {
+                    "@type": "item",
+                    "name": "src/mgos_uart.c"
+                },
+                {
+                    "@type": "item",
+                    "name": "src/mgos_uart_hal.h"
+                },
+                {
+                    "@type": "item",
+                    "name": "platforms/ubuntu/src/ubuntu_hal_uart.c"
+                },
+                {
+                    "@type": "item",
+                    "name": "platforms/cc3220/src/CC3220SF_LAUNCHXL.c"
+                },
+                {
+                    "@type": "item",
+                    "name": "src/arm_exc.h"
+                },
+                {
+                    "@type": "item",
+                    "name": "src/arm_exc.c"
+                }
+            ]
+        },
+        {
+            "@type": "group",
+            "name": "14",
+            "nested": [
+                {
+                    "@type": "item",
+                    "name": "include/common/util/error_codes.h"
+                },
+                {
+                    "@type": "item",
+                    "name": "src/error_codes.cpp"
+                },
+                {
+                    "@type": "item",
+                    "name": "src/status_test.cpp"
+                },
+                {
+                    "@type": "item",
+                    "name": "src/statusor_test.cpp"
+                },
+                {
+                    "@type": "item",
+                    "name": "include/common/util/status.h"
+                },
+                {
+                    "@type": "item",
+                    "name": "src/status.cpp"
+                },
+                {
+                    "@type": "item",
+                    "name": "include/common/util/statusor.h"
+                }
+            ]
+        },
+        {
+            "@type": "group",
+            "name": "15",
+            "nested": [
+                {
+                    "@type": "item",
+                    "name": "platforms/stm32/include/stm32f7xx_hal_conf.h"
+                },
+                {
+                    "@type": "item",
+                    "name": "platforms/stm32/include/stm32f2xx_hal_conf.h"
+                },
+                {
+                    "@type": "item",
+                    "name": "platforms/stm32/include/stm32f4xx_hal_conf.h"
+                },
+                {
+                    "@type": "item",
+                    "name": "platforms/stm32/include/stm32l4xx_hal_conf.h"
+                }
+            ]
+        },
+        {
+            "@type": "group",
+            "name": "16",
+            "nested": [
+                {
+                    "@type": "item",
+                    "name": "src/umm_malloc/test/umm_malloc_cfg.h"
+                },
+                {
+                    "@type": "item",
+                    "name": "platforms/esp8266/src/esp_umm_malloc.h"
+                },
+                {
+                    "@type": "item",
+                    "name": "platforms/stm32/include/umm_malloc_cfg.h"
+                },
+                {
+                    "@type": "item",
+                    "name": "platforms/esp8266/include/umm_malloc_cfg.h"
+                }
+            ]
+        },
+        {
+            "@type": "group",
+            "name": "17",
+            "nested": [
+                {
+                    "@type": "item",
+                    "name": "platforms/stm32/include/stm32_hw_timers.h"
+                },
+                {
+                    "@type": "item",
+                    "name": "platforms/esp32c3/main/esp32c3_hw_timers.c"
+                },
+                {
+                    "@type": "item",
+                    "name": "platforms/esp32c3/main/esp32_hw_timers.h"
+                },
+                {
+                    "@type": "item",
+                    "name": "platforms/stm32/src/stm32_hw_timers.c"
+                }
+            ]
+        },
+        {
+            "@type": "group",
+            "name": "18",
+            "nested": [
+                {
+                    "@type": "item",
+                    "name": "src/test/data/golden/mgos_config.h"
+                },
+                {
+                    "@type": "item",
+                    "name": "src/test/data/golden/mgos_config.c"
+                },
+                {
+                    "@type": "item",
+                    "name": "src/test/test_main.c"
+                },
+                {
+                    "@type": "item",
+                    "name": "src/test/test_util.h"
+                },
+                {
+                    "@type": "item",
+                    "name": "src/test/test_util.c"
+                },
+                {
+                    "@type": "item",
+                    "name": "src/test/test_main.h"
+                },
+                {
+                    "@type": "item",
+                    "name": "src/test/unit_test.c"
+                }
+            ]
+        },
+        {
+            "@type": "group",
+            "name": "19",
+            "nested": [
+                {
+                    "@type": "item",
+                    "name": "src/umm_malloc/umm_malloc_internal.h"
+                },
+                {
+                    "@type": "item",
+                    "name": "src/umm_malloc/umm_malloc.h"
+                },
+                {
+                    "@type": "item",
+                    "name": "src/umm_malloc/umm_malloc.c"
+                },
+                {
+                    "@type": "item",
+                    "name": "src/umm_malloc/test/umm_malloc_test.c"
+                }
+            ]
+        },
+        {
+            "@type": "group",
+            "name": "20",
+            "nested": [
+                {
+                    "@type": "item",
+                    "name": "include/mgos.hpp"
+                },
+                {
+                    "@type": "item",
+                    "name": "platforms/esp8266/include/mg_locals.h"
+                },
+                {
+                    "@type": "item",
+                    "name": "platforms/esp8266/src/user_config.h"
+                }
+            ]
+        },
+        {
+            "@type": "group",
+            "name": "21",
+            "nested": [
+                {
+                    "@type": "item",
+                    "name": "platforms/esp32/main/esp32_exc.h"
+                },
+                {
+                    "@type": "item",
+                    "name": "platforms/esp32/main/esp32_exc.c"
+                },
+                {
+                    "@type": "item",
+                    "name": "platforms/esp32/main/esp32_mmap.h"
+                }
+            ]
+        },
+        {
+            "@type": "group",
+            "name": "22",
+            "nested": [
+                {
+                    "@type": "item",
+                    "name": "include/mgos_time.h"
+                },
+                {
+                    "@type": "item",
+                    "name": "platforms/esp8266/src/esp_libc.c"
+                },
+                {
+                    "@type": "item",
+                    "name": "include/mgos_event.h"
+                },
+                {
+                    "@type": "item",
+                    "name": "src/mgos_event.c"
+                },
+                {
+                    "@type": "item",
+                    "name": "include/common/cs_time.h"
+                }
+            ]
+        },
+        {
+            "@type": "group",
+            "name": "23",
+            "nested": [
+                {
+                    "@type": "item",
+                    "name": "src/mgos_mmap_esp_internal.h"
+                },
+                {
+                    "@type": "item",
+                    "name": "src/mgos_mmap_esp.c"
+                }
+            ]
+        },
+        {
+            "@type": "group",
+            "name": "24",
+            "nested": [
+                {
+                    "@type": "item",
+                    "name": "platforms/rs14100/include/rsi_wlan_config.h"
+                },
+                {
+                    "@type": "item",
+                    "name": "platforms/rs14100/include/rsi_error.h"
+                }
+            ]
+        },
+        {
+            "@type": "group",
+            "name": "25",
+            "nested": [
+                {
+                    "@type": "item",
+                    "name": "platforms/cc3200/src/cc3200_sl_user.h"
+                },
+                {
+                    "@type": "item",
+                    "name": "platforms/cc3220/src/cc3220_sl_user.h"
+                }
+            ]
+        },
+        {
+            "@type": "group",
+            "name": "26",
+            "nested": [
+                {
+                    "@type": "item",
+                    "name": "platforms/stm32/include/mg_locals.h"
+                },
+                {
+                    "@type": "item",
+                    "name": "platforms/rs14100/include/mg_locals.h"
+                }
+            ]
+        },
+        {
+            "@type": "group",
+            "name": "27",
+            "nested": [
+                {
+                    "@type": "item",
+                    "name": "platforms/esp32xx/esp32xx_debug.h"
+                },
+                {
+                    "@type": "item",
+                    "name": "platforms/esp32xx/esp32xx_debug.c"
+                },
+                {
+                    "@type": "item",
+                    "name": "platforms/esp32xx/esp32xx_main.c"
+                }
+            ]
+        },
+        {
+            "@type": "group",
+            "name": "28",
+            "nested": [
+                {
+                    "@type": "item",
+                    "name": "platforms/esp32c3/main/esp32c3_uart.h"
+                },
+                {
+                    "@type": "item",
+                    "name": "platforms/esp32c3/main/esp32c3_uart.c"
+                },
+                {
+                    "@type": "item",
+                    "name": "platforms/esp32c3/main/esp32c3_gpio.c"
+                }
+            ]
+        },
+        {
+            "@type": "group",
+            "name": "29",
+            "nested": [
+                {
+                    "@type": "item",
+                    "name": "platforms/cc32xx/src/cc32xx_hw_timers.c"
+                },
+                {
+                    "@type": "item",
+                    "name": "platforms/cc32xx/src/cc32xx_hw_timers.h"
+                }
+            ]
+        },
+        {
+            "@type": "group",
+            "name": "30",
+            "nested": [
+                {
+                    "@type": "item",
+                    "name": "platforms/esp8266/src/esp_hw_timers.c"
+                },
+                {
+                    "@type": "item",
+                    "name": "platforms/esp8266/src/esp_hw_timers.h"
+                }
+            ]
+        },
+        {
+            "@type": "group",
+            "name": "31",
+            "nested": [
+                {
+                    "@type": "item",
+                    "name": "platforms/esp8266/rboot/esptool2/esptool2_elf.h"
+                },
+                {
+                    "@type": "item",
+                    "name": "platforms/esp8266/rboot/esptool2/esptool2_elf.c"
+                },
+                {
+                    "@type": "item",
+                    "name": "platforms/esp8266/rboot/esptool2/esptool2.h"
+                },
+                {
+                    "@type": "item",
+                    "name": "platforms/esp8266/rboot/esptool2/esptool2.c"
+                }
+            ]
+        },
+        {
+            "@type": "group",
+            "name": "32",
+            "nested": [
+                {
+                    "@type": "item",
+                    "name": "src/common/cs_heap_trace.c"
+                }
+            ]
+        },
+        {
+            "@type": "group",
+            "name": "33",
+            "nested": [
+                {
+                    "@type": "item",
+                    "name": "platforms/cc3200/boot/src/cc3200_sl_user.h"
+                }
+            ]
+        },
+        {
+            "@type": "group",
+            "name": "34",
+            "nested": [
+                {
+                    "@type": "item",
+                    "name": "platforms/esp8266/src/esp_spi_register.h"
+                }
+            ]
+        },
+        {
+            "@type": "group",
+            "name": "35",
+            "nested": [
+                {
+                    "@type": "item",
+                    "name": "platforms/esp8266/src/esp_spi.h"
+                }
+            ]
+        },
+        {
+            "@type": "group",
+            "name": "36",
+            "nested": [
+                {
+                    "@type": "item",
+                    "name": "include/common/cs_dirent.h"
+                }
+            ]
+        }
+    ]
+}

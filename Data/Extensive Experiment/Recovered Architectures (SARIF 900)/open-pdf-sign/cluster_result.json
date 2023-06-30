@@ -1,0 +1,114 @@
+{
+    "@schemaVersion": "1.0",
+    "name": "clustering",
+    "structure": [
+        {
+            "@type": "group",
+            "name": "0",
+            "nested": [
+                {
+                    "@type": "item",
+                    "name": "src/main/java/org/openpdfsign/Signer.java"
+                },
+                {
+                    "@type": "item",
+                    "name": "src/main/java/org/openpdfsign/Configuration.java"
+                },
+                {
+                    "@type": "item",
+                    "name": "src/main/java/org/openpdfsign/dss/PdfBoxNativeTableObjectFactory.java"
+                },
+                {
+                    "@type": "item",
+                    "name": "src/main/java/org/openpdfsign/SignatureVerifier.java"
+                },
+                {
+                    "@type": "item",
+                    "name": "src/main/java/org/openpdfsign/TrustedCertificatesLoader.java"
+                }
+            ]
+        },
+        {
+            "@type": "group",
+            "name": "1",
+            "nested": [
+                {
+                    "@type": "item",
+                    "name": "src/test/java/org/openpdfsign/ConfigurationTest.java"
+                },
+                {
+                    "@type": "item",
+                    "name": "src/test/java/org/openpdfsign/KeyStoreLoaderTest.java"
+                },
+                {
+                    "@type": "item",
+                    "name": "src/test/java/org/openpdfsign/SignerTest.java"
+                },
+                {
+                    "@type": "item",
+                    "name": "src/test/java/org/openpdfsign/SignatureVerifierTest.java"
+                }
+            ]
+        },
+        {
+            "@type": "group",
+            "name": "2",
+            "nested": [
+                {
+                    "@type": "item",
+                    "name": "src/main/java/org/openpdfsign/CommandLineArguments.java"
+                },
+                {
+                    "@type": "item",
+                    "name": "src/main/java/org/openpdfsign/CLIApplication.java"
+                },
+                {
+                    "@type": "item",
+                    "name": "src/main/java/org/openpdfsign/KeyStoreLoader.java"
+                }
+            ]
+        },
+        {
+            "@type": "group",
+            "name": "3",
+            "nested": [
+                {
+                    "@type": "item",
+                    "name": "src/main/java/org/openpdfsign/dss/NativePdfBoxVisibleSignatureTableDrawer.java"
+                },
+                {
+                    "@type": "item",
+                    "name": "src/main/java/org/openpdfsign/SignatureParameters.java"
+                },
+                {
+                    "@type": "item",
+                    "name": "src/main/java/org/openpdfsign/TableSignatureFieldParameters.java"
+                }
+            ]
+        },
+        {
+            "@type": "group",
+            "name": "4",
+            "nested": [
+                {
+                    "@type": "item",
+                    "name": "src/main/java/org/openpdfsign/ServerConfigHolder.java"
+                },
+                {
+                    "@type": "item",
+                    "name": "src/main/java/org/openpdfsign/SignerServlet.java"
+                }
+            ]
+        },
+        {
+            "@type": "group",
+            "name": "5",
+            "nested": [
+                {
+                    "@type": "item",
+                    "name": "src/test/java/org/openpdfsign/CLIApplicationTest.java"
+                }
+            ]
+        }
+    ]
+}

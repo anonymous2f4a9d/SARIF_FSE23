@@ -1,0 +1,2066 @@
+{
+    "@schemaVersion": "1.0",
+    "name": "clustering",
+    "structure": [
+        {
+            "@type": "group",
+            "name": "0",
+            "nested": [
+                {
+                    "@type": "item",
+                    "name": "src/objective/init_estimation.h"
+                },
+                {
+                    "@type": "item",
+                    "name": "src/objective/init_estimation.cc"
+                },
+                {
+                    "@type": "item",
+                    "name": "src/objective/regression_loss.h"
+                },
+                {
+                    "@type": "item",
+                    "name": "include/xgboost/model.h"
+                },
+                {
+                    "@type": "item",
+                    "name": "include/xgboost/linear_updater.h"
+                },
+                {
+                    "@type": "item",
+                    "name": "src/linear/linear_updater.cc"
+                },
+                {
+                    "@type": "item",
+                    "name": "src/gbm/gbtree_model.cc"
+                },
+                {
+                    "@type": "item",
+                    "name": "include/xgboost/parameter.h"
+                },
+                {
+                    "@type": "item",
+                    "name": "include/xgboost/objective.h"
+                },
+                {
+                    "@type": "item",
+                    "name": "src/objective/objective.cc"
+                },
+                {
+                    "@type": "item",
+                    "name": "include/xgboost/span.h"
+                },
+                {
+                    "@type": "item",
+                    "name": "src/common/json.cc"
+                },
+                {
+                    "@type": "item",
+                    "name": "src/gbm/gblinear_model.h"
+                },
+                {
+                    "@type": "item",
+                    "name": "include/xgboost/multi_target_tree_model.h"
+                },
+                {
+                    "@type": "item",
+                    "name": "src/tree/multi_target_tree_model.cc"
+                },
+                {
+                    "@type": "item",
+                    "name": "plugin/updater_oneapi/regression_loss_oneapi.h"
+                },
+                {
+                    "@type": "item",
+                    "name": "src/common/charconv.h"
+                },
+                {
+                    "@type": "item",
+                    "name": "src/common/charconv.cc"
+                },
+                {
+                    "@type": "item",
+                    "name": "src/common/ranking_utils.h"
+                },
+                {
+                    "@type": "item",
+                    "name": "include/xgboost/intrusive_ptr.h"
+                },
+                {
+                    "@type": "item",
+                    "name": "include/xgboost/tree_model.h"
+                },
+                {
+                    "@type": "item",
+                    "name": "src/gbm/gblinear_model.cc"
+                },
+                {
+                    "@type": "item",
+                    "name": "include/xgboost/predictor.h"
+                },
+                {
+                    "@type": "item",
+                    "name": "src/predictor/predictor.cc"
+                },
+                {
+                    "@type": "item",
+                    "name": "src/gbm/gblinear.cc"
+                },
+                {
+                    "@type": "item",
+                    "name": "include/xgboost/linalg.h"
+                },
+                {
+                    "@type": "item",
+                    "name": "include/xgboost/json.h"
+                },
+                {
+                    "@type": "item",
+                    "name": "src/common/api_entry.h"
+                },
+                {
+                    "@type": "item",
+                    "name": "src/learner.cc"
+                },
+                {
+                    "@type": "item",
+                    "name": "include/xgboost/metric.h"
+                },
+                {
+                    "@type": "item",
+                    "name": "src/metric/metric.cc"
+                },
+                {
+                    "@type": "item",
+                    "name": "src/common/error_msg.h"
+                },
+                {
+                    "@type": "item",
+                    "name": "tests/ci_build/test_tidy.cc"
+                },
+                {
+                    "@type": "item",
+                    "name": "include/xgboost/learner.h"
+                },
+                {
+                    "@type": "item",
+                    "name": "src/gbm/gbtree.cc"
+                },
+                {
+                    "@type": "item",
+                    "name": "plugin/example/custom_obj.cc"
+                },
+                {
+                    "@type": "item",
+                    "name": "src/linear/updater_coordinate.cc"
+                },
+                {
+                    "@type": "item",
+                    "name": "include/xgboost/version_config.h"
+                },
+                {
+                    "@type": "item",
+                    "name": "src/linear/coordinate_common.h"
+                },
+                {
+                    "@type": "item",
+                    "name": "include/xgboost/string_view.h"
+                },
+                {
+                    "@type": "item",
+                    "name": "include/xgboost/host_device_vector.h"
+                },
+                {
+                    "@type": "item",
+                    "name": "include/xgboost/base.h"
+                },
+                {
+                    "@type": "item",
+                    "name": "src/objective/quantile_obj.cc"
+                },
+                {
+                    "@type": "item",
+                    "name": "src/objective/adaptive.h"
+                },
+                {
+                    "@type": "item",
+                    "name": "src/objective/adaptive.cc"
+                },
+                {
+                    "@type": "item",
+                    "name": "include/xgboost/task.h"
+                },
+                {
+                    "@type": "item",
+                    "name": "include/xgboost/logging.h"
+                },
+                {
+                    "@type": "item",
+                    "name": "src/logging.cc"
+                },
+                {
+                    "@type": "item",
+                    "name": "src/objective/regression_obj.cc"
+                },
+                {
+                    "@type": "item",
+                    "name": "src/metric/metric_common.h"
+                },
+                {
+                    "@type": "item",
+                    "name": "include/xgboost/collective/socket.h"
+                },
+                {
+                    "@type": "item",
+                    "name": "src/collective/socket.cc"
+                },
+                {
+                    "@type": "item",
+                    "name": "plugin/updater_oneapi/predictor_oneapi.cc"
+                },
+                {
+                    "@type": "item",
+                    "name": "R-package/src/xgboost_R.cc"
+                },
+                {
+                    "@type": "item",
+                    "name": "src/objective/multiclass_obj.cc"
+                },
+                {
+                    "@type": "item",
+                    "name": "include/xgboost/global_config.h"
+                },
+                {
+                    "@type": "item",
+                    "name": "src/gbm/gbtree_model.h"
+                },
+                {
+                    "@type": "item",
+                    "name": "src/common/math.h"
+                },
+                {
+                    "@type": "item",
+                    "name": "R-package/src/xgboost_R.h"
+                },
+                {
+                    "@type": "item",
+                    "name": "jvm-packages/xgboost4j-gpu/src/native/xgboost4j-gpu.cpp"
+                },
+                {
+                    "@type": "item",
+                    "name": "include/xgboost/feature_map.h"
+                },
+                {
+                    "@type": "item",
+                    "name": "include/xgboost/tree_updater.h"
+                },
+                {
+                    "@type": "item",
+                    "name": "src/tree/tree_updater.cc"
+                },
+                {
+                    "@type": "item",
+                    "name": "src/linear/param.h"
+                },
+                {
+                    "@type": "item",
+                    "name": "include/xgboost/json_io.h"
+                },
+                {
+                    "@type": "item",
+                    "name": "src/linear/updater_shotgun.cc"
+                },
+                {
+                    "@type": "item",
+                    "name": "src/common/observer.h"
+                },
+                {
+                    "@type": "item",
+                    "name": "src/metric/rank_metric.cc"
+                },
+                {
+                    "@type": "item",
+                    "name": "src/tree/fit_stump.h"
+                },
+                {
+                    "@type": "item",
+                    "name": "src/tree/fit_stump.cc"
+                },
+                {
+                    "@type": "item",
+                    "name": "src/cli_main.cc"
+                },
+                {
+                    "@type": "item",
+                    "name": "src/objective/lambdarank_obj.h"
+                },
+                {
+                    "@type": "item",
+                    "name": "src/objective/lambdarank_obj.cc"
+                },
+                {
+                    "@type": "item",
+                    "name": "include/xgboost/data.h"
+                },
+                {
+                    "@type": "item",
+                    "name": "src/gbm/gbtree.h"
+                },
+                {
+                    "@type": "item",
+                    "name": "R-package/src/xgboost_custom.cc"
+                },
+                {
+                    "@type": "item",
+                    "name": "src/objective/hinge.cc"
+                },
+                {
+                    "@type": "item",
+                    "name": "plugin/updater_oneapi/regression_obj_oneapi.cc"
+                },
+                {
+                    "@type": "item",
+                    "name": "jvm-packages/xgboost4j/src/main/java/ml/dmlc/xgboost4j/java/XGBoostJNI.java"
+                },
+                {
+                    "@type": "item",
+                    "name": "R-package/src/init.c"
+                },
+                {
+                    "@type": "item",
+                    "name": "src/objective/aft_obj.cc"
+                },
+                {
+                    "@type": "item",
+                    "name": "include/xgboost/gbm.h"
+                },
+                {
+                    "@type": "item",
+                    "name": "src/gbm/gbm.cc"
+                },
+                {
+                    "@type": "item",
+                    "name": "include/xgboost/context.h"
+                },
+                {
+                    "@type": "item",
+                    "name": "src/context.cc"
+                },
+                {
+                    "@type": "item",
+                    "name": "tests/cpp/common/test_parameter.cc"
+                },
+                {
+                    "@type": "item",
+                    "name": "src/metric/auc.h"
+                },
+                {
+                    "@type": "item",
+                    "name": "src/metric/auc.cc"
+                },
+                {
+                    "@type": "item",
+                    "name": "src/common/host_device_vector.cc"
+                },
+                {
+                    "@type": "item",
+                    "name": "include/xgboost/cache.h"
+                },
+                {
+                    "@type": "item",
+                    "name": "src/metric/rank_metric.h"
+                }
+            ]
+        },
+        {
+            "@type": "group",
+            "name": "1",
+            "nested": [
+                {
+                    "@type": "item",
+                    "name": "jvm-packages/xgboost4j-gpu/src/native/jvm_utils.h"
+                },
+                {
+                    "@type": "item",
+                    "name": "src/predictor/predict_fn.h"
+                },
+                {
+                    "@type": "item",
+                    "name": "src/collective/communicator.h"
+                },
+                {
+                    "@type": "item",
+                    "name": "src/collective/communicator.cc"
+                },
+                {
+                    "@type": "item",
+                    "name": "demo/c-api/basic/c-api-demo.c"
+                },
+                {
+                    "@type": "item",
+                    "name": "src/data/histogram_cut_format.h"
+                },
+                {
+                    "@type": "item",
+                    "name": "src/collective/aggregator.h"
+                },
+                {
+                    "@type": "item",
+                    "name": "src/data/ellpack_page_source.h"
+                },
+                {
+                    "@type": "item",
+                    "name": "src/data/iterative_dmatrix.cc"
+                },
+                {
+                    "@type": "item",
+                    "name": "tests/cpp/common/test_quantile.cc"
+                },
+                {
+                    "@type": "item",
+                    "name": "src/data/proxy_dmatrix.h"
+                },
+                {
+                    "@type": "item",
+                    "name": "src/data/proxy_dmatrix.cc"
+                },
+                {
+                    "@type": "item",
+                    "name": "src/collective/communicator-inl.h"
+                },
+                {
+                    "@type": "item",
+                    "name": "src/predictor/cpu_predictor.cc"
+                },
+                {
+                    "@type": "item",
+                    "name": "src/data/gradient_index_page_source.h"
+                },
+                {
+                    "@type": "item",
+                    "name": "src/data/gradient_index_page_source.cc"
+                },
+                {
+                    "@type": "item",
+                    "name": "src/data/batch_utils.h"
+                },
+                {
+                    "@type": "item",
+                    "name": "src/data/ellpack_page.cc"
+                },
+                {
+                    "@type": "item",
+                    "name": "src/data/gradient_index_format.cc"
+                },
+                {
+                    "@type": "item",
+                    "name": "jvm-packages/xgboost4j/src/native/xgboost4j.cpp"
+                },
+                {
+                    "@type": "item",
+                    "name": "src/collective/noop_communicator.h"
+                },
+                {
+                    "@type": "item",
+                    "name": "src/c_api/c_api_utils.h"
+                },
+                {
+                    "@type": "item",
+                    "name": "src/collective/in_memory_handler.h"
+                },
+                {
+                    "@type": "item",
+                    "name": "src/collective/in_memory_handler.cc"
+                },
+                {
+                    "@type": "item",
+                    "name": "src/data/array_interface.h"
+                },
+                {
+                    "@type": "item",
+                    "name": "demo/c-api/external-memory/external_memory.c"
+                },
+                {
+                    "@type": "item",
+                    "name": "src/data/validation.h"
+                },
+                {
+                    "@type": "item",
+                    "name": "demo/c-api/inference/inference.c"
+                },
+                {
+                    "@type": "item",
+                    "name": "src/collective/in_memory_communicator.cc"
+                },
+                {
+                    "@type": "item",
+                    "name": "src/c_api/c_api_error.h"
+                },
+                {
+                    "@type": "item",
+                    "name": "include/xgboost/c_api.h"
+                },
+                {
+                    "@type": "item",
+                    "name": "src/c_api/c_api_error.cc"
+                },
+                {
+                    "@type": "item",
+                    "name": "src/c_api/c_api.cc"
+                },
+                {
+                    "@type": "item",
+                    "name": "src/data/sparse_page_writer.h"
+                },
+                {
+                    "@type": "item",
+                    "name": "src/data/iterative_dmatrix.h"
+                },
+                {
+                    "@type": "item",
+                    "name": "src/data/data.cc"
+                },
+                {
+                    "@type": "item",
+                    "name": "jvm-packages/xgboost4j/src/test/java/ml/dmlc/xgboost4j/java/LibraryPathProviderTest.java"
+                },
+                {
+                    "@type": "item",
+                    "name": "src/data/simple_batch_iterator.h"
+                },
+                {
+                    "@type": "item",
+                    "name": "src/data/simple_dmatrix.h"
+                },
+                {
+                    "@type": "item",
+                    "name": "src/data/simple_dmatrix.cc"
+                },
+                {
+                    "@type": "item",
+                    "name": "src/collective/rabit_communicator.h"
+                },
+                {
+                    "@type": "item",
+                    "name": "src/data/sparse_page_raw_format.cc"
+                },
+                {
+                    "@type": "item",
+                    "name": "jvm-packages/xgboost4j/src/main/java/ml/dmlc/xgboost4j/java/DataBatch.java"
+                },
+                {
+                    "@type": "item",
+                    "name": "jvm-packages/xgboost4j/src/main/java/ml/dmlc/xgboost4j/java/QuantileDMatrix.java"
+                },
+                {
+                    "@type": "item",
+                    "name": "src/data/gradient_index.h"
+                },
+                {
+                    "@type": "item",
+                    "name": "src/data/gradient_index.cc"
+                },
+                {
+                    "@type": "item",
+                    "name": "src/data/sparse_page_dmatrix.h"
+                },
+                {
+                    "@type": "item",
+                    "name": "src/data/sparse_page_dmatrix.cc"
+                },
+                {
+                    "@type": "item",
+                    "name": "jvm-packages/xgboost4j/src/main/java/ml/dmlc/xgboost4j/java/XGBoostError.java"
+                },
+                {
+                    "@type": "item",
+                    "name": "src/data/adapter.h"
+                },
+                {
+                    "@type": "item",
+                    "name": "src/collective/in_memory_communicator.h"
+                },
+                {
+                    "@type": "item",
+                    "name": "jvm-packages/xgboost4j/src/main/java/ml/dmlc/xgboost4j/java/Communicator.java"
+                },
+                {
+                    "@type": "item",
+                    "name": "src/data/arrow-cdi.h"
+                },
+                {
+                    "@type": "item",
+                    "name": "src/data/sparse_page_source.h"
+                },
+                {
+                    "@type": "item",
+                    "name": "jvm-packages/xgboost4j/src/native/xgboost4j.h"
+                },
+                {
+                    "@type": "item",
+                    "name": "src/predictor/cpu_treeshap.h"
+                },
+                {
+                    "@type": "item",
+                    "name": "src/predictor/cpu_treeshap.cc"
+                },
+                {
+                    "@type": "item",
+                    "name": "src/data/file_iterator.h"
+                }
+            ]
+        },
+        {
+            "@type": "group",
+            "name": "2",
+            "nested": [
+                {
+                    "@type": "item",
+                    "name": "src/common/transform.h"
+                },
+                {
+                    "@type": "item",
+                    "name": "src/common/quantile_loss_utils.h"
+                },
+                {
+                    "@type": "item",
+                    "name": "src/common/quantile_loss_utils.cc"
+                },
+                {
+                    "@type": "item",
+                    "name": "src/common/pseudo_huber.cc"
+                },
+                {
+                    "@type": "item",
+                    "name": "src/common/stats.h"
+                },
+                {
+                    "@type": "item",
+                    "name": "src/common/stats.cc"
+                },
+                {
+                    "@type": "item",
+                    "name": "src/common/compressed_iterator.h"
+                },
+                {
+                    "@type": "item",
+                    "name": "src/common/row_set.h"
+                },
+                {
+                    "@type": "item",
+                    "name": "src/common/linalg_op.h"
+                },
+                {
+                    "@type": "item",
+                    "name": "src/common/group_data.h"
+                },
+                {
+                    "@type": "item",
+                    "name": "src/common/column_matrix.h"
+                },
+                {
+                    "@type": "item",
+                    "name": "src/common/column_matrix.cc"
+                },
+                {
+                    "@type": "item",
+                    "name": "src/common/ref_resource_view.h"
+                },
+                {
+                    "@type": "item",
+                    "name": "src/common/hist_util.h"
+                },
+                {
+                    "@type": "item",
+                    "name": "src/common/hist_util.cc"
+                },
+                {
+                    "@type": "item",
+                    "name": "src/common/survival_util.cc"
+                },
+                {
+                    "@type": "item",
+                    "name": "src/common/bitfield.h"
+                },
+                {
+                    "@type": "item",
+                    "name": "src/common/quantile.h"
+                },
+                {
+                    "@type": "item",
+                    "name": "src/common/threading_utils.h"
+                },
+                {
+                    "@type": "item",
+                    "name": "src/common/threading_utils.cc"
+                },
+                {
+                    "@type": "item",
+                    "name": "src/common/categorical.h"
+                },
+                {
+                    "@type": "item",
+                    "name": "src/common/io.h"
+                },
+                {
+                    "@type": "item",
+                    "name": "src/common/probability_distribution.h"
+                },
+                {
+                    "@type": "item",
+                    "name": "src/common/survival_util.h"
+                },
+                {
+                    "@type": "item",
+                    "name": "src/common/base64.h"
+                },
+                {
+                    "@type": "item",
+                    "name": "src/global_config.cc"
+                },
+                {
+                    "@type": "item",
+                    "name": "src/common/ranking_utils.cc"
+                },
+                {
+                    "@type": "item",
+                    "name": "src/common/optional_weight.h"
+                },
+                {
+                    "@type": "item",
+                    "name": "src/common/algorithm.h"
+                },
+                {
+                    "@type": "item",
+                    "name": "src/common/io.cc"
+                },
+                {
+                    "@type": "item",
+                    "name": "src/common/config.h"
+                },
+                {
+                    "@type": "item",
+                    "name": "src/common/quantile.cc"
+                },
+                {
+                    "@type": "item",
+                    "name": "jvm-packages/xgboost4j/src/main/java/ml/dmlc/xgboost4j/java/RabitTracker.java"
+                },
+                {
+                    "@type": "item",
+                    "name": "src/common/transform_iterator.h"
+                },
+                {
+                    "@type": "item",
+                    "name": "src/common/pseudo_huber.h"
+                },
+                {
+                    "@type": "item",
+                    "name": "src/common/numeric.h"
+                },
+                {
+                    "@type": "item",
+                    "name": "src/common/numeric.cc"
+                },
+                {
+                    "@type": "item",
+                    "name": "src/common/version.h"
+                },
+                {
+                    "@type": "item",
+                    "name": "src/common/version.cc"
+                },
+                {
+                    "@type": "item",
+                    "name": "jvm-packages/xgboost4j/src/main/java/ml/dmlc/xgboost4j/java/TrackerProperties.java"
+                },
+                {
+                    "@type": "item",
+                    "name": "src/common/partition_builder.h"
+                },
+                {
+                    "@type": "item",
+                    "name": "src/common/random.h"
+                },
+                {
+                    "@type": "item",
+                    "name": "src/common/common.h"
+                },
+                {
+                    "@type": "item",
+                    "name": "src/common/common.cc"
+                },
+                {
+                    "@type": "item",
+                    "name": "src/common/random.cc"
+                }
+            ]
+        },
+        {
+            "@type": "group",
+            "name": "3",
+            "nested": [
+                {
+                    "@type": "item",
+                    "name": "amalgamation/dmlc-minimum0.cc"
+                },
+                {
+                    "@type": "item",
+                    "name": "jvm-packages/xgboost4j-flink/src/main/java/ml/dmlc/xgboost4j/java/flink/XGBoost.java"
+                },
+                {
+                    "@type": "item",
+                    "name": "src/metric/survival_metric.cc"
+                },
+                {
+                    "@type": "item",
+                    "name": "jvm-packages/xgboost4j-tester/src/main/java/ml/dmlc/xgboost4j/tester/App.java"
+                },
+                {
+                    "@type": "item",
+                    "name": "jvm-packages/xgboost4j/src/main/java/ml/dmlc/xgboost4j/java/Column.java"
+                },
+                {
+                    "@type": "item",
+                    "name": "jvm-packages/xgboost4j-spark-gpu/src/main/java/ml/dmlc/xgboost4j/java/nvidia/spark/GpuColumnBatch.java"
+                },
+                {
+                    "@type": "item",
+                    "name": "jvm-packages/xgboost4j-example/src/main/java/ml/dmlc/xgboost4j/java/example/BasicWalkThrough.java"
+                },
+                {
+                    "@type": "item",
+                    "name": "jvm-packages/xgboost4j-flink/src/main/java/ml/dmlc/xgboost4j/java/flink/XGBoostModel.java"
+                },
+                {
+                    "@type": "item",
+                    "name": "jvm-packages/xgboost4j-gpu/src/test/java/ml/dmlc/xgboost4j/gpu/java/BoosterTest.java"
+                },
+                {
+                    "@type": "item",
+                    "name": "jvm-packages/xgboost4j-example/src/main/java/ml/dmlc/xgboost4j/java/example/CustomObjective.java"
+                },
+                {
+                    "@type": "item",
+                    "name": "jvm-packages/xgboost4j-example/src/main/java/ml/dmlc/xgboost4j/java/example/EarlyStopping.java"
+                },
+                {
+                    "@type": "item",
+                    "name": "src/metric/elementwise_metric.cc"
+                },
+                {
+                    "@type": "item",
+                    "name": "jvm-packages/xgboost4j-gpu/src/main/java/ml/dmlc/xgboost4j/gpu/java/CudfUtils.java"
+                },
+                {
+                    "@type": "item",
+                    "name": "jvm-packages/xgboost4j-example/src/main/java/ml/dmlc/xgboost4j/java/example/flink/DistTrainWithFlinkExample.java"
+                },
+                {
+                    "@type": "item",
+                    "name": "jvm-packages/xgboost4j-gpu/src/main/java/ml/dmlc/xgboost4j/gpu/java/CudfColumn.java"
+                },
+                {
+                    "@type": "item",
+                    "name": "jvm-packages/xgboost4j/src/main/java/ml/dmlc/xgboost4j/java/IEvaluation.java"
+                },
+                {
+                    "@type": "item",
+                    "name": "jvm-packages/xgboost4j-example/src/main/java/ml/dmlc/xgboost4j/java/example/PredictLeafIndices.java"
+                },
+                {
+                    "@type": "item",
+                    "name": "jvm-packages/xgboost4j-example/src/main/java/ml/dmlc/xgboost4j/java/example/CrossValidation.java"
+                },
+                {
+                    "@type": "item",
+                    "name": "src/metric/multiclass_metric.cc"
+                },
+                {
+                    "@type": "item",
+                    "name": "jvm-packages/xgboost4j-example/src/main/java/ml/dmlc/xgboost4j/java/example/GeneralizedLinearModel.java"
+                },
+                {
+                    "@type": "item",
+                    "name": "jvm-packages/xgboost4j-example/src/main/java/ml/dmlc/xgboost4j/java/example/BoostFromPrediction.java"
+                },
+                {
+                    "@type": "item",
+                    "name": "jvm-packages/xgboost4j/src/main/java/ml/dmlc/xgboost4j/java/IObjective.java"
+                },
+                {
+                    "@type": "item",
+                    "name": "jvm-packages/xgboost4j-example/src/main/java/ml/dmlc/xgboost4j/java/example/util/CustomEval.java"
+                },
+                {
+                    "@type": "item",
+                    "name": "jvm-packages/xgboost4j-gpu/src/test/java/ml/dmlc/xgboost4j/gpu/java/DMatrixTest.java"
+                },
+                {
+                    "@type": "item",
+                    "name": "jvm-packages/xgboost4j-example/src/main/java/ml/dmlc/xgboost4j/java/example/PredictFirstNtree.java"
+                },
+                {
+                    "@type": "item",
+                    "name": "jvm-packages/xgboost4j/src/main/java/ml/dmlc/xgboost4j/java/XGBoost.java"
+                },
+                {
+                    "@type": "item",
+                    "name": "jvm-packages/xgboost4j-example/src/main/java/ml/dmlc/xgboost4j/java/example/ExternalMemory.java"
+                },
+                {
+                    "@type": "item",
+                    "name": "jvm-packages/xgboost4j/src/main/java/ml/dmlc/xgboost4j/java/ColumnBatch.java"
+                },
+                {
+                    "@type": "item",
+                    "name": "jvm-packages/xgboost4j-gpu/src/main/java/ml/dmlc/xgboost4j/gpu/java/CudfColumnBatch.java"
+                }
+            ]
+        },
+        {
+            "@type": "group",
+            "name": "4",
+            "nested": [
+                {
+                    "@type": "item",
+                    "name": "src/tree/hist/sampler.h"
+                },
+                {
+                    "@type": "item",
+                    "name": "src/tree/hist/expand_entry.h"
+                },
+                {
+                    "@type": "item",
+                    "name": "src/tree/split_evaluator.h"
+                },
+                {
+                    "@type": "item",
+                    "name": "src/tree/param.h"
+                },
+                {
+                    "@type": "item",
+                    "name": "src/tree/param.cc"
+                },
+                {
+                    "@type": "item",
+                    "name": "src/tree/updater_sync.cc"
+                },
+                {
+                    "@type": "item",
+                    "name": "src/tree/constraints.h"
+                },
+                {
+                    "@type": "item",
+                    "name": "src/tree/constraints.cc"
+                },
+                {
+                    "@type": "item",
+                    "name": "src/tree/updater_prune.cc"
+                },
+                {
+                    "@type": "item",
+                    "name": "src/tree/updater_refresh.cc"
+                },
+                {
+                    "@type": "item",
+                    "name": "src/common/timer.h"
+                },
+                {
+                    "@type": "item",
+                    "name": "src/common/timer.cc"
+                },
+                {
+                    "@type": "item",
+                    "name": "src/tree/updater_quantile_hist.cc"
+                },
+                {
+                    "@type": "item",
+                    "name": "src/tree/driver.h"
+                },
+                {
+                    "@type": "item",
+                    "name": "src/tree/updater_colmaker.cc"
+                },
+                {
+                    "@type": "item",
+                    "name": "src/tree/hist/evaluate_splits.h"
+                },
+                {
+                    "@type": "item",
+                    "name": "src/tree/hist/histogram.h"
+                },
+                {
+                    "@type": "item",
+                    "name": "src/tree/updater_approx.cc"
+                },
+                {
+                    "@type": "item",
+                    "name": "src/tree/common_row_partitioner.h"
+                },
+                {
+                    "@type": "item",
+                    "name": "src/tree/tree_model.cc"
+                },
+                {
+                    "@type": "item",
+                    "name": "src/tree/io_utils.h"
+                }
+            ]
+        },
+        {
+            "@type": "group",
+            "name": "5",
+            "nested": [
+                {
+                    "@type": "item",
+                    "name": "tests/cpp/metric/test_rank_metric.h"
+                },
+                {
+                    "@type": "item",
+                    "name": "tests/cpp/metric/test_multiclass_metric.h"
+                },
+                {
+                    "@type": "item",
+                    "name": "tests/cpp/metric/test_auc.h"
+                },
+                {
+                    "@type": "item",
+                    "name": "tests/cpp/tree/test_histmaker.cc"
+                },
+                {
+                    "@type": "item",
+                    "name": "tests/cpp/data/test_array_interface.h"
+                },
+                {
+                    "@type": "item",
+                    "name": "tests/cpp/metric/test_survival_metric.h"
+                },
+                {
+                    "@type": "item",
+                    "name": "tests/cpp/test_main.cc"
+                },
+                {
+                    "@type": "item",
+                    "name": "tests/cpp/metric/test_elementwise_metric.h"
+                },
+                {
+                    "@type": "item",
+                    "name": "tests/cpp/tree/test_tree_policy.cc"
+                },
+                {
+                    "@type": "item",
+                    "name": "tests/cpp/tree/hist/test_histogram.cc"
+                },
+                {
+                    "@type": "item",
+                    "name": "tests/cpp/common/test_hist_util.h"
+                },
+                {
+                    "@type": "item",
+                    "name": "tests/cpp/predictor/test_predictor.h"
+                },
+                {
+                    "@type": "item",
+                    "name": "tests/cpp/predictor/test_predictor.cc"
+                },
+                {
+                    "@type": "item",
+                    "name": "tests/cpp/histogram_helpers.h"
+                },
+                {
+                    "@type": "item",
+                    "name": "tests/cpp/categorical_helpers.h"
+                },
+                {
+                    "@type": "item",
+                    "name": "tests/cpp/test_learner.cc"
+                },
+                {
+                    "@type": "item",
+                    "name": "tests/cpp/helpers.h"
+                },
+                {
+                    "@type": "item",
+                    "name": "tests/cpp/helpers.cc"
+                },
+                {
+                    "@type": "item",
+                    "name": "tests/cpp/tree/test_evaluate_splits.h"
+                }
+            ]
+        },
+        {
+            "@type": "group",
+            "name": "6",
+            "nested": [
+                {
+                    "@type": "item",
+                    "name": "tests/cpp/common/test_column_matrix.cc"
+                },
+                {
+                    "@type": "item",
+                    "name": "tests/cpp/common/test_monitor.cc"
+                },
+                {
+                    "@type": "item",
+                    "name": "tests/cpp/common/test_algorithm.cc"
+                },
+                {
+                    "@type": "item",
+                    "name": "tests/cpp/common/test_quantile_utils.cc"
+                },
+                {
+                    "@type": "item",
+                    "name": "tests/cpp/common/test_ref_resource_view.cc"
+                },
+                {
+                    "@type": "item",
+                    "name": "tests/cpp/common/test_transform_iterator.cc"
+                },
+                {
+                    "@type": "item",
+                    "name": "tests/cpp/common/test_quantile.h"
+                },
+                {
+                    "@type": "item",
+                    "name": "tests/cpp/common/test_partition_builder.cc"
+                },
+                {
+                    "@type": "item",
+                    "name": "tests/cpp/common/test_compressed_iterator.cc"
+                },
+                {
+                    "@type": "item",
+                    "name": "tests/cpp/common/test_optional_weight.cc"
+                },
+                {
+                    "@type": "item",
+                    "name": "tests/cpp/common/test_categorical.cc"
+                },
+                {
+                    "@type": "item",
+                    "name": "tests/cpp/common/test_group_data.cc"
+                },
+                {
+                    "@type": "item",
+                    "name": "tests/cpp/common/test_numeric.cc"
+                }
+            ]
+        },
+        {
+            "@type": "group",
+            "name": "7",
+            "nested": [
+                {
+                    "@type": "item",
+                    "name": "rabit/include/rabit/internal/socket.h"
+                },
+                {
+                    "@type": "item",
+                    "name": "rabit/include/rabit/internal/io.h"
+                },
+                {
+                    "@type": "item",
+                    "name": "rabit/src/engine_mock.cc"
+                },
+                {
+                    "@type": "item",
+                    "name": "rabit/include/rabit/serializable.h"
+                },
+                {
+                    "@type": "item",
+                    "name": "jvm-packages/xgboost4j/src/main/java/ml/dmlc/xgboost4j/java/util/UtilUnsafe.java"
+                },
+                {
+                    "@type": "item",
+                    "name": "rabit/include/rabit/base.h"
+                },
+                {
+                    "@type": "item",
+                    "name": "rabit/include/rabit/internal/engine.h"
+                },
+                {
+                    "@type": "item",
+                    "name": "rabit/src/engine.cc"
+                },
+                {
+                    "@type": "item",
+                    "name": "rabit/src/engine_mpi.cc"
+                },
+                {
+                    "@type": "item",
+                    "name": "rabit/src/allreduce_mock.h"
+                },
+                {
+                    "@type": "item",
+                    "name": "rabit/include/rabit/internal/utils.h"
+                },
+                {
+                    "@type": "item",
+                    "name": "rabit/include/rabit/c_api.h"
+                },
+                {
+                    "@type": "item",
+                    "name": "rabit/src/rabit_c_api.cc"
+                },
+                {
+                    "@type": "item",
+                    "name": "rabit/src/allreduce_base.h"
+                },
+                {
+                    "@type": "item",
+                    "name": "rabit/src/allreduce_base.cc"
+                },
+                {
+                    "@type": "item",
+                    "name": "rabit/include/rabit/rabit.h"
+                },
+                {
+                    "@type": "item",
+                    "name": "rabit/include/rabit/internal/rabit-inl.h"
+                }
+            ]
+        },
+        {
+            "@type": "group",
+            "name": "8",
+            "nested": [
+                {
+                    "@type": "item",
+                    "name": "tests/cpp/collective/test_in_memory_communicator.cc"
+                },
+                {
+                    "@type": "item",
+                    "name": "plugin/federated/federated_server.h"
+                },
+                {
+                    "@type": "item",
+                    "name": "plugin/federated/federated_server.cc"
+                },
+                {
+                    "@type": "item",
+                    "name": "plugin/federated/federated_client.h"
+                },
+                {
+                    "@type": "item",
+                    "name": "tests/cpp/plugin/test_federated_server.cc"
+                },
+                {
+                    "@type": "item",
+                    "name": "tests/cpp/plugin/test_federated_data.cc"
+                },
+                {
+                    "@type": "item",
+                    "name": "tests/cpp/plugin/test_federated_learner.cc"
+                },
+                {
+                    "@type": "item",
+                    "name": "plugin/federated/federated_communicator.h"
+                },
+                {
+                    "@type": "item",
+                    "name": "tests/cpp/plugin/test_federated_communicator.cc"
+                },
+                {
+                    "@type": "item",
+                    "name": "jvm-packages/xgboost4j/src/test/java/ml/dmlc/xgboost4j/java/BoosterImplTest.java"
+                },
+                {
+                    "@type": "item",
+                    "name": "tests/cpp/test_multi_target.cc"
+                },
+                {
+                    "@type": "item",
+                    "name": "tests/cpp/plugin/helpers.h"
+                }
+            ]
+        },
+        {
+            "@type": "group",
+            "name": "9",
+            "nested": [
+                {
+                    "@type": "item",
+                    "name": "tests/cpp/test_cache.cc"
+                },
+                {
+                    "@type": "item",
+                    "name": "tests/cpp/common/test_ranking_utils.h"
+                },
+                {
+                    "@type": "item",
+                    "name": "tests/cpp/common/test_ranking_utils.cc"
+                },
+                {
+                    "@type": "item",
+                    "name": "tests/cpp/data/test_iterative_dmatrix.h"
+                },
+                {
+                    "@type": "item",
+                    "name": "tests/cpp/objective_helpers.h"
+                },
+                {
+                    "@type": "item",
+                    "name": "tests/cpp/data/test_sparse_page_dmatrix.cc"
+                },
+                {
+                    "@type": "item",
+                    "name": "tests/cpp/common/test_intrusive_ptr.cc"
+                },
+                {
+                    "@type": "item",
+                    "name": "tests/cpp/objective/test_lambdarank_obj.h"
+                },
+                {
+                    "@type": "item",
+                    "name": "tests/cpp/objective/test_lambdarank_obj.cc"
+                }
+            ]
+        },
+        {
+            "@type": "group",
+            "name": "10",
+            "nested": [
+                {
+                    "@type": "item",
+                    "name": "tests/cpp/tree/test_constraints.cc"
+                },
+                {
+                    "@type": "item",
+                    "name": "tests/cpp/tree/test_refresh.cc"
+                },
+                {
+                    "@type": "item",
+                    "name": "tests/cpp/tree/hist/test_sampler.cc"
+                },
+                {
+                    "@type": "item",
+                    "name": "tests/cpp/tree/test_prune.cc"
+                },
+                {
+                    "@type": "item",
+                    "name": "tests/cpp/tree/test_common_partitioner.cc"
+                },
+                {
+                    "@type": "item",
+                    "name": "tests/cpp/tree/test_fit_stump.cc"
+                }
+            ]
+        },
+        {
+            "@type": "group",
+            "name": "11",
+            "nested": [
+                {
+                    "@type": "item",
+                    "name": "jvm-packages/xgboost4j/src/main/java/ml/dmlc/xgboost4j/java/util/BigDenseMatrix.java"
+                },
+                {
+                    "@type": "item",
+                    "name": "jvm-packages/xgboost4j/src/test/java/ml/dmlc/xgboost4j/java/DMatrixTest.java"
+                },
+                {
+                    "@type": "item",
+                    "name": "plugin/dense_parser/dense_libsvm.cc"
+                },
+                {
+                    "@type": "item",
+                    "name": "jvm-packages/xgboost4j-example/src/main/java/ml/dmlc/xgboost4j/java/example/util/DataLoader.java"
+                },
+                {
+                    "@type": "item",
+                    "name": "jvm-packages/xgboost4j/src/main/java/ml/dmlc/xgboost4j/java/DMatrix.java"
+                }
+            ]
+        },
+        {
+            "@type": "group",
+            "name": "12",
+            "nested": [
+                {
+                    "@type": "item",
+                    "name": "tests/cpp/data/test_adapter.cc"
+                },
+                {
+                    "@type": "item",
+                    "name": "tests/cpp/data/test_iterative_dmatrix.cc"
+                },
+                {
+                    "@type": "item",
+                    "name": "tests/cpp/data/test_file_iterator.cc"
+                },
+                {
+                    "@type": "item",
+                    "name": "tests/cpp/data/test_gradient_index_page_raw_format.cc"
+                },
+                {
+                    "@type": "item",
+                    "name": "tests/cpp/data/test_proxy_dmatrix.cc"
+                }
+            ]
+        },
+        {
+            "@type": "group",
+            "name": "13",
+            "nested": [
+                {
+                    "@type": "item",
+                    "name": "tests/cpp/common/test_span.cc"
+                },
+                {
+                    "@type": "item",
+                    "name": "tests/cpp/common/test_span.h"
+                },
+                {
+                    "@type": "item",
+                    "name": "tests/cpp/common/test_transform_range.cc"
+                }
+            ]
+        },
+        {
+            "@type": "group",
+            "name": "14",
+            "nested": [
+                {
+                    "@type": "item",
+                    "name": "tests/cpp/linear/test_json_io.h"
+                },
+                {
+                    "@type": "item",
+                    "name": "tests/cpp/gbm/test_gblinear.cc"
+                },
+                {
+                    "@type": "item",
+                    "name": "tests/cpp/linear/test_linear.cc"
+                }
+            ]
+        },
+        {
+            "@type": "group",
+            "name": "15",
+            "nested": [
+                {
+                    "@type": "item",
+                    "name": "tests/cpp/tree/test_partitioner.h"
+                },
+                {
+                    "@type": "item",
+                    "name": "tests/cpp/tree/test_approx.cc"
+                },
+                {
+                    "@type": "item",
+                    "name": "tests/cpp/tree/test_quantile_hist.cc"
+                }
+            ]
+        },
+        {
+            "@type": "group",
+            "name": "16",
+            "nested": [
+                {
+                    "@type": "item",
+                    "name": "tests/cpp/data/test_metainfo.h"
+                },
+                {
+                    "@type": "item",
+                    "name": "tests/cpp/tree/test_regen.cc"
+                },
+                {
+                    "@type": "item",
+                    "name": "tests/cpp/data/test_metainfo.cc"
+                }
+            ]
+        },
+        {
+            "@type": "group",
+            "name": "17",
+            "nested": [
+                {
+                    "@type": "item",
+                    "name": "tests/cpp/collective/test_socket.cc"
+                },
+                {
+                    "@type": "item",
+                    "name": "tests/cpp/collective/test_communicator.cc"
+                }
+            ]
+        },
+        {
+            "@type": "group",
+            "name": "18",
+            "nested": [
+                {
+                    "@type": "item",
+                    "name": "tests/cpp/filesystem.h"
+                },
+                {
+                    "@type": "item",
+                    "name": "tests/cpp/common/test_version.cc"
+                }
+            ]
+        },
+        {
+            "@type": "group",
+            "name": "19",
+            "nested": [
+                {
+                    "@type": "item",
+                    "name": "tests/cpp/data/test_sparse_page_raw_format.cc"
+                },
+                {
+                    "@type": "item",
+                    "name": "tests/cpp/rabit/allreduce_base_test.cc"
+                }
+            ]
+        },
+        {
+            "@type": "group",
+            "name": "20",
+            "nested": [
+                {
+                    "@type": "item",
+                    "name": "tests/cpp/common/test_bitfield.cc"
+                },
+                {
+                    "@type": "item",
+                    "name": "tests/cpp/rabit/test_utils.cc"
+                }
+            ]
+        },
+        {
+            "@type": "group",
+            "name": "21",
+            "nested": [
+                {
+                    "@type": "item",
+                    "name": "jvm-packages/xgboost4j/src/test/java/ml/dmlc/xgboost4j/java/OsDetectionTest.java"
+                },
+                {
+                    "@type": "item",
+                    "name": "jvm-packages/xgboost4j/src/test/java/ml/dmlc/xgboost4j/java/ArchDetectionTest.java"
+                }
+            ]
+        },
+        {
+            "@type": "group",
+            "name": "22",
+            "nested": [
+                {
+                    "@type": "item",
+                    "name": "tests/cpp/c_api/test_c_api.cc"
+                }
+            ]
+        },
+        {
+            "@type": "group",
+            "name": "23",
+            "nested": [
+                {
+                    "@type": "item",
+                    "name": "tests/cpp/collective/test_rabit_communicator.cc"
+                }
+            ]
+        },
+        {
+            "@type": "group",
+            "name": "24",
+            "nested": [
+                {
+                    "@type": "item",
+                    "name": "tests/cpp/common/test_charconv.cc"
+                }
+            ]
+        },
+        {
+            "@type": "group",
+            "name": "25",
+            "nested": [
+                {
+                    "@type": "item",
+                    "name": "tests/cpp/common/test_config.cc"
+                }
+            ]
+        },
+        {
+            "@type": "group",
+            "name": "26",
+            "nested": [
+                {
+                    "@type": "item",
+                    "name": "tests/cpp/common/test_hist_util.cc"
+                }
+            ]
+        },
+        {
+            "@type": "group",
+            "name": "27",
+            "nested": [
+                {
+                    "@type": "item",
+                    "name": "tests/cpp/common/test_io.cc"
+                }
+            ]
+        },
+        {
+            "@type": "group",
+            "name": "28",
+            "nested": [
+                {
+                    "@type": "item",
+                    "name": "tests/cpp/common/test_json.cc"
+                }
+            ]
+        },
+        {
+            "@type": "group",
+            "name": "29",
+            "nested": [
+                {
+                    "@type": "item",
+                    "name": "tests/cpp/common/test_linalg.cc"
+                }
+            ]
+        },
+        {
+            "@type": "group",
+            "name": "30",
+            "nested": [
+                {
+                    "@type": "item",
+                    "name": "tests/cpp/common/test_probability_distribution.cc"
+                }
+            ]
+        },
+        {
+            "@type": "group",
+            "name": "31",
+            "nested": [
+                {
+                    "@type": "item",
+                    "name": "tests/cpp/common/test_random.cc"
+                }
+            ]
+        },
+        {
+            "@type": "group",
+            "name": "32",
+            "nested": [
+                {
+                    "@type": "item",
+                    "name": "tests/cpp/common/test_stats.cc"
+                }
+            ]
+        },
+        {
+            "@type": "group",
+            "name": "33",
+            "nested": [
+                {
+                    "@type": "item",
+                    "name": "tests/cpp/common/test_string_view.cc"
+                }
+            ]
+        },
+        {
+            "@type": "group",
+            "name": "34",
+            "nested": [
+                {
+                    "@type": "item",
+                    "name": "tests/cpp/common/test_survival_util.cc"
+                }
+            ]
+        },
+        {
+            "@type": "group",
+            "name": "35",
+            "nested": [
+                {
+                    "@type": "item",
+                    "name": "tests/cpp/common/test_threading_utils.cc"
+                }
+            ]
+        },
+        {
+            "@type": "group",
+            "name": "36",
+            "nested": [
+                {
+                    "@type": "item",
+                    "name": "tests/cpp/data/test_array_interface.cc"
+                }
+            ]
+        },
+        {
+            "@type": "group",
+            "name": "37",
+            "nested": [
+                {
+                    "@type": "item",
+                    "name": "tests/cpp/data/test_data.cc"
+                }
+            ]
+        },
+        {
+            "@type": "group",
+            "name": "38",
+            "nested": [
+                {
+                    "@type": "item",
+                    "name": "tests/cpp/data/test_gradient_index.cc"
+                }
+            ]
+        },
+        {
+            "@type": "group",
+            "name": "39",
+            "nested": [
+                {
+                    "@type": "item",
+                    "name": "tests/cpp/data/test_simple_dmatrix.cc"
+                }
+            ]
+        },
+        {
+            "@type": "group",
+            "name": "40",
+            "nested": [
+                {
+                    "@type": "item",
+                    "name": "tests/cpp/gbm/test_gbtree.cc"
+                }
+            ]
+        },
+        {
+            "@type": "group",
+            "name": "41",
+            "nested": [
+                {
+                    "@type": "item",
+                    "name": "tests/cpp/metric/test_auc.cc"
+                }
+            ]
+        },
+        {
+            "@type": "group",
+            "name": "42",
+            "nested": [
+                {
+                    "@type": "item",
+                    "name": "tests/cpp/metric/test_elementwise_metric.cc"
+                }
+            ]
+        },
+        {
+            "@type": "group",
+            "name": "43",
+            "nested": [
+                {
+                    "@type": "item",
+                    "name": "tests/cpp/metric/test_metric.cc"
+                }
+            ]
+        },
+        {
+            "@type": "group",
+            "name": "44",
+            "nested": [
+                {
+                    "@type": "item",
+                    "name": "tests/cpp/metric/test_multiclass_metric.cc"
+                }
+            ]
+        },
+        {
+            "@type": "group",
+            "name": "45",
+            "nested": [
+                {
+                    "@type": "item",
+                    "name": "tests/cpp/metric/test_rank_metric.cc"
+                }
+            ]
+        },
+        {
+            "@type": "group",
+            "name": "46",
+            "nested": [
+                {
+                    "@type": "item",
+                    "name": "tests/cpp/metric/test_survival_metric.cc"
+                }
+            ]
+        },
+        {
+            "@type": "group",
+            "name": "47",
+            "nested": [
+                {
+                    "@type": "item",
+                    "name": "tests/cpp/objective/test_aft_obj.cc"
+                }
+            ]
+        },
+        {
+            "@type": "group",
+            "name": "48",
+            "nested": [
+                {
+                    "@type": "item",
+                    "name": "tests/cpp/objective/test_hinge.cc"
+                }
+            ]
+        },
+        {
+            "@type": "group",
+            "name": "49",
+            "nested": [
+                {
+                    "@type": "item",
+                    "name": "tests/cpp/objective/test_multiclass_obj.cc"
+                }
+            ]
+        },
+        {
+            "@type": "group",
+            "name": "50",
+            "nested": [
+                {
+                    "@type": "item",
+                    "name": "tests/cpp/objective/test_objective.cc"
+                }
+            ]
+        },
+        {
+            "@type": "group",
+            "name": "51",
+            "nested": [
+                {
+                    "@type": "item",
+                    "name": "tests/cpp/objective/test_quantile_obj.cc"
+                }
+            ]
+        },
+        {
+            "@type": "group",
+            "name": "52",
+            "nested": [
+                {
+                    "@type": "item",
+                    "name": "tests/cpp/objective/test_regression_obj.cc"
+                }
+            ]
+        },
+        {
+            "@type": "group",
+            "name": "53",
+            "nested": [
+                {
+                    "@type": "item",
+                    "name": "tests/cpp/plugin/test_example_objective.cc"
+                }
+            ]
+        },
+        {
+            "@type": "group",
+            "name": "54",
+            "nested": [
+                {
+                    "@type": "item",
+                    "name": "tests/cpp/plugin/test_federated_metrics.cc"
+                }
+            ]
+        },
+        {
+            "@type": "group",
+            "name": "55",
+            "nested": [
+                {
+                    "@type": "item",
+                    "name": "tests/cpp/plugin/test_predictor_oneapi.cc"
+                }
+            ]
+        },
+        {
+            "@type": "group",
+            "name": "56",
+            "nested": [
+                {
+                    "@type": "item",
+                    "name": "tests/cpp/plugin/test_regression_obj_oneapi.cc"
+                }
+            ]
+        },
+        {
+            "@type": "group",
+            "name": "57",
+            "nested": [
+                {
+                    "@type": "item",
+                    "name": "tests/cpp/predictor/test_cpu_predictor.cc"
+                }
+            ]
+        },
+        {
+            "@type": "group",
+            "name": "58",
+            "nested": [
+                {
+                    "@type": "item",
+                    "name": "tests/cpp/test_global_config.cc"
+                }
+            ]
+        },
+        {
+            "@type": "group",
+            "name": "59",
+            "nested": [
+                {
+                    "@type": "item",
+                    "name": "tests/cpp/test_helpers.cc"
+                }
+            ]
+        },
+        {
+            "@type": "group",
+            "name": "60",
+            "nested": [
+                {
+                    "@type": "item",
+                    "name": "tests/cpp/test_logging.cc"
+                }
+            ]
+        },
+        {
+            "@type": "group",
+            "name": "61",
+            "nested": [
+                {
+                    "@type": "item",
+                    "name": "tests/cpp/test_serialization.cc"
+                }
+            ]
+        },
+        {
+            "@type": "group",
+            "name": "62",
+            "nested": [
+                {
+                    "@type": "item",
+                    "name": "tests/cpp/tree/hist/test_evaluate_splits.cc"
+                }
+            ]
+        },
+        {
+            "@type": "group",
+            "name": "63",
+            "nested": [
+                {
+                    "@type": "item",
+                    "name": "tests/cpp/tree/test_multi_target_tree_model.cc"
+                }
+            ]
+        },
+        {
+            "@type": "group",
+            "name": "64",
+            "nested": [
+                {
+                    "@type": "item",
+                    "name": "tests/cpp/tree/test_node_partition.cc"
+                }
+            ]
+        },
+        {
+            "@type": "group",
+            "name": "65",
+            "nested": [
+                {
+                    "@type": "item",
+                    "name": "tests/cpp/tree/test_param.cc"
+                }
+            ]
+        },
+        {
+            "@type": "group",
+            "name": "66",
+            "nested": [
+                {
+                    "@type": "item",
+                    "name": "tests/cpp/tree/test_prediction_cache.cc"
+                }
+            ]
+        },
+        {
+            "@type": "group",
+            "name": "67",
+            "nested": [
+                {
+                    "@type": "item",
+                    "name": "tests/cpp/tree/test_tree_model.cc"
+                }
+            ]
+        },
+        {
+            "@type": "group",
+            "name": "68",
+            "nested": [
+                {
+                    "@type": "item",
+                    "name": "tests/cpp/tree/test_tree_stat.cc"
+                }
+            ]
+        },
+        {
+            "@type": "group",
+            "name": "69",
+            "nested": [
+                {
+                    "@type": "item",
+                    "name": "src/common/cuda_pinned_allocator.h"
+                }
+            ]
+        },
+        {
+            "@type": "group",
+            "name": "70",
+            "nested": [
+                {
+                    "@type": "item",
+                    "name": "jvm-packages/xgboost4j/src/main/java/ml/dmlc/xgboost4j/java/NativeLibLoader.java"
+                }
+            ]
+        },
+        {
+            "@type": "group",
+            "name": "71",
+            "nested": [
+                {
+                    "@type": "item",
+                    "name": "jvm-packages/xgboost4j/src/main/java/ml/dmlc/xgboost4j/java/ExternalCheckpointManager.java"
+                }
+            ]
+        },
+        {
+            "@type": "group",
+            "name": "72",
+            "nested": [
+                {
+                    "@type": "item",
+                    "name": "jvm-packages/xgboost4j/src/main/java/ml/dmlc/xgboost4j/java/IRabitTracker.java"
+                }
+            ]
+        },
+        {
+            "@type": "group",
+            "name": "73",
+            "nested": [
+                {
+                    "@type": "item",
+                    "name": "jvm-packages/xgboost4j/src/main/java/ml/dmlc/xgboost4j/java/Booster.java"
+                }
+            ]
+        }
+    ]
+}

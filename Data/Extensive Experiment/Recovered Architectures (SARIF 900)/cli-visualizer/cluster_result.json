@@ -1,0 +1,226 @@
+{
+    "@schemaVersion": "1.0",
+    "name": "clustering",
+    "structure": [
+        {
+            "@type": "group",
+            "name": "0",
+            "nested": [
+                {
+                    "@type": "item",
+                    "name": "src/Source/AudioSource.h"
+                },
+                {
+                    "@type": "item",
+                    "name": "src/Source/AudioSource.cpp"
+                },
+                {
+                    "@type": "item",
+                    "name": "bin/safe_fifo.c"
+                },
+                {
+                    "@type": "item",
+                    "name": "src/Source/ShmemAudioSource.h"
+                },
+                {
+                    "@type": "item",
+                    "name": "src/Source/PortAudioSource.h"
+                },
+                {
+                    "@type": "item",
+                    "name": "src/Source/PortAudioSource.cpp"
+                },
+                {
+                    "@type": "item",
+                    "name": "src/Utils/Logger.cpp"
+                },
+                {
+                    "@type": "item",
+                    "name": "src/Utils/Logger.h"
+                },
+                {
+                    "@type": "item",
+                    "name": "src/Source/MpdAudioSource.h"
+                },
+                {
+                    "@type": "item",
+                    "name": "src/Source/MpdAudioSource.cpp"
+                },
+                {
+                    "@type": "item",
+                    "name": "src/Source/ShmemAudioSource.cpp"
+                },
+                {
+                    "@type": "item",
+                    "name": "src/Source/PulseAudioSource.h"
+                },
+                {
+                    "@type": "item",
+                    "name": "src/Source/PulseAudioSource.cpp"
+                }
+            ]
+        },
+        {
+            "@type": "group",
+            "name": "1",
+            "nested": [
+                {
+                    "@type": "item",
+                    "name": "src/Visualizer.cpp"
+                },
+                {
+                    "@type": "item",
+                    "name": "src/Transformer/SpectrumCircleTransformer.h"
+                },
+                {
+                    "@type": "item",
+                    "name": "src/Visualizer.h"
+                },
+                {
+                    "@type": "item",
+                    "name": "src/Writer/NcursesWriter.h"
+                },
+                {
+                    "@type": "item",
+                    "name": "src/Writer/NcursesWriter.cpp"
+                },
+                {
+                    "@type": "item",
+                    "name": "src/Transformer/SpectrumTransformer.h"
+                },
+                {
+                    "@type": "item",
+                    "name": "src/Transformer/LorenzTransformer.cpp"
+                },
+                {
+                    "@type": "item",
+                    "name": "tests/run_tests.cpp"
+                },
+                {
+                    "@type": "item",
+                    "name": "src/Transformer/SpectrumTransformer.cpp"
+                },
+                {
+                    "@type": "item",
+                    "name": "src/Transformer/SpectrumCircleTransformer.cpp"
+                }
+            ]
+        },
+        {
+            "@type": "group",
+            "name": "2",
+            "nested": [
+                {
+                    "@type": "item",
+                    "name": "src/Utils/Utils.cpp"
+                },
+                {
+                    "@type": "item",
+                    "name": "src/Utils/NcursesUtils.cpp"
+                },
+                {
+                    "@type": "item",
+                    "name": "src/vis.cpp"
+                },
+                {
+                    "@type": "item",
+                    "name": "src/Transformer/GenericTransformer.h"
+                },
+                {
+                    "@type": "item",
+                    "name": "src/Transformer/GenericTransformer.cpp"
+                },
+                {
+                    "@type": "item",
+                    "name": "src/Transformer/LorenzTransformer.h"
+                },
+                {
+                    "@type": "item",
+                    "name": "src/Transformer/EllipseTransformer.cpp"
+                },
+                {
+                    "@type": "item",
+                    "name": "src/Transformer/EllipseTransformer.h"
+                },
+                {
+                    "@type": "item",
+                    "name": "src/Domain/VisException.h"
+                },
+                {
+                    "@type": "item",
+                    "name": "src/Domain/VisException.cpp"
+                }
+            ]
+        },
+        {
+            "@type": "group",
+            "name": "3",
+            "nested": [
+                {
+                    "@type": "item",
+                    "name": "perf_tests/run_perf_tests.cpp"
+                },
+                {
+                    "@type": "item",
+                    "name": "src/Domain/ColorDefinition.h"
+                },
+                {
+                    "@type": "item",
+                    "name": "src/Domain/ColorDefinition.cpp"
+                },
+                {
+                    "@type": "item",
+                    "name": "src/Domain/VisConstants.h"
+                },
+                {
+                    "@type": "item",
+                    "name": "src/Domain/VisTypes.h"
+                },
+                {
+                    "@type": "item",
+                    "name": "src/Utils/ConfigurationUtils.h"
+                },
+                {
+                    "@type": "item",
+                    "name": "src/Utils/NcursesUtils.h"
+                },
+                {
+                    "@type": "item",
+                    "name": "src/Domain/Settings.h"
+                },
+                {
+                    "@type": "item",
+                    "name": "src/Domain/Settings.cpp"
+                }
+            ]
+        },
+        {
+            "@type": "group",
+            "name": "4",
+            "nested": [
+                {
+                    "@type": "item",
+                    "name": "src/Utils/ConfigurationUtils.cpp"
+                },
+                {
+                    "@type": "item",
+                    "name": "src/Utils/Utils.h"
+                }
+            ]
+        },
+        {
+            "@type": "group",
+            "name": "5",
+            "nested": [
+                {
+                    "@type": "item",
+                    "name": "tests/ConfigurationUtilsTest.cpp"
+                },
+                {
+                    "@type": "item",
+                    "name": "tests/UtilsTest.cpp"
+                }
+            ]
+        }
+    ]
+}

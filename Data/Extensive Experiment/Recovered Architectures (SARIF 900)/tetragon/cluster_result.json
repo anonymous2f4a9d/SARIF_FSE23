@@ -1,0 +1,428 @@
+{
+    "@schemaVersion": "1.0",
+    "name": "clustering",
+    "structure": [
+        {
+            "@type": "group",
+            "name": "0",
+            "nested": [
+                {
+                    "@type": "item",
+                    "name": "contrib/tester-progs/trigger-test-events.c"
+                },
+                {
+                    "@type": "item",
+                    "name": "contrib/tester-progs/exit-code.c"
+                },
+                {
+                    "@type": "item",
+                    "name": "contrib/tester-progs/sigkill-unprivileged-user-ns-tester.c"
+                },
+                {
+                    "@type": "item",
+                    "name": "contrib/tester-progs/nop.c"
+                },
+                {
+                    "@type": "item",
+                    "name": "contrib/tester-progs/sigkill-tester.c"
+                },
+                {
+                    "@type": "item",
+                    "name": "contrib/tester-progs/uprobe-test.c"
+                },
+                {
+                    "@type": "item",
+                    "name": "contrib/tester-progs/capabilities-tester.c"
+                },
+                {
+                    "@type": "item",
+                    "name": "contrib/tester-progs/dup-tester.c"
+                },
+                {
+                    "@type": "item",
+                    "name": "contrib/tester-progs/namespace-tester.c"
+                },
+                {
+                    "@type": "item",
+                    "name": "contrib/tester-progs/fork-tester.c"
+                },
+                {
+                    "@type": "item",
+                    "name": "contrib/tester-progs/uprobe-lib.c"
+                }
+            ]
+        },
+        {
+            "@type": "group",
+            "name": "1",
+            "nested": [
+                {
+                    "@type": "item",
+                    "name": "bpf/lib/generic.h"
+                },
+                {
+                    "@type": "item",
+                    "name": "bpf/lib/bpf_cgroup.h"
+                },
+                {
+                    "@type": "item",
+                    "name": "bpf/lib/hubble_msg.h"
+                },
+                {
+                    "@type": "item",
+                    "name": "bpf/lib/common.h"
+                },
+                {
+                    "@type": "item",
+                    "name": "bpf/lib/msg_types.h"
+                },
+                {
+                    "@type": "item",
+                    "name": "bpf/lib/process.h"
+                },
+                {
+                    "@type": "item",
+                    "name": "bpf/lib/bpf_helpers.h"
+                },
+                {
+                    "@type": "item",
+                    "name": "bpf/lib/bpf_events.h"
+                },
+                {
+                    "@type": "item",
+                    "name": "bpf/lib/data_msg.h"
+                },
+                {
+                    "@type": "item",
+                    "name": "bpf/lib/environ_conf.h"
+                }
+            ]
+        },
+        {
+            "@type": "group",
+            "name": "2",
+            "nested": [
+                {
+                    "@type": "item",
+                    "name": "bpf/process/policy_filter.h"
+                },
+                {
+                    "@type": "item",
+                    "name": "bpf/process/bpf_generic_uprobe.c"
+                },
+                {
+                    "@type": "item",
+                    "name": "bpf/process/pfilter.h"
+                },
+                {
+                    "@type": "item",
+                    "name": "bpf/process/bpf_generic_tracepoint.c"
+                },
+                {
+                    "@type": "item",
+                    "name": "bpf/process/bpf_generic_kprobe.c"
+                },
+                {
+                    "@type": "item",
+                    "name": "bpf/process/retprobe_map.h"
+                },
+                {
+                    "@type": "item",
+                    "name": "bpf/process/bpf_generic_retkprobe.c"
+                },
+                {
+                    "@type": "item",
+                    "name": "bpf/process/argfilter_maps.h"
+                },
+                {
+                    "@type": "item",
+                    "name": "bpf/process/generic_calls.h"
+                },
+                {
+                    "@type": "item",
+                    "name": "bpf/process/bpf_loader.c"
+                }
+            ]
+        },
+        {
+            "@type": "group",
+            "name": "3",
+            "nested": [
+                {
+                    "@type": "item",
+                    "name": "bpf/process/types/tuple.h"
+                },
+                {
+                    "@type": "item",
+                    "name": "bpf/process/types/capabilities.h"
+                },
+                {
+                    "@type": "item",
+                    "name": "bpf/process/types/bpfattr.h"
+                },
+                {
+                    "@type": "item",
+                    "name": "bpf/process/types/basic.h"
+                },
+                {
+                    "@type": "item",
+                    "name": "bpf/process/types/bpfmap.h"
+                },
+                {
+                    "@type": "item",
+                    "name": "bpf/process/types/skb.h"
+                },
+                {
+                    "@type": "item",
+                    "name": "bpf/process/types/operations.h"
+                },
+                {
+                    "@type": "item",
+                    "name": "bpf/process/types/sock.h"
+                },
+                {
+                    "@type": "item",
+                    "name": "bpf/process/types/user_namespace.h"
+                },
+                {
+                    "@type": "item",
+                    "name": "bpf/process/types/perfevent.h"
+                }
+            ]
+        },
+        {
+            "@type": "group",
+            "name": "4",
+            "nested": [
+                {
+                    "@type": "item",
+                    "name": "bpf/cgroup/bpf_cgroup_release.c"
+                },
+                {
+                    "@type": "item",
+                    "name": "bpf/cgroup/bpf_cgroup_events.h"
+                },
+                {
+                    "@type": "item",
+                    "name": "bpf/cgroup/bpf_cgroup_mkdir.c"
+                },
+                {
+                    "@type": "item",
+                    "name": "bpf/cgroup/bpf_cgroup_rmdir.c"
+                }
+            ]
+        },
+        {
+            "@type": "group",
+            "name": "5",
+            "nested": [
+                {
+                    "@type": "item",
+                    "name": "bpf/process/bpf_execve_event.c"
+                },
+                {
+                    "@type": "item",
+                    "name": "bpf/process/bpf_fork.c"
+                },
+                {
+                    "@type": "item",
+                    "name": "bpf/process/bpf_process_event.h"
+                },
+                {
+                    "@type": "item",
+                    "name": "bpf/process/data_event.h"
+                }
+            ]
+        },
+        {
+            "@type": "group",
+            "name": "6",
+            "nested": [
+                {
+                    "@type": "item",
+                    "name": "contrib/tester-progs/exit-leader.c"
+                },
+                {
+                    "@type": "item",
+                    "name": "contrib/tester-progs/exit-tester.c"
+                },
+                {
+                    "@type": "item",
+                    "name": "contrib/tester-progs/threads-tester.c"
+                }
+            ]
+        },
+        {
+            "@type": "group",
+            "name": "7",
+            "nested": [
+                {
+                    "@type": "item",
+                    "name": "bpf/include/bpf_elf.h"
+                },
+                {
+                    "@type": "item",
+                    "name": "bpf/include/api.h"
+                }
+            ]
+        },
+        {
+            "@type": "group",
+            "name": "8",
+            "nested": [
+                {
+                    "@type": "item",
+                    "name": "bpf/process/bpf_exit.c"
+                },
+                {
+                    "@type": "item",
+                    "name": "bpf/process/bpf_exit.h"
+                }
+            ]
+        },
+        {
+            "@type": "group",
+            "name": "9",
+            "nested": [
+                {
+                    "@type": "item",
+                    "name": "vendor/github.com/power-devops/perfstat/c_helpers.c"
+                },
+                {
+                    "@type": "item",
+                    "name": "vendor/github.com/power-devops/perfstat/c_helpers.h"
+                }
+            ]
+        },
+        {
+            "@type": "group",
+            "name": "10",
+            "nested": [
+                {
+                    "@type": "item",
+                    "name": "api/vendor/golang.org/x/sys/unix/gccgo_c.c"
+                }
+            ]
+        },
+        {
+            "@type": "group",
+            "name": "11",
+            "nested": [
+                {
+                    "@type": "item",
+                    "name": "bpf/alignchecker/bpf_alignchecker.c"
+                }
+            ]
+        },
+        {
+            "@type": "group",
+            "name": "12",
+            "nested": [
+                {
+                    "@type": "item",
+                    "name": "bpf/include/vmlinux.h"
+                }
+            ]
+        },
+        {
+            "@type": "group",
+            "name": "13",
+            "nested": [
+                {
+                    "@type": "item",
+                    "name": "bpf/lib/globals.h"
+                }
+            ]
+        },
+        {
+            "@type": "group",
+            "name": "14",
+            "nested": [
+                {
+                    "@type": "item",
+                    "name": "bpf/libbpf/bpf_core_read.h"
+                }
+            ]
+        },
+        {
+            "@type": "group",
+            "name": "15",
+            "nested": [
+                {
+                    "@type": "item",
+                    "name": "bpf/libbpf/bpf_tracing.h"
+                }
+            ]
+        },
+        {
+            "@type": "group",
+            "name": "16",
+            "nested": [
+                {
+                    "@type": "item",
+                    "name": "bpf/test/bpf_globals.c"
+                }
+            ]
+        },
+        {
+            "@type": "group",
+            "name": "17",
+            "nested": [
+                {
+                    "@type": "item",
+                    "name": "bpf/test/bpf_lseek.c"
+                }
+            ]
+        },
+        {
+            "@type": "group",
+            "name": "18",
+            "nested": [
+                {
+                    "@type": "item",
+                    "name": "pkg/k8s/vendor/github.com/petermattis/goid/goid_go1.3.c"
+                }
+            ]
+        },
+        {
+            "@type": "group",
+            "name": "19",
+            "nested": [
+                {
+                    "@type": "item",
+                    "name": "pkg/k8s/vendor/golang.org/x/sys/unix/gccgo_c.c"
+                }
+            ]
+        },
+        {
+            "@type": "group",
+            "name": "20",
+            "nested": [
+                {
+                    "@type": "item",
+                    "name": "vendor/github.com/petermattis/goid/goid_go1.3.c"
+                }
+            ]
+        },
+        {
+            "@type": "group",
+            "name": "21",
+            "nested": [
+                {
+                    "@type": "item",
+                    "name": "vendor/golang.org/x/sys/unix/gccgo_c.c"
+                }
+            ]
+        },
+        {
+            "@type": "group",
+            "name": "22",
+            "nested": [
+                {
+                    "@type": "item",
+                    "name": "bpf/include/type_mapper.h"
+                }
+            ]
+        }
+    ]
+}

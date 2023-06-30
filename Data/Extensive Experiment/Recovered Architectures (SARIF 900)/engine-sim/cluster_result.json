@@ -1,0 +1,888 @@
+{
+    "@schemaVersion": "1.0",
+    "name": "clustering",
+    "structure": [
+        {
+            "@type": "group",
+            "name": "0",
+            "nested": [
+                {
+                    "@type": "item",
+                    "name": "scripting/include/ignition_module_node.h"
+                },
+                {
+                    "@type": "item",
+                    "name": "scripting/include/piston_node.h"
+                },
+                {
+                    "@type": "item",
+                    "name": "scripting/include/engine_node.h"
+                },
+                {
+                    "@type": "item",
+                    "name": "scripting/include/exhaust_system_node.h"
+                },
+                {
+                    "@type": "item",
+                    "name": "scripting/include/intake_node.h"
+                },
+                {
+                    "@type": "item",
+                    "name": "scripting/include/fuel_node.h"
+                },
+                {
+                    "@type": "item",
+                    "name": "scripting/include/ignition_wire_node.h"
+                },
+                {
+                    "@type": "item",
+                    "name": "scripting/include/function_node.h"
+                },
+                {
+                    "@type": "item",
+                    "name": "scripting/include/actions.h"
+                },
+                {
+                    "@type": "item",
+                    "name": "scripting/include/cylinder_bank_node.h"
+                },
+                {
+                    "@type": "item",
+                    "name": "scripting/include/vehicle_node.h"
+                },
+                {
+                    "@type": "item",
+                    "name": "scripting/include/impulse_response_node.h"
+                },
+                {
+                    "@type": "item",
+                    "name": "scripting/include/engine_sim.h"
+                },
+                {
+                    "@type": "item",
+                    "name": "scripting/include/valvetrain_node.h"
+                },
+                {
+                    "@type": "item",
+                    "name": "scripting/include/object_reference_node.h"
+                },
+                {
+                    "@type": "item",
+                    "name": "scripting/include/vtec_valvetrain_node.h"
+                },
+                {
+                    "@type": "item",
+                    "name": "scripting/include/transmission_node.h"
+                },
+                {
+                    "@type": "item",
+                    "name": "scripting/include/standard_valvetrain_node.h"
+                },
+                {
+                    "@type": "item",
+                    "name": "scripting/include/rod_journal_node.h"
+                },
+                {
+                    "@type": "item",
+                    "name": "scripting/include/camshaft_node.h"
+                },
+                {
+                    "@type": "item",
+                    "name": "scripting/include/throttle_nodes.h"
+                },
+                {
+                    "@type": "item",
+                    "name": "scripting/include/cylinder_head_node.h"
+                },
+                {
+                    "@type": "item",
+                    "name": "scripting/include/crankshaft_node.h"
+                },
+                {
+                    "@type": "item",
+                    "name": "scripting/include/connecting_rod_node.h"
+                },
+                {
+                    "@type": "item",
+                    "name": "scripting/include/node.h"
+                },
+                {
+                    "@type": "item",
+                    "name": "scripting/include/engine_context.h"
+                },
+                {
+                    "@type": "item",
+                    "name": "scripting/src/engine_context.cpp"
+                }
+            ]
+        },
+        {
+            "@type": "group",
+            "name": "1",
+            "nested": [
+                {
+                    "@type": "item",
+                    "name": "include/cylinder_head.h"
+                },
+                {
+                    "@type": "item",
+                    "name": "src/cylinder_head.cpp"
+                },
+                {
+                    "@type": "item",
+                    "name": "include/engine.h"
+                },
+                {
+                    "@type": "item",
+                    "name": "src/engine.cpp"
+                },
+                {
+                    "@type": "item",
+                    "name": "include/ignition_module.h"
+                },
+                {
+                    "@type": "item",
+                    "name": "src/ignition_module.cpp"
+                },
+                {
+                    "@type": "item",
+                    "name": "include/part.h"
+                },
+                {
+                    "@type": "item",
+                    "name": "src/part.cpp"
+                },
+                {
+                    "@type": "item",
+                    "name": "include/intake.h"
+                },
+                {
+                    "@type": "item",
+                    "name": "src/intake.cpp"
+                },
+                {
+                    "@type": "item",
+                    "name": "include/dynamometer.h"
+                },
+                {
+                    "@type": "item",
+                    "name": "src/dynamometer.cpp"
+                },
+                {
+                    "@type": "item",
+                    "name": "include/exhaust_system.h"
+                },
+                {
+                    "@type": "item",
+                    "name": "src/exhaust_system.cpp"
+                },
+                {
+                    "@type": "item",
+                    "name": "include/starter_motor.h"
+                },
+                {
+                    "@type": "item",
+                    "name": "src/starter_motor.cpp"
+                },
+                {
+                    "@type": "item",
+                    "name": "include/simulator.h"
+                },
+                {
+                    "@type": "item",
+                    "name": "src/simulator.cpp"
+                },
+                {
+                    "@type": "item",
+                    "name": "include/shaders.h"
+                },
+                {
+                    "@type": "item",
+                    "name": "src/shaders.cpp"
+                },
+                {
+                    "@type": "item",
+                    "name": "include/impulse_response.h"
+                },
+                {
+                    "@type": "item",
+                    "name": "src/impulse_response.cpp"
+                },
+                {
+                    "@type": "item",
+                    "name": "include/fuel.h"
+                },
+                {
+                    "@type": "item",
+                    "name": "src/fuel.cpp"
+                },
+                {
+                    "@type": "item",
+                    "name": "include/piston_engine_simulator.h"
+                },
+                {
+                    "@type": "item",
+                    "name": "src/piston_engine_simulator.cpp"
+                },
+                {
+                    "@type": "item",
+                    "name": "include/vehicle.h"
+                },
+                {
+                    "@type": "item",
+                    "name": "src/vehicle.cpp"
+                },
+                {
+                    "@type": "item",
+                    "name": "include/crankshaft.h"
+                },
+                {
+                    "@type": "item",
+                    "name": "src/crankshaft.cpp"
+                },
+                {
+                    "@type": "item",
+                    "name": "include/units.h"
+                },
+                {
+                    "@type": "item",
+                    "name": "include/transmission.h"
+                },
+                {
+                    "@type": "item",
+                    "name": "src/transmission.cpp"
+                },
+                {
+                    "@type": "item",
+                    "name": "include/camshaft.h"
+                },
+                {
+                    "@type": "item",
+                    "name": "src/camshaft.cpp"
+                },
+                {
+                    "@type": "item",
+                    "name": "include/gas_system.h"
+                },
+                {
+                    "@type": "item",
+                    "name": "src/gas_system.cpp"
+                },
+                {
+                    "@type": "item",
+                    "name": "include/combustion_chamber.h"
+                },
+                {
+                    "@type": "item",
+                    "name": "src/combustion_chamber.cpp"
+                },
+                {
+                    "@type": "item",
+                    "name": "include/connecting_rod.h"
+                },
+                {
+                    "@type": "item",
+                    "name": "src/connecting_rod.cpp"
+                },
+                {
+                    "@type": "item",
+                    "name": "include/function.h"
+                },
+                {
+                    "@type": "item",
+                    "name": "src/function.cpp"
+                }
+            ]
+        },
+        {
+            "@type": "group",
+            "name": "2",
+            "nested": [
+                {
+                    "@type": "item",
+                    "name": "include/butterworth_low_pass_filter.h"
+                },
+                {
+                    "@type": "item",
+                    "name": "include/piston.h"
+                },
+                {
+                    "@type": "item",
+                    "name": "src/piston.cpp"
+                },
+                {
+                    "@type": "item",
+                    "name": "include/ring_buffer.h"
+                },
+                {
+                    "@type": "item",
+                    "name": "include/filter.h"
+                },
+                {
+                    "@type": "item",
+                    "name": "src/filter.cpp"
+                },
+                {
+                    "@type": "item",
+                    "name": "include/leveling_filter.h"
+                },
+                {
+                    "@type": "item",
+                    "name": "src/leveling_filter.cpp"
+                },
+                {
+                    "@type": "item",
+                    "name": "include/constants.h"
+                },
+                {
+                    "@type": "item",
+                    "name": "include/derivative_filter.h"
+                },
+                {
+                    "@type": "item",
+                    "name": "src/derivative_filter.cpp"
+                },
+                {
+                    "@type": "item",
+                    "name": "include/convolution_filter.h"
+                },
+                {
+                    "@type": "item",
+                    "name": "src/convolution_filter.cpp"
+                },
+                {
+                    "@type": "item",
+                    "name": "include/audio_buffer.h"
+                },
+                {
+                    "@type": "item",
+                    "name": "src/audio_buffer.cpp"
+                },
+                {
+                    "@type": "item",
+                    "name": "include/jitter_filter.h"
+                },
+                {
+                    "@type": "item",
+                    "name": "src/jitter_filter.cpp"
+                },
+                {
+                    "@type": "item",
+                    "name": "include/delay_filter.h"
+                },
+                {
+                    "@type": "item",
+                    "name": "include/delta.h"
+                },
+                {
+                    "@type": "item",
+                    "name": "include/preemphasis_filter.h"
+                },
+                {
+                    "@type": "item",
+                    "name": "include/low_pass_filter.h"
+                },
+                {
+                    "@type": "item",
+                    "name": "src/low_pass_filter.cpp"
+                },
+                {
+                    "@type": "item",
+                    "name": "include/cylinder_bank.h"
+                },
+                {
+                    "@type": "item",
+                    "name": "src/cylinder_bank.cpp"
+                },
+                {
+                    "@type": "item",
+                    "name": "include/synthesizer.h"
+                },
+                {
+                    "@type": "item",
+                    "name": "src/synthesizer.cpp"
+                }
+            ]
+        },
+        {
+            "@type": "group",
+            "name": "3",
+            "nested": [
+                {
+                    "@type": "item",
+                    "name": "include/labeled_gauge.h"
+                },
+                {
+                    "@type": "item",
+                    "name": "src/labeled_gauge.cpp"
+                },
+                {
+                    "@type": "item",
+                    "name": "src/ui_math.cpp"
+                },
+                {
+                    "@type": "item",
+                    "name": "include/performance_cluster.h"
+                },
+                {
+                    "@type": "item",
+                    "name": "src/performance_cluster.cpp"
+                },
+                {
+                    "@type": "item",
+                    "name": "include/afr_cluster.h"
+                },
+                {
+                    "@type": "item",
+                    "name": "src/afr_cluster.cpp"
+                },
+                {
+                    "@type": "item",
+                    "name": "include/fuel_cluster.h"
+                },
+                {
+                    "@type": "item",
+                    "name": "src/fuel_cluster.cpp"
+                },
+                {
+                    "@type": "item",
+                    "name": "include/cylinder_temperature_gauge.h"
+                },
+                {
+                    "@type": "item",
+                    "name": "src/cylinder_temperature_gauge.cpp"
+                },
+                {
+                    "@type": "item",
+                    "name": "include/info_cluster.h"
+                },
+                {
+                    "@type": "item",
+                    "name": "src/info_cluster.cpp"
+                },
+                {
+                    "@type": "item",
+                    "name": "include/load_simulation_cluster.h"
+                },
+                {
+                    "@type": "item",
+                    "name": "src/load_simulation_cluster.cpp"
+                },
+                {
+                    "@type": "item",
+                    "name": "include/cylinder_pressure_gauge.h"
+                },
+                {
+                    "@type": "item",
+                    "name": "src/cylinder_pressure_gauge.cpp"
+                },
+                {
+                    "@type": "item",
+                    "name": "include/mixer_cluster.h"
+                },
+                {
+                    "@type": "item",
+                    "name": "src/mixer_cluster.cpp"
+                },
+                {
+                    "@type": "item",
+                    "name": "include/right_gauge_cluster.h"
+                },
+                {
+                    "@type": "item",
+                    "name": "src/right_gauge_cluster.cpp"
+                },
+                {
+                    "@type": "item",
+                    "name": "include/gauge.h"
+                },
+                {
+                    "@type": "item",
+                    "name": "src/gauge.cpp"
+                }
+            ]
+        },
+        {
+            "@type": "group",
+            "name": "4",
+            "nested": [
+                {
+                    "@type": "item",
+                    "name": "include/simulation_object.h"
+                },
+                {
+                    "@type": "item",
+                    "name": "src/simulation_object.cpp"
+                },
+                {
+                    "@type": "item",
+                    "name": "include/cylinder_bank_object.h"
+                },
+                {
+                    "@type": "item",
+                    "name": "src/cylinder_bank_object.cpp"
+                },
+                {
+                    "@type": "item",
+                    "name": "include/geometry_generator.h"
+                },
+                {
+                    "@type": "item",
+                    "name": "src/geometry_generator.cpp"
+                },
+                {
+                    "@type": "item",
+                    "name": "include/crankshaft_object.h"
+                },
+                {
+                    "@type": "item",
+                    "name": "src/crankshaft_object.cpp"
+                },
+                {
+                    "@type": "item",
+                    "name": "include/cylinder_head_object.h"
+                },
+                {
+                    "@type": "item",
+                    "name": "src/cylinder_head_object.cpp"
+                },
+                {
+                    "@type": "item",
+                    "name": "include/piston_object.h"
+                },
+                {
+                    "@type": "item",
+                    "name": "src/piston_object.cpp"
+                },
+                {
+                    "@type": "item",
+                    "name": "include/engine_sim_application.h"
+                },
+                {
+                    "@type": "item",
+                    "name": "src/engine_sim_application.cpp"
+                },
+                {
+                    "@type": "item",
+                    "name": "include/firing_order_display.h"
+                },
+                {
+                    "@type": "item",
+                    "name": "src/firing_order_display.cpp"
+                },
+                {
+                    "@type": "item",
+                    "name": "include/combustion_chamber_object.h"
+                },
+                {
+                    "@type": "item",
+                    "name": "src/combustion_chamber_object.cpp"
+                },
+                {
+                    "@type": "item",
+                    "name": "include/connecting_rod_object.h"
+                },
+                {
+                    "@type": "item",
+                    "name": "src/connecting_rod_object.cpp"
+                },
+                {
+                    "@type": "item",
+                    "name": "include/application_settings.h"
+                }
+            ]
+        },
+        {
+            "@type": "group",
+            "name": "5",
+            "nested": [
+                {
+                    "@type": "item",
+                    "name": "include/ui_manager.h"
+                },
+                {
+                    "@type": "item",
+                    "name": "src/ui_manager.cpp"
+                },
+                {
+                    "@type": "item",
+                    "name": "include/scs.h"
+                },
+                {
+                    "@type": "item",
+                    "name": "include/feedback_comb_filter.h"
+                },
+                {
+                    "@type": "item",
+                    "name": "src/feedback_comb_filter.cpp"
+                },
+                {
+                    "@type": "item",
+                    "name": "include/ui_utilities.h"
+                },
+                {
+                    "@type": "item",
+                    "name": "src/ui_utilities.cpp"
+                },
+                {
+                    "@type": "item",
+                    "name": "include/csv_io.h"
+                },
+                {
+                    "@type": "item",
+                    "name": "include/utilities.h"
+                },
+                {
+                    "@type": "item",
+                    "name": "src/utilities.cpp"
+                },
+                {
+                    "@type": "item",
+                    "name": "include/dtv.h"
+                },
+                {
+                    "@type": "item",
+                    "name": "include/vehicle_drag_constraint.h"
+                },
+                {
+                    "@type": "item",
+                    "name": "src/vehicle_drag_constraint.cpp"
+                },
+                {
+                    "@type": "item",
+                    "name": "include/ui_button.h"
+                },
+                {
+                    "@type": "item",
+                    "name": "src/ui_button.cpp"
+                },
+                {
+                    "@type": "item",
+                    "name": "include/gaussian_filter.h"
+                },
+                {
+                    "@type": "item",
+                    "name": "src/gaussian_filter.cpp"
+                }
+            ]
+        },
+        {
+            "@type": "group",
+            "name": "6",
+            "nested": [
+                {
+                    "@type": "item",
+                    "name": "scripting/include/object_reference_node_output.h"
+                },
+                {
+                    "@type": "item",
+                    "name": "scripting/include/compiler.h"
+                },
+                {
+                    "@type": "item",
+                    "name": "scripting/src/compiler.cpp"
+                },
+                {
+                    "@type": "item",
+                    "name": "scripting/include/channel_types.h"
+                },
+                {
+                    "@type": "item",
+                    "name": "scripting/include/language_rules.h"
+                },
+                {
+                    "@type": "item",
+                    "name": "scripting/src/language_rules.cpp"
+                },
+                {
+                    "@type": "item",
+                    "name": "scripting/src/channel_types.cpp"
+                },
+                {
+                    "@type": "item",
+                    "name": "scripting/include/piranha.h"
+                }
+            ]
+        },
+        {
+            "@type": "group",
+            "name": "7",
+            "nested": [
+                {
+                    "@type": "item",
+                    "name": "include/oscilloscope_cluster.h"
+                },
+                {
+                    "@type": "item",
+                    "name": "src/oscilloscope_cluster.cpp"
+                },
+                {
+                    "@type": "item",
+                    "name": "include/ui_math.h"
+                },
+                {
+                    "@type": "item",
+                    "name": "include/ui_element.h"
+                },
+                {
+                    "@type": "item",
+                    "name": "src/ui_element.cpp"
+                },
+                {
+                    "@type": "item",
+                    "name": "include/engine_view.h"
+                },
+                {
+                    "@type": "item",
+                    "name": "src/engine_view.cpp"
+                },
+                {
+                    "@type": "item",
+                    "name": "include/oscilloscope.h"
+                },
+                {
+                    "@type": "item",
+                    "name": "src/oscilloscope.cpp"
+                }
+            ]
+        },
+        {
+            "@type": "group",
+            "name": "8",
+            "nested": [
+                {
+                    "@type": "item",
+                    "name": "dependencies/discord/discord_rpc.h"
+                },
+                {
+                    "@type": "item",
+                    "name": "dependencies/discord/Discord.h"
+                },
+                {
+                    "@type": "item",
+                    "name": "dependencies/discord/Discord.cpp"
+                },
+                {
+                    "@type": "item",
+                    "name": "dependencies/discord/discord_register.h"
+                }
+            ]
+        },
+        {
+            "@type": "group",
+            "name": "9",
+            "nested": [
+                {
+                    "@type": "item",
+                    "name": "include/throttle_display.h"
+                },
+                {
+                    "@type": "item",
+                    "name": "src/throttle_display.cpp"
+                },
+                {
+                    "@type": "item",
+                    "name": "include/governor.h"
+                },
+                {
+                    "@type": "item",
+                    "name": "src/governor.cpp"
+                },
+                {
+                    "@type": "item",
+                    "name": "include/throttle.h"
+                },
+                {
+                    "@type": "item",
+                    "name": "src/throttle.cpp"
+                },
+                {
+                    "@type": "item",
+                    "name": "include/direct_throttle_linkage.h"
+                },
+                {
+                    "@type": "item",
+                    "name": "src/direct_throttle_linkage.cpp"
+                }
+            ]
+        },
+        {
+            "@type": "group",
+            "name": "10",
+            "nested": [
+                {
+                    "@type": "item",
+                    "name": "test/function_test.cpp"
+                },
+                {
+                    "@type": "item",
+                    "name": "test/gas_system_tests.cpp"
+                },
+                {
+                    "@type": "item",
+                    "name": "test/synthesizer_tests.cpp"
+                }
+            ]
+        },
+        {
+            "@type": "group",
+            "name": "11",
+            "nested": [
+                {
+                    "@type": "item",
+                    "name": "include/valvetrain.h"
+                },
+                {
+                    "@type": "item",
+                    "name": "src/valvetrain.cpp"
+                },
+                {
+                    "@type": "item",
+                    "name": "include/vtec_valvetrain.h"
+                },
+                {
+                    "@type": "item",
+                    "name": "src/vtec_valvetrain.cpp"
+                },
+                {
+                    "@type": "item",
+                    "name": "include/standard_valvetrain.h"
+                },
+                {
+                    "@type": "item",
+                    "name": "src/standard_valvetrain.cpp"
+                }
+            ]
+        },
+        {
+            "@type": "group",
+            "name": "12",
+            "nested": [
+                {
+                    "@type": "item",
+                    "name": "src/delay_filter.cpp"
+                }
+            ]
+        },
+        {
+            "@type": "group",
+            "name": "13",
+            "nested": [
+                {
+                    "@type": "item",
+                    "name": "src/main.cpp"
+                }
+            ]
+        },
+        {
+            "@type": "group",
+            "name": "14",
+            "nested": [
+                {
+                    "@type": "item",
+                    "name": "include/adaptive_volume_filter.h"
+                }
+            ]
+        }
+    ]
+}

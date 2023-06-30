@@ -1,0 +1,180 @@
+{
+    "@schemaVersion": "1.0",
+    "name": "clustering",
+    "structure": [
+        {
+            "@type": "group",
+            "name": "0",
+            "nested": [
+                {
+                    "@type": "item",
+                    "name": "inputs/input_for_cc.c"
+                },
+                {
+                    "@type": "item",
+                    "name": "inputs/input_for_duplicate_bb.c"
+                },
+                {
+                    "@type": "item",
+                    "name": "inputs/input_for_riv.c"
+                },
+                {
+                    "@type": "item",
+                    "name": "inputs/input_for_mba_sub.c"
+                },
+                {
+                    "@type": "item",
+                    "name": "inputs/input_for_hello.c"
+                },
+                {
+                    "@type": "item",
+                    "name": "inputs/input_for_mba.c"
+                }
+            ]
+        },
+        {
+            "@type": "group",
+            "name": "1",
+            "nested": [
+                {
+                    "@type": "item",
+                    "name": "include/MBAAdd.h"
+                },
+                {
+                    "@type": "item",
+                    "name": "lib/MBAAdd.cpp"
+                },
+                {
+                    "@type": "item",
+                    "name": "include/InjectFuncCall.h"
+                },
+                {
+                    "@type": "item",
+                    "name": "lib/InjectFuncCall.cpp"
+                },
+                {
+                    "@type": "item",
+                    "name": "include/MBASub.h"
+                },
+                {
+                    "@type": "item",
+                    "name": "lib/MBASub.cpp"
+                },
+                {
+                    "@type": "item",
+                    "name": "include/DynamicCallCounter.h"
+                },
+                {
+                    "@type": "item",
+                    "name": "lib/DynamicCallCounter.cpp"
+                },
+                {
+                    "@type": "item",
+                    "name": "tools/StaticMain.cpp"
+                }
+            ]
+        },
+        {
+            "@type": "group",
+            "name": "2",
+            "nested": [
+                {
+                    "@type": "item",
+                    "name": "lib/ConvertFCmpEq.cpp"
+                },
+                {
+                    "@type": "item",
+                    "name": "include/ConvertFCmpEq.h"
+                },
+                {
+                    "@type": "item",
+                    "name": "include/FindFCmpEq.h"
+                },
+                {
+                    "@type": "item",
+                    "name": "lib/FindFCmpEq.cpp"
+                },
+                {
+                    "@type": "item",
+                    "name": "inputs/input_for_fcmp_eq.c"
+                }
+            ]
+        },
+        {
+            "@type": "group",
+            "name": "3",
+            "nested": [
+                {
+                    "@type": "item",
+                    "name": "include/MergeBB.h"
+                },
+                {
+                    "@type": "item",
+                    "name": "lib/MergeBB.cpp"
+                },
+                {
+                    "@type": "item",
+                    "name": "include/DuplicateBB.h"
+                },
+                {
+                    "@type": "item",
+                    "name": "lib/DuplicateBB.cpp"
+                },
+                {
+                    "@type": "item",
+                    "name": "include/RIV.h"
+                },
+                {
+                    "@type": "item",
+                    "name": "lib/RIV.cpp"
+                }
+            ]
+        },
+        {
+            "@type": "group",
+            "name": "4",
+            "nested": [
+                {
+                    "@type": "item",
+                    "name": "lib/Ratio.cpp"
+                },
+                {
+                    "@type": "item",
+                    "name": "include/Ratio.h"
+                }
+            ]
+        },
+        {
+            "@type": "group",
+            "name": "5",
+            "nested": [
+                {
+                    "@type": "item",
+                    "name": "include/StaticCallCounter.h"
+                },
+                {
+                    "@type": "item",
+                    "name": "lib/StaticCallCounter.cpp"
+                },
+                {
+                    "@type": "item",
+                    "name": "include/OpcodeCounter.h"
+                },
+                {
+                    "@type": "item",
+                    "name": "lib/OpcodeCounter.cpp"
+                }
+            ]
+        },
+        {
+            "@type": "group",
+            "name": "6",
+            "nested": [
+                {
+                    "@type": "item",
+                    "name": "HelloWorld/HelloWorld.cpp"
+                }
+            ]
+        }
+    ]
+}

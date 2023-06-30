@@ -1,0 +1,112 @@
+{
+    "@schemaVersion": "1.0",
+    "name": "clustering",
+    "structure": [
+        {
+            "@type": "group",
+            "name": "0",
+            "nested": [
+                {
+                    "@type": "item",
+                    "name": "src/main/java/com/yahoo/storm/yarn/StormOnYarn.java"
+                },
+                {
+                    "@type": "item",
+                    "name": "src/main/java/com/yahoo/storm/yarn/generated/StormMaster.java"
+                },
+                {
+                    "@type": "item",
+                    "name": "src/main/java/com/yahoo/storm/yarn/LaunchCommand.java"
+                },
+                {
+                    "@type": "item",
+                    "name": "src/main/java/com/yahoo/storm/yarn/MasterClient.java"
+                },
+                {
+                    "@type": "item",
+                    "name": "src/main/java/com/yahoo/storm/yarn/Config.java"
+                }
+            ]
+        },
+        {
+            "@type": "group",
+            "name": "1",
+            "nested": [
+                {
+                    "@type": "item",
+                    "name": "src/test/java/com/yahoo/storm/yarn/TestStormCluster.java"
+                },
+                {
+                    "@type": "item",
+                    "name": "src/test/java/com/yahoo/storm/yarn/TestStormMaster.java"
+                },
+                {
+                    "@type": "item",
+                    "name": "src/test/java/com/yahoo/storm/yarn/TestConfig.java"
+                },
+                {
+                    "@type": "item",
+                    "name": "src/test/java/com/yahoo/storm/yarn/TestIntegration.java"
+                },
+                {
+                    "@type": "item",
+                    "name": "src/test/java/com/yahoo/storm/yarn/EmbeddedZKServer.java"
+                }
+            ]
+        },
+        {
+            "@type": "group",
+            "name": "2",
+            "nested": [
+                {
+                    "@type": "item",
+                    "name": "src/main/java/com/yahoo/storm/yarn/MasterServer.java"
+                },
+                {
+                    "@type": "item",
+                    "name": "src/main/java/com/yahoo/storm/yarn/StormAMRMClient.java"
+                },
+                {
+                    "@type": "item",
+                    "name": "src/main/java/com/yahoo/storm/yarn/StormMasterServerHandler.java"
+                },
+                {
+                    "@type": "item",
+                    "name": "src/main/java/com/yahoo/storm/yarn/StormClusterChecker.java"
+                }
+            ]
+        },
+        {
+            "@type": "group",
+            "name": "3",
+            "nested": [
+                {
+                    "@type": "item",
+                    "name": "src/main/java/com/yahoo/storm/yarn/VersionCommand.java"
+                },
+                {
+                    "@type": "item",
+                    "name": "src/main/java/com/yahoo/storm/yarn/StormMasterCommand.java"
+                },
+                {
+                    "@type": "item",
+                    "name": "src/main/java/com/yahoo/storm/yarn/Client.java"
+                }
+            ]
+        },
+        {
+            "@type": "group",
+            "name": "4",
+            "nested": [
+                {
+                    "@type": "item",
+                    "name": "src/main/java/com/yahoo/storm/yarn/Util.java"
+                },
+                {
+                    "@type": "item",
+                    "name": "src/main/java/com/yahoo/storm/yarn/Version.java"
+                }
+            ]
+        }
+    ]
+}

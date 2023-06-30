@@ -1,0 +1,716 @@
+{
+    "@schemaVersion": "1.0",
+    "name": "clustering",
+    "structure": [
+        {
+            "@type": "group",
+            "name": "0",
+            "nested": [
+                {
+                    "@type": "item",
+                    "name": "misc/strutils.h"
+                },
+                {
+                    "@type": "item",
+                    "name": "misc/strutils.c"
+                },
+                {
+                    "@type": "item",
+                    "name": "misc/pcap_openvas.h"
+                },
+                {
+                    "@type": "item",
+                    "name": "misc/pcap.c"
+                },
+                {
+                    "@type": "item",
+                    "name": "misc/support.h"
+                },
+                {
+                    "@type": "item",
+                    "name": "misc/network.h"
+                },
+                {
+                    "@type": "item",
+                    "name": "misc/network.c"
+                },
+                {
+                    "@type": "item",
+                    "name": "misc/plugutils.h"
+                },
+                {
+                    "@type": "item",
+                    "name": "misc/plugutils.c"
+                },
+                {
+                    "@type": "item",
+                    "name": "misc/heartbeat.h"
+                },
+                {
+                    "@type": "item",
+                    "name": "misc/heartbeat.c"
+                },
+                {
+                    "@type": "item",
+                    "name": "misc/kb_cache.h"
+                },
+                {
+                    "@type": "item",
+                    "name": "misc/kb_cache.c"
+                },
+                {
+                    "@type": "item",
+                    "name": "misc/table_driven_lsc.h"
+                },
+                {
+                    "@type": "item",
+                    "name": "misc/table_driven_lsc.c"
+                },
+                {
+                    "@type": "item",
+                    "name": "misc/scanneraux.h"
+                },
+                {
+                    "@type": "item",
+                    "name": "misc/scanneraux.c"
+                },
+                {
+                    "@type": "item",
+                    "name": "misc/scan_id.h"
+                },
+                {
+                    "@type": "item",
+                    "name": "misc/scan_id.c"
+                },
+                {
+                    "@type": "item",
+                    "name": "misc/pcap_tests.c"
+                },
+                {
+                    "@type": "item",
+                    "name": "nasl/nasl_builtin_plugins.h"
+                },
+                {
+                    "@type": "item",
+                    "name": "nasl/nasl_builtin_openvas_tcp_scanner.c"
+                },
+                {
+                    "@type": "item",
+                    "name": "nasl/nasl_builtin_synscan.c"
+                },
+                {
+                    "@type": "item",
+                    "name": "nasl/nasl_builtin_find_service.c"
+                },
+                {
+                    "@type": "item",
+                    "name": "misc/bpf_share.h"
+                },
+                {
+                    "@type": "item",
+                    "name": "misc/bpf_share.c"
+                },
+                {
+                    "@type": "item",
+                    "name": "nasl/nasl_raw.h"
+                },
+                {
+                    "@type": "item",
+                    "name": "misc/ftp_funcs.h"
+                },
+                {
+                    "@type": "item",
+                    "name": "misc/ftp_funcs.c"
+                }
+            ]
+        },
+        {
+            "@type": "group",
+            "name": "1",
+            "nested": [
+                {
+                    "@type": "item",
+                    "name": "src/openvas.h"
+                },
+                {
+                    "@type": "item",
+                    "name": "src/openvas.c"
+                },
+                {
+                    "@type": "item",
+                    "name": "src/main.c"
+                },
+                {
+                    "@type": "item",
+                    "name": "src/debug_utils.h"
+                },
+                {
+                    "@type": "item",
+                    "name": "src/debug_utils.c"
+                },
+                {
+                    "@type": "item",
+                    "name": "src/hosts.h"
+                },
+                {
+                    "@type": "item",
+                    "name": "src/hosts.c"
+                },
+                {
+                    "@type": "item",
+                    "name": "src/pluginload.h"
+                },
+                {
+                    "@type": "item",
+                    "name": "src/nasl_plugins.c"
+                },
+                {
+                    "@type": "item",
+                    "name": "src/pluginload.c"
+                },
+                {
+                    "@type": "item",
+                    "name": "src/pluginlaunch.h"
+                },
+                {
+                    "@type": "item",
+                    "name": "src/pluginlaunch.c"
+                },
+                {
+                    "@type": "item",
+                    "name": "src/attack.h"
+                },
+                {
+                    "@type": "item",
+                    "name": "src/attack.c"
+                },
+                {
+                    "@type": "item",
+                    "name": "src/utils.h"
+                },
+                {
+                    "@type": "item",
+                    "name": "src/utils.c"
+                },
+                {
+                    "@type": "item",
+                    "name": "src/attack_tests.c"
+                },
+                {
+                    "@type": "item",
+                    "name": "src/plugs_req.h"
+                },
+                {
+                    "@type": "item",
+                    "name": "src/plugs_req.c"
+                },
+                {
+                    "@type": "item",
+                    "name": "src/pluginscheduler.h"
+                },
+                {
+                    "@type": "item",
+                    "name": "src/pluginscheduler.c"
+                },
+                {
+                    "@type": "item",
+                    "name": "src/processes.h"
+                },
+                {
+                    "@type": "item",
+                    "name": "src/sighand.h"
+                },
+                {
+                    "@type": "item",
+                    "name": "src/processes.c"
+                },
+                {
+                    "@type": "item",
+                    "name": "src/sighand.c"
+                }
+            ]
+        },
+        {
+            "@type": "group",
+            "name": "2",
+            "nested": [
+                {
+                    "@type": "item",
+                    "name": "nasl/smb_signing.h"
+                },
+                {
+                    "@type": "item",
+                    "name": "nasl/smb_signing.c"
+                },
+                {
+                    "@type": "item",
+                    "name": "nasl/proto.h"
+                },
+                {
+                    "@type": "item",
+                    "name": "nasl/iconv.c"
+                },
+                {
+                    "@type": "item",
+                    "name": "nasl/time.c"
+                },
+                {
+                    "@type": "item",
+                    "name": "nasl/arc4.c"
+                },
+                {
+                    "@type": "item",
+                    "name": "nasl/charcnv.c"
+                },
+                {
+                    "@type": "item",
+                    "name": "nasl/genrand.c"
+                },
+                {
+                    "@type": "item",
+                    "name": "nasl/ntlmssp.h"
+                },
+                {
+                    "@type": "item",
+                    "name": "nasl/ntlmssp.c"
+                },
+                {
+                    "@type": "item",
+                    "name": "nasl/hmacmd5.h"
+                },
+                {
+                    "@type": "item",
+                    "name": "nasl/hmacmd5.c"
+                },
+                {
+                    "@type": "item",
+                    "name": "nasl/byteorder.h"
+                },
+                {
+                    "@type": "item",
+                    "name": "nasl/charset.h"
+                },
+                {
+                    "@type": "item",
+                    "name": "nasl/iconv.h"
+                },
+                {
+                    "@type": "item",
+                    "name": "nasl/smb_crypt.h"
+                },
+                {
+                    "@type": "item",
+                    "name": "nasl/smb_crypt.c"
+                },
+                {
+                    "@type": "item",
+                    "name": "nasl/smb_crypt2.c"
+                },
+                {
+                    "@type": "item",
+                    "name": "nasl/md5.h"
+                },
+                {
+                    "@type": "item",
+                    "name": "nasl/md5.c"
+                },
+                {
+                    "@type": "item",
+                    "name": "nasl/md4.h"
+                },
+                {
+                    "@type": "item",
+                    "name": "nasl/md4.c"
+                },
+                {
+                    "@type": "item",
+                    "name": "nasl/smb.h"
+                }
+            ]
+        },
+        {
+            "@type": "group",
+            "name": "3",
+            "nested": [
+                {
+                    "@type": "item",
+                    "name": "misc/nvt_categories.h"
+                },
+                {
+                    "@type": "item",
+                    "name": "misc/ipc_pipe.h"
+                },
+                {
+                    "@type": "item",
+                    "name": "misc/ipc_pipe.c"
+                },
+                {
+                    "@type": "item",
+                    "name": "misc/user_agent.h"
+                },
+                {
+                    "@type": "item",
+                    "name": "misc/user_agent.c"
+                },
+                {
+                    "@type": "item",
+                    "name": "misc/ipc_openvas.h"
+                },
+                {
+                    "@type": "item",
+                    "name": "misc/ipc_openvas.c"
+                },
+                {
+                    "@type": "item",
+                    "name": "misc/ipc.h"
+                },
+                {
+                    "@type": "item",
+                    "name": "misc/ipc.c"
+                },
+                {
+                    "@type": "item",
+                    "name": "misc/ipc_openvas_tests.c"
+                },
+                {
+                    "@type": "item",
+                    "name": "misc/vendorversion.h"
+                },
+                {
+                    "@type": "item",
+                    "name": "misc/vendorversion.c"
+                }
+            ]
+        },
+        {
+            "@type": "group",
+            "name": "4",
+            "nested": [
+                {
+                    "@type": "item",
+                    "name": "nasl/nasl_isotime.h"
+                },
+                {
+                    "@type": "item",
+                    "name": "nasl/nasl_isotime.c"
+                },
+                {
+                    "@type": "item",
+                    "name": "nasl/nasl_packet_forgery_v6.h"
+                },
+                {
+                    "@type": "item",
+                    "name": "nasl/nasl_packet_forgery_v6.c"
+                },
+                {
+                    "@type": "item",
+                    "name": "nasl/nasl_lex_ctxt.h"
+                },
+                {
+                    "@type": "item",
+                    "name": "nasl/nasl_var.h"
+                },
+                {
+                    "@type": "item",
+                    "name": "nasl/nasl_func.h"
+                },
+                {
+                    "@type": "item",
+                    "name": "nasl/nasl.h"
+                },
+                {
+                    "@type": "item",
+                    "name": "nasl/exec.h"
+                },
+                {
+                    "@type": "item",
+                    "name": "nasl/nasl_init.h"
+                },
+                {
+                    "@type": "item",
+                    "name": "nasl/nasl_lex_ctxt.c"
+                },
+                {
+                    "@type": "item",
+                    "name": "nasl/nasl_var.c"
+                },
+                {
+                    "@type": "item",
+                    "name": "nasl/nasl_func.c"
+                },
+                {
+                    "@type": "item",
+                    "name": "nasl/exec.c"
+                },
+                {
+                    "@type": "item",
+                    "name": "nasl/nasl_init.c"
+                },
+                {
+                    "@type": "item",
+                    "name": "nasl/nasl_snmp.h"
+                },
+                {
+                    "@type": "item",
+                    "name": "nasl/nasl_snmp.c"
+                },
+                {
+                    "@type": "item",
+                    "name": "nasl/nasl.c"
+                },
+                {
+                    "@type": "item",
+                    "name": "nasl/nasl_packet_forgery.h"
+                },
+                {
+                    "@type": "item",
+                    "name": "nasl/nasl_packet_forgery.c"
+                }
+            ]
+        },
+        {
+            "@type": "group",
+            "name": "5",
+            "nested": [
+                {
+                    "@type": "item",
+                    "name": "nasl/nasl_signature.h"
+                },
+                {
+                    "@type": "item",
+                    "name": "nasl/nasl_signature.c"
+                },
+                {
+                    "@type": "item",
+                    "name": "nasl/lint.h"
+                },
+                {
+                    "@type": "item",
+                    "name": "nasl/lint.c"
+                },
+                {
+                    "@type": "item",
+                    "name": "nasl/nasl_ssh.h"
+                },
+                {
+                    "@type": "item",
+                    "name": "nasl/nasl_ssh.c"
+                },
+                {
+                    "@type": "item",
+                    "name": "nasl/nasl_global_ctxt.h"
+                },
+                {
+                    "@type": "item",
+                    "name": "nasl/nasl_debug.h"
+                },
+                {
+                    "@type": "item",
+                    "name": "nasl/nasl_debug.c"
+                }
+            ]
+        },
+        {
+            "@type": "group",
+            "name": "6",
+            "nested": [
+                {
+                    "@type": "item",
+                    "name": "nasl/nasl_cert.c"
+                },
+                {
+                    "@type": "item",
+                    "name": "nasl/capture_packet.h"
+                },
+                {
+                    "@type": "item",
+                    "name": "nasl/capture_packet.c"
+                },
+                {
+                    "@type": "item",
+                    "name": "nasl/nasl-lint.c"
+                },
+                {
+                    "@type": "item",
+                    "name": "nasl/nasl_cert.h"
+                },
+                {
+                    "@type": "item",
+                    "name": "nasl/nasl_frame_forgery.h"
+                },
+                {
+                    "@type": "item",
+                    "name": "nasl/nasl_frame_forgery.c"
+                }
+            ]
+        },
+        {
+            "@type": "group",
+            "name": "7",
+            "nested": [
+                {
+                    "@type": "item",
+                    "name": "nasl/nasl_cmd_exec.h"
+                },
+                {
+                    "@type": "item",
+                    "name": "nasl/nasl_cmd_exec.c"
+                },
+                {
+                    "@type": "item",
+                    "name": "nasl/nasl_crypto_helper.h"
+                },
+                {
+                    "@type": "item",
+                    "name": "nasl/nasl_crypt_helper.c"
+                },
+                {
+                    "@type": "item",
+                    "name": "nasl/nasl_misc_funcs.h"
+                },
+                {
+                    "@type": "item",
+                    "name": "nasl/nasl_misc_funcs.c"
+                },
+                {
+                    "@type": "item",
+                    "name": "nasl/nasl_crypto.h"
+                },
+                {
+                    "@type": "item",
+                    "name": "nasl/nasl_crypto.c"
+                }
+            ]
+        },
+        {
+            "@type": "group",
+            "name": "8",
+            "nested": [
+                {
+                    "@type": "item",
+                    "name": "nasl/nasl_host.h"
+                },
+                {
+                    "@type": "item",
+                    "name": "nasl/nasl_host.c"
+                },
+                {
+                    "@type": "item",
+                    "name": "nasl/nasl_tree.h"
+                },
+                {
+                    "@type": "item",
+                    "name": "nasl/nasl_tree.c"
+                }
+            ]
+        },
+        {
+            "@type": "group",
+            "name": "9",
+            "nested": [
+                {
+                    "@type": "item",
+                    "name": "nasl/nasl_http.h"
+                },
+                {
+                    "@type": "item",
+                    "name": "nasl/nasl_http.c"
+                },
+                {
+                    "@type": "item",
+                    "name": "nasl/nasl_socket.h"
+                },
+                {
+                    "@type": "item",
+                    "name": "nasl/nasl_socket.c"
+                }
+            ]
+        },
+        {
+            "@type": "group",
+            "name": "10",
+            "nested": [
+                {
+                    "@type": "item",
+                    "name": "nasl/nasl_wmi.h"
+                },
+                {
+                    "@type": "item",
+                    "name": "nasl/nasl_wmi.c"
+                },
+                {
+                    "@type": "item",
+                    "name": "nasl/openvas_wmi_interface.h"
+                },
+                {
+                    "@type": "item",
+                    "name": "nasl/wmi_interface_stub.c"
+                }
+            ]
+        },
+        {
+            "@type": "group",
+            "name": "11",
+            "nested": [
+                {
+                    "@type": "item",
+                    "name": "nasl/openvas_smb_interface.h"
+                },
+                {
+                    "@type": "item",
+                    "name": "nasl/smb_interface_stub.c"
+                },
+                {
+                    "@type": "item",
+                    "name": "nasl/nasl_smb.h"
+                },
+                {
+                    "@type": "item",
+                    "name": "nasl/nasl_smb.c"
+                }
+            ]
+        },
+        {
+            "@type": "group",
+            "name": "12",
+            "nested": [
+                {
+                    "@type": "item",
+                    "name": "nasl/nasl_scanner_glue.h"
+                },
+                {
+                    "@type": "item",
+                    "name": "nasl/nasl_scanner_glue.c"
+                }
+            ]
+        },
+        {
+            "@type": "group",
+            "name": "13",
+            "nested": [
+                {
+                    "@type": "item",
+                    "name": "nasl/nasl_text_utils.h"
+                },
+                {
+                    "@type": "item",
+                    "name": "nasl/nasl_text_utils.c"
+                }
+            ]
+        },
+        {
+            "@type": "group",
+            "name": "14",
+            "nested": [
+                {
+                    "@type": "item",
+                    "name": "nasl/nasl_crypto2.h"
+                },
+                {
+                    "@type": "item",
+                    "name": "nasl/nasl_crypto2.c"
+                }
+            ]
+        }
+    ]
+}

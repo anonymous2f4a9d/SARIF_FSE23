@@ -1,0 +1,568 @@
+{
+    "@schemaVersion": "1.0",
+    "name": "clustering",
+    "structure": [
+        {
+            "@type": "group",
+            "name": "0",
+            "nested": [
+                {
+                    "@type": "item",
+                    "name": "include/kore/sha1.h"
+                },
+                {
+                    "@type": "item",
+                    "name": "src/sha1.c"
+                },
+                {
+                    "@type": "item",
+                    "name": "include/kore/kore.h"
+                },
+                {
+                    "@type": "item",
+                    "name": "src/config.c"
+                },
+                {
+                    "@type": "item",
+                    "name": "src/websocket.c"
+                },
+                {
+                    "@type": "item",
+                    "name": "src/mem.c"
+                },
+                {
+                    "@type": "item",
+                    "name": "src/utils.c"
+                },
+                {
+                    "@type": "item",
+                    "name": "src/auth.c"
+                },
+                {
+                    "@type": "item",
+                    "name": "src/module.c"
+                },
+                {
+                    "@type": "item",
+                    "name": "src/runtime.c"
+                },
+                {
+                    "@type": "item",
+                    "name": "src/pool.c"
+                },
+                {
+                    "@type": "item",
+                    "name": "src/route.c"
+                },
+                {
+                    "@type": "item",
+                    "name": "src/bsd.c"
+                },
+                {
+                    "@type": "item",
+                    "name": "src/fileref.c"
+                },
+                {
+                    "@type": "item",
+                    "name": "src/linux.c"
+                },
+                {
+                    "@type": "item",
+                    "name": "src/tls_openssl.c"
+                },
+                {
+                    "@type": "item",
+                    "name": "src/kore.c"
+                },
+                {
+                    "@type": "item",
+                    "name": "src/connection.c"
+                },
+                {
+                    "@type": "item",
+                    "name": "src/domain.c"
+                },
+                {
+                    "@type": "item",
+                    "name": "src/worker.c"
+                },
+                {
+                    "@type": "item",
+                    "name": "src/msg.c"
+                },
+                {
+                    "@type": "item",
+                    "name": "src/filemap.c"
+                },
+                {
+                    "@type": "item",
+                    "name": "src/tls_none.c"
+                },
+                {
+                    "@type": "item",
+                    "name": "src/buf.c"
+                },
+                {
+                    "@type": "item",
+                    "name": "src/validator.c"
+                },
+                {
+                    "@type": "item",
+                    "name": "src/json.c"
+                },
+                {
+                    "@type": "item",
+                    "name": "src/net.c"
+                },
+                {
+                    "@type": "item",
+                    "name": "src/log.c"
+                },
+                {
+                    "@type": "item",
+                    "name": "src/timer.c"
+                },
+                {
+                    "@type": "item",
+                    "name": "src/keymgr_openssl.c"
+                },
+                {
+                    "@type": "item",
+                    "name": "src/cli.c"
+                }
+            ]
+        },
+        {
+            "@type": "group",
+            "name": "1",
+            "nested": [
+                {
+                    "@type": "item",
+                    "name": "include/kore/http.h"
+                },
+                {
+                    "@type": "item",
+                    "name": "src/http.c"
+                },
+                {
+                    "@type": "item",
+                    "name": "src/accesslog.c"
+                },
+                {
+                    "@type": "item",
+                    "name": "include/kore/jsonrpc.h"
+                },
+                {
+                    "@type": "item",
+                    "name": "src/jsonrpc.c"
+                },
+                {
+                    "@type": "item",
+                    "name": "include/kore/sha2.h"
+                },
+                {
+                    "@type": "item",
+                    "name": "src/sha2.c"
+                }
+            ]
+        },
+        {
+            "@type": "group",
+            "name": "2",
+            "nested": [
+                {
+                    "@type": "item",
+                    "name": "examples/async-curl/src/ftp.c"
+                },
+                {
+                    "@type": "item",
+                    "name": "examples/async-curl/src/http.c"
+                }
+            ]
+        },
+        {
+            "@type": "group",
+            "name": "3",
+            "nested": [
+                {
+                    "@type": "item",
+                    "name": "examples/pgsql/src/pgsql_cb.c"
+                },
+                {
+                    "@type": "item",
+                    "name": "examples/pgsql/src/pgsql.c"
+                }
+            ]
+        },
+        {
+            "@type": "group",
+            "name": "4",
+            "nested": [
+                {
+                    "@type": "item",
+                    "name": "include/kore/python_methods.h"
+                },
+                {
+                    "@type": "item",
+                    "name": "include/kore/python_api.h"
+                },
+                {
+                    "@type": "item",
+                    "name": "src/python.c"
+                },
+                {
+                    "@type": "item",
+                    "name": "include/kore/hooks.h"
+                },
+                {
+                    "@type": "item",
+                    "name": "examples/pipe_task/src/init.c"
+                },
+                {
+                    "@type": "item",
+                    "name": "examples/pipe_task/src/pipe_task.c"
+                }
+            ]
+        },
+        {
+            "@type": "group",
+            "name": "5",
+            "nested": [
+                {
+                    "@type": "item",
+                    "name": "examples/cpp/src/example_class.h"
+                },
+                {
+                    "@type": "item",
+                    "name": "examples/cpp/src/example_class.cpp"
+                },
+                {
+                    "@type": "item",
+                    "name": "examples/cpp/src/cpp.cpp"
+                }
+            ]
+        },
+        {
+            "@type": "group",
+            "name": "6",
+            "nested": [
+                {
+                    "@type": "item",
+                    "name": "include/kore/acme.h"
+                },
+                {
+                    "@type": "item",
+                    "name": "src/acme.c"
+                },
+                {
+                    "@type": "item",
+                    "name": "include/kore/curl.h"
+                },
+                {
+                    "@type": "item",
+                    "name": "src/curl.c"
+                }
+            ]
+        },
+        {
+            "@type": "group",
+            "name": "7",
+            "nested": [
+                {
+                    "@type": "item",
+                    "name": "examples/cookies/src/cookies.c"
+                }
+            ]
+        },
+        {
+            "@type": "group",
+            "name": "8",
+            "nested": [
+                {
+                    "@type": "item",
+                    "name": "examples/generic/src/example.c"
+                }
+            ]
+        },
+        {
+            "@type": "group",
+            "name": "9",
+            "nested": [
+                {
+                    "@type": "item",
+                    "name": "examples/headers/src/headers.c"
+                }
+            ]
+        },
+        {
+            "@type": "group",
+            "name": "10",
+            "nested": [
+                {
+                    "@type": "item",
+                    "name": "examples/integers/src/check_integers.c"
+                }
+            ]
+        },
+        {
+            "@type": "group",
+            "name": "11",
+            "nested": [
+                {
+                    "@type": "item",
+                    "name": "examples/json/src/json.c"
+                }
+            ]
+        },
+        {
+            "@type": "group",
+            "name": "12",
+            "nested": [
+                {
+                    "@type": "item",
+                    "name": "examples/jsonrpc/src/home.c"
+                }
+            ]
+        },
+        {
+            "@type": "group",
+            "name": "13",
+            "nested": [
+                {
+                    "@type": "item",
+                    "name": "examples/jsonrpc/src/v1.c"
+                }
+            ]
+        },
+        {
+            "@type": "group",
+            "name": "14",
+            "nested": [
+                {
+                    "@type": "item",
+                    "name": "examples/memtag/src/memtag.c"
+                }
+            ]
+        },
+        {
+            "@type": "group",
+            "name": "15",
+            "nested": [
+                {
+                    "@type": "item",
+                    "name": "examples/messaging/src/messaging.c"
+                }
+            ]
+        },
+        {
+            "@type": "group",
+            "name": "16",
+            "nested": [
+                {
+                    "@type": "item",
+                    "name": "examples/nohttp/src/nohttp.c"
+                }
+            ]
+        },
+        {
+            "@type": "group",
+            "name": "17",
+            "nested": [
+                {
+                    "@type": "item",
+                    "name": "examples/parameters/src/parameters.c"
+                }
+            ]
+        },
+        {
+            "@type": "group",
+            "name": "18",
+            "nested": [
+                {
+                    "@type": "item",
+                    "name": "examples/pgsql-sync/src/pgsql-sync.c"
+                }
+            ]
+        },
+        {
+            "@type": "group",
+            "name": "19",
+            "nested": [
+                {
+                    "@type": "item",
+                    "name": "examples/pgsql/src/init.c"
+                }
+            ]
+        },
+        {
+            "@type": "group",
+            "name": "20",
+            "nested": [
+                {
+                    "@type": "item",
+                    "name": "examples/sse/src/sse.c"
+                }
+            ]
+        },
+        {
+            "@type": "group",
+            "name": "21",
+            "nested": [
+                {
+                    "@type": "item",
+                    "name": "examples/tasks/src/tasks.c"
+                }
+            ]
+        },
+        {
+            "@type": "group",
+            "name": "22",
+            "nested": [
+                {
+                    "@type": "item",
+                    "name": "examples/tls-proxy/src/proxy.c"
+                }
+            ]
+        },
+        {
+            "@type": "group",
+            "name": "23",
+            "nested": [
+                {
+                    "@type": "item",
+                    "name": "examples/upload/src/upload.c"
+                }
+            ]
+        },
+        {
+            "@type": "group",
+            "name": "24",
+            "nested": [
+                {
+                    "@type": "item",
+                    "name": "examples/video_stream/src/stream.c"
+                }
+            ]
+        },
+        {
+            "@type": "group",
+            "name": "25",
+            "nested": [
+                {
+                    "@type": "item",
+                    "name": "examples/websocket/src/websocket.c"
+                }
+            ]
+        },
+        {
+            "@type": "group",
+            "name": "26",
+            "nested": [
+                {
+                    "@type": "item",
+                    "name": "misc/curl/python_curlopt.h"
+                }
+            ]
+        },
+        {
+            "@type": "group",
+            "name": "27",
+            "nested": [
+                {
+                    "@type": "item",
+                    "name": "tools/kore-serve/src/kore-serve.c"
+                }
+            ]
+        },
+        {
+            "@type": "group",
+            "name": "28",
+            "nested": [
+                {
+                    "@type": "item",
+                    "name": "examples/nohttp/src/init.c"
+                }
+            ]
+        },
+        {
+            "@type": "group",
+            "name": "29",
+            "nested": [
+                {
+                    "@type": "item",
+                    "name": "examples/tasks/src/init.c"
+                }
+            ]
+        },
+        {
+            "@type": "group",
+            "name": "30",
+            "nested": [
+                {
+                    "@type": "item",
+                    "name": "examples/async-curl/src/init.c"
+                }
+            ]
+        },
+        {
+            "@type": "group",
+            "name": "31",
+            "nested": [
+                {
+                    "@type": "item",
+                    "name": "include/kore/lua_methods.h"
+                },
+                {
+                    "@type": "item",
+                    "name": "include/kore/lua_api.h"
+                },
+                {
+                    "@type": "item",
+                    "name": "src/lua.c"
+                }
+            ]
+        },
+        {
+            "@type": "group",
+            "name": "32",
+            "nested": [
+                {
+                    "@type": "item",
+                    "name": "include/kore/pgsql.h"
+                },
+                {
+                    "@type": "item",
+                    "name": "src/pgsql.c"
+                }
+            ]
+        },
+        {
+            "@type": "group",
+            "name": "33",
+            "nested": [
+                {
+                    "@type": "item",
+                    "name": "include/kore/seccomp.h"
+                },
+                {
+                    "@type": "item",
+                    "name": "src/seccomp.c"
+                }
+            ]
+        },
+        {
+            "@type": "group",
+            "name": "34",
+            "nested": [
+                {
+                    "@type": "item",
+                    "name": "include/kore/tasks.h"
+                },
+                {
+                    "@type": "item",
+                    "name": "src/tasks.c"
+                }
+            ]
+        }
+    ]
+}

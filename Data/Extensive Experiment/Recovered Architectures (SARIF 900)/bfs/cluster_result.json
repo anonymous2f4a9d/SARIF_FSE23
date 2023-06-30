@@ -1,0 +1,454 @@
+{
+    "@schemaVersion": "1.0",
+    "name": "clustering",
+    "structure": [
+        {
+            "@type": "group",
+            "name": "0",
+            "nested": [
+                {
+                    "@type": "item",
+                    "name": "src/nameserver/test/logdb_test.cc"
+                },
+                {
+                    "@type": "item",
+                    "name": "src/nameserver/raft_node.h"
+                },
+                {
+                    "@type": "item",
+                    "name": "src/nameserver/raft_node.cc"
+                },
+                {
+                    "@type": "item",
+                    "name": "src/nameserver/test/raft_test.cc"
+                },
+                {
+                    "@type": "item",
+                    "name": "src/nameserver/raft_impl.h"
+                },
+                {
+                    "@type": "item",
+                    "name": "src/nameserver/raft_impl.cc"
+                },
+                {
+                    "@type": "item",
+                    "name": "src/nameserver/nameserver_main.cc"
+                },
+                {
+                    "@type": "item",
+                    "name": "src/nameserver/master_slave.h"
+                },
+                {
+                    "@type": "item",
+                    "name": "src/nameserver/master_slave.cc"
+                },
+                {
+                    "@type": "item",
+                    "name": "src/nameserver/sync.h"
+                },
+                {
+                    "@type": "item",
+                    "name": "src/nameserver/logdb.h"
+                },
+                {
+                    "@type": "item",
+                    "name": "src/nameserver/logdb.cc"
+                }
+            ]
+        },
+        {
+            "@type": "group",
+            "name": "1",
+            "nested": [
+                {
+                    "@type": "item",
+                    "name": "src/nameserver/location_provider.h"
+                },
+                {
+                    "@type": "item",
+                    "name": "src/nameserver/location_provider.cc"
+                },
+                {
+                    "@type": "item",
+                    "name": "src/nameserver/nameserver_impl.h"
+                },
+                {
+                    "@type": "item",
+                    "name": "src/nameserver/nameserver_impl.cc"
+                },
+                {
+                    "@type": "item",
+                    "name": "src/nameserver/test/namespace_test.cc"
+                },
+                {
+                    "@type": "item",
+                    "name": "src/nameserver/namespace.h"
+                },
+                {
+                    "@type": "item",
+                    "name": "src/nameserver/namespace.cc"
+                },
+                {
+                    "@type": "item",
+                    "name": "src/nameserver/test/nameserver_impl_test.cc"
+                },
+                {
+                    "@type": "item",
+                    "name": "src/nameserver/test/location_provider_test.cc"
+                },
+                {
+                    "@type": "item",
+                    "name": "src/nameserver/chunkserver_manager.h"
+                },
+                {
+                    "@type": "item",
+                    "name": "src/nameserver/chunkserver_manager.cc"
+                }
+            ]
+        },
+        {
+            "@type": "group",
+            "name": "2",
+            "nested": [
+                {
+                    "@type": "item",
+                    "name": "src/chunkserver/chunkserver_main.cc"
+                },
+                {
+                    "@type": "item",
+                    "name": "src/chunkserver/test/block_manager_test.cc"
+                },
+                {
+                    "@type": "item",
+                    "name": "src/chunkserver/file_cache.h"
+                },
+                {
+                    "@type": "item",
+                    "name": "src/chunkserver/file_cache.cc"
+                },
+                {
+                    "@type": "item",
+                    "name": "src/chunkserver/test/chunkserver_impl_test.cc"
+                },
+                {
+                    "@type": "item",
+                    "name": "src/chunkserver/test/file_cache_test.cc"
+                },
+                {
+                    "@type": "item",
+                    "name": "src/chunkserver/test/data_block_test.cc"
+                }
+            ]
+        },
+        {
+            "@type": "group",
+            "name": "3",
+            "nested": [
+                {
+                    "@type": "item",
+                    "name": "src/chunkserver/data_block.h"
+                },
+                {
+                    "@type": "item",
+                    "name": "src/chunkserver/data_block.cc"
+                },
+                {
+                    "@type": "item",
+                    "name": "src/chunkserver/chunkserver_impl.h"
+                },
+                {
+                    "@type": "item",
+                    "name": "src/chunkserver/chunkserver_impl.cc"
+                },
+                {
+                    "@type": "item",
+                    "name": "src/chunkserver/counter_manager.h"
+                },
+                {
+                    "@type": "item",
+                    "name": "src/chunkserver/counter_manager.cc"
+                },
+                {
+                    "@type": "item",
+                    "name": "src/chunkserver/disk.h"
+                },
+                {
+                    "@type": "item",
+                    "name": "src/chunkserver/disk.cc"
+                },
+                {
+                    "@type": "item",
+                    "name": "src/chunkserver/block_manager.h"
+                },
+                {
+                    "@type": "item",
+                    "name": "src/chunkserver/block_manager.cc"
+                }
+            ]
+        },
+        {
+            "@type": "group",
+            "name": "4",
+            "nested": [
+                {
+                    "@type": "item",
+                    "name": "src/nameserver/file_lock.h"
+                },
+                {
+                    "@type": "item",
+                    "name": "src/nameserver/file_lock.cc"
+                },
+                {
+                    "@type": "item",
+                    "name": "src/nameserver/file_lock_manager.h"
+                },
+                {
+                    "@type": "item",
+                    "name": "src/nameserver/file_lock_manager.cc"
+                },
+                {
+                    "@type": "item",
+                    "name": "src/nameserver/test/file_lock_manager_test.cc"
+                },
+                {
+                    "@type": "item",
+                    "name": "src/nameserver/test/file_lock_test.cc"
+                }
+            ]
+        },
+        {
+            "@type": "group",
+            "name": "5",
+            "nested": [
+                {
+                    "@type": "item",
+                    "name": "src/sdk/fs_impl.h"
+                },
+                {
+                    "@type": "item",
+                    "name": "src/sdk/bfs.h"
+                },
+                {
+                    "@type": "item",
+                    "name": "src/sdk/fs_impl.cc"
+                },
+                {
+                    "@type": "item",
+                    "name": "src/sdk/bfs_c.h"
+                },
+                {
+                    "@type": "item",
+                    "name": "src/sdk/bfs_c.cc"
+                },
+                {
+                    "@type": "item",
+                    "name": "src/sdk/file_impl.h"
+                },
+                {
+                    "@type": "item",
+                    "name": "src/sdk/file_impl.cc"
+                },
+                {
+                    "@type": "item",
+                    "name": "src/sdk/file_impl_wrapper.h"
+                },
+                {
+                    "@type": "item",
+                    "name": "src/sdk/file_impl_wrapper.cc"
+                }
+            ]
+        },
+        {
+            "@type": "group",
+            "name": "6",
+            "nested": [
+                {
+                    "@type": "item",
+                    "name": "src/nameserver/block_mapping.h"
+                },
+                {
+                    "@type": "item",
+                    "name": "src/nameserver/block_mapping.cc"
+                },
+                {
+                    "@type": "item",
+                    "name": "src/nameserver/test/block_mapping_test.cc"
+                },
+                {
+                    "@type": "item",
+                    "name": "src/nameserver/block_mapping_manager.h"
+                },
+                {
+                    "@type": "item",
+                    "name": "src/nameserver/block_mapping_manager.cc"
+                }
+            ]
+        },
+        {
+            "@type": "group",
+            "name": "7",
+            "nested": [
+                {
+                    "@type": "item",
+                    "name": "tera/bfs_test.cc"
+                },
+                {
+                    "@type": "item",
+                    "name": "tera/bfs_wrapper.h"
+                },
+                {
+                    "@type": "item",
+                    "name": "tera/bfs_wrapper.cc"
+                },
+                {
+                    "@type": "item",
+                    "name": "tera/dfs.h"
+                }
+            ]
+        },
+        {
+            "@type": "group",
+            "name": "8",
+            "nested": [
+                {
+                    "@type": "item",
+                    "name": "src/metaserver/metaserver_main.cc"
+                },
+                {
+                    "@type": "item",
+                    "name": "src/metaserver/metaserver_impl.h"
+                },
+                {
+                    "@type": "item",
+                    "name": "src/metaserver/metaserver_impl.cc"
+                }
+            ]
+        },
+        {
+            "@type": "group",
+            "name": "9",
+            "nested": [
+                {
+                    "@type": "item",
+                    "name": "src/rpc/nameserver_client.h"
+                },
+                {
+                    "@type": "item",
+                    "name": "src/rpc/nameserver_client.cc"
+                },
+                {
+                    "@type": "item",
+                    "name": "src/rpc/rpc_client.h"
+                }
+            ]
+        },
+        {
+            "@type": "group",
+            "name": "10",
+            "nested": [
+                {
+                    "@type": "item",
+                    "name": "fuse/bfs_mount.cc"
+                }
+            ]
+        },
+        {
+            "@type": "group",
+            "name": "11",
+            "nested": [
+                {
+                    "@type": "item",
+                    "name": "fuse_lowlevel/bfs_ll_mount.cc"
+                }
+            ]
+        },
+        {
+            "@type": "group",
+            "name": "12",
+            "nested": [
+                {
+                    "@type": "item",
+                    "name": "src/client/bfs_client.cc"
+                }
+            ]
+        },
+        {
+            "@type": "group",
+            "name": "13",
+            "nested": [
+                {
+                    "@type": "item",
+                    "name": "src/flags.cc"
+                }
+            ]
+        },
+        {
+            "@type": "group",
+            "name": "14",
+            "nested": [
+                {
+                    "@type": "item",
+                    "name": "src/nameserver/test/kv_client.cc"
+                }
+            ]
+        },
+        {
+            "@type": "group",
+            "name": "15",
+            "nested": [
+                {
+                    "@type": "item",
+                    "name": "src/utils/bfs_dump.cc"
+                }
+            ]
+        },
+        {
+            "@type": "group",
+            "name": "16",
+            "nested": [
+                {
+                    "@type": "item",
+                    "name": "src/utils/logdb_dump.cc"
+                }
+            ]
+        },
+        {
+            "@type": "group",
+            "name": "17",
+            "nested": [
+                {
+                    "@type": "item",
+                    "name": "src/version.h"
+                }
+            ]
+        },
+        {
+            "@type": "group",
+            "name": "18",
+            "nested": [
+                {
+                    "@type": "item",
+                    "name": "src/utils/meta_converter.h"
+                },
+                {
+                    "@type": "item",
+                    "name": "src/utils/meta_converter.cc"
+                }
+            ]
+        },
+        {
+            "@type": "group",
+            "name": "19",
+            "nested": [
+                {
+                    "@type": "item",
+                    "name": "src/test/mark.h"
+                },
+                {
+                    "@type": "item",
+                    "name": "src/test/mark.cc"
+                }
+            ]
+        }
+    ]
+}

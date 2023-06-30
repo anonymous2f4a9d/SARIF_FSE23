@@ -1,0 +1,624 @@
+{
+    "@schemaVersion": "1.0",
+    "name": "clustering",
+    "structure": [
+        {
+            "@type": "group",
+            "name": "0",
+            "nested": [
+                {
+                    "@type": "item",
+                    "name": "src/input/InputMapping.h"
+                },
+                {
+                    "@type": "item",
+                    "name": "src/input/InputMapping.cpp"
+                },
+                {
+                    "@type": "item",
+                    "name": "src/input/InputSDL.h"
+                },
+                {
+                    "@type": "item",
+                    "name": "src/input/InputSDL.cpp"
+                },
+                {
+                    "@type": "item",
+                    "name": "src/input/apple/InputAppleRemote.h"
+                },
+                {
+                    "@type": "item",
+                    "name": "src/input/apple/AppleRemoteDelegate.h"
+                },
+                {
+                    "@type": "item",
+                    "name": "src/input/InputKeyboard.h"
+                },
+                {
+                    "@type": "item",
+                    "name": "src/input/InputLIRC.h"
+                },
+                {
+                    "@type": "item",
+                    "name": "src/input/InputLIRC.cpp"
+                },
+                {
+                    "@type": "item",
+                    "name": "src/input/InputCEC.h"
+                },
+                {
+                    "@type": "item",
+                    "name": "src/input/InputCEC.cpp"
+                },
+                {
+                    "@type": "item",
+                    "name": "src/input/InputComponent.h"
+                },
+                {
+                    "@type": "item",
+                    "name": "src/input/InputComponent.cpp"
+                },
+                {
+                    "@type": "item",
+                    "name": "src/input/apple/InputAppleMediaKeys.h"
+                },
+                {
+                    "@type": "item",
+                    "name": "src/input/InputSocket.h"
+                },
+                {
+                    "@type": "item",
+                    "name": "src/input/InputSocket.cpp"
+                }
+            ]
+        },
+        {
+            "@type": "group",
+            "name": "1",
+            "nested": [
+                {
+                    "@type": "item",
+                    "name": "src/display/rpi/DisplayManagerRPI.h"
+                },
+                {
+                    "@type": "item",
+                    "name": "src/display/rpi/DisplayManagerRPI.cpp"
+                },
+                {
+                    "@type": "item",
+                    "name": "src/display/DisplayManager.h"
+                },
+                {
+                    "@type": "item",
+                    "name": "src/display/DisplayManager.cpp"
+                },
+                {
+                    "@type": "item",
+                    "name": "src/display/osx/DisplayManagerOSX.h"
+                },
+                {
+                    "@type": "item",
+                    "name": "src/display/osx/DisplayManagerOSX.cpp"
+                },
+                {
+                    "@type": "item",
+                    "name": "src/display/dummy/DisplayManagerDummy.h"
+                },
+                {
+                    "@type": "item",
+                    "name": "src/display/dummy/DisplayManagerDummy.cpp"
+                },
+                {
+                    "@type": "item",
+                    "name": "src/display/x11/DisplayManagerX11.h"
+                },
+                {
+                    "@type": "item",
+                    "name": "src/display/x11/DisplayManagerX11.cpp"
+                },
+                {
+                    "@type": "item",
+                    "name": "src/display/DisplayComponent.h"
+                },
+                {
+                    "@type": "item",
+                    "name": "src/display/DisplayComponent.cpp"
+                },
+                {
+                    "@type": "item",
+                    "name": "src/display/win/DisplayManagerWin.h"
+                },
+                {
+                    "@type": "item",
+                    "name": "src/display/win/DisplayManagerWin.cpp"
+                }
+            ]
+        },
+        {
+            "@type": "group",
+            "name": "2",
+            "nested": [
+                {
+                    "@type": "item",
+                    "name": "src/player/PlayerQuickItem.h"
+                },
+                {
+                    "@type": "item",
+                    "name": "src/player/QtHelper.h"
+                },
+                {
+                    "@type": "item",
+                    "name": "src/player/PlayerComponent.h"
+                },
+                {
+                    "@type": "item",
+                    "name": "src/player/PlayerComponent.cpp"
+                },
+                {
+                    "@type": "item",
+                    "name": "src/player/OpenGLDetect.h"
+                },
+                {
+                    "@type": "item",
+                    "name": "src/player/OpenGLDetect.cpp"
+                },
+                {
+                    "@type": "item",
+                    "name": "src/player/PlayerQuickItem.cpp"
+                },
+                {
+                    "@type": "item",
+                    "name": "src/player/CodecsComponent.h"
+                },
+                {
+                    "@type": "item",
+                    "name": "src/player/CodecsComponent.cpp"
+                }
+            ]
+        },
+        {
+            "@type": "group",
+            "name": "3",
+            "nested": [
+                {
+                    "@type": "item",
+                    "name": "src/shared/Names.h"
+                },
+                {
+                    "@type": "item",
+                    "name": "src/shared/LocalJsonServer.h"
+                },
+                {
+                    "@type": "item",
+                    "name": "src/shared/LocalJsonServer.cpp"
+                },
+                {
+                    "@type": "item",
+                    "name": "src/shared/UniqueApplication.h"
+                },
+                {
+                    "@type": "item",
+                    "name": "src/shared/LocalJsonClient.h"
+                },
+                {
+                    "@type": "item",
+                    "name": "src/shared/LocalJsonClient.cpp"
+                },
+                {
+                    "@type": "item",
+                    "name": "src/shared/Paths.h"
+                },
+                {
+                    "@type": "item",
+                    "name": "src/shared/Paths.cpp"
+                }
+            ]
+        },
+        {
+            "@type": "group",
+            "name": "4",
+            "nested": [
+                {
+                    "@type": "item",
+                    "name": "src/power/PowerComponentDBus.h"
+                },
+                {
+                    "@type": "item",
+                    "name": "src/power/PowerComponentDBus.cpp"
+                },
+                {
+                    "@type": "item",
+                    "name": "src/power/PowerComponentWin.h"
+                },
+                {
+                    "@type": "item",
+                    "name": "src/power/PowerComponentWin.cpp"
+                },
+                {
+                    "@type": "item",
+                    "name": "src/power/PowerComponentX11.h"
+                },
+                {
+                    "@type": "item",
+                    "name": "src/power/PowerComponentX11.cpp"
+                },
+                {
+                    "@type": "item",
+                    "name": "src/power/PowerComponent.h"
+                },
+                {
+                    "@type": "item",
+                    "name": "src/power/PowerComponent.cpp"
+                },
+                {
+                    "@type": "item",
+                    "name": "src/power/PowerComponentMac.h"
+                },
+                {
+                    "@type": "item",
+                    "name": "src/power/PowerComponentMac.cpp"
+                }
+            ]
+        },
+        {
+            "@type": "group",
+            "name": "5",
+            "nested": [
+                {
+                    "@type": "item",
+                    "name": "src/settings/SettingsValue.h"
+                },
+                {
+                    "@type": "item",
+                    "name": "src/settings/SettingsSection.h"
+                },
+                {
+                    "@type": "item",
+                    "name": "src/settings/SettingsSection.cpp"
+                },
+                {
+                    "@type": "item",
+                    "name": "src/settings/SettingsComponent.h"
+                },
+                {
+                    "@type": "item",
+                    "name": "src/settings/SettingsComponent.cpp"
+                },
+                {
+                    "@type": "item",
+                    "name": "src/settings/AudioSettingsController.h"
+                },
+                {
+                    "@type": "item",
+                    "name": "src/settings/AudioSettingsController.cpp"
+                }
+            ]
+        },
+        {
+            "@type": "group",
+            "name": "6",
+            "nested": [
+                {
+                    "@type": "item",
+                    "name": "src/utils/osx/OSXUtils.h"
+                },
+                {
+                    "@type": "item",
+                    "name": "src/utils/Utils.h"
+                },
+                {
+                    "@type": "item",
+                    "name": "src/utils/Utils.cpp"
+                },
+                {
+                    "@type": "item",
+                    "name": "src/utils/win/WinUtils.h"
+                },
+                {
+                    "@type": "item",
+                    "name": "src/utils/win/WinUtils.cpp"
+                },
+                {
+                    "@type": "item",
+                    "name": "src/utils/PlatformUtils.h"
+                },
+                {
+                    "@type": "item",
+                    "name": "src/utils/PlatformUtils.cpp"
+                }
+            ]
+        },
+        {
+            "@type": "group",
+            "name": "7",
+            "nested": [
+                {
+                    "@type": "item",
+                    "name": "src/plugins/RPI_jpeg/QRPIJpegPlugin.h"
+                },
+                {
+                    "@type": "item",
+                    "name": "src/plugins/RPI_jpeg/QRPIJpegPlugin.cpp"
+                },
+                {
+                    "@type": "item",
+                    "name": "src/plugins/RPI_jpeg/brcmjpeg.h"
+                },
+                {
+                    "@type": "item",
+                    "name": "src/plugins/RPI_jpeg/brcmjpeg.cpp"
+                },
+                {
+                    "@type": "item",
+                    "name": "src/plugins/RPI_jpeg/QRPIJpegHandler.h"
+                },
+                {
+                    "@type": "item",
+                    "name": "src/plugins/RPI_jpeg/QRPIJpegHandler.cpp"
+                }
+            ]
+        },
+        {
+            "@type": "group",
+            "name": "8",
+            "nested": [
+                {
+                    "@type": "item",
+                    "name": "src/taskbar/TaskbarComponentWin.h"
+                },
+                {
+                    "@type": "item",
+                    "name": "src/taskbar/TaskbarComponentWin.cpp"
+                },
+                {
+                    "@type": "item",
+                    "name": "src/taskbar/TaskbarComponent.h"
+                },
+                {
+                    "@type": "item",
+                    "name": "src/taskbar/TaskbarComponent.cpp"
+                }
+            ]
+        },
+        {
+            "@type": "group",
+            "name": "9",
+            "nested": [
+                {
+                    "@type": "item",
+                    "name": "src/ui/KonvergoWindow.h"
+                },
+                {
+                    "@type": "item",
+                    "name": "src/ui/KonvergoWindow.cpp"
+                },
+                {
+                    "@type": "item",
+                    "name": "src/ui/EventFilter.h"
+                },
+                {
+                    "@type": "item",
+                    "name": "src/ui/EventFilter.cpp"
+                }
+            ]
+        },
+        {
+            "@type": "group",
+            "name": "10",
+            "nested": [
+                {
+                    "@type": "item",
+                    "name": "src/system/openelec/SystemdManager.h"
+                },
+                {
+                    "@type": "item",
+                    "name": "src/system/openelec/SystemdManager.cpp"
+                },
+                {
+                    "@type": "item",
+                    "name": "src/system/openelec/OESystemComponent.h"
+                },
+                {
+                    "@type": "item",
+                    "name": "src/system/openelec/OESystemComponent.cpp"
+                }
+            ]
+        },
+        {
+            "@type": "group",
+            "name": "11",
+            "nested": [
+                {
+                    "@type": "item",
+                    "name": "external/letsmove/PFMoveApplication.h"
+                }
+            ]
+        },
+        {
+            "@type": "group",
+            "name": "12",
+            "nested": [
+                {
+                    "@type": "item",
+                    "name": "src/core/Version.h"
+                }
+            ]
+        },
+        {
+            "@type": "group",
+            "name": "13",
+            "nested": [
+                {
+                    "@type": "item",
+                    "name": "src/main.cpp"
+                }
+            ]
+        },
+        {
+            "@type": "group",
+            "name": "14",
+            "nested": [
+                {
+                    "@type": "item",
+                    "name": "src/KonvergoPCH.h"
+                }
+            ]
+        },
+        {
+            "@type": "group",
+            "name": "15",
+            "nested": [
+                {
+                    "@type": "item",
+                    "name": "external/SPMediaKeyTap/SPMediaKeyTap.h"
+                }
+            ]
+        },
+        {
+            "@type": "group",
+            "name": "16",
+            "nested": [
+                {
+                    "@type": "item",
+                    "name": "external/SPMediaKeyTap/SPInvocationGrabbing/NSObject+SPInvocationGrabbing.h"
+                }
+            ]
+        },
+        {
+            "@type": "group",
+            "name": "17",
+            "nested": [
+                {
+                    "@type": "item",
+                    "name": "external/HIDRemote/HIDRemote.h"
+                }
+            ]
+        },
+        {
+            "@type": "group",
+            "name": "18",
+            "nested": [
+                {
+                    "@type": "item",
+                    "name": "src/core/ComponentManager.h"
+                },
+                {
+                    "@type": "item",
+                    "name": "src/core/ComponentManager.cpp"
+                }
+            ]
+        },
+        {
+            "@type": "group",
+            "name": "19",
+            "nested": [
+                {
+                    "@type": "item",
+                    "name": "src/utils/Log.h"
+                },
+                {
+                    "@type": "item",
+                    "name": "src/utils/Log.cpp"
+                }
+            ]
+        },
+        {
+            "@type": "group",
+            "name": "20",
+            "nested": [
+                {
+                    "@type": "item",
+                    "name": "external/plistparser/plistserializer.h"
+                },
+                {
+                    "@type": "item",
+                    "name": "external/plistparser/plistserializer.cpp"
+                }
+            ]
+        },
+        {
+            "@type": "group",
+            "name": "21",
+            "nested": [
+                {
+                    "@type": "item",
+                    "name": "src/core/Globals.h"
+                },
+                {
+                    "@type": "item",
+                    "name": "src/core/Globals.cpp"
+                }
+            ]
+        },
+        {
+            "@type": "group",
+            "name": "22",
+            "nested": [
+                {
+                    "@type": "item",
+                    "name": "src/utils/CachedRegexMatcher.h"
+                },
+                {
+                    "@type": "item",
+                    "name": "src/utils/CachedRegexMatcher.cpp"
+                }
+            ]
+        },
+        {
+            "@type": "group",
+            "name": "23",
+            "nested": [
+                {
+                    "@type": "item",
+                    "name": "src/system/SystemComponent.h"
+                },
+                {
+                    "@type": "item",
+                    "name": "src/system/SystemComponent.cpp"
+                }
+            ]
+        },
+        {
+            "@type": "group",
+            "name": "24",
+            "nested": [
+                {
+                    "@type": "item",
+                    "name": "src/core/SignalManager.h"
+                },
+                {
+                    "@type": "item",
+                    "name": "src/core/SignalManager.cpp"
+                }
+            ]
+        },
+        {
+            "@type": "group",
+            "name": "25",
+            "nested": [
+                {
+                    "@type": "item",
+                    "name": "src/ui/ErrorMessage.h"
+                },
+                {
+                    "@type": "item",
+                    "name": "src/ui/ErrorMessage.cpp"
+                }
+            ]
+        },
+        {
+            "@type": "group",
+            "name": "26",
+            "nested": [
+                {
+                    "@type": "item",
+                    "name": "external/plistparser/plistparser.h"
+                },
+                {
+                    "@type": "item",
+                    "name": "external/plistparser/plistparser.cpp"
+                }
+            ]
+        }
+    ]
+}

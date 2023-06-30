@@ -1,0 +1,4830 @@
+{
+    "@schemaVersion": "1.0",
+    "name": "clustering",
+    "structure": [
+        {
+            "@type": "group",
+            "name": "0",
+            "nested": [
+                {
+                    "@type": "item",
+                    "name": "common/descriptor_checksum.h"
+                },
+                {
+                    "@type": "item",
+                    "name": "common/descriptor_checksum.c"
+                },
+                {
+                    "@type": "item",
+                    "name": "common/initial_channel.h"
+                },
+                {
+                    "@type": "item",
+                    "name": "common/initial_channel.c"
+                },
+                {
+                    "@type": "item",
+                    "name": "common/derive_basepoints.h"
+                },
+                {
+                    "@type": "item",
+                    "name": "common/derive_basepoints.c"
+                },
+                {
+                    "@type": "item",
+                    "name": "common/bigsize.c"
+                },
+                {
+                    "@type": "item",
+                    "name": "common/status_levels.c"
+                },
+                {
+                    "@type": "item",
+                    "name": "common/json_filter.h"
+                },
+                {
+                    "@type": "item",
+                    "name": "common/test/run-json.c"
+                },
+                {
+                    "@type": "item",
+                    "name": "common/test/run-features.c"
+                },
+                {
+                    "@type": "item",
+                    "name": "common/test/run-version.c"
+                },
+                {
+                    "@type": "item",
+                    "name": "wire/peer_wire.h"
+                },
+                {
+                    "@type": "item",
+                    "name": "wire/peer_wire.c"
+                },
+                {
+                    "@type": "item",
+                    "name": "wire/towire.c"
+                },
+                {
+                    "@type": "item",
+                    "name": "wire/fromwire.c"
+                },
+                {
+                    "@type": "item",
+                    "name": "common/sphinx.h"
+                },
+                {
+                    "@type": "item",
+                    "name": "common/addr.h"
+                },
+                {
+                    "@type": "item",
+                    "name": "common/bolt11_json.h"
+                },
+                {
+                    "@type": "item",
+                    "name": "common/channel_type.h"
+                },
+                {
+                    "@type": "item",
+                    "name": "common/invoice_path_id.h"
+                },
+                {
+                    "@type": "item",
+                    "name": "common/htlc_trim.h"
+                },
+                {
+                    "@type": "item",
+                    "name": "common/hsm_encryption.h"
+                },
+                {
+                    "@type": "item",
+                    "name": "common/sphinx.c"
+                },
+                {
+                    "@type": "item",
+                    "name": "common/addr.c"
+                },
+                {
+                    "@type": "item",
+                    "name": "common/bolt11_json.c"
+                },
+                {
+                    "@type": "item",
+                    "name": "common/channel_type.c"
+                },
+                {
+                    "@type": "item",
+                    "name": "common/channel_id.c"
+                },
+                {
+                    "@type": "item",
+                    "name": "common/invoice_path_id.c"
+                },
+                {
+                    "@type": "item",
+                    "name": "common/htlc_trim.c"
+                },
+                {
+                    "@type": "item",
+                    "name": "common/hsm_encryption.c"
+                },
+                {
+                    "@type": "item",
+                    "name": "common/json_param.c"
+                },
+                {
+                    "@type": "item",
+                    "name": "common/bolt12.c"
+                },
+                {
+                    "@type": "item",
+                    "name": "common/json_stream.c"
+                },
+                {
+                    "@type": "item",
+                    "name": "common/bolt11.c"
+                },
+                {
+                    "@type": "item",
+                    "name": "common/onion_decode.c"
+                },
+                {
+                    "@type": "item",
+                    "name": "common/version.c"
+                },
+                {
+                    "@type": "item",
+                    "name": "common/test/run-route-specific.c"
+                },
+                {
+                    "@type": "item",
+                    "name": "common/overflows.h"
+                },
+                {
+                    "@type": "item",
+                    "name": "common/utxo.h"
+                },
+                {
+                    "@type": "item",
+                    "name": "common/utxo.c"
+                },
+                {
+                    "@type": "item",
+                    "name": "common/fp16.h"
+                },
+                {
+                    "@type": "item",
+                    "name": "common/fp16.c"
+                },
+                {
+                    "@type": "item",
+                    "name": "common/wallet.h"
+                },
+                {
+                    "@type": "item",
+                    "name": "common/wallet.c"
+                },
+                {
+                    "@type": "item",
+                    "name": "common/ecdh_hsmd.h"
+                },
+                {
+                    "@type": "item",
+                    "name": "common/ecdh_hsmd.c"
+                },
+                {
+                    "@type": "item",
+                    "name": "common/amount.c"
+                },
+                {
+                    "@type": "item",
+                    "name": "common/node_id.c"
+                },
+                {
+                    "@type": "item",
+                    "name": "common/bolt12_merkle.c"
+                },
+                {
+                    "@type": "item",
+                    "name": "common/features.c"
+                },
+                {
+                    "@type": "item",
+                    "name": "common/coin_mvt.c"
+                },
+                {
+                    "@type": "item",
+                    "name": "common/hmac.c"
+                },
+                {
+                    "@type": "item",
+                    "name": "common/base32.c"
+                },
+                {
+                    "@type": "item",
+                    "name": "common/bech32_util.c"
+                },
+                {
+                    "@type": "item",
+                    "name": "common/blindedpath.c"
+                },
+                {
+                    "@type": "item",
+                    "name": "common/onionreply.c"
+                },
+                {
+                    "@type": "item",
+                    "name": "common/lease_rates.h"
+                },
+                {
+                    "@type": "item",
+                    "name": "common/wireaddr.h"
+                },
+                {
+                    "@type": "item",
+                    "name": "common/bech32.h"
+                },
+                {
+                    "@type": "item",
+                    "name": "common/test/run-json_filter.c"
+                },
+                {
+                    "@type": "item",
+                    "name": "common/test/run-json_stream-filter.c"
+                },
+                {
+                    "@type": "item",
+                    "name": "wire/test/run-peer-wire.c"
+                },
+                {
+                    "@type": "item",
+                    "name": "common/test/run-route.c"
+                },
+                {
+                    "@type": "item",
+                    "name": "common/test/run-cryptomsg.c"
+                },
+                {
+                    "@type": "item",
+                    "name": "common/type_to_string.h"
+                },
+                {
+                    "@type": "item",
+                    "name": "onchaind/onchain_types.h"
+                },
+                {
+                    "@type": "item",
+                    "name": "common/bigsize.h"
+                },
+                {
+                    "@type": "item",
+                    "name": "cli/lightning-cli.c"
+                },
+                {
+                    "@type": "item",
+                    "name": "common/status_levels.h"
+                },
+                {
+                    "@type": "item",
+                    "name": "cli/test/run-human-mode.c"
+                },
+                {
+                    "@type": "item",
+                    "name": "cli/test/run-remove-hint.c"
+                },
+                {
+                    "@type": "item",
+                    "name": "cli/test/run-large-input.c"
+                },
+                {
+                    "@type": "item",
+                    "name": "common/closing_fee.h"
+                },
+                {
+                    "@type": "item",
+                    "name": "common/gossmap.h"
+                },
+                {
+                    "@type": "item",
+                    "name": "common/gossmap.c"
+                },
+                {
+                    "@type": "item",
+                    "name": "common/test/run-gossmap_canned.c"
+                },
+                {
+                    "@type": "item",
+                    "name": "common/test/run-gossmap_local.c"
+                },
+                {
+                    "@type": "item",
+                    "name": "common/blindedpay.h"
+                },
+                {
+                    "@type": "item",
+                    "name": "common/blindedpay.c"
+                },
+                {
+                    "@type": "item",
+                    "name": "common/daemon.c"
+                },
+                {
+                    "@type": "item",
+                    "name": "common/json_parse_simple.c"
+                },
+                {
+                    "@type": "item",
+                    "name": "common/lease_rates.c"
+                },
+                {
+                    "@type": "item",
+                    "name": "common/fee_states.c"
+                },
+                {
+                    "@type": "item",
+                    "name": "common/wireaddr.c"
+                },
+                {
+                    "@type": "item",
+                    "name": "common/bech32.c"
+                },
+                {
+                    "@type": "item",
+                    "name": "common/json_parse.c"
+                },
+                {
+                    "@type": "item",
+                    "name": "common/htlc_state.c"
+                },
+                {
+                    "@type": "item",
+                    "name": "common/json_filter.c"
+                },
+                {
+                    "@type": "item",
+                    "name": "common/channel_config.c"
+                },
+                {
+                    "@type": "item",
+                    "name": "common/keyset.h"
+                },
+                {
+                    "@type": "item",
+                    "name": "common/peer_billboard.h"
+                },
+                {
+                    "@type": "item",
+                    "name": "common/htlc_tx.h"
+                },
+                {
+                    "@type": "item",
+                    "name": "common/initial_commit_tx.h"
+                },
+                {
+                    "@type": "item",
+                    "name": "common/subdaemon.h"
+                },
+                {
+                    "@type": "item",
+                    "name": "onchaind/onchaind.c"
+                },
+                {
+                    "@type": "item",
+                    "name": "common/bip32.h"
+                },
+                {
+                    "@type": "item",
+                    "name": "onchaind/test/run-grind_feerate.c"
+                },
+                {
+                    "@type": "item",
+                    "name": "onchaind/test/run-grind_feerate-bug.c"
+                },
+                {
+                    "@type": "item",
+                    "name": "common/hash_u5.h"
+                },
+                {
+                    "@type": "item",
+                    "name": "common/hash_u5.c"
+                },
+                {
+                    "@type": "item",
+                    "name": "common/msg_queue.h"
+                },
+                {
+                    "@type": "item",
+                    "name": "common/msg_queue.c"
+                },
+                {
+                    "@type": "item",
+                    "name": "common/test/run-bolt11.c"
+                },
+                {
+                    "@type": "item",
+                    "name": "common/status_wire.h"
+                },
+                {
+                    "@type": "item",
+                    "name": "common/status_wire.c"
+                },
+                {
+                    "@type": "item",
+                    "name": "common/htlc_state.h"
+                },
+                {
+                    "@type": "item",
+                    "name": "common/base64.h"
+                },
+                {
+                    "@type": "item",
+                    "name": "common/base64.c"
+                },
+                {
+                    "@type": "item",
+                    "name": "common/billboard.h"
+                },
+                {
+                    "@type": "item",
+                    "name": "common/billboard.c"
+                },
+                {
+                    "@type": "item",
+                    "name": "common/utils.h"
+                },
+                {
+                    "@type": "item",
+                    "name": "common/utils.c"
+                },
+                {
+                    "@type": "item",
+                    "name": "wire/tlvstream.h"
+                },
+                {
+                    "@type": "item",
+                    "name": "wire/tlvstream.c"
+                },
+                {
+                    "@type": "item",
+                    "name": "onchaind/onchaind_wire.h"
+                },
+                {
+                    "@type": "item",
+                    "name": "onchaind/onchaind_wire.c"
+                },
+                {
+                    "@type": "item",
+                    "name": "common/status.c"
+                },
+                {
+                    "@type": "item",
+                    "name": "common/memleak.c"
+                },
+                {
+                    "@type": "item",
+                    "name": "common/keyset.c"
+                },
+                {
+                    "@type": "item",
+                    "name": "common/peer_billboard.c"
+                },
+                {
+                    "@type": "item",
+                    "name": "common/htlc_tx.c"
+                },
+                {
+                    "@type": "item",
+                    "name": "common/decode_array.c"
+                },
+                {
+                    "@type": "item",
+                    "name": "common/initial_commit_tx.c"
+                },
+                {
+                    "@type": "item",
+                    "name": "common/subdaemon.c"
+                },
+                {
+                    "@type": "item",
+                    "name": "common/daemon_conn.c"
+                },
+                {
+                    "@type": "item",
+                    "name": "common/bip32.c"
+                },
+                {
+                    "@type": "item",
+                    "name": "common/wire_error.c"
+                },
+                {
+                    "@type": "item",
+                    "name": "common/timeout.c"
+                },
+                {
+                    "@type": "item",
+                    "name": "common/random_select.c"
+                },
+                {
+                    "@type": "item",
+                    "name": "common/blinding.c"
+                },
+                {
+                    "@type": "item",
+                    "name": "common/dev_disconnect.c"
+                },
+                {
+                    "@type": "item",
+                    "name": "common/type_to_string.c"
+                },
+                {
+                    "@type": "item",
+                    "name": "common/pseudorand.c"
+                },
+                {
+                    "@type": "item",
+                    "name": "common/setup.h"
+                },
+                {
+                    "@type": "item",
+                    "name": "common/setup.c"
+                },
+                {
+                    "@type": "item",
+                    "name": "common/dev_disconnect.h"
+                },
+                {
+                    "@type": "item",
+                    "name": "common/tx_roles.h"
+                },
+                {
+                    "@type": "item",
+                    "name": "common/tx_roles.c"
+                },
+                {
+                    "@type": "item",
+                    "name": "common/onion_message_parse.h"
+                },
+                {
+                    "@type": "item",
+                    "name": "common/onion_message_parse.c"
+                },
+                {
+                    "@type": "item",
+                    "name": "common/test/run-blindedpath_enctlv.c"
+                },
+                {
+                    "@type": "item",
+                    "name": "common/test/run-param.c"
+                },
+                {
+                    "@type": "item",
+                    "name": "common/test/run-route_blinding_test.c"
+                },
+                {
+                    "@type": "item",
+                    "name": "cli/config_cli.h"
+                },
+                {
+                    "@type": "item",
+                    "name": "common/key_derive.h"
+                },
+                {
+                    "@type": "item",
+                    "name": "common/key_derive.c"
+                },
+                {
+                    "@type": "item",
+                    "name": "common/test/run-channel_type.c"
+                },
+                {
+                    "@type": "item",
+                    "name": "common/close_tx.h"
+                },
+                {
+                    "@type": "item",
+                    "name": "common/close_tx.c"
+                },
+                {
+                    "@type": "item",
+                    "name": "common/onion_encode.h"
+                },
+                {
+                    "@type": "item",
+                    "name": "common/onion_encode.c"
+                },
+                {
+                    "@type": "item",
+                    "name": "common/route.h"
+                },
+                {
+                    "@type": "item",
+                    "name": "common/route.c"
+                },
+                {
+                    "@type": "item",
+                    "name": "wire/wire.h"
+                },
+                {
+                    "@type": "item",
+                    "name": "common/amount.h"
+                },
+                {
+                    "@type": "item",
+                    "name": "common/coin_mvt.h"
+                },
+                {
+                    "@type": "item",
+                    "name": "common/node_id.h"
+                },
+                {
+                    "@type": "item",
+                    "name": "common/onionreply.h"
+                },
+                {
+                    "@type": "item",
+                    "name": "common/ecdh.h"
+                },
+                {
+                    "@type": "item",
+                    "name": "common/base32.h"
+                },
+                {
+                    "@type": "item",
+                    "name": "common/bolt12_merkle.h"
+                },
+                {
+                    "@type": "item",
+                    "name": "common/features.h"
+                },
+                {
+                    "@type": "item",
+                    "name": "common/bech32_util.h"
+                },
+                {
+                    "@type": "item",
+                    "name": "common/hmac.h"
+                },
+                {
+                    "@type": "item",
+                    "name": "common/blindedpath.h"
+                },
+                {
+                    "@type": "item",
+                    "name": "common/test/run-bigsize.c"
+                },
+                {
+                    "@type": "item",
+                    "name": "common/test/run-lease_rates.c"
+                },
+                {
+                    "@type": "item",
+                    "name": "common/test/run-onion-message-test.c"
+                },
+                {
+                    "@type": "item",
+                    "name": "common/test/run-wireaddr.c"
+                },
+                {
+                    "@type": "item",
+                    "name": "common/test/run-key_derive.c"
+                },
+                {
+                    "@type": "item",
+                    "name": "common/test/run-bolt12_merkle-json.c"
+                },
+                {
+                    "@type": "item",
+                    "name": "common/test/run-json_remove.c"
+                },
+                {
+                    "@type": "item",
+                    "name": "common/test/run-json_scan.c"
+                },
+                {
+                    "@type": "item",
+                    "name": "common/test/run-route_blinding_onion_test.c"
+                },
+                {
+                    "@type": "item",
+                    "name": "common/test/run-bolt12_period.c"
+                },
+                {
+                    "@type": "item",
+                    "name": "common/test/run-amount.c"
+                },
+                {
+                    "@type": "item",
+                    "name": "common/test/run-softref.c"
+                },
+                {
+                    "@type": "item",
+                    "name": "common/test/run-tlv_span.c"
+                },
+                {
+                    "@type": "item",
+                    "name": "common/test/run-derive_basepoints.c"
+                },
+                {
+                    "@type": "item",
+                    "name": "common/test/run-sphinx-xor_cipher_stream.c"
+                },
+                {
+                    "@type": "item",
+                    "name": "common/test/run-gossmap-fp16.c"
+                },
+                {
+                    "@type": "item",
+                    "name": "common/test/run-ip_port_parsing.c"
+                },
+                {
+                    "@type": "item",
+                    "name": "common/test/run-onion-test-vector.c"
+                },
+                {
+                    "@type": "item",
+                    "name": "common/test/run-sphinx.c"
+                },
+                {
+                    "@type": "item",
+                    "name": "common/test/run-bolt12_merkle.c"
+                },
+                {
+                    "@type": "item",
+                    "name": "common/test/run-blindedpath_onion.c"
+                },
+                {
+                    "@type": "item",
+                    "name": "common/test/run-base64.c"
+                },
+                {
+                    "@type": "item",
+                    "name": "common/test/run-bolt12-format-string-test.c"
+                },
+                {
+                    "@type": "item",
+                    "name": "common/test/run-bolt12_decode.c"
+                },
+                {
+                    "@type": "item",
+                    "name": "cli/test/config_test.h"
+                },
+                {
+                    "@type": "item",
+                    "name": "common/pseudorand.h"
+                },
+                {
+                    "@type": "item",
+                    "name": "common/test/run-psbt_diff.c"
+                },
+                {
+                    "@type": "item",
+                    "name": "common/autodata.h"
+                },
+                {
+                    "@type": "item",
+                    "name": "common/autodata.c"
+                },
+                {
+                    "@type": "item",
+                    "name": "common/penalty_base.h"
+                },
+                {
+                    "@type": "item",
+                    "name": "common/penalty_base.c"
+                },
+                {
+                    "@type": "item",
+                    "name": "common/blockheight_states.h"
+                },
+                {
+                    "@type": "item",
+                    "name": "common/blockheight_states.c"
+                },
+                {
+                    "@type": "item",
+                    "name": "common/dijkstra.h"
+                },
+                {
+                    "@type": "item",
+                    "name": "common/dijkstra.c"
+                }
+            ]
+        },
+        {
+            "@type": "group",
+            "name": "1",
+            "nested": [
+                {
+                    "@type": "item",
+                    "name": "ccan/ccan/tal/test/run-named-nolabels.c"
+                },
+                {
+                    "@type": "item",
+                    "name": "ccan/ccan/tal/test/run-notifier.c"
+                },
+                {
+                    "@type": "item",
+                    "name": "ccan/ccan/tal/test/run-take-free-assert.c"
+                },
+                {
+                    "@type": "item",
+                    "name": "ccan/ccan/tal/test/run-named.c"
+                },
+                {
+                    "@type": "item",
+                    "name": "ccan/ccan/tal/test/run-take.c"
+                },
+                {
+                    "@type": "item",
+                    "name": "ccan/ccan/tal/test/run-groups-grow.c"
+                },
+                {
+                    "@type": "item",
+                    "name": "ccan/ccan/tal/path/test/run-pushd.c"
+                },
+                {
+                    "@type": "item",
+                    "name": "ccan/ccan/tal/path/test/run-readlink.c"
+                },
+                {
+                    "@type": "item",
+                    "name": "ccan/ccan/tal/str/test/run-strreg.c"
+                },
+                {
+                    "@type": "item",
+                    "name": "ccan/ccan/tal/benchmark/samba-allocs.c"
+                },
+                {
+                    "@type": "item",
+                    "name": "ccan/ccan/tal/test/run-iter.c"
+                },
+                {
+                    "@type": "item",
+                    "name": "ccan/ccan/tal/path/test/run-dirname.c"
+                },
+                {
+                    "@type": "item",
+                    "name": "ccan/ccan/tal/test/run-free.c"
+                },
+                {
+                    "@type": "item",
+                    "name": "ccan/ccan/tal/path/test/run-is_file.c"
+                },
+                {
+                    "@type": "item",
+                    "name": "ccan/ccan/tal/str/test/run-fmt-terminate.c"
+                },
+                {
+                    "@type": "item",
+                    "name": "ccan/ccan/tal/test/run-destructor2.c"
+                },
+                {
+                    "@type": "item",
+                    "name": "ccan/ccan/tal/str/test/run-strndup.c"
+                },
+                {
+                    "@type": "item",
+                    "name": "ccan/ccan/tal/test/run-overflow.c"
+                },
+                {
+                    "@type": "item",
+                    "name": "ccan/ccan/tal/path/path.h"
+                },
+                {
+                    "@type": "item",
+                    "name": "ccan/ccan/tal/path/path.c"
+                },
+                {
+                    "@type": "item",
+                    "name": "ccan/ccan/tal/test/run-expand.c"
+                },
+                {
+                    "@type": "item",
+                    "name": "ccan/ccan/tal/path/test/run-split.c"
+                },
+                {
+                    "@type": "item",
+                    "name": "ccan/ccan/tal/str/test/run.c"
+                },
+                {
+                    "@type": "item",
+                    "name": "ccan/ccan/tal/str/test/helper.h"
+                },
+                {
+                    "@type": "item",
+                    "name": "ccan/ccan/tal/test/run.c"
+                },
+                {
+                    "@type": "item",
+                    "name": "ccan/ccan/tal/test/run-count.c"
+                },
+                {
+                    "@type": "item",
+                    "name": "ccan/ccan/tal/str/test/run-take.c"
+                },
+                {
+                    "@type": "item",
+                    "name": "ccan/ccan/tal/test/run-resizez.c"
+                },
+                {
+                    "@type": "item",
+                    "name": "ccan/ccan/tal/test/run-steal.c"
+                },
+                {
+                    "@type": "item",
+                    "name": "ccan/ccan/tal/path/test/run-canon.c"
+                },
+                {
+                    "@type": "item",
+                    "name": "ccan/ccan/tal/path/test/run-simplify.c"
+                },
+                {
+                    "@type": "item",
+                    "name": "ccan/ccan/tal/path/test/run-is_abs.c"
+                },
+                {
+                    "@type": "item",
+                    "name": "ccan/ccan/tal/test/run-allocfail.c"
+                },
+                {
+                    "@type": "item",
+                    "name": "ccan/ccan/tal/grab_file/test/run-grab.c"
+                },
+                {
+                    "@type": "item",
+                    "name": "ccan/ccan/tal/path/test/run-ext_off.c"
+                },
+                {
+                    "@type": "item",
+                    "name": "ccan/ccan/tal/tal.h"
+                },
+                {
+                    "@type": "item",
+                    "name": "ccan/ccan/tal/tal.c"
+                },
+                {
+                    "@type": "item",
+                    "name": "ccan/ccan/tal/path/test/run-join.c"
+                },
+                {
+                    "@type": "item",
+                    "name": "ccan/ccan/tal/link/test/run.c"
+                },
+                {
+                    "@type": "item",
+                    "name": "ccan/ccan/tal/test/run-array.c"
+                },
+                {
+                    "@type": "item",
+                    "name": "ccan/ccan/tal/path/test/run-rel.c"
+                },
+                {
+                    "@type": "item",
+                    "name": "ccan/ccan/tal/path/test/run-basename.c"
+                },
+                {
+                    "@type": "item",
+                    "name": "ccan/ccan/tal/str/test/run-string.c"
+                },
+                {
+                    "@type": "item",
+                    "name": "ccan/ccan/tal/grab_file/grab_file.h"
+                },
+                {
+                    "@type": "item",
+                    "name": "ccan/ccan/tal/grab_file/grab_file.c"
+                },
+                {
+                    "@type": "item",
+                    "name": "ccan/ccan/tal/path/test/run-is_dir.c"
+                },
+                {
+                    "@type": "item",
+                    "name": "ccan/ccan/tal/test/run-named-debug.c"
+                },
+                {
+                    "@type": "item",
+                    "name": "ccan/ccan/tal/path/test/run-cwd.c"
+                },
+                {
+                    "@type": "item",
+                    "name": "ccan/ccan/tal/test/run-destructor.c"
+                },
+                {
+                    "@type": "item",
+                    "name": "ccan/ccan/tal/test/run-test-backend.c"
+                },
+                {
+                    "@type": "item",
+                    "name": "ccan/ccan/tal/benchmark/speed.c"
+                },
+                {
+                    "@type": "item",
+                    "name": "ccan/ccan/tal/link/link.h"
+                },
+                {
+                    "@type": "item",
+                    "name": "ccan/ccan/tal/link/link.c"
+                },
+                {
+                    "@type": "item",
+                    "name": "ccan/ccan/tal/str/str.h"
+                },
+                {
+                    "@type": "item",
+                    "name": "ccan/ccan/tal/str/str.c"
+                }
+            ]
+        },
+        {
+            "@type": "group",
+            "name": "2",
+            "nested": [
+                {
+                    "@type": "item",
+                    "name": "plugins/bkpr/account.h"
+                },
+                {
+                    "@type": "item",
+                    "name": "plugins/bkpr/account.c"
+                },
+                {
+                    "@type": "item",
+                    "name": "plugins/sql.c"
+                },
+                {
+                    "@type": "item",
+                    "name": "plugins/topology.c"
+                },
+                {
+                    "@type": "item",
+                    "name": "plugins/bkpr/account_entry.c"
+                },
+                {
+                    "@type": "item",
+                    "name": "plugins/bkpr/channel_event.c"
+                },
+                {
+                    "@type": "item",
+                    "name": "plugins/bkpr/bookkeeper.c"
+                },
+                {
+                    "@type": "item",
+                    "name": "plugins/spender/multiwithdraw.c"
+                },
+                {
+                    "@type": "item",
+                    "name": "plugins/keysend.c"
+                },
+                {
+                    "@type": "item",
+                    "name": "plugins/spender/multiwithdraw.h"
+                },
+                {
+                    "@type": "item",
+                    "name": "plugins/spender/fundchannel.h"
+                },
+                {
+                    "@type": "item",
+                    "name": "plugins/autoclean.c"
+                },
+                {
+                    "@type": "item",
+                    "name": "plugins/fetchinvoice.c"
+                },
+                {
+                    "@type": "item",
+                    "name": "plugins/bkpr/incomestmt.h"
+                },
+                {
+                    "@type": "item",
+                    "name": "plugins/bkpr/incomestmt.c"
+                },
+                {
+                    "@type": "item",
+                    "name": "plugins/spender/main.c"
+                },
+                {
+                    "@type": "item",
+                    "name": "plugins/test/run-funder_policy.c"
+                },
+                {
+                    "@type": "item",
+                    "name": "plugins/bkpr/channelsapy.h"
+                },
+                {
+                    "@type": "item",
+                    "name": "plugins/bkpr/channelsapy.c"
+                },
+                {
+                    "@type": "item",
+                    "name": "plugins/pay.c"
+                },
+                {
+                    "@type": "item",
+                    "name": "plugins/libplugin.h"
+                },
+                {
+                    "@type": "item",
+                    "name": "plugins/libplugin.c"
+                },
+                {
+                    "@type": "item",
+                    "name": "plugins/spender/multifundchannel.h"
+                },
+                {
+                    "@type": "item",
+                    "name": "plugins/spender/multifundchannel.c"
+                },
+                {
+                    "@type": "item",
+                    "name": "plugins/test/run-route-overlong.c"
+                },
+                {
+                    "@type": "item",
+                    "name": "plugins/bkpr/chain_event.h"
+                },
+                {
+                    "@type": "item",
+                    "name": "plugins/bkpr/chain_event.c"
+                },
+                {
+                    "@type": "item",
+                    "name": "plugins/bkpr/test/test_utils.h"
+                },
+                {
+                    "@type": "item",
+                    "name": "plugins/offers.h"
+                },
+                {
+                    "@type": "item",
+                    "name": "plugins/spender/openchannel.h"
+                },
+                {
+                    "@type": "item",
+                    "name": "plugins/spender/openchannel.c"
+                },
+                {
+                    "@type": "item",
+                    "name": "plugins/spender/fundchannel.c"
+                },
+                {
+                    "@type": "item",
+                    "name": "plugins/bkpr/onchain_fee.h"
+                },
+                {
+                    "@type": "item",
+                    "name": "plugins/bkpr/onchain_fee.c"
+                },
+                {
+                    "@type": "item",
+                    "name": "plugins/bcli.c"
+                },
+                {
+                    "@type": "item",
+                    "name": "plugins/funder.c"
+                },
+                {
+                    "@type": "item",
+                    "name": "plugins/offers.c"
+                },
+                {
+                    "@type": "item",
+                    "name": "plugins/bkpr/recorder.h"
+                },
+                {
+                    "@type": "item",
+                    "name": "plugins/bkpr/recorder.c"
+                },
+                {
+                    "@type": "item",
+                    "name": "common/json_parse.h"
+                },
+                {
+                    "@type": "item",
+                    "name": "plugins/bkpr/account_entry.h"
+                },
+                {
+                    "@type": "item",
+                    "name": "plugins/bkpr/channel_event.h"
+                },
+                {
+                    "@type": "item",
+                    "name": "common/daemon.h"
+                },
+                {
+                    "@type": "item",
+                    "name": "common/json_parse_simple.h"
+                },
+                {
+                    "@type": "item",
+                    "name": "common/htlc.h"
+                },
+                {
+                    "@type": "item",
+                    "name": "common/fee_states.h"
+                },
+                {
+                    "@type": "item",
+                    "name": "plugins/bkpr/test/run-bkpr_db.c"
+                },
+                {
+                    "@type": "item",
+                    "name": "plugins/bkpr/test/run-recorder.c"
+                },
+                {
+                    "@type": "item",
+                    "name": "plugins/funder_policy.h"
+                },
+                {
+                    "@type": "item",
+                    "name": "plugins/funder_policy.c"
+                },
+                {
+                    "@type": "item",
+                    "name": "plugins/offers_offer.h"
+                },
+                {
+                    "@type": "item",
+                    "name": "plugins/offers_offer.c"
+                },
+                {
+                    "@type": "item",
+                    "name": "plugins/chanbackup.c"
+                },
+                {
+                    "@type": "item",
+                    "name": "plugins/libplugin-pay.h"
+                },
+                {
+                    "@type": "item",
+                    "name": "plugins/libplugin-pay.c"
+                },
+                {
+                    "@type": "item",
+                    "name": "plugins/offers_inv_hook.h"
+                },
+                {
+                    "@type": "item",
+                    "name": "plugins/offers_inv_hook.c"
+                },
+                {
+                    "@type": "item",
+                    "name": "plugins/offers_invreq_hook.h"
+                },
+                {
+                    "@type": "item",
+                    "name": "plugins/offers_invreq_hook.c"
+                },
+                {
+                    "@type": "item",
+                    "name": "plugins/commando.c"
+                },
+                {
+                    "@type": "item",
+                    "name": "plugins/txprepare.c"
+                }
+            ]
+        },
+        {
+            "@type": "group",
+            "name": "3",
+            "nested": [
+                {
+                    "@type": "item",
+                    "name": "ccan/ccan/io/test/run-08-read-after-hangup.c"
+                },
+                {
+                    "@type": "item",
+                    "name": "ccan/ccan/io/test/run-09-connect.c"
+                },
+                {
+                    "@type": "item",
+                    "name": "ccan/ccan/io/benchmarks/run-different-speed.c"
+                },
+                {
+                    "@type": "item",
+                    "name": "ccan/ccan/io/test/run-43-io_plan_in_started.c"
+                },
+                {
+                    "@type": "item",
+                    "name": "ccan/ccan/io/test/run-10-many.c"
+                },
+                {
+                    "@type": "item",
+                    "name": "ccan/ccan/io/test/run-30-io_flush_sync.c"
+                },
+                {
+                    "@type": "item",
+                    "name": "ccan/ccan/io/test/run-22-POLLHUP-on-listening-socket.c"
+                },
+                {
+                    "@type": "item",
+                    "name": "ccan/ccan/io/test/run-13-all-idle.c"
+                },
+                {
+                    "@type": "item",
+                    "name": "ccan/ccan/io/test/run-03-readpartial.c"
+                },
+                {
+                    "@type": "item",
+                    "name": "ccan/ccan/io/test/run-41-io_poll_override.c"
+                },
+                {
+                    "@type": "item",
+                    "name": "ccan/ccan/io/test/run-45-eof.c"
+                },
+                {
+                    "@type": "item",
+                    "name": "ccan/ccan/io/test/run-16-duplex-test.c"
+                },
+                {
+                    "@type": "item",
+                    "name": "ccan/ccan/io/test/run-17-homemade-io.c"
+                },
+                {
+                    "@type": "item",
+                    "name": "ccan/ccan/io/test/run-12-bidir.c"
+                },
+                {
+                    "@type": "item",
+                    "name": "ccan/ccan/io/test/run-21-io_close_taken_fd.c"
+                },
+                {
+                    "@type": "item",
+                    "name": "ccan/ccan/io/test/run-05-write.c"
+                },
+                {
+                    "@type": "item",
+                    "name": "ccan/ccan/io/test/run-48-exclusive-duplex-write.c"
+                },
+                {
+                    "@type": "item",
+                    "name": "ccan/ccan/io/test/run-01-start-finish.c"
+                },
+                {
+                    "@type": "item",
+                    "name": "ccan/ccan/io/test/run-46-exclusive.c"
+                },
+                {
+                    "@type": "item",
+                    "name": "ccan/ccan/io/test/run-47-exclusive-duplex.c"
+                },
+                {
+                    "@type": "item",
+                    "name": "ccan/ccan/io/test/run-06-idle.c"
+                },
+                {
+                    "@type": "item",
+                    "name": "ccan/ccan/io/test/run-19-always.c"
+                },
+                {
+                    "@type": "item",
+                    "name": "ccan/ccan/io/test/run-02-read.c"
+                },
+                {
+                    "@type": "item",
+                    "name": "ccan/ccan/io/test/run-44-io_plan_out_started.c"
+                },
+                {
+                    "@type": "item",
+                    "name": "ccan/ccan/io/test/run-14-duplex-both-read.c"
+                },
+                {
+                    "@type": "item",
+                    "name": "ccan/ccan/io/test/run-07-break.c"
+                },
+                {
+                    "@type": "item",
+                    "name": "ccan/ccan/io/io.h"
+                },
+                {
+                    "@type": "item",
+                    "name": "ccan/ccan/io/backend.h"
+                },
+                {
+                    "@type": "item",
+                    "name": "ccan/ccan/io/io_plan.h"
+                },
+                {
+                    "@type": "item",
+                    "name": "ccan/ccan/io/poll.c"
+                },
+                {
+                    "@type": "item",
+                    "name": "ccan/ccan/io/io.c"
+                },
+                {
+                    "@type": "item",
+                    "name": "ccan/ccan/io/fdpass/fdpass.h"
+                },
+                {
+                    "@type": "item",
+                    "name": "ccan/ccan/io/fdpass/fdpass.c"
+                },
+                {
+                    "@type": "item",
+                    "name": "ccan/ccan/io/test/run-08-hangup-on-idle.c"
+                },
+                {
+                    "@type": "item",
+                    "name": "ccan/ccan/io/test/run-15-timeout.c"
+                },
+                {
+                    "@type": "item",
+                    "name": "ccan/ccan/io/test/run-04-writepartial.c"
+                },
+                {
+                    "@type": "item",
+                    "name": "ccan/ccan/io/test/run-20-io_time_override.c"
+                },
+                {
+                    "@type": "item",
+                    "name": "ccan/ccan/io/benchmarks/run-loop.c"
+                },
+                {
+                    "@type": "item",
+                    "name": "ccan/ccan/io/fdpass/test/run.c"
+                },
+                {
+                    "@type": "item",
+                    "name": "ccan/ccan/io/benchmarks/run-length-prefix.c"
+                },
+                {
+                    "@type": "item",
+                    "name": "ccan/ccan/io/test/run-18-errno.c"
+                },
+                {
+                    "@type": "item",
+                    "name": "ccan/ccan/io/test/run-40-wakeup-mutual.c"
+                }
+            ]
+        },
+        {
+            "@type": "group",
+            "name": "4",
+            "nested": [
+                {
+                    "@type": "item",
+                    "name": "ccan/ccan/str/test/compile_fail-isspace.c"
+                },
+                {
+                    "@type": "item",
+                    "name": "ccan/ccan/str/hex/test/run.c"
+                },
+                {
+                    "@type": "item",
+                    "name": "ccan/ccan/str/base32/base32.h"
+                },
+                {
+                    "@type": "item",
+                    "name": "ccan/ccan/str/base32/base32.c"
+                },
+                {
+                    "@type": "item",
+                    "name": "ccan/ccan/str/test/compile_fail-iscntrl.c"
+                },
+                {
+                    "@type": "item",
+                    "name": "ccan/ccan/str/hex/hex.h"
+                },
+                {
+                    "@type": "item",
+                    "name": "ccan/ccan/str/hex/hex.c"
+                },
+                {
+                    "@type": "item",
+                    "name": "ccan/ccan/str/test/compile_ok-STR_MAX_CHARS-static.c"
+                },
+                {
+                    "@type": "item",
+                    "name": "ccan/ccan/str/test/compile_fail-isxdigit.c"
+                },
+                {
+                    "@type": "item",
+                    "name": "ccan/ccan/str/test/compile_fail-isblank.c"
+                },
+                {
+                    "@type": "item",
+                    "name": "ccan/ccan/str/test/compile_fail-STR_MAX_CHARS.c"
+                },
+                {
+                    "@type": "item",
+                    "name": "ccan/ccan/str/test/compile_fail-ispunct.c"
+                },
+                {
+                    "@type": "item",
+                    "name": "ccan/ccan/str/test/compile_fail-isalpha.c"
+                },
+                {
+                    "@type": "item",
+                    "name": "ccan/ccan/str/test/compile_fail-isdigit.c"
+                },
+                {
+                    "@type": "item",
+                    "name": "ccan/ccan/str/base32/test/run-lower.c"
+                },
+                {
+                    "@type": "item",
+                    "name": "ccan/ccan/str/test/debug.c"
+                },
+                {
+                    "@type": "item",
+                    "name": "ccan/ccan/str/test/run.c"
+                },
+                {
+                    "@type": "item",
+                    "name": "ccan/ccan/str/test/compile_fail-strstr.c"
+                },
+                {
+                    "@type": "item",
+                    "name": "ccan/ccan/str/str.h"
+                },
+                {
+                    "@type": "item",
+                    "name": "ccan/ccan/str/str.c"
+                },
+                {
+                    "@type": "item",
+                    "name": "ccan/ccan/str/base32/test/run.c"
+                },
+                {
+                    "@type": "item",
+                    "name": "ccan/ccan/str/test/compile_fail-strchr.c"
+                },
+                {
+                    "@type": "item",
+                    "name": "ccan/ccan/str/test/run-STR_MAX_CHARS.c"
+                },
+                {
+                    "@type": "item",
+                    "name": "ccan/ccan/str/test/compile_fail-isalnum.c"
+                },
+                {
+                    "@type": "item",
+                    "name": "ccan/ccan/str/test/compile_fail-isupper.c"
+                },
+                {
+                    "@type": "item",
+                    "name": "ccan/ccan/str/test/compile_fail-isascii.c"
+                },
+                {
+                    "@type": "item",
+                    "name": "ccan/ccan/str/debug.c"
+                },
+                {
+                    "@type": "item",
+                    "name": "ccan/ccan/str/test/compile_fail-strrchr.c"
+                },
+                {
+                    "@type": "item",
+                    "name": "ccan/ccan/str/str_debug.h"
+                },
+                {
+                    "@type": "item",
+                    "name": "ccan/ccan/str/test/compile_fail-islower.c"
+                },
+                {
+                    "@type": "item",
+                    "name": "ccan/ccan/str/test/compile_fail-isprint.c"
+                }
+            ]
+        },
+        {
+            "@type": "group",
+            "name": "5",
+            "nested": [
+                {
+                    "@type": "item",
+                    "name": "connectd/connectd.h"
+                },
+                {
+                    "@type": "item",
+                    "name": "ccan/ccan/crypto/sha256/sha256.h"
+                },
+                {
+                    "@type": "item",
+                    "name": "connectd/connectd.c"
+                },
+                {
+                    "@type": "item",
+                    "name": "connectd/peer_exchange_initmsg.h"
+                },
+                {
+                    "@type": "item",
+                    "name": "connectd/peer_exchange_initmsg.c"
+                },
+                {
+                    "@type": "item",
+                    "name": "ccan/ccan/crypto/shachain/test/run-badhash.c"
+                },
+                {
+                    "@type": "item",
+                    "name": "ccan/ccan/crypto/siphash24/test/run.c"
+                },
+                {
+                    "@type": "item",
+                    "name": "ccan/ccan/crypto/sha256/sha256.c"
+                },
+                {
+                    "@type": "item",
+                    "name": "ccan/ccan/crypto/hmac_sha256/test/api-rfc4231.c"
+                },
+                {
+                    "@type": "item",
+                    "name": "ccan/ccan/crypto/ripemd160/test/run-types.c"
+                },
+                {
+                    "@type": "item",
+                    "name": "ccan/ccan/crypto/shachain/tools/shachain48.c"
+                },
+                {
+                    "@type": "item",
+                    "name": "ccan/ccan/crypto/shachain/test/run-can_derive.c"
+                },
+                {
+                    "@type": "item",
+                    "name": "ccan/ccan/crypto/shachain/shachain.h"
+                },
+                {
+                    "@type": "item",
+                    "name": "ccan/ccan/crypto/shachain/shachain.c"
+                },
+                {
+                    "@type": "item",
+                    "name": "ccan/ccan/crypto/shachain/test/run.c"
+                },
+                {
+                    "@type": "item",
+                    "name": "connectd/tor.h"
+                },
+                {
+                    "@type": "item",
+                    "name": "connectd/tor.c"
+                },
+                {
+                    "@type": "item",
+                    "name": "ccan/ccan/crypto/shachain/test/run-8bit.c"
+                },
+                {
+                    "@type": "item",
+                    "name": "ccan/ccan/crypto/hkdf_sha256/test/api-rfc5869.c"
+                },
+                {
+                    "@type": "item",
+                    "name": "ccan/ccan/crypto/sha256/test/run-test-vectors.c"
+                },
+                {
+                    "@type": "item",
+                    "name": "ccan/ccan/crypto/ripemd160/ripemd160.h"
+                },
+                {
+                    "@type": "item",
+                    "name": "ccan/ccan/crypto/ripemd160/ripemd160.c"
+                },
+                {
+                    "@type": "item",
+                    "name": "ccan/ccan/crypto/hkdf_sha256/hkdf_sha256.h"
+                },
+                {
+                    "@type": "item",
+                    "name": "ccan/ccan/crypto/hkdf_sha256/hkdf_sha256.c"
+                },
+                {
+                    "@type": "item",
+                    "name": "ccan/ccan/crypto/sha256/test/run-types.c"
+                },
+                {
+                    "@type": "item",
+                    "name": "ccan/ccan/crypto/hmac_sha256/hmac_sha256.h"
+                },
+                {
+                    "@type": "item",
+                    "name": "ccan/ccan/crypto/hmac_sha256/hmac_sha256.c"
+                },
+                {
+                    "@type": "item",
+                    "name": "ccan/ccan/crypto/sha256/benchmarks/double-sha-bench.c"
+                },
+                {
+                    "@type": "item",
+                    "name": "ccan/ccan/crypto/siphash24/siphash24.h"
+                },
+                {
+                    "@type": "item",
+                    "name": "ccan/ccan/crypto/siphash24/siphash24.c"
+                },
+                {
+                    "@type": "item",
+                    "name": "ccan/ccan/crypto/sha256/test/run-33-bit-test.c"
+                },
+                {
+                    "@type": "item",
+                    "name": "ccan/ccan/crypto/sha256/test/run-lotsa-data.c"
+                },
+                {
+                    "@type": "item",
+                    "name": "ccan/ccan/crypto/ripemd160/test/run-lotsa-data.c"
+                },
+                {
+                    "@type": "item",
+                    "name": "ccan/ccan/crypto/ripemd160/test/run-test-vectors.c"
+                }
+            ]
+        },
+        {
+            "@type": "group",
+            "name": "6",
+            "nested": [
+                {
+                    "@type": "item",
+                    "name": "bitcoin/tx_parts.h"
+                },
+                {
+                    "@type": "item",
+                    "name": "bitcoin/tx_parts.c"
+                },
+                {
+                    "@type": "item",
+                    "name": "connectd/multiplex.h"
+                },
+                {
+                    "@type": "item",
+                    "name": "connectd/multiplex.c"
+                },
+                {
+                    "@type": "item",
+                    "name": "connectd/sha1.h"
+                },
+                {
+                    "@type": "item",
+                    "name": "connectd/sha1.c"
+                },
+                {
+                    "@type": "item",
+                    "name": "bitcoin/base58.h"
+                },
+                {
+                    "@type": "item",
+                    "name": "bitcoin/base58.c"
+                },
+                {
+                    "@type": "item",
+                    "name": "bitcoin/chainparams.c"
+                },
+                {
+                    "@type": "item",
+                    "name": "bitcoin/short_channel_id.h"
+                },
+                {
+                    "@type": "item",
+                    "name": "bitcoin/short_channel_id.c"
+                },
+                {
+                    "@type": "item",
+                    "name": "connectd/gossip_store.h"
+                },
+                {
+                    "@type": "item",
+                    "name": "connectd/gossip_store.c"
+                },
+                {
+                    "@type": "item",
+                    "name": "connectd/onion_message.h"
+                },
+                {
+                    "@type": "item",
+                    "name": "connectd/onion_message.c"
+                },
+                {
+                    "@type": "item",
+                    "name": "bitcoin/block.h"
+                },
+                {
+                    "@type": "item",
+                    "name": "bitcoin/block.c"
+                },
+                {
+                    "@type": "item",
+                    "name": "connectd/websocketd.c"
+                },
+                {
+                    "@type": "item",
+                    "name": "bitcoin/privkey.h"
+                },
+                {
+                    "@type": "item",
+                    "name": "connectd/test/run-websocket.c"
+                },
+                {
+                    "@type": "item",
+                    "name": "connectd/test/run-netaddress.c"
+                },
+                {
+                    "@type": "item",
+                    "name": "connectd/test/run-responder-success.c"
+                },
+                {
+                    "@type": "item",
+                    "name": "connectd/test/run-initiator-success.c"
+                },
+                {
+                    "@type": "item",
+                    "name": "bitcoin/locktime.h"
+                },
+                {
+                    "@type": "item",
+                    "name": "bitcoin/locktime.c"
+                },
+                {
+                    "@type": "item",
+                    "name": "bitcoin/shadouble.h"
+                },
+                {
+                    "@type": "item",
+                    "name": "bitcoin/shadouble.c"
+                },
+                {
+                    "@type": "item",
+                    "name": "bitcoin/script.c"
+                },
+                {
+                    "@type": "item",
+                    "name": "bitcoin/privkey.c"
+                },
+                {
+                    "@type": "item",
+                    "name": "bitcoin/pubkey.c"
+                },
+                {
+                    "@type": "item",
+                    "name": "bitcoin/signature.c"
+                },
+                {
+                    "@type": "item",
+                    "name": "bitcoin/psbt.c"
+                },
+                {
+                    "@type": "item",
+                    "name": "bitcoin/varint.c"
+                },
+                {
+                    "@type": "item",
+                    "name": "bitcoin/chainparams.h"
+                },
+                {
+                    "@type": "item",
+                    "name": "wire/test/run-tlvstream.c"
+                },
+                {
+                    "@type": "item",
+                    "name": "bitcoin/tx.h"
+                },
+                {
+                    "@type": "item",
+                    "name": "bitcoin/tx.c"
+                },
+                {
+                    "@type": "item",
+                    "name": "connectd/netaddress.h"
+                },
+                {
+                    "@type": "item",
+                    "name": "connectd/netaddress.c"
+                },
+                {
+                    "@type": "item",
+                    "name": "connectd/tor_autoservice.h"
+                },
+                {
+                    "@type": "item",
+                    "name": "connectd/tor_autoservice.c"
+                },
+                {
+                    "@type": "item",
+                    "name": "connectd/handshake.h"
+                },
+                {
+                    "@type": "item",
+                    "name": "connectd/handshake.c"
+                },
+                {
+                    "@type": "item",
+                    "name": "connectd/test/run-gossip_rcvd_filter.c"
+                },
+                {
+                    "@type": "item",
+                    "name": "bitcoin/address.h"
+                },
+                {
+                    "@type": "item",
+                    "name": "bitcoin/preimage.h"
+                },
+                {
+                    "@type": "item",
+                    "name": "bitcoin/preimage.c"
+                },
+                {
+                    "@type": "item",
+                    "name": "connectd/gossip_rcvd_filter.h"
+                },
+                {
+                    "@type": "item",
+                    "name": "connectd/gossip_rcvd_filter.c"
+                },
+                {
+                    "@type": "item",
+                    "name": "bitcoin/psbt.h"
+                },
+                {
+                    "@type": "item",
+                    "name": "bitcoin/pubkey.h"
+                },
+                {
+                    "@type": "item",
+                    "name": "bitcoin/script.h"
+                },
+                {
+                    "@type": "item",
+                    "name": "bitcoin/signature.h"
+                },
+                {
+                    "@type": "item",
+                    "name": "bitcoin/varint.h"
+                },
+                {
+                    "@type": "item",
+                    "name": "bitcoin/test/run-tx-bitcoin_tx_2of2_input_witness_weight.c"
+                },
+                {
+                    "@type": "item",
+                    "name": "bitcoin/test/run-bitcoin_block_from_hex.c"
+                },
+                {
+                    "@type": "item",
+                    "name": "bitcoin/test/run-secret_eq_consttime.c"
+                },
+                {
+                    "@type": "item",
+                    "name": "bitcoin/test/run-psbt-from-tx.c"
+                },
+                {
+                    "@type": "item",
+                    "name": "bitcoin/test/run-tx-encode.c"
+                }
+            ]
+        },
+        {
+            "@type": "group",
+            "name": "7",
+            "nested": [
+                {
+                    "@type": "item",
+                    "name": "ccan/ccan/tcon/tcon.h"
+                },
+                {
+                    "@type": "item",
+                    "name": "ccan/ccan/tcon/test/compile_fail.c"
+                },
+                {
+                    "@type": "item",
+                    "name": "ccan/ccan/tcon/test/compile_fail-container3.c"
+                },
+                {
+                    "@type": "item",
+                    "name": "ccan/ccan/tcon/test/compile_fail-container4w.c"
+                },
+                {
+                    "@type": "item",
+                    "name": "ccan/ccan/tcon/test/compile_fail-wrap.c"
+                },
+                {
+                    "@type": "item",
+                    "name": "ccan/ccan/tcon/test/compile_ok-sizeof.c"
+                },
+                {
+                    "@type": "item",
+                    "name": "ccan/ccan/tcon/test/compile_fail-container3w.c"
+                },
+                {
+                    "@type": "item",
+                    "name": "ccan/ccan/tcon/test/compile_fail-container2.c"
+                },
+                {
+                    "@type": "item",
+                    "name": "ccan/ccan/tcon/test/run-container.c"
+                },
+                {
+                    "@type": "item",
+                    "name": "ccan/ccan/tcon/test/run-wrap.c"
+                },
+                {
+                    "@type": "item",
+                    "name": "ccan/ccan/tcon/test/compile_ok-value.c"
+                },
+                {
+                    "@type": "item",
+                    "name": "ccan/ccan/tcon/test/compile_fail-container4.c"
+                },
+                {
+                    "@type": "item",
+                    "name": "ccan/ccan/tcon/test/compile_fail-container2w.c"
+                },
+                {
+                    "@type": "item",
+                    "name": "ccan/ccan/tcon/test/compile_fail-tcon_cast.c"
+                },
+                {
+                    "@type": "item",
+                    "name": "ccan/ccan/tcon/test/compile_ok-void.c"
+                },
+                {
+                    "@type": "item",
+                    "name": "ccan/ccan/tcon/test/compile_fail-tcon_cast_wrap.c"
+                },
+                {
+                    "@type": "item",
+                    "name": "ccan/ccan/tcon/test/compile_fail-container1w.c"
+                },
+                {
+                    "@type": "item",
+                    "name": "ccan/ccan/tcon/test/compile_ok-container.c"
+                },
+                {
+                    "@type": "item",
+                    "name": "ccan/ccan/tcon/test/compile_fail-container1.c"
+                },
+                {
+                    "@type": "item",
+                    "name": "ccan/ccan/tcon/test/compile_ok.c"
+                }
+            ]
+        },
+        {
+            "@type": "group",
+            "name": "8",
+            "nested": [
+                {
+                    "@type": "item",
+                    "name": "lightningd/datastore.c"
+                },
+                {
+                    "@type": "item",
+                    "name": "lightningd/hsm_control.h"
+                },
+                {
+                    "@type": "item",
+                    "name": "common/channel_id.h"
+                },
+                {
+                    "@type": "item",
+                    "name": "common/json_stream.h"
+                },
+                {
+                    "@type": "item",
+                    "name": "common/json_param.h"
+                },
+                {
+                    "@type": "item",
+                    "name": "common/json_command.h"
+                },
+                {
+                    "@type": "item",
+                    "name": "lightningd/notification.h"
+                },
+                {
+                    "@type": "item",
+                    "name": "lightningd/jsonrpc.h"
+                },
+                {
+                    "@type": "item",
+                    "name": "lightningd/log.h"
+                },
+                {
+                    "@type": "item",
+                    "name": "lightningd/plugin.h"
+                },
+                {
+                    "@type": "item",
+                    "name": "lightningd/connect_control.h"
+                },
+                {
+                    "@type": "item",
+                    "name": "lightningd/peer_fd.h"
+                },
+                {
+                    "@type": "item",
+                    "name": "lightningd/log_status.h"
+                },
+                {
+                    "@type": "item",
+                    "name": "lightningd/lightningd.h"
+                },
+                {
+                    "@type": "item",
+                    "name": "db/exec.h"
+                },
+                {
+                    "@type": "item",
+                    "name": "common/version.h"
+                },
+                {
+                    "@type": "item",
+                    "name": "lightningd/chaintopology.h"
+                },
+                {
+                    "@type": "item",
+                    "name": "lightningd/htlc_end.h"
+                },
+                {
+                    "@type": "item",
+                    "name": "lightningd/channel_control.h"
+                },
+                {
+                    "@type": "item",
+                    "name": "lightningd/watch.h"
+                },
+                {
+                    "@type": "item",
+                    "name": "lightningd/memdump.h"
+                },
+                {
+                    "@type": "item",
+                    "name": "lightningd/onchain_control.h"
+                },
+                {
+                    "@type": "item",
+                    "name": "common/bolt11.h"
+                },
+                {
+                    "@type": "item",
+                    "name": "common/bolt12.h"
+                },
+                {
+                    "@type": "item",
+                    "name": "lightningd/peer_control.h"
+                },
+                {
+                    "@type": "item",
+                    "name": "lightningd/test/run-log-pruning.c"
+                },
+                {
+                    "@type": "item",
+                    "name": "lightningd/test/run-shuffle_fds.c"
+                },
+                {
+                    "@type": "item",
+                    "name": "lightningd/test/run-jsonrpc.c"
+                },
+                {
+                    "@type": "item",
+                    "name": "lightningd/test/run-invoice-select-inchan.c"
+                },
+                {
+                    "@type": "item",
+                    "name": "lightningd/test/run-find_my_abspath.c"
+                },
+                {
+                    "@type": "item",
+                    "name": "lightningd/offer.c"
+                },
+                {
+                    "@type": "item",
+                    "name": "common/htlc_wire.h"
+                },
+                {
+                    "@type": "item",
+                    "name": "lightningd/peer_htlcs.h"
+                },
+                {
+                    "@type": "item",
+                    "name": "lightningd/peer_htlcs.c"
+                },
+                {
+                    "@type": "item",
+                    "name": "lightningd/dual_open_control.h"
+                },
+                {
+                    "@type": "item",
+                    "name": "lightningd/channel.h"
+                },
+                {
+                    "@type": "item",
+                    "name": "lightningd/gossip_control.h"
+                },
+                {
+                    "@type": "item",
+                    "name": "lightningd/bitcoind.h"
+                },
+                {
+                    "@type": "item",
+                    "name": "lightningd/pay.h"
+                },
+                {
+                    "@type": "item",
+                    "name": "lightningd/subd.h"
+                },
+                {
+                    "@type": "item",
+                    "name": "lightningd/htlc_set.h"
+                },
+                {
+                    "@type": "item",
+                    "name": "lightningd/opening_control.h"
+                },
+                {
+                    "@type": "item",
+                    "name": "lightningd/anchorspend.h"
+                },
+                {
+                    "@type": "item",
+                    "name": "lightningd/coin_mvts.h"
+                },
+                {
+                    "@type": "item",
+                    "name": "lightningd/closing_control.h"
+                },
+                {
+                    "@type": "item",
+                    "name": "lightningd/options.h"
+                },
+                {
+                    "@type": "item",
+                    "name": "lightningd/lightningd.c"
+                },
+                {
+                    "@type": "item",
+                    "name": "lightningd/hsm_control.c"
+                },
+                {
+                    "@type": "item",
+                    "name": "lightningd/dual_open_control.c"
+                },
+                {
+                    "@type": "item",
+                    "name": "lightningd/gossip_control.c"
+                },
+                {
+                    "@type": "item",
+                    "name": "lightningd/bitcoind.c"
+                },
+                {
+                    "@type": "item",
+                    "name": "lightningd/pay.c"
+                },
+                {
+                    "@type": "item",
+                    "name": "lightningd/subd.c"
+                },
+                {
+                    "@type": "item",
+                    "name": "lightningd/log.c"
+                },
+                {
+                    "@type": "item",
+                    "name": "lightningd/htlc_set.c"
+                },
+                {
+                    "@type": "item",
+                    "name": "lightningd/plugin.c"
+                },
+                {
+                    "@type": "item",
+                    "name": "lightningd/opening_control.c"
+                },
+                {
+                    "@type": "item",
+                    "name": "lightningd/anchorspend.c"
+                },
+                {
+                    "@type": "item",
+                    "name": "lightningd/coin_mvts.c"
+                },
+                {
+                    "@type": "item",
+                    "name": "lightningd/connect_control.c"
+                },
+                {
+                    "@type": "item",
+                    "name": "lightningd/channel.c"
+                },
+                {
+                    "@type": "item",
+                    "name": "lightningd/peer_fd.c"
+                },
+                {
+                    "@type": "item",
+                    "name": "lightningd/jsonrpc.c"
+                },
+                {
+                    "@type": "item",
+                    "name": "lightningd/closing_control.c"
+                },
+                {
+                    "@type": "item",
+                    "name": "lightningd/options.c"
+                },
+                {
+                    "@type": "item",
+                    "name": "lightningd/notification.c"
+                },
+                {
+                    "@type": "item",
+                    "name": "lightningd/log_status.c"
+                },
+                {
+                    "@type": "item",
+                    "name": "lightningd/htlc_end.c"
+                },
+                {
+                    "@type": "item",
+                    "name": "lightningd/onchain_control.c"
+                },
+                {
+                    "@type": "item",
+                    "name": "lightningd/plugin_hook.c"
+                },
+                {
+                    "@type": "item",
+                    "name": "lightningd/peer_control.c"
+                },
+                {
+                    "@type": "item",
+                    "name": "lightningd/watch.c"
+                },
+                {
+                    "@type": "item",
+                    "name": "lightningd/chaintopology.c"
+                },
+                {
+                    "@type": "item",
+                    "name": "lightningd/channel_control.c"
+                },
+                {
+                    "@type": "item",
+                    "name": "lightningd/closed_channel.h"
+                },
+                {
+                    "@type": "item",
+                    "name": "lightningd/invoice.h"
+                },
+                {
+                    "@type": "item",
+                    "name": "lightningd/invoice.c"
+                },
+                {
+                    "@type": "item",
+                    "name": "lightningd/memdump.c"
+                },
+                {
+                    "@type": "item",
+                    "name": "lightningd/configs.c"
+                },
+                {
+                    "@type": "item",
+                    "name": "lightningd/channel_state.h"
+                },
+                {
+                    "@type": "item",
+                    "name": "common/htlc_wire.c"
+                },
+                {
+                    "@type": "item",
+                    "name": "lightningd/io_loop_with_timers.h"
+                },
+                {
+                    "@type": "item",
+                    "name": "lightningd/io_loop_with_timers.c"
+                },
+                {
+                    "@type": "item",
+                    "name": "lightningd/feerate.h"
+                },
+                {
+                    "@type": "item",
+                    "name": "lightningd/feerate.c"
+                },
+                {
+                    "@type": "item",
+                    "name": "lightningd/routehint.h"
+                },
+                {
+                    "@type": "item",
+                    "name": "lightningd/routehint.c"
+                },
+                {
+                    "@type": "item",
+                    "name": "lightningd/onion_message.h"
+                },
+                {
+                    "@type": "item",
+                    "name": "lightningd/onion_message.c"
+                },
+                {
+                    "@type": "item",
+                    "name": "common/channel_config.h"
+                },
+                {
+                    "@type": "item",
+                    "name": "lightningd/opening_common.h"
+                },
+                {
+                    "@type": "item",
+                    "name": "lightningd/opening_common.c"
+                },
+                {
+                    "@type": "item",
+                    "name": "lightningd/closed_channel.c"
+                },
+                {
+                    "@type": "item",
+                    "name": "lightningd/signmessage.c"
+                },
+                {
+                    "@type": "item",
+                    "name": "lightningd/ping.c"
+                },
+                {
+                    "@type": "item",
+                    "name": "lightningd/plugin_control.h"
+                },
+                {
+                    "@type": "item",
+                    "name": "lightningd/plugin_control.c"
+                }
+            ]
+        },
+        {
+            "@type": "group",
+            "name": "9",
+            "nested": [
+                {
+                    "@type": "item",
+                    "name": "common/read_peer_msg.h"
+                },
+                {
+                    "@type": "item",
+                    "name": "common/read_peer_msg.c"
+                },
+                {
+                    "@type": "item",
+                    "name": "common/crypto_state.h"
+                },
+                {
+                    "@type": "item",
+                    "name": "common/cryptomsg.h"
+                },
+                {
+                    "@type": "item",
+                    "name": "common/cryptomsg.c"
+                },
+                {
+                    "@type": "item",
+                    "name": "common/configvar.h"
+                },
+                {
+                    "@type": "item",
+                    "name": "common/configvar.c"
+                },
+                {
+                    "@type": "item",
+                    "name": "common/per_peer_state.h"
+                },
+                {
+                    "@type": "item",
+                    "name": "common/per_peer_state.c"
+                },
+                {
+                    "@type": "item",
+                    "name": "common/permute_tx.h"
+                },
+                {
+                    "@type": "item",
+                    "name": "common/permute_tx.c"
+                },
+                {
+                    "@type": "item",
+                    "name": "common/gossip_store.h"
+                },
+                {
+                    "@type": "item",
+                    "name": "common/gossip_store.c"
+                },
+                {
+                    "@type": "item",
+                    "name": "common/ping.h"
+                },
+                {
+                    "@type": "item",
+                    "name": "common/ping.c"
+                },
+                {
+                    "@type": "item",
+                    "name": "common/errcode.h"
+                },
+                {
+                    "@type": "item",
+                    "name": "common/psbt_internal.h"
+                },
+                {
+                    "@type": "item",
+                    "name": "common/psbt_internal.c"
+                },
+                {
+                    "@type": "item",
+                    "name": "common/interactivetx.h"
+                },
+                {
+                    "@type": "item",
+                    "name": "common/interactivetx.c"
+                },
+                {
+                    "@type": "item",
+                    "name": "common/peer_io.h"
+                },
+                {
+                    "@type": "item",
+                    "name": "common/peer_io.c"
+                },
+                {
+                    "@type": "item",
+                    "name": "common/configdir.h"
+                },
+                {
+                    "@type": "item",
+                    "name": "common/configdir.c"
+                },
+                {
+                    "@type": "item",
+                    "name": "common/psbt_keypath.h"
+                },
+                {
+                    "@type": "item",
+                    "name": "common/psbt_keypath.c"
+                },
+                {
+                    "@type": "item",
+                    "name": "common/gossip_constants.h"
+                },
+                {
+                    "@type": "item",
+                    "name": "common/psbt_open.h"
+                },
+                {
+                    "@type": "item",
+                    "name": "common/psbt_open.c"
+                },
+                {
+                    "@type": "item",
+                    "name": "common/peer_failed.h"
+                },
+                {
+                    "@type": "item",
+                    "name": "common/peer_failed.c"
+                }
+            ]
+        },
+        {
+            "@type": "group",
+            "name": "10",
+            "nested": [
+                {
+                    "@type": "item",
+                    "name": "ccan/ccan/opt/test/run-usage.c"
+                },
+                {
+                    "@type": "item",
+                    "name": "ccan/ccan/opt/test/run-checkopt.c"
+                },
+                {
+                    "@type": "item",
+                    "name": "ccan/ccan/opt/test/run-userbits.c"
+                },
+                {
+                    "@type": "item",
+                    "name": "ccan/ccan/opt/test/run-iter.c"
+                },
+                {
+                    "@type": "item",
+                    "name": "ccan/ccan/opt/test/run-consume_words.c"
+                },
+                {
+                    "@type": "item",
+                    "name": "ccan/ccan/opt/test/run-early.c"
+                },
+                {
+                    "@type": "item",
+                    "name": "ccan/ccan/opt/test/run-correct-reporting.c"
+                },
+                {
+                    "@type": "item",
+                    "name": "ccan/ccan/opt/test/run-no-options.c"
+                },
+                {
+                    "@type": "item",
+                    "name": "ccan/ccan/opt/test/run-early_incomplete.c"
+                },
+                {
+                    "@type": "item",
+                    "name": "ccan/ccan/opt/test/run-unregister.c"
+                },
+                {
+                    "@type": "item",
+                    "name": "ccan/ccan/opt/test/run-add_desc.c"
+                },
+                {
+                    "@type": "item",
+                    "name": "ccan/ccan/opt/private.h"
+                },
+                {
+                    "@type": "item",
+                    "name": "ccan/ccan/opt/opt.h"
+                },
+                {
+                    "@type": "item",
+                    "name": "ccan/ccan/opt/parse.c"
+                },
+                {
+                    "@type": "item",
+                    "name": "ccan/ccan/opt/opt.c"
+                },
+                {
+                    "@type": "item",
+                    "name": "ccan/ccan/opt/usage.c"
+                },
+                {
+                    "@type": "item",
+                    "name": "ccan/ccan/opt/helpers.c"
+                },
+                {
+                    "@type": "item",
+                    "name": "ccan/ccan/opt/test/compile_ok-const-arg.c"
+                },
+                {
+                    "@type": "item",
+                    "name": "ccan/ccan/opt/test/run-helpers.c"
+                },
+                {
+                    "@type": "item",
+                    "name": "ccan/ccan/opt/test/run.c"
+                },
+                {
+                    "@type": "item",
+                    "name": "ccan/ccan/opt/test/utils.h"
+                },
+                {
+                    "@type": "item",
+                    "name": "ccan/ccan/opt/test/utils.c"
+                },
+                {
+                    "@type": "item",
+                    "name": "ccan/ccan/opt/test/run-set_alloc.c"
+                }
+            ]
+        },
+        {
+            "@type": "group",
+            "name": "11",
+            "nested": [
+                {
+                    "@type": "item",
+                    "name": "ccan/ccan/htable/tools/speed.c"
+                },
+                {
+                    "@type": "item",
+                    "name": "ccan/ccan/htable/tools/stringspeed.c"
+                },
+                {
+                    "@type": "item",
+                    "name": "ccan/ccan/htable/htable.h"
+                },
+                {
+                    "@type": "item",
+                    "name": "ccan/ccan/htable/htable.c"
+                },
+                {
+                    "@type": "item",
+                    "name": "ccan/ccan/htable/test/run-allocator.c"
+                },
+                {
+                    "@type": "item",
+                    "name": "ccan/ccan/htable/test/run.c"
+                },
+                {
+                    "@type": "item",
+                    "name": "ccan/ccan/htable/tools/density.c"
+                },
+                {
+                    "@type": "item",
+                    "name": "ccan/ccan/htable/test/run-size.c"
+                },
+                {
+                    "@type": "item",
+                    "name": "ccan/ccan/htable/tools/hsearchspeed.c"
+                },
+                {
+                    "@type": "item",
+                    "name": "ccan/ccan/htable/test/run-zero-hash-first-entry.c"
+                },
+                {
+                    "@type": "item",
+                    "name": "ccan/ccan/htable/test/run-type.c"
+                },
+                {
+                    "@type": "item",
+                    "name": "ccan/ccan/htable/test/run-type-int.c"
+                },
+                {
+                    "@type": "item",
+                    "name": "ccan/ccan/htable/test/run-clash.c"
+                },
+                {
+                    "@type": "item",
+                    "name": "ccan/ccan/htable/htable_type.h"
+                },
+                {
+                    "@type": "item",
+                    "name": "ccan/ccan/htable/test/run-copy.c"
+                },
+                {
+                    "@type": "item",
+                    "name": "ccan/ccan/htable/test/run-debug.c"
+                },
+                {
+                    "@type": "item",
+                    "name": "ccan/ccan/htable/test/run-extra.c"
+                }
+            ]
+        },
+        {
+            "@type": "group",
+            "name": "12",
+            "nested": [
+                {
+                    "@type": "item",
+                    "name": "ccan/ccan/typesafe_cb/test/compile_fail-typesafe_cb-int.c"
+                },
+                {
+                    "@type": "item",
+                    "name": "ccan/ccan/typesafe_cb/test/compile_fail-typesafe_cb.c"
+                },
+                {
+                    "@type": "item",
+                    "name": "ccan/ccan/typesafe_cb/typesafe_cb.h"
+                },
+                {
+                    "@type": "item",
+                    "name": "ccan/ccan/typesafe_cb/test/compile_fail-typesafe_cb_cast-multi.c"
+                },
+                {
+                    "@type": "item",
+                    "name": "ccan/ccan/typesafe_cb/test/compile_ok-typesafe_cb-undefined.c"
+                },
+                {
+                    "@type": "item",
+                    "name": "ccan/ccan/typesafe_cb/test/compile_ok-typesafe_cb-NULL.c"
+                },
+                {
+                    "@type": "item",
+                    "name": "ccan/ccan/typesafe_cb/test/compile_fail-cast_if_type-promotable.c"
+                },
+                {
+                    "@type": "item",
+                    "name": "ccan/ccan/typesafe_cb/test/compile_ok-typesafe_cb_cast.c"
+                },
+                {
+                    "@type": "item",
+                    "name": "ccan/ccan/typesafe_cb/test/compile_fail-typesafe_cb_preargs.c"
+                },
+                {
+                    "@type": "item",
+                    "name": "ccan/ccan/typesafe_cb/test/compile_ok-typesafe_cb-vars.c"
+                },
+                {
+                    "@type": "item",
+                    "name": "ccan/ccan/typesafe_cb/test/compile_fail-typesafe_cb_postargs.c"
+                },
+                {
+                    "@type": "item",
+                    "name": "ccan/ccan/typesafe_cb/test/run.c"
+                },
+                {
+                    "@type": "item",
+                    "name": "ccan/ccan/typesafe_cb/test/compile_fail-typesafe_cb_cast.c"
+                }
+            ]
+        },
+        {
+            "@type": "group",
+            "name": "13",
+            "nested": [
+                {
+                    "@type": "item",
+                    "name": "ccan/ccan/cast/test/compile_fail-cast_const3.c"
+                },
+                {
+                    "@type": "item",
+                    "name": "ccan/ccan/cast/test/compile_ok-cast_void.c"
+                },
+                {
+                    "@type": "item",
+                    "name": "ccan/ccan/cast/test/compile_fail-cast_const2.c"
+                },
+                {
+                    "@type": "item",
+                    "name": "ccan/ccan/cast/cast.h"
+                },
+                {
+                    "@type": "item",
+                    "name": "ccan/ccan/cast/test/compile_fail-cast_signed-sizesame.c"
+                },
+                {
+                    "@type": "item",
+                    "name": "ccan/ccan/cast/test/compile_fail-cast_static-2.c"
+                },
+                {
+                    "@type": "item",
+                    "name": "ccan/ccan/cast/test/compile_fail-cast_static.c"
+                },
+                {
+                    "@type": "item",
+                    "name": "ccan/ccan/cast/test/compile_ok-static.c"
+                },
+                {
+                    "@type": "item",
+                    "name": "ccan/ccan/cast/test/compile_fail-cast_signed.c"
+                },
+                {
+                    "@type": "item",
+                    "name": "ccan/ccan/cast/test/compile_fail-cast_signed-const.c"
+                },
+                {
+                    "@type": "item",
+                    "name": "ccan/ccan/cast/test/compile_fail-cast_static-3.c"
+                },
+                {
+                    "@type": "item",
+                    "name": "ccan/ccan/cast/test/compile_fail-cast_const.c"
+                }
+            ]
+        },
+        {
+            "@type": "group",
+            "name": "14",
+            "nested": [
+                {
+                    "@type": "item",
+                    "name": "ccan/ccan/list/test/run.c"
+                },
+                {
+                    "@type": "item",
+                    "name": "ccan/ccan/list/test/helper.h"
+                },
+                {
+                    "@type": "item",
+                    "name": "ccan/ccan/list/test/helper.c"
+                },
+                {
+                    "@type": "item",
+                    "name": "ccan/ccan/list/test/run-single-eval.c"
+                },
+                {
+                    "@type": "item",
+                    "name": "ccan/ccan/list/test/run-CCAN_LIST_DEBUG.c"
+                },
+                {
+                    "@type": "item",
+                    "name": "ccan/ccan/list/test/compile_ok-constant.c"
+                },
+                {
+                    "@type": "item",
+                    "name": "ccan/ccan/list/test/run-prepend_list.c"
+                },
+                {
+                    "@type": "item",
+                    "name": "ccan/ccan/list/test/run-check-corrupt.c"
+                },
+                {
+                    "@type": "item",
+                    "name": "ccan/ccan/list/test/run-with-debug.c"
+                },
+                {
+                    "@type": "item",
+                    "name": "ccan/ccan/list/test/run-check-nonconst.c"
+                },
+                {
+                    "@type": "item",
+                    "name": "ccan/ccan/list/test/run-list_del_from-assert.c"
+                },
+                {
+                    "@type": "item",
+                    "name": "ccan/ccan/list/test/run-list_prev-list_next.c"
+                },
+                {
+                    "@type": "item",
+                    "name": "ccan/ccan/list/list.h"
+                },
+                {
+                    "@type": "item",
+                    "name": "ccan/ccan/list/list.c"
+                }
+            ]
+        },
+        {
+            "@type": "group",
+            "name": "15",
+            "nested": [
+                {
+                    "@type": "item",
+                    "name": "ccan/ccan/cdump/test/run-multiline.c"
+                },
+                {
+                    "@type": "item",
+                    "name": "ccan/ccan/cdump/cdump.h"
+                },
+                {
+                    "@type": "item",
+                    "name": "ccan/ccan/cdump/cdump.c"
+                },
+                {
+                    "@type": "item",
+                    "name": "ccan/ccan/cdump/test/run-arraysize.c"
+                },
+                {
+                    "@type": "item",
+                    "name": "ccan/ccan/cdump/test/run-qualifiers.c"
+                },
+                {
+                    "@type": "item",
+                    "name": "ccan/ccan/cdump/test/run-forward-decl.c"
+                },
+                {
+                    "@type": "item",
+                    "name": "ccan/ccan/cdump/test/run-enum-comma.c"
+                },
+                {
+                    "@type": "item",
+                    "name": "ccan/ccan/cdump/tools/cdump-enumstr.c"
+                },
+                {
+                    "@type": "item",
+                    "name": "ccan/ccan/cdump/test/run-CDUMP.c"
+                },
+                {
+                    "@type": "item",
+                    "name": "ccan/ccan/cdump/test/run-attributes.c"
+                },
+                {
+                    "@type": "item",
+                    "name": "ccan/ccan/cdump/test/run.c"
+                }
+            ]
+        },
+        {
+            "@type": "group",
+            "name": "16",
+            "nested": [
+                {
+                    "@type": "item",
+                    "name": "ccan/ccan/timer/test/run-ff.c"
+                },
+                {
+                    "@type": "item",
+                    "name": "ccan/ccan/timer/test/run-original-corrupt.c"
+                },
+                {
+                    "@type": "item",
+                    "name": "ccan/ccan/timer/test/run-corrupt.c"
+                },
+                {
+                    "@type": "item",
+                    "name": "ccan/ccan/timer/test/run-expiry.c"
+                },
+                {
+                    "@type": "item",
+                    "name": "ccan/ccan/timer/benchmarks/expected-usage.c"
+                },
+                {
+                    "@type": "item",
+                    "name": "ccan/ccan/timer/test/run-add.c"
+                },
+                {
+                    "@type": "item",
+                    "name": "ccan/ccan/timer/test/run-corrupt2.c"
+                },
+                {
+                    "@type": "item",
+                    "name": "ccan/ccan/timer/timer.h"
+                },
+                {
+                    "@type": "item",
+                    "name": "ccan/ccan/timer/timer.c"
+                },
+                {
+                    "@type": "item",
+                    "name": "ccan/ccan/timer/test/run-allocator.c"
+                },
+                {
+                    "@type": "item",
+                    "name": "ccan/ccan/timer/test/run.c"
+                }
+            ]
+        },
+        {
+            "@type": "group",
+            "name": "17",
+            "nested": [
+                {
+                    "@type": "item",
+                    "name": "wire/onion_wire.h"
+                },
+                {
+                    "@type": "item",
+                    "name": "gossipd/broadcast.h"
+                },
+                {
+                    "@type": "item",
+                    "name": "common/status.h"
+                },
+                {
+                    "@type": "item",
+                    "name": "common/memleak.h"
+                },
+                {
+                    "@type": "item",
+                    "name": "common/blinding.h"
+                },
+                {
+                    "@type": "item",
+                    "name": "common/timeout.h"
+                },
+                {
+                    "@type": "item",
+                    "name": "gossipd/gossip_generation.h"
+                },
+                {
+                    "@type": "item",
+                    "name": "gossipd/gossip_store.h"
+                },
+                {
+                    "@type": "item",
+                    "name": "gossipd/gossipd.h"
+                },
+                {
+                    "@type": "item",
+                    "name": "wire/wire_sync.h"
+                },
+                {
+                    "@type": "item",
+                    "name": "gossipd/queries.h"
+                },
+                {
+                    "@type": "item",
+                    "name": "gossipd/routing.h"
+                },
+                {
+                    "@type": "item",
+                    "name": "common/random_select.h"
+                },
+                {
+                    "@type": "item",
+                    "name": "common/daemon_conn.h"
+                },
+                {
+                    "@type": "item",
+                    "name": "common/decode_array.h"
+                },
+                {
+                    "@type": "item",
+                    "name": "common/wire_error.h"
+                },
+                {
+                    "@type": "item",
+                    "name": "gossipd/test/run-check_channel_announcement.c"
+                },
+                {
+                    "@type": "item",
+                    "name": "gossipd/test/run-next_block_range.c"
+                },
+                {
+                    "@type": "item",
+                    "name": "gossipd/test/run-check_node_announcement.c"
+                },
+                {
+                    "@type": "item",
+                    "name": "gossipd/test/run-extended-info.c"
+                },
+                {
+                    "@type": "item",
+                    "name": "gossipd/test/run-txout_failure.c"
+                },
+                {
+                    "@type": "item",
+                    "name": "gossipd/test/run-crc32_of_update.c"
+                },
+                {
+                    "@type": "item",
+                    "name": "common/hsm_version.h"
+                },
+                {
+                    "@type": "item",
+                    "name": "wire/wire_sync.c"
+                },
+                {
+                    "@type": "item",
+                    "name": "common/jsonrpc_errors.h"
+                },
+                {
+                    "@type": "item",
+                    "name": "gossipd/gossip_generation.c"
+                },
+                {
+                    "@type": "item",
+                    "name": "gossipd/gossip_store.c"
+                },
+                {
+                    "@type": "item",
+                    "name": "gossipd/queries.c"
+                },
+                {
+                    "@type": "item",
+                    "name": "gossipd/gossipd.c"
+                },
+                {
+                    "@type": "item",
+                    "name": "gossipd/routing.c"
+                },
+                {
+                    "@type": "item",
+                    "name": "gossipd/seeker.h"
+                },
+                {
+                    "@type": "item",
+                    "name": "gossipd/seeker.c"
+                },
+                {
+                    "@type": "item",
+                    "name": "common/private_channel_announcement.h"
+                },
+                {
+                    "@type": "item",
+                    "name": "common/private_channel_announcement.c"
+                },
+                {
+                    "@type": "item",
+                    "name": "wire/wire_io.h"
+                },
+                {
+                    "@type": "item",
+                    "name": "wire/wire_io.c"
+                }
+            ]
+        },
+        {
+            "@type": "group",
+            "name": "18",
+            "nested": [
+                {
+                    "@type": "item",
+                    "name": "ccan/ccan/structeq/test/compile_fail-expect-any-padding.c"
+                },
+                {
+                    "@type": "item",
+                    "name": "ccan/ccan/structeq/test/compile_fail-unexpected-negative-padding.c"
+                },
+                {
+                    "@type": "item",
+                    "name": "ccan/ccan/structeq/test/compile_fail-unexpceted-padding.c"
+                },
+                {
+                    "@type": "item",
+                    "name": "ccan/ccan/structeq/test/run.c"
+                },
+                {
+                    "@type": "item",
+                    "name": "ccan/ccan/structeq/test/run-with-padding.c"
+                },
+                {
+                    "@type": "item",
+                    "name": "ccan/ccan/structeq/test/run-with-unknown-padding.c"
+                },
+                {
+                    "@type": "item",
+                    "name": "ccan/ccan/structeq/test/compile_fail-different.c"
+                },
+                {
+                    "@type": "item",
+                    "name": "ccan/ccan/structeq/structeq.h"
+                },
+                {
+                    "@type": "item",
+                    "name": "ccan/ccan/structeq/test/compile_fail-expect-padding.c"
+                }
+            ]
+        },
+        {
+            "@type": "group",
+            "name": "19",
+            "nested": [
+                {
+                    "@type": "item",
+                    "name": "wallet/test/test_utils.c"
+                },
+                {
+                    "@type": "item",
+                    "name": "wallet/test/test_utils.h"
+                },
+                {
+                    "@type": "item",
+                    "name": "wallet/psbt_fixup.h"
+                },
+                {
+                    "@type": "item",
+                    "name": "lightningd/plugin_hook.h"
+                },
+                {
+                    "@type": "item",
+                    "name": "wallet/txfilter.h"
+                },
+                {
+                    "@type": "item",
+                    "name": "common/onion_decode.h"
+                },
+                {
+                    "@type": "item",
+                    "name": "wallet/test/run-db.c"
+                },
+                {
+                    "@type": "item",
+                    "name": "wallet/test/run-wallet.c"
+                },
+                {
+                    "@type": "item",
+                    "name": "wallet/wallet.h"
+                },
+                {
+                    "@type": "item",
+                    "name": "wallet/reservation.c"
+                },
+                {
+                    "@type": "item",
+                    "name": "wallet/wallet.c"
+                },
+                {
+                    "@type": "item",
+                    "name": "wallet/walletrpc.c"
+                },
+                {
+                    "@type": "item",
+                    "name": "wallet/test/run-psbt_fixup.c"
+                },
+                {
+                    "@type": "item",
+                    "name": "wallet/walletrpc.h"
+                },
+                {
+                    "@type": "item",
+                    "name": "wallet/invoices.h"
+                },
+                {
+                    "@type": "item",
+                    "name": "wallet/invoices.c"
+                },
+                {
+                    "@type": "item",
+                    "name": "wallet/psbt_fixup.c"
+                },
+                {
+                    "@type": "item",
+                    "name": "wallet/txfilter.c"
+                },
+                {
+                    "@type": "item",
+                    "name": "wallet/db.h"
+                },
+                {
+                    "@type": "item",
+                    "name": "wallet/db.c"
+                }
+            ]
+        },
+        {
+            "@type": "group",
+            "name": "20",
+            "nested": [
+                {
+                    "@type": "item",
+                    "name": "ccan/ccan/intmap/test/run.c"
+                },
+                {
+                    "@type": "item",
+                    "name": "ccan/ccan/intmap/test/run-order.c"
+                },
+                {
+                    "@type": "item",
+                    "name": "ccan/ccan/intmap/test/run-after-fail.c"
+                },
+                {
+                    "@type": "item",
+                    "name": "ccan/ccan/intmap/intmap.h"
+                },
+                {
+                    "@type": "item",
+                    "name": "ccan/ccan/intmap/intmap.c"
+                },
+                {
+                    "@type": "item",
+                    "name": "ccan/ccan/intmap/test/run-after-exhaustive.c"
+                },
+                {
+                    "@type": "item",
+                    "name": "ccan/ccan/intmap/benchmark/speed.c"
+                },
+                {
+                    "@type": "item",
+                    "name": "ccan/ccan/intmap/test/run-order-smallsize.c"
+                },
+                {
+                    "@type": "item",
+                    "name": "ccan/ccan/intmap/test/run-signed-int.c"
+                }
+            ]
+        },
+        {
+            "@type": "group",
+            "name": "21",
+            "nested": [
+                {
+                    "@type": "item",
+                    "name": "ccan/ccan/strset/test/run.c"
+                },
+                {
+                    "@type": "item",
+                    "name": "ccan/ccan/strset/tools/cbspeed.c"
+                },
+                {
+                    "@type": "item",
+                    "name": "ccan/ccan/strset/tools/speed.c"
+                },
+                {
+                    "@type": "item",
+                    "name": "ccan/ccan/strset/test/run-prefix.c"
+                },
+                {
+                    "@type": "item",
+                    "name": "ccan/ccan/strset/test/run-order.c"
+                },
+                {
+                    "@type": "item",
+                    "name": "ccan/ccan/strset/test/run-iterate-const.c"
+                },
+                {
+                    "@type": "item",
+                    "name": "ccan/ccan/strset/test/run-hibit.c"
+                },
+                {
+                    "@type": "item",
+                    "name": "ccan/ccan/strset/strset.h"
+                },
+                {
+                    "@type": "item",
+                    "name": "ccan/ccan/strset/strset.c"
+                }
+            ]
+        },
+        {
+            "@type": "group",
+            "name": "22",
+            "nested": [
+                {
+                    "@type": "item",
+                    "name": "ccan/ccan/order/test/api.c"
+                },
+                {
+                    "@type": "item",
+                    "name": "ccan/ccan/order/test/compile_ok.c"
+                },
+                {
+                    "@type": "item",
+                    "name": "ccan/ccan/order/test/compile_fail_2.c"
+                },
+                {
+                    "@type": "item",
+                    "name": "ccan/ccan/order/test/fancy_cmp.h"
+                },
+                {
+                    "@type": "item",
+                    "name": "ccan/ccan/order/test/run-fancy.c"
+                },
+                {
+                    "@type": "item",
+                    "name": "ccan/ccan/order/order.h"
+                },
+                {
+                    "@type": "item",
+                    "name": "ccan/ccan/order/order.c"
+                },
+                {
+                    "@type": "item",
+                    "name": "ccan/ccan/order/test/compile_fail_1.c"
+                }
+            ]
+        },
+        {
+            "@type": "group",
+            "name": "23",
+            "nested": [
+                {
+                    "@type": "item",
+                    "name": "channeld/full_channel_error.h"
+                },
+                {
+                    "@type": "item",
+                    "name": "channeld/commit_tx.h"
+                },
+                {
+                    "@type": "item",
+                    "name": "channeld/commit_tx.c"
+                },
+                {
+                    "@type": "item",
+                    "name": "channeld/channeld_htlc.h"
+                },
+                {
+                    "@type": "item",
+                    "name": "channeld/watchtower.h"
+                },
+                {
+                    "@type": "item",
+                    "name": "channeld/watchtower.c"
+                },
+                {
+                    "@type": "item",
+                    "name": "channeld/channeld.h"
+                },
+                {
+                    "@type": "item",
+                    "name": "channeld/channeld.c"
+                },
+                {
+                    "@type": "item",
+                    "name": "channeld/full_channel.h"
+                },
+                {
+                    "@type": "item",
+                    "name": "channeld/full_channel.c"
+                },
+                {
+                    "@type": "item",
+                    "name": "channeld/test/run-commit_tx.c"
+                },
+                {
+                    "@type": "item",
+                    "name": "channeld/test/run-full_channel.c"
+                }
+            ]
+        },
+        {
+            "@type": "group",
+            "name": "24",
+            "nested": [
+                {
+                    "@type": "item",
+                    "name": "ccan/ccan/rbuf/rbuf.h"
+                },
+                {
+                    "@type": "item",
+                    "name": "ccan/ccan/rbuf/rbuf.c"
+                },
+                {
+                    "@type": "item",
+                    "name": "ccan/ccan/rbuf/test/run.c"
+                },
+                {
+                    "@type": "item",
+                    "name": "ccan/ccan/rbuf/test/run-all.c"
+                },
+                {
+                    "@type": "item",
+                    "name": "ccan/ccan/rbuf/test/run-term-eof.c"
+                },
+                {
+                    "@type": "item",
+                    "name": "ccan/ccan/rbuf/test/run-open.c"
+                },
+                {
+                    "@type": "item",
+                    "name": "ccan/ccan/rbuf/test/run-partial-read.c"
+                }
+            ]
+        },
+        {
+            "@type": "group",
+            "name": "25",
+            "nested": [
+                {
+                    "@type": "item",
+                    "name": "plugins/bkpr/db.h"
+                },
+                {
+                    "@type": "item",
+                    "name": "db/common.h"
+                },
+                {
+                    "@type": "item",
+                    "name": "plugins/bkpr/db.c"
+                },
+                {
+                    "@type": "item",
+                    "name": "db/db_sqlite3.c"
+                },
+                {
+                    "@type": "item",
+                    "name": "db/bindings.h"
+                },
+                {
+                    "@type": "item",
+                    "name": "db/bindings.c"
+                },
+                {
+                    "@type": "item",
+                    "name": "db/utils.h"
+                },
+                {
+                    "@type": "item",
+                    "name": "db/utils.c"
+                },
+                {
+                    "@type": "item",
+                    "name": "db/db_postgres.c"
+                },
+                {
+                    "@type": "item",
+                    "name": "db/exec.c"
+                }
+            ]
+        },
+        {
+            "@type": "group",
+            "name": "26",
+            "nested": [
+                {
+                    "@type": "item",
+                    "name": "ccan/ccan/bitmap/test/run-ffs.c"
+                },
+                {
+                    "@type": "item",
+                    "name": "ccan/ccan/bitmap/test/run.c"
+                },
+                {
+                    "@type": "item",
+                    "name": "ccan/ccan/bitmap/bitmap.h"
+                },
+                {
+                    "@type": "item",
+                    "name": "ccan/ccan/bitmap/bitmap.c"
+                },
+                {
+                    "@type": "item",
+                    "name": "ccan/ccan/bitmap/test/run-alloc.c"
+                },
+                {
+                    "@type": "item",
+                    "name": "ccan/ccan/bitmap/test/run-ranges.c"
+                }
+            ]
+        },
+        {
+            "@type": "group",
+            "name": "27",
+            "nested": [
+                {
+                    "@type": "item",
+                    "name": "ccan/ccan/build_assert/test/compile_ok.c"
+                },
+                {
+                    "@type": "item",
+                    "name": "ccan/ccan/build_assert/test/run-BUILD_ASSERT_OR_ZERO.c"
+                },
+                {
+                    "@type": "item",
+                    "name": "ccan/ccan/build_assert/test/compile_fail-expr.c"
+                },
+                {
+                    "@type": "item",
+                    "name": "ccan/ccan/build_assert/build_assert.h"
+                },
+                {
+                    "@type": "item",
+                    "name": "ccan/ccan/build_assert/test/compile_fail.c"
+                }
+            ]
+        },
+        {
+            "@type": "group",
+            "name": "28",
+            "nested": [
+                {
+                    "@type": "item",
+                    "name": "ccan/ccan/check_type/test/compile_fail-check_types_match.c"
+                },
+                {
+                    "@type": "item",
+                    "name": "ccan/ccan/check_type/test/run.c"
+                },
+                {
+                    "@type": "item",
+                    "name": "ccan/ccan/check_type/test/compile_fail-check_type_unsigned.c"
+                },
+                {
+                    "@type": "item",
+                    "name": "ccan/ccan/check_type/test/compile_fail-check_type.c"
+                },
+                {
+                    "@type": "item",
+                    "name": "ccan/ccan/check_type/check_type.h"
+                }
+            ]
+        },
+        {
+            "@type": "group",
+            "name": "29",
+            "nested": [
+                {
+                    "@type": "item",
+                    "name": "ccan/ccan/container_of/test/compile_fail-types.c"
+                },
+                {
+                    "@type": "item",
+                    "name": "ccan/ccan/container_of/test/compile_fail-var-types.c"
+                },
+                {
+                    "@type": "item",
+                    "name": "ccan/ccan/container_of/container_of.h"
+                },
+                {
+                    "@type": "item",
+                    "name": "ccan/ccan/container_of/test/run.c"
+                },
+                {
+                    "@type": "item",
+                    "name": "ccan/ccan/container_of/test/compile_fail-bad-type.c"
+                }
+            ]
+        },
+        {
+            "@type": "group",
+            "name": "30",
+            "nested": [
+                {
+                    "@type": "item",
+                    "name": "ccan/ccan/mem/bench/speed.c"
+                },
+                {
+                    "@type": "item",
+                    "name": "ccan/ccan/mem/test/api-memcheck.c"
+                },
+                {
+                    "@type": "item",
+                    "name": "ccan/ccan/mem/mem.h"
+                },
+                {
+                    "@type": "item",
+                    "name": "ccan/ccan/mem/mem.c"
+                },
+                {
+                    "@type": "item",
+                    "name": "ccan/ccan/mem/test/api.c"
+                },
+                {
+                    "@type": "item",
+                    "name": "ccan/ccan/mem/test/compile_fail-memcheck.c"
+                }
+            ]
+        },
+        {
+            "@type": "group",
+            "name": "31",
+            "nested": [
+                {
+                    "@type": "item",
+                    "name": "ccan/ccan/strmap/test/run-iterate-const.c"
+                },
+                {
+                    "@type": "item",
+                    "name": "ccan/ccan/strmap/test/run-prefix.c"
+                },
+                {
+                    "@type": "item",
+                    "name": "ccan/ccan/strmap/test/run-order.c"
+                },
+                {
+                    "@type": "item",
+                    "name": "ccan/ccan/strmap/test/run.c"
+                },
+                {
+                    "@type": "item",
+                    "name": "ccan/ccan/strmap/strmap.h"
+                },
+                {
+                    "@type": "item",
+                    "name": "ccan/ccan/strmap/strmap.c"
+                }
+            ]
+        },
+        {
+            "@type": "group",
+            "name": "32",
+            "nested": [
+                {
+                    "@type": "item",
+                    "name": "ccan/ccan/array_size/array_size.h"
+                },
+                {
+                    "@type": "item",
+                    "name": "ccan/ccan/array_size/test/compile_fail-function-param.c"
+                },
+                {
+                    "@type": "item",
+                    "name": "ccan/ccan/array_size/test/compile_fail.c"
+                },
+                {
+                    "@type": "item",
+                    "name": "ccan/ccan/array_size/test/run.c"
+                }
+            ]
+        },
+        {
+            "@type": "group",
+            "name": "33",
+            "nested": [
+                {
+                    "@type": "item",
+                    "name": "ccan/ccan/asort/asort.h"
+                },
+                {
+                    "@type": "item",
+                    "name": "ccan/ccan/asort/test/compile_fail-context-type.c"
+                },
+                {
+                    "@type": "item",
+                    "name": "ccan/ccan/asort/test/run.c"
+                },
+                {
+                    "@type": "item",
+                    "name": "ccan/ccan/asort/asort.c"
+                }
+            ]
+        },
+        {
+            "@type": "group",
+            "name": "34",
+            "nested": [
+                {
+                    "@type": "item",
+                    "name": "ccan/ccan/crc32c/crc32c.h"
+                },
+                {
+                    "@type": "item",
+                    "name": "ccan/ccan/crc32c/crc32c.c"
+                },
+                {
+                    "@type": "item",
+                    "name": "ccan/ccan/crc32c/test/run-crc32c.c"
+                },
+                {
+                    "@type": "item",
+                    "name": "ccan/ccan/crc32c/test/api-crc32c.c"
+                },
+                {
+                    "@type": "item",
+                    "name": "ccan/ccan/crc32c/benchmark/bench.c"
+                }
+            ]
+        },
+        {
+            "@type": "group",
+            "name": "35",
+            "nested": [
+                {
+                    "@type": "item",
+                    "name": "ccan/ccan/isaac/test/run.c"
+                },
+                {
+                    "@type": "item",
+                    "name": "ccan/ccan/isaac/isaac64.h"
+                },
+                {
+                    "@type": "item",
+                    "name": "ccan/ccan/isaac/isaac64.c"
+                },
+                {
+                    "@type": "item",
+                    "name": "ccan/ccan/isaac/test/run64.c"
+                },
+                {
+                    "@type": "item",
+                    "name": "ccan/ccan/isaac/isaac.h"
+                },
+                {
+                    "@type": "item",
+                    "name": "ccan/ccan/isaac/isaac.c"
+                }
+            ]
+        },
+        {
+            "@type": "group",
+            "name": "36",
+            "nested": [
+                {
+                    "@type": "item",
+                    "name": "ccan/ccan/json_escape/test/run-partial.c"
+                },
+                {
+                    "@type": "item",
+                    "name": "ccan/ccan/json_escape/test/run-take.c"
+                },
+                {
+                    "@type": "item",
+                    "name": "ccan/ccan/json_escape/json_escape.h"
+                },
+                {
+                    "@type": "item",
+                    "name": "ccan/ccan/json_escape/json_escape.c"
+                },
+                {
+                    "@type": "item",
+                    "name": "ccan/ccan/json_escape/test/run.c"
+                }
+            ]
+        },
+        {
+            "@type": "group",
+            "name": "37",
+            "nested": [
+                {
+                    "@type": "item",
+                    "name": "ccan/ccan/json_out/test/run.c"
+                },
+                {
+                    "@type": "item",
+                    "name": "ccan/ccan/json_out/json_out.h"
+                },
+                {
+                    "@type": "item",
+                    "name": "ccan/ccan/json_out/json_out.c"
+                },
+                {
+                    "@type": "item",
+                    "name": "ccan/ccan/json_out/test/run-debugging.c"
+                },
+                {
+                    "@type": "item",
+                    "name": "ccan/ccan/json_out/test/run-move_cb.c"
+                }
+            ]
+        },
+        {
+            "@type": "group",
+            "name": "38",
+            "nested": [
+                {
+                    "@type": "item",
+                    "name": "ccan/ccan/likely/likely.h"
+                },
+                {
+                    "@type": "item",
+                    "name": "ccan/ccan/likely/test/run-debug.c"
+                },
+                {
+                    "@type": "item",
+                    "name": "ccan/ccan/likely/likely.c"
+                },
+                {
+                    "@type": "item",
+                    "name": "ccan/ccan/likely/test/run.c"
+                }
+            ]
+        },
+        {
+            "@type": "group",
+            "name": "39",
+            "nested": [
+                {
+                    "@type": "item",
+                    "name": "ccan/ccan/pipecmd/test/run-preserve.c"
+                },
+                {
+                    "@type": "item",
+                    "name": "ccan/ccan/pipecmd/pipecmd.h"
+                },
+                {
+                    "@type": "item",
+                    "name": "ccan/ccan/pipecmd/pipecmd.c"
+                },
+                {
+                    "@type": "item",
+                    "name": "ccan/ccan/pipecmd/test/run-fdleak.c"
+                },
+                {
+                    "@type": "item",
+                    "name": "ccan/ccan/pipecmd/test/run.c"
+                }
+            ]
+        },
+        {
+            "@type": "group",
+            "name": "40",
+            "nested": [
+                {
+                    "@type": "item",
+                    "name": "ccan/ccan/rune/internal.h"
+                },
+                {
+                    "@type": "item",
+                    "name": "ccan/ccan/rune/rune.h"
+                },
+                {
+                    "@type": "item",
+                    "name": "ccan/ccan/rune/rune.c"
+                },
+                {
+                    "@type": "item",
+                    "name": "ccan/ccan/rune/coding.c"
+                },
+                {
+                    "@type": "item",
+                    "name": "ccan/ccan/rune/test/run-altern-escape.c"
+                },
+                {
+                    "@type": "item",
+                    "name": "ccan/ccan/rune/test/run.c"
+                },
+                {
+                    "@type": "item",
+                    "name": "ccan/ccan/rune/test/run-alt-lexicographic-order.c"
+                }
+            ]
+        },
+        {
+            "@type": "group",
+            "name": "41",
+            "nested": [
+                {
+                    "@type": "item",
+                    "name": "devtools/fp16.c"
+                },
+                {
+                    "@type": "item",
+                    "name": "devtools/rune.c"
+                },
+                {
+                    "@type": "item",
+                    "name": "devtools/features.c"
+                },
+                {
+                    "@type": "item",
+                    "name": "devtools/mkquery.c"
+                }
+            ]
+        },
+        {
+            "@type": "group",
+            "name": "42",
+            "nested": [
+                {
+                    "@type": "item",
+                    "name": "devtools/bolt12-cli.c"
+                },
+                {
+                    "@type": "item",
+                    "name": "devtools/onion.c"
+                },
+                {
+                    "@type": "item",
+                    "name": "devtools/gossipwith.c"
+                },
+                {
+                    "@type": "item",
+                    "name": "devtools/decodemsg.c"
+                },
+                {
+                    "@type": "item",
+                    "name": "devtools/bolt11-cli.c"
+                }
+            ]
+        },
+        {
+            "@type": "group",
+            "name": "43",
+            "nested": [
+                {
+                    "@type": "item",
+                    "name": "ccan/ccan/time/test/run-monotonic.c"
+                },
+                {
+                    "@type": "item",
+                    "name": "ccan/ccan/time/time.h"
+                },
+                {
+                    "@type": "item",
+                    "name": "ccan/ccan/time/time.c"
+                },
+                {
+                    "@type": "item",
+                    "name": "ccan/ccan/time/test/run.c"
+                },
+                {
+                    "@type": "item",
+                    "name": "ccan/ccan/time/test/run-check.c"
+                }
+            ]
+        },
+        {
+            "@type": "group",
+            "name": "44",
+            "nested": [
+                {
+                    "@type": "item",
+                    "name": "ccan/ccan/utf8/test/run-encode-decode.c"
+                },
+                {
+                    "@type": "item",
+                    "name": "ccan/ccan/utf8/test/run-encode.c"
+                },
+                {
+                    "@type": "item",
+                    "name": "ccan/ccan/utf8/utf8.h"
+                },
+                {
+                    "@type": "item",
+                    "name": "ccan/ccan/utf8/utf8.c"
+                },
+                {
+                    "@type": "item",
+                    "name": "ccan/ccan/utf8/test/run-decode.c"
+                }
+            ]
+        },
+        {
+            "@type": "group",
+            "name": "45",
+            "nested": [
+                {
+                    "@type": "item",
+                    "name": "ccan/ccan/base64/test/moretap.h"
+                },
+                {
+                    "@type": "item",
+                    "name": "ccan/ccan/base64/base64.h"
+                },
+                {
+                    "@type": "item",
+                    "name": "ccan/ccan/base64/base64.c"
+                },
+                {
+                    "@type": "item",
+                    "name": "ccan/ccan/base64/test/run.c"
+                }
+            ]
+        },
+        {
+            "@type": "group",
+            "name": "46",
+            "nested": [
+                {
+                    "@type": "item",
+                    "name": "ccan/ccan/bitops/test/run.c"
+                },
+                {
+                    "@type": "item",
+                    "name": "ccan/ccan/bitops/bitops.h"
+                },
+                {
+                    "@type": "item",
+                    "name": "ccan/ccan/bitops/bitops.c"
+                },
+                {
+                    "@type": "item",
+                    "name": "ccan/ccan/bitops/test/run-selftest.c"
+                }
+            ]
+        },
+        {
+            "@type": "group",
+            "name": "47",
+            "nested": [
+                {
+                    "@type": "item",
+                    "name": "ccan/ccan/compiler/test/run-is_compile_constant.c"
+                },
+                {
+                    "@type": "item",
+                    "name": "ccan/ccan/compiler/compiler.h"
+                },
+                {
+                    "@type": "item",
+                    "name": "ccan/ccan/compiler/test/compile_fail-printf.c"
+                }
+            ]
+        },
+        {
+            "@type": "group",
+            "name": "48",
+            "nested": [
+                {
+                    "@type": "item",
+                    "name": "ccan/ccan/endian/test/run.c"
+                },
+                {
+                    "@type": "item",
+                    "name": "ccan/ccan/endian/test/compile_ok-constant.c"
+                },
+                {
+                    "@type": "item",
+                    "name": "ccan/ccan/endian/endian.h"
+                }
+            ]
+        },
+        {
+            "@type": "group",
+            "name": "49",
+            "nested": [
+                {
+                    "@type": "item",
+                    "name": "ccan/ccan/ilog/test/run.c"
+                },
+                {
+                    "@type": "item",
+                    "name": "ccan/ccan/ilog/ilog.h"
+                },
+                {
+                    "@type": "item",
+                    "name": "ccan/ccan/ilog/ilog.c"
+                },
+                {
+                    "@type": "item",
+                    "name": "ccan/ccan/ilog/test/run-out-of-line.c"
+                }
+            ]
+        },
+        {
+            "@type": "group",
+            "name": "50",
+            "nested": [
+                {
+                    "@type": "item",
+                    "name": "ccan/ccan/ptr_valid/ptr_valid.h"
+                },
+                {
+                    "@type": "item",
+                    "name": "ccan/ccan/ptr_valid/ptr_valid.c"
+                },
+                {
+                    "@type": "item",
+                    "name": "ccan/ccan/ptr_valid/test/run.c"
+                },
+                {
+                    "@type": "item",
+                    "name": "ccan/ccan/ptr_valid/test/run-string.c"
+                }
+            ]
+        },
+        {
+            "@type": "group",
+            "name": "51",
+            "nested": [
+                {
+                    "@type": "item",
+                    "name": "ccan/ccan/read_write_all/test/run-write_all.c"
+                },
+                {
+                    "@type": "item",
+                    "name": "ccan/ccan/read_write_all/test/run-read_all.c"
+                },
+                {
+                    "@type": "item",
+                    "name": "ccan/ccan/read_write_all/read_write_all.h"
+                },
+                {
+                    "@type": "item",
+                    "name": "ccan/ccan/read_write_all/read_write_all.c"
+                }
+            ]
+        },
+        {
+            "@type": "group",
+            "name": "52",
+            "nested": [
+                {
+                    "@type": "item",
+                    "name": "ccan/ccan/short_types/test/run.c"
+                },
+                {
+                    "@type": "item",
+                    "name": "ccan/ccan/short_types/test/run-endian.c"
+                },
+                {
+                    "@type": "item",
+                    "name": "ccan/ccan/short_types/short_types.h"
+                }
+            ]
+        },
+        {
+            "@type": "group",
+            "name": "53",
+            "nested": [
+                {
+                    "@type": "item",
+                    "name": "ccan/ccan/take/take.h"
+                },
+                {
+                    "@type": "item",
+                    "name": "ccan/ccan/take/take.c"
+                },
+                {
+                    "@type": "item",
+                    "name": "ccan/ccan/take/test/run-debug.c"
+                },
+                {
+                    "@type": "item",
+                    "name": "ccan/ccan/take/test/run.c"
+                }
+            ]
+        },
+        {
+            "@type": "group",
+            "name": "54",
+            "nested": [
+                {
+                    "@type": "item",
+                    "name": "devtools/route.c"
+                },
+                {
+                    "@type": "item",
+                    "name": "devtools/topology.c"
+                },
+                {
+                    "@type": "item",
+                    "name": "devtools/clean_topo.h"
+                },
+                {
+                    "@type": "item",
+                    "name": "devtools/clean_topo.c"
+                }
+            ]
+        },
+        {
+            "@type": "group",
+            "name": "55",
+            "nested": [
+                {
+                    "@type": "item",
+                    "name": "openingd/openingd.c"
+                },
+                {
+                    "@type": "item",
+                    "name": "openingd/common.h"
+                },
+                {
+                    "@type": "item",
+                    "name": "openingd/common.c"
+                },
+                {
+                    "@type": "item",
+                    "name": "openingd/dualopend.c"
+                }
+            ]
+        },
+        {
+            "@type": "group",
+            "name": "56",
+            "nested": [
+                {
+                    "@type": "item",
+                    "name": "ccan/ccan/alignof/alignof.h"
+                },
+                {
+                    "@type": "item",
+                    "name": "ccan/ccan/alignof/test/run.c"
+                }
+            ]
+        },
+        {
+            "@type": "group",
+            "name": "57",
+            "nested": [
+                {
+                    "@type": "item",
+                    "name": "ccan/ccan/breakpoint/breakpoint.h"
+                },
+                {
+                    "@type": "item",
+                    "name": "ccan/ccan/breakpoint/breakpoint.c"
+                },
+                {
+                    "@type": "item",
+                    "name": "ccan/ccan/breakpoint/test/run.c"
+                }
+            ]
+        },
+        {
+            "@type": "group",
+            "name": "58",
+            "nested": [
+                {
+                    "@type": "item",
+                    "name": "ccan/ccan/closefrom/closefrom.h"
+                },
+                {
+                    "@type": "item",
+                    "name": "ccan/ccan/closefrom/closefrom.c"
+                },
+                {
+                    "@type": "item",
+                    "name": "ccan/ccan/closefrom/test/run.c"
+                }
+            ]
+        },
+        {
+            "@type": "group",
+            "name": "59",
+            "nested": [
+                {
+                    "@type": "item",
+                    "name": "ccan/ccan/cppmagic/test/run.c"
+                },
+                {
+                    "@type": "item",
+                    "name": "ccan/ccan/cppmagic/cppmagic.h"
+                }
+            ]
+        },
+        {
+            "@type": "group",
+            "name": "60",
+            "nested": [
+                {
+                    "@type": "item",
+                    "name": "ccan/ccan/err/test/run.c"
+                },
+                {
+                    "@type": "item",
+                    "name": "ccan/ccan/err/err.h"
+                },
+                {
+                    "@type": "item",
+                    "name": "ccan/ccan/err/err.c"
+                }
+            ]
+        },
+        {
+            "@type": "group",
+            "name": "61",
+            "nested": [
+                {
+                    "@type": "item",
+                    "name": "ccan/ccan/fdpass/test/run.c"
+                },
+                {
+                    "@type": "item",
+                    "name": "ccan/ccan/fdpass/fdpass.h"
+                },
+                {
+                    "@type": "item",
+                    "name": "ccan/ccan/fdpass/fdpass.c"
+                }
+            ]
+        },
+        {
+            "@type": "group",
+            "name": "62",
+            "nested": [
+                {
+                    "@type": "item",
+                    "name": "ccan/ccan/graphql/test/run.c"
+                },
+                {
+                    "@type": "item",
+                    "name": "ccan/ccan/graphql/graphql.h"
+                },
+                {
+                    "@type": "item",
+                    "name": "ccan/ccan/graphql/graphql.c"
+                }
+            ]
+        },
+        {
+            "@type": "group",
+            "name": "63",
+            "nested": [
+                {
+                    "@type": "item",
+                    "name": "ccan/ccan/membuf/membuf.h"
+                },
+                {
+                    "@type": "item",
+                    "name": "ccan/ccan/membuf/membuf.c"
+                },
+                {
+                    "@type": "item",
+                    "name": "ccan/ccan/membuf/test/run.c"
+                }
+            ]
+        },
+        {
+            "@type": "group",
+            "name": "64",
+            "nested": [
+                {
+                    "@type": "item",
+                    "name": "ccan/ccan/noerr/noerr.h"
+                },
+                {
+                    "@type": "item",
+                    "name": "ccan/ccan/noerr/noerr.c"
+                },
+                {
+                    "@type": "item",
+                    "name": "ccan/ccan/noerr/test/run.c"
+                }
+            ]
+        },
+        {
+            "@type": "group",
+            "name": "65",
+            "nested": [
+                {
+                    "@type": "item",
+                    "name": "ccan/ccan/ptrint/ptrint.h"
+                },
+                {
+                    "@type": "item",
+                    "name": "ccan/ccan/ptrint/test/run.c"
+                }
+            ]
+        },
+        {
+            "@type": "group",
+            "name": "66",
+            "nested": [
+                {
+                    "@type": "item",
+                    "name": "devtools/mkencoded.c"
+                },
+                {
+                    "@type": "item",
+                    "name": "devtools/encodeaddr.c"
+                }
+            ]
+        },
+        {
+            "@type": "group",
+            "name": "67",
+            "nested": [
+                {
+                    "@type": "item",
+                    "name": "tests/fuzz/libfuzz.h"
+                },
+                {
+                    "@type": "item",
+                    "name": "tests/fuzz/connectd_handshake.h"
+                },
+                {
+                    "@type": "item",
+                    "name": "tests/fuzz/fuzz-initial_channel.c"
+                },
+                {
+                    "@type": "item",
+                    "name": "tests/fuzz/fuzz-close_tx.c"
+                },
+                {
+                    "@type": "item",
+                    "name": "tests/fuzz/fuzz-descriptor_checksum.c"
+                },
+                {
+                    "@type": "item",
+                    "name": "tests/fuzz/fuzz-amount.c"
+                },
+                {
+                    "@type": "item",
+                    "name": "tests/fuzz/fuzz-connectd-handshake-act3.c"
+                },
+                {
+                    "@type": "item",
+                    "name": "tests/fuzz/fuzz-bech32.c"
+                },
+                {
+                    "@type": "item",
+                    "name": "tests/fuzz/fuzz-base32-64.c"
+                },
+                {
+                    "@type": "item",
+                    "name": "tests/fuzz/fuzz-connectd-handshake-act2.c"
+                },
+                {
+                    "@type": "item",
+                    "name": "tests/fuzz/fuzz-bigsize.c"
+                },
+                {
+                    "@type": "item",
+                    "name": "tests/fuzz/fuzz-cryptomsg.c"
+                },
+                {
+                    "@type": "item",
+                    "name": "tests/fuzz/fuzz-bip32.c"
+                },
+                {
+                    "@type": "item",
+                    "name": "tests/fuzz/fuzz-channel_id.c"
+                },
+                {
+                    "@type": "item",
+                    "name": "tests/fuzz/fuzz-connectd-handshake-act1.c"
+                },
+                {
+                    "@type": "item",
+                    "name": "tests/fuzz/libfuzz.c"
+                },
+                {
+                    "@type": "item",
+                    "name": "tests/fuzz/fuzz-addr.c"
+                },
+                {
+                    "@type": "item",
+                    "name": "tests/fuzz/fuzz-hsm_encryption.c"
+                },
+                {
+                    "@type": "item",
+                    "name": "tests/plugins/test_libplugin.c"
+                }
+            ]
+        },
+        {
+            "@type": "group",
+            "name": "68",
+            "nested": [
+                {
+                    "@type": "item",
+                    "name": "hsmd/libhsmd.h"
+                },
+                {
+                    "@type": "item",
+                    "name": "hsmd/libhsmd_status.c"
+                },
+                {
+                    "@type": "item",
+                    "name": "hsmd/libhsmd.c"
+                },
+                {
+                    "@type": "item",
+                    "name": "hsmd/hsmd.c"
+                },
+                {
+                    "@type": "item",
+                    "name": "hsmd/capabilities.h"
+                }
+            ]
+        },
+        {
+            "@type": "group",
+            "name": "69",
+            "nested": [
+                {
+                    "@type": "item",
+                    "name": "ccan/ccan/timer/benchmarks/benchmark.c"
+                }
+            ]
+        },
+        {
+            "@type": "group",
+            "name": "70",
+            "nested": [
+                {
+                    "@type": "item",
+                    "name": "ccan/tools/configurator/configurator.c"
+                }
+            ]
+        },
+        {
+            "@type": "group",
+            "name": "71",
+            "nested": [
+                {
+                    "@type": "item",
+                    "name": "closingd/closingd.c"
+                }
+            ]
+        },
+        {
+            "@type": "group",
+            "name": "72",
+            "nested": [
+                {
+                    "@type": "item",
+                    "name": "devtools/checkchannels.c"
+                }
+            ]
+        },
+        {
+            "@type": "group",
+            "name": "73",
+            "nested": [
+                {
+                    "@type": "item",
+                    "name": "devtools/create-gossipstore.c"
+                }
+            ]
+        },
+        {
+            "@type": "group",
+            "name": "74",
+            "nested": [
+                {
+                    "@type": "item",
+                    "name": "devtools/dump-gossipstore.c"
+                }
+            ]
+        },
+        {
+            "@type": "group",
+            "name": "75",
+            "nested": [
+                {
+                    "@type": "item",
+                    "name": "devtools/lightning-checkmessage.c"
+                }
+            ]
+        },
+        {
+            "@type": "group",
+            "name": "76",
+            "nested": [
+                {
+                    "@type": "item",
+                    "name": "devtools/mkgossip.c"
+                }
+            ]
+        },
+        {
+            "@type": "group",
+            "name": "77",
+            "nested": [
+                {
+                    "@type": "item",
+                    "name": "tests/plugins/test_selfdisable_after_getmanifest.c"
+                }
+            ]
+        },
+        {
+            "@type": "group",
+            "name": "78",
+            "nested": [
+                {
+                    "@type": "item",
+                    "name": "tools/check-bolt.c"
+                }
+            ]
+        },
+        {
+            "@type": "group",
+            "name": "79",
+            "nested": [
+                {
+                    "@type": "item",
+                    "name": "tools/headerversions.c"
+                }
+            ]
+        },
+        {
+            "@type": "group",
+            "name": "80",
+            "nested": [
+                {
+                    "@type": "item",
+                    "name": "tools/hsmtool.c"
+                }
+            ]
+        },
+        {
+            "@type": "group",
+            "name": "81",
+            "nested": [
+                {
+                    "@type": "item",
+                    "name": "tools/test/run-test-wire.c"
+                }
+            ]
+        },
+        {
+            "@type": "group",
+            "name": "82",
+            "nested": [
+                {
+                    "@type": "item",
+                    "name": "ccan_compat.h"
+                }
+            ]
+        },
+        {
+            "@type": "group",
+            "name": "83",
+            "nested": [
+                {
+                    "@type": "item",
+                    "name": "wire/onion_defs.h"
+                }
+            ]
+        },
+        {
+            "@type": "group",
+            "name": "84",
+            "nested": [
+                {
+                    "@type": "item",
+                    "name": "devtools/mkclose.c"
+                },
+                {
+                    "@type": "item",
+                    "name": "devtools/mkfunding.c"
+                },
+                {
+                    "@type": "item",
+                    "name": "devtools/mkcommit.c"
+                }
+            ]
+        },
+        {
+            "@type": "group",
+            "name": "85",
+            "nested": [
+                {
+                    "@type": "item",
+                    "name": "common/iso4217.h"
+                },
+                {
+                    "@type": "item",
+                    "name": "common/iso4217.c"
+                }
+            ]
+        },
+        {
+            "@type": "group",
+            "name": "86",
+            "nested": [
+                {
+                    "@type": "item",
+                    "name": "common/shutdown_scriptpubkey.h"
+                },
+                {
+                    "@type": "item",
+                    "name": "common/shutdown_scriptpubkey.c"
+                }
+            ]
+        },
+        {
+            "@type": "group",
+            "name": "87",
+            "nested": [
+                {
+                    "@type": "item",
+                    "name": "bitcoin/feerate.h"
+                },
+                {
+                    "@type": "item",
+                    "name": "bitcoin/feerate.c"
+                }
+            ]
+        },
+        {
+            "@type": "group",
+            "name": "88",
+            "nested": [
+                {
+                    "@type": "item",
+                    "name": "tools/test/enum.h"
+                },
+                {
+                    "@type": "item",
+                    "name": "tools/test/enum.c"
+                }
+            ]
+        },
+        {
+            "@type": "group",
+            "name": "89",
+            "nested": [
+                {
+                    "@type": "item",
+                    "name": "devtools/print_wire.h"
+                },
+                {
+                    "@type": "item",
+                    "name": "devtools/print_wire.c"
+                }
+            ]
+        }
+    ]
+}

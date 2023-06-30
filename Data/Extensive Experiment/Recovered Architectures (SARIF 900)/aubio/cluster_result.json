@@ -1,0 +1,990 @@
+{
+    "@schemaVersion": "1.0",
+    "name": "clustering",
+    "structure": [
+        {
+            "@type": "group",
+            "name": "0",
+            "nested": [
+                {
+                    "@type": "item",
+                    "name": "src/io/sink.h"
+                },
+                {
+                    "@type": "item",
+                    "name": "src/io/sink.c"
+                },
+                {
+                    "@type": "item",
+                    "name": "src/io/sink_vorbis.c"
+                },
+                {
+                    "@type": "item",
+                    "name": "src/io/sink_apple_audio.c"
+                },
+                {
+                    "@type": "item",
+                    "name": "src/io/source_avcodec.c"
+                },
+                {
+                    "@type": "item",
+                    "name": "src/io/ioutils.h"
+                },
+                {
+                    "@type": "item",
+                    "name": "src/io/sink_flac.c"
+                },
+                {
+                    "@type": "item",
+                    "name": "src/io/sink_sndfile.c"
+                },
+                {
+                    "@type": "item",
+                    "name": "src/io/source_sndfile.c"
+                },
+                {
+                    "@type": "item",
+                    "name": "src/io/source_apple_audio.h"
+                },
+                {
+                    "@type": "item",
+                    "name": "src/io/source_sndfile.h"
+                },
+                {
+                    "@type": "item",
+                    "name": "src/io/sink_wavwrite.h"
+                },
+                {
+                    "@type": "item",
+                    "name": "src/io/sink_sndfile.h"
+                },
+                {
+                    "@type": "item",
+                    "name": "src/io/sink_wavwrite.c"
+                },
+                {
+                    "@type": "item",
+                    "name": "src/io/utils_apple_audio.c"
+                },
+                {
+                    "@type": "item",
+                    "name": "src/io/source.h"
+                },
+                {
+                    "@type": "item",
+                    "name": "src/io/source.c"
+                },
+                {
+                    "@type": "item",
+                    "name": "src/io/source_wavread.c"
+                },
+                {
+                    "@type": "item",
+                    "name": "src/io/ioutils.c"
+                },
+                {
+                    "@type": "item",
+                    "name": "src/io/sink_apple_audio.h"
+                },
+                {
+                    "@type": "item",
+                    "name": "src/io/source_apple_audio.c"
+                },
+                {
+                    "@type": "item",
+                    "name": "src/io/source_wavread.h"
+                },
+                {
+                    "@type": "item",
+                    "name": "src/io/source_avcodec.h"
+                }
+            ]
+        },
+        {
+            "@type": "group",
+            "name": "1",
+            "nested": [
+                {
+                    "@type": "item",
+                    "name": "tests/src/utils/test-hist.c"
+                },
+                {
+                    "@type": "item",
+                    "name": "tests/src/pitch/test-pitchfcomb.c"
+                },
+                {
+                    "@type": "item",
+                    "name": "tests/src/io/test-sink_flac.c"
+                },
+                {
+                    "@type": "item",
+                    "name": "tests/src/io/test-sink_vorbis.c"
+                },
+                {
+                    "@type": "item",
+                    "name": "tests/src/utils/test-scale.c"
+                },
+                {
+                    "@type": "item",
+                    "name": "tests/src/io/test-sink_sndfile.c"
+                },
+                {
+                    "@type": "item",
+                    "name": "tests/src/pitch/test-pitchyinfft.c"
+                },
+                {
+                    "@type": "item",
+                    "name": "tests/src/io/test-source_avcodec.c"
+                },
+                {
+                    "@type": "item",
+                    "name": "tests/src/io/test-source_apple_audio.c"
+                },
+                {
+                    "@type": "item",
+                    "name": "tests/src/io/test-source_wavread.c"
+                },
+                {
+                    "@type": "item",
+                    "name": "tests/src/io/test-source_sndfile.c"
+                },
+                {
+                    "@type": "item",
+                    "name": "tests/src/pitch/test-pitchyin.c"
+                },
+                {
+                    "@type": "item",
+                    "name": "tests/src/io/test-sink_wavwrite.c"
+                },
+                {
+                    "@type": "item",
+                    "name": "tests/src/pitch/test-pitchschmitt.c"
+                },
+                {
+                    "@type": "item",
+                    "name": "tests/src/pitch/test-pitchmcomb.c"
+                },
+                {
+                    "@type": "item",
+                    "name": "tests/src/pitch/test-pitchspecacf.c"
+                },
+                {
+                    "@type": "item",
+                    "name": "tests/src/io/test-sink_apple_audio.c"
+                }
+            ]
+        },
+        {
+            "@type": "group",
+            "name": "2",
+            "nested": [
+                {
+                    "@type": "item",
+                    "name": "tests/src/spectral/test-dct.c"
+                },
+                {
+                    "@type": "item",
+                    "name": "tests/src/spectral/test-phasevoc.c"
+                },
+                {
+                    "@type": "item",
+                    "name": "tests/src/temporal/test-resampler.c"
+                },
+                {
+                    "@type": "item",
+                    "name": "tests/src/spectral/test-fft.c"
+                },
+                {
+                    "@type": "item",
+                    "name": "tests/src/temporal/test-filter.c"
+                },
+                {
+                    "@type": "item",
+                    "name": "tests/src/test-mathutils-window.c"
+                },
+                {
+                    "@type": "item",
+                    "name": "tests/src/synth/test-sampler.c"
+                },
+                {
+                    "@type": "item",
+                    "name": "tests/src/onset/test-peakpicker.c"
+                },
+                {
+                    "@type": "item",
+                    "name": "tests/src/tempo/test-beattracking.c"
+                },
+                {
+                    "@type": "item",
+                    "name": "tests/src/spectral/test-tss.c"
+                },
+                {
+                    "@type": "item",
+                    "name": "tests/src/spectral/test-specdesc.c"
+                },
+                {
+                    "@type": "item",
+                    "name": "tests/src/notes/test-notes.c"
+                },
+                {
+                    "@type": "item",
+                    "name": "tests/src/pitch/test-pitch.c"
+                },
+                {
+                    "@type": "item",
+                    "name": "tests/src/synth/test-wavetable.c"
+                }
+            ]
+        },
+        {
+            "@type": "group",
+            "name": "3",
+            "nested": [
+                {
+                    "@type": "item",
+                    "name": "tests/src/utils/test-parameter.c"
+                },
+                {
+                    "@type": "item",
+                    "name": "tests/utils_tests.h"
+                },
+                {
+                    "@type": "item",
+                    "name": "tests/src/io/test-sink.c"
+                },
+                {
+                    "@type": "item",
+                    "name": "tests/src/spectral/test-mfcc.c"
+                },
+                {
+                    "@type": "item",
+                    "name": "tests/src/effects/test-pitchshift.c"
+                },
+                {
+                    "@type": "item",
+                    "name": "tests/src/io/base-sink_custom.h"
+                },
+                {
+                    "@type": "item",
+                    "name": "tests/src/effects/test-timestretch.c"
+                },
+                {
+                    "@type": "item",
+                    "name": "tests/src/tempo/test-tempo.c"
+                },
+                {
+                    "@type": "item",
+                    "name": "tests/src/io/test-source.c"
+                },
+                {
+                    "@type": "item",
+                    "name": "tests/src/spectral/test-awhitening.c"
+                },
+                {
+                    "@type": "item",
+                    "name": "tests/src/onset/test-onset.c"
+                },
+                {
+                    "@type": "item",
+                    "name": "tests/src/test-cvec.c"
+                },
+                {
+                    "@type": "item",
+                    "name": "tests/src/io/base-source_custom.h"
+                },
+                {
+                    "@type": "item",
+                    "name": "tests/src/test-mathutils.c"
+                }
+            ]
+        },
+        {
+            "@type": "group",
+            "name": "4",
+            "nested": [
+                {
+                    "@type": "item",
+                    "name": "python/ext/py-source.c"
+                },
+                {
+                    "@type": "item",
+                    "name": "python/ext/py-fft.c"
+                },
+                {
+                    "@type": "item",
+                    "name": "python/ext/py-musicutils.c"
+                },
+                {
+                    "@type": "item",
+                    "name": "python/ext/py-sink.c"
+                },
+                {
+                    "@type": "item",
+                    "name": "python/ext/aubiomodule.c"
+                },
+                {
+                    "@type": "item",
+                    "name": "python/ext/aubio-docstrings.h"
+                },
+                {
+                    "@type": "item",
+                    "name": "python/ext/py-filter.c"
+                },
+                {
+                    "@type": "item",
+                    "name": "python/ext/ufuncs.c"
+                },
+                {
+                    "@type": "item",
+                    "name": "python/ext/py-phasevoc.c"
+                },
+                {
+                    "@type": "item",
+                    "name": "python/ext/py-musicutils.h"
+                },
+                {
+                    "@type": "item",
+                    "name": "python/ext/aubio-types.h"
+                },
+                {
+                    "@type": "item",
+                    "name": "python/ext/py-cvec.c"
+                },
+                {
+                    "@type": "item",
+                    "name": "python/ext/aubioproxy.c"
+                },
+                {
+                    "@type": "item",
+                    "name": "python/ext/py-filterbank.c"
+                }
+            ]
+        },
+        {
+            "@type": "group",
+            "name": "5",
+            "nested": [
+                {
+                    "@type": "item",
+                    "name": "src/fvec.h"
+                },
+                {
+                    "@type": "item",
+                    "name": "src/fvec.c"
+                },
+                {
+                    "@type": "item",
+                    "name": "src/musicutils.h"
+                },
+                {
+                    "@type": "item",
+                    "name": "src/mathutils.h"
+                },
+                {
+                    "@type": "item",
+                    "name": "src/mathutils.c"
+                },
+                {
+                    "@type": "item",
+                    "name": "src/musicutils.c"
+                },
+                {
+                    "@type": "item",
+                    "name": "src/lvec.h"
+                },
+                {
+                    "@type": "item",
+                    "name": "src/lvec.c"
+                },
+                {
+                    "@type": "item",
+                    "name": "src/vecutils.h"
+                },
+                {
+                    "@type": "item",
+                    "name": "src/vecutils.c"
+                },
+                {
+                    "@type": "item",
+                    "name": "src/fmat.h"
+                },
+                {
+                    "@type": "item",
+                    "name": "src/fmat.c"
+                },
+                {
+                    "@type": "item",
+                    "name": "src/aubio_priv.h"
+                },
+                {
+                    "@type": "item",
+                    "name": "src/utils/log.h"
+                },
+                {
+                    "@type": "item",
+                    "name": "src/utils/log.c"
+                },
+                {
+                    "@type": "item",
+                    "name": "src/aubio.h"
+                },
+                {
+                    "@type": "item",
+                    "name": "src/types.h"
+                },
+                {
+                    "@type": "item",
+                    "name": "src/cvec.h"
+                },
+                {
+                    "@type": "item",
+                    "name": "src/cvec.c"
+                }
+            ]
+        },
+        {
+            "@type": "group",
+            "name": "6",
+            "nested": [
+                {
+                    "@type": "item",
+                    "name": "src/pitch/pitch.h"
+                },
+                {
+                    "@type": "item",
+                    "name": "src/pitch/pitch.c"
+                },
+                {
+                    "@type": "item",
+                    "name": "src/pitch/pitchyinfft.h"
+                },
+                {
+                    "@type": "item",
+                    "name": "src/pitch/pitchyinfft.c"
+                },
+                {
+                    "@type": "item",
+                    "name": "src/pitch/pitchyinfast.h"
+                },
+                {
+                    "@type": "item",
+                    "name": "src/pitch/pitchyinfast.c"
+                },
+                {
+                    "@type": "item",
+                    "name": "src/pitch/pitchmcomb.h"
+                },
+                {
+                    "@type": "item",
+                    "name": "src/pitch/pitchmcomb.c"
+                },
+                {
+                    "@type": "item",
+                    "name": "src/pitch/pitchspecacf.h"
+                },
+                {
+                    "@type": "item",
+                    "name": "src/pitch/pitchspecacf.c"
+                },
+                {
+                    "@type": "item",
+                    "name": "src/pitch/pitchfcomb.h"
+                },
+                {
+                    "@type": "item",
+                    "name": "src/pitch/pitchfcomb.c"
+                },
+                {
+                    "@type": "item",
+                    "name": "src/pitch/pitchyin.h"
+                },
+                {
+                    "@type": "item",
+                    "name": "src/pitch/pitchyin.c"
+                },
+                {
+                    "@type": "item",
+                    "name": "src/pitch/pitchschmitt.h"
+                },
+                {
+                    "@type": "item",
+                    "name": "src/pitch/pitchschmitt.c"
+                }
+            ]
+        },
+        {
+            "@type": "group",
+            "name": "7",
+            "nested": [
+                {
+                    "@type": "item",
+                    "name": "src/spectral/dct_accelerate.c"
+                },
+                {
+                    "@type": "item",
+                    "name": "src/spectral/dct_fftw.c"
+                },
+                {
+                    "@type": "item",
+                    "name": "src/spectral/dct_ooura.c"
+                },
+                {
+                    "@type": "item",
+                    "name": "src/spectral/dct.h"
+                },
+                {
+                    "@type": "item",
+                    "name": "src/spectral/dct.c"
+                },
+                {
+                    "@type": "item",
+                    "name": "src/spectral/ooura_fft8g.c"
+                },
+                {
+                    "@type": "item",
+                    "name": "src/spectral/dct_plain.c"
+                },
+                {
+                    "@type": "item",
+                    "name": "src/spectral/dct_ipp.c"
+                }
+            ]
+        },
+        {
+            "@type": "group",
+            "name": "8",
+            "nested": [
+                {
+                    "@type": "item",
+                    "name": "tests/src/spectral/test-filterbank.c"
+                },
+                {
+                    "@type": "item",
+                    "name": "tests/src/spectral/test-filterbank_mel.c"
+                },
+                {
+                    "@type": "item",
+                    "name": "tests/src/temporal/test-a_weighting.c"
+                },
+                {
+                    "@type": "item",
+                    "name": "tests/src/temporal/test-biquad.c"
+                },
+                {
+                    "@type": "item",
+                    "name": "tests/src/temporal/test-c_weighting.c"
+                }
+            ]
+        },
+        {
+            "@type": "group",
+            "name": "9",
+            "nested": [
+                {
+                    "@type": "item",
+                    "name": "examples/utils.h"
+                },
+                {
+                    "@type": "item",
+                    "name": "examples/utils.c"
+                },
+                {
+                    "@type": "item",
+                    "name": "examples/aubioonset.c"
+                },
+                {
+                    "@type": "item",
+                    "name": "examples/aubioquiet.c"
+                },
+                {
+                    "@type": "item",
+                    "name": "examples/aubiomfcc.c"
+                },
+                {
+                    "@type": "item",
+                    "name": "examples/aubiotrack.c"
+                },
+                {
+                    "@type": "item",
+                    "name": "examples/aubiopitch.c"
+                },
+                {
+                    "@type": "item",
+                    "name": "examples/aubionotes.c"
+                },
+                {
+                    "@type": "item",
+                    "name": "examples/parse_args.h"
+                },
+                {
+                    "@type": "item",
+                    "name": "examples/jackio.c"
+                },
+                {
+                    "@type": "item",
+                    "name": "examples/jackio.h"
+                }
+            ]
+        },
+        {
+            "@type": "group",
+            "name": "10",
+            "nested": [
+                {
+                    "@type": "item",
+                    "name": "src/effects/timestretch_rubberband.c"
+                },
+                {
+                    "@type": "item",
+                    "name": "src/effects/timestretch.h"
+                },
+                {
+                    "@type": "item",
+                    "name": "src/effects/timestretch_dummy.c"
+                },
+                {
+                    "@type": "item",
+                    "name": "src/effects/pitchshift.h"
+                },
+                {
+                    "@type": "item",
+                    "name": "src/effects/pitchshift_dummy.c"
+                },
+                {
+                    "@type": "item",
+                    "name": "src/effects/pitchshift_rubberband.c"
+                }
+            ]
+        },
+        {
+            "@type": "group",
+            "name": "11",
+            "nested": [
+                {
+                    "@type": "item",
+                    "name": "src/spectral/fft.h"
+                },
+                {
+                    "@type": "item",
+                    "name": "src/spectral/fft.c"
+                },
+                {
+                    "@type": "item",
+                    "name": "src/spectral/phasevoc.h"
+                },
+                {
+                    "@type": "item",
+                    "name": "src/spectral/phasevoc.c"
+                },
+                {
+                    "@type": "item",
+                    "name": "src/spectral/statistics.c"
+                },
+                {
+                    "@type": "item",
+                    "name": "src/spectral/specdesc.h"
+                },
+                {
+                    "@type": "item",
+                    "name": "src/spectral/specdesc.c"
+                }
+            ]
+        },
+        {
+            "@type": "group",
+            "name": "12",
+            "nested": [
+                {
+                    "@type": "item",
+                    "name": "tests/src/test-lvec.c"
+                },
+                {
+                    "@type": "item",
+                    "name": "tests/src/test-vecutils.c"
+                },
+                {
+                    "@type": "item",
+                    "name": "tests/src/test-fmat.c"
+                },
+                {
+                    "@type": "item",
+                    "name": "tests/src/test-fvec.c"
+                }
+            ]
+        },
+        {
+            "@type": "group",
+            "name": "13",
+            "nested": [
+                {
+                    "@type": "item",
+                    "name": "src/temporal/c_weighting.h"
+                },
+                {
+                    "@type": "item",
+                    "name": "src/temporal/c_weighting.c"
+                },
+                {
+                    "@type": "item",
+                    "name": "src/temporal/filter.h"
+                },
+                {
+                    "@type": "item",
+                    "name": "src/temporal/filter.c"
+                },
+                {
+                    "@type": "item",
+                    "name": "src/temporal/a_weighting.h"
+                },
+                {
+                    "@type": "item",
+                    "name": "src/temporal/a_weighting.c"
+                },
+                {
+                    "@type": "item",
+                    "name": "src/temporal/biquad.h"
+                },
+                {
+                    "@type": "item",
+                    "name": "src/temporal/biquad.c"
+                }
+            ]
+        },
+        {
+            "@type": "group",
+            "name": "14",
+            "nested": [
+                {
+                    "@type": "item",
+                    "name": "src/spectral/mfcc.h"
+                },
+                {
+                    "@type": "item",
+                    "name": "src/spectral/mfcc.c"
+                },
+                {
+                    "@type": "item",
+                    "name": "src/spectral/filterbank.h"
+                },
+                {
+                    "@type": "item",
+                    "name": "src/spectral/filterbank.c"
+                },
+                {
+                    "@type": "item",
+                    "name": "src/spectral/filterbank_mel.h"
+                },
+                {
+                    "@type": "item",
+                    "name": "src/spectral/filterbank_mel.c"
+                },
+                {
+                    "@type": "item",
+                    "name": "src/spectral/tss.h"
+                },
+                {
+                    "@type": "item",
+                    "name": "src/spectral/tss.c"
+                }
+            ]
+        },
+        {
+            "@type": "group",
+            "name": "15",
+            "nested": [
+                {
+                    "@type": "item",
+                    "name": "src/io/audio_unit.h"
+                },
+                {
+                    "@type": "item",
+                    "name": "src/io/audio_unit.c"
+                }
+            ]
+        },
+        {
+            "@type": "group",
+            "name": "16",
+            "nested": [
+                {
+                    "@type": "item",
+                    "name": "src/utils/hist.h"
+                },
+                {
+                    "@type": "item",
+                    "name": "src/utils/hist.c"
+                },
+                {
+                    "@type": "item",
+                    "name": "src/utils/scale.h"
+                },
+                {
+                    "@type": "item",
+                    "name": "src/utils/scale.c"
+                }
+            ]
+        },
+        {
+            "@type": "group",
+            "name": "17",
+            "nested": [
+                {
+                    "@type": "item",
+                    "name": "src/onset/onset.h"
+                },
+                {
+                    "@type": "item",
+                    "name": "src/onset/onset.c"
+                },
+                {
+                    "@type": "item",
+                    "name": "src/onset/peakpicker.h"
+                },
+                {
+                    "@type": "item",
+                    "name": "src/onset/peakpicker.c"
+                }
+            ]
+        },
+        {
+            "@type": "group",
+            "name": "18",
+            "nested": [
+                {
+                    "@type": "item",
+                    "name": "src/synth/sampler.h"
+                },
+                {
+                    "@type": "item",
+                    "name": "src/synth/sampler.c"
+                },
+                {
+                    "@type": "item",
+                    "name": "src/synth/wavetable.h"
+                },
+                {
+                    "@type": "item",
+                    "name": "src/synth/wavetable.c"
+                }
+            ]
+        },
+        {
+            "@type": "group",
+            "name": "19",
+            "nested": [
+                {
+                    "@type": "item",
+                    "name": "src/tempo/tempo.h"
+                },
+                {
+                    "@type": "item",
+                    "name": "src/tempo/tempo.c"
+                },
+                {
+                    "@type": "item",
+                    "name": "src/tempo/beattracking.h"
+                },
+                {
+                    "@type": "item",
+                    "name": "src/tempo/beattracking.c"
+                }
+            ]
+        },
+        {
+            "@type": "group",
+            "name": "20",
+            "nested": [
+                {
+                    "@type": "item",
+                    "name": "src/effects/rubberband_utils.c"
+                }
+            ]
+        },
+        {
+            "@type": "group",
+            "name": "21",
+            "nested": [
+                {
+                    "@type": "item",
+                    "name": "src/utils/strutils.c"
+                }
+            ]
+        },
+        {
+            "@type": "group",
+            "name": "22",
+            "nested": [
+                {
+                    "@type": "item",
+                    "name": "src/utils/windll.c"
+                }
+            ]
+        },
+        {
+            "@type": "group",
+            "name": "23",
+            "nested": [
+                {
+                    "@type": "item",
+                    "name": "tests/src/utils/test-log.c"
+                }
+            ]
+        },
+        {
+            "@type": "group",
+            "name": "24",
+            "nested": [
+                {
+                    "@type": "item",
+                    "name": "src/temporal/resampler.h"
+                },
+                {
+                    "@type": "item",
+                    "name": "src/temporal/resampler.c"
+                }
+            ]
+        },
+        {
+            "@type": "group",
+            "name": "25",
+            "nested": [
+                {
+                    "@type": "item",
+                    "name": "src/utils/parameter.h"
+                },
+                {
+                    "@type": "item",
+                    "name": "src/utils/parameter.c"
+                }
+            ]
+        },
+        {
+            "@type": "group",
+            "name": "26",
+            "nested": [
+                {
+                    "@type": "item",
+                    "name": "src/notes/notes.h"
+                },
+                {
+                    "@type": "item",
+                    "name": "src/notes/notes.c"
+                }
+            ]
+        },
+        {
+            "@type": "group",
+            "name": "27",
+            "nested": [
+                {
+                    "@type": "item",
+                    "name": "src/spectral/awhitening.h"
+                },
+                {
+                    "@type": "item",
+                    "name": "src/spectral/awhitening.c"
+                }
+            ]
+        }
+    ]
+}

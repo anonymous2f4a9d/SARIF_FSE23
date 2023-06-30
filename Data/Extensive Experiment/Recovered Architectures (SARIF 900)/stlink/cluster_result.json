@@ -1,0 +1,294 @@
+{
+    "@schemaVersion": "1.0",
+    "name": "clustering",
+    "structure": [
+        {
+            "@type": "group",
+            "name": "0",
+            "nested": [
+                {
+                    "@type": "item",
+                    "name": "inc/stm32.h"
+                },
+                {
+                    "@type": "item",
+                    "name": "src/stlink-lib/chipid.h"
+                },
+                {
+                    "@type": "item",
+                    "name": "src/stlink-lib/chipid.c"
+                },
+                {
+                    "@type": "item",
+                    "name": "inc/stlink.h"
+                },
+                {
+                    "@type": "item",
+                    "name": "src/stlink-lib/common.c"
+                },
+                {
+                    "@type": "item",
+                    "name": "src/stlink-lib/read_write.c"
+                },
+                {
+                    "@type": "item",
+                    "name": "src/win32/sys_time.h"
+                },
+                {
+                    "@type": "item",
+                    "name": "src/win32/sys_time.c"
+                },
+                {
+                    "@type": "item",
+                    "name": "src/stlink-lib/commands.h"
+                },
+                {
+                    "@type": "item",
+                    "name": "inc/backend.h"
+                },
+                {
+                    "@type": "item",
+                    "name": "src/stlink-lib/calculate.h"
+                },
+                {
+                    "@type": "item",
+                    "name": "src/stlink-lib/calculate.c"
+                },
+                {
+                    "@type": "item",
+                    "name": "src/stlink-lib/helper.h"
+                },
+                {
+                    "@type": "item",
+                    "name": "src/stlink-lib/helper.c"
+                },
+                {
+                    "@type": "item",
+                    "name": "inc/stm32flash.h"
+                }
+            ]
+        },
+        {
+            "@type": "group",
+            "name": "1",
+            "nested": [
+                {
+                    "@type": "item",
+                    "name": "src/win32/win32_socket.h"
+                },
+                {
+                    "@type": "item",
+                    "name": "src/win32/unistd/unistd.h"
+                },
+                {
+                    "@type": "item",
+                    "name": "src/st-trace/trace.c"
+                },
+                {
+                    "@type": "item",
+                    "name": "src/win32/win32_socket.c"
+                },
+                {
+                    "@type": "item",
+                    "name": "src/win32/mmap.h"
+                },
+                {
+                    "@type": "item",
+                    "name": "src/win32/mmap.c"
+                },
+                {
+                    "@type": "item",
+                    "name": "src/win32/getopt/getopt.h"
+                },
+                {
+                    "@type": "item",
+                    "name": "src/win32/getopt/getopt.c"
+                }
+            ]
+        },
+        {
+            "@type": "group",
+            "name": "2",
+            "nested": [
+                {
+                    "@type": "item",
+                    "name": "src/stlink-gui/gui.h"
+                },
+                {
+                    "@type": "item",
+                    "name": "src/stlink-gui/gui.c"
+                },
+                {
+                    "@type": "item",
+                    "name": "src/stlink-lib/register.h"
+                },
+                {
+                    "@type": "item",
+                    "name": "src/stlink-lib/sg.h"
+                },
+                {
+                    "@type": "item",
+                    "name": "src/stlink-lib/sg.c"
+                },
+                {
+                    "@type": "item",
+                    "name": "src/stlink-lib/logging.h"
+                },
+                {
+                    "@type": "item",
+                    "name": "src/stlink-lib/logging.c"
+                },
+                {
+                    "@type": "item",
+                    "name": "src/stlink-lib/libusb_settings.h"
+                },
+                {
+                    "@type": "item",
+                    "name": "src/stlink-lib/usb.h"
+                },
+                {
+                    "@type": "item",
+                    "name": "src/stlink-lib/usb.c"
+                }
+            ]
+        },
+        {
+            "@type": "group",
+            "name": "3",
+            "nested": [
+                {
+                    "@type": "item",
+                    "name": "tests/flash.c"
+                },
+                {
+                    "@type": "item",
+                    "name": "src/st-info/info.h"
+                },
+                {
+                    "@type": "item",
+                    "name": "src/st-info/info.c"
+                },
+                {
+                    "@type": "item",
+                    "name": "src/st-flash/flash.c"
+                },
+                {
+                    "@type": "item",
+                    "name": "src/st-flash/flash.h"
+                },
+                {
+                    "@type": "item",
+                    "name": "src/st-flash/flash_opts.h"
+                },
+                {
+                    "@type": "item",
+                    "name": "src/st-flash/flash_opts.c"
+                }
+            ]
+        },
+        {
+            "@type": "group",
+            "name": "4",
+            "nested": [
+                {
+                    "@type": "item",
+                    "name": "src/st-util/gdb-server.c"
+                },
+                {
+                    "@type": "item",
+                    "name": "src/st-util/semihosting.h"
+                },
+                {
+                    "@type": "item",
+                    "name": "src/st-util/semihosting.c"
+                },
+                {
+                    "@type": "item",
+                    "name": "src/st-util/gdb-remote.h"
+                },
+                {
+                    "@type": "item",
+                    "name": "src/st-util/gdb-remote.c"
+                },
+                {
+                    "@type": "item",
+                    "name": "src/st-util/gdb-server.h"
+                }
+            ]
+        },
+        {
+            "@type": "group",
+            "name": "5",
+            "nested": [
+                {
+                    "@type": "item",
+                    "name": "src/stlink-lib/common_flash.h"
+                },
+                {
+                    "@type": "item",
+                    "name": "src/stlink-lib/common_flash.c"
+                },
+                {
+                    "@type": "item",
+                    "name": "src/stlink-lib/option_bytes.h"
+                },
+                {
+                    "@type": "item",
+                    "name": "src/stlink-lib/option_bytes.c"
+                },
+                {
+                    "@type": "item",
+                    "name": "src/stlink-lib/flash_loader.h"
+                },
+                {
+                    "@type": "item",
+                    "name": "src/stlink-lib/flash_loader.c"
+                }
+            ]
+        },
+        {
+            "@type": "group",
+            "name": "6",
+            "nested": [
+                {
+                    "@type": "item",
+                    "name": "src/stlink-lib/lib_md5.h"
+                },
+                {
+                    "@type": "item",
+                    "name": "src/stlink-lib/lib_md5.c"
+                },
+                {
+                    "@type": "item",
+                    "name": "src/stlink-lib/map_file.h"
+                },
+                {
+                    "@type": "item",
+                    "name": "src/stlink-lib/map_file.c"
+                },
+                {
+                    "@type": "item",
+                    "name": "src/stlink-lib/md5.h"
+                },
+                {
+                    "@type": "item",
+                    "name": "src/stlink-lib/md5.c"
+                }
+            ]
+        },
+        {
+            "@type": "group",
+            "name": "7",
+            "nested": [
+                {
+                    "@type": "item",
+                    "name": "tests/sg.c"
+                },
+                {
+                    "@type": "item",
+                    "name": "tests/usb.c"
+                }
+            ]
+        }
+    ]
+}

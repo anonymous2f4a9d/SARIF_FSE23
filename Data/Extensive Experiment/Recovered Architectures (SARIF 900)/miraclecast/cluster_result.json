@@ -1,0 +1,236 @@
+{
+    "@schemaVersion": "1.0",
+    "name": "clustering",
+    "structure": [
+        {
+            "@type": "group",
+            "name": "0",
+            "nested": [
+                {
+                    "@type": "item",
+                    "name": "src/shared/util.h"
+                },
+                {
+                    "@type": "item",
+                    "name": "src/shared/shl_macro.h"
+                },
+                {
+                    "@type": "item",
+                    "name": "src/shared/shl_dlist.h"
+                },
+                {
+                    "@type": "item",
+                    "name": "src/shared/shl_log.h"
+                },
+                {
+                    "@type": "item",
+                    "name": "src/shared/shl_log.c"
+                },
+                {
+                    "@type": "item",
+                    "name": "src/shared/shl_util.h"
+                },
+                {
+                    "@type": "item",
+                    "name": "src/shared/shl_util.c"
+                },
+                {
+                    "@type": "item",
+                    "name": "src/shared/shl_ring.h"
+                },
+                {
+                    "@type": "item",
+                    "name": "src/shared/shl_ring.c"
+                },
+                {
+                    "@type": "item",
+                    "name": "src/shared/shl_htable.h"
+                },
+                {
+                    "@type": "item",
+                    "name": "src/shared/shl_htable.c"
+                },
+                {
+                    "@type": "item",
+                    "name": "src/shared/rtsp.h"
+                },
+                {
+                    "@type": "item",
+                    "name": "src/shared/rtsp.c"
+                },
+                {
+                    "@type": "item",
+                    "name": "src/shared/wpas.h"
+                },
+                {
+                    "@type": "item",
+                    "name": "src/shared/wpas.c"
+                }
+            ]
+        },
+        {
+            "@type": "group",
+            "name": "1",
+            "nested": [
+                {
+                    "@type": "item",
+                    "name": "src/dhcp/ipv4ll.h"
+                },
+                {
+                    "@type": "item",
+                    "name": "src/dhcp/ipv4ll.c"
+                },
+                {
+                    "@type": "item",
+                    "name": "src/dhcp/gdhcp.h"
+                },
+                {
+                    "@type": "item",
+                    "name": "src/dhcp/server.c"
+                },
+                {
+                    "@type": "item",
+                    "name": "src/dhcp/client.c"
+                },
+                {
+                    "@type": "item",
+                    "name": "src/dhcp/unaligned.h"
+                },
+                {
+                    "@type": "item",
+                    "name": "src/dhcp/dhcp.c"
+                },
+                {
+                    "@type": "item",
+                    "name": "src/dhcp/common.h"
+                },
+                {
+                    "@type": "item",
+                    "name": "src/dhcp/common.c"
+                }
+            ]
+        },
+        {
+            "@type": "group",
+            "name": "2",
+            "nested": [
+                {
+                    "@type": "item",
+                    "name": "test/test_common.h"
+                },
+                {
+                    "@type": "item",
+                    "name": "test/test_wpas.c"
+                },
+                {
+                    "@type": "item",
+                    "name": "test/test_valgrind.c"
+                },
+                {
+                    "@type": "item",
+                    "name": "test/test_rtsp.c"
+                }
+            ]
+        },
+        {
+            "@type": "group",
+            "name": "3",
+            "nested": [
+                {
+                    "@type": "item",
+                    "name": "src/ctl/ctl.h"
+                },
+                {
+                    "@type": "item",
+                    "name": "src/ctl/ctl-sink.h"
+                },
+                {
+                    "@type": "item",
+                    "name": "src/ctl/sinkctl.c"
+                },
+                {
+                    "@type": "item",
+                    "name": "src/ctl/ctl-sink.c"
+                },
+                {
+                    "@type": "item",
+                    "name": "src/ctl/ctl-wifi.c"
+                },
+                {
+                    "@type": "item",
+                    "name": "src/ctl/ctl-cli.c"
+                },
+                {
+                    "@type": "item",
+                    "name": "src/ctl/wifictl.c"
+                },
+                {
+                    "@type": "item",
+                    "name": "src/ctl/wfd.c"
+                },
+                {
+                    "@type": "item",
+                    "name": "src/ctl/wfd.h"
+                }
+            ]
+        },
+        {
+            "@type": "group",
+            "name": "4",
+            "nested": [
+                {
+                    "@type": "item",
+                    "name": "src/miracled.h"
+                },
+                {
+                    "@type": "item",
+                    "name": "src/miracled.c"
+                }
+            ]
+        },
+        {
+            "@type": "group",
+            "name": "5",
+            "nested": [
+                {
+                    "@type": "item",
+                    "name": "src/wifi/wifid.h"
+                },
+                {
+                    "@type": "item",
+                    "name": "src/wifi/wifid-peer.c"
+                },
+                {
+                    "@type": "item",
+                    "name": "src/wifi/wifid-supplicant.c"
+                },
+                {
+                    "@type": "item",
+                    "name": "src/wifi/wifid-dbus.c"
+                },
+                {
+                    "@type": "item",
+                    "name": "src/wifi/wifid-link.c"
+                },
+                {
+                    "@type": "item",
+                    "name": "src/wifi/wifid.c"
+                }
+            ]
+        },
+        {
+            "@type": "group",
+            "name": "6",
+            "nested": [
+                {
+                    "@type": "item",
+                    "name": "src/uibc/miracle-uibcctl.h"
+                },
+                {
+                    "@type": "item",
+                    "name": "src/uibc/miracle-uibcctl.c"
+                }
+            ]
+        }
+    ]
+}

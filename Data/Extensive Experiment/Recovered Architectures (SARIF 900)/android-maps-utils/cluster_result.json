@@ -1,0 +1,782 @@
+{
+    "@schemaVersion": "1.0",
+    "name": "clustering",
+    "structure": [
+        {
+            "@type": "group",
+            "name": "0",
+            "nested": [
+                {
+                    "@type": "item",
+                    "name": "demo/src/main/java/com/google/maps/android/utils/demo/TileProviderAndProjectionDemo.java"
+                },
+                {
+                    "@type": "item",
+                    "name": "demo/src/main/java/com/google/maps/android/utils/demo/BaseDemoActivity.java"
+                },
+                {
+                    "@type": "item",
+                    "name": "demo/src/main/java/com/google/maps/android/utils/demo/GeoJsonDemoActivity.java"
+                },
+                {
+                    "@type": "item",
+                    "name": "demo/src/main/java/com/google/maps/android/utils/demo/KmlDemoActivity.java"
+                },
+                {
+                    "@type": "item",
+                    "name": "demo/src/main/java/com/google/maps/android/utils/demo/VisibleClusteringDemoActivity.java"
+                },
+                {
+                    "@type": "item",
+                    "name": "demo/src/main/java/com/google/maps/android/utils/demo/model/MyItem.java"
+                },
+                {
+                    "@type": "item",
+                    "name": "demo/src/main/java/com/google/maps/android/utils/demo/PolyDecodeDemoActivity.java"
+                },
+                {
+                    "@type": "item",
+                    "name": "demo/src/main/java/com/google/maps/android/utils/demo/ClusteringViewModelDemoActivity.java"
+                },
+                {
+                    "@type": "item",
+                    "name": "demo/src/main/java/com/google/maps/android/utils/demo/IconGeneratorDemoActivity.java"
+                },
+                {
+                    "@type": "item",
+                    "name": "demo/src/main/java/com/google/maps/android/utils/demo/ClusteringDemoActivity.java"
+                },
+                {
+                    "@type": "item",
+                    "name": "demo/src/main/java/com/google/maps/android/utils/demo/ClusteringViewModel.java"
+                },
+                {
+                    "@type": "item",
+                    "name": "demo/src/main/java/com/google/maps/android/utils/demo/PolySimplifyDemoActivity.java"
+                },
+                {
+                    "@type": "item",
+                    "name": "demo/src/main/java/com/google/maps/android/utils/demo/MultiLayerDemoActivity.java"
+                },
+                {
+                    "@type": "item",
+                    "name": "demo/src/main/java/com/google/maps/android/utils/demo/HeatmapsDemoActivity.java"
+                },
+                {
+                    "@type": "item",
+                    "name": "demo/src/main/java/com/google/maps/android/utils/demo/MainActivity.java"
+                },
+                {
+                    "@type": "item",
+                    "name": "demo/src/main/java/com/google/maps/android/utils/demo/ZoomClusteringDemoActivity.java"
+                },
+                {
+                    "@type": "item",
+                    "name": "demo/src/main/java/com/google/maps/android/utils/demo/HeatmapsPlacesDemoActivity.java"
+                },
+                {
+                    "@type": "item",
+                    "name": "demo/src/main/java/com/google/maps/android/utils/demo/BigClusteringDemoActivity.java"
+                },
+                {
+                    "@type": "item",
+                    "name": "demo/src/main/java/com/google/maps/android/utils/demo/MyItemReader.java"
+                }
+            ]
+        },
+        {
+            "@type": "group",
+            "name": "1",
+            "nested": [
+                {
+                    "@type": "item",
+                    "name": "library/src/main/java/com/google/maps/android/data/kml/KmlLayer.java"
+                },
+                {
+                    "@type": "item",
+                    "name": "library/src/main/java/com/google/maps/android/data/kml/KmlContainer.java"
+                },
+                {
+                    "@type": "item",
+                    "name": "library/src/main/java/com/google/maps/android/data/geojson/GeoJsonLayer.java"
+                },
+                {
+                    "@type": "item",
+                    "name": "library/src/main/java/com/google/maps/android/data/kml/KmlContainerParser.java"
+                },
+                {
+                    "@type": "item",
+                    "name": "library/src/main/java/com/google/maps/android/data/kml/KmlStyleParser.java"
+                },
+                {
+                    "@type": "item",
+                    "name": "library/src/main/java/com/google/maps/android/data/Renderer.java"
+                },
+                {
+                    "@type": "item",
+                    "name": "library/src/main/java/com/google/maps/android/data/kml/KmlBoolean.java"
+                },
+                {
+                    "@type": "item",
+                    "name": "library/src/main/java/com/google/maps/android/data/Feature.java"
+                },
+                {
+                    "@type": "item",
+                    "name": "library/src/main/java/com/google/maps/android/data/geojson/GeoJsonRenderer.java"
+                },
+                {
+                    "@type": "item",
+                    "name": "library/src/main/java/com/google/maps/android/data/kml/KmlParser.java"
+                },
+                {
+                    "@type": "item",
+                    "name": "library/src/main/java/com/google/maps/android/data/geojson/BiMultiMap.java"
+                },
+                {
+                    "@type": "item",
+                    "name": "library/src/main/java/com/google/maps/android/data/kml/KmlGroundOverlay.java"
+                },
+                {
+                    "@type": "item",
+                    "name": "library/src/main/java/com/google/maps/android/data/kml/KmlStyle.java"
+                },
+                {
+                    "@type": "item",
+                    "name": "library/src/main/java/com/google/maps/android/data/kml/KmlUtil.java"
+                },
+                {
+                    "@type": "item",
+                    "name": "library/src/main/java/com/google/maps/android/data/kml/KmlRenderer.java"
+                },
+                {
+                    "@type": "item",
+                    "name": "library/src/main/java/com/google/maps/android/data/kml/KmlPlacemark.java"
+                },
+                {
+                    "@type": "item",
+                    "name": "library/src/main/java/com/google/maps/android/data/geojson/GeoJsonFeature.java"
+                },
+                {
+                    "@type": "item",
+                    "name": "library/src/main/java/com/google/maps/android/data/Layer.java"
+                }
+            ]
+        },
+        {
+            "@type": "group",
+            "name": "2",
+            "nested": [
+                {
+                    "@type": "item",
+                    "name": "library/src/main/java/com/google/maps/android/data/geojson/GeoJsonLineString.java"
+                },
+                {
+                    "@type": "item",
+                    "name": "library/src/main/java/com/google/maps/android/data/geojson/GeoJsonGeometryCollection.java"
+                },
+                {
+                    "@type": "item",
+                    "name": "library/src/main/java/com/google/maps/android/data/geojson/GeoJsonMultiPoint.java"
+                },
+                {
+                    "@type": "item",
+                    "name": "library/src/main/java/com/google/maps/android/data/kml/KmlPoint.java"
+                },
+                {
+                    "@type": "item",
+                    "name": "library/src/main/java/com/google/maps/android/data/geojson/GeoJsonPoint.java"
+                },
+                {
+                    "@type": "item",
+                    "name": "library/src/main/java/com/google/maps/android/data/geojson/GeoJsonMultiLineString.java"
+                },
+                {
+                    "@type": "item",
+                    "name": "library/src/main/java/com/google/maps/android/data/LineString.java"
+                },
+                {
+                    "@type": "item",
+                    "name": "library/src/main/java/com/google/maps/android/data/Geometry.java"
+                },
+                {
+                    "@type": "item",
+                    "name": "library/src/main/java/com/google/maps/android/data/kml/KmlTrack.java"
+                },
+                {
+                    "@type": "item",
+                    "name": "library/src/main/java/com/google/maps/android/data/kml/KmlMultiGeometry.java"
+                },
+                {
+                    "@type": "item",
+                    "name": "library/src/main/java/com/google/maps/android/data/kml/KmlMultiTrack.java"
+                },
+                {
+                    "@type": "item",
+                    "name": "library/src/main/java/com/google/maps/android/data/MultiGeometry.java"
+                },
+                {
+                    "@type": "item",
+                    "name": "library/src/main/java/com/google/maps/android/data/geojson/GeoJsonMultiPolygon.java"
+                },
+                {
+                    "@type": "item",
+                    "name": "library/src/main/java/com/google/maps/android/data/Point.java"
+                },
+                {
+                    "@type": "item",
+                    "name": "library/src/main/java/com/google/maps/android/data/geojson/GeoJsonParser.java"
+                },
+                {
+                    "@type": "item",
+                    "name": "library/src/main/java/com/google/maps/android/data/kml/KmlFeatureParser.java"
+                },
+                {
+                    "@type": "item",
+                    "name": "library/src/main/java/com/google/maps/android/data/kml/KmlLineString.java"
+                }
+            ]
+        },
+        {
+            "@type": "group",
+            "name": "3",
+            "nested": [
+                {
+                    "@type": "item",
+                    "name": "library/src/main/java/com/google/maps/android/clustering/algo/ScreenBasedAlgorithmAdapter.java"
+                },
+                {
+                    "@type": "item",
+                    "name": "library/src/main/java/com/google/maps/android/clustering/view/ClusterRenderer.java"
+                },
+                {
+                    "@type": "item",
+                    "name": "library/src/main/java/com/google/maps/android/clustering/ClusterManager.java"
+                },
+                {
+                    "@type": "item",
+                    "name": "library/src/main/java/com/google/maps/android/clustering/algo/PreCachingAlgorithmDecorator.java"
+                },
+                {
+                    "@type": "item",
+                    "name": "library/src/main/java/com/google/maps/android/clustering/ClusterItem.java"
+                },
+                {
+                    "@type": "item",
+                    "name": "library/src/main/java/com/google/maps/android/clustering/algo/AbstractAlgorithm.java"
+                },
+                {
+                    "@type": "item",
+                    "name": "library/src/main/java/com/google/maps/android/clustering/algo/StaticCluster.java"
+                },
+                {
+                    "@type": "item",
+                    "name": "library/src/main/java/com/google/maps/android/clustering/algo/ScreenBasedAlgorithm.java"
+                },
+                {
+                    "@type": "item",
+                    "name": "library/src/main/java/com/google/maps/android/clustering/algo/Algorithm.java"
+                },
+                {
+                    "@type": "item",
+                    "name": "library/src/main/java/com/google/maps/android/clustering/Cluster.java"
+                },
+                {
+                    "@type": "item",
+                    "name": "library/src/main/java/com/google/maps/android/clustering/algo/NonHierarchicalViewBasedAlgorithm.java"
+                },
+                {
+                    "@type": "item",
+                    "name": "library/src/main/java/com/google/maps/android/clustering/algo/NonHierarchicalDistanceBasedAlgorithm.java"
+                },
+                {
+                    "@type": "item",
+                    "name": "library/src/main/java/com/google/maps/android/clustering/view/DefaultClusterRenderer.java"
+                },
+                {
+                    "@type": "item",
+                    "name": "library/src/main/java/com/google/maps/android/clustering/algo/GridBasedAlgorithm.java"
+                }
+            ]
+        },
+        {
+            "@type": "group",
+            "name": "4",
+            "nested": [
+                {
+                    "@type": "item",
+                    "name": "library/src/test/java/com/google/maps/android/data/geojson/GeoJsonMultiPointTest.java"
+                },
+                {
+                    "@type": "item",
+                    "name": "library/src/test/java/com/google/maps/android/data/geojson/GeoJsonLineStringStyleTest.java"
+                },
+                {
+                    "@type": "item",
+                    "name": "library/src/test/java/com/google/maps/android/data/geojson/GeoJsonLayerTest.java"
+                },
+                {
+                    "@type": "item",
+                    "name": "library/src/test/java/com/google/maps/android/data/geojson/GeoJsonMultiLineStringTest.java"
+                },
+                {
+                    "@type": "item",
+                    "name": "library/src/test/java/com/google/maps/android/data/geojson/GeoJsonFeatureTest.java"
+                },
+                {
+                    "@type": "item",
+                    "name": "library/src/test/java/com/google/maps/android/data/geojson/GeoJsonMultiPolygonTest.java"
+                },
+                {
+                    "@type": "item",
+                    "name": "library/src/test/java/com/google/maps/android/data/geojson/GeoJsonPolygonStyleTest.java"
+                },
+                {
+                    "@type": "item",
+                    "name": "library/src/test/java/com/google/maps/android/data/geojson/GeoJsonPointStyleTest.java"
+                },
+                {
+                    "@type": "item",
+                    "name": "library/src/test/java/com/google/maps/android/data/geojson/GeoJsonLineStringTest.java"
+                },
+                {
+                    "@type": "item",
+                    "name": "library/src/test/java/com/google/maps/android/data/geojson/GeoJsonPointTest.java"
+                },
+                {
+                    "@type": "item",
+                    "name": "library/src/test/java/com/google/maps/android/data/geojson/GeoJsonRendererTest.java"
+                },
+                {
+                    "@type": "item",
+                    "name": "library/src/test/java/com/google/maps/android/data/geojson/BiMultiMapTest.java"
+                },
+                {
+                    "@type": "item",
+                    "name": "library/src/test/java/com/google/maps/android/data/geojson/GeoJsonPolygonTest.java"
+                }
+            ]
+        },
+        {
+            "@type": "group",
+            "name": "5",
+            "nested": [
+                {
+                    "@type": "item",
+                    "name": "library/src/test/java/com/google/maps/android/data/kml/KmlTestUtil.java"
+                },
+                {
+                    "@type": "item",
+                    "name": "library/src/test/java/com/google/maps/android/data/kml/KmlParserTest.java"
+                },
+                {
+                    "@type": "item",
+                    "name": "library/src/test/java/com/google/maps/android/data/kml/KmlRendererTest.java"
+                },
+                {
+                    "@type": "item",
+                    "name": "library/src/test/java/com/google/maps/android/data/kml/KmlMultiGeometryTest.java"
+                },
+                {
+                    "@type": "item",
+                    "name": "library/src/test/java/com/google/maps/android/data/kml/KmlContainerParserTest.java"
+                },
+                {
+                    "@type": "item",
+                    "name": "library/src/test/java/com/google/maps/android/data/kml/KmlFeatureParserTest.java"
+                },
+                {
+                    "@type": "item",
+                    "name": "library/src/test/java/com/google/maps/android/data/kml/KmlPointTest.java"
+                },
+                {
+                    "@type": "item",
+                    "name": "library/src/test/java/com/google/maps/android/data/kml/KmlTrackTest.java"
+                },
+                {
+                    "@type": "item",
+                    "name": "library/src/test/java/com/google/maps/android/data/kml/KmlUtilTest.java"
+                },
+                {
+                    "@type": "item",
+                    "name": "library/src/test/java/com/google/maps/android/data/kml/KmlLineStringTest.java"
+                },
+                {
+                    "@type": "item",
+                    "name": "library/src/test/java/com/google/maps/android/data/kml/KmlMultiTrackTest.java"
+                }
+            ]
+        },
+        {
+            "@type": "group",
+            "name": "6",
+            "nested": [
+                {
+                    "@type": "item",
+                    "name": "library/src/main/java/com/google/maps/android/collections/MapObjectManager.java"
+                },
+                {
+                    "@type": "item",
+                    "name": "library/src/main/java/com/google/maps/android/collections/CircleManager.java"
+                },
+                {
+                    "@type": "item",
+                    "name": "library/src/main/java/com/google/maps/android/collections/MarkerManager.java"
+                },
+                {
+                    "@type": "item",
+                    "name": "library/src/main/java/com/google/maps/android/collections/PolylineManager.java"
+                },
+                {
+                    "@type": "item",
+                    "name": "library/src/main/java/com/google/maps/android/collections/GroundOverlayManager.java"
+                },
+                {
+                    "@type": "item",
+                    "name": "library/src/main/java/com/google/maps/android/collections/PolygonManager.java"
+                }
+            ]
+        },
+        {
+            "@type": "group",
+            "name": "7",
+            "nested": [
+                {
+                    "@type": "item",
+                    "name": "library/src/main/java/com/google/maps/android/data/geojson/GeoJsonPolygonStyle.java"
+                },
+                {
+                    "@type": "item",
+                    "name": "library/src/main/java/com/google/maps/android/data/Style.java"
+                },
+                {
+                    "@type": "item",
+                    "name": "library/src/main/java/com/google/maps/android/data/geojson/GeoJsonStyle.java"
+                },
+                {
+                    "@type": "item",
+                    "name": "library/src/main/java/com/google/maps/android/data/geojson/GeoJsonPointStyle.java"
+                },
+                {
+                    "@type": "item",
+                    "name": "library/src/main/java/com/google/maps/android/data/geojson/GeoJsonLineStringStyle.java"
+                }
+            ]
+        },
+        {
+            "@type": "group",
+            "name": "8",
+            "nested": [
+                {
+                    "@type": "item",
+                    "name": "library/src/main/java/com/google/maps/android/ui/BubbleIconFactory.java"
+                },
+                {
+                    "@type": "item",
+                    "name": "library/src/main/java/com/google/maps/android/ui/BubbleDrawable.java"
+                },
+                {
+                    "@type": "item",
+                    "name": "library/src/main/java/com/google/maps/android/ui/RotationLayout.java"
+                },
+                {
+                    "@type": "item",
+                    "name": "library/src/main/java/com/google/maps/android/ui/IconGenerator.java"
+                }
+            ]
+        },
+        {
+            "@type": "group",
+            "name": "9",
+            "nested": [
+                {
+                    "@type": "item",
+                    "name": "library/src/test/java/com/google/maps/android/data/PointTest.java"
+                },
+                {
+                    "@type": "item",
+                    "name": "library/src/test/java/com/google/maps/android/data/FeatureTest.java"
+                },
+                {
+                    "@type": "item",
+                    "name": "library/src/test/java/com/google/maps/android/data/MultiGeometryTest.java"
+                },
+                {
+                    "@type": "item",
+                    "name": "library/src/test/java/com/google/maps/android/data/RendererTest.java"
+                }
+            ]
+        },
+        {
+            "@type": "group",
+            "name": "10",
+            "nested": [
+                {
+                    "@type": "item",
+                    "name": "demo/src/main/java/com/google/maps/android/utils/demo/MultiDrawable.java"
+                },
+                {
+                    "@type": "item",
+                    "name": "demo/src/main/java/com/google/maps/android/utils/demo/CustomMarkerClusteringDemoActivity.java"
+                },
+                {
+                    "@type": "item",
+                    "name": "demo/src/main/java/com/google/maps/android/utils/demo/model/Person.java"
+                }
+            ]
+        },
+        {
+            "@type": "group",
+            "name": "11",
+            "nested": [
+                {
+                    "@type": "item",
+                    "name": "library/src/main/java/com/google/maps/android/MathUtil.java"
+                },
+                {
+                    "@type": "item",
+                    "name": "library/src/main/java/com/google/maps/android/PolyUtil.java"
+                },
+                {
+                    "@type": "item",
+                    "name": "library/src/main/java/com/google/maps/android/SphericalUtil.java"
+                }
+            ]
+        },
+        {
+            "@type": "group",
+            "name": "12",
+            "nested": [
+                {
+                    "@type": "item",
+                    "name": "library/src/main/java/com/google/maps/android/data/kml/KmlPolygon.java"
+                },
+                {
+                    "@type": "item",
+                    "name": "library/src/main/java/com/google/maps/android/data/geojson/GeoJsonPolygon.java"
+                },
+                {
+                    "@type": "item",
+                    "name": "library/src/main/java/com/google/maps/android/data/DataPolygon.java"
+                }
+            ]
+        },
+        {
+            "@type": "group",
+            "name": "13",
+            "nested": [
+                {
+                    "@type": "item",
+                    "name": "library/src/main/java/com/google/maps/android/heatmaps/WeightedLatLng.java"
+                },
+                {
+                    "@type": "item",
+                    "name": "library/src/main/java/com/google/maps/android/heatmaps/Gradient.java"
+                },
+                {
+                    "@type": "item",
+                    "name": "library/src/main/java/com/google/maps/android/heatmaps/HeatmapTileProvider.java"
+                }
+            ]
+        },
+        {
+            "@type": "group",
+            "name": "14",
+            "nested": [
+                {
+                    "@type": "item",
+                    "name": "demo/src/main/java/com/google/maps/android/utils/demo/AnimationUtilDemoActivity.java"
+                },
+                {
+                    "@type": "item",
+                    "name": "demo/src/main/java/com/google/maps/android/utils/demo/DistanceDemoActivity.java"
+                }
+            ]
+        },
+        {
+            "@type": "group",
+            "name": "15",
+            "nested": [
+                {
+                    "@type": "item",
+                    "name": "library/src/main/java/com/google/maps/android/geometry/Bounds.java"
+                },
+                {
+                    "@type": "item",
+                    "name": "library/src/main/java/com/google/maps/android/geometry/Point.java"
+                }
+            ]
+        },
+        {
+            "@type": "group",
+            "name": "16",
+            "nested": [
+                {
+                    "@type": "item",
+                    "name": "library/src/main/java/com/google/maps/android/projection/Point.java"
+                },
+                {
+                    "@type": "item",
+                    "name": "library/src/main/java/com/google/maps/android/projection/SphericalMercatorProjection.java"
+                }
+            ]
+        },
+        {
+            "@type": "group",
+            "name": "17",
+            "nested": [
+                {
+                    "@type": "item",
+                    "name": "library/src/test/java/com/google/maps/android/clustering/StaticClusterTest.java"
+                },
+                {
+                    "@type": "item",
+                    "name": "library/src/test/java/com/google/maps/android/clustering/QuadItemTest.java"
+                }
+            ]
+        },
+        {
+            "@type": "group",
+            "name": "18",
+            "nested": [
+                {
+                    "@type": "item",
+                    "name": "library/src/test/java/com/google/maps/android/data/geojson/GeoJsonTestUtil.java"
+                },
+                {
+                    "@type": "item",
+                    "name": "library/src/test/java/com/google/maps/android/data/geojson/GeoJsonParserTest.java"
+                }
+            ]
+        },
+        {
+            "@type": "group",
+            "name": "19",
+            "nested": [
+                {
+                    "@type": "item",
+                    "name": "demo/src/main/java/com/google/maps/android/utils/demo/SampleManager.java"
+                }
+            ]
+        },
+        {
+            "@type": "group",
+            "name": "20",
+            "nested": [
+                {
+                    "@type": "item",
+                    "name": "library/src/main/java/com/google/maps/android/quadtree/PointQuadTree.java"
+                }
+            ]
+        },
+        {
+            "@type": "group",
+            "name": "21",
+            "nested": [
+                {
+                    "@type": "item",
+                    "name": "library/src/main/java/com/google/maps/android/ui/AnimationUtil.java"
+                }
+            ]
+        },
+        {
+            "@type": "group",
+            "name": "22",
+            "nested": [
+                {
+                    "@type": "item",
+                    "name": "library/src/main/java/com/google/maps/android/ui/SquareTextView.java"
+                }
+            ]
+        },
+        {
+            "@type": "group",
+            "name": "23",
+            "nested": [
+                {
+                    "@type": "item",
+                    "name": "library/src/test/java/com/google/maps/android/PolyUtilTest.java"
+                }
+            ]
+        },
+        {
+            "@type": "group",
+            "name": "24",
+            "nested": [
+                {
+                    "@type": "item",
+                    "name": "library/src/test/java/com/google/maps/android/SphericalUtilTest.java"
+                }
+            ]
+        },
+        {
+            "@type": "group",
+            "name": "25",
+            "nested": [
+                {
+                    "@type": "item",
+                    "name": "library/src/test/java/com/google/maps/android/TestUtil.java"
+                }
+            ]
+        },
+        {
+            "@type": "group",
+            "name": "26",
+            "nested": [
+                {
+                    "@type": "item",
+                    "name": "library/src/test/java/com/google/maps/android/data/LineStringTest.java"
+                }
+            ]
+        },
+        {
+            "@type": "group",
+            "name": "27",
+            "nested": [
+                {
+                    "@type": "item",
+                    "name": "library/src/test/java/com/google/maps/android/data/kml/KmlPolygonTest.java"
+                }
+            ]
+        },
+        {
+            "@type": "group",
+            "name": "28",
+            "nested": [
+                {
+                    "@type": "item",
+                    "name": "library/src/test/java/com/google/maps/android/data/kml/KmlStyleTest.java"
+                }
+            ]
+        },
+        {
+            "@type": "group",
+            "name": "29",
+            "nested": [
+                {
+                    "@type": "item",
+                    "name": "library/src/test/java/com/google/maps/android/heatmaps/GradientTest.java"
+                }
+            ]
+        },
+        {
+            "@type": "group",
+            "name": "30",
+            "nested": [
+                {
+                    "@type": "item",
+                    "name": "library/src/test/java/com/google/maps/android/heatmaps/UtilTest.java"
+                }
+            ]
+        },
+        {
+            "@type": "group",
+            "name": "31",
+            "nested": [
+                {
+                    "@type": "item",
+                    "name": "library/src/test/java/com/google/maps/android/quadtree/PointQuadTreeTest.java"
+                }
+            ]
+        }
+    ]
+}

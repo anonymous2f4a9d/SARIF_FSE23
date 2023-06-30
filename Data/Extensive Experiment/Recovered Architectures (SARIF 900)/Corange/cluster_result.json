@@ -1,0 +1,682 @@
+{
+    "@schemaVersion": "1.0",
+    "name": "clustering",
+    "structure": [
+        {
+            "@type": "group",
+            "name": "0",
+            "nested": [
+                {
+                    "@type": "item",
+                    "name": "include/data/randf.h"
+                },
+                {
+                    "@type": "item",
+                    "name": "src/data/randf.c"
+                },
+                {
+                    "@type": "item",
+                    "name": "include/cui.h"
+                },
+                {
+                    "@type": "item",
+                    "name": "src/cui.c"
+                },
+                {
+                    "@type": "item",
+                    "name": "include/cnet.h"
+                },
+                {
+                    "@type": "item",
+                    "name": "src/cnet.c"
+                },
+                {
+                    "@type": "item",
+                    "name": "include/assets/sound.h"
+                },
+                {
+                    "@type": "item",
+                    "name": "src/assets/sound.c"
+                },
+                {
+                    "@type": "item",
+                    "name": "include/caudio.h"
+                },
+                {
+                    "@type": "item",
+                    "name": "src/caudio.c"
+                },
+                {
+                    "@type": "item",
+                    "name": "include/cgraphics.h"
+                },
+                {
+                    "@type": "item",
+                    "name": "src/cgraphics.c"
+                },
+                {
+                    "@type": "item",
+                    "name": "include/ui/ui_spinner.h"
+                },
+                {
+                    "@type": "item",
+                    "name": "src/ui/ui_spinner.c"
+                },
+                {
+                    "@type": "item",
+                    "name": "include/assets/music.h"
+                },
+                {
+                    "@type": "item",
+                    "name": "src/assets/music.c"
+                },
+                {
+                    "@type": "item",
+                    "name": "include/data/dict.h"
+                },
+                {
+                    "@type": "item",
+                    "name": "src/data/dict.c"
+                },
+                {
+                    "@type": "item",
+                    "name": "include/assets/lang.h"
+                },
+                {
+                    "@type": "item",
+                    "name": "src/assets/lang.c"
+                },
+                {
+                    "@type": "item",
+                    "name": "include/centity.h"
+                },
+                {
+                    "@type": "item",
+                    "name": "src/centity.c"
+                },
+                {
+                    "@type": "item",
+                    "name": "include/corange.h"
+                },
+                {
+                    "@type": "item",
+                    "name": "src/corange.c"
+                },
+                {
+                    "@type": "item",
+                    "name": "include/cjoystick.h"
+                },
+                {
+                    "@type": "item",
+                    "name": "src/cjoystick.c"
+                },
+                {
+                    "@type": "item",
+                    "name": "include/assets/renderable.h"
+                },
+                {
+                    "@type": "item",
+                    "name": "src/assets/renderable.c"
+                },
+                {
+                    "@type": "item",
+                    "name": "include/ui/ui_style.h"
+                },
+                {
+                    "@type": "item",
+                    "name": "include/assets/font.h"
+                },
+                {
+                    "@type": "item",
+                    "name": "src/assets/font.c"
+                }
+            ]
+        },
+        {
+            "@type": "group",
+            "name": "1",
+            "nested": [
+                {
+                    "@type": "item",
+                    "name": "include/entities/instance_object.h"
+                },
+                {
+                    "@type": "item",
+                    "name": "src/entities/instance_object.c"
+                },
+                {
+                    "@type": "item",
+                    "name": "include/entities/animated_object.h"
+                },
+                {
+                    "@type": "item",
+                    "name": "src/entities/animated_object.c"
+                },
+                {
+                    "@type": "item",
+                    "name": "include/entities/physics_object.h"
+                },
+                {
+                    "@type": "item",
+                    "name": "src/entities/physics_object.c"
+                },
+                {
+                    "@type": "item",
+                    "name": "include/entities/camera.h"
+                },
+                {
+                    "@type": "item",
+                    "name": "src/entities/camera.c"
+                },
+                {
+                    "@type": "item",
+                    "name": "include/rendering/renderer.h"
+                },
+                {
+                    "@type": "item",
+                    "name": "src/rendering/renderer.c"
+                },
+                {
+                    "@type": "item",
+                    "name": "include/assets/config.h"
+                },
+                {
+                    "@type": "item",
+                    "name": "src/assets/config.c"
+                },
+                {
+                    "@type": "item",
+                    "name": "include/entities/static_object.h"
+                },
+                {
+                    "@type": "item",
+                    "name": "src/entities/static_object.c"
+                },
+                {
+                    "@type": "item",
+                    "name": "include/entities/landscape.h"
+                },
+                {
+                    "@type": "item",
+                    "name": "src/entities/landscape.c"
+                },
+                {
+                    "@type": "item",
+                    "name": "include/assets/effect.h"
+                },
+                {
+                    "@type": "item",
+                    "name": "src/assets/effect.c"
+                },
+                {
+                    "@type": "item",
+                    "name": "include/casset.h"
+                },
+                {
+                    "@type": "item",
+                    "name": "src/casset.c"
+                },
+                {
+                    "@type": "item",
+                    "name": "include/entities/particles.h"
+                },
+                {
+                    "@type": "item",
+                    "name": "src/entities/particles.c"
+                },
+                {
+                    "@type": "item",
+                    "name": "include/rendering/sky.h"
+                },
+                {
+                    "@type": "item",
+                    "name": "src/rendering/sky.c"
+                }
+            ]
+        },
+        {
+            "@type": "group",
+            "name": "2",
+            "nested": [
+                {
+                    "@type": "item",
+                    "name": "include/ui/ui_option.h"
+                },
+                {
+                    "@type": "item",
+                    "name": "src/ui/ui_option.c"
+                },
+                {
+                    "@type": "item",
+                    "name": "include/ui/ui_text.h"
+                },
+                {
+                    "@type": "item",
+                    "name": "src/ui/ui_text.c"
+                },
+                {
+                    "@type": "item",
+                    "name": "include/ui/ui_rectangle.h"
+                },
+                {
+                    "@type": "item",
+                    "name": "src/ui/ui_rectangle.c"
+                },
+                {
+                    "@type": "item",
+                    "name": "include/ui/ui_button.h"
+                },
+                {
+                    "@type": "item",
+                    "name": "src/ui/ui_button.c"
+                },
+                {
+                    "@type": "item",
+                    "name": "include/ui/ui_browser.h"
+                },
+                {
+                    "@type": "item",
+                    "name": "src/ui/ui_browser.c"
+                },
+                {
+                    "@type": "item",
+                    "name": "include/ui/ui_dialog.h"
+                },
+                {
+                    "@type": "item",
+                    "name": "src/ui/ui_dialog.c"
+                },
+                {
+                    "@type": "item",
+                    "name": "src/ui/ui_style.c"
+                },
+                {
+                    "@type": "item",
+                    "name": "include/ui/ui_slider.h"
+                },
+                {
+                    "@type": "item",
+                    "name": "src/ui/ui_slider.c"
+                },
+                {
+                    "@type": "item",
+                    "name": "include/ui/ui_listbox.h"
+                },
+                {
+                    "@type": "item",
+                    "name": "src/ui/ui_listbox.c"
+                },
+                {
+                    "@type": "item",
+                    "name": "include/ui/ui_textbox.h"
+                },
+                {
+                    "@type": "item",
+                    "name": "src/ui/ui_textbox.c"
+                },
+                {
+                    "@type": "item",
+                    "name": "include/ui/ui_toast.h"
+                },
+                {
+                    "@type": "item",
+                    "name": "src/ui/ui_toast.c"
+                }
+            ]
+        },
+        {
+            "@type": "group",
+            "name": "3",
+            "nested": [
+                {
+                    "@type": "item",
+                    "name": "include/assets/cmesh.h"
+                },
+                {
+                    "@type": "item",
+                    "name": "src/assets/cmesh.c"
+                },
+                {
+                    "@type": "item",
+                    "name": "include/SDL2/SDL_local.h"
+                },
+                {
+                    "@type": "item",
+                    "name": "src/SDL2/SDL_local.c"
+                },
+                {
+                    "@type": "item",
+                    "name": "include/cengine.h"
+                },
+                {
+                    "@type": "item",
+                    "name": "src/cengine.c"
+                },
+                {
+                    "@type": "item",
+                    "name": "include/cphysics.h"
+                },
+                {
+                    "@type": "item",
+                    "name": "src/cphysics.c"
+                },
+                {
+                    "@type": "item",
+                    "name": "include/assets/terrain.h"
+                },
+                {
+                    "@type": "item",
+                    "name": "src/assets/terrain.c"
+                },
+                {
+                    "@type": "item",
+                    "name": "include/data/spline.h"
+                },
+                {
+                    "@type": "item",
+                    "name": "src/data/spline.c"
+                }
+            ]
+        },
+        {
+            "@type": "group",
+            "name": "4",
+            "nested": [
+                {
+                    "@type": "item",
+                    "name": "demos/metaballs/include/marching_cubes.h"
+                },
+                {
+                    "@type": "item",
+                    "name": "demos/metaballs/src/marching_cubes.c"
+                },
+                {
+                    "@type": "item",
+                    "name": "demos/metaballs/include/particles.h"
+                },
+                {
+                    "@type": "item",
+                    "name": "demos/metaballs/src/particles.c"
+                },
+                {
+                    "@type": "item",
+                    "name": "demos/metaballs/include/volume_renderer.h"
+                },
+                {
+                    "@type": "item",
+                    "name": "demos/metaballs/src/volume_renderer.c"
+                },
+                {
+                    "@type": "item",
+                    "name": "demos/metaballs/include/metaballs.h"
+                },
+                {
+                    "@type": "item",
+                    "name": "demos/metaballs/src/metaballs.c"
+                },
+                {
+                    "@type": "item",
+                    "name": "demos/metaballs/include/kernel.h"
+                },
+                {
+                    "@type": "item",
+                    "name": "demos/metaballs/src/kernel.c"
+                }
+            ]
+        },
+        {
+            "@type": "group",
+            "name": "5",
+            "nested": [
+                {
+                    "@type": "item",
+                    "name": "include/data/list.h"
+                },
+                {
+                    "@type": "item",
+                    "name": "src/data/list.c"
+                },
+                {
+                    "@type": "item",
+                    "name": "include/data/vertex_hashtable.h"
+                },
+                {
+                    "@type": "item",
+                    "name": "src/data/vertex_hashtable.c"
+                },
+                {
+                    "@type": "item",
+                    "name": "include/data/vertex_list.h"
+                },
+                {
+                    "@type": "item",
+                    "name": "src/data/vertex_list.c"
+                },
+                {
+                    "@type": "item",
+                    "name": "include/data/int_list.h"
+                },
+                {
+                    "@type": "item",
+                    "name": "src/data/int_list.c"
+                },
+                {
+                    "@type": "item",
+                    "name": "include/data/int_hashtable.h"
+                }
+            ]
+        },
+        {
+            "@type": "group",
+            "name": "6",
+            "nested": [
+                {
+                    "@type": "item",
+                    "name": "demos/platformer/include/platformer.h"
+                },
+                {
+                    "@type": "item",
+                    "name": "demos/platformer/src/platformer.c"
+                },
+                {
+                    "@type": "item",
+                    "name": "demos/platformer/include/level.h"
+                },
+                {
+                    "@type": "item",
+                    "name": "demos/platformer/src/level.c"
+                },
+                {
+                    "@type": "item",
+                    "name": "demos/platformer/include/character.h"
+                },
+                {
+                    "@type": "item",
+                    "name": "demos/platformer/src/character.c"
+                },
+                {
+                    "@type": "item",
+                    "name": "demos/platformer/include/coin.h"
+                },
+                {
+                    "@type": "item",
+                    "name": "demos/platformer/src/coin.c"
+                }
+            ]
+        },
+        {
+            "@type": "group",
+            "name": "7",
+            "nested": [
+                {
+                    "@type": "item",
+                    "name": "include/assets/material.h"
+                },
+                {
+                    "@type": "item",
+                    "name": "src/assets/material.c"
+                },
+                {
+                    "@type": "item",
+                    "name": "include/assets/shader.h"
+                },
+                {
+                    "@type": "item",
+                    "name": "src/assets/shader.c"
+                },
+                {
+                    "@type": "item",
+                    "name": "include/entities/light.h"
+                },
+                {
+                    "@type": "item",
+                    "name": "src/entities/light.c"
+                }
+            ]
+        },
+        {
+            "@type": "group",
+            "name": "8",
+            "nested": [
+                {
+                    "@type": "item",
+                    "name": "include/assets/texture.h"
+                },
+                {
+                    "@type": "item",
+                    "name": "src/assets/texture.c"
+                },
+                {
+                    "@type": "item",
+                    "name": "include/assets/image.h"
+                },
+                {
+                    "@type": "item",
+                    "name": "src/assets/image.c"
+                }
+            ]
+        },
+        {
+            "@type": "group",
+            "name": "9",
+            "nested": [
+                {
+                    "@type": "item",
+                    "name": "include/assets/animation.h"
+                },
+                {
+                    "@type": "item",
+                    "name": "src/assets/animation.c"
+                },
+                {
+                    "@type": "item",
+                    "name": "include/assets/skeleton.h"
+                },
+                {
+                    "@type": "item",
+                    "name": "src/assets/skeleton.c"
+                }
+            ]
+        },
+        {
+            "@type": "group",
+            "name": "10",
+            "nested": [
+                {
+                    "@type": "item",
+                    "name": "demos/noise/noise.c"
+                }
+            ]
+        },
+        {
+            "@type": "group",
+            "name": "11",
+            "nested": [
+                {
+                    "@type": "item",
+                    "name": "demos/parallax/parallax.c"
+                }
+            ]
+        },
+        {
+            "@type": "group",
+            "name": "12",
+            "nested": [
+                {
+                    "@type": "item",
+                    "name": "demos/particles/particles.c"
+                }
+            ]
+        },
+        {
+            "@type": "group",
+            "name": "13",
+            "nested": [
+                {
+                    "@type": "item",
+                    "name": "demos/physics/physics.c"
+                }
+            ]
+        },
+        {
+            "@type": "group",
+            "name": "14",
+            "nested": [
+                {
+                    "@type": "item",
+                    "name": "demos/rendering/rendering.c"
+                }
+            ]
+        },
+        {
+            "@type": "group",
+            "name": "15",
+            "nested": [
+                {
+                    "@type": "item",
+                    "name": "demos/scotland/scotland.c"
+                }
+            ]
+        },
+        {
+            "@type": "group",
+            "name": "16",
+            "nested": [
+                {
+                    "@type": "item",
+                    "name": "demos/sea/sea.c"
+                }
+            ]
+        },
+        {
+            "@type": "group",
+            "name": "17",
+            "nested": [
+                {
+                    "@type": "item",
+                    "name": "demos/teapot/teapot.c"
+                }
+            ]
+        },
+        {
+            "@type": "group",
+            "name": "18",
+            "nested": [
+                {
+                    "@type": "item",
+                    "name": "demos/tessellation/tessellation.c"
+                }
+            ]
+        },
+        {
+            "@type": "group",
+            "name": "19",
+            "nested": [
+                {
+                    "@type": "item",
+                    "name": "demos/ui/ui.c"
+                }
+            ]
+        }
+    ]
+}
