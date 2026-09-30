@@ -1,0 +1,39 @@
+name: RSF interoperability
+
+on:
+  push:
+    paths: [tools/**, tests/**, .github/workflows/rsf-export.yml]
+  pull_request:
+    paths: [tools/**, tests/**, .github/workflows/rsf-export.yml]
+  workflow_dispatch:
+
+permissions:
+  contents: read
+
+jobs:
+  export:
+    runs-on: ubuntu-latest
+    timeout-minutes: 5
+    steps:
+      - uses: actions/checkout@3d3c42e5aac5ba805825da76410c181273ba90b1 # v7.0.1
+        with:
+          sparse-checkout: |
+            tools
+            tests
+            Data/Recovered Architectures (SARIF Default)/ArchStudio4
+            Data/Recovered Architectures (SARIF Default)/bash-4.2
+      - uses: actions/setup-python@5fda3b95a4ea91299a34e894583c3862153e4b97 # v7.0.0
+        with:
+          python-version: '3.12'
+      - run: python -m pip install ruff==0.15.13 mypy==1.19.1
+      - run: ruff check --isolated --select E,F,I,W --line-length 100 tools tests
+      - run: mypy --strict --follow-imports=silent tools/export_rsf.py
+      - run: python -m unittest discover -s tests -p test_export_rsf.py -v
+      - name: Convert published architectures
+        run: |
+          python tools/export_rsf.py --input 'Data/Recovered Architectures (SARIF Default)/ArchStudio4/cluster_result.json' --output results/archstudio.rsf
+          python tools/export_rsf.py --input 'Data/Recovered Architectures (SARIF Default)/bash-4.2/cluster_result.json' --output results/bash.rsf
+      - uses: actions/upload-artifact@043fb46d1a93c77aae656e7c1c64a875d1fc6a0a # v7.0.1
+        with:
+          name: published-architectures-rsf
+          path: results/*.rsf
